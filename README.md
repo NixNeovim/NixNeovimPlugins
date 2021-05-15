@@ -29,6 +29,6 @@ not provided by official nixpkgs.
 - [svermeulen/vim-yoink](https://github.com/svermeulen/vim-yoink)
 - [chaoren/vim-wordmotion](https://github.com/chaoren/vim-wordmotion)
 
-## Misc.
+### Misc.
 
-- [tomnomnom/xtermcolor](tomnomnom/xtermcolor)
+- [tomnomnom/xtermcolor](https://github.com/tomnomnom/xtermcolor)
