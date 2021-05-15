@@ -24,3 +24,6 @@ This repository contains Nix expressions of miscellaneous packages I use but not
 - [kana/vim-textobj-indent](https://github.com/kana/vim-textobj-indent)
 - [svermeulen/vim-yoink](https://github.com/svermeulen/vim-yoink)
 - [chaoren/vim-wordmotion](https://github.com/chaoren/vim-wordmotion)
+
+## Misc.
+- [tomnomnom/xtermcolor](tomnomnom/xtermcolor)
