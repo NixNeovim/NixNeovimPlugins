@@ -12,8 +12,8 @@ This repository contains Nix expressions of miscellaneous packages I use but not
 - [Shippori Mincho](https://github.com/fontdasu/ShipporiMincho/)
 
 ### Vim plugins
-- [aliou/bats.vim]](https://github.com/aliou/bats.vim)
-- [dkarter/bullets.vim]](https://github.com/dkarter/bullets.vim)
+- [aliou/bats.vim](https://github.com/aliou/bats.vim)
+- [dkarter/bullets.vim](https://github.com/dkarter/bullets.vim)
 - [rhysd/clever-f.vim](https://github.com/rhysd/clever-f.vim)
 - [hkupty/iron.nvim](https://github.com/hkupty/iron.nvim)
 - [fuenor/JpFormat.vim](https://github.com/fuenor/JpFormat.vim)
