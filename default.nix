@@ -4,5 +4,5 @@ self: super: {
 
   shippori = self.callPackage ./pkgs/shippori {};
 
-  vimPlugins = super.vimPlugins // (self.callPackage ../pkgs/vim-plugins {});
+  vimPlugins = super.vimPlugins // (self.callPackage ./pkgs/vim-plugins {});
 }
