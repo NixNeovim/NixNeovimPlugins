@@ -1,17 +1,21 @@
 # nixpkgs-misc
+
 Miscellaneous collection of  Nix packages.
 
 ## Description
 
-This repository contains Nix expressions of miscellaneous packages I use but not provided by official nixpkgs.
+This repository contains Nix expressions of miscellaneous packages I use but
+not provided by official nixpkgs.
 
 ## Available packages
 
 ### Fonts
+
 - [Newsreader](https://github.com/productiontype/Newsreader/)
 - [Shippori Mincho](https://github.com/fontdasu/ShipporiMincho/)
 
 ### Vim plugins
+
 - [aliou/bats.vim](https://github.com/aliou/bats.vim)
 - [dkarter/bullets.vim](https://github.com/dkarter/bullets.vim)
 - [rhysd/clever-f.vim](https://github.com/rhysd/clever-f.vim)
@@ -26,4 +30,5 @@ This repository contains Nix expressions of miscellaneous packages I use but not
 - [chaoren/vim-wordmotion](https://github.com/chaoren/vim-wordmotion)
 
 ## Misc.
+
 - [tomnomnom/xtermcolor](tomnomnom/xtermcolor)
