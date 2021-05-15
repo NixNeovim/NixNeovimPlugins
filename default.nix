@@ -1,5 +1,9 @@
 self: super: {
 
+  mandown = self.callPackage ./pkgs/mandown {};
+
+  mgenplus = self.callPackage ./pkgs/mgenplus {};
+
   newsreader = self.callPackage ./pkgs/newsreader {};
 
   shippori = self.callPackage ./pkgs/shippori {};

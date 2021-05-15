@@ -11,6 +11,7 @@ not provided by official nixpkgs.
 
 ### Fonts
 
+- [Mgen+](http://jikasei.me/font/mgenplus/)
 - [Newsreader](https://github.com/productiontype/Newsreader/)
 - [Shippori Mincho](https://github.com/fontdasu/ShipporiMincho/)
 
@@ -31,4 +32,5 @@ not provided by official nixpkgs.
 
 ### Misc.
 
+- [Titor8115/mandown](https://github.com/Titor8115/mandown)
 - [tomnomnom/xtermcolor](https://github.com/tomnomnom/xtermcolor)
