@@ -1,5 +1,9 @@
 self: super: {
 
+  xsv = self.callPackage ./pkgs/xsv {
+    inherit (self.darwin.apple_sdk.frameworks) Security;
+  };
+
   mandown = self.callPackage ./pkgs/mandown {};
 
   mgenplus = self.callPackage ./pkgs/mgenplus {};
