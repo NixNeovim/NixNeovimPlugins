@@ -32,5 +32,9 @@ not provided by official nixpkgs.
 
 ### Misc.
 
+- [m15a/xsv](https://github.com/m15a/xsv/tree/dev)
+    * A fork of xsv, a fast CSV toolkit written in Rust.
+    * Compared to the upstream, this fork enables:
+        + Computing quartiles with `stats --quartiles` command.
 - [Titor8115/mandown](https://github.com/Titor8115/mandown)
 - [tomnomnom/xtermcolor](https://github.com/tomnomnom/xtermcolor)
