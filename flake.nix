@@ -31,5 +31,15 @@
       vim-wordmotion
       ;
     };
+
+    devShell = pkgs.mkShell {
+      buildInputs = [
+        (pkgs.fennel.override { lua = pkgs.luajit; })
+      ] ++ (with pkgs.luajit.pkgs; [
+        readline
+        http
+        cjson
+      ]);
+    };
   }));
 }

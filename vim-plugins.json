@@ -1,0 +1,14 @@
+[
+    "aliou/bats.vim",
+    "dkarter/bullets.vim",
+    "rhysd/clever-f.vim",
+    "hkupty/iron.nvim",
+    "fuenor/JpFormat.vim",
+    "raimon49/requirements.txt.vim",
+    "houtsnip/vim-emacscommandline",
+    "NovaDev94/vim-fish",
+    "hylang/vim-hy",
+    "kana/vim-textobj-indent",
+    "svermeulen/vim-yoink",
+    "chaoren/vim-wordmotion"
+]

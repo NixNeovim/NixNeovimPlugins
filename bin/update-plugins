@@ -1,0 +1,115 @@
+#!/usr/bin/env fennel
+
+(local http_request (require :http.request))
+(local cjson (require :cjson))
+(local view (require :fennel.view))
+
+
+(fn slurp [path]
+  (with-open [buf (io.open path)]
+    (buf:read :*all)))
+
+
+(local http {})
+
+(fn http.get [uri headers]
+  (let [request (http_request.new_from_uri uri)]
+    (each [key val (pairs (or headers {}))]
+      (request.headers:append key val))
+    (let [(headers stream) (assert (: request :go))
+          body (assert (stream:get_body_as_string))]
+     (if (= (headers:get ":status") :200)
+         (values body
+                 headers)
+         (error (view {: body
+                       : headers})))))) 
+
+
+(local github {})
+
+(fn github.get [query token]
+  (let [token (or token (os.getenv "GITHUB_TOKEN"))]
+    (if (not token)
+        (error "Please set GITHUB_TOKEN for your github access authentication")
+        (let [(body headers) (http.get (string.format "https://api.github.com/%s" query)
+                                       {:authorization (string.format "token %s" token)
+                                        :content-type "application/json"})]
+          (values (cjson.decode body)
+                  headers)))))
+
+(set github.repo {})
+
+(fn github.repo.get_default_branch [owner repo]
+  (let [(body headers) (github.get (string.format "repos/%s/%s" owner repo))]
+    body.default_branch)) 
+
+(fn github.repo.get_info [owner repo branch]
+  (let [branch (or branch
+                   (github.repo.get_default_branch owner repo))
+        body (github.get (string.format "repos/%s/%s/commits/%s" owner repo branch))]
+    {: owner
+     : repo
+     : branch
+     :date body.commit.committer.date
+     :sha body.sha}))
+
+
+(local plugin {})
+
+(set plugin.__index plugin)
+
+(fn nix-prefetch-url [url]
+  (let [pipe (io.popen (string.format "nix-prefetch-url --type sha256 %s 2>/dev/null" url))
+        sha256 (string.gsub (pipe:read :*all) "\n$" "")]
+    (pipe:close)
+    sha256))
+
+(fn plugin.new [spec]
+  (match (type spec)
+    :string (let [(owner repo) (string.match spec "^([^/]+)/([^/]+)$")
+                  info (github.repo.get_info owner repo)
+                  attr_name (string.gsub info.repo "%." "-")
+                  obj {: attr_name 
+                       :pname attr_name
+                       :version (string.match info.date "^%d%d%d%d%-%d%d%-%d%d")
+                       :owner info.owner
+                       :repo info.repo
+                       :rev info.sha
+                       :url (string.format "https://github.com/%s/%s/archive/%s.tar.gz"
+                                           info.owner
+                                           info.repo
+                                           info.sha)}]
+              (set obj.sha256 (nix-prefetch-url obj.url))
+              (setmetatable obj plugin))
+    _ (error "plugin spec undefined")))
+
+(fn plugin.to_nixexpr [self]
+  (string.format
+    "  %s = buildVimPlugin {
+    pname = \"%s\";
+    version = \"%s\";
+    src = fetchurl {
+      url = \"%s\";
+      sha256 = \"%s\";
+    };
+  };
+"
+    self.attr_name
+    self.pname
+    self.version
+    self.url
+    self.sha256))
+
+
+(local specs (cjson.decode (slurp "vim-plugins.json")))
+
+
+(fn main []
+  (with-open [buf (io.open "pkgs/vim-plugins.nix" :w)]
+    (buf:write "{ buildVimPlugin, fetchurl }:\n\n{\n")
+    (each [_ spec (ipairs specs)]
+      (let [pkg (plugin.new spec)]
+        (buf:write (pkg:to_nixexpr))))
+    (buf:write "}\n")))
+
+(main)
