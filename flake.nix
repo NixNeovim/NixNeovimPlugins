@@ -16,14 +16,19 @@
     };
   in {
     packages = {
-      inherit (pkgs)
-      xsv
-      mandown
-      mgenplus
-      newsreader
-      shippori
-      vimPlugins
-      xtermcolor
+      inherit (pkgs.vimPlugins)
+      bats-vim
+      bullets-vim
+      clever-f-vim
+      iron-nvim
+      jp-format-vim
+      requirements-txt-vim
+      vim-emacscommandline
+      vim-fish
+      vim-hy
+      vim-textobj-indent
+      vim-yoink
+      vim-wordmotion
       ;
     };
   }));
