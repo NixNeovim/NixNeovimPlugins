@@ -1,18 +1,12 @@
-self: super: {
+let
+  lock = builtins.fromJSON (builtins.readFile ./flake.lock);
 
-  xsv = self.callPackage ./pkgs/xsv {
-    inherit (self.darwin.apple_sdk.frameworks) Security;
+  inherit (lock.nodes.flake-compat.locked) rev narHash; 
+
+  flake-compat = fetchTarball {
+    url = "https://github.com/edolstra/flake-compat/archive/${rev}.tar.gz";
+    sha256 = narHash;
   };
+in
 
-  mandown = self.callPackage ./pkgs/mandown {};
-
-  mgenplus = self.callPackage ./pkgs/mgenplus {};
-
-  newsreader = self.callPackage ./pkgs/newsreader {};
-
-  shippori = self.callPackage ./pkgs/shippori {};
-
-  vimPlugins = super.vimPlugins // (self.callPackage ./pkgs/vim-plugins {});
-
-  xtermcolor = self.callPackage ./pkgs/xtermcolor {};
-}
+(import flake-compat { src =  ./.; }).defaultNix
