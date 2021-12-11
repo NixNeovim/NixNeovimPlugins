@@ -1,21 +1,13 @@
-# nixpkgs-misc
+# nixpkgs-vim-plugins
 
-Miscellaneous collection of  Nix packages.
+Nix flake of miscellaneous Vim plugins.
 
 ## Description
 
-This repository contains Nix expressions of miscellaneous packages I use but
+This repository contains Nix packages of Vim plugins I use but
 not provided by official nixpkgs.
 
-## Available packages
-
-### Fonts
-
-- [Mgen+](http://jikasei.me/font/mgenplus/)
-- [Newsreader](https://github.com/productiontype/Newsreader/)
-- [Shippori Mincho](https://github.com/fontdasu/ShipporiMincho/)
-
-### Vim plugins
+## Available Vim plugins
 
 - [aliou/bats.vim](https://github.com/aliou/bats.vim)
 - [dkarter/bullets.vim](https://github.com/dkarter/bullets.vim)
@@ -29,12 +21,3 @@ not provided by official nixpkgs.
 - [kana/vim-textobj-indent](https://github.com/kana/vim-textobj-indent)
 - [svermeulen/vim-yoink](https://github.com/svermeulen/vim-yoink)
 - [chaoren/vim-wordmotion](https://github.com/chaoren/vim-wordmotion)
-
-### Misc.
-
-- [m15a/xsv](https://github.com/m15a/xsv/tree/dev)
-    * A fork of xsv, a fast CSV toolkit written in Rust.
-    * Compared to the upstream, this fork enables:
-        + Computing quartiles with `stats --quartiles` command.
-- [Titor8115/mandown](https://github.com/Titor8115/mandown)
-- [tomnomnom/xtermcolor](https://github.com/tomnomnom/xtermcolor)
