@@ -97,4 +97,12 @@
       sha256 = "0hzaf665xw2kxysf9qb11m64hvrbihh0l15hc9g6spmmjgwi3pcg";
     };
   };
+  nvim-lspconfig = buildVimPlugin {
+    pname = "nvim-lspconfig";
+    version = "2021-12-10";
+    src = fetchurl {
+      url = "https://github.com/neovim/nvim-lspconfig/archive/e6d95863a336b7e52c92b38c62aa60b469254d14.tar.gz";
+      sha256 = "16x6rnm23mr8nvd0m9jh0jnysg5jb4qsqpdi2iilsvssfpdc2nkl";
+    };
+  };
 }

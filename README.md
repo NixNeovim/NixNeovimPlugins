@@ -23,3 +23,4 @@ not provided by official nixpkgs.
 | [kana/vim-textobj-indent](https://github.com/kana/vim-textobj-indent) | 2013-01-18 | `vim-textobj-indent` |
 | [svermeulen/vim-yoink](https://github.com/svermeulen/vim-yoink) | 2021-09-15 | `vim-yoink` |
 | [chaoren/vim-wordmotion](https://github.com/chaoren/vim-wordmotion) | 2021-09-12 | `vim-wordmotion` |
+| [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) | 2021-12-10 | `nvim-lspconfig` |
