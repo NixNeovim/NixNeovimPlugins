@@ -1,15 +1,15 @@
 [
-    "aliou/bats.vim",
-    "dkarter/bullets.vim",
-    "rhysd/clever-f.vim",
-    "hkupty/iron.nvim",
-    "fuenor/JpFormat.vim",
-    "raimon49/requirements.txt.vim",
-    "houtsnip/vim-emacscommandline",
     "NovaDev94/vim-fish",
+    "aliou/bats.vim",
+    "chaoren/vim-wordmotion",
+    "dkarter/bullets.vim",
+    "fuenor/JpFormat.vim",
+    "hkupty/iron.nvim",
+    "houtsnip/vim-emacscommandline",
     "hylang/vim-hy",
     "kana/vim-textobj-indent",
-    "svermeulen/vim-yoink",
-    "chaoren/vim-wordmotion",
-    "neovim/nvim-lspconfig"
+    "neovim/nvim-lspconfig",
+    "raimon49/requirements.txt.vim",
+    "rhysd/clever-f.vim",
+    "svermeulen/vim-yoink"
 ]
