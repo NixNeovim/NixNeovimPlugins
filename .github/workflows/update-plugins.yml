@@ -3,21 +3,22 @@ name: update-plugins
 on:
   push:
     paths:
-      - "vim-plugins.json"
+      - vim-plugins.json
     branches:
       - main
   schedule:
     - cron: "44 4 * * 2"
 
-
 jobs:
   update-plugins:
     runs-on: ubuntu-latest
+    name: update plugins
     env:
       GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-    name: update plugins
     steps:
       - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
       - uses: cachix/install-nix-action@v15
         with:
           extra_nix_config: |
@@ -26,6 +27,5 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: 'maintenance: auto update plugins'
-          branch: ${{ github.head_ref }}
           file_pattern: README.md pkgs/vim-plugins.nix
           push_options: '--force'
