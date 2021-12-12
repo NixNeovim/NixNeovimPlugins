@@ -10,5 +10,6 @@
     "hylang/vim-hy",
     "kana/vim-textobj-indent",
     "svermeulen/vim-yoink",
-    "chaoren/vim-wordmotion"
+    "chaoren/vim-wordmotion",
+    "neovim/nvim-lspconfig"
 ]
