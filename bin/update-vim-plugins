@@ -9,6 +9,12 @@
   (with-open [buf (io.open path)]
     (buf:read :*all)))
 
+(fn nix-prefetch-url [url]
+  (let [pipe (io.popen (string.format "nix-prefetch-url --type sha256 %s 2>/dev/null" url))
+        sha256 (string.gsub (pipe:read :*all) "\n$" "")]
+    (pipe:close)
+    sha256))
+
 
 (local http {})
 
@@ -37,19 +43,24 @@
           (values (cjson.decode body)
                   headers)))))
 
+
 (set github.repo {})
 
-(fn github.repo.get_default_branch [owner repo]
-  (let [(body headers) (github.get (string.format "repos/%s/%s" owner repo))]
+(set github.repo.__index github.repo)
+
+(fn github.repo.new [owner repo]
+  (let [obj {: owner : repo}]
+    (setmetatable obj github.repo)))
+
+(fn github.repo.get_default_branch [self]
+  (let [(body headers) (github.get (string.format "repos/%s/%s" self.owner self.repo))]
     body.default_branch)) 
 
-(fn github.repo.get_info [owner repo branch]
+(fn github.repo.get_recent_commit [self branch]
   (let [branch (or branch
-                   (github.repo.get_default_branch owner repo))
-        body (github.get (string.format "repos/%s/%s/commits/%s" owner repo branch))]
-    {: owner
-     : repo
-     : branch
+                   (self:get_default_branch))
+        body (github.get (string.format "repos/%s/%s/commits/%s" self.owner self.repo branch))]
+    {: branch
      :date body.commit.committer.date
      :sha body.sha}))
 
@@ -58,27 +69,25 @@
 
 (set plugin.__index plugin)
 
-(fn nix-prefetch-url [url]
-  (let [pipe (io.popen (string.format "nix-prefetch-url --type sha256 %s 2>/dev/null" url))
-        sha256 (string.gsub (pipe:read :*all) "\n$" "")]
-    (pipe:close)
-    sha256))
-
 (fn plugin.new [spec]
   (match (type spec)
     :string (let [(owner repo) (string.match spec "^([^/]+)/([^/]+)$")
-                  info (github.repo.get_info owner repo)
-                  attr_name (string.gsub info.repo "%." "-")
+                  recent_commit (: (github.repo.new owner repo) :get_recent_commit)
+                  attr_name (string.gsub repo "%." "-")
+                  pname attr_name
+                  version (string.match recent_commit.date "^%d%d%d%d%-%d%d%-%d%d")
+                  rev recent_commit.sha
+                  url (string.format "https://github.com/%s/%s/archive/%s.tar.gz"
+                                     owner
+                                     repo
+                                     recent_commit.sha)
                   obj {: attr_name 
-                       :pname attr_name
-                       :version (string.match info.date "^%d%d%d%d%-%d%d%-%d%d")
-                       :owner info.owner
-                       :repo info.repo
-                       :rev info.sha
-                       :url (string.format "https://github.com/%s/%s/archive/%s.tar.gz"
-                                           info.owner
-                                           info.repo
-                                           info.sha)}]
+                       : pname
+                       : version 
+                       : owner
+                       : repo
+                       : rev
+                       : url}]
               (set obj.sha256 (nix-prefetch-url obj.url))
               (setmetatable obj plugin))
     _ (error "plugin spec undefined")))
