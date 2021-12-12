@@ -14,23 +14,16 @@
       inherit system;
       overlays = [ self.overlay ];
     };
-  in {
-    packages = {
-      inherit (pkgs.vimPlugins)
-      bats-vim
-      bullets-vim
-      clever-f-vim
-      iron-nvim
-      jp-format-vim
-      requirements-txt-vim
-      vim-emacscommandline
-      vim-fish
-      vim-hy
-      vim-textobj-indent
-      vim-yoink
-      vim-wordmotion
-      ;
 
+    lib = pkgs.callPackage ./lib.nix {};
+
+    manifestedPlugins = let
+      specs = builtins.fromJSON (builtins.readFile ./vim-plugins.json);
+      manifestedPluginNames = map lib.specToPluginName specs;
+    in
+    pkgs.lib.filterAttrs (name: _: builtins.elem name manifestedPluginNames) pkgs.vimPlugins;
+  in {
+    packages = manifestedPlugins // {
       inherit (pkgs.vimUtils)
       update-vim-plugins;
     };
