@@ -1,5 +1,5 @@
 {
-  description = "Miscellaneous collection of Nix packages";
+  description = "Nix flake of miscellaneous Vim plugins";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
