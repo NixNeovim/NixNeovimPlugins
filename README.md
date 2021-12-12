@@ -1,13 +1,13 @@
 # nixpkgs-vim-plugins
 
-Nix flake of miscellaneous Vim plugins.
+Nix flake of miscellaneous Vim/Neovim plugins.
 
 ## Description
 
-This repository contains Nix packages of Vim plugins I use but
-not provided by official nixpkgs.
+This repository contains Nix packages of miscellaneous Vim/Neovim plugins.
+Packages are automatically updated once per week using GitHub Actions.
 
-## Available Vim plugins
+## Available Vim/Neovim plugins
 
 | Plugin owner/repo | Last change | Nix package name |
 | :- | :- | :- |
