@@ -14,6 +14,9 @@
       inherit system;
       overlays = [ self.overlay ];
     };
+
+  update-vim-plugins = pkgs.callPackage ./pkgs/update-vim-plugins.nix {};
+
   in {
     packages = {
       inherit (pkgs.vimPlugins)
@@ -33,12 +36,11 @@
     };
 
     devShell = pkgs.mkShell {
+      inputsFrom = [ update-vim-plugins ];
       buildInputs = [
-        (pkgs.fennel.override { lua = pkgs.luajit; })
+        update-vim-plugins
       ] ++ (with pkgs.luajit.pkgs; [
         readline
-        http
-        cjson
       ]);
     };
   }));
