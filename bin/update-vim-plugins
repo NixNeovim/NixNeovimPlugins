@@ -137,12 +137,12 @@
   (with-open [nix (io.open "pkgs/vim-plugins.nix" :w)
               readme (io.open "README.md" :w)]
     (nix:write "{ buildVimPlugin, fetchurl }:\n\n{\n")
-    (readme:write (slurp "templates/README_header.md"))
+    (readme:write (slurp "assets/README_header.md"))
     (each [_ spec (ipairs specs)]
       (let [pkg (plugin.new spec)]
         (nix:write (pkg:to_nixexpr))
         (readme:write (pkg:to_markdown_table_row))))
     (nix:write "}\n")
-    (readme:write (slurp "templates/README_footer.md"))))
+    (readme:write (slurp "assets/README_footer.md"))))
 
 (main)
