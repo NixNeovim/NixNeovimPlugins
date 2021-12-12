@@ -28,6 +28,13 @@
       update-vim-plugins;
     };
 
+    apps = {
+      update-vim-plugins = {
+        type = "app";
+        program = "${pkgs.vimUtils.update-vim-plugins}/bin/update-vim-plugins";
+      };
+    };
+
     devShell = pkgs.mkShell {
       inputsFrom = [
         pkgs.vimUtils.update-vim-plugins
