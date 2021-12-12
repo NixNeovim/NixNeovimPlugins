@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - "vim-plugins.json"
+    branches:
+      - main
   schedule:
     - cron: "44 4 * * 2"
 
