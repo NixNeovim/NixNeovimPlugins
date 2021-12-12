@@ -9,3 +9,5 @@ not provided by official nixpkgs.
 
 ## Available Vim plugins
 
+| Plugin owner/repo | Last change | Nix package name |
+| :- | :- | :- |

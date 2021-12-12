@@ -119,6 +119,16 @@
     self.version
     self.attr_name))
 
+(fn plugin.to_markdown_table_row [self]
+  (string.format
+    "| [%s/%s](https://github.com/%s/%s) | %s | `%s` |\n"
+    self.owner
+    self.repo
+    self.owner
+    self.repo
+    self.version
+    self.attr_name))
+
 
 (local specs (cjson.decode (slurp "vim-plugins.json")))
 
@@ -131,7 +141,7 @@
     (each [_ spec (ipairs specs)]
       (let [pkg (plugin.new spec)]
         (nix:write (pkg:to_nixexpr))
-        (readme:write (pkg:to_markdown_bullet))))
+        (readme:write (pkg:to_markdown_table_row))))
     (nix:write "}\n")
     (readme:write (slurp "templates/README_footer.md"))))
 
