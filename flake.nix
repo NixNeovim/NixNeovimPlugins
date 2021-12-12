@@ -14,9 +14,6 @@
       inherit system;
       overlays = [ self.overlay ];
     };
-
-  update-vim-plugins = pkgs.callPackage ./pkgs/update-vim-plugins.nix {};
-
   in {
     packages = {
       inherit (pkgs.vimPlugins)
@@ -33,12 +30,17 @@
       vim-yoink
       vim-wordmotion
       ;
+
+      inherit (pkgs.vimUtils)
+      update-vim-plugins;
     };
 
     devShell = pkgs.mkShell {
-      inputsFrom = [ update-vim-plugins ];
+      inputsFrom = [
+        pkgs.vimUtils.update-vim-plugins
+      ];
       buildInputs = [
-        update-vim-plugins
+        pkgs.vimUtils.update-vim-plugins
       ] ++ (with pkgs.luajit.pkgs; [
         readline
       ]);
