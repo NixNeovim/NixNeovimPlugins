@@ -109,16 +109,30 @@
     self.url
     self.sha256))
 
+(fn plugin.to_markdown_bullet [self]
+  (string.format
+    "- [%s/%s](https://github.com/%s/%s) (last change: %s, package name: `%s`)\n"
+    self.owner
+    self.repo
+    self.owner
+    self.repo
+    self.version
+    self.attr_name))
+
 
 (local specs (cjson.decode (slurp "vim-plugins.json")))
 
 
 (fn main []
-  (with-open [buf (io.open "pkgs/vim-plugins.nix" :w)]
-    (buf:write "{ buildVimPlugin, fetchurl }:\n\n{\n")
+  (with-open [nix (io.open "pkgs/vim-plugins.nix" :w)
+              readme (io.open "README.md" :w)]
+    (nix:write "{ buildVimPlugin, fetchurl }:\n\n{\n")
+    (readme:write (slurp "templates/README_header.md"))
     (each [_ spec (ipairs specs)]
       (let [pkg (plugin.new spec)]
-        (buf:write (pkg:to_nixexpr))))
-    (buf:write "}\n")))
+        (nix:write (pkg:to_nixexpr))
+        (readme:write (pkg:to_markdown_bullet))))
+    (nix:write "}\n")
+    (readme:write (slurp "templates/README_footer.md"))))
 
 (main)
