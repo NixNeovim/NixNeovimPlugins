@@ -47,5 +47,6 @@
    "tpope/vim-rsi",
    "tpope/vim-unimpaired",
    "vim-pandoc/vim-pandoc-syntax",
-   "yamatsum/nvim-cursorline"
+   "yamatsum/nvim-cursorline",
+   "gitlab:yorickpeterse/nvim-pqf"
 ]

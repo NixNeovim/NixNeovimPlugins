@@ -65,7 +65,7 @@
                   headers)))))
 
 
-(set github.repo {})
+(set github.repo {:type "github"})
 
 (set github.repo.__index github.repo)
 
@@ -101,31 +101,81 @@
      :sha body.sha}))
 
 
+(local gitlab {})
+
+(fn gitlab.get [query]
+  (let [(body headers) (http.get (string.format "https://gitlab.com/api/v4/%s" query)
+                                 {:content-type "application/json"})]
+    (values (cjson.decode body)
+            headers)))
+
+(set gitlab.project {:type "gitlab"})
+
+(set gitlab.project.__index gitlab.project)
+
+(fn gitlab.project.new [path_with_namespace_or_namespace path]
+  (let [info (let [path_with_namespace
+                    (if (not path)
+                        path_with_namespace_or_namespace
+                        (string.format "%s/%s" path_with_namespace_or_namespace path))
+                   escaped_path_with_namespace (string.gsub path_with_namespace "/" "%%2F")]
+               (gitlab.get (string.format "projects/%s" escaped_path_with_namespace)))
+        obj {:full_name info.path_with_namespace
+             :owner info.namespace.path
+             :name info.path
+             :default_branch info.default_branch
+             :description info.description
+             :is_fork nil
+             :homepage info.web_url
+             :license nil}]
+    (setmetatable obj gitlab.project)))
+
+(fn gitlab.project.get_recent_commit [self branch]
+  (let [branch (or branch self.default_branch)
+        body (gitlab.get (string.format "projects/%s%%2F%s/repository/branches/%s"
+                                        self.owner
+                                        self.name
+                                        branch))]
+    {: branch
+     :date body.commit.committed_date
+     :sha body.commit.id}))
+
+
 (local plugin {})
 
 (set plugin.__index plugin)
 
 (fn plugin.new [spec]
   (match (type spec)
-    :string (let [repo (github.repo.new spec)
+    :string (let [repo (match (string.match spec "^([^:]+):([^:]+)$")
+                         ("gitlab" path_with_namespace) (gitlab.project.new path_with_namespace)
+                         ("github" full_name) (github.repo.new full_name)
+                         _ (github.repo.new spec))
                   recent_commit (repo:get_recent_commit)
                   attr_name (string.gsub repo.name "%." "-")
                   obj {: attr_name 
                        :pname attr_name
                        :version (string.match recent_commit.date "^%d%d%d%d%-%d%d%-%d%d")
                        :full_name repo.full_name
+                       :repo_type repo.type
                        :owner repo.owner
                        :name repo.name
                        :branch recent_commit.branch
                        :rev recent_commit.sha
-                       :url (string.format "https://github.com/%s/archive/%s.tar.gz"
-                                           repo.full_name
-                                           recent_commit.sha)
+                       :url (match repo.type
+                              :github (string.format "https://github.com/%s/archive/%s.tar.gz"
+                                                     repo.full_name
+                                                     recent_commit.sha)
+                              :gitlab (string.format "https://gitlab.com/api/v4/projects/%s%%2F%s/repository/archive.tar.gz?sha=%s"
+                                                     repo.owner
+                                                     repo.name
+                                                     recent_commit.sha)
+                              _ (error "undefined repo type"))
                        :description repo.description
                        :homepage repo.homepage
                        :license repo.license}]
-              (set obj.sha256 (nix.prefetch-url obj.url))
-              (setmetatable obj plugin))
+               (set obj.sha256 (nix.prefetch-url obj.url))
+               (setmetatable obj plugin))
     _ (error "plugin spec undefined")))
 
 (fn plugin.to_nixexpr [self]
@@ -158,18 +208,24 @@
 
 (fn plugin.to_markdown_bullet [self]
   (string.format
-    "- [%s](https://github.com/%s) (branch: %s, recent commit: %s, package name: `%s`)\n"
-    self.full_name
-    self.full_name
+    "- [%s](%s) (branch: %s, recent commit: %s, package name: `%s`)\n"
+    (match self.repo_type
+      :github self.full_name
+      :gitlab (string.format "gitlab:%s" self.full_name)
+      _ (error "undefined plugin repo type"))
+    self.homepage
     self.branch
     self.version
     self.attr_name))
 
 (fn plugin.to_markdown_table_row [self]
   (string.format
-    "| [%s](https://github.com/%s) | %s | %s | `%s` |\n"
-    self.full_name
-    self.full_name
+    "| [%s](%s) | %s | %s | `%s` |\n"
+    (match self.repo_type
+      :github self.full_name
+      :gitlab (string.format "gitlab:%s" self.full_name)
+      _ (error "undefined plugin repo type"))
+    self.homepage
     self.branch
     self.version
     self.attr_name))
