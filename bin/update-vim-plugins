@@ -177,7 +177,7 @@
     self.attr_name))
 
 
-(local specs (cjson.decode (slurp "vim-plugins.json")))
+(local specs (cjson.decode (slurp "manifest.json")))
 
 
 (fn main []

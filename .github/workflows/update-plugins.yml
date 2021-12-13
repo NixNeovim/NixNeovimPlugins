@@ -3,7 +3,7 @@ name: update-plugins
 on:
   push:
     paths:
-      - vim-plugins.json
+      - manifest.json
     branches:
       - main
   schedule:

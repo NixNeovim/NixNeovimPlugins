@@ -18,7 +18,7 @@
     lib = pkgs.callPackage ./lib.nix {};
 
     manifestedPlugins = let
-      specs = builtins.fromJSON (builtins.readFile ./vim-plugins.json);
+      specs = builtins.fromJSON (builtins.readFile ./manifest.json);
       manifestedPluginNames = map lib.specToPluginName specs;
     in
     pkgs.lib.filterAttrs (name: _: builtins.elem name manifestedPluginNames) pkgs.vimPlugins;
