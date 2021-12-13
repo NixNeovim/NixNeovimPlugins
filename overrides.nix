@@ -1,18 +1,16 @@
 final: prev:
 
 let
-  pkgs = prev.vimPlugins;
-in
-
-{
-  vimPlugins = pkgs // {
-
-    vim-fennel-syntax = pkgs.vim-fennel-syntax.overrideAttrs (_: {
+  overrides = self: super:
+  {
+    vim-fennel-syntax = super.vim-fennel-syntax.overrideAttrs (_: {
       dontBuild = true;
     });
 
-    vim-r7rs-syntax = pkgs.vim-r7rs-syntax.overrideAttrs (_: {
+    vim-r7rs-syntax = super.vim-r7rs-syntax.overrideAttrs (_: {
       dontBuild = true;
     });
   };
-}
+in
+
+{ vimPlugins = prev.vimPlugins.extend overrides; }
