@@ -4,6 +4,8 @@
 (local cjson (require :cjson))
 (local view (require :fennel.view))
 
+(fn basename [path]
+  (string.gsub path "(.*/)(.*)" "%2"))
 
 (fn slurp [path]
   (with-open [buf (io.open path)]
@@ -179,14 +181,17 @@
 
 
 (fn main []
+  (local program_name (basename (. arg 0)))
   (with-open [nix (io.open "pkgs/vim-plugins.nix" :w)
               readme (io.open "README.md" :w)]
     (nix:write "{ lib, buildVimPlugin, fetchurl }:\n\n{\n")
     (readme:write (slurp "assets/README_header.md"))
     (each [_ spec (ipairs specs)]
+      (io.stderr:write (string.format "%s: update %s..." program_name spec))
       (let [pkg (plugin.new spec)]
         (nix:write (pkg:to_nixexpr))
-        (readme:write (pkg:to_markdown_table_row))))
+        (readme:write (pkg:to_markdown_table_row)))
+      (io.stderr:write "done\n"))
     (nix:write "}\n")
     (readme:write (slurp "assets/README_footer.md"))))
 
