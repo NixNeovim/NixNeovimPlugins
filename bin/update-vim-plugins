@@ -9,7 +9,26 @@
   (with-open [buf (io.open path)]
     (buf:read :*all)))
 
-(fn nix-prefetch-url [url]
+
+(local nix {})
+
+(fn nix.license_from_github_license_key [key]
+  (let [map {:agpl-3.0 "agpl3Only"
+             :apache-2.0 "asl20"
+             :bsd-2-clause "bsd2"
+             :bsd-3-clause "bsd3"
+             :bsl-1.0 "boost"
+             :cc0-1.0 "cc0"
+             :epl-2.0 "epl20"
+             :gpl-2.0 "gpl2Only"
+             :gpl-3.0 "gpl3Only"
+             :lgpl-2.1 "lgpl21Only"
+             :mit "mit"
+             :mpl-2.0 "mpl20"
+             :unlicense "unlicense"}]
+    (. map key)))
+
+(fn nix.prefetch-url [url]
   (let [pipe (io.popen (string.format "nix-prefetch-url --type sha256 %s 2>/dev/null" url))
         sha256 (string.gsub (pipe:read :*all) "\n$" "")]
     (pipe:close)
@@ -48,18 +67,35 @@
 
 (set github.repo.__index github.repo)
 
-(fn github.repo.new [owner repo]
-  (let [obj {: owner : repo}]
+(fn github.repo.new [full_name_or_owner name]
+  (let [info (let [full_name (if (not name)
+                                 full_name_or_owner
+                                 (string.format "%s/%s" full_name_or_owner name))]
+               (github.get (string.format "repos/%s" full_name)))
+        obj {:full_name info.full_name
+             :owner (if (not name)
+                        (pick-values 1 (string.match info.full_name "^([^/]+)/([^/]+)$"))
+                        full_name_or_owner)
+             :name info.name
+             :default_branch info.default_branch
+             :description info.description
+             :is_fork info.fork
+             :homepage (if (or (= info.homepage "")
+                               (type info.homepage :userdata)) ; #<userdata NULL>
+                           (string.format "https://github.com/%s" info.full_name)
+                           info.homepage)
+             :license (if (and info.license
+                               (not= (type info.license) :userdata)) ; #<userdata NULL>
+                          {:key info.license.key
+                           :name info.license.name}
+                          nil)}]
     (setmetatable obj github.repo)))
 
-(fn github.repo.get_default_branch [self]
-  (let [(body headers) (github.get (string.format "repos/%s/%s" self.owner self.repo))]
-    body.default_branch)) 
+(github.repo.new "mnacamura/iron.nvim")
 
 (fn github.repo.get_recent_commit [self branch]
-  (let [branch (or branch
-                   (self:get_default_branch))
-        body (github.get (string.format "repos/%s/%s/commits/%s" self.owner self.repo branch))]
+  (let [branch (or branch self.default_branch)
+        body (github.get (string.format "repos/%s/commits/%s" self.full_name branch))]
     {: branch
      :date body.commit.committer.date
      :sha body.sha}))
@@ -71,24 +107,24 @@
 
 (fn plugin.new [spec]
   (match (type spec)
-    :string (let [(owner repo) (string.match spec "^([^/]+)/([^/]+)$")
-                  recent_commit (: (github.repo.new owner repo) :get_recent_commit)
-                  attr_name (string.gsub repo "%." "-")
-                  pname attr_name
-                  version (string.match recent_commit.date "^%d%d%d%d%-%d%d%-%d%d")
-                  rev recent_commit.sha
-                  url (string.format "https://github.com/%s/%s/archive/%s.tar.gz"
-                                     owner
-                                     repo
-                                     recent_commit.sha)
+    :string (let [repo (github.repo.new spec)
+                  recent_commit (repo:get_recent_commit)
+                  attr_name (string.gsub repo.name "%." "-")
                   obj {: attr_name 
-                       : pname
-                       : version 
-                       : owner
-                       : repo
-                       : rev
-                       : url}]
-              (set obj.sha256 (nix-prefetch-url obj.url))
+                       :pname attr_name
+                       :version (string.match recent_commit.date "^%d%d%d%d%-%d%d%-%d%d")
+                       :full_name repo.full_name
+                       :owner repo.owner
+                       :name repo.name
+                       :branch recent_commit.branch
+                       :rev recent_commit.sha
+                       :url (string.format "https://github.com/%s/archive/%s.tar.gz"
+                                           repo.full_name
+                                           recent_commit.sha)
+                       :description repo.description
+                       :homepage repo.homepage
+                       :license repo.license}]
+              (set obj.sha256 (nix.prefetch-url obj.url))
               (setmetatable obj plugin))
     _ (error "plugin spec undefined")))
 
@@ -101,31 +137,40 @@
       url = \"%s\";
       sha256 = \"%s\";
     };
+    meta = with lib; {
+      description = \"%s\";
+      homepage = \"%s\";%s
+    };
   };
 "
     self.attr_name
     self.pname
     self.version
     self.url
-    self.sha256))
+    self.sha256
+    self.description
+    self.homepage
+    (let [license (and self.license
+                       (nix.license_from_github_license_key self.license.key))]
+      (if license
+          (string.format "\n      license = with licenses; [ %s ];" license)
+          ""))))
 
 (fn plugin.to_markdown_bullet [self]
   (string.format
-    "- [%s/%s](https://github.com/%s/%s) (last change: %s, package name: `%s`)\n"
-    self.owner
-    self.repo
-    self.owner
-    self.repo
+    "- [%s](https://github.com/%s) (branch: %s, recent commit: %s, package name: `%s`)\n"
+    self.full_name
+    self.full_name
+    self.branch
     self.version
     self.attr_name))
 
 (fn plugin.to_markdown_table_row [self]
   (string.format
-    "| [%s/%s](https://github.com/%s/%s) | %s | `%s` |\n"
-    self.owner
-    self.repo
-    self.owner
-    self.repo
+    "| [%s](https://github.com/%s) | %s | %s | `%s` |\n"
+    self.full_name
+    self.full_name
+    self.branch
     self.version
     self.attr_name))
 
@@ -136,7 +181,7 @@
 (fn main []
   (with-open [nix (io.open "pkgs/vim-plugins.nix" :w)
               readme (io.open "README.md" :w)]
-    (nix:write "{ buildVimPlugin, fetchurl }:\n\n{\n")
+    (nix:write "{ lib, buildVimPlugin, fetchurl }:\n\n{\n")
     (readme:write (slurp "assets/README_header.md"))
     (each [_ spec (ipairs specs)]
       (let [pkg (plugin.new spec)]
