@@ -22,25 +22,23 @@
       manifestedPluginNames = map lib.specToPluginName specs;
     in
     pkgs.lib.filterAttrs (name: _: builtins.elem name manifestedPluginNames) pkgs.vimPlugins;
+
+    update-vim-plugins = pkgs.callPackage ./pkgs/update-vim-plugins.nix {};
   in {
-    packages = manifestedPlugins // {
-      inherit (pkgs.vimUtils)
-      update-vim-plugins;
-    };
+    packages = manifestedPlugins;
 
     apps = {
       update-vim-plugins = {
         type = "app";
-        program = "${pkgs.vimUtils.update-vim-plugins}/bin/update-vim-plugins";
+        program = "${update-vim-plugins}/bin/update-vim-plugins";
       };
     };
 
     devShell = pkgs.mkShell {
       inputsFrom = [
-        pkgs.vimUtils.update-vim-plugins
+        update-vim-plugins
       ];
       buildInputs = [
-        pkgs.vimUtils.update-vim-plugins
       ] ++ (with pkgs.luajit.pkgs; [
         readline
       ]);
