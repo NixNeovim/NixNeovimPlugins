@@ -93,8 +93,6 @@
                           nil)}]
     (setmetatable obj github.repo)))
 
-(github.repo.new "mnacamura/iron.nvim")
-
 (fn github.repo.get_recent_commit [self branch]
   (let [branch (or branch self.default_branch)
         body (github.get (string.format "repos/%s/commits/%s" self.full_name branch))]
