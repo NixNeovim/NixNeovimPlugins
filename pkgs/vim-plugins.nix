@@ -178,10 +178,10 @@
   };
   lightspeed-nvim = buildVimPlugin {
     pname = "lightspeed-nvim";
-    version = "2021-12-10";
+    version = "2021-12-13";
     src = fetchurl {
-      url = "https://github.com/ggandor/lightspeed.nvim/archive/e0543bed408d408e97950be5268cf2ecbc0bb482.tar.gz";
-      sha256 = "1xs59qv8cq8wlhpwdx00s7y4kbamwqiixa77x3l6z48dv04jj6w9";
+      url = "https://github.com/ggandor/lightspeed.nvim/archive/5255d8c42c6f328504d8164ceb8dee12e9fc8aac.tar.gz";
+      sha256 = "0hmys74pqfm1394krwz1cl9ksxay2n5kv5cy2714agipi259za3g";
     };
     meta = with lib; {
       description = "🌌 Next-generation motion plugin with incremental input processing, allowing for unparalleled speed with near-zero cognitive effort";
@@ -251,10 +251,10 @@
   };
   gitsigns-nvim = buildVimPlugin {
     pname = "gitsigns-nvim";
-    version = "2021-12-11";
+    version = "2021-12-13";
     src = fetchurl {
-      url = "https://github.com/lewis6991/gitsigns.nvim/archive/89a2baf7cb5a97038165d0611b5b0b1c3bd14789.tar.gz";
-      sha256 = "0bazq1g0cyhddf6a1xwap3fh5nkqqmghpjlzwjxx1cy4jnk8lcdr";
+      url = "https://github.com/lewis6991/gitsigns.nvim/archive/a451f97117bd1ede582a6b9db61c387c48d880b6.tar.gz";
+      sha256 = "056v7hypgzgqgd4rw93b03rzf32v10q0rqpqfqii04rg7aal8a68";
     };
     meta = with lib; {
       description = "Git integration for buffers";
@@ -617,6 +617,18 @@
       description = "A plugin for neovim that highlights cursor words and lines";
       homepage = "https://github.com/yamatsum/nvim-cursorline";
       license = with licenses; [ mit ];
+    };
+  };
+  nvim-pqf = buildVimPlugin {
+    pname = "nvim-pqf";
+    version = "2021-10-29";
+    src = fetchurl {
+      url = "https://gitlab.com/api/v4/projects/yorickpeterse%2Fnvim-pqf/repository/archive.tar.gz?sha=d053a333c1eb8d7cabb023b6ba52e3f211211209";
+      sha256 = "1p2y95a5r4wa75bzmfwhlwmn56z7br52jpxyshl7n1h1gf1ad908";
+    };
+    meta = with lib; {
+      description = "Prettier quickfix/location list windows for NeoVim";
+      homepage = "https://gitlab.com/yorickpeterse/nvim-pqf";
     };
   };
 }

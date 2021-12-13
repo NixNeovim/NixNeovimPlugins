@@ -25,13 +25,13 @@ Packages are automatically updated once per week using GitHub Actions.
 | [euclidianAce/BetterLua.vim](https://github.com/euclidianAce/BetterLua.vim) | master | 2020-08-14 | `BetterLua-vim` |
 | [famiu/feline.nvim](https://github.com/famiu/feline.nvim) | master | 2021-10-15 | `feline-nvim` |
 | [fuenor/JpFormat.vim](https://github.com/fuenor/JpFormat.vim) | master | 2019-07-12 | `JpFormat-vim` |
-| [ggandor/lightspeed.nvim](https://github.com/ggandor/lightspeed.nvim) | main | 2021-12-10 | `lightspeed-nvim` |
+| [ggandor/lightspeed.nvim](https://github.com/ggandor/lightspeed.nvim) | main | 2021-12-13 | `lightspeed-nvim` |
 | [houtsnip/vim-emacscommandline](https://github.com/houtsnip/vim-emacscommandline) | master | 2017-11-24 | `vim-emacscommandline` |
 | [hylang/vim-hy](https://github.com/hylang/vim-hy) | master | 2021-05-20 | `vim-hy` |
 | [jose-elias-alvarez/null-ls.nvim](https://github.com/jose-elias-alvarez/null-ls.nvim) | main | 2021-12-12 | `null-ls-nvim` |
 | [kana/vim-textobj-indent](https://github.com/kana/vim-textobj-indent) | master | 2013-01-18 | `vim-textobj-indent` |
 | [kyazdani42/nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons) | master | 2021-12-06 | `nvim-web-devicons` |
-| [lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) | main | 2021-12-11 | `gitsigns-nvim` |
+| [lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) | main | 2021-12-13 | `gitsigns-nvim` |
 | [machakann/vim-sandwich](https://github.com/machakann/vim-sandwich) | master | 2021-11-30 | `vim-sandwich` |
 | [mnacamura/iron.nvim](https://github.com/mnacamura/iron.nvim) | main | 2021-12-01 | `iron-nvim` |
 | [mnacamura/nvim-srcerite](https://github.com/mnacamura/nvim-srcerite) | main | 2021-12-12 | `nvim-srcerite` |
@@ -60,3 +60,4 @@ Packages are automatically updated once per week using GitHub Actions.
 | [tpope/vim-unimpaired](https://github.com/tpope/vim-unimpaired) | master | 2021-10-18 | `vim-unimpaired` |
 | [vim-pandoc/vim-pandoc-syntax](https://github.com/vim-pandoc/vim-pandoc-syntax) | master | 2021-07-06 | `vim-pandoc-syntax` |
 | [yamatsum/nvim-cursorline](https://github.com/yamatsum/nvim-cursorline) | main | 2021-09-28 | `nvim-cursorline` |
+| [gitlab:yorickpeterse/nvim-pqf](https://gitlab.com/yorickpeterse/nvim-pqf) | main | 2021-10-29 | `nvim-pqf` |
