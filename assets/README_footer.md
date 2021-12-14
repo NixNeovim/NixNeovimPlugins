@@ -18,7 +18,7 @@ In `manifest.json`, an entry is specified by one of the following forms:
 
 Run this:
 
-```sh
+```
 nix run .#update-vim-plugins
 ```
 
