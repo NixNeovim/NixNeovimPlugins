@@ -84,7 +84,7 @@
   "Check if content is null."
   (or (not x)
       (= x "")
-      (type x :userdata))) ; #<userdata NULL>
+      (= (type x) :userdata))) ; #<userdata NULL>
 
 
 (set github.repo {:type "github"})
