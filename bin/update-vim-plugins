@@ -252,20 +252,22 @@
       :gitlab (string.format "gitlab:%s" plugin.repo.full-name)
       _ (error "undefined plugin repo type"))
     plugin.repo.homepage
-    plugin.branch
+    (if (= plugin.branch plugin.repo.default-branch)
+        ""
+        (string.format " [branch: `%s`]" plugin.branch))
     plugin.version
     plugin.attr-name))
 
 (fn plugin.to-markdown-bullet [self]
   "Generate snippet of markdown bullet line."
   (format-plugin
-    "- [%s](%s) (branch: %s, recent commit: %s, package name: `%s`)\n"
+    "- [%s](%s)%s (recent commit: %s, package name: `%s`)\n"
     self))
 
 (fn plugin.to-markdown-table-row [self]
   "Generate snippet of markdown table row."
   (format-plugin
-    "| [%s](%s) | %s | %s | `%s` |\n"
+    "| [%s](%s)%s | %s | `%s` |\n"
     self))
 
 ;;; ------------------------------------------------------------------------------------------------

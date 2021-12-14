@@ -9,5 +9,5 @@ Packages are automatically updated once per week using GitHub Actions.
 
 ## Available Vim/Neovim plugins
 
-| Plugin owner/repo | Branch | Recent commit | Nix package name |
-| :- | :- | :- | :- |
+| Plugin owner/repo | Recent commit | Nix package name |
+| :- | :- | :- |
