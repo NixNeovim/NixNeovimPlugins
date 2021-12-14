@@ -1,6 +1,6 @@
 #!/usr/bin/env fennel
 
-(local http_request (require :http.request))
+(local http-request (require :http.request))
 (local cjson (require :cjson))
 (local view (require :fennel.view))
 
@@ -14,7 +14,7 @@
 
 (local nix {})
 
-(fn nix.license_from_github_license_key [key]
+(fn nix.license-from-github-license-key [key]
   (let [map {:agpl-3.0 "agpl3Only"
              :apache-2.0 "asl20"
              :bsd-2-clause "bsd2"
@@ -40,7 +40,7 @@
 (local http {})
 
 (fn http.get [uri headers]
-  (let [request (http_request.new_from_uri uri)]
+  (let [request (http-request.new_from_uri uri)]
     (each [key val (pairs (or headers {}))]
       (request.headers:append key val))
     (let [(headers stream) (assert (: request :go))
@@ -69,19 +69,19 @@
 
 (set github.repo.__index github.repo)
 
-(fn github.repo.new [full_name_or_owner name]
-  (let [info (let [full_name (if (not name)
-                                 full_name_or_owner
-                                 (string.format "%s/%s" full_name_or_owner name))]
-               (github.get (string.format "repos/%s" full_name)))
-        obj {:full_name info.full_name
+(fn github.repo.new [full-name-or-owner name]
+  (let [info (let [full-name (if (not name)
+                                 full-name-or-owner
+                                 (string.format "%s/%s" full-name-or-owner name))]
+               (github.get (string.format "repos/%s" full-name)))
+        obj {:full-name info.full_name
              :owner (if (not name)
                         (pick-values 1 (string.match info.full_name "^([^/]+)/([^/]+)$"))
-                        full_name_or_owner)
+                        full-name-or-owner)
              :name info.name
-             :default_branch info.default_branch
+             :default-branch info.default_branch
              :description info.description
-             :is_fork info.fork
+             :fork? info.fork
              :homepage (if (or (= info.homepage "")
                                (type info.homepage :userdata)) ; #<userdata NULL>
                            (string.format "https://github.com/%s" info.full_name)
@@ -93,9 +93,9 @@
                           nil)}]
     (setmetatable obj github.repo)))
 
-(fn github.repo.get_recent_commit [self branch]
-  (let [branch (or branch self.default_branch)
-        body (github.get (string.format "repos/%s/commits/%s" self.full_name branch))]
+(fn github.repo.get-recent-commit [self branch]
+  (let [branch (or branch self.default-branch)
+        body (github.get (string.format "repos/%s/commits/%s" self.full-name branch))]
     {: branch
      :date body.commit.committer.date
      :sha body.sha}))
@@ -113,25 +113,25 @@
 
 (set gitlab.project.__index gitlab.project)
 
-(fn gitlab.project.new [path_with_namespace_or_namespace path]
-  (let [info (let [path_with_namespace
+(fn gitlab.project.new [path-with-namespace-or-namespace path]
+  (let [info (let [path-with-namespace
                     (if (not path)
-                        path_with_namespace_or_namespace
-                        (string.format "%s/%s" path_with_namespace_or_namespace path))
-                   escaped_path_with_namespace (string.gsub path_with_namespace "/" "%%2F")]
-               (gitlab.get (string.format "projects/%s" escaped_path_with_namespace)))
-        obj {:full_name info.path_with_namespace
+                        path-with-namespace-or-namespace
+                        (string.format "%s/%s" path-with-namespace-or-namespace path))
+                   escaped-path-with-namespace (string.gsub path-with-namespace "/" "%%2F")]
+               (gitlab.get (string.format "projects/%s" escaped-path-with-namespace)))
+        obj {:full-name info.path_with_namespace
              :owner info.namespace.path
              :name info.path
-             :default_branch info.default_branch
+             :default-branch info.default_branch
              :description info.description
-             :is_fork nil
+             :fork? nil
              :homepage info.web_url
              :license nil}]
     (setmetatable obj gitlab.project)))
 
-(fn gitlab.project.get_recent_commit [self branch]
-  (let [branch (or branch self.default_branch)
+(fn gitlab.project.get-recent-commit [self branch]
+  (let [branch (or branch self.default-branch)
         body (gitlab.get (string.format "projects/%s%%2F%s/repository/branches/%s"
                                         self.owner
                                         self.name
@@ -148,28 +148,28 @@
 (fn plugin.new [spec]
   (match (type spec)
     :string (let [repo (match (string.match spec "^([^:]+):([^:]+)$")
-                         ("gitlab" path_with_namespace) (gitlab.project.new path_with_namespace)
-                         ("github" full_name) (github.repo.new full_name)
+                         ("gitlab" path-with-namespace) (gitlab.project.new path-with-namespace)
+                         ("github" full-name) (github.repo.new full-name)
                          _ (github.repo.new spec))
-                  recent_commit (repo:get_recent_commit)
-                  attr_name (string.gsub repo.name "%." "-")
-                  obj {: attr_name 
-                       :pname attr_name
-                       :version (string.match recent_commit.date "^%d%d%d%d%-%d%d%-%d%d")
-                       :full_name repo.full_name
-                       :repo_type repo.type
+                  recent-commit (repo:get-recent-commit)
+                  attr-name (string.gsub repo.name "%." "-")
+                  obj {: attr-name 
+                       :pname attr-name
+                       :version (string.match recent-commit.date "^%d%d%d%d%-%d%d%-%d%d")
+                       :full-name repo.full-name
+                       :repo-type repo.type
                        :owner repo.owner
                        :name repo.name
-                       :branch recent_commit.branch
-                       :rev recent_commit.sha
+                       :branch recent-commit.branch
+                       :rev recent-commit.sha
                        :url (match repo.type
                               :github (string.format "https://github.com/%s/archive/%s.tar.gz"
-                                                     repo.full_name
-                                                     recent_commit.sha)
+                                                     repo.full-name
+                                                     recent-commit.sha)
                               :gitlab (string.format "https://gitlab.com/api/v4/projects/%s%%2F%s/repository/archive.tar.gz?sha=%s"
                                                      repo.owner
                                                      repo.name
-                                                     recent_commit.sha)
+                                                     recent-commit.sha)
                               _ (error "undefined repo type"))
                        :description repo.description
                        :homepage repo.homepage
@@ -178,7 +178,7 @@
                (setmetatable obj plugin))
     _ (error "plugin spec undefined")))
 
-(fn plugin.to_nixexpr [self]
+(fn plugin.to-nixexpr [self]
   (string.format
     "  %s = buildVimPlugin {
     pname = \"%s\";
@@ -193,7 +193,7 @@
     };
   };
 "
-    self.attr_name
+    self.attr-name
     self.pname
     self.version
     self.url
@@ -201,50 +201,50 @@
     self.description
     self.homepage
     (let [license (and self.license
-                       (nix.license_from_github_license_key self.license.key))]
+                       (nix.license-from-github-license-key self.license.key))]
       (if license
           (string.format "\n      license = with licenses; [ %s ];" license)
           ""))))
 
-(fn plugin.to_markdown_bullet [self]
+(fn plugin.to-markdown-bullet [self]
   (string.format
     "- [%s](%s) (branch: %s, recent commit: %s, package name: `%s`)\n"
-    (match self.repo_type
-      :github self.full_name
-      :gitlab (string.format "gitlab:%s" self.full_name)
+    (match self.repo-type
+      :github self.full-name
+      :gitlab (string.format "gitlab:%s" self.full-name)
       _ (error "undefined plugin repo type"))
     self.homepage
     self.branch
     self.version
-    self.attr_name))
+    self.attr-name))
 
-(fn plugin.to_markdown_table_row [self]
+(fn plugin.to-markdown-table-row [self]
   (string.format
     "| [%s](%s) | %s | %s | `%s` |\n"
-    (match self.repo_type
-      :github self.full_name
-      :gitlab (string.format "gitlab:%s" self.full_name)
+    (match self.repo-type
+      :github self.full-name
+      :gitlab (string.format "gitlab:%s" self.full-name)
       _ (error "undefined plugin repo type"))
     self.homepage
     self.branch
     self.version
-    self.attr_name))
+    self.attr-name))
 
 
 (local specs (cjson.decode (slurp "manifest.json")))
 
 
 (fn main []
-  (local program_name (basename (. arg 0)))
+  (local program-name (basename (. arg 0)))
   (with-open [nix (io.open "pkgs/vim-plugins.nix" :w)
               readme (io.open "README.md" :w)]
     (nix:write "{ lib, buildVimPlugin, fetchurl }:\n\n{\n")
     (readme:write (slurp "assets/README_header.md"))
     (each [_ spec (ipairs specs)]
-      (io.stderr:write (string.format "%s: update %s..." program_name spec))
+      (io.stderr:write (string.format "%s: update %s..." program-name spec))
       (let [pkg (plugin.new spec)]
-        (nix:write (pkg:to_nixexpr))
-        (readme:write (pkg:to_markdown_table_row)))
+        (nix:write (pkg:to-nixexpr))
+        (readme:write (pkg:to-markdown-table-row)))
       (io.stderr:write "done\n"))
     (nix:write "}\n")
     (readme:write (slurp "assets/README_footer.md"))))
