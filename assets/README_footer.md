@@ -40,3 +40,7 @@ Add your override here if needed.
 
 Anyone is welcome to add another plugin to this repo.
 Feel free to create a PR with your new plugins!
+
+## License
+
+[MIT](LICENSE)
