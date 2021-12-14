@@ -56,6 +56,18 @@ with import <nixpkgs> {
 ...
 ```
 
+For Nix <2.4,
+
+```nix
+with import <nixpkgs> {
+  overlays = [
+    (import (builtins.fetchTarball {
+      url = "https://github.com/m15a/nixpkgs-vim-plugins/archive/main.tar.gz";
+    })).overlay
+  ];
+};
+```
+
 [1]: https://nixos.org/manual/nix/stable/release-notes/rl-2.4.html?highlight=builtins.getFlake#other-features
 
 ## Available Vim/Neovim plugins
