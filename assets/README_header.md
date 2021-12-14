@@ -11,14 +11,16 @@ Packages are automatically updated once per week using GitHub Actions.
 
 ### In flake
 
+The overlay simply adds extra Vim plugins into `pkgs.vimPlugins`.
+Use it as you normally do, like
+
 ```nix
 {
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     flake-utils.url = "github:numtide/flake-utils";
     vim-plugins.url = "github:m15a/nixpkgs-vim-plugins";
   };
-  outputs = { self, nixpkgs, flake-utils, vim-plugins }:
+  outputs = { self, nixpkgs, flake-utils, vim-plugins, ... }:
   flake-utils.lib.eachDefaultSystem (system:
   let
     pkgs = import nixpkgs {
@@ -30,10 +32,7 @@ Packages are automatically updated once per week using GitHub Actions.
       my-neovim = pkgs.neovim.override {
         configure = {
           packages.example = with pkgs.vimPlugins; {
-            start = [
-              vim-wordmotion
-              ...
-            ];
+            start = [ vim-wordmotion ];
           };
         };
       };
@@ -44,7 +43,7 @@ Packages are automatically updated once per week using GitHub Actions.
 
 ### In legacy Nix
 
-It is convenient to use `builtins.getFlake`, which was [introduced in Nix 2.4][1]. For example,
+It is handy to use `builtins.getFlake`, which was [introduced in Nix 2.4][1]. For example,
 
 ```nix
 with import <nixpkgs> {
@@ -52,11 +51,9 @@ with import <nixpkgs> {
     (builtins.getFlake "github:m15a/nixpkgs-vim-plugins").overlay
   ];
 };
-
-...
 ```
 
-For Nix <2.4,
+For Nix <2.4, use `builtins.fetchTarball` instead.
 
 ```nix
 with import <nixpkgs> {
