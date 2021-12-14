@@ -78,10 +78,10 @@
   };
   marks-nvim = buildVimPlugin {
     pname = "marks-nvim";
-    version = "2021-11-23";
+    version = "2021-12-14";
     src = fetchurl {
-      url = "https://github.com/chentau/marks.nvim/archive/555e8265989aa13249e76fd229226fb74101f905.tar.gz";
-      sha256 = "1x4g1ahfwl9296r9aplnzfa0q9qmipylsxs4j8gs42szml4k2xvj";
+      url = "https://github.com/chentau/marks.nvim/archive/54bc3f7bc4090457576dead244325b3e08c9f12f.tar.gz";
+      sha256 = "0jyryjhvix8jp6fsdyl2sl1izn2dyn7b9sr9mafdwgv3y12gpf0c";
     };
     meta = with lib; {
       description = "A better user experience for viewing and interacting with Vim marks.";
@@ -215,10 +215,10 @@
   };
   null-ls-nvim = buildVimPlugin {
     pname = "null-ls-nvim";
-    version = "2021-12-12";
+    version = "2021-12-13";
     src = fetchurl {
-      url = "https://github.com/jose-elias-alvarez/null-ls.nvim/archive/de6d1671858196e40f3e65dba1e6f3b100e144fa.tar.gz";
-      sha256 = "0sy9jf9ncw5jszs326kyg1h4zx9x25a5c3wa0mlf19sp7krnkg85";
+      url = "https://github.com/jose-elias-alvarez/null-ls.nvim/archive/a12f173d64daed9b17d968a048b02cad13b86184.tar.gz";
+      sha256 = "1hr3gq52j04a47cgxwwhsgclk43jbbh28c9yp8p1daw2ganiv3yr";
     };
     meta = with lib; {
       description = "Use Neovim as a language server to inject LSP diagnostics, code actions, and more via Lua.";
@@ -353,10 +353,10 @@
   };
   nvim-lspconfig = buildVimPlugin {
     pname = "nvim-lspconfig";
-    version = "2021-12-12";
+    version = "2021-12-13";
     src = fetchurl {
-      url = "https://github.com/neovim/nvim-lspconfig/archive/2293320aa824e25327c5a10675ae091d1ff83fbc.tar.gz";
-      sha256 = "0vy0g06kw4yf23xihg8pgcag06iq8bbsi38zilx9kiqfj513h124";
+      url = "https://github.com/neovim/nvim-lspconfig/archive/efd3d5b6d995a4b44192fd363046868ba5064e89.tar.gz";
+      sha256 = "1n8lk008qwciad31izhjiqiyhs2aykwnbz4xv8hi7yfnh4marwkz";
     };
     meta = with lib; {
       description = "Quickstart configurations for the Nvim LSP client";
@@ -431,10 +431,10 @@
   };
   nvim-treesitter = buildVimPlugin {
     pname = "nvim-treesitter";
-    version = "2021-12-12";
+    version = "2021-12-13";
     src = fetchurl {
-      url = "https://github.com/nvim-treesitter/nvim-treesitter/archive/143ef2f066d303c67218409b0aca38d35c396eb6.tar.gz";
-      sha256 = "000qf5fnj4v8khxkg8mpnv2s0ci6h2sxjyxlj12c7b242g5v0xdn";
+      url = "https://github.com/nvim-treesitter/nvim-treesitter/archive/7474cb06c2be750eae92da51ff7791deb3b21397.tar.gz";
+      sha256 = "1amslka1c3s7pnp4jaf53r2hr0wq61vdcz68hn2sqj7a28yg760a";
     };
     meta = with lib; {
       description = "Nvim Treesitter configurations and abstraction layer";
