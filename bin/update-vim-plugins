@@ -261,7 +261,7 @@
   "Generate snippet of markdown bullet line."
   (format-plugin
     "- [%s](%s) (branch: %s, recent commit: %s, package name: `%s`)\n"
-    self)) 
+    self))
 
 (fn plugin.to-markdown-table-row [self]
   "Generate snippet of markdown table row."
