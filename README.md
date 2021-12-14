@@ -14,12 +14,12 @@ Packages are automatically updated once per week using GitHub Actions.
 ```nix
 {
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     flake-utils.url = "github:numtide/flake-utils";
     vim-plugins.url = "github:m15a/nixpkgs-vim-plugins";
   };
   outputs = { self, nixpkgs, flake-utils, vim-plugins }:
-  flake-utils.lib.eachdefaultsystem (system:
+  flake-utils.lib.eachDefaultSystem (system:
   let
     pkgs = import nixpkgs {
       inherit system;
@@ -29,7 +29,7 @@ Packages are automatically updated once per week using GitHub Actions.
     packages = {
       my-neovim = pkgs.neovim.override {
         configure = {
-          packages.example = with pkgs.vimplugins; {
+          packages.example = with pkgs.vimPlugins; {
             start = [
               vim-wordmotion
               ...
