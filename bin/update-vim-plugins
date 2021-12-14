@@ -246,31 +246,30 @@
           (string.format "\n      license = with licenses; [ %s ];" license)
           ""))))
 
+(fn format-plugin [fmt plugin]
+  "Generate snippet of the given format."
+  (string.format
+    fmt
+    (match plugin.repo-type
+      :github plugin.full-name
+      :gitlab (string.format "gitlab:%s" plugin.full-name)
+      _ (error "undefined plugin repo type"))
+    plugin.homepage
+    plugin.branch
+    plugin.version
+    plugin.attr-name))
+
 (fn plugin.to-markdown-bullet [self]
   "Generate snippet of markdown bullet line."
-  (string.format
+  (format-plugin
     "- [%s](%s) (branch: %s, recent commit: %s, package name: `%s`)\n"
-    (match self.repo-type
-      :github self.full-name
-      :gitlab (string.format "gitlab:%s" self.full-name)
-      _ (error "undefined plugin repo type"))
-    self.homepage
-    self.branch
-    self.version
-    self.attr-name))
+    self)) 
 
 (fn plugin.to-markdown-table-row [self]
   "Generate snippet of markdown table row."
-  (string.format
+  (format-plugin
     "| [%s](%s) | %s | %s | `%s` |\n"
-    (match self.repo-type
-      :github self.full-name
-      :gitlab (string.format "gitlab:%s" self.full-name)
-      _ (error "undefined plugin repo type"))
-    self.homepage
-    self.branch
-    self.version
-    self.attr-name))
+    self))
 
 ;;; ------------------------------------------------------------------------------------------------
 ;;; Main
