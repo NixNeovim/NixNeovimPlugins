@@ -300,7 +300,10 @@
 (fn main []
   (let [program-name (basename (. arg 0))
         specs (cjson.decode (slurp "manifest.json"))]
-    (table.sort specs)
+    (table.sort specs
+                (fn [left right]
+                  (< (string.gsub left "^[^/]+:" "")
+                     (string.gsub right "^[^/]+:" ""))))
     (with-open [nix (io.open "pkgs/vim-plugins.nix" :w)
                 readme (io.open "README.md" :w)]
       (nix:write "{ lib, buildVimPlugin, fetchurl }:\n\n{\n")
