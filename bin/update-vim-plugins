@@ -119,6 +119,12 @@
      :date response.commit.committer.date
      :sha response.sha}))
 
+(fn github.repo.get-url [self sha]
+  "Get download url of the given hash."
+  (string.format "https://github.com/%s/archive/%s.tar.gz"
+                 self.full-name
+                 sha))
+
 ;;; ------------------------------------------------------------------------------------------------
 ;;; GitLab things
 
@@ -168,6 +174,12 @@
      :date response.commit.committed_date
      :sha response.commit.id}))
 
+(fn gitlab.project.get-url [self sha]
+  "Get download url of the given hash."
+  (string.format "https://gitlab.com/api/v4/projects/%s/repository/archive.tar.gz?sha=%s"
+                 (gitlab.escape-path-with-namespace self.full-name)
+                 sha))
+
 ;;; ------------------------------------------------------------------------------------------------
 ;;; Vim plugin
 
@@ -191,16 +203,7 @@
                          ("github" full-name) (github.repo.new full-name)
                          _ (github.repo.new spec))
                   recent-commit (repo:get-recent-commit)
-                  url (match repo.type
-                        :github (string.format
-                                  "https://github.com/%s/archive/%s.tar.gz"
-                                  repo.full-name
-                                  recent-commit.sha)
-                        :gitlab (string.format
-                                  "https://gitlab.com/api/v4/projects/%s/repository/archive.tar.gz?sha=%s"
-                                  (gitlab.escape-path-with-namespace repo.full-name)
-                                  recent-commit.sha)
-                        _ (error "undefined repo type"))
+                  url (repo:get-url recent-commit.sha)
                   attr-name (plugin.escape-name repo.name)
                   obj {: attr-name 
                        :pname attr-name
