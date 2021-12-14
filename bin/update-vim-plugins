@@ -180,6 +180,31 @@
                  sha))
 
 ;;; ------------------------------------------------------------------------------------------------
+;;; Manifest spec parser
+
+(local manifest {})
+
+(fn manifest.parse-spec [spec]
+  "Parse manifest spec."
+  (match (type spec)
+    :string (match (string.match spec "^([^:]+/[^:]+)$") ; owner/repo
+              full-name {:type "github"
+                         : full-name}
+              _ (match (string.match spec "^([^:]+):([^:]+/[^:]+)$") ; type:owner/repo
+                  (repo-type full-name) {:type repo-type
+                                         : full-name}
+                  _ (match (string.match spec "^([^:]+/[^:]+):([^:]+)$") ; owner/repo:branch
+                      (full-name branch) {:type "github"
+                                          : full-name
+                                          : branch}
+                      _ (match (string.match spec "^([^:]+):([^:]+/[^:]+):([^:]+)$") ; type:owner/repo:branch
+                          (repo-type full-name branch) {:type repo-type
+                                                        : full-name
+                                                        : branch}
+                          _ (error "invalid manifest spec")))))
+    _ (error "undefined manifest spec")))
+
+;;; ------------------------------------------------------------------------------------------------
 ;;; Vim plugin
 
 (local plugin {})
@@ -196,23 +221,22 @@
 
 (fn plugin.new [spec]
   "Create object representing Vim plugin."
-  (match (type spec)
-    :string (let [repo (match (string.match spec "^([^:]+):([^:]+)$")
-                         ("gitlab" path-with-namespace) (gitlab.project.new path-with-namespace)
-                         ("github" full-name) (github.repo.new full-name)
-                         _ (github.repo.new spec))
-                  recent-commit (repo:get-recent-commit)
-                  url (repo:get-url recent-commit.sha)
-                  attr-name (plugin.escape-name repo.name)
-                  obj {: attr-name 
-                       :pname attr-name
-                       :version (plugin.get-date recent-commit.date)
-                       : repo
-                       :branch recent-commit.branch
-                       : url
-                       :sha256 (nix.prefetch-url url)}]
-               (setmetatable obj plugin))
-    _ (error "plugin spec undefined")))
+  (let [spec (manifest.parse-spec spec)
+        repo (match spec.type
+               :gitlab (gitlab.project.new spec.full-name)
+               :github (github.repo.new spec.full-name)
+               _ (error "undefined manifest spec"))
+        recent-commit (repo:get-recent-commit spec.branch)
+        url (repo:get-url recent-commit.sha)
+        attr-name (plugin.escape-name repo.name)
+        obj {: attr-name 
+             :pname attr-name
+             :version (plugin.get-date recent-commit.date)
+             : repo
+             :branch recent-commit.branch
+             : url
+             :sha256 (nix.prefetch-url url)}]
+     (setmetatable obj plugin)))
 
 (fn plugin.to-nixexpr [self]
   "Generate snippet of Nix expression in an attr set."
