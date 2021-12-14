@@ -103,9 +103,8 @@
              :default-branch info.default_branch
              :description info.description
              :fork? info.fork
-             :homepage (if (github.null? info.homepage)
-                           (string.format "https://github.com/%s" info.full_name)
-                           info.homepage)
+             ;; Better to show github page since homepage value may contain its owner's.
+             :homepage (string.format "https://github.com/%s" info.full_name)
              :license (and (not (github.null? info.license))
                            {:key info.license.key
                             :name info.license.name})}]
