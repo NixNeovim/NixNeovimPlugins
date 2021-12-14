@@ -3,7 +3,7 @@
 
 ### How to add a new plugin
 
-#### 1. Add a new entry to `manifest.json`:
+#### 1. Add a new entry to `manifest.json`
 
 In `manifest.json`, an entry is specified by one of the following forms:
 
