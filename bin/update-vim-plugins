@@ -191,29 +191,24 @@
                          ("github" full-name) (github.repo.new full-name)
                          _ (github.repo.new spec))
                   recent-commit (repo:get-recent-commit)
+                  url (match repo.type
+                        :github (string.format
+                                  "https://github.com/%s/archive/%s.tar.gz"
+                                  repo.full-name
+                                  recent-commit.sha)
+                        :gitlab (string.format
+                                  "https://gitlab.com/api/v4/projects/%s/repository/archive.tar.gz?sha=%s"
+                                  (gitlab.escape-path-with-namespace repo.full-name)
+                                  recent-commit.sha)
+                        _ (error "undefined repo type"))
                   attr-name (plugin.escape-name repo.name)
                   obj {: attr-name 
                        :pname attr-name
                        :version (plugin.get-date recent-commit.date)
-                       :full-name repo.full-name
-                       :repo-type repo.type
-                       :owner repo.owner
-                       :name repo.name
+                       : repo
                        :branch recent-commit.branch
-                       :rev recent-commit.sha
-                       :url (match repo.type
-                              :github (string.format "https://github.com/%s/archive/%s.tar.gz"
-                                                     repo.full-name
-                                                     recent-commit.sha)
-                              :gitlab (string.format "https://gitlab.com/api/v4/projects/%s%%2F%s/repository/archive.tar.gz?sha=%s"
-                                                     repo.owner
-                                                     repo.name
-                                                     recent-commit.sha)
-                              _ (error "undefined repo type"))
-                       :description repo.description
-                       :homepage repo.homepage
-                       :license repo.license}]
-               (set obj.sha256 (nix.prefetch-url obj.url))
+                       : url
+                       :sha256 (nix.prefetch-url url)}]
                (setmetatable obj plugin))
     _ (error "plugin spec undefined")))
 
@@ -238,10 +233,10 @@
     self.version
     self.url
     self.sha256
-    self.description
-    self.homepage
-    (let [license (and self.license
-                       (nix.license-from-github-license self.license))]
+    self.repo.description
+    self.repo.homepage
+    (let [license (and self.repo.license
+                       (nix.license-from-github-license self.repo.license))]
       (if license
           (string.format "\n      license = with licenses; [ %s ];" license)
           ""))))
@@ -250,11 +245,11 @@
   "Generate snippet of the given format."
   (string.format
     fmt
-    (match plugin.repo-type
-      :github plugin.full-name
-      :gitlab (string.format "gitlab:%s" plugin.full-name)
+    (match plugin.repo.type
+      :github plugin.repo.full-name
+      :gitlab (string.format "gitlab:%s" plugin.repo.full-name)
       _ (error "undefined plugin repo type"))
-    plugin.homepage
+    plugin.repo.homepage
     plugin.branch
     plugin.version
     plugin.attr-name))
