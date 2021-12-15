@@ -6,5 +6,7 @@ prev.lib.composeManyExtensions [
       inherit (self.vimUtils) buildVimPluginFrom2Nix;
     });
   })
-  (import ./overrides.nix)
+  (import ./overrides.nix {
+    inherit (final) lib;
+  })
 ] final prev
