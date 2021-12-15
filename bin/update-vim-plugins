@@ -250,7 +250,7 @@
 (fn plugin.to-nixexpr [self]
   "Generate snippet of Nix expression in an attr set."
   (string.format
-    "  %s = buildVimPlugin {
+    "  %s = buildVimPluginFrom2Nix {
     pname = \"%s\";
     version = \"%s\";
     src = fetchurl {
@@ -316,7 +316,7 @@
                      (string.gsub right "^[^/]+:" ""))))
     (with-open [nix (io.open "pkgs/vim-plugins.nix" :w)
                 readme (io.open "README.md" :w)]
-      (nix:write "{ lib, buildVimPlugin, fetchurl }:\n\n{\n")
+      (nix:write "{ lib, buildVimPluginFrom2Nix, fetchurl }:\n\n{\n")
       (readme:write (io.slurp "assets/README_header.md"))
       (each [_ spec (ipairs manifest)]
         (io.stderr:write (string.format "%s: update %s..." program-name spec))
