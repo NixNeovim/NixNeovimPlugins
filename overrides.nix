@@ -6,10 +6,10 @@ let
   overrides = self: super:
   {
     lspactions = super.lspactions.overrideAttrs (_: {
-      dependencies = with self; [
+      dependencies = with final.vimPlugins; [
         plenary-nvim
         popup-nvim
-        astronauta-nvim
+        self.astronauta-nvim
       ];
     });
 
@@ -50,13 +50,13 @@ let
     });
 
     telescope-heading-nvim = super.telescope-heading-nvim.overrideAttrs (_: {
-      dependencies = with self; [
+      dependencies = with final.vimPlugins; [
         telescope-nvim
       ];
     });
 
     telescope-bibtex-nvim = super.telescope-bibtex-nvim.overrideAttrs (_: {
-      dependencies = with self; [
+      dependencies = with final.vimPlugins; [
         telescope-nvim
       ];
     });
