@@ -20,6 +20,15 @@
   "Remove trailing newlines: \\n, \\r, or \\r\\n."
   (string.gsub str "[\r\n]+$" ""))
 
+(fn string.split [str sep]
+  "Split string by the separator into a table."
+  (let [regex (match sep
+                "" "."
+                x (.. "[^" x "]+")
+                _ "%S+")]
+    (icollect [chunk (str:gmatch regex)]
+      chunk)))
+
 ;;; ------------------------------------------------------------------------------------------------
 ;;; Nix helpers
 
@@ -295,9 +304,10 @@
     self))
 
 ;;; ------------------------------------------------------------------------------------------------
-;;; Main
+;;; Subcommands
 
-(fn main []
+(fn command-update []
+  "Update manifested plugins."
   (let [program-name (basename (. arg 0))
         manifest (cjson.decode (io.slurp "manifest.json"))]
     (table.sort manifest
@@ -316,5 +326,33 @@
         (io.stderr:write "done\n"))
       (nix:write "}\n")
       (readme:write (io.slurp "assets/README_footer.md")))))
+
+(fn command-lint []
+  "Check if any plugin in manifest.json is already maintained in the official nixpkgs."
+  (let [program-name (basename (. arg 0))
+        local-manifest (cjson.decode (io.slurp "manifest.json"))
+        official-manifest (let [channel "nixpkgs-unstable"
+                                path "pkgs/misc/vim-plugins/vim-plugin-names"
+                                url (string.format
+                                      "https://raw.githubusercontent.com/NixOS/nixpkgs/%s/%s"
+                                      channel
+                                      path)
+                                (body header) (http.get url)]
+                            (collect [_ line (ipairs (body:split))]
+                              line true))]
+    (each [_ spec (ipairs local-manifest)]
+      (when (. official-manifest spec)
+        (io.stderr:write
+          (string.format "%s: %s is provided by official\n" program-name spec))))))
+
+;;; ------------------------------------------------------------------------------------------------
+;;; Main
+
+(fn main []
+  (let [command (. arg 1)]
+    (match command
+      :update (command-update)
+      :lint (command-lint)
+      _ (command-update))))
 
 (main)
