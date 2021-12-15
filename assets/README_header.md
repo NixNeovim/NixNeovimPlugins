@@ -4,15 +4,19 @@ Nix flake of miscellaneous Vim/Neovim plugins.
 
 ## Description
 
-This repository contains Nix packages of miscellaneous Vim/Neovim plugins.
+This repository contains Nix packages of miscellaneous Vim/Neovim plugins I use but
+not provided by the official nixpkgs.
 Packages are automatically updated once per week using GitHub Actions.
 
 ## Usage
 
 ### In flake
 
-The overlay simply adds extra Vim plugins into `pkgs.vimPlugins`.
+The overlay simply adds[^1] extra Vim plugins into `pkgs.vimPlugins`.
 Use it as you normally do, like
+
+[^1]: Some plugins replace the official ones in case the official one is not
+maintained (for example, `vim-fish` and `bats-vim`).
 
 ```nix
 {
@@ -32,7 +36,10 @@ Use it as you normally do, like
       my-neovim = pkgs.neovim.override {
         configure = {
           packages.example = with pkgs.vimPlugins; {
-            start = [ vim-wordmotion ];
+            start = [
+              lspactions
+              vim-hy
+            ];
           };
         };
       };

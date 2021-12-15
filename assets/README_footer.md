@@ -29,12 +29,22 @@ After that, `pkgs/vim-plugins.nix` and the plugin list in `README.md` are update
 In `overrides.nix`, you see something like
 
 ```nix
-    vim-fennel-syntax = super.vim-fennel-syntax.overrideAttrs (_: {
-      dontBuild = true;
+  {
+    # ...
+
+    lspactions = super.lspactions.overrideAttrs (_: {
+      dependencies = with self; [
+        plenary-nvim
+        popup-nvim
+        astronauta-nvim
+      ];
     });
+
+    # ...
+  }
 ```
 
-Add your override here if needed.
+Add your overrides here if needed.
 
 #### 4. Create a Pull Request if you like
 
