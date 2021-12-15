@@ -2,7 +2,7 @@ final: prev:
 
 prev.lib.composeManyExtensions [
   (self: super: {
-    vimPlugins = super.vimPlugins.extend (_: _: self.callPackage ./pkgs/vim-plugins.nix {
+    vimExtraPlugins = final.lib.makeExtensible (_: self.callPackage ./pkgs/vim-plugins.nix {
       inherit (self.vimUtils) buildVimPluginFrom2Nix;
     });
   })

@@ -12,11 +12,8 @@ Packages are automatically updated once per week using GitHub Actions.
 
 ### In flake
 
-The overlay simply adds[^1] extra Vim plugins into `pkgs.vimPlugins`.
+The overlay simply adds extra Vim plugins into `pkgs.vimExtraPlugins`.
 Use it as you normally do, like
-
-[^1]: Some plugins replace the official ones in case the official one is not
-maintained (for example, `vim-fish` and `bats-vim`).
 
 ```nix
 {
@@ -35,7 +32,7 @@ maintained (for example, `vim-fish` and `bats-vim`).
     packages = {
       my-neovim = pkgs.neovim.override {
         configure = {
-          packages.example = with pkgs.vimPlugins; {
+          packages.example = with pkgs.vimExtraPlugins; {
             start = [
               lspactions
               vim-hy

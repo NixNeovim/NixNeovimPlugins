@@ -69,4 +69,4 @@ let
   };
 in
 
-{ vimPlugins = prev.vimPlugins.extend overrides; }
+{ vimExtraPlugins = prev.vimExtraPlugins.extend overrides; }
