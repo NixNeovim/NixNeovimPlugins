@@ -1,33 +1,7 @@
-{ lib, buildVimPlugin, fetchurl }:
+{ lib, buildVimPluginFrom2Nix, fetchurl }:
 
 {
-  vim-nix = buildVimPlugin {
-    pname = "vim-nix";
-    version = "2021-05-28";
-    src = fetchurl {
-      url = "https://github.com/LnL7/vim-nix/archive/63b47b39c8d481ebca3092822ca8972e08df769b.tar.gz";
-      sha256 = "17gcpwg7vrkp64ldgn6rz18vpsm6pkhwa63nrnz3iw9rfmrqjyp2";
-    };
-    meta = with lib; {
-      description = "Vim configuration files for Nix http://nixos.org/nix";
-      homepage = "https://github.com/LnL7/vim-nix";
-      license = with licenses; [ mit ];
-    };
-  };
-  vim-fish = buildVimPlugin {
-    pname = "vim-fish";
-    version = "2020-04-13";
-    src = fetchurl {
-      url = "https://github.com/novadev94/vim-fish/archive/9e48a9dbb54bf1a8d5b8c00220ec77f802eb113d.tar.gz";
-      sha256 = "0dld5db41cmliljxnl6jhwc3q7pnjvnlhc8mxlxag36njq3wc5wy";
-    };
-    meta = with lib; {
-      description = "Vim support for editing fish scripts";
-      homepage = "https://github.com/novadev94/vim-fish";
-      license = with licenses; [ mit ];
-    };
-  };
-  lspactions = buildVimPlugin {
+  lspactions = buildVimPluginFrom2Nix {
     pname = "lspactions";
     version = "2021-11-15";
     src = fetchurl {
@@ -39,7 +13,7 @@
       homepage = "https://github.com/RishabhRD/lspactions";
     };
   };
-  bats-vim = buildVimPlugin {
+  bats-vim = buildVimPluginFrom2Nix {
     pname = "bats-vim";
     version = "2021-01-10";
     src = fetchurl {
@@ -51,45 +25,7 @@
       homepage = "https://github.com/aliou/bats.vim";
     };
   };
-  kommentary = buildVimPlugin {
-    pname = "kommentary";
-    version = "2021-12-03";
-    src = fetchurl {
-      url = "https://github.com/b3nj5m1n/kommentary/archive/2e1c3be90d555cd2c1f70b1c24867cee08d352f4.tar.gz";
-      sha256 = "068y3wgmx1pa5aw3qdgnxmmf2bq3wx0di5wfnsimsawm0cqc6bxx";
-    };
-    meta = with lib; {
-      description = "Neovim commenting plugin, written in lua.";
-      homepage = "https://github.com/b3nj5m1n/kommentary";
-      license = with licenses; [ mit ];
-    };
-  };
-  vim-wordmotion = buildVimPlugin {
-    pname = "vim-wordmotion";
-    version = "2021-09-12";
-    src = fetchurl {
-      url = "https://github.com/chaoren/vim-wordmotion/archive/02e32fcb062553a8293992411677e12cacccb09d.tar.gz";
-      sha256 = "0hzaf665xw2kxysf9qb11m64hvrbihh0l15hc9g6spmmjgwi3pcg";
-    };
-    meta = with lib; {
-      description = "More useful word motions for Vim";
-      homepage = "https://github.com/chaoren/vim-wordmotion";
-    };
-  };
-  marks-nvim = buildVimPlugin {
-    pname = "marks-nvim";
-    version = "2021-12-14";
-    src = fetchurl {
-      url = "https://github.com/chentau/marks.nvim/archive/54bc3f7bc4090457576dead244325b3e08c9f12f.tar.gz";
-      sha256 = "0jyryjhvix8jp6fsdyl2sl1izn2dyn7b9sr9mafdwgv3y12gpf0c";
-    };
-    meta = with lib; {
-      description = "A better user experience for viewing and interacting with Vim marks.";
-      homepage = "https://github.com/chentau/marks.nvim";
-      license = with licenses; [ mit ];
-    };
-  };
-  telescope-heading-nvim = buildVimPlugin {
+  telescope-heading-nvim = buildVimPluginFrom2Nix {
     pname = "telescope-heading-nvim";
     version = "2021-12-02";
     src = fetchurl {
@@ -102,19 +38,7 @@
       license = with licenses; [ mit ];
     };
   };
-  vim-table-mode = buildVimPlugin {
-    pname = "vim-table-mode";
-    version = "2021-12-01";
-    src = fetchurl {
-      url = "https://github.com/dhruvasagar/vim-table-mode/archive/c547471c0ed32b8511f62752974cde5277e13df4.tar.gz";
-      sha256 = "1409dibfkqazmf32z6n6pszk5fgyjx8gzki8sv37bpmwbhg9qiwn";
-    };
-    meta = with lib; {
-      description = "VIM Table Mode for instant table creation.";
-      homepage = "https://github.com/dhruvasagar/vim-table-mode";
-    };
-  };
-  bullets-vim = buildVimPlugin {
+  bullets-vim = buildVimPluginFrom2Nix {
     pname = "bullets-vim";
     version = "2021-06-18";
     src = fetchurl {
@@ -126,7 +50,7 @@
       homepage = "https://github.com/dkarter/bullets.vim";
     };
   };
-  nvim-lastplace = buildVimPlugin {
+  nvim-lastplace = buildVimPluginFrom2Nix {
     pname = "nvim-lastplace";
     version = "2021-10-15";
     src = fetchurl {
@@ -139,24 +63,12 @@
       license = with licenses; [ mit ];
     };
   };
-  BetterLua-vim = buildVimPlugin {
-    pname = "BetterLua-vim";
-    version = "2020-08-14";
-    src = fetchurl {
-      url = "https://github.com/euclidianAce/BetterLua.vim/archive/d2d6c115575d09258a794a6f20ac60233eee59d5.tar.gz";
-      sha256 = "1nxvyjdax2wdl1ij38n2wggfvsrzk74s1zbrcyxjfndpzfpjw523";
-    };
-    meta = with lib; {
-      description = "Better Lua syntax highlighting in Vim/NeoVim";
-      homepage = "https://github.com/euclidianAce/BetterLua.vim";
-    };
-  };
-  feline-nvim = buildVimPlugin {
+  feline-nvim = buildVimPluginFrom2Nix {
     pname = "feline-nvim";
-    version = "2021-10-15";
+    version = "2021-11-27";
     src = fetchurl {
-      url = "https://github.com/famiu/feline.nvim/archive/4ef5e1516395eea731275e0f58b6bfba5c6ac9c1.tar.gz";
-      sha256 = "0w3crzkpjxb3rzaa1vcxg95nnihcfracijy92348sw2jwdfmlc42";
+      url = "https://github.com/famiu/feline.nvim/archive/24ba3bbf286f2c6ce49c0439b0bd2d216bc52601.tar.gz";
+      sha256 = "0kq94gnvpx41nfxlasbj9q9j77m5qzzliiwzwflzglbs3nhqglgw";
     };
     meta = with lib; {
       description = "A minimal, stylish and customizable statusline for Neovim written in Lua";
@@ -164,7 +76,7 @@
       license = with licenses; [ gpl3Only ];
     };
   };
-  JpFormat-vim = buildVimPlugin {
+  JpFormat-vim = buildVimPluginFrom2Nix {
     pname = "JpFormat-vim";
     version = "2019-07-12";
     src = fetchurl {
@@ -176,20 +88,7 @@
       homepage = "https://github.com/fuenor/JpFormat.vim";
     };
   };
-  lightspeed-nvim = buildVimPlugin {
-    pname = "lightspeed-nvim";
-    version = "2021-12-13";
-    src = fetchurl {
-      url = "https://github.com/ggandor/lightspeed.nvim/archive/5255d8c42c6f328504d8164ceb8dee12e9fc8aac.tar.gz";
-      sha256 = "0hmys74pqfm1394krwz1cl9ksxay2n5kv5cy2714agipi259za3g";
-    };
-    meta = with lib; {
-      description = "🌌 Next-generation motion plugin with incremental input processing, allowing for unparalleled speed with near-zero cognitive effort";
-      homepage = "https://github.com/ggandor/lightspeed.nvim";
-      license = with licenses; [ mit ];
-    };
-  };
-  vim-emacscommandline = buildVimPlugin {
+  vim-emacscommandline = buildVimPluginFrom2Nix {
     pname = "vim-emacscommandline";
     version = "2017-11-24";
     src = fetchurl {
@@ -201,7 +100,7 @@
       homepage = "https://github.com/houtsnip/vim-emacscommandline";
     };
   };
-  vim-hy = buildVimPlugin {
+  vim-hy = buildVimPluginFrom2Nix {
     pname = "vim-hy";
     version = "2021-05-20";
     src = fetchurl {
@@ -213,19 +112,20 @@
       homepage = "https://github.com/hylang/vim-hy";
     };
   };
-  null-ls-nvim = buildVimPlugin {
-    pname = "null-ls-nvim";
-    version = "2021-12-13";
+  vim-fish = buildVimPluginFrom2Nix {
+    pname = "vim-fish";
+    version = "2021-05-21";
     src = fetchurl {
-      url = "https://github.com/jose-elias-alvarez/null-ls.nvim/archive/a12f173d64daed9b17d968a048b02cad13b86184.tar.gz";
-      sha256 = "1hr3gq52j04a47cgxwwhsgclk43jbbh28c9yp8p1daw2ganiv3yr";
+      url = "https://github.com/inkch/vim-fish/archive/9e2472a8f3f3953f23343b3e053d80ad0ce6a25f.tar.gz";
+      sha256 = "0qki316p7ff145i2vls6va0izjgvhswl56chxnlnv0sjw4v0vayp";
     };
     meta = with lib; {
-      description = "Use Neovim as a language server to inject LSP diagnostics, code actions, and more via Lua.";
-      homepage = "https://github.com/jose-elias-alvarez/null-ls.nvim";
+      description = "Vim support for editing fish scripts";
+      homepage = "https://github.com/inkch/vim-fish";
+      license = with licenses; [ mit ];
     };
   };
-  vim-textobj-indent = buildVimPlugin {
+  vim-textobj-indent = buildVimPluginFrom2Nix {
     pname = "vim-textobj-indent";
     version = "2013-01-18";
     src = fetchurl {
@@ -237,44 +137,7 @@
       homepage = "https://github.com/kana/vim-textobj-indent";
     };
   };
-  nvim-web-devicons = buildVimPlugin {
-    pname = "nvim-web-devicons";
-    version = "2021-12-06";
-    src = fetchurl {
-      url = "https://github.com/kyazdani42/nvim-web-devicons/archive/344331467509802e1af200f08ec3da278be5cbba.tar.gz";
-      sha256 = "13icpr2jfp99r4r31sd3sh3xbm4s6lirvk3mcad8s09wgs2bffpg";
-    };
-    meta = with lib; {
-      description = "lua `fork` of vim-web-devicons for neovim";
-      homepage = "https://github.com/kyazdani42/nvim-web-devicons";
-    };
-  };
-  gitsigns-nvim = buildVimPlugin {
-    pname = "gitsigns-nvim";
-    version = "2021-12-13";
-    src = fetchurl {
-      url = "https://github.com/lewis6991/gitsigns.nvim/archive/a451f97117bd1ede582a6b9db61c387c48d880b6.tar.gz";
-      sha256 = "056v7hypgzgqgd4rw93b03rzf32v10q0rqpqfqii04rg7aal8a68";
-    };
-    meta = with lib; {
-      description = "Git integration for buffers";
-      homepage = "https://github.com/lewis6991/gitsigns.nvim";
-      license = with licenses; [ mit ];
-    };
-  };
-  vim-sandwich = buildVimPlugin {
-    pname = "vim-sandwich";
-    version = "2021-11-30";
-    src = fetchurl {
-      url = "https://github.com/machakann/vim-sandwich/archive/cfe8b70e4f404e3bbb9d4e97e082a4294a5762a4.tar.gz";
-      sha256 = "193mr8p0xkpxnwgx2v3rqc0ip5n2h9hg8221i8l145j0msyrnd09";
-    };
-    meta = with lib; {
-      description = "Set of operators and textobjects to search/select/edit sandwiched texts.";
-      homepage = "https://github.com/machakann/vim-sandwich";
-    };
-  };
-  iron-nvim = buildVimPlugin {
+  iron-nvim = buildVimPluginFrom2Nix {
     pname = "iron-nvim";
     version = "2021-12-01";
     src = fetchurl {
@@ -287,7 +150,7 @@
       license = with licenses; [ bsd3 ];
     };
   };
-  nvim-srcerite = buildVimPlugin {
+  nvim-srcerite = buildVimPluginFrom2Nix {
     pname = "nvim-srcerite";
     version = "2021-12-12";
     src = fetchurl {
@@ -299,7 +162,7 @@
       homepage = "https://github.com/mnacamura/nvim-srcerite";
     };
   };
-  vim-fennel-syntax = buildVimPlugin {
+  vim-fennel-syntax = buildVimPluginFrom2Nix {
     pname = "vim-fennel-syntax";
     version = "2021-07-08";
     src = fetchurl {
@@ -312,7 +175,7 @@
       license = with licenses; [ mit ];
     };
   };
-  vim-r7rs-syntax = buildVimPlugin {
+  vim-r7rs-syntax = buildVimPluginFrom2Nix {
     pname = "vim-r7rs-syntax";
     version = "2021-07-09";
     src = fetchurl {
@@ -325,7 +188,7 @@
       license = with licenses; [ mit ];
     };
   };
-  dial-nvim = buildVimPlugin {
+  dial-nvim = buildVimPluginFrom2Nix {
     pname = "dial-nvim";
     version = "2021-03-22";
     src = fetchurl {
@@ -338,59 +201,7 @@
       license = with licenses; [ mit ];
     };
   };
-  numb-nvim = buildVimPlugin {
-    pname = "numb-nvim";
-    version = "2021-07-12";
-    src = fetchurl {
-      url = "https://github.com/nacro90/numb.nvim/archive/c8b128230adb22727256fd24a221f4c5a1b41e93.tar.gz";
-      sha256 = "10k26qzf56pf8p7pmzsfvy85bjk88fc240jvs8lrqib3fnvqg1ia";
-    };
-    meta = with lib; {
-      description = "Peek lines just when you intend";
-      homepage = "https://github.com/nacro90/numb.nvim";
-      license = with licenses; [ mit ];
-    };
-  };
-  nvim-lspconfig = buildVimPlugin {
-    pname = "nvim-lspconfig";
-    version = "2021-12-13";
-    src = fetchurl {
-      url = "https://github.com/neovim/nvim-lspconfig/archive/efd3d5b6d995a4b44192fd363046868ba5064e89.tar.gz";
-      sha256 = "1n8lk008qwciad31izhjiqiyhs2aykwnbz4xv8hi7yfnh4marwkz";
-    };
-    meta = with lib; {
-      description = "Quickstart configurations for the Nvim LSP client";
-      homepage = "https://github.com/neovim/nvim-lspconfig";
-      license = with licenses; [ asl20 ];
-    };
-  };
-  plenary-nvim = buildVimPlugin {
-    pname = "plenary-nvim";
-    version = "2021-12-07";
-    src = fetchurl {
-      url = "https://github.com/nvim-lua/plenary.nvim/archive/e6267f79481064eee53950571f53cbaafb08417d.tar.gz";
-      sha256 = "1fwbx4mj8h4lcmi1fs8dn0a7pb6pkqawa6nkkjkwpx5zzvbmwj2v";
-    };
-    meta = with lib; {
-      description = "plenary: full; complete; entire; absolute; unqualified. All the lua functions I don't want to write twice.";
-      homepage = "https://github.com/nvim-lua/plenary.nvim";
-      license = with licenses; [ mit ];
-    };
-  };
-  popup-nvim = buildVimPlugin {
-    pname = "popup-nvim";
-    version = "2021-11-18";
-    src = fetchurl {
-      url = "https://github.com/nvim-lua/popup.nvim/archive/b7404d35d5d3548a82149238289fa71f7f6de4ac.tar.gz";
-      sha256 = "0rycfq1qax3p2bpz94l7f0zg9rfd847c9np5rwr1psg86iapyk0y";
-    };
-    meta = with lib; {
-      description = "[WIP] An implementation of the Popup API from vim in Neovim. Hope to upstream when complete";
-      homepage = "https://github.com/nvim-lua/popup.nvim";
-      license = with licenses; [ mit ];
-    };
-  };
-  telescope-bibtex-nvim = buildVimPlugin {
+  telescope-bibtex-nvim = buildVimPluginFrom2Nix {
     pname = "telescope-bibtex-nvim";
     version = "2021-11-29";
     src = fetchurl {
@@ -403,72 +214,7 @@
       license = with licenses; [ mit ];
     };
   };
-  telescope-symbols-nvim = buildVimPlugin {
-    pname = "telescope-symbols-nvim";
-    version = "2021-08-07";
-    src = fetchurl {
-      url = "https://github.com/nvim-telescope/telescope-symbols.nvim/archive/d2d7d6b4298a1f733649526661d872c5e7a75521.tar.gz";
-      sha256 = "1vlxh9yq18a90p2jmwz11mx402rdaax1h5zfs35pvnbhcz129h62";
-    };
-    meta = with lib; {
-      description = "userdata: NULL";
-      homepage = "https://github.com/nvim-telescope/telescope-symbols.nvim";
-      license = with licenses; [ mit ];
-    };
-  };
-  telescope-nvim = buildVimPlugin {
-    pname = "telescope-nvim";
-    version = "2021-12-10";
-    src = fetchurl {
-      url = "https://github.com/nvim-telescope/telescope.nvim/archive/5f37fbfa837dfee7ecd30f388b271f4a71c0a9e0.tar.gz";
-      sha256 = "1c0wdz4xpzdmvrazqygsaysx5rs7i0qi7lqnd0iwdn9ryxfn5l27";
-    };
-    meta = with lib; {
-      description = "Find, Filter, Preview, Pick. All lua, all the time.";
-      homepage = "https://github.com/nvim-telescope/telescope.nvim";
-      license = with licenses; [ mit ];
-    };
-  };
-  nvim-treesitter = buildVimPlugin {
-    pname = "nvim-treesitter";
-    version = "2021-12-13";
-    src = fetchurl {
-      url = "https://github.com/nvim-treesitter/nvim-treesitter/archive/7474cb06c2be750eae92da51ff7791deb3b21397.tar.gz";
-      sha256 = "1amslka1c3s7pnp4jaf53r2hr0wq61vdcz68hn2sqj7a28yg760a";
-    };
-    meta = with lib; {
-      description = "Nvim Treesitter configurations and abstraction layer";
-      homepage = "https://github.com/nvim-treesitter/nvim-treesitter";
-      license = with licenses; [ asl20 ];
-    };
-  };
-  nvim-treesitter-textobjects = buildVimPlugin {
-    pname = "nvim-treesitter-textobjects";
-    version = "2021-12-12";
-    src = fetchurl {
-      url = "https://github.com/nvim-treesitter/nvim-treesitter-textobjects/archive/9516c7df283f7197c3f73a4ce9b3c79aab4576b3.tar.gz";
-      sha256 = "1qrqdli5sclwd046i1v9wdjja7x70zaz8la1bbssxgbq2qa3zrx1";
-    };
-    meta = with lib; {
-      description = "userdata: NULL";
-      homepage = "https://github.com/nvim-treesitter/nvim-treesitter-textobjects";
-      license = with licenses; [ asl20 ];
-    };
-  };
-  lspkind-nvim = buildVimPlugin {
-    pname = "lspkind-nvim";
-    version = "2021-12-06";
-    src = fetchurl {
-      url = "https://github.com/onsails/lspkind-nvim/archive/f3b5efa11f0665accb7bd0258260b9d08dd4956e.tar.gz";
-      sha256 = "01al43zjn3597npkhbgqsmiah46890br8fx2vyfdc0xjva8ls7r3";
-    };
-    meta = with lib; {
-      description = "vscode-like pictograms for neovim lsp completion items";
-      homepage = "https://github.com/onsails/lspkind-nvim";
-      license = with licenses; [ mit ];
-    };
-  };
-  requirements-txt-vim = buildVimPlugin {
+  requirements-txt-vim = buildVimPluginFrom2Nix {
     pname = "requirements-txt-vim";
     version = "2021-12-04";
     src = fetchurl {
@@ -481,19 +227,7 @@
       license = with licenses; [ mit ];
     };
   };
-  clever-f-vim = buildVimPlugin {
-    pname = "clever-f-vim";
-    version = "2021-07-07";
-    src = fetchurl {
-      url = "https://github.com/rhysd/clever-f.vim/archive/fd370f27cca93918184a8043220cef1aa440a1fd.tar.gz";
-      sha256 = "0m13j69mjnlb2z13yzy1hz2z8vxwqb0r8a8p0pq3qzpx7p5xidkr";
-    };
-    meta = with lib; {
-      description = "Extended f, F, t and T key mappings for Vim.";
-      homepage = "https://github.com/rhysd/clever-f.vim";
-    };
-  };
-  vim-gfm-syntax = buildVimPlugin {
+  vim-gfm-syntax = buildVimPluginFrom2Nix {
     pname = "vim-gfm-syntax";
     version = "2021-10-04";
     src = fetchurl {
@@ -506,7 +240,7 @@
       license = with licenses; [ mit ];
     };
   };
-  paq-nvim = buildVimPlugin {
+  paq-nvim = buildVimPluginFrom2Nix {
     pname = "paq-nvim";
     version = "2021-12-11";
     src = fetchurl {
@@ -519,7 +253,7 @@
       license = with licenses; [ mit ];
     };
   };
-  vim-yoink = buildVimPlugin {
+  vim-yoink = buildVimPluginFrom2Nix {
     pname = "vim-yoink";
     version = "2021-09-15";
     src = fetchurl {
@@ -532,19 +266,7 @@
       license = with licenses; [ mit ];
     };
   };
-  vim-visualstar = buildVimPlugin {
-    pname = "vim-visualstar";
-    version = "2015-08-27";
-    src = fetchurl {
-      url = "https://github.com/thinca/vim-visualstar/archive/a18cd0e7a03311ac709595c1d261ed44b45c9098.tar.gz";
-      sha256 = "02l5d2ah577z3vcf1g9y9jcvms7adhkmn2wgnfdz49ln19yjhm8b";
-    };
-    meta = with lib; {
-      description = "star for Visual-mode.";
-      homepage = "https://github.com/thinca/vim-visualstar";
-    };
-  };
-  astronauta-nvim = buildVimPlugin {
+  astronauta-nvim = buildVimPluginFrom2Nix {
     pname = "astronauta-nvim";
     version = "2021-11-09";
     src = fetchurl {
@@ -557,69 +279,7 @@
       license = with licenses; [ mit ];
     };
   };
-  vim-repeat = buildVimPlugin {
-    pname = "vim-repeat";
-    version = "2021-01-25";
-    src = fetchurl {
-      url = "https://github.com/tpope/vim-repeat/archive/24afe922e6a05891756ecf331f39a1f6743d3d5a.tar.gz";
-      sha256 = "13lkilh159yhgrigvcwgy65nzfnzfkzx56ywaxlq6kw2xn2wzlan";
-    };
-    meta = with lib; {
-      description = "repeat.vim: enable repeating supported plugin maps with "."";
-      homepage = "https://github.com/tpope/vim-repeat";
-    };
-  };
-  vim-rsi = buildVimPlugin {
-    pname = "vim-rsi";
-    version = "2021-01-16";
-    src = fetchurl {
-      url = "https://github.com/tpope/vim-rsi/archive/e181883a0932d9315cceb96b5fffb5e2ec67068e.tar.gz";
-      sha256 = "0jjndbk9cchnm6s5r43wrs956gw9znhc8wlwk11qv1v4yk2gnqgm";
-    };
-    meta = with lib; {
-      description = "rsi.vim: Readline style insertion";
-      homepage = "https://github.com/tpope/vim-rsi";
-    };
-  };
-  vim-unimpaired = buildVimPlugin {
-    pname = "vim-unimpaired";
-    version = "2021-10-18";
-    src = fetchurl {
-      url = "https://github.com/tpope/vim-unimpaired/archive/e4006d68cd4f390efef935bc09be0ce3bd022e72.tar.gz";
-      sha256 = "0hpahirg87m7gb8dqjn71mjn8nc4ki9bfhkc2ajbrykmij0fhfxs";
-    };
-    meta = with lib; {
-      description = "unimpaired.vim: Pairs of handy bracket mappings";
-      homepage = "https://github.com/tpope/vim-unimpaired";
-    };
-  };
-  vim-pandoc-syntax = buildVimPlugin {
-    pname = "vim-pandoc-syntax";
-    version = "2021-07-06";
-    src = fetchurl {
-      url = "https://github.com/vim-pandoc/vim-pandoc-syntax/archive/5056e635ecf406e65d7d28651bab55600dd18741.tar.gz";
-      sha256 = "1x9af6ixafq4dmqp7aii23lhr6hbm7bxvp738k5grclbz523iqw1";
-    };
-    meta = with lib; {
-      description = "pandoc markdown syntax, to be installed alongside vim-pandoc";
-      homepage = "https://github.com/vim-pandoc/vim-pandoc-syntax";
-      license = with licenses; [ mit ];
-    };
-  };
-  nvim-cursorline = buildVimPlugin {
-    pname = "nvim-cursorline";
-    version = "2021-09-28";
-    src = fetchurl {
-      url = "https://github.com/yamatsum/nvim-cursorline/archive/e4fa1d90c2c6169c18f7ea3275845a2de9335dbf.tar.gz";
-      sha256 = "0kg522krih4fpkk75sqjbql5qp68x0q9cax9yc2qy0qnyz1i63pi";
-    };
-    meta = with lib; {
-      description = "A plugin for neovim that highlights cursor words and lines";
-      homepage = "https://github.com/yamatsum/nvim-cursorline";
-      license = with licenses; [ mit ];
-    };
-  };
-  nvim-pqf = buildVimPlugin {
+  nvim-pqf = buildVimPluginFrom2Nix {
     pname = "nvim-pqf";
     version = "2021-10-29";
     src = fetchurl {
