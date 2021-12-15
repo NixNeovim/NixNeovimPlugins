@@ -11,12 +11,12 @@
   "Get base name of a path."
   (string.gsub path "(.*/)(.*)" "%2"))
 
-(fn slurp [file]
+(fn io.slurp [file]
   "Read all contents of a file."
   (with-open [buf (assert (io.open file))]
     (buf:read :*all)))
 
-(fn chomp [str]
+(fn string.chomp [str]
   "Remove trailing newlines: \\n, \\r, or \\r\\n."
   (string.gsub str "[\r\n]+$" ""))
 
@@ -46,7 +46,7 @@
   "Prefetch url and get its sha256 hash."
   (let [cmd (string.format "nix-prefetch-url --type sha256 %s 2>/dev/null" url)
         pipe (assert (io.popen cmd))
-        sha256 (chomp (assert (pipe:read :*all)))]
+        sha256 (string.chomp (assert (pipe:read :*all)))]
     (pipe:close)
     sha256))
 
@@ -299,22 +299,22 @@
 
 (fn main []
   (let [program-name (basename (. arg 0))
-        specs (cjson.decode (slurp "manifest.json"))]
-    (table.sort specs
+        manifest (cjson.decode (io.slurp "manifest.json"))]
+    (table.sort manifest
                 (fn [left right]
                   (< (string.gsub left "^[^/]+:" "")
                      (string.gsub right "^[^/]+:" ""))))
     (with-open [nix (io.open "pkgs/vim-plugins.nix" :w)
                 readme (io.open "README.md" :w)]
       (nix:write "{ lib, buildVimPlugin, fetchurl }:\n\n{\n")
-      (readme:write (slurp "assets/README_header.md"))
-      (each [_ spec (ipairs specs)]
+      (readme:write (io.slurp "assets/README_header.md"))
+      (each [_ spec (ipairs manifest)]
         (io.stderr:write (string.format "%s: update %s..." program-name spec))
         (let [pkg (plugin.new spec)]
           (nix:write (pkg:to-nixexpr))
           (readme:write (pkg:to-markdown-table-row)))
         (io.stderr:write "done\n"))
       (nix:write "}\n")
-      (readme:write (slurp "assets/README_footer.md")))))
+      (readme:write (io.slurp "assets/README_footer.md")))))
 
 (main)
