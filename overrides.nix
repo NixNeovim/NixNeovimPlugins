@@ -35,6 +35,12 @@ let
       });
     });
 
+    null-ls-nvim = super.null-ls-nvim.overrideAttrs (old: {
+      meta = old.meta // ( with lib; {
+        license = with licenses; [ publicDomain ];
+      });
+    });
+
     vim-emacscommandline = super.vim-emacscommandline.overrideAttrs (old: {
       meta = old.meta // ( with lib; {
         license = with licenses; [ vim ];

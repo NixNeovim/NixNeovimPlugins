@@ -85,6 +85,7 @@ with import <nixpkgs> {
 | [houtsnip/vim-emacscommandline](https://github.com/houtsnip/vim-emacscommandline) | 2017-11-24 | `vim-emacscommandline` |
 | [hylang/vim-hy](https://github.com/hylang/vim-hy) | 2021-05-20 | `vim-hy` |
 | [inkch/vim-fish](https://github.com/inkch/vim-fish) | 2021-05-21 | `vim-fish` |
+| [jose-elias-alvarez/null-ls.nvim](https://github.com/jose-elias-alvarez/null-ls.nvim) | 2021-12-16 | `null-ls-nvim` |
 | [kana/vim-textobj-indent](https://github.com/kana/vim-textobj-indent) | 2013-01-18 | `vim-textobj-indent` |
 | [mnacamura/iron.nvim](https://github.com/mnacamura/iron.nvim) | 2021-12-01 | `iron-nvim` |
 | [mnacamura/nvim-srcerite](https://github.com/mnacamura/nvim-srcerite) | 2021-12-12 | `nvim-srcerite` |

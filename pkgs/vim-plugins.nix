@@ -125,6 +125,18 @@
       license = with licenses; [ mit ];
     };
   };
+  null-ls-nvim = buildVimPluginFrom2Nix {
+    pname = "null-ls-nvim";
+    version = "2021-12-16";
+    src = fetchurl {
+      url = "https://github.com/jose-elias-alvarez/null-ls.nvim/archive/9cff7d66bfa1ed8f4e2a4a4377af2bcaf176d914.tar.gz";
+      sha256 = "1mqdm5k3410ryv9h985g5vz9q16q93x2j6nj199r4yzbskd0hgvi";
+    };
+    meta = with lib; {
+      description = "Use Neovim as a language server to inject LSP diagnostics, code actions, and more via Lua.";
+      homepage = "https://github.com/jose-elias-alvarez/null-ls.nvim";
+    };
+  };
   vim-textobj-indent = buildVimPluginFrom2Nix {
     pname = "vim-textobj-indent";
     version = "2013-01-18";

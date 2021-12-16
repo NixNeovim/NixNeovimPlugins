@@ -9,6 +9,7 @@
    "fuenor/JpFormat.vim",
    "houtsnip/vim-emacscommandline",
    "hylang/vim-hy",
+   "jose-elias-alvarez/null-ls.nvim",
    "kana/vim-textobj-indent",
    "mnacamura/iron.nvim",
    "mnacamura/nvim-srcerite",
