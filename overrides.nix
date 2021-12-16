@@ -5,6 +5,16 @@ final: prev:
 let
   overrides = self: super:
   {
+    feline-nvim = super.feline-nvim.overrideAttrs (old: {
+      patches = (old.patches or []) ++ [
+        # https://github.com/famiu/feline.nvim/pull/179
+        (final.fetchpatch {
+          url = "https://github.com/zbirenbaum/feline.nvim/commit/d62d9ec923fe76da27f5ac7000b2a506b035740d.patch";
+          sha256 = "sha256-fLa6za0Srm/gnVPlPgs11+2cxhj7hitgUhlHu2jc2+s=";
+        })
+      ];
+    });
+
     lspactions = super.lspactions.overrideAttrs (_: {
       dependencies = with final.vimPlugins; [
         plenary-nvim
