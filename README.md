@@ -6,7 +6,7 @@ Nix flake of miscellaneous Vim/Neovim plugins.
 
 This repository contains Nix packages of miscellaneous Vim/Neovim plugins I use but
 not provided by the official nixpkgs.
-Packages are automatically updated once per week using GitHub Actions.
+Packages are automatically updated twice per week using GitHub Actions.
 
 ## Usage
 

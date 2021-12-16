@@ -7,7 +7,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "44 4 * * 2"
+    - cron: "44 4 * * 2,5"
 
 jobs:
   update-plugins:
