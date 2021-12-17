@@ -79,15 +79,22 @@
 ;;; ------------------------------------------------------------------------------------------------
 ;;; GitHub things
 
-(local github {})
+(local github {:token-missing-warned false})
 
 (fn github.get [query token]
   "Get contents by query using GitHub REST API."
-  (let [token (assert (or token (os.getenv "GITHUB_TOKEN"))
-                      "GitHub API access token missing")
+  (let [token (or token
+                  (os.getenv "GITHUB_TOKEN")
+                  (when (not github.token-missing-warned)
+                    (io.stderr:write "GITHUB_TOKEN missing...")
+                    (set github.token-missing-warned true)
+                    nil))
         (body headers) (http.get (string.format "https://api.github.com/%s" query)
-                                 {:authorization (string.format "token %s" token)
-                                  :content-type "application/json"})]
+                                 (let [request-headers {:content-type "application/json"}]
+                                   (when token
+                                     (set request-headers.authorization
+                                          (string.format "token %s" token)))
+                                   request-headers))]
     (values (cjson.decode body) headers)))
 
 (fn github.null? [x]
