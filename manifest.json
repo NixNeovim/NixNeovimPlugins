@@ -4,6 +4,7 @@
    "aliou/bats.vim",
    "crispgm/telescope-heading.nvim",
    "dkarter/bullets.vim",
+   "ellisonleao/glow.nvim",
    "ethanholz/nvim-lastplace",
    "famiu/feline.nvim:develop",
    "fuenor/JpFormat.vim",
