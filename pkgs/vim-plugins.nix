@@ -164,10 +164,10 @@
   };
   nvim-srcerite = buildVimPluginFrom2Nix {
     pname = "nvim-srcerite";
-    version = "2021-12-12";
+    version = "2021-12-17";
     src = fetchurl {
-      url = "https://github.com/mnacamura/nvim-srcerite/archive/1031529a3f16e0c144434f7340a73b8cf01c5ec6.tar.gz";
-      sha256 = "0cfcx57rskxdg3yxcm1a1p39r6j3ghpji4xvjch4ryp65vz38iqz";
+      url = "https://github.com/mnacamura/nvim-srcerite/archive/2eadf3c0e8b9b493b3b6af8bebded4706919b33f.tar.gz";
+      sha256 = "105dy572r8csj0frqky7w6s1ydj8h250hj9z2zsp51jacazs56fr";
     };
     meta = with lib; {
       description = "A colorscheme for Neovim inspired by Srcery";
@@ -210,6 +210,19 @@
     meta = with lib; {
       description = "enhanced increment/decrement plugin for Neovim";
       homepage = "https://github.com/monaqa/dial.nvim";
+      license = with licenses; [ mit ];
+    };
+  };
+  matchparen-nvim = buildVimPluginFrom2Nix {
+    pname = "matchparen-nvim";
+    version = "2021-12-12";
+    src = fetchurl {
+      url = "https://github.com/monkoose/matchparen.nvim/archive/f46fd66b845d328cd849a7736691f00f59268920.tar.gz";
+      sha256 = "0qhrig47g8sbcz0fvf8zbm41797ivf2b1gm7yrcwy3vmxfgg9j8r";
+    };
+    meta = with lib; {
+      description = "alternative to matchparen neovim plugin ";
+      homepage = "https://github.com/monkoose/matchparen.nvim";
       license = with licenses; [ mit ];
     };
   };
