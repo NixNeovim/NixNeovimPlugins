@@ -16,6 +16,7 @@
    "mnacamura/vim-fennel-syntax",
    "mnacamura/vim-r7rs-syntax",
    "monaqa/dial.nvim",
+   "monkoose/matchparen.nvim",
    "nvim-telescope/telescope-bibtex.nvim",
    "raimon49/requirements.txt.vim",
    "rhysd/vim-gfm-syntax",
