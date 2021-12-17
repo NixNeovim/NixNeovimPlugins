@@ -72,7 +72,13 @@ with import <nixpkgs> {
 };
 ```
 
+### Via NUR
+
+You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the package list][3].
+
 [1]: https://nixos.org/manual/nix/stable/release-notes/rl-2.4.html?highlight=builtins.getFlake#other-features
+[2]: https://nur.nix-community.org/
+[3]: https://nur.nix-community.org/repos/m15a/
 
 ## Available Vim/Neovim plugins
 
