@@ -16,9 +16,10 @@
   (with-open [buf (assert (io.open file))]
     (buf:read :*all)))
 
-(fn string.chomp [str]
-  "Remove trailing newlines: \\n, \\r, or \\r\\n."
-  (string.gsub str "[\r\n]+$" ""))
+(fn string.chomp [str pattern]
+  "Remove trailing pattern, defaulting to newlines: \\n, \\r, or \\r\\n."
+  (let [pattern ( .. (or pattern "[\r\n]+") "$")]
+    (string.gsub str pattern "")))
 
 (fn string.split [str sep]
   "Split string by the separator into a table."
@@ -228,6 +229,13 @@
   "Get date (YYYY-MM-DD) from timestamp."
   (string.match timestamp "^%d%d%d%d%-%d%d%-%d%d"))
 
+(fn plugin.preprocess [self]
+  "Adjust style of nix attrs."
+  (let [desc self.repo.description]
+    ;; Remove trailing period(s) from meta.description.
+    (set self.repo.description (string.chomp desc "%.+"))
+    self))
+
 (fn plugin.new [spec]
   "Create object representing Vim plugin."
   (let [spec (manifest.parse-spec spec)
@@ -244,7 +252,8 @@
              : repo
              :branch recent-commit.branch
              : url
-             :sha256 (nix.prefetch-url url)}]
+             :sha256 (nix.prefetch-url url)}
+        obj (plugin.preprocess obj)]
      (setmetatable obj plugin)))
 
 (fn plugin.to-nixexpr [self]
