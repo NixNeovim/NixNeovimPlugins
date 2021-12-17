@@ -50,6 +50,19 @@
       homepage = "https://github.com/dkarter/bullets.vim";
     };
   };
+  glow-nvim = buildVimPluginFrom2Nix {
+    pname = "glow-nvim";
+    version = "2021-12-14";
+    src = fetchurl {
+      url = "https://github.com/ellisonleao/glow.nvim/archive/d86281307ce2898d0fcd85ecb0865fc1dd2f2578.tar.gz";
+      sha256 = "1wgshkgank2qv65a5zrhlfdyvsaqwi201hv1j5ylfswi7fa390vg";
+    };
+    meta = with lib; {
+      description = "A markdown preview directly in your neovim";
+      homepage = "https://github.com/ellisonleao/glow.nvim";
+      license = with licenses; [ mit ];
+    };
+  };
   nvim-lastplace = buildVimPluginFrom2Nix {
     pname = "nvim-lastplace";
     version = "2021-10-15";
