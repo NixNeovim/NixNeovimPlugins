@@ -15,6 +15,11 @@ let
         broken = true;
       });
     });
+    highlight-current-n-nvim = super.highlight-current-n-nvim.overrideAttrs (old: {
+      meta = old.meta // ( with lib; {
+        broken = true;
+      });
+    });
 
     feline-nvim = super.feline-nvim.overrideAttrs (old: {
       patches = (old.patches or []) ++ [
