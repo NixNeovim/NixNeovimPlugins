@@ -3,9 +3,9 @@
 
 ### How to add a new plugin
 
-#### 1. Add a new entry to `manifest.json`
+#### 1. Add a new entry to `manifest.spec`
 
-In `manifest.json`, an entry is specified by one of the following forms:
+In `manifest.spec`, an entry is specified by one of the following forms:
 
 - `owner/repo`: a GitHub repo with default branch (typically `main` or `master`).
 - `github:owner/repo`: again, a GitHub repo with default branch.
