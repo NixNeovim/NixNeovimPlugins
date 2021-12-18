@@ -249,9 +249,12 @@
         (set state :done)))
     (icollect [_ line (ipairs out)]
       (let [(repo-type full-name) (line:match "^([^/]+)%.com/([^/]+/[^/]+)$")]
-        (if (= repo-type :gitlab)
-            (string.format "%s:%s" repo-type full-name)
-            full-name)))))
+        (match repo-type
+          :gitlab (string.format "%s:%s" repo-type full-name)
+          :github (if (full-name:match "feline%.nvim")
+                      "feline-nvim/feline.nvim" ; hot fix due to organization change
+                      full-name)
+          _ (error "undefined repo type"))))))
 
 ;;; ------------------------------------------------------------------------------------------------
 ;;; Manifest spec parser
@@ -480,10 +483,14 @@
         official-manifest (nix.get-nixpkgs-vim-plugins-manifest)
         whitelist (collect [_ spec (ipairs (. (manifest.load "whitelist.txt")
                                               :specs))]
+                    spec true)
+        blacklist (collect [_ spec (ipairs (. (manifest.load "blacklist.txt")
+                                              :specs))]
                     spec true)]
     (each [_ spec (ipairs %manifest.specs)]
-      (if (or (. whitelist spec)
-              (not (. official-manifest spec)))
+      (if (and (not (. blacklist spec))
+               (or (. whitelist spec)
+                   (not (. official-manifest spec))))
           (table.insert specs spec)
           (do (io.stderr:write
                 (string.format "%s: %s is provided by official\n" (program-name) spec))
@@ -502,13 +509,17 @@
         awesome-neovim-manifest (awesome-neovim.get-vim-plugins-manifest)
         whitelist (collect [_ spec (ipairs (. (manifest.load "whitelist.txt")
                                               :specs))]
+                    spec true)
+        blacklist (collect [_ spec (ipairs (. (manifest.load "blacklist.txt")
+                                              :specs))]
                     spec true)]
     (io.stderr:write (string.format "%s: search for new plugins from awesome-neovim\n"
                                     (program-name)))
     (each [_ spec (ipairs awesome-neovim-manifest)]
-      (when (or (. whitelist spec)
-                (and (not (. official-manifest spec))
-                     (not (. %manifest-specs spec))))
+      (when (and (not (. blacklist spec))
+                 (or (. whitelist spec)
+                    (and (not (. official-manifest spec))
+                         (not (. %manifest-specs spec)))))
         (table.insert %manifest.specs spec)
         (io.stderr:write (string.format "%s: add %s\n" (program-name) spec))))
     (%manifest:lint)

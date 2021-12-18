@@ -1,14 +1,14 @@
+inkch/vim-fish
 RishabhRD/lspactions
 aliou/bats.vim
 crispgm/telescope-heading.nvim
 dkarter/bullets.vim
 ellisonleao/glow.nvim
 ethanholz/nvim-lastplace
-famiu/feline.nvim:develop
+feline-nvim/feline.nvim:develop
 fuenor/JpFormat.vim
 houtsnip/vim-emacscommandline
 hylang/vim-hy
-inkch/vim-fish
 jose-elias-alvarez/null-ls.nvim
 kana/vim-textobj-indent
 mnacamura/iron.nvim
