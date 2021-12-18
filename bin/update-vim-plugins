@@ -218,6 +218,40 @@
                  sha))
 
 ;;; ------------------------------------------------------------------------------------------------
+;;; awesome-neovim
+
+(local awesome-neovim {})
+
+(fn awesome-neovim.get-vim-plugins-manifest []
+  "Fetch vim plugins manifest from rockerBOO/awesome-neovim."
+  (let [path "/rockerBOO/awesome-neovim/main/README.md"
+        url (string.format "https://raw.githubusercontent.com%s" path)
+        readme (http.get url)
+        out []]
+    (var state :init)
+    (each [_ line (ipairs (readme:split "\n"))]
+      (when (and (= state :active)
+                 (line:match "^%s*-%s+%["))
+        ;; trim mini.nvim#foobar
+        (table.insert out (line:match "%[[^%]]+%]%(https://([^%)#]+)")))
+      (when (and (= state :init)
+                 (line:match "^## Plugin"))
+        (set state :active))
+      (when (and (= state :active)
+                 (line:match "^### Preconfigured Configuration"))
+        (set state :skip))
+      (when (and (= state :skip)
+                 (line:match "^### Keyinding"))
+        (set state :active))
+      (when (line:match "^## External")
+        (set state :done)))
+    (icollect [_ line (ipairs out)]
+      (let [(repo-type full-name) (line:match "^([^/]+)%.com/([^/]+/[^/]+)$")]
+        (if (= repo-type :gitlab)
+            (string.format "%s:%s" repo-type full-name)
+            full-name)))))
+
+;;; ------------------------------------------------------------------------------------------------
 ;;; Manifest spec parser
 
 (local manifest {})
@@ -455,6 +489,27 @@
     (%manifest:lint)
     (%manifest:save)))
 
+(fn command-awesome []
+  "Fetch awesome-neovim vim plugins manifest."
+  (let [%manifest (manifest.load)
+        %manifest-specs (collect [_ spec (ipairs %manifest.specs)]
+                          spec true)
+        official-manifest (nix.get-nixpkgs-vim-plugins-manifest)
+        awesome-neovim-manifest (awesome-neovim.get-vim-plugins-manifest)
+        whitelist (collect [_ spec (ipairs (. (manifest.load "whitelist.spec")
+                                              :specs))]
+                    spec true)]
+    (io.stderr:write (string.format "%s: search for new plugins from awesome-neovim\n"
+                                    (program-name)))
+    (each [_ spec (ipairs awesome-neovim-manifest)]
+      (when (or (. whitelist spec)
+                (and (not (. official-manifest spec))
+                     (not (. %manifest-specs spec))))
+        (table.insert %manifest.specs spec)
+        (io.stderr:write (string.format "%s: add %s\n" (program-name) spec))))
+    (%manifest:lint)
+    (%manifest:save)))
+
 ;;; ------------------------------------------------------------------------------------------------
 ;;; Main
 
@@ -462,6 +517,7 @@
   (match arg
     [:update & args] (command-update (unpack args))
     [:lint & args] (command-lint (unpack args))
+    [:awesome & _] (command-awesome)
     args (command-update (unpack args))
     _ (error "undefined subcommand")))
 
