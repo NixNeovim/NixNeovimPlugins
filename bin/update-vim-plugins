@@ -465,7 +465,9 @@
                 (io.stderr:write "used previous result\n"))))
       (nix:write "}\n")
       (readme:write (io.slurp "assets/README_footer.md")))
-    (%cache:save)))
+    (%cache:save)
+    (%manifest:lint)
+    (%manifest:save)))
 
 (fn command-lint [...]
   "Check if any plugin in the manifest is already maintained in the official nixpkgs."
