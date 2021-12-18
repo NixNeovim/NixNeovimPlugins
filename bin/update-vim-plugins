@@ -257,22 +257,33 @@
                 prev-specs)
       (set self.changed true))))
 
+(fn manifest.changed? [self]
+  "Return true of manifest specs are changed since its loaded time."
+  (not= self.origin
+        (table.concat self.specs "\n")))
+
 (fn manifest.load [file]
   "Load manifest from a file, defaulting to `manifest.spec`."
   (let [file (or file "manifest.spec")
         specs (icollect [spec (io.lines file)] spec)
-        obj {: file : specs :changed? false}]
+        obj {: file
+             : specs
+             :origin (table.concat specs "\n")}]
     (setmetatable obj manifest)))
 
 (fn manifest.save [self]
   "Save manifest to the file."
-  (with-open [buf (io.open self.file :w)]
-    (buf:write (table.concat self.specs "\n"))))
+  (when (self:changed?)
+    (with-open [buf (io.open self.file :w)]
+      (buf:write (table.concat self.specs "\n")))
+    (io.stderr:write (string.format "%s: manifest saved to %s\n" (program-name) self.file))))
 
 ;;; ------------------------------------------------------------------------------------------------
 ;;; Cache file
 
 (local cache {})
+
+(set cache.__index cache)
 
 (fn cache.load []
   "Load cache of previous update."
@@ -286,8 +297,10 @@
 
 (fn cache.save [self]
   "Save cache as JSON."
-  (with-open [buf (io.open self.file :w)]
-    (buf:write (cjson.encode self.data))))
+  (when self.changed?
+    (with-open [buf (io.open self.file :w)]
+      (buf:write (cjson.encode self.data)))
+    (io.stderr:write (string.format "%s: cache saved to %s\n" (program-name) self.file))))
 
 ;;; ------------------------------------------------------------------------------------------------
 ;;; Vim plugin
@@ -394,55 +407,53 @@
   "Update manifested plugins."
   (let [args (collect [_ a (ipairs [...])] a true)
         update-all? (. args "--all")
-        manifest (manifest.load)
-        cache (cache.load)]
+        %manifest (manifest.load)
+        %cache (cache.load)]
     (with-open [nix (io.open "pkgs/vim-plugins.nix" :w)
                 readme (io.open "README.md" :w)]
       (nix:write "{ lib, buildVimPluginFrom2Nix, fetchurl }:\n\n{\n")
       (readme:write (io.slurp "assets/README_header.md"))
-      (each [_ spec (ipairs manifest.specs)]
+      (each [_ spec (ipairs %manifest.specs)]
         (if (or update-all?
-                (not (. cache :data spec)))
+                (not (. %cache :data spec)))
             (do (io.stderr:write (string.format "%s: update %s..." (program-name) spec))
                 (let [pkg (plugin.new spec)
                       nixexpr (pkg:to-nixexpr)
                       mditem (pkg:to-markdown-table-row)]
                   (nix:write nixexpr)
                   (readme:write mditem)
-                  (tset cache.data spec {: nixexpr : mditem}))
-                (set cache.changed? true)
+                  (tset %cache.data spec {: nixexpr : mditem}))
+                (set %cache.changed? true)
                 (io.stderr:write "done\n"))
             (do (io.stderr:write (string.format "%s: skip %s..." (program-name) spec)) 
-                (nix:write (. cache :data spec :nixexpr))
-                (readme:write (. cache :data spec :mditem))
+                (nix:write (. %cache :data spec :nixexpr))
+                (readme:write (. %cache :data spec :mditem))
                 (io.stderr:write "used previous result\n"))))
       (nix:write "}\n")
       (readme:write (io.slurp "assets/README_footer.md")))
-    (when cache.changed?
-      (cache.save))))
+    (%cache:save)))
 
 (fn command-lint [...]
   "Check if any plugin in the manifest is already maintained in the official nixpkgs."
   (let [args (collect [_ a (ipairs [...])] a true)
         force? (. args "--force")
-        specs (manifest.load)
-        %specs []
-        whitelist (collect [_ spec (ipairs (manifest.load "whitelist.spec"))]
-                    spec true)
-        official-manifest (nix.get-nixpkgs-vim-plugins-manifest)]
-    (each [_ spec (ipairs specs)]
+        %manifest (manifest.load)
+        specs []
+        official-manifest (nix.get-nixpkgs-vim-plugins-manifest)
+        whitelist (collect [_ spec (ipairs (. (manifest.load "whitelist.spec")
+                                              :specs))]
+                    spec true)]
+    (each [_ spec (ipairs %manifest.specs)]
       (if (or (. whitelist spec)
               (not (. official-manifest spec)))
-          (table.insert %specs spec)
+          (table.insert specs spec)
           (do (io.stderr:write
                 (string.format "%s: %s is provided by official\n" (program-name) spec))
               (when (not force?)
-                (table.insert %specs spec)))))
-    (when (not= (table.concat specs "\n")
-                (table.concat %specs "\n"))
-      (io.stderr:write
-        (string.format "%s: manifest.spec changed\n" (program-name)))
-      (manifest.save %specs))))
+                (table.insert specs spec)))))
+    (set %manifest.specs specs)
+    (%manifest:lint)
+    (%manifest:save)))
 
 ;;; ------------------------------------------------------------------------------------------------
 ;;; Main
