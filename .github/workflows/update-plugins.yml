@@ -3,7 +3,7 @@ name: Update Plugins
 on:
   push:
     paths:
-      - manifest.json
+      - manifest.txt
     branches:
       - main
   schedule:
