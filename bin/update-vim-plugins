@@ -297,8 +297,8 @@
         (table.concat self.specs "\n")))
 
 (fn manifest.load [file]
-  "Load manifest from a file, defaulting to `manifest.spec`."
-  (let [file (or file "manifest.spec")
+  "Load manifest from a file, defaulting to `manifest.txt`."
+  (let [file (or file "manifest.txt")
         specs (icollect [spec (io.lines file)] spec)
         obj {: file
              : specs
@@ -474,7 +474,7 @@
         %manifest (manifest.load)
         specs []
         official-manifest (nix.get-nixpkgs-vim-plugins-manifest)
-        whitelist (collect [_ spec (ipairs (. (manifest.load "whitelist.spec")
+        whitelist (collect [_ spec (ipairs (. (manifest.load "whitelist.txt")
                                               :specs))]
                     spec true)]
     (each [_ spec (ipairs %manifest.specs)]
@@ -496,7 +496,7 @@
                           spec true)
         official-manifest (nix.get-nixpkgs-vim-plugins-manifest)
         awesome-neovim-manifest (awesome-neovim.get-vim-plugins-manifest)
-        whitelist (collect [_ spec (ipairs (. (manifest.load "whitelist.spec")
+        whitelist (collect [_ spec (ipairs (. (manifest.load "whitelist.txt")
                                               :specs))]
                     spec true)]
     (io.stderr:write (string.format "%s: search for new plugins from awesome-neovim\n"
