@@ -1419,19 +1419,6 @@
       license = with licenses; [ mit ];
     };
   };
-  panvimdoc = buildVimPluginFrom2Nix {
-    pname = "panvimdoc";
-    version = "2021-11-25";
-    src = fetchurl {
-      url = "https://github.com/kdheepak/panvimdoc/archive/c0b309742ca134f840e3a36fa3a34482a05b4add.tar.gz";
-      sha256 = "1zi71jm8d8xmwp2iprb8r2zhmzs4z5nxgs343q2ps8slg6h6525x";
-    };
-    meta = with lib; {
-      description = "Write documentation in pandoc markdown. Generate documentation in vimdoc";
-      homepage = "https://github.com/kdheepak/panvimdoc";
-      license = with licenses; [ mit ];
-    };
-  };
   vacuumline-nvim = buildVimPluginFrom2Nix {
     pname = "vacuumline-nvim";
     version = "2021-08-11";

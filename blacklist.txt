@@ -1,3 +1,4 @@
 Famiu/feline.nvim
 famiu/feline.nvim
 feline-nvim/feline.nvim
+kdheepak/panvimdoc

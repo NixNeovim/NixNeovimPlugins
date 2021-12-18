@@ -201,7 +201,6 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [kana/vim-textobj-indent](https://github.com/kana/vim-textobj-indent) | 2013-01-18 | `vim-textobj-indent` |
 | [kazhala/close-buffers.nvim](https://github.com/kazhala/close-buffers.nvim) | 2021-11-14 | `close-buffers-nvim` |
 | [kdheepak/monochrome.nvim](https://github.com/kdheepak/monochrome.nvim) | 2021-07-14 | `monochrome-nvim` |
-| [kdheepak/panvimdoc](https://github.com/kdheepak/panvimdoc) | 2021-11-25 | `panvimdoc` |
 | [konapun/vacuumline.nvim](https://github.com/konapun/vacuumline.nvim) | 2021-08-11 | `vacuumline-nvim` |
 | [nvim-orgmode/orgmode](https://github.com/nvim-orgmode/orgmode) | 2021-12-12 | `orgmode` |
 | [kvrohit/substrata.nvim](https://github.com/kvrohit/substrata.nvim) | 2021-12-07 | `substrata-nvim` |

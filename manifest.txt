@@ -109,7 +109,6 @@ jvgrootveld/telescope-zoxide
 kana/vim-textobj-indent
 kazhala/close-buffers.nvim
 kdheepak/monochrome.nvim
-kdheepak/panvimdoc
 konapun/vacuumline.nvim
 kristijanhusak/orgmode.nvim
 kvrohit/substrata.nvim
