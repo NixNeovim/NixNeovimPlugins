@@ -393,10 +393,13 @@
 
 (fn command-lint []
   "Check if any plugin in the manifest is already maintained in the official nixpkgs."
-  (let [local-manifest (manifest.load)
+  (let [specs (manifest.load)
+        whitelist (collect [_ spec (ipairs (manifest.load "whitelist.spec"))]
+                    spec true)
         official-manifest (nix.get-nixpkgs-vim-plugins-manifest)]
-    (each [_ spec (ipairs local-manifest)]
-      (when (. official-manifest spec)
+    (each [_ spec (ipairs specs)]
+      (when (and (not (. whitelist spec))
+                 (. official-manifest spec))
         (io.stderr:write
           (string.format "%s: %s is provided by official\n" (program-name) spec))))))
 
