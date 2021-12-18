@@ -215,6 +215,8 @@
 
 (local manifest {})
 
+(set manifest.name "manifest.spec")
+
 (fn manifest.parse-spec [spec]
   "Parse manifest spec."
   (match (type spec)
@@ -237,13 +239,18 @@
 
 (fn manifest.load [file]
   "Load manifest specs from the file."
-  (let [file (or file "manifest.spec")
+  (let [file (or file manifest.name)
         specs (icollect [spec (io.lines file)] spec)]
     (table.sort specs
                 (fn [left right]
                   (< (string.gsub left "^[^/]+:" "")
                      (string.gsub right "^[^/]+:" ""))))
     specs))
+
+(fn manifest.save [tbl]
+  "Save manifet to the text file."
+  (with-open [buf (io.open manifest.name :w)]
+    (buf:write (table.concat tbl "\n"))))
 
 ;;; ------------------------------------------------------------------------------------------------
 ;;; Cache file
@@ -258,6 +265,11 @@
     (if ok
         (cjson.decode contents)
         {})))
+
+(fn cache.save [obj]
+  "Save cache as JSON."
+  (with-open [buf (io.open cache.name :w)]
+    (buf:write (cjson.encode obj))))
 
 ;;; ------------------------------------------------------------------------------------------------
 ;;; Vim plugin
@@ -388,8 +400,7 @@
                 (io.stderr:write "used previous result\n"))))
       (nix:write "}\n")
       (readme:write (io.slurp "assets/README_footer.md")))
-    (with-open [next-cache (io.open cache.name :w)]
-      (next-cache:write (cjson.encode cached-data)))))
+    (cache.save cached-data)))
 
 (fn command-lint []
   "Check if any plugin in the manifest is already maintained in the official nixpkgs."
