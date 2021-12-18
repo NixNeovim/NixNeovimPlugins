@@ -374,8 +374,7 @@
 
 (fn command-update [...]
   "Update manifested plugins."
-  (let [args (collect [_ a (ipairs [...])]
-               a true)
+  (let [args (collect [_ a (ipairs [...])] a true)
         update-all? (. args "--all")
         specs (manifest.load)
         cached-data (cache.load)]
@@ -405,17 +404,28 @@
     (when cache-changed?
       (cache.save cached-data))))
 
-(fn command-lint []
+(fn command-lint [...]
   "Check if any plugin in the manifest is already maintained in the official nixpkgs."
-  (let [specs (manifest.load)
+  (let [args (collect [_ a (ipairs [...])] a true)
+        force? (. args "--force")
+        specs (manifest.load)
+        %specs []
         whitelist (collect [_ spec (ipairs (manifest.load "whitelist.spec"))]
                     spec true)
         official-manifest (nix.get-nixpkgs-vim-plugins-manifest)]
     (each [_ spec (ipairs specs)]
-      (when (and (not (. whitelist spec))
-                 (. official-manifest spec))
-        (io.stderr:write
-          (string.format "%s: %s is provided by official\n" (program-name) spec))))))
+      (if (or (. whitelist spec)
+              (not (. official-manifest spec)))
+          (table.insert %specs spec)
+          (do (io.stderr:write
+                (string.format "%s: %s is provided by official\n" (program-name) spec))
+              (when (not force?)
+                (table.insert %specs spec)))))
+    (when (not= (table.concat specs "\n")
+                (table.concat %specs "\n"))
+      (io.stderr:write
+        (string.format "%s: manifest.spec changed\n" (program-name)))
+      (manifest.save %specs))))
 
 ;;; ------------------------------------------------------------------------------------------------
 ;;; Main
@@ -423,7 +433,7 @@
 (fn main []
   (match arg
     [:update & args] (command-update (unpack args))
-    [:lint & _] (command-lint)
+    [:lint & args] (command-lint (unpack args))
     args (command-update (unpack args))
     _ (error "undefined subcommand")))
 
