@@ -488,14 +488,18 @@
                                               :specs))]
                     spec true)]
     (each [_ spec (ipairs %manifest.specs)]
-      (if (and (not (. blacklist spec))
-               (or (. whitelist spec)
-                   (not (. official-manifest spec))))
-          (table.insert specs spec)
+      (if (. blacklist spec)
+          (do (io.stderr:write
+                (string.format "%s: %s is in the blacklist\n" (program-name) spec))
+              (when (not force?)
+                (table.insert specs spec)))
+          (and (not (. whitelist spec))
+               (. official-manifest spec))
           (do (io.stderr:write
                 (string.format "%s: %s is provided by official\n" (program-name) spec))
               (when (not force?)
-                (table.insert specs spec)))))
+                (table.insert specs spec)))
+          (table.insert specs spec)))
     (set %manifest.specs specs)
     (%manifest:lint)
     (%manifest:save)))
@@ -517,9 +521,9 @@
                                     (program-name)))
     (each [_ spec (ipairs awesome-neovim-manifest)]
       (when (and (not (. blacklist spec))
+                 (not (. %manifest-specs spec))
                  (or (. whitelist spec)
-                    (and (not (. official-manifest spec))
-                         (not (. %manifest-specs spec)))))
+                     (not (. official-manifest spec))))
         (table.insert %manifest.specs spec)
         (io.stderr:write (string.format "%s: add %s\n" (program-name) spec))))
     (%manifest:lint)
