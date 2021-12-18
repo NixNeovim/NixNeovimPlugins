@@ -493,7 +493,7 @@
     (%manifest:lint)
     (%manifest:save)))
 
-(fn command-awesome []
+(fn command-awesome-neovim []
   "Fetch awesome-neovim vim plugins manifest."
   (let [%manifest (manifest.load)
         %manifest-specs (collect [_ spec (ipairs %manifest.specs)]
@@ -521,7 +521,7 @@
   (match arg
     [:update & args] (command-update (unpack args))
     [:lint & args] (command-lint (unpack args))
-    [:awesome & _] (command-awesome)
+    [:awesome-neovim & _] (command-awesome-neovim)
     args (command-update (unpack args))
     _ (error "undefined subcommand")))
 

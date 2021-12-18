@@ -18,7 +18,7 @@ jobs:
         with:
           extra_nix_config: |
             access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
-      - run: nix run .#update-vim-plugins -- awesome
+      - run: nix run .#update-vim-plugins -- awesome-neovim
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: 'maintenance: auto fetch awesome neovim plugins'
