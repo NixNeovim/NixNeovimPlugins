@@ -139,7 +139,9 @@
              :owner (pick-values 1 (string.match info.full_name "^([^/]+)/([^/]+)$"))
              :name info.name
              :default-branch info.default_branch
-             :description info.description
+             :description (if (not (github.null? info.description))
+                              info.description
+                              "No description")
              :fork? info.fork
              ;; Better to show github page since homepage value may contain its owner's.
              :homepage (string.format "https://github.com/%s" info.full_name)
