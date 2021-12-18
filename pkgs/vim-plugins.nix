@@ -910,10 +910,10 @@
   };
   feline-nvim = buildVimPluginFrom2Nix {
     pname = "feline-nvim";
-    version = "2021-11-27";
+    version = "2021-12-18";
     src = fetchurl {
-      url = "https://github.com/feline-nvim/feline.nvim/archive/24ba3bbf286f2c6ce49c0439b0bd2d216bc52601.tar.gz";
-      sha256 = "0kq94gnvpx41nfxlasbj9q9j77m5qzzliiwzwflzglbs3nhqglgw";
+      url = "https://github.com/feline-nvim/feline.nvim/archive/3b392b407f02dbd23f7ffa0dd0ddf647579ddfd0.tar.gz";
+      sha256 = "15wsb1qrjv6kf6lxm7mkcsmfyi756l67a2a47q24ivgrs4nm7y9s";
     };
     meta = with lib; {
       description = "A minimal, stylish and customizable statusline for Neovim written in Lua";

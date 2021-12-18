@@ -161,7 +161,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [ekickx/clipboard-image.nvim](https://github.com/ekickx/clipboard-image.nvim) | 2021-12-07 | `clipboard-image-nvim` |
 | [ellisonleao/glow.nvim](https://github.com/ellisonleao/glow.nvim) | 2021-12-14 | `glow-nvim` |
 | [ethanholz/nvim-lastplace](https://github.com/ethanholz/nvim-lastplace) | 2021-10-15 | `nvim-lastplace` |
-| [feline-nvim/feline.nvim](https://github.com/feline-nvim/feline.nvim) [branch: `develop`] | 2021-11-27 | `feline-nvim` |
+| [feline-nvim/feline.nvim](https://github.com/feline-nvim/feline.nvim) [branch: `develop`] | 2021-12-18 | `feline-nvim` |
 | [filipdutescu/renamer.nvim](https://github.com/filipdutescu/renamer.nvim) | 2021-11-29 | `renamer-nvim` |
 | [folke/lua-dev.nvim](https://github.com/folke/lua-dev.nvim) | 2021-12-10 | `lua-dev-nvim` |
 | [folke/zen-mode.nvim](https://github.com/folke/zen-mode.nvim) | 2021-11-07 | `zen-mode-nvim` |
