@@ -379,6 +379,7 @@
         update-all? (. args "--all")
         specs (manifest.load)
         cached-data (cache.load)]
+    (var cache-changed? false)
     (with-open [nix (io.open "pkgs/vim-plugins.nix" :w)
                 readme (io.open "README.md" :w)]
       (nix:write "{ lib, buildVimPluginFrom2Nix, fetchurl }:\n\n{\n")
@@ -393,6 +394,7 @@
                   (nix:write nixexpr)
                   (readme:write mditem)
                   (tset cached-data spec {: nixexpr : mditem}))
+                (set cache-changed? true)
                 (io.stderr:write "done\n"))
             (do (io.stderr:write (string.format "%s: skip %s..." (program-name) spec)) 
                 (nix:write (. cached-data spec :nixexpr))
@@ -400,7 +402,8 @@
                 (io.stderr:write "used previous result\n"))))
       (nix:write "}\n")
       (readme:write (io.slurp "assets/README_footer.md")))
-    (cache.save cached-data)))
+    (when cache-changed?
+      (cache.save cached-data))))
 
 (fn command-lint []
   "Check if any plugin in the manifest is already maintained in the official nixpkgs."
