@@ -1,6 +1,19 @@
 { lib, buildVimPluginFrom2Nix, fetchurl }:
 
 {
+  vim-fish = buildVimPluginFrom2Nix {
+    pname = "vim-fish";
+    version = "2021-05-21";
+    src = fetchurl {
+      url = "https://github.com/inkch/vim-fish/archive/9e2472a8f3f3953f23343b3e053d80ad0ce6a25f.tar.gz";
+      sha256 = "0qki316p7ff145i2vls6va0izjgvhswl56chxnlnv0sjw4v0vayp";
+    };
+    meta = with lib; {
+      description = "Vim support for editing fish scripts";
+      homepage = "https://github.com/inkch/vim-fish";
+      license = with licenses; [ mit ];
+    };
+  };
   lspactions = buildVimPluginFrom2Nix {
     pname = "lspactions";
     version = "2021-11-15";
@@ -123,19 +136,6 @@
     meta = with lib; {
       description = "Vim files and plugins for Hy";
       homepage = "https://github.com/hylang/vim-hy";
-    };
-  };
-  vim-fish = buildVimPluginFrom2Nix {
-    pname = "vim-fish";
-    version = "2021-05-21";
-    src = fetchurl {
-      url = "https://github.com/inkch/vim-fish/archive/9e2472a8f3f3953f23343b3e053d80ad0ce6a25f.tar.gz";
-      sha256 = "0qki316p7ff145i2vls6va0izjgvhswl56chxnlnv0sjw4v0vayp";
-    };
-    meta = with lib; {
-      description = "Vim support for editing fish scripts";
-      homepage = "https://github.com/inkch/vim-fish";
-      license = with licenses; [ mit ];
     };
   };
   null-ls-nvim = buildVimPluginFrom2Nix {

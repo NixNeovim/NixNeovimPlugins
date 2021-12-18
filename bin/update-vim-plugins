@@ -139,7 +139,9 @@
              :owner (pick-values 1 (string.match info.full_name "^([^/]+)/([^/]+)$"))
              :name info.name
              :default-branch info.default_branch
-             :description info.description
+             :description (if (not (github.null? info.description))
+                              info.description
+                              "No description")
              :fork? info.fork
              ;; Better to show github page since homepage value may contain its owner's.
              :homepage (string.format "https://github.com/%s" info.full_name)
@@ -218,6 +220,43 @@
                  sha))
 
 ;;; ------------------------------------------------------------------------------------------------
+;;; awesome-neovim
+
+(local awesome-neovim {})
+
+(fn awesome-neovim.get-vim-plugins-manifest []
+  "Fetch vim plugins manifest from rockerBOO/awesome-neovim."
+  (let [path "/rockerBOO/awesome-neovim/main/README.md"
+        url (string.format "https://raw.githubusercontent.com%s" path)
+        readme (http.get url)
+        out []]
+    (var state :init)
+    (each [_ line (ipairs (readme:split "\n"))]
+      (when (and (= state :active)
+                 (line:match "^%s*-%s+%["))
+        ;; trim mini.nvim#foobar
+        (table.insert out (line:match "%[[^%]]+%]%(https://([^%)#]+)")))
+      (when (and (= state :init)
+                 (line:match "^## Plugin"))
+        (set state :active))
+      (when (and (= state :active)
+                 (line:match "^### Preconfigured Configuration"))
+        (set state :skip))
+      (when (and (= state :skip)
+                 (line:match "^### Keyinding"))
+        (set state :active))
+      (when (line:match "^## External")
+        (set state :done)))
+    (icollect [_ line (ipairs out)]
+      (let [(repo-type full-name) (line:match "^([^/]+)%.com/([^/]+/[^/]+)$")]
+        (match repo-type
+          :gitlab (string.format "%s:%s" repo-type full-name)
+          :github (if (full-name:match "feline%.nvim")
+                      "feline-nvim/feline.nvim" ; hot fix due to organization change
+                      full-name)
+          _ (error "undefined repo type"))))))
+
+;;; ------------------------------------------------------------------------------------------------
 ;;; Manifest spec parser
 
 (local manifest {})
@@ -263,8 +302,8 @@
         (table.concat self.specs "\n")))
 
 (fn manifest.load [file]
-  "Load manifest from a file, defaulting to `manifest.spec`."
-  (let [file (or file "manifest.spec")
+  "Load manifest from a file, defaulting to `manifest.txt`."
+  (let [file (or file "manifest.txt")
         specs (icollect [spec (io.lines file)] spec)
         obj {: file
              : specs
@@ -431,7 +470,9 @@
                 (io.stderr:write "used previous result\n"))))
       (nix:write "}\n")
       (readme:write (io.slurp "assets/README_footer.md")))
-    (%cache:save)))
+    (%cache:save)
+    (%manifest:lint)
+    (%manifest:save)))
 
 (fn command-lint [...]
   "Check if any plugin in the manifest is already maintained in the official nixpkgs."
@@ -440,18 +481,51 @@
         %manifest (manifest.load)
         specs []
         official-manifest (nix.get-nixpkgs-vim-plugins-manifest)
-        whitelist (collect [_ spec (ipairs (. (manifest.load "whitelist.spec")
+        whitelist (collect [_ spec (ipairs (. (manifest.load "whitelist.txt")
+                                              :specs))]
+                    spec true)
+        blacklist (collect [_ spec (ipairs (. (manifest.load "blacklist.txt")
                                               :specs))]
                     spec true)]
     (each [_ spec (ipairs %manifest.specs)]
-      (if (or (. whitelist spec)
-              (not (. official-manifest spec)))
-          (table.insert specs spec)
+      (if (. blacklist spec)
+          (do (io.stderr:write
+                (string.format "%s: %s is in the blacklist\n" (program-name) spec))
+              (when (not force?)
+                (table.insert specs spec)))
+          (and (not (. whitelist spec))
+               (. official-manifest spec))
           (do (io.stderr:write
                 (string.format "%s: %s is provided by official\n" (program-name) spec))
               (when (not force?)
-                (table.insert specs spec)))))
+                (table.insert specs spec)))
+          (table.insert specs spec)))
     (set %manifest.specs specs)
+    (%manifest:lint)
+    (%manifest:save)))
+
+(fn command-awesome-neovim []
+  "Fetch awesome-neovim vim plugins manifest."
+  (let [%manifest (manifest.load)
+        %manifest-specs (collect [_ spec (ipairs %manifest.specs)]
+                          spec true)
+        official-manifest (nix.get-nixpkgs-vim-plugins-manifest)
+        awesome-neovim-manifest (awesome-neovim.get-vim-plugins-manifest)
+        whitelist (collect [_ spec (ipairs (. (manifest.load "whitelist.txt")
+                                              :specs))]
+                    spec true)
+        blacklist (collect [_ spec (ipairs (. (manifest.load "blacklist.txt")
+                                              :specs))]
+                    spec true)]
+    (io.stderr:write (string.format "%s: search for new plugins from awesome-neovim\n"
+                                    (program-name)))
+    (each [_ spec (ipairs awesome-neovim-manifest)]
+      (when (and (not (. blacklist spec))
+                 (not (. %manifest-specs spec))
+                 (or (. whitelist spec)
+                     (not (. official-manifest spec))))
+        (table.insert %manifest.specs spec)
+        (io.stderr:write (string.format "%s: add %s\n" (program-name) spec))))
     (%manifest:lint)
     (%manifest:save)))
 
@@ -462,6 +536,7 @@
   (match arg
     [:update & args] (command-update (unpack args))
     [:lint & args] (command-lint (unpack args))
+    [:awesome-neovim & _] (command-awesome-neovim)
     args (command-update (unpack args))
     _ (error "undefined subcommand")))
 
