@@ -34,6 +34,13 @@
     (icollect [chunk (str:gmatch regex)]
       chunk)))
 
+(fn table.unique [tbl]
+  "Remove duplicated items in the sequencial table."
+  (let [items (collect [_ item (ipairs tbl)]
+                item true)]
+    (icollect [item _ (pairs items)]
+      item)))
+
 ;;; ------------------------------------------------------------------------------------------------
 ;;; HTTP functions
 
@@ -215,10 +222,10 @@
 
 (local manifest {})
 
-(set manifest.name "manifest.spec")
+(set manifest.__index manifest)
 
 (fn manifest.parse-spec [spec]
-  "Parse manifest spec."
+  "Parse manifest individual spec."
   (match (type spec)
     :string (match (string.match spec "^([^:]+/[^:]+)$") ; owner/repo
               full-name {:type "github"
@@ -237,39 +244,50 @@
                           _ (error "invalid manifest spec")))))
     _ (error "undefined manifest spec")))
 
-(fn manifest.load [file]
-  "Load manifest specs from the file."
-  (let [file (or file manifest.name)
-        specs (icollect [spec (io.lines file)] spec)]
+(fn manifest.lint [self]
+  "Sort specs, remove duplicated specs, etc."
+  (let [prev-specs (table.concat self.specs "\n")
+        specs (table.unique self.specs)]
     (table.sort specs
                 (fn [left right]
                   (< (string.gsub left "^[^/]+:" "")
                      (string.gsub right "^[^/]+:" ""))))
-    specs))
+    (set self.specs specs)
+    (when (not= (table.concat self.specs "\n")
+                prev-specs)
+      (set self.changed true))))
 
-(fn manifest.save [tbl]
-  "Save manifet to the text file."
-  (with-open [buf (io.open manifest.name :w)]
-    (buf:write (table.concat tbl "\n"))))
+(fn manifest.load [file]
+  "Load manifest from a file, defaulting to `manifest.spec`."
+  (let [file (or file "manifest.spec")
+        specs (icollect [spec (io.lines file)] spec)
+        obj {: file : specs :changed? false}]
+    (setmetatable obj manifest)))
+
+(fn manifest.save [self]
+  "Save manifest to the file."
+  (with-open [buf (io.open self.file :w)]
+    (buf:write (table.concat self.specs "\n"))))
 
 ;;; ------------------------------------------------------------------------------------------------
 ;;; Cache file
 
 (local cache {})
 
-(set cache.name ".previous-update.json")
-
 (fn cache.load []
   "Load cache of previous update."
-  (let [(ok contents) (pcall io.slurp cache.name)]
-    (if ok
-        (cjson.decode contents)
-        {})))
+  (let [file ".previous-update.json"
+        (ok data) (pcall io.slurp file)
+        data (if ok
+                 (cjson.decode data)
+                 {})
+        obj {: file : data :changed? false}]
+    (setmetatable obj cache)))
 
-(fn cache.save [obj]
+(fn cache.save [self]
   "Save cache as JSON."
-  (with-open [buf (io.open cache.name :w)]
-    (buf:write (cjson.encode obj))))
+  (with-open [buf (io.open self.file :w)]
+    (buf:write (cjson.encode self.data))))
 
 ;;; ------------------------------------------------------------------------------------------------
 ;;; Vim plugin
@@ -376,33 +394,32 @@
   "Update manifested plugins."
   (let [args (collect [_ a (ipairs [...])] a true)
         update-all? (. args "--all")
-        specs (manifest.load)
-        cached-data (cache.load)]
-    (var cache-changed? false)
+        manifest (manifest.load)
+        cache (cache.load)]
     (with-open [nix (io.open "pkgs/vim-plugins.nix" :w)
                 readme (io.open "README.md" :w)]
       (nix:write "{ lib, buildVimPluginFrom2Nix, fetchurl }:\n\n{\n")
       (readme:write (io.slurp "assets/README_header.md"))
-      (each [_ spec (ipairs specs)]
+      (each [_ spec (ipairs manifest.specs)]
         (if (or update-all?
-                (not (. cached-data spec)))
+                (not (. cache :data spec)))
             (do (io.stderr:write (string.format "%s: update %s..." (program-name) spec))
                 (let [pkg (plugin.new spec)
                       nixexpr (pkg:to-nixexpr)
                       mditem (pkg:to-markdown-table-row)]
                   (nix:write nixexpr)
                   (readme:write mditem)
-                  (tset cached-data spec {: nixexpr : mditem}))
-                (set cache-changed? true)
+                  (tset cache.data spec {: nixexpr : mditem}))
+                (set cache.changed? true)
                 (io.stderr:write "done\n"))
             (do (io.stderr:write (string.format "%s: skip %s..." (program-name) spec)) 
-                (nix:write (. cached-data spec :nixexpr))
-                (readme:write (. cached-data spec :mditem))
+                (nix:write (. cache :data spec :nixexpr))
+                (readme:write (. cache :data spec :mditem))
                 (io.stderr:write "used previous result\n"))))
       (nix:write "}\n")
       (readme:write (io.slurp "assets/README_footer.md")))
-    (when cache-changed?
-      (cache.save cached-data))))
+    (when cache.changed?
+      (cache.save))))
 
 (fn command-lint [...]
   "Check if any plugin in the manifest is already maintained in the official nixpkgs."
