@@ -5,6 +5,12 @@ final: prev:
 let
   overrides = self: super:
   {
+    alpha-nvim = super.alpha-nvim.overrideAttrs (old: {
+      meta = old.meta // ( with lib; {
+        broken = true;
+      });
+    });
+
     feline-nvim = super.feline-nvim.overrideAttrs (old: {
       patches = (old.patches or []) ++ [
         # https://github.com/famiu/feline.nvim/pull/179
