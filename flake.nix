@@ -23,9 +23,8 @@
     };
 
     apps = {
-      update-vim-plugins = {
-        type = "app";
-        program = "${update-vim-plugins}/bin/update-vim-plugins";
+      update-vim-plugins = flake-utils.lib.mkApp {
+        drv = update-vim-plugins;
       };
     };
 
