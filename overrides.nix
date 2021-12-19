@@ -1,9 +1,40 @@
-{ lib, ... }:
-
 final: prev:
 
 let
+  inherit (final) lib;
+
+  licenses = self: super:
+  lib.mapAttrs
+  (attrName: license:
+  super.${attrName}.overrideAttrs (old: {
+    meta = old.meta // { inherit license; };
+  }))
+  (with lib.licenses;
+  /*
+   * Add licenses here if missing in generated ./pkgs/vim-plugins.nix.
+   */
+  {
+    bats-vim = [ vim ];
+
+    bullets-vim = [ mit ];
+
+    null-ls-nvim = [ publicDomain ];
+
+    vim-emacscommandline = [ vim ];
+
+    vim-hy = [ vim ];
+
+    vim-textobj-indent = [ mit ];
+
+    nvim-srcerite = [ gpl3Plus ];
+
+    nvim-pqf = [ mpl20 ];
+  });
+
   overrides = self: super:
+  /*
+   * Add other overrides here.
+   */
   {
     alpha-nvim = super.alpha-nvim.overrideAttrs (old: {
       meta = old.meta // ( with lib; {
@@ -54,48 +85,6 @@ let
       ];
     });
 
-    bats-vim = super.bats-vim.overrideAttrs (old: {
-      meta = old.meta // ( with lib; {
-        license = with licenses; [ vim ];
-      });
-    });
-
-    bullets-vim = super.bullets-vim.overrideAttrs (old: {
-      meta = old.meta // ( with lib; {
-        license = with licenses; [ mit ];
-      });
-    });
-
-    null-ls-nvim = super.null-ls-nvim.overrideAttrs (old: {
-      meta = old.meta // ( with lib; {
-        license = with licenses; [ publicDomain ];
-      });
-    });
-
-    vim-emacscommandline = super.vim-emacscommandline.overrideAttrs (old: {
-      meta = old.meta // ( with lib; {
-        license = with licenses; [ vim ];
-      });
-    });
-
-    vim-hy = super.vim-hy.overrideAttrs (old: {
-      meta = old.meta // ( with lib; {
-        license = with licenses; [ vim ];
-      });
-    });
-
-    vim-textobj-indent = super.vim-textobj-indent.overrideAttrs (old: {
-      meta = old.meta // ( with lib; {
-        license = with licenses; [ mit ];
-      });
-    });
-
-    nvim-srcerite = super.nvim-srcerite.overrideAttrs (old: {
-      meta = old.meta // ( with lib; {
-        license = with licenses; [ gpl3Plus ];
-      });
-    });
-
     telescope-heading-nvim = super.telescope-heading-nvim.overrideAttrs (_: {
       dependencies = with final.vimPlugins; [
         telescope-nvim
@@ -107,13 +96,12 @@ let
         telescope-nvim
       ];
     });
-
-    nvim-pqf = super.nvim-pqf.overrideAttrs (old: {
-      meta = old.meta // ( with lib; {
-        license = with licenses; [ mpl20 ];
-      });
-    });
   };
 in
 
-{ vimExtraPlugins = prev.vimExtraPlugins.extend overrides; }
+{
+  vimExtraPlugins = prev.vimExtraPlugins.extend (lib.composeManyExtensions [
+    licenses
+    overrides
+  ]);
+}
