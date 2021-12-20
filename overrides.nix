@@ -3,7 +3,7 @@ final: prev:
 let
   inherit (final) lib;
 
-  brokenPackages = self: super:
+  brokenPkgOverrides = self: super:
   lib.mapAttrs
   (attrName: broken:
   super.${attrName}.overrideAttrs (old: {
@@ -26,7 +26,7 @@ let
     vgit-nvim = true;
   };
 
-  missingLicenses = self: super:
+  licenseOverrides = self: super:
   lib.mapAttrs
   (attrName: license:
   super.${attrName}.overrideAttrs (old: {
@@ -34,7 +34,7 @@ let
   }))
   (with lib.licenses;
   /*
-   * Add licenses here if missing in generated ./pkgs/vim-plugins.nix.
+   * Add licenses here if missing or wrong in generated ./pkgs/vim-plugins.nix.
    */
   {
     bats-vim = [ vim ];
@@ -93,8 +93,8 @@ in
 
 {
   vimExtraPlugins = prev.vimExtraPlugins.extend (lib.composeManyExtensions [
-    brokenPackages
-    missingLicenses
+    brokenPkgOverrides
+    licenseOverrides
     otherOverrides
   ]);
 }
