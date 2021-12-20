@@ -140,6 +140,12 @@ let
       ];
     });
 
+    nvim-treesitter-textsubjects = super.nvim-treesitter-textsubjects.overrideAttrs (_: {
+      dependencies = with final.vimPlugins; [
+        nvim-treesitter
+      ];
+    });
+
     nvim-ts-context-commentstring = super.nvim-ts-context-commentstring.overrideAttrs (_: {
       dependencies = with final.vimPlugins; [
         nvim-treesitter
