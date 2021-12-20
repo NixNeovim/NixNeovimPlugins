@@ -146,6 +146,12 @@ let
       ];
     });
 
+    nvim-rdark = super.nvim-rdark.overrideAttrs (_: {
+      dependencies = with final.vimPlugins; [
+        colorbuddy-nvim
+      ];
+    });
+
     nvim-treesitter-textsubjects = super.nvim-treesitter-textsubjects.overrideAttrs (_: {
       dependencies = with final.vimPlugins; [
         nvim-treesitter
