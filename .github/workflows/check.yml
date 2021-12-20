@@ -2,9 +2,19 @@ name: Check Builds in nixpkgs-unstable
 
 on:
   pull_request:
+    paths-ignore:
+      - '.github/**'
+      - '.gitignore'
+      - 'LICENSE'
+      - '**.md'
   push:
     branches:
       - main
+    paths-ignore:
+      - '.github/**'
+      - '.gitignore'
+      - 'LICENSE'
+      - '**.md'
 
 jobs:
   check-builds:
