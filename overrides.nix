@@ -170,6 +170,12 @@ let
       ];
     });
 
+    onebuddy = super.onebuddy.overrideAttrs (_: {
+      dependencies = with final.vimPlugins; [
+        colorbuddy-nvim
+      ];
+    });
+
     renamer-nvim = super.renamer-nvim.overrideAttrs (_: {
       dependencies = with final.vimPlugins; [
         plenary-nvim
