@@ -93,6 +93,12 @@ let
       ];
     });
 
+    cmp-npm = super.cmp-npm.overrideAttrs (_: {
+      dependencies = with final.vimPlugins; [
+        plenary-nvim
+      ];
+    });
+
     lspactions = super.lspactions.overrideAttrs (_: {
       dependencies = with final.vimPlugins; [
         plenary-nvim
