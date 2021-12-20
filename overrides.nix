@@ -43,6 +43,8 @@ let
 
     bullets-vim = [ mit ];
 
+    format-nvim = [ mit ];
+
     null-ls-nvim = [ publicDomain ];
 
     vim-emacscommandline = [ vim ];
