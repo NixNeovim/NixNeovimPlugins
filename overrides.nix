@@ -138,6 +138,12 @@ let
       ];
     });
 
+    nvim-ts-context-commentstring = super.nvim-ts-context-commentstring.overrideAttrs (_: {
+      dependencies = with final.vimPlugins; [
+        nvim-treesitter
+      ];
+    });
+
     renamer-nvim = super.renamer-nvim.overrideAttrs (_: {
       dependencies = with final.vimPlugins; [
         plenary-nvim
