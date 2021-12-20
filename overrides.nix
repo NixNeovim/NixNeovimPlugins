@@ -37,6 +37,8 @@ let
    * Add licenses here if missing or wrong in generated ./pkgs/vim-plugins.nix.
    */
   {
+    ariake-vim-colors = [ mit ];
+
     bats-vim = [ vim ];
 
     bullets-vim = [ mit ];
