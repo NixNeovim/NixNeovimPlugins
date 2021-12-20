@@ -18,9 +18,7 @@
 
     update-vim-plugins = pkgs.callPackage ./pkgs/update-vim-plugins.nix {};
   in {
-    packages = {
-      inherit (pkgs) vimExtraPlugins;
-    };
+    packages = flake-utils.lib.filterPackages system pkgs.vimExtraPlugins;
 
     apps = {
       update-vim-plugins = flake-utils.lib.mkApp {
