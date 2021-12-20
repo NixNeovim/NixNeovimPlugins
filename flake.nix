@@ -26,6 +26,10 @@
       };
     };
 
+    checks = self.packages.${system} // {
+      inherit update-vim-plugins;
+    };
+
     devShell = pkgs.mkShell {
       inputsFrom = [
         update-vim-plugins
