@@ -238,6 +238,12 @@ let
       ];
     });
 
+    nvim-ts-autotag = super.nvim-ts-autotag.overrideAttrs (_: {
+      dependencies = with final.vimPlugins; [
+        nvim-treesitter
+      ];
+    });
+
     onebuddy = super.onebuddy.overrideAttrs (_: {
       dependencies = with final.vimPlugins; [
         colorbuddy-nvim
