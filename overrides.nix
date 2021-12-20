@@ -43,6 +43,8 @@ let
 
     bullets-vim = [ mit ];
 
+    calltree-nvim = [ mit ];
+
     format-nvim = [ mit ];
 
     goimpl-nvim = [ mit ];
