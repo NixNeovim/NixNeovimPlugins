@@ -51,6 +51,8 @@ let
 
     nvim-deus = [ gpl3Plus ];
 
+    nvim-luapad = [ gpl3Only ];
+
     null-ls-nvim = [ publicDomain ];
 
     vim-emacscommandline = [ vim ];
