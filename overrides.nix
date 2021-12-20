@@ -111,6 +111,12 @@ let
       ];
     });
 
+    follow-md-links-nvim = super.follow-md-links-nvim.overrideAttrs (_: {
+      dependencies = with final.vimPlugins; [
+        nvim-treesitter
+      ];
+    });
+
     fuzzy-nvim = super.fuzzy-nvim.overrideAttrs (_: {
       dependencies = with final.vimPlugins; [
         plenary-nvim
