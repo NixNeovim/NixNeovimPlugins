@@ -162,12 +162,6 @@ let
       ];
     });
 
-    nvim-gps = super.nvim-gps.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        nvim-treesitter
-      ];
-    });
-
     nvim-papadark = super.themer-lua;
 
     nvim-revJ-lua = super.nvim-revJ-lua.overrideAttrs (_: {

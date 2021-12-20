@@ -25,7 +25,6 @@ RRethy/nvim-treesitter-textsubjects
 RishabhRD/gruvy
 RishabhRD/lspactions
 RishabhRD/nvim-rdark
-SmiteshP/nvim-gps
 Th3Whit3Wolf/onebuddy
 Th3Whit3Wolf/space-nvim
 ThePrimeagen/vim-be-good

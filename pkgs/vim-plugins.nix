@@ -345,19 +345,6 @@
       homepage = "https://github.com/RishabhRD/nvim-rdark";
     };
   };
-  nvim-gps = buildVimPluginFrom2Nix {
-    pname = "nvim-gps";
-    version = "2021-11-14";
-    src = fetchurl {
-      url = "https://github.com/SmiteshP/nvim-gps/archive/4805df6a5858aea5ccff56a6d706c96fb746c5d7.tar.gz";
-      sha256 = "0ifm3jqqdgp90fghkzm8d0ph4cp68lzxrzxkj06n9r7rp4k9avsq";
-    };
-    meta = with lib; {
-      description = "Simple statusline component that shows what scope you are working inside";
-      homepage = "https://github.com/SmiteshP/nvim-gps";
-      license = with licenses; [ asl20 ];
-    };
-  };
   onebuddy = buildVimPluginFrom2Nix {
     pname = "onebuddy";
     version = "2021-04-01";
