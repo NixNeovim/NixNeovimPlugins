@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - manifest.txt
+      - blacklist.txt
+      - whitelist.txt
     branches:
       - main
   schedule:
