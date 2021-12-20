@@ -214,6 +214,12 @@ let
       ];
     });
 
+    nvim-lsp-installer = super.nvim-lsp-installer.overrideAttrs (_: {
+      dependencies = with final.vimPlugins; [
+        nvim-lspconfig
+      ];
+    });
+
     nvim-lspupdate = super.nvim-lspupdate.overrideAttrs (_: {
       dependencies = with final.vimPlugins; [
         nvim-lspconfig
