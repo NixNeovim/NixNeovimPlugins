@@ -162,6 +162,12 @@ let
       ];
     });
 
+    nvim-biscuits = super.nvim-biscuits.overrideAttrs (_: {
+      dependencies = with final.vimPlugins; [
+        nvim-treesitter
+      ];
+    });
+
     nvim-go = super.nvim-go.overrideAttrs (_: {
       dependencies = with final.vimPlugins; [
         plenary-nvim
