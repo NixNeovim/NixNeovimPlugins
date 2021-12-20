@@ -53,6 +53,8 @@ let
 
     nvim-luapad = [ gpl3Only ];
 
+    nvim-revJ-lua = [ vim ];
+
     null-ls-nvim = [ publicDomain ];
 
     vim-emacscommandline = [ vim ];
