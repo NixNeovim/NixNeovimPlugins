@@ -174,6 +174,12 @@ let
       ];
     });
 
+    gruvbuddy-nvim = super.gruvbuddy-nvim.overrideAttrs (_: {
+      dependencies = with final.vimPlugins; [
+        colorbuddy-nvim
+      ];
+    });
+
     gruvy = super.gruvy.overrideAttrs (_: {
       dependencies = with final.vimPlugins; [
         lush-nvim
