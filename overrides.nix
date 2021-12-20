@@ -95,6 +95,12 @@ let
       ];
     });
 
+    nvim-revJ-lua = super.nvim-revJ-lua.overrideAttrs (_: {
+      dependencies = with final.vimPlugins; [
+        self.vim-textobj-parameter
+      ];
+    });
+
     renamer-nvim = super.renamer-nvim.overrideAttrs (_: {
       dependencies = with final.vimPlugins; [
         plenary-nvim
