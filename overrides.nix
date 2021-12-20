@@ -232,6 +232,12 @@ let
       ];
     });
 
+    one-small-step-for-vimkind = super.one-small-step-for-vimkind.overrideAttrs (_: {
+      dependencies = with final.vimPlugins; [
+        nvim-dap
+      ];
+    });
+
     renamer-nvim = super.renamer-nvim.overrideAttrs (_: {
       dependencies = with final.vimPlugins; [
         plenary-nvim
