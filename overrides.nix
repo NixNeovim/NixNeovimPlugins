@@ -99,6 +99,12 @@ let
       ];
     });
 
+    jester = super.jester.overrideAttrs (_: {
+      dependencies = with final.vimPlugins; [
+        nvim-treesitter
+      ];
+    });
+
     lspactions = super.lspactions.overrideAttrs (_: {
       dependencies = with final.vimPlugins; [
         plenary-nvim
