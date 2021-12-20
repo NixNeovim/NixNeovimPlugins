@@ -226,6 +226,12 @@ let
       ];
     });
 
+    nvim-spectre = super.nvim-spectre.overrideAttrs (_: {
+      dependencies = with final.vimPlugins; [
+        plenary-nvim
+      ];
+    });
+
     nvim-treesitter-textsubjects = super.nvim-treesitter-textsubjects.overrideAttrs (_: {
       dependencies = with final.vimPlugins; [
         nvim-treesitter
