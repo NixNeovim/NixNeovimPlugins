@@ -60,7 +60,7 @@ let
    */
   {
     feline-nvim = super.feline-nvim.overrideAttrs (old: {
-      patches = (old.patches or []) ++ [
+      patches = (old.patches or []) ++ lib.optionals (lib.versionOlder "2021-12-19" old.version) [
         # https://github.com/famiu/feline.nvim/pull/179
         (final.fetchpatch {
           url = "https://github.com/zbirenbaum/feline.nvim/commit/d62d9ec923fe76da27f5ac7000b2a506b035740d.patch";
