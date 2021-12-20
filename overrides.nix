@@ -117,6 +117,12 @@ let
       ];
     });
 
+    flutter-tools-nvim = super.flutter-tools-nvim.overrideAttrs (_: {
+      dependencies = with final.vimPlugins; [
+        plenary-nvim
+      ];
+    });
+
     jester = super.jester.overrideAttrs (_: {
       dependencies = with final.vimPlugins; [
         nvim-treesitter
