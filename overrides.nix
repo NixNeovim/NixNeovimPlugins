@@ -280,6 +280,12 @@ let
       ];
     });
 
+    vacuumline-nvim = super.vacuumline-nvim.overrideAttrs (_: {
+      dependencies = with final.vimPlugins; [
+        galaxyline-nvim
+      ];
+    });
+
     vim-textobj-parameter = super.vim-textobj-parameter.overrideAttrs (_: {
       dependencies = with final.vimPlugins; [
         vim-textobj-user
