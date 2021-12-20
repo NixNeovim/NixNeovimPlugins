@@ -89,6 +89,12 @@ let
       ];
     });
 
+    auto-pandoc-nvim = super.auto-pandoc-nvim.overrideAttrs (_: {
+      dependencies = with final.vimPlugins; [
+        plenary-nvim
+      ];
+    });
+
     codeschool-nvim = super.codeschool-nvim.overrideAttrs (_: {
       dependencies = with final.vimPlugins; [
         lush-nvim
