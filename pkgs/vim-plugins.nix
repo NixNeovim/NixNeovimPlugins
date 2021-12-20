@@ -2330,6 +2330,18 @@
       license = with licenses; [ mit ];
     };
   };
+  vim-textobj-parameter = buildVimPluginFrom2Nix {
+    pname = "vim-textobj-parameter";
+    version = "2017-05-16";
+    src = fetchurl {
+      url = "https://github.com/sgur/vim-textobj-parameter/archive/201144f19a1a7081033b3cf2b088916dd0bcb98c.tar.gz";
+      sha256 = "1l1b1gz1ckbl5c68ri1gnlkyyc3dqr65m3hlgdplhmy1lyzf8p0v";
+    };
+    meta = with lib; {
+      description = "A fork of textobj-parameter 0.1.0";
+      homepage = "https://github.com/sgur/vim-textobj-parameter";
+    };
+  };
   roshnivim-cs = buildVimPluginFrom2Nix {
     pname = "roshnivim-cs";
     version = "2021-12-18";

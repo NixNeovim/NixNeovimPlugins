@@ -180,6 +180,7 @@ sainnhe/everforest
 savq/melange
 savq/paq-nvim
 seandewar/nvimesweeper
+sgur/vim-textobj-parameter
 shaeinst/roshnivim-cs
 shaunsingh/moonlight.nvim
 stevearc/dressing.nvim

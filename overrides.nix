@@ -65,6 +65,8 @@ let
 
     vim-textobj-indent = [ mit ];
 
+    vim-textobj-parameter = [ mit ];
+
     nvim-srcerite = [ gpl3Plus ];
 
     nvim-pqf = [ mpl20 ];
@@ -102,6 +104,12 @@ let
     telescope-bibtex-nvim = super.telescope-bibtex-nvim.overrideAttrs (_: {
       dependencies = with final.vimPlugins; [
         telescope-nvim
+      ];
+    });
+
+    vim-textobj-parameter = super.vim-textobj-parameter.overrideAttrs (_: {
+      dependencies = with final.vimPlugins; [
+        vim-textobj-user
       ];
     });
   };

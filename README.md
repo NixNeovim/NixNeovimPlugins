@@ -272,6 +272,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [savq/melange](https://github.com/savq/melange) | 2021-11-16 | `melange` |
 | [savq/paq-nvim](https://github.com/savq/paq-nvim) | 2021-12-18 | `paq-nvim` |
 | [seandewar/nvimesweeper](https://github.com/seandewar/nvimesweeper) | 2021-09-07 | `nvimesweeper` |
+| [sgur/vim-textobj-parameter](https://github.com/sgur/vim-textobj-parameter) | 2017-05-16 | `vim-textobj-parameter` |
 | [shaeinst/roshnivim-cs](https://github.com/shaeinst/roshnivim-cs) | 2021-12-18 | `roshnivim-cs` |
 | [shaunsingh/moonlight.nvim](https://github.com/shaunsingh/moonlight.nvim) | 2021-05-16 | `moonlight-nvim` |
 | [stevearc/dressing.nvim](https://github.com/stevearc/dressing.nvim) | 2021-12-19 | `dressing-nvim` |
