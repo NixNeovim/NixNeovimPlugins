@@ -279,6 +279,12 @@ let
         vim-textobj-user
       ];
     });
+
+    virtual-types-nvim = super.virtual-types-nvim.overrideAttrs (_: {
+      dependencies = with final.vimPlugins; [
+        nvim-lspconfig
+      ];
+    });
   };
 in
 
