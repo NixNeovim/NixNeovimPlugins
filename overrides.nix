@@ -126,6 +126,12 @@ let
       ];
     });
 
+    gruvy = super.gruvy.overrideAttrs (_: {
+      dependencies = with final.vimPlugins; [
+        lush-nvim
+      ];
+    });
+
     neogen = super.neogen.overrideAttrs (_: {
       dependencies = with final.vimPlugins; [
         nvim-treesitter
