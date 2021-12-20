@@ -170,6 +170,12 @@ let
       ];
     });
 
+    nvim-lspupdate = super.nvim-lspupdate.overrideAttrs (_: {
+      dependencies = with final.vimPlugins; [
+        nvim-lspconfig
+      ];
+    });
+
     nvim-rdark = super.nvim-rdark.overrideAttrs (_: {
       dependencies = with final.vimPlugins; [
         colorbuddy-nvim
