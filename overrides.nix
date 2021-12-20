@@ -274,6 +274,12 @@ let
       ];
     });
 
+    telescope-zoxide = super.telescope-zoxide.overrideAttrs (_: {
+      dependencies = with final.vimPlugins; [
+        telescope-nvim
+      ];
+    });
+
     vim-textobj-parameter = super.vim-textobj-parameter.overrideAttrs (_: {
       dependencies = with final.vimPlugins; [
         vim-textobj-user
