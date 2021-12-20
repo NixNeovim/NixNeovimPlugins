@@ -105,6 +105,12 @@ let
       ];
     });
 
+    fuzzy-nvim = super.fuzzy-nvim.overrideAttrs (_: {
+      dependencies = with final.vimPlugins; [
+        plenary-nvim
+      ];
+    });
+
     code-runner-nvim = super.code-runner-nvim.overrideAttrs (_: {
       dependencies = with final.vimPlugins; [
         plenary-nvim
