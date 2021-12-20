@@ -350,8 +350,10 @@
 (set plugin.__index plugin)
 
 (fn plugin.escape-name [name]
-  "Replace '.' with '-' in plugin name."
-  (string.gsub name "%." "-"))
+  "Replace '.' or '_' with '-' in plugin name."
+  (-> name
+      (string.gsub "%." "-")
+      (string.gsub "_" "-")))
 
 (fn plugin.get-date [timestamp]
   "Get date (YYYY-MM-DD) from timestamp."
