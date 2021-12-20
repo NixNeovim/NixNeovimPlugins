@@ -49,6 +49,8 @@ let
 
     nvim-base16-lua = [ mit ];
 
+    nvim-deus = [ gpl3Plus ];
+
     null-ls-nvim = [ publicDomain ];
 
     vim-emacscommandline = [ vim ];
