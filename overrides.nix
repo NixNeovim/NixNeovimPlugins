@@ -322,6 +322,12 @@ let
       ];
     });
 
+    vgit-nvim = super.vgit-nvim.overrideAttrs (_: {
+      dependencies = with final.vimPlugins; [
+        plenary-nvim
+      ];
+    });
+
     vim-textobj-parameter = super.vim-textobj-parameter.overrideAttrs (_: {
       dependencies = with final.vimPlugins; [
         vim-textobj-user
