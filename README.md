@@ -366,12 +366,13 @@ In `overrides.nix`, you see something like
 
 Add your overrides here if needed.
 
-#### 4. Create a Pull Request if you like
+#### 4. Create a Pull Request
 
 Anyone is welcome to add another plugin to this repo.
 Feel free to create a PR with your new plugins!
-In that case, make sure you commit only `manifest.txt` and `overrides.nix` if changed.
-Other files will be updated by GitHub Action.
+In that case, make sure you commit
+`manifest.txt`, `pkgs/vim-plugins.nix`, and optionally `overrides.nix` if changed.
+`README.md` will be updated by GitHub Action so it is not mandatory.
 
 ## License
 
