@@ -138,7 +138,6 @@ monkoose/matchparen.nvim
 ms-jpq/chadtree
 ms-jpq/coq_nvim
 nanotee/nvim-lsp-basics
-nanotee/nvim-lua-guide
 nanotee/sqls.nvim
 navarasu/onedark.nvim
 nekonako/xresources-nvim
@@ -201,7 +200,6 @@ tjdevries/gruvbuddy.nvim
 tjdevries/vlog.nvim
 tveskag/nvim-blame-line
 vhyrro/neorg
-vijaymarupudi/nvim-fzf
 williamboman/nvim-lsp-installer
 windwp/nvim-projectconfig
 windwp/nvim-spectre
