@@ -1,4 +1,4 @@
-name: Check Builds in nixpkgs-unstable
+name: Check builds in nixpkgs-unstable
 
 on:
   pull_request:
@@ -19,7 +19,7 @@ on:
 jobs:
   check-builds:
     runs-on: ubuntu-latest
-    name: Check Builds in nixpkgs-unstable
+    name: Check builds in nixpkgs-unstable
     steps:
       - uses: actions/checkout@v2
         with:
