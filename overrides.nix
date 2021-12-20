@@ -216,6 +216,12 @@ let
       ];
     });
 
+    nvim-comment-frame = super.nvim-comment-frame.overrideAttrs (_: {
+      dependencies = with final.vimPlugins; [
+        nvim-treesitter
+      ];
+    });
+
     nvim-go = super.nvim-go.overrideAttrs (_: {
       dependencies = with final.vimPlugins; [
         plenary-nvim
