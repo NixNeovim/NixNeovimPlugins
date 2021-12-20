@@ -690,8 +690,8 @@
       license = with licenses; [ mit ];
     };
   };
-  nvim = buildVimPluginFrom2Nix {
-    pname = "nvim";
+  catppuccin = buildVimPluginFrom2Nix {
+    pname = "catppuccin";
     version = "2021-12-14";
     src = fetchurl {
       url = "https://github.com/catppuccin/nvim/archive/22b34eb9f93430bc010dee1523743b62cd2700fc.tar.gz";
@@ -908,8 +908,8 @@
       license = with licenses; [ mit ];
     };
   };
-  feline-nvim = buildVimPluginFrom2Nix {
-    pname = "feline-nvim";
+  feline-nvim-develop = buildVimPluginFrom2Nix {
+    pname = "feline-nvim-develop";
     version = "2021-12-19";
     src = fetchurl {
       url = "https://github.com/feline-nvim/feline.nvim/archive/f060efd708b9662f2314eb779b00215c4f793d1b.tar.gz";
@@ -1124,8 +1124,8 @@
       license = with licenses; [ agpl3Only ];
     };
   };
-  vim-fish = buildVimPluginFrom2Nix {
-    pname = "vim-fish";
+  vim-fish-inkch = buildVimPluginFrom2Nix {
+    pname = "vim-fish-inkch";
     version = "2021-05-21";
     src = fetchurl {
       url = "https://github.com/inkch/vim-fish/archive/9e2472a8f3f3953f23343b3e053d80ad0ce6a25f.tar.gz";
@@ -1674,8 +1674,8 @@
       license = with licenses; [ mit ];
     };
   };
-  iron-nvim = buildVimPluginFrom2Nix {
-    pname = "iron-nvim";
+  iron-nvim-mnacamura = buildVimPluginFrom2Nix {
+    pname = "iron-nvim-mnacamura";
     version = "2021-12-19";
     src = fetchurl {
       url = "https://github.com/mnacamura/iron.nvim/archive/0b8748a1e3194b1239372111c1902cf7a14e10fc.tar.gz";
@@ -2226,8 +2226,8 @@
       license = with licenses; [ mit ];
     };
   };
-  neovim = buildVimPluginFrom2Nix {
-    pname = "neovim";
+  rose-pine = buildVimPluginFrom2Nix {
+    pname = "rose-pine";
     version = "2021-12-17";
     src = fetchurl {
       url = "https://github.com/rose-pine/neovim/archive/adec84ec3d0b7d867a28b3545013bc7da2946db5.tar.gz";

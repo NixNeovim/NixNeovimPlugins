@@ -144,7 +144,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [blackCauldron7/surround.nvim](https://github.com/blackCauldron7/surround.nvim) | 2021-12-16 | `surround-nvim` |
 | [bluz71/vim-moonfly-colors](https://github.com/bluz71/vim-moonfly-colors) | 2021-12-09 | `vim-moonfly-colors` |
 | [bluz71/vim-nightfly-guicolors](https://github.com/bluz71/vim-nightfly-guicolors) | 2021-12-09 | `vim-nightfly-guicolors` |
-| [catppuccin/nvim](https://github.com/catppuccin/nvim) | 2021-12-14 | `nvim` |
+| [catppuccin/nvim](https://github.com/catppuccin/nvim) | 2021-12-14 | `catppuccin` |
 | [clojure-vim/jazz.nvim](https://github.com/clojure-vim/jazz.nvim) | 2019-04-30 | `jazz-nvim` |
 | [code-biscuits/nvim-biscuits](https://github.com/code-biscuits/nvim-biscuits) | 2021-11-12 | `nvim-biscuits` |
 | [crispgm/nvim-go](https://github.com/crispgm/nvim-go) | 2021-12-15 | `nvim-go` |
@@ -161,7 +161,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [ekickx/clipboard-image.nvim](https://github.com/ekickx/clipboard-image.nvim) | 2021-12-07 | `clipboard-image-nvim` |
 | [ellisonleao/glow.nvim](https://github.com/ellisonleao/glow.nvim) | 2021-12-14 | `glow-nvim` |
 | [ethanholz/nvim-lastplace](https://github.com/ethanholz/nvim-lastplace) | 2021-10-15 | `nvim-lastplace` |
-| [feline-nvim/feline.nvim](https://github.com/feline-nvim/feline.nvim) [branch: `develop`] | 2021-12-19 | `feline-nvim` |
+| [feline-nvim/feline.nvim](https://github.com/feline-nvim/feline.nvim) [branch: `develop`] | 2021-12-19 | `feline-nvim-develop` |
 | [filipdutescu/renamer.nvim](https://github.com/filipdutescu/renamer.nvim) | 2021-12-19 | `renamer-nvim` |
 | [folke/lua-dev.nvim](https://github.com/folke/lua-dev.nvim) | 2021-12-10 | `lua-dev-nvim` |
 | [folke/zen-mode.nvim](https://github.com/folke/zen-mode.nvim) | 2021-11-07 | `zen-mode-nvim` |
@@ -178,7 +178,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [houtsnip/vim-emacscommandline](https://github.com/houtsnip/vim-emacscommandline) | 2017-11-24 | `vim-emacscommandline` |
 | [hylang/vim-hy](https://github.com/hylang/vim-hy) | 2021-05-20 | `vim-hy` |
 | [ibhagwan/fzf-lua](https://github.com/ibhagwan/fzf-lua) | 2021-12-19 | `fzf-lua` |
-| [inkch/vim-fish](https://github.com/inkch/vim-fish) | 2021-05-21 | `vim-fish` |
+| [inkch/vim-fish](https://github.com/inkch/vim-fish) | 2021-05-21 | `vim-fish-inkch` |
 | [is0n/fm-nvim](https://github.com/is0n/fm-nvim) | 2021-12-18 | `fm-nvim` |
 | [is0n/jaq-nvim](https://github.com/is0n/jaq-nvim) | 2021-12-18 | `jaq-nvim` |
 | [ishan9299/modus-theme-vim](https://github.com/ishan9299/modus-theme-vim) | 2021-11-09 | `modus-theme-vim` |
@@ -221,7 +221,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [michaelb/sniprun](https://github.com/michaelb/sniprun) | 2021-12-19 | `sniprun` |
 | [mizlan/iswap.nvim](https://github.com/mizlan/iswap.nvim) | 2021-11-20 | `iswap-nvim` |
 | [mjlbach/babelfish.nvim](https://github.com/mjlbach/babelfish.nvim) | 2021-09-14 | `babelfish-nvim` |
-| [mnacamura/iron.nvim](https://github.com/mnacamura/iron.nvim) | 2021-12-19 | `iron-nvim` |
+| [mnacamura/iron.nvim](https://github.com/mnacamura/iron.nvim) | 2021-12-19 | `iron-nvim-mnacamura` |
 | [mnacamura/nvim-srcerite](https://github.com/mnacamura/nvim-srcerite) | 2021-12-17 | `nvim-srcerite` |
 | [mnacamura/vim-fennel-syntax](https://github.com/mnacamura/vim-fennel-syntax) | 2021-07-08 | `vim-fennel-syntax` |
 | [mnacamura/vim-r7rs-syntax](https://github.com/mnacamura/vim-r7rs-syntax) | 2021-07-09 | `vim-r7rs-syntax` |
@@ -264,7 +264,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [rktjmp/paperplanes.nvim](https://github.com/rktjmp/paperplanes.nvim) | 2021-08-14 | `paperplanes-nvim` |
 | [rmehri01/onenord.nvim](https://github.com/rmehri01/onenord.nvim) | 2021-12-16 | `onenord-nvim` |
 | [rockerBOO/boo-colorscheme-nvim](https://github.com/rockerBOO/boo-colorscheme-nvim) | 2021-12-08 | `boo-colorscheme-nvim` |
-| [rose-pine/neovim](https://github.com/rose-pine/neovim) | 2021-12-17 | `neovim` |
+| [rose-pine/neovim](https://github.com/rose-pine/neovim) | 2021-12-17 | `rose-pine` |
 | [s1n7ax/nvim-comment-frame](https://github.com/s1n7ax/nvim-comment-frame) | 2021-09-14 | `nvim-comment-frame` |
 | [s1n7ax/nvim-terminal](https://github.com/s1n7ax/nvim-terminal) | 2021-11-12 | `nvim-terminal` |
 | [sQVe/sort.nvim](https://github.com/sQVe/sort.nvim) | 2021-12-14 | `sort-nvim` |
@@ -317,9 +317,16 @@ In `manifest.txt`, an entry is specified by one of the following forms:
 - `owner/repo`: a GitHub repo with default branch (typically `main` or `master`).
 - `github:owner/repo`: again, a GitHub repo with default branch.
 - `gitlab:owner/repo`: a GitLab repo with default branch.
-- `owner/repo:branch`: a GitHub repo with a specific branch.
-- `github:owner/repo:branch`: again, a GitHub repo with a specific branch.
-- `gitlab:owner/repo:branch`: a GitLab repo with a specific branch.
+- `owner/repo:branch`: a GitHub repo with a specific `branch`.
+- `github:owner/repo:branch`: again, a GitHub repo with a specific `branch`.
+- `gitlab:owner/repo:branch`: a GitLab repo with a specific `branch`.
+- `owner/repo::rename`: a GitHub repo with default branch, renamed to `rename`.
+    - Example: `xxx/yyy::zzz`'s package name will be renamed to `zzz` in place of `yyy`.
+- `github:owner/repo::rename`: again, a GitHub repo with default branch, renamed to `rename`.
+- `gitlab:owner/repo::rename`: a GitLab repo with default branch, renamed to `rename`.
+- `owner/repo:branch:rename`: a GitHub repo with a specific `branch`, renamed to `rename`.
+- `github:owner/repo:branch:rename`: again, a GitHub repo with a specific `branch`, renamed to `rename`.
+- `gitlab:owner/repo:branch:rename`: a GitLab repo with a specific `branch`, renamed to `rename`.
 
 After adding your entry, run:
 
