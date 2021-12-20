@@ -126,6 +126,12 @@ let
       ];
     });
 
+    neogen = super.neogen.overrideAttrs (_: {
+      dependencies = with final.vimPlugins; [
+        nvim-treesitter
+      ];
+    });
+
     nvim-revJ-lua = super.nvim-revJ-lua.overrideAttrs (_: {
       dependencies = with final.vimPlugins; [
         self.vim-textobj-parameter
