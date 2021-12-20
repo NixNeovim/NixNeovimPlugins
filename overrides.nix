@@ -162,6 +162,13 @@ let
       ];
     });
 
+    nvim-go = super.nvim-go.overrideAttrs (_: {
+      dependencies = with final.vimPlugins; [
+        plenary-nvim
+        popup-nvim
+      ];
+    });
+
     nvim-papadark = super.themer-lua;
 
     nvim-revJ-lua = super.nvim-revJ-lua.overrideAttrs (_: {
