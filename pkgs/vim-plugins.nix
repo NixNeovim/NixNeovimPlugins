@@ -26,8 +26,8 @@
       license = with licenses; [ mit ];
     };
   };
-  code_runner-nvim = buildVimPluginFrom2Nix {
-    pname = "code_runner-nvim";
+  code-runner-nvim = buildVimPluginFrom2Nix {
+    pname = "code-runner-nvim";
     version = "2021-11-02";
     src = fetchurl {
       url = "https://github.com/CRAG666/code_runner.nvim/archive/88f58cf601fa2ba8b785fcad81437092d0414f1c.tar.gz";
@@ -1624,10 +1624,10 @@
   };
   nvim-treehopper = buildVimPluginFrom2Nix {
     pname = "nvim-treehopper";
-    version = "2021-11-20";
+    version = "2021-12-20";
     src = fetchurl {
-      url = "https://github.com/mfussenegger/nvim-treehopper/archive/4d57868ea2bc0feb72f919e56d3a7dbe672f9566.tar.gz";
-      sha256 = "0w6jxcz6akd6470ccwnk25ryxk2lldp5h1j747j9nmjikjj2h0b9";
+      url = "https://github.com/mfussenegger/nvim-treehopper/archive/59a589471c85ebf9479089c4ca1638021b9a10e3.tar.gz";
+      sha256 = "0ly17pj03jwg0yhzngy7a49vrn9hhbvfm3fj86yjl8bjq4c5z1aa";
     };
     meta = with lib; {
       description = "Region selection with hints on the AST nodes of a document powered by treesitter";
@@ -1740,10 +1740,10 @@
   };
   matchparen-nvim = buildVimPluginFrom2Nix {
     pname = "matchparen-nvim";
-    version = "2021-12-19";
+    version = "2021-12-20";
     src = fetchurl {
-      url = "https://github.com/monkoose/matchparen.nvim/archive/33e3db458ba3fa296006888203cec3e92d50a313.tar.gz";
-      sha256 = "055jym79a86vn0rcl3qxvgx39zlcfjnpjlng0c8z28fw08dz193z";
+      url = "https://github.com/monkoose/matchparen.nvim/archive/6818e396bb755e093598706174aa4cc1ac6242bd.tar.gz";
+      sha256 = "1bx0gcv5chiij49rvyl7add6zczv1mfqd5hi4jzz0k4rp8ahlicm";
     };
     meta = with lib; {
       description = "alternative to matchparen neovim plugin ";
@@ -1763,8 +1763,8 @@
       homepage = "https://github.com/ms-jpq/chadtree";
     };
   };
-  coq_nvim = buildVimPluginFrom2Nix {
-    pname = "coq_nvim";
+  coq-nvim = buildVimPluginFrom2Nix {
+    pname = "coq-nvim";
     version = "2021-12-20";
     src = fetchurl {
       url = "https://github.com/ms-jpq/coq_nvim/archive/89839b861c78be85861214bf0263093d612d0a90.tar.gz";
@@ -1787,18 +1787,6 @@
       description = "Basic wrappers for LSP features";
       homepage = "https://github.com/nanotee/nvim-lsp-basics";
       license = with licenses; [ mit ];
-    };
-  };
-  nvim-lua-guide = buildVimPluginFrom2Nix {
-    pname = "nvim-lua-guide";
-    version = "2021-11-11";
-    src = fetchurl {
-      url = "https://github.com/nanotee/nvim-lua-guide/archive/358b6b4273b1fd8949452b0795c4ff1602d8edd6.tar.gz";
-      sha256 = "1g2p430j3bsha0jbrdr25n8ckqzrr83mp075vp5l1j74aif3idf9";
-    };
-    meta = with lib; {
-      description = "A guide to using Lua in Neovim";
-      homepage = "https://github.com/nanotee/nvim-lua-guide";
     };
   };
   sqls-nvim = buildVimPluginFrom2Nix {
@@ -2393,8 +2381,8 @@
       license = with licenses; [ mit ];
     };
   };
-  qf_helper-nvim = buildVimPluginFrom2Nix {
-    pname = "qf_helper-nvim";
+  qf-helper-nvim = buildVimPluginFrom2Nix {
+    pname = "qf-helper-nvim";
     version = "2021-12-01";
     src = fetchurl {
       url = "https://github.com/stevearc/qf_helper.nvim/archive/9c6d2da63131641584e21c263d57695a6c0572a9.tar.gz";
@@ -2535,8 +2523,8 @@
       license = with licenses; [ mit ];
     };
   };
-  express_line-nvim = buildVimPluginFrom2Nix {
-    pname = "express_line-nvim";
+  express-line-nvim = buildVimPluginFrom2Nix {
+    pname = "express-line-nvim";
     version = "2021-12-01";
     src = fetchurl {
       url = "https://github.com/tjdevries/express_line.nvim/archive/30f04edb9647d9ea7c08d0bdbfad33faf5bcda57.tar.gz";
@@ -2598,19 +2586,6 @@
       description = "Modernity meets insane extensibility. The future of organizing your life in Neovim";
       homepage = "https://github.com/nvim-neorg/neorg";
       license = with licenses; [ gpl3Only ];
-    };
-  };
-  nvim-fzf = buildVimPluginFrom2Nix {
-    pname = "nvim-fzf";
-    version = "2021-10-25";
-    src = fetchurl {
-      url = "https://github.com/vijaymarupudi/nvim-fzf/archive/7cc3670b00f4d6e0968289f8b3bee7481cab3e73.tar.gz";
-      sha256 = "0c7s9vwrbjp98bfb1s1h3fb4w687q3hxkqb4dsx7hiajz716vgxd";
-    };
-    meta = with lib; {
-      description = "A Lua API for using fzf in neovim";
-      homepage = "https://github.com/vijaymarupudi/nvim-fzf";
-      license = with licenses; [ agpl3Only ];
     };
   };
   nvim-lsp-installer = buildVimPluginFrom2Nix {
