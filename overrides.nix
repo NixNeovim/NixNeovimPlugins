@@ -310,6 +310,12 @@ let
       ];
     });
 
+    tabline-framework-nvim = super.tabline-framework-nvim.overrideAttrs (_: {
+      dependencies = with final.vimPlugins; [
+        nvim-web-devicons
+      ];
+    });
+
     telescope-heading-nvim = super.telescope-heading-nvim.overrideAttrs (_: {
       dependencies = with final.vimPlugins; [
         telescope-nvim
