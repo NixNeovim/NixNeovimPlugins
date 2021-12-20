@@ -87,6 +87,12 @@ let
       ];
     });
 
+    code-runner-nvim = super.code-runner-nvim.overrideAttrs (_: {
+      dependencies = with final.vimPlugins; [
+        plenary-nvim
+      ];
+    });
+
     lspactions = super.lspactions.overrideAttrs (_: {
       dependencies = with final.vimPlugins; [
         plenary-nvim
