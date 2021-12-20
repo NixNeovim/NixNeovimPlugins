@@ -77,6 +77,12 @@ let
    * Add other overrides here.
    */
   {
+    alpha-nvim = super.alpha-nvim.overrideAttrs (_: {
+      dependencies = with final.vimPlugins; [
+        nvim-web-devicons
+      ];
+    });
+
     feline-nvim-develop = super.feline-nvim-develop.overrideAttrs (old: {
       patches = (old.patches or []) ++ lib.optionals (lib.versionOlder "2021-12-19" old.version) [
         # https://github.com/famiu/feline.nvim/pull/179
