@@ -52,7 +52,7 @@ bkegley/gloombuddy
 blackCauldron7/surround.nvim
 bluz71/vim-moonfly-colors
 bluz71/vim-nightfly-guicolors
-catppuccin/nvim
+catppuccin/nvim::catppuccin
 clojure-vim/jazz.nvim
 code-biscuits/nvim-biscuits
 crispgm/nvim-go
@@ -69,7 +69,7 @@ edolphin-ydf/goimpl.nvim
 ekickx/clipboard-image.nvim
 ellisonleao/glow.nvim
 ethanholz/nvim-lastplace
-feline-nvim/feline.nvim:develop
+feline-nvim/feline.nvim:develop:feline-nvim-develop
 filipdutescu/renamer.nvim
 folke/lua-dev.nvim
 folke/zen-mode.nvim
@@ -86,7 +86,7 @@ henriquehbr/nvim-startup.lua
 houtsnip/vim-emacscommandline
 hylang/vim-hy
 ibhagwan/fzf-lua
-inkch/vim-fish
+inkch/vim-fish::vim-fish-inkch
 is0n/fm-nvim
 is0n/jaq-nvim
 ishan9299/modus-theme-vim
@@ -129,7 +129,7 @@ mfussenegger/nvim-ts-hint-textobject
 michaelb/sniprun
 mizlan/iswap.nvim
 mjlbach/babelfish.nvim
-mnacamura/iron.nvim
+mnacamura/iron.nvim::iron-nvim-mnacamura
 mnacamura/nvim-srcerite
 mnacamura/vim-fennel-syntax
 mnacamura/vim-r7rs-syntax
@@ -172,7 +172,7 @@ rktjmp/hotpot.nvim
 rktjmp/paperplanes.nvim
 rmehri01/onenord.nvim
 rockerBOO/boo-colorscheme-nvim
-rose-pine/neovim
+rose-pine/neovim::rose-pine
 s1n7ax/nvim-comment-frame
 s1n7ax/nvim-terminal
 sQVe/sort.nvim
