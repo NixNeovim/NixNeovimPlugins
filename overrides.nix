@@ -123,6 +123,12 @@ let
       ];
     });
 
+    cmp-tmux = super.cmp-tmux.overrideAttrs (_: {
+      dependencies = with final.vimPlugins; [
+        nvim-cmp
+      ];
+    });
+
     flutter-tools-nvim = super.flutter-tools-nvim.overrideAttrs (_: {
       dependencies = with final.vimPlugins; [
         plenary-nvim
