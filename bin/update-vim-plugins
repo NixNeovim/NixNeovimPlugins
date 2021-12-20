@@ -76,7 +76,8 @@
              :lgpl-2.1 "lgpl21Only"
              :mit "mit"
              :mpl-2.0 "mpl20"
-             :unlicense "unlicense"}]
+             :unlicense "unlicense"
+             :wtfpl "wtfpl"}]
     (. map github-license.key)))
 
 (fn nix.prefetch-url [url]
