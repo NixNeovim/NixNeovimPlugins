@@ -10,12 +10,12 @@ LoricAndre/OneTerm.nvim
 Mangeshrex/uwu.vim
 McAuleyPenney/tidy.nvim
 Mofiqul/vscode.nvim
-MordechaiHadad/nvim-papadark
 NFrid/due.nvim
 NTBBloodbath/cheovim
 NTBBloodbath/doom-one.nvim
 NTBBloodbath/galaxyline.nvim
 NTBBloodbath/rest.nvim
+NarutoXY/themer.lua
 PHSix/nvim-hybrid
 Pocco81/AbbrevMan.nvim
 Pocco81/AutoSave.nvim
@@ -25,7 +25,6 @@ RRethy/nvim-treesitter-textsubjects
 RishabhRD/gruvy
 RishabhRD/lspactions
 RishabhRD/nvim-rdark
-SmiteshP/nvim-gps
 Th3Whit3Wolf/onebuddy
 Th3Whit3Wolf/space-nvim
 ThePrimeagen/vim-be-good

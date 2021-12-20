@@ -102,12 +102,12 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [Mangeshrex/uwu.vim](https://github.com/Mangeshrex/uwu.vim) | 2021-12-10 | `uwu-vim` |
 | [mcauley-penney/tidy.nvim](https://github.com/mcauley-penney/tidy.nvim) | 2021-11-22 | `tidy-nvim` |
 | [Mofiqul/vscode.nvim](https://github.com/Mofiqul/vscode.nvim) | 2021-12-18 | `vscode-nvim` |
-| [MordechaiHadad/nvim-papadark](https://github.com/MordechaiHadad/nvim-papadark) | 2021-10-30 | `nvim-papadark` |
 | [NFrid/due.nvim](https://github.com/NFrid/due.nvim) | 2021-07-04 | `due-nvim` |
 | [NTBBloodbath/cheovim](https://github.com/NTBBloodbath/cheovim) | 2021-08-25 | `cheovim` |
 | [NTBBloodbath/doom-one.nvim](https://github.com/NTBBloodbath/doom-one.nvim) | 2021-10-20 | `doom-one-nvim` |
 | [NTBBloodbath/galaxyline.nvim](https://github.com/NTBBloodbath/galaxyline.nvim) | 2021-12-16 | `galaxyline-nvim` |
 | [NTBBloodbath/rest.nvim](https://github.com/NTBBloodbath/rest.nvim) | 2021-12-17 | `rest-nvim` |
+| [NarutoXY/themer.lua](https://github.com/NarutoXY/themer.lua) | 2021-11-07 | `themer-lua` |
 | [PHSix/nvim-hybrid](https://github.com/PHSix/nvim-hybrid) | 2021-07-31 | `nvim-hybrid` |
 | [Pocco81/AbbrevMan.nvim](https://github.com/Pocco81/AbbrevMan.nvim) | 2021-07-15 | `AbbrevMan-nvim` |
 | [Pocco81/AutoSave.nvim](https://github.com/Pocco81/AutoSave.nvim) | 2021-12-14 | `AutoSave-nvim` |
@@ -117,7 +117,6 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [RishabhRD/gruvy](https://github.com/RishabhRD/gruvy) | 2021-12-01 | `gruvy` |
 | [RishabhRD/lspactions](https://github.com/RishabhRD/lspactions) | 2021-11-15 | `lspactions` |
 | [RishabhRD/nvim-rdark](https://github.com/RishabhRD/nvim-rdark) | 2020-12-25 | `nvim-rdark` |
-| [SmiteshP/nvim-gps](https://github.com/SmiteshP/nvim-gps) | 2021-11-14 | `nvim-gps` |
 | [Th3Whit3Wolf/onebuddy](https://github.com/Th3Whit3Wolf/onebuddy) | 2021-04-01 | `onebuddy` |
 | [Th3Whit3Wolf/space-nvim](https://github.com/Th3Whit3Wolf/space-nvim) | 2021-07-08 | `space-nvim` |
 | [ThePrimeagen/vim-be-good](https://github.com/ThePrimeagen/vim-be-good) | 2021-03-16 | `vim-be-good` |

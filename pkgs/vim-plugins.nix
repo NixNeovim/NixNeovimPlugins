@@ -154,19 +154,6 @@
       license = with licenses; [ mit ];
     };
   };
-  nvim-papadark = buildVimPluginFrom2Nix {
-    pname = "nvim-papadark";
-    version = "2021-10-30";
-    src = fetchurl {
-      url = "https://github.com/MordechaiHadad/nvim-papadark/archive/2b832c40fb5d213633a1bd6a531b8d8c10d6a981.tar.gz";
-      sha256 = "1qrankzw045lvpdvayk1aq3320f2aqygwg611viaxcyn77nfyk5s";
-    };
-    meta = with lib; {
-      description = "My own neovim colorscheme";
-      homepage = "https://github.com/MordechaiHadad/nvim-papadark";
-      license = with licenses; [ mit ];
-    };
-  };
   due-nvim = buildVimPluginFrom2Nix {
     pname = "due-nvim";
     version = "2021-07-04";
@@ -230,6 +217,19 @@
       description = "A fast Neovim http client written in Lua";
       homepage = "https://github.com/NTBBloodbath/rest.nvim";
       license = with licenses; [ mit ];
+    };
+  };
+  themer-lua = buildVimPluginFrom2Nix {
+    pname = "themer-lua";
+    version = "2021-11-07";
+    src = fetchurl {
+      url = "https://github.com/NarutoXY/themer.lua/archive/aefb059e0ec3368f5bada6cdaf0ab439558531c5.tar.gz";
+      sha256 = "17b4bnzg0hx5i642ilb7jggx0x9bc7fm6im8nsi7q8379zis7rxb";
+    };
+    meta = with lib; {
+      description = "A simple, minimal highlighter plugin for neovim";
+      homepage = "https://github.com/NarutoXY/themer.lua";
+      license = with licenses; [ gpl3Only ];
     };
   };
   nvim-hybrid = buildVimPluginFrom2Nix {
@@ -343,19 +343,6 @@
     meta = with lib; {
       description = "A dark colorscheme for neovim written in lua";
       homepage = "https://github.com/RishabhRD/nvim-rdark";
-    };
-  };
-  nvim-gps = buildVimPluginFrom2Nix {
-    pname = "nvim-gps";
-    version = "2021-11-14";
-    src = fetchurl {
-      url = "https://github.com/SmiteshP/nvim-gps/archive/4805df6a5858aea5ccff56a6d706c96fb746c5d7.tar.gz";
-      sha256 = "0ifm3jqqdgp90fghkzm8d0ph4cp68lzxrzxkj06n9r7rp4k9avsq";
-    };
-    meta = with lib; {
-      description = "Simple statusline component that shows what scope you are working inside";
-      homepage = "https://github.com/SmiteshP/nvim-gps";
-      license = with licenses; [ asl20 ];
     };
   };
   onebuddy = buildVimPluginFrom2Nix {
