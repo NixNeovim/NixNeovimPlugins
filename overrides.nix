@@ -204,6 +204,12 @@ let
       ];
     });
 
+    nlsp-settings-nvim = super.nlsp-settings-nvim.overrideAttrs (_: {
+      dependencies = with final.vimPlugins; [
+        nvim-lspconfig
+      ];
+    });
+
     nvim-biscuits = super.nvim-biscuits.overrideAttrs (_: {
       dependencies = with final.vimPlugins; [
         nvim-treesitter
