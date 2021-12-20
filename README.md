@@ -193,7 +193,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [jghauser/mkdir.nvim](https://github.com/jghauser/mkdir.nvim) | 2021-06-20 | `mkdir-nvim` |
 | [jim-at-jibba/ariake-vim-colors](https://github.com/jim-at-jibba/ariake-vim-colors) | 2021-02-23 | `ariake-vim-colors` |
 | [johann2357/nvim-smartbufs](https://github.com/johann2357/nvim-smartbufs) | 2021-06-14 | `nvim-smartbufs` |
-| [jose-elias-alvarez/null-ls.nvim](https://github.com/jose-elias-alvarez/null-ls.nvim) | 2021-12-19 | `null-ls-nvim` |
+| [jose-elias-alvarez/null-ls.nvim](https://github.com/jose-elias-alvarez/null-ls.nvim) | 2021-12-20 | `null-ls-nvim` |
 | [jubnzv/mdeval.nvim](https://github.com/jubnzv/mdeval.nvim) | 2021-10-02 | `mdeval-nvim` |
 | [jubnzv/virtual-types.nvim](https://github.com/jubnzv/virtual-types.nvim) | 2021-11-06 | `virtual-types-nvim` |
 | [jvgrootveld/telescope-zoxide](https://github.com/jvgrootveld/telescope-zoxide) | 2021-10-21 | `telescope-zoxide` |

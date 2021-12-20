@@ -1320,10 +1320,10 @@
   };
   null-ls-nvim = buildVimPluginFrom2Nix {
     pname = "null-ls-nvim";
-    version = "2021-12-19";
+    version = "2021-12-20";
     src = fetchurl {
-      url = "https://github.com/jose-elias-alvarez/null-ls.nvim/archive/80e1c2942f70bfdf16886a64692f274ef7356010.tar.gz";
-      sha256 = "0iwp7vc4q4in4ldi3dzrdkplzg5xg91n9ly5vpwvifwdizbx3rrs";
+      url = "https://github.com/jose-elias-alvarez/null-ls.nvim/archive/28d581cc488b6cb981199107c0a8074d4e136da8.tar.gz";
+      sha256 = "0q5w2ma1ipdssgpzycv4vj6b0sksl8zdbknmnr60vz9kq58nf6bb";
     };
     meta = with lib; {
       description = "Use Neovim as a language server to inject LSP diagnostics, code actions, and more via Lua";
