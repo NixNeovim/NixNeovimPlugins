@@ -47,6 +47,8 @@ let
 
     goimpl-nvim = [ mit ];
 
+    nvim-base16-lua = [ mit ];
+
     null-ls-nvim = [ publicDomain ];
 
     vim-emacscommandline = [ vim ];
