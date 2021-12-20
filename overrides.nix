@@ -141,6 +141,12 @@ let
       ];
     });
 
+    express-line-nvim = super.express-line-nvim.overrideAttrs (_: {
+      dependencies = with final.vimPlugins; [
+        plenary-nvim
+      ];
+    });
+
     flutter-tools-nvim = super.flutter-tools-nvim.overrideAttrs (_: {
       dependencies = with final.vimPlugins; [
         plenary-nvim
