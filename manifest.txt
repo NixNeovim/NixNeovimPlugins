@@ -10,12 +10,12 @@ LoricAndre/OneTerm.nvim
 Mangeshrex/uwu.vim
 McAuleyPenney/tidy.nvim
 Mofiqul/vscode.nvim
-MordechaiHadad/nvim-papadark
 NFrid/due.nvim
 NTBBloodbath/cheovim
 NTBBloodbath/doom-one.nvim
 NTBBloodbath/galaxyline.nvim
 NTBBloodbath/rest.nvim
+NarutoXY/themer.lua
 PHSix/nvim-hybrid
 Pocco81/AbbrevMan.nvim
 Pocco81/AutoSave.nvim

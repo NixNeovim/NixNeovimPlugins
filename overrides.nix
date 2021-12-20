@@ -132,6 +132,8 @@ let
       ];
     });
 
+    nvim-papadark = super.themer-lua;
+
     nvim-revJ-lua = super.nvim-revJ-lua.overrideAttrs (_: {
       dependencies = with final.vimPlugins; [
         self.vim-textobj-parameter
