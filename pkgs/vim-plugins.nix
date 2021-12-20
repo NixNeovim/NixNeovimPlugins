@@ -980,6 +980,7 @@
     meta = with lib; {
       description = "Plugin that adds a 'cut' operation separate from 'delete' ";
       homepage = "https://github.com/gbprod/cutlass.nvim";
+      license = with licenses; [ wtfpl ];
     };
   };
   nvim-commaround = buildVimPluginFrom2Nix {

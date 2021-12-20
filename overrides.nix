@@ -37,9 +37,23 @@ let
    * Add licenses here if missing or wrong in generated ./pkgs/vim-plugins.nix.
    */
   {
+    ariake-vim-colors = [ mit ];
+
     bats-vim = [ vim ];
 
     bullets-vim = [ mit ];
+
+    format-nvim = [ mit ];
+
+    goimpl-nvim = [ mit ];
+
+    nvim-base16-lua = [ mit ];
+
+    nvim-deus = [ gpl3Plus ];
+
+    nvim-luapad = [ gpl3Only ];
+
+    nvim-revJ-lua = [ vim ];
 
     null-ls-nvim = [ publicDomain ];
 
