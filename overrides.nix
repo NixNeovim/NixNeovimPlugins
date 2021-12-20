@@ -182,6 +182,12 @@ let
       ];
     });
 
+    tabout-nvim = super.tabout-nvim.overrideAttrs (_: {
+      dependencies = with final.vimPlugins; [
+        nvim-treesitter
+      ];
+    });
+
     telescope-heading-nvim = super.telescope-heading-nvim.overrideAttrs (_: {
       dependencies = with final.vimPlugins; [
         telescope-nvim
