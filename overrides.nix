@@ -95,6 +95,8 @@ let
 
     fuzzy-nvim = [ plenary-nvim ];
 
+    github-colors = [ nvim-treesitter ];
+
     gloombuddy = [ colorbuddy-nvim ];
 
     goimpl-nvim = [ nvim-treesitter telescope-nvim ];
