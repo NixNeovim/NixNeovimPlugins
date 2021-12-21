@@ -3,15 +3,13 @@ final: prev:
 let
   inherit (final) lib;
 
-  brokenPkgOverrides = self: super:
-  lib.mapAttrs
-  (attrName: broken:
-  super.${attrName}.overrideAttrs (old: {
-    meta = old.meta // { inherit broken; };
-  }))
   /*
    * Mark broken packages here.
    */
+  markBrokenPackages = self: super:
+  lib.mapAttrs (attrName: broken: super.${attrName}.overrideAttrs (old: {
+    meta = old.meta // { inherit broken; };
+  }))
   {
     alpha-nvim = true;
 
@@ -21,21 +19,18 @@ let
 
     vacuumline-nvim = true;
 
-    zen-mode-nvim = true;
-
     vgit-nvim = true;
+
+    zen-mode-nvim = true;
   };
 
-  licenseOverrides = self: super:
-  lib.mapAttrs
-  (attrName: license:
-  super.${attrName}.overrideAttrs (old: {
-    meta = old.meta // { inherit license; };
-  }))
-  (with lib.licenses;
   /*
-   * Add licenses here if missing or wrong in generated ./pkgs/vim-plugins.nix.
+   * Add licenses if missing or incorrect in generated ./pkgs/vim-plugins.nix.
    */
+  fixLicenses = self: super:
+  lib.mapAttrs (attrName: license: super.${attrName}.overrideAttrs (old: {
+    meta = old.meta // { inherit license; };
+  })) (with lib.licenses;
   {
     ariake-vim-colors = [ mit ];
 
@@ -49,15 +44,19 @@ let
 
     goimpl-nvim = [ mit ];
 
+    null-ls-nvim = [ publicDomain ];
+
     nvim-base16-lua = [ mit ];
 
     nvim-deus = [ gpl3Plus ];
 
     nvim-luapad = [ gpl3Only ];
 
+    nvim-pqf = [ mpl20 ];
+
     nvim-revJ-lua = [ vim ];
 
-    null-ls-nvim = [ publicDomain ];
+    nvim-srcerite = [ gpl3Plus ];
 
     vim-emacscommandline = [ vim ];
 
@@ -66,41 +65,110 @@ let
     vim-textobj-indent = [ mit ];
 
     vim-textobj-parameter = [ mit ];
-
-    nvim-srcerite = [ gpl3Plus ];
-
-    nvim-pqf = [ mpl20 ];
   });
 
-  otherOverrides = self: super:
+  /*
+   * Add dependencies to vim plugins if missing or incorrect in generated ./pkgs/vim-plugins.nix.
+   */
+  fixDependencies = self: super:
+  lib.mapAttrs (attrName: dependencies: super.${attrName}.overrideAttrs (_: {
+    inherit dependencies;
+  })) (with final.vimPlugins;
+  {
+    alpha-nvim = [ nvim-web-devicons ];
+
+    apprentice-nvim = [ lush-nvim ];
+
+    auto-pandoc-nvim = [ plenary-nvim ];
+
+    cmp-npm = [ plenary-nvim ];
+
+    cmp-tmux = [ nvim-cmp ];
+
+    code-runner-nvim = [ plenary-nvim ];
+
+    codeschool-nvim = [ lush-nvim ];
+
+    express-line-nvim = [ plenary-nvim ];
+
+    flutter-tools-nvim = [ plenary-nvim ];
+
+    follow-md-links-nvim = [ nvim-treesitter ];
+
+    fuzzy-nvim = [ plenary-nvim ];
+
+    gloombuddy = [ colorbuddy-nvim ];
+
+    goimpl-nvim = [ nvim-treesitter telescope-nvim ];
+
+    gruvbuddy-nvim = [ colorbuddy-nvim ];
+
+    gruvy = [ lush-nvim ];
+
+    jester = [ nvim-treesitter ];
+
+    lspactions = [ plenary-nvim popup-nvim self.astronauta-nvim ];
+
+    neogen = [ nvim-treesitter ];
+
+    neorg = [ plenary-nvim ];
+
+    nlsp-settings-nvim = [ nvim-lspconfig ];
+
+    nvim-biscuits = [ nvim-treesitter ];
+
+    nvim-comment-frame = [ nvim-treesitter ];
+
+    nvim-go = [ plenary-nvim popup-nvim ];
+
+    nvim-lsp-installer = [ nvim-lspconfig ];
+
+    nvim-lspupdate = [ nvim-lspconfig ];
+
+    nvim-magic = [ plenary-nvim nui-nvim ];
+
+    nvim-rdark = [ colorbuddy-nvim ];
+
+    nvim-revJ-lua = [ self.vim-textobj-parameter ];
+
+    nvim-spectre = [ plenary-nvim ];
+
+    nvim-treesitter-textsubjects = [ nvim-treesitter ];
+
+    nvim-ts-autotag = [ nvim-treesitter ];
+
+    nvim-ts-context-commentstring = [ nvim-treesitter ];
+
+    one-small-step-for-vimkind = [ nvim-dap ];
+
+    onebuddy = [ colorbuddy-nvim ];
+
+    renamer-nvim = [ plenary-nvim ];
+
+    tabline-framework-nvim = [ nvim-web-devicons ];
+
+    tabout-nvim = [ nvim-treesitter ];
+
+    telescope-bibtex-nvim = [ telescope-nvim ];
+
+    telescope-heading-nvim = [ telescope-nvim ];
+
+    telescope-zoxide = [ telescope-nvim ];
+
+    vacuumline-nvim = [ galaxyline-nvim ];
+
+    vgit-nvim = [ plenary-nvim ];
+
+    vim-textobj-parameter = [ vim-textobj-user ];
+
+    virtual-types-nvim = [ nvim-lspconfig ];
+  });
+
   /*
    * Add other overrides here.
    */
+  otherOverrides = self: super:
   {
-    alpha-nvim = super.alpha-nvim.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        nvim-web-devicons
-      ];
-    });
-
-    apprentice-nvim = super.apprentice-nvim.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        lush-nvim
-      ];
-    });
-
-    auto-pandoc-nvim = super.auto-pandoc-nvim.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        plenary-nvim
-      ];
-    });
-
-    codeschool-nvim = super.codeschool-nvim.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        lush-nvim
-      ];
-    });
-
     feline-nvim-develop = super.feline-nvim-develop.overrideAttrs (old: {
       patches = (old.patches or []) ++ lib.optionals (lib.versionOlder "2021-12-19" old.version) [
         # https://github.com/famiu/feline.nvim/pull/179
@@ -111,259 +179,15 @@ let
       ];
     });
 
-    follow-md-links-nvim = super.follow-md-links-nvim.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        nvim-treesitter
-      ];
-    });
-
-    fuzzy-nvim = super.fuzzy-nvim.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        plenary-nvim
-      ];
-    });
-
-    code-runner-nvim = super.code-runner-nvim.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        plenary-nvim
-      ];
-    });
-
-    cmp-npm = super.cmp-npm.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        plenary-nvim
-      ];
-    });
-
-    cmp-tmux = super.cmp-tmux.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        nvim-cmp
-      ];
-    });
-
-    express-line-nvim = super.express-line-nvim.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        plenary-nvim
-      ];
-    });
-
-    flutter-tools-nvim = super.flutter-tools-nvim.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        plenary-nvim
-      ];
-    });
-
-    jester = super.jester.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        nvim-treesitter
-      ];
-    });
-
-    lspactions = super.lspactions.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        plenary-nvim
-        popup-nvim
-        self.astronauta-nvim
-      ];
-    });
-
-    goimpl-nvim = super.goimpl-nvim.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        nvim-treesitter
-        telescope-nvim
-      ];
-    });
-
-    gloombuddy = super.gloombuddy.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        colorbuddy-nvim
-      ];
-    });
-
-    gruvbuddy-nvim = super.gruvbuddy-nvim.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        colorbuddy-nvim
-      ];
-    });
-
-    gruvy = super.gruvy.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        lush-nvim
-      ];
-    });
-
-    neogen = super.neogen.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        nvim-treesitter
-      ];
-    });
-
-    neorg = super.neorg.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        plenary-nvim
-      ];
-    });
-
-    nlsp-settings-nvim = super.nlsp-settings-nvim.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        nvim-lspconfig
-      ];
-    });
-
-    nvim-biscuits = super.nvim-biscuits.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        nvim-treesitter
-      ];
-    });
-
-    nvim-comment-frame = super.nvim-comment-frame.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        nvim-treesitter
-      ];
-    });
-
-    nvim-go = super.nvim-go.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        plenary-nvim
-        popup-nvim
-      ];
-    });
-
-    nvim-magic = super.nvim-magic.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        plenary-nvim
-        nui-nvim
-      ];
-    });
-
     nvim-papadark = super.themer-lua;
-
-    nvim-revJ-lua = super.nvim-revJ-lua.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        self.vim-textobj-parameter
-      ];
-    });
-
-    nvim-lsp-installer = super.nvim-lsp-installer.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        nvim-lspconfig
-      ];
-    });
-
-    nvim-lspupdate = super.nvim-lspupdate.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        nvim-lspconfig
-      ];
-    });
-
-    nvim-rdark = super.nvim-rdark.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        colorbuddy-nvim
-      ];
-    });
-
-    nvim-spectre = super.nvim-spectre.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        plenary-nvim
-      ];
-    });
-
-    nvim-treesitter-textsubjects = super.nvim-treesitter-textsubjects.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        nvim-treesitter
-      ];
-    });
-
-    nvim-ts-context-commentstring = super.nvim-ts-context-commentstring.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        nvim-treesitter
-      ];
-    });
-
-    nvim-ts-autotag = super.nvim-ts-autotag.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        nvim-treesitter
-      ];
-    });
-
-    onebuddy = super.onebuddy.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        colorbuddy-nvim
-      ];
-    });
-
-    one-small-step-for-vimkind = super.one-small-step-for-vimkind.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        nvim-dap
-      ];
-    });
-
-    renamer-nvim = super.renamer-nvim.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        plenary-nvim
-      ];
-    });
-
-    tabout-nvim = super.tabout-nvim.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        nvim-treesitter
-      ];
-    });
-
-    tabline-framework-nvim = super.tabline-framework-nvim.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        nvim-web-devicons
-      ];
-    });
-
-    telescope-heading-nvim = super.telescope-heading-nvim.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        telescope-nvim
-      ];
-    });
-
-    telescope-bibtex-nvim = super.telescope-bibtex-nvim.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        telescope-nvim
-      ];
-    });
-
-    telescope-zoxide = super.telescope-zoxide.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        telescope-nvim
-      ];
-    });
-
-    vacuumline-nvim = super.vacuumline-nvim.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        galaxyline-nvim
-      ];
-    });
-
-    vgit-nvim = super.vgit-nvim.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        plenary-nvim
-      ];
-    });
-
-    vim-textobj-parameter = super.vim-textobj-parameter.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        vim-textobj-user
-      ];
-    });
-
-    virtual-types-nvim = super.virtual-types-nvim.overrideAttrs (_: {
-      dependencies = with final.vimPlugins; [
-        nvim-lspconfig
-      ];
-    });
   };
 in
 
 {
   vimExtraPlugins = prev.vimExtraPlugins.extend (lib.composeManyExtensions [
-    brokenPkgOverrides
-    licenseOverrides
+    markBrokenPackages
+    fixLicenses
+    fixDependencies
     otherOverrides
   ]);
 }
