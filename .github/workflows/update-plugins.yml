@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Update plugins
     env:
-      GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v2
         with:
@@ -27,6 +27,8 @@ jobs:
             access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
       - run: nix run .#update-vim-plugins -- update --all
       - uses: stefanzweifel/git-auto-commit-action@v4
+        env:
+          GITHUB_TOKEN: ${{ secrets.M15A_GITHUB_PAT }}
         with:
           commit_message: 'maintenance: auto update plugins'
           file_pattern: README.md pkgs/vim-plugins.nix .previous-update.json
