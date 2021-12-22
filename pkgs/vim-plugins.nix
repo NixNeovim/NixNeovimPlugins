@@ -1534,18 +1534,6 @@
       license = with licenses; [ mit ];
     };
   };
-  format-nvim = buildVimPluginFrom2Nix {
-    pname = "format-nvim";
-    version = "2021-12-12";
-    src = fetchurl {
-      url = "https://github.com/lukas-reineke/format.nvim/archive/29a7dccbdee6d657380104958b4b8e81d316803d.tar.gz";
-      sha256 = "1sd1a7x8p01pnaggs46cp3vh0b5gqb2pakm7yi63l0nxw7j6c665";
-    };
-    meta = with lib; {
-      description = "Neovim lua plugin to format the current buffer with external executables";
-      homepage = "https://github.com/lukas-reineke/format.nvim";
-    };
-  };
   nnn-nvim = buildVimPluginFrom2Nix {
     pname = "nnn-nvim";
     version = "2021-12-02";

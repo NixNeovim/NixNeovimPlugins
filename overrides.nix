@@ -40,8 +40,6 @@ let
 
     litee-nvim = [ mit ];
 
-    format-nvim = [ mit ];
-
     goimpl-nvim = [ mit ];
 
     null-ls-nvim = [ publicDomain ];

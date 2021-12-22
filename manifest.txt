@@ -118,7 +118,6 @@ ldelossa/vimdark
 lewis6991/spellsitter.nvim
 lourenci/github-colors
 lukas-reineke/cmp-rg
-lukas-reineke/format.nvim
 luukvbaal/nnn.nvim
 m00qek/plugin-template.nvim
 madskjeldgaard/reaper-nvim
