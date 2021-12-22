@@ -56,6 +56,8 @@ let
 
     nvim-srcerite = [ gpl3Plus ];
 
+    osc-nvim = [ mit ];
+
     vim-emacscommandline = [ vim ];
 
     vim-hy = [ vim ];

@@ -793,6 +793,18 @@
       license = with licenses; [ gpl3Only ];
     };
   };
+  osc-nvim = buildVimPluginFrom2Nix {
+    pname = "osc-nvim";
+    version = "2021-08-02";
+    src = fetchurl {
+      url = "https://github.com/davidgranstrom/osc.nvim/archive/cc27b8a5e3ffd4cb1d8c9eaa4a2082cbaf9e4c77.tar.gz";
+      sha256 = "175xm7gf08sqcpwgv6yp3k79ppxm19ysvd1p5l1zpzf4p6rhv8h6";
+    };
+    meta = with lib; {
+      description = "Open Sound Control for Neovim";
+      homepage = "https://github.com/davidgranstrom/osc.nvim";
+    };
+  };
   scnvim = buildVimPluginFrom2Nix {
     pname = "scnvim";
     version = "2021-12-01";
