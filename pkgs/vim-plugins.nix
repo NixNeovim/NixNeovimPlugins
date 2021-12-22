@@ -1534,18 +1534,6 @@
       license = with licenses; [ mit ];
     };
   };
-  format-nvim = buildVimPluginFrom2Nix {
-    pname = "format-nvim";
-    version = "2021-12-12";
-    src = fetchurl {
-      url = "https://github.com/lukas-reineke/format.nvim/archive/29a7dccbdee6d657380104958b4b8e81d316803d.tar.gz";
-      sha256 = "1sd1a7x8p01pnaggs46cp3vh0b5gqb2pakm7yi63l0nxw7j6c665";
-    };
-    meta = with lib; {
-      description = "Neovim lua plugin to format the current buffer with external executables";
-      homepage = "https://github.com/lukas-reineke/format.nvim";
-    };
-  };
   nnn-nvim = buildVimPluginFrom2Nix {
     pname = "nnn-nvim";
     version = "2021-12-02";
@@ -1749,18 +1737,6 @@
       description = "alternative to matchparen neovim plugin ";
       homepage = "https://github.com/monkoose/matchparen.nvim";
       license = with licenses; [ mit ];
-    };
-  };
-  chadtree = buildVimPluginFrom2Nix {
-    pname = "chadtree";
-    version = "2021-12-22";
-    src = fetchurl {
-      url = "https://github.com/ms-jpq/chadtree/archive/57f8241fe429530f9c733286413b84f51c30e3fd.tar.gz";
-      sha256 = "1vcjlhlvvcy3ww4gysamiin241b1n2886cai7fmdirwslgdr2479";
-    };
-    meta = with lib; {
-      description = "File manager for Neovim. Better than NERDTree";
-      homepage = "https://github.com/ms-jpq/chadtree";
     };
   };
   coq-nvim = buildVimPluginFrom2Nix {
@@ -2352,19 +2328,6 @@
     meta = with lib; {
       description = "Colorscheme for (neo)vim written in lua, specially made for roshnivim with Tree-sitter support";
       homepage = "https://github.com/shaeinst/roshnivim-cs";
-    };
-  };
-  moonlight-nvim = buildVimPluginFrom2Nix {
-    pname = "moonlight-nvim";
-    version = "2021-05-16";
-    src = fetchurl {
-      url = "https://github.com/shaunsingh/moonlight.nvim/archive/e24e4218ec680b6396532808abf57ca0ada82e66.tar.gz";
-      sha256 = "125gzph5js431zb5bvqywxxp7xqkpa4qb4a6mjzpfzh2k6135652";
-    };
-    meta = with lib; {
-      description = "Port of VSCode's Moonlight colorscheme for NeoVim written in Lua with built-in support for native LSP, TreeSitter and many more plugins";
-      homepage = "https://github.com/shaunsingh/moonlight.nvim";
-      license = with licenses; [ gpl2Only ];
     };
   };
   startup-nvim = buildVimPluginFrom2Nix {
