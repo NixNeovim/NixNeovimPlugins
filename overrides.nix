@@ -145,6 +145,8 @@ let
 
     renamer-nvim = [ plenary-nvim ];
 
+    startup-nvim = [ telescope-nvim ];
+
     tabline-framework-nvim = [ nvim-web-devicons ];
 
     tabout-nvim = [ nvim-treesitter ];
