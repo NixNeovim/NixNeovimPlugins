@@ -62,8 +62,21 @@
 
 (local nix {})
 
-(fn nix.license-from-github-license [github-license]
-  "Translate GitHub API license to Nix license attr name in lib.licenses."
+(fn nix.prefetch-url [url]
+  "Prefetch url and get its sha256 hash."
+  (let [cmd (string.format "nix-prefetch-url --type sha256 %s 2>/dev/null" url)
+        pipe (assert (io.popen cmd))
+        sha256 (string.chomp (assert (pipe:read :*all)))]
+    (pipe:close)
+    sha256))
+
+;;; ------------------------------------------------------------------------------------------------
+;;; Nixpkgs helpers
+
+(local nixpkgs {})
+
+(fn nixpkgs.license-from-github-license [github-license]
+  "Translate GitHub API license to Nixpkgs license attr name in lib.licenses."
   (let [map {:agpl-3.0 "agpl3Only"
              :apache-2.0 "asl20"
              :bsd-2-clause "bsd2"
@@ -80,15 +93,7 @@
              :wtfpl "wtfpl"}]
     (. map github-license.key)))
 
-(fn nix.prefetch-url [url]
-  "Prefetch url and get its sha256 hash."
-  (let [cmd (string.format "nix-prefetch-url --type sha256 %s 2>/dev/null" url)
-        pipe (assert (io.popen cmd))
-        sha256 (string.chomp (assert (pipe:read :*all)))]
-    (pipe:close)
-    sha256))
-
-(fn nix.get-nixpkgs-vim-plugins-manifest [channel]
+(fn nixpkgs.get-vim-plugins-manifest [channel]
   "Fetch manifest of the official nixpkgs vim plugins."
   (let [channel (or channel "nixpkgs-unstable")
         path (string.format "/NixOS/nixpkgs/%s/pkgs/misc/vim-plugins/vim-plugin-names" channel)
@@ -420,7 +425,7 @@
     self.repo.description
     self.repo.homepage
     (let [license (and self.repo.license
-                       (nix.license-from-github-license self.repo.license))]
+                       (nixpkgs.license-from-github-license self.repo.license))]
       (if license
           (string.format "\n      license = with licenses; [ %s ];" license)
           ""))))
@@ -493,7 +498,7 @@
         force? (. args "--force")
         %manifest (manifest.load)
         specs []
-        official-manifest (nix.get-nixpkgs-vim-plugins-manifest)
+        official-manifest (nixpkgs.get-vim-plugins-manifest)
         whitelist (collect [_ spec (ipairs (. (manifest.load "whitelist.txt")
                                               :specs))]
                     spec true)
@@ -522,7 +527,7 @@
   (let [%manifest (manifest.load)
         %manifest-specs (collect [_ spec (ipairs %manifest.specs)]
                           spec true)
-        official-manifest (nix.get-nixpkgs-vim-plugins-manifest)
+        official-manifest (nixpkgs.get-vim-plugins-manifest)
         awesome-neovim-manifest (awesome-neovim.get-vim-plugins-manifest)
         whitelist (collect [_ spec (ipairs (. (manifest.load "whitelist.txt")
                                               :specs))]
