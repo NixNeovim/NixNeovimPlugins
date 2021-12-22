@@ -85,6 +85,8 @@ let
 
     cmp-npm = [ plenary-nvim ];
 
+    cmp-nvim-ultisnips = [ nvim-cmp ];
+
     cmp-rg = [ nvim-cmp ];
 
     cmp-tmux = [ nvim-cmp ];
