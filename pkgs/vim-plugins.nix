@@ -67,10 +67,10 @@
   };
   aquarium-vim = buildVimPluginFrom2Nix {
     pname = "aquarium-vim";
-    version = "2021-12-12";
+    version = "2021-12-22";
     src = fetchurl {
-      url = "https://github.com/FrenzyExists/aquarium-vim/archive/06924854a80401562891a4255ad66f9968ba93af.tar.gz";
-      sha256 = "00dpm3jc941g20bga274rl9i5jv3dibj4g09xbx71hgiz5dj0jsc";
+      url = "https://github.com/FrenzyExists/aquarium-vim/archive/a21ca6bc5ef242d6552631683be6a84e46551d4d.tar.gz";
+      sha256 = "1vzqhjajhibr3ighzfp166av0k2ggmmi0sn6nxqzbkby5swizplb";
     };
     meta = with lib; {
       description = "🌊 Aquarium, a simple vibrant dark theme for vim 🗒";
@@ -1125,10 +1125,10 @@
   };
   fzf-lua = buildVimPluginFrom2Nix {
     pname = "fzf-lua";
-    version = "2021-12-21";
+    version = "2021-12-22";
     src = fetchurl {
-      url = "https://github.com/ibhagwan/fzf-lua/archive/3717661c83f76dfce5b699d83f826776d8d6d182.tar.gz";
-      sha256 = "0278vwybnjmai3473k626p8wicynpzqrvgy7185q7m61sg4z7f3j";
+      url = "https://github.com/ibhagwan/fzf-lua/archive/2012d9726002aff450696b70b12fbeda71bd72a3.tar.gz";
+      sha256 = "0wskir0xhbzy66s0gcqkmdiraxmccrxcpv5md8g4c6hqwgd0fwrx";
     };
     meta = with lib; {
       description = "Improved fzf.vim written in lua";
@@ -1486,8 +1486,8 @@
     pname = "litee-nvim";
     version = "2021-12-22";
     src = fetchurl {
-      url = "https://github.com/ldelossa/litee.nvim/archive/f3b45258cde32d743fcd0e73c5f9d7693a555e33.tar.gz";
-      sha256 = "0c3r0ddk5hwnri3f860n5ld11idhbsii1a8xs3d6gry5kfrbz9q4";
+      url = "https://github.com/ldelossa/litee.nvim/archive/1734728b2e7d1700b53a6747bceeb79bad0bf3e3.tar.gz";
+      sha256 = "0s9w3ph2974mf41b7hbak5n4smwiz1c31zm4k33zcz876296qfyv";
     };
     meta = with lib; {
       description = "Neovim's missing IDE features";
@@ -2102,8 +2102,8 @@
     pname = "go-nvim";
     version = "2021-12-22";
     src = fetchurl {
-      url = "https://github.com/ray-x/go.nvim/archive/3a35bff71e1a4420f40e5e03647afdec19bf7d50.tar.gz";
-      sha256 = "0n207yq1dzrgmxm0263x4dibcpjzka896x579h7l4jsm2k5ifkf9";
+      url = "https://github.com/ray-x/go.nvim/archive/437748a09fdbe1d590da8ec8b4cbf3cba84c4616.tar.gz";
+      sha256 = "1n1f87gk6qcj5jnwi9nddvyjh0j12b2imgsv83nbi4cx682li2iv";
     };
     meta = with lib; {
       description = "Modern Go development plugin for Neovim, based on nvim-lsp, treesitter and Dap";
