@@ -17,6 +17,8 @@ jobs:
     name: Update plugins
     steps:
       - uses: actions/checkout@v2
+        env:
+          token: ${{ secrets.M15A_GITHUB_PAT }}
         with:
           ref: ${{ github.head_ref }}
       - uses: cachix/install-nix-action@v16
@@ -27,8 +29,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: stefanzweifel/git-auto-commit-action@v4
-        env:
-          GITHUB_TOKEN: ${{ secrets.M15A_GITHUB_PAT }}
         with:
           commit_message: 'maintenance: auto update plugins'
           file_pattern: README.md pkgs/vim-plugins.nix .previous-update.json
