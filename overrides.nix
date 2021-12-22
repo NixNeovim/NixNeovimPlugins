@@ -83,7 +83,7 @@ let
 
     babelfish-nvim = [ nvim-treesitter ];
 
-    cmp-npm = [ plenary-nvim ];
+    cmp-npm = [ nvim-cmp plenary-nvim ];
 
     cmp-nvim-ultisnips = [ nvim-cmp ];
 
