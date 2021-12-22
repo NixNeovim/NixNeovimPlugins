@@ -329,7 +329,7 @@ In `manifest.txt`, an entry is specified by one of the following forms:
 After adding your entry, run:
 
 ```
-nix run .#update-vim-extra-plugins -- lint
+nix run .#update-vim-plugins -- lint
 ```
 
 So that entries are sorted and duplicated ones are removed.
@@ -339,10 +339,10 @@ So that entries are sorted and duplicated ones are removed.
 Next, run this:
 
 ```
-nix run .#update-vim-extra-plugins
+nix run .#update-vim-plugins
 ```
 
-After that, `pkgs/vim-extra-plugins.nix` and the plugin list in `README.md` are updated.
+After that, `pkgs/vim-plugins.nix` and the plugin list in `README.md` are updated.
 
 #### 3. Override your plugin derivation in `overrides.nix`
 
@@ -371,7 +371,7 @@ Add your overrides here if needed.
 Anyone is welcome to add another plugin to this repo.
 Feel free to create a PR with your new plugins!
 In that case, make sure you commit
-`manifest.txt`, `pkgs/vim-extra-plugins.nix`, and optionally `overrides.nix` if changed.
+`manifest.txt`, `pkgs/vim-plugins.nix`, and optionally `overrides.nix` if changed.
 `README.md` will be updated by GitHub Action so it is not mandatory.
 
 ## License
