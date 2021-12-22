@@ -4,6 +4,9 @@
 (local cjson (require :cjson))
 (local view (require :fennel.view))
 
+(local lpeg (require :lpeg))
+(lpeg.locale lpeg)
+
 ;;; ------------------------------------------------------------------------------------------------
 ;;; General utilities
 
@@ -269,35 +272,63 @@
 
 (set manifest.__index manifest)
 
-(fn manifest.parse-spec [spec]
-  "Parse manifest individual spec."
-  (match (type spec)
-    :string (match (string.match spec "^([^:]+/[^:]+)$") ; owner/repo
-              full-name {:type "github"
-                         : full-name}
-              _ (match (string.match spec "^([^:]+/[^:]+):([^:]*)$") ; owner/repo:branch
-                  (full-name branch) {:type "github"
-                                      : full-name
-                                      :branch (and (not= branch "") branch)}
-                  _ (match (string.match spec "^([^:]+/[^:]+):([^:]*):([^:]+)$") ; owner/repo:branch:rename
-                      (full-name branch rename) {:type "github"
-                                                 : full-name
-                                                 :branch (and (not= branch "") branch)
-                                                 : rename}
-                      _ (match (string.match spec "^([^:]+):([^:]+/[^:]+)$") ; type:owner/repo
-                          (repo-type full-name) {:type repo-type
-                                                 : full-name}
-                          _ (match (string.match spec "^([^:]+):([^:]+/[^:]+):([^:]*)$") ; type:owner/repo:branch
-                              (repo-type full-name branch) {:type repo-type
-                                                            : full-name
-                                                            :branch (and (not= branch "") branch)}
-                              _ (match (string.match spec "^([^:]+):([^:]+/[^:]+):([^:]*):([^:]+)$") ; type:owner/repo:branch:rename
-                                  (repo-type full-name branch rename) {:type repo-type
-                                                                       : full-name
-                                                                       :branch (and (not= branch "") branch)
-                                                                       : rename}
-                                  _ (error "invalid manifest spec")))))))
-    _ (error "undefined manifest spec")))
+(fn parse-spec [line]
+  "Parse a line as manifest spec and return a table containing captured values."
+  (let [space (^ lpeg.space 0)
+        repo-identifier (^ (+ lpeg.alnum (lpeg.S "_.-")) 1)
+        ;; This is not exactly correct; see https://git-scm.com/docs/git-check-ref-format
+        gitref-identifier (^ (+ lpeg.alnum (lpeg.S "@/_.-{}")) 1)
+        attr-identifier (* (+ lpeg.alpha (lpeg.S "_"))
+                           (^ (+ lpeg.alnum (lpeg.S "_-")) 0))
+        repo-type (lpeg.Cg (+ (lpeg.P :github)
+                              (lpeg.P :gitlab))
+                           :type)
+        owner (lpeg.Cg repo-identifier
+                       :owner)
+        name (lpeg.Cg repo-identifier
+                      :name)
+        full-name (* owner space (lpeg.S "/") space name)
+        gitref (lpeg.Cg ( + gitref-identifier (lpeg.P ""))
+                        :gitref)
+        rename (lpeg.Cg attr-identifier
+                        :rename)
+        parser (lpeg.Ct (* space
+                           (^ (* repo-type space (lpeg.S ":")) -1)
+                           space
+                           full-name
+                           space
+                           (^ (*  (lpeg.S ":") space gitref) -1)
+                           space
+                           (^ (* (lpeg.S ":") space rename) -1)
+                           space
+                           (lpeg.P -1)))]
+    (match (parser:match line)
+      result {:type (or result.type :github)
+              :full-name (.. result.owner "/" result.name)
+              :branch (when (and result.gitref (not= result.gitref ""))
+                        result.gitref)
+              :rename result.rename}
+      _ (error (string.format "invalid manifest spec: %s" line)))))
+
+(fn manifest.spec.encode [spec]
+  "Encode a table of spec properties to a line of manifest spec."
+  (.. (if (and spec.type (not= spec.type :github))
+          (string.format "%s:" spec.type)
+          "")
+      spec.full-name
+      (if (and spec.branch spec.rename)
+          (string.format ":%s:%s" spec.branch spec.rename)
+          (and spec.branch (not spec.rename))
+          (string.format ":%s" spec.branch)
+          (and (not spec.branch) spec.rename)
+          (string.format "::%s" spec.rename)
+          "")))
+
+(fn manifest.spec.format [line]
+  "Format a line of manifest spec."
+  (-> line
+      (manifest.spec.decode)
+      (manifest.spec.encode)))
 
 (fn manifest.lint [self]
   "Sort specs, remove duplicated specs, etc."
@@ -387,7 +418,7 @@
         repo (match spec.type
                :gitlab (gitlab.project.new spec.full-name)
                :github (github.repo.new spec.full-name)
-               _ (error "undefined manifest spec"))
+               _ (error "undefined repo type"))
         recent-commit (repo:get-recent-commit spec.branch)
         url (repo:get-url recent-commit.sha)
         attr-name (plugin.escape-name (or spec.rename repo.name))
