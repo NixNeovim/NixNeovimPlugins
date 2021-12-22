@@ -1,4 +1,4 @@
-# nixpkgs-vim-plugins
+# nixpkgs-vim-extra-plugins
 
 Nix flake of miscellaneous Vim/Neovim plugins.
 
@@ -27,14 +27,14 @@ Use it as you normally do, like
 {
   inputs = {
     flake-utils.url = "github:numtide/flake-utils";
-    vim-plugins.url = "github:m15a/nixpkgs-vim-plugins";
+    vim-extra-plugins.url = "github:m15a/nixpkgs-vim-extra-plugins";
   };
-  outputs = { self, nixpkgs, flake-utils, vim-plugins, ... }:
+  outputs = { self, nixpkgs, flake-utils, vim-extra-plugins, ... }:
   flake-utils.lib.eachDefaultSystem (system:
   let
     pkgs = import nixpkgs {
       inherit system;
-      overlays = [ vim-plugins.overlay ];
+      overlays = [ vim-extra-plugins.overlay ];
     };
   in {
     packages = {
@@ -60,7 +60,7 @@ It is handy to use `builtins.getFlake`, which was [introduced in Nix 2.4][1]. Fo
 ```nix
 with import <nixpkgs> {
   overlays = [
-    (builtins.getFlake "github:m15a/nixpkgs-vim-plugins").overlay
+    (builtins.getFlake "github:m15a/nixpkgs-vim-extra-plugins").overlay
   ];
 };
 ```
@@ -71,7 +71,7 @@ For Nix <2.4, use `builtins.fetchTarball` instead.
 with import <nixpkgs> {
   overlays = [
     (import (builtins.fetchTarball {
-      url = "https://github.com/m15a/nixpkgs-vim-plugins/archive/main.tar.gz";
+      url = "https://github.com/m15a/nixpkgs-vim-extra-plugins/archive/main.tar.gz";
     })).overlay
   ];
 };
@@ -329,7 +329,7 @@ In `manifest.txt`, an entry is specified by one of the following forms:
 After adding your entry, run:
 
 ```
-nix run .#update-vim-plugins -- lint
+nix run .#update-vim-extra-plugins -- lint
 ```
 
 So that entries are sorted and duplicated ones are removed.
@@ -339,10 +339,10 @@ So that entries are sorted and duplicated ones are removed.
 Next, run this:
 
 ```
-nix run .#update-vim-plugins
+nix run .#update-vim-extra-plugins
 ```
 
-After that, `pkgs/vim-plugins.nix` and the plugin list in `README.md` are updated.
+After that, `pkgs/vim-extra-plugins.nix` and the plugin list in `README.md` are updated.
 
 #### 3. Override your plugin derivation in `overrides.nix`
 
@@ -371,7 +371,7 @@ Add your overrides here if needed.
 Anyone is welcome to add another plugin to this repo.
 Feel free to create a PR with your new plugins!
 In that case, make sure you commit
-`manifest.txt`, `pkgs/vim-plugins.nix`, and optionally `overrides.nix` if changed.
+`manifest.txt`, `pkgs/vim-extra-plugins.nix`, and optionally `overrides.nix` if changed.
 `README.md` will be updated by GitHub Action so it is not mandatory.
 
 ## License
