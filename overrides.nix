@@ -159,6 +159,8 @@ let
 
     reaper-nvim = [ self.osc-nvim ];
 
+    sqls-nvim = [ nvim-lspconfig ];
+
     startup-nvim = [ telescope-nvim ];
 
     tabline-framework-nvim = [ nvim-web-devicons ];
