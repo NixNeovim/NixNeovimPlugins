@@ -135,6 +135,8 @@ let
 
     nvim-lsp-basics = [ nvim-lspconfig ];
 
+    nvim-lspfuzzy = [ fzfWrapper ];
+
     nvim-lsp-installer = [ nvim-lspconfig ];
 
     nvim-lspupdate = [ nvim-lspconfig ];
