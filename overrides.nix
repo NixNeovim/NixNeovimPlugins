@@ -149,6 +149,8 @@ let
 
     renamer-nvim = [ plenary-nvim ];
 
+    reaper-nvim = [ self.osc-nvim ];
+
     startup-nvim = [ telescope-nvim ];
 
     tabline-framework-nvim = [ nvim-web-devicons ];
