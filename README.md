@@ -226,7 +226,6 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [mnacamura/vim-r7rs-syntax](https://github.com/mnacamura/vim-r7rs-syntax) | 2021-07-09 | `vim-r7rs-syntax` |
 | [monaqa/dial.nvim](https://github.com/monaqa/dial.nvim) | 2021-03-22 | `dial-nvim` |
 | [monkoose/matchparen.nvim](https://github.com/monkoose/matchparen.nvim) | 2021-12-20 | `matchparen-nvim` |
-| [ms-jpq/chadtree](https://github.com/ms-jpq/chadtree) | 2021-12-22 | `chadtree` |
 | [ms-jpq/coq_nvim](https://github.com/ms-jpq/coq_nvim) | 2021-12-22 | `coq-nvim` |
 | [nanotee/nvim-lsp-basics](https://github.com/nanotee/nvim-lsp-basics) | 2021-05-16 | `nvim-lsp-basics` |
 | [nanotee/sqls.nvim](https://github.com/nanotee/sqls.nvim) | 2021-11-01 | `sqls-nvim` |
@@ -273,7 +272,6 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [seandewar/nvimesweeper](https://github.com/seandewar/nvimesweeper) | 2021-09-07 | `nvimesweeper` |
 | [sgur/vim-textobj-parameter](https://github.com/sgur/vim-textobj-parameter) | 2017-05-16 | `vim-textobj-parameter` |
 | [shaeinst/roshnivim-cs](https://github.com/shaeinst/roshnivim-cs) | 2021-12-21 | `roshnivim-cs` |
-| [shaunsingh/moonlight.nvim](https://github.com/shaunsingh/moonlight.nvim) | 2021-05-16 | `moonlight-nvim` |
 | [startup-nvim/startup.nvim](https://github.com/startup-nvim/startup.nvim) | 2021-12-20 | `startup-nvim` |
 | [stevearc/dressing.nvim](https://github.com/stevearc/dressing.nvim) | 2021-12-19 | `dressing-nvim` |
 | [stevearc/gkeep.nvim](https://github.com/stevearc/gkeep.nvim) | 2021-11-17 | `gkeep-nvim` |

@@ -9,3 +9,6 @@ MordechaiHadad/nvim-papadark
 SmiteshP/nvim-gps
 ldelossa/calltree.nvim
 lukas-reineke/format.nvim
+ms-jpq/chadtree
+shaunsingh/moonlight.nvim
+andersevenrud/compe-tmux

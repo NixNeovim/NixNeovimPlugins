@@ -42,7 +42,7 @@ alec-gibson/nvim-tetris
 alexaandru/nvim-lspupdate
 aliou/bats.vim
 amirrezaask/fuzzy.nvim
-andersevenrud/compe-tmux
+andersevenrud/cmp-tmux
 andersevenrud/nordic.nvim
 anott03/nvim-lspinstall
 beauwilliams/statusline.lua
@@ -134,7 +134,6 @@ mnacamura/vim-fennel-syntax
 mnacamura/vim-r7rs-syntax
 monaqa/dial.nvim
 monkoose/matchparen.nvim
-ms-jpq/chadtree
 ms-jpq/coq_nvim
 nanotee/nvim-lsp-basics
 nanotee/sqls.nvim
@@ -181,7 +180,6 @@ savq/paq-nvim
 seandewar/nvimesweeper
 sgur/vim-textobj-parameter
 shaeinst/roshnivim-cs
-shaunsingh/moonlight.nvim
 startup-nvim/startup.nvim
 stevearc/dressing.nvim
 stevearc/gkeep.nvim
