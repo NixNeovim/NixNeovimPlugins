@@ -169,8 +169,8 @@ let
    */
   otherOverrides = self: super:
   {
-    feline-nvim-develop = super.feline-nvim-develop.overrideAttrs (old: {
-      patches = (old.patches or []) ++ lib.optionals (lib.versionOlder "2021-12-19" old.version) [
+    feline-nvim = super.feline-nvim.overrideAttrs (old: {
+      patches = (old.patches or []) ++ lib.optionals (lib.versionOlder old.version "2021-12-19") [
         # https://github.com/famiu/feline.nvim/pull/179
         (final.fetchpatch {
           url = "https://github.com/zbirenbaum/feline.nvim/commit/d62d9ec923fe76da27f5ac7000b2a506b035740d.patch";
@@ -179,7 +179,7 @@ let
       ];
     });
 
-    nvim-papadark = super.themer-lua;
+    nvim-papadark = self.themer-lua;
 
     feline-nvim-develop = self.feline-nvim;
   };
