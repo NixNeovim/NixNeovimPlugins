@@ -170,6 +170,8 @@ let
     vim-textobj-parameter = [ vim-textobj-user ];
 
     virtual-types-nvim = [ nvim-lspconfig ];
+
+    zenbones-nvim = [ lush-nvim ];
   });
 
   /*
