@@ -185,6 +185,8 @@ let
 
     virtual-types-nvim = [ nvim-lspconfig ];
 
+    yabs-nvim = [ plenary-nvim ];
+
     zenbones-nvim = [ lush-nvim ];
   });
 
