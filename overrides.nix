@@ -139,6 +139,8 @@ let
 
     nvim-treesitter-textsubjects = [ nvim-treesitter ];
 
+    nvim-treehopper = [ nvim-treesitter ];
+
     nvim-ts-autotag = [ nvim-treesitter ];
 
     nvim-ts-context-commentstring = [ nvim-treesitter ];
