@@ -93,6 +93,8 @@ let
 
     codeschool-nvim = [ lush-nvim ];
 
+    coq-nvim = [ nvim-lspconfig ];
+
     express-line-nvim = [ plenary-nvim ];
 
     flutter-tools-nvim = [ plenary-nvim ];
