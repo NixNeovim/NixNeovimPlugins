@@ -129,6 +129,8 @@ let
 
     nvim-go = [ plenary-nvim popup-nvim ];
 
+    nvim-lsp-basics = [ nvim-lspconfig ];
+
     nvim-lsp-installer = [ nvim-lspconfig ];
 
     nvim-lspupdate = [ nvim-lspconfig ];
