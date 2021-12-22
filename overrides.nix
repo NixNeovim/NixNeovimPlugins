@@ -153,6 +153,8 @@ let
 
     nvim-ts-context-commentstring = [ nvim-treesitter ];
 
+    octo-nvim = [ nvim-web-devicons telescope-nvim ];
+
     one-small-step-for-vimkind = [ nvim-dap ];
 
     onebuddy = [ colorbuddy-nvim ];
