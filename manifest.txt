@@ -60,6 +60,7 @@ crispgm/telescope-heading.nvim
 danymat/neogen
 datwaft/bubbly.nvim
 davidgranstrom/nvim-markdown-preview
+davidgranstrom/osc.nvim
 davidgranstrom/scnvim
 dcampos/nvim-snippy
 dkarter/bullets.vim

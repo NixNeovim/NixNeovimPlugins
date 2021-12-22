@@ -56,6 +56,8 @@ let
 
     nvim-srcerite = [ gpl3Plus ];
 
+    osc-nvim = [ mit ];
+
     vim-emacscommandline = [ vim ];
 
     vim-hy = [ vim ];
@@ -79,13 +81,23 @@ let
 
     auto-pandoc-nvim = [ plenary-nvim ];
 
-    cmp-npm = [ plenary-nvim ];
+    babelfish-nvim = [ nvim-treesitter ];
+
+    cmp-git = [ nvim-cmp plenary-nvim ];
+
+    cmp-npm = [ nvim-cmp plenary-nvim ];
+
+    cmp-nvim-ultisnips = [ nvim-cmp ];
+
+    cmp-rg = [ nvim-cmp ];
 
     cmp-tmux = [ nvim-cmp ];
 
     code-runner-nvim = [ plenary-nvim ];
 
     codeschool-nvim = [ lush-nvim ];
+
+    coq-nvim = [ nvim-lspconfig ];
 
     express-line-nvim = [ plenary-nvim ];
 
@@ -94,6 +106,8 @@ let
     follow-md-links-nvim = [ nvim-treesitter ];
 
     fuzzy-nvim = [ plenary-nvim ];
+
+    github-colors = [ nvim-treesitter ];
 
     gloombuddy = [ colorbuddy-nvim ];
 
@@ -119,6 +133,10 @@ let
 
     nvim-go = [ plenary-nvim popup-nvim ];
 
+    nvim-lsp-basics = [ nvim-lspconfig ];
+
+    nvim-lspfuzzy = [ fzfWrapper ];
+
     nvim-lsp-installer = [ nvim-lspconfig ];
 
     nvim-lspupdate = [ nvim-lspconfig ];
@@ -133,15 +151,23 @@ let
 
     nvim-treesitter-textsubjects = [ nvim-treesitter ];
 
+    nvim-treehopper = [ nvim-treesitter ];
+
     nvim-ts-autotag = [ nvim-treesitter ];
 
     nvim-ts-context-commentstring = [ nvim-treesitter ];
+
+    octo-nvim = [ nvim-web-devicons telescope-nvim ];
 
     one-small-step-for-vimkind = [ nvim-dap ];
 
     onebuddy = [ colorbuddy-nvim ];
 
     renamer-nvim = [ plenary-nvim ];
+
+    reaper-nvim = [ self.osc-nvim ];
+
+    sqls-nvim = [ nvim-lspconfig ];
 
     startup-nvim = [ telescope-nvim ];
 
@@ -162,6 +188,10 @@ let
     vim-textobj-parameter = [ vim-textobj-user ];
 
     virtual-types-nvim = [ nvim-lspconfig ];
+
+    yabs-nvim = [ plenary-nvim ];
+
+    zenbones-nvim = [ lush-nvim ];
   });
 
   /*
