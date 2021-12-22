@@ -895,12 +895,12 @@
       license = with licenses; [ mit ];
     };
   };
-  feline-nvim-develop = buildVimPluginFrom2Nix {
-    pname = "feline-nvim-develop";
-    version = "2021-12-19";
+  feline-nvim = buildVimPluginFrom2Nix {
+    pname = "feline-nvim";
+    version = "2021-12-22";
     src = fetchurl {
-      url = "https://github.com/feline-nvim/feline.nvim/archive/f060efd708b9662f2314eb779b00215c4f793d1b.tar.gz";
-      sha256 = "143ig5h39n1f1czrxwbmpl7aaf7nkm81bj1cy2f7pni64mfpj4fq";
+      url = "https://github.com/feline-nvim/feline.nvim/archive/4893372087444594add4631cf11f72c71e1aa1e4.tar.gz";
+      sha256 = "0l3jx1xkx0s1k8a6lkl4bg64h7wzcmd878lhfjwa5kr4mf2jk9dx";
     };
     meta = with lib; {
       description = "A minimal, stylish and customizable statusline for Neovim written in Lua";

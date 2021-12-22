@@ -180,6 +180,8 @@ let
     });
 
     nvim-papadark = super.themer-lua;
+
+    feline-nvim-develop = self.feline-nvim;
   };
 in
 

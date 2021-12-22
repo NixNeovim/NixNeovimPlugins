@@ -68,7 +68,7 @@ edolphin-ydf/goimpl.nvim
 ekickx/clipboard-image.nvim
 ellisonleao/glow.nvim
 ethanholz/nvim-lastplace
-feline-nvim/feline.nvim:develop:feline-nvim-develop
+feline-nvim/feline.nvim
 filipdutescu/renamer.nvim
 folke/lua-dev.nvim
 folke/zen-mode.nvim
