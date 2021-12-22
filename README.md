@@ -206,7 +206,6 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [kvrohit/substrata.nvim](https://github.com/kvrohit/substrata.nvim) | 2021-12-07 | `substrata-nvim` |
 | [kyazdani42/blue-moon](https://github.com/kyazdani42/blue-moon) | 2021-12-05 | `blue-moon` |
 | [ldelossa/litee.nvim](https://github.com/ldelossa/litee.nvim) | 2021-12-22 | `litee-nvim` |
-| [ldelossa/litee.nvim](https://github.com/ldelossa/litee.nvim) | 2021-12-22 | `litee-nvim` |
 | [ldelossa/vimdark](https://github.com/ldelossa/vimdark) | 2021-11-24 | `vimdark` |
 | [lewis6991/spellsitter.nvim](https://github.com/lewis6991/spellsitter.nvim) | 2021-12-18 | `spellsitter-nvim` |
 | [lourenci/github-colors](https://github.com/lourenci/github-colors) | 2021-10-04 | `github-colors` |

@@ -13,7 +13,7 @@ let
   {
     alpha-nvim = true;
 
-    calltree-nvim = true;
+    litee-nvim = true;
 
     highlight-current-n-nvim = true;
 
@@ -38,7 +38,7 @@ let
 
     bullets-vim = [ mit ];
 
-    calltree-nvim = [ mit ];
+    litee-nvim = [ mit ];
 
     format-nvim = [ mit ];
 

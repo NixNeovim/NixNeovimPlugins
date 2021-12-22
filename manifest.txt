@@ -113,7 +113,6 @@ konapun/vacuumline.nvim
 kristijanhusak/orgmode.nvim
 kvrohit/substrata.nvim
 kyazdani42/blue-moon
-ldelossa/calltree.nvim
 ldelossa/litee.nvim
 ldelossa/vimdark
 lewis6991/spellsitter.nvim

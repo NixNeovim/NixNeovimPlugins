@@ -7,3 +7,4 @@ catppuccin/nvim
 rose-pine/neovim
 MordechaiHadad/nvim-papadark
 SmiteshP/nvim-gps
+ldelossa/calltree.nvim
