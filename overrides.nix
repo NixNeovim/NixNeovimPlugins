@@ -81,6 +81,8 @@ let
 
     cmp-npm = [ plenary-nvim ];
 
+    cmp-rg = [ nvim-cmp ];
+
     cmp-tmux = [ nvim-cmp ];
 
     code-runner-nvim = [ plenary-nvim ];
