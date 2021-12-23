@@ -154,6 +154,19 @@
       license = with licenses; [ mit ];
     };
   };
+  nui-nvim = buildVimPluginFrom2Nix {
+    pname = "nui-nvim";
+    version = "2021-12-20";
+    src = fetchurl {
+      url = "https://github.com/MunifTanjim/nui.nvim/archive/5799279fc8da92b38291a0a42bdb64cd17c3b42f.tar.gz";
+      sha256 = "0ky8y3wkf9m8v3m3vg5g5077nlrzh0kfw732q6c0ky1b55iy5lwd";
+    };
+    meta = with lib; {
+      description = "UI Component Library for Neovim";
+      homepage = "https://github.com/MunifTanjim/nui.nvim";
+      license = with licenses; [ mit ];
+    };
+  };
   due-nvim = buildVimPluginFrom2Nix {
     pname = "due-nvim";
     version = "2021-07-04";
@@ -2654,10 +2667,10 @@
   };
   windline-nvim = buildVimPluginFrom2Nix {
     pname = "windline-nvim";
-    version = "2021-12-21";
+    version = "2021-12-23";
     src = fetchurl {
-      url = "https://github.com/windwp/windline.nvim/archive/afc5d1cb04f39ea58a1433f6ad2f5badb233776e.tar.gz";
-      sha256 = "1vshq548gad3xjkfw6i1s49dmb45n40ckzwa7mqdwh7k974wlcas";
+      url = "https://github.com/windwp/windline.nvim/archive/687302ffeeee41c6083d7cd269eeb221d6f8df8c.tar.gz";
+      sha256 = "00f1j91kk7jvbgskgg95ipyspbdp9m0h0qc4552ma39wxa9i7m17";
     };
     meta = with lib; {
       description = "Animation statusline, floating window statusline. Use lua + luv make some wind";
