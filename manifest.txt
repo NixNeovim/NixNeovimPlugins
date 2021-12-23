@@ -10,6 +10,7 @@ LoricAndre/OneTerm.nvim
 Mangeshrex/uwu.vim
 McAuleyPenney/tidy.nvim
 Mofiqul/vscode.nvim
+MunifTanjim/nui.nvim
 NFrid/due.nvim
 NTBBloodbath/cheovim
 NTBBloodbath/doom-one.nvim
