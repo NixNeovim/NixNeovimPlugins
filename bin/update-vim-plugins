@@ -330,7 +330,7 @@
   "Save manifest to the file."
   (when (self:changed?)
     (with-open [buf (io.open self.file :w)]
-      (buf:write (table.concat self.specs "\n")))
+      (buf:write (.. (table.concat self.specs "\n") "\n")))
     (io.stderr:write (string.format "%s: manifest saved to %s\n" (program-name) self.file))))
 
 ;;; ------------------------------------------------------------------------------------------------
