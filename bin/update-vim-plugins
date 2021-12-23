@@ -272,8 +272,10 @@
 
 (set manifest.__index manifest)
 
-(fn parse-spec [line]
-  "Parse a line as manifest spec and return a table containing captured values."
+(set manifest.spec {})
+
+(fn manifest.spec.decode [line]
+  "Parse a line as manifest spec and return a table containing spec properties."
   (let [space (^ lpeg.space 0)
         repo-identifier (^ (+ lpeg.alnum (lpeg.S "_.-")) 1)
         ;; This is not exactly correct; see https://git-scm.com/docs/git-check-ref-format
@@ -331,9 +333,10 @@
       (manifest.spec.encode)))
 
 (fn manifest.lint [self]
-  "Sort specs, remove duplicated specs, etc."
+  "Sort specs, remove duplicated specs, format specs, etc."
   (let [prev-specs (table.concat self.specs "\n")
-        specs (table.unique self.specs)]
+        specs (table.unique (icollect [_ line (ipairs self.specs)]
+                              (manifest.spec.format line)))]
     (table.sort specs
                 (fn [left right]
                   (< (string.gsub left "^[^/]+:" "")
@@ -414,7 +417,7 @@
 
 (fn plugin.new [spec]
   "Create object representing Vim plugin."
-  (let [spec (manifest.parse-spec spec)
+  (let [spec (manifest.spec.decode spec)
         repo (match spec.type
                :gitlab (gitlab.project.new spec.full-name)
                :github (github.repo.new spec.full-name)
