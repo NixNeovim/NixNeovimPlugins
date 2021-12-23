@@ -334,17 +334,13 @@
 
 (fn manifest.lint [self]
   "Sort specs, remove duplicated specs, format specs, etc."
-  (let [prev-specs (table.concat self.specs "\n")
-        specs (table.unique (icollect [_ line (ipairs self.specs)]
+  (let [specs (table.unique (icollect [_ line (ipairs self.specs)]
                               (manifest.spec.format line)))]
     (table.sort specs
                 (fn [left right]
                   (< (string.gsub left "^[^/]+:" "")
                      (string.gsub right "^[^/]+:" ""))))
-    (set self.specs specs)
-    (when (not= (table.concat self.specs "\n")
-                prev-specs)
-      (set self.changed true))))
+    (set self.specs specs)))
 
 (fn manifest.changed? [self]
   "Return true of manifest specs are changed since its loaded time."
