@@ -2124,6 +2124,18 @@
       license = with licenses; [ mit ];
     };
   };
+  kanagawa-nvim = buildVimPluginFrom2Nix {
+    pname = "kanagawa-nvim";
+    version = "2021-12-22";
+    src = fetchurl {
+      url = "https://github.com/rebelot/kanagawa.nvim/archive/319bea0cf3a66af89ad4507f3c8dec72845549b8.tar.gz";
+      sha256 = "1yxwj1lr0492dw97vvyz6dzhg0xlgy7yni3kgh8sjr174w76qrbc";
+    };
+    meta = with lib; {
+      description = "NeoVim dark colorscheme inspired by the colors of the famous painting by Katsushika Hokusai";
+      homepage = "https://github.com/rebelot/kanagawa.nvim";
+    };
+  };
   vim-gfm-syntax = buildVimPluginFrom2Nix {
     pname = "vim-gfm-syntax";
     version = "2021-10-04";

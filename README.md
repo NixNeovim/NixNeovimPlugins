@@ -256,6 +256,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [raimon49/requirements.txt.vim](https://github.com/raimon49/requirements.txt.vim) | 2021-12-04 | `requirements-txt-vim` |
 | [ray-x/go.nvim](https://github.com/ray-x/go.nvim) | 2021-12-22 | `go-nvim` |
 | [ray-x/navigator.lua](https://github.com/ray-x/navigator.lua) | 2021-12-19 | `navigator-lua` |
+| [rebelot/kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim) | 2021-12-22 | `kanagawa-nvim` |
 | [rhysd/vim-gfm-syntax](https://github.com/rhysd/vim-gfm-syntax) | 2021-10-04 | `vim-gfm-syntax` |
 | [rktjmp/highlight-current-n.nvim](https://github.com/rktjmp/highlight-current-n.nvim) | 2021-10-26 | `highlight-current-n-nvim` |
 | [rktjmp/hotpot.nvim](https://github.com/rktjmp/hotpot.nvim) | 2021-11-25 | `hotpot-nvim` |

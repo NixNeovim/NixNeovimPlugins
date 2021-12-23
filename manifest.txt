@@ -164,6 +164,7 @@ rafcamlet/tabline-framework.nvim
 raimon49/requirements.txt.vim
 ray-x/go.nvim
 ray-x/navigator.lua
+rebelot/kanagawa.nvim
 rhysd/vim-gfm-syntax
 rktjmp/highlight-current-n.nvim
 rktjmp/hotpot.nvim
