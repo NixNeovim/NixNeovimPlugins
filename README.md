@@ -288,6 +288,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [seandewar/nvimesweeper](https://github.com/seandewar/nvimesweeper) | 2021-09-07 | `nvimesweeper` |
 | [sgur/vim-textobj-parameter](https://github.com/sgur/vim-textobj-parameter) | 2017-05-16 | `vim-textobj-parameter` |
 | [shaeinst/roshnivim-cs](https://github.com/shaeinst/roshnivim-cs) | 2021-12-21 | `roshnivim-cs` |
+| [skanehira/christmas.vim](https://github.com/skanehira/christmas.vim) | 2021-12-24 | `christmas-vim` |
 | [startup-nvim/startup.nvim](https://github.com/startup-nvim/startup.nvim) | 2021-12-23 | `startup-nvim` |
 | [stevearc/dressing.nvim](https://github.com/stevearc/dressing.nvim) | 2021-12-23 | `dressing-nvim` |
 | [stevearc/gkeep.nvim](https://github.com/stevearc/gkeep.nvim) | 2021-11-17 | `gkeep-nvim` |

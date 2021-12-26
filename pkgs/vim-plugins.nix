@@ -2381,6 +2381,18 @@
       homepage = "https://github.com/shaeinst/roshnivim-cs";
     };
   };
+  christmas-vim = buildVimPluginFrom2Nix {
+    pname = "christmas-vim";
+    version = "2021-12-24";
+    src = fetchurl {
+      url = "https://github.com/skanehira/christmas.vim/archive/f243b269787a8b638777fd48d3f392a4d6da8beb.tar.gz";
+      sha256 = "0jnpcamc1yx2bwm05s55m397mnhhxj9j8ck2rzphlcqza3g31fz4";
+    };
+    meta = with lib; {
+      description = "No description";
+      homepage = "https://github.com/skanehira/christmas.vim";
+    };
+  };
   startup-nvim = buildVimPluginFrom2Nix {
     pname = "startup-nvim";
     version = "2021-12-23";
