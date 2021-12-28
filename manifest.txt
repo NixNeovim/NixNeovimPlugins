@@ -120,6 +120,7 @@ ldelossa/litee.nvim
 ldelossa/vimdark
 lewis6991/spellsitter.nvim
 lourenci/github-colors
+luisiacc/gruvbox-baby
 lukas-reineke/cmp-rg
 luukvbaal/nnn.nvim
 m00qek/plugin-template.nvim
