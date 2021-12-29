@@ -194,6 +194,8 @@ let
 
     telescope-bibtex-nvim = [ telescope-nvim ];
 
+    telescope-command-palette-nvim = [ telescope-nvim ];
+
     telescope-heading-nvim = [ telescope-nvim ];
 
     telescope-tmuxinator-nvim = [ telescope-nvim ];
