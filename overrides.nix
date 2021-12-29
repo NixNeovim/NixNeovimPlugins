@@ -40,6 +40,8 @@ let
 
     christmas-vim = [ mit ];
 
+    distant-nvim = [ asl20 mit ];
+
     kanagawa-nvim = [ mit ];
 
     litee-nvim = [ mit ];
