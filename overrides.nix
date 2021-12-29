@@ -194,6 +194,8 @@ let
 
     telescope-heading-nvim = [ telescope-nvim ];
 
+    telescope-tmuxinator-nvim = [ telescope-nvim ];
+
     telescope-zoxide = [ telescope-nvim ];
 
     vacuumline-nvim = [ galaxyline-nvim ];
