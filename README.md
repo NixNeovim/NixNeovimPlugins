@@ -117,7 +117,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [LoricAndre/OneTerm.nvim](https://github.com/LoricAndre/OneTerm.nvim) | 2021-07-30 | `OneTerm-nvim` |
 | [Mangeshrex/uwu.vim](https://github.com/Mangeshrex/uwu.vim) | 2021-12-10 | `uwu-vim` |
 | [mcauley-penney/tidy.nvim](https://github.com/mcauley-penney/tidy.nvim) | 2021-12-21 | `tidy-nvim` |
-| [Mofiqul/vscode.nvim](https://github.com/Mofiqul/vscode.nvim) | 2021-12-21 | `vscode-nvim` |
+| [Mofiqul/vscode.nvim](https://github.com/Mofiqul/vscode.nvim) | 2021-12-29 | `vscode-nvim` |
 | [MunifTanjim/nui.nvim](https://github.com/MunifTanjim/nui.nvim) | 2021-12-24 | `nui-nvim` |
 | [NFrid/due.nvim](https://github.com/NFrid/due.nvim) | 2021-07-04 | `due-nvim` |
 | [NTBBloodbath/cheovim](https://github.com/NTBBloodbath/cheovim) | 2021-08-25 | `cheovim` |
@@ -180,7 +180,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [dkarter/bullets.vim](https://github.com/dkarter/bullets.vim) | 2021-06-18 | `bullets-vim` |
 | [echasnovski/mini.nvim](https://github.com/echasnovski/mini.nvim) | 2021-12-28 | `mini-nvim` |
 | [edolphin-ydf/goimpl.nvim](https://github.com/edolphin-ydf/goimpl.nvim) | 2021-12-07 | `goimpl-nvim` |
-| [ekickx/clipboard-image.nvim](https://github.com/ekickx/clipboard-image.nvim) | 2021-12-07 | `clipboard-image-nvim` |
+| [ekickx/clipboard-image.nvim](https://github.com/ekickx/clipboard-image.nvim) | 2021-12-29 | `clipboard-image-nvim` |
 | [ellisonleao/glow.nvim](https://github.com/ellisonleao/glow.nvim) | 2021-12-14 | `glow-nvim` |
 | [ethanholz/nvim-lastplace](https://github.com/ethanholz/nvim-lastplace) | 2021-10-15 | `nvim-lastplace` |
 | [feline-nvim/feline.nvim](https://github.com/feline-nvim/feline.nvim) | 2021-12-28 | `feline-nvim` |
@@ -283,7 +283,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [rafcamlet/tabline-framework.nvim](https://github.com/rafcamlet/tabline-framework.nvim) | 2021-12-28 | `tabline-framework-nvim` |
 | [raimon49/requirements.txt.vim](https://github.com/raimon49/requirements.txt.vim) | 2021-12-04 | `requirements-txt-vim` |
 | [ray-x/go.nvim](https://github.com/ray-x/go.nvim) | 2021-12-27 | `go-nvim` |
-| [ray-x/navigator.lua](https://github.com/ray-x/navigator.lua) | 2021-12-26 | `navigator-lua` |
+| [ray-x/navigator.lua](https://github.com/ray-x/navigator.lua) | 2021-12-29 | `navigator-lua` |
 | [rebelot/kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim) | 2021-12-28 | `kanagawa-nvim` |
 | [rhysd/vim-gfm-syntax](https://github.com/rhysd/vim-gfm-syntax) | 2021-10-04 | `vim-gfm-syntax` |
 | [rktjmp/highlight-current-n.nvim](https://github.com/rktjmp/highlight-current-n.nvim) | 2021-10-26 | `highlight-current-n-nvim` |

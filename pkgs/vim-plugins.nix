@@ -194,10 +194,10 @@
   };
   vscode-nvim = buildVimPluginFrom2Nix {
     pname = "vscode-nvim";
-    version = "2021-12-21";
+    version = "2021-12-29";
     src = fetchurl {
-      url = "https://github.com/Mofiqul/vscode.nvim/archive/210fbab6d9ad1d1120226da8d61c96a17da8e5d4.tar.gz";
-      sha256 = "026p553v190szdsgxjwq8kx5jnhm9hc10klwkynygjj0wjqlp06g";
+      url = "https://github.com/Mofiqul/vscode.nvim/archive/f435f59f0164ebd6764db60ee6b45c2fcc594a87.tar.gz";
+      sha256 = "0zk7qidwmb7w50flys2i43ncih2g9h4m2zqdkxhgzp7mdly7877d";
     };
     meta = with lib; {
       description = "Neovim/Vim color scheme inspired by Dark+ and Light+ theme in Visual Studio Code";
@@ -997,10 +997,10 @@
   };
   clipboard-image-nvim = buildVimPluginFrom2Nix {
     pname = "clipboard-image-nvim";
-    version = "2021-12-07";
+    version = "2021-12-29";
     src = fetchurl {
-      url = "https://github.com/ekickx/clipboard-image.nvim/archive/b3856386bde5909ae81f13dbb194d3fc036e2889.tar.gz";
-      sha256 = "13i6nqjvagxqxw3yxl3lajg4v8cjaf8p7hjd056i6cbn2crf1svb";
+      url = "https://github.com/ekickx/clipboard-image.nvim/archive/f678fb378c049cd3f6b0a187014e9bc3bbd09706.tar.gz";
+      sha256 = "1vj2mq3pzfsv3wfpcxrhx5sl2jnz5jniz2k373ixjp1wn6nzg8nf";
     };
     meta = with lib; {
       description = "Neovim Lua plugin to paste image from clipboard";
@@ -2317,10 +2317,10 @@
   };
   navigator-lua = buildVimPluginFrom2Nix {
     pname = "navigator-lua";
-    version = "2021-12-26";
+    version = "2021-12-29";
     src = fetchurl {
-      url = "https://github.com/ray-x/navigator.lua/archive/6e9f20f586dfb220785add90e32d63fe27140a53.tar.gz";
-      sha256 = "0wmcd1fjz2x361mcykdm3ia6j7icqw3x1yxv2z02slg7l55xyilv";
+      url = "https://github.com/ray-x/navigator.lua/archive/23090c567cd7bec040d865b0759a1c402f5a54de.tar.gz";
+      sha256 = "13dqs35v0m2dnm1hw6cddn0bn6c8xzz2xb1ci1i9xaqvbxy7nxb8";
     };
     meta = with lib; {
       description = "Navigate codes like a breeze🎐.  Exploring LSP and 🌲Treesitter symbols a piece of 🍰. Control codes like a boss 🦍";
@@ -2718,8 +2718,8 @@
     pname = "vgit-nvim";
     version = "2021-12-29";
     src = fetchurl {
-      url = "https://github.com/tanvirtin/vgit.nvim/archive/dbc21214a068529be3fa78d75d166aa2585ad5a6.tar.gz";
-      sha256 = "1mzrnfls3f98lbn853jxifx6yqr43kgyagcw95ksx7pibq62x1g9";
+      url = "https://github.com/tanvirtin/vgit.nvim/archive/bbe477ef36303ebee91a5ed71d64d4ca29e11fe4.tar.gz";
+      sha256 = "0nczrkdsn0drlsx32k7w7fa24kv1fldvm1zkriii182zdr6ixs99";
     };
     meta = with lib; {
       description = "Visual Git Plugin for Neovim";
