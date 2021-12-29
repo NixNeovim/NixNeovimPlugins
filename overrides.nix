@@ -60,6 +60,8 @@ let
 
     nvim-srcerite = [ gpl3Plus ];
 
+    nvim-window = [ mpl20 ];
+
     osc-nvim = [ mit ];
 
     vim-emacscommandline = [ vim ];
