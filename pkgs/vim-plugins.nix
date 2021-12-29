@@ -78,6 +78,19 @@
       license = with licenses; [ mit ];
     };
   };
+  rasi-vim = buildVimPluginFrom2Nix {
+    pname = "rasi-vim";
+    version = "2021-12-29";
+    src = fetchurl {
+      url = "https://github.com/Fymyte/rasi.vim/archive/086137a1a3146cb5f6f9c151879fd8fec655729c.tar.gz";
+      sha256 = "06irj2savvhnnikid491lbwxvd2dwn14bny1g4fvwsgiza8shimv";
+    };
+    meta = with lib; {
+      description = "Rofi config syntax highlighting for vim";
+      homepage = "https://github.com/Fymyte/rasi.vim";
+      license = with licenses; [ mit ];
+    };
+  };
   nvim-cartographer = buildVimPluginFrom2Nix {
     pname = "nvim-cartographer";
     version = "2021-07-13";

@@ -4,6 +4,7 @@ CRAG666/code_runner.nvim
 David-Kunz/cmp-npm
 David-Kunz/jester
 FrenzyExists/aquarium-vim
+Fymyte/rasi.vim
 Iron-E/nvim-cartographer
 JoosepAlviste/nvim-ts-context-commentstring
 L3MON4D3/LuaSnip

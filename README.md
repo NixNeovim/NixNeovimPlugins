@@ -108,6 +108,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [David-Kunz/cmp-npm](https://github.com/David-Kunz/cmp-npm) | 2021-10-27 | `cmp-npm` |
 | [David-Kunz/jester](https://github.com/David-Kunz/jester) | 2021-12-02 | `jester` |
 | [FrenzyExists/aquarium-vim](https://github.com/FrenzyExists/aquarium-vim) | 2021-12-26 | `aquarium-vim` |
+| [Fymyte/rasi.vim](https://github.com/Fymyte/rasi.vim) | 2021-12-29 | `rasi-vim` |
 | [Iron-E/nvim-cartographer](https://github.com/Iron-E/nvim-cartographer) | 2021-07-13 | `nvim-cartographer` |
 | [JoosepAlviste/nvim-ts-context-commentstring](https://github.com/JoosepAlviste/nvim-ts-context-commentstring) | 2021-12-13 | `nvim-ts-context-commentstring` |
 | [L3MON4D3/LuaSnip](https://github.com/L3MON4D3/LuaSnip) | 2021-12-28 | `LuaSnip` |
