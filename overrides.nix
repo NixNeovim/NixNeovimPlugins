@@ -56,6 +56,15 @@ let
 
     nvim-pqf = [ mpl20 ];
 
+    nvim-remote-containers = [rec {
+      shortName = fullName;
+      fullName = "jamestthompson3's modified MIT License";
+      url = "https://github.com/jamestthompson3/nvim-remote-containers/blob/master/LICENSE";
+      free = true;
+      redistributable = true;
+      deprecated = false;
+    }];
+
     nvim-revJ-lua = [ vim ];
 
     nvim-srcerite = [ gpl3Plus ];
