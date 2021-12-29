@@ -52,6 +52,8 @@ let
 
     nvim-base16-lua = [ mit ];
 
+    nvim-cartographer = [ gpl3Plus ];
+
     nvim-deus = [ gpl3Plus ];
 
     nvim-luapad = [ gpl3Only ];
