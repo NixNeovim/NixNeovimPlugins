@@ -108,8 +108,11 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [David-Kunz/cmp-npm](https://github.com/David-Kunz/cmp-npm) | 2021-10-27 | `cmp-npm` |
 | [David-Kunz/jester](https://github.com/David-Kunz/jester) | 2021-12-02 | `jester` |
 | [FrenzyExists/aquarium-vim](https://github.com/FrenzyExists/aquarium-vim) | 2021-12-26 | `aquarium-vim` |
+| [Iron-E/nvim-cartographer](https://github.com/Iron-E/nvim-cartographer) | 2021-07-13 | `nvim-cartographer` |
 | [JoosepAlviste/nvim-ts-context-commentstring](https://github.com/JoosepAlviste/nvim-ts-context-commentstring) | 2021-12-13 | `nvim-ts-context-commentstring` |
 | [L3MON4D3/LuaSnip](https://github.com/L3MON4D3/LuaSnip) | 2021-12-28 | `LuaSnip` |
+| [LinArcX/telescope-command-palette.nvim](https://github.com/LinArcX/telescope-command-palette.nvim) | 2021-12-26 | `telescope-command-palette-nvim` |
+| [LionC/nest.nvim](https://github.com/LionC/nest.nvim) | 2021-09-26 | `nest-nvim` |
 | [LoricAndre/OneTerm.nvim](https://github.com/LoricAndre/OneTerm.nvim) | 2021-07-30 | `OneTerm-nvim` |
 | [Mangeshrex/uwu.vim](https://github.com/Mangeshrex/uwu.vim) | 2021-12-10 | `uwu-vim` |
 | [mcauley-penney/tidy.nvim](https://github.com/mcauley-penney/tidy.nvim) | 2021-12-21 | `tidy-nvim` |
@@ -150,6 +153,9 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [andersevenrud/cmp-tmux](https://github.com/andersevenrud/cmp-tmux) | 2021-12-20 | `cmp-tmux` |
 | [andersevenrud/nordic.nvim](https://github.com/andersevenrud/nordic.nvim) | 2021-12-20 | `nordic-nvim` |
 | [anott03/nvim-lspinstall](https://github.com/anott03/nvim-lspinstall) | 2021-07-23 | `nvim-lspinstall` |
+| [aserowy/tmux.nvim](https://github.com/aserowy/tmux.nvim) | 2021-12-21 | `tmux-nvim` |
+| [b0o/mapx.nvim](https://github.com/b0o/mapx.nvim) | 2021-11-22 | `mapx-nvim` |
+| [beauwilliams/focus.nvim](https://github.com/beauwilliams/focus.nvim) | 2021-12-18 | `focus-nvim` |
 | [beauwilliams/statusline.lua](https://github.com/beauwilliams/statusline.lua) | 2021-09-28 | `statusline-lua` |
 | [bfredl/nvim-luadev](https://github.com/bfredl/nvim-luadev) | 2021-11-30 | `nvim-luadev` |
 | [bkegley/gloombuddy](https://github.com/bkegley/gloombuddy) | 2021-04-16 | `gloombuddy` |
@@ -157,11 +163,13 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [bluz71/vim-moonfly-colors](https://github.com/bluz71/vim-moonfly-colors) | 2021-12-09 | `vim-moonfly-colors` |
 | [bluz71/vim-nightfly-guicolors](https://github.com/bluz71/vim-nightfly-guicolors) | 2021-12-09 | `vim-nightfly-guicolors` |
 | [catppuccin/nvim](https://github.com/catppuccin/nvim) | 2021-12-21 | `catppuccin` |
+| [chipsenkbeil/distant.nvim](https://github.com/chipsenkbeil/distant.nvim) | 2021-11-13 | `distant-nvim` |
 | [clojure-vim/jazz.nvim](https://github.com/clojure-vim/jazz.nvim) | 2019-04-30 | `jazz-nvim` |
 | [code-biscuits/nvim-biscuits](https://github.com/code-biscuits/nvim-biscuits) | 2021-11-12 | `nvim-biscuits` |
 | [crispgm/nvim-go](https://github.com/crispgm/nvim-go) | 2021-12-28 | `nvim-go` |
 | [crispgm/nvim-tabline](https://github.com/crispgm/nvim-tabline) | 2021-10-18 | `nvim-tabline` |
 | [crispgm/telescope-heading.nvim](https://github.com/crispgm/telescope-heading.nvim) | 2021-12-02 | `telescope-heading-nvim` |
+| [danielpieper/telescope-tmuxinator.nvim](https://github.com/danielpieper/telescope-tmuxinator.nvim) | 2021-08-19 | `telescope-tmuxinator-nvim` |
 | [danymat/neogen](https://github.com/danymat/neogen) | 2021-12-08 | `neogen` |
 | [datwaft/bubbly.nvim](https://github.com/datwaft/bubbly.nvim) | 2021-11-15 | `bubbly-nvim` |
 | [davidgranstrom/nvim-markdown-preview](https://github.com/davidgranstrom/nvim-markdown-preview) | 2021-12-07 | `nvim-markdown-preview` |
@@ -169,7 +177,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [davidgranstrom/scnvim](https://github.com/davidgranstrom/scnvim) | 2021-12-22 | `scnvim` |
 | [dcampos/nvim-snippy](https://github.com/dcampos/nvim-snippy) | 2021-12-27 | `nvim-snippy` |
 | [dkarter/bullets.vim](https://github.com/dkarter/bullets.vim) | 2021-06-18 | `bullets-vim` |
-| [echasnovski/mini.nvim](https://github.com/echasnovski/mini.nvim) | 2021-12-23 | `mini-nvim` |
+| [echasnovski/mini.nvim](https://github.com/echasnovski/mini.nvim) | 2021-12-28 | `mini-nvim` |
 | [edolphin-ydf/goimpl.nvim](https://github.com/edolphin-ydf/goimpl.nvim) | 2021-12-07 | `goimpl-nvim` |
 | [ekickx/clipboard-image.nvim](https://github.com/ekickx/clipboard-image.nvim) | 2021-12-07 | `clipboard-image-nvim` |
 | [ellisonleao/glow.nvim](https://github.com/ellisonleao/glow.nvim) | 2021-12-14 | `glow-nvim` |
@@ -188,7 +196,9 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [goolord/alpha-nvim](https://github.com/goolord/alpha-nvim) | 2021-12-18 | `alpha-nvim` |
 | [gwatcha/reaper-keys](https://github.com/gwatcha/reaper-keys) | 2021-08-23 | `reaper-keys` |
 | [h-hg/fcitx.nvim](https://github.com/h-hg/fcitx.nvim) | 2021-12-11 | `fcitx-nvim` |
+| [henriquehbr/ataraxis.lua](https://github.com/henriquehbr/ataraxis.lua) | 2021-10-24 | `ataraxis-lua` |
 | [henriquehbr/nvim-startup.lua](https://github.com/henriquehbr/nvim-startup.lua) | 2021-10-10 | `nvim-startup-lua` |
+| [hkupty/nvimux](https://github.com/hkupty/nvimux) | 2020-06-04 | `nvimux` |
 | [houtsnip/vim-emacscommandline](https://github.com/houtsnip/vim-emacscommandline) | 2017-11-24 | `vim-emacscommandline` |
 | [hylang/vim-hy](https://github.com/hylang/vim-hy) | 2021-05-20 | `vim-hy` |
 | [ibhagwan/fzf-lua](https://github.com/ibhagwan/fzf-lua) | 2021-12-28 | `fzf-lua` |
@@ -199,6 +209,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [jakewvincent/mkdnflow.nvim](https://github.com/jakewvincent/mkdnflow.nvim) | 2021-11-10 | `mkdnflow-nvim` |
 | [jakewvincent/texmagic.nvim](https://github.com/jakewvincent/texmagic.nvim) | 2021-09-01 | `texmagic-nvim` |
 | [jameshiew/nvim-magic](https://github.com/jameshiew/nvim-magic) | 2021-10-09 | `nvim-magic` |
+| [jamestthompson3/nvim-remote-containers](https://github.com/jamestthompson3/nvim-remote-containers) | 2021-08-08 | `nvim-remote-containers` |
 | [jbyuki/instant.nvim](https://github.com/jbyuki/instant.nvim) | 2021-10-26 | `instant-nvim` |
 | [jbyuki/nabla.nvim](https://github.com/jbyuki/nabla.nvim) | 2021-11-08 | `nabla-nvim` |
 | [jbyuki/one-small-step-for-vimkind](https://github.com/jbyuki/one-small-step-for-vimkind) | 2021-10-26 | `one-small-step-for-vimkind` |
@@ -222,7 +233,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [kyazdani42/blue-moon](https://github.com/kyazdani42/blue-moon) | 2021-12-05 | `blue-moon` |
 | [ldelossa/litee.nvim](https://github.com/ldelossa/litee.nvim) | 2021-12-22 | `litee-nvim` |
 | [ldelossa/vimdark](https://github.com/ldelossa/vimdark) | 2021-11-24 | `vimdark` |
-| [lewis6991/spellsitter.nvim](https://github.com/lewis6991/spellsitter.nvim) | 2021-12-18 | `spellsitter-nvim` |
+| [lewis6991/spellsitter.nvim](https://github.com/lewis6991/spellsitter.nvim) | 2021-12-28 | `spellsitter-nvim` |
 | [lourenci/github-colors](https://github.com/lourenci/github-colors) | 2021-10-04 | `github-colors` |
 | [luisiacc/gruvbox-baby](https://github.com/luisiacc/gruvbox-baby) | 2021-12-27 | `gruvbox-baby` |
 | [lukas-reineke/cmp-rg](https://github.com/lukas-reineke/cmp-rg) | 2021-12-03 | `cmp-rg` |
@@ -242,7 +253,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [mnacamura/vim-r7rs-syntax](https://github.com/mnacamura/vim-r7rs-syntax) | 2021-07-09 | `vim-r7rs-syntax` |
 | [monaqa/dial.nvim](https://github.com/monaqa/dial.nvim) | 2021-03-22 | `dial-nvim` |
 | [monkoose/matchparen.nvim](https://github.com/monkoose/matchparen.nvim) | 2021-12-26 | `matchparen-nvim` |
-| [ms-jpq/coq_nvim](https://github.com/ms-jpq/coq_nvim) | 2021-12-28 | `coq-nvim` |
+| [ms-jpq/coq_nvim](https://github.com/ms-jpq/coq_nvim) | 2021-12-29 | `coq-nvim` |
 | [nanotee/nvim-lsp-basics](https://github.com/nanotee/nvim-lsp-basics) | 2021-05-16 | `nvim-lsp-basics` |
 | [nanotee/sqls.nvim](https://github.com/nanotee/sqls.nvim) | 2021-12-26 | `sqls-nvim` |
 | [navarasu/onedark.nvim](https://github.com/navarasu/onedark.nvim) | 2021-11-30 | `onedark-nvim` |
@@ -254,6 +265,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [notomo/gesture.nvim](https://github.com/notomo/gesture.nvim) | 2021-12-27 | `gesture-nvim` |
 | [novakne/kosmikoa.nvim](https://github.com/novakne/kosmikoa.nvim) | 2021-11-19 | `kosmikoa-nvim` |
 | [numToStr/Comment.nvim](https://github.com/numToStr/Comment.nvim) | 2021-12-21 | `Comment-nvim` |
+| [numToStr/Navigator.nvim](https://github.com/numToStr/Navigator.nvim) | 2021-11-18 | `Navigator-nvim` |
 | [nvim-telescope/telescope-bibtex.nvim](https://github.com/nvim-telescope/telescope-bibtex.nvim) | 2021-11-29 | `telescope-bibtex-nvim` |
 | [nxvu699134/vn-night.nvim](https://github.com/nxvu699134/vn-night.nvim) | 2021-07-24 | `vn-night-nvim` |
 | [ojroques/nvim-hardline](https://github.com/ojroques/nvim-hardline) | 2021-12-20 | `nvim-hardline` |
@@ -267,7 +279,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [quangnguyen30192/cmp-nvim-ultisnips](https://github.com/quangnguyen30192/cmp-nvim-ultisnips) | 2021-12-22 | `cmp-nvim-ultisnips` |
 | [rafaelsq/nvim-goc.lua](https://github.com/rafaelsq/nvim-goc.lua) | 2021-11-23 | `nvim-goc-lua` |
 | [rafcamlet/nvim-luapad](https://github.com/rafcamlet/nvim-luapad) | 2021-08-15 | `nvim-luapad` |
-| [rafcamlet/tabline-framework.nvim](https://github.com/rafcamlet/tabline-framework.nvim) | 2021-11-28 | `tabline-framework-nvim` |
+| [rafcamlet/tabline-framework.nvim](https://github.com/rafcamlet/tabline-framework.nvim) | 2021-12-28 | `tabline-framework-nvim` |
 | [raimon49/requirements.txt.vim](https://github.com/raimon49/requirements.txt.vim) | 2021-12-04 | `requirements-txt-vim` |
 | [ray-x/go.nvim](https://github.com/ray-x/go.nvim) | 2021-12-27 | `go-nvim` |
 | [ray-x/navigator.lua](https://github.com/ray-x/navigator.lua) | 2021-12-26 | `navigator-lua` |
@@ -289,18 +301,19 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [seandewar/nvimesweeper](https://github.com/seandewar/nvimesweeper) | 2021-09-07 | `nvimesweeper` |
 | [sgur/vim-textobj-parameter](https://github.com/sgur/vim-textobj-parameter) | 2017-05-16 | `vim-textobj-parameter` |
 | [shaeinst/roshnivim-cs](https://github.com/shaeinst/roshnivim-cs) | 2021-12-21 | `roshnivim-cs` |
+| [sindrets/winshift.nvim](https://github.com/sindrets/winshift.nvim) | 2021-11-15 | `winshift-nvim` |
 | [skanehira/christmas.vim](https://github.com/skanehira/christmas.vim) | 2021-12-24 | `christmas-vim` |
 | [startup-nvim/startup.nvim](https://github.com/startup-nvim/startup.nvim) | 2021-12-23 | `startup-nvim` |
 | [stevearc/dressing.nvim](https://github.com/stevearc/dressing.nvim) | 2021-12-23 | `dressing-nvim` |
 | [stevearc/gkeep.nvim](https://github.com/stevearc/gkeep.nvim) | 2021-12-27 | `gkeep-nvim` |
 | [stevearc/qf_helper.nvim](https://github.com/stevearc/qf_helper.nvim) | 2021-12-01 | `qf-helper-nvim` |
 | [svermeulen/vim-yoink](https://github.com/svermeulen/vim-yoink) | 2021-09-15 | `vim-yoink` |
-| [svermeulen/vimpeccable](https://github.com/svermeulen/vimpeccable) | 2021-09-25 | `vimpeccable` |
+| [svermeulen/vimpeccable](https://github.com/svermeulen/vimpeccable) | 2021-12-28 | `vimpeccable` |
 | [tamago324/nlsp-settings.nvim](https://github.com/tamago324/nlsp-settings.nvim) | 2021-12-28 | `nlsp-settings-nvim` |
 | [tami5/lspsaga.nvim](https://github.com/tami5/lspsaga.nvim) | 2021-12-19 | `lspsaga-nvim` |
 | [tamton-aquib/staline.nvim](https://github.com/tamton-aquib/staline.nvim) | 2021-12-27 | `staline-nvim` |
 | [tanvirtin/monokai.nvim](https://github.com/tanvirtin/monokai.nvim) | 2021-10-06 | `monokai-nvim` |
-| [tanvirtin/vgit.nvim](https://github.com/tanvirtin/vgit.nvim) | 2021-12-28 | `vgit-nvim` |
+| [tanvirtin/vgit.nvim](https://github.com/tanvirtin/vgit.nvim) | 2021-12-29 | `vgit-nvim` |
 | [terrortylor/nvim-comment](https://github.com/terrortylor/nvim-comment) | 2021-08-01 | `nvim-comment` |
 | [theniceboy/nvim-deus](https://github.com/theniceboy/nvim-deus) | 2021-08-26 | `nvim-deus` |
 | [tjdevries/astronauta.nvim](https://github.com/tjdevries/astronauta.nvim) | 2021-11-09 | `astronauta-nvim` |
@@ -320,6 +333,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [yashguptaz/calvera-dark.nvim](https://github.com/yashguptaz/calvera-dark.nvim) | 2021-08-13 | `calvera-dark-nvim` |
 | [yonlu/omni.vim](https://github.com/yonlu/omni.vim) | 2021-02-20 | `omni-vim` |
 | [gitlab:yorickpeterse/nvim-pqf](https://gitlab.com/yorickpeterse/nvim-pqf) | 2021-10-29 | `nvim-pqf` |
+| [gitlab:yorickpeterse/nvim-window](https://gitlab.com/yorickpeterse/nvim-window) | 2021-07-13 | `nvim-window` |
 
 ## Contribution
 
