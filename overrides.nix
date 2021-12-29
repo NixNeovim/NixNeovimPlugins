@@ -182,6 +182,8 @@ let
 
     onebuddy = [ colorbuddy-nvim ];
 
+    orgmode = [ nvim-treesitter ];
+
     renamer-nvim = [ plenary-nvim ];
 
     reaper-nvim = [ self.osc-nvim ];
