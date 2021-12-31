@@ -235,9 +235,6 @@ let
     });
 
     mdeval-nvim = super.mdeval-nvim.overrideAttrs (old: {
-      buildInputs = (old.buildInputs or []) ++ [
-        final.coreutils
-      ];
       postPatch = (old.postPatch or "") + ''
         sed -Ei lua/mdeval.lua \
             -e 's@(get_command\(string\.format\(")mkdir@\1${final.coreutils}/bin/mkdir@' \
