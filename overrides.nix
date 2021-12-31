@@ -140,6 +140,8 @@ let
 
     lspactions = [ plenary-nvim popup-nvim self.astronauta-nvim ];
 
+    navigator-lua = [ nvim-lspconfig self.guihua-lua ];
+
     neogen = [ nvim-treesitter ];
 
     neorg = [ plenary-nvim ];
@@ -234,6 +236,15 @@ let
           sha256 = "sha256-fLa6za0Srm/gnVPlPgs11+2cxhj7hitgUhlHu2jc2+s=";
         })
       ];
+    });
+
+    guihua-lua = super.guihua-lua.overrideAttrs (old: {
+      buildPhase = ''
+        (
+          cd lua/fzy
+          make
+        )
+      '';
     });
 
     mdeval-nvim = super.mdeval-nvim.overrideAttrs (old: {
