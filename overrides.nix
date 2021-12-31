@@ -130,6 +130,8 @@ let
 
     gloombuddy = [ colorbuddy-nvim ];
 
+    go-nvim = [ nvim-treesitter ];
+
     goimpl-nvim = [ nvim-treesitter telescope-nvim ];
 
     gruvbuddy-nvim = [ colorbuddy-nvim ];
