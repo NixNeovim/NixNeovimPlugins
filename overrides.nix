@@ -188,6 +188,8 @@ let
 
     reaper-nvim = [ self.osc-nvim ];
 
+    rest-nvim = [ plenary-nvim ];
+
     sqls-nvim = [ nvim-lspconfig ];
 
     startup-nvim = [ telescope-nvim ];
@@ -240,6 +242,13 @@ let
             -e 's@(get_command\(string\.format\(")mkdir@\1${final.coreutils}/bin/mkdir@' \
             -e 's@(get_command\(string\.format\(")rm@\1${final.coreutils}/bin/rm@' \
             -e 's@(2>&1; )echo@\1${final.coreutils}/bin/echo@'
+      '';
+    });
+
+    rest-nvim = super.rest-nvim.overrideAttrs (old: {
+      postPatch = (old.postPatch or "") + ''
+        sed -Ei lua/rest-nvim/curl/init.lua \
+            -e 's@(vim\.fn\.system\s*\(\s*")jq(")@\1${final.jq}/bin/jq\2@'
       '';
     });
 
