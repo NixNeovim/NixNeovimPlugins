@@ -1062,10 +1062,10 @@
   };
   lua-dev-nvim = buildVimPluginFrom2Nix {
     pname = "lua-dev-nvim";
-    version = "2021-12-10";
+    version = "2021-12-31";
     src = fetchurl {
-      url = "https://github.com/folke/lua-dev.nvim/archive/4331626b02f636433b504b9ab6a8c11fb9de4a24.tar.gz";
-      sha256 = "0m7cgff48k8skxwzhvsc6ycsw1pqqhmcckfdzx75jqibga94i7gc";
+      url = "https://github.com/folke/lua-dev.nvim/archive/03a44ec6a54b0a025a633978e8541584a02e46d9.tar.gz";
+      sha256 = "14vab2yfmfix6g4xkfwa9n77y44ix8h2n27vdgwn719xg0nnv2qa";
     };
     meta = with lib; {
       description = "💻  Dev setup for init.lua and plugin development with full signature help, docs and completion for the nvim lua API";
