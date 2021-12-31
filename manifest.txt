@@ -91,7 +91,6 @@ glacambre/firenvim
 glepnir/indent-guides.nvim
 glepnir/prodoc.nvim
 goolord/alpha-nvim
-gwatcha/reaper-keys
 h-hg/fcitx.nvim
 henriquehbr/ataraxis.lua
 henriquehbr/nvim-startup.lua
