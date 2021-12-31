@@ -236,6 +236,15 @@ let
       ];
     });
 
+    guihua-lua = super.guihua-lua.overrideAttrs (old: {
+      buildPhase = ''
+        (
+          cd lua/fzy
+          make
+        )
+      '';
+    });
+
     mdeval-nvim = super.mdeval-nvim.overrideAttrs (old: {
       postPatch = (old.postPatch or "") + ''
         sed -Ei lua/mdeval.lua \

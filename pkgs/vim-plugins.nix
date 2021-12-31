@@ -2302,6 +2302,19 @@
       license = with licenses; [ mit ];
     };
   };
+  guihua-lua = buildVimPluginFrom2Nix {
+    pname = "guihua-lua";
+    version = "2021-12-26";
+    src = fetchurl {
+      url = "https://github.com/ray-x/guihua.lua/archive/4555e05f565cc924f6cbb411522bfcedef231245.tar.gz";
+      sha256 = "0kdfsj0hslahagiwcs826znccfjrffkm6km956as6gv9wqd6ajsh";
+    };
+    meta = with lib; {
+      description = "A GUI lib for Neovim plugin developer";
+      homepage = "https://github.com/ray-x/guihua.lua";
+      license = with licenses; [ mit ];
+    };
+  };
   navigator-lua = buildVimPluginFrom2Nix {
     pname = "navigator-lua";
     version = "2021-12-30";

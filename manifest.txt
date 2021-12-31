@@ -178,6 +178,7 @@ rafcamlet/nvim-luapad
 rafcamlet/tabline-framework.nvim
 raimon49/requirements.txt.vim
 ray-x/go.nvim
+ray-x/guihua.lua
 ray-x/navigator.lua
 rebelot/kanagawa.nvim
 rhysd/vim-gfm-syntax
