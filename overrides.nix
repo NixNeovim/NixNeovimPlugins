@@ -226,7 +226,9 @@ let
     litee-nvim
     lua-dev-nvim
     nvim-ts-autotag
-    onedark-nvim
+    # onedark-nvim is an alias to onedark-pro-nvim.
+    # See https://github.com/NixOS/nixpkgs/pull/153045#discussion_r781641557
+    # onedark-nvim
     project-nvim
     renamer-nvim
     surround-nvim
