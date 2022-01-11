@@ -13,8 +13,6 @@ let
   {
     alpha-nvim = true;
 
-    litee-nvim = true;
-
     highlight-current-n-nvim = true;
 
     vacuumline-nvim = true;
@@ -41,10 +39,6 @@ let
     christmas-vim = [ mit ];
 
     distant-nvim = [ asl20 mit ];
-
-    kanagawa-nvim = [ mit ];
-
-    litee-nvim = [ mit ];
 
     goimpl-nvim = [ mit ];
 
@@ -109,8 +103,6 @@ let
     cmp-nvim-ultisnips = [ nvim-cmp ];
 
     cmp-rg = [ nvim-cmp ];
-
-    cmp-tmux = [ nvim-cmp ];
 
     code-runner-nvim = [ plenary-nvim ];
 
@@ -178,8 +170,6 @@ let
 
     nvim-treehopper = [ nvim-treesitter ];
 
-    nvim-ts-autotag = [ nvim-treesitter ];
-
     nvim-ts-context-commentstring = [ nvim-treesitter ];
 
     octo-nvim = [ nvim-web-devicons telescope-nvim ];
@@ -189,8 +179,6 @@ let
     onebuddy = [ colorbuddy-nvim ];
 
     orgmode = [ nvim-treesitter ];
-
-    renamer-nvim = [ plenary-nvim ];
 
     reaper-nvim = [ self.osc-nvim ];
 
@@ -226,6 +214,26 @@ let
 
     zenbones-nvim = [ lush-nvim ];
   });
+
+  /*
+   * Add plugins that were once here but now officially maintained.
+   */
+  onceHereButNowOfficiallyMaintainedPlugins = self: super:
+  {
+    inherit (final.vimPlugins)
+    cmp-tmux
+    kanagawa-nvim
+    litee-nvim
+    lua-dev-nvim
+    nvim-ts-autotag
+    # onedark-nvim is an alias to onedark-pro-nvim.
+    # See https://github.com/NixOS/nixpkgs/pull/153045#discussion_r781641557
+    # onedark-nvim
+    project-nvim
+    renamer-nvim
+    surround-nvim
+    ;
+  };
 
   /*
    * Add other overrides here.
@@ -278,6 +286,7 @@ in
     markBrokenPackages
     fixLicenses
     fixDependencies
+    onceHereButNowOfficiallyMaintainedPlugins
     otherOverrides
   ]);
 }
