@@ -29,6 +29,7 @@ Pocco81/HighStr.nvim
 RRethy/nvim-treesitter-textsubjects
 RishabhRD/gruvy
 RishabhRD/lspactions
+RishabhRD/lspactions:nvim-0.6-compatible:lspactions-nvim06-compatible
 RishabhRD/nvim-rdark
 Th3Whit3Wolf/onebuddy
 Th3Whit3Wolf/space-nvim

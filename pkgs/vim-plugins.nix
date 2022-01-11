@@ -397,6 +397,18 @@
       homepage = "https://github.com/RishabhRD/lspactions";
     };
   };
+  lspactions-nvim06-compatible = buildVimPluginFrom2Nix {
+    pname = "lspactions-nvim06-compatible";
+    version = "2022-01-08";
+    src = fetchurl {
+      url = "https://github.com/RishabhRD/lspactions/archive/03953195a938b0a5d421d168461ff45e8e0874ed.tar.gz";
+      sha256 = "0jhpbjz353ybcxnq144059mfw6lvxgjf49rdj7158dq2vb88qbcw";
+    };
+    meta = with lib; {
+      description = "handlers for required lsp actions";
+      homepage = "https://github.com/RishabhRD/lspactions";
+    };
+  };
   nvim-rdark = buildVimPluginFrom2Nix {
     pname = "nvim-rdark";
     version = "2020-12-25";
