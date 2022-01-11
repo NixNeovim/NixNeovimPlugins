@@ -397,6 +397,18 @@
       homepage = "https://github.com/RishabhRD/lspactions";
     };
   };
+  lspactions-nvim06-compatible = buildVimPluginFrom2Nix {
+    pname = "lspactions-nvim06-compatible";
+    version = "2022-01-08";
+    src = fetchurl {
+      url = "https://github.com/RishabhRD/lspactions/archive/03953195a938b0a5d421d168461ff45e8e0874ed.tar.gz";
+      sha256 = "0jhpbjz353ybcxnq144059mfw6lvxgjf49rdj7158dq2vb88qbcw";
+    };
+    meta = with lib; {
+      description = "handlers for required lsp actions";
+      homepage = "https://github.com/RishabhRD/lspactions";
+    };
+  };
   nvim-rdark = buildVimPluginFrom2Nix {
     pname = "nvim-rdark";
     version = "2020-12-25";
@@ -2805,10 +2817,10 @@
   };
   astronauta-nvim = buildVimPluginFrom2Nix {
     pname = "astronauta-nvim";
-    version = "2022-01-06";
+    version = "2021-11-09";
     src = fetchurl {
-      url = "https://github.com/tjdevries/astronauta.nvim/archive/c8e33813c92ffcc9ba2edaf9124db1f3f17e3500.tar.gz";
-      sha256 = "0605hihdqwa2lksm89zk067kcqww373wl3l282kljjppgp6nsfdr";
+      url = "https://github.com/tjdevries/astronauta.nvim/archive/edc19d30a3c51a8c3fc3f606008e5b4238821f1e.tar.gz";
+      sha256 = "061lqiy6l5sbcgdipr2g6mxa4br703kp0q2pb78ldrf5kikbhif5";
     };
     meta = with lib; {
       description = "You now feel at home traveling to the moon";

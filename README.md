@@ -133,6 +133,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [RRethy/nvim-treesitter-textsubjects](https://github.com/RRethy/nvim-treesitter-textsubjects) | 2022-01-08 | `nvim-treesitter-textsubjects` |
 | [RishabhRD/gruvy](https://github.com/RishabhRD/gruvy) | 2022-01-09 | `gruvy` |
 | [RishabhRD/lspactions](https://github.com/RishabhRD/lspactions) | 2022-01-08 | `lspactions` |
+| [RishabhRD/lspactions](https://github.com/RishabhRD/lspactions) [branch: `nvim-0.6-compatible`] | 2022-01-08 | `lspactions-nvim06-compatible` |
 | [RishabhRD/nvim-rdark](https://github.com/RishabhRD/nvim-rdark) | 2020-12-25 | `nvim-rdark` |
 | [Th3Whit3Wolf/onebuddy](https://github.com/Th3Whit3Wolf/onebuddy) | 2021-04-01 | `onebuddy` |
 | [Th3Whit3Wolf/space-nvim](https://github.com/Th3Whit3Wolf/space-nvim) | 2021-07-08 | `space-nvim` |
@@ -321,7 +322,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [terrortylor/nvim-comment](https://github.com/terrortylor/nvim-comment) | 2022-01-04 | `nvim-comment` |
 | [theniceboy/nvim-deus](https://github.com/theniceboy/nvim-deus) | 2021-08-26 | `nvim-deus` |
 | [titanzero/zephyrium](https://github.com/titanzero/zephyrium) | 2021-12-28 | `zephyrium` |
-| [tjdevries/astronauta.nvim](https://github.com/tjdevries/astronauta.nvim) | 2022-01-06 | `astronauta-nvim` |
+| [tjdevries/astronauta.nvim](https://github.com/tjdevries/astronauta.nvim) [branch: `edc19d30a3c51a8c3fc3f606008e5b4238821f1e`] | 2021-11-09 | `astronauta-nvim` |
 | [tjdevries/express_line.nvim](https://github.com/tjdevries/express_line.nvim) | 2021-12-01 | `express-line-nvim` |
 | [tjdevries/gruvbuddy.nvim](https://github.com/tjdevries/gruvbuddy.nvim) | 2021-04-15 | `gruvbuddy-nvim` |
 | [tjdevries/vlog.nvim](https://github.com/tjdevries/vlog.nvim) | 2020-08-04 | `vlog-nvim` |

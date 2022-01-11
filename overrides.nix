@@ -140,7 +140,9 @@ let
 
     jester = [ nvim-treesitter ];
 
-    lspactions = [ plenary-nvim popup-nvim self.astronauta-nvim ];
+    lspactions = [ plenary-nvim popup-nvim ];
+
+    lspactions-nvim06-compatible = [ plenary-nvim popup-nvim self.astronauta-nvim ];
 
     navigator-lua = [ nvim-lspconfig self.guihua-lua ];
 
