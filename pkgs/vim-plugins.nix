@@ -574,6 +574,18 @@
       homepage = "https://github.com/akinsho/toggleterm.nvim";
     };
   };
+  nim-nvim = buildVimPluginFrom2Nix {
+    pname = "nim-nvim";
+    version = "2021-10-07";
+    src = fetchurl {
+      url = "https://github.com/alaviss/nim.nvim/archive/dbc853fedb963a97b1c5fbac54a05ba4f5100f06.tar.gz";
+      sha256 = "1bndr06478j900ra0zwcszgclk51x5032l2mfnqccwsipgd01gmq";
+    };
+    meta = with lib; {
+      description = "Nim plugin for NeoVim";
+      homepage = "https://github.com/alaviss/nim.nvim";
+    };
+  };
   nvim-tetris = buildVimPluginFrom2Nix {
     pname = "nvim-tetris";
     version = "2021-06-28";
