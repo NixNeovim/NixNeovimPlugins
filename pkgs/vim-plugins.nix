@@ -969,19 +969,6 @@
       homepage = "https://github.com/dkarter/bullets.vim";
     };
   };
-  mini-nvim = buildVimPluginFrom2Nix {
-    pname = "mini-nvim";
-    version = "2022-01-11";
-    src = fetchurl {
-      url = "https://github.com/echasnovski/mini.nvim/archive/1c24c78a2747182862b0d6ad27dac2e715a874ca.tar.gz";
-      sha256 = "075s4905w0zhgj23nm4svf9fqzlyhp3mwr64p30rlwzjm0vqq2ij";
-    };
-    meta = with lib; {
-      description = "Neovim plugin with collection of minimal, independent, and fast Lua modules dedicated to improve Neovim (version 0.5 and higher) experience";
-      homepage = "https://github.com/echasnovski/mini.nvim";
-      license = with licenses; [ mit ];
-    };
-  };
   goimpl-nvim = buildVimPluginFrom2Nix {
     pname = "goimpl-nvim";
     version = "2021-12-07";
