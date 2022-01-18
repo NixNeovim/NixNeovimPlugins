@@ -574,6 +574,18 @@
       homepage = "https://github.com/akinsho/toggleterm.nvim";
     };
   };
+  nim-nvim = buildVimPluginFrom2Nix {
+    pname = "nim-nvim";
+    version = "2021-10-07";
+    src = fetchurl {
+      url = "https://github.com/alaviss/nim.nvim/archive/dbc853fedb963a97b1c5fbac54a05ba4f5100f06.tar.gz";
+      sha256 = "1bndr06478j900ra0zwcszgclk51x5032l2mfnqccwsipgd01gmq";
+    };
+    meta = with lib; {
+      description = "Nim plugin for NeoVim";
+      homepage = "https://github.com/alaviss/nim.nvim";
+    };
+  };
   nvim-tetris = buildVimPluginFrom2Nix {
     pname = "nvim-tetris";
     version = "2021-06-28";
@@ -955,19 +967,6 @@
     meta = with lib; {
       description = "🔫 Bullets.vim is a Vim/NeoVim plugin for automated bullet lists";
       homepage = "https://github.com/dkarter/bullets.vim";
-    };
-  };
-  mini-nvim = buildVimPluginFrom2Nix {
-    pname = "mini-nvim";
-    version = "2022-01-11";
-    src = fetchurl {
-      url = "https://github.com/echasnovski/mini.nvim/archive/1c24c78a2747182862b0d6ad27dac2e715a874ca.tar.gz";
-      sha256 = "075s4905w0zhgj23nm4svf9fqzlyhp3mwr64p30rlwzjm0vqq2ij";
-    };
-    meta = with lib; {
-      description = "Neovim plugin with collection of minimal, independent, and fast Lua modules dedicated to improve Neovim (version 0.5 and higher) experience";
-      homepage = "https://github.com/echasnovski/mini.nvim";
-      license = with licenses; [ mit ];
     };
   };
   goimpl-nvim = buildVimPluginFrom2Nix {
