@@ -313,7 +313,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [svermeulen/vim-yoink](https://github.com/svermeulen/vim-yoink) | 2021-09-15 | `vim-yoink` |
 | [svermeulen/vimpeccable](https://github.com/svermeulen/vimpeccable) | 2021-12-28 | `vimpeccable` |
 | [tamago324/nlsp-settings.nvim](https://github.com/tamago324/nlsp-settings.nvim) | 2022-04-03 | `nlsp-settings-nvim` |
-| [tami5/lspsaga.nvim](https://github.com/tami5/lspsaga.nvim) | 2022-03-14 | `lspsaga-nvim` |
+| [kkharji/lspsaga.nvim](https://github.com/kkharji/lspsaga.nvim) | 2022-03-14 | `lspsaga-nvim` |
 | [tamton-aquib/staline.nvim](https://github.com/tamton-aquib/staline.nvim) | 2022-03-01 | `staline-nvim` |
 | [tanvirtin/monokai.nvim](https://github.com/tanvirtin/monokai.nvim) | 2022-01-29 | `monokai-nvim` |
 | [tanvirtin/vgit.nvim](https://github.com/tanvirtin/vgit.nvim) | 2022-02-04 | `vgit-nvim` |

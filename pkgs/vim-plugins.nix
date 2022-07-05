@@ -2704,12 +2704,12 @@
     pname = "lspsaga-nvim";
     version = "2022-03-14";
     src = fetchurl {
-      url = "https://github.com/tami5/lspsaga.nvim/archive/5309d75bd90ce5b1708331df3af1e971fa83a2b9.tar.gz";
+      url = "https://github.com/kkharji/lspsaga.nvim/archive/5309d75bd90ce5b1708331df3af1e971fa83a2b9.tar.gz";
       sha256 = "03cxhqq2scym1nf2xfanw67cvh67vw68qf51m6rniz47qwy0yfz8";
     };
     meta = with lib; {
       description = "The neovim language-server-client UI";
-      homepage = "https://github.com/tami5/lspsaga.nvim";
+      homepage = "https://github.com/kkharji/lspsaga.nvim";
       license = with licenses; [ mit ];
     };
   };
