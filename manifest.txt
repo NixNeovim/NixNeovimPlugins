@@ -122,6 +122,7 @@ jvgrootveld/telescope-zoxide
 kana/vim-textobj-indent
 kazhala/close-buffers.nvim
 kdheepak/monochrome.nvim
+kkharji/lspsaga.nvim
 klen/nvim-config-local
 konapun/vacuumline.nvim
 kristijanhusak/orgmode.nvim
@@ -208,7 +209,6 @@ stevearc/qf_helper.nvim
 svermeulen/vim-yoink
 svermeulen/vimpeccable
 tamago324/nlsp-settings.nvim
-kkharji/lspsaga.nvim
 tamton-aquib/staline.nvim
 tanvirtin/monokai.nvim
 tanvirtin/vgit.nvim

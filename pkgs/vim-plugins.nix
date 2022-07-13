@@ -1585,6 +1585,19 @@
       license = with licenses; [ mit ];
     };
   };
+  lspsaga-nvim = buildVimPluginFrom2Nix {
+    pname = "lspsaga-nvim";
+    version = "2022-07-05";
+    src = fetchurl {
+      url = "https://github.com/kkharji/lspsaga.nvim/archive/ea39528f8eab7af4bcd8b0f88abfad86e3ea2995.tar.gz";
+      sha256 = "0liqv0pwbwv8kgk1z26hrzh5i8cb645v12kwhdqrj6678rm3zch5";
+    };
+    meta = with lib; {
+      description = "The neovim language-server-client UI";
+      homepage = "https://github.com/kkharji/lspsaga.nvim";
+      license = with licenses; [ mit ];
+    };
+  };
   nvim-config-local = buildVimPluginFrom2Nix {
     pname = "nvim-config-local";
     version = "2022-03-26";
@@ -2685,19 +2698,6 @@
     meta = with lib; {
       description = "A plugin for setting Neovim LSP with JSON or YAML files";
       homepage = "https://github.com/tamago324/nlsp-settings.nvim";
-      license = with licenses; [ mit ];
-    };
-  };
-  lspsaga-nvim = buildVimPluginFrom2Nix {
-    pname = "lspsaga-nvim";
-    version = "2022-07-05";
-    src = fetchurl {
-      url = "https://github.com/kkharji/lspsaga.nvim/archive/ea39528f8eab7af4bcd8b0f88abfad86e3ea2995.tar.gz";
-      sha256 = "0liqv0pwbwv8kgk1z26hrzh5i8cb645v12kwhdqrj6678rm3zch5";
-    };
-    meta = with lib; {
-      description = "The neovim language-server-client UI";
-      homepage = "https://github.com/kkharji/lspsaga.nvim";
       license = with licenses; [ mit ];
     };
   };
