@@ -220,10 +220,10 @@
   };
   vscode-nvim = buildVimPluginFrom2Nix {
     pname = "vscode-nvim";
-    version = "2022-07-12";
+    version = "2022-07-13";
     src = fetchurl {
-      url = "https://github.com/Mofiqul/vscode.nvim/archive/acc43a3c5963c4031d84e445118cc11e212fe1dc.tar.gz";
-      sha256 = "1wsnx54bvqx0g8jn039gj55ci82hgpii2wzaixigxblghqd333yr";
+      url = "https://github.com/Mofiqul/vscode.nvim/archive/652dfa792c52f31d873b7937528f87cbeb0c6625.tar.gz";
+      sha256 = "16wbn8kl60l0a9invq1182rmcjwzpwxs5wvhgzj5i76r9yzkngrd";
     };
     meta = with lib; {
       description = "Neovim/Vim color scheme inspired by Dark+ and Light+ theme in Visual Studio Code";
@@ -2036,10 +2036,10 @@
   };
   Comment-nvim = buildVimPluginFrom2Nix {
     pname = "Comment-nvim";
-    version = "2022-07-12";
+    version = "2022-07-13";
     src = fetchurl {
-      url = "https://github.com/numToStr/Comment.nvim/archive/a7c826d41ca5edef184a4d862ab25adcd886712c.tar.gz";
-      sha256 = "0hk00xpgia2xnxxw119ql3854fhnlw7l1abqjj5xkqsvdf21ka8d";
+      url = "https://github.com/numToStr/Comment.nvim/archive/7c49fb2ac01a9f03410100c8e78f647bbea857e8.tar.gz";
+      sha256 = "0aqrw2j1mj5b80ld0pbrgckdkw4aix872r2jza5yvd0hksj4dn4d";
     };
     meta = with lib; {
       description = ":brain: :muscle: // Smart and powerful comment plugin for neovim. Supports treesitter, dot repeat, left-right/up-down motions, hooks, and more";
@@ -2370,10 +2370,10 @@
   };
   hotpot-nvim = buildVimPluginFrom2Nix {
     pname = "hotpot-nvim";
-    version = "2022-06-19";
+    version = "2022-07-13";
     src = fetchurl {
-      url = "https://github.com/rktjmp/hotpot.nvim/archive/104aa65f9155d34629c9623d5dac39b5b2ad555c.tar.gz";
-      sha256 = "0nicdw37vwpgq9ph19lwa7c8zsvcz5xiz6ml95anggfrx7sak3id";
+      url = "https://github.com/rktjmp/hotpot.nvim/archive/d766a867d90510de2513f8cd59366c155a4a77a3.tar.gz";
+      sha256 = "14chp08y2rbia41kjx602ig4g13g4f8bglgj7a8w20lrdw7zaqph";
     };
     meta = with lib; {
       description = ":stew: Carl Weathers #1 Neovim Plugin";

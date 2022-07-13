@@ -119,7 +119,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [Everblush/everblush.vim](https://github.com/Everblush/everblush.vim) | 2022-07-12 | `everblush-vim` |
 | [mcauley-penney/tidy.nvim](https://github.com/mcauley-penney/tidy.nvim) | 2022-06-12 | `tidy-nvim` |
 | [Mofiqul/dracula.nvim](https://github.com/Mofiqul/dracula.nvim) | 2022-07-08 | `dracula-nvim` |
-| [Mofiqul/vscode.nvim](https://github.com/Mofiqul/vscode.nvim) | 2022-07-12 | `vscode-nvim` |
+| [Mofiqul/vscode.nvim](https://github.com/Mofiqul/vscode.nvim) | 2022-07-13 | `vscode-nvim` |
 | [MunifTanjim/nui.nvim](https://github.com/MunifTanjim/nui.nvim) | 2022-07-11 | `nui-nvim` |
 | [NFrid/due.nvim](https://github.com/NFrid/due.nvim) | 2022-04-15 | `due-nvim` |
 | [NTBBloodbath/cheovim](https://github.com/NTBBloodbath/cheovim) | 2021-08-25 | `cheovim` |
@@ -261,7 +261,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [notomo/cmdbuf.nvim](https://github.com/notomo/cmdbuf.nvim) | 2022-05-26 | `cmdbuf-nvim` |
 | [notomo/gesture.nvim](https://github.com/notomo/gesture.nvim) | 2022-05-26 | `gesture-nvim` |
 | [novakne/kosmikoa.nvim](https://github.com/novakne/kosmikoa.nvim) | 2021-11-19 | `kosmikoa-nvim` |
-| [numToStr/Comment.nvim](https://github.com/numToStr/Comment.nvim) | 2022-07-12 | `Comment-nvim` |
+| [numToStr/Comment.nvim](https://github.com/numToStr/Comment.nvim) | 2022-07-13 | `Comment-nvim` |
 | [numToStr/Navigator.nvim](https://github.com/numToStr/Navigator.nvim) | 2022-04-29 | `Navigator-nvim` |
 | [nvim-telescope/telescope-bibtex.nvim](https://github.com/nvim-telescope/telescope-bibtex.nvim) | 2022-05-01 | `telescope-bibtex-nvim` |
 | [nxvu699134/vn-night.nvim](https://github.com/nxvu699134/vn-night.nvim) | 2022-06-04 | `vn-night-nvim` |
@@ -287,7 +287,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [renerocksai/telekasten.nvim](https://github.com/renerocksai/telekasten.nvim) | 2022-07-09 | `telekasten-nvim` |
 | [rhysd/vim-gfm-syntax](https://github.com/rhysd/vim-gfm-syntax) | 2021-10-04 | `vim-gfm-syntax` |
 | [rktjmp/highlight-current-n.nvim](https://github.com/rktjmp/highlight-current-n.nvim) | 2022-04-21 | `highlight-current-n-nvim` |
-| [rktjmp/hotpot.nvim](https://github.com/rktjmp/hotpot.nvim) | 2022-06-19 | `hotpot-nvim` |
+| [rktjmp/hotpot.nvim](https://github.com/rktjmp/hotpot.nvim) | 2022-07-13 | `hotpot-nvim` |
 | [rktjmp/paperplanes.nvim](https://github.com/rktjmp/paperplanes.nvim) | 2022-05-13 | `paperplanes-nvim` |
 | [rlane/pounce.nvim](https://github.com/rlane/pounce.nvim) | 2022-06-23 | `pounce-nvim` |
 | [rmehri01/onenord.nvim](https://github.com/rmehri01/onenord.nvim) | 2022-06-14 | `onenord-nvim` |
