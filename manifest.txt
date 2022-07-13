@@ -141,7 +141,6 @@ mcchrish/zenbones.nvim
 mfussenegger/nvim-ts-hint-textobject
 michaelb/sniprun
 mizlan/iswap.nvim
-mjlbach/babelfish.nvim
 mnacamura/iron.nvim::iron-nvim-mnacamura
 mnacamura/nvim-srcerite
 mnacamura/vim-fennel-syntax

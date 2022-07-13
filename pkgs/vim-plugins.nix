@@ -1827,19 +1827,6 @@
       license = with licenses; [ mit ];
     };
   };
-  babelfish-nvim = buildVimPluginFrom2Nix {
-    pname = "babelfish-nvim";
-    version = "2021-09-14";
-    src = fetchurl {
-      url = "https://github.com/mjlbach/babelfish.nvim/archive/a057957520b0d4b9236d4292443f3eb948bcc54e.tar.gz";
-      sha256 = "035i10asvqxqksydjwx1ag0cnrv76241pmbysc2v8kdah5c4inlf";
-    };
-    meta = with lib; {
-      description = "The answer to the ultimate question is :help 42";
-      homepage = "https://github.com/mjlbach/babelfish.nvim";
-      license = with licenses; [ mit ];
-    };
-  };
   iron-nvim-mnacamura = buildVimPluginFrom2Nix {
     pname = "iron-nvim-mnacamura";
     version = "2021-12-19";

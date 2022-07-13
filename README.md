@@ -245,7 +245,6 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [mfussenegger/nvim-treehopper](https://github.com/mfussenegger/nvim-treehopper) | 2021-12-20 | `nvim-treehopper` |
 | [michaelb/sniprun](https://github.com/michaelb/sniprun) | 2022-03-16 | `sniprun` |
 | [mizlan/iswap.nvim](https://github.com/mizlan/iswap.nvim) | 2022-03-20 | `iswap-nvim` |
-| [mjlbach/babelfish.nvim](https://github.com/mjlbach/babelfish.nvim) | 2021-09-14 | `babelfish-nvim` |
 | [mnacamura/iron.nvim](https://github.com/mnacamura/iron.nvim) | 2021-12-19 | `iron-nvim-mnacamura` |
 | [mnacamura/nvim-srcerite](https://github.com/mnacamura/nvim-srcerite) | 2021-12-17 | `nvim-srcerite` |
 | [mnacamura/vim-fennel-syntax](https://github.com/mnacamura/vim-fennel-syntax) | 2021-07-08 | `vim-fennel-syntax` |

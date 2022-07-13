@@ -94,8 +94,6 @@ let
 
     auto-pandoc-nvim = [ plenary-nvim ];
 
-    babelfish-nvim = [ nvim-treesitter ];
-
     cmp-git = [ nvim-cmp plenary-nvim ];
 
     cmp-npm = [ nvim-cmp plenary-nvim ];
