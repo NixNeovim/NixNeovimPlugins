@@ -208,7 +208,7 @@ stevearc/qf_helper.nvim
 svermeulen/vim-yoink
 svermeulen/vimpeccable
 tamago324/nlsp-settings.nvim
-tami5/lspsaga.nvim
+kkharji/lspsaga.nvim
 tamton-aquib/staline.nvim
 tanvirtin/monokai.nvim
 tanvirtin/vgit.nvim
