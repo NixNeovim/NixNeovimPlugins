@@ -13,6 +13,8 @@ let
   {
     alpha-nvim = true;
 
+    go-nvim = true;
+
     highlight-current-n-nvim = true;
 
     vacuumline-nvim = true;
