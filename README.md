@@ -228,6 +228,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [kdheepak/monochrome.nvim](https://github.com/kdheepak/monochrome.nvim) | 2021-07-14 | `monochrome-nvim` |
 | [kkharji/lspsaga.nvim](https://github.com/kkharji/lspsaga.nvim) | 2022-07-05 | `lspsaga-nvim` |
 | [klen/nvim-config-local](https://github.com/klen/nvim-config-local) | 2022-03-26 | `nvim-config-local` |
+| [kmonad/kmonad-vim](https://github.com/kmonad/kmonad-vim) | 2022-03-20 | `kmonad-vim` |
 | [konapun/vacuumline.nvim](https://github.com/konapun/vacuumline.nvim) | 2022-03-13 | `vacuumline-nvim` |
 | [nvim-orgmode/orgmode](https://github.com/nvim-orgmode/orgmode) | 2022-07-09 | `orgmode` |
 | [kvrohit/substrata.nvim](https://github.com/kvrohit/substrata.nvim) | 2022-06-21 | `substrata-nvim` |

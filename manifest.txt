@@ -124,6 +124,7 @@ kazhala/close-buffers.nvim
 kdheepak/monochrome.nvim
 kkharji/lspsaga.nvim
 klen/nvim-config-local
+kmonad/kmonad-vim
 konapun/vacuumline.nvim
 kristijanhusak/orgmode.nvim
 kvrohit/substrata.nvim
