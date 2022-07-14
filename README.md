@@ -119,7 +119,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [Everblush/everblush.vim](https://github.com/Everblush/everblush.vim) | 2022-07-12 | `everblush-vim` |
 | [mcauley-penney/tidy.nvim](https://github.com/mcauley-penney/tidy.nvim) | 2022-06-12 | `tidy-nvim` |
 | [Mofiqul/dracula.nvim](https://github.com/Mofiqul/dracula.nvim) | 2022-07-08 | `dracula-nvim` |
-| [Mofiqul/vscode.nvim](https://github.com/Mofiqul/vscode.nvim) | 2022-07-13 | `vscode-nvim` |
+| [Mofiqul/vscode.nvim](https://github.com/Mofiqul/vscode.nvim) | 2022-07-14 | `vscode-nvim` |
 | [MunifTanjim/nui.nvim](https://github.com/MunifTanjim/nui.nvim) | 2022-07-11 | `nui-nvim` |
 | [NFrid/due.nvim](https://github.com/NFrid/due.nvim) | 2022-04-15 | `due-nvim` |
 | [NTBBloodbath/cheovim](https://github.com/NTBBloodbath/cheovim) | 2021-08-25 | `cheovim` |
@@ -147,7 +147,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [adisen99/apprentice.nvim](https://github.com/adisen99/apprentice.nvim) | 2022-04-26 | `apprentice-nvim` |
 | [adisen99/codeschool.nvim](https://github.com/adisen99/codeschool.nvim) | 2022-04-26 | `codeschool-nvim` |
 | [akinsho/dependency-assist.nvim](https://github.com/akinsho/dependency-assist.nvim) | 2021-11-11 | `dependency-assist-nvim` |
-| [akinsho/flutter-tools.nvim](https://github.com/akinsho/flutter-tools.nvim) | 2022-07-11 | `flutter-tools-nvim` |
+| [akinsho/flutter-tools.nvim](https://github.com/akinsho/flutter-tools.nvim) | 2022-07-14 | `flutter-tools-nvim` |
 | [akinsho/toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim) | 2022-07-12 | `toggleterm-nvim` |
 | [alaviss/nim.nvim](https://github.com/alaviss/nim.nvim) | 2021-10-07 | `nim-nvim` |
 | [alec-gibson/nvim-tetris](https://github.com/alec-gibson/nvim-tetris) | 2021-06-28 | `nvim-tetris` |
@@ -245,7 +245,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [matbme/JABS.nvim](https://github.com/matbme/JABS.nvim) | 2022-07-06 | `JABS-nvim` |
 | [mcchrish/zenbones.nvim](https://github.com/mcchrish/zenbones.nvim) | 2022-07-10 | `zenbones-nvim` |
 | [mfussenegger/nvim-treehopper](https://github.com/mfussenegger/nvim-treehopper) | 2021-12-20 | `nvim-treehopper` |
-| [michaelb/sniprun](https://github.com/michaelb/sniprun) | 2022-06-18 | `sniprun` |
+| [michaelb/sniprun](https://github.com/michaelb/sniprun) | 2022-07-14 | `sniprun` |
 | [mizlan/iswap.nvim](https://github.com/mizlan/iswap.nvim) | 2022-06-30 | `iswap-nvim` |
 | [mnacamura/iron.nvim](https://github.com/mnacamura/iron.nvim) | 2021-12-19 | `iron-nvim-mnacamura` |
 | [mnacamura/nvim-srcerite](https://github.com/mnacamura/nvim-srcerite) | 2021-12-17 | `nvim-srcerite` |
@@ -283,7 +283,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [rafcamlet/nvim-luapad](https://github.com/rafcamlet/nvim-luapad) | 2022-07-09 | `nvim-luapad` |
 | [rafcamlet/tabline-framework.nvim](https://github.com/rafcamlet/tabline-framework.nvim) | 2022-03-09 | `tabline-framework-nvim` |
 | [raimon49/requirements.txt.vim](https://github.com/raimon49/requirements.txt.vim) | 2022-03-30 | `requirements-txt-vim` |
-| [ray-x/go.nvim](https://github.com/ray-x/go.nvim) | 2022-07-12 | `go-nvim` |
+| [ray-x/go.nvim](https://github.com/ray-x/go.nvim) | 2022-07-14 | `go-nvim` |
 | [ray-x/guihua.lua](https://github.com/ray-x/guihua.lua) | 2022-07-06 | `guihua-lua` |
 | [ray-x/navigator.lua](https://github.com/ray-x/navigator.lua) | 2022-07-12 | `navigator-lua` |
 | [renerocksai/telekasten.nvim](https://github.com/renerocksai/telekasten.nvim) | 2022-07-13 | `telekasten-nvim` |
@@ -291,7 +291,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [rktjmp/highlight-current-n.nvim](https://github.com/rktjmp/highlight-current-n.nvim) | 2022-04-21 | `highlight-current-n-nvim` |
 | [rktjmp/hotpot.nvim](https://github.com/rktjmp/hotpot.nvim) | 2022-07-13 | `hotpot-nvim` |
 | [rktjmp/paperplanes.nvim](https://github.com/rktjmp/paperplanes.nvim) | 2022-05-13 | `paperplanes-nvim` |
-| [rlane/pounce.nvim](https://github.com/rlane/pounce.nvim) | 2022-06-23 | `pounce-nvim` |
+| [rlane/pounce.nvim](https://github.com/rlane/pounce.nvim) | 2022-07-14 | `pounce-nvim` |
 | [rmehri01/onenord.nvim](https://github.com/rmehri01/onenord.nvim) | 2022-06-14 | `onenord-nvim` |
 | [rockerBOO/boo-colorscheme-nvim](https://github.com/rockerBOO/boo-colorscheme-nvim) | 2022-07-11 | `boo-colorscheme-nvim` |
 | [rose-pine/neovim](https://github.com/rose-pine/neovim) | 2022-07-08 | `rose-pine` |
@@ -308,12 +308,12 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [sindrets/winshift.nvim](https://github.com/sindrets/winshift.nvim) | 2022-06-29 | `winshift-nvim` |
 | [skanehira/christmas.vim](https://github.com/skanehira/christmas.vim) | 2021-12-24 | `christmas-vim` |
 | [startup-nvim/startup.nvim](https://github.com/startup-nvim/startup.nvim) | 2022-03-28 | `startup-nvim` |
-| [stevearc/dressing.nvim](https://github.com/stevearc/dressing.nvim) | 2022-06-08 | `dressing-nvim` |
+| [stevearc/dressing.nvim](https://github.com/stevearc/dressing.nvim) | 2022-07-14 | `dressing-nvim` |
 | [stevearc/gkeep.nvim](https://github.com/stevearc/gkeep.nvim) | 2022-06-02 | `gkeep-nvim` |
 | [stevearc/qf_helper.nvim](https://github.com/stevearc/qf_helper.nvim) | 2022-01-28 | `qf-helper-nvim` |
 | [svermeulen/vim-yoink](https://github.com/svermeulen/vim-yoink) | 2021-09-15 | `vim-yoink` |
 | [svermeulen/vimpeccable](https://github.com/svermeulen/vimpeccable) | 2021-12-28 | `vimpeccable` |
-| [tamago324/nlsp-settings.nvim](https://github.com/tamago324/nlsp-settings.nvim) | 2022-07-13 | `nlsp-settings-nvim` |
+| [tamago324/nlsp-settings.nvim](https://github.com/tamago324/nlsp-settings.nvim) | 2022-07-14 | `nlsp-settings-nvim` |
 | [tamton-aquib/staline.nvim](https://github.com/tamton-aquib/staline.nvim) | 2022-06-17 | `staline-nvim` |
 | [tanvirtin/monokai.nvim](https://github.com/tanvirtin/monokai.nvim) | 2022-07-10 | `monokai-nvim` |
 | [tanvirtin/vgit.nvim](https://github.com/tanvirtin/vgit.nvim) | 2022-05-29 | `vgit-nvim` |

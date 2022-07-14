@@ -220,10 +220,10 @@
   };
   vscode-nvim = buildVimPluginFrom2Nix {
     pname = "vscode-nvim";
-    version = "2022-07-13";
+    version = "2022-07-14";
     src = fetchurl {
-      url = "https://github.com/Mofiqul/vscode.nvim/archive/902b24c4fdb3dbd3cbd18a4cfebbbb7b6d2e93b7.tar.gz";
-      sha256 = "055hhjlf0yz1czyqi2lnqfz2fhcv3ybq8rmpd39q6npv4jbkk17f";
+      url = "https://github.com/Mofiqul/vscode.nvim/archive/4544cedcfb0a480355a12bf6ebd82fb32727f1d2.tar.gz";
+      sha256 = "1jfjgsfs04srd821z17g8w9ar9hyvkd20p58lnfbzrhk2xza3zmx";
     };
     meta = with lib; {
       description = "Neovim/Vim color scheme inspired by Dark+ and Light+ theme in Visual Studio Code";
@@ -577,10 +577,10 @@
   };
   flutter-tools-nvim = buildVimPluginFrom2Nix {
     pname = "flutter-tools-nvim";
-    version = "2022-07-11";
+    version = "2022-07-14";
     src = fetchurl {
-      url = "https://github.com/akinsho/flutter-tools.nvim/archive/37482ee4120e1ba5df434bf815881880d7fef78e.tar.gz";
-      sha256 = "0giadzaqysb2g2d8wrz1mgg0mppksk2dky6xsqwlay7snmnkba05";
+      url = "https://github.com/akinsho/flutter-tools.nvim/archive/8b0d82f1aa6d09cad74489d35d9fecfdc7fa45ec.tar.gz";
+      sha256 = "044y64vbvy4ppacyw16i78annjaqsjzqzdy6zrxc71kab8yz7y5w";
     };
     meta = with lib; {
       description = "Tools to help create flutter apps in neovim using the native lsp";
@@ -1830,10 +1830,10 @@
   };
   sniprun = buildVimPluginFrom2Nix {
     pname = "sniprun";
-    version = "2022-06-18";
+    version = "2022-07-14";
     src = fetchurl {
-      url = "https://github.com/michaelb/sniprun/archive/44acc11ada65d465f0831a9d7789ec5ed44a062a.tar.gz";
-      sha256 = "0xd0v4fys3abimclyv8b61dlxdnjwz2rx4w1ilyz6lw7g98bnifs";
+      url = "https://github.com/michaelb/sniprun/archive/54a98058b1830b1b4d48b445a47ec26f35c4cd43.tar.gz";
+      sha256 = "1xbyzmjfc4w0pkdy2f7k0y2pngcg6qcwcjwlb8mn21rmlxp28xhj";
     };
     meta = with lib; {
       description = "A neovim plugin to run lines/blocs of code (independently of the rest of the file), supporting multiples languages";
@@ -2318,10 +2318,10 @@
   };
   go-nvim = buildVimPluginFrom2Nix {
     pname = "go-nvim";
-    version = "2022-07-12";
+    version = "2022-07-14";
     src = fetchurl {
-      url = "https://github.com/ray-x/go.nvim/archive/0e8cc90e305f62db07e3e9caa41a8b6311a9e725.tar.gz";
-      sha256 = "1wgkrck8ivxa2na1i85f5m5vf32x38fchklyy8hq4rdys93cvgjl";
+      url = "https://github.com/ray-x/go.nvim/archive/dffe933fd1e3ca5cb6d5f453a12ba6c3b3048ebb.tar.gz";
+      sha256 = "195fhcjhsj8dahxzv5cig3zvk67wvin1vzbqggqcgf1n7k4cy39w";
     };
     meta = with lib; {
       description = "Modern Go plugin for Neovim, based on gopls, treesitter AST, Dap and a variety of go tools";
@@ -2422,10 +2422,10 @@
   };
   pounce-nvim = buildVimPluginFrom2Nix {
     pname = "pounce-nvim";
-    version = "2022-06-23";
+    version = "2022-07-14";
     src = fetchurl {
-      url = "https://github.com/rlane/pounce.nvim/archive/fab6ab7b80f6c2716fc5b0afca1a77408a1d7675.tar.gz";
-      sha256 = "1drm4asrh7gqmypq66ihlrvm130qbadbaza7g9k3pi85xlq5gwsw";
+      url = "https://github.com/rlane/pounce.nvim/archive/c2aeae37a3109315fb1c6e9c492bca805e480dc3.tar.gz";
+      sha256 = "0m40i8fymp649i8k1ylmyhvxk3sj29dbxczlk3z1k3im5dvz0szx";
     };
     meta = with lib; {
       description = "Incremental fuzzy search motion plugin for Neovim";
@@ -2638,10 +2638,10 @@
   };
   dressing-nvim = buildVimPluginFrom2Nix {
     pname = "dressing-nvim";
-    version = "2022-06-08";
+    version = "2022-07-14";
     src = fetchurl {
-      url = "https://github.com/stevearc/dressing.nvim/archive/af179837e1cdddfb164f0296883951b2255c46d2.tar.gz";
-      sha256 = "130flny5jhkvms198vsfy5d6rp96slb2b37ylfh3fg8wa0giqs6h";
+      url = "https://github.com/stevearc/dressing.nvim/archive/fb4637995e76d298ad0607dfe78f65214676ced6.tar.gz";
+      sha256 = "0j5sc6ba2pdnklqxsx7xgg0zamp9g1igjwpzzk3g5x6b2ipifs2f";
     };
     meta = with lib; {
       description = "Neovim plugin to improve the default vim.ui interfaces";
@@ -2703,10 +2703,10 @@
   };
   nlsp-settings-nvim = buildVimPluginFrom2Nix {
     pname = "nlsp-settings-nvim";
-    version = "2022-07-13";
+    version = "2022-07-14";
     src = fetchurl {
-      url = "https://github.com/tamago324/nlsp-settings.nvim/archive/87e8755151ad2e2c45238f62bb05421200d9e928.tar.gz";
-      sha256 = "1jhmdg7glw61qhm2f96bm0cyyfy5al2sqc4zvr7vbfm7qsqfkj2n";
+      url = "https://github.com/tamago324/nlsp-settings.nvim/archive/00e1b7576729c6e4382e33be299d6389c353452e.tar.gz";
+      sha256 = "0y5scr5zaxgbl577hms3asmwiz3hmgslrrqgr6qi4kns4y16smhv";
     };
     meta = with lib; {
       description = "A plugin for setting Neovim LSP with JSON or YAML files";
