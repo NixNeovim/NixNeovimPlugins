@@ -224,7 +224,6 @@ jubnzv/mdeval.nvim
 jubnzv/virtual-types.nvim
 jvgrootveld/telescope-zoxide
 kaiuri/nvim-juliana
-kaiuri/nvim-termcolors
 kana/vim-textobj-indent
 karb94/neoscroll.nvim
 kazhala/close-buffers.nvim
