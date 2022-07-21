@@ -17,6 +17,8 @@ let
 
     highlight-current-n-nvim = true;
 
+    incline-nvim = true;
+
     vacuumline-nvim = true;
 
     vgit-nvim = true;
