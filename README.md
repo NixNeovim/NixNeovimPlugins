@@ -128,7 +128,6 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [LionC/nest.nvim](https://github.com/LionC/nest.nvim) | 2021-09-26 | `nest-nvim` |
 | [LoricAndre/OneTerm.nvim](https://github.com/LoricAndre/OneTerm.nvim) | 2022-03-14 | `OneTerm-nvim` |
 | [Everblush/everblush.vim](https://github.com/Everblush/everblush.vim) | 2022-07-12 | `everblush-vim` |
-| [mcauley-penney/tidy.nvim](https://github.com/mcauley-penney/tidy.nvim) | 2022-07-18 | `tidy-nvim` |
 | [Mofiqul/dracula.nvim](https://github.com/Mofiqul/dracula.nvim) | 2022-07-08 | `dracula-nvim` |
 | [Mofiqul/vscode.nvim](https://github.com/Mofiqul/vscode.nvim) | 2022-07-17 | `vscode-nvim` |
 | [MunifTanjim/nui.nvim](https://github.com/MunifTanjim/nui.nvim) | 2022-07-17 | `nui-nvim` |
@@ -349,7 +348,6 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [koenverburg/peepsight.nvim](https://github.com/koenverburg/peepsight.nvim) | 2022-06-07 | `peepsight-nvim` |
 | [konapun/vacuumline.nvim](https://github.com/konapun/vacuumline.nvim) | 2022-03-13 | `vacuumline-nvim` |
 | [kosayoda/nvim-lightbulb](https://github.com/kosayoda/nvim-lightbulb) | 2022-06-08 | `nvim-lightbulb` |
-| [nvim-orgmode/orgmode](https://github.com/nvim-orgmode/orgmode) | 2022-07-09 | `orgmode` |
 | [kvrohit/rasmus.nvim](https://github.com/kvrohit/rasmus.nvim) | 2022-06-21 | `rasmus-nvim` |
 | [kvrohit/substrata.nvim](https://github.com/kvrohit/substrata.nvim) | 2022-06-21 | `substrata-nvim` |
 | [kyazdani42/blue-moon](https://github.com/kyazdani42/blue-moon) | 2022-07-18 | `blue-moon` |
@@ -510,7 +508,6 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [seandewar/killersheep.nvim](https://github.com/seandewar/killersheep.nvim) | 2022-05-11 | `killersheep-nvim` |
 | [seandewar/nvimesweeper](https://github.com/seandewar/nvimesweeper) | 2022-04-26 | `nvimesweeper` |
 | [sgur/vim-textobj-parameter](https://github.com/sgur/vim-textobj-parameter) | 2017-05-16 | `vim-textobj-parameter` |
-| [Abstract-IDE/penvim](https://github.com/Abstract-IDE/penvim) | 2022-07-18 | `penvim` |
 | [Abstract-IDE/Abstract-cs](https://github.com/Abstract-IDE/Abstract-cs) | 2022-02-16 | `Abstract-cs` |
 | [shaunsingh/nord.nvim](https://github.com/shaunsingh/nord.nvim) | 2022-07-18 | `nord-nvim` |
 | [simrat39/rust-tools.nvim](https://github.com/simrat39/rust-tools.nvim) | 2022-05-18 | `rust-tools-nvim` |
@@ -560,7 +557,6 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [tzachar/cmp-tabnine](https://github.com/tzachar/cmp-tabnine) | 2022-07-17 | `cmp-tabnine` |
 | [udayvir-singh/hibiscus.nvim](https://github.com/udayvir-singh/hibiscus.nvim) | 2022-06-03 | `hibiscus-nvim` |
 | [udayvir-singh/tangerine.nvim](https://github.com/udayvir-singh/tangerine.nvim) | 2022-07-04 | `tangerine-nvim` |
-| [nvim-neorg/neorg](https://github.com/nvim-neorg/neorg) | 2022-07-18 | `neorg` |
 | [vigoux/complementree.nvim](https://github.com/vigoux/complementree.nvim) | 2022-07-05 | `complementree-nvim` |
 | [vijaymarupudi/nvim-fzf](https://github.com/vijaymarupudi/nvim-fzf) | 2022-07-12 | `nvim-fzf` |
 | [vuki656/package-info.nvim](https://github.com/vuki656/package-info.nvim) | 2022-06-17 | `package-info-nvim` |

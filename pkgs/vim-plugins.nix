@@ -333,18 +333,6 @@
       license = with licenses; [ mit ];
     };
   };
-  tidy-nvim = buildVimPluginFrom2Nix {
-    pname = "tidy-nvim";
-    version = "2022-07-18";
-    src = fetchurl {
-      url = "https://github.com/mcauley-penney/tidy.nvim/archive/30bd92bb5174070c1d76dec78a33f61164a90d25.tar.gz";
-      sha256 = "0bhhkaxp8nxh8x18cisj63zc4wclafbl56bia8bknjq2qr1ifrax";
-    };
-    meta = with lib; {
-      description = "A small Neovim plugin to remove trailing whitespace and empty lines at end of file on every save";
-      homepage = "https://github.com/mcauley-penney/tidy.nvim";
-    };
-  };
   dracula-nvim = buildVimPluginFrom2Nix {
     pname = "dracula-nvim";
     version = "2022-07-08";
@@ -3157,19 +3145,6 @@
       license = with licenses; [ mit ];
     };
   };
-  orgmode = buildVimPluginFrom2Nix {
-    pname = "orgmode";
-    version = "2022-07-09";
-    src = fetchurl {
-      url = "https://github.com/nvim-orgmode/orgmode/archive/8cc6fa4599aeae171d3051570a10c94269acf05f.tar.gz";
-      sha256 = "0x9vdb837j922nk7jsc0z6fzyhs8f4k2mvrm0gap5zxlh15yfihp";
-    };
-    meta = with lib; {
-      description = "Orgmode clone written in Lua for Neovim 0.7+";
-      homepage = "https://github.com/nvim-orgmode/orgmode";
-      license = with licenses; [ mit ];
-    };
-  };
   rasmus-nvim = buildVimPluginFrom2Nix {
     pname = "rasmus-nvim";
     version = "2022-06-21";
@@ -5213,19 +5188,6 @@
       homepage = "https://github.com/sgur/vim-textobj-parameter";
     };
   };
-  penvim = buildVimPluginFrom2Nix {
-    pname = "penvim";
-    version = "2022-07-18";
-    src = fetchurl {
-      url = "https://github.com/Abstract-IDE/penvim/archive/80d9c8f20fe7eb2d6da84be5628a44d6372486f1.tar.gz";
-      sha256 = "0rdffidvqyqrfmyfqjy7030ma767r7r7qffmba2qzfjcc8b189an";
-    };
-    meta = with lib; {
-      description = "Project's root directory and documents Indentation detector with project based config loader";
-      homepage = "https://github.com/Abstract-IDE/penvim";
-      license = with licenses; [ mit ];
-    };
-  };
   Abstract-cs = buildVimPluginFrom2Nix {
     pname = "Abstract-cs";
     version = "2022-02-16";
@@ -5854,19 +5816,6 @@
       description = "🍊 Sweet Fennel integration for Neovim";
       homepage = "https://github.com/udayvir-singh/tangerine.nvim";
       license = with licenses; [ mit ];
-    };
-  };
-  neorg = buildVimPluginFrom2Nix {
-    pname = "neorg";
-    version = "2022-07-18";
-    src = fetchurl {
-      url = "https://github.com/nvim-neorg/neorg/archive/c529e6dd38dc49fdc08f33b80f684b5ed974867c.tar.gz";
-      sha256 = "19yydfsg04gvfm867cd9n5585l3mym700dp5bmm57cpaxbrjdxvh";
-    };
-    meta = with lib; {
-      description = "Modernity meets insane extensibility. The future of organizing your life in Neovim";
-      homepage = "https://github.com/nvim-neorg/neorg";
-      license = with licenses; [ gpl3Only ];
     };
   };
   complementree-nvim = buildVimPluginFrom2Nix {
