@@ -19,6 +19,8 @@ let
 
     incline-nvim = true;
 
+    snippet-converter-nvim = true;
+
     vacuumline-nvim = true;
 
     vgit-nvim = true;
