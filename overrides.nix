@@ -25,6 +25,8 @@ let
 
     vgit-nvim = true;
 
+    unruly-worker = true;
+
     zen-mode-nvim = true;
   };
 
