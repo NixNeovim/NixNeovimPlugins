@@ -24,7 +24,6 @@ LinArcX/telescope-command-palette.nvim
 LionC/nest.nvim
 LoricAndre/OneTerm.nvim
 Mangeshrex/uwu.vim
-McAuleyPenney/tidy.nvim
 Mofiqul/dracula.nvim
 Mofiqul/vscode.nvim
 MunifTanjim/nui.nvim
@@ -34,7 +33,6 @@ NTBBloodbath/cheovim
 NTBBloodbath/doom-one.nvim
 NTBBloodbath/galaxyline.nvim
 NTBBloodbath/rest.nvim
-NarutoXY/themer.lua
 Olical/aniseed
 PHSix/nvim-hybrid
 Pocco81/AbbrevMan.nvim
@@ -226,7 +224,6 @@ jubnzv/mdeval.nvim
 jubnzv/virtual-types.nvim
 jvgrootveld/telescope-zoxide
 kaiuri/nvim-juliana
-kaiuri/nvim-termcolors
 kana/vim-textobj-indent
 karb94/neoscroll.nvim
 kazhala/close-buffers.nvim
@@ -245,7 +242,6 @@ kmonad/kmonad-vim
 koenverburg/peepsight.nvim
 konapun/vacuumline.nvim
 kosayoda/nvim-lightbulb
-kristijanhusak/orgmode.nvim
 kvrohit/rasmus.nvim
 kvrohit/substrata.nvim
 kyazdani42/blue-moon
@@ -406,7 +402,6 @@ scalameta/nvim-metals
 seandewar/killersheep.nvim
 seandewar/nvimesweeper
 sgur/vim-textobj-parameter
-shaeinst/penvim
 shaeinst/roshnivim-cs
 shaunsingh/nord.nvim
 simrat39/rust-tools.nvim
@@ -456,7 +451,6 @@ tzachar/cmp-fuzzy-path
 tzachar/cmp-tabnine
 udayvir-singh/hibiscus.nvim
 udayvir-singh/tangerine.nvim
-vhyrro/neorg
 vigoux/complementree.nvim
 vijaymarupudi/nvim-fzf
 vuki656/package-info.nvim
