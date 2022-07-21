@@ -137,7 +137,6 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [NTBBloodbath/doom-one.nvim](https://github.com/NTBBloodbath/doom-one.nvim) | 2022-06-06 | `doom-one-nvim` |
 | [NTBBloodbath/galaxyline.nvim](https://github.com/NTBBloodbath/galaxyline.nvim) | 2022-01-21 | `galaxyline-nvim` |
 | [NTBBloodbath/rest.nvim](https://github.com/NTBBloodbath/rest.nvim) | 2022-05-13 | `rest-nvim` |
-| [ThemerCorp/themer.lua](https://github.com/ThemerCorp/themer.lua) | 2022-07-19 | `themer-lua` |
 | [Olical/aniseed](https://github.com/Olical/aniseed) | 2022-05-14 | `aniseed` |
 | [PHSix/nvim-hybrid](https://github.com/PHSix/nvim-hybrid) | 2022-01-22 | `nvim-hybrid` |
 | [Pocco81/AbbrevMan.nvim](https://github.com/Pocco81/AbbrevMan.nvim) | 2021-07-15 | `AbbrevMan-nvim` |

@@ -450,19 +450,6 @@
       license = with licenses; [ mit ];
     };
   };
-  themer-lua = buildVimPluginFrom2Nix {
-    pname = "themer-lua";
-    version = "2022-07-19";
-    src = fetchurl {
-      url = "https://github.com/ThemerCorp/themer.lua/archive/e08ef25515e2131e96a00902ee36c89446b25815.tar.gz";
-      sha256 = "0dhmlzgqwbf5zsj325w1hq4g9g8j5r9jsrkc7fl62m4fy5mswlqm";
-    };
-    meta = with lib; {
-      description = "A simple, minimal highlighter plugin for neovim";
-      homepage = "https://github.com/ThemerCorp/themer.lua";
-      license = with licenses; [ gpl3Only ];
-    };
-  };
   aniseed = buildVimPluginFrom2Nix {
     pname = "aniseed";
     version = "2022-05-14";

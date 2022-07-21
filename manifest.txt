@@ -33,7 +33,6 @@ NTBBloodbath/cheovim
 NTBBloodbath/doom-one.nvim
 NTBBloodbath/galaxyline.nvim
 NTBBloodbath/rest.nvim
-NarutoXY/themer.lua
 Olical/aniseed
 PHSix/nvim-hybrid
 Pocco81/AbbrevMan.nvim
