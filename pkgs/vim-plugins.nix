@@ -245,10 +245,10 @@
   };
   lean-nvim = buildVimPluginFrom2Nix {
     pname = "lean-nvim";
-    version = "2022-07-20";
+    version = "2022-07-21";
     src = fetchurl {
-      url = "https://github.com/Julian/lean.nvim/archive/64f5388cddfdce27ab1b3bc5fa177e681fd82174.tar.gz";
-      sha256 = "1pjqld6wdx14vsc8022rh15vml04x3zf37hgl7kwwxymza5cagmk";
+      url = "https://github.com/Julian/lean.nvim/archive/60ac136bf74ddf39fb19a1b0cfd261dfced11b1d.tar.gz";
+      sha256 = "005w4pyk6i2wslwx2s6pgp7y74v3san4n7zqs87wn3lm9szjzp17";
     };
     meta = with lib; {
       description = "neovim support for the Lean theorem prover";
@@ -3523,10 +3523,10 @@
   };
   tidy-nvim = buildVimPluginFrom2Nix {
     pname = "tidy-nvim";
-    version = "2022-07-18";
+    version = "2022-07-21";
     src = fetchurl {
-      url = "https://github.com/mcauley-penney/tidy.nvim/archive/30bd92bb5174070c1d76dec78a33f61164a90d25.tar.gz";
-      sha256 = "0bhhkaxp8nxh8x18cisj63zc4wclafbl56bia8bknjq2qr1ifrax";
+      url = "https://github.com/mcauley-penney/tidy.nvim/archive/4dcb51102eefa3485957add8d8c8cfa4953718d1.tar.gz";
+      sha256 = "1nnq0c9zwkglf8ynjic09115chinn7jzaxjk6hxfam9xk8061yjh";
     };
     meta = with lib; {
       description = "A small Neovim plugin to remove trailing whitespace and empty lines at end of file on every save";
@@ -4036,10 +4036,10 @@
   };
   FTerm-nvim = buildVimPluginFrom2Nix {
     pname = "FTerm-nvim";
-    version = "2022-07-14";
+    version = "2022-07-21";
     src = fetchurl {
-      url = "https://github.com/numToStr/FTerm.nvim/archive/a798d1c0a54ff35257cad17b448c783028b8437b.tar.gz";
-      sha256 = "0d1p6x7janjjvkaf3kplclcvfj2yngdgsk475k711mzylizrr4v8";
+      url = "https://github.com/numToStr/FTerm.nvim/archive/efd10656724a269e21ba68d65e2b058a4e606424.tar.gz";
+      sha256 = "04z6yxm1vlbaayrpp5vwhb03dbkyzf7wa08n7dkk70yi3ddbvc4r";
     };
     meta = with lib; {
       description = ":fire: No-nonsense floating terminal plugin for neovim :fire:";
@@ -4140,10 +4140,10 @@
   };
   neorg = buildVimPluginFrom2Nix {
     pname = "neorg";
-    version = "2022-07-20";
+    version = "2022-07-21";
     src = fetchurl {
-      url = "https://github.com/nvim-neorg/neorg/archive/432530a8a7a73f6fa14ea1adfbdc322f4e439da4.tar.gz";
-      sha256 = "1w4i792g3a30zix74qm9gwcizd9qvf0gw6snc6l0whncq217f2r0";
+      url = "https://github.com/nvim-neorg/neorg/archive/1b640a92e37d7e0a61921ab2db164ac75c70824c.tar.gz";
+      sha256 = "0vj1xq4pvrinjdrdglzz63ml82s9jin6r1361kca879x1v1fvagn";
     };
     meta = with lib; {
       description = "Modernity meets insane extensibility. The future of organizing your life in Neovim";

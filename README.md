@@ -121,7 +121,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [Iron-E/nvim-cartographer](https://github.com/Iron-E/nvim-cartographer) | 2022-04-18 | `nvim-cartographer` |
 | [Iron-E/nvim-highlite](https://github.com/Iron-E/nvim-highlite) | 2022-07-19 | `nvim-highlite` |
 | [JoosepAlviste/nvim-ts-context-commentstring](https://github.com/JoosepAlviste/nvim-ts-context-commentstring) | 2022-04-07 | `nvim-ts-context-commentstring` |
-| [Julian/lean.nvim](https://github.com/Julian/lean.nvim) | 2022-07-20 | `lean-nvim` |
+| [Julian/lean.nvim](https://github.com/Julian/lean.nvim) | 2022-07-21 | `lean-nvim` |
 | [junnplus/nvim-lsp-setup](https://github.com/junnplus/nvim-lsp-setup) | 2022-07-13 | `nvim-lsp-setup` |
 | [L3MON4D3/LuaSnip](https://github.com/L3MON4D3/LuaSnip) | 2022-07-19 | `LuaSnip` |
 | [LinArcX/telescope-command-palette.nvim](https://github.com/LinArcX/telescope-command-palette.nvim) | 2022-01-31 | `telescope-command-palette-nvim` |
@@ -378,7 +378,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [matbme/JABS.nvim](https://github.com/matbme/JABS.nvim) | 2022-07-06 | `JABS-nvim` |
 | [max-0406/autoclose.nvim](https://github.com/max-0406/autoclose.nvim) | 2022-05-03 | `autoclose-nvim` |
 | [max397574/better-escape.nvim](https://github.com/max397574/better-escape.nvim) | 2022-03-28 | `better-escape-nvim` |
-| [mcauley-penney/tidy.nvim](https://github.com/mcauley-penney/tidy.nvim) | 2022-07-18 | `tidy-nvim` |
+| [mcauley-penney/tidy.nvim](https://github.com/mcauley-penney/tidy.nvim) | 2022-07-21 | `tidy-nvim` |
 | [mcchrish/zenbones.nvim](https://github.com/mcchrish/zenbones.nvim) | 2022-07-10 | `zenbones-nvim` |
 | [meliora-theme/neovim](https://github.com/meliora-theme/neovim) | 2022-07-17 | `neovim` |
 | [metalelf0/jellybeans-nvim](https://github.com/metalelf0/jellybeans-nvim) | 2022-03-21 | `jellybeans-nvim` |
@@ -418,7 +418,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [notomo/gesture.nvim](https://github.com/notomo/gesture.nvim) | 2022-05-26 | `gesture-nvim` |
 | [novakne/kosmikoa.nvim](https://github.com/novakne/kosmikoa.nvim) | 2021-11-19 | `kosmikoa-nvim` |
 | [numToStr/Comment.nvim](https://github.com/numToStr/Comment.nvim) | 2022-07-18 | `Comment-nvim` |
-| [numToStr/FTerm.nvim](https://github.com/numToStr/FTerm.nvim) | 2022-07-14 | `FTerm-nvim` |
+| [numToStr/FTerm.nvim](https://github.com/numToStr/FTerm.nvim) | 2022-07-21 | `FTerm-nvim` |
 | [numToStr/Navigator.nvim](https://github.com/numToStr/Navigator.nvim) | 2022-04-29 | `Navigator-nvim` |
 | [nvim-lua/lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim) | 2021-12-08 | `lsp-status-nvim` |
 | [nvim-lua/lsp_extensions.nvim](https://github.com/nvim-lua/lsp_extensions.nvim) | 2022-07-07 | `lsp-extensions-nvim` |
@@ -426,7 +426,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [nvim-lua/popup.nvim](https://github.com/nvim-lua/popup.nvim) | 2021-11-18 | `popup-nvim` |
 | [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) | 2022-07-20 | `lualine-nvim` |
 | [nvim-neo-tree/neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) | 2022-07-19 | `neo-tree-nvim` |
-| [nvim-neorg/neorg](https://github.com/nvim-neorg/neorg) | 2022-07-20 | `neorg` |
+| [nvim-neorg/neorg](https://github.com/nvim-neorg/neorg) | 2022-07-21 | `neorg` |
 | [nvim-neotest/neotest](https://github.com/nvim-neotest/neotest) | 2022-07-21 | `neotest` |
 | [nvim-orgmode/orgmode](https://github.com/nvim-orgmode/orgmode) | 2022-07-09 | `orgmode` |
 | [nvim-telescope/telescope-bibtex.nvim](https://github.com/nvim-telescope/telescope-bibtex.nvim) | 2022-05-01 | `telescope-bibtex-nvim` |
