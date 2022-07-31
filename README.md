@@ -292,6 +292,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [haringsrob/nvim_context_vt](https://github.com/haringsrob/nvim_context_vt) | 2022-04-19 | `nvim-context-vt` |
 | [henriquehbr/ataraxis.lua](https://github.com/henriquehbr/ataraxis.lua) | 2022-07-03 | `ataraxis-lua` |
 | [henriquehbr/nvim-startup.lua](https://github.com/henriquehbr/nvim-startup.lua) | 2022-07-03 | `nvim-startup-lua` |
+| [hkupty/iron.nvim](https://github.com/hkupty/iron.nvim) | 2022-07-11 | `iron-nvim` |
 | [hkupty/nvimux](https://github.com/hkupty/nvimux) | 2022-05-02 | `nvimux` |
 | [houtsnip/vim-emacscommandline](https://github.com/houtsnip/vim-emacscommandline) | 2017-11-24 | `vim-emacscommandline` |
 | [hrsh7th/cmp-buffer](https://github.com/hrsh7th/cmp-buffer) | 2022-06-15 | `cmp-buffer` |

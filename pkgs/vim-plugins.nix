@@ -2423,6 +2423,19 @@
       license = with licenses; [ mit ];
     };
   };
+  iron-nvim = buildVimPluginFrom2Nix {
+    pname = "iron-nvim";
+    version = "2022-07-11";
+    src = fetchurl {
+      url = "https://github.com/hkupty/iron.nvim/archive/8fe71532ff25020970b0d216c22525f92097d573.tar.gz";
+      sha256 = "0k6qyqd8x47nxq1j1jlp5drg6afghgvfsrjbs08glxgwnclil35n";
+    };
+    meta = with lib; {
+      description = "Interactive Repl Over Neovim";
+      homepage = "https://github.com/hkupty/iron.nvim";
+      license = with licenses; [ bsd3 ];
+    };
+  };
   nvimux = buildVimPluginFrom2Nix {
     pname = "nvimux";
     version = "2022-05-02";
