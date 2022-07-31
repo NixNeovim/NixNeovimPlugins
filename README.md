@@ -534,6 +534,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [sunjon/Shade.nvim](https://github.com/sunjon/Shade.nvim) | 2022-02-01 | `Shade-nvim` |
 | [svermeulen/vim-yoink](https://github.com/svermeulen/vim-yoink) | 2021-09-15 | `vim-yoink` |
 | [svermeulen/vimpeccable](https://github.com/svermeulen/vimpeccable) | 2021-12-28 | `vimpeccable` |
+| [sychen52/smart-term-esc.nvim](https://github.com/sychen52/smart-term-esc.nvim) | 2021-09-27 | `smart-term-esc-nvim` |
 | [tamago324/lir.nvim](https://github.com/tamago324/lir.nvim) | 2022-05-17 | `lir-nvim` |
 | [tamago324/nlsp-settings.nvim](https://github.com/tamago324/nlsp-settings.nvim) | 2022-07-31 | `nlsp-settings-nvim` |
 | [tamton-aquib/staline.nvim](https://github.com/tamton-aquib/staline.nvim) | 2022-06-17 | `staline-nvim` |

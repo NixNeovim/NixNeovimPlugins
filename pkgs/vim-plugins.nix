@@ -5521,6 +5521,18 @@
       license = with licenses; [ mit ];
     };
   };
+  smart-term-esc-nvim = buildVimPluginFrom2Nix {
+    pname = "smart-term-esc-nvim";
+    version = "2021-09-27";
+    src = fetchurl {
+      url = "https://github.com/sychen52/smart-term-esc.nvim/archive/168cd1a9e4649038e356b293005e5714e6e9f190.tar.gz";
+      sha256 = "1lldf028a9a3a721avrwzai60msiaib30a18rsa98wa5fnvsi60j";
+    };
+    meta = with lib; {
+      description = "Escape terminal \"smartly\" with <Esc> in Neovim";
+      homepage = "https://github.com/sychen52/smart-term-esc.nvim";
+    };
+  };
   lir-nvim = buildVimPluginFrom2Nix {
     pname = "lir-nvim";
     version = "2022-05-17";

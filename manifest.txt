@@ -430,6 +430,7 @@ sudormrfbin/cheatsheet.nvim
 sunjon/Shade.nvim
 svermeulen/vim-yoink
 svermeulen/vimpeccable
+sychen52/smart-term-esc.nvim
 tamago324/lir.nvim
 tamago324/nlsp-settings.nvim
 tamton-aquib/staline.nvim
