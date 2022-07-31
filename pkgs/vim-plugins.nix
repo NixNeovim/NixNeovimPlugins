@@ -818,10 +818,10 @@
   };
   neogit = buildVimPluginFrom2Nix {
     pname = "neogit";
-    version = "2022-07-21";
+    version = "2022-07-31";
     src = fetchurl {
-      url = "https://github.com/TimUntersberger/neogit/archive/06e986fab0d0c31ba981b9f21c712dc72b3d237f.tar.gz";
-      sha256 = "1n424951p6mm71frkm5lpx4dmyripdglc2p2zjx7998kxr9y9xlh";
+      url = "https://github.com/TimUntersberger/neogit/archive/d0731367918c840a850d55ce03398c6ce87a9eb7.tar.gz";
+      sha256 = "02rwrmwdagjrwg2mlqak455z5kig0ji3bf08a6gcw0danj6vbwqm";
     };
     meta = with lib; {
       description = "magit for neovim";

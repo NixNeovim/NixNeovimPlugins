@@ -166,7 +166,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [ThePrimeagen/vim-apm](https://github.com/ThePrimeagen/vim-apm) | 2020-09-28 | `vim-apm` |
 | [ThePrimeagen/vim-be-good](https://github.com/ThePrimeagen/vim-be-good) | 2021-03-16 | `vim-be-good` |
 | [TimUntersberger/neofs](https://github.com/TimUntersberger/neofs) | 2021-11-02 | `neofs` |
-| [TimUntersberger/neogit](https://github.com/TimUntersberger/neogit) | 2022-07-21 | `neogit` |
+| [TimUntersberger/neogit](https://github.com/TimUntersberger/neogit) | 2022-07-31 | `neogit` |
 | [Weissle/persistent-breakpoints.nvim](https://github.com/Weissle/persistent-breakpoints.nvim) | 2022-07-20 | `persistent-breakpoints-nvim` |
 | [Xuyuanp/scrollbar.nvim](https://github.com/Xuyuanp/scrollbar.nvim) | 2022-06-16 | `scrollbar-nvim` |
 | [Xuyuanp/yanil](https://github.com/Xuyuanp/yanil) | 2022-03-28 | `yanil` |
