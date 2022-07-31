@@ -188,6 +188,7 @@ h-hg/fcitx.nvim
 haringsrob/nvim_context_vt
 henriquehbr/ataraxis.lua
 henriquehbr/nvim-startup.lua
+hkupty/iron.nvim
 hkupty/nvimux
 houtsnip/vim-emacscommandline
 hrsh7th/cmp-buffer
