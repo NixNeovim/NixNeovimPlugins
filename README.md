@@ -423,7 +423,6 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [noib3/nvim-cokeline](https://github.com/noib3/nvim-cokeline) | 2022-06-21 | `nvim-cokeline` |
 | [noib3/nvim-compleet](https://github.com/noib3/nvim-compleet) | 2022-07-26 | `nvim-compleet` |
 | [norcalli/nvim-base16.lua](https://github.com/norcalli/nvim-base16.lua) | 2019-10-16 | `nvim-base16-lua` |
-| [norcalli/nvim-colorizer.lua](https://github.com/norcalli/nvim-colorizer.lua) | 2020-06-11 | `nvim-colorizer-lua` |
 | [norcalli/nvim-terminal.lua](https://github.com/norcalli/nvim-terminal.lua) | 2019-10-17 | `nvim-terminal-lua` |
 | [norcalli/snippets.nvim](https://github.com/norcalli/snippets.nvim) | 2020-09-09 | `snippets-nvim` |
 | [notomo/cmdbuf.nvim](https://github.com/notomo/cmdbuf.nvim) | 2022-07-31 | `cmdbuf-nvim` |

@@ -4096,18 +4096,6 @@
       homepage = "https://github.com/norcalli/nvim-base16.lua";
     };
   };
-  nvim-colorizer-lua = buildVimPluginFrom2Nix {
-    pname = "nvim-colorizer-lua";
-    version = "2020-06-11";
-    src = fetchurl {
-      url = "https://github.com/norcalli/nvim-colorizer.lua/archive/36c610a9717cc9ec426a07c8e6bf3b3abcb139d6.tar.gz";
-      sha256 = "10s2ld62ckqq1gvkf9ifci5mx8xxs92axhn47nbdfa86al1ywcgp";
-    };
-    meta = with lib; {
-      description = "The fastest Neovim colorizer";
-      homepage = "https://github.com/norcalli/nvim-colorizer.lua";
-    };
-  };
   nvim-terminal-lua = buildVimPluginFrom2Nix {
     pname = "nvim-terminal-lua";
     version = "2019-10-17";
