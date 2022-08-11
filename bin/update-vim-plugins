@@ -73,6 +73,16 @@
     (pipe:close)
     sha256))
 
+(fn nix.prefetch-git [url]
+  "Prefetch git url and get its sha256 hash."
+  (let [cmd (string.format "nix-prefetch-git %s 2>/dev/null" url)
+        pipe (assert (io.popen cmd))
+        sha256 (-> (assert (pipe:read :*all))
+                   (cjson.decode)
+                   (. :sha256))]
+    (pipe:close)
+    sha256))
+
 ;;; ------------------------------------------------------------------------------------------------
 ;;; Nixpkgs helpers
 
@@ -235,6 +245,68 @@
                  sha))
 
 ;;; ------------------------------------------------------------------------------------------------
+;;; Sourcehut helpers
+
+(local sourcehut {:token-missing-warned false})
+
+(fn sourcehut.get-token []
+  "Get access token from environment variable SOURCEHUT_TOKEN.  Warn only once if not available."
+  (or (os.getenv "SOURCEHUT_TOKEN")
+      (when (not sourcehut.token-missing-warned)
+        (io.stderr:write "SOURCEHUT_TOKEN missing...")
+        (set sourcehut.token-missing-warned true)
+        nil)))
+
+(fn sourcehut.get [query token]
+  "Get contents by query using sourcehut REST API."
+  (let [token (or token (sourcehut.get-token))
+        request-headers {:content-type "application/json"
+                         :authorization (when token (string.format "token %s" token))}
+        (body headers) (http.get (string.format "https://git.sr.ht/api/%s" query)
+                                 request-headers)]
+    (values (cjson.decode body) headers)))
+
+;;; ------------------------------------------------------------------------------------------------
+;;; Sourcehut repository
+
+(set sourcehut.repo {:type "sourcehut"})
+
+(set sourcehut.repo.__index sourcehut.repo)
+
+(fn sourcehut.repo.new [full-name-or-username name]
+  "Create object representing sourcehut repo."
+  (let [info (let [(username name) (if (not name)
+                                       (unpack (string.split full-name-or-username "/"))
+                                       (values full-name-or-username name))]
+               (sourcehut.get (string.format "~%s/repos/%s" username name)))
+        obj {:full-name (string.format "%s/%s" info.owner.name info.name)
+             :owner info.owner.name
+             :name info.name
+             :default-branch nil  ; default branch cannot be identified by REST API.
+             :description (if (not info.description)
+                              info.description
+                              "No description")
+             :fork? nil
+             :homepage (string.format "https://sr.ht/%s/%s/" info.owner.canonical_name info.name)
+             :license nil}]
+    (setmetatable obj sourcehut.repo)))
+
+(fn sourcehut.repo.get-recent-commit [self branch]
+  "Get recent commit of the branch."
+  (let [response (sourcehut.get
+                   (if branch 
+                       (string.format "~%s/repos/%s/log/%s" self.owner self.name branch)
+                       (string.format "~%s/repos/%s/log" self.owner self.name)))
+        latest-commit (. response.results 1)]
+    {: branch
+     :date latest-commit.timestamp
+     :sha latest-commit.id}))
+
+(fn sourcehut.repo.get-url [self]
+  "Get git url to clone."
+  (string.format "https://git.sr.ht/%s" (string.gsub self.full-name "^" "~")))
+
+;;; ------------------------------------------------------------------------------------------------
 ;;; awesome-neovim helpers
 
 (local awesome-neovim {})
@@ -260,14 +332,14 @@
         :skip (when (line:match "^### Keybinding")
                 (set state :active))))
     (icollect [_ url-path (ipairs collected-url-paths)]
-      (let [(repo-type full-name) (url-path:match "^([^/]+)%.com/([^/]+/[^/]+)$")]
-        (match repo-type
-          :gitlab (string.format "%s:%s" repo-type full-name)
-          :github (if (full-name:match "feline%.nvim")
-                      "feline-nvim/feline.nvim" ; hot fix due to organization change
-                      full-name)
-          ;; Ignore plugins hosted by other than github/gitlab, e.g., sourcehut.
-          _ nil)))))
+      (match (url-path:match "^%s*([^/]+)/~?([^/]+/[^/]+)/?%s*$")
+        (host-name full-name)
+        (if (= host-name "github.com")
+            full-name
+            (= host-name "gitlab.com")
+            (string.format "%s:%s" :gitlab full-name)
+            (host-name:match "sr%.ht$") ;; <git.sr.ht> or <sr.ht> found in awesome-neovim README.md
+            (string.format "%s:%s" :sourcehut full-name))))))
 
 ;;; ------------------------------------------------------------------------------------------------
 ;;; Manifest spec parser
@@ -287,7 +359,8 @@
         attr-identifier (* (+ lpeg.alpha (lpeg.S "_"))
                            (^ (+ lpeg.alnum (lpeg.S "_-")) 0))
         repo-type (lpeg.Cg (+ (lpeg.P :github)
-                              (lpeg.P :gitlab))
+                              (lpeg.P :gitlab)
+                              (lpeg.P :sourcehut))
                            :type)
         owner (lpeg.Cg repo-identifier
                        :owner)
@@ -424,6 +497,7 @@
         repo (match spec.type
                :gitlab (gitlab.project.new spec.full-name)
                :github (github.repo.new spec.full-name)
+               :sourcehut (sourcehut.repo.new spec.full-name)
                _ (error "undefined repo type"))
         recent-commit (repo:get-recent-commit spec.branch)
         url (repo:get-url recent-commit.sha)
@@ -431,10 +505,16 @@
         obj {: attr-name 
              :pname attr-name
              :version (plugin.get-date recent-commit.date)
+             :fetcher (match spec.type
+                        :sourcehut :fetchgit
+                        _ :fetchurl)
              : repo
              :branch recent-commit.branch
              : url
-             :sha256 (nix.prefetch-url url)}
+             :rev recent-commit.sha
+             :sha256 (match spec.type
+                       :sourcehut (nix.prefetch-git url)
+                       _ (nix.prefetch-url url))}
         obj (plugin.preprocess obj)]
      (setmetatable obj plugin)))
 
@@ -444,8 +524,8 @@
     "  %s = buildVimPluginFrom2Nix {
     pname = \"%s\";
     version = \"%s\";
-    src = fetchurl {
-      url = \"%s\";
+    src = %s {
+      url = \"%s\";%s
       sha256 = \"%s\";
     };
     meta = with lib; {
@@ -457,7 +537,11 @@
     self.attr-name
     self.pname
     self.version
+    self.fetcher
     self.url
+    (match self.fetcher
+      :fetchgit (string.format "\n      rev = \"%s\";" self.rev)
+      _ "")
     self.sha256
     ;; Escape special character sequences in double-quotes.  For more information, see
     ;; <https://nixos.org/manual/nix/stable/expressions/language-values.html#simple-values>.
@@ -479,6 +563,7 @@
     (match plugin.repo.type
       :github plugin.repo.full-name
       :gitlab (string.format "gitlab:%s" plugin.repo.full-name)
+      :sourcehut (string.format "sourcehut:%s" plugin.repo.full-name)
       _ (error "undefined plugin repo type"))
     plugin.repo.homepage
     (if (= plugin.branch plugin.repo.default-branch)
@@ -510,7 +595,7 @@
         %cache (cache.load)]
     (with-open [nix (io.open "pkgs/vim-plugins.nix" :w)
                 readme (io.open "README.md" :w)]
-      (nix:write "{ lib, buildVimPluginFrom2Nix, fetchurl }:\n\n{\n")
+      (nix:write "{ lib, buildVimPluginFrom2Nix, fetchurl, fetchgit }:\n\n{\n")
       (readme:write (io.slurp "assets/README_header.md"))
       (each [_ spec (ipairs %manifest.specs)]
         (if (or update-all?
