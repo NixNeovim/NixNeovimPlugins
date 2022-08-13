@@ -291,6 +291,7 @@ max-0406/autoclose.nvim
 max397574/better-escape.nvim
 mcauley-penney/tidy.nvim
 mcchrish/zenbones.nvim
+meain/vim-printer
 meliora-theme/neovim
 metalelf0/jellybeans-nvim
 mfussenegger/nvim-dap

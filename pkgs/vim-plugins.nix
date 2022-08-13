@@ -3735,6 +3735,18 @@
       license = with licenses; [ mit ];
     };
   };
+  vim-printer = buildVimPluginFrom2Nix {
+    pname = "vim-printer";
+    version = "2022-03-01";
+    src = fetchurl {
+      url = "https://github.com/meain/vim-printer/archive/55ab49179838d86f92fd847504cef3570000b7f3.tar.gz";
+      sha256 = "033fvxnyhvd1vld66kcdvvci7yl2bnq2pxa24j027m72qbpr3aa0";
+    };
+    meta = with lib; {
+      description = "Quickly print/log the variable in your favourite language";
+      homepage = "https://github.com/meain/vim-printer";
+    };
+  };
   neovim = buildVimPluginFrom2Nix {
     pname = "neovim";
     version = "2022-08-13";
