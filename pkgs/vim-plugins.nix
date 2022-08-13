@@ -3710,6 +3710,18 @@
       homepage = "https://github.com/max397574/better-escape.nvim";
     };
   };
+  undotree = buildVimPluginFrom2Nix {
+    pname = "undotree";
+    version = "2022-06-27";
+    src = fetchurl {
+      url = "https://github.com/mbbill/undotree/archive/bfc9b060c9e84497b15b4d602095ba008383b664.tar.gz";
+      sha256 = "0knzwfma8w3c08ya08zdb7zvsc7nfcmalfcnswdnm6615kgjxzl6";
+    };
+    meta = with lib; {
+      description = "The undo history visualizer for VIM";
+      homepage = "https://github.com/mbbill/undotree";
+    };
+  };
   tidy-nvim = buildVimPluginFrom2Nix {
     pname = "tidy-nvim";
     version = "2022-07-21";
