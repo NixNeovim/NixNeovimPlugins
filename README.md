@@ -467,6 +467,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [phha/zenburn.nvim](https://github.com/phha/zenburn.nvim) | 2022-04-28 | `zenburn-nvim` |
 | [pianocomposer321/consolation.nvim](https://github.com/pianocomposer321/consolation.nvim) | 2021-09-01 | `consolation-nvim` |
 | [pianocomposer321/yabs.nvim](https://github.com/pianocomposer321/yabs.nvim) | 2022-05-09 | `yabs-nvim` |
+| [preservim/nerdcommenter](https://github.com/preservim/nerdcommenter) | 2022-05-20 | `nerdcommenter` |
 | [projekt0n/github-nvim-theme](https://github.com/projekt0n/github-nvim-theme) | 2022-08-03 | `github-nvim-theme` |
 | [pwntester/codeql.nvim](https://github.com/pwntester/codeql.nvim) | 2022-08-11 | `codeql-nvim` |
 | [pwntester/octo.nvim](https://github.com/pwntester/octo.nvim) | 2022-06-30 | `octo-nvim` |

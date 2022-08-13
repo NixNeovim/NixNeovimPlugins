@@ -363,6 +363,7 @@ phaazon/hop.nvim
 phha/zenburn.nvim
 pianocomposer321/consolation.nvim
 pianocomposer321/yabs.nvim
+preservim/nerdcommenter
 projekt0n/github-nvim-theme
 pwntester/codeql.nvim
 pwntester/octo.nvim
