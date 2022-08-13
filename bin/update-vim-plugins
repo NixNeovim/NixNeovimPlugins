@@ -99,8 +99,8 @@
 (fn nixpkgs.get-vim-plugins-manifest [channel]
   "Fetch manifest of the official nixpkgs vim plugins."
   (let [channel (or channel "nixpkgs-unstable")
-        path (string.format "/NixOS/nixpkgs/%s/pkgs/applications/editors/vim/plugins/vim-plugin-names" channel)
-        url (string.format "https://raw.githubusercontent.com%s" path)
+        path "/pkgs/applications/editors/vim/plugins/vim-plugin-names"
+        url (string.format "https://raw.githubusercontent.com/NixOS/nixpkgs/%s%s" channel path)
         specs (: (http.get url) :split)]
     ;; Return it as a map from spec to bool for later convenience.
     (collect [_ spec (ipairs specs)]
@@ -111,20 +111,21 @@
 
 (local github {:token-missing-warned false})
 
+(fn github.get-token []
+  "Get access token from environment variable GITHUB_TOKEN. Warn only once if not available."
+  (or (os.getenv "GITHUB_TOKEN")
+      (when (not github.token-missing-warned)
+        (io.stderr:write "GITHUB_TOKEN missing...")
+        (set github.token-missing-warned true)
+        nil)))
+
 (fn github.get [query token]
-  "Get contents by query using GitHub REST API."
-  (let [token (or token
-                  (os.getenv "GITHUB_TOKEN")
-                  (when (not github.token-missing-warned)
-                    (io.stderr:write "GITHUB_TOKEN missing...")
-                    (set github.token-missing-warned true)
-                    nil))
+  "Retrieve contents of query using GitHub REST API."
+  (let [token (or token (github.get-token))
+        request-headers {:content-type "application/json"
+                         :authorization (when token (string.format "token %s" token))}
         (body headers) (http.get (string.format "https://api.github.com/%s" query)
-                                 (let [request-headers {:content-type "application/json"}]
-                                   (when token
-                                     (set request-headers.authorization
-                                          (string.format "token %s" token)))
-                                   request-headers))]
+                                 request-headers)]
     (values (cjson.decode body) headers)))
 
 (fn github.null? [x]
@@ -179,9 +180,10 @@
 (local gitlab {})
 
 (fn gitlab.get [query]
-  "Get contents by query using GitLab REST API."
-  (let [(body headers) (http.get (string.format "https://gitlab.com/api/v4/%s" query)
-                                 {:content-type "application/json"})]
+  "Retrieve contents of query using GitLab REST API."
+  (let [request-headers {:content-type "application/json"}
+        (body headers) (http.get (string.format "https://gitlab.com/api/v4/%s" query)
+                                 request-headers)]
     (values (cjson.decode body) headers)))
 
 (fn gitlab.escape-path-with-namespace [path-with-namespace]
@@ -368,9 +370,9 @@
 
 (set cache.__index cache)
 
-(fn cache.load []
+(fn cache.load [file]
   "Load cache of previous update."
-  (let [file ".previous-update.json"
+  (let [file (or file ".previous-update.json")
         (ok data) (pcall io.slurp file)
         data (if ok
                  (cjson.decode data)
