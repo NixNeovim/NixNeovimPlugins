@@ -288,6 +288,7 @@ marko-cerovac/material.nvim
 matbme/JABS.nvim
 max-0406/autoclose.nvim
 max397574/better-escape.nvim
+mbbill/undotree
 mcauley-penney/tidy.nvim
 mcchrish/zenbones.nvim
 meliora-theme/neovim
