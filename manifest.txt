@@ -191,7 +191,7 @@ gpanders/editorconfig.nvim
 h-hg/fcitx.nvim
 haringsrob/nvim_context_vt
 henriquehbr/ataraxis.lua
-henriquehbr/nvim-startup.lua
+sourcehut:henriquehbr/nvim-startup.lua
 hkupty/iron.nvim
 hkupty/nvimux
 houtsnip/vim-emacscommandline
@@ -472,6 +472,7 @@ vijaymarupudi/nvim-fzf
 vuki656/package-info.nvim
 wbthomason/packer.nvim
 weilbith/nvim-code-action-menu
+sourcehut:whynothugo/lsp_lines.nvim
 williamboman/mason.nvim
 williamboman/nvim-lsp-installer
 windwp/nvim-autopairs
