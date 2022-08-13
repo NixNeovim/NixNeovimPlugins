@@ -11,7 +11,7 @@
 ;;; General utilities
 
 (fn basename [path]
-  "Get base name of a path."
+  "Get file name of path."
   (string.gsub path "(.*/)(.*)" "%2"))
 
 (fn program-name []
@@ -19,17 +19,17 @@
   (basename (. arg 0)))
 
 (fn io.slurp [file]
-  "Read all contents of a file."
+  "Read all contents of file."
   (with-open [buf (assert (io.open file))]
     (buf:read :*all)))
 
 (fn string.chomp [str pattern]
-  "Remove trailing pattern, defaulting to newlines: \\n, \\r, or \\r\\n."
+  "Remove trailing pattern (default: newline) in string."
   (let [pattern ( .. (or pattern "[\r\n]+") "$")]
     (string.gsub str pattern "")))
 
 (fn string.split [str sep]
-  "Split string by the separator into a table."
+  "Split string by separator, collecting into sequencial table."
   (let [regex (match sep
                 "" "."
                 x (.. "[^" x "]+")
@@ -38,7 +38,7 @@
       chunk)))
 
 (fn table.unique [tbl]
-  "Remove duplicated items in the sequencial table."
+  "Remove duplicated items in sequencial table."
   (let [items (collect [_ item (ipairs tbl)]
                 item true)]
     (icollect [item _ (pairs items)]
@@ -61,7 +61,7 @@
          (error (view {: body : headers})))))) 
 
 ;;; ------------------------------------------------------------------------------------------------
-;;; Nix
+;;; Nix helpers
 
 (local nix {})
 
@@ -74,12 +74,12 @@
     sha256))
 
 ;;; ------------------------------------------------------------------------------------------------
-;;; Nixpkgs
+;;; Nixpkgs helpers
 
 (local nixpkgs {})
 
 (fn nixpkgs.license-from-github-license [github-license]
-  "Translate GitHub API license to Nixpkgs license attr name in lib.licenses."
+  "Translate GitHub API license name to Nixpkgs license attr name in lib.licenses."
   (let [map {:agpl-3.0 "agpl3Only"
              :apache-2.0 "asl20"
              :bsd-2-clause "bsd2"
@@ -97,7 +97,7 @@
     (. map github-license.key)))
 
 (fn nixpkgs.get-vim-plugins-manifest [channel]
-  "Fetch manifest of the official nixpkgs vim plugins."
+  "Fetch manifest of official nixpkgs vim plugins."
   (let [channel (or channel "nixpkgs-unstable")
         path "/pkgs/applications/editors/vim/plugins/vim-plugin-names"
         url (string.format "https://raw.githubusercontent.com/NixOS/nixpkgs/%s%s" channel path)
@@ -107,12 +107,12 @@
       spec true)))
 
 ;;; ------------------------------------------------------------------------------------------------
-;;; GitHub
+;;; GitHub helpers
 
 (local github {:token-missing-warned false})
 
 (fn github.get-token []
-  "Get access token from environment variable GITHUB_TOKEN. Warn only once if not available."
+  "Get access token from environment variable GITHUB_TOKEN.  Warn only once if not available."
   (or (os.getenv "GITHUB_TOKEN")
       (when (not github.token-missing-warned)
         (io.stderr:write "GITHUB_TOKEN missing...")
@@ -134,6 +134,8 @@
       (= x "")
       (= (type x) :userdata))) ; #<userdata NULL>
 
+;;; ------------------------------------------------------------------------------------------------
+;;; GitHub repository
 
 (set github.repo {:type "github"})
 
@@ -161,7 +163,7 @@
     (setmetatable obj github.repo)))
 
 (fn github.repo.get-recent-commit [self branch]
-  "Get recent commit of the branch."
+  "Get recent commit of branch."
   (let [branch (or branch self.default-branch)
         response (github.get (string.format "repos/%s/commits/%s" self.full-name branch))]
     {: branch
@@ -169,13 +171,13 @@
      :sha response.sha}))
 
 (fn github.repo.get-url [self sha]
-  "Get download url of the given hash."
+  "Get download url of sha hash."
   (string.format "https://github.com/%s/archive/%s.tar.gz"
                  self.full-name
                  sha))
 
 ;;; ------------------------------------------------------------------------------------------------
-;;; GitLab
+;;; GitLab helpers
 
 (local gitlab {})
 
@@ -187,9 +189,11 @@
     (values (cjson.decode body) headers)))
 
 (fn gitlab.escape-path-with-namespace [path-with-namespace]
-  "Replace / with %2F in the path with namespace."
+  "Replace `/` with `%2F` in path-with-namespace."
   (string.gsub path-with-namespace "/" "%%2F"))
  
+;;; ------------------------------------------------------------------------------------------------
+;;; GitLab project (repository)
 
 (set gitlab.project {:type "gitlab"})
 
@@ -215,7 +219,7 @@
     (setmetatable obj gitlab.project)))
 
 (fn gitlab.project.get-recent-commit [self branch]
-  "Get recent commit of the branch."
+  "Get recent commit of branch."
   (let [branch (or branch self.default-branch)
         response (gitlab.get (string.format "projects/%s/repository/branches/%s"
                                             (gitlab.escape-path-with-namespace self.full-name)
@@ -225,13 +229,13 @@
      :sha response.commit.id}))
 
 (fn gitlab.project.get-url [self sha]
-  "Get download url of the given hash."
+  "Get download url of sha hash."
   (string.format "https://gitlab.com/api/v4/projects/%s/repository/archive.tar.gz?sha=%s"
                  (gitlab.escape-path-with-namespace self.full-name)
                  sha))
 
 ;;; ------------------------------------------------------------------------------------------------
-;;; awesome-neovim
+;;; awesome-neovim helpers
 
 (local awesome-neovim {})
 
@@ -275,7 +279,7 @@
 (set manifest.spec {})
 
 (fn manifest.spec.decode [line]
-  "Parse a line as manifest spec and return a table containing spec properties."
+  "Parse string as manifest spec line and return table containing spec properties."
   (let [space (^ lpeg.space 0)
         repo-identifier (^ (+ lpeg.alnum (lpeg.S "_.-")) 1)
         ;; This is not exactly correct; see https://git-scm.com/docs/git-check-ref-format
@@ -313,7 +317,7 @@
       _ (error (string.format "invalid manifest spec: %s" line)))))
 
 (fn manifest.spec.encode [spec]
-  "Encode a table of spec properties to a line of manifest spec."
+  "Encode table of spec properties to manifest spec line."
   (.. (if (and spec.type (not= spec.type :github))
           (string.format "%s:" spec.type)
           "")
@@ -327,7 +331,7 @@
           "")))
 
 (fn manifest.spec.format [line]
-  "Format a line of manifest spec."
+  "Format manifest spec line."
   (-> line
       (manifest.spec.decode)
       (manifest.spec.encode)))
@@ -343,12 +347,12 @@
     (set self.specs specs)))
 
 (fn manifest.changed? [self]
-  "Return true of manifest specs are changed since its loaded time."
+  "Return true if manifest specs are changed since its loaded time."
   (not= self.origin
         (table.concat self.specs "\n")))
 
 (fn manifest.load [file]
-  "Load manifest from a file, defaulting to `manifest.txt`."
+  "Load manifest from file (default: `manifest.txt`)."
   (let [file (or file "manifest.txt")
         specs (icollect [spec (io.lines file)] spec)
         obj {: file
@@ -357,14 +361,14 @@
     (setmetatable obj manifest)))
 
 (fn manifest.save [self]
-  "Save manifest to the file."
+  "Save manifest to its file."
   (when (self:changed?)
     (with-open [buf (io.open self.file :w)]
       (buf:write (.. (table.concat self.specs "\n") "\n")))
     (io.stderr:write (string.format "%s: manifest saved to %s\n" (program-name) self.file))))
 
 ;;; ------------------------------------------------------------------------------------------------
-;;; Cache file
+;;; Cache of previous updating
 
 (local cache {})
 
@@ -388,7 +392,7 @@
     (io.stderr:write (string.format "%s: cache saved to %s\n" (program-name) self.file))))
 
 ;;; ------------------------------------------------------------------------------------------------
-;;; Vim plugin
+;;; Vim plugin helpers
 
 (local plugin {})
 
@@ -411,6 +415,9 @@
     (set self.repo.description (string.chomp desc "%.+"))
     self))
 
+;;; ------------------------------------------------------------------------------------------------
+;;; Vim plugin
+
 (fn plugin.new [spec]
   "Create object representing Vim plugin."
   (let [spec (manifest.spec.decode spec)
@@ -432,7 +439,7 @@
      (setmetatable obj plugin)))
 
 (fn plugin.to-nixexpr [self]
-  "Generate snippet of Nix expression in an attr set."
+  "Generate snippet of Nix expression."
   (string.format
     "  %s = buildVimPluginFrom2Nix {
     pname = \"%s\";
