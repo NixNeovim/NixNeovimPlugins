@@ -4674,6 +4674,19 @@
       license = with licenses; [ agpl3Only ];
     };
   };
+  nerdcommenter = buildVimPluginFrom2Nix {
+    pname = "nerdcommenter";
+    version = "2022-05-20";
+    src = fetchurl {
+      url = "https://github.com/preservim/nerdcommenter/archive/6d30ebcd428eb5a244229a125420a1e044b42b52.tar.gz";
+      sha256 = "0gkbsyhk4ihz0iyprcxixcnf2f0vl09pbx7ay2qm2fi79dp04lqq";
+    };
+    meta = with lib; {
+      description = "Vim plugin for intensely nerdy commenting powers";
+      homepage = "https://github.com/preservim/nerdcommenter";
+      license = with licenses; [ cc0 ];
+    };
+  };
   github-nvim-theme = buildVimPluginFrom2Nix {
     pname = "github-nvim-theme";
     version = "2022-08-03";
