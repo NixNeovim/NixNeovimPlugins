@@ -244,23 +244,23 @@
   (let [path "/rockerBOO/awesome-neovim/main/README.md"
         url (string.format "https://raw.githubusercontent.com%s" path)
         readme (http.get url)
-        out []]
+        collected-url-paths []]
     (var state :init)
     (each [_ line (ipairs (readme:split "\n"))]
       (match state
-        :init   (when (line:match "^## Plugin")
-                  (set state :active))
+        :init (when (line:match "^## Plugin")
+                (set state :active))
         :active (if (line:match "^%s*-%s+%[")
                     ;; trim mini.nvim#foobar
-                    (table.insert out (line:match "%[[^%]]+%]%(https://([^%)#]+)"))
+                    (table.insert collected-url-paths (line:match "%[[^%]]+%]%(https://([^%)#]+)"))
                     (line:match "^### Preconfigured Configuration")
                     (set state :skip)
                     (line:match "^## External")
                     (set state :done))
-        :skip   (when (line:match "^### Keybinding")
-                  (set state :active))))
-    (icollect [_ line (ipairs out)]
-      (let [(repo-type full-name) (line:match "^([^/]+)%.com/([^/]+/[^/]+)$")]
+        :skip (when (line:match "^### Keybinding")
+                (set state :active))))
+    (icollect [_ url-path (ipairs collected-url-paths)]
+      (let [(repo-type full-name) (url-path:match "^([^/]+)%.com/([^/]+/[^/]+)$")]
         (match repo-type
           :gitlab (string.format "%s:%s" repo-type full-name)
           :github (if (full-name:match "feline%.nvim")
