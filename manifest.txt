@@ -232,6 +232,7 @@ jose-elias-alvarez/null-ls.nvim
 jose-elias-alvarez/nvim-lsp-ts-utils
 jubnzv/mdeval.nvim
 jubnzv/virtual-types.nvim
+junegunn/vim-easy-align
 jvgrootveld/telescope-zoxide
 kaiuri/github-vscode-theme.nvim
 kaiuri/nvim-juliana

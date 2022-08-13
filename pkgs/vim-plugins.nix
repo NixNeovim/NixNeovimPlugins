@@ -2986,6 +2986,18 @@
       license = with licenses; [ mit ];
     };
   };
+  vim-easy-align = buildVimPluginFrom2Nix {
+    pname = "vim-easy-align";
+    version = "2019-04-29";
+    src = fetchurl {
+      url = "https://github.com/junegunn/vim-easy-align/archive/12dd6316974f71ce333e360c0260b4e1f81169c3.tar.gz";
+      sha256 = "0a927pag7wsdkbp83qhk45kgbzl45wyhk85z988p9whbpbgy2jcv";
+    };
+    meta = with lib; {
+      description = ":sunflower: A Vim alignment plugin";
+      homepage = "https://github.com/junegunn/vim-easy-align";
+    };
+  };
   telescope-zoxide = buildVimPluginFrom2Nix {
     pname = "telescope-zoxide";
     version = "2022-07-04";
