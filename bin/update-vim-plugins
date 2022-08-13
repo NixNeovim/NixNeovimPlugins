@@ -50,7 +50,7 @@
 (local http {})
 
 (fn http.get [uri headers]
-  "Get contents of uri. The second value is its headers."
+  "Get contents of uri. The second return value is its headers."
   (let [request (http-request.new_from_uri uri)]
     (each [key value (pairs (or headers {}))]
       (request.headers:append key value))
@@ -61,7 +61,7 @@
          (error (view {: body : headers})))))) 
 
 ;;; ------------------------------------------------------------------------------------------------
-;;; Nix helpers
+;;; Nix
 
 (local nix {})
 
@@ -74,7 +74,7 @@
     sha256))
 
 ;;; ------------------------------------------------------------------------------------------------
-;;; Nixpkgs helpers
+;;; Nixpkgs
 
 (local nixpkgs {})
 
@@ -107,7 +107,7 @@
       spec true)))
 
 ;;; ------------------------------------------------------------------------------------------------
-;;; GitHub things
+;;; GitHub
 
 (local github {:token-missing-warned false})
 
@@ -139,7 +139,7 @@
 (set github.repo.__index github.repo)
 
 (fn github.repo.new [full-name-or-owner name]
-  "Create object representing GitHub repo."
+  "Create object representing GitHub repository."
   (let [info (let [full-name (if (not name)
                                  full-name-or-owner
                                  (string.format "%s/%s" full-name-or-owner name))]
@@ -174,7 +174,7 @@
                  sha))
 
 ;;; ------------------------------------------------------------------------------------------------
-;;; GitLab things
+;;; GitLab
 
 (local gitlab {})
 
