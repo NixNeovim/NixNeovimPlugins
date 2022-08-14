@@ -526,8 +526,6 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [rockyzhang24/arctic.nvim](https://github.com/rockyzhang24/arctic.nvim) | 2022-08-09 | `arctic-nvim` |
 | [rodrigore/coc-tailwind-intellisense](https://github.com/rodrigore/coc-tailwind-intellisense) | 2021-09-07 | `coc-tailwind-intellisense` |
 | [romgrk/barbar.nvim](https://github.com/romgrk/barbar.nvim) | 2022-08-10 | `barbar-nvim` |
-| [rose-pine/neovim](https://github.com/rose-pine/neovim) | 2021-12-17 | `neovim` |
-| [rose-pine/neovim](https://github.com/rose-pine/neovim) | 2022-08-14 | `rose-pine` |
 | [ruifm/gitlinker.nvim](https://github.com/ruifm/gitlinker.nvim) | 2022-06-28 | `gitlinker-nvim` |
 | [s1n7ax/nvim-comment-frame](https://github.com/s1n7ax/nvim-comment-frame) | 2022-07-08 | `nvim-comment-frame` |
 | [s1n7ax/nvim-terminal](https://github.com/s1n7ax/nvim-terminal) | 2022-06-29 | `nvim-terminal` |

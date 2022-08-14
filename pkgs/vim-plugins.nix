@@ -5411,30 +5411,6 @@
       homepage = "https://github.com/romgrk/barbar.nvim";
     };
   };
-  neovim = buildVimPluginFrom2Nix {
-    pname = "neovim";
-    version = "2021-12-17";
-    src = fetchurl {
-      url = "https://github.com/rose-pine/neovim/archive/adec84ec3d0b7d867a28b3545013bc7da2946db5.tar.gz";
-      sha256 = "06lgiigdy9dxlqvcwqjwg69p9l55c4f0q4hiqk93x696vxc1d8ql";
-    };
-    meta = with lib; {
-      description = "Soho vibes for Neovim";
-      homepage = "https://github.com/rose-pine/neovim";
-    };
-  };
-  rose-pine = buildVimPluginFrom2Nix {
-    pname = "rose-pine";
-    version = "2022-08-14";
-    src = fetchurl {
-      url = "https://github.com/rose-pine/neovim/archive/0f3ea8162459da82440c22ce0c9b0562e53f6a10.tar.gz";
-      sha256 = "0c19dr3120447dy6h9hxhy0idi4hqc3j1p9srf92pa63ls7hq1kf";
-    };
-    meta = with lib; {
-      description = "Soho vibes for Neovim";
-      homepage = "https://github.com/rose-pine/neovim";
-    };
-  };
   gitlinker-nvim = buildVimPluginFrom2Nix {
     pname = "gitlinker-nvim";
     version = "2022-06-28";
