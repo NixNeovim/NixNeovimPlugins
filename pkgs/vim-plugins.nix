@@ -821,8 +821,8 @@
     pname = "textobj-diagnostic-nvim";
     version = "2022-08-14";
     src = fetchurl {
-      url = "https://github.com/andrewferrier/textobj-diagnostic.nvim/archive/f2b00d05df950ac5b5a2fa818d60848397acf9f4.tar.gz";
-      sha256 = "0pib2mlv2xw6qfr8lq2sp2mw7n436k4kd5rx9b7lc5pa08sq4wv2";
+      url = "https://github.com/andrewferrier/textobj-diagnostic.nvim/archive/38abb6fd3c20770d92462a69b0c6b57fc74959bc.tar.gz";
+      sha256 = "0jj1j4ryfb19izxa1dbb6fv3ipy6981mws4ggkrqahyq18fpjybl";
     };
     meta = with lib; {
       description = "NeoVim text object that finds diagnostics";
@@ -2338,10 +2338,10 @@
   };
   sherbet-nvim = buildVimPluginFrom2Nix {
     pname = "sherbet-nvim";
-    version = "2022-08-09";
+    version = "2022-08-14";
     src = fetchurl {
-      url = "https://github.com/lewpoly/sherbet.nvim/archive/84f2e94af0e0a32a8101793e70c453a74e40f655.tar.gz";
-      sha256 = "09kk62826sjr0fh0rp4r319sy3i47r20hicagfic0ys0rdlkvk8c";
+      url = "https://github.com/lewpoly/sherbet.nvim/archive/316a3b4d6b00faf768661f4efc891d3014f92de2.tar.gz";
+      sha256 = "07f33dp3clm0zwqz68xfy47cqcpijyc6cd6civkl5p4v0siqx2km";
     };
     meta = with lib; {
       description = "Neovim colorscheme written in Lua";

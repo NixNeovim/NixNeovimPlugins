@@ -285,7 +285,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [ldelossa/gh.nvim](https://github.com/ldelossa/gh.nvim) | 2022-08-10 | `gh-nvim` |
 | [ldelossa/vimdark](https://github.com/ldelossa/vimdark) | 2022-03-20 | `vimdark` |
 | [leafOfTree/vim-svelte-plugin](https://github.com/leafOfTree/vim-svelte-plugin) | 2022-04-22 | `vim-svelte-plugin` |
-| [lewpoly/sherbet.nvim](https://github.com/lewpoly/sherbet.nvim) | 2022-08-09 | `sherbet-nvim` |
+| [lewpoly/sherbet.nvim](https://github.com/lewpoly/sherbet.nvim) | 2022-08-14 | `sherbet-nvim` |
 | [linty-org/key-menu.nvim](https://github.com/linty-org/key-menu.nvim) | 2022-06-15 | `key-menu-nvim` |
 | [linty-org/readline.nvim](https://github.com/linty-org/readline.nvim) | 2022-08-13 | `readline-nvim` |
 | [lmburns/kimbox](https://github.com/lmburns/kimbox) | 2022-07-23 | `kimbox` |
