@@ -602,19 +602,6 @@
       license = with licenses; [ gpl3Only ];
     };
   };
-  true-zen-nvim = buildVimPluginFrom2Nix {
-    pname = "true-zen-nvim";
-    version = "2022-08-07";
-    src = fetchurl {
-      url = "https://github.com/Pocco81/true-zen.nvim/archive/98740c76254c65576ec294551028b65081053588.tar.gz";
-      sha256 = "1qbm91gjxz1v3xlyaphvjljf8isqqmmlc2s3bz7sfi782di1jmy5";
-    };
-    meta = with lib; {
-      description = "🦝 Clean and elegant distraction-free writing for NeoVim";
-      homepage = "https://github.com/Pocco81/true-zen.nvim";
-      license = with licenses; [ gpl3Only ];
-    };
-  };
   nvim-base16 = buildVimPluginFrom2Nix {
     pname = "nvim-base16";
     version = "2022-08-13";

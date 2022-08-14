@@ -149,7 +149,6 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [Pocco81/dap-buddy.nvim](https://github.com/Pocco81/dap-buddy.nvim) | 2022-04-20 | `dap-buddy-nvim` |
 | [Pocco81/HighStr.nvim](https://github.com/Pocco81/HighStr.nvim) | 2021-08-17 | `HighStr-nvim` |
 | [Pocco81/true-zen.nvim](https://github.com/Pocco81/true-zen.nvim) | 2022-08-07 | `true-zen-nvim` |
-| [Pocco81/true-zen.nvim](https://github.com/Pocco81/true-zen.nvim) | 2022-08-07 | `true-zen-nvim` |
 | [RRethy/nvim-base16](https://github.com/RRethy/nvim-base16) | 2022-08-13 | `nvim-base16` |
 | [RRethy/nvim-treesitter-textsubjects](https://github.com/RRethy/nvim-treesitter-textsubjects) | 2022-06-26 | `nvim-treesitter-textsubjects` |
 | [RRethy/vim-illuminate](https://github.com/RRethy/vim-illuminate) | 2022-08-09 | `vim-illuminate` |

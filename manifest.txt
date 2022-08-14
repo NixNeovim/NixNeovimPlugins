@@ -44,7 +44,6 @@ Pocco81/AbbrevMan.nvim
 Pocco81/AutoSave.nvim
 Pocco81/DAPInstall.nvim
 Pocco81/HighStr.nvim
-Pocco81/TrueZen.nvim
 Pocco81/true-zen.nvim
 RRethy/nvim-base16
 RRethy/nvim-treesitter-textsubjects
