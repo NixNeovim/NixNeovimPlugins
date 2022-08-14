@@ -191,19 +191,6 @@
       homepage = "https://github.com/Everblush/everblush.nvim";
     };
   };
-  feline-nvim = buildVimPluginFrom2Nix {
-    pname = "feline-nvim";
-    version = "2022-08-08";
-    src = fetchurl {
-      url = "https://github.com/feline-nvim/feline.nvim/archive/b7391bbfcb9cf6acf28e8015d9e41a9c9b6c91f5.tar.gz";
-      sha256 = "172nwjvypqjdaphslbj95dbqc0ry631iccblk14fi2j8kcnd40yf";
-    };
-    meta = with lib; {
-      description = "A minimal, stylish and customizable statusline for Neovim written in Lua";
-      homepage = "https://github.com/feline-nvim/feline.nvim";
-      license = with licenses; [ gpl3Only ];
-    };
-  };
   command-center-nvim = buildVimPluginFrom2Nix {
     pname = "command-center-nvim";
     version = "2022-08-13";
@@ -2127,19 +2114,6 @@
     meta = with lib; {
       description = "Delete Neovim buffers without losing window layout";
       homepage = "https://github.com/famiu/bufdelete.nvim";
-      license = with licenses; [ gpl3Only ];
-    };
-  };
-  feline-nvim = buildVimPluginFrom2Nix {
-    pname = "feline-nvim";
-    version = "2022-08-08";
-    src = fetchurl {
-      url = "https://github.com/feline-nvim/feline.nvim/archive/b7391bbfcb9cf6acf28e8015d9e41a9c9b6c91f5.tar.gz";
-      sha256 = "172nwjvypqjdaphslbj95dbqc0ry631iccblk14fi2j8kcnd40yf";
-    };
-    meta = with lib; {
-      description = "A minimal, stylish and customizable statusline for Neovim written in Lua";
-      homepage = "https://github.com/feline-nvim/feline.nvim";
       license = with licenses; [ gpl3Only ];
     };
   };

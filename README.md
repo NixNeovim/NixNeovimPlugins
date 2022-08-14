@@ -117,7 +117,6 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [EdenEast/nightfox.nvim](https://github.com/EdenEast/nightfox.nvim) | 2022-08-09 | `nightfox-nvim` |
 | [EthanJWright/vs-tasks.nvim](https://github.com/EthanJWright/vs-tasks.nvim) | 2022-08-10 | `vs-tasks-nvim` |
 | [Everblush/everblush.nvim](https://github.com/Everblush/everblush.nvim) | 2022-08-13 | `everblush-nvim` |
-| [feline-nvim/feline.nvim](https://github.com/feline-nvim/feline.nvim) | 2022-08-08 | `feline-nvim` |
 | [FeiyouG/command_center.nvim](https://github.com/FeiyouG/command_center.nvim) | 2022-08-13 | `command-center-nvim` |
 | [FrenzyExists/aquarium-vim](https://github.com/FrenzyExists/aquarium-vim) | 2022-06-22 | `aquarium-vim` |
 | [Fymyte/rasi.vim](https://github.com/Fymyte/rasi.vim) | 2022-02-16 | `rasi-vim` |
@@ -269,7 +268,6 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [f-person/git-blame.nvim](https://github.com/f-person/git-blame.nvim) | 2022-08-02 | `git-blame-nvim` |
 | [f3fora/cmp-spell](https://github.com/f3fora/cmp-spell) | 2021-10-19 | `cmp-spell` |
 | [famiu/bufdelete.nvim](https://github.com/famiu/bufdelete.nvim) | 2022-05-22 | `bufdelete-nvim` |
-| [feline-nvim/feline.nvim](https://github.com/feline-nvim/feline.nvim) | 2022-08-08 | `feline-nvim` |
 | [feline-nvim/feline.nvim](https://github.com/feline-nvim/feline.nvim) | 2022-08-08 | `feline-nvim` |
 | [fenetikm/falcon](https://github.com/fenetikm/falcon) | 2022-07-28 | `falcon` |
 | [filipdutescu/renamer.nvim](https://github.com/filipdutescu/renamer.nvim) | 2022-01-10 | `renamer-nvim` |
