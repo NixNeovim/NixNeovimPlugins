@@ -33,35 +33,38 @@ So you should be careful if you want to use them.
 ### In flake
 
 The overlay simply adds extra Vim plugins into `pkgs.vimExtraPlugins`.
-Use it as you normally do, like
+Use it as you normally do, like here for homeManager
+
+First apply overlay to your nixpkgs
 
 ```nix
 {
   inputs = {
-    flake-utils.url = "github:numtide/flake-utils";
     vim-extra-plugins.url = "github:m15a/nixpkgs-vim-extra-plugins";
   };
+  
   outputs = { self, nixpkgs, flake-utils, vim-extra-plugins, ... }:
-  flake-utils.lib.eachDefaultSystem (system:
   let
+    system = "x86_64-linux";
     pkgs = import nixpkgs {
       inherit system;
       overlays = [ vim-extra-plugins.overlays.default ];
     };
-  in {
-    packages = {
-      my-neovim = pkgs.neovim.override {
-        configure = {
-          packages.example = with pkgs.vimExtraPlugins; {
-            start = [
-              lspactions
-              vim-hy
-            ];
-          };
-        };
-      };
-    };
-  });
+   in {
+   # other configs
+   };
+}
+```
+Then add plugins to neovim
+
+```nix
+{
+  programs.neovim = {
+    plugins = with pkgs.vimExtraPlugins; [
+      lspactions
+      vim-hy
+    ];
+  };
 }
 ```
 
