@@ -2,6 +2,8 @@
 
 Nix flake of miscellaneous Vim/Neovim plugins.
 
+This is a fork that aims to combine as many plugins in one repo as possible. In comparison to the original, this repo also contains plugins that are availbale in the nixpkgs repo. So you have all your plugins in one combined repo.
+
 ## Table of contents
 
 - [Description](#description)
