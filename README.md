@@ -704,7 +704,8 @@ In `overrides.nix`, you see something like
   }
 ```
 
-Add your overrides here if needed.
+Add your overrides like here if needed.
+Override can be necessary if the correct licese is not detected, or if your plugins has any dependencies.
 
 #### 4. Create a Pull Request
 
