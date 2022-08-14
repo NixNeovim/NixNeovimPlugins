@@ -94,6 +94,11 @@ with import <nixpkgs> {
 };
 ```
 
+[0]: https://github.com/rockerBOO/awesome-neovim
+[1]: https://nixos.org/manual/nix/stable/release-notes/rl-2.4.html?highlight=builtins.getFlake#other-features
+[2]: https://nur.nix-community.org/
+[3]: https://nur.nix-community.org/repos/m15a/
+
 ## Available Vim/Neovim plugins
 
 | Plugin owner/repo | Recent commit | Nix package name |
