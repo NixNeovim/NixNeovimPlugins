@@ -26,8 +26,6 @@ jobs:
     name: Check builds in nixpkgs-unstable
     steps:
       - uses: actions/checkout@v3
-        with:
-          ref: ${{ github.head_ref }}
       - uses: cachix/install-nix-action@v17
         with:
           extra_nix_config: |
