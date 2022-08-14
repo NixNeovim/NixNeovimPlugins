@@ -13,7 +13,6 @@ David-Kunz/jester
 EdenEast/nightfox.nvim
 EthanJWright/vs-tasks.nvim
 Everblush/everblush.nvim
-Famiu/feline.nvim
 FeiyouG/command_center.nvim
 FrenzyExists/aquarium-vim
 Fymyte/rasi.vim
@@ -165,7 +164,6 @@ evanleck/vim-svelte
 f-person/git-blame.nvim
 f3fora/cmp-spell
 famiu/bufdelete.nvim
-famiu/feline.nvim
 feline-nvim/feline.nvim
 fenetikm/falcon
 filipdutescu/renamer.nvim
