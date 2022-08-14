@@ -139,7 +139,6 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [NTBBloodbath/cheovim](https://github.com/NTBBloodbath/cheovim) | 2021-08-25 | `cheovim` |
 | [NTBBloodbath/doom-one.nvim](https://github.com/NTBBloodbath/doom-one.nvim) | 2022-08-12 | `doom-one-nvim` |
 | [NTBBloodbath/galaxyline.nvim](https://github.com/NTBBloodbath/galaxyline.nvim) | 2022-01-21 | `galaxyline-nvim` |
-| [rest-nvim/rest.nvim](https://github.com/rest-nvim/rest.nvim) | 2022-08-11 | `rest-nvim` |
 | [NvChad/nvim-colorizer.lua](https://github.com/NvChad/nvim-colorizer.lua) | 2022-08-14 | `nvim-colorizer-lua` |
 | [Olical/aniseed](https://github.com/Olical/aniseed) | 2022-07-23 | `aniseed` |
 | [Olical/conjure](https://github.com/Olical/conjure) | 2022-08-07 | `conjure` |

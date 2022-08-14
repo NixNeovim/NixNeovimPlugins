@@ -474,19 +474,6 @@
       license = with licenses; [ mit ];
     };
   };
-  rest-nvim = buildVimPluginFrom2Nix {
-    pname = "rest-nvim";
-    version = "2022-08-11";
-    src = fetchurl {
-      url = "https://github.com/rest-nvim/rest.nvim/archive/8c719ed329f521a92582b9144d4e75bb74c36e23.tar.gz";
-      sha256 = "1qdqayw9r413mxzcflphhbdqn7dh3z9zc0dch23lqn9i6pl0xlc9";
-    };
-    meta = with lib; {
-      description = "A fast Neovim http client written in Lua";
-      homepage = "https://github.com/rest-nvim/rest.nvim";
-      license = with licenses; [ mit ];
-    };
-  };
   nvim-colorizer-lua = buildVimPluginFrom2Nix {
     pname = "nvim-colorizer-lua";
     version = "2022-08-14";
