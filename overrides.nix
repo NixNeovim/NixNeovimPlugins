@@ -85,6 +85,8 @@ let
 
     vim-hy = [ vim ];
 
+    vim-printer = [ mit ];
+
     vim-textobj-indent = [ mit ];
 
     vim-textobj-parameter = [ mit ];
