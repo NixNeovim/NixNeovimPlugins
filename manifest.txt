@@ -1,4 +1,11 @@
 0styx0/abbreinder.nvim
+majutsushi/tagbar
+skywind3000/asyncrun.vim
+vimwiki/vimwiki
+luukvbaal/stabilize.nvim
+hrsh7th/cmp-cmdline
+aklt/plantuml-syntax
+lukas-reineke/headlines.nvim
 Abstract-IDE/penvim
 AckslD/nvim-FeMaco.lua
 AckslD/nvim-gfold.lua
