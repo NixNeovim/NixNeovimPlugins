@@ -741,6 +741,18 @@
       license = with licenses; [ gpl3Only ];
     };
   };
+  plantuml-syntax = buildVimPluginFrom2Nix {
+    pname = "plantuml-syntax";
+    version = "2022-02-20";
+    src = fetchurl {
+      url = "https://github.com/aklt/plantuml-syntax/archive/660bbb1ece1e654b2176f76ce0689304c5a4a025.tar.gz";
+      sha256 = "1hqsqs4q6y46878wzh6kx29gfd772apda96xrw1x06mpmqc260j3";
+    };
+    meta = with lib; {
+      description = "vim syntax file for plantuml";
+      homepage = "https://github.com/aklt/plantuml-syntax";
+    };
+  };
   nim-nvim = buildVimPluginFrom2Nix {
     pname = "nim-nvim";
     version = "2022-08-08";
@@ -1747,6 +1759,18 @@
       homepage = "https://github.com/houtsnip/vim-emacscommandline";
     };
   };
+  cmp-cmdline = buildVimPluginFrom2Nix {
+    pname = "cmp-cmdline";
+    version = "2022-08-05";
+    src = fetchurl {
+      url = "https://github.com/hrsh7th/cmp-cmdline/archive/9c0e331fe78cab7ede1c051c065ee2fc3cf9432e.tar.gz";
+      sha256 = "1jg0qq4a1cdagdlpcjgip0hfyi21vlp3x917jpg67zjvi83mamm3";
+    };
+    meta = with lib; {
+      description = "nvim-cmp source for vim's cmdline";
+      homepage = "https://github.com/hrsh7th/cmp-cmdline";
+    };
+  };
   vim-hy = buildVimPluginFrom2Nix {
     pname = "vim-hy";
     version = "2022-07-18";
@@ -2436,6 +2460,19 @@
       license = with licenses; [ mit ];
     };
   };
+  headlines-nvim = buildVimPluginFrom2Nix {
+    pname = "headlines-nvim";
+    version = "2022-07-19";
+    src = fetchurl {
+      url = "https://github.com/lukas-reineke/headlines.nvim/archive/1cd93a641c03419bb255f8b3fe734451517763b1.tar.gz";
+      sha256 = "1vqpbr1vy8mv1wd13298andij0gmxwv87wycf30jwy48kx0rjwvz";
+    };
+    meta = with lib; {
+      description = "This plugin adds horizontal highlights for text filetypes, like markdown, orgmode, and neorg";
+      homepage = "https://github.com/lukas-reineke/headlines.nvim";
+      license = with licenses; [ mit ];
+    };
+  };
   lsp-format-nvim = buildVimPluginFrom2Nix {
     pname = "lsp-format-nvim";
     version = "2022-05-21";
@@ -2459,6 +2496,19 @@
       description = "File manager for Neovim powered by nnn";
       homepage = "https://github.com/luukvbaal/nnn.nvim";
       license = with licenses; [ bsd3 ];
+    };
+  };
+  stabilize-nvim = buildVimPluginFrom2Nix {
+    pname = "stabilize-nvim";
+    version = "2022-07-09";
+    src = fetchurl {
+      url = "https://github.com/luukvbaal/stabilize.nvim/archive/f7c4d93d6822df1770a90b7fdb46f6df5c94052e.tar.gz";
+      sha256 = "1lbh5afv0zn0ggg0wg7x97hbny6vh03mc3iy4anw819f3wwlnjxk";
+    };
+    meta = with lib; {
+      description = "Neovim plugin to stabilize window open/close events";
+      homepage = "https://github.com/luukvbaal/stabilize.nvim";
+      license = with licenses; [ bsd2 ];
     };
   };
   attempt-nvim = buildVimPluginFrom2Nix {
@@ -2521,6 +2571,18 @@
     meta = with lib; {
       description = "Reaper plugin for neovim. Remote control your daw with almost 4000 actions without leaving your favourite text editor";
       homepage = "https://github.com/madskjeldgaard/reaper-nvim";
+    };
+  };
+  tagbar = buildVimPluginFrom2Nix {
+    pname = "tagbar";
+    version = "2022-08-09";
+    src = fetchurl {
+      url = "https://github.com/preservim/tagbar/archive/87afc291ee5250debbbfe0ad0016f24d1eb296a6.tar.gz";
+      sha256 = "1m0lapxgh595aqd04rp02mdy341y9qrclnid4d7zjk4rs1xfppkn";
+    };
+    meta = with lib; {
+      description = "Vim plugin that displays tags in a window, ordered by scope";
+      homepage = "https://github.com/preservim/tagbar";
     };
   };
   JABS-nvim = buildVimPluginFrom2Nix {
@@ -3573,6 +3635,19 @@
       homepage = "https://github.com/skanehira/christmas.vim";
     };
   };
+  asyncrun-vim = buildVimPluginFrom2Nix {
+    pname = "asyncrun-vim";
+    version = "2022-06-14";
+    src = fetchurl {
+      url = "https://github.com/skywind3000/asyncrun.vim/archive/aa8a99e87e64276d52556f4d9d4f4a19afd37556.tar.gz";
+      sha256 = "1hg0lqgyrzmwkl1503hqa40skbc6500vbmljfqh8j5yhsby4b31q";
+    };
+    meta = with lib; {
+      description = ":rocket: Run Async Shell Commands in Vim 8.0 / NeoVim and Output to the Quickfix Window !!";
+      homepage = "https://github.com/skywind3000/asyncrun.vim";
+      license = with licenses; [ mit ];
+    };
+  };
   unruly-worker = buildVimPluginFrom2Nix {
     pname = "unruly-worker";
     version = "2022-03-22";
@@ -3958,6 +4033,18 @@
       description = "Tree-sitter powered syntax-aware completion framework";
       homepage = "https://github.com/vigoux/complementree.nvim";
       license = with licenses; [ bsd3 ];
+    };
+  };
+  vimwiki = buildVimPluginFrom2Nix {
+    pname = "vimwiki";
+    version = "2022-03-10";
+    src = fetchurl {
+      url = "https://github.com/vimwiki/vimwiki/archive/63af6e72dd3fa840bffb3ebcb8c96970c02e0913.tar.gz";
+      sha256 = "0zi21lqy6r9q9pfk77jwg7qjli0i1a913xfml3ha721xiy3zrh8b";
+    };
+    meta = with lib; {
+      description = "Personal Wiki for Vim";
+      homepage = "https://github.com/vimwiki/vimwiki";
     };
   };
   mason-nvim = buildVimPluginFrom2Nix {

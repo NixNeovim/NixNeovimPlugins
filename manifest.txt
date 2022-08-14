@@ -1,11 +1,4 @@
 0styx0/abbreinder.nvim
-majutsushi/tagbar
-skywind3000/asyncrun.vim
-vimwiki/vimwiki
-luukvbaal/stabilize.nvim
-hrsh7th/cmp-cmdline
-aklt/plantuml-syntax
-lukas-reineke/headlines.nvim
 Abstract-IDE/penvim
 AckslD/nvim-FeMaco.lua
 AckslD/nvim-gfold.lua
@@ -63,6 +56,7 @@ adisen99/apprentice.nvim
 adisen99/codeschool.nvim
 akinsho/dependency-assist.nvim
 akinsho/nvim-toggleterm.lua
+aklt/plantuml-syntax
 alaviss/nim.nvim
 alec-gibson/nvim-tetris
 alexaandru/nvim-lspupdate
@@ -142,6 +136,7 @@ sourcehut:henriquehbr/nvim-startup.lua
 hkupty/iron.nvim
 hkupty/nvimux
 houtsnip/vim-emacscommandline
+hrsh7th/cmp-cmdline
 hylang/vim-hy
 inkch/vim-fish::vim-fish-inkch
 is0n/fm-nvim
@@ -196,13 +191,16 @@ linty-org/readline.nvim
 lmburns/kimbox
 lourenci/github-colors
 luisiacc/gruvbox-baby
+lukas-reineke/headlines.nvim
 lukas-reineke/lsp-format.nvim
 luukvbaal/nnn.nvim
+luukvbaal/stabilize.nvim
 m-demare/attempt.nvim
 m-demare/hlargs.nvim
 m00qek/baleia.nvim
 m00qek/plugin-template.nvim
 madskjeldgaard/reaper-nvim
+majutsushi/tagbar
 matbme/JABS.nvim
 max-0406/autoclose.nvim
 max397574/better-escape.nvim
@@ -285,6 +283,7 @@ sgur/vim-textobj-parameter
 shaeinst/roshnivim-cs
 sitiom/nvim-numbertoggle
 skanehira/christmas.vim
+skywind3000/asyncrun.vim
 slugbyte/unruly-worker
 smjonas/inc-rename.nvim
 smjonas/snippet-converter.nvim
@@ -315,6 +314,7 @@ tveskag/nvim-blame-line
 udayvir-singh/hibiscus.nvim
 udayvir-singh/tangerine.nvim
 vigoux/complementree.nvim
+vimwiki/vimwiki
 williamboman/mason.nvim
 williamboman/nvim-lsp-installer
 windwp/nvim-projectconfig
