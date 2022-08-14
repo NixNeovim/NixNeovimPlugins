@@ -144,7 +144,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [RishabhRD/nvim-rdark](https://github.com/RishabhRD/nvim-rdark) | 2020-12-25 | `nvim-rdark` |
 | [Saecki/crates.nvim](https://github.com/Saecki/crates.nvim) | 2022-08-10 | `crates-nvim` |
 | [Shatur/neovim-session-manager](https://github.com/Shatur/neovim-session-manager) | 2022-08-06 | `neovim-session-manager` |
-| [SidOfc/carbon.nvim](https://github.com/SidOfc/carbon.nvim) | 2022-08-13 | `carbon-nvim` |
+| [SidOfc/carbon.nvim](https://github.com/SidOfc/carbon.nvim) | 2022-08-14 | `carbon-nvim` |
 | [SmiteshP/nvim-navic](https://github.com/SmiteshP/nvim-navic) | 2022-07-17 | `nvim-navic` |
 | [Th3Whit3Wolf/onebuddy](https://github.com/Th3Whit3Wolf/onebuddy) | 2021-04-01 | `onebuddy` |
 | [Th3Whit3Wolf/space-nvim](https://github.com/Th3Whit3Wolf/space-nvim) | 2021-07-08 | `space-nvim` |
@@ -166,7 +166,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [aliou/bats.vim](https://github.com/aliou/bats.vim) | 2021-01-10 | `bats-vim` |
 | [amirrezaask/fuzzy.nvim](https://github.com/amirrezaask/fuzzy.nvim) | 2021-05-13 | `fuzzy-nvim` |
 | [amrbashir/nvim-docs-view](https://github.com/amrbashir/nvim-docs-view) | 2022-06-21 | `nvim-docs-view` |
-| [andrewferrier/textobj-diagnostic.nvim](https://github.com/andrewferrier/textobj-diagnostic.nvim) | 2022-08-08 | `textobj-diagnostic-nvim` |
+| [andrewferrier/textobj-diagnostic.nvim](https://github.com/andrewferrier/textobj-diagnostic.nvim) | 2022-08-14 | `textobj-diagnostic-nvim` |
 | [andythigpen/nvim-coverage](https://github.com/andythigpen/nvim-coverage) | 2022-07-17 | `nvim-coverage` |
 | [anott03/nvim-lspinstall](https://github.com/anott03/nvim-lspinstall) | 2021-07-23 | `nvim-lspinstall` |
 | [anuvyklack/fold-preview.nvim](https://github.com/anuvyklack/fold-preview.nvim) | 2022-08-09 | `fold-preview-nvim` |
@@ -185,7 +185,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [bluz71/vim-moonfly-colors](https://github.com/bluz71/vim-moonfly-colors) | 2022-08-14 | `vim-moonfly-colors` |
 | [bluz71/vim-nightfly-guicolors](https://github.com/bluz71/vim-nightfly-guicolors) | 2022-08-14 | `vim-nightfly-guicolors` |
 | [booperlv/nvim-gomove](https://github.com/booperlv/nvim-gomove) | 2022-07-19 | `nvim-gomove` |
-| [brendalf/mix.nvim](https://github.com/brendalf/mix.nvim) | 2022-08-10 | `mix-nvim` |
+| [brendalf/mix.nvim](https://github.com/brendalf/mix.nvim) | 2022-08-14 | `mix-nvim` |
 | [cappyzawa/trim.nvim](https://github.com/cappyzawa/trim.nvim) | 2022-06-16 | `trim-nvim` |
 | [catppuccin/nvim](https://github.com/catppuccin/nvim) | 2022-08-11 | `catppuccin` |
 | [chipsenkbeil/distant.nvim](https://github.com/chipsenkbeil/distant.nvim) | 2022-08-05 | `distant-nvim` |
@@ -364,7 +364,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [rockerBOO/boo-colorscheme-nvim](https://github.com/rockerBOO/boo-colorscheme-nvim) | 2022-07-22 | `boo-colorscheme-nvim` |
 | [rockyzhang24/arctic.nvim](https://github.com/rockyzhang24/arctic.nvim) | 2022-08-09 | `arctic-nvim` |
 | [rodrigore/coc-tailwind-intellisense](https://github.com/rodrigore/coc-tailwind-intellisense) | 2021-09-07 | `coc-tailwind-intellisense` |
-| [rose-pine/neovim](https://github.com/rose-pine/neovim) | 2022-07-17 | `rose-pine` |
+| [rose-pine/neovim](https://github.com/rose-pine/neovim) | 2022-08-14 | `rose-pine` |
 | [s1n7ax/nvim-comment-frame](https://github.com/s1n7ax/nvim-comment-frame) | 2022-07-08 | `nvim-comment-frame` |
 | [s1n7ax/nvim-terminal](https://github.com/s1n7ax/nvim-terminal) | 2022-06-29 | `nvim-terminal` |
 | [sQVe/sort.nvim](https://github.com/sQVe/sort.nvim) | 2022-07-08 | `sort-nvim` |
@@ -407,7 +407,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [udayvir-singh/hibiscus.nvim](https://github.com/udayvir-singh/hibiscus.nvim) | 2022-08-12 | `hibiscus-nvim` |
 | [udayvir-singh/tangerine.nvim](https://github.com/udayvir-singh/tangerine.nvim) | 2022-08-09 | `tangerine-nvim` |
 | [vigoux/complementree.nvim](https://github.com/vigoux/complementree.nvim) | 2022-07-05 | `complementree-nvim` |
-| [williamboman/mason.nvim](https://github.com/williamboman/mason.nvim) | 2022-08-13 | `mason-nvim` |
+| [williamboman/mason.nvim](https://github.com/williamboman/mason.nvim) | 2022-08-14 | `mason-nvim` |
 | [williamboman/nvim-lsp-installer](https://github.com/williamboman/nvim-lsp-installer) | 2022-08-13 | `nvim-lsp-installer` |
 | [windwp/nvim-projectconfig](https://github.com/windwp/nvim-projectconfig) | 2021-11-10 | `nvim-projectconfig` |
 | [nvim-pack/nvim-spectre](https://github.com/nvim-pack/nvim-spectre) | 2022-08-02 | `nvim-spectre` |

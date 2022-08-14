@@ -537,10 +537,10 @@
   };
   carbon-nvim = buildVimPluginFrom2Nix {
     pname = "carbon-nvim";
-    version = "2022-08-13";
+    version = "2022-08-14";
     src = fetchurl {
-      url = "https://github.com/SidOfc/carbon.nvim/archive/13ce98e4a722694e75264b98d525c7a50261e415.tar.gz";
-      sha256 = "1yhj1n0mmrr7gydki0gfvzn1p841rjc6wvba66dw3lfmzcqgsban";
+      url = "https://github.com/SidOfc/carbon.nvim/archive/4e8866a34a85cc53e4c848cd807bfb986783e896.tar.gz";
+      sha256 = "05g53agbvmzqr5sgs4yagsz2k9p78n6pqb5ixlbyx4jqjnjx82x6";
     };
     meta = with lib; {
       description = "The simple directory tree viewer for Neovim written in Lua";
@@ -819,10 +819,10 @@
   };
   textobj-diagnostic-nvim = buildVimPluginFrom2Nix {
     pname = "textobj-diagnostic-nvim";
-    version = "2022-08-08";
+    version = "2022-08-14";
     src = fetchurl {
-      url = "https://github.com/andrewferrier/textobj-diagnostic.nvim/archive/5ded10136c10486774877db665a46456f5810165.tar.gz";
-      sha256 = "0fm68kvl2hf7h1hdi48mm3dn4dvc2v6r3cgss6vmy5g573f80fsh";
+      url = "https://github.com/andrewferrier/textobj-diagnostic.nvim/archive/f2b00d05df950ac5b5a2fa818d60848397acf9f4.tar.gz";
+      sha256 = "0pib2mlv2xw6qfr8lq2sp2mw7n436k4kd5rx9b7lc5pa08sq4wv2";
     };
     meta = with lib; {
       description = "NeoVim text object that finds diagnostics";
@@ -1060,10 +1060,10 @@
   };
   mix-nvim = buildVimPluginFrom2Nix {
     pname = "mix-nvim";
-    version = "2022-08-10";
+    version = "2022-08-14";
     src = fetchurl {
-      url = "https://github.com/brendalf/mix.nvim/archive/58c057f95f2728c1fbf562aeb02cd6049976d969.tar.gz";
-      sha256 = "1fyq15js87byl8v0n4990i9a0kw4r689h5wh6wm8qqrz3811vzii";
+      url = "https://github.com/brendalf/mix.nvim/archive/d4310d7eba0703c3093041ac0add0b870020e259.tar.gz";
+      sha256 = "1mhy387fki9439aw9kx0mbmc81lsy1yxpwq1hi0pyb0c93gh15d3";
     };
     meta = with lib; {
       description = "A Mix Wrapper for Neovim";
@@ -1609,8 +1609,8 @@
     pname = "leap-nvim";
     version = "2022-08-13";
     src = fetchurl {
-      url = "https://github.com/ggandor/leap.nvim/archive/801884c7de8ffeb64adb700c8685aa98d67e64bb.tar.gz";
-      sha256 = "1czy34k90ay0f23m4rqhfckqcr948cl853040157aaahw6wqxq9m";
+      url = "https://github.com/ggandor/leap.nvim/archive/88580344a77b6aaf11ffe1f5bd50d01ac9a1574f.tar.gz";
+      sha256 = "07dscdacy0d3cp7yr0lsmhpnmwzsqljm55avx9w2v67dm4m6kb2k";
     };
     meta = with lib; {
       description = "🦘 A unified, minimal, extensible interface for lightning-fast movements in the visible editor area";
@@ -3349,10 +3349,10 @@
   };
   rose-pine = buildVimPluginFrom2Nix {
     pname = "rose-pine";
-    version = "2022-07-17";
+    version = "2022-08-14";
     src = fetchurl {
-      url = "https://github.com/rose-pine/neovim/archive/9aff7f7602614f4f0046db639f07cf2bed4c321a.tar.gz";
-      sha256 = "1vwfl450wsashm4kk33k9qx1f4ili18gmz6vn7wc1gywm37ydv7s";
+      url = "https://github.com/rose-pine/neovim/archive/0f3ea8162459da82440c22ce0c9b0562e53f6a10.tar.gz";
+      sha256 = "0c19dr3120447dy6h9hxhy0idi4hqc3j1p9srf92pa63ls7hq1kf";
     };
     meta = with lib; {
       description = "Soho vibes for Neovim";
@@ -3900,10 +3900,10 @@
   };
   mason-nvim = buildVimPluginFrom2Nix {
     pname = "mason-nvim";
-    version = "2022-08-13";
+    version = "2022-08-14";
     src = fetchurl {
-      url = "https://github.com/williamboman/mason.nvim/archive/cb7bdcd2d5a71ffb12127d60bcaad5ba39ab741b.tar.gz";
-      sha256 = "0p79gwb9zf95lmbcg53j3g451785ggq6ls5i4d95v01pqgqhw48s";
+      url = "https://github.com/williamboman/mason.nvim/archive/49c7826ebca62374df44b20fcd0df7a287d4511d.tar.gz";
+      sha256 = "0ka9ihg1j4izk9xs45gpis4ymbhbn9fwxavfl34rfzmw5jfkzh40";
     };
     meta = with lib; {
       description = "Portable package manager for Neovim that runs everywhere Neovim runs. Easily install and manage LSP servers, DAP servers, linters, and formatters";
