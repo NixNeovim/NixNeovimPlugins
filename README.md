@@ -193,7 +193,6 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [amirrezaask/fuzzy.nvim](https://github.com/amirrezaask/fuzzy.nvim) | 2021-05-13 | `fuzzy-nvim` |
 | [amrbashir/nvim-docs-view](https://github.com/amrbashir/nvim-docs-view) | 2022-06-21 | `nvim-docs-view` |
 | [andersevenrud/cmp-tmux](https://github.com/andersevenrud/cmp-tmux) | 2022-01-09 | `cmp-tmux` |
-| [andersevenrud/cmp-tmux](https://github.com/andersevenrud/cmp-tmux) | 2021-12-20 | `cmp-tmux` |
 | [andersevenrud/nordic.nvim](https://github.com/andersevenrud/nordic.nvim) | 2022-07-10 | `nordic-nvim` |
 | [andrewferrier/textobj-diagnostic.nvim](https://github.com/andrewferrier/textobj-diagnostic.nvim) | 2022-08-14 | `textobj-diagnostic-nvim` |
 | [andweeb/presence.nvim](https://github.com/andweeb/presence.nvim) | 2022-06-27 | `presence-nvim` |
