@@ -643,36 +643,6 @@
     (%manifest:lint)
     (%manifest:save)))
 
-(fn command-lint [...]
-  "Check if any plugin in the manifest is already maintained in the official nixpkgs."
-  (let [args (collect [_ a (ipairs [...])] a true)
-        force? (. args "--force")
-        %manifest (manifest.load)
-        specs []
-        official-manifest (nixpkgs.get-vim-plugins-manifest)
-        whitelist (collect [_ spec (ipairs (. (manifest.load "whitelist.txt")
-                                              :specs))]
-                    spec true)
-        blacklist (collect [_ spec (ipairs (. (manifest.load "blacklist.txt")
-                                              :specs))]
-                    spec true)]
-    (each [_ spec (ipairs %manifest.specs)]
-      (if (. blacklist spec)
-          (do (io.stderr:write
-                (string.format "%s: %s is in the blacklist\n" (program-name) spec))
-              (when (not force?)
-                (table.insert specs spec)))
-          (and (not (. whitelist spec))
-               (. official-manifest spec))
-          (do (io.stderr:write
-                (string.format "%s: %s is provided by the official nixpkgs\n" (program-name) spec))
-              (when (not force?)
-                (table.insert specs spec)))
-          (table.insert specs spec)))
-    (set %manifest.specs specs)
-    (%manifest:lint)
-    (%manifest:save)))
-
 (fn command-awesome-neovim []
   "Fetch awesome-neovim vim plugins manifest."
   (let [%manifest (manifest.load)
@@ -704,7 +674,6 @@
 (fn main []
   (match arg
     [:update & args] (command-update (unpack args))
-    [:lint & args] (command-lint (unpack args))
     [:awesome-neovim & _] (command-awesome-neovim)
     args (command-update (unpack args))
     _ (error "undefined subcommand")))

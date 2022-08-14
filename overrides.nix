@@ -192,201 +192,201 @@ let
   /*
    * Add plugins that were once here but now officially maintained.
    */
-  onceHereButNowOfficiallyMaintainedPlugins = self: super:
-  {
-    inherit (final.vimPlugins)
-    cmp-tmux
-    kanagawa-nvim
-    litee-nvim
-    lua-dev-nvim
-    mini-nvim
-    nvim-ts-autotag
-    # onedark-nvim is an alias to onedark-pro-nvim.
-    # See https://github.com/NixOS/nixpkgs/pull/153045#discussion_r781641557
-    # onedark-nvim
-    project-nvim
-    renamer-nvim
-    surround-nvim
-    nvim-neoclip-lua
-    nvcode-color-schemes-vim
-    cmp-npm
-    nightfox-nvim
-    nvim-highlite
-    lean-nvim
-    galaxyline-nvim
-    rest-nvim
-    aniseed
-    conjure
-    nvim-base16
-    vim-illuminate
-    nvim-lsputils
-    one-nvim
-    harpoon
-    vim-apm
-    neogit
-    scrollbar-nvim
-    bufferline-nvim
-    flutter-tools-nvim
-    luatab-nvim
-    nordic-nvim
-    presence-nvim
-    urlview-nvim
-    SchemaStore-nvim
-    kommentary
-    snap
-    marks-nvim
-    coc-svelte
-    nvim-biscuits
-    nvim-snippy
-    bullets-vim
-    nvim-scrollview
-    specs-nvim
-    gruvbox-nvim
-    nvim-lastplace
-    vim-svelte
-    git-blame-nvim
-    cmp-spell
-    bufdelete-nvim
-    falcon
-    lsp-colors-nvim
-    todo-comments-nvim
-    tokyonight-nvim
-    trouble-nvim
-    twilight-nvim
-    which-key-nvim
-    zen-mode-nvim
-    wilder-nvim
-    nvim-jqx
-    nvim-peekup
-    fzf-lsp-nvim
-    lightspeed-nvim
-    copilot-vim
-    dashboard-nvim
-    zephyr-nvim
-    alpha-nvim
-    editorconfig-nvim
-    cmp-buffer
-    cmp-nvim-lsp
-    cmp-nvim-lua
-    cmp-path
-    nvim-cmp
-    coc-tailwindcss
-    fzf-lua
-    nvim-solarized-lua
-    fidget-nvim
-    venn-nvim
-    nterm-nvim
-    nvim-lsp-ts-utils
-    telescope-zoxide
-    neoscroll-nvim
-    lazygit-nvim
-    tabline-nvim
-    nvim-bqf
-    nvim-hlslens
-    rnvimr
-    nvim-config-local
-    nvim-lightbulb
-    substrata-nvim
-    nvim-tree-lua
-    nvim-web-devicons
-    gitsigns-nvim
-    spellsitter-nvim
-    cmp-rg
-    cmp-under-comparator
-    indent-blankline-nvim
-    stabilize-nvim
-    material-nvim
-    better-escape-nvim
-    jellybeans-nvim
-    nvim-dap
-    nvim-lint
-    formatter-nvim
-    oceanic-next
-    zk-nvim
-    numb-nvim
-    nvim-lspconfig
-    nvim-terminal-lua
-    snippets-nvim
-    FTerm-nvim
-    Navigator-nvim
-    lsp-status-nvim
-    plenary-nvim
-    popup-nvim
-    lualine-nvim
-    neorg
-    orgmode
-    telescope-media-files-nvim
-    telescope-nvim
-    nvim-treesitter
-    nvim-treesitter-textobjects
-    neuron-nvim
-    onedarkpro-nvim
-    diaglist-nvim
-    nvim-ts-rainbow
-    cmp-git
-    hop-nvim
-    octo-nvim
-    cmp-nvim-ultisnips
-    neon
-    nvim-luapad
-    aurora
-    cmp-dap
-    nvim-dap-ui
-    nvim-notify
-    vim-ultest
-    hotpot-nvim
-    lush-nvim
-    auto-session
-    goto-preview
-    barbar-nvim
-    gitlinker-nvim
-    edge
-    everforest
-    gruvbox-material
-    sonokai
-    nvim-gdb
-    neoformat
-    nvim-metals
-    nord-nvim
-    rust-tools-nvim
-    symbols-outline-nvim
-    diffview-nvim
-    winshift-nvim
-    aerial-nvim
-    dressing-nvim
-    cheatsheet-nvim
-    Shade-nvim
-    lir-nvim
-    nvim-comment
-    colorbuddy-nvim
-    nlua-nvim
-    train-nvim
-    vim-code-dark
-    registers-nvim
-    cmp-fuzzy-buffer
-    cmp-fuzzy-path
-    # NOTE: `nix flake check` fails since tabline is unfree package.
-    # cmp-tabnine
-    nvim-fzf
-    package-info-nvim
-    packer-nvim
-    nvim-code-action-menu
-    nvim-autopairs
-    range-highlight-nvim
-    nvim-cursorline
-    nvim-nonicons
-    vim-printer
-    ;
-  } // (with final.vimPlugins; {
+  # onceHereButNowOfficiallyMaintainedPlugins = self: super: {}
+  # {
+  #   inherit (final.vimPlugins)
+  #   cmp-tmux
+  #   kanagawa-nvim
+  #   litee-nvim
+  #   lua-dev-nvim
+  #   mini-nvim
+  #   nvim-ts-autotag
+  #   # onedark-nvim is an alias to onedark-pro-nvim.
+  #   # See https://github.com/NixOS/nixpkgs/pull/153045#discussion_r781641557
+  #   # onedark-nvim
+  #   project-nvim
+  #   renamer-nvim
+  #   surround-nvim
+  #   nvim-neoclip-lua
+  #   nvcode-color-schemes-vim
+  #   cmp-npm
+  #   nightfox-nvim
+  #   nvim-highlite
+  #   lean-nvim
+  #   galaxyline-nvim
+  #   rest-nvim
+  #   aniseed
+  #   conjure
+  #   nvim-base16
+  #   vim-illuminate
+  #   nvim-lsputils
+  #   one-nvim
+  #   harpoon
+  #   vim-apm
+  #   neogit
+  #   scrollbar-nvim
+  #   bufferline-nvim
+  #   flutter-tools-nvim
+  #   luatab-nvim
+  #   nordic-nvim
+  #   presence-nvim
+  #   urlview-nvim
+  #   SchemaStore-nvim
+  #   kommentary
+  #   snap
+  #   marks-nvim
+  #   coc-svelte
+  #   nvim-biscuits
+  #   nvim-snippy
+  #   bullets-vim
+  #   nvim-scrollview
+  #   specs-nvim
+  #   gruvbox-nvim
+  #   nvim-lastplace
+  #   vim-svelte
+  #   git-blame-nvim
+  #   cmp-spell
+  #   bufdelete-nvim
+  #   falcon
+  #   lsp-colors-nvim
+  #   todo-comments-nvim
+  #   tokyonight-nvim
+  #   trouble-nvim
+  #   twilight-nvim
+  #   which-key-nvim
+  #   zen-mode-nvim
+  #   wilder-nvim
+  #   nvim-jqx
+  #   nvim-peekup
+  #   fzf-lsp-nvim
+  #   lightspeed-nvim
+  #   copilot-vim
+  #   dashboard-nvim
+  #   zephyr-nvim
+  #   alpha-nvim
+  #   editorconfig-nvim
+  #   cmp-buffer
+  #   cmp-nvim-lsp
+  #   cmp-nvim-lua
+  #   cmp-path
+  #   nvim-cmp
+  #   coc-tailwindcss
+  #   fzf-lua
+  #   nvim-solarized-lua
+  #   fidget-nvim
+  #   venn-nvim
+  #   nterm-nvim
+  #   nvim-lsp-ts-utils
+  #   telescope-zoxide
+  #   neoscroll-nvim
+  #   lazygit-nvim
+  #   tabline-nvim
+  #   nvim-bqf
+  #   nvim-hlslens
+  #   rnvimr
+  #   nvim-config-local
+  #   nvim-lightbulb
+  #   substrata-nvim
+  #   nvim-tree-lua
+  #   nvim-web-devicons
+  #   gitsigns-nvim
+  #   spellsitter-nvim
+  #   cmp-rg
+  #   cmp-under-comparator
+  #   indent-blankline-nvim
+  #   stabilize-nvim
+  #   material-nvim
+  #   better-escape-nvim
+  #   jellybeans-nvim
+  #   nvim-dap
+  #   nvim-lint
+  #   formatter-nvim
+  #   oceanic-next
+  #   zk-nvim
+  #   numb-nvim
+  #   nvim-lspconfig
+  #   nvim-terminal-lua
+  #   snippets-nvim
+  #   FTerm-nvim
+  #   Navigator-nvim
+  #   lsp-status-nvim
+  #   plenary-nvim
+  #   popup-nvim
+  #   lualine-nvim
+  #   neorg
+  #   orgmode
+  #   telescope-media-files-nvim
+  #   telescope-nvim
+  #   nvim-treesitter
+  #   nvim-treesitter-textobjects
+  #   neuron-nvim
+  #   onedarkpro-nvim
+  #   diaglist-nvim
+  #   nvim-ts-rainbow
+  #   cmp-git
+  #   hop-nvim
+  #   octo-nvim
+  #   cmp-nvim-ultisnips
+  #   neon
+  #   nvim-luapad
+  #   aurora
+  #   cmp-dap
+  #   nvim-dap-ui
+  #   nvim-notify
+  #   vim-ultest
+  #   hotpot-nvim
+  #   lush-nvim
+  #   auto-session
+  #   goto-preview
+  #   barbar-nvim
+  #   gitlinker-nvim
+  #   edge
+  #   everforest
+  #   gruvbox-material
+  #   sonokai
+  #   nvim-gdb
+  #   neoformat
+  #   nvim-metals
+  #   nord-nvim
+  #   rust-tools-nvim
+  #   symbols-outline-nvim
+  #   diffview-nvim
+  #   winshift-nvim
+  #   aerial-nvim
+  #   dressing-nvim
+  #   cheatsheet-nvim
+  #   Shade-nvim
+  #   lir-nvim
+  #   nvim-comment
+  #   colorbuddy-nvim
+  #   nlua-nvim
+  #   train-nvim
+  #   vim-code-dark
+  #   registers-nvim
+  #   cmp-fuzzy-buffer
+  #   cmp-fuzzy-path
+  #   # NOTE: `nix flake check` fails since tabline is unfree package.
+  #   # cmp-tabnine
+  #   nvim-fzf
+  #   package-info-nvim
+  #   packer-nvim
+  #   nvim-code-action-menu
+  #   nvim-autopairs
+  #   range-highlight-nvim
+  #   nvim-cursorline
+  #   nvim-nonicons
+  #   vim-printer
+  #   ;
+  # } // (with final.vimPlugins; {
     # FIXME: error: Alias TrueZen-nvim is still in vim-plugins
     # true-zen-nvim = TrueZen-nvim;
-    coq-nvim = coq_nvim;
-    nvim-context-vt = nvim_context_vt;
-    cmp-luasnip = cmp_luasnip;
-    lsp-lines-nvim = lsp_lines-nvim;
-    lsp-extensions-nvim = lsp_extensions-nvim;
-    lsp-signature-nvim = lsp_signature-nvim;
-  });
+    # coq-nvim = coq_nvim;
+    # nvim-context-vt = nvim_context_vt;
+    # cmp-luasnip = cmp_luasnip;
+    # lsp-lines-nvim = lsp_lines-nvim;
+    # lsp-extensions-nvim = lsp_extensions-nvim;
+    # lsp-signature-nvim = lsp_signature-nvim;
+  # });
 
   /*
    * Add other overrides here.
@@ -442,7 +442,7 @@ in
     markBrokenPackages
     fixLicenses
     fixDependencies
-    onceHereButNowOfficiallyMaintainedPlugins
+    # onceHereButNowOfficiallyMaintainedPlugins
     otherOverrides
   ]);
 }
