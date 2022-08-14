@@ -3545,18 +3545,6 @@
       license = with licenses; [ mit ];
     };
   };
-  litee-nvim = buildVimPluginFrom2Nix {
-    pname = "litee-nvim";
-    version = "2021-12-22";
-    src = fetchurl {
-      url = "https://github.com/ldelossa/litee.nvim/archive/f3b45258cde32d743fcd0e73c5f9d7693a555e33.tar.gz";
-      sha256 = "0c3r0ddk5hwnri3f860n5ld11idhbsii1a8xs3d6gry5kfrbz9q4";
-    };
-    meta = with lib; {
-      description = "Neovim's missing IDE features";
-      homepage = "https://github.com/ldelossa/litee.nvim";
-    };
-  };
   gh-nvim = buildVimPluginFrom2Nix {
     pname = "gh-nvim";
     version = "2022-08-10";

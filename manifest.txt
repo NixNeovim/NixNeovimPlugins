@@ -276,7 +276,6 @@ kyazdani42/nvim-web-devicons
 kylechui/nvim-surround
 lalitmee/cobalt2.nvim
 lcheylus/overlength.nvim
-ldelossa/calltree.nvim
 ldelossa/gh.nvim
 ldelossa/litee.nvim
 ldelossa/vimdark
