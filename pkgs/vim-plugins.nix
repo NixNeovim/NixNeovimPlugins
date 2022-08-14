@@ -1163,19 +1163,6 @@
   };
   cmp-tmux = buildVimPluginFrom2Nix {
     pname = "cmp-tmux";
-    version = "2022-01-09";
-    src = fetchurl {
-      url = "https://github.com/andersevenrud/cmp-tmux/archive/3c16f7e73abee43b3ea3e919e8b34c24427d9530.tar.gz";
-      sha256 = "07dv4zlyvygwq01zqxxqsirrbsyx48xb6zl4kvfi6igbs5kzdq0h";
-    };
-    meta = with lib; {
-      description = "Tmux completion source for nvim-cmp and nvim-compe";
-      homepage = "https://github.com/andersevenrud/cmp-tmux";
-      license = with licenses; [ mit ];
-    };
-  };
-  cmp-tmux = buildVimPluginFrom2Nix {
-    pname = "cmp-tmux";
     version = "2021-12-20";
     src = fetchurl {
       url = "https://github.com/andersevenrud/cmp-tmux/archive/43a626173a775e4909338e0b6c2d9109b5f3bcda.tar.gz";
