@@ -2068,6 +2068,31 @@
       license = with licenses; [ mit ];
     };
   };
+  vim-easy-align = buildVimPluginFrom2Nix {
+    pname = "vim-easy-align";
+    version = "2019-04-29";
+    src = fetchurl {
+      url = "https://github.com/junegunn/vim-easy-align/archive/12dd6316974f71ce333e360c0260b4e1f81169c3.tar.gz";
+      sha256 = "0a927pag7wsdkbp83qhk45kgbzl45wyhk85z988p9whbpbgy2jcv";
+    };
+    meta = with lib; {
+      description = ":sunflower: A Vim alignment plugin";
+      homepage = "https://github.com/junegunn/vim-easy-align";
+    };
+  };
+  telescope-zoxide = buildVimPluginFrom2Nix {
+    pname = "telescope-zoxide";
+    version = "2022-07-04";
+    src = fetchurl {
+      url = "https://github.com/jvgrootveld/telescope-zoxide/archive/dbd9674e31e5caccae054a4ccee24ff8d1f2053f.tar.gz";
+      sha256 = "0vms8y1jrvjrz1ixbjfxymhv4mwkx1wnb2z75mcvnxh82940wrgk";
+    };
+    meta = with lib; {
+      description = "An extension for telescope.nvim that allows you operate zoxide within Neovim";
+      homepage = "https://github.com/jvgrootveld/telescope-zoxide";
+      license = with licenses; [ mit ];
+    };
+  };
   github-vscode-theme-nvim = buildVimPluginFrom2Nix {
     pname = "github-vscode-theme-nvim";
     version = "2022-08-13";
@@ -2522,6 +2547,30 @@
       description = "A minimalist autoclose plugin for neovim written by Lua";
       homepage = "https://github.com/max-0406/autoclose.nvim";
       license = with licenses; [ mit ];
+    };
+  };
+  better-escape-nvim = buildVimPluginFrom2Nix {
+    pname = "better-escape-nvim";
+    version = "2022-03-28";
+    src = fetchurl {
+      url = "https://github.com/max397574/better-escape.nvim/archive/d5ee0cef56a7e41a86048c14f25e964876ac20c1.tar.gz";
+      sha256 = "16nblb5qmwlvzkfdcal3myhda0cnn10irmqqk01lii3pql16ysn3";
+    };
+    meta = with lib; {
+      description = "Escape from insert mode without delay when typing";
+      homepage = "https://github.com/max397574/better-escape.nvim";
+    };
+  };
+  undotree = buildVimPluginFrom2Nix {
+    pname = "undotree";
+    version = "2022-06-27";
+    src = fetchurl {
+      url = "https://github.com/mbbill/undotree/archive/bfc9b060c9e84497b15b4d602095ba008383b664.tar.gz";
+      sha256 = "0knzwfma8w3c08ya08zdb7zvsc7nfcmalfcnswdnm6615kgjxzl6";
+    };
+    meta = with lib; {
+      description = "The undo history visualizer for VIM";
+      homepage = "https://github.com/mbbill/undotree";
     };
   };
   tidy-nvim = buildVimPluginFrom2Nix {
@@ -3101,6 +3150,19 @@
       description = "Yet Another Build System/Code Runner for Neovim, written in lua";
       homepage = "https://github.com/pianocomposer321/yabs.nvim";
       license = with licenses; [ agpl3Only ];
+    };
+  };
+  nerdcommenter = buildVimPluginFrom2Nix {
+    pname = "nerdcommenter";
+    version = "2022-05-20";
+    src = fetchurl {
+      url = "https://github.com/preservim/nerdcommenter/archive/6d30ebcd428eb5a244229a125420a1e044b42b52.tar.gz";
+      sha256 = "0gkbsyhk4ihz0iyprcxixcnf2f0vl09pbx7ay2qm2fi79dp04lqq";
+    };
+    meta = with lib; {
+      description = "Vim plugin for intensely nerdy commenting powers";
+      homepage = "https://github.com/preservim/nerdcommenter";
+      license = with licenses; [ cc0 ];
     };
   };
   github-nvim-theme = buildVimPluginFrom2Nix {

@@ -264,7 +264,9 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [jose-elias-alvarez/null-ls.nvim](https://github.com/jose-elias-alvarez/null-ls.nvim) | 2022-08-11 | `null-ls-nvim` |
 | [jubnzv/mdeval.nvim](https://github.com/jubnzv/mdeval.nvim) | 2022-06-03 | `mdeval-nvim` |
 | [jubnzv/virtual-types.nvim](https://github.com/jubnzv/virtual-types.nvim) | 2022-03-17 | `virtual-types-nvim` |
-| [kaiuri/github-vscode-theme.nvim](https://github.com/kaiuri/github-vscode-theme.nvim) | 2022-08-13 | `github-vscode-theme-nvim` |
+| [junegunn/vim-easy-align](https://github.com/junegunn/vim-easy-align) | 2019-04-29 | `vim-easy-align` |
+| [jvgrootveld/telescope-zoxide](https://github.com/jvgrootveld/telescope-zoxide) | 2022-07-04 | `telescope-zoxide` |
+| [kaiuri/github-vscode-theme.nvim](https://github.com/kaiuri/github-vscode-theme.nvim) | 2022-08-11 | `github-vscode-theme-nvim` |
 | [kaiuri/nvim-juliana](https://github.com/kaiuri/nvim-juliana) | 2022-08-07 | `nvim-juliana` |
 | [kana/vim-textobj-indent](https://github.com/kana/vim-textobj-indent) | 2013-01-18 | `vim-textobj-indent` |
 | [kazhala/close-buffers.nvim](https://github.com/kazhala/close-buffers.nvim) | 2021-11-14 | `close-buffers-nvim` |
@@ -300,6 +302,8 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [madskjeldgaard/reaper-nvim](https://github.com/madskjeldgaard/reaper-nvim) | 2021-01-29 | `reaper-nvim` |
 | [matbme/JABS.nvim](https://github.com/matbme/JABS.nvim) | 2022-07-06 | `JABS-nvim` |
 | [max-0406/autoclose.nvim](https://github.com/max-0406/autoclose.nvim) | 2022-05-03 | `autoclose-nvim` |
+| [max397574/better-escape.nvim](https://github.com/max397574/better-escape.nvim) | 2022-03-28 | `better-escape-nvim` |
+| [mbbill/undotree](https://github.com/mbbill/undotree) | 2022-06-27 | `undotree` |
 | [mcauley-penney/tidy.nvim](https://github.com/mcauley-penney/tidy.nvim) | 2022-07-21 | `tidy-nvim` |
 | [mcchrish/zenbones.nvim](https://github.com/mcchrish/zenbones.nvim) | 2022-08-07 | `zenbones-nvim` |
 | [meliora-theme/neovim](https://github.com/meliora-theme/neovim) | 2022-08-13 | `neovim` |
@@ -345,6 +349,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [phha/zenburn.nvim](https://github.com/phha/zenburn.nvim) | 2022-04-28 | `zenburn-nvim` |
 | [pianocomposer321/consolation.nvim](https://github.com/pianocomposer321/consolation.nvim) | 2021-09-01 | `consolation-nvim` |
 | [pianocomposer321/yabs.nvim](https://github.com/pianocomposer321/yabs.nvim) | 2022-05-09 | `yabs-nvim` |
+| [preservim/nerdcommenter](https://github.com/preservim/nerdcommenter) | 2022-05-20 | `nerdcommenter` |
 | [projekt0n/github-nvim-theme](https://github.com/projekt0n/github-nvim-theme) | 2022-08-03 | `github-nvim-theme` |
 | [pwntester/codeql.nvim](https://github.com/pwntester/codeql.nvim) | 2022-08-11 | `codeql-nvim` |
 | [rafaelsq/nvim-goc.lua](https://github.com/rafaelsq/nvim-goc.lua) | 2022-06-07 | `nvim-goc-lua` |
