@@ -77,7 +77,7 @@ It is handy to use `builtins.getFlake`, which was [introduced in Nix 2.4][1]. Fo
 ```nix
 with import <nixpkgs> {
   overlays = [
-    (builtins.getFlake "github:m15a/nixpkgs-vim-extra-plugins").overlays.default
+    (builtins.getFlake "github:jooooscha/nixpkgs-vim-extra-plugins").overlays.default
   ];
 };
 ```
@@ -88,20 +88,11 @@ For Nix <2.4, use `builtins.fetchTarball` instead.
 with import <nixpkgs> {
   overlays = [
     (import (builtins.fetchTarball {
-      url = "https://github.com/m15a/nixpkgs-vim-extra-plugins/archive/main.tar.gz";
+      url = "https://github.com/jooooscha/nixpkgs-vim-extra-plugins/archive/main.tar.gz";
     })).overlays.default
   ];
 };
 ```
-
-### Via NUR
-
-You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the package list][3].
-
-[0]: https://github.com/rockerBOO/awesome-neovim
-[1]: https://nixos.org/manual/nix/stable/release-notes/rl-2.4.html?highlight=builtins.getFlake#other-features
-[2]: https://nur.nix-community.org/
-[3]: https://nur.nix-community.org/repos/m15a/
 
 ## Available Vim/Neovim plugins
 
