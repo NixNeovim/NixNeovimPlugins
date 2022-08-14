@@ -10,7 +10,6 @@ This is a fork that aims to combine as many plugins in one repo as possible. In 
 - [Usage](#usage)
     - [In flake](#in-flake)
     - [In legacy Nix](#in-legacy-nix)
-    - [Via NUR](#via-nur)
 - [Available Vim/Neovim plugins](#available-vimneovim-plugins)
 - [Contribution](#contribution)
     - [How to add a new plugin](#how-to-add-a-new-plugin)
