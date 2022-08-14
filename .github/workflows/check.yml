@@ -30,5 +30,9 @@ jobs:
         with:
           extra_nix_config: |
             access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
+      - uses: cachix/cachix-action@v10
+        with:
+          name: nixpkgs-vim-extra-plugins
+          authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
       - run: |
           nix flake check --update-input nixpkgs
