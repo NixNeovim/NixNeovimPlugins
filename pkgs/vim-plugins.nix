@@ -4191,6 +4191,18 @@
       license = with licenses; [ mit ];
     };
   };
+  gruvbox = buildVimPluginFrom2Nix {
+    pname = "gruvbox";
+    version = "2020-07-03";
+    src = fetchurl {
+      url = "https://github.com/morhetz/gruvbox/archive/bf2885a95efdad7bd5e4794dd0213917770d79b7.tar.gz";
+      sha256 = "1kpb337cmnzih4carisbvb42w3kj1gbgafq8bnnr0mscwyqgnavi";
+    };
+    meta = with lib; {
+      description = "Retro groove color scheme for Vim";
+      homepage = "https://github.com/morhetz/gruvbox";
+    };
+  };
   legendary-nvim = buildVimPluginFrom2Nix {
     pname = "legendary-nvim";
     version = "2022-07-26";

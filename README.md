@@ -2,14 +2,13 @@
 
 Nix flake of miscellaneous Vim/Neovim plugins.
 
-This is a fork that aims to combine as many plugins in one repo as possible. In comparison to the original, this repo also contains plugins that are availbale in the nixpkgs repo. So you have all your plugins in one combined repo.
-
 ## Table of contents
 
 - [Description](#description)
 - [Usage](#usage)
     - [In flake](#in-flake)
     - [In legacy Nix](#in-legacy-nix)
+    - [Via NUR](#via-nur)
 - [Available Vim/Neovim plugins](#available-vimneovim-plugins)
 - [Contribution](#contribution)
     - [How to add a new plugin](#how-to-add-a-new-plugin)
@@ -34,38 +33,35 @@ So you should be careful if you want to use them.
 ### In flake
 
 The overlay simply adds extra Vim plugins into `pkgs.vimExtraPlugins`.
-Use it as you normally do, like here for homeManager
-
-First apply overlay to your nixpkgs
+Use it as you normally do, like
 
 ```nix
 {
   inputs = {
+    flake-utils.url = "github:numtide/flake-utils";
     vim-extra-plugins.url = "github:m15a/nixpkgs-vim-extra-plugins";
   };
-  
   outputs = { self, nixpkgs, flake-utils, vim-extra-plugins, ... }:
+  flake-utils.lib.eachDefaultSystem (system:
   let
-    system = "x86_64-linux";
     pkgs = import nixpkgs {
       inherit system;
       overlays = [ vim-extra-plugins.overlays.default ];
     };
-   in {
-   # other configs
-   };
-}
-```
-Then add plugins to neovim
-
-```nix
-{
-  programs.neovim = {
-    plugins = with pkgs.vimExtraPlugins; [
-      lspactions
-      vim-hy
-    ];
-  };
+  in {
+    packages = {
+      my-neovim = pkgs.neovim.override {
+        configure = {
+          packages.example = with pkgs.vimExtraPlugins; {
+            start = [
+              lspactions
+              vim-hy
+            ];
+          };
+        };
+      };
+    };
+  });
 }
 ```
 
@@ -76,7 +72,7 @@ It is handy to use `builtins.getFlake`, which was [introduced in Nix 2.4][1]. Fo
 ```nix
 with import <nixpkgs> {
   overlays = [
-    (builtins.getFlake "github:jooooscha/nixpkgs-vim-extra-plugins").overlays.default
+    (builtins.getFlake "github:m15a/nixpkgs-vim-extra-plugins").overlays.default
   ];
 };
 ```
@@ -87,11 +83,15 @@ For Nix <2.4, use `builtins.fetchTarball` instead.
 with import <nixpkgs> {
   overlays = [
     (import (builtins.fetchTarball {
-      url = "https://github.com/jooooscha/nixpkgs-vim-extra-plugins/archive/main.tar.gz";
+      url = "https://github.com/m15a/nixpkgs-vim-extra-plugins/archive/main.tar.gz";
     })).overlays.default
   ];
 };
 ```
+
+### Via NUR
+
+You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the package list][3].
 
 [0]: https://github.com/rockerBOO/awesome-neovim
 [1]: https://nixos.org/manual/nix/stable/release-notes/rl-2.4.html?highlight=builtins.getFlake#other-features
@@ -431,6 +431,7 @@ with import <nixpkgs> {
 | [mnacamura/vim-r7rs-syntax](https://github.com/mnacamura/vim-r7rs-syntax) | 2021-07-09 | `vim-r7rs-syntax` |
 | [monaqa/dial.nvim](https://github.com/monaqa/dial.nvim) | 2022-06-18 | `dial-nvim` |
 | [monkoose/matchparen.nvim](https://github.com/monkoose/matchparen.nvim) | 2022-08-10 | `matchparen-nvim` |
+| [morhetz/gruvbox](https://github.com/morhetz/gruvbox) | 2020-07-03 | `gruvbox` |
 | [mrjones2014/legendary.nvim](https://github.com/mrjones2014/legendary.nvim) | 2022-07-26 | `legendary-nvim` |
 | [ms-jpq/chadtree](https://github.com/ms-jpq/chadtree) | 2021-12-22 | `chadtree` |
 | [ms-jpq/coq_nvim](https://github.com/ms-jpq/coq_nvim) | 2022-08-14 | `coq-nvim` |
@@ -703,8 +704,7 @@ In `overrides.nix`, you see something like
   }
 ```
 
-Add your overrides like here if needed.
-Override can be necessary if the correct licese is not detected, or if your plugins has any dependencies.
+Add your overrides here if needed.
 
 #### 4. Create a Pull Request
 

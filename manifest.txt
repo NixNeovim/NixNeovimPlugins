@@ -327,6 +327,7 @@ mnacamura/vim-fennel-syntax
 mnacamura/vim-r7rs-syntax
 monaqa/dial.nvim
 monkoose/matchparen.nvim
+morhetz/gruvbox
 mrjones2014/legendary.nvim
 ms-jpq/chadtree
 ms-jpq/coq_nvim
