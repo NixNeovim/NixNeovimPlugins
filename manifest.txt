@@ -26,6 +26,7 @@ LinArcX/telescope-command-palette.nvim
 LionC/nest.nvim
 LoricAndre/OneTerm.nvim
 Mangeshrex/uwu.vim
+Mofiqul/adwaita.nvim
 Mofiqul/dracula.nvim
 Mofiqul/vscode.nvim
 MordechaiHadad/nvim-papadark
@@ -78,6 +79,7 @@ ahmedkhalf/project.nvim
 akinsho/bufferline.nvim
 akinsho/dependency-assist.nvim
 akinsho/flutter-tools.nvim
+akinsho/git-conflict.nvim
 akinsho/nvim-toggleterm.lua
 aklt/plantuml-syntax
 alaviss/nim.nvim
@@ -89,6 +91,7 @@ amirrezaask/fuzzy.nvim
 amrbashir/nvim-docs-view
 andersevenrud/cmp-tmux
 andersevenrud/nordic.nvim
+andrewferrier/debugprint.nvim
 andrewferrier/textobj-diagnostic.nvim
 andweeb/presence.nvim
 andythigpen/nvim-coverage
@@ -114,6 +117,7 @@ bluz71/vim-moonfly-colors
 bluz71/vim-nightfly-guicolors
 booperlv/nvim-gomove
 brendalf/mix.nvim
+brenoprata10/nvim-highlight-colors
 camspiers/snap
 cappyzawa/trim.nvim
 catppuccin/nvim
@@ -374,8 +378,10 @@ nyngwang/NeoRoot.lua
 oberblastmeister/neuron.nvim
 ojroques/nvim-hardline
 ojroques/nvim-lspfuzzy
+olexsmir/gopher.nvim
 olimorris/onedarkpro.nvim
 olimorris/persisted.nvim
+olivercederborg/poimandres.nvim
 onsails/diaglist.nvim
 onsails/lspkind.nvim
 p00f/cphelper.nvim
@@ -423,6 +429,7 @@ rockerBOO/boo-colorscheme-nvim
 rockyzhang24/arctic.nvim
 rodrigore/coc-tailwind-intellisense
 romgrk/barbar.nvim
+rose-pine/neovim::rose-pine
 ruifm/gitlinker.nvim
 s1n7ax/nvim-comment-frame
 s1n7ax/nvim-terminal

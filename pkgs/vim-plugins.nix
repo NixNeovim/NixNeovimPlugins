@@ -357,6 +357,18 @@
       license = with licenses; [ mit ];
     };
   };
+  adwaita-nvim = buildVimPluginFrom2Nix {
+    pname = "adwaita-nvim";
+    version = "2022-08-12";
+    src = fetchurl {
+      url = "https://github.com/Mofiqul/adwaita.nvim/archive/230e1808045c70e7d6eda2eed9f1439a7474b309.tar.gz";
+      sha256 = "141frliyqb0d6vyih6njwqlvc7z58sic4vpng7xl4lhblpg4cvgm";
+    };
+    meta = with lib; {
+      description = "Neovim colorscheme using Gnome Adwaita syntax";
+      homepage = "https://github.com/Mofiqul/adwaita.nvim";
+    };
+  };
   dracula-nvim = buildVimPluginFrom2Nix {
     pname = "dracula-nvim";
     version = "2022-07-08";
@@ -1021,6 +1033,18 @@
       license = with licenses; [ mit ];
     };
   };
+  git-conflict-nvim = buildVimPluginFrom2Nix {
+    pname = "git-conflict-nvim";
+    version = "2022-08-16";
+    src = fetchurl {
+      url = "https://github.com/akinsho/git-conflict.nvim/archive/be9b2b80b7e9021db03322d46b56bff5c22cd253.tar.gz";
+      sha256 = "0cm9kcsd3zcm0i954nbvic9ggdcjxpay8xcb3lddjl6d8w5bknly";
+    };
+    meta = with lib; {
+      description = "A plugin to visualise and resolve merge conflicts in neovim";
+      homepage = "https://github.com/akinsho/git-conflict.nvim";
+    };
+  };
   toggleterm-nvim = buildVimPluginFrom2Nix {
     pname = "toggleterm-nvim";
     version = "2022-08-13";
@@ -1159,6 +1183,18 @@
       description = "A nord-esque colorscheme for neovim";
       homepage = "https://github.com/andersevenrud/nordic.nvim";
       license = with licenses; [ mit ];
+    };
+  };
+  debugprint-nvim = buildVimPluginFrom2Nix {
+    pname = "debugprint-nvim";
+    version = "2022-08-18";
+    src = fetchurl {
+      url = "https://github.com/andrewferrier/debugprint.nvim/archive/aff6e0332d4fb8f954dfa42d824723751ee3774f.tar.gz";
+      sha256 = "0b57dl70gbsjjdshbfzl2friqmvaxwmvqgw2sbvj4c8zky684z2d";
+    };
+    meta = with lib; {
+      description = "Debugging in NeoVim the print() way!";
+      homepage = "https://github.com/andrewferrier/debugprint.nvim";
     };
   };
   textobj-diagnostic-nvim = buildVimPluginFrom2Nix {
@@ -1475,6 +1511,18 @@
     meta = with lib; {
       description = "A Mix Wrapper for Neovim";
       homepage = "https://github.com/brendalf/mix.nvim";
+    };
+  };
+  nvim-highlight-colors = buildVimPluginFrom2Nix {
+    pname = "nvim-highlight-colors";
+    version = "2022-08-15";
+    src = fetchurl {
+      url = "https://github.com/brenoprata10/nvim-highlight-colors/archive/d218379b9ca6e84919359b21711b8424d1772029.tar.gz";
+      sha256 = "1dapdzw6nrjy002ndm6xlg77gj2nz2z2lpf96rzckli40p37yfh7";
+    };
+    meta = with lib; {
+      description = "Highlight colors for neovim";
+      homepage = "https://github.com/brenoprata10/nvim-highlight-colors";
     };
   };
   snap = buildVimPluginFrom2Nix {
@@ -4795,6 +4843,18 @@
       license = with licenses; [ bsd2 ];
     };
   };
+  gopher-nvim = buildVimPluginFrom2Nix {
+    pname = "gopher-nvim";
+    version = "2022-07-11";
+    src = fetchurl {
+      url = "https://github.com/olexsmir/gopher.nvim/archive/80d06594259db519cfd047407d30a9871f0fe936.tar.gz";
+      sha256 = "162vydh7x4w69yf8lqvxlpb5hb7kfm3p3q1nvl3c5vv02k523rg6";
+    };
+    meta = with lib; {
+      description = "Neovim plugin for make golang development easiest";
+      homepage = "https://github.com/olexsmir/gopher.nvim";
+    };
+  };
   onedarkpro-nvim = buildVimPluginFrom2Nix {
     pname = "onedarkpro-nvim";
     version = "2022-07-22";
@@ -4819,6 +4879,18 @@
       description = "💾 Simple session management for Neovim with git branching, autosave/autoload and Telescope support";
       homepage = "https://github.com/olimorris/persisted.nvim";
       license = with licenses; [ mit ];
+    };
+  };
+  poimandres-nvim = buildVimPluginFrom2Nix {
+    pname = "poimandres-nvim";
+    version = "2022-08-19";
+    src = fetchurl {
+      url = "https://github.com/olivercederborg/poimandres.nvim/archive/a66a39ecd9e61882e7285a9fd1715a496fcc88de.tar.gz";
+      sha256 = "124slxrgr4h2hawdb1h0g7qan5mnrpsnr2ngyaqfka1z9mlhz2r1";
+    };
+    meta = with lib; {
+      description = "Poimandres colorscheme for Neovim written in Lua";
+      homepage = "https://github.com/olivercederborg/poimandres.nvim";
     };
   };
   diaglist-nvim = buildVimPluginFrom2Nix {
@@ -5421,6 +5493,18 @@
     meta = with lib; {
       description = "The neovim tabline plugin";
       homepage = "https://github.com/romgrk/barbar.nvim";
+    };
+  };
+  rose-pine = buildVimPluginFrom2Nix {
+    pname = "rose-pine";
+    version = "2022-08-14";
+    src = fetchurl {
+      url = "https://github.com/rose-pine/neovim/archive/0f3ea8162459da82440c22ce0c9b0562e53f6a10.tar.gz";
+      sha256 = "0c19dr3120447dy6h9hxhy0idi4hqc3j1p9srf92pa63ls7hq1kf";
+    };
+    meta = with lib; {
+      description = "Soho vibes for Neovim";
+      homepage = "https://github.com/rose-pine/neovim";
     };
   };
   gitlinker-nvim = buildVimPluginFrom2Nix {
