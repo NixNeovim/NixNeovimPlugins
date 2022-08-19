@@ -112,7 +112,6 @@ beauwilliams/statusline.lua
 bennypowers/nvim-regexplainer
 bfredl/nvim-luadev
 bkegley/gloombuddy
-blackCauldron7/surround.nvim
 bluz71/vim-moonfly-colors
 bluz71/vim-nightfly-guicolors
 booperlv/nvim-gomove
