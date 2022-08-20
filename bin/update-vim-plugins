@@ -380,14 +380,14 @@
         (set sourcehut.token-missing-warned true)
         nil)))
 
-(fn sourcehut.get [query token]
-  "Get contents by query using sourcehut REST API."
-  (let [token (or token (sourcehut.get-token))
-        request-headers {:content-type "application/json"
-                         :authorization (when token (string.format "token %s" token))}
-        (body headers) (http.get (string.format "https://git.sr.ht/api/%s" query)
-                                 request-headers)]
-    (values (cjson.decode body) headers)))
+; (fn sourcehut.get [query token]
+  ; "Get contents by query using sourcehut REST API."
+  ; (let [token (or token (sourcehut.get-token))
+        ; request-headers {:content-type "application/json"
+                         ; :authorization (when token (string.format "token %s" token))}
+        ; (body headers) (http.get (string.format "https://git.sr.ht/api/%s" query)
+                                 ; request-headers)]
+    ; (values (cjson.decode body) headers)))
 
 ;;; ------------------------------------------------------------------------------------------------
 ;;; Sourcehut repository
