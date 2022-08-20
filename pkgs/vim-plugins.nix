@@ -1450,18 +1450,6 @@
       license = with licenses; [ mit ];
     };
   };
-  surround-nvim = buildVimPluginFrom2Nix {
-    pname = "surround-nvim";
-    version = "2022-01-10";
-    src = fetchurl {
-      url = "https://github.com/blackCauldron7/surround.nvim/archive/8b05e7c7119031c8e5ecb61a3013af42fd439c7c.tar.gz";
-      sha256 = "1wxmi2rvayrx9817fj5aqhww3vdkij89y3575ypzm7yv20kr9pkj";
-    };
-    meta = with lib; {
-      description = "A surround text object plugin for neovim written in lua";
-      homepage = "https://github.com/blackCauldron7/surround.nvim";
-    };
-  };
   vim-moonfly-colors = buildVimPluginFrom2Nix {
     pname = "vim-moonfly-colors";
     version = "2022-08-14";
@@ -4814,6 +4802,19 @@
     meta = with lib; {
       description = "Make neovim the best note taking application";
       homepage = "https://github.com/oberblastmeister/neuron.nvim";
+      license = with licenses; [ mit ];
+    };
+  };
+  goto-breakpoints-nvim = buildVimPluginFrom2Nix {
+    pname = "goto-breakpoints-nvim";
+    version = "2022-08-18";
+    src = fetchurl {
+      url = "https://github.com/ofirgall/goto-breakpoints.nvim/archive/af43bb905cbff6c8ebb8e6438b75853b7baf1c74.tar.gz";
+      sha256 = "16lf0b8wxfg8mjb6gkqyyv94irhixif0rzb40516v2hlfxz7sw8h";
+    };
+    meta = with lib; {
+      description = "Cycle between breakpoints with keymappings for nvim-dap";
+      homepage = "https://github.com/ofirgall/goto-breakpoints.nvim";
       license = with licenses; [ mit ];
     };
   };

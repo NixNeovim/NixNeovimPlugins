@@ -216,7 +216,6 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [bennypowers/nvim-regexplainer](https://github.com/bennypowers/nvim-regexplainer) | 2022-08-02 | `nvim-regexplainer` |
 | [bfredl/nvim-luadev](https://github.com/bfredl/nvim-luadev) | 2022-01-26 | `nvim-luadev` |
 | [bkegley/gloombuddy](https://github.com/bkegley/gloombuddy) | 2021-04-16 | `gloombuddy` |
-| [blackCauldron7/surround.nvim](https://github.com/blackCauldron7/surround.nvim) | 2022-01-10 | `surround-nvim` |
 | [bluz71/vim-moonfly-colors](https://github.com/bluz71/vim-moonfly-colors) | 2022-08-14 | `vim-moonfly-colors` |
 | [bluz71/vim-nightfly-guicolors](https://github.com/bluz71/vim-nightfly-guicolors) | 2022-08-14 | `vim-nightfly-guicolors` |
 | [booperlv/nvim-gomove](https://github.com/booperlv/nvim-gomove) | 2022-07-19 | `nvim-gomove` |
@@ -480,6 +479,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [nyngwang/NeoNoName.lua](https://github.com/nyngwang/NeoNoName.lua) | 2022-06-20 | `NeoNoName-lua` |
 | [nyngwang/NeoRoot.lua](https://github.com/nyngwang/NeoRoot.lua) | 2022-04-19 | `NeoRoot-lua` |
 | [oberblastmeister/neuron.nvim](https://github.com/oberblastmeister/neuron.nvim) | 2022-02-27 | `neuron-nvim` |
+| [ofirgall/goto-breakpoints.nvim](https://github.com/ofirgall/goto-breakpoints.nvim) | 2022-08-18 | `goto-breakpoints-nvim` |
 | [ojroques/nvim-hardline](https://github.com/ojroques/nvim-hardline) | 2022-06-18 | `nvim-hardline` |
 | [ojroques/nvim-lspfuzzy](https://github.com/ojroques/nvim-lspfuzzy) | 2022-05-22 | `nvim-lspfuzzy` |
 | [olexsmir/gopher.nvim](https://github.com/olexsmir/gopher.nvim) | 2022-07-11 | `gopher-nvim` |
