@@ -1322,6 +1322,19 @@
       license = with licenses; [ gpl3Only ];
     };
   };
+  cmp-pandoc-nvim = buildVimPluginFrom2Nix {
+    pname = "cmp-pandoc-nvim";
+    version = "2022-05-03";
+    src = fetchurl {
+      url = "https://github.com/aspeddro/cmp-pandoc.nvim/archive/cb2980263e14fb3c1b776edbd2c7a312b67c65ae.tar.gz";
+      sha256 = "0ybrd0zinbm8ihlpqx977kgz45g6kaaw2nydadplf83q92lvwz48";
+    };
+    meta = with lib; {
+      description = "Pandoc source for nvim-cmp";
+      homepage = "https://github.com/aspeddro/cmp-pandoc.nvim";
+      license = with licenses; [ mit ];
+    };
+  };
   urlview-nvim = buildVimPluginFrom2Nix {
     pname = "urlview-nvim";
     version = "2022-08-19";
@@ -1836,6 +1849,31 @@
       license = with licenses; [ gpl3Only ];
     };
   };
+  cmp-conventionalcommits = buildVimPluginFrom2Nix {
+    pname = "cmp-conventionalcommits";
+    version = "2021-10-28";
+    src = fetchurl {
+      url = "https://github.com/davidsierradz/cmp-conventionalcommits/archive/5518362bc4f5dfbc9d242d9379fdec48b6278c5e.tar.gz";
+      sha256 = "0v1l4yr28nimqwi75lhwawmkq8gxs17ybaybp7b1b7avinq3lakf";
+    };
+    meta = with lib; {
+      description = "(WIP) nvim-cmp source for autocompleting git commits with conventional commits types and lerna packages as scope";
+      homepage = "https://github.com/davidsierradz/cmp-conventionalcommits";
+      license = with licenses; [ mit ];
+    };
+  };
+  cmp-snippy = buildVimPluginFrom2Nix {
+    pname = "cmp-snippy";
+    version = "2021-09-20";
+    src = fetchurl {
+      url = "https://github.com/dcampos/cmp-snippy/archive/9af1635fe40385ffa3dabf322039cb5ae1fd7d35.tar.gz";
+      sha256 = "0s40d02mpbx1xifmz458fic1x7kykzgi3b1w3hcn3s226qj3ynw7";
+    };
+    meta = with lib; {
+      description = "nvim-snippy completion source for nvim-cmp";
+      homepage = "https://github.com/dcampos/cmp-snippy";
+    };
+  };
   nvim-snippy = buildVimPluginFrom2Nix {
     pname = "nvim-snippy";
     version = "2022-08-03";
@@ -1884,6 +1922,45 @@
     meta = with lib; {
       description = "🔫 Bullets.vim is a Vim/NeoVim plugin for automated bullet lists";
       homepage = "https://github.com/dkarter/bullets.vim";
+    };
+  };
+  cmp-cmdline-history = buildVimPluginFrom2Nix {
+    pname = "cmp-cmdline-history";
+    version = "2022-05-04";
+    src = fetchurl {
+      url = "https://github.com/dmitmel/cmp-cmdline-history/archive/003573b72d4635ce636234a826fa8c4ba2895ffe.tar.gz";
+      sha256 = "0d06i1ic3n3gk8159ya79c0nrzxaxb3lq9452xbwd6syjqxs4qhx";
+    };
+    meta = with lib; {
+      description = "Source for nvim-cmp which reads results from command-line or search histories";
+      homepage = "https://github.com/dmitmel/cmp-cmdline-history";
+      license = with licenses; [ cc0 ];
+    };
+  };
+  cmp-digraphs = buildVimPluginFrom2Nix {
+    pname = "cmp-digraphs";
+    version = "2021-12-13";
+    src = fetchurl {
+      url = "https://github.com/dmitmel/cmp-digraphs/archive/5efc1f0078d7c5f3ea1c8e3aad04da3fd6e081a9.tar.gz";
+      sha256 = "13y2zgljn9hfjg8nrmzjdxfc7a32nzczlrcq4wi6b1gjn25dcvnk";
+    };
+    meta = with lib; {
+      description = "A nvim-cmp source for completing digraphs";
+      homepage = "https://github.com/dmitmel/cmp-digraphs";
+      license = with licenses; [ cc0 ];
+    };
+  };
+  cmp-vim-lsp = buildVimPluginFrom2Nix {
+    pname = "cmp-vim-lsp";
+    version = "2021-10-26";
+    src = fetchurl {
+      url = "https://github.com/dmitmel/cmp-vim-lsp/archive/b13312a8c1a74a8747e64117f26f17390e8abfa8.tar.gz";
+      sha256 = "0yfx47hfi2qs13j967j8rrcdfgrbl3vnsxl13myp5xcvz92dlkv4";
+    };
+    meta = with lib; {
+      description = "Integration between https://github.com/hrsh7th/nvim-cmp and https://github.com/prabirshrestha/vim-lsp";
+      homepage = "https://github.com/dmitmel/cmp-vim-lsp";
+      license = with licenses; [ cc0 ];
     };
   };
   vim = buildVimPluginFrom2Nix {
@@ -2710,6 +2787,30 @@
       homepage = "https://github.com/hrsh7th/cmp-cmdline";
     };
   };
+  cmp-copilot = buildVimPluginFrom2Nix {
+    pname = "cmp-copilot";
+    version = "2022-04-11";
+    src = fetchurl {
+      url = "https://github.com/hrsh7th/cmp-copilot/archive/1f3f31c54bd71e41ed157430702bc2837ea582ab.tar.gz";
+      sha256 = "1fyscr72rrhijgz1c265sfghqmzs5l24n6q4smxacsfxz49fwmgy";
+    };
+    meta = with lib; {
+      description = "copilot.vim source for nvim-cmp";
+      homepage = "https://github.com/hrsh7th/cmp-copilot";
+    };
+  };
+  cmp-emoji = buildVimPluginFrom2Nix {
+    pname = "cmp-emoji";
+    version = "2021-09-28";
+    src = fetchurl {
+      url = "https://github.com/hrsh7th/cmp-emoji/archive/19075c36d5820253d32e2478b6aaf3734aeaafa0.tar.gz";
+      sha256 = "0239rr3zdvpbdwzc2yxnbqndqsqxsxdqfmv1sapbh6ywz6pi6zhz";
+    };
+    meta = with lib; {
+      description = "nvim-cmp source for emoji";
+      homepage = "https://github.com/hrsh7th/cmp-emoji";
+    };
+  };
   cmp-nvim-lsp = buildVimPluginFrom2Nix {
     pname = "cmp-nvim-lsp";
     version = "2022-05-16";
@@ -2721,6 +2822,30 @@
       description = "nvim-cmp source for neovim builtin LSP client";
       homepage = "https://github.com/hrsh7th/cmp-nvim-lsp";
       license = with licenses; [ mit ];
+    };
+  };
+  cmp-nvim-lsp-document-symbol = buildVimPluginFrom2Nix {
+    pname = "cmp-nvim-lsp-document-symbol";
+    version = "2022-03-22";
+    src = fetchurl {
+      url = "https://github.com/hrsh7th/cmp-nvim-lsp-document-symbol/archive/c3f0086ed9882e52e0ae38dd5afa915f69054941.tar.gz";
+      sha256 = "02wwxqf7cgyf6jvpniki7j4gzprcakammlz97kxzvbp2gg6qljgk";
+    };
+    meta = with lib; {
+      description = "nvim-cmp source for textDocument/documentSymbol via nvim-lsp";
+      homepage = "https://github.com/hrsh7th/cmp-nvim-lsp-document-symbol";
+    };
+  };
+  cmp-nvim-lsp-signature-help = buildVimPluginFrom2Nix {
+    pname = "cmp-nvim-lsp-signature-help";
+    version = "2022-08-20";
+    src = fetchurl {
+      url = "https://github.com/hrsh7th/cmp-nvim-lsp-signature-help/archive/3dd40097196bdffe5f868d5dddcc0aa146ae41eb.tar.gz";
+      sha256 = "0w5j317bllzf1ga0gb17nlmsc8zk5zgfdimns2hlavl854dh0gbx";
+    };
+    meta = with lib; {
+      description = "cmp-nvim-lsp-signature-help";
+      homepage = "https://github.com/hrsh7th/cmp-nvim-lsp-signature-help";
     };
   };
   cmp-nvim-lua = buildVimPluginFrom2Nix {
@@ -2735,6 +2860,18 @@
       homepage = "https://github.com/hrsh7th/cmp-nvim-lua";
     };
   };
+  cmp-omni = buildVimPluginFrom2Nix {
+    pname = "cmp-omni";
+    version = "2022-01-08";
+    src = fetchurl {
+      url = "https://github.com/hrsh7th/cmp-omni/archive/7a457f0c4f9e0801fee777d955eb841659aa3b84.tar.gz";
+      sha256 = "1hnm7p5z5r3d1x9jpq49qmg7b4lslfkgicmyk3drvbyzmn25l30g";
+    };
+    meta = with lib; {
+      description = "nvim-cmp source for omnifunc";
+      homepage = "https://github.com/hrsh7th/cmp-omni";
+    };
+  };
   cmp-path = buildVimPluginFrom2Nix {
     pname = "cmp-path";
     version = "2022-07-26";
@@ -2745,6 +2882,19 @@
     meta = with lib; {
       description = "nvim-cmp source for path";
       homepage = "https://github.com/hrsh7th/cmp-path";
+      license = with licenses; [ mit ];
+    };
+  };
+  cmp-vsnip = buildVimPluginFrom2Nix {
+    pname = "cmp-vsnip";
+    version = "2021-11-10";
+    src = fetchurl {
+      url = "https://github.com/hrsh7th/cmp-vsnip/archive/0abfa1860f5e095a07c477da940cfcb0d273b700.tar.gz";
+      sha256 = "12cadiaf5az9rxkd8ii3fcxdij7ib9dzb2vn8i8wf5m26vkyh3yv";
+    };
+    meta = with lib; {
+      description = "nvim-cmp source for vim-vsnip";
+      homepage = "https://github.com/hrsh7th/cmp-vsnip";
       license = with licenses; [ mit ];
     };
   };
@@ -2991,6 +3141,18 @@
       description = "Draw ASCII diagrams in Neovim";
       homepage = "https://github.com/jbyuki/venn.nvim";
       license = with licenses; [ mit ];
+    };
+  };
+  cmp-pandoc-references = buildVimPluginFrom2Nix {
+    pname = "cmp-pandoc-references";
+    version = "2022-04-20";
+    src = fetchurl {
+      url = "https://github.com/jc-doyle/cmp-pandoc-references/archive/2c808dff631a783ddd2c554c4c6033907589baf6.tar.gz";
+      sha256 = "1h5ifk159arh38avp21jlip1p3gjyqq7ha93ch5h62g86b6hka2x";
+    };
+    meta = with lib; {
+      description = "A source for nvim-cmp, providing completion for bibliography, reference and cross-ref items in Pandoc/Markdown";
+      homepage = "https://github.com/jc-doyle/cmp-pandoc-references";
     };
   };
   possession-nvim = buildVimPluginFrom2Nix {
@@ -3258,6 +3420,19 @@
     meta = with lib; {
       description = ":bookmark_tabs: Delete multiple vim buffers based on different conditions";
       homepage = "https://github.com/kazhala/close-buffers.nvim";
+      license = with licenses; [ mit ];
+    };
+  };
+  cmp-latex-symbols = buildVimPluginFrom2Nix {
+    pname = "cmp-latex-symbols";
+    version = "2022-06-17";
+    src = fetchurl {
+      url = "https://github.com/kdheepak/cmp-latex-symbols/archive/46e7627afa8c8ff57158d1c29d721d8efebbc39f.tar.gz";
+      sha256 = "0z14lh32mjdbg5minxmj7csyk6m07gcdvhwbq1izsfqm072bngkd";
+    };
+    meta = with lib; {
+      description = "Add latex symbol support for nvim-cmp";
+      homepage = "https://github.com/kdheepak/cmp-latex-symbols";
       license = with licenses; [ mit ];
     };
   };
@@ -3947,6 +4122,18 @@
       homepage = "https://github.com/max397574/better-escape.nvim";
     };
   };
+  cmp-greek = buildVimPluginFrom2Nix {
+    pname = "cmp-greek";
+    version = "2022-01-10";
+    src = fetchurl {
+      url = "https://github.com/max397574/cmp-greek/archive/799110b976f9194055e9d506931ac38171bc6bcd.tar.gz";
+      sha256 = "0w63yayrwmn99v5yn8skm0yw1s2yha7rn8pvwqvibnankdrwnz3k";
+    };
+    meta = with lib; {
+      description = "No description";
+      homepage = "https://github.com/max397574/cmp-greek";
+    };
+  };
   undotree = buildVimPluginFrom2Nix {
     pname = "undotree";
     version = "2022-06-27";
@@ -4275,6 +4462,18 @@
       description = "Fast as FUCK nvim completion. SQLite, concurrent scheduler, hundreds of hours of optimization";
       homepage = "https://github.com/ms-jpq/coq_nvim";
       license = with licenses; [ gpl3Only ];
+    };
+  };
+  cmp-fish = buildVimPluginFrom2Nix {
+    pname = "cmp-fish";
+    version = "2022-06-23";
+    src = fetchurl {
+      url = "https://github.com/mtoohey31/cmp-fish/archive/8ce7517d74c11a55bf2d0e52e4649e49cea6c7a1.tar.gz";
+      sha256 = "1z3kf91g2h6lwbvwm4kf414z3i1310b6wzaj9j5wnb14h2d7k3kx";
+    };
+    meta = with lib; {
+      description = "Fish shell completion source for nvim-cmp";
+      homepage = "https://github.com/mtoohey31/cmp-fish";
     };
   };
   numb-nvim = buildVimPluginFrom2Nix {
@@ -4805,6 +5004,19 @@
       license = with licenses; [ mit ];
     };
   };
+  cmp-look = buildVimPluginFrom2Nix {
+    pname = "cmp-look";
+    version = "2022-06-26";
+    src = fetchurl {
+      url = "https://github.com/octaltree/cmp-look/archive/b39c50bcdf6199dddda56adc466c2bd9c951a960.tar.gz";
+      sha256 = "1s2had9jnj5hvjxwz88qnj281ksm95kk9w2z7m1qi17ra84mfaii";
+    };
+    meta = with lib; {
+      description = "No description";
+      homepage = "https://github.com/octaltree/cmp-look";
+      license = with licenses; [ mit ];
+    };
+  };
   nvim-hardline = buildVimPluginFrom2Nix {
     pname = "nvim-hardline";
     version = "2022-06-18";
@@ -5008,6 +5220,18 @@
       license = with licenses; [ agpl3Only ];
     };
   };
+  cmp-vimwiki-tags = buildVimPluginFrom2Nix {
+    pname = "cmp-vimwiki-tags";
+    version = "2022-04-25";
+    src = fetchurl {
+      url = "https://github.com/pontusk/cmp-vimwiki-tags/archive/a9e631c8f4d64e009d253f741b035eb5d1bd404f.tar.gz";
+      sha256 = "1pp7pa8m7p802g7jvbgiv07cmk10zzqyijrprgpr8d3adk0q1zjl";
+    };
+    meta = with lib; {
+      description = "Nvim-cmp source for Vimwiki tags";
+      homepage = "https://github.com/pontusk/cmp-vimwiki-tags";
+    };
+  };
   nerdcommenter = buildVimPluginFrom2Nix {
     pname = "nerdcommenter";
     version = "2022-05-20";
@@ -5147,6 +5371,19 @@
       description = "24-bit dark theme for (Neo)vim. Optimized for treesitter, LSP";
       homepage = "https://github.com/ray-x/aurora";
       license = with licenses; [ mit ];
+    };
+  };
+  cmp-treesitter = buildVimPluginFrom2Nix {
+    pname = "cmp-treesitter";
+    version = "2022-06-09";
+    src = fetchurl {
+      url = "https://github.com/ray-x/cmp-treesitter/archive/c2886bbb09ef6daf996a258db29546cc1e7c12a7.tar.gz";
+      sha256 = "0dm5llc1i80mfz64g6hg2ldyfpi0b9a07avdh40lcb4l8f4ldzwn";
+    };
+    meta = with lib; {
+      description = "cmp source for treesitter";
+      homepage = "https://github.com/ray-x/cmp-treesitter";
+      license = with licenses; [ gpl3Only ];
     };
   };
   go-nvim = buildVimPluginFrom2Nix {
@@ -6046,6 +6283,19 @@
       homepage = "https://github.com/sychen52/smart-term-esc.nvim";
     };
   };
+  cmp-zsh = buildVimPluginFrom2Nix {
+    pname = "cmp-zsh";
+    version = "2022-01-18";
+    src = fetchurl {
+      url = "https://github.com/tamago324/cmp-zsh/archive/1d8133e5637c73b3eb392682ae9661d521738268.tar.gz";
+      sha256 = "0kfi7x8dqj963nddjkazhk62ismzs77dns388szdmyix7s9i4zxc";
+    };
+    meta = with lib; {
+      description = "nvim-cmp source for zsh";
+      homepage = "https://github.com/tamago324/cmp-zsh";
+      license = with licenses; [ mit ];
+    };
+  };
   lir-nvim = buildVimPluginFrom2Nix {
     pname = "lir-nvim";
     version = "2022-08-17";
@@ -6404,6 +6654,32 @@
     meta = with lib; {
       description = "🍊 Sweet Fennel integration for Neovim";
       homepage = "https://github.com/udayvir-singh/tangerine.nvim";
+      license = with licenses; [ mit ];
+    };
+  };
+  cmp-dictionary = buildVimPluginFrom2Nix {
+    pname = "cmp-dictionary";
+    version = "2022-07-06";
+    src = fetchurl {
+      url = "https://github.com/uga-rosa/cmp-dictionary/archive/5286fc8a23a701a38381571202710fd977cbec84.tar.gz";
+      sha256 = "1kinmps214my3f9idns409blfs5c0l9inx5x39hpvcsy8amaa32v";
+    };
+    meta = with lib; {
+      description = "nvim-cmp source for dictionary";
+      homepage = "https://github.com/uga-rosa/cmp-dictionary";
+      license = with licenses; [ mit ];
+    };
+  };
+  cmp-clippy = buildVimPluginFrom2Nix {
+    pname = "cmp-clippy";
+    version = "2021-10-24";
+    src = fetchurl {
+      url = "https://github.com/vappolinario/cmp-clippy/archive/9f8dd021f7b9326407a439105b0c646983191a49.tar.gz";
+      sha256 = "0f29s5my1w7y8896x7qfq549a22hfis49s5sv38l8kjski04cwws";
+    };
+    meta = with lib; {
+      description = "nvim-cmp source for code suggestion";
+      homepage = "https://github.com/vappolinario/cmp-clippy";
       license = with licenses; [ mit ];
     };
   };
