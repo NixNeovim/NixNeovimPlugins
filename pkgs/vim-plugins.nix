@@ -14,6 +14,18 @@
       license = with licenses; [ gpl3Only ];
     };
   };
+  cmp-calc = buildVimPluginFrom2Nix {
+    pname = "cmp-calc";
+    version = "2022-04-25";
+    src = fetchurl {
+      url = "https://github.com/hrsh7th/cmp-calc/archive/f7efc20768603bd9f9ae0ed073b1c129f63eb312.tar.gz";
+      sha256 = "1c51jlwqgafw7hyi68cwfsrgyldfjmghislr7488zzyy4avim5z9";
+    };
+    meta = with lib; {
+      description = "nvim-cmp source for math calculation";
+      homepage = "https://github.com/hrsh7th/cmp-calc";
+    };
+  };
   penvim = buildVimPluginFrom2Nix {
     pname = "penvim";
     version = "2022-07-23";
@@ -295,10 +307,10 @@
   };
   LuaSnip = buildVimPluginFrom2Nix {
     pname = "LuaSnip";
-    version = "2022-08-18";
+    version = "2022-08-21";
     src = fetchurl {
-      url = "https://github.com/L3MON4D3/LuaSnip/archive/faa525713e1244551877a4d89646a10f3c3fa31e.tar.gz";
-      sha256 = "1faalcagm5ri3g7l0hnyzbdmzyp0v13z3hv6v9a0ag6m0blfmhjg";
+      url = "https://github.com/L3MON4D3/LuaSnip/archive/a82d84ae5433cf2af16124123999bff91e8f9e47.tar.gz";
+      sha256 = "1g0gqmvhnf650sbzd36rpmw634qs5784i4xc2w5v8gakpd1c1wsc";
     };
     meta = with lib; {
       description = "Snippet Engine for Neovim written in Lua";
@@ -3035,10 +3047,10 @@
   };
   follow-md-links-nvim = buildVimPluginFrom2Nix {
     pname = "follow-md-links-nvim";
-    version = "2022-08-07";
+    version = "2022-08-21";
     src = fetchurl {
-      url = "https://github.com/jghauser/follow-md-links.nvim/archive/d788eb9d3366dcc376823b9bc4d8e1fbd691ff53.tar.gz";
-      sha256 = "0sbkwr9a60h1jg20rl01dcj7l6k2vmaakbqd0356i08jjbwhgya1";
+      url = "https://github.com/jghauser/follow-md-links.nvim/archive/f31196f24046487a95341cc539dda97a00cb6a09.tar.gz";
+      sha256 = "0m79fha58aypmf8ssyhydck3vsd78g071amz73yfs8c3b7k06kab";
     };
     meta = with lib; {
       description = "Easily follow markdown links with this neovim plugin";
@@ -4382,10 +4394,10 @@
   };
   nvim-lspconfig = buildVimPluginFrom2Nix {
     pname = "nvim-lspconfig";
-    version = "2022-08-09";
+    version = "2022-08-21";
     src = fetchurl {
-      url = "https://github.com/neovim/nvim-lspconfig/archive/da7461b596d70fa47b50bf3a7acfaef94c47727d.tar.gz";
-      sha256 = "19f5j7kk8wvr3hkpw6phiznxa7km9j3pxgg42xm03px9d7ijrjf6";
+      url = "https://github.com/neovim/nvim-lspconfig/archive/589d38d3cf2e711cf848c12ed1d6ba38899a2f38.tar.gz";
+      sha256 = "17br8l59019xz3gci3pshkagkgf7qn2nnzz6vxzcg96ir5sf6bha";
     };
     meta = with lib; {
       description = "Quickstart configs for Nvim LSP";
@@ -5254,10 +5266,10 @@
   };
   heirline-nvim = buildVimPluginFrom2Nix {
     pname = "heirline-nvim";
-    version = "2022-08-13";
+    version = "2022-08-21";
     src = fetchurl {
-      url = "https://github.com/rebelot/heirline.nvim/archive/5b5ef268a80c2c241f16b03268b4498f214ecf66.tar.gz";
-      sha256 = "1nkl1hrkncd2ih30fkz14j4hn94n4s6b7lh41cqjf9pq55f2xibf";
+      url = "https://github.com/rebelot/heirline.nvim/archive/8ad105098b6b2075b5f482000a3d9aa5be873a29.tar.gz";
+      sha256 = "0g38xmdip5ipgzrpmi29gc6a06agn8i5904w3gcin313nyqivyv7";
     };
     meta = with lib; {
       description = "Heirline.nvim is a no-nonsense Neovim Statusline plugin designed around recursive inheritance to be exceptionally fast and versatile";
