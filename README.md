@@ -103,6 +103,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | Plugin owner/repo | Recent commit | Nix package name |
 | :- | :- | :- |
 | [0styx0/abbreinder.nvim](https://github.com/0styx0/abbreinder.nvim) | 2022-04-28 | `abbreinder-nvim` |
+| [hrsh7th/cmp-calc](https://github.com/hrsh7th/cmp-calc) | 2022-04-25 | `cmp-calc` |
 | [Abstract-IDE/penvim](https://github.com/Abstract-IDE/penvim) | 2022-07-23 | `penvim` |
 | [AckslD/nvim-FeMaco.lua](https://github.com/AckslD/nvim-FeMaco.lua) | 2022-08-06 | `nvim-FeMaco-lua` |
 | [AckslD/nvim-gfold.lua](https://github.com/AckslD/nvim-gfold.lua) | 2022-05-24 | `nvim-gfold-lua` |
@@ -125,7 +126,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [JoosepAlviste/nvim-ts-context-commentstring](https://github.com/JoosepAlviste/nvim-ts-context-commentstring) | 2022-08-19 | `nvim-ts-context-commentstring` |
 | [Julian/lean.nvim](https://github.com/Julian/lean.nvim) | 2022-08-21 | `lean-nvim` |
 | [junnplus/lsp-setup.nvim](https://github.com/junnplus/lsp-setup.nvim) | 2022-08-16 | `lsp-setup-nvim` |
-| [L3MON4D3/LuaSnip](https://github.com/L3MON4D3/LuaSnip) | 2022-08-18 | `LuaSnip` |
+| [L3MON4D3/LuaSnip](https://github.com/L3MON4D3/LuaSnip) | 2022-08-21 | `LuaSnip` |
 | [LinArcX/telescope-command-palette.nvim](https://github.com/LinArcX/telescope-command-palette.nvim) | 2022-01-31 | `telescope-command-palette-nvim` |
 | [LionC/nest.nvim](https://github.com/LionC/nest.nvim) | 2021-09-26 | `nest-nvim` |
 | [LoricAndre/OneTerm.nvim](https://github.com/LoricAndre/OneTerm.nvim) | 2022-03-14 | `OneTerm-nvim` |
@@ -354,7 +355,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [jedrzejboczar/toggletasks.nvim](https://github.com/jedrzejboczar/toggletasks.nvim) | 2022-05-30 | `toggletasks-nvim` |
 | [jghauser/auto-pandoc.nvim](https://github.com/jghauser/auto-pandoc.nvim) | 2022-03-12 | `auto-pandoc-nvim` |
 | [jghauser/fold-cycle.nvim](https://github.com/jghauser/fold-cycle.nvim) | 2022-08-17 | `fold-cycle-nvim` |
-| [jghauser/follow-md-links.nvim](https://github.com/jghauser/follow-md-links.nvim) | 2022-08-07 | `follow-md-links-nvim` |
+| [jghauser/follow-md-links.nvim](https://github.com/jghauser/follow-md-links.nvim) | 2022-08-21 | `follow-md-links-nvim` |
 | [jghauser/kitty-runner.nvim](https://github.com/jghauser/kitty-runner.nvim) | 2022-05-12 | `kitty-runner-nvim` |
 | [jghauser/mkdir.nvim](https://github.com/jghauser/mkdir.nvim) | 2022-07-23 | `mkdir-nvim` |
 | [jim-at-jibba/ariake-vim-colors](https://github.com/jim-at-jibba/ariake-vim-colors) | 2021-02-23 | `ariake-vim-colors` |
@@ -462,7 +463,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [nanozuki/tabby.nvim](https://github.com/nanozuki/tabby.nvim) | 2022-08-16 | `tabby-nvim` |
 | [navarasu/onedark.nvim](https://github.com/navarasu/onedark.nvim) | 2022-08-19 | `onedark-nvim` |
 | [nekonako/xresources-nvim](https://github.com/nekonako/xresources-nvim) | 2021-11-23 | `xresources-nvim` |
-| [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) | 2022-08-09 | `nvim-lspconfig` |
+| [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) | 2022-08-21 | `nvim-lspconfig` |
 | [nikvdp/neomux](https://github.com/nikvdp/neomux) | 2021-12-23 | `neomux` |
 | [nkakouros-original/numbers.nvim](https://github.com/nkakouros-original/numbers.nvim) | 2022-04-25 | `numbers-nvim` |
 | [noib3/nvim-cokeline](https://github.com/noib3/nvim-cokeline) | 2022-06-21 | `nvim-cokeline` |
@@ -533,7 +534,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [rcarriga/nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui) | 2022-08-02 | `nvim-dap-ui` |
 | [rcarriga/nvim-notify](https://github.com/rcarriga/nvim-notify) | 2022-08-02 | `nvim-notify` |
 | [rcarriga/vim-ultest](https://github.com/rcarriga/vim-ultest) | 2022-06-18 | `vim-ultest` |
-| [rebelot/heirline.nvim](https://github.com/rebelot/heirline.nvim) | 2022-08-13 | `heirline-nvim` |
+| [rebelot/heirline.nvim](https://github.com/rebelot/heirline.nvim) | 2022-08-21 | `heirline-nvim` |
 | [rebelot/kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim) | 2022-08-18 | `kanagawa-nvim` |
 | [renerocksai/telekasten.nvim](https://github.com/renerocksai/telekasten.nvim) | 2022-08-19 | `telekasten-nvim` |
 | [rest-nvim/rest.nvim](https://github.com/rest-nvim/rest.nvim) | 2022-08-11 | `rest-nvim` |
