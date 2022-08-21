@@ -29,7 +29,7 @@ jobs:
       - uses: cachix/install-nix-action@v17
         with:
           extra_nix_config: |
-            access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
+            access-tokens = github.com=${{ secrets.NIXPKGS_TOKEN }}
       - uses: cachix/cachix-action@v10
         with:
           name: nixpkgs-vim-extra-plugins
