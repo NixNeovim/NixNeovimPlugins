@@ -14,18 +14,6 @@
       license = with licenses; [ gpl3Only ];
     };
   };
-  cmp-calc = buildVimPluginFrom2Nix {
-    pname = "cmp-calc";
-    version = "2022-04-25";
-    src = fetchurl {
-      url = "https://github.com/hrsh7th/cmp-calc/archive/f7efc20768603bd9f9ae0ed073b1c129f63eb312.tar.gz";
-      sha256 = "1c51jlwqgafw7hyi68cwfsrgyldfjmghislr7488zzyy4avim5z9";
-    };
-    meta = with lib; {
-      description = "nvim-cmp source for math calculation";
-      homepage = "https://github.com/hrsh7th/cmp-calc";
-    };
-  };
   penvim = buildVimPluginFrom2Nix {
     pname = "penvim";
     version = "2022-07-23";
@@ -5516,10 +5504,10 @@
   };
   kanagawa-nvim = buildVimPluginFrom2Nix {
     pname = "kanagawa-nvim";
-    version = "2022-08-18";
+    version = "2022-08-21";
     src = fetchurl {
-      url = "https://github.com/rebelot/kanagawa.nvim/archive/6ee96842cbfe3b7ebf7a1c3fa9602c2a3f5fdf38.tar.gz";
-      sha256 = "151lazm3q32c9kyinq60wjkhywx6jbbwpwq3wcpc4jfa5w0qzqih";
+      url = "https://github.com/rebelot/kanagawa.nvim/archive/97b96c6d740161cb624ee8eae466b1e35782540e.tar.gz";
+      sha256 = "1ikh0g233jq0qda2ak4jn0rl8ba1mhb9w9cbkvhks08k17p0iidf";
     };
     meta = with lib; {
       description = "NeoVim dark colorscheme inspired by the colors of the famous painting by Katsushika Hokusai";
@@ -6043,8 +6031,8 @@
     pname = "diffview-nvim";
     version = "2022-08-21";
     src = fetchurl {
-      url = "https://github.com/sindrets/diffview.nvim/archive/2d109fb84cbb0404d503b4bf43138f34aff9f279.tar.gz";
-      sha256 = "0pb5qb9ik0irpmhmi68hlf9clcwxc7cj7qk2sbazkhgnm696cpr2";
+      url = "https://github.com/sindrets/diffview.nvim/archive/04cdfafee557c84e01724de8c6a4f24d40f7414f.tar.gz";
+      sha256 = "0fh97q0194kaq1z2yncdlx9cmb1cbkaslahfn4rcc36mib525kr9";
     };
     meta = with lib; {
       description = "Single tabpage interface for easily cycling through diffs for all modified files for any git rev";

@@ -103,7 +103,6 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | Plugin owner/repo | Recent commit | Nix package name |
 | :- | :- | :- |
 | [0styx0/abbreinder.nvim](https://github.com/0styx0/abbreinder.nvim) | 2022-04-28 | `abbreinder-nvim` |
-| [hrsh7th/cmp-calc](https://github.com/hrsh7th/cmp-calc) | 2022-04-25 | `cmp-calc` |
 | [Abstract-IDE/penvim](https://github.com/Abstract-IDE/penvim) | 2022-07-23 | `penvim` |
 | [AckslD/nvim-FeMaco.lua](https://github.com/AckslD/nvim-FeMaco.lua) | 2022-08-06 | `nvim-FeMaco-lua` |
 | [AckslD/nvim-gfold.lua](https://github.com/AckslD/nvim-gfold.lua) | 2022-05-24 | `nvim-gfold-lua` |
@@ -535,7 +534,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [rcarriga/nvim-notify](https://github.com/rcarriga/nvim-notify) | 2022-08-02 | `nvim-notify` |
 | [rcarriga/vim-ultest](https://github.com/rcarriga/vim-ultest) | 2022-06-18 | `vim-ultest` |
 | [rebelot/heirline.nvim](https://github.com/rebelot/heirline.nvim) | 2022-08-21 | `heirline-nvim` |
-| [rebelot/kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim) | 2022-08-18 | `kanagawa-nvim` |
+| [rebelot/kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim) | 2022-08-21 | `kanagawa-nvim` |
 | [renerocksai/telekasten.nvim](https://github.com/renerocksai/telekasten.nvim) | 2022-08-19 | `telekasten-nvim` |
 | [rest-nvim/rest.nvim](https://github.com/rest-nvim/rest.nvim) | 2022-08-11 | `rest-nvim` |
 | [rgroli/other.nvim](https://github.com/rgroli/other.nvim) | 2022-08-03 | `other-nvim` |
