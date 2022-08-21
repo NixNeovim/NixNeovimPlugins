@@ -3796,18 +3796,6 @@
       license = with licenses; [ mit ];
     };
   };
-  lsp-format-nvim = buildVimPluginFrom2Nix {
-    pname = "lsp-format-nvim";
-    version = "2022-05-21";
-    src = fetchurl {
-      url = "https://github.com/lukas-reineke/lsp-format.nvim/archive/a5a54eeb36d7001b4a6f0874dde6afd167319ac9.tar.gz";
-      sha256 = "1c4c0ccn023aa95c726rxs1has4yvnnd2q43z1z8q87amk5cahrq";
-    };
-    meta = with lib; {
-      description = "A wrapper around Neovims native LSP formatting";
-      homepage = "https://github.com/lukas-reineke/lsp-format.nvim";
-    };
-  };
   nnn-nvim = buildVimPluginFrom2Nix {
     pname = "nnn-nvim";
     version = "2022-08-16";
