@@ -1,5 +1,4 @@
 0styx0/abbreinder.nvim
-hrsh7th/cmp-calc
 Abstract-IDE/penvim
 AckslD/nvim-FeMaco.lua
 AckslD/nvim-gfold.lua
@@ -210,6 +209,7 @@ hkupty/iron.nvim
 hkupty/nvimux
 houtsnip/vim-emacscommandline
 hrsh7th/cmp-buffer
+hrsh7th/cmp-calc
 hrsh7th/cmp-cmdline
 hrsh7th/cmp-nvim-lsp
 hrsh7th/cmp-nvim-lua

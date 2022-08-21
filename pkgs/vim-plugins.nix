@@ -2686,6 +2686,18 @@
       license = with licenses; [ mit ];
     };
   };
+  cmp-calc = buildVimPluginFrom2Nix {
+    pname = "cmp-calc";
+    version = "2022-04-25";
+    src = fetchurl {
+      url = "https://github.com/hrsh7th/cmp-calc/archive/f7efc20768603bd9f9ae0ed073b1c129f63eb312.tar.gz";
+      sha256 = "1c51jlwqgafw7hyi68cwfsrgyldfjmghislr7488zzyy4avim5z9";
+    };
+    meta = with lib; {
+      description = "nvim-cmp source for math calculation";
+      homepage = "https://github.com/hrsh7th/cmp-calc";
+    };
+  };
   cmp-cmdline = buildVimPluginFrom2Nix {
     pname = "cmp-cmdline";
     version = "2022-08-05";

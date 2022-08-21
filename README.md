@@ -313,6 +313,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [hkupty/nvimux](https://github.com/hkupty/nvimux) | 2022-05-02 | `nvimux` |
 | [houtsnip/vim-emacscommandline](https://github.com/houtsnip/vim-emacscommandline) | 2017-11-24 | `vim-emacscommandline` |
 | [hrsh7th/cmp-buffer](https://github.com/hrsh7th/cmp-buffer) | 2022-08-10 | `cmp-buffer` |
+| [hrsh7th/cmp-calc](https://github.com/hrsh7th/cmp-calc) | 2022-04-25 | `cmp-calc` |
 | [hrsh7th/cmp-cmdline](https://github.com/hrsh7th/cmp-cmdline) | 2022-08-05 | `cmp-cmdline` |
 | [hrsh7th/cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp) | 2022-05-16 | `cmp-nvim-lsp` |
 | [hrsh7th/cmp-nvim-lua](https://github.com/hrsh7th/cmp-nvim-lua) | 2021-10-11 | `cmp-nvim-lua` |
