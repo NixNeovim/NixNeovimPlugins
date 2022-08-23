@@ -3,10 +3,6 @@ name: Fetch manifest from m15a
 on:
   schedule:
     - cron: "22 19 * * 2,5"
-  push:
-    branches:
-      - main
-      - fetch-m15a
   workflow_dispatch:
 
 jobs:
