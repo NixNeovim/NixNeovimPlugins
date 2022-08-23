@@ -24,7 +24,8 @@ jobs:
           token: ${{ secrets.NIXPKGS_TOKEN }}
           ref: ${{ github.head_ref }}
       - run: |
-          cat nixpkgs-vim-extra-plugins
+          # cat nixpkgs-vim-extra-plugins
+          ls -l
       - uses: actions/checkout@v3
       - run: |
           date > generated.txt
