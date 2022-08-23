@@ -25,4 +25,5 @@ jobs:
           ref: ${{ github.head_ref }}
       - run: |
           git clone https://github.com/m15a/nixpkgs-vim-extra-plugins.git other
-          cat other/manifest.txt
+          ls
+          # cat other/manifest.txt >
