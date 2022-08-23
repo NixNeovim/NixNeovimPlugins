@@ -23,11 +23,21 @@ jobs:
         with:
           token: ${{ secrets.NIXPKGS_TOKEN }}
           ref: ${{ github.head_ref }}
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_user_name: fetchbot
-          commit_user_email: ""
-          commit_author: ""
-          commit_message: 'maintenance: auto fetch from m15a'
-          file_pattern: manifest.txt
-          push_options: '--force'
+      - run: |
+          cat nixpkgs-vim-extra-plugins
+      - uses: actions/checkout@v3
+      - run: |
+          date > generated.txt
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add manifest.txt
+          git commit -m "Merged manifest.txt"
+          git push
+      # - uses: stefanzweifel/git-auto-commit-action@v4
+      #   with:
+      #     commit_user_name: fetchbot
+      #     commit_user_email: ""
+      #     commit_author: ""
+      #     commit_message: 'maintenance: auto fetch from m15a'
+      #     file_pattern: manifest.txt
+      #     push_options: '--force'
