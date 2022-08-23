@@ -90,6 +90,7 @@ alvarosevilla95/luatab.nvim
 amirrezaask/fuzzy.nvim
 amrbashir/nvim-docs-view
 andersevenrud/cmp-tmux
+andersevenrud/compe-tmux
 andersevenrud/nordic.nvim
 andrewferrier/debugprint.nvim
 andrewferrier/textobj-diagnostic.nvim
@@ -316,6 +317,7 @@ m-demare/attempt.nvim
 m-demare/hlargs.nvim
 m00qek/baleia.nvim
 m00qek/plugin-template.nvim
+m4xshen/autoclose.nvim
 madskjeldgaard/reaper-nvim
 majutsushi/tagbar
 marko-cerovac/material.nvim
@@ -392,6 +394,7 @@ nyngwang/NeoNoName.lua
 nyngwang/NeoRoot.lua
 oberblastmeister/neuron.nvim
 octaltree/cmp-look
+ofirgall/goto-breakpoints.nvim
 ojroques/nvim-hardline
 ojroques/nvim-lspfuzzy
 olexsmir/gopher.nvim
@@ -447,6 +450,7 @@ rockerBOO/boo-colorscheme-nvim
 rockyzhang24/arctic.nvim
 rodrigore/coc-tailwind-intellisense
 romgrk/barbar.nvim
+rose-pine/neovim
 rose-pine/neovim::rose-pine
 ruifm/gitlinker.nvim
 s1n7ax/nvim-comment-frame
@@ -466,6 +470,7 @@ scalameta/nvim-metals
 seandewar/killersheep.nvim
 seandewar/nvimesweeper
 sgur/vim-textobj-parameter
+shaeinst/penvim
 shaeinst/roshnivim-cs
 shaunsingh/moonlight.nvim
 shaunsingh/nord.nvim
@@ -479,6 +484,7 @@ skywind3000/asyncrun.vim
 slugbyte/unruly-worker
 smjonas/inc-rename.nvim
 smjonas/snippet-converter.nvim
+smzm/hydrovim
 someone-stole-my-name/yaml-companion.nvim
 startup-nvim/startup.nvim
 stevearc/aerial.nvim
