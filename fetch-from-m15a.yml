@@ -3,6 +3,7 @@ name: Fetch manifest from m15a
 on:
   schedule:
     - cron: "22 19 * * 2,5"
+  workflow_dispatch:
 
 jobs:
   fetch-new-plugins:
