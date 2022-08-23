@@ -14,31 +14,15 @@ jobs:
     runs-on: ubuntu-latest
     name: Fetch new plugins from awesome-neovim
     steps:
-      - name: Clone m15a's repo
-        uses: GuillaumeFalourd/clone-github-repo-action@v2
-        with:
-          owner: 'm15a'
-          repository: 'nixpkgs-vim-extra-plugins'
+      # - name: Clone m15a's repo
+      #   uses: GuillaumeFalourd/clone-github-repo-action@v2
+      #   with:
+      #     owner: 'm15a'
+      #     repository: 'nixpkgs-vim-extra-plugins'
       - uses: actions/checkout@v3
         with:
           token: ${{ secrets.NIXPKGS_TOKEN }}
           ref: ${{ github.head_ref }}
       - run: |
-          # cat nixpkgs-vim-extra-plugins
-          ls -l
-      - uses: actions/checkout@v3
-      - run: |
-          date > generated.txt
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add manifest.txt
-          git commit -m "Merged manifest.txt"
-          git push
-      # - uses: stefanzweifel/git-auto-commit-action@v4
-      #   with:
-      #     commit_user_name: fetchbot
-      #     commit_user_email: ""
-      #     commit_author: ""
-      #     commit_message: 'maintenance: auto fetch from m15a'
-      #     file_pattern: manifest.txt
-      #     push_options: '--force'
+          git clone https://github.com/m15a/nixpkgs-vim-extra-plugins.git -o other
+          cat other/manifest.txt
