@@ -36,6 +36,6 @@ jobs:
           commit_user_name: fetch-m15a-bot
           commit_user_email: ""
           commit_author: ""
-          commit_message: 'fetch: add missing plugins from m15a'
-          file_pattern: README.md pkgs/vim-plugins.nix .previous-update.json
+          commit_message: 'Add missing plugins from m15a'
+          file_pattern: README.md manifest.txt pkgs/vim-plugins.nix .previous-update.json
           push_options: '--force'
