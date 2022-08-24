@@ -23,7 +23,7 @@ jobs:
             access-tokens = github.com=${{ secrets.NIXPKGS_TOKEN }}
       - run: |
           nix run .#update-vim-plugins -- lint
-          nix run .#update-vim-plugins -- update --all
+          nix run .#update-vim-plugins
         env:
           GITHUB_TOKEN: ${{ secrets.NIXPKGS_TOKEN }}
           SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}
