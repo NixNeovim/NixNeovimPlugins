@@ -1,4 +1,3 @@
-0styx0/abbreinder.nvim
 Abstract-IDE/penvim
 AckslD/nvim-FeMaco.lua
 AckslD/nvim-gfold.lua
