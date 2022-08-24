@@ -323,7 +323,6 @@ madskjeldgaard/reaper-nvim
 majutsushi/tagbar
 marko-cerovac/material.nvim
 matbme/JABS.nvim
-max-0406/autoclose.nvim
 max397574/better-escape.nvim
 max397574/cmp-greek
 mbbill/undotree
