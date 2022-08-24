@@ -2,13 +2,13 @@ name: Fetch manifest from m15a
 
 on:
   schedule:
-    - cron: "22 19 * * 2,5"
+    - cron: "0 20 * * *"
   workflow_dispatch:
 
 jobs:
   fetch-new-plugins:
     runs-on: ubuntu-latest
-    name: Fetch new plugins from awesome-neovim
+    name: Fetch new plugins from m15a
     steps:
       - uses: actions/checkout@v3
         with:
