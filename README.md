@@ -465,6 +465,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [navarasu/onedark.nvim](https://github.com/navarasu/onedark.nvim) | 2022-08-19 | `onedark-nvim` |
 | [nekonako/xresources-nvim](https://github.com/nekonako/xresources-nvim) | 2021-11-23 | `xresources-nvim` |
 | [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) | 2022-08-25 | `nvim-lspconfig` |
+| [nguyenvukhang/nvim-toggler](https://github.com/nguyenvukhang/nvim-toggler) | 2022-08-26 | `nvim-toggler` |
 | [nikvdp/neomux](https://github.com/nikvdp/neomux) | 2021-12-23 | `neomux` |
 | [nkakouros-original/numbers.nvim](https://github.com/nkakouros-original/numbers.nvim) | 2022-04-25 | `numbers-nvim` |
 | [noib3/nvim-cokeline](https://github.com/noib3/nvim-cokeline) | 2022-06-21 | `nvim-cokeline` |
@@ -478,6 +479,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [numToStr/Comment.nvim](https://github.com/numToStr/Comment.nvim) | 2022-08-24 | `Comment-nvim` |
 | [numToStr/FTerm.nvim](https://github.com/numToStr/FTerm.nvim) | 2022-07-21 | `FTerm-nvim` |
 | [numToStr/Navigator.nvim](https://github.com/numToStr/Navigator.nvim) | 2022-04-29 | `Navigator-nvim` |
+| [nvim-colortils/colortils.nvim](https://github.com/nvim-colortils/colortils.nvim) | 2022-08-30 | `colortils-nvim` |
 | [nvim-lua/lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim) | 2022-08-03 | `lsp-status-nvim` |
 | [nvim-lua/lsp_extensions.nvim](https://github.com/nvim-lua/lsp_extensions.nvim) | 2022-07-07 | `lsp-extensions-nvim` |
 | [nvim-lua/plenary.nvim](https://github.com/nvim-lua/plenary.nvim) | 2022-08-01 | `plenary-nvim` |
@@ -532,6 +534,9 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [ray-x/guihua.lua](https://github.com/ray-x/guihua.lua) | 2022-08-24 | `guihua-lua` |
 | [ray-x/lsp_signature.nvim](https://github.com/ray-x/lsp_signature.nvim) | 2022-08-15 | `lsp-signature-nvim` |
 | [ray-x/navigator.lua](https://github.com/ray-x/navigator.lua) | 2022-08-24 | `navigator-lua` |
+| [ray-x/sad.nvim](https://github.com/ray-x/sad.nvim) | 2022-08-30 | `sad-nvim` |
+| [ray-x/starry.nvim](https://github.com/ray-x/starry.nvim) | 2022-08-30 | `starry-nvim` |
+| [ray-x/web-tools.nvim](https://github.com/ray-x/web-tools.nvim) | 2022-08-30 | `web-tools-nvim` |
 | [rcarriga/cmp-dap](https://github.com/rcarriga/cmp-dap) | 2022-08-21 | `cmp-dap` |
 | [rcarriga/nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui) | 2022-08-02 | `nvim-dap-ui` |
 | [rcarriga/nvim-notify](https://github.com/rcarriga/nvim-notify) | 2022-08-24 | `nvim-notify` |
