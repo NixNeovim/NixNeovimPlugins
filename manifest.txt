@@ -361,6 +361,7 @@ nanozuki/tabby.nvim
 navarasu/onedark.nvim
 nekonako/xresources-nvim
 neovim/nvim-lspconfig
+nguyenvukhang/nvim-toggler
 nikvdp/neomux
 nkakouros-original/numbers.nvim
 noib3/cokeline.nvim
@@ -374,6 +375,7 @@ novakne/kosmikoa.nvim
 numToStr/Comment.nvim
 numToStr/FTerm.nvim
 numToStr/Navigator.nvim
+nvim-colortils/colortils.nvim
 nvim-lua/lsp-status.nvim
 nvim-lua/lsp_extensions.nvim
 nvim-lua/plenary.nvim
@@ -428,6 +430,9 @@ ray-x/go.nvim
 ray-x/guihua.lua
 ray-x/lsp_signature.nvim
 ray-x/navigator.lua
+ray-x/sad.nvim
+ray-x/starry.nvim
+ray-x/web-tools.nvim
 rcarriga/cmp-dap
 rcarriga/nvim-dap-ui
 rcarriga/nvim-notify
