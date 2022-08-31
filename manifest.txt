@@ -109,6 +109,7 @@ b0o/SchemaStore.nvim
 b0o/incline.nvim
 b0o/mapx.nvim
 b3nj5m1n/kommentary
+barreiroleo/ltex_extra.nvim
 beauwilliams/focus.nvim
 beauwilliams/statusline.lua
 bennypowers/nvim-regexplainer

@@ -1413,6 +1413,19 @@
       license = with licenses; [ mit ];
     };
   };
+  ltex-extra-nvim = buildVimPluginFrom2Nix {
+    pname = "ltex-extra-nvim";
+    version = "2022-08-15";
+    src = fetchurl {
+      url = "https://github.com/barreiroleo/ltex_extra.nvim/archive/e5c97499b824e962737be9a614a3c5ec17b0379c.tar.gz";
+      sha256 = "1q9i9mckzr70f8r1qb2gqigk2j1xbmkwn6611askj2qh4h89v65h";
+    };
+    meta = with lib; {
+      description = "Provides external LTeX file handling (off-spec lsp) and other functions";
+      homepage = "https://github.com/barreiroleo/ltex_extra.nvim";
+      license = with licenses; [ gpl3Only ];
+    };
+  };
   focus-nvim = buildVimPluginFrom2Nix {
     pname = "focus-nvim";
     version = "2022-08-10";

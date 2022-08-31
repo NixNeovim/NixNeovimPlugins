@@ -213,6 +213,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [b0o/incline.nvim](https://github.com/b0o/incline.nvim) | 2022-07-28 | `incline-nvim` |
 | [b0o/mapx.nvim](https://github.com/b0o/mapx.nvim) | 2022-02-24 | `mapx-nvim` |
 | [b3nj5m1n/kommentary](https://github.com/b3nj5m1n/kommentary) | 2022-05-27 | `kommentary` |
+| [barreiroleo/ltex_extra.nvim](https://github.com/barreiroleo/ltex_extra.nvim) | 2022-08-15 | `ltex-extra-nvim` |
 | [beauwilliams/focus.nvim](https://github.com/beauwilliams/focus.nvim) | 2022-08-10 | `focus-nvim` |
 | [beauwilliams/statusline.lua](https://github.com/beauwilliams/statusline.lua) | 2022-06-13 | `statusline-lua` |
 | [bennypowers/nvim-regexplainer](https://github.com/bennypowers/nvim-regexplainer) | 2022-08-02 | `nvim-regexplainer` |
