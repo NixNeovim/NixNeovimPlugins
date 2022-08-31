@@ -90,7 +90,6 @@ alvarosevilla95/luatab.nvim
 amirrezaask/fuzzy.nvim
 amrbashir/nvim-docs-view
 andersevenrud/cmp-tmux
-andersevenrud/compe-tmux
 andersevenrud/nordic.nvim
 andrewferrier/debugprint.nvim
 andrewferrier/textobj-diagnostic.nvim

@@ -194,7 +194,6 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [amirrezaask/fuzzy.nvim](https://github.com/amirrezaask/fuzzy.nvim) | 2021-05-13 | `fuzzy-nvim` |
 | [amrbashir/nvim-docs-view](https://github.com/amrbashir/nvim-docs-view) | 2022-06-21 | `nvim-docs-view` |
 | [andersevenrud/cmp-tmux](https://github.com/andersevenrud/cmp-tmux) | 2022-08-02 | `cmp-tmux` |
-| [andersevenrud/cmp-tmux](https://github.com/andersevenrud/cmp-tmux) | 2022-08-02 | `cmp-tmux` |
 | [andersevenrud/nordic.nvim](https://github.com/andersevenrud/nordic.nvim) | 2022-08-17 | `nordic-nvim` |
 | [andrewferrier/debugprint.nvim](https://github.com/andrewferrier/debugprint.nvim) | 2022-08-23 | `debugprint-nvim` |
 | [andrewferrier/textobj-diagnostic.nvim](https://github.com/andrewferrier/textobj-diagnostic.nvim) | 2022-08-14 | `textobj-diagnostic-nvim` |
@@ -560,7 +559,6 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [rockyzhang24/arctic.nvim](https://github.com/rockyzhang24/arctic.nvim) | 2022-08-24 | `arctic-nvim` |
 | [rodrigore/coc-tailwind-intellisense](https://github.com/rodrigore/coc-tailwind-intellisense) | 2021-09-07 | `coc-tailwind-intellisense` |
 | [romgrk/barbar.nvim](https://github.com/romgrk/barbar.nvim) | 2022-08-10 | `barbar-nvim` |
-| [rose-pine/neovim](https://github.com/rose-pine/neovim) | 2022-08-14 | `neovim` |
 | [rose-pine/neovim](https://github.com/rose-pine/neovim) | 2022-08-14 | `rose-pine` |
 | [ruifm/gitlinker.nvim](https://github.com/ruifm/gitlinker.nvim) | 2022-06-28 | `gitlinker-nvim` |
 | [s1n7ax/nvim-comment-frame](https://github.com/s1n7ax/nvim-comment-frame) | 2022-07-08 | `nvim-comment-frame` |
