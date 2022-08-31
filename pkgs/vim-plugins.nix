@@ -1172,19 +1172,6 @@
       license = with licenses; [ mit ];
     };
   };
-  cmp-tmux = buildVimPluginFrom2Nix {
-    pname = "cmp-tmux";
-    version = "2022-08-02";
-    src = fetchurl {
-      url = "https://github.com/andersevenrud/cmp-tmux/archive/e32f2f1417c9ff307ad348a134788eabd76c6112.tar.gz";
-      sha256 = "1vqra25kw4pd67qnd4v9bqn4qz4rx69apzzd91rymqq7f981cc3h";
-    };
-    meta = with lib; {
-      description = "Tmux completion source for nvim-cmp and nvim-compe";
-      homepage = "https://github.com/andersevenrud/cmp-tmux";
-      license = with licenses; [ mit ];
-    };
-  };
   nordic-nvim = buildVimPluginFrom2Nix {
     pname = "nordic-nvim";
     version = "2022-08-17";
