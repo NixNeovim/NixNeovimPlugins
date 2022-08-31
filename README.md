@@ -412,7 +412,6 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [luisiacc/gruvbox-baby](https://github.com/luisiacc/gruvbox-baby) | 2022-08-19 | `gruvbox-baby` |
 | [lukas-reineke/cmp-rg](https://github.com/lukas-reineke/cmp-rg) | 2022-07-27 | `cmp-rg` |
 | [lukas-reineke/cmp-under-comparator](https://github.com/lukas-reineke/cmp-under-comparator) | 2021-11-11 | `cmp-under-comparator` |
-| [lukas-reineke/lsp-format.nvim](https://github.com/lukas-reineke/lsp-format.nvim) | 2022-05-21 | `lsp-format-nvim` |
 | [lukas-reineke/headlines.nvim](https://github.com/lukas-reineke/headlines.nvim) | 2022-07-19 | `headlines-nvim` |
 | [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim) | 2022-07-27 | `indent-blankline-nvim` |
 | [lukas-reineke/lsp-format.nvim](https://github.com/lukas-reineke/lsp-format.nvim) | 2022-05-21 | `lsp-format-nvim` |

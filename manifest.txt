@@ -308,7 +308,6 @@ lourenci/github-colors
 luisiacc/gruvbox-baby
 lukas-reineke/cmp-rg
 lukas-reineke/cmp-under-comparator
-lukas-reineke/format.nvim
 lukas-reineke/headlines.nvim
 lukas-reineke/indent-blankline.nvim
 lukas-reineke/lsp-format.nvim
