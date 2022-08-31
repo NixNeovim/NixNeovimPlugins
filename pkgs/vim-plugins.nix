@@ -4629,6 +4629,19 @@
       homepage = "https://github.com/neovim/nvim-lspconfig";
     };
   };
+  nvim-toggler = buildVimPluginFrom2Nix {
+    pname = "nvim-toggler";
+    version = "2022-08-26";
+    src = fetchurl {
+      url = "https://github.com/nguyenvukhang/nvim-toggler/archive/eb299950de0e90903b2e0869e67445329613797a.tar.gz";
+      sha256 = "129c0par36grmj9p14nagf3zf89fjlig1m94qg3mhi2sqw77h333";
+    };
+    meta = with lib; {
+      description = "invert text in vim, purely with lua";
+      homepage = "https://github.com/nguyenvukhang/nvim-toggler";
+      license = with licenses; [ mit ];
+    };
+  };
   neomux = buildVimPluginFrom2Nix {
     pname = "neomux";
     version = "2021-12-23";
@@ -4795,6 +4808,19 @@
       description = ":sparkles: Smoothly navigate between neovim splits and tmux panes :sparkles:";
       homepage = "https://github.com/numToStr/Navigator.nvim";
       license = with licenses; [ mit ];
+    };
+  };
+  colortils-nvim = buildVimPluginFrom2Nix {
+    pname = "colortils-nvim";
+    version = "2022-08-30";
+    src = fetchurl {
+      url = "https://github.com/nvim-colortils/colortils.nvim/archive/6e2b200dfedd67d96eafd74b08adc08da95ccb4f.tar.gz";
+      sha256 = "0v86hvaxkr1ign9w4qxcq2k46d19kp3r9m8wgvifgjc80cmcm0ab";
+    };
+    meta = with lib; {
+      description = "Some color utils for neovim";
+      homepage = "https://github.com/nvim-colortils/colortils.nvim";
+      license = with licenses; [ gpl2Only ];
     };
   };
   lsp-status-nvim = buildVimPluginFrom2Nix {
@@ -5487,6 +5513,44 @@
       description = "Source code analysis & navigation plugin for Neovim. Navigate codes like a breeze🎐.  Exploring LSP and 🌲Treesitter symbols a piece of 🍰. Take control like a boss 🦍";
       homepage = "https://github.com/ray-x/navigator.lua";
       license = with licenses; [ mit ];
+    };
+  };
+  sad-nvim = buildVimPluginFrom2Nix {
+    pname = "sad-nvim";
+    version = "2022-08-30";
+    src = fetchurl {
+      url = "https://github.com/ray-x/sad.nvim/archive/01b7d84f4f73c8963f5933f09e88c833757bc7d8.tar.gz";
+      sha256 = "1l0wbszvvmwhnf38165iyrrn5c952cv26f4wnnh3lxw23168xdim";
+    };
+    meta = with lib; {
+      description = "Space Age seD in Neovim. A project-wide find and replace plugin for Neovim";
+      homepage = "https://github.com/ray-x/sad.nvim";
+      license = with licenses; [ gpl3Only ];
+    };
+  };
+  starry-nvim = buildVimPluginFrom2Nix {
+    pname = "starry-nvim";
+    version = "2022-08-30";
+    src = fetchurl {
+      url = "https://github.com/ray-x/starry.nvim/archive/62e775c22a49855b067c7e00beeb8aeb2abe34d6.tar.gz";
+      sha256 = "16vrmnhyf9yx6zg6h8p0jm5zi5yq684ig0rxn9qij9dic07m9fdg";
+    };
+    meta = with lib; {
+      description = "A pack of modern nvim color schemes: material, moonlight, Dracula (blood), Monokai, Mariana, Emerald, earlysummer, middlenight_blue... Fully support Treesitter, LSP and a variety of plugins";
+      homepage = "https://github.com/ray-x/starry.nvim";
+      license = with licenses; [ gpl2Only ];
+    };
+  };
+  web-tools-nvim = buildVimPluginFrom2Nix {
+    pname = "web-tools-nvim";
+    version = "2022-08-30";
+    src = fetchurl {
+      url = "https://github.com/ray-x/web-tools.nvim/archive/a289af77e14d224ab9770f9802d090f176dd340f.tar.gz";
+      sha256 = "0h98qm0vkdr604psazikwalgx3nwjbk7an5906lsmqqzr6pma2lq";
+    };
+    meta = with lib; {
+      description = "Neovim plugin for web developers";
+      homepage = "https://github.com/ray-x/web-tools.nvim";
     };
   };
   cmp-dap = buildVimPluginFrom2Nix {
