@@ -6053,19 +6053,6 @@
       homepage = "https://github.com/sgur/vim-textobj-parameter";
     };
   };
-  penvim = buildVimPluginFrom2Nix {
-    pname = "penvim";
-    version = "2022-07-23";
-    src = fetchurl {
-      url = "https://github.com/Abstract-IDE/penvim/archive/028c19f81eba9eaf4fe4876c60e3491b3389322f.tar.gz";
-      sha256 = "1nlhcm34hhlwnqphfngqkrzhlb73jnk9aaa3ig94iajmhx29x0i1";
-    };
-    meta = with lib; {
-      description = "Project's root directory and documents Indentation detector with project based config loader";
-      homepage = "https://github.com/Abstract-IDE/penvim";
-      license = with licenses; [ mit ];
-    };
-  };
   Abstract-cs = buildVimPluginFrom2Nix {
     pname = "Abstract-cs";
     version = "2022-08-25";

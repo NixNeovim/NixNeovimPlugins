@@ -473,7 +473,6 @@ scalameta/nvim-metals
 seandewar/killersheep.nvim
 seandewar/nvimesweeper
 sgur/vim-textobj-parameter
-shaeinst/penvim
 shaeinst/roshnivim-cs
 shaunsingh/moonlight.nvim
 shaunsingh/nord.nvim
