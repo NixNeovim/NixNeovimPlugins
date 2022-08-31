@@ -1172,6 +1172,19 @@
       license = with licenses; [ mit ];
     };
   };
+  cmp-tmux = buildVimPluginFrom2Nix {
+    pname = "cmp-tmux";
+    version = "2022-08-02";
+    src = fetchurl {
+      url = "https://github.com/andersevenrud/cmp-tmux/archive/e32f2f1417c9ff307ad348a134788eabd76c6112.tar.gz";
+      sha256 = "1vqra25kw4pd67qnd4v9bqn4qz4rx69apzzd91rymqq7f981cc3h";
+    };
+    meta = with lib; {
+      description = "Tmux completion source for nvim-cmp and nvim-compe";
+      homepage = "https://github.com/andersevenrud/cmp-tmux";
+      license = with licenses; [ mit ];
+    };
+  };
   nordic-nvim = buildVimPluginFrom2Nix {
     pname = "nordic-nvim";
     version = "2022-08-17";
@@ -3984,6 +3997,18 @@
       license = with licenses; [ mit ];
     };
   };
+  lsp-format-nvim = buildVimPluginFrom2Nix {
+    pname = "lsp-format-nvim";
+    version = "2022-05-21";
+    src = fetchurl {
+      url = "https://github.com/lukas-reineke/lsp-format.nvim/archive/a5a54eeb36d7001b4a6f0874dde6afd167319ac9.tar.gz";
+      sha256 = "1c4c0ccn023aa95c726rxs1has4yvnnd2q43z1z8q87amk5cahrq";
+    };
+    meta = with lib; {
+      description = "A wrapper around Neovims native LSP formatting";
+      homepage = "https://github.com/lukas-reineke/lsp-format.nvim";
+    };
+  };
   nnn-nvim = buildVimPluginFrom2Nix {
     pname = "nnn-nvim";
     version = "2022-08-23";
@@ -5505,10 +5530,10 @@
   };
   starry-nvim = buildVimPluginFrom2Nix {
     pname = "starry-nvim";
-    version = "2022-08-30";
+    version = "2022-08-31";
     src = fetchurl {
-      url = "https://github.com/ray-x/starry.nvim/archive/62e775c22a49855b067c7e00beeb8aeb2abe34d6.tar.gz";
-      sha256 = "16vrmnhyf9yx6zg6h8p0jm5zi5yq684ig0rxn9qij9dic07m9fdg";
+      url = "https://github.com/ray-x/starry.nvim/archive/aba0051ebdf96a1b357b31610ed031b17eed476b.tar.gz";
+      sha256 = "1wmx58w59xfn1xmm79www01f4sfwz892ylpgw3dj763qm985yvqa";
     };
     meta = with lib; {
       description = "A pack of modern nvim color schemes: material, moonlight, Dracula (blood), Monokai, Mariana, Emerald, earlysummer, middlenight_blue... Fully support Treesitter, LSP and a variety of plugins";

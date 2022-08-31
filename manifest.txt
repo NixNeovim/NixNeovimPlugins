@@ -456,7 +456,6 @@ rockerBOO/boo-colorscheme-nvim
 rockyzhang24/arctic.nvim
 rodrigore/coc-tailwind-intellisense
 romgrk/barbar.nvim
-rose-pine/neovim
 rose-pine/neovim::rose-pine
 ruifm/gitlinker.nvim
 s1n7ax/nvim-comment-frame

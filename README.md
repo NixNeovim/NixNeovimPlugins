@@ -536,7 +536,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [ray-x/lsp_signature.nvim](https://github.com/ray-x/lsp_signature.nvim) | 2022-08-15 | `lsp-signature-nvim` |
 | [ray-x/navigator.lua](https://github.com/ray-x/navigator.lua) | 2022-08-24 | `navigator-lua` |
 | [ray-x/sad.nvim](https://github.com/ray-x/sad.nvim) | 2022-08-30 | `sad-nvim` |
-| [ray-x/starry.nvim](https://github.com/ray-x/starry.nvim) | 2022-08-30 | `starry-nvim` |
+| [ray-x/starry.nvim](https://github.com/ray-x/starry.nvim) | 2022-08-31 | `starry-nvim` |
 | [ray-x/web-tools.nvim](https://github.com/ray-x/web-tools.nvim) | 2022-08-30 | `web-tools-nvim` |
 | [rcarriga/cmp-dap](https://github.com/rcarriga/cmp-dap) | 2022-08-21 | `cmp-dap` |
 | [rcarriga/nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui) | 2022-08-02 | `nvim-dap-ui` |
