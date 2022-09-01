@@ -3373,18 +3373,6 @@
       license = with licenses; [ mit ];
     };
   };
-  github-vscode-theme-nvim = buildVimPluginFrom2Nix {
-    pname = "github-vscode-theme-nvim";
-    version = "2022-08-24";
-    src = fetchurl {
-      url = "https://github.com/kaiuri/github-vscode-theme.nvim/archive/8265bc0ff3c2a463137cf4e008eda18e18da731e.tar.gz";
-      sha256 = "1np2al3i0r3z9xx6y8klfaah1l6y0gabam527wrpb1rrcnia3q8f";
-    };
-    meta = with lib; {
-      description = "Carefully ported github-vscode-theme to Neovim";
-      homepage = "https://github.com/kaiuri/github-vscode-theme.nvim";
-    };
-  };
   nvim-juliana = buildVimPluginFrom2Nix {
     pname = "nvim-juliana";
     version = "2022-08-24";
