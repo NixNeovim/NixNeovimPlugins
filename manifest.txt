@@ -30,7 +30,9 @@ Mofiqul/adwaita.nvim
 Mofiqul/dracula.nvim
 Mofiqul/vscode.nvim
 MordechaiHadad/nvim-papadark
+MunifTanjim/exrc.nvim
 MunifTanjim/nui.nvim
+MunifTanjim/prettier.nvim
 NFrid/due.nvim
 NMAC427/guess-indent.nvim
 NTBBloodbath/cheovim
@@ -412,6 +414,7 @@ phha/zenburn.nvim
 pianocomposer321/consolation.nvim
 pianocomposer321/yabs.nvim
 pontusk/cmp-vimwiki-tags
+potamides/pantran.nvim
 preservim/nerdcommenter
 projekt0n/github-nvim-theme
 pwntester/codeql.nvim
@@ -552,6 +555,8 @@ xiyaowong/nvim-transparent
 xiyaowong/virtcolumn.nvim
 yamatsum/nvim-cursorline
 yamatsum/nvim-nonicons
+yaocccc/nvim-hlchunk
+yaocccc/nvim-lines.lua
 yashguptaz/calvera-dark.nvim
 yazeed1s/minimal.nvim
 yonlu/omni.vim
