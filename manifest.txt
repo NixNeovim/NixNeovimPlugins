@@ -90,7 +90,6 @@ alvarosevilla95/luatab.nvim
 amirrezaask/fuzzy.nvim
 amrbashir/nvim-docs-view
 andersevenrud/cmp-tmux
-andersevenrud/compe-tmux
 andersevenrud/nordic.nvim
 andrewferrier/debugprint.nvim
 andrewferrier/textobj-diagnostic.nvim
@@ -454,7 +453,6 @@ rockerBOO/boo-colorscheme-nvim
 rockyzhang24/arctic.nvim
 rodrigore/coc-tailwind-intellisense
 romgrk/barbar.nvim
-rose-pine/neovim
 rose-pine/neovim::rose-pine
 ruifm/gitlinker.nvim
 s1n7ax/nvim-comment-frame
@@ -474,7 +472,6 @@ scalameta/nvim-metals
 seandewar/killersheep.nvim
 seandewar/nvimesweeper
 sgur/vim-textobj-parameter
-shaeinst/penvim
 shaeinst/roshnivim-cs
 shaunsingh/moonlight.nvim
 shaunsingh/nord.nvim

@@ -1173,19 +1173,6 @@
       license = with licenses; [ mit ];
     };
   };
-  cmp-tmux = buildVimPluginFrom2Nix {
-    pname = "cmp-tmux";
-    version = "2022-08-02";
-    src = fetchurl {
-      url = "https://github.com/andersevenrud/cmp-tmux/archive/e32f2f1417c9ff307ad348a134788eabd76c6112.tar.gz";
-      sha256 = "1vqra25kw4pd67qnd4v9bqn4qz4rx69apzzd91rymqq7f981cc3h";
-    };
-    meta = with lib; {
-      description = "Tmux completion source for nvim-cmp and nvim-compe";
-      homepage = "https://github.com/andersevenrud/cmp-tmux";
-      license = with licenses; [ mit ];
-    };
-  };
   nordic-nvim = buildVimPluginFrom2Nix {
     pname = "nordic-nvim";
     version = "2022-08-17";
@@ -5813,18 +5800,6 @@
       homepage = "https://github.com/romgrk/barbar.nvim";
     };
   };
-  neovim = buildVimPluginFrom2Nix {
-    pname = "neovim";
-    version = "2022-08-14";
-    src = fetchurl {
-      url = "https://github.com/rose-pine/neovim/archive/0f3ea8162459da82440c22ce0c9b0562e53f6a10.tar.gz";
-      sha256 = "0c19dr3120447dy6h9hxhy0idi4hqc3j1p9srf92pa63ls7hq1kf";
-    };
-    meta = with lib; {
-      description = "Soho vibes for Neovim";
-      homepage = "https://github.com/rose-pine/neovim";
-    };
-  };
   rose-pine = buildVimPluginFrom2Nix {
     pname = "rose-pine";
     version = "2022-08-14";
@@ -6066,19 +6041,6 @@
     meta = with lib; {
       description = "A fork of textobj-parameter 0.1.0";
       homepage = "https://github.com/sgur/vim-textobj-parameter";
-    };
-  };
-  penvim = buildVimPluginFrom2Nix {
-    pname = "penvim";
-    version = "2022-07-23";
-    src = fetchurl {
-      url = "https://github.com/Abstract-IDE/penvim/archive/028c19f81eba9eaf4fe4876c60e3491b3389322f.tar.gz";
-      sha256 = "1nlhcm34hhlwnqphfngqkrzhlb73jnk9aaa3ig94iajmhx29x0i1";
-    };
-    meta = with lib; {
-      description = "Project's root directory and documents Indentation detector with project based config loader";
-      homepage = "https://github.com/Abstract-IDE/penvim";
-      license = with licenses; [ mit ];
     };
   };
   Abstract-cs = buildVimPluginFrom2Nix {
