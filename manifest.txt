@@ -6,6 +6,7 @@ AckslD/nvim-neoclip.lua
 AckslD/nvim-revJ.lua
 AllenDang/nvim-expand-expr
 CRAG666/code_runner.nvim
+Chaitanyabsprip/present.nvim
 ChristianChiarulli/nvcode-color-schemes.vim
 Darazaki/indent-o-matic
 David-Kunz/cmp-npm
@@ -25,6 +26,7 @@ L3MON4D3/LuaSnip
 LinArcX/telescope-command-palette.nvim
 LionC/nest.nvim
 LoricAndre/OneTerm.nvim
+LudoPinelli/comment-box.nvim
 Mangeshrex/uwu.vim
 Mofiqul/adwaita.nvim
 Mofiqul/dracula.nvim
@@ -46,6 +48,7 @@ Pocco81/AbbrevMan.nvim
 Pocco81/AutoSave.nvim
 Pocco81/DAPInstall.nvim
 Pocco81/HighStr.nvim
+Pocco81/TrueZen.nvim
 Pocco81/true-zen.nvim
 RRethy/nvim-base16
 RRethy/nvim-treesitter-textsubjects
