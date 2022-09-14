@@ -2,3 +2,4 @@ lukas-reineke/format.nvim
 andersevenrud/compe-tmux
 rose-pine/neovim
 shaeinst/penvim
+Pocco81/TrueZen.nvim
