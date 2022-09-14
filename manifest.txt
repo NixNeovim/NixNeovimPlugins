@@ -493,6 +493,7 @@ stevearc/dressing.nvim
 stevearc/gkeep.nvim
 stevearc/overseer.nvim
 stevearc/qf_helper.nvim
+subnut/nvim-ghost.nvim
 sudormrfbin/cheatsheet.nvim
 sunjon/Shade.nvim
 svermeulen/vim-yoink

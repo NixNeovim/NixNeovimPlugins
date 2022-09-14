@@ -597,6 +597,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [stevearc/gkeep.nvim](https://github.com/stevearc/gkeep.nvim) | 2022-09-02 | `gkeep-nvim` |
 | [stevearc/overseer.nvim](https://github.com/stevearc/overseer.nvim) | 2022-09-03 | `overseer-nvim` |
 | [stevearc/qf_helper.nvim](https://github.com/stevearc/qf_helper.nvim) | 2022-01-28 | `qf-helper-nvim` |
+| [subnut/nvim-ghost.nvim](https://github.com/subnut/nvim-ghost.nvim) | 2022-07-31 | `nvim-ghost-nvim` |
 | [sudormrfbin/cheatsheet.nvim](https://github.com/sudormrfbin/cheatsheet.nvim) | 2021-12-23 | `cheatsheet-nvim` |
 | [sunjon/Shade.nvim](https://github.com/sunjon/Shade.nvim) | 2022-02-01 | `Shade-nvim` |
 | [svermeulen/vim-yoink](https://github.com/svermeulen/vim-yoink) | 2021-09-15 | `vim-yoink` |

@@ -6312,6 +6312,19 @@
       license = with licenses; [ mit ];
     };
   };
+  nvim-ghost-nvim = buildVimPluginFrom2Nix {
+    pname = "nvim-ghost-nvim";
+    version = "2022-07-31";
+    src = fetchurl {
+      url = "https://github.com/subnut/nvim-ghost.nvim/archive/2e0251ebeaa364b4c41491ae0dcd63a02e5fa31a.tar.gz";
+      sha256 = "0ms2y7jpgx560ibm41xpqs5nbzv0n3x2f760pj9vjs97wlpp4brh";
+    };
+    meta = with lib; {
+      description = ":ghost: GhostText plugin for Neovim with zero dependencies :tada: Supports neovim running inside WSL too! :partying_face: Windows/Linux/macOS supported out-of-the-box! :smile: (Other OSes need python3.6+ installed)";
+      homepage = "https://github.com/subnut/nvim-ghost.nvim";
+      license = with licenses; [ mit ];
+    };
+  };
   cheatsheet-nvim = buildVimPluginFrom2Nix {
     pname = "cheatsheet-nvim";
     version = "2021-12-23";
