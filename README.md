@@ -255,6 +255,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [davidsierradz/cmp-conventionalcommits](https://github.com/davidsierradz/cmp-conventionalcommits) | 2021-10-28 | `cmp-conventionalcommits` |
 | [dcampos/cmp-snippy](https://github.com/dcampos/cmp-snippy) | 2021-09-20 | `cmp-snippy` |
 | [dcampos/nvim-snippy](https://github.com/dcampos/nvim-snippy) | 2022-08-03 | `nvim-snippy` |
+| [dccsillag/magma-nvim](https://github.com/dccsillag/magma-nvim) | 2022-09-08 | `magma-nvim` |
 | [declancm/cinnamon.nvim](https://github.com/declancm/cinnamon.nvim) | 2022-07-13 | `cinnamon-nvim` |
 | [declancm/windex.nvim](https://github.com/declancm/windex.nvim) | 2022-07-12 | `windex-nvim` |
 | [dkarter/bullets.vim](https://github.com/dkarter/bullets.vim) | 2022-08-13 | `bullets-vim` |

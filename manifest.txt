@@ -151,6 +151,7 @@ davidgranstrom/scnvim
 davidsierradz/cmp-conventionalcommits
 dcampos/cmp-snippy
 dcampos/nvim-snippy
+dccsillag/magma-nvim
 declancm/cinnamon.nvim
 declancm/windex.nvim
 dkarter/bullets.vim

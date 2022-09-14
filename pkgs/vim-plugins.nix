@@ -1952,6 +1952,19 @@
       license = with licenses; [ mit ];
     };
   };
+  magma-nvim = buildVimPluginFrom2Nix {
+    pname = "magma-nvim";
+    version = "2022-09-08";
+    src = fetchurl {
+      url = "https://github.com/dccsillag/magma-nvim/archive/ce56a23419413bbc5916eabb57b77991cffca273.tar.gz";
+      sha256 = "173hbp55iydlbschxcri4r7nv0l0nh086f4cc1c1fqr424fc1x15";
+    };
+    meta = with lib; {
+      description = "Interact with Jupyter from NeoVim";
+      homepage = "https://github.com/dccsillag/magma-nvim";
+      license = with licenses; [ gpl3Only ];
+    };
+  };
   cinnamon-nvim = buildVimPluginFrom2Nix {
     pname = "cinnamon-nvim";
     version = "2022-07-13";
