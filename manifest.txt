@@ -6,6 +6,7 @@ AckslD/nvim-neoclip.lua
 AckslD/nvim-revJ.lua
 AllenDang/nvim-expand-expr
 CRAG666/code_runner.nvim
+Chaitanyabsprip/present.nvim
 ChristianChiarulli/nvcode-color-schemes.vim
 Darazaki/indent-o-matic
 David-Kunz/cmp-npm
@@ -25,12 +26,15 @@ L3MON4D3/LuaSnip
 LinArcX/telescope-command-palette.nvim
 LionC/nest.nvim
 LoricAndre/OneTerm.nvim
+LudoPinelli/comment-box.nvim
 Mangeshrex/uwu.vim
 Mofiqul/adwaita.nvim
 Mofiqul/dracula.nvim
 Mofiqul/vscode.nvim
 MordechaiHadad/nvim-papadark
+MunifTanjim/exrc.nvim
 MunifTanjim/nui.nvim
+MunifTanjim/prettier.nvim
 NFrid/due.nvim
 NMAC427/guess-indent.nvim
 NTBBloodbath/cheovim
@@ -44,6 +48,7 @@ Pocco81/AbbrevMan.nvim
 Pocco81/AutoSave.nvim
 Pocco81/DAPInstall.nvim
 Pocco81/HighStr.nvim
+Pocco81/TrueZen.nvim
 Pocco81/true-zen.nvim
 RRethy/nvim-base16
 RRethy/nvim-treesitter-textsubjects
@@ -412,6 +417,7 @@ phha/zenburn.nvim
 pianocomposer321/consolation.nvim
 pianocomposer321/yabs.nvim
 pontusk/cmp-vimwiki-tags
+potamides/pantran.nvim
 preservim/nerdcommenter
 projekt0n/github-nvim-theme
 pwntester/codeql.nvim
@@ -553,6 +559,8 @@ xiyaowong/nvim-transparent
 xiyaowong/virtcolumn.nvim
 yamatsum/nvim-cursorline
 yamatsum/nvim-nonicons
+yaocccc/nvim-hlchunk
+yaocccc/nvim-lines.lua
 yashguptaz/calvera-dark.nvim
 yazeed1s/minimal.nvim
 yonlu/omni.vim
