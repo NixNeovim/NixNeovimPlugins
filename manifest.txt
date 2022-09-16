@@ -8,6 +8,7 @@ AllenDang/nvim-expand-expr
 CRAG666/code_runner.nvim
 Chaitanyabsprip/present.nvim
 ChristianChiarulli/nvcode-color-schemes.vim
+CosmicNvim/cosmic-ui
 Darazaki/indent-o-matic
 David-Kunz/cmp-npm
 David-Kunz/jester
