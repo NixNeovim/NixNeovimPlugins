@@ -1,9 +1,11 @@
 0styx0/abbreinder.nvim
 Abstract-IDE/penvim
+AckslD/messages.nvim
 AckslD/nvim-FeMaco.lua
 AckslD/nvim-gfold.lua
 AckslD/nvim-neoclip.lua
 AckslD/nvim-revJ.lua
+AckslD/swenv.nvim
 AllenDang/nvim-expand-expr
 CRAG666/code_runner.nvim
 Chaitanyabsprip/present.nvim
@@ -101,10 +103,12 @@ andrewferrier/textobj-diagnostic.nvim
 andweeb/presence.nvim
 andythigpen/nvim-coverage
 anott03/nvim-lspinstall
+anuvyklack/animation.nvim
 anuvyklack/fold-preview.nvim
 anuvyklack/hydra.nvim
 anuvyklack/keymap-amend.nvim
 anuvyklack/pretty-fold.nvim
+anuvyklack/windows.nvim
 aserowy/tmux.nvim
 askfiy/nvim-picgo
 aspeddro/cmp-pandoc.nvim
@@ -198,6 +202,7 @@ gbprod/stay-in-place.nvim
 gbprod/substitute.nvim
 gbprod/yanky.nvim
 gelguy/wilder.nvim
+gen740/SmoothCursor.nvim
 gennaro-tedesco/nvim-commaround
 gennaro-tedesco/nvim-jqx
 gennaro-tedesco/nvim-peekup
@@ -535,6 +540,7 @@ tzachar/cmp-fuzzy-path
 tzachar/cmp-tabnine
 udayvir-singh/hibiscus.nvim
 udayvir-singh/tangerine.nvim
+uga-rosa/ccc.nvim
 uga-rosa/cmp-dictionary
 vappolinario/cmp-clippy
 vigoux/complementree.nvim
