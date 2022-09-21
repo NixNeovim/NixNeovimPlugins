@@ -2,6 +2,11 @@
 
 Nix flake of miscellaneous Vim/Neovim plugins.
 
+### Why this fork?
+
+This fork does not delete any plugins just because they are available in nixpkgs. The aim is to provide a one-stop solution for all neovim plugins.
+This fork includes more plugins than the original. We sources new plugins from awesome-neovim and from the original. Therefore, we will never not have a plugin that the original has.
+
 ## Table of contents
 
 - [Description](#description)
