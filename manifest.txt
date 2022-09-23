@@ -175,6 +175,7 @@ ellisonleao/carbon-now.nvim
 ellisonleao/glow.nvim
 ellisonleao/gruvbox.nvim
 ellisonleao/nvim-plugin-template
+epwalsh/obsidian.nvim
 esensar/nvim-dev-container
 ethanholz/nvim-lastplace
 evanleck/vim-svelte
@@ -406,6 +407,7 @@ nyngwang/NeoRoot.lua
 oberblastmeister/neuron.nvim
 octaltree/cmp-look
 ofirgall/goto-breakpoints.nvim
+ofirgall/ofirkai.nvim
 ojroques/nvim-hardline
 ojroques/nvim-lspfuzzy
 olexsmir/gopher.nvim
