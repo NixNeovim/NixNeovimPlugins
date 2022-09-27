@@ -159,6 +159,7 @@ dcampos/nvim-snippy
 dccsillag/magma-nvim
 declancm/cinnamon.nvim
 declancm/windex.nvim
+desdic/greyjoy.nvim
 dkarter/bullets.vim
 dmitmel/cmp-cmdline-history
 dmitmel/cmp-digraphs
@@ -222,6 +223,7 @@ gpanders/editorconfig.nvim
 gwatcha/reaper-keys
 h-hg/fcitx.nvim
 haringsrob/nvim_context_vt
+sourcehut:henriquehbr/ataraxis.lua
 henriquehbr/ataraxis.lua
 sourcehut:henriquehbr/nvim-startup.lua
 hkupty/iron.nvim
