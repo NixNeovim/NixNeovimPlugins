@@ -2718,10 +2718,10 @@
   };
   cybu-nvim = buildVimPluginFrom2Nix {
     pname = "cybu-nvim";
-    version = "2022-09-01";
+    version = "2022-09-27";
     src = fetchurl {
-      url = "https://github.com/ghillb/cybu.nvim/archive/43b68850ac370c583e95ff136f65b144859470dc.tar.gz";
-      sha256 = "0727gcwl9h4sq07hhc1rz1j2k32lipzr8xk7cwfmnbc1c8920zvn";
+      url = "https://github.com/ghillb/cybu.nvim/archive/9439962d238e29aaa070c759d56f997384a53ed6.tar.gz";
+      sha256 = "1kvqc5x7rsiy72mx1p86ji420bf9n53ivx17m0zxzpbc7kw53x85";
     };
     meta = with lib; {
       description = "Neovim plugin that offers context when cycling buffers in the form of a customizable notification window";
@@ -2874,19 +2874,6 @@
   ataraxis-lua = buildVimPluginFrom2Nix {
     pname = "ataraxis-lua";
     version = "2022-07-31";
-    src = fetchgit {
-      url = "https://git.sr.ht/~henriquehbr/ataraxis.lua";
-      rev = "72e6f9e3d14218129c90b8f5ceaed68c8d68e873";
-      sha256 = "16ggsip1qa970343ibxlj6sgpc8anwjwbv8gjxj0cgi0gn8slkhx";
-    };
-    meta = with lib; {
-      description = "No description";
-      homepage = "https://sr.ht/~henriquehbr/ataraxis.lua/";
-    };
-  };
-  ataraxis-lua = buildVimPluginFrom2Nix {
-    pname = "ataraxis-lua";
-    version = "2022-07-31";
     src = fetchurl {
       url = "https://github.com/henriquehbr/ataraxis.lua/archive/1ded0dde2f37a06299e6001c9343dcc774dbfa12.tar.gz";
       sha256 = "1khwypigldh8b8cy2f2wr54scs6nfi2hdv79z31zgn1dwmgym9bn";
@@ -2895,6 +2882,19 @@
       description = "A simple zen mode for improving code readability on neovim";
       homepage = "https://github.com/henriquehbr/ataraxis.lua";
       license = with licenses; [ gpl3Only ];
+    };
+  };
+  ataraxis-lua = buildVimPluginFrom2Nix {
+    pname = "ataraxis-lua";
+    version = "2022-07-31";
+    src = fetchgit {
+      url = "https://git.sr.ht/~henriquehbr/ataraxis.lua";
+      rev = "72e6f9e3d14218129c90b8f5ceaed68c8d68e873";
+      sha256 = "16ggsip1qa970343ibxlj6sgpc8anwjwbv8gjxj0cgi0gn8slkhx";
+    };
+    meta = with lib; {
+      description = "No description";
+      homepage = "https://sr.ht/~henriquehbr/ataraxis.lua/";
     };
   };
   nvim-startup-lua = buildVimPluginFrom2Nix {
@@ -3904,10 +3904,10 @@
   };
   nvim-surround = buildVimPluginFrom2Nix {
     pname = "nvim-surround";
-    version = "2022-09-26";
+    version = "2022-09-27";
     src = fetchurl {
-      url = "https://github.com/kylechui/nvim-surround/archive/a0b35fd410e16f00543e81dbb6c52c723f49717e.tar.gz";
-      sha256 = "1jl7s5kz1kjcvf83g6s2v1px6c3vn06wp58xqcr6nz8gggzxfbws";
+      url = "https://github.com/kylechui/nvim-surround/archive/17191679202978b1de8c1bd5d975400897b1b92d.tar.gz";
+      sha256 = "1jmb2x92pxxi3m9shwbdg90df77dpawmixn8xyc7s0h6qj1mm956";
     };
     meta = with lib; {
       description = "Add/change/delete surrounding delimiter pairs with ease. Written with :heart: in Lua";
@@ -5002,8 +5002,8 @@
     pname = "plenary-nvim";
     version = "2022-09-27";
     src = fetchurl {
-      url = "https://github.com/nvim-lua/plenary.nvim/archive/87f7156afe924c7116486e94830f65f639a09ed7.tar.gz";
-      sha256 = "1ba49qdv0dh85d4l1na4bg7nvx078psjrdvyv81lnkjq2pj6mk5r";
+      url = "https://github.com/nvim-lua/plenary.nvim/archive/9e7c62856e47053ec7b17f82c5da0f1e678d92c8.tar.gz";
+      sha256 = "01j9w5djqrng9fsyb0k1izjp2vvza1q8l0z8dd2k4s6hxk7qfffr";
     };
     meta = with lib; {
       description = "plenary: full; complete; entire; absolute; unqualified. All the lua functions I don't want to write twice";
@@ -5807,10 +5807,10 @@
   };
   telekasten-nvim = buildVimPluginFrom2Nix {
     pname = "telekasten-nvim";
-    version = "2022-09-23";
+    version = "2022-09-27";
     src = fetchurl {
-      url = "https://github.com/renerocksai/telekasten.nvim/archive/4217ee242327ca62c56d3e90b5c39bd1bfbb20c1.tar.gz";
-      sha256 = "0h9brs5maliv6lpp61qln0mnxb6c9m2gdcqyqkwm6y86brws1yi5";
+      url = "https://github.com/renerocksai/telekasten.nvim/archive/232799accf5ba427ee32b4d73c186de738616be6.tar.gz";
+      sha256 = "12g9kx3saph7l32rhips11ysmmd0fr0b2h6fgcdz32rhzkx0phqz";
     };
     meta = with lib; {
       description = "A Neovim (lua) plugin for working with a markdown zettelkasten / wiki and mixing it with a journal, based on telescope.nvim";
@@ -6500,8 +6500,8 @@
     pname = "overseer-nvim";
     version = "2022-09-27";
     src = fetchurl {
-      url = "https://github.com/stevearc/overseer.nvim/archive/5665c86053bbfcb30fd078f4b96795cbc260b3bc.tar.gz";
-      sha256 = "1sji09sp9v7ishaq4n3g04jq0ppj68s6sjknrh9vd4bvvq4csb6f";
+      url = "https://github.com/stevearc/overseer.nvim/archive/587bd91dbd4b7ebc4f12cd33394851f4ef64a406.tar.gz";
+      sha256 = "02pcxrdk5ld6hain8laa7m6fzv52if6wqclvfc1l9mn13f6g10bi";
     };
     meta = with lib; {
       description = "A task runner and job management plugin for Neovim";
@@ -6628,8 +6628,8 @@
     pname = "nlsp-settings-nvim";
     version = "2022-09-27";
     src = fetchurl {
-      url = "https://github.com/tamago324/nlsp-settings.nvim/archive/98051a72d7d48800bec086113fa7bc4e529f810a.tar.gz";
-      sha256 = "0l0h3fl27gnvy9xxczb502kcyhffmm3lq14rj8qfqm244n7svwhq";
+      url = "https://github.com/tamago324/nlsp-settings.nvim/archive/7d5067370e92dfe38bb11ca60881d93aaa7a00d9.tar.gz";
+      sha256 = "1nz241q8hr7lp5cwj91ifkbscg2jchg7v1hpvp8qizjxwfnllnh8";
     };
     meta = with lib; {
       description = "A plugin for setting Neovim LSP with JSON or YAML files";
@@ -7105,8 +7105,8 @@
     pname = "mason-nvim";
     version = "2022-09-27";
     src = fetchurl {
-      url = "https://github.com/williamboman/mason.nvim/archive/7e5aa4082c231be6948c5781ad8707b436ed5c0f.tar.gz";
-      sha256 = "1zhv0nh4n8g4m1jlcvbl8d796dk4pl4jzq12rim1lym96ni8jpfc";
+      url = "https://github.com/williamboman/mason.nvim/archive/f3ad2599e07803c8a48f255fca5c0689ceb7917c.tar.gz";
+      sha256 = "0in81mrq8dkamvyhbrap4zbb8svyf57fzplhwxyxzdq4b6cmivfw";
     };
     meta = with lib; {
       description = "Portable package manager for Neovim that runs everywhere Neovim runs. Easily install and manage LSP servers, DAP servers, linters, and formatters";

@@ -315,7 +315,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [gfanto/fzf-lsp.nvim](https://github.com/gfanto/fzf-lsp.nvim) | 2022-07-16 | `fzf-lsp-nvim` |
 | [ggandor/leap.nvim](https://github.com/ggandor/leap.nvim) | 2022-09-18 | `leap-nvim` |
 | [ggandor/lightspeed.nvim](https://github.com/ggandor/lightspeed.nvim) | 2022-08-16 | `lightspeed-nvim` |
-| [ghillb/cybu.nvim](https://github.com/ghillb/cybu.nvim) | 2022-09-01 | `cybu-nvim` |
+| [ghillb/cybu.nvim](https://github.com/ghillb/cybu.nvim) | 2022-09-27 | `cybu-nvim` |
 | [github/copilot.vim](https://github.com/github/copilot.vim) | 2022-09-18 | `copilot-vim` |
 | [glacambre/firenvim](https://github.com/glacambre/firenvim) | 2022-08-16 | `firenvim` |
 | [glepnir/dashboard-nvim](https://github.com/glepnir/dashboard-nvim) | 2022-09-16 | `dashboard-nvim` |
@@ -327,8 +327,8 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [gwatcha/reaper-keys](https://github.com/gwatcha/reaper-keys) | 2021-08-23 | `reaper-keys` |
 | [h-hg/fcitx.nvim](https://github.com/h-hg/fcitx.nvim) | 2022-06-25 | `fcitx-nvim` |
 | [haringsrob/nvim_context_vt](https://github.com/haringsrob/nvim_context_vt) | 2022-09-14 | `nvim-context-vt` |
-| [sourcehut:henriquehbr/ataraxis.lua](https://sr.ht/~henriquehbr/ataraxis.lua/) | 2022-07-31 | `ataraxis-lua` |
 | [henriquehbr/ataraxis.lua](https://github.com/henriquehbr/ataraxis.lua) | 2022-07-31 | `ataraxis-lua` |
+| [sourcehut:henriquehbr/ataraxis.lua](https://sr.ht/~henriquehbr/ataraxis.lua/) | 2022-07-31 | `ataraxis-lua` |
 | [sourcehut:henriquehbr/nvim-startup.lua](https://sr.ht/~henriquehbr/nvim-startup.lua/) | 2022-07-31 | `nvim-startup-lua` |
 | [hkupty/iron.nvim](https://github.com/hkupty/iron.nvim) | 2022-08-31 | `iron-nvim` |
 | [hkupty/nvimux](https://github.com/hkupty/nvimux) | 2022-05-02 | `nvimux` |
@@ -408,7 +408,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [kyazdani42/blue-moon](https://github.com/kyazdani42/blue-moon) | 2022-07-18 | `blue-moon` |
 | [kyazdani42/nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua) | 2022-09-25 | `nvim-tree-lua` |
 | [kyazdani42/nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons) | 2022-09-18 | `nvim-web-devicons` |
-| [kylechui/nvim-surround](https://github.com/kylechui/nvim-surround) | 2022-09-26 | `nvim-surround` |
+| [kylechui/nvim-surround](https://github.com/kylechui/nvim-surround) | 2022-09-27 | `nvim-surround` |
 | [lalitmee/cobalt2.nvim](https://github.com/lalitmee/cobalt2.nvim) | 2022-09-24 | `cobalt2-nvim` |
 | [lcheylus/overlength.nvim](https://github.com/lcheylus/overlength.nvim) | 2022-08-10 | `overlength-nvim` |
 | [ldelossa/gh.nvim](https://github.com/ldelossa/gh.nvim) | 2022-09-18 | `gh-nvim` |
@@ -557,7 +557,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [rcarriga/vim-ultest](https://github.com/rcarriga/vim-ultest) | 2022-06-18 | `vim-ultest` |
 | [rebelot/heirline.nvim](https://github.com/rebelot/heirline.nvim) | 2022-09-22 | `heirline-nvim` |
 | [rebelot/kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim) | 2022-09-01 | `kanagawa-nvim` |
-| [renerocksai/telekasten.nvim](https://github.com/renerocksai/telekasten.nvim) | 2022-09-23 | `telekasten-nvim` |
+| [renerocksai/telekasten.nvim](https://github.com/renerocksai/telekasten.nvim) | 2022-09-27 | `telekasten-nvim` |
 | [rest-nvim/rest.nvim](https://github.com/rest-nvim/rest.nvim) | 2022-09-24 | `rest-nvim` |
 | [rgroli/other.nvim](https://github.com/rgroli/other.nvim) | 2022-08-03 | `other-nvim` |
 | [rhysd/vim-gfm-syntax](https://github.com/rhysd/vim-gfm-syntax) | 2022-08-01 | `vim-gfm-syntax` |
