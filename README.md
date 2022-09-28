@@ -271,6 +271,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [dracula/vim](https://github.com/dracula/vim) | 2022-03-24 | `vim` |
 | [drybalka/tree-climber.nvim](https://github.com/drybalka/tree-climber.nvim) | 2022-08-06 | `tree-climber-nvim` |
 | [dstein64/nvim-scrollview](https://github.com/dstein64/nvim-scrollview) | 2022-09-26 | `nvim-scrollview` |
+| [dstein64/vim-startuptime](https://github.com/dstein64/vim-startuptime) | 2022-09-26 | `vim-startuptime` |
 | [echasnovski/mini.nvim](https://github.com/echasnovski/mini.nvim) | 2022-09-26 | `mini-nvim` |
 | [edluffy/specs.nvim](https://github.com/edluffy/specs.nvim) | 2022-09-20 | `specs-nvim` |
 | [edolphin-ydf/goimpl.nvim](https://github.com/edolphin-ydf/goimpl.nvim) | 2022-07-16 | `goimpl-nvim` |
@@ -327,8 +328,8 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [gwatcha/reaper-keys](https://github.com/gwatcha/reaper-keys) | 2021-08-23 | `reaper-keys` |
 | [h-hg/fcitx.nvim](https://github.com/h-hg/fcitx.nvim) | 2022-06-25 | `fcitx-nvim` |
 | [haringsrob/nvim_context_vt](https://github.com/haringsrob/nvim_context_vt) | 2022-09-14 | `nvim-context-vt` |
-| [henriquehbr/ataraxis.lua](https://github.com/henriquehbr/ataraxis.lua) | 2022-07-31 | `ataraxis-lua` |
 | [sourcehut:henriquehbr/ataraxis.lua](https://sr.ht/~henriquehbr/ataraxis.lua/) | 2022-07-31 | `ataraxis-lua` |
+| [henriquehbr/ataraxis.lua](https://github.com/henriquehbr/ataraxis.lua) | 2022-07-31 | `ataraxis-lua` |
 | [sourcehut:henriquehbr/nvim-startup.lua](https://sr.ht/~henriquehbr/nvim-startup.lua/) | 2022-07-31 | `nvim-startup-lua` |
 | [hkupty/iron.nvim](https://github.com/hkupty/iron.nvim) | 2022-08-31 | `iron-nvim` |
 | [hkupty/nvimux](https://github.com/hkupty/nvimux) | 2022-05-02 | `nvimux` |

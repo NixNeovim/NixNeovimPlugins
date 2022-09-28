@@ -2156,6 +2156,19 @@
       license = with licenses; [ mit ];
     };
   };
+  vim-startuptime = buildVimPluginFrom2Nix {
+    pname = "vim-startuptime";
+    version = "2022-09-26";
+    src = fetchurl {
+      url = "https://github.com/dstein64/vim-startuptime/archive/1a5fe7b6275d8f62647969012dcd5bcceb2cebc6.tar.gz";
+      sha256 = "1shzm5pha90m5fkbsvlmzgxgaaxpxf7851rlg4ch8ls4w2p3xfx6";
+    };
+    meta = with lib; {
+      description = "⏲️ A Vim plugin for profiling Vim's startup time";
+      homepage = "https://github.com/dstein64/vim-startuptime";
+      license = with licenses; [ mit ];
+    };
+  };
   mini-nvim = buildVimPluginFrom2Nix {
     pname = "mini-nvim";
     version = "2022-09-26";
@@ -2874,19 +2887,6 @@
   ataraxis-lua = buildVimPluginFrom2Nix {
     pname = "ataraxis-lua";
     version = "2022-07-31";
-    src = fetchurl {
-      url = "https://github.com/henriquehbr/ataraxis.lua/archive/1ded0dde2f37a06299e6001c9343dcc774dbfa12.tar.gz";
-      sha256 = "1khwypigldh8b8cy2f2wr54scs6nfi2hdv79z31zgn1dwmgym9bn";
-    };
-    meta = with lib; {
-      description = "A simple zen mode for improving code readability on neovim";
-      homepage = "https://github.com/henriquehbr/ataraxis.lua";
-      license = with licenses; [ gpl3Only ];
-    };
-  };
-  ataraxis-lua = buildVimPluginFrom2Nix {
-    pname = "ataraxis-lua";
-    version = "2022-07-31";
     src = fetchgit {
       url = "https://git.sr.ht/~henriquehbr/ataraxis.lua";
       rev = "72e6f9e3d14218129c90b8f5ceaed68c8d68e873";
@@ -2895,6 +2895,19 @@
     meta = with lib; {
       description = "No description";
       homepage = "https://sr.ht/~henriquehbr/ataraxis.lua/";
+    };
+  };
+  ataraxis-lua = buildVimPluginFrom2Nix {
+    pname = "ataraxis-lua";
+    version = "2022-07-31";
+    src = fetchurl {
+      url = "https://github.com/henriquehbr/ataraxis.lua/archive/1ded0dde2f37a06299e6001c9343dcc774dbfa12.tar.gz";
+      sha256 = "1khwypigldh8b8cy2f2wr54scs6nfi2hdv79z31zgn1dwmgym9bn";
+    };
+    meta = with lib; {
+      description = "A simple zen mode for improving code readability on neovim";
+      homepage = "https://github.com/henriquehbr/ataraxis.lua";
+      license = with licenses; [ gpl3Only ];
     };
   };
   nvim-startup-lua = buildVimPluginFrom2Nix {
