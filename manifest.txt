@@ -226,6 +226,7 @@ gwatcha/reaper-keys
 h-hg/fcitx.nvim
 haringsrob/nvim_context_vt
 sourcehut:henriquehbr/ataraxis.lua
+henriquehbr/ataraxis.lua
 sourcehut:henriquehbr/nvim-startup.lua
 hkupty/iron.nvim
 hkupty/nvimux
