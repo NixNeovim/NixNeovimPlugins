@@ -1385,6 +1385,19 @@
       homepage = "https://github.com/anuvyklack/keymap-amend.nvim";
     };
   };
+  middleclass = buildVimPluginFrom2Nix {
+    pname = "middleclass";
+    version = "2022-09-20";
+    src = fetchurl {
+      url = "https://github.com/anuvyklack/middleclass/archive/9fab4d5bca67262614960960ca35c4740eb2be2c.tar.gz";
+      sha256 = "1d3062ra2pxk4vw5adq7d0y0njrl2fkja2qdlkggvrw1l9z8l5r9";
+    };
+    meta = with lib; {
+      description = "Object-orientation for Lua";
+      homepage = "https://github.com/anuvyklack/middleclass";
+      license = with licenses; [ mit ];
+    };
+  };
   pretty-fold-nvim = buildVimPluginFrom2Nix {
     pname = "pretty-fold-nvim";
     version = "2022-07-20";

@@ -107,6 +107,7 @@ anuvyklack/animation.nvim
 anuvyklack/fold-preview.nvim
 anuvyklack/hydra.nvim
 anuvyklack/keymap-amend.nvim
+anuvyklack/middleclass
 anuvyklack/pretty-fold.nvim
 anuvyklack/windows.nvim
 aserowy/tmux.nvim

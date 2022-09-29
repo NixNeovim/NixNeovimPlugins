@@ -211,6 +211,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [anuvyklack/fold-preview.nvim](https://github.com/anuvyklack/fold-preview.nvim) | 2022-08-09 | `fold-preview-nvim` |
 | [anuvyklack/hydra.nvim](https://github.com/anuvyklack/hydra.nvim) | 2022-09-22 | `hydra-nvim` |
 | [anuvyklack/keymap-amend.nvim](https://github.com/anuvyklack/keymap-amend.nvim) | 2022-09-22 | `keymap-amend-nvim` |
+| [anuvyklack/middleclass](https://github.com/anuvyklack/middleclass) | 2022-09-20 | `middleclass` |
 | [anuvyklack/pretty-fold.nvim](https://github.com/anuvyklack/pretty-fold.nvim) | 2022-07-20 | `pretty-fold-nvim` |
 | [anuvyklack/windows.nvim](https://github.com/anuvyklack/windows.nvim) | 2022-09-21 | `windows-nvim` |
 | [aserowy/tmux.nvim](https://github.com/aserowy/tmux.nvim) | 2022-09-20 | `tmux-nvim` |
