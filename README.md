@@ -235,8 +235,8 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [brenoprata10/nvim-highlight-colors](https://github.com/brenoprata10/nvim-highlight-colors) | 2022-09-28 | `nvim-highlight-colors` |
 | [camspiers/snap](https://github.com/camspiers/snap) | 2022-08-03 | `snap` |
 | [cappyzawa/trim.nvim](https://github.com/cappyzawa/trim.nvim) | 2022-06-16 | `trim-nvim` |
-| [catppuccin/nvim](https://github.com/catppuccin/nvim) | 2022-10-01 | `nvim` |
-| [catppuccin/nvim](https://github.com/catppuccin/nvim) | 2022-10-01 | `catppuccin` |
+| [catppuccin/nvim](https://github.com/catppuccin/nvim) | 2022-10-02 | `nvim` |
+| [catppuccin/nvim](https://github.com/catppuccin/nvim) | 2022-10-02 | `catppuccin` |
 | [chentoast/marks.nvim](https://github.com/chentoast/marks.nvim) | 2022-07-31 | `marks-nvim` |
 | [chipsenkbeil/distant.nvim](https://github.com/chipsenkbeil/distant.nvim) | 2022-08-05 | `distant-nvim` |
 | [chrsm/impulse.nvim](https://github.com/chrsm/impulse.nvim) | 2022-06-26 | `impulse-nvim` |
@@ -273,7 +273,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [drybalka/tree-climber.nvim](https://github.com/drybalka/tree-climber.nvim) | 2022-08-06 | `tree-climber-nvim` |
 | [dstein64/nvim-scrollview](https://github.com/dstein64/nvim-scrollview) | 2022-09-26 | `nvim-scrollview` |
 | [dstein64/vim-startuptime](https://github.com/dstein64/vim-startuptime) | 2022-09-26 | `vim-startuptime` |
-| [echasnovski/mini.nvim](https://github.com/echasnovski/mini.nvim) | 2022-09-26 | `mini-nvim` |
+| [echasnovski/mini.nvim](https://github.com/echasnovski/mini.nvim) | 2022-10-02 | `mini-nvim` |
 | [edluffy/specs.nvim](https://github.com/edluffy/specs.nvim) | 2022-09-20 | `specs-nvim` |
 | [edolphin-ydf/goimpl.nvim](https://github.com/edolphin-ydf/goimpl.nvim) | 2022-07-16 | `goimpl-nvim` |
 | [ekickx/clipboard-image.nvim](https://github.com/ekickx/clipboard-image.nvim) | 2022-06-13 | `clipboard-image-nvim` |
@@ -294,8 +294,8 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [filipdutescu/renamer.nvim](https://github.com/filipdutescu/renamer.nvim) | 2022-08-29 | `renamer-nvim` |
 | [folke/lsp-colors.nvim](https://github.com/folke/lsp-colors.nvim) | 2022-09-05 | `lsp-colors-nvim` |
 | [folke/lua-dev.nvim](https://github.com/folke/lua-dev.nvim) | 2022-10-02 | `lua-dev-nvim` |
-| [folke/todo-comments.nvim](https://github.com/folke/todo-comments.nvim) | 2022-09-17 | `todo-comments-nvim` |
-| [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim) | 2022-09-30 | `tokyonight-nvim` |
+| [folke/todo-comments.nvim](https://github.com/folke/todo-comments.nvim) | 2022-10-02 | `todo-comments-nvim` |
+| [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim) | 2022-10-02 | `tokyonight-nvim` |
 | [folke/trouble.nvim](https://github.com/folke/trouble.nvim) | 2022-09-05 | `trouble-nvim` |
 | [folke/twilight.nvim](https://github.com/folke/twilight.nvim) | 2022-09-05 | `twilight-nvim` |
 | [folke/which-key.nvim](https://github.com/folke/which-key.nvim) | 2022-09-18 | `which-key-nvim` |
@@ -329,8 +329,8 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [gwatcha/reaper-keys](https://github.com/gwatcha/reaper-keys) | 2021-08-23 | `reaper-keys` |
 | [h-hg/fcitx.nvim](https://github.com/h-hg/fcitx.nvim) | 2022-06-25 | `fcitx-nvim` |
 | [haringsrob/nvim_context_vt](https://github.com/haringsrob/nvim_context_vt) | 2022-09-14 | `nvim-context-vt` |
-| [henriquehbr/ataraxis.lua](https://github.com/henriquehbr/ataraxis.lua) | 2022-07-31 | `ataraxis-lua` |
 | [sourcehut:henriquehbr/ataraxis.lua](https://sr.ht/~henriquehbr/ataraxis.lua/) | 2022-07-31 | `ataraxis-lua` |
+| [henriquehbr/ataraxis.lua](https://github.com/henriquehbr/ataraxis.lua) | 2022-07-31 | `ataraxis-lua` |
 | [sourcehut:henriquehbr/nvim-startup.lua](https://sr.ht/~henriquehbr/nvim-startup.lua/) | 2022-07-31 | `nvim-startup-lua` |
 | [hkupty/iron.nvim](https://github.com/hkupty/iron.nvim) | 2022-09-30 | `iron-nvim` |
 | [hkupty/nvimux](https://github.com/hkupty/nvimux) | 2022-05-02 | `nvimux` |
@@ -395,7 +395,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [keaising/im-select.nvim](https://github.com/keaising/im-select.nvim) | 2022-07-31 | `im-select-nvim` |
 | [kevinhwang91/nvim-bqf](https://github.com/kevinhwang91/nvim-bqf) | 2022-09-21 | `nvim-bqf` |
 | [kevinhwang91/nvim-hlslens](https://github.com/kevinhwang91/nvim-hlslens) | 2022-09-30 | `nvim-hlslens` |
-| [kevinhwang91/nvim-ufo](https://github.com/kevinhwang91/nvim-ufo) | 2022-10-01 | `nvim-ufo` |
+| [kevinhwang91/nvim-ufo](https://github.com/kevinhwang91/nvim-ufo) | 2022-10-02 | `nvim-ufo` |
 | [kevinhwang91/rnvimr](https://github.com/kevinhwang91/rnvimr) | 2022-09-20 | `rnvimr` |
 | [kkharji/lspsaga.nvim](https://github.com/kkharji/lspsaga.nvim) | 2022-08-20 | `lspsaga-nvim` |
 | [kkharji/sqlite.lua](https://github.com/kkharji/sqlite.lua) | 2022-10-01 | `sqlite-lua` |
@@ -515,7 +515,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [oberblastmeister/neuron.nvim](https://github.com/oberblastmeister/neuron.nvim) | 2022-02-27 | `neuron-nvim` |
 | [octaltree/cmp-look](https://github.com/octaltree/cmp-look) | 2022-06-26 | `cmp-look` |
 | [ofirgall/goto-breakpoints.nvim](https://github.com/ofirgall/goto-breakpoints.nvim) | 2022-08-18 | `goto-breakpoints-nvim` |
-| [ofirgall/ofirkai.nvim](https://github.com/ofirgall/ofirkai.nvim) | 2022-09-25 | `ofirkai-nvim` |
+| [ofirgall/ofirkai.nvim](https://github.com/ofirgall/ofirkai.nvim) | 2022-10-02 | `ofirkai-nvim` |
 | [ojroques/nvim-hardline](https://github.com/ojroques/nvim-hardline) | 2022-09-06 | `nvim-hardline` |
 | [ojroques/nvim-lspfuzzy](https://github.com/ojroques/nvim-lspfuzzy) | 2022-09-26 | `nvim-lspfuzzy` |
 | [olexsmir/gopher.nvim](https://github.com/olexsmir/gopher.nvim) | 2022-09-22 | `gopher-nvim` |
@@ -574,7 +574,7 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [rockerBOO/boo-colorscheme-nvim](https://github.com/rockerBOO/boo-colorscheme-nvim) | 2022-07-22 | `boo-colorscheme-nvim` |
 | [rockyzhang24/arctic.nvim](https://github.com/rockyzhang24/arctic.nvim) | 2022-08-24 | `arctic-nvim` |
 | [rodrigore/coc-tailwind-intellisense](https://github.com/rodrigore/coc-tailwind-intellisense) | 2021-09-07 | `coc-tailwind-intellisense` |
-| [romgrk/barbar.nvim](https://github.com/romgrk/barbar.nvim) | 2022-09-29 | `barbar-nvim` |
+| [romgrk/barbar.nvim](https://github.com/romgrk/barbar.nvim) | 2022-10-02 | `barbar-nvim` |
 | [rose-pine/neovim](https://github.com/rose-pine/neovim) | 2022-09-20 | `rose-pine` |
 | [ruifm/gitlinker.nvim](https://github.com/ruifm/gitlinker.nvim) | 2022-09-26 | `gitlinker-nvim` |
 | [s1n7ax/nvim-comment-frame](https://github.com/s1n7ax/nvim-comment-frame) | 2022-09-29 | `nvim-comment-frame` |
