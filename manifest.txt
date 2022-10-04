@@ -218,6 +218,7 @@ github/copilot.vim
 glacambre/firenvim
 glepnir/dashboard-nvim
 glepnir/indent-guides.nvim
+glepnir/lspsaga.nvim
 glepnir/prodoc.nvim
 glepnir/zephyr-nvim
 goolord/alpha-nvim
@@ -270,6 +271,7 @@ jghauser/fold-cycle.nvim
 jghauser/follow-md-links.nvim
 jghauser/kitty-runner.nvim
 jghauser/mkdir.nvim
+jghauser/papis.nvim
 jim-at-jibba/ariake-vim-colors
 jlesquembre/nterm.nvim
 johann2357/nvim-smartbufs
