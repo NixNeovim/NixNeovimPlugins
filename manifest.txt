@@ -62,6 +62,7 @@ RishabhRD/nvim-lsputils
 RishabhRD/nvim-rdark
 Saecki/crates.nvim
 Shatur/neovim-session-manager
+Shatur/neovim-tasks
 SidOfc/carbon.nvim
 SmiteshP/nvim-gps
 SmiteshP/nvim-navic
@@ -387,6 +388,7 @@ norcalli/snippets.nvim
 notomo/cmdbuf.nvim
 notomo/gesture.nvim
 novakne/kosmikoa.nvim
+numToStr/BufOnly.nvim
 numToStr/Comment.nvim
 numToStr/FTerm.nvim
 numToStr/Navigator.nvim
