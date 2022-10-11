@@ -346,6 +346,7 @@ mcauley-penney/tidy.nvim
 mcchrish/zenbones.nvim
 meain/vim-printer
 meliora-theme/neovim
+melkster/modicator.nvim
 metalelf0/jellybeans-nvim
 mfussenegger/nvim-dap
 mfussenegger/nvim-lint
