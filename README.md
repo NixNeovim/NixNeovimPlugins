@@ -399,7 +399,6 @@ You can also use it via [NUR][2] at `nur.repos.m15a.vimExtraPlugins`, see [the p
 | [kevinhwang91/nvim-hlslens](https://github.com/kevinhwang91/nvim-hlslens) | 2022-10-09 | `nvim-hlslens` |
 | [kevinhwang91/nvim-ufo](https://github.com/kevinhwang91/nvim-ufo) | 2022-10-09 | `nvim-ufo` |
 | [kevinhwang91/rnvimr](https://github.com/kevinhwang91/rnvimr) | 2022-09-20 | `rnvimr` |
-| [kkharji/lspsaga.nvim](https://github.com/kkharji/lspsaga.nvim) | 2022-08-20 | `lspsaga-nvim` |
 | [kkharji/sqlite.lua](https://github.com/kkharji/sqlite.lua) | 2022-10-01 | `sqlite-lua` |
 | [klen/nvim-config-local](https://github.com/klen/nvim-config-local) | 2022-03-26 | `nvim-config-local` |
 | [klen/nvim-test](https://github.com/klen/nvim-test) | 2022-06-05 | `nvim-test` |

@@ -3791,19 +3791,6 @@
       license = with licenses; [ bsd3 ];
     };
   };
-  lspsaga-nvim = buildVimPluginFrom2Nix {
-    pname = "lspsaga-nvim";
-    version = "2022-08-20";
-    src = fetchurl {
-      url = "https://github.com/kkharji/lspsaga.nvim/archive/9ec569a49aa7ff265764081acff9e5da839c13fe.tar.gz";
-      sha256 = "0206igfxs1imgj8dalvi5mhi49q5qj4hrm2y21x0w1wv9f07g2n1";
-    };
-    meta = with lib; {
-      description = "The neovim language-server-client UI";
-      homepage = "https://github.com/kkharji/lspsaga.nvim";
-      license = with licenses; [ mit ];
-    };
-  };
   sqlite-lua = buildVimPluginFrom2Nix {
     pname = "sqlite-lua";
     version = "2022-10-01";

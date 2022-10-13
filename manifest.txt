@@ -295,7 +295,6 @@ kevinhwang91/nvim-bqf
 kevinhwang91/nvim-hlslens
 kevinhwang91/nvim-ufo
 kevinhwang91/rnvimr
-kkharji/lspsaga.nvim
 kkharji/sqlite.lua
 klen/nvim-config-local
 klen/nvim-test
