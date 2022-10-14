@@ -80,6 +80,7 @@ Xuyuanp/scrollbar.nvim
 Xuyuanp/yanil
 ZhiyuanLck/smart-pairs
 abecodes/tabout.nvim
+adelarsq/image_preview.nvim
 adelarsq/neoline.vim
 adisen99/apprentice.nvim
 adisen99/codeschool.nvim
@@ -277,6 +278,7 @@ jlesquembre/nterm.nvim
 johann2357/nvim-smartbufs
 jose-elias-alvarez/null-ls.nvim
 jose-elias-alvarez/nvim-lsp-ts-utils
+jose-elias-alvarez/typescript.nvim
 jubnzv/mdeval.nvim
 jubnzv/virtual-types.nvim
 junegunn/vim-easy-align
@@ -466,6 +468,7 @@ rktjmp/highlight-current-n.nvim
 rktjmp/hotpot.nvim
 rktjmp/lush.nvim
 rktjmp/paperplanes.nvim
+rktjmp/shenzhen-solitaire.nvim
 rlane/pounce.nvim
 rmagatti/auto-session
 rmagatti/goto-preview
@@ -486,6 +489,7 @@ sainnhe/everforest
 sainnhe/gruvbox-material
 sainnhe/sonokai
 sakhnik/nvim-gdb
+samodostal/image.nvim
 savq/melange
 savq/paq-nvim
 sbdchd/neoformat
