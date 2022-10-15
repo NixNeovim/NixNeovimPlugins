@@ -1,0 +1,18 @@
+name: Fetch manifest from m15a
+
+on:
+  schedule:
+    - cron: "0 20 * * *"
+  workflow_dispatch:
+
+jobs:
+  fetch-new-plugins:
+    runs-on: ubuntu-latest
+    name: Check if duplicates exists. (Does nothing about it for now)
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.NIXPKGS_TOKEN }}
+          ref: ${{ github.head_ref }}
+      - run: |
+          ./bin/check-duplicates.sh
