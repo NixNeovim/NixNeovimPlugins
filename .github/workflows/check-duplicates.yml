@@ -1,4 +1,4 @@
-name: Fetch manifest from m15a
+name: Check if duplicates exists. (Does nothing about it for now)
 
 on:
   schedule:
