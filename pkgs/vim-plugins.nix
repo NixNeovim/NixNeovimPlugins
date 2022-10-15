@@ -470,6 +470,19 @@
       license = with licenses; [ mit ];
     };
   };
+  telescope-manix = buildVimPluginFrom2Nix {
+    pname = "telescope-manix";
+    version = "2022-10-15";
+    src = fetchurl {
+      url = "https://github.com/MrcJkb/telescope-manix/archive/1e1f428551c02708b9e1535f909d956552880aff.tar.gz";
+      sha256 = "1d3g7aa2hy872pwvzlprdj2iz5q13sxbrxv7ndh0rp47nmrvl62g";
+    };
+    meta = with lib; {
+      description = "A telescope.nvim extension for Manix - A fast documentation searcher for Nix";
+      homepage = "https://github.com/MrcJkb/telescope-manix";
+      license = with licenses; [ gpl2Only ];
+    };
+  };
   exrc-nvim = buildVimPluginFrom2Nix {
     pname = "exrc-nvim";
     version = "2022-08-10";

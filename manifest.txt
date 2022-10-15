@@ -35,6 +35,7 @@ Mofiqul/adwaita.nvim
 Mofiqul/dracula.nvim
 Mofiqul/vscode.nvim
 MordechaiHadad/nvim-papadark
+MrcJkb/telescope-manix
 MunifTanjim/exrc.nvim
 MunifTanjim/nui.nvim
 MunifTanjim/prettier.nvim
