@@ -12,13 +12,13 @@ The [plugins.md](plugins.md) contains an auto-generated list of all available pl
 ## Usage
 
 The overlay adds extra Vim plugins to `pkgs.vimExtraPlugins`.
-First, add this repo to your inputs
+First, add this repo to your inputs:
 
 ```
 inputs.vim-extra-plugins.url = github:jooooscha/nixpkgs-vim-extra-plugins
 ```
 
-And use the provided overlay
+Next, apply the provided overlay:
 
 ```
 nixpkgs.overlays = [
@@ -27,7 +27,7 @@ nixpkgs.overlays = [
 
 ```
 
-You can add the packages to your vim/neovim config. For example you can use [nixvim](https://github.com/jooooscha/nixvim) or you can override the neovim package:
+Finally, you can add the packages to your vim/neovim config. For example you can use [nixvim](https://github.com/jooooscha/nixvim) or you can add the plugins directly:
 
 ```
  programs.neovim = {
