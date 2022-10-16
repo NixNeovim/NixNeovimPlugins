@@ -620,6 +620,7 @@
     (with-open [nix (io.open "pkgs/vim-plugins.nix" :w)
                 readme (io.open "plugins.md" :w)]
       (nix:write "{ lib, buildVimPluginFrom2Nix, fetchurl, fetchgit }:\n\n{\n")
+      (readme:write "| Plugin owner/repo | Last updated | Nix package name |\n| :- | :- | :- |")
       (each [_ spec (ipairs %manifest.specs)]
         (if (or update-all?
                 (not (. %cache :data spec)))
