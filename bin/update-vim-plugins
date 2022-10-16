@@ -58,7 +58,7 @@
           body (assert (stream:get_body_as_string))]
      (if (= (headers:get ":status") :200)
          (values body headers)
-         (error (view {: body : headers})))))) 
+         (error (view {: body : headers}))))))
 
 ;;; ------------------------------------------------------------------------------------------------
 ;;; Nix helpers
@@ -324,7 +324,7 @@
 (fn gitlab.escape-path-with-namespace [path-with-namespace]
   "Replace `/` with `%2F` in path-with-namespace."
   (string.gsub path-with-namespace "/" "%%2F"))
- 
+
 ;;; ------------------------------------------------------------------------------------------------
 ;;; GitLab project (repository)
 
@@ -417,7 +417,7 @@
 (fn sourcehut.repo.get-recent-commit [self branch]
   "Get recent commit of the branch."
   (let [response (sourcehut.get
-                   (if branch 
+                   (if branch
                        (string.format "~%s/repos/%s/log/%s" self.owner self.name branch)
                        (string.format "~%s/repos/%s/log" self.owner self.name)))
         latest-commit (. response.results 1)]
@@ -526,7 +526,7 @@
         recent-commit (repo:get-recent-commit spec.branch)
         url (repo:get-url recent-commit.sha)
         attr-name (plugin.escape-name (or spec.rename repo.name))
-        obj {: attr-name 
+        obj {: attr-name
              :pname attr-name
              :version (plugin.get-date recent-commit.date)
              :fetcher (match spec.type
@@ -618,9 +618,8 @@
         %manifest (manifest.load)
         %cache (cache.load)]
     (with-open [nix (io.open "pkgs/vim-plugins.nix" :w)
-                readme (io.open "README.md" :w)]
+                readme (io.open "plugins.md" :w)]
       (nix:write "{ lib, buildVimPluginFrom2Nix, fetchurl, fetchgit }:\n\n{\n")
-      (readme:write (io.slurp "assets/README_header.md"))
       (each [_ spec (ipairs %manifest.specs)]
         (if (or update-all?
                 (not (. %cache :data spec)))
@@ -633,12 +632,11 @@
                   (tset %cache.data spec {: nixexpr : mditem}))
                 (set %cache.changed? true)
                 (io.stderr:write "done\n"))
-            (do (io.stderr:write (string.format "%s: skip %s..." (program-name) spec)) 
+            (do (io.stderr:write (string.format "%s: skip %s..." (program-name) spec))
                 (nix:write (. %cache :data spec :nixexpr))
                 (readme:write (. %cache :data spec :mditem))
                 (io.stderr:write "used previous result\n"))))
-      (nix:write "}\n")
-      (readme:write (io.slurp "assets/README_footer.md")))
+      (nix:write "}\n"))
     (%cache:save)
     (%manifest:lint)
     (%manifest:save)))
@@ -710,4 +708,3 @@
     _ (error "undefined subcommand")))
 
 (main)
-
