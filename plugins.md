@@ -1,3 +1,5 @@
+| Plugin owner/repo | Last updated | Nix package name |
+| :- | :- | :- |
 | [0styx0/abbreinder.nvim](https://github.com/0styx0/abbreinder.nvim) | 2022-04-28 | `abbreinder-nvim` |
 | [Abstract-IDE/penvim](https://github.com/Abstract-IDE/penvim) | 2022-07-23 | `penvim` |
 | [AckslD/messages.nvim](https://github.com/AckslD/messages.nvim) | 2022-09-21 | `messages-nvim` |
