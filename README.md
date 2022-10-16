@@ -76,4 +76,4 @@ This updates `pkgs/vim-plugins.nix` and `README.md`
 #### 3. Create a Pull Request
 
 Create a pull request with all your changed files.
-I am happy for any contribution.
+I am happy for any contribution. :)
