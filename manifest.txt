@@ -426,6 +426,7 @@ olimorris/persisted.nvim
 olivercederborg/poimandres.nvim
 onsails/diaglist.nvim
 onsails/lspkind.nvim
+ostralyan/scribe.nvim
 p00f/cphelper.nvim
 p00f/nvim-ts-rainbow
 petertriho/cmp-git
@@ -490,6 +491,7 @@ sainnhe/everforest
 sainnhe/gruvbox-material
 sainnhe/sonokai
 sakhnik/nvim-gdb
+samjwill/nvim-unception
 samodostal/image.nvim
 savq/melange
 savq/paq-nvim
