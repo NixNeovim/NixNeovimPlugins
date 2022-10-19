@@ -2,7 +2,6 @@
 
 This repo auto generates nix packages for vim/neovim plugins.
 Packages are automatically updated twice per week using a GitHub Actions.
-
 Plugins are fetched from the `manifest.txt` and [awesome-neovim][0] repo.
 
 ## Available plugins
