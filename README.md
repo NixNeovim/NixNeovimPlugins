@@ -4,6 +4,10 @@ This repo auto generates nix packages for vim/neovim plugins.
 Packages are automatically updated twice per week using a GitHub Actions.
 Plugins are fetched from the `manifest.txt` and [awesome-neovim][0] repo.
 
+This is a fork of [this repo](https://github.com/m15a/nixpkgs-vim-extra-plugins); however, we fetch all additions from the original repo, so we will never have less plugins.
+Further, the original delets plugins available in the nixpkgs. We, instead, try to assemble a list of all available plugins.
+Therefore, to access plugins you will never have to search in two places.
+
 ## Available plugins
 
 The [plugins.md](plugins.md) contains an auto-generated list of all available plugins.
