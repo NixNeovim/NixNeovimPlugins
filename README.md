@@ -5,7 +5,7 @@ Packages are automatically updated twice per week using a GitHub Actions.
 Plugins are fetched from the `manifest.txt` and [awesome-neovim][0] repo.
 
 This is a fork of [this repo](https://github.com/m15a/nixpkgs-vim-extra-plugins); however, we fetch all additions from the original repo, so we will never have less plugins.
-Further, the original delets plugins available in the nixpkgs. We, instead, try to assemble a list of all available plugins.
+Further, the original deletes plugins that are available in the nixpkgs. We, instead, try to assemble a list of all available plugins.
 Therefore, to access plugins you will never have to search in two places.
 
 ## Available plugins
