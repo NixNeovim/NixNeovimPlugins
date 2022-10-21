@@ -1736,8 +1736,8 @@
     pname = "nvim";
     version = "2022-10-21";
     src = fetchurl {
-      url = "https://github.com/catppuccin/nvim/archive/c9c272f8f53968473873478591bfb4f5c1418370.tar.gz";
-      sha256 = "0qcb75ag0agc1pc3z1876hsfah81mzafwsr2d96kww3al87ziynb";
+      url = "https://github.com/catppuccin/nvim/archive/df628154d6b1a38bd961139854346ac4f502170a.tar.gz";
+      sha256 = "1skhmsv1lxxn69g39z7pckh6cgfcgk3m42nv90298i6639nn1c3a";
     };
     meta = with lib; {
       description = "🍨 Soothing pastel theme for Neovim";
@@ -1749,8 +1749,8 @@
     pname = "catppuccin";
     version = "2022-10-21";
     src = fetchurl {
-      url = "https://github.com/catppuccin/nvim/archive/c9c272f8f53968473873478591bfb4f5c1418370.tar.gz";
-      sha256 = "0qcb75ag0agc1pc3z1876hsfah81mzafwsr2d96kww3al87ziynb";
+      url = "https://github.com/catppuccin/nvim/archive/df628154d6b1a38bd961139854346ac4f502170a.tar.gz";
+      sha256 = "1skhmsv1lxxn69g39z7pckh6cgfcgk3m42nv90298i6639nn1c3a";
     };
     meta = with lib; {
       description = "🍨 Soothing pastel theme for Neovim";
@@ -5640,10 +5640,10 @@
   };
   codeql-nvim = buildVimPluginFrom2Nix {
     pname = "codeql-nvim";
-    version = "2022-10-15";
+    version = "2022-10-21";
     src = fetchurl {
-      url = "https://github.com/pwntester/codeql.nvim/archive/0cb389847cf16b9742bf1829bfe50381bdab390e.tar.gz";
-      sha256 = "1dmxhyhb633svwxmv09pnyj4fh5imazl65y0f4nfx3sjdv9l7hgj";
+      url = "https://github.com/pwntester/codeql.nvim/archive/d6a3a7bbdb7c1ef161948a38bd77b33ef15b8d02.tar.gz";
+      sha256 = "07l4awrpvxjp74ywd949c5nln97mmq6vvcxpg88767q2hwj9y8g4";
     };
     meta = with lib; {
       description = "CodeQL plugin for Neovim";
@@ -6066,7 +6066,7 @@
     version = "2022-09-19";
     src = fetchurl {
       url = "https://github.com/rmagatti/auto-session/archive/39319bf7ad15a1881f180fa7c14bf6703775035e.tar.gz";
-      sha256 = "06m1mf7d0nwcdq5lgx0l75x7c7mxbjya54icazbfivh3h59vkbqw";
+      sha256 = "";
     };
     meta = with lib; {
       description = "A small automated session manager for Neovim";
@@ -6421,10 +6421,10 @@
   };
   Abstract-cs = buildVimPluginFrom2Nix {
     pname = "Abstract-cs";
-    version = "2022-10-16";
+    version = "2022-10-21";
     src = fetchurl {
-      url = "https://github.com/Abstract-IDE/Abstract-cs/archive/debe60daf914c0a144791f24f555a91832b82fe8.tar.gz";
-      sha256 = "0d02kp8m5r5cc13ai4xnnkh9d9rmigj76j8jfz8361n1yc2nsgm0";
+      url = "https://github.com/Abstract-IDE/Abstract-cs/archive/4f19d4b1bf7bd0cfc0f820cbbec7e9285088f700.tar.gz";
+      sha256 = "1yb8g7dhcw00pyga0ns6sjfqx9fhh3myh6bfr4z8wz08kwqy46dm";
     };
     meta = with lib; {
       description = "Colorscheme for (neo)vim written in lua, specially made for roshnivim with Tree-sitter support";
