@@ -225,6 +225,7 @@ glepnir/lspsaga.nvim
 glepnir/prodoc.nvim
 glepnir/zephyr-nvim
 goolord/alpha-nvim
+gorbit99/codewindow.nvim
 gpanders/editorconfig.nvim
 gwatcha/reaper-keys
 h-hg/fcitx.nvim
