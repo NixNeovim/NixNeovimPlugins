@@ -299,6 +299,7 @@ kevinhwang91/nvim-bqf
 kevinhwang91/nvim-hlslens
 kevinhwang91/nvim-ufo
 kevinhwang91/rnvimr
+kiran94/s3edit.nvim
 kkharji/sqlite.lua
 klen/nvim-config-local
 klen/nvim-test
@@ -306,6 +307,7 @@ kmonad/kmonad-vim
 koenverburg/peepsight.nvim
 konapun/vacuumline.nvim
 kosayoda/nvim-lightbulb
+kvrohit/mellow.nvim
 kvrohit/rasmus.nvim
 kvrohit/substrata.nvim
 kyazdani42/blue-moon
