@@ -25,6 +25,7 @@ Iron-E/nvim-highlite
 JoosepAlviste/nvim-ts-context-commentstring
 Julian/lean.nvim
 Junnplus/nvim-lsp-setup
+Kasama/nvim-custom-diagnostic-highlight
 L3MON4D3/LuaSnip
 LinArcX/telescope-command-palette.nvim
 LionC/nest.nvim
@@ -126,6 +127,7 @@ beauwilliams/focus.nvim
 beauwilliams/statusline.lua
 bennypowers/nvim-regexplainer
 bfredl/nvim-luadev
+bfredl/nvim-miniyank
 bkegley/gloombuddy
 bluz71/vim-moonfly-colors
 bluz71/vim-nightfly-guicolors
@@ -138,6 +140,7 @@ catppuccin/nvim
 catppuccin/nvim::catppuccin
 chentoast/marks.nvim
 chipsenkbeil/distant.nvim
+chiyadev/dep
 chrsm/impulse.nvim
 chrsm/paramount-ng.nvim
 clojure-vim/jazz.nvim
@@ -593,6 +596,7 @@ yonlu/omni.vim
 gitlab:yorickpeterse/nvim-pqf
 gitlab:yorickpeterse/nvim-window
 zbirenbaum/copilot-cmp
+zbirenbaum/neodim
 ziontee113/color-picker.nvim
 ziontee113/icon-picker.nvim
 ziontee113/syntax-tree-surfer
