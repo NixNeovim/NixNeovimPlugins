@@ -77,6 +77,7 @@ ThePrimeagen/vim-apm
 ThePrimeagen/vim-be-good
 TimUntersberger/neofs
 TimUntersberger/neogit
+Weissle/easy-action
 Weissle/persistent-breakpoints.nvim
 Xuyuanp/scrollbar.nvim
 Xuyuanp/yanil
@@ -424,6 +425,7 @@ oberblastmeister/neuron.nvim
 octaltree/cmp-look
 ofirgall/goto-breakpoints.nvim
 ofirgall/ofirkai.nvim
+ofirgall/open.nvim
 ojroques/nvim-hardline
 ojroques/nvim-lspfuzzy
 olexsmir/gopher.nvim
@@ -581,6 +583,7 @@ windwp/nvim-ts-autotag
 windwp/windline.nvim
 winston0410/commented.nvim
 winston0410/range-highlight.nvim
+woosaaahh/sj.nvim
 xeluxee/competitest.nvim
 xiyaowong/link-visitor.nvim
 xiyaowong/nvim-cursorword
