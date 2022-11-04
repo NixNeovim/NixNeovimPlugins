@@ -378,6 +378,7 @@
 | [morhetz/gruvbox](https://github.com/morhetz/gruvbox) | 2020-07-03 | `gruvbox` |
 | [mrjones2014/legendary.nvim](https://github.com/mrjones2014/legendary.nvim) | 2022-10-30 | `legendary-nvim` |
 | [ms-jpq/chadtree](https://github.com/ms-jpq/chadtree) | 2022-11-03 | `chadtree` |
+| [ms-jpq/coq.artifacts](https://github.com/ms-jpq/coq.artifacts) | 2022-11-04 | `coq-artifacts` |
 | [ms-jpq/coq_nvim](https://github.com/ms-jpq/coq_nvim) | 2022-11-03 | `coq-nvim` |
 | [mtoohey31/cmp-fish](https://github.com/mtoohey31/cmp-fish) | 2022-09-01 | `cmp-fish` |
 | [nacro90/numb.nvim](https://github.com/nacro90/numb.nvim) | 2022-10-05 | `numb-nvim` |

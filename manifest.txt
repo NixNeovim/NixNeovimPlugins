@@ -376,6 +376,7 @@ monkoose/matchparen.nvim
 morhetz/gruvbox
 mrjones2014/legendary.nvim
 ms-jpq/chadtree
+ms-jpq/coq.artifacts:artifacts
 ms-jpq/coq_nvim
 mtoohey31/cmp-fish
 nacro90/numb.nvim

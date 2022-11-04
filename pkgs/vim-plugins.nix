@@ -4817,6 +4817,18 @@
       homepage = "https://github.com/ms-jpq/chadtree";
     };
   };
+  coq-artifacts = buildVimPluginFrom2Nix {
+    pname = "coq-artifacts";
+    version = "2022-11-04";
+    src = fetchurl {
+      url = "https://github.com/ms-jpq/coq.artifacts/archive/4e80d710635ef4599391c5da355abe5680931469.tar.gz";
+      sha256 = "1rqhgw59wljxlnlyma11nz58p11swmvn7d16cxhvjkk3pjg9nqy5";
+    };
+    meta = with lib; {
+      description = "No description";
+      homepage = "https://github.com/ms-jpq/coq.artifacts";
+    };
+  };
   coq-nvim = buildVimPluginFrom2Nix {
     pname = "coq-nvim";
     version = "2022-11-03";
