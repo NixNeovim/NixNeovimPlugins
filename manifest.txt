@@ -41,6 +41,8 @@ MunifTanjim/exrc.nvim
 MunifTanjim/nui.nvim
 MunifTanjim/prettier.nvim
 NFrid/due.nvim
+NFrid/markdown-togglecheck
+NFrid/treesitter-utils
 NMAC427/guess-indent.nvim
 NTBBloodbath/cheovim
 NTBBloodbath/doom-one.nvim
@@ -131,6 +133,7 @@ bfredl/nvim-luadev
 bfredl/nvim-miniyank
 bkegley/gloombuddy
 bluz71/vim-moonfly-colors
+bluz71/vim-nightfly-colors
 bluz71/vim-nightfly-guicolors
 booperlv/nvim-gomove
 brendalf/mix.nvim
@@ -456,6 +459,7 @@ rafamadriz/neon
 rafcamlet/nvim-luapad
 rafcamlet/tabline-framework.nvim
 raimon49/requirements.txt.vim
+ranjithshegde/ccls.nvim
 ray-x/aurora
 ray-x/cmp-treesitter
 ray-x/go.nvim
