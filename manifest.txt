@@ -421,6 +421,7 @@ nvim-telescope/telescope.nvim
 nvim-treesitter/nvim-treesitter
 nvim-treesitter/nvim-treesitter-context
 nvim-treesitter/nvim-treesitter-textobjects
+nvim-zh/colorful-winsep.nvim
 nxvu699134/vn-night.nvim
 nyngwang/NeoNoName.lua
 nyngwang/NeoRoot.lua
@@ -570,6 +571,7 @@ udayvir-singh/hibiscus.nvim
 udayvir-singh/tangerine.nvim
 uga-rosa/ccc.nvim
 uga-rosa/cmp-dictionary
+utilyre/barbecue.nvim
 vappolinario/cmp-clippy
 vigoux/complementree.nvim
 vijaymarupudi/nvim-fzf
