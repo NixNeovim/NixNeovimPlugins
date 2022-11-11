@@ -769,10 +769,10 @@
   };
   vim-illuminate = buildVimPluginFrom2Nix {
     pname = "vim-illuminate";
-    version = "2022-11-02";
+    version = "2022-11-11";
     src = fetchurl {
-      url = "https://github.com/RRethy/vim-illuminate/archive/fb83d835eac50baeef49aac20c524a80727db0ac.tar.gz";
-      sha256 = "1v5ripcxf9ywzb3l3bhcbmkgr9jcl5b99qy4l8psi6ydhz25a7an";
+      url = "https://github.com/RRethy/vim-illuminate/archive/a6d0b28ea7d6b9d139374be1f94a16bd120fcda3.tar.gz";
+      sha256 = "1sdqhhxmpm1lmyzcfvbn1drms6d5hd5aq1hdbnh58vp02klan74k";
     };
     meta = with lib; {
       description = "illuminate.vim - (Neo)Vim plugin for automatically highlighting other uses of the word under the cursor using either LSP, Tree-sitter, or regex matching";
@@ -6515,8 +6515,8 @@
     pname = "paq-nvim";
     version = "2022-11-11";
     src = fetchurl {
-      url = "https://github.com/savq/paq-nvim/archive/5737c29b9663c3c24283456e33cdce726a2b5fcc.tar.gz";
-      sha256 = "1py9ps07kxp92m95afbrb9b2lmfhli8ss01f1h01qdhybql67h13";
+      url = "https://github.com/savq/paq-nvim/archive/2101c710b712df9569873f1dae7815a4a5c18194.tar.gz";
+      sha256 = "0c376yj293vpc4ir340fd0w3vjijzi8ksnyhv8z7zwqm6jmv1qs0";
     };
     meta = with lib; {
       description = "🌚  Neovim package manager";

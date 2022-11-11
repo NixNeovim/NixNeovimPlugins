@@ -60,7 +60,7 @@
 | [Pocco81/true-zen.nvim](https://github.com/Pocco81/true-zen.nvim) | 2022-08-07 | `true-zen-nvim` |
 | [RRethy/nvim-base16](https://github.com/RRethy/nvim-base16) | 2022-11-02 | `nvim-base16` |
 | [RRethy/nvim-treesitter-textsubjects](https://github.com/RRethy/nvim-treesitter-textsubjects) | 2022-10-03 | `nvim-treesitter-textsubjects` |
-| [RRethy/vim-illuminate](https://github.com/RRethy/vim-illuminate) | 2022-11-02 | `vim-illuminate` |
+| [RRethy/vim-illuminate](https://github.com/RRethy/vim-illuminate) | 2022-11-11 | `vim-illuminate` |
 | [RishabhRD/gruvy](https://github.com/RishabhRD/gruvy) | 2022-01-09 | `gruvy` |
 | [RishabhRD/lspactions](https://github.com/RishabhRD/lspactions) | 2022-05-15 | `lspactions` |
 | [RishabhRD/lspactions](https://github.com/RishabhRD/lspactions) [branch: `nvim-0.6-compatible`] | 2022-01-08 | `lspactions-nvim06-compatible` |
@@ -135,6 +135,7 @@
 | [bfredl/nvim-miniyank](https://github.com/bfredl/nvim-miniyank) | 2019-11-05 | `nvim-miniyank` |
 | [bkegley/gloombuddy](https://github.com/bkegley/gloombuddy) | 2021-04-16 | `gloombuddy` |
 | [bluz71/vim-moonfly-colors](https://github.com/bluz71/vim-moonfly-colors) | 2022-11-08 | `vim-moonfly-colors` |
+| [bluz71/vim-nightfly-colors](https://github.com/bluz71/vim-nightfly-colors) | 2022-11-09 | `vim-nightfly-colors` |
 | [bluz71/vim-nightfly-colors](https://github.com/bluz71/vim-nightfly-colors) | 2022-11-09 | `vim-nightfly-colors` |
 | [booperlv/nvim-gomove](https://github.com/booperlv/nvim-gomove) | 2022-07-19 | `nvim-gomove` |
 | [brendalf/mix.nvim](https://github.com/brendalf/mix.nvim) | 2022-08-22 | `mix-nvim` |
