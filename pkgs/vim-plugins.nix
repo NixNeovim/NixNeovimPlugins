@@ -1733,6 +1733,19 @@
       license = with licenses; [ mit ];
     };
   };
+  vim-nightfly-colors = buildVimPluginFrom2Nix {
+    pname = "vim-nightfly-colors";
+    version = "2022-11-09";
+    src = fetchurl {
+      url = "https://github.com/bluz71/vim-nightfly-colors/archive/febf882a2330fdac62c76979af9eb0de888478bd.tar.gz";
+      sha256 = "039kfbzrvdqsh99nh43l3ny7c10qrclq52pw4bnpyp5q4i6rdxgs";
+    };
+    meta = with lib; {
+      description = "A dark midnight theme for classic Vim & modern Neovim";
+      homepage = "https://github.com/bluz71/vim-nightfly-colors";
+      license = with licenses; [ mit ];
+    };
+  };
   nvim-gomove = buildVimPluginFrom2Nix {
     pname = "nvim-gomove";
     version = "2022-07-19";

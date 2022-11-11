@@ -134,6 +134,7 @@ bfredl/nvim-miniyank
 bkegley/gloombuddy
 bluz71/vim-moonfly-colors
 bluz71/vim-nightfly-colors
+bluz71/vim-nightfly-guicolors
 booperlv/nvim-gomove
 brendalf/mix.nvim
 brenoprata10/nvim-highlight-colors
