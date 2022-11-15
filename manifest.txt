@@ -79,6 +79,9 @@ ThePrimeagen/vim-apm
 ThePrimeagen/vim-be-good
 TimUntersberger/neofs
 TimUntersberger/neogit
+Wansmer/binary-swap.nvim
+Wansmer/sibling-swap.nvim
+Wansmer/treesj
 Weissle/easy-action
 Weissle/persistent-breakpoints.nvim
 Xuyuanp/scrollbar.nvim
@@ -562,6 +565,7 @@ tjdevries/nlua.nvim
 tjdevries/train.nvim
 tjdevries/vlog.nvim
 tomasiser/vim-code-dark
+toppair/peek.nvim
 toppair/reach.nvim
 tversteeg/registers.nvim
 tveskag/nvim-blame-line
