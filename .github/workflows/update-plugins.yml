@@ -31,9 +31,9 @@ jobs:
           SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_user_name: m15abot
-          commit_user_email: bot.nacamura@gmail.com
-          commit_author: Mitsuhiro Nakamura <mitsuhiro_nakamura@albert2005.co.jp>
-          commit_message: 'maintenance: auto update plugins'
+          commit_user_name: update-plugins-bot
+          commit_user_email: ""
+          commit_author: ""
+          commit_message: 'bot: auto update plugins'
           file_pattern: README.md pkgs/vim-plugins.nix .previous-update.json plugins.md
           push_options: '--force'
