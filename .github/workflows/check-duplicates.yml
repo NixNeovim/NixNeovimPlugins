@@ -19,3 +19,5 @@ jobs:
           ref: ${{ github.head_ref }}
       - run: |
           ./bin/check-duplicates.sh
+        env:
+          GITHUB_TOKEN: ${{ secrets.REPO_ACCESS }}
