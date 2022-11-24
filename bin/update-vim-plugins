@@ -657,17 +657,8 @@
                     spec true)]
     (each [_ spec (ipairs %manifest.specs)]
       (if (. blacklist spec)
-          (do (io.stderr:write
-                (string.format "%s: %s is in the blacklist\n" (program-name) spec))
-              (when (not force?)
-                (table.insert specs spec)))
-          (and (not (. whitelist spec))
-               (. official-manifest spec))
-          (do (io.stderr:write
-                (string.format "%s: %s is provided by the official nixpkgs\n" (program-name) spec))
-              (when (not force?)
-                (table.insert specs spec)))
-          (table.insert specs spec)))
+        (string.format "%s: %s is in the denylist\n" (program-name) spec) ; then
+        (table.insert specs spec))) ; else
     (set %manifest.specs specs)
     (%manifest:lint)
     (%manifest:save)))
