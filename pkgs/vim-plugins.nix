@@ -1062,8 +1062,8 @@
     pname = "treesj";
     version = "2022-11-24";
     src = fetchurl {
-      url = "https://github.com/Wansmer/treesj/archive/7be80f308a27205aee97e9537c28b7e6c2f49bc0.tar.gz";
-      sha256 = "0fgnxbfan4bs1zdhq4wpkcgqhf7bhb5bmcrh5fa0qw60xqz78lx2";
+      url = "https://github.com/Wansmer/treesj/archive/9917d5a02e1a520f1acde5d813ff1d9a517793a4.tar.gz";
+      sha256 = "1i29dm9y8rqpsf507702n36wz255s5gxlyr0pymfzhx33j8ggc8k";
     };
     meta = with lib; {
       description = "Neovim plugin for splitting/joining blocks of code";
@@ -5402,8 +5402,8 @@
     pname = "nvim-treesitter";
     version = "2022-11-24";
     src = fetchurl {
-      url = "https://github.com/nvim-treesitter/nvim-treesitter/archive/fb4058448a61ee52e18cf2d2a12de3d241b33201.tar.gz";
-      sha256 = "1wszb2ali4k6pvqwgj6mzgxfcg0rnxim2azlqnwcsnj9nwkhbb0s";
+      url = "https://github.com/nvim-treesitter/nvim-treesitter/archive/54028a819af7e08095fcff9418f2bafe1e8a5c4c.tar.gz";
+      sha256 = "0ganacfhc8541kpglgmkksr0xkm22z219ppnbyd9rr98cn4c1gpl";
     };
     meta = with lib; {
       description = "Nvim Treesitter configurations and abstraction layer";
