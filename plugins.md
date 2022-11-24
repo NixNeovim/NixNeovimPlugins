@@ -190,7 +190,7 @@
 | [elihunter173/dirbuf.nvim](https://github.com/elihunter173/dirbuf.nvim) | 2022-08-28 | `dirbuf-nvim` |
 | [ellisonleao/carbon-now.nvim](https://github.com/ellisonleao/carbon-now.nvim) | 2022-07-15 | `carbon-now-nvim` |
 | [ellisonleao/glow.nvim](https://github.com/ellisonleao/glow.nvim) | 2022-10-07 | `glow-nvim` |
-| [ellisonleao/gruvbox.nvim](https://github.com/ellisonleao/gruvbox.nvim) | 2022-11-14 | `gruvbox-nvim` |
+| [ellisonleao/gruvbox.nvim](https://github.com/ellisonleao/gruvbox.nvim) | 2022-11-24 | `gruvbox-nvim` |
 | [ellisonleao/nvim-plugin-template](https://github.com/ellisonleao/nvim-plugin-template) | 2022-07-15 | `nvim-plugin-template` |
 | [epwalsh/obsidian.nvim](https://github.com/epwalsh/obsidian.nvim) | 2022-11-23 | `obsidian-nvim` |
 | [esensar/nvim-dev-container](https://github.com/esensar/nvim-dev-container) | 2022-07-21 | `nvim-dev-container` |
@@ -394,7 +394,7 @@
 | [nanozuki/tabby.nvim](https://github.com/nanozuki/tabby.nvim) | 2022-11-22 | `tabby-nvim` |
 | [navarasu/onedark.nvim](https://github.com/navarasu/onedark.nvim) | 2022-11-21 | `onedark-nvim` |
 | [nekonako/xresources-nvim](https://github.com/nekonako/xresources-nvim) | 2021-11-23 | `xresources-nvim` |
-| [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) | 2022-11-21 | `nvim-lspconfig` |
+| [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) | 2022-11-24 | `nvim-lspconfig` |
 | [nguyenvukhang/nvim-toggler](https://github.com/nguyenvukhang/nvim-toggler) | 2022-09-25 | `nvim-toggler` |
 | [nikvdp/neomux](https://github.com/nikvdp/neomux) | 2021-12-23 | `neomux` |
 | [nkakouros-original/numbers.nvim](https://github.com/nkakouros-original/numbers.nvim) | 2022-09-19 | `numbers-nvim` |
@@ -586,7 +586,7 @@
 | [wbthomason/packer.nvim](https://github.com/wbthomason/packer.nvim) | 2022-09-10 | `packer-nvim` |
 | [weilbith/nvim-code-action-menu](https://github.com/weilbith/nvim-code-action-menu) | 2022-10-07 | `nvim-code-action-menu` |
 | [sourcehut:whynothugo/lsp_lines.nvim](https://sr.ht/~whynothugo/lsp_lines.nvim/) | 2022-11-16 | `lsp-lines-nvim` |
-| [williamboman/mason.nvim](https://github.com/williamboman/mason.nvim) | 2022-11-23 | `mason-nvim` |
+| [williamboman/mason.nvim](https://github.com/williamboman/mason.nvim) | 2022-11-24 | `mason-nvim` |
 | [williamboman/nvim-lsp-installer](https://github.com/williamboman/nvim-lsp-installer) | 2022-11-12 | `nvim-lsp-installer` |
 | [windwp/nvim-autopairs](https://github.com/windwp/nvim-autopairs) | 2022-11-24 | `nvim-autopairs` |
 | [windwp/nvim-projectconfig](https://github.com/windwp/nvim-projectconfig) | 2021-11-10 | `nvim-projectconfig` |

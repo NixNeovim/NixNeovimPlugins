@@ -1062,8 +1062,8 @@
     pname = "treesj";
     version = "2022-11-24";
     src = fetchurl {
-      url = "https://github.com/Wansmer/treesj/archive/9e7d2b04ba8cf2407e4f01326f22a5b0ea2a9e1f.tar.gz";
-      sha256 = "1l8zm0i5qgw13ilv04wcpjq1qlfnqjdbllpkz5g9jq7322cpz3gb";
+      url = "https://github.com/Wansmer/treesj/archive/7be80f308a27205aee97e9537c28b7e6c2f49bc0.tar.gz";
+      sha256 = "0fgnxbfan4bs1zdhq4wpkcgqhf7bhb5bmcrh5fa0qw60xqz78lx2";
     };
     meta = with lib; {
       description = "Neovim plugin for splitting/joining blocks of code";
@@ -2427,10 +2427,10 @@
   };
   gruvbox-nvim = buildVimPluginFrom2Nix {
     pname = "gruvbox-nvim";
-    version = "2022-11-14";
+    version = "2022-11-24";
     src = fetchurl {
-      url = "https://github.com/ellisonleao/gruvbox.nvim/archive/5ac400bbd7bbe5d5911a79c45347df6d3afd388e.tar.gz";
-      sha256 = "0l7q9mzxfpalvbkqvg7vi635cdviy2x4r380z0rhbl9aaipr45nv";
+      url = "https://github.com/ellisonleao/gruvbox.nvim/archive/076b9ddcfb3bf1d94f65c25f372f405f39bdbf8f.tar.gz";
+      sha256 = "0r0vzhxp2icpyqj5myfkj98x2gn8d42naj1h3gkskznrdbgjkm4i";
     };
     meta = with lib; {
       description = "Lua port of the most famous vim colorscheme";
@@ -5026,10 +5026,10 @@
   };
   nvim-lspconfig = buildVimPluginFrom2Nix {
     pname = "nvim-lspconfig";
-    version = "2022-11-21";
+    version = "2022-11-24";
     src = fetchurl {
-      url = "https://github.com/neovim/nvim-lspconfig/archive/ea5744f9243ec25a178a0bc403a4c8203ecc4f23.tar.gz";
-      sha256 = "0gq00wfs7fp6dppxlnhhm5i5g9pm36373iic77mi57jzb87swd7x";
+      url = "https://github.com/neovim/nvim-lspconfig/archive/d005193b6476088ff032607baca07b1bbbeb36ee.tar.gz";
+      sha256 = "0xz9mjj669q2xsn7bqkrnzd6rjdc1cjbzx3hg2mynivxxy7wwl68";
     };
     meta = with lib; {
       description = "Quickstart configs for Nvim LSP";
@@ -7489,10 +7489,10 @@
   };
   mason-nvim = buildVimPluginFrom2Nix {
     pname = "mason-nvim";
-    version = "2022-11-23";
+    version = "2022-11-24";
     src = fetchurl {
-      url = "https://github.com/williamboman/mason.nvim/archive/0c5e610097590dd6f8254ae582c97088797855f9.tar.gz";
-      sha256 = "1aq31l33gh12jm03k9ahqa26nkmnqqqml5grh9jh5xmfpmy0gjsg";
+      url = "https://github.com/williamboman/mason.nvim/archive/2f2efa0d7b786c92c82f5a98dcbc00bba7323555.tar.gz";
+      sha256 = "13zhg8l4dqbf302gkpf8isr46p9imbbcgk133xcfhlqrhm8acbf3";
     };
     meta = with lib; {
       description = "Portable package manager for Neovim that runs everywhere Neovim runs. Easily install and manage LSP servers, DAP servers, linters, and formatters";
