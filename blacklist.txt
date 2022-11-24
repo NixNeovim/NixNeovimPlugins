@@ -4,3 +4,4 @@ rose-pine/neovim
 shaeinst/penvim
 Pocco81/TrueZen.nvim
 henriquehbr/ataraxis.lua
+bluz71/vim-nightfly-guicolors
