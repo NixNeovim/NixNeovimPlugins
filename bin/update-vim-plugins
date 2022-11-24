@@ -648,7 +648,7 @@
         force? (. args "--force")
         %manifest (manifest.load)
         specs []
-        official-manifest (nixpkgs.get-vim-plugins-manifest)
+        official-manifest []
         whitelist (collect [_ spec (ipairs (. (manifest.load "whitelist.txt")
                                               :specs))]
                     spec true)
