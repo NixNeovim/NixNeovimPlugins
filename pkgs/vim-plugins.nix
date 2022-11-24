@@ -228,8 +228,8 @@
       homepage = "https://github.com/EthanJWright/vs-tasks.nvim";
     };
   };
-  nvim = buildVimPluginFrom2Nix {
-    pname = "nvim";
+  everblush = buildVimPluginFrom2Nix {
+    pname = "everblush";
     version = "2022-11-21";
     src = fetchurl {
       url = "https://github.com/Everblush/nvim/archive/03f1fc46d6bb2a1bc260e7fa1c913c31d4b290f7.tar.gz";

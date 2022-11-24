@@ -16,7 +16,7 @@ David-Kunz/cmp-npm
 David-Kunz/jester
 EdenEast/nightfox.nvim
 EthanJWright/vs-tasks.nvim
-Everblush/everblush.nvim
+Everblush/nvim::everblush
 FeiyouG/command_center.nvim
 FrenzyExists/aquarium-vim
 Fymyte/rasi.vim

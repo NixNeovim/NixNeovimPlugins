@@ -18,7 +18,7 @@
 | [David-Kunz/jester](https://github.com/David-Kunz/jester) | 2022-10-28 | `jester` |
 | [EdenEast/nightfox.nvim](https://github.com/EdenEast/nightfox.nvim) | 2022-11-22 | `nightfox-nvim` |
 | [EthanJWright/vs-tasks.nvim](https://github.com/EthanJWright/vs-tasks.nvim) | 2022-09-13 | `vs-tasks-nvim` |
-| [Everblush/nvim](https://github.com/Everblush/nvim) | 2022-11-21 | `nvim` |
+| [Everblush/nvim](https://github.com/Everblush/nvim) | 2022-11-21 | `everblush` |
 | [FeiyouG/command_center.nvim](https://github.com/FeiyouG/command_center.nvim) | 2022-11-20 | `command-center-nvim` |
 | [FrenzyExists/aquarium-vim](https://github.com/FrenzyExists/aquarium-vim) | 2022-06-22 | `aquarium-vim` |
 | [Fymyte/rasi.vim](https://github.com/Fymyte/rasi.vim) | 2022-02-16 | `rasi-vim` |

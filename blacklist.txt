@@ -2,6 +2,7 @@ lukas-reineke/format.nvim
 andersevenrud/compe-tmux
 rose-pine/neovim
 shaeinst/penvim
+Everblush/everblush.nvim
 Pocco81/TrueZen.nvim
 henriquehbr/ataraxis.lua
 bluz71/vim-nightfly-guicolors
