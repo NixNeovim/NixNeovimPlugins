@@ -80,3 +80,7 @@ This updates `pkgs/vim-plugins.nix` and `README.md`
 
 Create a pull request with all your changed files.
 I am happy for any contribution. :)
+
+## Credits
+
+This is originally based on work by [m15a](https://github.com/m15a/nixpkgs-vim-extra-plugins)
