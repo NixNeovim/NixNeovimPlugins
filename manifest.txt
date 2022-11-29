@@ -442,6 +442,8 @@ olivercederborg/poimandres.nvim
 onsails/diaglist.nvim
 onsails/lspkind.nvim
 ostralyan/scribe.nvim
+otavioschwanck/telescope-alternate.nvim
+otavioschwanck/tmux-awesome-manager.nvim
 p00f/cphelper.nvim
 p00f/nvim-ts-rainbow
 petertriho/cmp-git
