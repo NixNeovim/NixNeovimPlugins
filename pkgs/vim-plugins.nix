@@ -4326,6 +4326,19 @@
       license = with licenses; [ mit ];
     };
   };
+  broot-vim = buildVimPluginFrom2Nix {
+    pname = "broot-vim";
+    version = "2022-11-14";
+    src = fetchurl {
+      url = "https://github.com/lstwn/broot.vim/archive/4c0c4c152ea46a8dc08cf18ddbfa7673014bec98.tar.gz";
+      sha256 = "12lgxy19vbn1gf8hq56zigdzwx3i88i4zb1s1w9i2cavhpp797kp";
+    };
+    meta = with lib; {
+      description = "A tiny plugin that integrates https://github.com/Canop/broot with neovim/vim";
+      homepage = "https://github.com/lstwn/broot.vim";
+      license = with licenses; [ mit ];
+    };
+  };
   gruvbox-baby = buildVimPluginFrom2Nix {
     pname = "gruvbox-baby";
     version = "2022-11-28";

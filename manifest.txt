@@ -337,6 +337,7 @@ linty-org/key-menu.nvim
 linty-org/readline.nvim
 lmburns/kimbox
 lourenci/github-colors
+lstwn/broot.vim
 luisiacc/gruvbox-baby
 lukas-reineke/cmp-rg
 lukas-reineke/cmp-under-comparator
