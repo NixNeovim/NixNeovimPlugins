@@ -70,8 +70,8 @@ Supported are Github (default), SourceHut, and GitLab.
 #### 2. Format the Manifest and Generate the plugins (optional)
 
 ```
-nix run .#update-vim-plugins -- lint
-nix run .#update-vim-plugins
+nix run '.#update-vim-plugins' -- lint
+nix run '.#update-vim-plugins'
 ```
 
 This updates `pkgs/vim-plugins.nix` and `README.md`
