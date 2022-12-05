@@ -339,6 +339,7 @@
 | [linty-org/readline.nvim](https://github.com/linty-org/readline.nvim) | 2022-08-13 | `readline-nvim` |
 | [lmburns/kimbox](https://github.com/lmburns/kimbox) | 2022-11-28 | `kimbox` |
 | [lourenci/github-colors](https://github.com/lourenci/github-colors) | 2022-11-23 | `github-colors` |
+| [lstwn/broot.vim](https://github.com/lstwn/broot.vim) | 2022-11-14 | `broot-vim` |
 | [luisiacc/gruvbox-baby](https://github.com/luisiacc/gruvbox-baby) | 2022-11-28 | `gruvbox-baby` |
 | [lukas-reineke/cmp-rg](https://github.com/lukas-reineke/cmp-rg) | 2022-09-05 | `cmp-rg` |
 | [lukas-reineke/cmp-under-comparator](https://github.com/lukas-reineke/cmp-under-comparator) | 2021-11-11 | `cmp-under-comparator` |
