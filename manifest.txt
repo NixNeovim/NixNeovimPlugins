@@ -10,6 +10,7 @@ AllenDang/nvim-expand-expr
 CRAG666/code_runner.nvim
 Chaitanyabsprip/present.nvim
 ChristianChiarulli/nvcode-color-schemes.vim
+Civitasv/cmake-tools.nvim
 CosmicNvim/cosmic-ui
 Darazaki/indent-o-matic
 David-Kunz/cmp-npm
@@ -213,6 +214,7 @@ fuenor/JpFormat.vim
 gaborvecsei/cryptoprice.nvim
 gaborvecsei/memento.nvim
 gbprod/cutlass.nvim
+gbprod/nord.nvim
 gbprod/phpactor.nvim
 gbprod/stay-in-place.nvim
 gbprod/substitute.nvim
@@ -489,6 +491,7 @@ rhysd/vim-gfm-syntax
 rktjmp/highlight-current-n.nvim
 rktjmp/hotpot.nvim
 rktjmp/lush.nvim
+rktjmp/pact.nvim
 rktjmp/paperplanes.nvim
 rktjmp/shenzhen-solitaire.nvim
 rlane/pounce.nvim
