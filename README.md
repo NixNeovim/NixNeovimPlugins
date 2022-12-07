@@ -70,18 +70,14 @@ foo/bar:dev                    --> using dev branch
 
 Supported are Github (default), SourceHut, and GitLab.
 
-#### 2. Format the Manifest and Generate the plugins (optional)
-
-```
-nix run .#update-vim-plugins -- lint
-nix run .#update-vim-plugins
-```
-
 This updates `pkgs/vim-plugins.nix` and `README.md`
 
-#### 3. Create a Pull Request
+#### 2. Create a Pull Request
 
 Create a pull request with all your changed files.
+A GitHub actions will check your contribution and sync generate the nix config for your added plugin.
+After all checks have passed, I will merge your change.
+
 I am happy for any contribution. :)
 
 ## Credits
