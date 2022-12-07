@@ -3,7 +3,7 @@ name: Checks PR for duplicates
 on:
   pull_request:
     paths:
-      - pkgs/vim-plugins.txt
+      - pkgs/vim-plugins.nix
     branches:
       - main
   workflow_dispatch:
