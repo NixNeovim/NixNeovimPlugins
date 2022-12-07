@@ -525,7 +525,7 @@ seandewar/nvimesweeper
 sgur/vim-textobj-parameter
 shaeinst/roshnivim-cs
 shaunsingh/moonlight.nvim
-shaunsingh/nord.nvim::shaunsingh-nord-nvim
+shaunsingh/nord.nvim
 simrat39/rust-tools.nvim
 simrat39/symbols-outline.nvim
 sindrets/diffview.nvim
