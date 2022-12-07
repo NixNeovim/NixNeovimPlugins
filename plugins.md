@@ -216,7 +216,7 @@
 | [gaborvecsei/cryptoprice.nvim](https://github.com/gaborvecsei/cryptoprice.nvim) | 2022-03-18 | `cryptoprice-nvim` |
 | [gaborvecsei/memento.nvim](https://github.com/gaborvecsei/memento.nvim) | 2022-03-18 | `memento-nvim` |
 | [gbprod/cutlass.nvim](https://github.com/gbprod/cutlass.nvim) | 2022-09-26 | `cutlass-nvim` |
-| [gbprod/nord.nvim](https://github.com/gbprod/nord.nvim) | 2022-12-06 | `nord-nvim` |
+| [gbprod/nord.nvim](https://github.com/gbprod/nord.nvim) | 2022-12-07 | `gbprod-nord-nvim` |
 | [gbprod/phpactor.nvim](https://github.com/gbprod/phpactor.nvim) | 2022-10-03 | `phpactor-nvim` |
 | [gbprod/stay-in-place.nvim](https://github.com/gbprod/stay-in-place.nvim) | 2022-10-03 | `stay-in-place-nvim` |
 | [gbprod/substitute.nvim](https://github.com/gbprod/substitute.nvim) | 2022-11-21 | `substitute-nvim` |
@@ -527,7 +527,7 @@
 | [sgur/vim-textobj-parameter](https://github.com/sgur/vim-textobj-parameter) | 2017-05-16 | `vim-textobj-parameter` |
 | [Abstract-IDE/Abstract-cs](https://github.com/Abstract-IDE/Abstract-cs) | 2022-10-21 | `Abstract-cs` |
 | [shaunsingh/moonlight.nvim](https://github.com/shaunsingh/moonlight.nvim) | 2021-05-16 | `moonlight-nvim` |
-| [shaunsingh/nord.nvim](https://github.com/shaunsingh/nord.nvim) | 2022-11-25 | `nord-nvim` |
+| [shaunsingh/nord.nvim](https://github.com/shaunsingh/nord.nvim) | 2022-11-25 | `shaunsingh-nord-nvim` |
 | [simrat39/rust-tools.nvim](https://github.com/simrat39/rust-tools.nvim) | 2022-11-06 | `rust-tools-nvim` |
 | [simrat39/symbols-outline.nvim](https://github.com/simrat39/symbols-outline.nvim) | 2022-08-29 | `symbols-outline-nvim` |
 | [sindrets/diffview.nvim](https://github.com/sindrets/diffview.nvim) | 2022-12-03 | `diffview-nvim` |

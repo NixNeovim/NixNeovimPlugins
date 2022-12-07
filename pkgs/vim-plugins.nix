@@ -2758,12 +2758,12 @@
       license = with licenses; [ wtfpl ];
     };
   };
-  nord-nvim = buildVimPluginFrom2Nix {
-    pname = "nord-nvim";
-    version = "2022-12-06";
+  gbprod-nord-nvim = buildVimPluginFrom2Nix {
+    pname = "gbprod-nord-nvim";
+    version = "2022-12-07";
     src = fetchurl {
-      url = "https://github.com/gbprod/nord.nvim/archive/33327fa896491f81934c6c44bc98d062605ed89a.tar.gz";
-      sha256 = "10jjbj06i4mn6sbmdzwv8qq73g8w7ibiv2zx61cwpn6drzs8470f";
+      url = "https://github.com/gbprod/nord.nvim/archive/2e733eaf855d85d8ccfa274c8182b2941e329703.tar.gz";
+      sha256 = "1ci1627lnyamj0nmsk4b387l1nibww4zf4dq06gz3n9m9s6q6wkd";
     };
     meta = with lib; {
       description = " An arctic, north-bluish clean and elegant Neovim theme. ";
@@ -6728,8 +6728,8 @@
       license = with licenses; [ gpl2Only ];
     };
   };
-  nord-nvim = buildVimPluginFrom2Nix {
-    pname = "nord-nvim";
+  shaunsingh-nord-nvim = buildVimPluginFrom2Nix {
+    pname = "shaunsingh-nord-nvim";
     version = "2022-11-25";
     src = fetchurl {
       url = "https://github.com/shaunsingh/nord.nvim/archive/4b6d4072923cfc3a3f6aea55eafd8b4ad0ddc489.tar.gz";
