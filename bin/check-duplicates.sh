@@ -29,7 +29,12 @@ then
         if ! $found
         then
             echo "Did not find an issue for $f. Creating a new one ..."
-            gh issue create --title "Detected broken plugin: $f" --label "bot" --body "$f"
+            if [ "$1" == "check-only" ]
+            then
+                gh issue create --title "Detected broken plugin: $f" --label "bot" --body "$f"
+            else
+                exit 1
+            fi
         else
             echo "Issue for $f already exists"
         fi

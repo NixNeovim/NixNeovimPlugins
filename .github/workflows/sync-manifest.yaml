@@ -1,13 +1,6 @@
 name: Sync changes on manifest
 
 on:
-  push:
-    paths:
-      - manifest.txt
-      - blacklist.txt
-      - whitelist.txt
-    branches:
-      - main
   pull_request:
     branches: [ main ]
   workflow_dispatch:
@@ -38,3 +31,15 @@ jobs:
           commit_author: ""
           commit_message: 'bot: auto update plugins'
           file_pattern: README.md pkgs/vim-plugins.nix .previous-update.json plugins.md
+  check_duplicates:
+    runs-on: ubuntu-latest
+    name: Check if duplicates exists.
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.NIXPKGS_TOKEN }}
+          ref: ${{ github.head_ref }}
+      - run: |
+          ./bin/check-duplicates.sh "check-only"
+        env:
+          GITHUB_TOKEN: ${{ secrets.REPO_ACCESS }}
