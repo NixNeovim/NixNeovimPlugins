@@ -26,12 +26,13 @@ jobs:
           SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_user_name: update-plugins-bot
+          commit_user_name: NixNeovimBot
           commit_user_email: ""
           commit_author: ""
-          commit_message: 'bot: auto update plugins'
-          file_pattern: README.md pkgs/vim-plugins.nix .previous-update.json plugins.md
+          commit_message: 'bot: Sync Manifest'
+          file_pattern: pkgs/vim-plugins.nix .previous-update.json plugins.md
   check_duplicates:
+    needs: update-plugins
     runs-on: ubuntu-latest
     name: Check if duplicates exists.
     steps:
