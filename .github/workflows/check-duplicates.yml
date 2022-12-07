@@ -1,4 +1,4 @@
-name: Check if duplicates exists
+name: Check if duplicates exists, and creates an issue if it finds some
 
 on:
   push:
@@ -9,9 +9,9 @@ on:
   workflow_dispatch:
 
 jobs:
-  fetch-new-plugins:
+  check-duplicates:
     runs-on: ubuntu-latest
-    name: Check if duplicates exists. (Does nothing about it for now)
+    name: Check if duplicates exists.
     steps:
       - uses: actions/checkout@v3
         with:
