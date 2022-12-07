@@ -1,8 +1,15 @@
-name: Update All Plugins
+name: Sync changes on manifest
 
 on:
-  schedule:
-    - cron: "5 14 * * 0,4"
+  push:
+    paths:
+      - manifest.txt
+      - blacklist.txt
+      - whitelist.txt
+    branches:
+      - main
+  pull_request:
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
@@ -18,7 +25,9 @@ jobs:
         with:
           extra_nix_config: |
             access-tokens = github.com=${{ secrets.NIXPKGS_TOKEN }}
-      - run: nix run .#update-vim-plugins -- update --all
+      - run: |
+          nix run .#update-vim-plugins -- lint
+          nix run .#update-vim-plugins
         env:
           GITHUB_TOKEN: ${{ secrets.NIXPKGS_TOKEN }}
           SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}
@@ -29,4 +38,3 @@ jobs:
           commit_author: ""
           commit_message: 'bot: auto update plugins'
           file_pattern: README.md pkgs/vim-plugins.nix .previous-update.json plugins.md
-          push_options: '--force'
