@@ -1,4 +1,4 @@
-name: Check if duplicates exists, and creates an issue if it finds some
+name: Checks PR for duplicates
 
 on:
   pull_request:
