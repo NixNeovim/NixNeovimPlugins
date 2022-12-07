@@ -216,7 +216,7 @@
 | [gaborvecsei/cryptoprice.nvim](https://github.com/gaborvecsei/cryptoprice.nvim) | 2022-03-18 | `cryptoprice-nvim` |
 | [gaborvecsei/memento.nvim](https://github.com/gaborvecsei/memento.nvim) | 2022-03-18 | `memento-nvim` |
 | [gbprod/cutlass.nvim](https://github.com/gbprod/cutlass.nvim) | 2022-09-26 | `cutlass-nvim` |
-| [gbprod/nord.nvim](https://github.com/gbprod/nord.nvim) | 2022-12-07 | `gbprod-nord-nvim` |
+| [gbprod/nord.nvim](https://github.com/gbprod/nord.nvim) | 2022-12-06 | `nord-nvim` |
 | [gbprod/phpactor.nvim](https://github.com/gbprod/phpactor.nvim) | 2022-10-03 | `phpactor-nvim` |
 | [gbprod/stay-in-place.nvim](https://github.com/gbprod/stay-in-place.nvim) | 2022-10-03 | `stay-in-place-nvim` |
 | [gbprod/substitute.nvim](https://github.com/gbprod/substitute.nvim) | 2022-11-21 | `substitute-nvim` |
