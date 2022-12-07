@@ -214,7 +214,7 @@ fuenor/JpFormat.vim
 gaborvecsei/cryptoprice.nvim
 gaborvecsei/memento.nvim
 gbprod/cutlass.nvim
-gbprod/nord.nvim::gbprod-nord-nvim
+gbprod/nord.nvim
 gbprod/phpactor.nvim
 gbprod/stay-in-place.nvim
 gbprod/substitute.nvim
@@ -525,7 +525,7 @@ seandewar/nvimesweeper
 sgur/vim-textobj-parameter
 shaeinst/roshnivim-cs
 shaunsingh/moonlight.nvim
-shaunsingh/nord.nvim::shaunsingh-nord-nvim
+shaunsingh/nord.nvim
 simrat39/rust-tools.nvim
 simrat39/symbols-outline.nvim
 sindrets/diffview.nvim
