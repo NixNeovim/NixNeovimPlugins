@@ -2758,6 +2758,19 @@
       license = with licenses; [ wtfpl ];
     };
   };
+  nord-nvim = buildVimPluginFrom2Nix {
+    pname = "nord-nvim";
+    version = "2022-12-06";
+    src = fetchurl {
+      url = "https://github.com/gbprod/nord.nvim/archive/33327fa896491f81934c6c44bc98d062605ed89a.tar.gz";
+      sha256 = "10jjbj06i4mn6sbmdzwv8qq73g8w7ibiv2zx61cwpn6drzs8470f";
+    };
+    meta = with lib; {
+      description = " An arctic, north-bluish clean and elegant Neovim theme. ";
+      homepage = "https://github.com/gbprod/nord.nvim";
+      license = with licenses; [ wtfpl ];
+    };
+  };
   gbprod-nord-nvim = buildVimPluginFrom2Nix {
     pname = "gbprod-nord-nvim";
     version = "2022-12-07";
