@@ -527,7 +527,7 @@
 | [sgur/vim-textobj-parameter](https://github.com/sgur/vim-textobj-parameter) | 2017-05-16 | `vim-textobj-parameter` |
 | [Abstract-IDE/Abstract-cs](https://github.com/Abstract-IDE/Abstract-cs) | 2022-10-21 | `Abstract-cs` |
 | [shaunsingh/moonlight.nvim](https://github.com/shaunsingh/moonlight.nvim) | 2021-05-16 | `moonlight-nvim` |
-| [shaunsingh/nord.nvim](https://github.com/shaunsingh/nord.nvim) | 2022-11-25 | `shaunsingh-nord-nvim` |
+| [shaunsingh/nord.nvim](https://github.com/shaunsingh/nord.nvim) | 2022-11-25 | `nord-nvim` |
 | [simrat39/rust-tools.nvim](https://github.com/simrat39/rust-tools.nvim) | 2022-11-06 | `rust-tools-nvim` |
 | [simrat39/symbols-outline.nvim](https://github.com/simrat39/symbols-outline.nvim) | 2022-08-29 | `symbols-outline-nvim` |
 | [sindrets/diffview.nvim](https://github.com/sindrets/diffview.nvim) | 2022-12-03 | `diffview-nvim` |

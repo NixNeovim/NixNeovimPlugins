@@ -6728,8 +6728,8 @@
       license = with licenses; [ gpl2Only ];
     };
   };
-  shaunsingh-nord-nvim = buildVimPluginFrom2Nix {
-    pname = "shaunsingh-nord-nvim";
+  nord-nvim = buildVimPluginFrom2Nix {
+    pname = "nord-nvim";
     version = "2022-11-25";
     src = fetchurl {
       url = "https://github.com/shaunsingh/nord.nvim/archive/4b6d4072923cfc3a3f6aea55eafd8b4ad0ddc489.tar.gz";
