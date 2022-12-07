@@ -1,0 +1,23 @@
+name: Check if duplicates exists, and creates an issue if it finds some
+
+on:
+  pull_request:
+    paths:
+      - pkgs/vim-plugins.txt
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  check-duplicates:
+    runs-on: ubuntu-latest
+    name: Check if duplicates exists.
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.NIXPKGS_TOKEN }}
+          ref: ${{ github.head_ref }}
+      - run: |
+          ./bin/check-duplicates.sh "check-only"
+        env:
+          GITHUB_TOKEN: ${{ secrets.REPO_ACCESS }}

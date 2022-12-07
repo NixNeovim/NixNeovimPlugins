@@ -7,39 +7,40 @@ known_issues=$(gh issue list --state "open" --label "bot" --json "body" | jq -r 
 
 if [ $count -gt 0 ]
 then
+
     filtered_plugins=$(echo "$plugins" | uniq -d)
 
-    # iterate over plugins we found missing and
-    # compare them to all open issues.
-    # We no matching issue was found, we create a new one
-    for f in "$filtered_plugins"
-    do
-        found=false
-
-        for k in $known_issues
+    if [ "$1" == "check-only" ]
+    then
+        echo "$filtered_plugins"
+        exit 1
+    else
+        # iterate over plugins we found missing and
+        # compare them to all open issues.
+        # We no matching issue was found, we create a new one
+        for f in "$filtered_plugins"
         do
-            if [[ "$f" == "$k" ]]
-            then
-                found=true
-                break
-            fi
-        done
+            found=false
 
-        # test if matching issue was found
-        if ! $found
-        then
-            echo "Did not find an issue for $f. Creating a new one ..."
-            if [ "$1" == "check-only" ]
+            for k in $known_issues
+            do
+                if [[ "$f" == "$k" ]]
+                then
+                    found=true
+                    break
+                fi
+            done
+
+            # test if matching issue was found
+            if ! $found
             then
+                echo "Did not find an issue for $f. Creating a new one ..."
                 gh issue create --title "Detected broken plugin: $f" --label "bot" --body "$f"
             else
-                exit 1
+                echo "Issue for $f already exists"
             fi
-        else
-            echo "Issue for $f already exists"
-        fi
-
-    done
+        done
+    fi
 else
     echo "No duplicates found"
 fi
