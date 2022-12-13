@@ -145,6 +145,8 @@ camspiers/snap
 cappyzawa/trim.nvim
 catppuccin/nvim
 catppuccin/nvim::catppuccin
+cbochs/grapple.nvim
+cbochs/portal.nvim
 chentoast/marks.nvim
 chipsenkbeil/distant.nvim
 chiyadev/dep
@@ -454,6 +456,7 @@ p00f/nvim-ts-rainbow
 petertriho/cmp-git
 petertriho/nvim-scrollbar
 phaazon/hop.nvim
+phaazon/mind.nvim
 phha/zenburn.nvim
 pianocomposer321/consolation.nvim
 pianocomposer321/yabs.nvim
