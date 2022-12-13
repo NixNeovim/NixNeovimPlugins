@@ -17,6 +17,10 @@ The [plugins.md](plugins.md) contains an auto-generated list of all available pl
 
 ## Usage
 
+- We recommend using [NixNeovim](https://github.com/NixNeovim/NixNeovim), and only access the plugins directly when they do not have a module in NixNeovim.
+
+However, you can also use this repo without NixNeovim:
+To access the plugins, you need to add the overlay.
 The overlay adds extra Vim plugins to `pkgs.vimExtraPlugins`.
 First, add this repo to your inputs:
 
