@@ -1874,6 +1874,32 @@
       license = with licenses; [ mit ];
     };
   };
+  grapple-nvim = buildVimPluginFrom2Nix {
+    pname = "grapple-nvim";
+    version = "2022-12-13";
+    src = fetchurl {
+      url = "https://github.com/cbochs/grapple.nvim/archive/6a914d044a648591805198198d9d708faf046a55.tar.gz";
+      sha256 = "095dgk5bx5m0n9in1rpsdfglvykjvx3jgy7rfmacnkqirn128vjp";
+    };
+    meta = with lib; {
+      description = "Neovim plugin for tagging important files";
+      homepage = "https://github.com/cbochs/grapple.nvim";
+      license = with licenses; [ mit ];
+    };
+  };
+  portal-nvim = buildVimPluginFrom2Nix {
+    pname = "portal-nvim";
+    version = "2022-12-12";
+    src = fetchurl {
+      url = "https://github.com/cbochs/portal.nvim/archive/6198977abbfe30e19075edf106a507a6a708402c.tar.gz";
+      sha256 = "02r3igyh9r02sjn4jzgyzaxmshv64gvab19s7w9vhvys02mn01a8";
+    };
+    meta = with lib; {
+      description = "Neovim plugin for improved jumplist navigation";
+      homepage = "https://github.com/cbochs/portal.nvim";
+      license = with licenses; [ mit ];
+    };
+  };
   marks-nvim = buildVimPluginFrom2Nix {
     pname = "marks-nvim";
     version = "2022-11-24";
@@ -5817,6 +5843,18 @@
     meta = with lib; {
       description = "Neovim motions on speed!";
       homepage = "https://github.com/phaazon/hop.nvim";
+    };
+  };
+  mind-nvim = buildVimPluginFrom2Nix {
+    pname = "mind-nvim";
+    version = "2022-12-09";
+    src = fetchurl {
+      url = "https://github.com/phaazon/mind.nvim/archive/23e4defc4dbb4e089a03497bc648b38b37a75354.tar.gz";
+      sha256 = "0jwrkhnlsa3ryk5pd82m853743ww2dd52j3q290cl7farbbprnzp";
+    };
+    meta = with lib; {
+      description = "The power of trees at your fingertips";
+      homepage = "https://github.com/phaazon/mind.nvim";
     };
   };
   zenburn-nvim = buildVimPluginFrom2Nix {
