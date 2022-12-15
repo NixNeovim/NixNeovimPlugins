@@ -34,7 +34,7 @@ jobs:
   fetch-from-m15as-repo:
     runs-on: ubuntu-latest
     name: Fetch new plugins from m15a
-    needs: fetch-from-awesome-neovim
+    needs: [fetch-from-awesome-neovim]
     steps:
       - uses: actions/checkout@v3
         with:
