@@ -152,6 +152,8 @@
 | [chentoast/marks.nvim](https://github.com/chentoast/marks.nvim) | 2022-11-24 | `marks-nvim` |
 | [chipsenkbeil/distant.nvim](https://github.com/chipsenkbeil/distant.nvim) | 2022-08-05 | `distant-nvim` |
 | [chiyadev/dep](https://github.com/chiyadev/dep) | 2022-06-10 | `dep` |
+| [chrisgrieser/nvim-genghis](https://github.com/chrisgrieser/nvim-genghis) | 2022-12-13 | `nvim-genghis` |
+| [chrisgrieser/nvim-recorder](https://github.com/chrisgrieser/nvim-recorder) | 2022-12-15 | `nvim-recorder` |
 | [chrsm/impulse.nvim](https://github.com/chrsm/impulse.nvim) | 2022-06-26 | `impulse-nvim` |
 | [chrsm/paramount-ng.nvim](https://github.com/chrsm/paramount-ng.nvim) | 2022-06-18 | `paramount-ng-nvim` |
 | [clojure-vim/jazz.nvim](https://github.com/clojure-vim/jazz.nvim) | 2019-04-30 | `jazz-nvim` |
@@ -437,6 +439,10 @@
 | [nxvu699134/vn-night.nvim](https://github.com/nxvu699134/vn-night.nvim) | 2022-06-04 | `vn-night-nvim` |
 | [nyngwang/NeoNoName.lua](https://github.com/nyngwang/NeoNoName.lua) | 2022-10-05 | `NeoNoName-lua` |
 | [nyngwang/NeoRoot.lua](https://github.com/nyngwang/NeoRoot.lua) | 2022-04-19 | `NeoRoot-lua` |
+| [nyngwang/NeoTerm.lua](https://github.com/nyngwang/NeoTerm.lua) | 2022-12-14 | `NeoTerm-lua` |
+| [nyngwang/NeoWell.lua](https://github.com/nyngwang/NeoWell.lua) | 2022-02-05 | `NeoWell-lua` |
+| [nyngwang/murmur.lua](https://github.com/nyngwang/murmur.lua) | 2022-12-05 | `murmur-lua` |
+| [nyngwang/suave.lua](https://github.com/nyngwang/suave.lua) | 2022-12-14 | `suave-lua` |
 | [oberblastmeister/neuron.nvim](https://github.com/oberblastmeister/neuron.nvim) | 2022-02-27 | `neuron-nvim` |
 | [octaltree/cmp-look](https://github.com/octaltree/cmp-look) | 2022-06-26 | `cmp-look` |
 | [ofirgall/goto-breakpoints.nvim](https://github.com/ofirgall/goto-breakpoints.nvim) | 2022-08-18 | `goto-breakpoints-nvim` |
