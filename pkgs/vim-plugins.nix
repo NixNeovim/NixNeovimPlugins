@@ -1939,6 +1939,32 @@
       license = with licenses; [ mit ];
     };
   };
+  nvim-genghis = buildVimPluginFrom2Nix {
+    pname = "nvim-genghis";
+    version = "2022-12-13";
+    src = fetchurl {
+      url = "https://github.com/chrisgrieser/nvim-genghis/archive/0e30993386f2320fd7303c4c12e18b8b56575373.tar.gz";
+      sha256 = "00fy965j95kxk7dl6i62jf4jsbm9cgdxrdg5aa7qb0sb3rmyhiv8";
+    };
+    meta = with lib; {
+      description = "Convenience file operations for neovim, written in lua. ";
+      homepage = "https://github.com/chrisgrieser/nvim-genghis";
+      license = with licenses; [ mit ];
+    };
+  };
+  nvim-recorder = buildVimPluginFrom2Nix {
+    pname = "nvim-recorder";
+    version = "2022-12-15";
+    src = fetchurl {
+      url = "https://github.com/chrisgrieser/nvim-recorder/archive/6d4237dc91a6622da15cba6dbd2cc9fd9d12e06f.tar.gz";
+      sha256 = "0g2g8h8jmfx01xq1mvzi27xj8w1alp8pyniyqigldqbfmja2jvjs";
+    };
+    meta = with lib; {
+      description = "Simplifying and improving how you interact with macros in neovim";
+      homepage = "https://github.com/chrisgrieser/nvim-recorder";
+      license = with licenses; [ mit ];
+    };
+  };
   impulse-nvim = buildVimPluginFrom2Nix {
     pname = "impulse-nvim";
     version = "2022-06-26";
@@ -5576,6 +5602,54 @@
     meta = with lib; {
       description = "Yet another light-weight rooter written in Lua";
       homepage = "https://github.com/nyngwang/NeoRoot.lua";
+    };
+  };
+  NeoTerm-lua = buildVimPluginFrom2Nix {
+    pname = "NeoTerm-lua";
+    version = "2022-12-14";
+    src = fetchurl {
+      url = "https://github.com/nyngwang/NeoTerm.lua/archive/e1d74c15d8c6c9a0ae61de74f72073cdb343c4b0.tar.gz";
+      sha256 = "0q0sdrivqw1ll5xg15pf4808929m5sp9fvih9s96cz6nmlqvz8x6";
+    };
+    meta = with lib; {
+      description = "You can assign a terminal-buffer for each buffer";
+      homepage = "https://github.com/nyngwang/NeoTerm.lua";
+    };
+  };
+  NeoWell-lua = buildVimPluginFrom2Nix {
+    pname = "NeoWell-lua";
+    version = "2022-02-05";
+    src = fetchurl {
+      url = "https://github.com/nyngwang/NeoWell.lua/archive/be424cfdef0ec8173484758002e94db360ca1e28.tar.gz";
+      sha256 = "1jmkc0qs1a85wmgm3h2yw4iykj9445pajcrgn8zwvdsmz9r86wjn";
+    };
+    meta = with lib; {
+      description = "Well... I will fix this line later";
+      homepage = "https://github.com/nyngwang/NeoWell.lua";
+    };
+  };
+  murmur-lua = buildVimPluginFrom2Nix {
+    pname = "murmur-lua";
+    version = "2022-12-05";
+    src = fetchurl {
+      url = "https://github.com/nyngwang/murmur.lua/archive/b7fc2b36df33fca58efe3a9f5b487f1be4bf138e.tar.gz";
+      sha256 = "0xyihbnc72d592limx4f9f9x0fmz9gyfnhcxvk08bdlpbgzb4jaf";
+    };
+    meta = with lib; {
+      description = "super-fast cursor word highlighting with callbacks(I call them murmurs) included";
+      homepage = "https://github.com/nyngwang/murmur.lua";
+    };
+  };
+  suave-lua = buildVimPluginFrom2Nix {
+    pname = "suave-lua";
+    version = "2022-12-14";
+    src = fetchurl {
+      url = "https://github.com/nyngwang/suave.lua/archive/808c856ab29b5fc1580b27c0b249477306b85646.tar.gz";
+      sha256 = "0hsv8sz1wyifam0nh5r9c7czsf2mg14swin8wr4qhy2na1f3kj09";
+    };
+    meta = with lib; {
+      description = "Multi-tabs project session automation";
+      homepage = "https://github.com/nyngwang/suave.lua";
     };
   };
   neuron-nvim = buildVimPluginFrom2Nix {
