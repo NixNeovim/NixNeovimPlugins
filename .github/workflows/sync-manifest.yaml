@@ -5,8 +5,14 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
+inputs:
+  commit_message:
+    description: Commit message
+    required: false
+    default: 'bot: sync manifest'
+
 jobs:
-  update-plugins:
+  sync-changes:
     runs-on: ubuntu-latest
     name: Update plugins
     steps:
@@ -26,8 +32,8 @@ jobs:
           SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_user_name: NixNeovimBot
-          commit_user_email: ""
-          commit_author: ""
-          commit_message: 'bot: Sync Manifest'
+          commit_user_name: FetchPluginsBot
+          commit_user_email: joscha.loos@rwth-aachen.de
+          commit_author: Joscha Loos <joscha.loos@rwth-aachen.de>
+          commit_message: ${{ inputs.commit_message }}
           file_pattern: manifest.txt pkgs/vim-plugins.nix .previous-update.json plugins.md
