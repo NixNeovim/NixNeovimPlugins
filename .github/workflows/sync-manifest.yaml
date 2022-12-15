@@ -4,6 +4,13 @@ on:
   pull_request:
     branches: [ main ]
   workflow_dispatch:
+  workflow_call:
+    inputs:
+      commit_message:
+        description: Commit message
+        type: string
+        required: false
+        default: 'bot: sync manifest'
 
 jobs:
   sync-changes:
@@ -29,5 +36,5 @@ jobs:
           commit_user_name: FetchPluginsBot
           commit_user_email: joscha.loos@rwth-aachen.de
           commit_author: Joscha Loos <joscha.loos@rwth-aachen.de>
-          commit_message: 'bot: Sync Manifest'
+          commit_message: ${{ inputs.commit_message }}
           file_pattern: manifest.txt pkgs/vim-plugins.nix .previous-update.json plugins.md
