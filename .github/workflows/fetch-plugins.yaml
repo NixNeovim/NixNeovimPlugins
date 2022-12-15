@@ -37,7 +37,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.NIXPKGS_TOKEN }}
           SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}
       - name: Check duplicates
-        uses: ./.github/workflows/check-duplicates.yml@main
+        run: |
+          ./bin/check-duplicates.sh
+        env:
+          GITHUB_TOKEN: ${{ secrets.REPO_ACCESS }}
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
