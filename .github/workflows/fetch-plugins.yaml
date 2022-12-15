@@ -1,0 +1,62 @@
+name: Fetch plugins from various sources
+
+on:
+  schedule:
+    - cron: "5 14 * * 0,4" # At 14:05 on Sunday and Thursday
+  workflow_dispatch:
+
+
+jobs:
+  fetch-from-awesome-neovim:
+    runs-on: ubuntu-latest
+    name: Fetch new plugins from awesome-neovim
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.NIXPKGS_TOKEN }}
+          ref: ${{ github.head_ref }}
+      - uses: cachix/install-nix-action@v17
+        with:
+          extra_nix_config: |
+            access-tokens = github.com=${{ secrets.NIXPKGS_TOKEN }}
+      - run: nix run .#update-vim-plugins -- awesome-neovim
+        env:
+          GITHUB_TOKEN: ${{ secrets.NIXPKGS_TOKEN }}
+          SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_user_name: m15abot
+          commit_user_email: bot.nacamura@gmail.com
+          commit_author: Mitsuhiro Nakamura <mitsuhiro_nakamura@albert2005.co.jp>
+          commit_message: 'maintenance: auto fetch awesome neovim plugins'
+          file_pattern: manifest.txt
+          push_options: '--force'
+  fetch-from-m15as-repo:
+    runs-on: ubuntu-latest
+    name: Fetch new plugins from m15a
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.NIXPKGS_TOKEN }}
+          ref: ${{ github.head_ref }}
+      - run: |
+          git clone https://github.com/m15a/nixpkgs-vim-extra-plugins.git other
+          cat other/manifest.txt >> manifest.txt
+      - uses: cachix/install-nix-action@v17
+        with:
+          extra_nix_config: |
+            access-tokens = github.com=${{ secrets.NIXPKGS_TOKEN }}
+      - run: |
+          nix run .#update-vim-plugins -- lint
+          nix run .#update-vim-plugins
+        env:
+          GITHUB_TOKEN: ${{ secrets.NIXPKGS_TOKEN }}
+          SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_user_name: fetch-m15a-bot
+          commit_user_email: ""
+          commit_author: ""
+          commit_message: 'Add missing plugins from m15a'
+          file_pattern: README.md manifest.txt pkgs/vim-plugins.nix .previous-update.json
+          push_options: '--force'
