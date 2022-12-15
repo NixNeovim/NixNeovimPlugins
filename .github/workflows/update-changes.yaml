@@ -1,4 +1,4 @@
-name: Sync changes on manifest
+name: Update changes
 
 on:
   pull_request:

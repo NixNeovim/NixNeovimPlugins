@@ -1,11 +1,8 @@
 name: Create issues for duplicates
 
 on:
-  push:
-    paths:
-      - manifest.txt
-    branches:
-      - main
+  schedule:
+    - cron: "0 9 * * *" # At 09:00
   workflow_dispatch:
 
 jobs:
