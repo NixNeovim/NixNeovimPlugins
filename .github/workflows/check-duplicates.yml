@@ -1,4 +1,4 @@
-name: Check if duplicates exists, and creates an issue if it finds some
+name: Create issues for duplicates
 
 on:
   push:

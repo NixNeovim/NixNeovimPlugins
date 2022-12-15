@@ -1,4 +1,4 @@
-name: Update All Plugins
+name: Sync changes and update all plugins
 
 on:
   schedule:

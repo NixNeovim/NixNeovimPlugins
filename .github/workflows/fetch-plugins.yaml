@@ -5,7 +5,6 @@ on:
     - cron: "5 14 * * 0,4" # At 14:05 on Sunday and Thursday
   workflow_dispatch:
 
-
 jobs:
   fetch:
     runs-on: ubuntu-latest
@@ -30,7 +29,18 @@ jobs:
         run: |
           git clone https://github.com/m15a/nixpkgs-vim-extra-plugins.git other
           cat other/manifest.txt >> manifest.txt
-      - name: Sync Changes
-        uses: ./workflows/actions/sync-manifest
+      - name: Generate derivations for new plugins
+        run: |
+          nix run .#update-vim-plugins -- lint
+          nix run .#update-vim-plugins
+        env:
+          GITHUB_TOKEN: ${{ secrets.NIXPKGS_TOKEN }}
+          SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
+          commit_user_name: fetch-plugins-bot
+          commit_author: Joscha Loos <joscha.loos@rwth-aachen.de>
           commit_message: 'bot: fetch plugins from various sources'
+          file_pattern: manifest.txt pkgs/vim-plugins.nix .previous-update.json
+          push_options: '--force'
