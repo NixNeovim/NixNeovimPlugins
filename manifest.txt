@@ -150,6 +150,8 @@ cbochs/portal.nvim
 chentoast/marks.nvim
 chipsenkbeil/distant.nvim
 chiyadev/dep
+chrisgrieser/nvim-genghis
+chrisgrieser/nvim-recorder
 chrsm/impulse.nvim
 chrsm/paramount-ng.nvim
 clojure-vim/jazz.nvim
@@ -435,6 +437,10 @@ nvim-zh/colorful-winsep.nvim
 nxvu699134/vn-night.nvim
 nyngwang/NeoNoName.lua
 nyngwang/NeoRoot.lua
+nyngwang/NeoTerm.lua
+nyngwang/NeoWell.lua
+nyngwang/murmur.lua
+nyngwang/suave.lua
 oberblastmeister/neuron.nvim
 octaltree/cmp-look
 ofirgall/goto-breakpoints.nvim
