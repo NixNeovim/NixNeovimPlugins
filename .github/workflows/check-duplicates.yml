@@ -1,12 +1,12 @@
 name: Create issues for duplicates
 
 on:
-  push:
-    paths:
-      - manifest.txt
-    branches:
-      - main
-  workflow_dispatch:
+  workflow_call:
+    inputs:
+      create_issue:
+        type: boolean
+        required: false
+        default: false
 
 jobs:
   check-duplicates:
@@ -18,6 +18,12 @@ jobs:
           token: ${{ secrets.NIXPKGS_TOKEN }}
           ref: ${{ github.head_ref }}
       - run: |
-          ./bin/check-duplicates.sh
+          echo "Input: ${{ inputs.create_issue }}"
+          if ${{ inputs.creat_issue }}
+          then
+            ./bin/check-duplicates.sh
+          else
+            ./bin/check-duplicates.sh "check_only"
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.REPO_ACCESS }}
