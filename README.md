@@ -25,14 +25,14 @@ The overlay adds extra Vim plugins to `pkgs.vimExtraPlugins`.
 First, add this repo to your inputs:
 
 ```
-inputs.vim-extra-plugins.url = github:jooooscha/nixpkgs-vim-extra-plugins
+inputs.nixneovimplugins.url = github:jooooscha/nixpkgs-vim-extra-plugins
 ```
 
 Next, apply the provided overlay:
 
 ```
 nixpkgs.overlays = [
-  inputs.vim-extra-plugins.overlays.default
+  inputs.nixneovimplugins.overlays.default
 ];
 
 ```
