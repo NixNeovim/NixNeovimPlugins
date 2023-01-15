@@ -1,7 +1,6 @@
 | Plugin owner/repo | Last updated | Nix package name |
 | :- | :- | :- |
 | [0styx0/abbreinder.nvim](https://github.com/0styx0/abbreinder.nvim) | 2022-04-28 | `abbreinder-nvim` |
-| [nvim-treesitter/nvim-treesitter-refactor](https://github.com/nvim-treesitter/nvim-treesitter-refactor) | 2022-05-13 | `nvim-treesitter-refactor` |
 | [Abstract-IDE/penvim](https://github.com/Abstract-IDE/penvim) | 2022-07-23 | `penvim` |
 | [AckslD/messages.nvim](https://github.com/AckslD/messages.nvim) | 2022-10-24 | `messages-nvim` |
 | [AckslD/nvim-FeMaco.lua](https://github.com/AckslD/nvim-FeMaco.lua) | 2022-10-10 | `nvim-FeMaco-lua` |
@@ -435,6 +434,7 @@
 | [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) | 2023-01-14 | `telescope-nvim` |
 | [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) | 2023-01-15 | `nvim-treesitter` |
 | [nvim-treesitter/nvim-treesitter-context](https://github.com/nvim-treesitter/nvim-treesitter-context) | 2023-01-06 | `nvim-treesitter-context` |
+| [nvim-treesitter/nvim-treesitter-refactor](https://github.com/nvim-treesitter/nvim-treesitter-refactor) | 2022-05-13 | `nvim-treesitter-refactor` |
 | [nvim-treesitter/nvim-treesitter-textobjects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects) | 2023-01-07 | `nvim-treesitter-textobjects` |
 | [nvim-zh/colorful-winsep.nvim](https://github.com/nvim-zh/colorful-winsep.nvim) | 2023-01-14 | `colorful-winsep-nvim` |
 | [nxvu699134/vn-night.nvim](https://github.com/nxvu699134/vn-night.nvim) | 2022-06-04 | `vn-night-nvim` |

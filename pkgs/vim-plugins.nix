@@ -14,19 +14,6 @@
       license = with licenses; [ gpl3Only ];
     };
   };
-  nvim-treesitter-refactor = buildVimPluginFrom2Nix {
-    pname = "nvim-treesitter-refactor";
-    version = "2022-05-13";
-    src = fetchurl {
-      url = "https://github.com/nvim-treesitter/nvim-treesitter-refactor/archive/75f5895cc662d61eb919da8050b7a0124400d589.tar.gz";
-      sha256 = "1j0pbyzjawym1wpgc0v80qf99n61lg1bys8nywmmdr7a6x9wdm6q";
-    };
-    meta = with lib; {
-      description = "Refactor module for nvim-treesitter";
-      homepage = "https://github.com/nvim-treesitter/nvim-treesitter-refactor";
-      license = with licenses; [ asl20 ];
-    };
-  };
   penvim = buildVimPluginFrom2Nix {
     pname = "penvim";
     version = "2022-07-23";
@@ -5553,6 +5540,19 @@
       description = "Show code context";
       homepage = "https://github.com/nvim-treesitter/nvim-treesitter-context";
       license = with licenses; [ mit ];
+    };
+  };
+  nvim-treesitter-refactor = buildVimPluginFrom2Nix {
+    pname = "nvim-treesitter-refactor";
+    version = "2022-05-13";
+    src = fetchurl {
+      url = "https://github.com/nvim-treesitter/nvim-treesitter-refactor/archive/75f5895cc662d61eb919da8050b7a0124400d589.tar.gz";
+      sha256 = "1j0pbyzjawym1wpgc0v80qf99n61lg1bys8nywmmdr7a6x9wdm6q";
+    };
+    meta = with lib; {
+      description = "Refactor module for nvim-treesitter";
+      homepage = "https://github.com/nvim-treesitter/nvim-treesitter-refactor";
+      license = with licenses; [ asl20 ];
     };
   };
   nvim-treesitter-textobjects = buildVimPluginFrom2Nix {
