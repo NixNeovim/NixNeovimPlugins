@@ -1,6 +1,7 @@
 | Plugin owner/repo | Last updated | Nix package name |
 | :- | :- | :- |
 | [0styx0/abbreinder.nvim](https://github.com/0styx0/abbreinder.nvim) | 2022-04-28 | `abbreinder-nvim` |
+| [nvim-treesitter/nvim-treesitter-refactor](https://github.com/nvim-treesitter/nvim-treesitter-refactor) | 2022-05-13 | `nvim-treesitter-refactor` |
 | [Abstract-IDE/penvim](https://github.com/Abstract-IDE/penvim) | 2022-07-23 | `penvim` |
 | [AckslD/messages.nvim](https://github.com/AckslD/messages.nvim) | 2022-10-24 | `messages-nvim` |
 | [AckslD/nvim-FeMaco.lua](https://github.com/AckslD/nvim-FeMaco.lua) | 2022-10-10 | `nvim-FeMaco-lua` |
@@ -565,7 +566,7 @@
 | [tamago324/cmp-zsh](https://github.com/tamago324/cmp-zsh) | 2022-10-03 | `cmp-zsh` |
 | [tamago324/lir.nvim](https://github.com/tamago324/lir.nvim) | 2023-01-15 | `lir-nvim` |
 | [tamago324/nlsp-settings.nvim](https://github.com/tamago324/nlsp-settings.nvim) | 2023-01-15 | `nlsp-settings-nvim` |
-| [tamton-aquib/staline.nvim](https://github.com/tamton-aquib/staline.nvim) | 2022-12-16 | `staline-nvim` |
+| [tamton-aquib/staline.nvim](https://github.com/tamton-aquib/staline.nvim) | 2023-01-15 | `staline-nvim` |
 | [tanvirtin/monokai.nvim](https://github.com/tanvirtin/monokai.nvim) | 2022-12-20 | `monokai-nvim` |
 | [tanvirtin/vgit.nvim](https://github.com/tanvirtin/vgit.nvim) | 2023-01-12 | `vgit-nvim` |
 | [terrortylor/nvim-comment](https://github.com/terrortylor/nvim-comment) | 2022-08-09 | `nvim-comment` |

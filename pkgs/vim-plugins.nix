@@ -14,6 +14,19 @@
       license = with licenses; [ gpl3Only ];
     };
   };
+  nvim-treesitter-refactor = buildVimPluginFrom2Nix {
+    pname = "nvim-treesitter-refactor";
+    version = "2022-05-13";
+    src = fetchurl {
+      url = "https://github.com/nvim-treesitter/nvim-treesitter-refactor/archive/75f5895cc662d61eb919da8050b7a0124400d589.tar.gz";
+      sha256 = "1j0pbyzjawym1wpgc0v80qf99n61lg1bys8nywmmdr7a6x9wdm6q";
+    };
+    meta = with lib; {
+      description = "Refactor module for nvim-treesitter";
+      homepage = "https://github.com/nvim-treesitter/nvim-treesitter-refactor";
+      license = with licenses; [ asl20 ];
+    };
+  };
   penvim = buildVimPluginFrom2Nix {
     pname = "penvim";
     version = "2022-07-23";
@@ -2406,8 +2419,8 @@
     pname = "mini-nvim";
     version = "2023-01-15";
     src = fetchurl {
-      url = "https://github.com/echasnovski/mini.nvim/archive/11920227ff26fb047d3f39bb666e9cdec523a190.tar.gz";
-      sha256 = "166n6vbajh8lxyn7xlflzmxahlp6w3gkq26cqfg9zcbkdmmmm0j9";
+      url = "https://github.com/echasnovski/mini.nvim/archive/d7b2f437077da10819771f2404a6a3e581d44008.tar.gz";
+      sha256 = "04jym9p7rqqhv5prlyyj8gkf107frrcxpcspi3r8zxc86c5r95q5";
     };
     meta = with lib; {
       description = "Library of 20+ independent Lua modules improving overall Neovim (version 0.6 and higher) experience with minimal effort";
@@ -3058,8 +3071,8 @@
     pname = "lspsaga-nvim";
     version = "2023-01-15";
     src = fetchurl {
-      url = "https://github.com/glepnir/lspsaga.nvim/archive/4c88ff110fb679d612e245205dfc17ddf37d468c.tar.gz";
-      sha256 = "11k83c9s9vb3lykfh60gxgjqy9i9m3051qqz76710r5x8mslff6d";
+      url = "https://github.com/glepnir/lspsaga.nvim/archive/f307e3cc97cd671b294ef33b08280e24717b5edc.tar.gz";
+      sha256 = "0bvin937am1aii5pa81kx64qdh721xcvddsg77ji42l4v28aklvq";
     };
     meta = with lib; {
       description = "neovim lsp plugin ";
@@ -7216,10 +7229,10 @@
   };
   staline-nvim = buildVimPluginFrom2Nix {
     pname = "staline-nvim";
-    version = "2022-12-16";
+    version = "2023-01-15";
     src = fetchurl {
-      url = "https://github.com/tamton-aquib/staline.nvim/archive/69b5520694852cc28ef592c3da283d9119ea3b29.tar.gz";
-      sha256 = "1nhw40xw4bkq3x0y3zvjwsc3imp9552xz5qcz7mf8pgkyxsb94a6";
+      url = "https://github.com/tamton-aquib/staline.nvim/archive/b23465ca5f1d91617b36a78fd736cf193ab4804c.tar.gz";
+      sha256 = "080p9fhzhifw0pvips9j4j2l97wfgp9f97ggcx56a0w04vh55ds0";
     };
     meta = with lib; {
       description = "A modern lightweight statusline and bufferline plugin for neovim in lua. Mainly uses unicode symbols for showing info";
