@@ -2,7 +2,7 @@ name: Update changes
 
 on:
   pull_request:
-    branches: [ main ]
+    branches: [ ** ]
   workflow_dispatch:
 
 jobs:
