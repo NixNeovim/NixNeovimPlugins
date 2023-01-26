@@ -45,7 +45,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_user_name: fetch-plugins-bot
-          commit_author: Blackhole1504 <1298403+Blackhole1504@users.noreply.github.com>
+          commit_author: Joscha Loos <joscha.loos@rwth-aachen.de>
           commit_message: 'bot: fetch plugins from various sources'
           file_pattern: manifest.txt pkgs/vim-plugins.nix .previous-update.json
           push_options: '--force'

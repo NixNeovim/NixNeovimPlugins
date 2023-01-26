@@ -3,7 +3,6 @@
 plugins="$(cat ./pkgs/vim-plugins.nix | grep -E "^  [a-zA-Z-]+ =" | sed -E 's/^  ([a-zA-Z-]+) =.*$/\1/' | sort)"
 count=$(echo "$plugins" | uniq -d | wc -l)
 
-#known_issues=$(gh issue list --state "open" --label "bot" --json "body" | jq -r ".[].body")
 known_issues=$(gh api -H "Accept: application/vnd.github+json" /repos/NixNeovim/NixNeovimPlugins/issues?labels=bote | jq -r ".[].body")
 
 if [ $count -gt 0 ]
@@ -36,8 +35,6 @@ then
             if ! $found
             then
                 echo "Did not find an issue for $f. Creating a new one ..."
-                #gh issue create --title "Detected broken plugin: $f" --label "bot" --body "$f"
-                #gh api --method POST \
                 curl \
                     -X POST \
                     -H "Accept: application/vnd.github+json" \
