@@ -12,22 +12,22 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          token: ${{ secrets.NIXPKGS_TOKEN }}
+          token: ${{ secrets.REPO_ACCESS }}
           ref: ${{ github.head_ref }}
       - uses: cachix/install-nix-action@v17
         with:
           extra_nix_config: |
-            access-tokens = github.com=${{ secrets.NIXPKGS_TOKEN }}
+            access-tokens = github.com=${{ secrets.REPO_ACCESS }}
       - run: |
           nix run .#update-vim-plugins -- lint
           nix run .#update-vim-plugins
         env:
-          GITHUB_TOKEN: ${{ secrets.NIXPKGS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.REPO_ACCESS }}
           SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_user_name: FetchPluginsBot
-          commit_user_email: joscha.loos@rwth-aachen.de
-          commit_author: Joscha Loos <joscha.loos@rwth-aachen.de>
+          commit_user_email: 1298403+Blackhole1504@users.noreply.github.com
+          commit_author: Blackhole1504 <1298403+Blackhole1504@users.noreply.github.com>
           commit_message: 'bot: Sync Manifest'
           file_pattern: manifest.txt pkgs/vim-plugins.nix .previous-update.json plugins.md
