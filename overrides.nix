@@ -10,7 +10,7 @@ let
   lib.mapAttrs (attrName: broken: super.${attrName}.overrideAttrs (old: {
     meta = old.meta // { inherit broken; };
   }))
-  
+  {
     go-nvim = true;
 
     highlight-current-n-nvim = true;
