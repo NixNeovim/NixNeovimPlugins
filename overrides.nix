@@ -10,18 +10,21 @@ let
   lib.mapAttrs (attrName: broken: super.${attrName}.overrideAttrs (old: {
     meta = old.meta // { inherit broken; };
   }))
-  {
+  
     go-nvim = true;
 
     highlight-current-n-nvim = true;
 
+    mellifluous.nvim = true;
+
     snippet-converter-nvim = true;
+
+    unruly-worker = true;
 
     vacuumline-nvim = true;
 
     vgit-nvim = true;
 
-    unruly-worker = true;
   };
 
   /*
