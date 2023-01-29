@@ -13,17 +13,17 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.NIXPKGS_TOKEN }}
+          token: ${{ secrets.REPO_ACCESS }}
           ref: ${{ github.head_ref }}
       - name: Install nix
         uses: cachix/install-nix-action@v18
         with:
           extra_nix_config: |
-            access-tokens = github.com=${{ secrets.NIXPKGS_TOKEN }}
+            access-tokens = github.com=${{ secrets.REPO_ACCESS }}
       - name: Fetch from awesome-neovim
         run: nix run .#update-vim-plugins -- awesome-neovim
         env:
-          GITHUB_TOKEN: ${{ secrets.NIXPKGS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.REPO_ACCESS }}
           SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}
       - name: Fetch from m15a
         run: |
@@ -34,7 +34,7 @@ jobs:
           nix run .#update-vim-plugins -- lint
           nix run .#update-vim-plugins
         env:
-          GITHUB_TOKEN: ${{ secrets.NIXPKGS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.REPO_ACCESS }}
           SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}
       - name: Check duplicates
         run: |
@@ -45,7 +45,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_user_name: fetch-plugins-bot
-          commit_author: Joscha Loos <joscha.loos@rwth-aachen.de>
+          commit_author: Blackhole1504 <1298403+Blackhole1504@users.noreply.github.com>
           commit_message: 'bot: fetch plugins from various sources'
           file_pattern: manifest.txt pkgs/vim-plugins.nix .previous-update.json
           push_options: '--force'
