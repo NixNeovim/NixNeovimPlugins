@@ -1,4 +1,4 @@
-name: In PR - check for duplicate caused by new PR
+name: PR - check for duplicate caused by new PR
 
 on:
   pull_request:
