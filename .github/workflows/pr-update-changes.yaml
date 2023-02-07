@@ -3,7 +3,6 @@ name: PR - Update plugins in new PR
 on:
   pull_request:
     branches: [ main ]
-  workflow_dispatch:
 
 jobs:
   sync-changes:

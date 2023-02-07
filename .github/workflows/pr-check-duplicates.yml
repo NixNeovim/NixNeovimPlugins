@@ -6,7 +6,6 @@ on:
       - pkgs/vim-plugins.nix
     branches:
       - main
-  workflow_dispatch:
 
 jobs:
   check-duplicates:
