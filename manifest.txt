@@ -1,5 +1,4 @@
 0styx0/abbreinder.nvim
-rhysd/git-messenger.vim
 Abstract-IDE/penvim
 AckslD/messages.nvim
 AckslD/nvim-FeMaco.lua
@@ -499,6 +498,7 @@ rebelot/kanagawa.nvim
 renerocksai/telekasten.nvim
 rest-nvim/rest.nvim
 rgroli/other.nvim
+rhysd/git-messenger.vim
 rhysd/vim-gfm-syntax
 rktjmp/highlight-current-n.nvim
 rktjmp/hotpot.nvim
