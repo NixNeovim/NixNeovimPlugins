@@ -47,5 +47,5 @@ jobs:
           commit_user_name: fetch-plugins-bot
           commit_author: Joscha Loos <joscha.loos@rwth-aachen.de>
           commit_message: 'bot: fetch plugins from various sources'
-          file_pattern: manifest.txt pkgs/vim-plugins.nix .previous-update.json
+          file_pattern: manifest.txt pkgs/vim-plugins.nix .previous-update.json plugins.md
           push_options: '--force'
