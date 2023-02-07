@@ -1,4 +1,4 @@
-name: Update changes
+name: PR - Update plugins in new PR
 
 on:
   pull_request:

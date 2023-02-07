@@ -1,4 +1,4 @@
-name: Create issues for duplicates
+name: Check for duplicates in vim-plugins.nix
 
 on:
   schedule:
