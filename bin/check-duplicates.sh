@@ -3,7 +3,11 @@
 plugins="$(cat ./pkgs/vim-plugins.nix | grep -E "^  [a-zA-Z-]+ =" | sed -E 's/^  ([a-zA-Z-]+) =.*$/\1/' | sort)"
 count=$(echo "$plugins" | uniq -d | wc -l)
 
+echo "duplicates count: $count"
+
 known_issues=$(gh issue list --state "open" --label "bot" --json "body" | jq -r ".[].body")
+
+echo "known_issues: $known_issues"
 
 if [ $count -gt 0 ]
 then
