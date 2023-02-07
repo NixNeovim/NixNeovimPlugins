@@ -6385,6 +6385,19 @@
       license = with licenses; [ mit ];
     };
   };
+  git-messenger-vim = buildVimPluginFrom2Nix {
+    pname = "git-messenger-vim";
+    version = "2022-08-30";
+    src = fetchurl {
+      url = "https://github.com/rhysd/git-messenger.vim/archive/8a61bdfa351d4df9a9118ee1d3f45edbed617072.tar.gz";
+      sha256 = "0bw3bndf9rng4p42mqj42x5dsbi4aawk1lmma0ay2i03sfq8d3z1";
+    };
+    meta = with lib; {
+      description = "Vim and Neovim plugin to reveal the commit messages under the cursor";
+      homepage = "https://github.com/rhysd/git-messenger.vim";
+      license = with licenses; [ mit ];
+    };
+  };
   vim-gfm-syntax = buildVimPluginFrom2Nix {
     pname = "vim-gfm-syntax";
     version = "2022-08-01";
