@@ -5872,6 +5872,19 @@
       homepage = "https://github.com/otavioschwanck/tmux-awesome-manager.nvim";
     };
   };
+  clangd-extensions-nvim = buildVimPluginFrom2Nix {
+    pname = "clangd-extensions-nvim";
+    version = "2023-01-02";
+    src = fetchurl {
+      url = "https://github.com/p00f/clangd_extensions.nvim/archive/a5c3c8390dfb342d630bdc25941a4d8f433510be.tar.gz";
+      sha256 = "1gcni0nrcqb97c0l33hx6bqra087bfsbyqkw6w72wvzh41xb4ng5";
+    };
+    meta = with lib; {
+      description = "Clangd's off-spec features for neovim's LSP client. Use https://sr.ht/~p00f/clangd_extensions.nvim instead";
+      homepage = "https://github.com/p00f/clangd_extensions.nvim";
+      license = with licenses; [ mit ];
+    };
+  };
   cphelper-nvim = buildVimPluginFrom2Nix {
     pname = "cphelper-nvim";
     version = "2022-09-11";
