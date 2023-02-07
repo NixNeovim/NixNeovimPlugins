@@ -79,7 +79,7 @@ This updates `pkgs/vim-plugins.nix` and `README.md`
 #### 2. Create a Pull Request
 
 Create a pull request with all your changed files.
-A GitHub actions will check your contribution and sync generate the nix config for your added plugin.
+A GitHub action will check your contribution and generate the nix config for your added plugin.
 After all checks have passed, I will merge your change.
 
 I am happy for any contribution. :)
