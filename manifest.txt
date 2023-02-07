@@ -1,5 +1,4 @@
 0styx0/abbreinder.nvim
-p00f/clangd_extensions.nvim
 Abstract-IDE/penvim
 AckslD/messages.nvim
 AckslD/nvim-FeMaco.lua
@@ -459,6 +458,7 @@ onsails/lspkind.nvim
 ostralyan/scribe.nvim
 otavioschwanck/telescope-alternate.nvim
 otavioschwanck/tmux-awesome-manager.nvim
+p00f/clangd_extensions.nvim
 p00f/cphelper.nvim
 p00f/nvim-ts-rainbow
 petertriho/cmp-git

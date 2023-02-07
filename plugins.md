@@ -460,6 +460,7 @@
 | [Ostralyan/scribe.nvim](https://github.com/Ostralyan/scribe.nvim) | 2023-02-02 | `scribe-nvim` |
 | [otavioschwanck/telescope-alternate.nvim](https://github.com/otavioschwanck/telescope-alternate.nvim) | 2023-02-03 | `telescope-alternate-nvim` |
 | [otavioschwanck/tmux-awesome-manager.nvim](https://github.com/otavioschwanck/tmux-awesome-manager.nvim) | 2022-12-30 | `tmux-awesome-manager-nvim` |
+| [p00f/clangd_extensions.nvim](https://github.com/p00f/clangd_extensions.nvim) | 2023-01-02 | `clangd-extensions-nvim` |
 | [p00f/cphelper.nvim](https://github.com/p00f/cphelper.nvim) | 2022-09-11 | `cphelper-nvim` |
 | [p00f/nvim-ts-rainbow](https://github.com/p00f/nvim-ts-rainbow) | 2023-01-02 | `nvim-ts-rainbow` |
 | [petertriho/cmp-git](https://github.com/petertriho/cmp-git) | 2023-01-09 | `cmp-git` |
