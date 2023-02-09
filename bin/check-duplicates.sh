@@ -22,7 +22,7 @@ then
         # iterate over plugins we found missing and
         # compare them to all open issues.
         # We no matching issue was found, we create a new one
-        for f in "$filtered_plugins"
+        for f in $filtered_plugins # do not add " " here. It would break the plugin
         do
             found=false
 
