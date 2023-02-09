@@ -547,7 +547,7 @@
   "Generate snippet of Nix expression."
   (string.format
     "  %s = buildVimPluginFrom2Nix {
-    pname = \"%s\"; -- Manifest entry: \"%s\"
+    pname = \"%s\"; # Manifest entry: \"%s\"
     version = \"%s\";
     src = %s {
       url = \"%s\";%s
