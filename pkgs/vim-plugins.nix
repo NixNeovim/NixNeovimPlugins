@@ -2,7 +2,7 @@
 
 {
   abbreinder-nvim = buildVimPluginFrom2Nix {
-    pname = "abbreinder-nvim"; -- Manifest entry: "0styx0/abbreinder.nvim"
+    pname = "abbreinder-nvim"; # Manifest entry: "0styx0/abbreinder.nvim"
     version = "2022-04-28";
     src = fetchurl {
       url = "https://github.com/0styx0/abbreinder.nvim/archive/5b2b5ff08a9ada42238d733aeebc6d3d96314d77.tar.gz";
@@ -15,7 +15,7 @@
     };
   };
   darkman-nvim = buildVimPluginFrom2Nix {
-    pname = "darkman-nvim"; -- Manifest entry: "4e554c4c/darkman.nvim"
+    pname = "darkman-nvim"; # Manifest entry: "4e554c4c/darkman.nvim"
     version = "2023-02-07";
     src = fetchurl {
       url = "https://github.com/4e554c4c/darkman.nvim/archive/18f37ab4217fa78061828c0ca29a21401cc31690.tar.gz";
@@ -28,7 +28,7 @@
     };
   };
   penvim = buildVimPluginFrom2Nix {
-    pname = "penvim"; -- Manifest entry: "Abstract-IDE/penvim"
+    pname = "penvim"; # Manifest entry: "Abstract-IDE/penvim"
     version = "2022-07-23";
     src = fetchurl {
       url = "https://github.com/Abstract-IDE/penvim/archive/028c19f81eba9eaf4fe4876c60e3491b3389322f.tar.gz";
@@ -41,7 +41,7 @@
     };
   };
   messages-nvim = buildVimPluginFrom2Nix {
-    pname = "messages-nvim"; -- Manifest entry: "AckslD/messages.nvim"
+    pname = "messages-nvim"; # Manifest entry: "AckslD/messages.nvim"
     version = "2022-10-24";
     src = fetchurl {
       url = "https://github.com/AckslD/messages.nvim/archive/e4b2a570c97bb94dd6f25808e9379ae98499d12f.tar.gz";
@@ -53,7 +53,7 @@
     };
   };
   nvim-FeMaco-lua = buildVimPluginFrom2Nix {
-    pname = "nvim-FeMaco-lua"; -- Manifest entry: "AckslD/nvim-FeMaco.lua"
+    pname = "nvim-FeMaco-lua"; # Manifest entry: "AckslD/nvim-FeMaco.lua"
     version = "2022-10-10";
     src = fetchurl {
       url = "https://github.com/AckslD/nvim-FeMaco.lua/archive/469465fc1adf8bddc2c9bbe549d38304de95e9f7.tar.gz";
@@ -65,7 +65,7 @@
     };
   };
   nvim-gfold-lua = buildVimPluginFrom2Nix {
-    pname = "nvim-gfold-lua"; -- Manifest entry: "AckslD/nvim-gfold.lua"
+    pname = "nvim-gfold-lua"; # Manifest entry: "AckslD/nvim-gfold.lua"
     version = "2022-10-19";
     src = fetchurl {
       url = "https://github.com/AckslD/nvim-gfold.lua/archive/1a8483161a35c66bbc7c40f00af2beafac9a816e.tar.gz";
@@ -78,7 +78,7 @@
     };
   };
   nvim-neoclip-lua = buildVimPluginFrom2Nix {
-    pname = "nvim-neoclip-lua"; -- Manifest entry: "AckslD/nvim-neoclip.lua"
+    pname = "nvim-neoclip-lua"; # Manifest entry: "AckslD/nvim-neoclip.lua"
     version = "2023-01-16";
     src = fetchurl {
       url = "https://github.com/AckslD/nvim-neoclip.lua/archive/5b9286a40ea2020352280caeb713515badb03d99.tar.gz";
@@ -90,7 +90,7 @@
     };
   };
   nvim-revJ-lua = buildVimPluginFrom2Nix {
-    pname = "nvim-revJ-lua"; -- Manifest entry: "AckslD/nvim-revJ.lua"
+    pname = "nvim-revJ-lua"; # Manifest entry: "AckslD/nvim-revJ.lua"
     version = "2022-04-11";
     src = fetchurl {
       url = "https://github.com/AckslD/nvim-revJ.lua/archive/fca94c6b401f3b0fa9554e1b0d5251f8180b15a2.tar.gz";
@@ -102,7 +102,7 @@
     };
   };
   swenv-nvim = buildVimPluginFrom2Nix {
-    pname = "swenv-nvim"; -- Manifest entry: "AckslD/swenv.nvim"
+    pname = "swenv-nvim"; # Manifest entry: "AckslD/swenv.nvim"
     version = "2022-09-19";
     src = fetchurl {
       url = "https://github.com/AckslD/swenv.nvim/archive/46c94fcb452e8a10ba7c092d3db114f4d7d64d3e.tar.gz";
@@ -114,7 +114,7 @@
     };
   };
   nvim-expand-expr = buildVimPluginFrom2Nix {
-    pname = "nvim-expand-expr"; -- Manifest entry: "AllenDang/nvim-expand-expr"
+    pname = "nvim-expand-expr"; # Manifest entry: "AllenDang/nvim-expand-expr"
     version = "2021-08-14";
     src = fetchurl {
       url = "https://github.com/AllenDang/nvim-expand-expr/archive/365cc2a0111228938fb46cffb9cc1a246d787cf0.tar.gz";
@@ -127,7 +127,7 @@
     };
   };
   code-runner-nvim = buildVimPluginFrom2Nix {
-    pname = "code-runner-nvim"; -- Manifest entry: "CRAG666/code_runner.nvim"
+    pname = "code-runner-nvim"; # Manifest entry: "CRAG666/code_runner.nvim"
     version = "2023-02-02";
     src = fetchurl {
       url = "https://github.com/CRAG666/code_runner.nvim/archive/a010649236fe245eaab2641a13228cd601499715.tar.gz";
@@ -140,7 +140,7 @@
     };
   };
   present-nvim = buildVimPluginFrom2Nix {
-    pname = "present-nvim"; -- Manifest entry: "Chaitanyabsprip/present.nvim"
+    pname = "present-nvim"; # Manifest entry: "Chaitanyabsprip/present.nvim"
     version = "2022-04-15";
     src = fetchurl {
       url = "https://github.com/Chaitanyabsprip/present.nvim/archive/3e9ac3f1a1cdef1b33f84fa98914951004512fde.tar.gz";
@@ -152,7 +152,7 @@
     };
   };
   nvcode-color-schemes-vim = buildVimPluginFrom2Nix {
-    pname = "nvcode-color-schemes-vim"; -- Manifest entry: "ChristianChiarulli/nvcode-color-schemes.vim"
+    pname = "nvcode-color-schemes-vim"; # Manifest entry: "ChristianChiarulli/nvcode-color-schemes.vim"
     version = "2021-07-03";
     src = fetchurl {
       url = "https://github.com/ChristianChiarulli/nvcode-color-schemes.vim/archive/3a0e624a67ecd2c7f990bc3c25a1044e85782b10.tar.gz";
@@ -165,7 +165,7 @@
     };
   };
   cmake-tools-nvim = buildVimPluginFrom2Nix {
-    pname = "cmake-tools-nvim"; -- Manifest entry: "Civitasv/cmake-tools.nvim"
+    pname = "cmake-tools-nvim"; # Manifest entry: "Civitasv/cmake-tools.nvim"
     version = "2023-01-25";
     src = fetchurl {
       url = "https://github.com/Civitasv/cmake-tools.nvim/archive/c5e2bfc7deec9c75d41e1fabfd1ad01036793ee4.tar.gz";
@@ -178,7 +178,7 @@
     };
   };
   cosmic-ui = buildVimPluginFrom2Nix {
-    pname = "cosmic-ui"; -- Manifest entry: "CosmicNvim/cosmic-ui"
+    pname = "cosmic-ui"; # Manifest entry: "CosmicNvim/cosmic-ui"
     version = "2022-12-30";
     src = fetchurl {
       url = "https://github.com/CosmicNvim/cosmic-ui/archive/c0b14531999f2bfef3d927c4dcd57a1a8fed5ee9.tar.gz";
@@ -191,7 +191,7 @@
     };
   };
   indent-o-matic = buildVimPluginFrom2Nix {
-    pname = "indent-o-matic"; -- Manifest entry: "Darazaki/indent-o-matic"
+    pname = "indent-o-matic"; # Manifest entry: "Darazaki/indent-o-matic"
     version = "2023-01-24";
     src = fetchurl {
       url = "https://github.com/Darazaki/indent-o-matic/archive/3103dde7a47f2855097558ab52162bbbdbe8dc40.tar.gz";
@@ -204,7 +204,7 @@
     };
   };
   cmp-npm = buildVimPluginFrom2Nix {
-    pname = "cmp-npm"; -- Manifest entry: "David-Kunz/cmp-npm"
+    pname = "cmp-npm"; # Manifest entry: "David-Kunz/cmp-npm"
     version = "2021-10-27";
     src = fetchurl {
       url = "https://github.com/David-Kunz/cmp-npm/archive/4b6166c3feeaf8dae162e33ee319dc5880e44a29.tar.gz";
@@ -217,7 +217,7 @@
     };
   };
   jester = buildVimPluginFrom2Nix {
-    pname = "jester"; -- Manifest entry: "David-Kunz/jester"
+    pname = "jester"; # Manifest entry: "David-Kunz/jester"
     version = "2022-10-28";
     src = fetchurl {
       url = "https://github.com/David-Kunz/jester/archive/3065b2139c4cc26b4cea1bdab98016c60b4f48de.tar.gz";
@@ -230,7 +230,7 @@
     };
   };
   nightfox-nvim = buildVimPluginFrom2Nix {
-    pname = "nightfox-nvim"; -- Manifest entry: "EdenEast/nightfox.nvim"
+    pname = "nightfox-nvim"; # Manifest entry: "EdenEast/nightfox.nvim"
     version = "2023-01-29";
     src = fetchurl {
       url = "https://github.com/EdenEast/nightfox.nvim/archive/aa793975d10dda69817190faea84e28eeb176934.tar.gz";
@@ -243,7 +243,7 @@
     };
   };
   filetree-nvim = buildVimPluginFrom2Nix {
-    pname = "filetree-nvim"; -- Manifest entry: "EdvinVikstrom/filetree.nvim"
+    pname = "filetree-nvim"; # Manifest entry: "EdvinVikstrom/filetree.nvim"
     version = "2022-05-04";
     src = fetchurl {
       url = "https://github.com/EdvinVikstrom/filetree.nvim/archive/3f2a3ec5198dd70dd2723b462635af3e905d6aa9.tar.gz";
@@ -255,7 +255,7 @@
     };
   };
   vs-tasks-nvim = buildVimPluginFrom2Nix {
-    pname = "vs-tasks-nvim"; -- Manifest entry: "EthanJWright/vs-tasks.nvim"
+    pname = "vs-tasks-nvim"; # Manifest entry: "EthanJWright/vs-tasks.nvim"
     version = "2023-02-06";
     src = fetchurl {
       url = "https://github.com/EthanJWright/vs-tasks.nvim/archive/1451dcfa024241836147ade2dc630c8dc5a270a6.tar.gz";
@@ -267,7 +267,7 @@
     };
   };
   everblush = buildVimPluginFrom2Nix {
-    pname = "everblush"; -- Manifest entry: "Everblush/nvim::everblush"
+    pname = "everblush"; # Manifest entry: "Everblush/nvim::everblush"
     version = "2023-01-24";
     src = fetchurl {
       url = "https://github.com/Everblush/nvim/archive/c568a0eb165fef10d43cafb5c10cd6023be23218.tar.gz";
@@ -279,7 +279,7 @@
     };
   };
   command-center-nvim = buildVimPluginFrom2Nix {
-    pname = "command-center-nvim"; -- Manifest entry: "FeiyouG/command_center.nvim"
+    pname = "command-center-nvim"; # Manifest entry: "FeiyouG/command_center.nvim"
     version = "2022-11-25";
     src = fetchurl {
       url = "https://github.com/FeiyouG/command_center.nvim/archive/0d820c438c871fe31ed942bc592a070da1564141.tar.gz";
@@ -292,7 +292,7 @@
     };
   };
   aquarium-vim = buildVimPluginFrom2Nix {
-    pname = "aquarium-vim"; -- Manifest entry: "FrenzyExists/aquarium-vim"
+    pname = "aquarium-vim"; # Manifest entry: "FrenzyExists/aquarium-vim"
     version = "2022-06-22";
     src = fetchurl {
       url = "https://github.com/FrenzyExists/aquarium-vim/archive/1f9417b11146580b47f2ecae26b9f3a75bf5e526.tar.gz";
@@ -305,7 +305,7 @@
     };
   };
   rasi-vim = buildVimPluginFrom2Nix {
-    pname = "rasi-vim"; -- Manifest entry: "Fymyte/rasi.vim"
+    pname = "rasi-vim"; # Manifest entry: "Fymyte/rasi.vim"
     version = "2023-02-08";
     src = fetchurl {
       url = "https://github.com/Fymyte/rasi.vim/archive/eac9969cf935cd4380987dc99bfa10d69d3f34a6.tar.gz";
@@ -318,7 +318,7 @@
     };
   };
   nvim-cartographer = buildVimPluginFrom2Nix {
-    pname = "nvim-cartographer"; -- Manifest entry: "Iron-E/nvim-cartographer"
+    pname = "nvim-cartographer"; # Manifest entry: "Iron-E/nvim-cartographer"
     version = "2022-04-18";
     src = fetchurl {
       url = "https://github.com/Iron-E/nvim-cartographer/archive/fbe977c9529019376db9426cccf04bfdadeafc69.tar.gz";
@@ -330,7 +330,7 @@
     };
   };
   nvim-highlite = buildVimPluginFrom2Nix {
-    pname = "nvim-highlite"; -- Manifest entry: "Iron-E/nvim-highlite"
+    pname = "nvim-highlite"; # Manifest entry: "Iron-E/nvim-highlite"
     version = "2023-01-03";
     src = fetchurl {
       url = "https://github.com/Iron-E/nvim-highlite/archive/718f09fc3ee6381d881863a817e44935bf41b1ab.tar.gz";
@@ -342,7 +342,7 @@
     };
   };
   nvim-ts-context-commentstring = buildVimPluginFrom2Nix {
-    pname = "nvim-ts-context-commentstring"; -- Manifest entry: "JoosepAlviste/nvim-ts-context-commentstring"
+    pname = "nvim-ts-context-commentstring"; # Manifest entry: "JoosepAlviste/nvim-ts-context-commentstring"
     version = "2023-01-16";
     src = fetchurl {
       url = "https://github.com/JoosepAlviste/nvim-ts-context-commentstring/archive/a0f89563ba36b3bacd62cf967b46beb4c2c29e52.tar.gz";
@@ -355,7 +355,7 @@
     };
   };
   lean-nvim = buildVimPluginFrom2Nix {
-    pname = "lean-nvim"; -- Manifest entry: "Julian/lean.nvim"
+    pname = "lean-nvim"; # Manifest entry: "Julian/lean.nvim"
     version = "2023-01-16";
     src = fetchurl {
       url = "https://github.com/Julian/lean.nvim/archive/f69875f98317c11fd48c4c4a8166a408244b7fe8.tar.gz";
@@ -368,7 +368,7 @@
     };
   };
   lsp-setup-nvim = buildVimPluginFrom2Nix {
-    pname = "lsp-setup-nvim"; -- Manifest entry: "Junnplus/nvim-lsp-setup"
+    pname = "lsp-setup-nvim"; # Manifest entry: "Junnplus/nvim-lsp-setup"
     version = "2022-10-15";
     src = fetchurl {
       url = "https://github.com/junnplus/lsp-setup.nvim/archive/9e332a375650d0c69287aaf3881672013ef8958c.tar.gz";
@@ -381,7 +381,7 @@
     };
   };
   nvim-custom-diagnostic-highlight = buildVimPluginFrom2Nix {
-    pname = "nvim-custom-diagnostic-highlight"; -- Manifest entry: "Kasama/nvim-custom-diagnostic-highlight"
+    pname = "nvim-custom-diagnostic-highlight"; # Manifest entry: "Kasama/nvim-custom-diagnostic-highlight"
     version = "2022-12-13";
     src = fetchurl {
       url = "https://github.com/Kasama/nvim-custom-diagnostic-highlight/archive/5aea91d9037879b7e72b81c7accd6c23bc77f54a.tar.gz";
@@ -394,7 +394,7 @@
     };
   };
   LuaSnip = buildVimPluginFrom2Nix {
-    pname = "LuaSnip"; -- Manifest entry: "L3MON4D3/LuaSnip"
+    pname = "LuaSnip"; # Manifest entry: "L3MON4D3/LuaSnip"
     version = "2023-02-07";
     src = fetchurl {
       url = "https://github.com/L3MON4D3/LuaSnip/archive/9bff06b570df29434a88f9c6a9cea3b21ca17208.tar.gz";
@@ -407,7 +407,7 @@
     };
   };
   nvim-nu = buildVimPluginFrom2Nix {
-    pname = "nvim-nu"; -- Manifest entry: "LhKipp/nvim-nu"
+    pname = "nvim-nu"; # Manifest entry: "LhKipp/nvim-nu"
     version = "2023-01-03";
     src = fetchurl {
       url = "https://github.com/LhKipp/nvim-nu/archive/1aad12e866f6d53dd5ec31ada79767199334a4ca.tar.gz";
@@ -420,7 +420,7 @@
     };
   };
   telescope-command-palette-nvim = buildVimPluginFrom2Nix {
-    pname = "telescope-command-palette-nvim"; -- Manifest entry: "LinArcX/telescope-command-palette.nvim"
+    pname = "telescope-command-palette-nvim"; # Manifest entry: "LinArcX/telescope-command-palette.nvim"
     version = "2022-12-15";
     src = fetchurl {
       url = "https://github.com/LinArcX/telescope-command-palette.nvim/archive/f7024ea025ed7985d8881d1b535004a1200903f3.tar.gz";
@@ -433,7 +433,7 @@
     };
   };
   nest-nvim = buildVimPluginFrom2Nix {
-    pname = "nest-nvim"; -- Manifest entry: "LionC/nest.nvim"
+    pname = "nest-nvim"; # Manifest entry: "LionC/nest.nvim"
     version = "2021-09-26";
     src = fetchurl {
       url = "https://github.com/LionC/nest.nvim/archive/e5da827a3adfb383b56587bdf4eb62fae4154364.tar.gz";
@@ -446,7 +446,7 @@
     };
   };
   OneTerm-nvim = buildVimPluginFrom2Nix {
-    pname = "OneTerm-nvim"; -- Manifest entry: "LoricAndre/OneTerm.nvim"
+    pname = "OneTerm-nvim"; # Manifest entry: "LoricAndre/OneTerm.nvim"
     version = "2022-03-14";
     src = fetchurl {
       url = "https://github.com/LoricAndre/OneTerm.nvim/archive/5bff7afaaf4b9d2f41b9cddd8b1c4746759f07fb.tar.gz";
@@ -458,7 +458,7 @@
     };
   };
   simpleIndentGuides-nvim = buildVimPluginFrom2Nix {
-    pname = "simpleIndentGuides-nvim"; -- Manifest entry: "LucasTavaresA/simpleIndentGuides.nvim"
+    pname = "simpleIndentGuides-nvim"; # Manifest entry: "LucasTavaresA/simpleIndentGuides.nvim"
     version = "2023-01-10";
     src = fetchurl {
       url = "https://github.com/LucasTavaresA/simpleIndentGuides.nvim/archive/c97ef79558352b882d1db1f3786f388af4b957b5.tar.gz";
@@ -471,7 +471,7 @@
     };
   };
   comment-box-nvim = buildVimPluginFrom2Nix {
-    pname = "comment-box-nvim"; -- Manifest entry: "LudoPinelli/comment-box.nvim"
+    pname = "comment-box-nvim"; # Manifest entry: "LudoPinelli/comment-box.nvim"
     version = "2023-02-08";
     src = fetchurl {
       url = "https://github.com/LudoPinelli/comment-box.nvim/archive/0c69d54b21a4aea0299e37f6174a62286ff551a9.tar.gz";
@@ -484,7 +484,7 @@
     };
   };
   everblush-vim = buildVimPluginFrom2Nix {
-    pname = "everblush-vim"; -- Manifest entry: "Mangeshrex/uwu.vim"
+    pname = "everblush-vim"; # Manifest entry: "Mangeshrex/uwu.vim"
     version = "2023-01-24";
     src = fetchurl {
       url = "https://github.com/Everblush/everblush.vim/archive/9ffb902540ddb1c0743e5e40633c80efd75a6823.tar.gz";
@@ -497,7 +497,7 @@
     };
   };
   adwaita-nvim = buildVimPluginFrom2Nix {
-    pname = "adwaita-nvim"; -- Manifest entry: "Mofiqul/adwaita.nvim"
+    pname = "adwaita-nvim"; # Manifest entry: "Mofiqul/adwaita.nvim"
     version = "2023-02-02";
     src = fetchurl {
       url = "https://github.com/Mofiqul/adwaita.nvim/archive/a845e38fd946391567537c281b7ce4a3d42dceed.tar.gz";
@@ -509,7 +509,7 @@
     };
   };
   dracula-nvim = buildVimPluginFrom2Nix {
-    pname = "dracula-nvim"; -- Manifest entry: "Mofiqul/dracula.nvim"
+    pname = "dracula-nvim"; # Manifest entry: "Mofiqul/dracula.nvim"
     version = "2023-02-05";
     src = fetchurl {
       url = "https://github.com/Mofiqul/dracula.nvim/archive/798274ba3c454a9aa3cd71f95a86ea55cbbbb142.tar.gz";
@@ -522,7 +522,7 @@
     };
   };
   vscode-nvim = buildVimPluginFrom2Nix {
-    pname = "vscode-nvim"; -- Manifest entry: "Mofiqul/vscode.nvim"
+    pname = "vscode-nvim"; # Manifest entry: "Mofiqul/vscode.nvim"
     version = "2023-02-09";
     src = fetchurl {
       url = "https://github.com/Mofiqul/vscode.nvim/archive/a0ce8abe85875c338f44fc1ebd12a2867e4b44be.tar.gz";
@@ -535,7 +535,7 @@
     };
   };
   nvim-papadark = buildVimPluginFrom2Nix {
-    pname = "nvim-papadark"; -- Manifest entry: "MordechaiHadad/nvim-papadark"
+    pname = "nvim-papadark"; # Manifest entry: "MordechaiHadad/nvim-papadark"
     version = "2021-10-30";
     src = fetchurl {
       url = "https://github.com/MordechaiHadad/nvim-papadark/archive/2b832c40fb5d213633a1bd6a531b8d8c10d6a981.tar.gz";
@@ -548,7 +548,7 @@
     };
   };
   telescope-manix = buildVimPluginFrom2Nix {
-    pname = "telescope-manix"; -- Manifest entry: "MrcJkb/telescope-manix"
+    pname = "telescope-manix"; # Manifest entry: "MrcJkb/telescope-manix"
     version = "2023-02-03";
     src = fetchurl {
       url = "https://github.com/mrcjkb/telescope-manix/archive/28c0100c90dc200dd42471003d458fa8a2b71428.tar.gz";
@@ -561,7 +561,7 @@
     };
   };
   exrc-nvim = buildVimPluginFrom2Nix {
-    pname = "exrc-nvim"; -- Manifest entry: "MunifTanjim/exrc.nvim"
+    pname = "exrc-nvim"; # Manifest entry: "MunifTanjim/exrc.nvim"
     version = "2022-12-28";
     src = fetchurl {
       url = "https://github.com/MunifTanjim/exrc.nvim/archive/0aae882db72885ade36641d677a22204c72e50f4.tar.gz";
@@ -574,7 +574,7 @@
     };
   };
   nui-nvim = buildVimPluginFrom2Nix {
-    pname = "nui-nvim"; -- Manifest entry: "MunifTanjim/nui.nvim"
+    pname = "nui-nvim"; # Manifest entry: "MunifTanjim/nui.nvim"
     version = "2023-02-01";
     src = fetchurl {
       url = "https://github.com/MunifTanjim/nui.nvim/archive/d147222a1300901656f3ebd5b95f91732785a329.tar.gz";
@@ -587,7 +587,7 @@
     };
   };
   prettier-nvim = buildVimPluginFrom2Nix {
-    pname = "prettier-nvim"; -- Manifest entry: "MunifTanjim/prettier.nvim"
+    pname = "prettier-nvim"; # Manifest entry: "MunifTanjim/prettier.nvim"
     version = "2022-11-19";
     src = fetchurl {
       url = "https://github.com/MunifTanjim/prettier.nvim/archive/918b99f5ddd7a56395fd393767ab6a3c15a50789.tar.gz";
@@ -600,7 +600,7 @@
     };
   };
   due-nvim = buildVimPluginFrom2Nix {
-    pname = "due-nvim"; -- Manifest entry: "NFrid/due.nvim"
+    pname = "due-nvim"; # Manifest entry: "NFrid/due.nvim"
     version = "2023-01-25";
     src = fetchurl {
       url = "https://github.com/nfrid/due.nvim/archive/3ff9e999e0a2cbb61f4575835f53eefd27e80ce4.tar.gz";
@@ -613,7 +613,7 @@
     };
   };
   markdown-togglecheck = buildVimPluginFrom2Nix {
-    pname = "markdown-togglecheck"; -- Manifest entry: "NFrid/markdown-togglecheck"
+    pname = "markdown-togglecheck"; # Manifest entry: "NFrid/markdown-togglecheck"
     version = "2022-11-18";
     src = fetchurl {
       url = "https://github.com/nfrid/markdown-togglecheck/archive/c0656836e2ef0b1c2ff6d8b68d3d11ac7973282e.tar.gz";
@@ -626,7 +626,7 @@
     };
   };
   treesitter-utils = buildVimPluginFrom2Nix {
-    pname = "treesitter-utils"; -- Manifest entry: "NFrid/treesitter-utils"
+    pname = "treesitter-utils"; # Manifest entry: "NFrid/treesitter-utils"
     version = "2022-11-18";
     src = fetchurl {
       url = "https://github.com/nfrid/treesitter-utils/archive/8505c912e29388d2ebb92cf22e91e55052a861cd.tar.gz";
@@ -639,7 +639,7 @@
     };
   };
   guess-indent-nvim = buildVimPluginFrom2Nix {
-    pname = "guess-indent-nvim"; -- Manifest entry: "NMAC427/guess-indent.nvim"
+    pname = "guess-indent-nvim"; # Manifest entry: "NMAC427/guess-indent.nvim"
     version = "2022-07-17";
     src = fetchurl {
       url = "https://github.com/NMAC427/guess-indent.nvim/archive/c37467baa1a51b74ed767cbe0540fce44e03d828.tar.gz";
@@ -652,7 +652,7 @@
     };
   };
   cheovim = buildVimPluginFrom2Nix {
-    pname = "cheovim"; -- Manifest entry: "NTBBloodbath/cheovim"
+    pname = "cheovim"; # Manifest entry: "NTBBloodbath/cheovim"
     version = "2023-01-25";
     src = fetchurl {
       url = "https://github.com/NTBBloodbath/cheovim/archive/3139fa1f85c9ea0d2c1b693c32fbec5f231356d9.tar.gz";
@@ -665,7 +665,7 @@
     };
   };
   doom-one-nvim = buildVimPluginFrom2Nix {
-    pname = "doom-one-nvim"; -- Manifest entry: "NTBBloodbath/doom-one.nvim"
+    pname = "doom-one-nvim"; # Manifest entry: "NTBBloodbath/doom-one.nvim"
     version = "2022-12-24";
     src = fetchurl {
       url = "https://github.com/NTBBloodbath/doom-one.nvim/archive/a43528cbd7908ccec7af4587ec8e18be149095bd.tar.gz";
@@ -678,7 +678,7 @@
     };
   };
   galaxyline-nvim = buildVimPluginFrom2Nix {
-    pname = "galaxyline-nvim"; -- Manifest entry: "NTBBloodbath/galaxyline.nvim"
+    pname = "galaxyline-nvim"; # Manifest entry: "NTBBloodbath/galaxyline.nvim"
     version = "2022-01-21";
     src = fetchurl {
       url = "https://github.com/NTBBloodbath/galaxyline.nvim/archive/4d4f5fc8e20a10824117e5beea7ec6e445466a8f.tar.gz";
@@ -691,7 +691,7 @@
     };
   };
   caskey-nvim = buildVimPluginFrom2Nix {
-    pname = "caskey-nvim"; -- Manifest entry: "Nexmean/caskey.nvim"
+    pname = "caskey-nvim"; # Manifest entry: "Nexmean/caskey.nvim"
     version = "2023-01-06";
     src = fetchurl {
       url = "https://github.com/Nexmean/caskey.nvim/archive/86fa340f3deb8d67fe596611e717a2859c322964.tar.gz";
@@ -704,7 +704,7 @@
     };
   };
   nvim-colorizer-lua = buildVimPluginFrom2Nix {
-    pname = "nvim-colorizer-lua"; -- Manifest entry: "NvChad/nvim-colorizer.lua"
+    pname = "nvim-colorizer-lua"; # Manifest entry: "NvChad/nvim-colorizer.lua"
     version = "2022-10-29";
     src = fetchurl {
       url = "https://github.com/NvChad/nvim-colorizer.lua/archive/760e27df4dd966607e8fb7fd8b6b93e3c7d2e193.tar.gz";
@@ -716,7 +716,7 @@
     };
   };
   aniseed = buildVimPluginFrom2Nix {
-    pname = "aniseed"; -- Manifest entry: "Olical/aniseed"
+    pname = "aniseed"; # Manifest entry: "Olical/aniseed"
     version = "2023-01-07";
     src = fetchurl {
       url = "https://github.com/Olical/aniseed/archive/a7445c340fb7a0529f3c413eb99d3f8d29f50ba2.tar.gz";
@@ -729,7 +729,7 @@
     };
   };
   conjure = buildVimPluginFrom2Nix {
-    pname = "conjure"; -- Manifest entry: "Olical/conjure"
+    pname = "conjure"; # Manifest entry: "Olical/conjure"
     version = "2023-01-07";
     src = fetchurl {
       url = "https://github.com/Olical/conjure/archive/d2e69a13b32e8574decfe81ea275292234eba6ea.tar.gz";
@@ -742,7 +742,7 @@
     };
   };
   nvim-hybrid = buildVimPluginFrom2Nix {
-    pname = "nvim-hybrid"; -- Manifest entry: "PHSix/nvim-hybrid"
+    pname = "nvim-hybrid"; # Manifest entry: "PHSix/nvim-hybrid"
     version = "2022-01-22";
     src = fetchurl {
       url = "https://github.com/PHSix/nvim-hybrid/archive/89206396ba22b2518f5db08d96e9aab800902163.tar.gz";
@@ -754,7 +754,7 @@
     };
   };
   abbrev-man-nvim = buildVimPluginFrom2Nix {
-    pname = "abbrev-man-nvim"; -- Manifest entry: "Pocco81/AbbrevMan.nvim"
+    pname = "abbrev-man-nvim"; # Manifest entry: "Pocco81/AbbrevMan.nvim"
     version = "2021-07-15";
     src = fetchurl {
       url = "https://github.com/Pocco81/abbrev-man.nvim/archive/97b40b51b373d0d1c22f71dd8fce7f61f6bf46a5.tar.gz";
@@ -767,7 +767,7 @@
     };
   };
   auto-save-nvim-pocco81 = buildVimPluginFrom2Nix {
-    pname = "auto-save-nvim-pocco81"; -- Manifest entry: "Pocco81/auto-save.nvim::auto-save-nvim-pocco81"
+    pname = "auto-save-nvim-pocco81"; # Manifest entry: "Pocco81/auto-save.nvim::auto-save-nvim-pocco81"
     version = "2022-11-01";
     src = fetchurl {
       url = "https://github.com/Pocco81/auto-save.nvim/archive/979b6c82f60cfa80f4cf437d77446d0ded0addf0.tar.gz";
@@ -780,7 +780,7 @@
     };
   };
   dap-buddy-nvim = buildVimPluginFrom2Nix {
-    pname = "dap-buddy-nvim"; -- Manifest entry: "Pocco81/DAPInstall.nvim"
+    pname = "dap-buddy-nvim"; # Manifest entry: "Pocco81/DAPInstall.nvim"
     version = "2022-04-20";
     src = fetchurl {
       url = "https://github.com/Pocco81/dap-buddy.nvim/archive/bbda2b062e5519cde4e10b6e4240d3dd1f867b20.tar.gz";
@@ -793,7 +793,7 @@
     };
   };
   high-str-nvim = buildVimPluginFrom2Nix {
-    pname = "high-str-nvim"; -- Manifest entry: "Pocco81/HighStr.nvim"
+    pname = "high-str-nvim"; # Manifest entry: "Pocco81/HighStr.nvim"
     version = "2022-10-21";
     src = fetchurl {
       url = "https://github.com/Pocco81/high-str.nvim/archive/1cb5e030bb16df52c8428b53dc235466a4eb1d01.tar.gz";
@@ -806,7 +806,7 @@
     };
   };
   true-zen-nvim = buildVimPluginFrom2Nix {
-    pname = "true-zen-nvim"; -- Manifest entry: "Pocco81/true-zen.nvim"
+    pname = "true-zen-nvim"; # Manifest entry: "Pocco81/true-zen.nvim"
     version = "2022-08-07";
     src = fetchurl {
       url = "https://github.com/Pocco81/true-zen.nvim/archive/98740c76254c65576ec294551028b65081053588.tar.gz";
@@ -819,7 +819,7 @@
     };
   };
   nvim-base16 = buildVimPluginFrom2Nix {
-    pname = "nvim-base16"; -- Manifest entry: "RRethy/nvim-base16"
+    pname = "nvim-base16"; # Manifest entry: "RRethy/nvim-base16"
     version = "2023-02-03";
     src = fetchurl {
       url = "https://github.com/RRethy/nvim-base16/archive/a3e0146ba46a797a0118da0177cbec5e28722399.tar.gz";
@@ -832,7 +832,7 @@
     };
   };
   nvim-treesitter-textsubjects = buildVimPluginFrom2Nix {
-    pname = "nvim-treesitter-textsubjects"; -- Manifest entry: "RRethy/nvim-treesitter-textsubjects"
+    pname = "nvim-treesitter-textsubjects"; # Manifest entry: "RRethy/nvim-treesitter-textsubjects"
     version = "2022-12-27";
     src = fetchurl {
       url = "https://github.com/RRethy/nvim-treesitter-textsubjects/archive/bc047b20768845fd54340eb76272b2cf2f6fa3f3.tar.gz";
@@ -845,7 +845,7 @@
     };
   };
   vim-illuminate = buildVimPluginFrom2Nix {
-    pname = "vim-illuminate"; -- Manifest entry: "RRethy/vim-illuminate"
+    pname = "vim-illuminate"; # Manifest entry: "RRethy/vim-illuminate"
     version = "2023-02-01";
     src = fetchurl {
       url = "https://github.com/RRethy/vim-illuminate/archive/d6ca7f77eeaf61b3e6ce9f0e5a978d606df44298.tar.gz";
@@ -857,7 +857,7 @@
     };
   };
   gruvy = buildVimPluginFrom2Nix {
-    pname = "gruvy"; -- Manifest entry: "RishabhRD/gruvy"
+    pname = "gruvy"; # Manifest entry: "RishabhRD/gruvy"
     version = "2022-01-09";
     src = fetchurl {
       url = "https://github.com/RishabhRD/gruvy/archive/42cc923376d980a955a57a417e5a1fd5f2f651a0.tar.gz";
@@ -869,7 +869,7 @@
     };
   };
   lspactions = buildVimPluginFrom2Nix {
-    pname = "lspactions"; -- Manifest entry: "RishabhRD/lspactions"
+    pname = "lspactions"; # Manifest entry: "RishabhRD/lspactions"
     version = "2022-05-15";
     src = fetchurl {
       url = "https://github.com/RishabhRD/lspactions/archive/0ea962f11ef4d6e212bb0472ccf075aebd2d9e59.tar.gz";
@@ -881,7 +881,7 @@
     };
   };
   lspactions-nvim06-compatible = buildVimPluginFrom2Nix {
-    pname = "lspactions-nvim06-compatible"; -- Manifest entry: "RishabhRD/lspactions:nvim-0.6-compatible:lspactions-nvim06-compatible"
+    pname = "lspactions-nvim06-compatible"; # Manifest entry: "RishabhRD/lspactions:nvim-0.6-compatible:lspactions-nvim06-compatible"
     version = "2022-01-08";
     src = fetchurl {
       url = "https://github.com/RishabhRD/lspactions/archive/03953195a938b0a5d421d168461ff45e8e0874ed.tar.gz";
@@ -893,7 +893,7 @@
     };
   };
   nvim-lsputils = buildVimPluginFrom2Nix {
-    pname = "nvim-lsputils"; -- Manifest entry: "RishabhRD/nvim-lsputils"
+    pname = "nvim-lsputils"; # Manifest entry: "RishabhRD/nvim-lsputils"
     version = "2022-01-29";
     src = fetchurl {
       url = "https://github.com/RishabhRD/nvim-lsputils/archive/ae1a4a62449863ad82c70713d5b6108f3a07917c.tar.gz";
@@ -905,7 +905,7 @@
     };
   };
   nvim-rdark = buildVimPluginFrom2Nix {
-    pname = "nvim-rdark"; -- Manifest entry: "RishabhRD/nvim-rdark"
+    pname = "nvim-rdark"; # Manifest entry: "RishabhRD/nvim-rdark"
     version = "2020-12-25";
     src = fetchurl {
       url = "https://github.com/RishabhRD/nvim-rdark/archive/7c32ab475b992ebf63dc6997bae61717f885d118.tar.gz";
@@ -917,7 +917,7 @@
     };
   };
   quicknote-nvim = buildVimPluginFrom2Nix {
-    pname = "quicknote-nvim"; -- Manifest entry: "RutaTang/quicknote.nvim"
+    pname = "quicknote-nvim"; # Manifest entry: "RutaTang/quicknote.nvim"
     version = "2023-01-28";
     src = fetchurl {
       url = "https://github.com/RutaTang/quicknote.nvim/archive/9320ef140604dd794bccc0da1aef9a685f3142ef.tar.gz";
@@ -929,7 +929,7 @@
     };
   };
   crates-nvim = buildVimPluginFrom2Nix {
-    pname = "crates-nvim"; -- Manifest entry: "Saecki/crates.nvim"
+    pname = "crates-nvim"; # Manifest entry: "Saecki/crates.nvim"
     version = "2023-02-02";
     src = fetchurl {
       url = "https://github.com/Saecki/crates.nvim/archive/1bca9122ddc4bf4c6573402bf6686fc084470a7e.tar.gz";
@@ -942,7 +942,7 @@
     };
   };
   neovim-session-manager = buildVimPluginFrom2Nix {
-    pname = "neovim-session-manager"; -- Manifest entry: "Shatur/neovim-session-manager"
+    pname = "neovim-session-manager"; # Manifest entry: "Shatur/neovim-session-manager"
     version = "2023-02-03";
     src = fetchurl {
       url = "https://github.com/Shatur/neovim-session-manager/archive/e7a2cbf56b5fd3a223f2774b535499fc62eca6ef.tar.gz";
@@ -955,7 +955,7 @@
     };
   };
   neovim-tasks = buildVimPluginFrom2Nix {
-    pname = "neovim-tasks"; -- Manifest entry: "Shatur/neovim-tasks"
+    pname = "neovim-tasks"; # Manifest entry: "Shatur/neovim-tasks"
     version = "2022-11-30";
     src = fetchurl {
       url = "https://github.com/Shatur/neovim-tasks/archive/0cb6b6a00520d7db850632b423c7395021fc3e57.tar.gz";
@@ -968,7 +968,7 @@
     };
   };
   carbon-nvim = buildVimPluginFrom2Nix {
-    pname = "carbon-nvim"; -- Manifest entry: "SidOfc/carbon.nvim"
+    pname = "carbon-nvim"; # Manifest entry: "SidOfc/carbon.nvim"
     version = "2023-01-14";
     src = fetchurl {
       url = "https://github.com/SidOfc/carbon.nvim/archive/ed16e9872a3ae7e0827d895798503b92a7ab1bfa.tar.gz";
@@ -981,7 +981,7 @@
     };
   };
   nvim-gps = buildVimPluginFrom2Nix {
-    pname = "nvim-gps"; -- Manifest entry: "SmiteshP/nvim-gps"
+    pname = "nvim-gps"; # Manifest entry: "SmiteshP/nvim-gps"
     version = "2022-07-05";
     src = fetchurl {
       url = "https://github.com/SmiteshP/nvim-gps/archive/f4734dff6fc2f33b5fd13412e56c4fce06650a74.tar.gz";
@@ -994,7 +994,7 @@
     };
   };
   nvim-navic = buildVimPluginFrom2Nix {
-    pname = "nvim-navic"; -- Manifest entry: "SmiteshP/nvim-navic"
+    pname = "nvim-navic"; # Manifest entry: "SmiteshP/nvim-navic"
     version = "2023-02-04";
     src = fetchurl {
       url = "https://github.com/SmiteshP/nvim-navic/archive/7e9d2b2b601149fecdccd11b516acb721e571fe6.tar.gz";
@@ -1007,7 +1007,7 @@
     };
   };
   one-nvim = buildVimPluginFrom2Nix {
-    pname = "one-nvim"; -- Manifest entry: "Th3Whit3Wolf/one-nvim"
+    pname = "one-nvim"; # Manifest entry: "Th3Whit3Wolf/one-nvim"
     version = "2021-06-10";
     src = fetchurl {
       url = "https://github.com/Th3Whit3Wolf/one-nvim/archive/faf6fb3f98fccbe009c3466f657a8fff84a5f956.tar.gz";
@@ -1020,7 +1020,7 @@
     };
   };
   onebuddy = buildVimPluginFrom2Nix {
-    pname = "onebuddy"; -- Manifest entry: "Th3Whit3Wolf/onebuddy"
+    pname = "onebuddy"; # Manifest entry: "Th3Whit3Wolf/onebuddy"
     version = "2021-04-01";
     src = fetchurl {
       url = "https://github.com/Th3Whit3Wolf/onebuddy/archive/7e16006e7dde15e3cb72889f736c49409db6ff42.tar.gz";
@@ -1033,7 +1033,7 @@
     };
   };
   space-nvim = buildVimPluginFrom2Nix {
-    pname = "space-nvim"; -- Manifest entry: "Th3Whit3Wolf/space-nvim"
+    pname = "space-nvim"; # Manifest entry: "Th3Whit3Wolf/space-nvim"
     version = "2021-07-08";
     src = fetchurl {
       url = "https://github.com/Th3Whit3Wolf/space-nvim/archive/9c4f5857acf51aa6d4924f3f2ccabb079799e7f6.tar.gz";
@@ -1046,7 +1046,7 @@
     };
   };
   drex-nvim = buildVimPluginFrom2Nix {
-    pname = "drex-nvim"; -- Manifest entry: "TheBlob42/drex.nvim"
+    pname = "drex-nvim"; # Manifest entry: "TheBlob42/drex.nvim"
     version = "2022-12-27";
     src = fetchurl {
       url = "https://github.com/TheBlob42/drex.nvim/archive/9dc9fb590dfb9f355ed53f41a50d93059ef9798a.tar.gz";
@@ -1059,7 +1059,7 @@
     };
   };
   harpoon = buildVimPluginFrom2Nix {
-    pname = "harpoon"; -- Manifest entry: "ThePrimeagen/harpoon"
+    pname = "harpoon"; # Manifest entry: "ThePrimeagen/harpoon"
     version = "2023-01-23";
     src = fetchurl {
       url = "https://github.com/ThePrimeagen/harpoon/archive/8c0bb0a328e57278f4783bb0e2ea32f296d36db1.tar.gz";
@@ -1072,7 +1072,7 @@
     };
   };
   vim-apm = buildVimPluginFrom2Nix {
-    pname = "vim-apm"; -- Manifest entry: "ThePrimeagen/vim-apm"
+    pname = "vim-apm"; # Manifest entry: "ThePrimeagen/vim-apm"
     version = "2020-09-28";
     src = fetchurl {
       url = "https://github.com/ThePrimeagen/vim-apm/archive/2da35c35febbe98a6704495cd4e0b9526a0651e3.tar.gz";
@@ -1084,7 +1084,7 @@
     };
   };
   vim-be-good = buildVimPluginFrom2Nix {
-    pname = "vim-be-good"; -- Manifest entry: "ThePrimeagen/vim-be-good"
+    pname = "vim-be-good"; # Manifest entry: "ThePrimeagen/vim-be-good"
     version = "2022-11-08";
     src = fetchurl {
       url = "https://github.com/ThePrimeagen/vim-be-good/archive/c290810728a4f75e334b07dc0f3a4cdea908d351.tar.gz";
@@ -1096,7 +1096,7 @@
     };
   };
   neofs = buildVimPluginFrom2Nix {
-    pname = "neofs"; -- Manifest entry: "TimUntersberger/neofs"
+    pname = "neofs"; # Manifest entry: "TimUntersberger/neofs"
     version = "2022-08-10";
     src = fetchurl {
       url = "https://github.com/TimUntersberger/neofs/archive/e10428da8f31001bffa0aba0a5c13fc623a54d75.tar.gz";
@@ -1109,7 +1109,7 @@
     };
   };
   neogit = buildVimPluginFrom2Nix {
-    pname = "neogit"; -- Manifest entry: "TimUntersberger/neogit"
+    pname = "neogit"; # Manifest entry: "TimUntersberger/neogit"
     version = "2023-01-31";
     src = fetchurl {
       url = "https://github.com/TimUntersberger/neogit/archive/089d388876a535032ac6a3f80e19420f09e4ddda.tar.gz";
@@ -1122,7 +1122,7 @@
     };
   };
   binary-swap-nvim = buildVimPluginFrom2Nix {
-    pname = "binary-swap-nvim"; -- Manifest entry: "Wansmer/binary-swap.nvim"
+    pname = "binary-swap-nvim"; # Manifest entry: "Wansmer/binary-swap.nvim"
     version = "2022-11-13";
     src = fetchurl {
       url = "https://github.com/Wansmer/binary-swap.nvim/archive/6f12132ea5445bd858cbd53c1de46a14fc681ead.tar.gz";
@@ -1135,7 +1135,7 @@
     };
   };
   sibling-swap-nvim = buildVimPluginFrom2Nix {
-    pname = "sibling-swap-nvim"; -- Manifest entry: "Wansmer/sibling-swap.nvim"
+    pname = "sibling-swap-nvim"; # Manifest entry: "Wansmer/sibling-swap.nvim"
     version = "2022-11-25";
     src = fetchurl {
       url = "https://github.com/Wansmer/sibling-swap.nvim/archive/71eb9daa5233cd576ce8119bc2dbfa67d4d35462.tar.gz";
@@ -1148,7 +1148,7 @@
     };
   };
   treesj = buildVimPluginFrom2Nix {
-    pname = "treesj"; -- Manifest entry: "Wansmer/treesj"
+    pname = "treesj"; # Manifest entry: "Wansmer/treesj"
     version = "2023-02-09";
     src = fetchurl {
       url = "https://github.com/Wansmer/treesj/archive/950d06ed1d4a33bf6825553f455dc0689047c91a.tar.gz";
@@ -1161,7 +1161,7 @@
     };
   };
   easy-action = buildVimPluginFrom2Nix {
-    pname = "easy-action"; -- Manifest entry: "Weissle/easy-action"
+    pname = "easy-action"; # Manifest entry: "Weissle/easy-action"
     version = "2022-11-13";
     src = fetchurl {
       url = "https://github.com/Weissle/easy-action/archive/2822e6dca06bd726f60c9547e287d4cf0d19ccb2.tar.gz";
@@ -1173,7 +1173,7 @@
     };
   };
   persistent-breakpoints-nvim = buildVimPluginFrom2Nix {
-    pname = "persistent-breakpoints-nvim"; -- Manifest entry: "Weissle/persistent-breakpoints.nvim"
+    pname = "persistent-breakpoints-nvim"; # Manifest entry: "Weissle/persistent-breakpoints.nvim"
     version = "2022-10-22";
     src = fetchurl {
       url = "https://github.com/Weissle/persistent-breakpoints.nvim/archive/a75446afb7eb9519cee5db44ecce1982d3cfcbea.tar.gz";
@@ -1186,7 +1186,7 @@
     };
   };
   ns-textobject-nvim = buildVimPluginFrom2Nix {
-    pname = "ns-textobject-nvim"; -- Manifest entry: "XXiaoA/ns-textobject.nvim"
+    pname = "ns-textobject-nvim"; # Manifest entry: "XXiaoA/ns-textobject.nvim"
     version = "2023-01-30";
     src = fetchurl {
       url = "https://github.com/XXiaoA/ns-textobject.nvim/archive/cb1c350cb3528124e40c79c5b62cd288a18b3a7d.tar.gz";
@@ -1199,7 +1199,7 @@
     };
   };
   scrollbar-nvim = buildVimPluginFrom2Nix {
-    pname = "scrollbar-nvim"; -- Manifest entry: "Xuyuanp/scrollbar.nvim"
+    pname = "scrollbar-nvim"; # Manifest entry: "Xuyuanp/scrollbar.nvim"
     version = "2022-06-16";
     src = fetchurl {
       url = "https://github.com/Xuyuanp/scrollbar.nvim/archive/bc97c132e8367efecb2ecb937d385e7dc04eb5a1.tar.gz";
@@ -1212,7 +1212,7 @@
     };
   };
   yanil = buildVimPluginFrom2Nix {
-    pname = "yanil"; -- Manifest entry: "Xuyuanp/yanil"
+    pname = "yanil"; # Manifest entry: "Xuyuanp/yanil"
     version = "2022-03-28";
     src = fetchurl {
       url = "https://github.com/Xuyuanp/yanil/archive/bf01dbc9de2d822de422c4d1eb63ced78cc52388.tar.gz";
@@ -1225,7 +1225,7 @@
     };
   };
   smart-pairs = buildVimPluginFrom2Nix {
-    pname = "smart-pairs"; -- Manifest entry: "ZhiyuanLck/smart-pairs"
+    pname = "smart-pairs"; # Manifest entry: "ZhiyuanLck/smart-pairs"
     version = "2022-03-22";
     src = fetchurl {
       url = "https://github.com/ZhiyuanLck/smart-pairs/archive/6e7a5a8e3906f7a8a8c5b8603d5264ff1b5d87c3.tar.gz";
@@ -1238,7 +1238,7 @@
     };
   };
   tabout-nvim = buildVimPluginFrom2Nix {
-    pname = "tabout-nvim"; -- Manifest entry: "abecodes/tabout.nvim"
+    pname = "tabout-nvim"; # Manifest entry: "abecodes/tabout.nvim"
     version = "2022-10-07";
     src = fetchurl {
       url = "https://github.com/abecodes/tabout.nvim/archive/c37ce26f316a2df693140450b8def41e89c0f57e.tar.gz";
@@ -1251,7 +1251,7 @@
     };
   };
   image-preview-nvim = buildVimPluginFrom2Nix {
-    pname = "image-preview-nvim"; -- Manifest entry: "adelarsq/image_preview.nvim"
+    pname = "image-preview-nvim"; # Manifest entry: "adelarsq/image_preview.nvim"
     version = "2022-10-16";
     src = fetchurl {
       url = "https://github.com/adelarsq/image_preview.nvim/archive/24dc3c869893f7a7d43fdca701b9e30ff03f6aa4.tar.gz";
@@ -1264,7 +1264,7 @@
     };
   };
   neoline-vim = buildVimPluginFrom2Nix {
-    pname = "neoline-vim"; -- Manifest entry: "adelarsq/neoline.vim"
+    pname = "neoline-vim"; # Manifest entry: "adelarsq/neoline.vim"
     version = "2023-01-02";
     src = fetchurl {
       url = "https://github.com/adelarsq/neoline.vim/archive/0e412e4a0411702fcdc32410fd54ddc4ede975da.tar.gz";
@@ -1277,7 +1277,7 @@
     };
   };
   apprentice-nvim = buildVimPluginFrom2Nix {
-    pname = "apprentice-nvim"; -- Manifest entry: "adisen99/apprentice.nvim"
+    pname = "apprentice-nvim"; # Manifest entry: "adisen99/apprentice.nvim"
     version = "2022-08-17";
     src = fetchurl {
       url = "https://github.com/adisen99/apprentice.nvim/archive/ef980c7feccd0d3ea650f93494b4d13a16c1471a.tar.gz";
@@ -1290,7 +1290,7 @@
     };
   };
   codeschool-nvim = buildVimPluginFrom2Nix {
-    pname = "codeschool-nvim"; -- Manifest entry: "adisen99/codeschool.nvim"
+    pname = "codeschool-nvim"; # Manifest entry: "adisen99/codeschool.nvim"
     version = "2022-08-17";
     src = fetchurl {
       url = "https://github.com/adisen99/codeschool.nvim/archive/b252b106b8651528f7e616cd6c258392a374c8fe.tar.gz";
@@ -1303,7 +1303,7 @@
     };
   };
   project-nvim = buildVimPluginFrom2Nix {
-    pname = "project-nvim"; -- Manifest entry: "ahmedkhalf/project.nvim"
+    pname = "project-nvim"; # Manifest entry: "ahmedkhalf/project.nvim"
     version = "2022-10-29";
     src = fetchurl {
       url = "https://github.com/ahmedkhalf/project.nvim/archive/685bc8e3890d2feb07ccf919522c97f7d33b94e4.tar.gz";
@@ -1316,7 +1316,7 @@
     };
   };
   bufferline-nvim = buildVimPluginFrom2Nix {
-    pname = "bufferline-nvim"; -- Manifest entry: "akinsho/bufferline.nvim"
+    pname = "bufferline-nvim"; # Manifest entry: "akinsho/bufferline.nvim"
     version = "2022-12-24";
     src = fetchurl {
       url = "https://github.com/akinsho/bufferline.nvim/archive/c7492a76ce8218e3335f027af44930576b561013.tar.gz";
@@ -1329,7 +1329,7 @@
     };
   };
   dependency-assist-nvim = buildVimPluginFrom2Nix {
-    pname = "dependency-assist-nvim"; -- Manifest entry: "akinsho/dependency-assist.nvim"
+    pname = "dependency-assist-nvim"; # Manifest entry: "akinsho/dependency-assist.nvim"
     version = "2021-11-11";
     src = fetchurl {
       url = "https://github.com/akinsho/dependency-assist.nvim/archive/86d49a83f89a9a48e50556fef00961ea2e3ec28b.tar.gz";
@@ -1341,7 +1341,7 @@
     };
   };
   flutter-tools-nvim = buildVimPluginFrom2Nix {
-    pname = "flutter-tools-nvim"; -- Manifest entry: "akinsho/flutter-tools.nvim"
+    pname = "flutter-tools-nvim"; # Manifest entry: "akinsho/flutter-tools.nvim"
     version = "2023-02-05";
     src = fetchurl {
       url = "https://github.com/akinsho/flutter-tools.nvim/archive/d67caa7dd17eccb89bfda1c0657d0723e339ef60.tar.gz";
@@ -1354,7 +1354,7 @@
     };
   };
   git-conflict-nvim = buildVimPluginFrom2Nix {
-    pname = "git-conflict-nvim"; -- Manifest entry: "akinsho/git-conflict.nvim"
+    pname = "git-conflict-nvim"; # Manifest entry: "akinsho/git-conflict.nvim"
     version = "2023-02-05";
     src = fetchurl {
       url = "https://github.com/akinsho/git-conflict.nvim/archive/c92604a64a2cce15a6e6a753f4501bcee06fa00a.tar.gz";
@@ -1366,7 +1366,7 @@
     };
   };
   toggleterm-nvim = buildVimPluginFrom2Nix {
-    pname = "toggleterm-nvim"; -- Manifest entry: "akinsho/nvim-toggleterm.lua"
+    pname = "toggleterm-nvim"; # Manifest entry: "akinsho/nvim-toggleterm.lua"
     version = "2023-02-02";
     src = fetchurl {
       url = "https://github.com/akinsho/toggleterm.nvim/archive/19aad0f41f47affbba1274f05e3c067e6d718e1e.tar.gz";
@@ -1379,7 +1379,7 @@
     };
   };
   plantuml-syntax = buildVimPluginFrom2Nix {
-    pname = "plantuml-syntax"; -- Manifest entry: "aklt/plantuml-syntax"
+    pname = "plantuml-syntax"; # Manifest entry: "aklt/plantuml-syntax"
     version = "2022-08-26";
     src = fetchurl {
       url = "https://github.com/aklt/plantuml-syntax/archive/845abb56dcd3f12afa6eb47684ef5ba3055802b8.tar.gz";
@@ -1391,7 +1391,7 @@
     };
   };
   nim-nvim = buildVimPluginFrom2Nix {
-    pname = "nim-nvim"; -- Manifest entry: "alaviss/nim.nvim"
+    pname = "nim-nvim"; # Manifest entry: "alaviss/nim.nvim"
     version = "2022-08-08";
     src = fetchurl {
       url = "https://github.com/alaviss/nim.nvim/archive/87afde2ae995723e0338e1851c3b3c1cbd81d955.tar.gz";
@@ -1403,7 +1403,7 @@
     };
   };
   nvim-tetris = buildVimPluginFrom2Nix {
-    pname = "nvim-tetris"; -- Manifest entry: "alec-gibson/nvim-tetris"
+    pname = "nvim-tetris"; # Manifest entry: "alec-gibson/nvim-tetris"
     version = "2021-06-28";
     src = fetchurl {
       url = "https://github.com/alec-gibson/nvim-tetris/archive/d17c99fb527ada98ffb0212ffc87ccda6fd4f7d9.tar.gz";
@@ -1416,7 +1416,7 @@
     };
   };
   nvim-lspupdate = buildVimPluginFrom2Nix {
-    pname = "nvim-lspupdate"; -- Manifest entry: "alexaandru/nvim-lspupdate"
+    pname = "nvim-lspupdate"; # Manifest entry: "alexaandru/nvim-lspupdate"
     version = "2021-12-21";
     src = fetchurl {
       url = "https://github.com/alexaandru/nvim-lspupdate/archive/8b809b7887790f1742b6f9de6d35c35f07c23ec2.tar.gz";
@@ -1429,7 +1429,7 @@
     };
   };
   bats-vim = buildVimPluginFrom2Nix {
-    pname = "bats-vim"; -- Manifest entry: "aliou/bats.vim"
+    pname = "bats-vim"; # Manifest entry: "aliou/bats.vim"
     version = "2021-01-10";
     src = fetchurl {
       url = "https://github.com/aliou/bats.vim/archive/6a5d2ef22b0ede503d867770afd02ebb1f97b709.tar.gz";
@@ -1441,7 +1441,7 @@
     };
   };
   ultimate-autopair-nvim = buildVimPluginFrom2Nix {
-    pname = "ultimate-autopair-nvim"; -- Manifest entry: "altermo/ultimate-autopair.nvim"
+    pname = "ultimate-autopair-nvim"; # Manifest entry: "altermo/ultimate-autopair.nvim"
     version = "2023-02-09";
     src = fetchurl {
       url = "https://github.com/altermo/ultimate-autopair.nvim/archive/9a1b7aef1515655bdd6e25bcec44bb3a619f887c.tar.gz";
@@ -1454,7 +1454,7 @@
     };
   };
   luatab-nvim = buildVimPluginFrom2Nix {
-    pname = "luatab-nvim"; -- Manifest entry: "alvarosevilla95/luatab.nvim"
+    pname = "luatab-nvim"; # Manifest entry: "alvarosevilla95/luatab.nvim"
     version = "2021-12-05";
     src = fetchurl {
       url = "https://github.com/alvarosevilla95/luatab.nvim/archive/79d53c11bd77274b49b50f1d6fdb10529d7354b7.tar.gz";
@@ -1467,7 +1467,7 @@
     };
   };
   fuzzy-nvim = buildVimPluginFrom2Nix {
-    pname = "fuzzy-nvim"; -- Manifest entry: "amirrezaask/fuzzy.nvim"
+    pname = "fuzzy-nvim"; # Manifest entry: "amirrezaask/fuzzy.nvim"
     version = "2021-05-13";
     src = fetchurl {
       url = "https://github.com/amirrezaask/fuzzy.nvim/archive/0ed93b8e8c78ddbf4539a3bb464a60ce6ecaf6e6.tar.gz";
@@ -1480,7 +1480,7 @@
     };
   };
   nvim-docs-view = buildVimPluginFrom2Nix {
-    pname = "nvim-docs-view"; -- Manifest entry: "amrbashir/nvim-docs-view"
+    pname = "nvim-docs-view"; # Manifest entry: "amrbashir/nvim-docs-view"
     version = "2023-01-27";
     src = fetchurl {
       url = "https://github.com/amrbashir/nvim-docs-view/archive/698137623513235f40822c175012826c44eab466.tar.gz";
@@ -1493,7 +1493,7 @@
     };
   };
   cmp-tmux = buildVimPluginFrom2Nix {
-    pname = "cmp-tmux"; -- Manifest entry: "andersevenrud/cmp-tmux"
+    pname = "cmp-tmux"; # Manifest entry: "andersevenrud/cmp-tmux"
     version = "2022-10-05";
     src = fetchurl {
       url = "https://github.com/andersevenrud/cmp-tmux/archive/984772716f66d8ee88535a6bf3f94c4b4e1301f5.tar.gz";
@@ -1506,7 +1506,7 @@
     };
   };
   nordic-nvim = buildVimPluginFrom2Nix {
-    pname = "nordic-nvim"; -- Manifest entry: "andersevenrud/nordic.nvim"
+    pname = "nordic-nvim"; # Manifest entry: "andersevenrud/nordic.nvim"
     version = "2022-12-08";
     src = fetchurl {
       url = "https://github.com/andersevenrud/nordic.nvim/archive/cd552784eeeae61644fec60f6cc52c267dbddc73.tar.gz";
@@ -1519,7 +1519,7 @@
     };
   };
   debugprint-nvim = buildVimPluginFrom2Nix {
-    pname = "debugprint-nvim"; -- Manifest entry: "andrewferrier/debugprint.nvim"
+    pname = "debugprint-nvim"; # Manifest entry: "andrewferrier/debugprint.nvim"
     version = "2023-01-12";
     src = fetchurl {
       url = "https://github.com/andrewferrier/debugprint.nvim/archive/3a1a265e0adc3422aa2f00a8b49b436f913110ac.tar.gz";
@@ -1531,7 +1531,7 @@
     };
   };
   textobj-diagnostic-nvim = buildVimPluginFrom2Nix {
-    pname = "textobj-diagnostic-nvim"; -- Manifest entry: "andrewferrier/textobj-diagnostic.nvim"
+    pname = "textobj-diagnostic-nvim"; # Manifest entry: "andrewferrier/textobj-diagnostic.nvim"
     version = "2022-12-31";
     src = fetchurl {
       url = "https://github.com/andrewferrier/textobj-diagnostic.nvim/archive/f5d1ba26c28496d34ef067bc3700e3b34dbaf686.tar.gz";
@@ -1544,7 +1544,7 @@
     };
   };
   presence-nvim = buildVimPluginFrom2Nix {
-    pname = "presence-nvim"; -- Manifest entry: "andweeb/presence.nvim"
+    pname = "presence-nvim"; # Manifest entry: "andweeb/presence.nvim"
     version = "2023-01-29";
     src = fetchurl {
       url = "https://github.com/andweeb/presence.nvim/archive/87c857a56b7703f976d3a5ef15967d80508df6e6.tar.gz";
@@ -1556,7 +1556,7 @@
     };
   };
   nvim-coverage = buildVimPluginFrom2Nix {
-    pname = "nvim-coverage"; -- Manifest entry: "andythigpen/nvim-coverage"
+    pname = "nvim-coverage"; # Manifest entry: "andythigpen/nvim-coverage"
     version = "2023-01-21";
     src = fetchurl {
       url = "https://github.com/andythigpen/nvim-coverage/archive/5c5ab0cc575c483bf3485b9481880b5ea4160ed4.tar.gz";
@@ -1569,7 +1569,7 @@
     };
   };
   nvim-lspinstall = buildVimPluginFrom2Nix {
-    pname = "nvim-lspinstall"; -- Manifest entry: "anott03/nvim-lspinstall"
+    pname = "nvim-lspinstall"; # Manifest entry: "anott03/nvim-lspinstall"
     version = "2021-07-23";
     src = fetchurl {
       url = "https://github.com/anott03/nvim-lspinstall/archive/1d9b385dc4d963b9ee93d4597f6010c4ada4b405.tar.gz";
@@ -1581,7 +1581,7 @@
     };
   };
   animation-nvim = buildVimPluginFrom2Nix {
-    pname = "animation-nvim"; -- Manifest entry: "anuvyklack/animation.nvim"
+    pname = "animation-nvim"; # Manifest entry: "anuvyklack/animation.nvim"
     version = "2022-09-18";
     src = fetchurl {
       url = "https://github.com/anuvyklack/animation.nvim/archive/fb77091ab72ec9971aee0562e7081182527aaa6a.tar.gz";
@@ -1594,7 +1594,7 @@
     };
   };
   fold-preview-nvim = buildVimPluginFrom2Nix {
-    pname = "fold-preview-nvim"; -- Manifest entry: "anuvyklack/fold-preview.nvim"
+    pname = "fold-preview-nvim"; # Manifest entry: "anuvyklack/fold-preview.nvim"
     version = "2023-01-27";
     src = fetchurl {
       url = "https://github.com/anuvyklack/fold-preview.nvim/archive/b7920cb0aba2b48a6b679bff45f98c3ebc0f0b89.tar.gz";
@@ -1606,7 +1606,7 @@
     };
   };
   hydra-nvim = buildVimPluginFrom2Nix {
-    pname = "hydra-nvim"; -- Manifest entry: "anuvyklack/hydra.nvim"
+    pname = "hydra-nvim"; # Manifest entry: "anuvyklack/hydra.nvim"
     version = "2023-02-06";
     src = fetchurl {
       url = "https://github.com/anuvyklack/hydra.nvim/archive/3ced42c0b6a6c85583ff0f221635a7f4c1ab0dd0.tar.gz";
@@ -1618,7 +1618,7 @@
     };
   };
   keymap-amend-nvim = buildVimPluginFrom2Nix {
-    pname = "keymap-amend-nvim"; -- Manifest entry: "anuvyklack/keymap-amend.nvim"
+    pname = "keymap-amend-nvim"; # Manifest entry: "anuvyklack/keymap-amend.nvim"
     version = "2022-09-22";
     src = fetchurl {
       url = "https://github.com/anuvyklack/keymap-amend.nvim/archive/b8bf9d820878d5497fdd11d6de55dea82872d98e.tar.gz";
@@ -1630,7 +1630,7 @@
     };
   };
   middleclass = buildVimPluginFrom2Nix {
-    pname = "middleclass"; -- Manifest entry: "anuvyklack/middleclass"
+    pname = "middleclass"; # Manifest entry: "anuvyklack/middleclass"
     version = "2022-09-20";
     src = fetchurl {
       url = "https://github.com/anuvyklack/middleclass/archive/9fab4d5bca67262614960960ca35c4740eb2be2c.tar.gz";
@@ -1643,7 +1643,7 @@
     };
   };
   pretty-fold-nvim = buildVimPluginFrom2Nix {
-    pname = "pretty-fold-nvim"; -- Manifest entry: "anuvyklack/pretty-fold.nvim"
+    pname = "pretty-fold-nvim"; # Manifest entry: "anuvyklack/pretty-fold.nvim"
     version = "2022-07-20";
     src = fetchurl {
       url = "https://github.com/anuvyklack/pretty-fold.nvim/archive/a7d8b424abe0eedf50116c460fbe6dfd5783b1d5.tar.gz";
@@ -1656,7 +1656,7 @@
     };
   };
   windows-nvim = buildVimPluginFrom2Nix {
-    pname = "windows-nvim"; -- Manifest entry: "anuvyklack/windows.nvim"
+    pname = "windows-nvim"; # Manifest entry: "anuvyklack/windows.nvim"
     version = "2023-01-16";
     src = fetchurl {
       url = "https://github.com/anuvyklack/windows.nvim/archive/c7492552b23d0ab30325e90b56066ec51242adc8.tar.gz";
@@ -1669,7 +1669,7 @@
     };
   };
   tmux-nvim = buildVimPluginFrom2Nix {
-    pname = "tmux-nvim"; -- Manifest entry: "aserowy/tmux.nvim"
+    pname = "tmux-nvim"; # Manifest entry: "aserowy/tmux.nvim"
     version = "2023-02-03";
     src = fetchurl {
       url = "https://github.com/aserowy/tmux.nvim/archive/feafcf8f48c49c720ee64e745648d69d42cb9c5a.tar.gz";
@@ -1682,7 +1682,7 @@
     };
   };
   nvim-picgo = buildVimPluginFrom2Nix {
-    pname = "nvim-picgo"; -- Manifest entry: "askfiy/nvim-picgo"
+    pname = "nvim-picgo"; # Manifest entry: "askfiy/nvim-picgo"
     version = "2022-12-05";
     src = fetchurl {
       url = "https://github.com/askfiy/nvim-picgo/archive/73d5b5171d9125c1b43bd5448c8b611de7b5dbd5.tar.gz";
@@ -1695,7 +1695,7 @@
     };
   };
   cmp-pandoc-nvim = buildVimPluginFrom2Nix {
-    pname = "cmp-pandoc-nvim"; -- Manifest entry: "aspeddro/cmp-pandoc.nvim"
+    pname = "cmp-pandoc-nvim"; # Manifest entry: "aspeddro/cmp-pandoc.nvim"
     version = "2022-05-03";
     src = fetchurl {
       url = "https://github.com/aspeddro/cmp-pandoc.nvim/archive/cb2980263e14fb3c1b776edbd2c7a312b67c65ae.tar.gz";
@@ -1708,7 +1708,7 @@
     };
   };
   urlview-nvim = buildVimPluginFrom2Nix {
-    pname = "urlview-nvim"; -- Manifest entry: "axieax/urlview.nvim"
+    pname = "urlview-nvim"; # Manifest entry: "axieax/urlview.nvim"
     version = "2022-12-30";
     src = fetchurl {
       url = "https://github.com/axieax/urlview.nvim/archive/6a2f1ae05ba036ca1e9c505f4d58b9a188ef51bd.tar.gz";
@@ -1721,7 +1721,7 @@
     };
   };
   easypick-nvim = buildVimPluginFrom2Nix {
-    pname = "easypick-nvim"; -- Manifest entry: "axkirillov/easypick.nvim"
+    pname = "easypick-nvim"; # Manifest entry: "axkirillov/easypick.nvim"
     version = "2023-02-04";
     src = fetchurl {
       url = "https://github.com/axkirillov/easypick.nvim/archive/3f6af7b34eca30b81a8090ea6e5aa56212f8e746.tar.gz";
@@ -1733,7 +1733,7 @@
     };
   };
   SchemaStore-nvim = buildVimPluginFrom2Nix {
-    pname = "SchemaStore-nvim"; -- Manifest entry: "b0o/SchemaStore.nvim"
+    pname = "SchemaStore-nvim"; # Manifest entry: "b0o/SchemaStore.nvim"
     version = "2023-02-06";
     src = fetchurl {
       url = "https://github.com/b0o/SchemaStore.nvim/archive/fd5ddd82b13b52b72f887e2c0f2784d82381951d.tar.gz";
@@ -1746,7 +1746,7 @@
     };
   };
   incline-nvim = buildVimPluginFrom2Nix {
-    pname = "incline-nvim"; -- Manifest entry: "b0o/incline.nvim"
+    pname = "incline-nvim"; # Manifest entry: "b0o/incline.nvim"
     version = "2023-02-09";
     src = fetchurl {
       url = "https://github.com/b0o/incline.nvim/archive/71a03756a5f750c79a2889a80fcd8bbff7083690.tar.gz";
@@ -1759,7 +1759,7 @@
     };
   };
   mapx-nvim = buildVimPluginFrom2Nix {
-    pname = "mapx-nvim"; -- Manifest entry: "b0o/mapx.nvim"
+    pname = "mapx-nvim"; # Manifest entry: "b0o/mapx.nvim"
     version = "2022-02-24";
     src = fetchurl {
       url = "https://github.com/b0o/mapx.nvim/archive/c3dd43474a5fc2f266309bc04a69b74eb2524671.tar.gz";
@@ -1772,7 +1772,7 @@
     };
   };
   kommentary = buildVimPluginFrom2Nix {
-    pname = "kommentary"; -- Manifest entry: "b3nj5m1n/kommentary"
+    pname = "kommentary"; # Manifest entry: "b3nj5m1n/kommentary"
     version = "2023-01-06";
     src = fetchurl {
       url = "https://github.com/b3nj5m1n/kommentary/archive/3a80117148c6798972bb69414423311ab151d368.tar.gz";
@@ -1785,7 +1785,7 @@
     };
   };
   ltex-extra-nvim = buildVimPluginFrom2Nix {
-    pname = "ltex-extra-nvim"; -- Manifest entry: "barreiroleo/ltex_extra.nvim"
+    pname = "ltex-extra-nvim"; # Manifest entry: "barreiroleo/ltex_extra.nvim"
     version = "2023-01-29";
     src = fetchurl {
       url = "https://github.com/barreiroleo/ltex_extra.nvim/archive/1d2f288ceedc70d5a9c00f55c0d0cc788b5164f2.tar.gz";
@@ -1798,7 +1798,7 @@
     };
   };
   focus-nvim = buildVimPluginFrom2Nix {
-    pname = "focus-nvim"; -- Manifest entry: "beauwilliams/focus.nvim"
+    pname = "focus-nvim"; # Manifest entry: "beauwilliams/focus.nvim"
     version = "2022-10-12";
     src = fetchurl {
       url = "https://github.com/beauwilliams/focus.nvim/archive/3d9df42aa4f9b572348418207b752f81adea09a5.tar.gz";
@@ -1810,7 +1810,7 @@
     };
   };
   statusline-lua = buildVimPluginFrom2Nix {
-    pname = "statusline-lua"; -- Manifest entry: "beauwilliams/statusline.lua"
+    pname = "statusline-lua"; # Manifest entry: "beauwilliams/statusline.lua"
     version = "2022-10-12";
     src = fetchurl {
       url = "https://github.com/beauwilliams/statusline.lua/archive/20ad26912935f91918da9f428761b6d1b651d632.tar.gz";
@@ -1823,7 +1823,7 @@
     };
   };
   nvim-regexplainer = buildVimPluginFrom2Nix {
-    pname = "nvim-regexplainer"; -- Manifest entry: "bennypowers/nvim-regexplainer"
+    pname = "nvim-regexplainer"; # Manifest entry: "bennypowers/nvim-regexplainer"
     version = "2022-12-01";
     src = fetchurl {
       url = "https://github.com/bennypowers/nvim-regexplainer/archive/dddc9ff5f9837b02c3e07ee30b833bc39a0b6759.tar.gz";
@@ -1835,7 +1835,7 @@
     };
   };
   nvim-luadev = buildVimPluginFrom2Nix {
-    pname = "nvim-luadev"; -- Manifest entry: "bfredl/nvim-luadev"
+    pname = "nvim-luadev"; # Manifest entry: "bfredl/nvim-luadev"
     version = "2022-01-26";
     src = fetchurl {
       url = "https://github.com/bfredl/nvim-luadev/archive/2a2c242bd751c289cfc1bc27f357925f68eba098.tar.gz";
@@ -1848,7 +1848,7 @@
     };
   };
   nvim-miniyank = buildVimPluginFrom2Nix {
-    pname = "nvim-miniyank"; -- Manifest entry: "bfredl/nvim-miniyank"
+    pname = "nvim-miniyank"; # Manifest entry: "bfredl/nvim-miniyank"
     version = "2019-11-05";
     src = fetchurl {
       url = "https://github.com/bfredl/nvim-miniyank/archive/2a3a0f3ae535e1b93a8c17dfdac718b9a12c772b.tar.gz";
@@ -1861,7 +1861,7 @@
     };
   };
   gloombuddy = buildVimPluginFrom2Nix {
-    pname = "gloombuddy"; -- Manifest entry: "bkegley/gloombuddy"
+    pname = "gloombuddy"; # Manifest entry: "bkegley/gloombuddy"
     version = "2021-04-16";
     src = fetchurl {
       url = "https://github.com/bkegley/gloombuddy/archive/d59866faf296b46cb6e54889b47f4b9a366ed093.tar.gz";
@@ -1874,7 +1874,7 @@
     };
   };
   vim-moonfly-colors = buildVimPluginFrom2Nix {
-    pname = "vim-moonfly-colors"; -- Manifest entry: "bluz71/vim-moonfly-colors"
+    pname = "vim-moonfly-colors"; # Manifest entry: "bluz71/vim-moonfly-colors"
     version = "2023-02-09";
     src = fetchurl {
       url = "https://github.com/bluz71/vim-moonfly-colors/archive/24a39610173fa9249384abf3d610e478e67693ae.tar.gz";
@@ -1887,7 +1887,7 @@
     };
   };
   vim-nightfly-colors = buildVimPluginFrom2Nix {
-    pname = "vim-nightfly-colors"; -- Manifest entry: "bluz71/vim-nightfly-colors"
+    pname = "vim-nightfly-colors"; # Manifest entry: "bluz71/vim-nightfly-colors"
     version = "2023-02-09";
     src = fetchurl {
       url = "https://github.com/bluz71/vim-nightfly-colors/archive/fae00cd12332d690ea6e07d0d347ac1b36cfc590.tar.gz";
@@ -1900,7 +1900,7 @@
     };
   };
   nvim-gomove = buildVimPluginFrom2Nix {
-    pname = "nvim-gomove"; -- Manifest entry: "booperlv/nvim-gomove"
+    pname = "nvim-gomove"; # Manifest entry: "booperlv/nvim-gomove"
     version = "2022-07-19";
     src = fetchurl {
       url = "https://github.com/booperlv/nvim-gomove/archive/2b44ae7ac0804f4e3959228122f7c85bef1964e3.tar.gz";
@@ -1913,7 +1913,7 @@
     };
   };
   mix-nvim = buildVimPluginFrom2Nix {
-    pname = "mix-nvim"; -- Manifest entry: "brendalf/mix.nvim"
+    pname = "mix-nvim"; # Manifest entry: "brendalf/mix.nvim"
     version = "2022-08-22";
     src = fetchurl {
       url = "https://github.com/brendalf/mix.nvim/archive/9cbdc90351781c183667be15d51b0ec09396c3f4.tar.gz";
@@ -1925,7 +1925,7 @@
     };
   };
   nvim-highlight-colors = buildVimPluginFrom2Nix {
-    pname = "nvim-highlight-colors"; -- Manifest entry: "brenoprata10/nvim-highlight-colors"
+    pname = "nvim-highlight-colors"; # Manifest entry: "brenoprata10/nvim-highlight-colors"
     version = "2023-01-20";
     src = fetchurl {
       url = "https://github.com/brenoprata10/nvim-highlight-colors/archive/af051bfe2971fc888d21cdfc59f5444904353b43.tar.gz";
@@ -1937,7 +1937,7 @@
     };
   };
   snap = buildVimPluginFrom2Nix {
-    pname = "snap"; -- Manifest entry: "camspiers/snap"
+    pname = "snap"; # Manifest entry: "camspiers/snap"
     version = "2022-08-03";
     src = fetchurl {
       url = "https://github.com/camspiers/snap/archive/aca7863edb34af45830e422393fa95bd7ea77f4b.tar.gz";
@@ -1950,7 +1950,7 @@
     };
   };
   trim-nvim = buildVimPluginFrom2Nix {
-    pname = "trim-nvim"; -- Manifest entry: "cappyzawa/trim.nvim"
+    pname = "trim-nvim"; # Manifest entry: "cappyzawa/trim.nvim"
     version = "2022-10-18";
     src = fetchurl {
       url = "https://github.com/cappyzawa/trim.nvim/archive/909150606eab44979eb9595145796f5bcb067955.tar.gz";
@@ -1963,7 +1963,7 @@
     };
   };
   nvim = buildVimPluginFrom2Nix {
-    pname = "nvim"; -- Manifest entry: "catppuccin/nvim"
+    pname = "nvim"; # Manifest entry: "catppuccin/nvim"
     version = "2023-02-06";
     src = fetchurl {
       url = "https://github.com/catppuccin/nvim/archive/c3697149f825ff73665491223b5df1efae28f687.tar.gz";
@@ -1976,7 +1976,7 @@
     };
   };
   catppuccin = buildVimPluginFrom2Nix {
-    pname = "catppuccin"; -- Manifest entry: "catppuccin/nvim::catppuccin"
+    pname = "catppuccin"; # Manifest entry: "catppuccin/nvim::catppuccin"
     version = "2023-02-06";
     src = fetchurl {
       url = "https://github.com/catppuccin/nvim/archive/c3697149f825ff73665491223b5df1efae28f687.tar.gz";
@@ -1989,7 +1989,7 @@
     };
   };
   grapple-nvim = buildVimPluginFrom2Nix {
-    pname = "grapple-nvim"; -- Manifest entry: "cbochs/grapple.nvim"
+    pname = "grapple-nvim"; # Manifest entry: "cbochs/grapple.nvim"
     version = "2022-12-15";
     src = fetchurl {
       url = "https://github.com/cbochs/grapple.nvim/archive/219aa410851d6e21b3c0ee9c1195c9b34f2276b3.tar.gz";
@@ -2002,7 +2002,7 @@
     };
   };
   portal-nvim = buildVimPluginFrom2Nix {
-    pname = "portal-nvim"; -- Manifest entry: "cbochs/portal.nvim"
+    pname = "portal-nvim"; # Manifest entry: "cbochs/portal.nvim"
     version = "2023-01-26";
     src = fetchurl {
       url = "https://github.com/cbochs/portal.nvim/archive/7bd12ceaa4cde072d045ea762cdb0e127d499e0b.tar.gz";
@@ -2015,7 +2015,7 @@
     };
   };
   marks-nvim = buildVimPluginFrom2Nix {
-    pname = "marks-nvim"; -- Manifest entry: "chentoast/marks.nvim"
+    pname = "marks-nvim"; # Manifest entry: "chentoast/marks.nvim"
     version = "2023-01-07";
     src = fetchurl {
       url = "https://github.com/chentoast/marks.nvim/archive/c3b18b97912720a6586fb537c5c0dfc9e06a68f1.tar.gz";
@@ -2028,7 +2028,7 @@
     };
   };
   distant-nvim = buildVimPluginFrom2Nix {
-    pname = "distant-nvim"; -- Manifest entry: "chipsenkbeil/distant.nvim"
+    pname = "distant-nvim"; # Manifest entry: "chipsenkbeil/distant.nvim"
     version = "2022-08-05";
     src = fetchurl {
       url = "https://github.com/chipsenkbeil/distant.nvim/archive/887fc16bdae59bd1865e0776b427ca521987f7fe.tar.gz";
@@ -2041,7 +2041,7 @@
     };
   };
   dep = buildVimPluginFrom2Nix {
-    pname = "dep"; -- Manifest entry: "chiyadev/dep"
+    pname = "dep"; # Manifest entry: "chiyadev/dep"
     version = "2022-12-20";
     src = fetchurl {
       url = "https://github.com/chiyadev/dep/archive/b77963d2410d4dc65a1687c04103a8be58866ac6.tar.gz";
@@ -2054,7 +2054,7 @@
     };
   };
   nvim-genghis = buildVimPluginFrom2Nix {
-    pname = "nvim-genghis"; -- Manifest entry: "chrisgrieser/nvim-genghis"
+    pname = "nvim-genghis"; # Manifest entry: "chrisgrieser/nvim-genghis"
     version = "2023-02-06";
     src = fetchurl {
       url = "https://github.com/chrisgrieser/nvim-genghis/archive/5972ad4c7713acd495d55f696e65dbd4f2d89825.tar.gz";
@@ -2067,7 +2067,7 @@
     };
   };
   nvim-recorder = buildVimPluginFrom2Nix {
-    pname = "nvim-recorder"; -- Manifest entry: "chrisgrieser/nvim-recorder"
+    pname = "nvim-recorder"; # Manifest entry: "chrisgrieser/nvim-recorder"
     version = "2023-01-17";
     src = fetchurl {
       url = "https://github.com/chrisgrieser/nvim-recorder/archive/89c1fb1139fac0a4b42faf54beaf363be104550b.tar.gz";
@@ -2080,7 +2080,7 @@
     };
   };
   nvim-various-textobjs = buildVimPluginFrom2Nix {
-    pname = "nvim-various-textobjs"; -- Manifest entry: "chrisgrieser/nvim-various-textobjs"
+    pname = "nvim-various-textobjs"; # Manifest entry: "chrisgrieser/nvim-various-textobjs"
     version = "2023-02-07";
     src = fetchurl {
       url = "https://github.com/chrisgrieser/nvim-various-textobjs/archive/521a9845a7ab241ce919068138d31253418d2dae.tar.gz";
@@ -2093,7 +2093,7 @@
     };
   };
   impulse-nvim = buildVimPluginFrom2Nix {
-    pname = "impulse-nvim"; -- Manifest entry: "chrsm/impulse.nvim"
+    pname = "impulse-nvim"; # Manifest entry: "chrsm/impulse.nvim"
     version = "2022-06-26";
     src = fetchurl {
       url = "https://github.com/chrsm/impulse.nvim/archive/f96742d0b5ece74fa5a8509b6ea51847fa473a67.tar.gz";
@@ -2106,7 +2106,7 @@
     };
   };
   paramount-ng-nvim = buildVimPluginFrom2Nix {
-    pname = "paramount-ng-nvim"; -- Manifest entry: "chrsm/paramount-ng.nvim"
+    pname = "paramount-ng-nvim"; # Manifest entry: "chrsm/paramount-ng.nvim"
     version = "2022-06-18";
     src = fetchurl {
       url = "https://github.com/chrsm/paramount-ng.nvim/archive/7caa69335cdc36f735af781d30faa9b1ce105610.tar.gz";
@@ -2119,7 +2119,7 @@
     };
   };
   jazz-nvim = buildVimPluginFrom2Nix {
-    pname = "jazz-nvim"; -- Manifest entry: "clojure-vim/jazz.nvim"
+    pname = "jazz-nvim"; # Manifest entry: "clojure-vim/jazz.nvim"
     version = "2019-04-30";
     src = fetchurl {
       url = "https://github.com/clojure-vim/jazz.nvim/archive/4537586c70aee9fdc88ad0687c106cceefd0991e.tar.gz";
@@ -2131,7 +2131,7 @@
     };
   };
   coc-svelte = buildVimPluginFrom2Nix {
-    pname = "coc-svelte"; -- Manifest entry: "coc-extensions/coc-svelte"
+    pname = "coc-svelte"; # Manifest entry: "coc-extensions/coc-svelte"
     version = "2022-03-14";
     src = fetchurl {
       url = "https://github.com/coc-extensions/coc-svelte/archive/7dda98527c0831e287ae8cd1c85cfc958c949d4a.tar.gz";
@@ -2144,7 +2144,7 @@
     };
   };
   nvim-biscuits = buildVimPluginFrom2Nix {
-    pname = "nvim-biscuits"; -- Manifest entry: "code-biscuits/nvim-biscuits"
+    pname = "nvim-biscuits"; # Manifest entry: "code-biscuits/nvim-biscuits"
     version = "2023-01-09";
     src = fetchurl {
       url = "https://github.com/code-biscuits/nvim-biscuits/archive/25a880605fa4533b7075c54a0fdb5f0a25bc4f84.tar.gz";
@@ -2157,7 +2157,7 @@
     };
   };
   one-monokai-nvim = buildVimPluginFrom2Nix {
-    pname = "one-monokai-nvim"; -- Manifest entry: "cpea2506/one_monokai.nvim"
+    pname = "one-monokai-nvim"; # Manifest entry: "cpea2506/one_monokai.nvim"
     version = "2023-02-08";
     src = fetchurl {
       url = "https://github.com/cpea2506/one_monokai.nvim/archive/fec253c3449c32069dc645f783444e0183b10fcc.tar.gz";
@@ -2170,7 +2170,7 @@
     };
   };
   nvim-go = buildVimPluginFrom2Nix {
-    pname = "nvim-go"; -- Manifest entry: "crispgm/nvim-go"
+    pname = "nvim-go"; # Manifest entry: "crispgm/nvim-go"
     version = "2022-10-19";
     src = fetchurl {
       url = "https://github.com/crispgm/nvim-go/archive/04d013deb489af1ebe5296e79367599ea1a99e79.tar.gz";
@@ -2183,7 +2183,7 @@
     };
   };
   nvim-tabline = buildVimPluginFrom2Nix {
-    pname = "nvim-tabline"; -- Manifest entry: "crispgm/nvim-tabline"
+    pname = "nvim-tabline"; # Manifest entry: "crispgm/nvim-tabline"
     version = "2023-02-03";
     src = fetchurl {
       url = "https://github.com/crispgm/nvim-tabline/archive/4d023b84eb3e6ff63afec8400fa541e6bfe6ac20.tar.gz";
@@ -2196,7 +2196,7 @@
     };
   };
   telescope-heading-nvim = buildVimPluginFrom2Nix {
-    pname = "telescope-heading-nvim"; -- Manifest entry: "crispgm/telescope-heading.nvim"
+    pname = "telescope-heading-nvim"; # Manifest entry: "crispgm/telescope-heading.nvim"
     version = "2022-12-04";
     src = fetchurl {
       url = "https://github.com/crispgm/telescope-heading.nvim/archive/b1969c1b1b3de52c45b4c440e0784c33b5814954.tar.gz";
@@ -2209,7 +2209,7 @@
     };
   };
   bookmarks-nvim = buildVimPluginFrom2Nix {
-    pname = "bookmarks-nvim"; -- Manifest entry: "crusj/bookmarks.nvim"
+    pname = "bookmarks-nvim"; # Manifest entry: "crusj/bookmarks.nvim"
     version = "2022-12-21";
     src = fetchurl {
       url = "https://github.com/crusj/bookmarks.nvim/archive/982a774b27d5c6a383b025f43d20eb7b743fdbf0.tar.gz";
@@ -2222,7 +2222,7 @@
     };
   };
   hierarchy-tree-go-nvim = buildVimPluginFrom2Nix {
-    pname = "hierarchy-tree-go-nvim"; -- Manifest entry: "crusj/hierarchy-tree-go.nvim"
+    pname = "hierarchy-tree-go-nvim"; # Manifest entry: "crusj/hierarchy-tree-go.nvim"
     version = "2022-12-01";
     src = fetchurl {
       url = "https://github.com/crusj/hierarchy-tree-go.nvim/archive/9fab9ddefe81edab4a144824955d2d085db3f49a.tar.gz";
@@ -2235,7 +2235,7 @@
     };
   };
   structrue-go-nvim = buildVimPluginFrom2Nix {
-    pname = "structrue-go-nvim"; -- Manifest entry: "crusj/structrue-go.nvim"
+    pname = "structrue-go-nvim"; # Manifest entry: "crusj/structrue-go.nvim"
     version = "2022-09-29";
     src = fetchurl {
       url = "https://github.com/crusj/structrue-go.nvim/archive/4282b860cde0f5f25a1fb1af3ea8edb0db278e73.tar.gz";
@@ -2248,7 +2248,7 @@
     };
   };
   yaml-nvim = buildVimPluginFrom2Nix {
-    pname = "yaml-nvim"; -- Manifest entry: "cuducos/yaml.nvim"
+    pname = "yaml-nvim"; # Manifest entry: "cuducos/yaml.nvim"
     version = "2023-01-24";
     src = fetchurl {
       url = "https://github.com/cuducos/yaml.nvim/archive/ec53f8eabcce9ff42121ad64ff288af8d25f5010.tar.gz";
@@ -2261,7 +2261,7 @@
     };
   };
   telescope-tmuxinator-nvim = buildVimPluginFrom2Nix {
-    pname = "telescope-tmuxinator-nvim"; -- Manifest entry: "danielpieper/telescope-tmuxinator.nvim"
+    pname = "telescope-tmuxinator-nvim"; # Manifest entry: "danielpieper/telescope-tmuxinator.nvim"
     version = "2021-08-19";
     src = fetchurl {
       url = "https://github.com/danielpieper/telescope-tmuxinator.nvim/archive/9b51e2dc870c46aa57e277bb70b2c1c000a7a857.tar.gz";
@@ -2274,7 +2274,7 @@
     };
   };
   neogen = buildVimPluginFrom2Nix {
-    pname = "neogen"; -- Manifest entry: "danymat/neogen"
+    pname = "neogen"; # Manifest entry: "danymat/neogen"
     version = "2023-01-16";
     src = fetchurl {
       url = "https://github.com/danymat/neogen/archive/465af9d6c6fb7f360175991dcc23fc10917e3a06.tar.gz";
@@ -2287,7 +2287,7 @@
     };
   };
   bubbly-nvim = buildVimPluginFrom2Nix {
-    pname = "bubbly-nvim"; -- Manifest entry: "datwaft/bubbly.nvim"
+    pname = "bubbly-nvim"; # Manifest entry: "datwaft/bubbly.nvim"
     version = "2023-01-07";
     src = fetchurl {
       url = "https://github.com/datwaft/bubbly.nvim/archive/5d1374bd4a1430aad4b243406ed9c75e42db1ac3.tar.gz";
@@ -2300,7 +2300,7 @@
     };
   };
   nvim-markdown-preview = buildVimPluginFrom2Nix {
-    pname = "nvim-markdown-preview"; -- Manifest entry: "davidgranstrom/nvim-markdown-preview"
+    pname = "nvim-markdown-preview"; # Manifest entry: "davidgranstrom/nvim-markdown-preview"
     version = "2022-05-21";
     src = fetchurl {
       url = "https://github.com/davidgranstrom/nvim-markdown-preview/archive/3d6f941beb223b23122973d077522e9e2ee33068.tar.gz";
@@ -2313,7 +2313,7 @@
     };
   };
   osc-nvim = buildVimPluginFrom2Nix {
-    pname = "osc-nvim"; -- Manifest entry: "davidgranstrom/osc.nvim"
+    pname = "osc-nvim"; # Manifest entry: "davidgranstrom/osc.nvim"
     version = "2021-08-02";
     src = fetchurl {
       url = "https://github.com/davidgranstrom/osc.nvim/archive/cc27b8a5e3ffd4cb1d8c9eaa4a2082cbaf9e4c77.tar.gz";
@@ -2325,7 +2325,7 @@
     };
   };
   scnvim = buildVimPluginFrom2Nix {
-    pname = "scnvim"; -- Manifest entry: "davidgranstrom/scnvim"
+    pname = "scnvim"; # Manifest entry: "davidgranstrom/scnvim"
     version = "2022-11-06";
     src = fetchurl {
       url = "https://github.com/davidgranstrom/scnvim/archive/67eb22f5d913f6b8096427a0810a3ebc51156a74.tar.gz";
@@ -2338,7 +2338,7 @@
     };
   };
   cmp-conventionalcommits = buildVimPluginFrom2Nix {
-    pname = "cmp-conventionalcommits"; -- Manifest entry: "davidsierradz/cmp-conventionalcommits"
+    pname = "cmp-conventionalcommits"; # Manifest entry: "davidsierradz/cmp-conventionalcommits"
     version = "2022-10-16";
     src = fetchurl {
       url = "https://github.com/davidsierradz/cmp-conventionalcommits/archive/a4dfacf0601130b7f8afa7c948d735c27802fb7f.tar.gz";
@@ -2351,7 +2351,7 @@
     };
   };
   cmp-snippy = buildVimPluginFrom2Nix {
-    pname = "cmp-snippy"; -- Manifest entry: "dcampos/cmp-snippy"
+    pname = "cmp-snippy"; # Manifest entry: "dcampos/cmp-snippy"
     version = "2021-09-20";
     src = fetchurl {
       url = "https://github.com/dcampos/cmp-snippy/archive/9af1635fe40385ffa3dabf322039cb5ae1fd7d35.tar.gz";
@@ -2363,7 +2363,7 @@
     };
   };
   nvim-snippy = buildVimPluginFrom2Nix {
-    pname = "nvim-snippy"; -- Manifest entry: "dcampos/nvim-snippy"
+    pname = "nvim-snippy"; # Manifest entry: "dcampos/nvim-snippy"
     version = "2023-02-09";
     src = fetchurl {
       url = "https://github.com/dcampos/nvim-snippy/archive/5f642538a26777a986a02f81377b4f9004b69ced.tar.gz";
@@ -2376,7 +2376,7 @@
     };
   };
   magma-nvim = buildVimPluginFrom2Nix {
-    pname = "magma-nvim"; -- Manifest entry: "dccsillag/magma-nvim"
+    pname = "magma-nvim"; # Manifest entry: "dccsillag/magma-nvim"
     version = "2022-09-18";
     src = fetchurl {
       url = "https://github.com/dccsillag/magma-nvim/archive/395b48e2e202d82fca76c15d2dcd8785c125d686.tar.gz";
@@ -2389,7 +2389,7 @@
     };
   };
   telescope-undo-nvim = buildVimPluginFrom2Nix {
-    pname = "telescope-undo-nvim"; -- Manifest entry: "debugloop/telescope-undo.nvim"
+    pname = "telescope-undo-nvim"; # Manifest entry: "debugloop/telescope-undo.nvim"
     version = "2023-01-29";
     src = fetchurl {
       url = "https://github.com/debugloop/telescope-undo.nvim/archive/b5e31b358095074b60d87690bd1dc0a020a2afab.tar.gz";
@@ -2402,7 +2402,7 @@
     };
   };
   cinnamon-nvim = buildVimPluginFrom2Nix {
-    pname = "cinnamon-nvim"; -- Manifest entry: "declancm/cinnamon.nvim"
+    pname = "cinnamon-nvim"; # Manifest entry: "declancm/cinnamon.nvim"
     version = "2022-12-04";
     src = fetchurl {
       url = "https://github.com/declancm/cinnamon.nvim/archive/c406ffda3a0302f32c23b24ab756ea20467d6578.tar.gz";
@@ -2414,7 +2414,7 @@
     };
   };
   windex-nvim = buildVimPluginFrom2Nix {
-    pname = "windex-nvim"; -- Manifest entry: "declancm/windex.nvim"
+    pname = "windex-nvim"; # Manifest entry: "declancm/windex.nvim"
     version = "2022-07-12";
     src = fetchurl {
       url = "https://github.com/declancm/windex.nvim/archive/1e86cba6f6f55ced60d17d6c6ebd51388a637b86.tar.gz";
@@ -2427,7 +2427,7 @@
     };
   };
   greyjoy-nvim = buildVimPluginFrom2Nix {
-    pname = "greyjoy-nvim"; -- Manifest entry: "desdic/greyjoy.nvim"
+    pname = "greyjoy-nvim"; # Manifest entry: "desdic/greyjoy.nvim"
     version = "2022-11-05";
     src = fetchurl {
       url = "https://github.com/desdic/greyjoy.nvim/archive/d0804c393e55f18d538ce1ead149232765b99170.tar.gz";
@@ -2440,7 +2440,7 @@
     };
   };
   telescope-rooter-nvim = buildVimPluginFrom2Nix {
-    pname = "telescope-rooter-nvim"; -- Manifest entry: "desdic/telescope-rooter.nvim"
+    pname = "telescope-rooter-nvim"; # Manifest entry: "desdic/telescope-rooter.nvim"
     version = "2022-11-26";
     src = fetchurl {
       url = "https://github.com/desdic/telescope-rooter.nvim/archive/69423216c75a5f1f1477bbf8faf6b0dc8af04099.tar.gz";
@@ -2453,7 +2453,7 @@
     };
   };
   sfm-nvim = buildVimPluginFrom2Nix {
-    pname = "sfm-nvim"; -- Manifest entry: "dinhhuy258/sfm.nvim"
+    pname = "sfm-nvim"; # Manifest entry: "dinhhuy258/sfm.nvim"
     version = "2023-02-04";
     src = fetchurl {
       url = "https://github.com/dinhhuy258/sfm.nvim/archive/14ceef356b73fc2162cd2ed3b9f3aedab6a8a60b.tar.gz";
@@ -2465,7 +2465,7 @@
     };
   };
   bullets-vim = buildVimPluginFrom2Nix {
-    pname = "bullets-vim"; -- Manifest entry: "dkarter/bullets.vim"
+    pname = "bullets-vim"; # Manifest entry: "dkarter/bullets.vim"
     version = "2022-10-10";
     src = fetchurl {
       url = "https://github.com/dkarter/bullets.vim/archive/746f92ae05cdcc988857d8e76418326f07af9494.tar.gz";
@@ -2477,7 +2477,7 @@
     };
   };
   cmp-cmdline-history = buildVimPluginFrom2Nix {
-    pname = "cmp-cmdline-history"; -- Manifest entry: "dmitmel/cmp-cmdline-history"
+    pname = "cmp-cmdline-history"; # Manifest entry: "dmitmel/cmp-cmdline-history"
     version = "2022-05-04";
     src = fetchurl {
       url = "https://github.com/dmitmel/cmp-cmdline-history/archive/003573b72d4635ce636234a826fa8c4ba2895ffe.tar.gz";
@@ -2490,7 +2490,7 @@
     };
   };
   cmp-digraphs = buildVimPluginFrom2Nix {
-    pname = "cmp-digraphs"; -- Manifest entry: "dmitmel/cmp-digraphs"
+    pname = "cmp-digraphs"; # Manifest entry: "dmitmel/cmp-digraphs"
     version = "2021-12-13";
     src = fetchurl {
       url = "https://github.com/dmitmel/cmp-digraphs/archive/5efc1f0078d7c5f3ea1c8e3aad04da3fd6e081a9.tar.gz";
@@ -2503,7 +2503,7 @@
     };
   };
   cmp-vim-lsp = buildVimPluginFrom2Nix {
-    pname = "cmp-vim-lsp"; -- Manifest entry: "dmitmel/cmp-vim-lsp"
+    pname = "cmp-vim-lsp"; # Manifest entry: "dmitmel/cmp-vim-lsp"
     version = "2021-10-26";
     src = fetchurl {
       url = "https://github.com/dmitmel/cmp-vim-lsp/archive/b13312a8c1a74a8747e64117f26f17390e8abfa8.tar.gz";
@@ -2516,7 +2516,7 @@
     };
   };
   vim = buildVimPluginFrom2Nix {
-    pname = "vim"; -- Manifest entry: "dracula/vim"
+    pname = "vim"; # Manifest entry: "dracula/vim"
     version = "2022-12-22";
     src = fetchurl {
       url = "https://github.com/dracula/vim/archive/eb577d47b0cfc9191bf04c414b4042d5f1a980f8.tar.gz";
@@ -2529,7 +2529,7 @@
     };
   };
   tree-climber-nvim = buildVimPluginFrom2Nix {
-    pname = "tree-climber-nvim"; -- Manifest entry: "drybalka/tree-climber.nvim"
+    pname = "tree-climber-nvim"; # Manifest entry: "drybalka/tree-climber.nvim"
     version = "2022-10-14";
     src = fetchurl {
       url = "https://github.com/drybalka/tree-climber.nvim/archive/9b0c8c8358f575f924008945c74fd4f40d814cd7.tar.gz";
@@ -2542,7 +2542,7 @@
     };
   };
   nvim-scrollview = buildVimPluginFrom2Nix {
-    pname = "nvim-scrollview"; -- Manifest entry: "dstein64/nvim-scrollview"
+    pname = "nvim-scrollview"; # Manifest entry: "dstein64/nvim-scrollview"
     version = "2022-12-12";
     src = fetchurl {
       url = "https://github.com/dstein64/nvim-scrollview/archive/c0699da2f00976943d39c7b32c015c768f68e74b.tar.gz";
@@ -2555,7 +2555,7 @@
     };
   };
   vim-startuptime = buildVimPluginFrom2Nix {
-    pname = "vim-startuptime"; -- Manifest entry: "dstein64/vim-startuptime"
+    pname = "vim-startuptime"; # Manifest entry: "dstein64/vim-startuptime"
     version = "2023-02-01";
     src = fetchurl {
       url = "https://github.com/dstein64/vim-startuptime/archive/6580cf539c33a212f4f5542068a3b4dd2b3ad834.tar.gz";
@@ -2568,7 +2568,7 @@
     };
   };
   mini-nvim = buildVimPluginFrom2Nix {
-    pname = "mini-nvim"; -- Manifest entry: "echasnovski/mini.nvim"
+    pname = "mini-nvim"; # Manifest entry: "echasnovski/mini.nvim"
     version = "2023-02-09";
     src = fetchurl {
       url = "https://github.com/echasnovski/mini.nvim/archive/e28736353b6e66701573570e75dd03d7f997b5a0.tar.gz";
@@ -2581,7 +2581,7 @@
     };
   };
   specs-nvim = buildVimPluginFrom2Nix {
-    pname = "specs-nvim"; -- Manifest entry: "edluffy/specs.nvim"
+    pname = "specs-nvim"; # Manifest entry: "edluffy/specs.nvim"
     version = "2022-09-20";
     src = fetchurl {
       url = "https://github.com/edluffy/specs.nvim/archive/2743e412bbe21c9d73954c403d01e8de7377890d.tar.gz";
@@ -2593,7 +2593,7 @@
     };
   };
   goimpl-nvim = buildVimPluginFrom2Nix {
-    pname = "goimpl-nvim"; -- Manifest entry: "edolphin-ydf/goimpl.nvim"
+    pname = "goimpl-nvim"; # Manifest entry: "edolphin-ydf/goimpl.nvim"
     version = "2023-01-30";
     src = fetchurl {
       url = "https://github.com/edolphin-ydf/goimpl.nvim/archive/1d14529ec6143e4b6e51a83738d61de7333267fb.tar.gz";
@@ -2605,7 +2605,7 @@
     };
   };
   clipboard-image-nvim = buildVimPluginFrom2Nix {
-    pname = "clipboard-image-nvim"; -- Manifest entry: "ekickx/clipboard-image.nvim"
+    pname = "clipboard-image-nvim"; # Manifest entry: "ekickx/clipboard-image.nvim"
     version = "2022-11-10";
     src = fetchurl {
       url = "https://github.com/ekickx/clipboard-image.nvim/archive/d1550dc26729b7954f95269952e90471b838fa25.tar.gz";
@@ -2618,7 +2618,7 @@
     };
   };
   dirbuf-nvim = buildVimPluginFrom2Nix {
-    pname = "dirbuf-nvim"; -- Manifest entry: "elihunter173/dirbuf.nvim"
+    pname = "dirbuf-nvim"; # Manifest entry: "elihunter173/dirbuf.nvim"
     version = "2022-08-28";
     src = fetchurl {
       url = "https://github.com/elihunter173/dirbuf.nvim/archive/ac7ad3c8e61630d15af1f6266441984f54f54fd2.tar.gz";
@@ -2631,7 +2631,7 @@
     };
   };
   carbon-now-nvim = buildVimPluginFrom2Nix {
-    pname = "carbon-now-nvim"; -- Manifest entry: "ellisonleao/carbon-now.nvim"
+    pname = "carbon-now-nvim"; # Manifest entry: "ellisonleao/carbon-now.nvim"
     version = "2023-01-14";
     src = fetchurl {
       url = "https://github.com/ellisonleao/carbon-now.nvim/archive/f0cf3c395ce7e9f2f1f2a6be17440da80fab6178.tar.gz";
@@ -2643,7 +2643,7 @@
     };
   };
   glow-nvim = buildVimPluginFrom2Nix {
-    pname = "glow-nvim"; -- Manifest entry: "ellisonleao/glow.nvim"
+    pname = "glow-nvim"; # Manifest entry: "ellisonleao/glow.nvim"
     version = "2023-01-29";
     src = fetchurl {
       url = "https://github.com/ellisonleao/glow.nvim/archive/c87b1120b618577e64d910a7493a26829044a8a2.tar.gz";
@@ -2656,7 +2656,7 @@
     };
   };
   gruvbox-nvim = buildVimPluginFrom2Nix {
-    pname = "gruvbox-nvim"; -- Manifest entry: "ellisonleao/gruvbox.nvim"
+    pname = "gruvbox-nvim"; # Manifest entry: "ellisonleao/gruvbox.nvim"
     version = "2023-02-09";
     src = fetchurl {
       url = "https://github.com/ellisonleao/gruvbox.nvim/archive/b9d23a64dc8f22b4af8fa708d9fcbffbbf5747c6.tar.gz";
@@ -2669,7 +2669,7 @@
     };
   };
   nvim-plugin-template = buildVimPluginFrom2Nix {
-    pname = "nvim-plugin-template"; -- Manifest entry: "ellisonleao/nvim-plugin-template"
+    pname = "nvim-plugin-template"; # Manifest entry: "ellisonleao/nvim-plugin-template"
     version = "2022-12-19";
     src = fetchurl {
       url = "https://github.com/ellisonleao/nvim-plugin-template/archive/db7b3335dfc1a38181b1702449aae50589382ae8.tar.gz";
@@ -2681,7 +2681,7 @@
     };
   };
   nvim-strict = buildVimPluginFrom2Nix {
-    pname = "nvim-strict"; -- Manifest entry: "emileferreira/nvim-strict"
+    pname = "nvim-strict"; # Manifest entry: "emileferreira/nvim-strict"
     version = "2023-01-13";
     src = fetchurl {
       url = "https://github.com/emileferreira/nvim-strict/archive/5494c6a7d19a8ab8bcf507f1d447ad66055d3bef.tar.gz";
@@ -2694,7 +2694,7 @@
     };
   };
   obsidian-nvim = buildVimPluginFrom2Nix {
-    pname = "obsidian-nvim"; -- Manifest entry: "epwalsh/obsidian.nvim"
+    pname = "obsidian-nvim"; # Manifest entry: "epwalsh/obsidian.nvim"
     version = "2023-02-08";
     src = fetchurl {
       url = "https://github.com/epwalsh/obsidian.nvim/archive/59ade59899dd6bee1e7340fbfc01dc814be16c36.tar.gz";
@@ -2707,7 +2707,7 @@
     };
   };
   nvim-dev-container = buildVimPluginFrom2Nix {
-    pname = "nvim-dev-container"; -- Manifest entry: "esensar/nvim-dev-container"
+    pname = "nvim-dev-container"; # Manifest entry: "esensar/nvim-dev-container"
     version = "2022-07-21";
     src = fetchurl {
       url = "https://github.com/esensar/nvim-dev-container/archive/4d01b653069ae00dcb8161b86ef337eca02b0bae.tar.gz";
@@ -2720,7 +2720,7 @@
     };
   };
   nvim-lastplace = buildVimPluginFrom2Nix {
-    pname = "nvim-lastplace"; -- Manifest entry: "ethanholz/nvim-lastplace"
+    pname = "nvim-lastplace"; # Manifest entry: "ethanholz/nvim-lastplace"
     version = "2023-01-16";
     src = fetchurl {
       url = "https://github.com/ethanholz/nvim-lastplace/archive/65c5d6e2501a3af9c2cd15c6548e67fa035bf640.tar.gz";
@@ -2733,7 +2733,7 @@
     };
   };
   vim-svelte = buildVimPluginFrom2Nix {
-    pname = "vim-svelte"; -- Manifest entry: "evanleck/vim-svelte"
+    pname = "vim-svelte"; # Manifest entry: "evanleck/vim-svelte"
     version = "2022-10-27";
     src = fetchurl {
       url = "https://github.com/evanleck/vim-svelte/archive/0e93ec53c3667753237282926fec626785622c1c.tar.gz";
@@ -2746,7 +2746,7 @@
     };
   };
   auto-dark-mode-nvim = buildVimPluginFrom2Nix {
-    pname = "auto-dark-mode-nvim"; -- Manifest entry: "f-person/auto-dark-mode.nvim"
+    pname = "auto-dark-mode-nvim"; # Manifest entry: "f-person/auto-dark-mode.nvim"
     version = "2022-02-13";
     src = fetchurl {
       url = "https://github.com/f-person/auto-dark-mode.nvim/archive/9a7515c180c73ccbab9fce7124e49914f88cd763.tar.gz";
@@ -2759,7 +2759,7 @@
     };
   };
   git-blame-nvim = buildVimPluginFrom2Nix {
-    pname = "git-blame-nvim"; -- Manifest entry: "f-person/git-blame.nvim"
+    pname = "git-blame-nvim"; # Manifest entry: "f-person/git-blame.nvim"
     version = "2023-02-07";
     src = fetchurl {
       url = "https://github.com/f-person/git-blame.nvim/archive/17840d01f42ee308e1dbbcc2cde991297aee36c9.tar.gz";
@@ -2772,7 +2772,7 @@
     };
   };
   cmp-spell = buildVimPluginFrom2Nix {
-    pname = "cmp-spell"; -- Manifest entry: "f3fora/cmp-spell"
+    pname = "cmp-spell"; # Manifest entry: "f3fora/cmp-spell"
     version = "2022-10-10";
     src = fetchurl {
       url = "https://github.com/f3fora/cmp-spell/archive/60584cb75e5e8bba5a0c9e4c3ab0791e0698bffa.tar.gz";
@@ -2784,7 +2784,7 @@
     };
   };
   bufdelete-nvim = buildVimPluginFrom2Nix {
-    pname = "bufdelete-nvim"; -- Manifest entry: "famiu/bufdelete.nvim"
+    pname = "bufdelete-nvim"; # Manifest entry: "famiu/bufdelete.nvim"
     version = "2022-12-04";
     src = fetchurl {
       url = "https://github.com/famiu/bufdelete.nvim/archive/f79e9d186b42fba5f1b1362006e7c70240db97a4.tar.gz";
@@ -2797,7 +2797,7 @@
     };
   };
   feline-nvim = buildVimPluginFrom2Nix {
-    pname = "feline-nvim"; -- Manifest entry: "feline-nvim/feline.nvim"
+    pname = "feline-nvim"; # Manifest entry: "feline-nvim/feline.nvim"
     version = "2022-12-22";
     src = fetchurl {
       url = "https://github.com/feline-nvim/feline.nvim/archive/d48b6f92c6ccdd6654c956f437be49ea160b5b0c.tar.gz";
@@ -2810,7 +2810,7 @@
     };
   };
   falcon = buildVimPluginFrom2Nix {
-    pname = "falcon"; -- Manifest entry: "fenetikm/falcon"
+    pname = "falcon"; # Manifest entry: "fenetikm/falcon"
     version = "2022-09-18";
     src = fetchurl {
       url = "https://github.com/fenetikm/falcon/archive/760d27a7674140c1c1a838b363c52fd705163045.tar.gz";
@@ -2823,7 +2823,7 @@
     };
   };
   renamer-nvim = buildVimPluginFrom2Nix {
-    pname = "renamer-nvim"; -- Manifest entry: "filipdutescu/renamer.nvim"
+    pname = "renamer-nvim"; # Manifest entry: "filipdutescu/renamer.nvim"
     version = "2022-08-29";
     src = fetchurl {
       url = "https://github.com/filipdutescu/renamer.nvim/archive/1614d466df53899f11dd5395eaac3c09a275c384.tar.gz";
@@ -2836,7 +2836,7 @@
     };
   };
   lsp-colors-nvim = buildVimPluginFrom2Nix {
-    pname = "lsp-colors-nvim"; -- Manifest entry: "folke/lsp-colors.nvim"
+    pname = "lsp-colors-nvim"; # Manifest entry: "folke/lsp-colors.nvim"
     version = "2023-01-23";
     src = fetchurl {
       url = "https://github.com/folke/lsp-colors.nvim/archive/d0b245232aeb197bbd097111d8b69621b0671edb.tar.gz";
@@ -2849,7 +2849,7 @@
     };
   };
   neodev-nvim = buildVimPluginFrom2Nix {
-    pname = "neodev-nvim"; -- Manifest entry: "folke/lua-dev.nvim"
+    pname = "neodev-nvim"; # Manifest entry: "folke/lua-dev.nvim"
     version = "2023-02-09";
     src = fetchurl {
       url = "https://github.com/folke/neodev.nvim/archive/bb70e41640238b989bb6c2f94802851ff260f68d.tar.gz";
@@ -2862,7 +2862,7 @@
     };
   };
   todo-comments-nvim = buildVimPluginFrom2Nix {
-    pname = "todo-comments-nvim"; -- Manifest entry: "folke/todo-comments.nvim"
+    pname = "todo-comments-nvim"; # Manifest entry: "folke/todo-comments.nvim"
     version = "2023-01-23";
     src = fetchurl {
       url = "https://github.com/folke/todo-comments.nvim/archive/74c7d28cb50b0713c881ef69bcb6cdd77d8907d1.tar.gz";
@@ -2875,7 +2875,7 @@
     };
   };
   tokyonight-nvim = buildVimPluginFrom2Nix {
-    pname = "tokyonight-nvim"; -- Manifest entry: "folke/tokyonight.nvim"
+    pname = "tokyonight-nvim"; # Manifest entry: "folke/tokyonight.nvim"
     version = "2023-02-09";
     src = fetchurl {
       url = "https://github.com/folke/tokyonight.nvim/archive/6705d069d9b37146024113c36aa90cec90630859.tar.gz";
@@ -2888,7 +2888,7 @@
     };
   };
   trouble-nvim = buildVimPluginFrom2Nix {
-    pname = "trouble-nvim"; -- Manifest entry: "folke/trouble.nvim"
+    pname = "trouble-nvim"; # Manifest entry: "folke/trouble.nvim"
     version = "2023-02-08";
     src = fetchurl {
       url = "https://github.com/folke/trouble.nvim/archive/fc003424b02109f1453af6b40dadff6019b97187.tar.gz";
@@ -2901,7 +2901,7 @@
     };
   };
   twilight-nvim = buildVimPluginFrom2Nix {
-    pname = "twilight-nvim"; -- Manifest entry: "folke/twilight.nvim"
+    pname = "twilight-nvim"; # Manifest entry: "folke/twilight.nvim"
     version = "2023-01-23";
     src = fetchurl {
       url = "https://github.com/folke/twilight.nvim/archive/9410252bed96887ca5a86bf16435a3a51a0e6ce5.tar.gz";
@@ -2914,7 +2914,7 @@
     };
   };
   which-key-nvim = buildVimPluginFrom2Nix {
-    pname = "which-key-nvim"; -- Manifest entry: "folke/which-key.nvim"
+    pname = "which-key-nvim"; # Manifest entry: "folke/which-key.nvim"
     version = "2023-01-23";
     src = fetchurl {
       url = "https://github.com/folke/which-key.nvim/archive/684e96c5e8477f1ee9b3f2e9a12d802fd12c5531.tar.gz";
@@ -2927,7 +2927,7 @@
     };
   };
   zen-mode-nvim = buildVimPluginFrom2Nix {
-    pname = "zen-mode-nvim"; -- Manifest entry: "folke/zen-mode.nvim"
+    pname = "zen-mode-nvim"; # Manifest entry: "folke/zen-mode.nvim"
     version = "2023-02-08";
     src = fetchurl {
       url = "https://github.com/folke/zen-mode.nvim/archive/3c92f503823088862ca2a7809d1c7edc90fb92fa.tar.gz";
@@ -2940,7 +2940,7 @@
     };
   };
   knap = buildVimPluginFrom2Nix {
-    pname = "knap"; -- Manifest entry: "frabjous/knap"
+    pname = "knap"; # Manifest entry: "frabjous/knap"
     version = "2023-01-21";
     src = fetchurl {
       url = "https://github.com/frabjous/knap/archive/8c083d333b8a82421a521539eb1c450b06c90eb6.tar.gz";
@@ -2953,7 +2953,7 @@
     };
   };
   JpFormat-vim = buildVimPluginFrom2Nix {
-    pname = "JpFormat-vim"; -- Manifest entry: "fuenor/JpFormat.vim"
+    pname = "JpFormat-vim"; # Manifest entry: "fuenor/JpFormat.vim"
     version = "2019-07-12";
     src = fetchurl {
       url = "https://github.com/fuenor/JpFormat.vim/archive/02736fc184e15efa8a233caaec037aabb90ad706.tar.gz";
@@ -2965,7 +2965,7 @@
     };
   };
   cryptoprice-nvim = buildVimPluginFrom2Nix {
-    pname = "cryptoprice-nvim"; -- Manifest entry: "gaborvecsei/cryptoprice.nvim"
+    pname = "cryptoprice-nvim"; # Manifest entry: "gaborvecsei/cryptoprice.nvim"
     version = "2022-03-18";
     src = fetchurl {
       url = "https://github.com/gaborvecsei/cryptoprice.nvim/archive/09bdffc47b3a959bc6d9065fb25b120fc84cdea3.tar.gz";
@@ -2977,7 +2977,7 @@
     };
   };
   memento-nvim = buildVimPluginFrom2Nix {
-    pname = "memento-nvim"; -- Manifest entry: "gaborvecsei/memento.nvim"
+    pname = "memento-nvim"; # Manifest entry: "gaborvecsei/memento.nvim"
     version = "2022-03-18";
     src = fetchurl {
       url = "https://github.com/gaborvecsei/memento.nvim/archive/7e5e5a86ccaec2892fc2d8197fc01a25d1cf8951.tar.gz";
@@ -2989,7 +2989,7 @@
     };
   };
   cutlass-nvim = buildVimPluginFrom2Nix {
-    pname = "cutlass-nvim"; -- Manifest entry: "gbprod/cutlass.nvim"
+    pname = "cutlass-nvim"; # Manifest entry: "gbprod/cutlass.nvim"
     version = "2023-01-26";
     src = fetchurl {
       url = "https://github.com/gbprod/cutlass.nvim/archive/31a2099627cd1ef8898f442ee6a58c7400111395.tar.gz";
@@ -3002,7 +3002,7 @@
     };
   };
   nord-nvim = buildVimPluginFrom2Nix {
-    pname = "nord-nvim"; -- Manifest entry: "gbprod/nord.nvim"
+    pname = "nord-nvim"; # Manifest entry: "gbprod/nord.nvim"
     version = "2023-02-04";
     src = fetchurl {
       url = "https://github.com/gbprod/nord.nvim/archive/70df2b61de21b953fd577f292a973cd22e0ca686.tar.gz";
@@ -3015,7 +3015,7 @@
     };
   };
   gbprod-nord-nvim = buildVimPluginFrom2Nix {
-    pname = "gbprod-nord-nvim"; -- Manifest entry: "gbprod/nord.nvim::gbprod-nord-nvim"
+    pname = "gbprod-nord-nvim"; # Manifest entry: "gbprod/nord.nvim::gbprod-nord-nvim"
     version = "2023-02-04";
     src = fetchurl {
       url = "https://github.com/gbprod/nord.nvim/archive/70df2b61de21b953fd577f292a973cd22e0ca686.tar.gz";
@@ -3028,7 +3028,7 @@
     };
   };
   phpactor-nvim = buildVimPluginFrom2Nix {
-    pname = "phpactor-nvim"; -- Manifest entry: "gbprod/phpactor.nvim"
+    pname = "phpactor-nvim"; # Manifest entry: "gbprod/phpactor.nvim"
     version = "2022-10-03";
     src = fetchurl {
       url = "https://github.com/gbprod/phpactor.nvim/archive/994e513f4627fd448c360391d002326f52b074bd.tar.gz";
@@ -3040,7 +3040,7 @@
     };
   };
   stay-in-place-nvim = buildVimPluginFrom2Nix {
-    pname = "stay-in-place-nvim"; -- Manifest entry: "gbprod/stay-in-place.nvim"
+    pname = "stay-in-place-nvim"; # Manifest entry: "gbprod/stay-in-place.nvim"
     version = "2023-01-20";
     src = fetchurl {
       url = "https://github.com/gbprod/stay-in-place.nvim/archive/0628b6db8970fc731abf9608d6f80659b58932c9.tar.gz";
@@ -3053,7 +3053,7 @@
     };
   };
   substitute-nvim = buildVimPluginFrom2Nix {
-    pname = "substitute-nvim"; -- Manifest entry: "gbprod/substitute.nvim"
+    pname = "substitute-nvim"; # Manifest entry: "gbprod/substitute.nvim"
     version = "2023-01-23";
     src = fetchurl {
       url = "https://github.com/gbprod/substitute.nvim/archive/42d09f1e6324d98aa2e5b765b64528e0aefe72b0.tar.gz";
@@ -3066,7 +3066,7 @@
     };
   };
   yanky-nvim = buildVimPluginFrom2Nix {
-    pname = "yanky-nvim"; -- Manifest entry: "gbprod/yanky.nvim"
+    pname = "yanky-nvim"; # Manifest entry: "gbprod/yanky.nvim"
     version = "2023-02-04";
     src = fetchurl {
       url = "https://github.com/gbprod/yanky.nvim/archive/14b9c4cc572c3be5cf5b0a678e7ac240f08a8681.tar.gz";
@@ -3079,7 +3079,7 @@
     };
   };
   wilder-nvim = buildVimPluginFrom2Nix {
-    pname = "wilder-nvim"; -- Manifest entry: "gelguy/wilder.nvim"
+    pname = "wilder-nvim"; # Manifest entry: "gelguy/wilder.nvim"
     version = "2022-08-13";
     src = fetchurl {
       url = "https://github.com/gelguy/wilder.nvim/archive/679f348dc90d80ff9ba0e7c470c40a4d038dcecf.tar.gz";
@@ -3092,7 +3092,7 @@
     };
   };
   SmoothCursor-nvim = buildVimPluginFrom2Nix {
-    pname = "SmoothCursor-nvim"; -- Manifest entry: "gen740/SmoothCursor.nvim"
+    pname = "SmoothCursor-nvim"; # Manifest entry: "gen740/SmoothCursor.nvim"
     version = "2023-01-24";
     src = fetchurl {
       url = "https://github.com/gen740/SmoothCursor.nvim/archive/79f02173317a76ab406d182ac89b20b59f5e34fe.tar.gz";
@@ -3105,7 +3105,7 @@
     };
   };
   nvim-commaround = buildVimPluginFrom2Nix {
-    pname = "nvim-commaround"; -- Manifest entry: "gennaro-tedesco/nvim-commaround"
+    pname = "nvim-commaround"; # Manifest entry: "gennaro-tedesco/nvim-commaround"
     version = "2023-01-06";
     src = fetchurl {
       url = "https://github.com/gennaro-tedesco/nvim-commaround/archive/f0d4c7911d3a4c8c6da63df67457783c130655ef.tar.gz";
@@ -3118,7 +3118,7 @@
     };
   };
   nvim-jqx = buildVimPluginFrom2Nix {
-    pname = "nvim-jqx"; -- Manifest entry: "gennaro-tedesco/nvim-jqx"
+    pname = "nvim-jqx"; # Manifest entry: "gennaro-tedesco/nvim-jqx"
     version = "2022-09-21";
     src = fetchurl {
       url = "https://github.com/gennaro-tedesco/nvim-jqx/archive/24d3e0228aec27280e091d09ff65593e99d4d564.tar.gz";
@@ -3130,7 +3130,7 @@
     };
   };
   nvim-peekup = buildVimPluginFrom2Nix {
-    pname = "nvim-peekup"; -- Manifest entry: "gennaro-tedesco/nvim-peekup"
+    pname = "nvim-peekup"; # Manifest entry: "gennaro-tedesco/nvim-peekup"
     version = "2022-11-16";
     src = fetchurl {
       url = "https://github.com/gennaro-tedesco/nvim-peekup/archive/2e48f2e1ebc198f3624645f13f5ce64d20708272.tar.gz";
@@ -3143,7 +3143,7 @@
     };
   };
   nvim-possession = buildVimPluginFrom2Nix {
-    pname = "nvim-possession"; -- Manifest entry: "gennaro-tedesco/nvim-possession"
+    pname = "nvim-possession"; # Manifest entry: "gennaro-tedesco/nvim-possession"
     version = "2023-02-07";
     src = fetchurl {
       url = "https://github.com/gennaro-tedesco/nvim-possession/archive/5b6c083af72a1e2d443e3ae40a6c47f903825db7.tar.gz";
@@ -3155,7 +3155,7 @@
     };
   };
   fzf-lsp-nvim = buildVimPluginFrom2Nix {
-    pname = "fzf-lsp-nvim"; -- Manifest entry: "gfanto/fzf-lsp.nvim"
+    pname = "fzf-lsp-nvim"; # Manifest entry: "gfanto/fzf-lsp.nvim"
     version = "2023-02-02";
     src = fetchurl {
       url = "https://github.com/gfanto/fzf-lsp.nvim/archive/16905056051759b15a388709a3fa65ff098eb243.tar.gz";
@@ -3168,7 +3168,7 @@
     };
   };
   leap-nvim = buildVimPluginFrom2Nix {
-    pname = "leap-nvim"; -- Manifest entry: "ggandor/leap.nvim"
+    pname = "leap-nvim"; # Manifest entry: "ggandor/leap.nvim"
     version = "2023-02-04";
     src = fetchurl {
       url = "https://github.com/ggandor/leap.nvim/archive/f565a9c4d92245d8b619235bebeaa73cc38aa40e.tar.gz";
@@ -3181,7 +3181,7 @@
     };
   };
   lightspeed-nvim = buildVimPluginFrom2Nix {
-    pname = "lightspeed-nvim"; -- Manifest entry: "ggandor/lightspeed.nvim"
+    pname = "lightspeed-nvim"; # Manifest entry: "ggandor/lightspeed.nvim"
     version = "2022-10-21";
     src = fetchurl {
       url = "https://github.com/ggandor/lightspeed.nvim/archive/299eefa6a9e2d881f1194587c573dad619fdb96f.tar.gz";
@@ -3194,7 +3194,7 @@
     };
   };
   cybu-nvim = buildVimPluginFrom2Nix {
-    pname = "cybu-nvim"; -- Manifest entry: "ghillb/cybu.nvim"
+    pname = "cybu-nvim"; # Manifest entry: "ghillb/cybu.nvim"
     version = "2022-12-17";
     src = fetchurl {
       url = "https://github.com/ghillb/cybu.nvim/archive/395791b1e1177e3459c85415970ab8216b19a5dc.tar.gz";
@@ -3207,7 +3207,7 @@
     };
   };
   copilot-vim = buildVimPluginFrom2Nix {
-    pname = "copilot-vim"; -- Manifest entry: "github/copilot.vim"
+    pname = "copilot-vim"; # Manifest entry: "github/copilot.vim"
     version = "2023-02-01";
     src = fetchurl {
       url = "https://github.com/github/copilot.vim/archive/c7d166ebda265370f38cec374e33f02eeec2f857.tar.gz";
@@ -3219,7 +3219,7 @@
     };
   };
   firenvim = buildVimPluginFrom2Nix {
-    pname = "firenvim"; -- Manifest entry: "glacambre/firenvim"
+    pname = "firenvim"; # Manifest entry: "glacambre/firenvim"
     version = "2023-01-31";
     src = fetchurl {
       url = "https://github.com/glacambre/firenvim/archive/35b34ba566d9d9f6761cde3574f668d505c5137f.tar.gz";
@@ -3232,7 +3232,7 @@
     };
   };
   dashboard-nvim = buildVimPluginFrom2Nix {
-    pname = "dashboard-nvim"; -- Manifest entry: "glepnir/dashboard-nvim"
+    pname = "dashboard-nvim"; # Manifest entry: "glepnir/dashboard-nvim"
     version = "2023-02-09";
     src = fetchurl {
       url = "https://github.com/glepnir/dashboard-nvim/archive/4c85aa16ae3a85100f82bb03351f1423c9648e3e.tar.gz";
@@ -3245,7 +3245,7 @@
     };
   };
   indent-guides-nvim = buildVimPluginFrom2Nix {
-    pname = "indent-guides-nvim"; -- Manifest entry: "glepnir/indent-guides.nvim"
+    pname = "indent-guides-nvim"; # Manifest entry: "glepnir/indent-guides.nvim"
     version = "2021-03-26";
     src = fetchurl {
       url = "https://github.com/glepnir/indent-guides.nvim/archive/e261e5a43b5a05557a66b760a4132a6c502cc0e4.tar.gz";
@@ -3258,7 +3258,7 @@
     };
   };
   lspsaga-nvim = buildVimPluginFrom2Nix {
-    pname = "lspsaga-nvim"; -- Manifest entry: "glepnir/lspsaga.nvim"
+    pname = "lspsaga-nvim"; # Manifest entry: "glepnir/lspsaga.nvim"
     version = "2023-02-09";
     src = fetchurl {
       url = "https://github.com/glepnir/lspsaga.nvim/archive/598efc98320d01713eba2c1c8d77577b23abd827.tar.gz";
@@ -3271,7 +3271,7 @@
     };
   };
   prodoc-nvim = buildVimPluginFrom2Nix {
-    pname = "prodoc-nvim"; -- Manifest entry: "glepnir/prodoc.nvim"
+    pname = "prodoc-nvim"; # Manifest entry: "glepnir/prodoc.nvim"
     version = "2022-08-20";
     src = fetchurl {
       url = "https://github.com/glepnir/prodoc.nvim/archive/a0838640976165ed95ecbd49bf59eb26e930c1eb.tar.gz";
@@ -3284,7 +3284,7 @@
     };
   };
   zephyr-nvim = buildVimPluginFrom2Nix {
-    pname = "zephyr-nvim"; -- Manifest entry: "glepnir/zephyr-nvim"
+    pname = "zephyr-nvim"; # Manifest entry: "glepnir/zephyr-nvim"
     version = "2022-12-31";
     src = fetchurl {
       url = "https://github.com/glepnir/zephyr-nvim/archive/7fd86b7164442d3b5ec2c81b2694d040e716b5cf.tar.gz";
@@ -3297,7 +3297,7 @@
     };
   };
   projections-nvim = buildVimPluginFrom2Nix {
-    pname = "projections-nvim"; -- Manifest entry: "gnikdroy/projections.nvim"
+    pname = "projections-nvim"; # Manifest entry: "gnikdroy/projections.nvim"
     version = "2022-12-30";
     src = fetchurl {
       url = "https://github.com/GnikDroy/projections.nvim/archive/6820ad90343b5ec78f236bbe0e13d9c8078a0c48.tar.gz";
@@ -3310,7 +3310,7 @@
     };
   };
   alpha-nvim = buildVimPluginFrom2Nix {
-    pname = "alpha-nvim"; -- Manifest entry: "goolord/alpha-nvim"
+    pname = "alpha-nvim"; # Manifest entry: "goolord/alpha-nvim"
     version = "2023-02-09";
     src = fetchurl {
       url = "https://github.com/goolord/alpha-nvim/archive/0349fc0aa0c1d940ec3be395cb110483b416bc84.tar.gz";
@@ -3323,7 +3323,7 @@
     };
   };
   codewindow-nvim = buildVimPluginFrom2Nix {
-    pname = "codewindow-nvim"; -- Manifest entry: "gorbit99/codewindow.nvim"
+    pname = "codewindow-nvim"; # Manifest entry: "gorbit99/codewindow.nvim"
     version = "2023-01-18";
     src = fetchurl {
       url = "https://github.com/gorbit99/codewindow.nvim/archive/94d84e1a15b94248f205b854e70cb95f0b615b38.tar.gz";
@@ -3335,7 +3335,7 @@
     };
   };
   editorconfig-nvim = buildVimPluginFrom2Nix {
-    pname = "editorconfig-nvim"; -- Manifest entry: "gpanders/editorconfig.nvim"
+    pname = "editorconfig-nvim"; # Manifest entry: "gpanders/editorconfig.nvim"
     version = "2023-01-10";
     src = fetchurl {
       url = "https://github.com/gpanders/editorconfig.nvim/archive/5b9e303e1d6f7abfe616ce4cc8d3fffc554790bf.tar.gz";
@@ -3348,7 +3348,7 @@
     };
   };
   reaper-keys = buildVimPluginFrom2Nix {
-    pname = "reaper-keys"; -- Manifest entry: "gwatcha/reaper-keys"
+    pname = "reaper-keys"; # Manifest entry: "gwatcha/reaper-keys"
     version = "2021-08-23";
     src = fetchurl {
       url = "https://github.com/gwatcha/reaper-keys/archive/8435f68d16d75bf1358128f5cab62318c3c79b6f.tar.gz";
@@ -3361,7 +3361,7 @@
     };
   };
   fcitx-nvim = buildVimPluginFrom2Nix {
-    pname = "fcitx-nvim"; -- Manifest entry: "h-hg/fcitx.nvim"
+    pname = "fcitx-nvim"; # Manifest entry: "h-hg/fcitx.nvim"
     version = "2022-06-25";
     src = fetchurl {
       url = "https://github.com/h-hg/fcitx.nvim/archive/dcb6b70888aa893d3d223bb777d4117bbdac06a7.tar.gz";
@@ -3374,7 +3374,7 @@
     };
   };
   nvim-context-vt = buildVimPluginFrom2Nix {
-    pname = "nvim-context-vt"; -- Manifest entry: "haringsrob/nvim_context_vt"
+    pname = "nvim-context-vt"; # Manifest entry: "haringsrob/nvim_context_vt"
     version = "2022-09-14";
     src = fetchurl {
       url = "https://github.com/haringsrob/nvim_context_vt/archive/31436f34f3f95e4e70853cd653fdf78246cb0e85.tar.gz";
@@ -3387,7 +3387,7 @@
     };
   };
   ataraxis-lua = buildVimPluginFrom2Nix {
-    pname = "ataraxis-lua"; -- Manifest entry: "sourcehut:henriquehbr/ataraxis.lua"
+    pname = "ataraxis-lua"; # Manifest entry: "sourcehut:henriquehbr/ataraxis.lua"
     version = "2022-07-31";
     src = fetchgit {
       url = "https://git.sr.ht/~henriquehbr/ataraxis.lua";
@@ -3400,7 +3400,7 @@
     };
   };
   nvim-startup-lua = buildVimPluginFrom2Nix {
-    pname = "nvim-startup-lua"; -- Manifest entry: "sourcehut:henriquehbr/nvim-startup.lua"
+    pname = "nvim-startup-lua"; # Manifest entry: "sourcehut:henriquehbr/nvim-startup.lua"
     version = "2022-07-31";
     src = fetchgit {
       url = "https://git.sr.ht/~henriquehbr/nvim-startup.lua";
@@ -3413,7 +3413,7 @@
     };
   };
   iron-nvim = buildVimPluginFrom2Nix {
-    pname = "iron-nvim"; -- Manifest entry: "hkupty/iron.nvim"
+    pname = "iron-nvim"; # Manifest entry: "hkupty/iron.nvim"
     version = "2022-12-29";
     src = fetchurl {
       url = "https://github.com/hkupty/iron.nvim/archive/f4131638454aeb96cbd92652dd8c396e48eb4118.tar.gz";
@@ -3426,7 +3426,7 @@
     };
   };
   nvimux = buildVimPluginFrom2Nix {
-    pname = "nvimux"; -- Manifest entry: "hkupty/nvimux"
+    pname = "nvimux"; # Manifest entry: "hkupty/nvimux"
     version = "2022-05-02";
     src = fetchurl {
       url = "https://github.com/hkupty/nvimux/archive/a2cd0cab0acf6c37d999e0cfd199a9fa126a8dcf.tar.gz";
@@ -3439,7 +3439,7 @@
     };
   };
   vim-emacscommandline = buildVimPluginFrom2Nix {
-    pname = "vim-emacscommandline"; -- Manifest entry: "houtsnip/vim-emacscommandline"
+    pname = "vim-emacscommandline"; # Manifest entry: "houtsnip/vim-emacscommandline"
     version = "2017-11-24";
     src = fetchurl {
       url = "https://github.com/houtsnip/vim-emacscommandline/archive/3363eeb1f958bd0630448fdaa5f19ba7a834b343.tar.gz";
@@ -3451,7 +3451,7 @@
     };
   };
   cmp-buffer = buildVimPluginFrom2Nix {
-    pname = "cmp-buffer"; -- Manifest entry: "hrsh7th/cmp-buffer"
+    pname = "cmp-buffer"; # Manifest entry: "hrsh7th/cmp-buffer"
     version = "2022-08-10";
     src = fetchurl {
       url = "https://github.com/hrsh7th/cmp-buffer/archive/3022dbc9166796b644a841a02de8dd1cc1d311fa.tar.gz";
@@ -3464,7 +3464,7 @@
     };
   };
   cmp-calc = buildVimPluginFrom2Nix {
-    pname = "cmp-calc"; -- Manifest entry: "hrsh7th/cmp-calc"
+    pname = "cmp-calc"; # Manifest entry: "hrsh7th/cmp-calc"
     version = "2022-11-16";
     src = fetchurl {
       url = "https://github.com/hrsh7th/cmp-calc/archive/50792f34a628ea6eb31d2c90e8df174671e4e7a0.tar.gz";
@@ -3476,7 +3476,7 @@
     };
   };
   cmp-cmdline = buildVimPluginFrom2Nix {
-    pname = "cmp-cmdline"; -- Manifest entry: "hrsh7th/cmp-cmdline"
+    pname = "cmp-cmdline"; # Manifest entry: "hrsh7th/cmp-cmdline"
     version = "2022-11-27";
     src = fetchurl {
       url = "https://github.com/hrsh7th/cmp-cmdline/archive/23c51b2a3c00f6abc4e922dbd7c3b9aca6992063.tar.gz";
@@ -3488,7 +3488,7 @@
     };
   };
   cmp-copilot = buildVimPluginFrom2Nix {
-    pname = "cmp-copilot"; -- Manifest entry: "hrsh7th/cmp-copilot"
+    pname = "cmp-copilot"; # Manifest entry: "hrsh7th/cmp-copilot"
     version = "2022-04-11";
     src = fetchurl {
       url = "https://github.com/hrsh7th/cmp-copilot/archive/1f3f31c54bd71e41ed157430702bc2837ea582ab.tar.gz";
@@ -3500,7 +3500,7 @@
     };
   };
   cmp-emoji = buildVimPluginFrom2Nix {
-    pname = "cmp-emoji"; -- Manifest entry: "hrsh7th/cmp-emoji"
+    pname = "cmp-emoji"; # Manifest entry: "hrsh7th/cmp-emoji"
     version = "2021-09-28";
     src = fetchurl {
       url = "https://github.com/hrsh7th/cmp-emoji/archive/19075c36d5820253d32e2478b6aaf3734aeaafa0.tar.gz";
@@ -3512,7 +3512,7 @@
     };
   };
   cmp-nvim-lsp = buildVimPluginFrom2Nix {
-    pname = "cmp-nvim-lsp"; -- Manifest entry: "hrsh7th/cmp-nvim-lsp"
+    pname = "cmp-nvim-lsp"; # Manifest entry: "hrsh7th/cmp-nvim-lsp"
     version = "2023-02-06";
     src = fetchurl {
       url = "https://github.com/hrsh7th/cmp-nvim-lsp/archive/0e6b2ed705ddcff9738ec4ea838141654f12eeef.tar.gz";
@@ -3525,7 +3525,7 @@
     };
   };
   cmp-nvim-lsp-document-symbol = buildVimPluginFrom2Nix {
-    pname = "cmp-nvim-lsp-document-symbol"; -- Manifest entry: "hrsh7th/cmp-nvim-lsp-document-symbol"
+    pname = "cmp-nvim-lsp-document-symbol"; # Manifest entry: "hrsh7th/cmp-nvim-lsp-document-symbol"
     version = "2022-10-24";
     src = fetchurl {
       url = "https://github.com/hrsh7th/cmp-nvim-lsp-document-symbol/archive/069a207be6a0327dcc62c957dbb38156b210733a.tar.gz";
@@ -3537,7 +3537,7 @@
     };
   };
   cmp-nvim-lsp-signature-help = buildVimPluginFrom2Nix {
-    pname = "cmp-nvim-lsp-signature-help"; -- Manifest entry: "hrsh7th/cmp-nvim-lsp-signature-help"
+    pname = "cmp-nvim-lsp-signature-help"; # Manifest entry: "hrsh7th/cmp-nvim-lsp-signature-help"
     version = "2023-02-03";
     src = fetchurl {
       url = "https://github.com/hrsh7th/cmp-nvim-lsp-signature-help/archive/3d8912ebeb56e5ae08ef0906e3a54de1c66b92f1.tar.gz";
@@ -3549,7 +3549,7 @@
     };
   };
   cmp-nvim-lua = buildVimPluginFrom2Nix {
-    pname = "cmp-nvim-lua"; -- Manifest entry: "hrsh7th/cmp-nvim-lua"
+    pname = "cmp-nvim-lua"; # Manifest entry: "hrsh7th/cmp-nvim-lua"
     version = "2023-01-05";
     src = fetchurl {
       url = "https://github.com/hrsh7th/cmp-nvim-lua/archive/f3491638d123cfd2c8048aefaf66d246ff250ca6.tar.gz";
@@ -3561,7 +3561,7 @@
     };
   };
   cmp-omni = buildVimPluginFrom2Nix {
-    pname = "cmp-omni"; -- Manifest entry: "hrsh7th/cmp-omni"
+    pname = "cmp-omni"; # Manifest entry: "hrsh7th/cmp-omni"
     version = "2022-11-17";
     src = fetchurl {
       url = "https://github.com/hrsh7th/cmp-omni/archive/8457e4144ea2fc5efbadb7d22250d5ee8f8862ba.tar.gz";
@@ -3573,7 +3573,7 @@
     };
   };
   cmp-path = buildVimPluginFrom2Nix {
-    pname = "cmp-path"; -- Manifest entry: "hrsh7th/cmp-path"
+    pname = "cmp-path"; # Manifest entry: "hrsh7th/cmp-path"
     version = "2022-10-03";
     src = fetchurl {
       url = "https://github.com/hrsh7th/cmp-path/archive/91ff86cd9c29299a64f968ebb45846c485725f23.tar.gz";
@@ -3586,7 +3586,7 @@
     };
   };
   cmp-vsnip = buildVimPluginFrom2Nix {
-    pname = "cmp-vsnip"; -- Manifest entry: "hrsh7th/cmp-vsnip"
+    pname = "cmp-vsnip"; # Manifest entry: "hrsh7th/cmp-vsnip"
     version = "2022-11-22";
     src = fetchurl {
       url = "https://github.com/hrsh7th/cmp-vsnip/archive/989a8a73c44e926199bfd05fa7a516d51f2d2752.tar.gz";
@@ -3599,7 +3599,7 @@
     };
   };
   nvim-cmp = buildVimPluginFrom2Nix {
-    pname = "nvim-cmp"; -- Manifest entry: "hrsh7th/nvim-cmp"
+    pname = "nvim-cmp"; # Manifest entry: "hrsh7th/nvim-cmp"
     version = "2023-02-03";
     src = fetchurl {
       url = "https://github.com/hrsh7th/nvim-cmp/archive/cfafe0a1ca8933f7b7968a287d39904156f2c57d.tar.gz";
@@ -3612,7 +3612,7 @@
     };
   };
   vim-hy = buildVimPluginFrom2Nix {
-    pname = "vim-hy"; -- Manifest entry: "hylang/vim-hy"
+    pname = "vim-hy"; # Manifest entry: "hylang/vim-hy"
     version = "2022-07-18";
     src = fetchurl {
       url = "https://github.com/hylang/vim-hy/archive/650574a6095c8d911b471a9f5814129a373728af.tar.gz";
@@ -3624,7 +3624,7 @@
     };
   };
   coc-tailwindcss = buildVimPluginFrom2Nix {
-    pname = "coc-tailwindcss"; -- Manifest entry: "iamcco/coc-tailwindcss"
+    pname = "coc-tailwindcss"; # Manifest entry: "iamcco/coc-tailwindcss"
     version = "2020-08-19";
     src = fetchurl {
       url = "https://github.com/iamcco/coc-tailwindcss/archive/5f41aa1feb36e39b95ccd83be6a37ee8c475f9fb.tar.gz";
@@ -3637,7 +3637,7 @@
     };
   };
   fzf-lua = buildVimPluginFrom2Nix {
-    pname = "fzf-lua"; -- Manifest entry: "ibhagwan/fzf-lua"
+    pname = "fzf-lua"; # Manifest entry: "ibhagwan/fzf-lua"
     version = "2023-02-07";
     src = fetchurl {
       url = "https://github.com/ibhagwan/fzf-lua/archive/cddb1c3b23bf6f3e56435410a28e43c2c954b350.tar.gz";
@@ -3650,7 +3650,7 @@
     };
   };
   nvim-buffls = buildVimPluginFrom2Nix {
-    pname = "nvim-buffls"; -- Manifest entry: "idanarye/nvim-buffls"
+    pname = "nvim-buffls"; # Manifest entry: "idanarye/nvim-buffls"
     version = "2023-01-11";
     src = fetchurl {
       url = "https://github.com/idanarye/nvim-buffls/archive/9230744bdd6bb62039c1f93728316cc51970c2f0.tar.gz";
@@ -3663,7 +3663,7 @@
     };
   };
   nvim-channelot = buildVimPluginFrom2Nix {
-    pname = "nvim-channelot"; -- Manifest entry: "idanarye/nvim-channelot"
+    pname = "nvim-channelot"; # Manifest entry: "idanarye/nvim-channelot"
     version = "2023-01-11";
     src = fetchurl {
       url = "https://github.com/idanarye/nvim-channelot/archive/43e4d0d4ead76ea5e4ccb0614d669c1a4a433893.tar.gz";
@@ -3676,11 +3676,11 @@
     };
   };
   nvim-moonicipal = buildVimPluginFrom2Nix {
-    pname = "nvim-moonicipal"; -- Manifest entry: "idanarye/nvim-moonicipal"
+    pname = "nvim-moonicipal"; # Manifest entry: "idanarye/nvim-moonicipal"
     version = "2023-02-09";
     src = fetchurl {
-      url = "https://github.com/idanarye/nvim-moonicipal/archive/682a09ff3d8b0fd6fd32f3faa14a970e3445a502.tar.gz";
-      sha256 = "0aszqkghh8zdqb63cg4f440cc1ly7621xgi8vhzcabln5qv7s5c3";
+      url = "https://github.com/idanarye/nvim-moonicipal/archive/c5d6ecd9baf276ba845e0fb0cad73e93a16a8179.tar.gz";
+      sha256 = "0hjwifis9wzfihgh1ra4nalypvygmmdwl9l1r3zghlhjy5y5fx2f";
     };
     meta = with lib; {
       description = "Task runner with focus on rapidly changing personal tasks";
@@ -3689,7 +3689,7 @@
     };
   };
   vim-fish-inkch = buildVimPluginFrom2Nix {
-    pname = "vim-fish-inkch"; -- Manifest entry: "inkch/vim-fish::vim-fish-inkch"
+    pname = "vim-fish-inkch"; # Manifest entry: "inkch/vim-fish::vim-fish-inkch"
     version = "2022-03-06";
     src = fetchurl {
       url = "https://github.com/inkch/vim-fish/archive/e648eaf250be676eef02b3e2c9e25eabfdb2ed75.tar.gz";
@@ -3702,7 +3702,7 @@
     };
   };
   fm-nvim = buildVimPluginFrom2Nix {
-    pname = "fm-nvim"; -- Manifest entry: "is0n/fm-nvim"
+    pname = "fm-nvim"; # Manifest entry: "is0n/fm-nvim"
     version = "2022-10-11";
     src = fetchurl {
       url = "https://github.com/is0n/fm-nvim/archive/8e6a77049330e7c797eb9e63affd75eb796fe75e.tar.gz";
@@ -3715,7 +3715,7 @@
     };
   };
   jaq-nvim = buildVimPluginFrom2Nix {
-    pname = "jaq-nvim"; -- Manifest entry: "is0n/jaq-nvim"
+    pname = "jaq-nvim"; # Manifest entry: "is0n/jaq-nvim"
     version = "2022-10-11";
     src = fetchurl {
       url = "https://github.com/is0n/jaq-nvim/archive/236296aae555657487d1bb4d066cbde9d79d8cd4.tar.gz";
@@ -3728,7 +3728,7 @@
     };
   };
   modus-theme-vim = buildVimPluginFrom2Nix {
-    pname = "modus-theme-vim"; -- Manifest entry: "ishan9299/modus-theme-vim"
+    pname = "modus-theme-vim"; # Manifest entry: "ishan9299/modus-theme-vim"
     version = "2022-10-09";
     src = fetchurl {
       url = "https://github.com/ishan9299/modus-theme-vim/archive/4d827fbf1aad55f4d62225f7b999efc5023864a3.tar.gz";
@@ -3741,7 +3741,7 @@
     };
   };
   nvim-solarized-lua = buildVimPluginFrom2Nix {
-    pname = "nvim-solarized-lua"; -- Manifest entry: "ishan9299/nvim-solarized-lua"
+    pname = "nvim-solarized-lua"; # Manifest entry: "ishan9299/nvim-solarized-lua"
     version = "2022-11-19";
     src = fetchurl {
       url = "https://github.com/ishan9299/nvim-solarized-lua/archive/7bd46fa036bde6b4483fb7403b0a7b0754faeeaa.tar.gz";
@@ -3754,7 +3754,7 @@
     };
   };
   fidget-nvim = buildVimPluginFrom2Nix {
-    pname = "fidget-nvim"; -- Manifest entry: "j-hui/fidget.nvim"
+    pname = "fidget-nvim"; # Manifest entry: "j-hui/fidget.nvim"
     version = "2023-02-06";
     src = fetchurl {
       url = "https://github.com/j-hui/fidget.nvim/archive/9dc6d15fdb877b2fb09ea0ba2dfde9beccb5965a.tar.gz";
@@ -3767,7 +3767,7 @@
     };
   };
   buffer-manager-nvim = buildVimPluginFrom2Nix {
-    pname = "buffer-manager-nvim"; -- Manifest entry: "j-morano/buffer_manager.nvim"
+    pname = "buffer-manager-nvim"; # Manifest entry: "j-morano/buffer_manager.nvim"
     version = "2023-01-23";
     src = fetchurl {
       url = "https://github.com/j-morano/buffer_manager.nvim/archive/7b7866fcd7fca67115955188dd043af8c88c5265.tar.gz";
@@ -3780,7 +3780,7 @@
     };
   };
   mkdnflow-nvim = buildVimPluginFrom2Nix {
-    pname = "mkdnflow-nvim"; -- Manifest entry: "jakewvincent/mkdnflow.nvim"
+    pname = "mkdnflow-nvim"; # Manifest entry: "jakewvincent/mkdnflow.nvim"
     version = "2023-01-12";
     src = fetchurl {
       url = "https://github.com/jakewvincent/mkdnflow.nvim/archive/941c3a4aee26b28573ac3b67ace2dfd84fc7964c.tar.gz";
@@ -3793,7 +3793,7 @@
     };
   };
   texmagic-nvim = buildVimPluginFrom2Nix {
-    pname = "texmagic-nvim"; -- Manifest entry: "jakewvincent/texmagic.nvim"
+    pname = "texmagic-nvim"; # Manifest entry: "jakewvincent/texmagic.nvim"
     version = "2022-05-15";
     src = fetchurl {
       url = "https://github.com/jakewvincent/texmagic.nvim/archive/3c0d3b63c62486f02807663f5c5948e8b237b182.tar.gz";
@@ -3806,7 +3806,7 @@
     };
   };
   nvim-magic = buildVimPluginFrom2Nix {
-    pname = "nvim-magic"; -- Manifest entry: "jameshiew/nvim-magic"
+    pname = "nvim-magic"; # Manifest entry: "jameshiew/nvim-magic"
     version = "2022-12-10";
     src = fetchurl {
       url = "https://github.com/jameshiew/nvim-magic/archive/9d306f5ac272eb7f7bf9b81d80f25e9973316a97.tar.gz";
@@ -3819,7 +3819,7 @@
     };
   };
   nvim-remote-containers = buildVimPluginFrom2Nix {
-    pname = "nvim-remote-containers"; -- Manifest entry: "jamestthompson3/nvim-remote-containers"
+    pname = "nvim-remote-containers"; # Manifest entry: "jamestthompson3/nvim-remote-containers"
     version = "2022-11-03";
     src = fetchurl {
       url = "https://github.com/jamestthompson3/nvim-remote-containers/archive/5c689be74f726806754d67de4eb21539c8efb620.tar.gz";
@@ -3831,7 +3831,7 @@
     };
   };
   carrot-nvim = buildVimPluginFrom2Nix {
-    pname = "carrot-nvim"; -- Manifest entry: "jbyuki/carrot.nvim"
+    pname = "carrot-nvim"; # Manifest entry: "jbyuki/carrot.nvim"
     version = "2022-10-12";
     src = fetchurl {
       url = "https://github.com/jbyuki/carrot.nvim/archive/b6449b321664de482a8d943671e8e7a3504444be.tar.gz";
@@ -3844,7 +3844,7 @@
     };
   };
   instant-nvim = buildVimPluginFrom2Nix {
-    pname = "instant-nvim"; -- Manifest entry: "jbyuki/instant.nvim"
+    pname = "instant-nvim"; # Manifest entry: "jbyuki/instant.nvim"
     version = "2022-06-25";
     src = fetchurl {
       url = "https://github.com/jbyuki/instant.nvim/archive/294b6d08143b3db8f9db7f606829270149e1a786.tar.gz";
@@ -3857,7 +3857,7 @@
     };
   };
   nabla-nvim = buildVimPluginFrom2Nix {
-    pname = "nabla-nvim"; -- Manifest entry: "jbyuki/nabla.nvim"
+    pname = "nabla-nvim"; # Manifest entry: "jbyuki/nabla.nvim"
     version = "2023-02-02";
     src = fetchurl {
       url = "https://github.com/jbyuki/nabla.nvim/archive/ddbfc6e244e79db9280c535ee85c81388c5d1b46.tar.gz";
@@ -3870,7 +3870,7 @@
     };
   };
   one-small-step-for-vimkind = buildVimPluginFrom2Nix {
-    pname = "one-small-step-for-vimkind"; -- Manifest entry: "jbyuki/one-small-step-for-vimkind"
+    pname = "one-small-step-for-vimkind"; # Manifest entry: "jbyuki/one-small-step-for-vimkind"
     version = "2023-01-29";
     src = fetchurl {
       url = "https://github.com/jbyuki/one-small-step-for-vimkind/archive/aef1bdbb8347e6daaf33d5109002f3df243ebfe9.tar.gz";
@@ -3883,7 +3883,7 @@
     };
   };
   venn-nvim = buildVimPluginFrom2Nix {
-    pname = "venn-nvim"; -- Manifest entry: "jbyuki/venn.nvim"
+    pname = "venn-nvim"; # Manifest entry: "jbyuki/venn.nvim"
     version = "2022-11-22";
     src = fetchurl {
       url = "https://github.com/jbyuki/venn.nvim/archive/c114563960b8fb1197695d42798d1f3e7190b798.tar.gz";
@@ -3896,7 +3896,7 @@
     };
   };
   cmp-pandoc-references = buildVimPluginFrom2Nix {
-    pname = "cmp-pandoc-references"; -- Manifest entry: "jc-doyle/cmp-pandoc-references"
+    pname = "cmp-pandoc-references"; # Manifest entry: "jc-doyle/cmp-pandoc-references"
     version = "2022-04-20";
     src = fetchurl {
       url = "https://github.com/jc-doyle/cmp-pandoc-references/archive/2c808dff631a783ddd2c554c4c6033907589baf6.tar.gz";
@@ -3908,7 +3908,7 @@
     };
   };
   possession-nvim = buildVimPluginFrom2Nix {
-    pname = "possession-nvim"; -- Manifest entry: "jedrzejboczar/possession.nvim"
+    pname = "possession-nvim"; # Manifest entry: "jedrzejboczar/possession.nvim"
     version = "2023-02-05";
     src = fetchurl {
       url = "https://github.com/jedrzejboczar/possession.nvim/archive/e3b2107020e9c804a4015fb1920f0834e349ab31.tar.gz";
@@ -3921,7 +3921,7 @@
     };
   };
   toggletasks-nvim = buildVimPluginFrom2Nix {
-    pname = "toggletasks-nvim"; -- Manifest entry: "jedrzejboczar/toggletasks.nvim"
+    pname = "toggletasks-nvim"; # Manifest entry: "jedrzejboczar/toggletasks.nvim"
     version = "2022-11-29";
     src = fetchurl {
       url = "https://github.com/jedrzejboczar/toggletasks.nvim/archive/8567f91a0eb42f17e9134fe1fed7bfce16918ba4.tar.gz";
@@ -3934,7 +3934,7 @@
     };
   };
   auto-pandoc-nvim = buildVimPluginFrom2Nix {
-    pname = "auto-pandoc-nvim"; -- Manifest entry: "jghauser/auto-pandoc.nvim"
+    pname = "auto-pandoc-nvim"; # Manifest entry: "jghauser/auto-pandoc.nvim"
     version = "2022-09-05";
     src = fetchurl {
       url = "https://github.com/jghauser/auto-pandoc.nvim/archive/a2906258db9813745c479b87a7058253d5e60d17.tar.gz";
@@ -3947,7 +3947,7 @@
     };
   };
   fold-cycle-nvim = buildVimPluginFrom2Nix {
-    pname = "fold-cycle-nvim"; -- Manifest entry: "jghauser/fold-cycle.nvim"
+    pname = "fold-cycle-nvim"; # Manifest entry: "jghauser/fold-cycle.nvim"
     version = "2023-01-07";
     src = fetchurl {
       url = "https://github.com/jghauser/fold-cycle.nvim/archive/35bb75c17c364776db8544c7b0a46093f33caa0e.tar.gz";
@@ -3960,7 +3960,7 @@
     };
   };
   follow-md-links-nvim = buildVimPluginFrom2Nix {
-    pname = "follow-md-links-nvim"; -- Manifest entry: "jghauser/follow-md-links.nvim"
+    pname = "follow-md-links-nvim"; # Manifest entry: "jghauser/follow-md-links.nvim"
     version = "2022-10-06";
     src = fetchurl {
       url = "https://github.com/jghauser/follow-md-links.nvim/archive/ccc50e7ba191e62b4243ddd3db9b7dbddf2ee179.tar.gz";
@@ -3973,7 +3973,7 @@
     };
   };
   kitty-runner-nvim = buildVimPluginFrom2Nix {
-    pname = "kitty-runner-nvim"; -- Manifest entry: "jghauser/kitty-runner.nvim"
+    pname = "kitty-runner-nvim"; # Manifest entry: "jghauser/kitty-runner.nvim"
     version = "2022-09-07";
     src = fetchurl {
       url = "https://github.com/jghauser/kitty-runner.nvim/archive/c41158a16af49180540cb0085c82ba4be5b395d2.tar.gz";
@@ -3986,7 +3986,7 @@
     };
   };
   mkdir-nvim = buildVimPluginFrom2Nix {
-    pname = "mkdir-nvim"; -- Manifest entry: "jghauser/mkdir.nvim"
+    pname = "mkdir-nvim"; # Manifest entry: "jghauser/mkdir.nvim"
     version = "2022-07-23";
     src = fetchurl {
       url = "https://github.com/jghauser/mkdir.nvim/archive/c55d1dee4f099528a1853b28bb28caa802eba217.tar.gz";
@@ -3999,7 +3999,7 @@
     };
   };
   papis-nvim = buildVimPluginFrom2Nix {
-    pname = "papis-nvim"; -- Manifest entry: "jghauser/papis.nvim"
+    pname = "papis-nvim"; # Manifest entry: "jghauser/papis.nvim"
     version = "2022-12-24";
     src = fetchurl {
       url = "https://github.com/jghauser/papis.nvim/archive/4023d30b336c147b12a249ce103561d03fbedef8.tar.gz";
@@ -4012,7 +4012,7 @@
     };
   };
   ariake-vim-colors = buildVimPluginFrom2Nix {
-    pname = "ariake-vim-colors"; -- Manifest entry: "jim-at-jibba/ariake-vim-colors"
+    pname = "ariake-vim-colors"; # Manifest entry: "jim-at-jibba/ariake-vim-colors"
     version = "2021-02-23";
     src = fetchurl {
       url = "https://github.com/jim-at-jibba/ariake-vim-colors/archive/9fb35f1255e475631c9df24ecc5485a40360cc7b.tar.gz";
@@ -4024,7 +4024,7 @@
     };
   };
   LspUI-nvim = buildVimPluginFrom2Nix {
-    pname = "LspUI-nvim"; -- Manifest entry: "jinzhongjia/LspUI.nvim"
+    pname = "LspUI-nvim"; # Manifest entry: "jinzhongjia/LspUI.nvim"
     version = "2023-02-08";
     src = fetchurl {
       url = "https://github.com/jinzhongjia/LspUI.nvim/archive/7abf386814eef1827c18b18ef993e9bf82dfa561.tar.gz";
@@ -4037,7 +4037,7 @@
     };
   };
   PS-manager-nvim = buildVimPluginFrom2Nix {
-    pname = "PS-manager-nvim"; -- Manifest entry: "jinzhongjia/PS_manager.nvim"
+    pname = "PS-manager-nvim"; # Manifest entry: "jinzhongjia/PS_manager.nvim"
     version = "2023-01-27";
     src = fetchurl {
       url = "https://github.com/jinzhongjia/PS_manager.nvim/archive/e3309607e463a4084286992c63c117b3a4a67c09.tar.gz";
@@ -4049,7 +4049,7 @@
     };
   };
   nterm-nvim = buildVimPluginFrom2Nix {
-    pname = "nterm-nvim"; -- Manifest entry: "jlesquembre/nterm.nvim"
+    pname = "nterm-nvim"; # Manifest entry: "jlesquembre/nterm.nvim"
     version = "2022-05-10";
     src = fetchurl {
       url = "https://github.com/jlesquembre/nterm.nvim/archive/cd7b7035d09144ee4ea49244bf5cb8ed68e499f8.tar.gz";
@@ -4062,7 +4062,7 @@
     };
   };
   nvim-smartbufs = buildVimPluginFrom2Nix {
-    pname = "nvim-smartbufs"; -- Manifest entry: "johann2357/nvim-smartbufs"
+    pname = "nvim-smartbufs"; # Manifest entry: "johann2357/nvim-smartbufs"
     version = "2021-06-14";
     src = fetchurl {
       url = "https://github.com/johann2357/nvim-smartbufs/archive/dddbfe258e41651554848d0e3421b35c1a0dcc37.tar.gz";
@@ -4075,7 +4075,7 @@
     };
   };
   null-ls-nvim = buildVimPluginFrom2Nix {
-    pname = "null-ls-nvim"; -- Manifest entry: "jose-elias-alvarez/null-ls.nvim"
+    pname = "null-ls-nvim"; # Manifest entry: "jose-elias-alvarez/null-ls.nvim"
     version = "2023-02-06";
     src = fetchurl {
       url = "https://github.com/jose-elias-alvarez/null-ls.nvim/archive/60b4a7167c79c7d04d1ff48b55f2235bf58158a7.tar.gz";
@@ -4087,7 +4087,7 @@
     };
   };
   nvim-lsp-ts-utils = buildVimPluginFrom2Nix {
-    pname = "nvim-lsp-ts-utils"; -- Manifest entry: "jose-elias-alvarez/nvim-lsp-ts-utils"
+    pname = "nvim-lsp-ts-utils"; # Manifest entry: "jose-elias-alvarez/nvim-lsp-ts-utils"
     version = "2022-07-17";
     src = fetchurl {
       url = "https://github.com/jose-elias-alvarez/nvim-lsp-ts-utils/archive/0a6a16ef292c9b61eac6dad00d52666c7f84b0e7.tar.gz";
@@ -4100,7 +4100,7 @@
     };
   };
   typescript-nvim = buildVimPluginFrom2Nix {
-    pname = "typescript-nvim"; -- Manifest entry: "jose-elias-alvarez/typescript.nvim"
+    pname = "typescript-nvim"; # Manifest entry: "jose-elias-alvarez/typescript.nvim"
     version = "2023-01-03";
     src = fetchurl {
       url = "https://github.com/jose-elias-alvarez/typescript.nvim/archive/f66d4472606cb24615dfb7dbc6557e779d177624.tar.gz";
@@ -4113,7 +4113,7 @@
     };
   };
   mdeval-nvim = buildVimPluginFrom2Nix {
-    pname = "mdeval-nvim"; -- Manifest entry: "jubnzv/mdeval.nvim"
+    pname = "mdeval-nvim"; # Manifest entry: "jubnzv/mdeval.nvim"
     version = "2022-10-30";
     src = fetchurl {
       url = "https://github.com/jubnzv/mdeval.nvim/archive/2654caf8ecaad702b50199d18e39cff23d81e0ba.tar.gz";
@@ -4126,7 +4126,7 @@
     };
   };
   virtual-types-nvim = buildVimPluginFrom2Nix {
-    pname = "virtual-types-nvim"; -- Manifest entry: "jubnzv/virtual-types.nvim"
+    pname = "virtual-types-nvim"; # Manifest entry: "jubnzv/virtual-types.nvim"
     version = "2022-11-01";
     src = fetchurl {
       url = "https://github.com/jubnzv/virtual-types.nvim/archive/12d55d6dc7cebddf4ab276b5934e02e0d41416a1.tar.gz";
@@ -4139,7 +4139,7 @@
     };
   };
   vim-easy-align = buildVimPluginFrom2Nix {
-    pname = "vim-easy-align"; -- Manifest entry: "junegunn/vim-easy-align"
+    pname = "vim-easy-align"; # Manifest entry: "junegunn/vim-easy-align"
     version = "2019-04-29";
     src = fetchurl {
       url = "https://github.com/junegunn/vim-easy-align/archive/12dd6316974f71ce333e360c0260b4e1f81169c3.tar.gz";
@@ -4151,7 +4151,7 @@
     };
   };
   telescope-zoxide = buildVimPluginFrom2Nix {
-    pname = "telescope-zoxide"; -- Manifest entry: "jvgrootveld/telescope-zoxide"
+    pname = "telescope-zoxide"; # Manifest entry: "jvgrootveld/telescope-zoxide"
     version = "2023-02-08";
     src = fetchurl {
       url = "https://github.com/jvgrootveld/telescope-zoxide/archive/68966349aa1b8e9ade403e18479ecf79447389a7.tar.gz";
@@ -4164,7 +4164,7 @@
     };
   };
   nvim-juliana = buildVimPluginFrom2Nix {
-    pname = "nvim-juliana"; -- Manifest entry: "kaiuri/nvim-juliana"
+    pname = "nvim-juliana"; # Manifest entry: "kaiuri/nvim-juliana"
     version = "2023-02-06";
     src = fetchurl {
       url = "https://github.com/kaiuri/nvim-juliana/archive/b5604683198fce5bc35c1141d36d89ce4abbb49b.tar.gz";
@@ -4177,7 +4177,7 @@
     };
   };
   vim-textobj-indent = buildVimPluginFrom2Nix {
-    pname = "vim-textobj-indent"; -- Manifest entry: "kana/vim-textobj-indent"
+    pname = "vim-textobj-indent"; # Manifest entry: "kana/vim-textobj-indent"
     version = "2013-01-18";
     src = fetchurl {
       url = "https://github.com/kana/vim-textobj-indent/archive/deb76867c302f933c8f21753806cbf2d8461b548.tar.gz";
@@ -4189,7 +4189,7 @@
     };
   };
   neoscroll-nvim = buildVimPluginFrom2Nix {
-    pname = "neoscroll-nvim"; -- Manifest entry: "karb94/neoscroll.nvim"
+    pname = "neoscroll-nvim"; # Manifest entry: "karb94/neoscroll.nvim"
     version = "2023-01-15";
     src = fetchurl {
       url = "https://github.com/karb94/neoscroll.nvim/archive/d7601c26c8a183fa8994ed339e70c2d841253e93.tar.gz";
@@ -4202,7 +4202,7 @@
     };
   };
   close-buffers-nvim = buildVimPluginFrom2Nix {
-    pname = "close-buffers-nvim"; -- Manifest entry: "kazhala/close-buffers.nvim"
+    pname = "close-buffers-nvim"; # Manifest entry: "kazhala/close-buffers.nvim"
     version = "2021-11-14";
     src = fetchurl {
       url = "https://github.com/kazhala/close-buffers.nvim/archive/3acbcad1211572342632a6c0151f839e7dead27f.tar.gz";
@@ -4215,7 +4215,7 @@
     };
   };
   cmp-latex-symbols = buildVimPluginFrom2Nix {
-    pname = "cmp-latex-symbols"; -- Manifest entry: "kdheepak/cmp-latex-symbols"
+    pname = "cmp-latex-symbols"; # Manifest entry: "kdheepak/cmp-latex-symbols"
     version = "2023-01-23";
     src = fetchurl {
       url = "https://github.com/kdheepak/cmp-latex-symbols/archive/165fb66afdbd016eaa1570e41672c4c557b57124.tar.gz";
@@ -4228,7 +4228,7 @@
     };
   };
   lazygit-nvim = buildVimPluginFrom2Nix {
-    pname = "lazygit-nvim"; -- Manifest entry: "kdheepak/lazygit.nvim"
+    pname = "lazygit-nvim"; # Manifest entry: "kdheepak/lazygit.nvim"
     version = "2022-11-05";
     src = fetchurl {
       url = "https://github.com/kdheepak/lazygit.nvim/archive/32bffdebe273e571588f25c8a708ca7297928617.tar.gz";
@@ -4241,7 +4241,7 @@
     };
   };
   monochrome-nvim = buildVimPluginFrom2Nix {
-    pname = "monochrome-nvim"; -- Manifest entry: "kdheepak/monochrome.nvim"
+    pname = "monochrome-nvim"; # Manifest entry: "kdheepak/monochrome.nvim"
     version = "2021-07-14";
     src = fetchurl {
       url = "https://github.com/kdheepak/monochrome.nvim/archive/2de78d9688ea4a177bcd9be554ab9192337d35ff.tar.gz";
@@ -4254,7 +4254,7 @@
     };
   };
   panvimdoc = buildVimPluginFrom2Nix {
-    pname = "panvimdoc"; -- Manifest entry: "kdheepak/panvimdoc"
+    pname = "panvimdoc"; # Manifest entry: "kdheepak/panvimdoc"
     version = "2022-12-30";
     src = fetchurl {
       url = "https://github.com/kdheepak/panvimdoc/archive/542eb202d2f444dde5004fe27d9a90a50be6866c.tar.gz";
@@ -4267,7 +4267,7 @@
     };
   };
   tabline-nvim = buildVimPluginFrom2Nix {
-    pname = "tabline-nvim"; -- Manifest entry: "kdheepak/tabline.nvim"
+    pname = "tabline-nvim"; # Manifest entry: "kdheepak/tabline.nvim"
     version = "2022-06-13";
     src = fetchurl {
       url = "https://github.com/kdheepak/tabline.nvim/archive/5d76dc8616b4b7b892229cc05cd0f4cd0200077a.tar.gz";
@@ -4280,7 +4280,7 @@
     };
   };
   im-select-nvim = buildVimPluginFrom2Nix {
-    pname = "im-select-nvim"; -- Manifest entry: "keaising/im-select.nvim"
+    pname = "im-select-nvim"; # Manifest entry: "keaising/im-select.nvim"
     version = "2023-02-01";
     src = fetchurl {
       url = "https://github.com/keaising/im-select.nvim/archive/eb758ad0a56e0667850a53ac4c816d0745fb35d2.tar.gz";
@@ -4293,7 +4293,7 @@
     };
   };
   nvim-bqf = buildVimPluginFrom2Nix {
-    pname = "nvim-bqf"; -- Manifest entry: "kevinhwang91/nvim-bqf"
+    pname = "nvim-bqf"; # Manifest entry: "kevinhwang91/nvim-bqf"
     version = "2023-02-08";
     src = fetchurl {
       url = "https://github.com/kevinhwang91/nvim-bqf/archive/7a278012efb0a12bc49ecc3e16ec5591c41fae88.tar.gz";
@@ -4306,7 +4306,7 @@
     };
   };
   nvim-hlslens = buildVimPluginFrom2Nix {
-    pname = "nvim-hlslens"; -- Manifest entry: "kevinhwang91/nvim-hlslens"
+    pname = "nvim-hlslens"; # Manifest entry: "kevinhwang91/nvim-hlslens"
     version = "2023-02-01";
     src = fetchurl {
       url = "https://github.com/kevinhwang91/nvim-hlslens/archive/5e3e9088fba7508cee3612ee50b14dfdd3ab19af.tar.gz";
@@ -4319,7 +4319,7 @@
     };
   };
   nvim-ufo = buildVimPluginFrom2Nix {
-    pname = "nvim-ufo"; -- Manifest entry: "kevinhwang91/nvim-ufo"
+    pname = "nvim-ufo"; # Manifest entry: "kevinhwang91/nvim-ufo"
     version = "2023-02-03";
     src = fetchurl {
       url = "https://github.com/kevinhwang91/nvim-ufo/archive/b70c9ef0f8e2673a11387a39185ff249e00df19f.tar.gz";
@@ -4332,7 +4332,7 @@
     };
   };
   rnvimr = buildVimPluginFrom2Nix {
-    pname = "rnvimr"; -- Manifest entry: "kevinhwang91/rnvimr"
+    pname = "rnvimr"; # Manifest entry: "kevinhwang91/rnvimr"
     version = "2023-02-01";
     src = fetchurl {
       url = "https://github.com/kevinhwang91/rnvimr/archive/40b4e0be0231eabc7406168b432d507c6b6332f9.tar.gz";
@@ -4345,7 +4345,7 @@
     };
   };
   s3edit-nvim = buildVimPluginFrom2Nix {
-    pname = "s3edit-nvim"; -- Manifest entry: "kiran94/s3edit.nvim"
+    pname = "s3edit-nvim"; # Manifest entry: "kiran94/s3edit.nvim"
     version = "2022-10-19";
     src = fetchurl {
       url = "https://github.com/kiran94/s3edit.nvim/archive/a7e215e7aa8bc97318d9b11f48d03c866caa4d2a.tar.gz";
@@ -4358,7 +4358,7 @@
     };
   };
   sqlite-lua = buildVimPluginFrom2Nix {
-    pname = "sqlite-lua"; -- Manifest entry: "kkharji/sqlite.lua"
+    pname = "sqlite-lua"; # Manifest entry: "kkharji/sqlite.lua"
     version = "2023-01-23";
     src = fetchurl {
       url = "https://github.com/kkharji/sqlite.lua/archive/93ff5824682ecc874200e338fd8ca9ccd08508f8.tar.gz";
@@ -4371,7 +4371,7 @@
     };
   };
   nvim-config-local = buildVimPluginFrom2Nix {
-    pname = "nvim-config-local"; -- Manifest entry: "klen/nvim-config-local"
+    pname = "nvim-config-local"; # Manifest entry: "klen/nvim-config-local"
     version = "2022-03-26";
     src = fetchurl {
       url = "https://github.com/klen/nvim-config-local/archive/af59d6344e555917209f7304709bbff7cea9b5cc.tar.gz";
@@ -4384,7 +4384,7 @@
     };
   };
   nvim-test = buildVimPluginFrom2Nix {
-    pname = "nvim-test"; -- Manifest entry: "klen/nvim-test"
+    pname = "nvim-test"; # Manifest entry: "klen/nvim-test"
     version = "2023-02-02";
     src = fetchurl {
       url = "https://github.com/klen/nvim-test/archive/4e30d0772a43bd67ff299cfe201964c5bd799d73.tar.gz";
@@ -4397,7 +4397,7 @@
     };
   };
   kmonad-vim = buildVimPluginFrom2Nix {
-    pname = "kmonad-vim"; -- Manifest entry: "kmonad/kmonad-vim"
+    pname = "kmonad-vim"; # Manifest entry: "kmonad/kmonad-vim"
     version = "2022-03-20";
     src = fetchurl {
       url = "https://github.com/kmonad/kmonad-vim/archive/37978445197ab00edeb5b731e9ca90c2b141723f.tar.gz";
@@ -4410,7 +4410,7 @@
     };
   };
   peepsight-nvim = buildVimPluginFrom2Nix {
-    pname = "peepsight-nvim"; -- Manifest entry: "koenverburg/peepsight.nvim"
+    pname = "peepsight-nvim"; # Manifest entry: "koenverburg/peepsight.nvim"
     version = "2022-12-22";
     src = fetchurl {
       url = "https://github.com/koenverburg/peepsight.nvim/archive/ea5f36e0fb99223da138e6e719ede5baf4f0d002.tar.gz";
@@ -4422,7 +4422,7 @@
     };
   };
   vacuumline-nvim = buildVimPluginFrom2Nix {
-    pname = "vacuumline-nvim"; -- Manifest entry: "konapun/vacuumline.nvim"
+    pname = "vacuumline-nvim"; # Manifest entry: "konapun/vacuumline.nvim"
     version = "2022-03-13";
     src = fetchurl {
       url = "https://github.com/konapun/vacuumline.nvim/archive/5f207f81d399004085df64fec4aeb5136422beba.tar.gz";
@@ -4435,7 +4435,7 @@
     };
   };
   nvim-lightbulb = buildVimPluginFrom2Nix {
-    pname = "nvim-lightbulb"; -- Manifest entry: "kosayoda/nvim-lightbulb"
+    pname = "nvim-lightbulb"; # Manifest entry: "kosayoda/nvim-lightbulb"
     version = "2022-08-26";
     src = fetchurl {
       url = "https://github.com/kosayoda/nvim-lightbulb/archive/56b9ce31ec9d09d560fe8787c0920f76bc208297.tar.gz";
@@ -4448,7 +4448,7 @@
     };
   };
   mellow-nvim = buildVimPluginFrom2Nix {
-    pname = "mellow-nvim"; -- Manifest entry: "kvrohit/mellow.nvim"
+    pname = "mellow-nvim"; # Manifest entry: "kvrohit/mellow.nvim"
     version = "2022-12-30";
     src = fetchurl {
       url = "https://github.com/kvrohit/mellow.nvim/archive/fcf8d537ec6abd9dce7276c69887e2b966b3cde8.tar.gz";
@@ -4460,7 +4460,7 @@
     };
   };
   rasmus-nvim = buildVimPluginFrom2Nix {
-    pname = "rasmus-nvim"; -- Manifest entry: "kvrohit/rasmus.nvim"
+    pname = "rasmus-nvim"; # Manifest entry: "kvrohit/rasmus.nvim"
     version = "2022-10-10";
     src = fetchurl {
       url = "https://github.com/kvrohit/rasmus.nvim/archive/187b40998fd0d03e915699bfc37a616f3e6ccb23.tar.gz";
@@ -4472,7 +4472,7 @@
     };
   };
   substrata-nvim = buildVimPluginFrom2Nix {
-    pname = "substrata-nvim"; -- Manifest entry: "kvrohit/substrata.nvim"
+    pname = "substrata-nvim"; # Manifest entry: "kvrohit/substrata.nvim"
     version = "2022-10-07";
     src = fetchurl {
       url = "https://github.com/kvrohit/substrata.nvim/archive/e3b2b69ce597e8d17767a41d8db45b15178a0b45.tar.gz";
@@ -4484,7 +4484,7 @@
     };
   };
   blue-moon = buildVimPluginFrom2Nix {
-    pname = "blue-moon"; -- Manifest entry: "kyazdani42/blue-moon"
+    pname = "blue-moon"; # Manifest entry: "kyazdani42/blue-moon"
     version = "2022-12-07";
     src = fetchurl {
       url = "https://github.com/kyazdani42/blue-moon/archive/8fcdcdf76e7a120299d41fa80206887ca7b1ca58.tar.gz";
@@ -4496,7 +4496,7 @@
     };
   };
   nvim-tree-lua = buildVimPluginFrom2Nix {
-    pname = "nvim-tree-lua"; -- Manifest entry: "kyazdani42/nvim-tree.lua"
+    pname = "nvim-tree-lua"; # Manifest entry: "kyazdani42/nvim-tree.lua"
     version = "2023-02-05";
     src = fetchurl {
       url = "https://github.com/nvim-tree/nvim-tree.lua/archive/02fdc262eba188198a7deb2117b3b996e6763d65.tar.gz";
@@ -4508,7 +4508,7 @@
     };
   };
   nvim-web-devicons = buildVimPluginFrom2Nix {
-    pname = "nvim-web-devicons"; -- Manifest entry: "kyazdani42/nvim-web-devicons"
+    pname = "nvim-web-devicons"; # Manifest entry: "kyazdani42/nvim-web-devicons"
     version = "2023-02-06";
     src = fetchurl {
       url = "https://github.com/nvim-tree/nvim-web-devicons/archive/ade34ca7d19543904b28b903e606be8930fb9ee3.tar.gz";
@@ -4521,7 +4521,7 @@
     };
   };
   nvim-surround = buildVimPluginFrom2Nix {
-    pname = "nvim-surround"; -- Manifest entry: "kylechui/nvim-surround"
+    pname = "nvim-surround"; # Manifest entry: "kylechui/nvim-surround"
     version = "2023-02-09";
     src = fetchurl {
       url = "https://github.com/kylechui/nvim-surround/archive/90821ad682aac189cd0a38fd83fc96f0cbcc5d29.tar.gz";
@@ -4534,7 +4534,7 @@
     };
   };
   cobalt2-nvim = buildVimPluginFrom2Nix {
-    pname = "cobalt2-nvim"; -- Manifest entry: "lalitmee/cobalt2.nvim"
+    pname = "cobalt2-nvim"; # Manifest entry: "lalitmee/cobalt2.nvim"
     version = "2023-02-01";
     src = fetchurl {
       url = "https://github.com/lalitmee/cobalt2.nvim/archive/c4872223add6158a4afb8208b9ee4a8864cbb632.tar.gz";
@@ -4547,7 +4547,7 @@
     };
   };
   overlength-nvim = buildVimPluginFrom2Nix {
-    pname = "overlength-nvim"; -- Manifest entry: "lcheylus/overlength.nvim"
+    pname = "overlength-nvim"; # Manifest entry: "lcheylus/overlength.nvim"
     version = "2022-08-10";
     src = fetchurl {
       url = "https://github.com/lcheylus/overlength.nvim/archive/3715b66d10ae0a68667e50c650c2ef3e5ab9f1e7.tar.gz";
@@ -4560,7 +4560,7 @@
     };
   };
   gh-nvim = buildVimPluginFrom2Nix {
-    pname = "gh-nvim"; -- Manifest entry: "ldelossa/gh.nvim"
+    pname = "gh-nvim"; # Manifest entry: "ldelossa/gh.nvim"
     version = "2022-12-11";
     src = fetchurl {
       url = "https://github.com/ldelossa/gh.nvim/archive/bc731bb53909481995ac2edb4bf6418c051fec1a.tar.gz";
@@ -4573,7 +4573,7 @@
     };
   };
   litee-nvim = buildVimPluginFrom2Nix {
-    pname = "litee-nvim"; -- Manifest entry: "ldelossa/litee.nvim"
+    pname = "litee-nvim"; # Manifest entry: "ldelossa/litee.nvim"
     version = "2022-12-11";
     src = fetchurl {
       url = "https://github.com/ldelossa/litee.nvim/archive/bf366a1414fd0f9401631ac8884f2f9fa4bf18d2.tar.gz";
@@ -4585,7 +4585,7 @@
     };
   };
   vimdark = buildVimPluginFrom2Nix {
-    pname = "vimdark"; -- Manifest entry: "ldelossa/vimdark"
+    pname = "vimdark"; # Manifest entry: "ldelossa/vimdark"
     version = "2022-03-20";
     src = fetchurl {
       url = "https://github.com/ldelossa/vimdark/archive/ffd7240f8346cb61ab80eda84b78f8983a3c69bf.tar.gz";
@@ -4598,7 +4598,7 @@
     };
   };
   vim-svelte-plugin = buildVimPluginFrom2Nix {
-    pname = "vim-svelte-plugin"; -- Manifest entry: "leafOfTree/vim-svelte-plugin"
+    pname = "vim-svelte-plugin"; # Manifest entry: "leafOfTree/vim-svelte-plugin"
     version = "2022-10-20";
     src = fetchurl {
       url = "https://github.com/leafOfTree/vim-svelte-plugin/archive/a7161aed8dec74508bbf98224b7e68d63be1207a.tar.gz";
@@ -4611,7 +4611,7 @@
     };
   };
   gitsigns-nvim = buildVimPluginFrom2Nix {
-    pname = "gitsigns-nvim"; -- Manifest entry: "lewis6991/gitsigns.nvim"
+    pname = "gitsigns-nvim"; # Manifest entry: "lewis6991/gitsigns.nvim"
     version = "2023-02-03";
     src = fetchurl {
       url = "https://github.com/lewis6991/gitsigns.nvim/archive/ec4742a7eebf68bec663041d359b95637242b5c3.tar.gz";
@@ -4624,7 +4624,7 @@
     };
   };
   spellsitter-nvim = buildVimPluginFrom2Nix {
-    pname = "spellsitter-nvim"; -- Manifest entry: "lewis6991/spellsitter.nvim"
+    pname = "spellsitter-nvim"; # Manifest entry: "lewis6991/spellsitter.nvim"
     version = "2022-09-06";
     src = fetchurl {
       url = "https://github.com/lewis6991/spellsitter.nvim/archive/4af8640d9d706447e78c13150ef7475ea2c16b30.tar.gz";
@@ -4637,7 +4637,7 @@
     };
   };
   sherbet-nvim = buildVimPluginFrom2Nix {
-    pname = "sherbet-nvim"; -- Manifest entry: "lewpoly/sherbet.nvim"
+    pname = "sherbet-nvim"; # Manifest entry: "lewpoly/sherbet.nvim"
     version = "2022-12-17";
     src = fetchurl {
       url = "https://github.com/lewpoly/sherbet.nvim/archive/5c4166eff70ec551ae0023edfb89141b25cc18c6.tar.gz";
@@ -4650,7 +4650,7 @@
     };
   };
   lsp-progress-nvim = buildVimPluginFrom2Nix {
-    pname = "lsp-progress-nvim"; -- Manifest entry: "linrongbin16/lsp-progress.nvim"
+    pname = "lsp-progress-nvim"; # Manifest entry: "linrongbin16/lsp-progress.nvim"
     version = "2023-02-04";
     src = fetchurl {
       url = "https://github.com/linrongbin16/lsp-progress.nvim/archive/a479e9ac1da6fd36f63fded37af7ace5ff6b2fe1.tar.gz";
@@ -4663,7 +4663,7 @@
     };
   };
   key-menu-nvim = buildVimPluginFrom2Nix {
-    pname = "key-menu-nvim"; -- Manifest entry: "linty-org/key-menu.nvim"
+    pname = "key-menu-nvim"; # Manifest entry: "linty-org/key-menu.nvim"
     version = "2022-11-23";
     src = fetchurl {
       url = "https://github.com/linty-org/key-menu.nvim/archive/6951c45cbb0b2add549d282b0b526d1f0322f96e.tar.gz";
@@ -4675,7 +4675,7 @@
     };
   };
   readline-nvim = buildVimPluginFrom2Nix {
-    pname = "readline-nvim"; -- Manifest entry: "linty-org/readline.nvim"
+    pname = "readline-nvim"; # Manifest entry: "linty-org/readline.nvim"
     version = "2022-08-13";
     src = fetchurl {
       url = "https://github.com/linty-org/readline.nvim/archive/cab666cbd026dea9c817182e22255ecb3b3419b1.tar.gz";
@@ -4687,7 +4687,7 @@
     };
   };
   kimbox = buildVimPluginFrom2Nix {
-    pname = "kimbox"; -- Manifest entry: "lmburns/kimbox"
+    pname = "kimbox"; # Manifest entry: "lmburns/kimbox"
     version = "2023-02-07";
     src = fetchurl {
       url = "https://github.com/lmburns/kimbox/archive/a9bd06730879adca78b1b94da106023b85b1fced.tar.gz";
@@ -4699,7 +4699,7 @@
     };
   };
   github-colors = buildVimPluginFrom2Nix {
-    pname = "github-colors"; -- Manifest entry: "lourenci/github-colors"
+    pname = "github-colors"; # Manifest entry: "lourenci/github-colors"
     version = "2023-02-03";
     src = fetchurl {
       url = "https://github.com/lourenci/github-colors/archive/64d75f2339c9f758ca08cfae19259f9119525bb1.tar.gz";
@@ -4712,7 +4712,7 @@
     };
   };
   broot-vim = buildVimPluginFrom2Nix {
-    pname = "broot-vim"; -- Manifest entry: "lstwn/broot.vim"
+    pname = "broot-vim"; # Manifest entry: "lstwn/broot.vim"
     version = "2023-02-06";
     src = fetchurl {
       url = "https://github.com/lstwn/broot.vim/archive/12e794724a470848a96eb306a87f4ffdb90c6349.tar.gz";
@@ -4725,7 +4725,7 @@
     };
   };
   gruvbox-baby = buildVimPluginFrom2Nix {
-    pname = "gruvbox-baby"; -- Manifest entry: "luisiacc/gruvbox-baby"
+    pname = "gruvbox-baby"; # Manifest entry: "luisiacc/gruvbox-baby"
     version = "2023-01-28";
     src = fetchurl {
       url = "https://github.com/luisiacc/gruvbox-baby/archive/03c525c6462d51a8b593e4aa3dcd2be2aa8b59ac.tar.gz";
@@ -4738,7 +4738,7 @@
     };
   };
   cmp-rg = buildVimPluginFrom2Nix {
-    pname = "cmp-rg"; -- Manifest entry: "lukas-reineke/cmp-rg"
+    pname = "cmp-rg"; # Manifest entry: "lukas-reineke/cmp-rg"
     version = "2022-09-05";
     src = fetchurl {
       url = "https://github.com/lukas-reineke/cmp-rg/archive/1cad8eb315643d0df13c37401c03d7986f891011.tar.gz";
@@ -4751,7 +4751,7 @@
     };
   };
   cmp-under-comparator = buildVimPluginFrom2Nix {
-    pname = "cmp-under-comparator"; -- Manifest entry: "lukas-reineke/cmp-under-comparator"
+    pname = "cmp-under-comparator"; # Manifest entry: "lukas-reineke/cmp-under-comparator"
     version = "2021-11-11";
     src = fetchurl {
       url = "https://github.com/lukas-reineke/cmp-under-comparator/archive/6857f10272c3cfe930cece2afa2406e1385bfef8.tar.gz";
@@ -4764,7 +4764,7 @@
     };
   };
   headlines-nvim = buildVimPluginFrom2Nix {
-    pname = "headlines-nvim"; -- Manifest entry: "lukas-reineke/headlines.nvim"
+    pname = "headlines-nvim"; # Manifest entry: "lukas-reineke/headlines.nvim"
     version = "2022-07-19";
     src = fetchurl {
       url = "https://github.com/lukas-reineke/headlines.nvim/archive/1cd93a641c03419bb255f8b3fe734451517763b1.tar.gz";
@@ -4777,7 +4777,7 @@
     };
   };
   indent-blankline-nvim = buildVimPluginFrom2Nix {
-    pname = "indent-blankline-nvim"; -- Manifest entry: "lukas-reineke/indent-blankline.nvim"
+    pname = "indent-blankline-nvim"; # Manifest entry: "lukas-reineke/indent-blankline.nvim"
     version = "2023-01-26";
     src = fetchurl {
       url = "https://github.com/lukas-reineke/indent-blankline.nvim/archive/8299fe7703dfff4b1752aeed271c3b95281a952d.tar.gz";
@@ -4790,7 +4790,7 @@
     };
   };
   lsp-format-nvim = buildVimPluginFrom2Nix {
-    pname = "lsp-format-nvim"; -- Manifest entry: "lukas-reineke/lsp-format.nvim"
+    pname = "lsp-format-nvim"; # Manifest entry: "lukas-reineke/lsp-format.nvim"
     version = "2022-11-25";
     src = fetchurl {
       url = "https://github.com/lukas-reineke/lsp-format.nvim/archive/ca0df5c8544e51517209ea7b86ecc522c98d4f0a.tar.gz";
@@ -4802,7 +4802,7 @@
     };
   };
   nnn-nvim = buildVimPluginFrom2Nix {
-    pname = "nnn-nvim"; -- Manifest entry: "luukvbaal/nnn.nvim"
+    pname = "nnn-nvim"; # Manifest entry: "luukvbaal/nnn.nvim"
     version = "2023-02-06";
     src = fetchurl {
       url = "https://github.com/luukvbaal/nnn.nvim/archive/2fbf0582bc3073567593f376775d6804a6901772.tar.gz";
@@ -4815,7 +4815,7 @@
     };
   };
   stabilize-nvim = buildVimPluginFrom2Nix {
-    pname = "stabilize-nvim"; -- Manifest entry: "luukvbaal/stabilize.nvim"
+    pname = "stabilize-nvim"; # Manifest entry: "luukvbaal/stabilize.nvim"
     version = "2022-10-06";
     src = fetchurl {
       url = "https://github.com/luukvbaal/stabilize.nvim/archive/34069870a8e72632c5447188e638e1c6bfebc353.tar.gz";
@@ -4828,7 +4828,7 @@
     };
   };
   attempt-nvim = buildVimPluginFrom2Nix {
-    pname = "attempt-nvim"; -- Manifest entry: "m-demare/attempt.nvim"
+    pname = "attempt-nvim"; # Manifest entry: "m-demare/attempt.nvim"
     version = "2022-06-11";
     src = fetchurl {
       url = "https://github.com/m-demare/attempt.nvim/archive/0b3628aa348061f4da17e090bbd34b55a46eea2f.tar.gz";
@@ -4841,7 +4841,7 @@
     };
   };
   hlargs-nvim = buildVimPluginFrom2Nix {
-    pname = "hlargs-nvim"; -- Manifest entry: "m-demare/hlargs.nvim"
+    pname = "hlargs-nvim"; # Manifest entry: "m-demare/hlargs.nvim"
     version = "2022-12-14";
     src = fetchurl {
       url = "https://github.com/m-demare/hlargs.nvim/archive/88b925d699fb39633cdda02c24f0b3ba5d0e6964.tar.gz";
@@ -4854,7 +4854,7 @@
     };
   };
   baleia-nvim = buildVimPluginFrom2Nix {
-    pname = "baleia-nvim"; -- Manifest entry: "m00qek/baleia.nvim"
+    pname = "baleia-nvim"; # Manifest entry: "m00qek/baleia.nvim"
     version = "2023-01-19";
     src = fetchurl {
       url = "https://github.com/m00qek/baleia.nvim/archive/8ba437c2da2c917529e1c3952412a2780cecf6c6.tar.gz";
@@ -4866,7 +4866,7 @@
     };
   };
   plugin-template-nvim = buildVimPluginFrom2Nix {
-    pname = "plugin-template-nvim"; -- Manifest entry: "m00qek/plugin-template.nvim"
+    pname = "plugin-template-nvim"; # Manifest entry: "m00qek/plugin-template.nvim"
     version = "2022-06-10";
     src = fetchurl {
       url = "https://github.com/m00qek/plugin-template.nvim/archive/b988d049ac9484acd5feb32bff883a14e1e5e52b.tar.gz";
@@ -4878,7 +4878,7 @@
     };
   };
   autoclose-nvim = buildVimPluginFrom2Nix {
-    pname = "autoclose-nvim"; -- Manifest entry: "m4xshen/autoclose.nvim"
+    pname = "autoclose-nvim"; # Manifest entry: "m4xshen/autoclose.nvim"
     version = "2023-02-03";
     src = fetchurl {
       url = "https://github.com/m4xshen/autoclose.nvim/archive/5c63f2c28a48d556644f3650daccdf0ba03ea177.tar.gz";
@@ -4891,7 +4891,7 @@
     };
   };
   reaper-nvim = buildVimPluginFrom2Nix {
-    pname = "reaper-nvim"; -- Manifest entry: "madskjeldgaard/reaper-nvim"
+    pname = "reaper-nvim"; # Manifest entry: "madskjeldgaard/reaper-nvim"
     version = "2021-01-29";
     src = fetchurl {
       url = "https://github.com/madskjeldgaard/reaper-nvim/archive/dc30b618bb0e2c47b7e0dce781527627291b3365.tar.gz";
@@ -4903,7 +4903,7 @@
     };
   };
   tagbar = buildVimPluginFrom2Nix {
-    pname = "tagbar"; -- Manifest entry: "majutsushi/tagbar"
+    pname = "tagbar"; # Manifest entry: "majutsushi/tagbar"
     version = "2022-11-29";
     src = fetchurl {
       url = "https://github.com/preservim/tagbar/archive/af3ce7c3cec81f2852bdb0a0651d2485fcd01214.tar.gz";
@@ -4915,7 +4915,7 @@
     };
   };
   material-nvim = buildVimPluginFrom2Nix {
-    pname = "material-nvim"; -- Manifest entry: "marko-cerovac/material.nvim"
+    pname = "material-nvim"; # Manifest entry: "marko-cerovac/material.nvim"
     version = "2023-01-13";
     src = fetchurl {
       url = "https://github.com/marko-cerovac/material.nvim/archive/c5f6a24d526a8ddcd651c5d1291de89a51f923fa.tar.gz";
@@ -4928,7 +4928,7 @@
     };
   };
   JABS-nvim = buildVimPluginFrom2Nix {
-    pname = "JABS-nvim"; -- Manifest entry: "matbme/JABS.nvim"
+    pname = "JABS-nvim"; # Manifest entry: "matbme/JABS.nvim"
     version = "2022-12-13";
     src = fetchurl {
       url = "https://github.com/matbme/JABS.nvim/archive/6c020211aaa63c0b398a8d3cc6fa86679cf31490.tar.gz";
@@ -4941,7 +4941,7 @@
     };
   };
   modicator-nvim = buildVimPluginFrom2Nix {
-    pname = "modicator-nvim"; -- Manifest entry: "mawkler/modicator.nvim"
+    pname = "modicator-nvim"; # Manifest entry: "mawkler/modicator.nvim"
     version = "2023-01-29";
     src = fetchurl {
       url = "https://github.com/mawkler/modicator.nvim/archive/3bb2e948edccb5d1563342f5ee241491fa6286e8.tar.gz";
@@ -4954,7 +4954,7 @@
     };
   };
   better-escape-nvim = buildVimPluginFrom2Nix {
-    pname = "better-escape-nvim"; -- Manifest entry: "max397574/better-escape.nvim"
+    pname = "better-escape-nvim"; # Manifest entry: "max397574/better-escape.nvim"
     version = "2023-01-09";
     src = fetchurl {
       url = "https://github.com/max397574/better-escape.nvim/archive/6fed33809cde3b416087fc540ad9eb17ec470193.tar.gz";
@@ -4966,7 +4966,7 @@
     };
   };
   cmp-greek = buildVimPluginFrom2Nix {
-    pname = "cmp-greek"; -- Manifest entry: "max397574/cmp-greek"
+    pname = "cmp-greek"; # Manifest entry: "max397574/cmp-greek"
     version = "2022-01-10";
     src = fetchurl {
       url = "https://github.com/max397574/cmp-greek/archive/799110b976f9194055e9d506931ac38171bc6bcd.tar.gz";
@@ -4978,7 +4978,7 @@
     };
   };
   undotree = buildVimPluginFrom2Nix {
-    pname = "undotree"; -- Manifest entry: "mbbill/undotree"
+    pname = "undotree"; # Manifest entry: "mbbill/undotree"
     version = "2022-12-09";
     src = fetchurl {
       url = "https://github.com/mbbill/undotree/archive/1a23ea84bd02c34f50d8e10a8b4bfc89597ffe4e.tar.gz";
@@ -4990,7 +4990,7 @@
     };
   };
   tidy-nvim = buildVimPluginFrom2Nix {
-    pname = "tidy-nvim"; -- Manifest entry: "mcauley-penney/tidy.nvim"
+    pname = "tidy-nvim"; # Manifest entry: "mcauley-penney/tidy.nvim"
     version = "2022-09-17";
     src = fetchurl {
       url = "https://github.com/mcauley-penney/tidy.nvim/archive/9b15a0eb12d6d4f0bb5c197c1f5b72bcc57f09ff.tar.gz";
@@ -5002,7 +5002,7 @@
     };
   };
   zenbones-nvim = buildVimPluginFrom2Nix {
-    pname = "zenbones-nvim"; -- Manifest entry: "mcchrish/zenbones.nvim"
+    pname = "zenbones-nvim"; # Manifest entry: "mcchrish/zenbones.nvim"
     version = "2023-01-30";
     src = fetchurl {
       url = "https://github.com/mcchrish/zenbones.nvim/archive/910b8c240c6aaf5263db038db81c538602c766c3.tar.gz";
@@ -5015,7 +5015,7 @@
     };
   };
   vim-printer = buildVimPluginFrom2Nix {
-    pname = "vim-printer"; -- Manifest entry: "meain/vim-printer"
+    pname = "vim-printer"; # Manifest entry: "meain/vim-printer"
     version = "2022-03-01";
     src = fetchurl {
       url = "https://github.com/meain/vim-printer/archive/55ab49179838d86f92fd847504cef3570000b7f3.tar.gz";
@@ -5027,7 +5027,7 @@
     };
   };
   mellifluous-nvim = buildVimPluginFrom2Nix {
-    pname = "mellifluous-nvim"; -- Manifest entry: "meliora-theme/neovim"
+    pname = "mellifluous-nvim"; # Manifest entry: "meliora-theme/neovim"
     version = "2023-02-07";
     src = fetchurl {
       url = "https://github.com/ramojus/mellifluous.nvim/archive/066f22f792f5a19a8cf0e7b0dcb43bc2e3ddb02d.tar.gz";
@@ -5040,7 +5040,7 @@
     };
   };
   jellybeans-nvim = buildVimPluginFrom2Nix {
-    pname = "jellybeans-nvim"; -- Manifest entry: "metalelf0/jellybeans-nvim"
+    pname = "jellybeans-nvim"; # Manifest entry: "metalelf0/jellybeans-nvim"
     version = "2022-03-21";
     src = fetchurl {
       url = "https://github.com/metalelf0/jellybeans-nvim/archive/f77b75443adf6461ded30de0243f49771f933d06.tar.gz";
@@ -5053,7 +5053,7 @@
     };
   };
   nvim-dap = buildVimPluginFrom2Nix {
-    pname = "nvim-dap"; -- Manifest entry: "mfussenegger/nvim-dap"
+    pname = "nvim-dap"; # Manifest entry: "mfussenegger/nvim-dap"
     version = "2023-02-08";
     src = fetchurl {
       url = "https://github.com/mfussenegger/nvim-dap/archive/0d77088e0a3532ae653996abbefb8d951b4ed7ac.tar.gz";
@@ -5066,7 +5066,7 @@
     };
   };
   nvim-lint = buildVimPluginFrom2Nix {
-    pname = "nvim-lint"; -- Manifest entry: "mfussenegger/nvim-lint"
+    pname = "nvim-lint"; # Manifest entry: "mfussenegger/nvim-lint"
     version = "2023-01-29";
     src = fetchurl {
       url = "https://github.com/mfussenegger/nvim-lint/archive/379be679d3c5f80964bc19131554b846dce5d34e.tar.gz";
@@ -5078,7 +5078,7 @@
     };
   };
   nvim-treehopper = buildVimPluginFrom2Nix {
-    pname = "nvim-treehopper"; -- Manifest entry: "mfussenegger/nvim-ts-hint-textobject"
+    pname = "nvim-treehopper"; # Manifest entry: "mfussenegger/nvim-ts-hint-textobject"
     version = "2023-01-04";
     src = fetchurl {
       url = "https://github.com/mfussenegger/nvim-treehopper/archive/54d6646809d82da0c5d864fb3126ab1961a11f48.tar.gz";
@@ -5091,7 +5091,7 @@
     };
   };
   formatter-nvim = buildVimPluginFrom2Nix {
-    pname = "formatter-nvim"; -- Manifest entry: "mhartington/formatter.nvim"
+    pname = "formatter-nvim"; # Manifest entry: "mhartington/formatter.nvim"
     version = "2022-12-21";
     src = fetchurl {
       url = "https://github.com/mhartington/formatter.nvim/archive/8a4c961330cc4688087f23d18fa7d2f1af9a4902.tar.gz";
@@ -5104,7 +5104,7 @@
     };
   };
   oceanic-next = buildVimPluginFrom2Nix {
-    pname = "oceanic-next"; -- Manifest entry: "mhartington/oceanic-next"
+    pname = "oceanic-next"; # Manifest entry: "mhartington/oceanic-next"
     version = "2021-02-05";
     src = fetchurl {
       url = "https://github.com/mhartington/oceanic-next/archive/5ef31a34204f84714885ae9036f66a626036c3dc.tar.gz";
@@ -5116,7 +5116,7 @@
     };
   };
   sniprun = buildVimPluginFrom2Nix {
-    pname = "sniprun"; -- Manifest entry: "michaelb/sniprun"
+    pname = "sniprun"; # Manifest entry: "michaelb/sniprun"
     version = "2022-12-28";
     src = fetchurl {
       url = "https://github.com/michaelb/sniprun/archive/79806dad094770a1563ac0227c9692f7592df744.tar.gz";
@@ -5129,7 +5129,7 @@
     };
   };
   zk-nvim = buildVimPluginFrom2Nix {
-    pname = "zk-nvim"; -- Manifest entry: "mickael-menu/zk-nvim"
+    pname = "zk-nvim"; # Manifest entry: "mickael-menu/zk-nvim"
     version = "2023-02-06";
     src = fetchurl {
       url = "https://github.com/mickael-menu/zk-nvim/archive/0413c52500cd0133b0cd8e7e7d43084855ac1760.tar.gz";
@@ -5142,7 +5142,7 @@
     };
   };
   nvim-luaref = buildVimPluginFrom2Nix {
-    pname = "nvim-luaref"; -- Manifest entry: "milisims/nvim-luaref"
+    pname = "nvim-luaref"; # Manifest entry: "milisims/nvim-luaref"
     version = "2022-02-17";
     src = fetchurl {
       url = "https://github.com/milisims/nvim-luaref/archive/9cd3ed50d5752ffd56d88dd9e395ddd3dc2c7127.tar.gz";
@@ -5155,7 +5155,7 @@
     };
   };
   import-nvim = buildVimPluginFrom2Nix {
-    pname = "import-nvim"; -- Manifest entry: "miversen33/import.nvim"
+    pname = "import-nvim"; # Manifest entry: "miversen33/import.nvim"
     version = "2022-10-25";
     src = fetchurl {
       url = "https://github.com/miversen33/import.nvim/archive/ae0204208ecd1eb2239f3597df6a9b2dc5686b37.tar.gz";
@@ -5168,7 +5168,7 @@
     };
   };
   iswap-nvim = buildVimPluginFrom2Nix {
-    pname = "iswap-nvim"; -- Manifest entry: "mizlan/iswap.nvim"
+    pname = "iswap-nvim"; # Manifest entry: "mizlan/iswap.nvim"
     version = "2023-01-07";
     src = fetchurl {
       url = "https://github.com/mizlan/iswap.nvim/archive/f4935e477c3dd8914a008884c4d83388d024487a.tar.gz";
@@ -5181,7 +5181,7 @@
     };
   };
   iron-nvim-mnacamura = buildVimPluginFrom2Nix {
-    pname = "iron-nvim-mnacamura"; -- Manifest entry: "mnacamura/iron.nvim::iron-nvim-mnacamura"
+    pname = "iron-nvim-mnacamura"; # Manifest entry: "mnacamura/iron.nvim::iron-nvim-mnacamura"
     version = "2021-12-19";
     src = fetchurl {
       url = "https://github.com/mnacamura/iron.nvim/archive/0b8748a1e3194b1239372111c1902cf7a14e10fc.tar.gz";
@@ -5194,7 +5194,7 @@
     };
   };
   nvim-srcerite = buildVimPluginFrom2Nix {
-    pname = "nvim-srcerite"; -- Manifest entry: "mnacamura/nvim-srcerite"
+    pname = "nvim-srcerite"; # Manifest entry: "mnacamura/nvim-srcerite"
     version = "2022-07-23";
     src = fetchurl {
       url = "https://github.com/mnacamura/nvim-srcerite/archive/ab4f02b3786b595fb3d0604ed784c6564d2d1004.tar.gz";
@@ -5206,7 +5206,7 @@
     };
   };
   vim-fennel-syntax = buildVimPluginFrom2Nix {
-    pname = "vim-fennel-syntax"; -- Manifest entry: "mnacamura/vim-fennel-syntax"
+    pname = "vim-fennel-syntax"; # Manifest entry: "mnacamura/vim-fennel-syntax"
     version = "2021-07-08";
     src = fetchurl {
       url = "https://github.com/mnacamura/vim-fennel-syntax/archive/de616bba32ddd1ecbef30e76aca80d1fbcf8e95c.tar.gz";
@@ -5219,7 +5219,7 @@
     };
   };
   vim-r7rs-syntax = buildVimPluginFrom2Nix {
-    pname = "vim-r7rs-syntax"; -- Manifest entry: "mnacamura/vim-r7rs-syntax"
+    pname = "vim-r7rs-syntax"; # Manifest entry: "mnacamura/vim-r7rs-syntax"
     version = "2021-07-09";
     src = fetchurl {
       url = "https://github.com/mnacamura/vim-r7rs-syntax/archive/e5f1d0cf9974154f00aa9a249dadce9c7bfc5c65.tar.gz";
@@ -5232,7 +5232,7 @@
     };
   };
   dial-nvim = buildVimPluginFrom2Nix {
-    pname = "dial-nvim"; -- Manifest entry: "monaqa/dial.nvim"
+    pname = "dial-nvim"; # Manifest entry: "monaqa/dial.nvim"
     version = "2023-01-26";
     src = fetchurl {
       url = "https://github.com/monaqa/dial.nvim/archive/5020da900cc5dfd7067f181ee2ebd872ca7c84e8.tar.gz";
@@ -5245,7 +5245,7 @@
     };
   };
   matchparen-nvim = buildVimPluginFrom2Nix {
-    pname = "matchparen-nvim"; -- Manifest entry: "monkoose/matchparen.nvim"
+    pname = "matchparen-nvim"; # Manifest entry: "monkoose/matchparen.nvim"
     version = "2022-09-22";
     src = fetchurl {
       url = "https://github.com/monkoose/matchparen.nvim/archive/dc511ea561bb34c99d0fad9a6fd08bb0e4187a5e.tar.gz";
@@ -5258,7 +5258,7 @@
     };
   };
   gruvbox = buildVimPluginFrom2Nix {
-    pname = "gruvbox"; -- Manifest entry: "morhetz/gruvbox"
+    pname = "gruvbox"; # Manifest entry: "morhetz/gruvbox"
     version = "2020-07-03";
     src = fetchurl {
       url = "https://github.com/morhetz/gruvbox/archive/bf2885a95efdad7bd5e4794dd0213917770d79b7.tar.gz";
@@ -5270,7 +5270,7 @@
     };
   };
   legendary-nvim = buildVimPluginFrom2Nix {
-    pname = "legendary-nvim"; -- Manifest entry: "mrjones2014/legendary.nvim"
+    pname = "legendary-nvim"; # Manifest entry: "mrjones2014/legendary.nvim"
     version = "2023-01-06";
     src = fetchurl {
       url = "https://github.com/mrjones2014/legendary.nvim/archive/3008ed68c8f309ced07587684c8af53884791d35.tar.gz";
@@ -5283,7 +5283,7 @@
     };
   };
   chadtree = buildVimPluginFrom2Nix {
-    pname = "chadtree"; -- Manifest entry: "ms-jpq/chadtree"
+    pname = "chadtree"; # Manifest entry: "ms-jpq/chadtree"
     version = "2023-02-05";
     src = fetchurl {
       url = "https://github.com/ms-jpq/chadtree/archive/e8013ad49e3fcedf766b7bccd46eed9e9298e447.tar.gz";
@@ -5295,7 +5295,7 @@
     };
   };
   coq-artifacts = buildVimPluginFrom2Nix {
-    pname = "coq-artifacts"; -- Manifest entry: "ms-jpq/coq.artifacts:artifacts"
+    pname = "coq-artifacts"; # Manifest entry: "ms-jpq/coq.artifacts:artifacts"
     version = "2023-02-05";
     src = fetchurl {
       url = "https://github.com/ms-jpq/coq.artifacts/archive/e100e8e640bc14296199f94da965c575b41d5e24.tar.gz";
@@ -5307,7 +5307,7 @@
     };
   };
   coq-nvim = buildVimPluginFrom2Nix {
-    pname = "coq-nvim"; -- Manifest entry: "ms-jpq/coq_nvim"
+    pname = "coq-nvim"; # Manifest entry: "ms-jpq/coq_nvim"
     version = "2023-02-08";
     src = fetchurl {
       url = "https://github.com/ms-jpq/coq_nvim/archive/1efb66d5e73cf984aeacc6792143712452a7925f.tar.gz";
@@ -5320,7 +5320,7 @@
     };
   };
   cmp-fish = buildVimPluginFrom2Nix {
-    pname = "cmp-fish"; -- Manifest entry: "mtoohey31/cmp-fish"
+    pname = "cmp-fish"; # Manifest entry: "mtoohey31/cmp-fish"
     version = "2022-09-01";
     src = fetchurl {
       url = "https://github.com/mtoohey31/cmp-fish/archive/8ae7bfb1b3251d433c4adf4e64396ef929fbd91f.tar.gz";
@@ -5333,7 +5333,7 @@
     };
   };
   numb-nvim = buildVimPluginFrom2Nix {
-    pname = "numb-nvim"; -- Manifest entry: "nacro90/numb.nvim"
+    pname = "numb-nvim"; # Manifest entry: "nacro90/numb.nvim"
     version = "2022-10-05";
     src = fetchurl {
       url = "https://github.com/nacro90/numb.nvim/archive/d95b7ea62e320b02ca1aa9df3635471a88d6f3b1.tar.gz";
@@ -5346,7 +5346,7 @@
     };
   };
   luv-vimdocs = buildVimPluginFrom2Nix {
-    pname = "luv-vimdocs"; -- Manifest entry: "nanotee/luv-vimdocs"
+    pname = "luv-vimdocs"; # Manifest entry: "nanotee/luv-vimdocs"
     version = "2023-02-08";
     src = fetchurl {
       url = "https://github.com/nanotee/luv-vimdocs/archive/997b9338fd3ac91a53bbdc19110c127e3bea01c4.tar.gz";
@@ -5359,7 +5359,7 @@
     };
   };
   nvim-lsp-basics = buildVimPluginFrom2Nix {
-    pname = "nvim-lsp-basics"; -- Manifest entry: "nanotee/nvim-lsp-basics"
+    pname = "nvim-lsp-basics"; # Manifest entry: "nanotee/nvim-lsp-basics"
     version = "2022-05-08";
     src = fetchurl {
       url = "https://github.com/nanotee/nvim-lsp-basics/archive/632714bd3ab355eb6e725b5a78cd8730f12d14d2.tar.gz";
@@ -5372,7 +5372,7 @@
     };
   };
   nvim-lua-guide = buildVimPluginFrom2Nix {
-    pname = "nvim-lua-guide"; -- Manifest entry: "nanotee/nvim-lua-guide"
+    pname = "nvim-lua-guide"; # Manifest entry: "nanotee/nvim-lua-guide"
     version = "2022-12-19";
     src = fetchurl {
       url = "https://github.com/nanotee/nvim-lua-guide/archive/393ea845b88661a8f54ec251ecca0b06a3c7fc49.tar.gz";
@@ -5384,7 +5384,7 @@
     };
   };
   sqls-nvim = buildVimPluginFrom2Nix {
-    pname = "sqls-nvim"; -- Manifest entry: "nanotee/sqls.nvim"
+    pname = "sqls-nvim"; # Manifest entry: "nanotee/sqls.nvim"
     version = "2022-07-08";
     src = fetchurl {
       url = "https://github.com/nanotee/sqls.nvim/archive/a0048b7018c99b68456f91b4aa42ce288f0c0774.tar.gz";
@@ -5397,7 +5397,7 @@
     };
   };
   tabby-nvim = buildVimPluginFrom2Nix {
-    pname = "tabby-nvim"; -- Manifest entry: "nanozuki/tabby.nvim"
+    pname = "tabby-nvim"; # Manifest entry: "nanozuki/tabby.nvim"
     version = "2023-01-30";
     src = fetchurl {
       url = "https://github.com/nanozuki/tabby.nvim/archive/9065c65138b59ea8182024216a5bbcf0d77baebb.tar.gz";
@@ -5410,7 +5410,7 @@
     };
   };
   workspaces-nvim = buildVimPluginFrom2Nix {
-    pname = "workspaces-nvim"; -- Manifest entry: "natecraddock/workspaces.nvim"
+    pname = "workspaces-nvim"; # Manifest entry: "natecraddock/workspaces.nvim"
     version = "2023-01-02";
     src = fetchurl {
       url = "https://github.com/natecraddock/workspaces.nvim/archive/3512caee6fef613751ccfa2c42fb139b78a750ba.tar.gz";
@@ -5423,7 +5423,7 @@
     };
   };
   onedark-nvim = buildVimPluginFrom2Nix {
-    pname = "onedark-nvim"; -- Manifest entry: "navarasu/onedark.nvim"
+    pname = "onedark-nvim"; # Manifest entry: "navarasu/onedark.nvim"
     version = "2023-02-06";
     src = fetchurl {
       url = "https://github.com/navarasu/onedark.nvim/archive/a55d0b62326341bf6ac0538d2d88836ac1cd77e5.tar.gz";
@@ -5436,7 +5436,7 @@
     };
   };
   auto-format-nvim = buildVimPluginFrom2Nix {
-    pname = "auto-format-nvim"; -- Manifest entry: "sourcehut:nedia/auto-format.nvim"
+    pname = "auto-format-nvim"; # Manifest entry: "sourcehut:nedia/auto-format.nvim"
     version = "2023-01-30";
     src = fetchgit {
       url = "https://git.sr.ht/~nedia/auto-format.nvim";
@@ -5449,7 +5449,7 @@
     };
   };
   auto-save-nvim-nedia = buildVimPluginFrom2Nix {
-    pname = "auto-save-nvim-nedia"; -- Manifest entry: "sourcehut:nedia/auto-save.nvim::auto-save-nvim-nedia"
+    pname = "auto-save-nvim-nedia"; # Manifest entry: "sourcehut:nedia/auto-save.nvim::auto-save-nvim-nedia"
     version = "2023-01-30";
     src = fetchgit {
       url = "https://git.sr.ht/~nedia/auto-save.nvim";
@@ -5462,7 +5462,7 @@
     };
   };
   xresources-nvim = buildVimPluginFrom2Nix {
-    pname = "xresources-nvim"; -- Manifest entry: "nekonako/xresources-nvim"
+    pname = "xresources-nvim"; # Manifest entry: "nekonako/xresources-nvim"
     version = "2021-11-23";
     src = fetchurl {
       url = "https://github.com/nekonako/xresources-nvim/archive/745b4df924a6c4a7d8026a3fb3a7fa5f78e6f582.tar.gz";
@@ -5475,7 +5475,7 @@
     };
   };
   nvim-lspconfig = buildVimPluginFrom2Nix {
-    pname = "nvim-lspconfig"; -- Manifest entry: "neovim/nvim-lspconfig"
+    pname = "nvim-lspconfig"; # Manifest entry: "neovim/nvim-lspconfig"
     version = "2023-02-08";
     src = fetchurl {
       url = "https://github.com/neovim/nvim-lspconfig/archive/aeb76066212b09c7c01a3abb42fe82f0130ef402.tar.gz";
@@ -5487,7 +5487,7 @@
     };
   };
   nvim-toggler = buildVimPluginFrom2Nix {
-    pname = "nvim-toggler"; -- Manifest entry: "nguyenvukhang/nvim-toggler"
+    pname = "nvim-toggler"; # Manifest entry: "nguyenvukhang/nvim-toggler"
     version = "2022-12-04";
     src = fetchurl {
       url = "https://github.com/nguyenvukhang/nvim-toggler/archive/a9d320d2338611ef5310c3844c39d761dbf23769.tar.gz";
@@ -5500,7 +5500,7 @@
     };
   };
   neomux = buildVimPluginFrom2Nix {
-    pname = "neomux"; -- Manifest entry: "nikvdp/neomux"
+    pname = "neomux"; # Manifest entry: "nikvdp/neomux"
     version = "2023-01-15";
     src = fetchurl {
       url = "https://github.com/nikvdp/neomux/archive/3e5e754b1019bad96b4a012eda500a48aed8543d.tar.gz";
@@ -5513,7 +5513,7 @@
     };
   };
   cp-image-nvim = buildVimPluginFrom2Nix {
-    pname = "cp-image-nvim"; -- Manifest entry: "niuiic/cp-image.nvim"
+    pname = "cp-image-nvim"; # Manifest entry: "niuiic/cp-image.nvim"
     version = "2023-01-31";
     src = fetchurl {
       url = "https://github.com/niuiic/cp-image.nvim/archive/8d91dedec7d82c28935523666f76acab300d18b1.tar.gz";
@@ -5526,7 +5526,7 @@
     };
   };
   divider-nvim = buildVimPluginFrom2Nix {
-    pname = "divider-nvim"; -- Manifest entry: "niuiic/divider.nvim"
+    pname = "divider-nvim"; # Manifest entry: "niuiic/divider.nvim"
     version = "2023-01-07";
     src = fetchurl {
       url = "https://github.com/niuiic/divider.nvim/archive/41eee9f44cc591529f7f5a54b725b30f47319bce.tar.gz";
@@ -5539,7 +5539,7 @@
     };
   };
   multiple-session-nvim = buildVimPluginFrom2Nix {
-    pname = "multiple-session-nvim"; -- Manifest entry: "niuiic/multiple-session.nvim"
+    pname = "multiple-session-nvim"; # Manifest entry: "niuiic/multiple-session.nvim"
     version = "2023-02-01";
     src = fetchurl {
       url = "https://github.com/niuiic/multiple-session.nvim/archive/391cc2443e718f137b53ee0aa3a92a05c9be58b4.tar.gz";
@@ -5552,7 +5552,7 @@
     };
   };
   part-edit-nvim = buildVimPluginFrom2Nix {
-    pname = "part-edit-nvim"; -- Manifest entry: "niuiic/part-edit.nvim"
+    pname = "part-edit-nvim"; # Manifest entry: "niuiic/part-edit.nvim"
     version = "2023-02-02";
     src = fetchurl {
       url = "https://github.com/niuiic/part-edit.nvim/archive/a3db78c851139fc5685c448f9ee3f23402cb4682.tar.gz";
@@ -5565,7 +5565,7 @@
     };
   };
   translate-nvim = buildVimPluginFrom2Nix {
-    pname = "translate-nvim"; -- Manifest entry: "niuiic/translate.nvim"
+    pname = "translate-nvim"; # Manifest entry: "niuiic/translate.nvim"
     version = "2023-02-01";
     src = fetchurl {
       url = "https://github.com/niuiic/translate.nvim/archive/0d510b1c34f950ea41613480d0aa984f113fad3a.tar.gz";
@@ -5578,7 +5578,7 @@
     };
   };
   numbers-nvim = buildVimPluginFrom2Nix {
-    pname = "numbers-nvim"; -- Manifest entry: "nkakouros-original/numbers.nvim"
+    pname = "numbers-nvim"; # Manifest entry: "nkakouros-original/numbers.nvim"
     version = "2022-09-19";
     src = fetchurl {
       url = "https://github.com/nkakouros-original/numbers.nvim/archive/d1f95879a4cdf339f59e6a2dc6aef26912cf554c.tar.gz";
@@ -5591,7 +5591,7 @@
     };
   };
   nvim-cokeline = buildVimPluginFrom2Nix {
-    pname = "nvim-cokeline"; -- Manifest entry: "noib3/cokeline.nvim"
+    pname = "nvim-cokeline"; # Manifest entry: "noib3/cokeline.nvim"
     version = "2023-01-10";
     src = fetchurl {
       url = "https://github.com/noib3/nvim-cokeline/archive/dc72c4a8dcbcc4763e33899876512b15c2d2aa4e.tar.gz";
@@ -5604,7 +5604,7 @@
     };
   };
   nvim-completion = buildVimPluginFrom2Nix {
-    pname = "nvim-completion"; -- Manifest entry: "noib3/nvim-compleet"
+    pname = "nvim-completion"; # Manifest entry: "noib3/nvim-compleet"
     version = "2022-12-01";
     src = fetchurl {
       url = "https://github.com/noib3/nvim-completion/archive/0c540aa9c8a0989f05d451271806ccc259c7557f.tar.gz";
@@ -5617,7 +5617,7 @@
     };
   };
   nvim-base16-lua = buildVimPluginFrom2Nix {
-    pname = "nvim-base16-lua"; -- Manifest entry: "norcalli/nvim-base16.lua"
+    pname = "nvim-base16-lua"; # Manifest entry: "norcalli/nvim-base16.lua"
     version = "2019-10-16";
     src = fetchurl {
       url = "https://github.com/norcalli/nvim-base16.lua/archive/b336f40462b3ca1ad16a17c195b83731a2942d9a.tar.gz";
@@ -5629,7 +5629,7 @@
     };
   };
   nvim-terminal-lua = buildVimPluginFrom2Nix {
-    pname = "nvim-terminal-lua"; -- Manifest entry: "norcalli/nvim-terminal.lua"
+    pname = "nvim-terminal-lua"; # Manifest entry: "norcalli/nvim-terminal.lua"
     version = "2019-10-17";
     src = fetchurl {
       url = "https://github.com/norcalli/nvim-terminal.lua/archive/095f98aaa7265628a72cd2706350c091544b5602.tar.gz";
@@ -5642,7 +5642,7 @@
     };
   };
   snippets-nvim = buildVimPluginFrom2Nix {
-    pname = "snippets-nvim"; -- Manifest entry: "norcalli/snippets.nvim"
+    pname = "snippets-nvim"; # Manifest entry: "norcalli/snippets.nvim"
     version = "2020-09-09";
     src = fetchurl {
       url = "https://github.com/norcalli/snippets.nvim/archive/7b5fd8071d4fb6fa981a899aae56b55897c079fd.tar.gz";
@@ -5655,7 +5655,7 @@
     };
   };
   cmdbuf-nvim = buildVimPluginFrom2Nix {
-    pname = "cmdbuf-nvim"; -- Manifest entry: "notomo/cmdbuf.nvim"
+    pname = "cmdbuf-nvim"; # Manifest entry: "notomo/cmdbuf.nvim"
     version = "2023-01-09";
     src = fetchurl {
       url = "https://github.com/notomo/cmdbuf.nvim/archive/9e9417cfc0c959505dd87821fa35d114184f2f38.tar.gz";
@@ -5668,7 +5668,7 @@
     };
   };
   gesture-nvim = buildVimPluginFrom2Nix {
-    pname = "gesture-nvim"; -- Manifest entry: "notomo/gesture.nvim"
+    pname = "gesture-nvim"; # Manifest entry: "notomo/gesture.nvim"
     version = "2023-02-03";
     src = fetchurl {
       url = "https://github.com/notomo/gesture.nvim/archive/902a97219e126a08aea6016994c50eea485bcd79.tar.gz";
@@ -5681,7 +5681,7 @@
     };
   };
   kosmikoa-nvim = buildVimPluginFrom2Nix {
-    pname = "kosmikoa-nvim"; -- Manifest entry: "novakne/kosmikoa.nvim"
+    pname = "kosmikoa-nvim"; # Manifest entry: "novakne/kosmikoa.nvim"
     version = "2021-11-19";
     src = fetchurl {
       url = "https://github.com/novakne/kosmikoa.nvim/archive/a32b908fb2018f0f0ed1b92ff334db0d317f5dd7.tar.gz";
@@ -5694,7 +5694,7 @@
     };
   };
   BufOnly-nvim = buildVimPluginFrom2Nix {
-    pname = "BufOnly-nvim"; -- Manifest entry: "numToStr/BufOnly.nvim"
+    pname = "BufOnly-nvim"; # Manifest entry: "numToStr/BufOnly.nvim"
     version = "2021-07-05";
     src = fetchurl {
       url = "https://github.com/numToStr/BufOnly.nvim/archive/30579c2851743b00c4547c324a16f2c1cfa5a41c.tar.gz";
@@ -5706,7 +5706,7 @@
     };
   };
   Comment-nvim = buildVimPluginFrom2Nix {
-    pname = "Comment-nvim"; -- Manifest entry: "numToStr/Comment.nvim"
+    pname = "Comment-nvim"; # Manifest entry: "numToStr/Comment.nvim"
     version = "2023-01-18";
     src = fetchurl {
       url = "https://github.com/numToStr/Comment.nvim/archive/eab2c83a0207369900e92783f56990808082eac2.tar.gz";
@@ -5719,7 +5719,7 @@
     };
   };
   FTerm-nvim = buildVimPluginFrom2Nix {
-    pname = "FTerm-nvim"; -- Manifest entry: "numToStr/FTerm.nvim"
+    pname = "FTerm-nvim"; # Manifest entry: "numToStr/FTerm.nvim"
     version = "2022-11-13";
     src = fetchurl {
       url = "https://github.com/numToStr/FTerm.nvim/archive/d1320892cc2ebab472935242d9d992a2c9570180.tar.gz";
@@ -5732,7 +5732,7 @@
     };
   };
   Navigator-nvim = buildVimPluginFrom2Nix {
-    pname = "Navigator-nvim"; -- Manifest entry: "numToStr/Navigator.nvim"
+    pname = "Navigator-nvim"; # Manifest entry: "numToStr/Navigator.nvim"
     version = "2023-02-02";
     src = fetchurl {
       url = "https://github.com/numToStr/Navigator.nvim/archive/91d86506ac2a039504d5205d32a1d4bc7aa57072.tar.gz";
@@ -5745,7 +5745,7 @@
     };
   };
   colortils-nvim = buildVimPluginFrom2Nix {
-    pname = "colortils-nvim"; -- Manifest entry: "nvim-colortils/colortils.nvim"
+    pname = "colortils-nvim"; # Manifest entry: "nvim-colortils/colortils.nvim"
     version = "2023-01-09";
     src = fetchurl {
       url = "https://github.com/nvim-colortils/colortils.nvim/archive/4f4d89ccaac8e544c18ab7101e718604a5cdd6b0.tar.gz";
@@ -5758,7 +5758,7 @@
     };
   };
   lsp-status-nvim = buildVimPluginFrom2Nix {
-    pname = "lsp-status-nvim"; -- Manifest entry: "nvim-lua/lsp-status.nvim"
+    pname = "lsp-status-nvim"; # Manifest entry: "nvim-lua/lsp-status.nvim"
     version = "2022-08-03";
     src = fetchurl {
       url = "https://github.com/nvim-lua/lsp-status.nvim/archive/54f48eb5017632d81d0fd40112065f1d062d0629.tar.gz";
@@ -5771,7 +5771,7 @@
     };
   };
   lsp-extensions-nvim = buildVimPluginFrom2Nix {
-    pname = "lsp-extensions-nvim"; -- Manifest entry: "nvim-lua/lsp_extensions.nvim"
+    pname = "lsp-extensions-nvim"; # Manifest entry: "nvim-lua/lsp_extensions.nvim"
     version = "2022-07-07";
     src = fetchurl {
       url = "https://github.com/nvim-lua/lsp_extensions.nvim/archive/92c08d4914d5d272fae13c499aafc9f14eb05ada.tar.gz";
@@ -5784,7 +5784,7 @@
     };
   };
   plenary-nvim = buildVimPluginFrom2Nix {
-    pname = "plenary-nvim"; -- Manifest entry: "nvim-lua/plenary.nvim"
+    pname = "plenary-nvim"; # Manifest entry: "nvim-lua/plenary.nvim"
     version = "2023-01-30";
     src = fetchurl {
       url = "https://github.com/nvim-lua/plenary.nvim/archive/9a0d3bf7b832818c042aaf30f692b081ddd58bd9.tar.gz";
@@ -5797,7 +5797,7 @@
     };
   };
   popup-nvim = buildVimPluginFrom2Nix {
-    pname = "popup-nvim"; -- Manifest entry: "nvim-lua/popup.nvim"
+    pname = "popup-nvim"; # Manifest entry: "nvim-lua/popup.nvim"
     version = "2021-11-18";
     src = fetchurl {
       url = "https://github.com/nvim-lua/popup.nvim/archive/b7404d35d5d3548a82149238289fa71f7f6de4ac.tar.gz";
@@ -5810,7 +5810,7 @@
     };
   };
   lualine-nvim = buildVimPluginFrom2Nix {
-    pname = "lualine-nvim"; -- Manifest entry: "nvim-lualine/lualine.nvim"
+    pname = "lualine-nvim"; # Manifest entry: "nvim-lualine/lualine.nvim"
     version = "2023-01-11";
     src = fetchurl {
       url = "https://github.com/nvim-lualine/lualine.nvim/archive/0050b308552e45f7128f399886c86afefc3eb988.tar.gz";
@@ -5823,7 +5823,7 @@
     };
   };
   neo-tree-nvim = buildVimPluginFrom2Nix {
-    pname = "neo-tree-nvim"; -- Manifest entry: "nvim-neo-tree/neo-tree.nvim"
+    pname = "neo-tree-nvim"; # Manifest entry: "nvim-neo-tree/neo-tree.nvim"
     version = "2023-01-12";
     src = fetchurl {
       url = "https://github.com/nvim-neo-tree/neo-tree.nvim/archive/8238865e1d9c61f1a260c290653f2c419503e0a9.tar.gz";
@@ -5836,7 +5836,7 @@
     };
   };
   neorg = buildVimPluginFrom2Nix {
-    pname = "neorg"; -- Manifest entry: "nvim-neorg/neorg"
+    pname = "neorg"; # Manifest entry: "nvim-neorg/neorg"
     version = "2023-02-08";
     src = fetchurl {
       url = "https://github.com/nvim-neorg/neorg/archive/2c2785dc7199370263fd9710e04706ddef2d47b6.tar.gz";
@@ -5849,7 +5849,7 @@
     };
   };
   neotest = buildVimPluginFrom2Nix {
-    pname = "neotest"; -- Manifest entry: "nvim-neotest/neotest"
+    pname = "neotest"; # Manifest entry: "nvim-neotest/neotest"
     version = "2023-02-07";
     src = fetchurl {
       url = "https://github.com/nvim-neotest/neotest/archive/568feb5e9c7c5b7386886ecd4520389153aa7c7d.tar.gz";
@@ -5862,7 +5862,7 @@
     };
   };
   orgmode = buildVimPluginFrom2Nix {
-    pname = "orgmode"; -- Manifest entry: "nvim-orgmode/orgmode"
+    pname = "orgmode"; # Manifest entry: "nvim-orgmode/orgmode"
     version = "2023-02-01";
     src = fetchurl {
       url = "https://github.com/nvim-orgmode/orgmode/archive/7ddbdc0741fdc90f73faa17fb332bc8700acadbf.tar.gz";
@@ -5875,7 +5875,7 @@
     };
   };
   telescope-bibtex-nvim = buildVimPluginFrom2Nix {
-    pname = "telescope-bibtex-nvim"; -- Manifest entry: "nvim-telescope/telescope-bibtex.nvim"
+    pname = "telescope-bibtex-nvim"; # Manifest entry: "nvim-telescope/telescope-bibtex.nvim"
     version = "2023-01-09";
     src = fetchurl {
       url = "https://github.com/nvim-telescope/telescope-bibtex.nvim/archive/6ceb8d6c8897b5784afab22f875d559a898c562e.tar.gz";
@@ -5888,7 +5888,7 @@
     };
   };
   telescope-media-files-nvim = buildVimPluginFrom2Nix {
-    pname = "telescope-media-files-nvim"; -- Manifest entry: "nvim-telescope/telescope-media-files.nvim"
+    pname = "telescope-media-files-nvim"; # Manifest entry: "nvim-telescope/telescope-media-files.nvim"
     version = "2021-10-21";
     src = fetchurl {
       url = "https://github.com/nvim-telescope/telescope-media-files.nvim/archive/513e4ee385edd72bf0b35a217b7e39f84b6fe93c.tar.gz";
@@ -5901,7 +5901,7 @@
     };
   };
   telescope-nvim = buildVimPluginFrom2Nix {
-    pname = "telescope-nvim"; -- Manifest entry: "nvim-telescope/telescope.nvim"
+    pname = "telescope-nvim"; # Manifest entry: "nvim-telescope/telescope.nvim"
     version = "2023-01-31";
     src = fetchurl {
       url = "https://github.com/nvim-telescope/telescope.nvim/archive/203bf5609137600d73e8ed82703d6b0e320a5f36.tar.gz";
@@ -5914,7 +5914,7 @@
     };
   };
   nvim-treesitter = buildVimPluginFrom2Nix {
-    pname = "nvim-treesitter"; -- Manifest entry: "nvim-treesitter/nvim-treesitter"
+    pname = "nvim-treesitter"; # Manifest entry: "nvim-treesitter/nvim-treesitter"
     version = "2023-02-08";
     src = fetchurl {
       url = "https://github.com/nvim-treesitter/nvim-treesitter/archive/f6df07be122de665fb363476cc3680c90f5bdf05.tar.gz";
@@ -5927,7 +5927,7 @@
     };
   };
   nvim-treesitter-context = buildVimPluginFrom2Nix {
-    pname = "nvim-treesitter-context"; -- Manifest entry: "nvim-treesitter/nvim-treesitter-context"
+    pname = "nvim-treesitter-context"; # Manifest entry: "nvim-treesitter/nvim-treesitter-context"
     version = "2023-01-06";
     src = fetchurl {
       url = "https://github.com/nvim-treesitter/nvim-treesitter-context/archive/cacee4828152dd3a83736169ae61bbcd29a3d213.tar.gz";
@@ -5940,7 +5940,7 @@
     };
   };
   nvim-treesitter-refactor = buildVimPluginFrom2Nix {
-    pname = "nvim-treesitter-refactor"; -- Manifest entry: "nvim-treesitter/nvim-treesitter-refactor"
+    pname = "nvim-treesitter-refactor"; # Manifest entry: "nvim-treesitter/nvim-treesitter-refactor"
     version = "2022-05-13";
     src = fetchurl {
       url = "https://github.com/nvim-treesitter/nvim-treesitter-refactor/archive/75f5895cc662d61eb919da8050b7a0124400d589.tar.gz";
@@ -5953,7 +5953,7 @@
     };
   };
   nvim-treesitter-textobjects = buildVimPluginFrom2Nix {
-    pname = "nvim-treesitter-textobjects"; -- Manifest entry: "nvim-treesitter/nvim-treesitter-textobjects"
+    pname = "nvim-treesitter-textobjects"; # Manifest entry: "nvim-treesitter/nvim-treesitter-textobjects"
     version = "2023-02-08";
     src = fetchurl {
       url = "https://github.com/nvim-treesitter/nvim-treesitter-textobjects/archive/764336d37e60efc93b75bc027c1203243d7dd2ed.tar.gz";
@@ -5966,7 +5966,7 @@
     };
   };
   colorful-winsep-nvim = buildVimPluginFrom2Nix {
-    pname = "colorful-winsep-nvim"; -- Manifest entry: "nvim-zh/colorful-winsep.nvim"
+    pname = "colorful-winsep-nvim"; # Manifest entry: "nvim-zh/colorful-winsep.nvim"
     version = "2023-01-14";
     src = fetchurl {
       url = "https://github.com/nvim-zh/colorful-winsep.nvim/archive/956d65c9a31ce81b7873bef1682c72eb00d9affb.tar.gz";
@@ -5979,7 +5979,7 @@
     };
   };
   vn-night-nvim = buildVimPluginFrom2Nix {
-    pname = "vn-night-nvim"; -- Manifest entry: "nxvu699134/vn-night.nvim"
+    pname = "vn-night-nvim"; # Manifest entry: "nxvu699134/vn-night.nvim"
     version = "2022-06-04";
     src = fetchurl {
       url = "https://github.com/nxvu699134/vn-night.nvim/archive/79edbafd73e47fa2909cf3791fbe9e8b78b55156.tar.gz";
@@ -5992,7 +5992,7 @@
     };
   };
   NeoNoName-lua = buildVimPluginFrom2Nix {
-    pname = "NeoNoName-lua"; -- Manifest entry: "nyngwang/NeoNoName.lua"
+    pname = "NeoNoName-lua"; # Manifest entry: "nyngwang/NeoNoName.lua"
     version = "2023-02-01";
     src = fetchurl {
       url = "https://github.com/nyngwang/NeoNoName.lua/archive/7aee0ff9df3547fbb1de68ccb94732617ffd3210.tar.gz";
@@ -6005,7 +6005,7 @@
     };
   };
   NeoRoot-lua = buildVimPluginFrom2Nix {
-    pname = "NeoRoot-lua"; -- Manifest entry: "nyngwang/NeoRoot.lua"
+    pname = "NeoRoot-lua"; # Manifest entry: "nyngwang/NeoRoot.lua"
     version = "2023-02-08";
     src = fetchurl {
       url = "https://github.com/nyngwang/NeoRoot.lua/archive/215178e1bfbb0e9fc82b1179e42c2cafd594d324.tar.gz";
@@ -6017,7 +6017,7 @@
     };
   };
   NeoTerm-lua = buildVimPluginFrom2Nix {
-    pname = "NeoTerm-lua"; -- Manifest entry: "nyngwang/NeoTerm.lua"
+    pname = "NeoTerm-lua"; # Manifest entry: "nyngwang/NeoTerm.lua"
     version = "2023-01-26";
     src = fetchurl {
       url = "https://github.com/nyngwang/NeoTerm.lua/archive/f1bbcc1d7d04160f58e68122812ff857231367c5.tar.gz";
@@ -6030,7 +6030,7 @@
     };
   };
   NeoWell-lua = buildVimPluginFrom2Nix {
-    pname = "NeoWell-lua"; -- Manifest entry: "nyngwang/NeoWell.lua"
+    pname = "NeoWell-lua"; # Manifest entry: "nyngwang/NeoWell.lua"
     version = "2022-12-15";
     src = fetchurl {
       url = "https://github.com/nyngwang/NeoWell.lua/archive/f4be69dde62dec845844ffe9ca0173aa2af00d79.tar.gz";
@@ -6042,7 +6042,7 @@
     };
   };
   murmur-lua = buildVimPluginFrom2Nix {
-    pname = "murmur-lua"; -- Manifest entry: "nyngwang/murmur.lua"
+    pname = "murmur-lua"; # Manifest entry: "nyngwang/murmur.lua"
     version = "2023-01-03";
     src = fetchurl {
       url = "https://github.com/nyngwang/murmur.lua/archive/bd63fc7d3122aececc9fe960660d1e4df2cf7550.tar.gz";
@@ -6054,7 +6054,7 @@
     };
   };
   suave-lua = buildVimPluginFrom2Nix {
-    pname = "suave-lua"; -- Manifest entry: "nyngwang/suave.lua"
+    pname = "suave-lua"; # Manifest entry: "nyngwang/suave.lua"
     version = "2023-02-08";
     src = fetchurl {
       url = "https://github.com/nyngwang/suave.lua/archive/b2fbf8e65a1854f4b7a937a3b9f9ef7164185cbc.tar.gz";
@@ -6067,7 +6067,7 @@
     };
   };
   neuron-nvim = buildVimPluginFrom2Nix {
-    pname = "neuron-nvim"; -- Manifest entry: "oberblastmeister/neuron.nvim"
+    pname = "neuron-nvim"; # Manifest entry: "oberblastmeister/neuron.nvim"
     version = "2022-02-27";
     src = fetchurl {
       url = "https://github.com/oberblastmeister/neuron.nvim/archive/c44032ece3cb71a9ce45043d246828cd1cef002c.tar.gz";
@@ -6080,7 +6080,7 @@
     };
   };
   cmp-look = buildVimPluginFrom2Nix {
-    pname = "cmp-look"; -- Manifest entry: "octaltree/cmp-look"
+    pname = "cmp-look"; # Manifest entry: "octaltree/cmp-look"
     version = "2022-06-26";
     src = fetchurl {
       url = "https://github.com/octaltree/cmp-look/archive/b39c50bcdf6199dddda56adc466c2bd9c951a960.tar.gz";
@@ -6093,7 +6093,7 @@
     };
   };
   goto-breakpoints-nvim = buildVimPluginFrom2Nix {
-    pname = "goto-breakpoints-nvim"; -- Manifest entry: "ofirgall/goto-breakpoints.nvim"
+    pname = "goto-breakpoints-nvim"; # Manifest entry: "ofirgall/goto-breakpoints.nvim"
     version = "2022-08-18";
     src = fetchurl {
       url = "https://github.com/ofirgall/goto-breakpoints.nvim/archive/af43bb905cbff6c8ebb8e6438b75853b7baf1c74.tar.gz";
@@ -6106,7 +6106,7 @@
     };
   };
   ofirkai-nvim = buildVimPluginFrom2Nix {
-    pname = "ofirkai-nvim"; -- Manifest entry: "ofirgall/ofirkai.nvim"
+    pname = "ofirkai-nvim"; # Manifest entry: "ofirgall/ofirkai.nvim"
     version = "2023-02-07";
     src = fetchurl {
       url = "https://github.com/ofirgall/ofirkai.nvim/archive/32e08bb9f82988f204aa881f6ba91b6f4468d1c4.tar.gz";
@@ -6119,7 +6119,7 @@
     };
   };
   open-nvim = buildVimPluginFrom2Nix {
-    pname = "open-nvim"; -- Manifest entry: "ofirgall/open.nvim"
+    pname = "open-nvim"; # Manifest entry: "ofirgall/open.nvim"
     version = "2022-10-29";
     src = fetchurl {
       url = "https://github.com/ofirgall/open.nvim/archive/3375a7925ba79e6ead7d878003bb5b493bd1044b.tar.gz";
@@ -6132,7 +6132,7 @@
     };
   };
   nvim-hardline = buildVimPluginFrom2Nix {
-    pname = "nvim-hardline"; -- Manifest entry: "ojroques/nvim-hardline"
+    pname = "nvim-hardline"; # Manifest entry: "ojroques/nvim-hardline"
     version = "2023-02-06";
     src = fetchurl {
       url = "https://github.com/ojroques/nvim-hardline/archive/aa1e191ba4d84bb02cfd352ed113c64091ad7d81.tar.gz";
@@ -6145,7 +6145,7 @@
     };
   };
   nvim-lspfuzzy = buildVimPluginFrom2Nix {
-    pname = "nvim-lspfuzzy"; -- Manifest entry: "ojroques/nvim-lspfuzzy"
+    pname = "nvim-lspfuzzy"; # Manifest entry: "ojroques/nvim-lspfuzzy"
     version = "2022-09-26";
     src = fetchurl {
       url = "https://github.com/ojroques/nvim-lspfuzzy/archive/7c9f861fdf0adc4a4361355f892c4a3f7431bfa9.tar.gz";
@@ -6158,7 +6158,7 @@
     };
   };
   gopher-nvim = buildVimPluginFrom2Nix {
-    pname = "gopher-nvim"; -- Manifest entry: "olexsmir/gopher.nvim"
+    pname = "gopher-nvim"; # Manifest entry: "olexsmir/gopher.nvim"
     version = "2023-02-01";
     src = fetchurl {
       url = "https://github.com/olexsmir/gopher.nvim/archive/cc46546a93c7ccea39f1e008e6804b93559bec29.tar.gz";
@@ -6170,7 +6170,7 @@
     };
   };
   onedarkpro-nvim = buildVimPluginFrom2Nix {
-    pname = "onedarkpro-nvim"; -- Manifest entry: "olimorris/onedarkpro.nvim"
+    pname = "onedarkpro-nvim"; # Manifest entry: "olimorris/onedarkpro.nvim"
     version = "2023-02-06";
     src = fetchurl {
       url = "https://github.com/olimorris/onedarkpro.nvim/archive/dd5e37cacfc4aa1949766b5a1b5a9b0b2bbc75b2.tar.gz";
@@ -6183,7 +6183,7 @@
     };
   };
   persisted-nvim = buildVimPluginFrom2Nix {
-    pname = "persisted-nvim"; -- Manifest entry: "olimorris/persisted.nvim"
+    pname = "persisted-nvim"; # Manifest entry: "olimorris/persisted.nvim"
     version = "2023-01-08";
     src = fetchurl {
       url = "https://github.com/olimorris/persisted.nvim/archive/325cda4fb406601929fbc2084816dc5e49d5e5aa.tar.gz";
@@ -6196,7 +6196,7 @@
     };
   };
   poimandres-nvim = buildVimPluginFrom2Nix {
-    pname = "poimandres-nvim"; -- Manifest entry: "olivercederborg/poimandres.nvim"
+    pname = "poimandres-nvim"; # Manifest entry: "olivercederborg/poimandres.nvim"
     version = "2022-11-13";
     src = fetchurl {
       url = "https://github.com/olivercederborg/poimandres.nvim/archive/be4ea8d437cd963550d102d90415962e9734f909.tar.gz";
@@ -6208,7 +6208,7 @@
     };
   };
   diaglist-nvim = buildVimPluginFrom2Nix {
-    pname = "diaglist-nvim"; -- Manifest entry: "onsails/diaglist.nvim"
+    pname = "diaglist-nvim"; # Manifest entry: "onsails/diaglist.nvim"
     version = "2022-09-01";
     src = fetchurl {
       url = "https://github.com/onsails/diaglist.nvim/archive/afc124a0976d56db43cc840e62757193ccab7856.tar.gz";
@@ -6220,7 +6220,7 @@
     };
   };
   lspkind-nvim = buildVimPluginFrom2Nix {
-    pname = "lspkind-nvim"; -- Manifest entry: "onsails/lspkind.nvim"
+    pname = "lspkind-nvim"; # Manifest entry: "onsails/lspkind.nvim"
     version = "2022-09-22";
     src = fetchurl {
       url = "https://github.com/onsails/lspkind.nvim/archive/c68b3a003483cf382428a43035079f78474cd11e.tar.gz";
@@ -6233,7 +6233,7 @@
     };
   };
   scribe-nvim = buildVimPluginFrom2Nix {
-    pname = "scribe-nvim"; -- Manifest entry: "ostralyan/scribe.nvim"
+    pname = "scribe-nvim"; # Manifest entry: "ostralyan/scribe.nvim"
     version = "2023-02-02";
     src = fetchurl {
       url = "https://github.com/Ostralyan/scribe.nvim/archive/e1c95d6c86c88a199f8c94e7a2a835db2eaf28ea.tar.gz";
@@ -6246,7 +6246,7 @@
     };
   };
   telescope-alternate-nvim = buildVimPluginFrom2Nix {
-    pname = "telescope-alternate-nvim"; -- Manifest entry: "otavioschwanck/telescope-alternate.nvim"
+    pname = "telescope-alternate-nvim"; # Manifest entry: "otavioschwanck/telescope-alternate.nvim"
     version = "2023-02-07";
     src = fetchurl {
       url = "https://github.com/otavioschwanck/telescope-alternate.nvim/archive/eaefa67ab9a158c0f28f9ca6740304ee4d36c6c2.tar.gz";
@@ -6258,7 +6258,7 @@
     };
   };
   tmux-awesome-manager-nvim = buildVimPluginFrom2Nix {
-    pname = "tmux-awesome-manager-nvim"; -- Manifest entry: "otavioschwanck/tmux-awesome-manager.nvim"
+    pname = "tmux-awesome-manager-nvim"; # Manifest entry: "otavioschwanck/tmux-awesome-manager.nvim"
     version = "2022-12-30";
     src = fetchurl {
       url = "https://github.com/otavioschwanck/tmux-awesome-manager.nvim/archive/68de2934216edee9d367f5efe4729f895939d0dc.tar.gz";
@@ -6270,7 +6270,7 @@
     };
   };
   clangd-extensions-nvim = buildVimPluginFrom2Nix {
-    pname = "clangd-extensions-nvim"; -- Manifest entry: "p00f/clangd_extensions.nvim"
+    pname = "clangd-extensions-nvim"; # Manifest entry: "p00f/clangd_extensions.nvim"
     version = "2023-01-02";
     src = fetchurl {
       url = "https://github.com/p00f/clangd_extensions.nvim/archive/a5c3c8390dfb342d630bdc25941a4d8f433510be.tar.gz";
@@ -6283,7 +6283,7 @@
     };
   };
   cphelper-nvim = buildVimPluginFrom2Nix {
-    pname = "cphelper-nvim"; -- Manifest entry: "p00f/cphelper.nvim"
+    pname = "cphelper-nvim"; # Manifest entry: "p00f/cphelper.nvim"
     version = "2022-09-11";
     src = fetchurl {
       url = "https://github.com/p00f/cphelper.nvim/archive/c873e28fa743324bb949ef0f33eeaf49d059af08.tar.gz";
@@ -6296,7 +6296,7 @@
     };
   };
   nvim-ts-rainbow = buildVimPluginFrom2Nix {
-    pname = "nvim-ts-rainbow"; -- Manifest entry: "p00f/nvim-ts-rainbow"
+    pname = "nvim-ts-rainbow"; # Manifest entry: "p00f/nvim-ts-rainbow"
     version = "2023-01-02";
     src = fetchurl {
       url = "https://github.com/p00f/nvim-ts-rainbow/archive/ef95c15a935f97c65a80e48e12fe72d49aacf9b9.tar.gz";
@@ -6309,7 +6309,7 @@
     };
   };
   cmp-git = buildVimPluginFrom2Nix {
-    pname = "cmp-git"; -- Manifest entry: "petertriho/cmp-git"
+    pname = "cmp-git"; # Manifest entry: "petertriho/cmp-git"
     version = "2023-01-09";
     src = fetchurl {
       url = "https://github.com/petertriho/cmp-git/archive/6bcb61c0a5ec2e0d522ece7c8fb3e009f1c79261.tar.gz";
@@ -6322,7 +6322,7 @@
     };
   };
   nvim-scrollbar = buildVimPluginFrom2Nix {
-    pname = "nvim-scrollbar"; -- Manifest entry: "petertriho/nvim-scrollbar"
+    pname = "nvim-scrollbar"; # Manifest entry: "petertriho/nvim-scrollbar"
     version = "2023-01-12";
     src = fetchurl {
       url = "https://github.com/petertriho/nvim-scrollbar/archive/6a2065fbcd032075a06d2ab54508b69842bc4496.tar.gz";
@@ -6335,7 +6335,7 @@
     };
   };
   hop-nvim = buildVimPluginFrom2Nix {
-    pname = "hop-nvim"; -- Manifest entry: "phaazon/hop.nvim"
+    pname = "hop-nvim"; # Manifest entry: "phaazon/hop.nvim"
     version = "2022-10-30";
     src = fetchurl {
       url = "https://github.com/phaazon/hop.nvim/archive/90db1b2c61b820e230599a04fedcd2679e64bd07.tar.gz";
@@ -6347,7 +6347,7 @@
     };
   };
   mind-nvim = buildVimPluginFrom2Nix {
-    pname = "mind-nvim"; -- Manifest entry: "phaazon/mind.nvim"
+    pname = "mind-nvim"; # Manifest entry: "phaazon/mind.nvim"
     version = "2023-01-24";
     src = fetchurl {
       url = "https://github.com/phaazon/mind.nvim/archive/e59c52758c399caceb549c698cfa2d65e6bbb9f9.tar.gz";
@@ -6359,7 +6359,7 @@
     };
   };
   zenburn-nvim = buildVimPluginFrom2Nix {
-    pname = "zenburn-nvim"; -- Manifest entry: "phha/zenburn.nvim"
+    pname = "zenburn-nvim"; # Manifest entry: "phha/zenburn.nvim"
     version = "2022-11-23";
     src = fetchurl {
       url = "https://github.com/phha/zenburn.nvim/archive/cc78ddba1d65f885d3928692ee628ed40216b900.tar.gz";
@@ -6372,7 +6372,7 @@
     };
   };
   consolation-nvim = buildVimPluginFrom2Nix {
-    pname = "consolation-nvim"; -- Manifest entry: "pianocomposer321/consolation.nvim"
+    pname = "consolation-nvim"; # Manifest entry: "pianocomposer321/consolation.nvim"
     version = "2021-09-01";
     src = fetchurl {
       url = "https://github.com/pianocomposer321/consolation.nvim/archive/9111a1e5204e6d522e0229569f5f2841faa7a72f.tar.gz";
@@ -6384,7 +6384,7 @@
     };
   };
   yabs-nvim = buildVimPluginFrom2Nix {
-    pname = "yabs-nvim"; -- Manifest entry: "pianocomposer321/yabs.nvim"
+    pname = "yabs-nvim"; # Manifest entry: "pianocomposer321/yabs.nvim"
     version = "2022-05-09";
     src = fetchurl {
       url = "https://github.com/pianocomposer321/yabs.nvim/archive/88bdb5c557448960be3cb9d3da64e52009e7bef9.tar.gz";
@@ -6397,7 +6397,7 @@
     };
   };
   neoproj = buildVimPluginFrom2Nix {
-    pname = "neoproj"; -- Manifest entry: "pluffie/neoproj"
+    pname = "neoproj"; # Manifest entry: "pluffie/neoproj"
     version = "2022-12-29";
     src = fetchurl {
       url = "https://github.com/pluffie/neoproj/archive/a43a8760e005d1a6f8da7e65e63630c5bf34e27c.tar.gz";
@@ -6410,7 +6410,7 @@
     };
   };
   cmp-vimwiki-tags = buildVimPluginFrom2Nix {
-    pname = "cmp-vimwiki-tags"; -- Manifest entry: "pontusk/cmp-vimwiki-tags"
+    pname = "cmp-vimwiki-tags"; # Manifest entry: "pontusk/cmp-vimwiki-tags"
     version = "2022-04-25";
     src = fetchurl {
       url = "https://github.com/pontusk/cmp-vimwiki-tags/archive/a9e631c8f4d64e009d253f741b035eb5d1bd404f.tar.gz";
@@ -6422,7 +6422,7 @@
     };
   };
   pantran-nvim = buildVimPluginFrom2Nix {
-    pname = "pantran-nvim"; -- Manifest entry: "potamides/pantran.nvim"
+    pname = "pantran-nvim"; # Manifest entry: "potamides/pantran.nvim"
     version = "2022-12-30";
     src = fetchurl {
       url = "https://github.com/potamides/pantran.nvim/archive/e53eb4238cea124f8a585c6dc245161b29def275.tar.gz";
@@ -6435,7 +6435,7 @@
     };
   };
   nerdcommenter = buildVimPluginFrom2Nix {
-    pname = "nerdcommenter"; -- Manifest entry: "preservim/nerdcommenter"
+    pname = "nerdcommenter"; # Manifest entry: "preservim/nerdcommenter"
     version = "2023-02-05";
     src = fetchurl {
       url = "https://github.com/preservim/nerdcommenter/archive/d069f7fb562fb9eb6911fe23cda7aca2a387043e.tar.gz";
@@ -6448,7 +6448,7 @@
     };
   };
   github-nvim-theme = buildVimPluginFrom2Nix {
-    pname = "github-nvim-theme"; -- Manifest entry: "projekt0n/github-nvim-theme"
+    pname = "github-nvim-theme"; # Manifest entry: "projekt0n/github-nvim-theme"
     version = "2023-01-21";
     src = fetchurl {
       url = "https://github.com/projekt0n/github-nvim-theme/archive/a93fc4cd3c16b91cf29a1387015e6e925c416efb.tar.gz";
@@ -6461,7 +6461,7 @@
     };
   };
   codeql-nvim = buildVimPluginFrom2Nix {
-    pname = "codeql-nvim"; -- Manifest entry: "pwntester/codeql.nvim"
+    pname = "codeql-nvim"; # Manifest entry: "pwntester/codeql.nvim"
     version = "2023-01-24";
     src = fetchurl {
       url = "https://github.com/pwntester/codeql.nvim/archive/25f657d80575619bc956137f39b5b453735c52d4.tar.gz";
@@ -6473,7 +6473,7 @@
     };
   };
   octo-nvim = buildVimPluginFrom2Nix {
-    pname = "octo-nvim"; -- Manifest entry: "pwntester/octo.nvim"
+    pname = "octo-nvim"; # Manifest entry: "pwntester/octo.nvim"
     version = "2023-01-27";
     src = fetchurl {
       url = "https://github.com/pwntester/octo.nvim/archive/7900dc0cd37e7bb5d4175a37c9c4c3dfb94a1f7b.tar.gz";
@@ -6486,7 +6486,7 @@
     };
   };
   cmp-nvim-ultisnips = buildVimPluginFrom2Nix {
-    pname = "cmp-nvim-ultisnips"; -- Manifest entry: "quangnguyen30192/cmp-nvim-ultisnips"
+    pname = "cmp-nvim-ultisnips"; # Manifest entry: "quangnguyen30192/cmp-nvim-ultisnips"
     version = "2023-01-12";
     src = fetchurl {
       url = "https://github.com/quangnguyen30192/cmp-nvim-ultisnips/archive/43b69a235b2dc54db692049fe0d5cc60c6b58b4b.tar.gz";
@@ -6499,7 +6499,7 @@
     };
   };
   nvim-goc-lua = buildVimPluginFrom2Nix {
-    pname = "nvim-goc-lua"; -- Manifest entry: "rafaelsq/nvim-goc.lua"
+    pname = "nvim-goc-lua"; # Manifest entry: "rafaelsq/nvim-goc.lua"
     version = "2022-09-15";
     src = fetchurl {
       url = "https://github.com/rafaelsq/nvim-goc.lua/archive/7d23d820feeb30c6346b8a4f159466ee77e855fd.tar.gz";
@@ -6512,7 +6512,7 @@
     };
   };
   neon = buildVimPluginFrom2Nix {
-    pname = "neon"; -- Manifest entry: "rafamadriz/neon"
+    pname = "neon"; # Manifest entry: "rafamadriz/neon"
     version = "2022-11-27";
     src = fetchurl {
       url = "https://github.com/rafamadriz/neon/archive/7765aaa7d1cd3804176140644640766e4411c766.tar.gz";
@@ -6525,7 +6525,7 @@
     };
   };
   nvim-luapad = buildVimPluginFrom2Nix {
-    pname = "nvim-luapad"; -- Manifest entry: "rafcamlet/nvim-luapad"
+    pname = "nvim-luapad"; # Manifest entry: "rafcamlet/nvim-luapad"
     version = "2022-12-11";
     src = fetchurl {
       url = "https://github.com/rafcamlet/nvim-luapad/archive/a5b3d6aa1fe5fe75e6124927392a9d3a60a0ecce.tar.gz";
@@ -6537,7 +6537,7 @@
     };
   };
   tabline-framework-nvim = buildVimPluginFrom2Nix {
-    pname = "tabline-framework-nvim"; -- Manifest entry: "rafcamlet/tabline-framework.nvim"
+    pname = "tabline-framework-nvim"; # Manifest entry: "rafcamlet/tabline-framework.nvim"
     version = "2023-01-04";
     src = fetchurl {
       url = "https://github.com/rafcamlet/tabline-framework.nvim/archive/8e4c1b426eedafa1f4b10f2426d405dadc0a4c88.tar.gz";
@@ -6550,7 +6550,7 @@
     };
   };
   requirements-txt-vim = buildVimPluginFrom2Nix {
-    pname = "requirements-txt-vim"; -- Manifest entry: "raimon49/requirements.txt.vim"
+    pname = "requirements-txt-vim"; # Manifest entry: "raimon49/requirements.txt.vim"
     version = "2022-11-01";
     src = fetchurl {
       url = "https://github.com/raimon49/requirements.txt.vim/archive/d1a03f3ff17044491e2044cdd4f0ab8161b1dae2.tar.gz";
@@ -6563,7 +6563,7 @@
     };
   };
   mellifluous-nvim = buildVimPluginFrom2Nix {
-    pname = "mellifluous-nvim"; -- Manifest entry: "ramojus/mellifluous.nvim"
+    pname = "mellifluous-nvim"; # Manifest entry: "ramojus/mellifluous.nvim"
     version = "2023-02-07";
     src = fetchurl {
       url = "https://github.com/ramojus/mellifluous.nvim/archive/066f22f792f5a19a8cf0e7b0dcb43bc2e3ddb02d.tar.gz";
@@ -6576,7 +6576,7 @@
     };
   };
   ccls-nvim = buildVimPluginFrom2Nix {
-    pname = "ccls-nvim"; -- Manifest entry: "ranjithshegde/ccls.nvim"
+    pname = "ccls-nvim"; # Manifest entry: "ranjithshegde/ccls.nvim"
     version = "2022-11-08";
     src = fetchurl {
       url = "https://github.com/ranjithshegde/ccls.nvim/archive/37c772b07d25054a51ec36f1767e1d64224fb38d.tar.gz";
@@ -6589,7 +6589,7 @@
     };
   };
   aurora = buildVimPluginFrom2Nix {
-    pname = "aurora"; -- Manifest entry: "ray-x/aurora"
+    pname = "aurora"; # Manifest entry: "ray-x/aurora"
     version = "2023-02-09";
     src = fetchurl {
       url = "https://github.com/ray-x/aurora/archive/624d065f1c3f88438839dba79b995bc858a4642a.tar.gz";
@@ -6602,7 +6602,7 @@
     };
   };
   cmp-treesitter = buildVimPluginFrom2Nix {
-    pname = "cmp-treesitter"; -- Manifest entry: "ray-x/cmp-treesitter"
+    pname = "cmp-treesitter"; # Manifest entry: "ray-x/cmp-treesitter"
     version = "2022-10-28";
     src = fetchurl {
       url = "https://github.com/ray-x/cmp-treesitter/archive/b40178b780d547bcf131c684bc5fd41af17d05f2.tar.gz";
@@ -6615,7 +6615,7 @@
     };
   };
   go-nvim = buildVimPluginFrom2Nix {
-    pname = "go-nvim"; -- Manifest entry: "ray-x/go.nvim"
+    pname = "go-nvim"; # Manifest entry: "ray-x/go.nvim"
     version = "2023-02-08";
     src = fetchurl {
       url = "https://github.com/ray-x/go.nvim/archive/e752dfd0ebeb633c9b0fefa7cf1ceb55c6c3990b.tar.gz";
@@ -6628,7 +6628,7 @@
     };
   };
   guihua-lua = buildVimPluginFrom2Nix {
-    pname = "guihua-lua"; -- Manifest entry: "ray-x/guihua.lua"
+    pname = "guihua-lua"; # Manifest entry: "ray-x/guihua.lua"
     version = "2023-02-09";
     src = fetchurl {
       url = "https://github.com/ray-x/guihua.lua/archive/d3f6d01639b52e6a83ea98dd6ca244c9aa98b79b.tar.gz";
@@ -6641,7 +6641,7 @@
     };
   };
   lsp-signature-nvim = buildVimPluginFrom2Nix {
-    pname = "lsp-signature-nvim"; -- Manifest entry: "ray-x/lsp_signature.nvim"
+    pname = "lsp-signature-nvim"; # Manifest entry: "ray-x/lsp_signature.nvim"
     version = "2023-02-02";
     src = fetchurl {
       url = "https://github.com/ray-x/lsp_signature.nvim/archive/6f6252f63b0baf0f2224c4caea33819a27f3f550.tar.gz";
@@ -6654,7 +6654,7 @@
     };
   };
   navigator-lua = buildVimPluginFrom2Nix {
-    pname = "navigator-lua"; -- Manifest entry: "ray-x/navigator.lua"
+    pname = "navigator-lua"; # Manifest entry: "ray-x/navigator.lua"
     version = "2023-02-09";
     src = fetchurl {
       url = "https://github.com/ray-x/navigator.lua/archive/66d84151e94052f710b1dfb0d1fce2faaca6dced.tar.gz";
@@ -6667,7 +6667,7 @@
     };
   };
   sad-nvim = buildVimPluginFrom2Nix {
-    pname = "sad-nvim"; -- Manifest entry: "ray-x/sad.nvim"
+    pname = "sad-nvim"; # Manifest entry: "ray-x/sad.nvim"
     version = "2023-01-29";
     src = fetchurl {
       url = "https://github.com/ray-x/sad.nvim/archive/1cdf3f25589dc92854913004443ba0e53bd103ad.tar.gz";
@@ -6680,7 +6680,7 @@
     };
   };
   starry-nvim = buildVimPluginFrom2Nix {
-    pname = "starry-nvim"; -- Manifest entry: "ray-x/starry.nvim"
+    pname = "starry-nvim"; # Manifest entry: "ray-x/starry.nvim"
     version = "2023-02-04";
     src = fetchurl {
       url = "https://github.com/ray-x/starry.nvim/archive/4455b20eb0360b5e7d429a9fa86970d869c812c0.tar.gz";
@@ -6693,7 +6693,7 @@
     };
   };
   web-tools-nvim = buildVimPluginFrom2Nix {
-    pname = "web-tools-nvim"; -- Manifest entry: "ray-x/web-tools.nvim"
+    pname = "web-tools-nvim"; # Manifest entry: "ray-x/web-tools.nvim"
     version = "2023-01-30";
     src = fetchurl {
       url = "https://github.com/ray-x/web-tools.nvim/archive/78c8f65a47d1618dd7c1994cc45bdfd719eb1f66.tar.gz";
@@ -6705,7 +6705,7 @@
     };
   };
   cmp-dap = buildVimPluginFrom2Nix {
-    pname = "cmp-dap"; -- Manifest entry: "rcarriga/cmp-dap"
+    pname = "cmp-dap"; # Manifest entry: "rcarriga/cmp-dap"
     version = "2022-11-13";
     src = fetchurl {
       url = "https://github.com/rcarriga/cmp-dap/archive/d16f14a210cd28988b97ca8339d504533b7e09a4.tar.gz";
@@ -6718,7 +6718,7 @@
     };
   };
   nvim-dap-ui = buildVimPluginFrom2Nix {
-    pname = "nvim-dap-ui"; -- Manifest entry: "rcarriga/nvim-dap-ui"
+    pname = "nvim-dap-ui"; # Manifest entry: "rcarriga/nvim-dap-ui"
     version = "2023-02-09";
     src = fetchurl {
       url = "https://github.com/rcarriga/nvim-dap-ui/archive/100c67dd63c870819fb998fec4867b17d02db4b7.tar.gz";
@@ -6731,7 +6731,7 @@
     };
   };
   nvim-notify = buildVimPluginFrom2Nix {
-    pname = "nvim-notify"; -- Manifest entry: "rcarriga/nvim-notify"
+    pname = "nvim-notify"; # Manifest entry: "rcarriga/nvim-notify"
     version = "2023-01-18";
     src = fetchurl {
       url = "https://github.com/rcarriga/nvim-notify/archive/bdd647f61a05c9b8a57c83b78341a0690e9c29d7.tar.gz";
@@ -6744,11 +6744,11 @@
     };
   };
   vim-ultest = buildVimPluginFrom2Nix {
-    pname = "vim-ultest"; -- Manifest entry: "rcarriga/vim-ultest"
-    version = "2022-06-18";
+    pname = "vim-ultest"; # Manifest entry: "rcarriga/vim-ultest"
+    version = "2023-02-09";
     src = fetchurl {
-      url = "https://github.com/rcarriga/vim-ultest/archive/c93eb128332f8245776b753407ab6c4432c4c556.tar.gz";
-      sha256 = "0yif459w7813z19shlvwhgbqb5ilh0i6vxgkbg17pcrda4lx3kc5";
+      url = "https://github.com/rcarriga/vim-ultest/archive/b06bc8715cbcb4aa0444abfd85fb705b659ba055.tar.gz";
+      sha256 = "0mlxx8vbq9y4nq8dlfnj6flv6xmwnflc0ak99xqrg6zy922hp6l1";
     };
     meta = with lib; {
       description = "The ultimate testing plugin for (Neo)Vim";
@@ -6757,7 +6757,7 @@
     };
   };
   heirline-nvim = buildVimPluginFrom2Nix {
-    pname = "heirline-nvim"; -- Manifest entry: "rebelot/heirline.nvim"
+    pname = "heirline-nvim"; # Manifest entry: "rebelot/heirline.nvim"
     version = "2023-01-30";
     src = fetchurl {
       url = "https://github.com/rebelot/heirline.nvim/archive/81ceb3025e6c7030c42accc3951dad94f31ff0c8.tar.gz";
@@ -6770,7 +6770,7 @@
     };
   };
   kanagawa-nvim = buildVimPluginFrom2Nix {
-    pname = "kanagawa-nvim"; -- Manifest entry: "rebelot/kanagawa.nvim"
+    pname = "kanagawa-nvim"; # Manifest entry: "rebelot/kanagawa.nvim"
     version = "2023-01-16";
     src = fetchurl {
       url = "https://github.com/rebelot/kanagawa.nvim/archive/4c8d48726621a7f3998c7ed35b2c2535abc22def.tar.gz";
@@ -6783,7 +6783,7 @@
     };
   };
   telekasten-nvim = buildVimPluginFrom2Nix {
-    pname = "telekasten-nvim"; -- Manifest entry: "renerocksai/telekasten.nvim"
+    pname = "telekasten-nvim"; # Manifest entry: "renerocksai/telekasten.nvim"
     version = "2023-02-05";
     src = fetchurl {
       url = "https://github.com/renerocksai/telekasten.nvim/archive/b4b2f9087f6479bb055825450955ae7dd0362d9a.tar.gz";
@@ -6796,7 +6796,7 @@
     };
   };
   rest-nvim = buildVimPluginFrom2Nix {
-    pname = "rest-nvim"; -- Manifest entry: "rest-nvim/rest.nvim"
+    pname = "rest-nvim"; # Manifest entry: "rest-nvim/rest.nvim"
     version = "2023-01-23";
     src = fetchurl {
       url = "https://github.com/rest-nvim/rest.nvim/archive/0fdb69f328529b34a2279c14be63b3325dc52740.tar.gz";
@@ -6809,7 +6809,7 @@
     };
   };
   other-nvim = buildVimPluginFrom2Nix {
-    pname = "other-nvim"; -- Manifest entry: "rgroli/other.nvim"
+    pname = "other-nvim"; # Manifest entry: "rgroli/other.nvim"
     version = "2022-11-15";
     src = fetchurl {
       url = "https://github.com/rgroli/other.nvim/archive/9afecea37c9b5ffed65a21de9e585d548de7778a.tar.gz";
@@ -6822,7 +6822,7 @@
     };
   };
   git-messenger-vim = buildVimPluginFrom2Nix {
-    pname = "git-messenger-vim"; -- Manifest entry: "rhysd/git-messenger.vim"
+    pname = "git-messenger-vim"; # Manifest entry: "rhysd/git-messenger.vim"
     version = "2022-08-30";
     src = fetchurl {
       url = "https://github.com/rhysd/git-messenger.vim/archive/8a61bdfa351d4df9a9118ee1d3f45edbed617072.tar.gz";
@@ -6835,7 +6835,7 @@
     };
   };
   vim-gfm-syntax = buildVimPluginFrom2Nix {
-    pname = "vim-gfm-syntax"; -- Manifest entry: "rhysd/vim-gfm-syntax"
+    pname = "vim-gfm-syntax"; # Manifest entry: "rhysd/vim-gfm-syntax"
     version = "2022-08-01";
     src = fetchurl {
       url = "https://github.com/rhysd/vim-gfm-syntax/archive/95ec295ccc803afc925c01e6efe328779e1261e9.tar.gz";
@@ -6848,7 +6848,7 @@
     };
   };
   highlight-current-n-nvim = buildVimPluginFrom2Nix {
-    pname = "highlight-current-n-nvim"; -- Manifest entry: "rktjmp/highlight-current-n.nvim"
+    pname = "highlight-current-n-nvim"; # Manifest entry: "rktjmp/highlight-current-n.nvim"
     version = "2022-12-03";
     src = fetchurl {
       url = "https://github.com/rktjmp/highlight-current-n.nvim/archive/bac803d821d06d5f1e58b31af1cf2e5f9a5fb4ad.tar.gz";
@@ -6861,7 +6861,7 @@
     };
   };
   hotpot-nvim = buildVimPluginFrom2Nix {
-    pname = "hotpot-nvim"; -- Manifest entry: "rktjmp/hotpot.nvim"
+    pname = "hotpot-nvim"; # Manifest entry: "rktjmp/hotpot.nvim"
     version = "2022-12-02";
     src = fetchurl {
       url = "https://github.com/rktjmp/hotpot.nvim/archive/1002bcdea7af06c5a7bfce0536d96bc4b03ab42e.tar.gz";
@@ -6874,7 +6874,7 @@
     };
   };
   lush-nvim = buildVimPluginFrom2Nix {
-    pname = "lush-nvim"; -- Manifest entry: "rktjmp/lush.nvim"
+    pname = "lush-nvim"; # Manifest entry: "rktjmp/lush.nvim"
     version = "2023-01-02";
     src = fetchurl {
       url = "https://github.com/rktjmp/lush.nvim/archive/b1e8eb1da3fee95ef31515a73c9eff9bf251088d.tar.gz";
@@ -6887,7 +6887,7 @@
     };
   };
   pact-nvim = buildVimPluginFrom2Nix {
-    pname = "pact-nvim"; -- Manifest entry: "rktjmp/pact.nvim"
+    pname = "pact-nvim"; # Manifest entry: "rktjmp/pact.nvim"
     version = "2023-02-03";
     src = fetchurl {
       url = "https://github.com/rktjmp/pact.nvim/archive/35f2fb3b353466c7d7b724d04936c668c9f5b347.tar.gz";
@@ -6900,7 +6900,7 @@
     };
   };
   paperplanes-nvim = buildVimPluginFrom2Nix {
-    pname = "paperplanes-nvim"; -- Manifest entry: "rktjmp/paperplanes.nvim"
+    pname = "paperplanes-nvim"; # Manifest entry: "rktjmp/paperplanes.nvim"
     version = "2022-09-29";
     src = fetchurl {
       url = "https://github.com/rktjmp/paperplanes.nvim/archive/d704b2e1e594b32d454cc7e0c5f2cf9b391e3cc1.tar.gz";
@@ -6913,7 +6913,7 @@
     };
   };
   shenzhen-solitaire-nvim = buildVimPluginFrom2Nix {
-    pname = "shenzhen-solitaire-nvim"; -- Manifest entry: "rktjmp/shenzhen-solitaire.nvim"
+    pname = "shenzhen-solitaire-nvim"; # Manifest entry: "rktjmp/shenzhen-solitaire.nvim"
     version = "2022-07-29";
     src = fetchurl {
       url = "https://github.com/rktjmp/shenzhen-solitaire.nvim/archive/3ef058d18405383d5c8326be7d07c5a40791eb70.tar.gz";
@@ -6925,7 +6925,7 @@
     };
   };
   pounce-nvim = buildVimPluginFrom2Nix {
-    pname = "pounce-nvim"; -- Manifest entry: "rlane/pounce.nvim"
+    pname = "pounce-nvim"; # Manifest entry: "rlane/pounce.nvim"
     version = "2022-08-23";
     src = fetchurl {
       url = "https://github.com/rlane/pounce.nvim/archive/a573820b20882c70d241a1ac94aa27670442c027.tar.gz";
@@ -6937,7 +6937,7 @@
     };
   };
   auto-session = buildVimPluginFrom2Nix {
-    pname = "auto-session"; -- Manifest entry: "rmagatti/auto-session"
+    pname = "auto-session"; # Manifest entry: "rmagatti/auto-session"
     version = "2022-12-13";
     src = fetchurl {
       url = "https://github.com/rmagatti/auto-session/archive/c8b2f4048f846387361bd04cc185bf1aa7d2e3d1.tar.gz";
@@ -6950,7 +6950,7 @@
     };
   };
   goto-preview = buildVimPluginFrom2Nix {
-    pname = "goto-preview"; -- Manifest entry: "rmagatti/goto-preview"
+    pname = "goto-preview"; # Manifest entry: "rmagatti/goto-preview"
     version = "2022-12-31";
     src = fetchurl {
       url = "https://github.com/rmagatti/goto-preview/archive/54a5e18f6a42b39021b7aef62aae4dda8680d666.tar.gz";
@@ -6963,7 +6963,7 @@
     };
   };
   onenord-nvim = buildVimPluginFrom2Nix {
-    pname = "onenord-nvim"; -- Manifest entry: "rmehri01/onenord.nvim"
+    pname = "onenord-nvim"; # Manifest entry: "rmehri01/onenord.nvim"
     version = "2023-02-06";
     src = fetchurl {
       url = "https://github.com/rmehri01/onenord.nvim/archive/71bdcdf105a8feb16cd5248b40e44c88832f75ca.tar.gz";
@@ -6976,7 +6976,7 @@
     };
   };
   boo-colorscheme-nvim = buildVimPluginFrom2Nix {
-    pname = "boo-colorscheme-nvim"; -- Manifest entry: "rockerBOO/boo-colorscheme-nvim"
+    pname = "boo-colorscheme-nvim"; # Manifest entry: "rockerBOO/boo-colorscheme-nvim"
     version = "2022-10-25";
     src = fetchurl {
       url = "https://github.com/rockerBOO/boo-colorscheme-nvim/archive/a54e1734eed11b0a5b4ab1bf7a8148edb9f1ef5f.tar.gz";
@@ -6989,7 +6989,7 @@
     };
   };
   arctic-nvim = buildVimPluginFrom2Nix {
-    pname = "arctic-nvim"; -- Manifest entry: "rockyzhang24/arctic.nvim"
+    pname = "arctic-nvim"; # Manifest entry: "rockyzhang24/arctic.nvim"
     version = "2023-02-01";
     src = fetchurl {
       url = "https://github.com/rockyzhang24/arctic.nvim/archive/974a1a6edc94f631f15294ac195ecf42dde22f54.tar.gz";
@@ -7002,7 +7002,7 @@
     };
   };
   coc-tailwind-intellisense = buildVimPluginFrom2Nix {
-    pname = "coc-tailwind-intellisense"; -- Manifest entry: "rodrigore/coc-tailwind-intellisense"
+    pname = "coc-tailwind-intellisense"; # Manifest entry: "rodrigore/coc-tailwind-intellisense"
     version = "2021-09-07";
     src = fetchurl {
       url = "https://github.com/rodrigore/coc-tailwind-intellisense/archive/129fbd9dc33f6f7d3daa5e1e0b98dc4352f30290.tar.gz";
@@ -7014,7 +7014,7 @@
     };
   };
   barbar-nvim = buildVimPluginFrom2Nix {
-    pname = "barbar-nvim"; -- Manifest entry: "romgrk/barbar.nvim"
+    pname = "barbar-nvim"; # Manifest entry: "romgrk/barbar.nvim"
     version = "2023-02-09";
     src = fetchurl {
       url = "https://github.com/romgrk/barbar.nvim/archive/2d53f49c21327da48f0447841027848f49e1fea4.tar.gz";
@@ -7026,7 +7026,7 @@
     };
   };
   search-replace-nvim = buildVimPluginFrom2Nix {
-    pname = "search-replace-nvim"; -- Manifest entry: "roobert/search-replace.nvim"
+    pname = "search-replace-nvim"; # Manifest entry: "roobert/search-replace.nvim"
     version = "2023-01-08";
     src = fetchurl {
       url = "https://github.com/roobert/search-replace.nvim/archive/b3485c9cd14319c5320bbdd74af0b3c67733490d.tar.gz";
@@ -7038,7 +7038,7 @@
     };
   };
   rose-pine = buildVimPluginFrom2Nix {
-    pname = "rose-pine"; -- Manifest entry: "rose-pine/neovim::rose-pine"
+    pname = "rose-pine"; # Manifest entry: "rose-pine/neovim::rose-pine"
     version = "2023-01-18";
     src = fetchurl {
       url = "https://github.com/rose-pine/neovim/archive/845a6ad5443e3559dde42910c4523a5835c9233b.tar.gz";
@@ -7051,7 +7051,7 @@
     };
   };
   gitlinker-nvim = buildVimPluginFrom2Nix {
-    pname = "gitlinker-nvim"; -- Manifest entry: "ruifm/gitlinker.nvim"
+    pname = "gitlinker-nvim"; # Manifest entry: "ruifm/gitlinker.nvim"
     version = "2023-02-03";
     src = fetchurl {
       url = "https://github.com/ruifm/gitlinker.nvim/archive/cc59f732f3d043b626c8702cb725c82e54d35c25.tar.gz";
@@ -7064,7 +7064,7 @@
     };
   };
   nvim-comment-frame = buildVimPluginFrom2Nix {
-    pname = "nvim-comment-frame"; -- Manifest entry: "s1n7ax/nvim-comment-frame"
+    pname = "nvim-comment-frame"; # Manifest entry: "s1n7ax/nvim-comment-frame"
     version = "2022-10-11";
     src = fetchurl {
       url = "https://github.com/s1n7ax/nvim-comment-frame/archive/7a7d34ee7a236a89ffe5674bf794358ee12a7df8.tar.gz";
@@ -7077,7 +7077,7 @@
     };
   };
   nvim-search-and-replace = buildVimPluginFrom2Nix {
-    pname = "nvim-search-and-replace"; -- Manifest entry: "s1n7ax/nvim-search-and-replace"
+    pname = "nvim-search-and-replace"; # Manifest entry: "s1n7ax/nvim-search-and-replace"
     version = "2022-09-06";
     src = fetchurl {
       url = "https://github.com/s1n7ax/nvim-search-and-replace/archive/1b455cf945c42fa28f95d111d1a1110d24b37175.tar.gz";
@@ -7090,7 +7090,7 @@
     };
   };
   nvim-terminal = buildVimPluginFrom2Nix {
-    pname = "nvim-terminal"; -- Manifest entry: "s1n7ax/nvim-terminal"
+    pname = "nvim-terminal"; # Manifest entry: "s1n7ax/nvim-terminal"
     version = "2022-06-29";
     src = fetchurl {
       url = "https://github.com/s1n7ax/nvim-terminal/archive/e058de4b8029d7605b17275f30f83be8f8df5f62.tar.gz";
@@ -7103,7 +7103,7 @@
     };
   };
   sort-nvim = buildVimPluginFrom2Nix {
-    pname = "sort-nvim"; -- Manifest entry: "sQVe/sort.nvim"
+    pname = "sort-nvim"; # Manifest entry: "sQVe/sort.nvim"
     version = "2022-07-08";
     src = fetchurl {
       url = "https://github.com/sQVe/sort.nvim/archive/9e4065625317128f6a1c826f4a36f9b47600417a.tar.gz";
@@ -7116,7 +7116,7 @@
     };
   };
   cmp-luasnip = buildVimPluginFrom2Nix {
-    pname = "cmp-luasnip"; -- Manifest entry: "saadparwaiz1/cmp_luasnip"
+    pname = "cmp-luasnip"; # Manifest entry: "saadparwaiz1/cmp_luasnip"
     version = "2022-10-28";
     src = fetchurl {
       url = "https://github.com/saadparwaiz1/cmp_luasnip/archive/18095520391186d634a0045dacaa346291096566.tar.gz";
@@ -7129,7 +7129,7 @@
     };
   };
   chartoggle-nvim = buildVimPluginFrom2Nix {
-    pname = "chartoggle-nvim"; -- Manifest entry: "saifulapm/chartoggle.nvim"
+    pname = "chartoggle-nvim"; # Manifest entry: "saifulapm/chartoggle.nvim"
     version = "2022-07-21";
     src = fetchurl {
       url = "https://github.com/saifulapm/chartoggle.nvim/archive/e96641c7ee7972033f832b7f4af78d9ed04b130f.tar.gz";
@@ -7142,7 +7142,7 @@
     };
   };
   edge = buildVimPluginFrom2Nix {
-    pname = "edge"; -- Manifest entry: "sainnhe/edge"
+    pname = "edge"; # Manifest entry: "sainnhe/edge"
     version = "2023-01-25";
     src = fetchurl {
       url = "https://github.com/sainnhe/edge/archive/c9a87dd0b7b5417c3797332ef06b17733626387f.tar.gz";
@@ -7155,7 +7155,7 @@
     };
   };
   everforest = buildVimPluginFrom2Nix {
-    pname = "everforest"; -- Manifest entry: "sainnhe/everforest"
+    pname = "everforest"; # Manifest entry: "sainnhe/everforest"
     version = "2023-01-25";
     src = fetchurl {
       url = "https://github.com/sainnhe/everforest/archive/aa97c07ee7b327120e467927c85a57ff1d713754.tar.gz";
@@ -7168,7 +7168,7 @@
     };
   };
   gruvbox-material = buildVimPluginFrom2Nix {
-    pname = "gruvbox-material"; -- Manifest entry: "sainnhe/gruvbox-material"
+    pname = "gruvbox-material"; # Manifest entry: "sainnhe/gruvbox-material"
     version = "2023-01-22";
     src = fetchurl {
       url = "https://github.com/sainnhe/gruvbox-material/archive/13b7eb4589d9ab0f388ca51047051f7158c930e5.tar.gz";
@@ -7181,7 +7181,7 @@
     };
   };
   sonokai = buildVimPluginFrom2Nix {
-    pname = "sonokai"; -- Manifest entry: "sainnhe/sonokai"
+    pname = "sonokai"; # Manifest entry: "sainnhe/sonokai"
     version = "2023-01-24";
     src = fetchurl {
       url = "https://github.com/sainnhe/sonokai/archive/c55985d5df53751a44fc532a53bed3be9f3b0d14.tar.gz";
@@ -7194,7 +7194,7 @@
     };
   };
   nvim-gdb = buildVimPluginFrom2Nix {
-    pname = "nvim-gdb"; -- Manifest entry: "sakhnik/nvim-gdb"
+    pname = "nvim-gdb"; # Manifest entry: "sakhnik/nvim-gdb"
     version = "2022-11-29";
     src = fetchurl {
       url = "https://github.com/sakhnik/nvim-gdb/archive/9a6adc688bf9acf1628b014d2c7217443dd6fa6f.tar.gz";
@@ -7206,7 +7206,7 @@
     };
   };
   nvim-unception = buildVimPluginFrom2Nix {
-    pname = "nvim-unception"; -- Manifest entry: "samjwill/nvim-unception"
+    pname = "nvim-unception"; # Manifest entry: "samjwill/nvim-unception"
     version = "2023-01-16";
     src = fetchurl {
       url = "https://github.com/samjwill/nvim-unception/archive/2e475b74f3e581d21cd0ce86e0520546ac756791.tar.gz";
@@ -7219,7 +7219,7 @@
     };
   };
   image-nvim = buildVimPluginFrom2Nix {
-    pname = "image-nvim"; -- Manifest entry: "samodostal/image.nvim"
+    pname = "image-nvim"; # Manifest entry: "samodostal/image.nvim"
     version = "2023-01-29";
     src = fetchurl {
       url = "https://github.com/samodostal/image.nvim/archive/eef32a352d490374d19edfaef4bc0ad4f7a11074.tar.gz";
@@ -7232,7 +7232,7 @@
     };
   };
   melange-nvim = buildVimPluginFrom2Nix {
-    pname = "melange-nvim"; -- Manifest entry: "savq/melange-nvim"
+    pname = "melange-nvim"; # Manifest entry: "savq/melange-nvim"
     version = "2023-02-03";
     src = fetchurl {
       url = "https://github.com/savq/melange-nvim/archive/3c430b644a6fe6789db99d0c7d70ba7a5ccd57ba.tar.gz";
@@ -7245,7 +7245,7 @@
     };
   };
   paq-nvim = buildVimPluginFrom2Nix {
-    pname = "paq-nvim"; -- Manifest entry: "savq/paq-nvim"
+    pname = "paq-nvim"; # Manifest entry: "savq/paq-nvim"
     version = "2023-01-27";
     src = fetchurl {
       url = "https://github.com/savq/paq-nvim/archive/540642d7765fa5fbe661f26b635b08ad9fb24fd0.tar.gz";
@@ -7258,7 +7258,7 @@
     };
   };
   neoformat = buildVimPluginFrom2Nix {
-    pname = "neoformat"; -- Manifest entry: "sbdchd/neoformat"
+    pname = "neoformat"; # Manifest entry: "sbdchd/neoformat"
     version = "2023-02-04";
     src = fetchurl {
       url = "https://github.com/sbdchd/neoformat/archive/2e9fd3a7cbdce0c90379c8bc52e0bca6726eba81.tar.gz";
@@ -7271,7 +7271,7 @@
     };
   };
   nvim-metals = buildVimPluginFrom2Nix {
-    pname = "nvim-metals"; -- Manifest entry: "scalameta/nvim-metals"
+    pname = "nvim-metals"; # Manifest entry: "scalameta/nvim-metals"
     version = "2023-01-27";
     src = fetchurl {
       url = "https://github.com/scalameta/nvim-metals/archive/0b9c5303b7402ae24971ed2f0e5890fd72505532.tar.gz";
@@ -7284,7 +7284,7 @@
     };
   };
   killersheep-nvim = buildVimPluginFrom2Nix {
-    pname = "killersheep-nvim"; -- Manifest entry: "seandewar/killersheep.nvim"
+    pname = "killersheep-nvim"; # Manifest entry: "seandewar/killersheep.nvim"
     version = "2022-05-11";
     src = fetchurl {
       url = "https://github.com/seandewar/killersheep.nvim/archive/506823c47b854df02e78d5fec9468ab0e542dcf5.tar.gz";
@@ -7296,7 +7296,7 @@
     };
   };
   nvimesweeper = buildVimPluginFrom2Nix {
-    pname = "nvimesweeper"; -- Manifest entry: "seandewar/nvimesweeper"
+    pname = "nvimesweeper"; # Manifest entry: "seandewar/nvimesweeper"
     version = "2022-04-26";
     src = fetchurl {
       url = "https://github.com/seandewar/nvimesweeper/archive/b40a5714340d54e4ea8374e8831304a090340ccb.tar.gz";
@@ -7309,7 +7309,7 @@
     };
   };
   vim-textobj-parameter = buildVimPluginFrom2Nix {
-    pname = "vim-textobj-parameter"; -- Manifest entry: "sgur/vim-textobj-parameter"
+    pname = "vim-textobj-parameter"; # Manifest entry: "sgur/vim-textobj-parameter"
     version = "2017-05-16";
     src = fetchurl {
       url = "https://github.com/sgur/vim-textobj-parameter/archive/201144f19a1a7081033b3cf2b088916dd0bcb98c.tar.gz";
@@ -7321,7 +7321,7 @@
     };
   };
   Abstract-cs = buildVimPluginFrom2Nix {
-    pname = "Abstract-cs"; -- Manifest entry: "shaeinst/roshnivim-cs"
+    pname = "Abstract-cs"; # Manifest entry: "shaeinst/roshnivim-cs"
     version = "2022-10-21";
     src = fetchurl {
       url = "https://github.com/Abstract-IDE/Abstract-cs/archive/4f19d4b1bf7bd0cfc0f820cbbec7e9285088f700.tar.gz";
@@ -7333,7 +7333,7 @@
     };
   };
   moonlight-nvim = buildVimPluginFrom2Nix {
-    pname = "moonlight-nvim"; -- Manifest entry: "shaunsingh/moonlight.nvim"
+    pname = "moonlight-nvim"; # Manifest entry: "shaunsingh/moonlight.nvim"
     version = "2021-05-16";
     src = fetchurl {
       url = "https://github.com/shaunsingh/moonlight.nvim/archive/e24e4218ec680b6396532808abf57ca0ada82e66.tar.gz";
@@ -7346,7 +7346,7 @@
     };
   };
   shaunsingh-nord-nvim = buildVimPluginFrom2Nix {
-    pname = "shaunsingh-nord-nvim"; -- Manifest entry: "shaunsingh/nord.nvim::shaunsingh-nord-nvim"
+    pname = "shaunsingh-nord-nvim"; # Manifest entry: "shaunsingh/nord.nvim::shaunsingh-nord-nvim"
     version = "2023-01-20";
     src = fetchurl {
       url = "https://github.com/shaunsingh/nord.nvim/archive/9824b8511dcb7d89de628d7e9bab5fa65c9d59d1.tar.gz";
@@ -7359,7 +7359,7 @@
     };
   };
   no-neck-pain-nvim = buildVimPluginFrom2Nix {
-    pname = "no-neck-pain-nvim"; -- Manifest entry: "shortcuts/no-neck-pain.nvim"
+    pname = "no-neck-pain-nvim"; # Manifest entry: "shortcuts/no-neck-pain.nvim"
     version = "2023-02-06";
     src = fetchurl {
       url = "https://github.com/shortcuts/no-neck-pain.nvim/archive/d29fee6bc5c9da1288f5ac0731e09de06158fc59.tar.gz";
@@ -7372,7 +7372,7 @@
     };
   };
   rust-tools-nvim = buildVimPluginFrom2Nix {
-    pname = "rust-tools-nvim"; -- Manifest entry: "simrat39/rust-tools.nvim"
+    pname = "rust-tools-nvim"; # Manifest entry: "simrat39/rust-tools.nvim"
     version = "2023-02-05";
     src = fetchurl {
       url = "https://github.com/simrat39/rust-tools.nvim/archive/bd1aa99ffb911a1cf99b3fcf3b44c0391c57e3ef.tar.gz";
@@ -7385,7 +7385,7 @@
     };
   };
   symbols-outline-nvim = buildVimPluginFrom2Nix {
-    pname = "symbols-outline-nvim"; -- Manifest entry: "simrat39/symbols-outline.nvim"
+    pname = "symbols-outline-nvim"; # Manifest entry: "simrat39/symbols-outline.nvim"
     version = "2023-01-25";
     src = fetchurl {
       url = "https://github.com/simrat39/symbols-outline.nvim/archive/512791925d57a61c545bc303356e8a8f7869763c.tar.gz";
@@ -7398,7 +7398,7 @@
     };
   };
   diffview-nvim = buildVimPluginFrom2Nix {
-    pname = "diffview-nvim"; -- Manifest entry: "sindrets/diffview.nvim"
+    pname = "diffview-nvim"; # Manifest entry: "sindrets/diffview.nvim"
     version = "2023-02-06";
     src = fetchurl {
       url = "https://github.com/sindrets/diffview.nvim/archive/11827d46e939b4748dbdb7e0df4982a63bd59d26.tar.gz";
@@ -7410,7 +7410,7 @@
     };
   };
   winshift-nvim = buildVimPluginFrom2Nix {
-    pname = "winshift-nvim"; -- Manifest entry: "sindrets/winshift.nvim"
+    pname = "winshift-nvim"; # Manifest entry: "sindrets/winshift.nvim"
     version = "2022-09-06";
     src = fetchurl {
       url = "https://github.com/sindrets/winshift.nvim/archive/37468ed6f385dfb50402368669766504c0e15583.tar.gz";
@@ -7423,7 +7423,7 @@
     };
   };
   nvim-numbertoggle = buildVimPluginFrom2Nix {
-    pname = "nvim-numbertoggle"; -- Manifest entry: "sitiom/nvim-numbertoggle"
+    pname = "nvim-numbertoggle"; # Manifest entry: "sitiom/nvim-numbertoggle"
     version = "2022-12-24";
     src = fetchurl {
       url = "https://github.com/sitiom/nvim-numbertoggle/archive/34cd7d4c09a59f798e3420286fb94f4d8268f40d.tar.gz";
@@ -7436,7 +7436,7 @@
     };
   };
   christmas-vim = buildVimPluginFrom2Nix {
-    pname = "christmas-vim"; -- Manifest entry: "skanehira/christmas.vim"
+    pname = "christmas-vim"; # Manifest entry: "skanehira/christmas.vim"
     version = "2021-12-24";
     src = fetchurl {
       url = "https://github.com/skanehira/christmas.vim/archive/f243b269787a8b638777fd48d3f392a4d6da8beb.tar.gz";
@@ -7448,7 +7448,7 @@
     };
   };
   asyncrun-vim = buildVimPluginFrom2Nix {
-    pname = "asyncrun-vim"; -- Manifest entry: "skywind3000/asyncrun.vim"
+    pname = "asyncrun-vim"; # Manifest entry: "skywind3000/asyncrun.vim"
     version = "2023-01-18";
     src = fetchurl {
       url = "https://github.com/skywind3000/asyncrun.vim/archive/bd240b2a2ac5c975216744fda57abe5ff8f39957.tar.gz";
@@ -7461,7 +7461,7 @@
     };
   };
   unruly-worker = buildVimPluginFrom2Nix {
-    pname = "unruly-worker"; -- Manifest entry: "slugbyte/unruly-worker"
+    pname = "unruly-worker"; # Manifest entry: "slugbyte/unruly-worker"
     version = "2022-03-22";
     src = fetchurl {
       url = "https://github.com/slugbyte/unruly-worker/archive/6046d8fedf84ee6cb344d4e248a74b4586cb6e14.tar.gz";
@@ -7474,7 +7474,7 @@
     };
   };
   inc-rename-nvim = buildVimPluginFrom2Nix {
-    pname = "inc-rename-nvim"; -- Manifest entry: "smjonas/inc-rename.nvim"
+    pname = "inc-rename-nvim"; # Manifest entry: "smjonas/inc-rename.nvim"
     version = "2023-01-29";
     src = fetchurl {
       url = "https://github.com/smjonas/inc-rename.nvim/archive/21c23c379342a731a0c90f226601ec0434627b26.tar.gz";
@@ -7487,7 +7487,7 @@
     };
   };
   snippet-converter-nvim = buildVimPluginFrom2Nix {
-    pname = "snippet-converter-nvim"; -- Manifest entry: "smjonas/snippet-converter.nvim"
+    pname = "snippet-converter-nvim"; # Manifest entry: "smjonas/snippet-converter.nvim"
     version = "2023-01-09";
     src = fetchurl {
       url = "https://github.com/smjonas/snippet-converter.nvim/archive/ff19ee7e132e76746000b81957de7017ad588d44.tar.gz";
@@ -7500,7 +7500,7 @@
     };
   };
   hydrovim = buildVimPluginFrom2Nix {
-    pname = "hydrovim"; -- Manifest entry: "smzm/hydrovim"
+    pname = "hydrovim"; # Manifest entry: "smzm/hydrovim"
     version = "2023-01-05";
     src = fetchurl {
       url = "https://github.com/smzm/hydrovim/archive/83eb401210fd398090e275c62d55aa42f5412c1e.tar.gz";
@@ -7512,7 +7512,7 @@
     };
   };
   yaml-companion-nvim = buildVimPluginFrom2Nix {
-    pname = "yaml-companion-nvim"; -- Manifest entry: "someone-stole-my-name/yaml-companion.nvim"
+    pname = "yaml-companion-nvim"; # Manifest entry: "someone-stole-my-name/yaml-companion.nvim"
     version = "2023-02-03";
     src = fetchurl {
       url = "https://github.com/someone-stole-my-name/yaml-companion.nvim/archive/cc3525cf6e03d8c98321c913fcad74b8fb6d7688.tar.gz";
@@ -7525,7 +7525,7 @@
     };
   };
   startup-nvim = buildVimPluginFrom2Nix {
-    pname = "startup-nvim"; -- Manifest entry: "startup-nvim/startup.nvim"
+    pname = "startup-nvim"; # Manifest entry: "startup-nvim/startup.nvim"
     version = "2022-12-12";
     src = fetchurl {
       url = "https://github.com/startup-nvim/startup.nvim/archive/b060480d2e647534faf70fa1263fe7623b77b0ce.tar.gz";
@@ -7538,7 +7538,7 @@
     };
   };
   aerial-nvim = buildVimPluginFrom2Nix {
-    pname = "aerial-nvim"; -- Manifest entry: "stevearc/aerial.nvim"
+    pname = "aerial-nvim"; # Manifest entry: "stevearc/aerial.nvim"
     version = "2023-02-06";
     src = fetchurl {
       url = "https://github.com/stevearc/aerial.nvim/archive/9921808e0d8ad376a73e0e21e8ffdb8f8d471420.tar.gz";
@@ -7551,7 +7551,7 @@
     };
   };
   dressing-nvim = buildVimPluginFrom2Nix {
-    pname = "dressing-nvim"; -- Manifest entry: "stevearc/dressing.nvim"
+    pname = "dressing-nvim"; # Manifest entry: "stevearc/dressing.nvim"
     version = "2023-02-05";
     src = fetchurl {
       url = "https://github.com/stevearc/dressing.nvim/archive/db716a0f1279f79a886c0e0b6ab3c3d5ffdb42fe.tar.gz";
@@ -7564,7 +7564,7 @@
     };
   };
   gkeep-nvim = buildVimPluginFrom2Nix {
-    pname = "gkeep-nvim"; -- Manifest entry: "stevearc/gkeep.nvim"
+    pname = "gkeep-nvim"; # Manifest entry: "stevearc/gkeep.nvim"
     version = "2023-02-04";
     src = fetchurl {
       url = "https://github.com/stevearc/gkeep.nvim/archive/eeb4f0e94bc10c3031f417c9d6adddfb2f104117.tar.gz";
@@ -7577,7 +7577,7 @@
     };
   };
   overseer-nvim = buildVimPluginFrom2Nix {
-    pname = "overseer-nvim"; -- Manifest entry: "stevearc/overseer.nvim"
+    pname = "overseer-nvim"; # Manifest entry: "stevearc/overseer.nvim"
     version = "2023-02-03";
     src = fetchurl {
       url = "https://github.com/stevearc/overseer.nvim/archive/42c0d69f505314d6994a84da4e3fcbaf308c1a86.tar.gz";
@@ -7590,7 +7590,7 @@
     };
   };
   qf-helper-nvim = buildVimPluginFrom2Nix {
-    pname = "qf-helper-nvim"; -- Manifest entry: "stevearc/qf_helper.nvim"
+    pname = "qf-helper-nvim"; # Manifest entry: "stevearc/qf_helper.nvim"
     version = "2023-02-04";
     src = fetchurl {
       url = "https://github.com/stevearc/qf_helper.nvim/archive/7c243f806509e15f307f8f6a5e23ea3ba0171bfc.tar.gz";
@@ -7603,7 +7603,7 @@
     };
   };
   nvim-ghost-nvim = buildVimPluginFrom2Nix {
-    pname = "nvim-ghost-nvim"; -- Manifest entry: "subnut/nvim-ghost.nvim"
+    pname = "nvim-ghost-nvim"; # Manifest entry: "subnut/nvim-ghost.nvim"
     version = "2022-07-31";
     src = fetchurl {
       url = "https://github.com/subnut/nvim-ghost.nvim/archive/2e0251ebeaa364b4c41491ae0dcd63a02e5fa31a.tar.gz";
@@ -7616,7 +7616,7 @@
     };
   };
   cheatsheet-nvim = buildVimPluginFrom2Nix {
-    pname = "cheatsheet-nvim"; -- Manifest entry: "sudormrfbin/cheatsheet.nvim"
+    pname = "cheatsheet-nvim"; # Manifest entry: "sudormrfbin/cheatsheet.nvim"
     version = "2021-12-23";
     src = fetchurl {
       url = "https://github.com/sudormrfbin/cheatsheet.nvim/archive/9716f9aaa94dd1fd6ce59b5aae0e5f25e2a463ef.tar.gz";
@@ -7628,7 +7628,7 @@
     };
   };
   Shade-nvim = buildVimPluginFrom2Nix {
-    pname = "Shade-nvim"; -- Manifest entry: "sunjon/Shade.nvim"
+    pname = "Shade-nvim"; # Manifest entry: "sunjon/Shade.nvim"
     version = "2022-02-01";
     src = fetchurl {
       url = "https://github.com/sunjon/Shade.nvim/archive/4286b5abc47d62d0c9ffb22a4f388b7bf2ac2461.tar.gz";
@@ -7641,7 +7641,7 @@
     };
   };
   vim-yoink = buildVimPluginFrom2Nix {
-    pname = "vim-yoink"; -- Manifest entry: "svermeulen/vim-yoink"
+    pname = "vim-yoink"; # Manifest entry: "svermeulen/vim-yoink"
     version = "2021-09-15";
     src = fetchurl {
       url = "https://github.com/svermeulen/vim-yoink/archive/89ed6934679fdbc3c20f552b50b1f869f624cd22.tar.gz";
@@ -7654,7 +7654,7 @@
     };
   };
   vimpeccable = buildVimPluginFrom2Nix {
-    pname = "vimpeccable"; -- Manifest entry: "svermeulen/vimpeccable"
+    pname = "vimpeccable"; # Manifest entry: "svermeulen/vimpeccable"
     version = "2021-12-28";
     src = fetchurl {
       url = "https://github.com/svermeulen/vimpeccable/archive/bd19b2a86a3d4a0ee184412aa3edb7ed57025d56.tar.gz";
@@ -7667,7 +7667,7 @@
     };
   };
   neosolarized-nvim = buildVimPluginFrom2Nix {
-    pname = "neosolarized-nvim"; -- Manifest entry: "svrana/neosolarized.nvim"
+    pname = "neosolarized-nvim"; # Manifest entry: "svrana/neosolarized.nvim"
     version = "2023-01-05";
     src = fetchurl {
       url = "https://github.com/svrana/neosolarized.nvim/archive/468117a85ff35f1c3d41374d394e870bbddf437d.tar.gz";
@@ -7679,7 +7679,7 @@
     };
   };
   smart-term-esc-nvim = buildVimPluginFrom2Nix {
-    pname = "smart-term-esc-nvim"; -- Manifest entry: "sychen52/smart-term-esc.nvim"
+    pname = "smart-term-esc-nvim"; # Manifest entry: "sychen52/smart-term-esc.nvim"
     version = "2021-09-27";
     src = fetchurl {
       url = "https://github.com/sychen52/smart-term-esc.nvim/archive/168cd1a9e4649038e356b293005e5714e6e9f190.tar.gz";
@@ -7691,7 +7691,7 @@
     };
   };
   cmp-zsh = buildVimPluginFrom2Nix {
-    pname = "cmp-zsh"; -- Manifest entry: "tamago324/cmp-zsh"
+    pname = "cmp-zsh"; # Manifest entry: "tamago324/cmp-zsh"
     version = "2022-10-03";
     src = fetchurl {
       url = "https://github.com/tamago324/cmp-zsh/archive/c24db8e58fac9006ec23d93f236749288d00dec9.tar.gz";
@@ -7704,7 +7704,7 @@
     };
   };
   lir-nvim = buildVimPluginFrom2Nix {
-    pname = "lir-nvim"; -- Manifest entry: "tamago324/lir.nvim"
+    pname = "lir-nvim"; # Manifest entry: "tamago324/lir.nvim"
     version = "2023-01-25";
     src = fetchurl {
       url = "https://github.com/tamago324/lir.nvim/archive/3aa6c2029499625dc76911cb007e9cd370137f11.tar.gz";
@@ -7717,7 +7717,7 @@
     };
   };
   nlsp-settings-nvim = buildVimPluginFrom2Nix {
-    pname = "nlsp-settings-nvim"; -- Manifest entry: "tamago324/nlsp-settings.nvim"
+    pname = "nlsp-settings-nvim"; # Manifest entry: "tamago324/nlsp-settings.nvim"
     version = "2023-02-08";
     src = fetchurl {
       url = "https://github.com/tamago324/nlsp-settings.nvim/archive/8083e9d906bc06091d3bd8df0cb0f173c8706a8d.tar.gz";
@@ -7730,7 +7730,7 @@
     };
   };
   staline-nvim = buildVimPluginFrom2Nix {
-    pname = "staline-nvim"; -- Manifest entry: "tamton-aquib/staline.nvim"
+    pname = "staline-nvim"; # Manifest entry: "tamton-aquib/staline.nvim"
     version = "2023-01-22";
     src = fetchurl {
       url = "https://github.com/tamton-aquib/staline.nvim/archive/8992f9a98df40160c8932fb3aacda46921c89485.tar.gz";
@@ -7743,7 +7743,7 @@
     };
   };
   monokai-nvim = buildVimPluginFrom2Nix {
-    pname = "monokai-nvim"; -- Manifest entry: "tanvirtin/monokai.nvim"
+    pname = "monokai-nvim"; # Manifest entry: "tanvirtin/monokai.nvim"
     version = "2023-01-18";
     src = fetchurl {
       url = "https://github.com/tanvirtin/monokai.nvim/archive/b8bd44d5796503173627d7a1fc51f77ec3a08a63.tar.gz";
@@ -7756,7 +7756,7 @@
     };
   };
   vgit-nvim = buildVimPluginFrom2Nix {
-    pname = "vgit-nvim"; -- Manifest entry: "tanvirtin/vgit.nvim"
+    pname = "vgit-nvim"; # Manifest entry: "tanvirtin/vgit.nvim"
     version = "2023-02-05";
     src = fetchurl {
       url = "https://github.com/tanvirtin/vgit.nvim/archive/ad185730d5dd205856e8718e36b24259d6721b63.tar.gz";
@@ -7769,7 +7769,7 @@
     };
   };
   nvim-comment = buildVimPluginFrom2Nix {
-    pname = "nvim-comment"; -- Manifest entry: "terrortylor/nvim-comment"
+    pname = "nvim-comment"; # Manifest entry: "terrortylor/nvim-comment"
     version = "2022-08-09";
     src = fetchurl {
       url = "https://github.com/terrortylor/nvim-comment/archive/e9ac16ab056695cad6461173693069ec070d2b23.tar.gz";
@@ -7782,7 +7782,7 @@
     };
   };
   vim-workspace = buildVimPluginFrom2Nix {
-    pname = "vim-workspace"; -- Manifest entry: "thaerkh/vim-workspace"
+    pname = "vim-workspace"; # Manifest entry: "thaerkh/vim-workspace"
     version = "2021-11-25";
     src = fetchurl {
       url = "https://github.com/thaerkh/vim-workspace/archive/c26b473f9b073f24bacecd38477f44c5cd1f5a62.tar.gz";
@@ -7795,7 +7795,7 @@
     };
   };
   tailwindcss-colors-nvim = buildVimPluginFrom2Nix {
-    pname = "tailwindcss-colors-nvim"; -- Manifest entry: "themaxmarchuk/tailwindcss-colors.nvim"
+    pname = "tailwindcss-colors-nvim"; # Manifest entry: "themaxmarchuk/tailwindcss-colors.nvim"
     version = "2021-12-24";
     src = fetchurl {
       url = "https://github.com/themaxmarchuk/tailwindcss-colors.nvim/archive/ccb5be2f84673c1a0ef90a0c0a76733e85e5265b.tar.gz";
@@ -7808,7 +7808,7 @@
     };
   };
   themer-lua = buildVimPluginFrom2Nix {
-    pname = "themer-lua"; -- Manifest entry: "themercorp/themer.lua"
+    pname = "themer-lua"; # Manifest entry: "themercorp/themer.lua"
     version = "2022-11-10";
     src = fetchurl {
       url = "https://github.com/ThemerCorp/themer.lua/archive/ec1e098eb81b8fe33befa40ddfd78b98fc6455d4.tar.gz";
@@ -7821,7 +7821,7 @@
     };
   };
   nvim-deus = buildVimPluginFrom2Nix {
-    pname = "nvim-deus"; -- Manifest entry: "theniceboy/nvim-deus"
+    pname = "nvim-deus"; # Manifest entry: "theniceboy/nvim-deus"
     version = "2023-01-26";
     src = fetchurl {
       url = "https://github.com/theniceboy/nvim-deus/archive/6c2879ee20b45a52be5c5ca28ceeed485807bcaa.tar.gz";
@@ -7833,7 +7833,7 @@
     };
   };
   tokyodark-nvim = buildVimPluginFrom2Nix {
-    pname = "tokyodark-nvim"; -- Manifest entry: "tiagovla/tokyodark.nvim"
+    pname = "tokyodark-nvim"; # Manifest entry: "tiagovla/tokyodark.nvim"
     version = "2023-01-28";
     src = fetchurl {
       url = "https://github.com/tiagovla/tokyodark.nvim/archive/32be5242f68be8a75ff5fbab358d14cb76887ab6.tar.gz";
@@ -7845,7 +7845,7 @@
     };
   };
   zephyrium = buildVimPluginFrom2Nix {
-    pname = "zephyrium"; -- Manifest entry: "titanzero/zephyrium"
+    pname = "zephyrium"; # Manifest entry: "titanzero/zephyrium"
     version = "2022-02-20";
     src = fetchurl {
       url = "https://github.com/titanzero/zephyrium/archive/c8f6c4b803c22aad7302be37a7bda3380f6e8e9c.tar.gz";
@@ -7858,7 +7858,7 @@
     };
   };
   astronauta-nvim = buildVimPluginFrom2Nix {
-    pname = "astronauta-nvim"; -- Manifest entry: "tjdevries/astronauta.nvim:edc19d30a3c51a8c3fc3f606008e5b4238821f1e"
+    pname = "astronauta-nvim"; # Manifest entry: "tjdevries/astronauta.nvim:edc19d30a3c51a8c3fc3f606008e5b4238821f1e"
     version = "2021-11-09";
     src = fetchurl {
       url = "https://github.com/tjdevries/astronauta.nvim/archive/edc19d30a3c51a8c3fc3f606008e5b4238821f1e.tar.gz";
@@ -7871,7 +7871,7 @@
     };
   };
   colorbuddy-nvim = buildVimPluginFrom2Nix {
-    pname = "colorbuddy-nvim"; -- Manifest entry: "tjdevries/colorbuddy.nvim"
+    pname = "colorbuddy-nvim"; # Manifest entry: "tjdevries/colorbuddy.nvim"
     version = "2022-02-28";
     src = fetchurl {
       url = "https://github.com/tjdevries/colorbuddy.nvim/archive/cdb5b0654d3cafe61d2a845e15b2b4b0e78e752a.tar.gz";
@@ -7884,7 +7884,7 @@
     };
   };
   express-line-nvim = buildVimPluginFrom2Nix {
-    pname = "express-line-nvim"; -- Manifest entry: "tjdevries/express_line.nvim"
+    pname = "express-line-nvim"; # Manifest entry: "tjdevries/express_line.nvim"
     version = "2021-12-01";
     src = fetchurl {
       url = "https://github.com/tjdevries/express_line.nvim/archive/30f04edb9647d9ea7c08d0bdbfad33faf5bcda57.tar.gz";
@@ -7897,7 +7897,7 @@
     };
   };
   gruvbuddy-nvim = buildVimPluginFrom2Nix {
-    pname = "gruvbuddy-nvim"; -- Manifest entry: "tjdevries/gruvbuddy.nvim"
+    pname = "gruvbuddy-nvim"; # Manifest entry: "tjdevries/gruvbuddy.nvim"
     version = "2021-04-15";
     src = fetchurl {
       url = "https://github.com/tjdevries/gruvbuddy.nvim/archive/52bdae82517d7767dbd287141b9aabceeab0f9a5.tar.gz";
@@ -7910,7 +7910,7 @@
     };
   };
   nlua-nvim = buildVimPluginFrom2Nix {
-    pname = "nlua-nvim"; -- Manifest entry: "tjdevries/nlua.nvim"
+    pname = "nlua-nvim"; # Manifest entry: "tjdevries/nlua.nvim"
     version = "2022-12-20";
     src = fetchurl {
       url = "https://github.com/tjdevries/nlua.nvim/archive/01aa428ff00605d52d0c0ece560f6a6d7971726b.tar.gz";
@@ -7923,7 +7923,7 @@
     };
   };
   train-nvim = buildVimPluginFrom2Nix {
-    pname = "train-nvim"; -- Manifest entry: "tjdevries/train.nvim"
+    pname = "train-nvim"; # Manifest entry: "tjdevries/train.nvim"
     version = "2020-09-10";
     src = fetchurl {
       url = "https://github.com/tjdevries/train.nvim/archive/7b2e9a59af58385d88bf39c5311c08f839e2b1ce.tar.gz";
@@ -7936,7 +7936,7 @@
     };
   };
   vlog-nvim = buildVimPluginFrom2Nix {
-    pname = "vlog-nvim"; -- Manifest entry: "tjdevries/vlog.nvim"
+    pname = "vlog-nvim"; # Manifest entry: "tjdevries/vlog.nvim"
     version = "2020-08-04";
     src = fetchurl {
       url = "https://github.com/tjdevries/vlog.nvim/archive/300e43f1628935aa9fec0560f3c7c483b3d38db2.tar.gz";
@@ -7949,7 +7949,7 @@
     };
   };
   sos-nvim = buildVimPluginFrom2Nix {
-    pname = "sos-nvim"; -- Manifest entry: "tmillr/sos.nvim"
+    pname = "sos-nvim"; # Manifest entry: "tmillr/sos.nvim"
     version = "2023-01-18";
     src = fetchurl {
       url = "https://github.com/tmillr/sos.nvim/archive/b9ff05f52e8fc379305bd6008bbe89c665140046.tar.gz";
@@ -7962,7 +7962,7 @@
     };
   };
   vim-code-dark = buildVimPluginFrom2Nix {
-    pname = "vim-code-dark"; -- Manifest entry: "tomasiser/vim-code-dark"
+    pname = "vim-code-dark"; # Manifest entry: "tomasiser/vim-code-dark"
     version = "2023-02-08";
     src = fetchurl {
       url = "https://github.com/tomasiser/vim-code-dark/archive/080b38a0fd14d14e21cf85fc26b18415303c3c5e.tar.gz";
@@ -7975,7 +7975,7 @@
     };
   };
   peek-nvim = buildVimPluginFrom2Nix {
-    pname = "peek-nvim"; -- Manifest entry: "toppair/peek.nvim"
+    pname = "peek-nvim"; # Manifest entry: "toppair/peek.nvim"
     version = "2022-11-11";
     src = fetchurl {
       url = "https://github.com/toppair/peek.nvim/archive/18284b64f6c5103ccf18d6b53f288d2b2de2dc4a.tar.gz";
@@ -7988,7 +7988,7 @@
     };
   };
   reach-nvim = buildVimPluginFrom2Nix {
-    pname = "reach-nvim"; -- Manifest entry: "toppair/reach.nvim"
+    pname = "reach-nvim"; # Manifest entry: "toppair/reach.nvim"
     version = "2022-11-21";
     src = fetchurl {
       url = "https://github.com/toppair/reach.nvim/archive/f86830357941cca8a31f19601153087ea9524d22.tar.gz";
@@ -8001,7 +8001,7 @@
     };
   };
   registers-nvim = buildVimPluginFrom2Nix {
-    pname = "registers-nvim"; -- Manifest entry: "tversteeg/registers.nvim"
+    pname = "registers-nvim"; # Manifest entry: "tversteeg/registers.nvim"
     version = "2022-12-15";
     src = fetchurl {
       url = "https://github.com/tversteeg/registers.nvim/archive/667ae447d2c7efb64461a2c58f5311d1248cdb5f.tar.gz";
@@ -8014,7 +8014,7 @@
     };
   };
   nvim-blame-line = buildVimPluginFrom2Nix {
-    pname = "nvim-blame-line"; -- Manifest entry: "tveskag/nvim-blame-line"
+    pname = "nvim-blame-line"; # Manifest entry: "tveskag/nvim-blame-line"
     version = "2022-05-04";
     src = fetchurl {
       url = "https://github.com/tveskag/nvim-blame-line/archive/b3d94f0ed5882d3d1c843c69788b9670476e1f42.tar.gz";
@@ -8027,7 +8027,7 @@
     };
   };
   cmp-fuzzy-buffer = buildVimPluginFrom2Nix {
-    pname = "cmp-fuzzy-buffer"; -- Manifest entry: "tzachar/cmp-fuzzy-buffer"
+    pname = "cmp-fuzzy-buffer"; # Manifest entry: "tzachar/cmp-fuzzy-buffer"
     version = "2022-11-22";
     src = fetchurl {
       url = "https://github.com/tzachar/cmp-fuzzy-buffer/archive/471949d19b1246f069eaf50729b39231eab3221b.tar.gz";
@@ -8040,7 +8040,7 @@
     };
   };
   cmp-fuzzy-path = buildVimPluginFrom2Nix {
-    pname = "cmp-fuzzy-path"; -- Manifest entry: "tzachar/cmp-fuzzy-path"
+    pname = "cmp-fuzzy-path"; # Manifest entry: "tzachar/cmp-fuzzy-path"
     version = "2022-11-29";
     src = fetchurl {
       url = "https://github.com/tzachar/cmp-fuzzy-path/archive/28735cebc314f0b080a41350adae8612b6fc7814.tar.gz";
@@ -8052,7 +8052,7 @@
     };
   };
   cmp-tabnine = buildVimPluginFrom2Nix {
-    pname = "cmp-tabnine"; -- Manifest entry: "tzachar/cmp-tabnine"
+    pname = "cmp-tabnine"; # Manifest entry: "tzachar/cmp-tabnine"
     version = "2022-12-27";
     src = fetchurl {
       url = "https://github.com/tzachar/cmp-tabnine/archive/ee1341c53e7b82f55c6e83287828f652c2ac35e1.tar.gz";
@@ -8065,7 +8065,7 @@
     };
   };
   hibiscus-nvim = buildVimPluginFrom2Nix {
-    pname = "hibiscus-nvim"; -- Manifest entry: "udayvir-singh/hibiscus.nvim"
+    pname = "hibiscus-nvim"; # Manifest entry: "udayvir-singh/hibiscus.nvim"
     version = "2023-02-01";
     src = fetchurl {
       url = "https://github.com/udayvir-singh/hibiscus.nvim/archive/37726064f2960165e49e5387a310c62974576e42.tar.gz";
@@ -8078,7 +8078,7 @@
     };
   };
   tangerine-nvim = buildVimPluginFrom2Nix {
-    pname = "tangerine-nvim"; -- Manifest entry: "udayvir-singh/tangerine.nvim"
+    pname = "tangerine-nvim"; # Manifest entry: "udayvir-singh/tangerine.nvim"
     version = "2023-02-07";
     src = fetchurl {
       url = "https://github.com/udayvir-singh/tangerine.nvim/archive/e8f7d95e3fd7e1fdf0459a85806b341582ff6042.tar.gz";
@@ -8091,7 +8091,7 @@
     };
   };
   ccc-nvim = buildVimPluginFrom2Nix {
-    pname = "ccc-nvim"; -- Manifest entry: "uga-rosa/ccc.nvim"
+    pname = "ccc-nvim"; # Manifest entry: "uga-rosa/ccc.nvim"
     version = "2023-01-22";
     src = fetchurl {
       url = "https://github.com/uga-rosa/ccc.nvim/archive/be0a8122fd77efb7b6a0d672bab10417e68fab8b.tar.gz";
@@ -8104,7 +8104,7 @@
     };
   };
   cmp-dictionary = buildVimPluginFrom2Nix {
-    pname = "cmp-dictionary"; -- Manifest entry: "uga-rosa/cmp-dictionary"
+    pname = "cmp-dictionary"; # Manifest entry: "uga-rosa/cmp-dictionary"
     version = "2023-02-09";
     src = fetchurl {
       url = "https://github.com/uga-rosa/cmp-dictionary/archive/26522d209f5661c94f3a8bad8145160983d2252b.tar.gz";
@@ -8117,7 +8117,7 @@
     };
   };
   barbecue-nvim = buildVimPluginFrom2Nix {
-    pname = "barbecue-nvim"; -- Manifest entry: "utilyre/barbecue.nvim"
+    pname = "barbecue-nvim"; # Manifest entry: "utilyre/barbecue.nvim"
     version = "2023-02-08";
     src = fetchurl {
       url = "https://github.com/utilyre/barbecue.nvim/archive/814140c81247dbc701e20950d76f3dbd5fc31612.tar.gz";
@@ -8130,7 +8130,7 @@
     };
   };
   cmp-clippy = buildVimPluginFrom2Nix {
-    pname = "cmp-clippy"; -- Manifest entry: "vappolinario/cmp-clippy"
+    pname = "cmp-clippy"; # Manifest entry: "vappolinario/cmp-clippy"
     version = "2023-02-08";
     src = fetchurl {
       url = "https://github.com/vappolinario/cmp-clippy/archive/eb501c9fa429c5852f8f420e71a9f565f4852c8f.tar.gz";
@@ -8143,7 +8143,7 @@
     };
   };
   complementree-nvim = buildVimPluginFrom2Nix {
-    pname = "complementree-nvim"; -- Manifest entry: "vigoux/complementree.nvim"
+    pname = "complementree-nvim"; # Manifest entry: "vigoux/complementree.nvim"
     version = "2022-10-17";
     src = fetchurl {
       url = "https://github.com/vigoux/complementree.nvim/archive/cdc8253ae150a391a6e20b712d2d039d37087788.tar.gz";
@@ -8156,7 +8156,7 @@
     };
   };
   nvim-fzf = buildVimPluginFrom2Nix {
-    pname = "nvim-fzf"; -- Manifest entry: "vijaymarupudi/nvim-fzf"
+    pname = "nvim-fzf"; # Manifest entry: "vijaymarupudi/nvim-fzf"
     version = "2022-07-12";
     src = fetchurl {
       url = "https://github.com/vijaymarupudi/nvim-fzf/archive/a8dc4bae4c1e1552e0233df796e512ab9ca65e44.tar.gz";
@@ -8169,7 +8169,7 @@
     };
   };
   vimwiki = buildVimPluginFrom2Nix {
-    pname = "vimwiki"; -- Manifest entry: "vimwiki/vimwiki"
+    pname = "vimwiki"; # Manifest entry: "vimwiki/vimwiki"
     version = "2022-12-05";
     src = fetchurl {
       url = "https://github.com/vimwiki/vimwiki/archive/fea8bee382b2051b0137fd2cacf0862823ee69b3.tar.gz";
@@ -8181,7 +8181,7 @@
     };
   };
   package-info-nvim = buildVimPluginFrom2Nix {
-    pname = "package-info-nvim"; -- Manifest entry: "vuki656/package-info.nvim"
+    pname = "package-info-nvim"; # Manifest entry: "vuki656/package-info.nvim"
     version = "2022-11-17";
     src = fetchurl {
       url = "https://github.com/vuki656/package-info.nvim/archive/54337910c67946ffb8a2845a4e547dba925e0f37.tar.gz";
@@ -8194,7 +8194,7 @@
     };
   };
   packer-nvim = buildVimPluginFrom2Nix {
-    pname = "packer-nvim"; -- Manifest entry: "wbthomason/packer.nvim"
+    pname = "packer-nvim"; # Manifest entry: "wbthomason/packer.nvim"
     version = "2023-01-11";
     src = fetchurl {
       url = "https://github.com/wbthomason/packer.nvim/archive/1d0cf98a561f7fd654c970c49f917d74fafe1530.tar.gz";
@@ -8207,7 +8207,7 @@
     };
   };
   nvim-code-action-menu = buildVimPluginFrom2Nix {
-    pname = "nvim-code-action-menu"; -- Manifest entry: "weilbith/nvim-code-action-menu"
+    pname = "nvim-code-action-menu"; # Manifest entry: "weilbith/nvim-code-action-menu"
     version = "2022-12-20";
     src = fetchurl {
       url = "https://github.com/weilbith/nvim-code-action-menu/archive/e4399dbaf6eabff998d3d5f1cbcd8d9933710027.tar.gz";
@@ -8220,7 +8220,7 @@
     };
   };
   lsp-lines-nvim = buildVimPluginFrom2Nix {
-    pname = "lsp-lines-nvim"; -- Manifest entry: "sourcehut:whynothugo/lsp_lines.nvim"
+    pname = "lsp-lines-nvim"; # Manifest entry: "sourcehut:whynothugo/lsp_lines.nvim"
     version = "2022-11-16";
     src = fetchgit {
       url = "https://git.sr.ht/~whynothugo/lsp_lines.nvim";
@@ -8233,7 +8233,7 @@
     };
   };
   mason-nvim = buildVimPluginFrom2Nix {
-    pname = "mason-nvim"; -- Manifest entry: "williamboman/mason.nvim"
+    pname = "mason-nvim"; # Manifest entry: "williamboman/mason.nvim"
     version = "2023-02-08";
     src = fetchurl {
       url = "https://github.com/williamboman/mason.nvim/archive/0efc7ceb29a933317e625544d3eb160e7c46dc81.tar.gz";
@@ -8246,7 +8246,7 @@
     };
   };
   nvim-lsp-installer = buildVimPluginFrom2Nix {
-    pname = "nvim-lsp-installer"; -- Manifest entry: "williamboman/nvim-lsp-installer"
+    pname = "nvim-lsp-installer"; # Manifest entry: "williamboman/nvim-lsp-installer"
     version = "2022-11-12";
     src = fetchurl {
       url = "https://github.com/williamboman/nvim-lsp-installer/archive/17e0bfa5f2c8854d1636fcd036dc8284db136baa.tar.gz";
@@ -8259,7 +8259,7 @@
     };
   };
   nvim-autopairs = buildVimPluginFrom2Nix {
-    pname = "nvim-autopairs"; -- Manifest entry: "windwp/nvim-autopairs"
+    pname = "nvim-autopairs"; # Manifest entry: "windwp/nvim-autopairs"
     version = "2023-02-07";
     src = fetchurl {
       url = "https://github.com/windwp/nvim-autopairs/archive/45ae3122a4c7744db41298b41f9f5a3f092123e6.tar.gz";
@@ -8272,7 +8272,7 @@
     };
   };
   nvim-projectconfig = buildVimPluginFrom2Nix {
-    pname = "nvim-projectconfig"; -- Manifest entry: "windwp/nvim-projectconfig"
+    pname = "nvim-projectconfig"; # Manifest entry: "windwp/nvim-projectconfig"
     version = "2021-11-10";
     src = fetchurl {
       url = "https://github.com/windwp/nvim-projectconfig/archive/05fd34831e170db269d1b84597615bcdcdde930e.tar.gz";
@@ -8285,7 +8285,7 @@
     };
   };
   nvim-spectre = buildVimPluginFrom2Nix {
-    pname = "nvim-spectre"; -- Manifest entry: "windwp/nvim-spectre"
+    pname = "nvim-spectre"; # Manifest entry: "windwp/nvim-spectre"
     version = "2023-02-07";
     src = fetchurl {
       url = "https://github.com/nvim-pack/nvim-spectre/archive/1d8b7a40677fd87da7648d246c4675c3612a7582.tar.gz";
@@ -8298,7 +8298,7 @@
     };
   };
   nvim-ts-autotag = buildVimPluginFrom2Nix {
-    pname = "nvim-ts-autotag"; -- Manifest entry: "windwp/nvim-ts-autotag"
+    pname = "nvim-ts-autotag"; # Manifest entry: "windwp/nvim-ts-autotag"
     version = "2022-08-11";
     src = fetchurl {
       url = "https://github.com/windwp/nvim-ts-autotag/archive/fdefe46c6807441460f11f11a167a2baf8e4534b.tar.gz";
@@ -8311,7 +8311,7 @@
     };
   };
   windline-nvim = buildVimPluginFrom2Nix {
-    pname = "windline-nvim"; -- Manifest entry: "windwp/windline.nvim"
+    pname = "windline-nvim"; # Manifest entry: "windwp/windline.nvim"
     version = "2022-11-27";
     src = fetchurl {
       url = "https://github.com/windwp/windline.nvim/archive/047c6175e7871cd17e79f1c53f923f6695370bbe.tar.gz";
@@ -8324,7 +8324,7 @@
     };
   };
   commented-nvim = buildVimPluginFrom2Nix {
-    pname = "commented-nvim"; -- Manifest entry: "winston0410/commented.nvim"
+    pname = "commented-nvim"; # Manifest entry: "winston0410/commented.nvim"
     version = "2022-03-12";
     src = fetchurl {
       url = "https://github.com/winston0410/commented.nvim/archive/be322c5ef455800984705cee97490a5450f072bc.tar.gz";
@@ -8337,7 +8337,7 @@
     };
   };
   range-highlight-nvim = buildVimPluginFrom2Nix {
-    pname = "range-highlight-nvim"; -- Manifest entry: "winston0410/range-highlight.nvim"
+    pname = "range-highlight-nvim"; # Manifest entry: "winston0410/range-highlight.nvim"
     version = "2021-08-03";
     src = fetchurl {
       url = "https://github.com/winston0410/range-highlight.nvim/archive/8b5e8ccb3460b2c3675f4639b9f54e64eaab36d9.tar.gz";
@@ -8350,7 +8350,7 @@
     };
   };
   sj-nvim = buildVimPluginFrom2Nix {
-    pname = "sj-nvim"; -- Manifest entry: "woosaaahh/sj.nvim"
+    pname = "sj-nvim"; # Manifest entry: "woosaaahh/sj.nvim"
     version = "2022-12-07";
     src = fetchurl {
       url = "https://github.com/woosaaahh/sj.nvim/archive/2e06233c2076390d6f9dab0f166667e8703a59c6.tar.gz";
@@ -8363,7 +8363,7 @@
     };
   };
   competitest-nvim = buildVimPluginFrom2Nix {
-    pname = "competitest-nvim"; -- Manifest entry: "xeluxee/competitest.nvim"
+    pname = "competitest-nvim"; # Manifest entry: "xeluxee/competitest.nvim"
     version = "2023-02-08";
     src = fetchurl {
       url = "https://github.com/xeluxee/competitest.nvim/archive/1d94c68ada9d0ba9bd6f5fd623f4d0e7390f8767.tar.gz";
@@ -8375,7 +8375,7 @@
     };
   };
   link-visitor-nvim = buildVimPluginFrom2Nix {
-    pname = "link-visitor-nvim"; -- Manifest entry: "xiyaowong/link-visitor.nvim"
+    pname = "link-visitor-nvim"; # Manifest entry: "xiyaowong/link-visitor.nvim"
     version = "2023-02-05";
     src = fetchurl {
       url = "https://github.com/xiyaowong/link-visitor.nvim/archive/3aa736c15ec1205d1ee88395193e48724eb42a98.tar.gz";
@@ -8387,7 +8387,7 @@
     };
   };
   nvim-cursorword = buildVimPluginFrom2Nix {
-    pname = "nvim-cursorword"; -- Manifest entry: "xiyaowong/nvim-cursorword"
+    pname = "nvim-cursorword"; # Manifest entry: "xiyaowong/nvim-cursorword"
     version = "2022-06-22";
     src = fetchurl {
       url = "https://github.com/xiyaowong/nvim-cursorword/archive/c0f2958ec729b47be2dba0d79ef43d005dac9f4e.tar.gz";
@@ -8399,7 +8399,7 @@
     };
   };
   nvim-transparent = buildVimPluginFrom2Nix {
-    pname = "nvim-transparent"; -- Manifest entry: "xiyaowong/nvim-transparent"
+    pname = "nvim-transparent"; # Manifest entry: "xiyaowong/nvim-transparent"
     version = "2022-12-28";
     src = fetchurl {
       url = "https://github.com/xiyaowong/nvim-transparent/archive/6816751e3d595b3209aa475a83b6fbaa3a5ccc98.tar.gz";
@@ -8411,7 +8411,7 @@
     };
   };
   virtcolumn-nvim = buildVimPluginFrom2Nix {
-    pname = "virtcolumn-nvim"; -- Manifest entry: "xiyaowong/virtcolumn.nvim"
+    pname = "virtcolumn-nvim"; # Manifest entry: "xiyaowong/virtcolumn.nvim"
     version = "2022-08-13";
     src = fetchurl {
       url = "https://github.com/xiyaowong/virtcolumn.nvim/archive/cd9485d64a0763c5572272e03d70cbff1f91fde0.tar.gz";
@@ -8423,7 +8423,7 @@
     };
   };
   nvim-cursorline = buildVimPluginFrom2Nix {
-    pname = "nvim-cursorline"; -- Manifest entry: "yamatsum/nvim-cursorline"
+    pname = "nvim-cursorline"; # Manifest entry: "yamatsum/nvim-cursorline"
     version = "2022-04-15";
     src = fetchurl {
       url = "https://github.com/yamatsum/nvim-cursorline/archive/804f0023692653b2b2368462d67d2a87056947f9.tar.gz";
@@ -8436,7 +8436,7 @@
     };
   };
   nvim-nonicons = buildVimPluginFrom2Nix {
-    pname = "nvim-nonicons"; -- Manifest entry: "yamatsum/nvim-nonicons"
+    pname = "nvim-nonicons"; # Manifest entry: "yamatsum/nvim-nonicons"
     version = "2023-02-04";
     src = fetchurl {
       url = "https://github.com/yamatsum/nvim-nonicons/archive/ceda07dc7339f35444b5f4c4016f76a9eb42ac16.tar.gz";
@@ -8448,7 +8448,7 @@
     };
   };
   nvim-hlchunk = buildVimPluginFrom2Nix {
-    pname = "nvim-hlchunk"; -- Manifest entry: "yaocccc/nvim-hlchunk"
+    pname = "nvim-hlchunk"; # Manifest entry: "yaocccc/nvim-hlchunk"
     version = "2023-02-03";
     src = fetchurl {
       url = "https://github.com/yaocccc/nvim-hlchunk/archive/49290a4e711ab8d1f060adc1079cfbec6b14a1d9.tar.gz";
@@ -8461,7 +8461,7 @@
     };
   };
   nvim-lines-lua = buildVimPluginFrom2Nix {
-    pname = "nvim-lines-lua"; -- Manifest entry: "yaocccc/nvim-lines.lua"
+    pname = "nvim-lines-lua"; # Manifest entry: "yaocccc/nvim-lines.lua"
     version = "2023-02-03";
     src = fetchurl {
       url = "https://github.com/yaocccc/nvim-lines.lua/archive/98adcdb40f710d7c21c6354bcf06e4cbb81f29cf.tar.gz";
@@ -8474,7 +8474,7 @@
     };
   };
   calvera-dark-nvim = buildVimPluginFrom2Nix {
-    pname = "calvera-dark-nvim"; -- Manifest entry: "yashguptaz/calvera-dark.nvim"
+    pname = "calvera-dark-nvim"; # Manifest entry: "yashguptaz/calvera-dark.nvim"
     version = "2021-08-13";
     src = fetchurl {
       url = "https://github.com/hoppercomplex/calvera-dark.nvim/archive/84802d0bde047ce79ebfddc1800800f0bd67f37a.tar.gz";
@@ -8487,7 +8487,7 @@
     };
   };
   minimal-nvim = buildVimPluginFrom2Nix {
-    pname = "minimal-nvim"; -- Manifest entry: "yazeed1s/minimal.nvim"
+    pname = "minimal-nvim"; # Manifest entry: "yazeed1s/minimal.nvim"
     version = "2022-11-03";
     src = fetchurl {
       url = "https://github.com/Yazeed1s/minimal.nvim/archive/22d837b814d3bd22625640ef63cc73b8507f291d.tar.gz";
@@ -8499,7 +8499,7 @@
     };
   };
   oh-lucy-nvim = buildVimPluginFrom2Nix {
-    pname = "oh-lucy-nvim"; -- Manifest entry: "yazeed1s/oh-lucy.nvim"
+    pname = "oh-lucy-nvim"; # Manifest entry: "yazeed1s/oh-lucy.nvim"
     version = "2022-11-26";
     src = fetchurl {
       url = "https://github.com/Yazeed1s/oh-lucy.nvim/archive/706c74fe8dcc2014dc17bbc861a05d27623e06e3.tar.gz";
@@ -8511,7 +8511,7 @@
     };
   };
   omni-vim = buildVimPluginFrom2Nix {
-    pname = "omni-vim"; -- Manifest entry: "yonlu/omni.vim"
+    pname = "omni-vim"; # Manifest entry: "yonlu/omni.vim"
     version = "2022-06-17";
     src = fetchurl {
       url = "https://github.com/yonlu/omni.vim/archive/6c0f3015b1d6f2ae59c12cc380c629b965d3dc62.tar.gz";
@@ -8523,7 +8523,7 @@
     };
   };
   nvim-pqf = buildVimPluginFrom2Nix {
-    pname = "nvim-pqf"; -- Manifest entry: "gitlab:yorickpeterse/nvim-pqf"
+    pname = "nvim-pqf"; # Manifest entry: "gitlab:yorickpeterse/nvim-pqf"
     version = "2022-10-23";
     src = fetchurl {
       url = "https://gitlab.com/api/v4/projects/yorickpeterse%2Fnvim-pqf/repository/archive.tar.gz?sha=d15582d3d0c09280f371fa5f21537cf4530ed330";
@@ -8535,7 +8535,7 @@
     };
   };
   nvim-window = buildVimPluginFrom2Nix {
-    pname = "nvim-window"; -- Manifest entry: "gitlab:yorickpeterse/nvim-window"
+    pname = "nvim-window"; # Manifest entry: "gitlab:yorickpeterse/nvim-window"
     version = "2022-03-23";
     src = fetchurl {
       url = "https://gitlab.com/api/v4/projects/yorickpeterse%2Fnvim-window/repository/archive.tar.gz?sha=dd0a6b230003ef35524853d71e5413f88fd2ba74";
@@ -8547,7 +8547,7 @@
     };
   };
   copilot-cmp = buildVimPluginFrom2Nix {
-    pname = "copilot-cmp"; -- Manifest entry: "zbirenbaum/copilot-cmp"
+    pname = "copilot-cmp"; # Manifest entry: "zbirenbaum/copilot-cmp"
     version = "2023-01-07";
     src = fetchurl {
       url = "https://github.com/zbirenbaum/copilot-cmp/archive/b732a58ac8b7287b981cd9f0d9c0f61e5e9d5760.tar.gz";
@@ -8560,7 +8560,7 @@
     };
   };
   neodim = buildVimPluginFrom2Nix {
-    pname = "neodim"; -- Manifest entry: "zbirenbaum/neodim"
+    pname = "neodim"; # Manifest entry: "zbirenbaum/neodim"
     version = "2022-11-02";
     src = fetchurl {
       url = "https://github.com/zbirenbaum/neodim/archive/c346344ade2ce709e6bd282f10e43778672b861e.tar.gz";
@@ -8572,7 +8572,7 @@
     };
   };
   color-picker-nvim = buildVimPluginFrom2Nix {
-    pname = "color-picker-nvim"; -- Manifest entry: "ziontee113/color-picker.nvim"
+    pname = "color-picker-nvim"; # Manifest entry: "ziontee113/color-picker.nvim"
     version = "2022-12-28";
     src = fetchurl {
       url = "https://github.com/ziontee113/color-picker.nvim/archive/a94dc4424ec0f116bc3a5ff74514c9fa99006cd2.tar.gz";
@@ -8585,7 +8585,7 @@
     };
   };
   icon-picker-nvim = buildVimPluginFrom2Nix {
-    pname = "icon-picker-nvim"; -- Manifest entry: "ziontee113/icon-picker.nvim"
+    pname = "icon-picker-nvim"; # Manifest entry: "ziontee113/icon-picker.nvim"
     version = "2023-01-16";
     src = fetchurl {
       url = "https://github.com/ziontee113/icon-picker.nvim/archive/66d37ceae84099ca76235de44466829eb37118c2.tar.gz";
@@ -8598,7 +8598,7 @@
     };
   };
   syntax-tree-surfer = buildVimPluginFrom2Nix {
-    pname = "syntax-tree-surfer"; -- Manifest entry: "ziontee113/syntax-tree-surfer"
+    pname = "syntax-tree-surfer"; # Manifest entry: "ziontee113/syntax-tree-surfer"
     version = "2022-09-18";
     src = fetchurl {
       url = "https://github.com/ziontee113/syntax-tree-surfer/archive/d6d518f48dcc4441b11ee3e6cefd48fa1e09568a.tar.gz";

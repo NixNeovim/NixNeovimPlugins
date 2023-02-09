@@ -528,7 +528,7 @@
 | [rcarriga/cmp-dap](https://github.com/rcarriga/cmp-dap) | 2022-11-13 | `cmp-dap` |
 | [rcarriga/nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui) | 2023-02-09 | `nvim-dap-ui` |
 | [rcarriga/nvim-notify](https://github.com/rcarriga/nvim-notify) | 2023-01-18 | `nvim-notify` |
-| [rcarriga/vim-ultest](https://github.com/rcarriga/vim-ultest) | 2022-06-18 | `vim-ultest` |
+| [rcarriga/vim-ultest](https://github.com/rcarriga/vim-ultest) | 2023-02-09 | `vim-ultest` |
 | [rebelot/heirline.nvim](https://github.com/rebelot/heirline.nvim) | 2023-01-30 | `heirline-nvim` |
 | [rebelot/kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim) | 2023-01-16 | `kanagawa-nvim` |
 | [renerocksai/telekasten.nvim](https://github.com/renerocksai/telekasten.nvim) | 2023-02-05 | `telekasten-nvim` |
