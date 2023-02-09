@@ -393,7 +393,6 @@ mcauley-penney/tidy.nvim
 mcchrish/zenbones.nvim
 meain/vim-printer
 meliora-theme/neovim
-melkster/modicator.nvim
 metalelf0/jellybeans-nvim
 mfussenegger/nvim-dap
 mfussenegger/nvim-lint
@@ -565,7 +564,6 @@ sainnhe/sonokai
 sakhnik/nvim-gdb
 samjwill/nvim-unception
 samodostal/image.nvim
-savq/melange
 savq/melange-nvim
 savq/paq-nvim
 sbdchd/neoformat

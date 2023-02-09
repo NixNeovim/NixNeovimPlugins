@@ -6,3 +6,5 @@ Everblush/everblush.nvim
 Pocco81/TrueZen.nvim
 henriquehbr/ataraxis.lua
 bluz71/vim-nightfly-guicolors
+melkster/modicator.nvim
+savq/melange
