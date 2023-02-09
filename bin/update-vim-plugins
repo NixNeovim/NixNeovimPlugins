@@ -515,9 +515,9 @@
 ;;; ------------------------------------------------------------------------------------------------
 ;;; Vim plugin
 
-(fn plugin.new [spec]
+(fn plugin.new [manifest-line]
   "Create object representing Vim plugin."
-  (let [spec (manifest.spec.decode spec)
+  (let [spec (manifest.spec.decode manifest-line)
         repo (match spec.type
                :gitlab (gitlab.project.new spec.full-name)
                :github (github.repo.new spec.full-name)
@@ -527,6 +527,7 @@
         url (repo:get-url recent-commit.sha)
         attr-name (plugin.escape-name (or spec.rename repo.name))
         obj {: attr-name
+             :manifest manifest-line
              :pname attr-name
              :version (plugin.get-date recent-commit.date)
              :fetcher (match spec.type
@@ -546,7 +547,7 @@
   "Generate snippet of Nix expression."
   (string.format
     "  %s = buildVimPluginFrom2Nix {
-    pname = \"%s\";
+    pname = \"%s\"; -- Manifest entry: \"%s\"
     version = \"%s\";
     src = %s {
       url = \"%s\";%s
@@ -560,6 +561,7 @@
 "
     self.attr-name
     self.pname
+    self.manifest
     self.version
     self.fetcher
     self.url
