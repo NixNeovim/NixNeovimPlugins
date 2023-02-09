@@ -58,7 +58,7 @@ Olical/aniseed
 Olical/conjure
 PHSix/nvim-hybrid
 Pocco81/AbbrevMan.nvim
-Pocco81/AutoSave.nvim
+Pocco81/auto-save.nvim::auto-save-nvim-pocco81
 Pocco81/DAPInstall.nvim
 Pocco81/HighStr.nvim
 Pocco81/true-zen.nvim
@@ -426,7 +426,7 @@ nanozuki/tabby.nvim
 natecraddock/workspaces.nvim
 navarasu/onedark.nvim
 sourcehut:nedia/auto-format.nvim
-sourcehut:nedia/auto-save.nvim
+sourcehut:nedia/auto-save.nvim::auto-save-nvim-nedia
 nekonako/xresources-nvim
 neovim/nvim-lspconfig
 nguyenvukhang/nvim-toggler
