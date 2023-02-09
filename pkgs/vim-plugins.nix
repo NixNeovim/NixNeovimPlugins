@@ -3261,8 +3261,8 @@
     pname = "lspsaga-nvim"; # Manifest entry: "glepnir/lspsaga.nvim"
     version = "2023-02-09";
     src = fetchurl {
-      url = "https://github.com/glepnir/lspsaga.nvim/archive/598efc98320d01713eba2c1c8d77577b23abd827.tar.gz";
-      sha256 = "1rdcg0lgz9svbnrhw9qnsy7wryz4fm54xljkp5kkd3fymniq7w47";
+      url = "https://github.com/glepnir/lspsaga.nvim/archive/43bbc17bb34b40e7e8fdef2f634a7c60dfe7e807.tar.gz";
+      sha256 = "16wvfddh9qbv0kdjdp32hn3x67qrqpr60wbcn7pnbm2pscyp4wd3";
     };
     meta = with lib; {
       description = "neovim lsp plugin ";
@@ -5024,19 +5024,6 @@
     meta = with lib; {
       description = "Quickly print/log the variable in your favourite language";
       homepage = "https://github.com/meain/vim-printer";
-    };
-  };
-  mellifluous-nvim = buildVimPluginFrom2Nix {
-    pname = "mellifluous-nvim"; # Manifest entry: "meliora-theme/neovim"
-    version = "2023-02-07";
-    src = fetchurl {
-      url = "https://github.com/ramojus/mellifluous.nvim/archive/066f22f792f5a19a8cf0e7b0dcb43bc2e3ddb02d.tar.gz";
-      sha256 = "15akihy7xs23jqh1qzbn738pwlg616h4vpk7xddv2lvck6ails3m";
-    };
-    meta = with lib; {
-      description = "Pleasant and productive colorscheme for Neovim";
-      homepage = "https://github.com/ramojus/mellifluous.nvim";
-      license = with licenses; [ mit ];
     };
   };
   jellybeans-nvim = buildVimPluginFrom2Nix {

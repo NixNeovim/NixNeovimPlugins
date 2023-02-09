@@ -394,7 +394,6 @@
 | [mcauley-penney/tidy.nvim](https://github.com/mcauley-penney/tidy.nvim) | 2022-09-17 | `tidy-nvim` |
 | [mcchrish/zenbones.nvim](https://github.com/mcchrish/zenbones.nvim) | 2023-01-30 | `zenbones-nvim` |
 | [meain/vim-printer](https://github.com/meain/vim-printer) | 2022-03-01 | `vim-printer` |
-| [ramojus/mellifluous.nvim](https://github.com/ramojus/mellifluous.nvim) | 2023-02-07 | `mellifluous-nvim` |
 | [metalelf0/jellybeans-nvim](https://github.com/metalelf0/jellybeans-nvim) | 2022-03-21 | `jellybeans-nvim` |
 | [mfussenegger/nvim-dap](https://github.com/mfussenegger/nvim-dap) | 2023-02-08 | `nvim-dap` |
 | [mfussenegger/nvim-lint](https://github.com/mfussenegger/nvim-lint) | 2023-01-29 | `nvim-lint` |
