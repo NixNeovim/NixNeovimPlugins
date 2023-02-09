@@ -8,3 +8,4 @@ henriquehbr/ataraxis.lua
 bluz71/vim-nightfly-guicolors
 melkster/modicator.nvim
 savq/melange
+meliora-theme/neovim
