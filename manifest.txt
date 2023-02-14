@@ -58,9 +58,10 @@ Olical/aniseed
 Olical/conjure
 PHSix/nvim-hybrid
 Pocco81/AbbrevMan.nvim
-Pocco81/auto-save.nvim::auto-save-nvim-pocco81
+Pocco81/AutoSave.nvim
 Pocco81/DAPInstall.nvim
 Pocco81/HighStr.nvim
+Pocco81/auto-save.nvim::auto-save-nvim-pocco81
 Pocco81/true-zen.nvim
 RRethy/nvim-base16
 RRethy/nvim-treesitter-textsubjects
@@ -424,6 +425,7 @@ nanozuki/tabby.nvim
 natecraddock/workspaces.nvim
 navarasu/onedark.nvim
 sourcehut:nedia/auto-format.nvim
+sourcehut:nedia/auto-save.nvim
 sourcehut:nedia/auto-save.nvim::auto-save-nvim-nedia
 nekonako/xresources-nvim
 neovim/nvim-lspconfig
@@ -455,6 +457,7 @@ nvim-lua/popup.nvim
 nvim-lualine/lualine.nvim
 nvim-neo-tree/neo-tree.nvim
 nvim-neorg/neorg
+nvim-neorocks/luarocks-tag-release
 nvim-neotest/neotest
 nvim-orgmode/orgmode
 nvim-telescope/telescope-bibtex.nvim

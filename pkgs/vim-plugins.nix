@@ -766,8 +766,8 @@
       license = with licenses; [ gpl3Only ];
     };
   };
-  auto-save-nvim-pocco81 = buildVimPluginFrom2Nix {
-    pname = "auto-save-nvim-pocco81"; # Manifest entry: "Pocco81/auto-save.nvim::auto-save-nvim-pocco81"
+  auto-save-nvim = buildVimPluginFrom2Nix {
+    pname = "auto-save-nvim";
     version = "2022-11-01";
     src = fetchurl {
       url = "https://github.com/Pocco81/auto-save.nvim/archive/979b6c82f60cfa80f4cf437d77446d0ded0addf0.tar.gz";
@@ -802,6 +802,19 @@
     meta = with lib; {
       description = "🦎 A NeoVim plugin for highlighting visual selections like in a normal document editor!";
       homepage = "https://github.com/Pocco81/high-str.nvim";
+      license = with licenses; [ gpl3Only ];
+    };
+  };
+  auto-save-nvim-pocco81 = buildVimPluginFrom2Nix {
+    pname = "auto-save-nvim-pocco81"; # Manifest entry: "Pocco81/auto-save.nvim::auto-save-nvim-pocco81"
+    version = "2022-11-01";
+    src = fetchurl {
+      url = "https://github.com/Pocco81/auto-save.nvim/archive/979b6c82f60cfa80f4cf437d77446d0ded0addf0.tar.gz";
+      sha256 = "1p4v8wrzc4621iird0x73hbrbpn9yj4by2rpshgm3xdv3b1zrmfm";
+    };
+    meta = with lib; {
+      description = "🧶 Automatically save your changes in NeoVim";
+      homepage = "https://github.com/Pocco81/auto-save.nvim";
       license = with licenses; [ gpl3Only ];
     };
   };
@@ -5436,6 +5449,19 @@
       homepage = "https://sr.ht/~nedia/auto-format.nvim/";
     };
   };
+  auto-save-nvim = buildVimPluginFrom2Nix {
+    pname = "auto-save-nvim";
+    version = "2023-01-30";
+    src = fetchgit {
+      url = "https://git.sr.ht/~nedia/auto-save.nvim";
+      rev = "9fec9dee30720f584103eafbf4c80487e4e4157f";
+      sha256 = "12qnbyc6g8yikwhxdhz4aklc9ag9jjm5ynaxv72c8qqcgmrvawzd";
+    };
+    meta = with lib; {
+      description = "No description";
+      homepage = "https://sr.ht/~nedia/auto-save.nvim/";
+    };
+  };
   auto-save-nvim-nedia = buildVimPluginFrom2Nix {
     pname = "auto-save-nvim-nedia"; # Manifest entry: "sourcehut:nedia/auto-save.nvim::auto-save-nvim-nedia"
     version = "2023-01-30";
@@ -5835,6 +5861,19 @@
       description = "Modernity meets insane extensibility. The future of organizing your life in Neovim";
       homepage = "https://github.com/nvim-neorg/neorg";
       license = with licenses; [ gpl3Only ];
+    };
+  };
+  luarocks-tag-release = buildVimPluginFrom2Nix {
+    pname = "luarocks-tag-release"; # Manifest entry: "nvim-neorocks/luarocks-tag-release"
+    version = "2023-02-10";
+    src = fetchurl {
+      url = "https://github.com/nvim-neorocks/luarocks-tag-release/archive/d19a2a94a6c41d5421a1d2742446294bcd957cfc.tar.gz";
+      sha256 = "0prx9391r52dncp3gj5jrjdci4klfwz2n40ilf259rbp6l2cl4f1";
+    };
+    meta = with lib; {
+      description = "GitHub workflow for automatically generating Luarocks releases from tags";
+      homepage = "https://github.com/nvim-neorocks/luarocks-tag-release";
+      license = with licenses; [ mit ];
     };
   };
   neotest = buildVimPluginFrom2Nix {

@@ -60,9 +60,10 @@
 | [Olical/conjure](https://github.com/Olical/conjure) | 2023-01-07 | `conjure` |
 | [PHSix/nvim-hybrid](https://github.com/PHSix/nvim-hybrid) | 2022-01-22 | `nvim-hybrid` |
 | [Pocco81/abbrev-man.nvim](https://github.com/Pocco81/abbrev-man.nvim) | 2021-07-15 | `abbrev-man-nvim` |
-| [Pocco81/auto-save.nvim](https://github.com/Pocco81/auto-save.nvim) | 2022-11-01 | `auto-save-nvim-pocco81` |
+| [Pocco81/auto-save.nvim](https://github.com/Pocco81/auto-save.nvim) | 2022-11-01 | `auto-save-nvim` |
 | [Pocco81/dap-buddy.nvim](https://github.com/Pocco81/dap-buddy.nvim) | 2022-04-20 | `dap-buddy-nvim` |
 | [Pocco81/high-str.nvim](https://github.com/Pocco81/high-str.nvim) | 2022-10-21 | `high-str-nvim` |
+| [Pocco81/auto-save.nvim](https://github.com/Pocco81/auto-save.nvim) | 2022-11-01 | `auto-save-nvim-pocco81` |
 | [Pocco81/true-zen.nvim](https://github.com/Pocco81/true-zen.nvim) | 2022-08-07 | `true-zen-nvim` |
 | [RRethy/nvim-base16](https://github.com/RRethy/nvim-base16) | 2023-02-03 | `nvim-base16` |
 | [RRethy/nvim-treesitter-textsubjects](https://github.com/RRethy/nvim-treesitter-textsubjects) | 2023-02-11 | `nvim-treesitter-textsubjects` |
@@ -426,6 +427,7 @@
 | [natecraddock/workspaces.nvim](https://github.com/natecraddock/workspaces.nvim) | 2023-01-02 | `workspaces-nvim` |
 | [navarasu/onedark.nvim](https://github.com/navarasu/onedark.nvim) | 2023-02-10 | `onedark-nvim` |
 | [sourcehut:nedia/auto-format.nvim](https://sr.ht/~nedia/auto-format.nvim/) | 2023-01-30 | `auto-format-nvim` |
+| [sourcehut:nedia/auto-save.nvim](https://sr.ht/~nedia/auto-save.nvim/) | 2023-01-30 | `auto-save-nvim` |
 | [sourcehut:nedia/auto-save.nvim](https://sr.ht/~nedia/auto-save.nvim/) | 2023-01-30 | `auto-save-nvim-nedia` |
 | [nekonako/xresources-nvim](https://github.com/nekonako/xresources-nvim) | 2021-11-23 | `xresources-nvim` |
 | [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) | 2023-02-12 | `nvim-lspconfig` |
@@ -457,6 +459,7 @@
 | [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) | 2023-01-11 | `lualine-nvim` |
 | [nvim-neo-tree/neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) | 2023-01-12 | `neo-tree-nvim` |
 | [nvim-neorg/neorg](https://github.com/nvim-neorg/neorg) | 2023-02-11 | `neorg` |
+| [nvim-neorocks/luarocks-tag-release](https://github.com/nvim-neorocks/luarocks-tag-release) | 2023-02-10 | `luarocks-tag-release` |
 | [nvim-neotest/neotest](https://github.com/nvim-neotest/neotest) | 2023-02-07 | `neotest` |
 | [nvim-orgmode/orgmode](https://github.com/nvim-orgmode/orgmode) | 2023-02-11 | `orgmode` |
 | [nvim-telescope/telescope-bibtex.nvim](https://github.com/nvim-telescope/telescope-bibtex.nvim) | 2023-01-09 | `telescope-bibtex-nvim` |
