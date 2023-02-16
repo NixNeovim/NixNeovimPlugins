@@ -9,3 +9,4 @@ bluz71/vim-nightfly-guicolors
 melkster/modicator.nvim
 savq/melange
 meliora-theme/neovim
+Pocco81/AutoSave.nvim

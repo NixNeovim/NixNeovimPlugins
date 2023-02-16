@@ -58,7 +58,6 @@ Olical/aniseed
 Olical/conjure
 PHSix/nvim-hybrid
 Pocco81/AbbrevMan.nvim
-Pocco81/AutoSave.nvim
 Pocco81/DAPInstall.nvim
 Pocco81/HighStr.nvim
 Pocco81/auto-save.nvim::auto-save-nvim-pocco81
