@@ -766,19 +766,6 @@
       license = with licenses; [ gpl3Only ];
     };
   };
-  auto-save-nvim = buildVimPluginFrom2Nix {
-    pname = "auto-save-nvim"; # Manifest entry: "Pocco81/AutoSave.nvim"
-    version = "2022-11-01";
-    src = fetchurl {
-      url = "https://github.com/Pocco81/auto-save.nvim/archive/979b6c82f60cfa80f4cf437d77446d0ded0addf0.tar.gz";
-      sha256 = "1p4v8wrzc4621iird0x73hbrbpn9yj4by2rpshgm3xdv3b1zrmfm";
-    };
-    meta = with lib; {
-      description = "🧶 Automatically save your changes in NeoVim";
-      homepage = "https://github.com/Pocco81/auto-save.nvim";
-      license = with licenses; [ gpl3Only ];
-    };
-  };
   dap-buddy-nvim = buildVimPluginFrom2Nix {
     pname = "dap-buddy-nvim"; # Manifest entry: "Pocco81/DAPInstall.nvim"
     version = "2022-04-20";

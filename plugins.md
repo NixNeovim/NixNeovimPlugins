@@ -60,7 +60,6 @@
 | [Olical/conjure](https://github.com/Olical/conjure) | 2023-01-07 | `conjure` |
 | [PHSix/nvim-hybrid](https://github.com/PHSix/nvim-hybrid) | 2022-01-22 | `nvim-hybrid` |
 | [Pocco81/abbrev-man.nvim](https://github.com/Pocco81/abbrev-man.nvim) | 2021-07-15 | `abbrev-man-nvim` |
-| [Pocco81/auto-save.nvim](https://github.com/Pocco81/auto-save.nvim) | 2022-11-01 | `auto-save-nvim` |
 | [Pocco81/dap-buddy.nvim](https://github.com/Pocco81/dap-buddy.nvim) | 2022-04-20 | `dap-buddy-nvim` |
 | [Pocco81/high-str.nvim](https://github.com/Pocco81/high-str.nvim) | 2022-10-21 | `high-str-nvim` |
 | [Pocco81/auto-save.nvim](https://github.com/Pocco81/auto-save.nvim) | 2022-11-01 | `auto-save-nvim-pocco81` |
