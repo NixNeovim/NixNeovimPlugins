@@ -195,7 +195,7 @@ dkarter/bullets.vim
 dmitmel/cmp-cmdline-history
 dmitmel/cmp-digraphs
 dmitmel/cmp-vim-lsp
-dracula/vim
+dracula/vim::dracula-vim
 drybalka/tree-climber.nvim
 dstein64/nvim-scrollview
 dstein64/vim-startuptime

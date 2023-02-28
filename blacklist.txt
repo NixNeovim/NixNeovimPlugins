@@ -10,3 +10,4 @@ melkster/modicator.nvim
 savq/melange
 meliora-theme/neovim
 Pocco81/AutoSave.nvim
+dracula/vim
