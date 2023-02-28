@@ -431,7 +431,6 @@
 | [natecraddock/workspaces.nvim](https://github.com/natecraddock/workspaces.nvim) | 2023-02-21 | `workspaces-nvim` |
 | [navarasu/onedark.nvim](https://github.com/navarasu/onedark.nvim) | 2023-02-14 | `onedark-nvim` |
 | [sourcehut:nedia/auto-format.nvim](https://sr.ht/~nedia/auto-format.nvim/) | 2023-02-21 | `auto-format-nvim` |
-| [sourcehut:nedia/auto-save.nvim](https://sr.ht/~nedia/auto-save.nvim/) | 2023-01-30 | `auto-save-nvim` |
 | [sourcehut:nedia/auto-save.nvim](https://sr.ht/~nedia/auto-save.nvim/) | 2023-01-30 | `auto-save-nvim-nedia` |
 | [nekonako/xresources-nvim](https://github.com/nekonako/xresources-nvim) | 2021-11-23 | `xresources-nvim` |
 | [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) | 2023-02-24 | `nvim-lspconfig` |

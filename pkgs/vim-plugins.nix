@@ -5504,19 +5504,6 @@
       homepage = "https://sr.ht/~nedia/auto-format.nvim/";
     };
   };
-  auto-save-nvim = buildVimPluginFrom2Nix {
-    pname = "auto-save-nvim"; # Manifest entry: "sourcehut:nedia/auto-save.nvim"
-    version = "2023-01-30";
-    src = fetchgit {
-      url = "https://git.sr.ht/~nedia/auto-save.nvim";
-      rev = "9fec9dee30720f584103eafbf4c80487e4e4157f";
-      sha256 = "12qnbyc6g8yikwhxdhz4aklc9ag9jjm5ynaxv72c8qqcgmrvawzd";
-    };
-    meta = with lib; {
-      description = "No description";
-      homepage = "https://sr.ht/~nedia/auto-save.nvim/";
-    };
-  };
   auto-save-nvim-nedia = buildVimPluginFrom2Nix {
     pname = "auto-save-nvim-nedia"; # Manifest entry: "sourcehut:nedia/auto-save.nvim::auto-save-nvim-nedia"
     version = "2023-01-30";
