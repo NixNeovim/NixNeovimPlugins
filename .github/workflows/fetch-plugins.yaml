@@ -29,6 +29,12 @@ jobs:
         run: |
           git clone https://github.com/m15a/nixpkgs-vim-extra-plugins.git other
           cat other/manifest.txt >> manifest.txt
+      - name: Cleanup manifest
+        run: |
+          sort -o ./manifest.txt ./manifest.txt
+          sort -o ./blacklist.txt ./blacklist.txt
+          # remove all files that are in my blacklist
+          echo "$(comm -23 ./manifest.txt ./blacklist.txt)" > ./manifest.txt
       - name: Generate derivations for new plugins
         run: |
           nix run .#update-vim-plugins -- lint
