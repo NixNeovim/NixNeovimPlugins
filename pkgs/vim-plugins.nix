@@ -406,6 +406,19 @@
       license = with licenses; [ asl20 ];
     };
   };
+  trailblazer-nvim = buildVimPluginFrom2Nix {
+    pname = "trailblazer-nvim"; # Manifest entry: "LeonHeidelbach/trailblazer.nvim"
+    version = "2023-02-27";
+    src = fetchurl {
+      url = "https://github.com/LeonHeidelbach/trailblazer.nvim/archive/41d55f483dc7327034ebec0e5133ab4333a36e88.tar.gz";
+      sha256 = "1bz18hamgs3kihlpcp8j3wpznrp36cy34gmhhl8dfqihnsjyjmq6";
+    };
+    meta = with lib; {
+      description = "TrailBlazer enables you to seemlessly move through important project marks as quickly and efficiently as possible to make your workflow blazingly fast ™";
+      homepage = "https://github.com/LeonHeidelbach/trailblazer.nvim";
+      license = with licenses; [ gpl3Only ];
+    };
+  };
   nvim-nu = buildVimPluginFrom2Nix {
     pname = "nvim-nu"; # Manifest entry: "LhKipp/nvim-nu"
     version = "2023-02-18";
@@ -1834,6 +1847,19 @@
       homepage = "https://github.com/bennypowers/nvim-regexplainer";
     };
   };
+  splitjoin-nvim = buildVimPluginFrom2Nix {
+    pname = "splitjoin-nvim"; # Manifest entry: "bennypowers/splitjoin.nvim"
+    version = "2023-02-28";
+    src = fetchurl {
+      url = "https://github.com/bennypowers/splitjoin.nvim/archive/051617b602d2b143b6814579db2816dacaecc0b3.tar.gz";
+      sha256 = "0ch8mpg7m4638az03ch0li7jwxyggk1r9cfccykz3vm4v3jgl4zl";
+    };
+    meta = with lib; {
+      description = "🪓🧷 Split or join list-like syntax constructs";
+      homepage = "https://github.com/bennypowers/splitjoin.nvim";
+      license = with licenses; [ mit ];
+    };
+  };
   nvim-luadev = buildVimPluginFrom2Nix {
     pname = "nvim-luadev"; # Manifest entry: "bfredl/nvim-luadev"
     version = "2022-01-26";
@@ -2515,8 +2541,8 @@
       license = with licenses; [ cc0 ];
     };
   };
-  vim = buildVimPluginFrom2Nix {
-    pname = "vim"; # Manifest entry: "dracula/vim"
+  dracula-vim = buildVimPluginFrom2Nix {
+    pname = "dracula-vim"; # Manifest entry: "dracula/vim::dracula-vim"
     version = "2022-12-22";
     src = fetchurl {
       url = "https://github.com/dracula/vim/archive/eb577d47b0cfc9191bf04c414b4042d5f1a980f8.tar.gz";
@@ -2678,6 +2704,19 @@
     meta = with lib; {
       description = "A neovim plugin template for github repos";
       homepage = "https://github.com/ellisonleao/nvim-plugin-template";
+    };
+  };
+  vim = buildVimPluginFrom2Nix {
+    pname = "vim"; # Manifest entry: "embark-theme/vim"
+    version = "2023-02-25";
+    src = fetchurl {
+      url = "https://github.com/embark-theme/vim/archive/484eb68c69345b5185e370d91ba631accd522776.tar.gz";
+      sha256 = "19g99lnsn2iv49jv6dm4dxpn2nmb690wj6k4q85m7vysq6ybh6p3";
+    };
+    meta = with lib; {
+      description = "An ambitious theme for vim";
+      homepage = "https://github.com/embark-theme/vim";
+      license = with licenses; [ mit ];
     };
   };
   nvim-strict = buildVimPluginFrom2Nix {
@@ -4893,6 +4932,19 @@
       license = with licenses; [ mit ];
     };
   };
+  smartcolumn-nvim = buildVimPluginFrom2Nix {
+    pname = "smartcolumn-nvim"; # Manifest entry: "m4xshen/smartcolumn.nvim"
+    version = "2023-02-23";
+    src = fetchurl {
+      url = "https://github.com/m4xshen/smartcolumn.nvim/archive/1202b0741b87b0815bdc6fc6ebacb2df9e6628ee.tar.gz";
+      sha256 = "0a7zs5lbd2k4slsz1cqvqib4afh8blavancnqn01k70ij29n0w33";
+    };
+    meta = with lib; {
+      description = "A Neovim plugin hiding your colorcolumn when unneeded";
+      homepage = "https://github.com/m4xshen/smartcolumn.nvim";
+      license = with licenses; [ mit ];
+    };
+  };
   reaper-nvim = buildVimPluginFrom2Nix {
     pname = "reaper-nvim"; # Manifest entry: "madskjeldgaard/reaper-nvim"
     version = "2021-01-29";
@@ -5155,6 +5207,19 @@
     meta = with lib; {
       description = "A safe require override with niceties";
       homepage = "https://github.com/miversen33/import.nvim";
+      license = with licenses; [ mit ];
+    };
+  };
+  netman-nvim = buildVimPluginFrom2Nix {
+    pname = "netman-nvim"; # Manifest entry: "miversen33/netman.nvim"
+    version = "2023-02-26";
+    src = fetchurl {
+      url = "https://github.com/miversen33/netman.nvim/archive/947765ab067d27d13f7d577c4419ee0bb5c9daf3.tar.gz";
+      sha256 = "1mzni19sqz0g96s813psqdyyfdlhgrqkg86wps2f556k39f0x1ab";
+    };
+    meta = with lib; {
+      description = "Neovim (Lua powered) Network Resource Manager";
+      homepage = "https://github.com/miversen33/netman.nvim";
       license = with licenses; [ mit ];
     };
   };
@@ -7786,6 +7851,32 @@
       license = with licenses; [ mit ];
     };
   };
+  karen-yank-nvim = buildVimPluginFrom2Nix {
+    pname = "karen-yank-nvim"; # Manifest entry: "tenxsoydev/karen-yank.nvim"
+    version = "2023-02-26";
+    src = fetchurl {
+      url = "https://github.com/tenxsoydev/karen-yank.nvim/archive/98613bf98f53ed20d04d6001c2b9940db1e84e12.tar.gz";
+      sha256 = "17hn0blnr80jgiz34csy4h7qnikbkp6wgf3r0qkjhmnrqa0ygrx0";
+    };
+    meta = with lib; {
+      description = "Neovim Lua plugin to improve register handling with delete, cut and yank mappings";
+      homepage = "https://github.com/tenxsoydev/karen-yank.nvim";
+      license = with licenses; [ mit ];
+    };
+  };
+  nx-nvim = buildVimPluginFrom2Nix {
+    pname = "nx-nvim"; # Manifest entry: "tenxsoydev/nx.nvim"
+    version = "2023-02-18";
+    src = fetchurl {
+      url = "https://github.com/tenxsoydev/nx.nvim/archive/a3498876051094d135260003571af75bef514674.tar.gz";
+      sha256 = "1j7y4c8ipnf2a6qd3rf6ag2vkkcmycvf2i6wn2araw6jrpms4fm1";
+    };
+    meta = with lib; {
+      description = "Neovim API utility wrapper for more convenience with Lua keymaps, highlights, autocommands and options";
+      homepage = "https://github.com/tenxsoydev/nx.nvim";
+      license = with licenses; [ asl20 ];
+    };
+  };
   nvim-comment = buildVimPluginFrom2Nix {
     pname = "nvim-comment"; # Manifest entry: "terrortylor/nvim-comment"
     version = "2022-08-09";
@@ -8463,6 +8554,19 @@
     meta = with lib; {
       description = "Icon set using nonicons for neovim plugins and settings";
       homepage = "https://github.com/yamatsum/nvim-nonicons";
+    };
+  };
+  nvim-foldsign = buildVimPluginFrom2Nix {
+    pname = "nvim-foldsign"; # Manifest entry: "yaocccc/nvim-foldsign"
+    version = "2023-02-22";
+    src = fetchurl {
+      url = "https://github.com/yaocccc/nvim-foldsign/archive/00dacf8470440de13b02277e1b41255bfc0626cf.tar.gz";
+      sha256 = "18mn43z3scx9kcknkymrfjr2h5m7lcy90xpbsaa5q2bv5mshl3kb";
+    };
+    meta = with lib; {
+      description = "Display folding info on sign column";
+      homepage = "https://github.com/yaocccc/nvim-foldsign";
+      license = with licenses; [ mit ];
     };
   };
   nvim-hlchunk = buildVimPluginFrom2Nix {

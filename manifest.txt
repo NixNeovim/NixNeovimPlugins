@@ -30,6 +30,7 @@ Julian/lean.nvim
 Junnplus/nvim-lsp-setup
 Kasama/nvim-custom-diagnostic-highlight
 L3MON4D3/LuaSnip
+LeonHeidelbach/trailblazer.nvim
 LhKipp/nvim-nu
 LinArcX/telescope-command-palette.nvim
 LionC/nest.nvim
@@ -142,6 +143,7 @@ barreiroleo/ltex_extra.nvim
 beauwilliams/focus.nvim
 beauwilliams/statusline.lua
 bennypowers/nvim-regexplainer
+bennypowers/splitjoin.nvim
 bfredl/nvim-luadev
 bfredl/nvim-miniyank
 bkegley/gloombuddy
@@ -208,6 +210,7 @@ ellisonleao/carbon-now.nvim
 ellisonleao/glow.nvim
 ellisonleao/gruvbox.nvim
 ellisonleao/nvim-plugin-template
+embark-theme/vim
 emileferreira/nvim-strict
 epwalsh/obsidian.nvim
 esensar/nvim-dev-container
@@ -381,6 +384,7 @@ m-demare/hlargs.nvim
 m00qek/baleia.nvim
 m00qek/plugin-template.nvim
 m4xshen/autoclose.nvim
+m4xshen/smartcolumn.nvim
 madskjeldgaard/reaper-nvim
 majutsushi/tagbar
 marko-cerovac/material.nvim
@@ -402,6 +406,7 @@ michaelb/sniprun
 mickael-menu/zk-nvim
 milisims/nvim-luaref
 miversen33/import.nvim
+miversen33/netman.nvim
 mizlan/iswap.nvim
 mnacamura/iron.nvim::iron-nvim-mnacamura
 mnacamura/nvim-srcerite
@@ -607,6 +612,8 @@ tamago324/nlsp-settings.nvim
 tamton-aquib/staline.nvim
 tanvirtin/monokai.nvim
 tanvirtin/vgit.nvim
+tenxsoydev/karen-yank.nvim
+tenxsoydev/nx.nvim
 terrortylor/nvim-comment
 thaerkh/vim-workspace
 themaxmarchuk/tailwindcss-colors.nvim
@@ -660,6 +667,7 @@ xiyaowong/nvim-transparent
 xiyaowong/virtcolumn.nvim
 yamatsum/nvim-cursorline
 yamatsum/nvim-nonicons
+yaocccc/nvim-foldsign
 yaocccc/nvim-hlchunk
 yaocccc/nvim-lines.lua
 yashguptaz/calvera-dark.nvim
