@@ -1,4 +1,5 @@
 lukas-reineke/format.nvim
+sourcehut:nedia/auto-save.nvim
 andersevenrud/compe-tmux
 rose-pine/neovim
 shaeinst/penvim
