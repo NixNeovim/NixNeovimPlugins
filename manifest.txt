@@ -420,6 +420,7 @@ ms-jpq/chadtree
 ms-jpq/coq.artifacts:artifacts
 ms-jpq/coq_nvim
 mtoohey31/cmp-fish
+mvpopuk/inspired-github.vim
 nacro90/numb.nvim
 nanotee/luv-vimdocs
 nanotee/nvim-lsp-basics
