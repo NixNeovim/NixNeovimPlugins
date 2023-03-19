@@ -422,6 +422,7 @@
 | [ms-jpq/coq.artifacts](https://github.com/ms-jpq/coq.artifacts) | 2023-03-12 | `coq-artifacts` |
 | [ms-jpq/coq_nvim](https://github.com/ms-jpq/coq_nvim) | 2023-03-12 | `coq-nvim` |
 | [mtoohey31/cmp-fish](https://github.com/mtoohey31/cmp-fish) | 2022-09-01 | `cmp-fish` |
+| [mvpopuk/inspired-github.vim](https://github.com/mvpopuk/inspired-github.vim) | 2022-04-07 | `inspired-github-vim` |
 | [nacro90/numb.nvim](https://github.com/nacro90/numb.nvim) | 2023-03-04 | `numb-nvim` |
 | [nanotee/luv-vimdocs](https://github.com/nanotee/luv-vimdocs) | 2023-02-08 | `luv-vimdocs` |
 | [nanotee/nvim-lsp-basics](https://github.com/nanotee/nvim-lsp-basics) | 2022-05-08 | `nvim-lsp-basics` |

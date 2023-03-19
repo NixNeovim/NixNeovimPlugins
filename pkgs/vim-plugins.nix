@@ -5388,6 +5388,19 @@
       license = with licenses; [ asl20 ];
     };
   };
+  inspired-github-vim = buildVimPluginFrom2Nix {
+    pname = "inspired-github-vim"; # Manifest entry: "mvpopuk/inspired-github.vim"
+    version = "2022-04-07";
+    src = fetchurl {
+      url = "https://github.com/mvpopuk/inspired-github.vim/archive/b0f136335ccf832772c01b4c45270139f0fdc543.tar.gz";
+      sha256 = "11z7s9d133szbbz84pl55shj86y50ybgvz13w6ak0vz4bi4l9qhs";
+    };
+    meta = with lib; {
+      description = "A Vim port of the Inspired GitHub color scheme for Sublime Text 3";
+      homepage = "https://github.com/mvpopuk/inspired-github.vim";
+      license = with licenses; [ asl20 ];
+    };
+  };
   numb-nvim = buildVimPluginFrom2Nix {
     pname = "numb-nvim"; # Manifest entry: "nacro90/numb.nvim"
     version = "2023-03-04";
