@@ -365,6 +365,7 @@ leafOfTree/vim-svelte-plugin
 lewis6991/gitsigns.nvim
 lewis6991/spellsitter.nvim
 lewpoly/sherbet.nvim
+liangxianzhe/nap.nvim
 linrongbin16/lsp-progress.nvim
 linty-org/key-menu.nvim
 linty-org/readline.nvim
@@ -429,6 +430,7 @@ nanotee/sqls.nvim
 nanozuki/tabby.nvim
 natecraddock/workspaces.nvim
 navarasu/onedark.nvim
+neanias/everforest-nvim
 sourcehut:nedia/auto-format.nvim
 sourcehut:nedia/auto-save.nvim::auto-save-nvim-nedia
 nekonako/xresources-nvim
@@ -580,6 +582,7 @@ sgur/vim-textobj-parameter
 shaeinst/roshnivim-cs
 shaunsingh/moonlight.nvim
 shaunsingh/nord.nvim::shaunsingh-nord-nvim
+shellRaining/hlchunk.nvim
 shortcuts/no-neck-pain.nvim
 simrat39/rust-tools.nvim
 simrat39/symbols-outline.nvim
@@ -642,6 +645,7 @@ udayvir-singh/tangerine.nvim
 uga-rosa/ccc.nvim
 uga-rosa/cmp-dictionary
 utilyre/barbecue.nvim
+utilyre/sentiment.nvim
 vappolinario/cmp-clippy
 vigoux/complementree.nvim
 vijaymarupudi/nvim-fzf
@@ -652,6 +656,7 @@ weilbith/nvim-code-action-menu
 sourcehut:whynothugo/lsp_lines.nvim
 williamboman/mason.nvim
 williamboman/nvim-lsp-installer
+willothy/moveline.nvim
 windwp/nvim-autopairs
 windwp/nvim-projectconfig
 windwp/nvim-spectre
@@ -678,6 +683,7 @@ gitlab:yorickpeterse/nvim-pqf
 gitlab:yorickpeterse/nvim-window
 zbirenbaum/copilot-cmp
 zbirenbaum/neodim
+zdcthomas/yop.nvim
 ziontee113/color-picker.nvim
 ziontee113/icon-picker.nvim
 ziontee113/syntax-tree-surfer
