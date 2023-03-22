@@ -17,7 +17,6 @@ Darazaki/indent-o-matic
 David-Kunz/cmp-npm
 David-Kunz/jester
 EdenEast/nightfox.nvim
-EdvinVikstrom/filetree.nvim
 EthanJWright/vs-tasks.nvim
 Everblush/nvim::everblush
 FeiyouG/command_center.nvim
