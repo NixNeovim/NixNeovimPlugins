@@ -603,6 +603,7 @@ startup-nvim/startup.nvim
 stevearc/aerial.nvim
 stevearc/dressing.nvim
 stevearc/gkeep.nvim
+stevearc/oil.nvim
 stevearc/overseer.nvim
 stevearc/qf_helper.nvim
 subnut/nvim-ghost.nvim
