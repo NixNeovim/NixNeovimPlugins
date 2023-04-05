@@ -224,6 +224,7 @@ fenetikm/falcon
 filipdutescu/renamer.nvim
 folke/lsp-colors.nvim
 folke/lua-dev.nvim
+folke/persistence.nvim
 folke/todo-comments.nvim
 folke/tokyonight.nvim
 folke/trouble.nvim
