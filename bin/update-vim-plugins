@@ -627,14 +627,17 @@
         (if (or update-all?
                 (not (. %cache :data spec)))
             (do (io.stderr:write (string.format "%s: update %s..." (program-name) spec))
-                (let [pkg (plugin.new spec)
-                      nixexpr (pkg:to-nixexpr)
-                      mditem (pkg:to-markdown-table-row)]
-                  (nix:write nixexpr)
-                  (readme:write mditem)
-                  (tset %cache.data spec {: nixexpr : mditem}))
-                (set %cache.changed? true)
-                (io.stderr:write "done\n"))
+                (try
+                    (let [pkg (plugin.new spec)
+                          nixexpr (pkg:to-nixexpr)
+                          mditem (pkg:to-markdown-table-row)]
+                      (nix:write nixexpr)
+                      (readme:write mditem)
+                      (tset %cache.data spec {: nixexpr : mditem}))
+                    (set %cache.changed? true)
+                    (io.stderr:write "done\n"))
+                (catch _
+                       (io.stderr:write (string.format "%s: error updating %s\n" (program-name) spec))))
             (do (io.stderr:write (string.format "%s: skip %s..." (program-name) spec))
                 (nix:write (. %cache :data spec :nixexpr))
                 (readme:write (. %cache :data spec :mditem))
