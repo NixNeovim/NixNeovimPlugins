@@ -656,6 +656,7 @@ vigoux/complementree.nvim
 vijaymarupudi/nvim-fzf
 vimwiki/vimwiki
 vuki656/package-info.nvim
+wakatime/vim-wakatime
 wbthomason/packer.nvim
 weilbith/nvim-code-action-menu
 williamboman/mason.nvim
