@@ -532,6 +532,7 @@ pwntester/codeql.nvim
 pwntester/octo.nvim
 quangnguyen30192/cmp-nvim-ultisnips
 rafaelsq/nvim-goc.lua
+rafaqz/ranger.vim
 rafamadriz/neon
 rafcamlet/nvim-luapad
 rafcamlet/tabline-framework.nvim

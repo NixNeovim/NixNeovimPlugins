@@ -540,6 +540,7 @@
 | [raimon49/requirements.txt.vim](https://github.com/raimon49/requirements.txt.vim) | 2023-02-19 | `requirements-txt-vim` |
 | [ramojus/mellifluous.nvim](https://github.com/ramojus/mellifluous.nvim) | 2023-04-06 | `mellifluous-nvim` |
 | [ranjithshegde/ccls.nvim](https://github.com/ranjithshegde/ccls.nvim) | 2022-11-08 | `ccls-nvim` |
+| [rafaqz/ranger.vim](https://github.com/rafaqz/ranger.vim) | 2021-12-13 | `ranger-vim` |
 | [ray-x/aurora](https://github.com/ray-x/aurora) | 2023-03-23 | `aurora` |
 | [ray-x/cmp-treesitter](https://github.com/ray-x/cmp-treesitter) | 2023-04-06 | `cmp-treesitter` |
 | [ray-x/go.nvim](https://github.com/ray-x/go.nvim) | 2023-04-08 | `go-nvim` |
