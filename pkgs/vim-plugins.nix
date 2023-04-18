@@ -9080,6 +9080,6 @@
     meta = with lib; {
         description = "This plugin draws on the examples included with ranger and airodactyl/neovim-ranger to embed ranger as vims file manager, as a better alternative to the built in file manager or nerd-tree.";
         homepage = "https://github.com/rafaqz/ranger.vim";
-    }
+    };
   };
 }
