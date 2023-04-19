@@ -2991,19 +2991,6 @@
       license = with licenses; [ gpl3Only ];
     };
   };
-  feline-nvim = buildVimPluginFrom2Nix {
-    pname = "feline-nvim"; # Manifest entry: "feline-nvim/feline.nvim"
-    version = "2022-12-22";
-    src = fetchurl {
-      url = "https://github.com/famiu/feline.nvim/archive/d48b6f92c6ccdd6654c956f437be49ea160b5b0c.tar.gz";
-      sha256 = "1jcrw81w753k1qb92xfzk2nlgp88zynpfsvyzl6cc8vc9lgrz80s";
-    };
-    meta = with lib; {
-      description = "A minimal, stylish and customizable statusline for Neovim written in Lua";
-      homepage = "https://github.com/famiu/feline.nvim";
-      license = with licenses; [ gpl3Only ];
-    };
-  };
   falcon = buildVimPluginFrom2Nix {
     pname = "falcon"; # Manifest entry: "fenetikm/falcon"
     version = "2023-03-12";

@@ -234,7 +234,6 @@
 | [f-person/git-blame.nvim](https://github.com/f-person/git-blame.nvim) | 2023-04-06 | `git-blame-nvim` |
 | [f3fora/cmp-spell](https://github.com/f3fora/cmp-spell) | 2022-10-10 | `cmp-spell` |
 | [famiu/bufdelete.nvim](https://github.com/famiu/bufdelete.nvim) | 2023-02-16 | `bufdelete-nvim` |
-| [famiu/feline.nvim](https://github.com/famiu/feline.nvim) | 2022-12-22 | `feline-nvim` |
 | [fenetikm/falcon](https://github.com/fenetikm/falcon) | 2023-03-12 | `falcon` |
 | [filipdutescu/renamer.nvim](https://github.com/filipdutescu/renamer.nvim) | 2022-08-29 | `renamer-nvim` |
 | [folke/lsp-colors.nvim](https://github.com/folke/lsp-colors.nvim) | 2023-02-27 | `lsp-colors-nvim` |
