@@ -9058,9 +9058,8 @@
   ranger-vim = buildVimPluginFrom2Nix {
     pname = "ranger.vim";
     version = "2021-12-13";
-    src = fetchFromGitHub {
-      owner = "rafaqz";
-      repo = "ranger.vim";
+    src = fetchgit {
+      url = "https://github.com/rafaqz/ranger.vim";
       rev = "527c7c5371667f7848da91c2abc75c3998cbf1a0";
       sha256 = "1rfzv6lxbhfk4xwdmhpc9b0xamfa2lrzc1xi630v1hakscjdjcm1";
     };
