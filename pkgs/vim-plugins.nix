@@ -587,6 +587,19 @@
       license = with licenses; [ mit ];
     };
   };
+  interestingwords-nvim = buildVimPluginFrom2Nix {
+    pname = "interestingwords-nvim"; # Manifest entry: "Mr-LLLLL/interestingwords.nvim"
+    version = "2023-03-31";
+    src = fetchurl {
+      url = "https://github.com/Mr-LLLLL/interestingwords.nvim/archive/bfa1514f1276723c8ff07bcc7f81fe39f2912470.tar.gz";
+      sha256 = "0jyrqxvczhxyyx7fkcfwh40lm4712p2kcwgnwkvnlgl26q4qjixf";
+    };
+    meta = with lib; {
+      description = "☀️ A vim plugin for highlighting and navigating through different words in a buffer";
+      homepage = "https://github.com/Mr-LLLLL/interestingwords.nvim";
+      license = with licenses; [ gpl3Only ];
+    };
+  };
   telescope-manix = buildVimPluginFrom2Nix {
     pname = "telescope-manix"; # Manifest entry: "MrcJkb/telescope-manix"
     version = "2023-03-12";
@@ -1823,6 +1836,19 @@
       homepage = "https://github.com/axkirillov/easypick.nvim";
     };
   };
+  hbac-nvim = buildVimPluginFrom2Nix {
+    pname = "hbac-nvim"; # Manifest entry: "axkirillov/hbac.nvim"
+    version = "2023-04-06";
+    src = fetchurl {
+      url = "https://github.com/axkirillov/hbac.nvim/archive/c7f710493bdbc8a2b2b78572d3032a2adeedff5f.tar.gz";
+      sha256 = "02iw2d8qrvdhdv3sp8w5ihax7pgb025mis9cqdx4m9k5qjj0gn52";
+    };
+    meta = with lib; {
+      description = "Heuristic buffer auto-close";
+      homepage = "https://github.com/axkirillov/hbac.nvim";
+      license = with licenses; [ mit ];
+    };
+  };
   SchemaStore-nvim = buildVimPluginFrom2Nix {
     pname = "SchemaStore-nvim"; # Manifest entry: "b0o/SchemaStore.nvim"
     version = "2023-04-06";
@@ -2988,6 +3014,19 @@
     meta = with lib; {
       description = "Delete Neovim buffers without losing window layout";
       homepage = "https://github.com/famiu/bufdelete.nvim";
+      license = with licenses; [ gpl3Only ];
+    };
+  };
+  feline-nvim = buildVimPluginFrom2Nix {
+    pname = "feline-nvim"; # Manifest entry: "feline-nvim/feline.nvim"
+    version = "2022-12-22";
+    src = fetchurl {
+      url = "https://github.com/famiu/feline.nvim/archive/d48b6f92c6ccdd6654c956f437be49ea160b5b0c.tar.gz";
+      sha256 = "1jcrw81w753k1qb92xfzk2nlgp88zynpfsvyzl6cc8vc9lgrz80s";
+    };
+    meta = with lib; {
+      description = "A minimal, stylish and customizable statusline for Neovim written in Lua";
+      homepage = "https://github.com/famiu/feline.nvim";
       license = with licenses; [ gpl3Only ];
     };
   };
@@ -6827,6 +6866,19 @@
       license = with licenses; [ gpl3Only ];
     };
   };
+  ranger-vim = buildVimPluginFrom2Nix {
+    pname = "ranger-vim"; # Manifest entry: "rafaqz/ranger.vim"
+    version = "2021-12-13";
+    src = fetchurl {
+      url = "https://github.com/rafaqz/ranger.vim/archive/527c7c5371667f7848da91c2abc75c3998cbf1a0.tar.gz";
+      sha256 = "17qv3a8lh3h3wl83q0bwxr5diki830b1sb0z8fw73xnwl08rqlbi";
+    };
+    meta = with lib; {
+      description = "Ranger file manager for Vim";
+      homepage = "https://github.com/rafaqz/ranger.vim";
+      license = with licenses; [ wtfpl ];
+    };
+  };
   nvim-luapad = buildVimPluginFrom2Nix {
     pname = "nvim-luapad"; # Manifest entry: "rafcamlet/nvim-luapad"
     version = "2022-12-11";
@@ -7402,6 +7454,19 @@
     meta = with lib; {
       description = "A Lua-Neovim plugin that toggles a terminal";
       homepage = "https://github.com/s1n7ax/nvim-terminal";
+      license = with licenses; [ mit ];
+    };
+  };
+  bufignore-nvim = buildVimPluginFrom2Nix {
+    pname = "bufignore-nvim"; # Manifest entry: "sQVe/bufignore.nvim"
+    version = "2023-04-19";
+    src = fetchurl {
+      url = "https://github.com/sQVe/bufignore.nvim/archive/fb0c30b97a05b6b4796037c989f4427df4c73052.tar.gz";
+      sha256 = "0yq0dhyxgnhhi4x4iwhfi84sagmh6y0nvxj5w1fkm1ncx40cw703";
+    };
+    meta = with lib; {
+      description = "Unlist hidden buffers that are git ignored";
+      homepage = "https://github.com/sQVe/bufignore.nvim";
       license = with licenses; [ mit ];
     };
   };
@@ -8136,6 +8201,19 @@
       license = with licenses; [ asl20 ];
     };
   };
+  tabs-vs-spaces-nvim = buildVimPluginFrom2Nix {
+    pname = "tabs-vs-spaces-nvim"; # Manifest entry: "tenxsoydev/tabs-vs-spaces.nvim"
+    version = "2023-04-10";
+    src = fetchurl {
+      url = "https://github.com/tenxsoydev/tabs-vs-spaces.nvim/archive/eb6e2d610bb541bdf6b698d076b9ed4acf403394.tar.gz";
+      sha256 = "0imy8lqfzya1z5ffhxhg3jwcah2ja2sczji940glai4cwapa3bz8";
+    };
+    meta = with lib; {
+      description = "Hint and fix deviating indentation";
+      homepage = "https://github.com/tenxsoydev/tabs-vs-spaces.nvim";
+      license = with licenses; [ mit ];
+    };
+  };
   nvim-comment = buildVimPluginFrom2Nix {
     pname = "nvim-comment"; # Manifest entry: "terrortylor/nvim-comment"
     version = "2022-08-09";
@@ -8339,6 +8417,19 @@
     meta = with lib; {
       description = "Dark color scheme for Vim and vim-airline, inspired by Dark+ in Visual Studio Code";
       homepage = "https://github.com/tomasiser/vim-code-dark";
+      license = with licenses; [ mit ];
+    };
+  };
+  bookmarks-nvim = buildVimPluginFrom2Nix {
+    pname = "bookmarks-nvim"; # Manifest entry: "tomasky/bookmarks.nvim"
+    version = "2023-04-14";
+    src = fetchurl {
+      url = "https://github.com/tomasky/bookmarks.nvim/archive/5fe06a9190d17141195f67a3fc098f668721b1f2.tar.gz";
+      sha256 = "0nw7s0w6mnyha0pakrdizl3c2kakxsdph77wj8vx0hcls4f5y7kp";
+    };
+    meta = with lib; {
+      description = "A Bookmarks Plugin With Global File Store  For Neovim Written In Lua";
+      homepage = "https://github.com/tomasky/bookmarks.nvim";
       license = with licenses; [ mit ];
     };
   };
@@ -9053,19 +9144,6 @@
       description = "A plugin for Neovim that helps you surf through your document and move elements around using the nvim-treesitter API";
       homepage = "https://github.com/ziontee113/syntax-tree-surfer";
       license = with licenses; [ mit ];
-    };
-  };
-  ranger-vim = buildVimPluginFrom2Nix {
-    pname = "ranger.vim";
-    version = "2021-12-13";
-    src = fetchgit {
-      url = "https://github.com/rafaqz/ranger.vim";
-      rev = "527c7c5371667f7848da91c2abc75c3998cbf1a0";
-      sha256 = "1rfzv6lxbhfk4xwdmhpc9b0xamfa2lrzc1xi630v1hakscjdjcm1";
-    };
-    meta = with lib; {
-        description = "This plugin draws on the examples included with ranger and airodactyl/neovim-ranger to embed ranger as vims file manager, as a better alternative to the built in file manager or nerd-tree.";
-        homepage = "https://github.com/rafaqz/ranger.vim";
     };
   };
 }

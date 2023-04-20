@@ -44,6 +44,7 @@ Mofiqul/adwaita.nvim
 Mofiqul/dracula.nvim
 Mofiqul/vscode.nvim
 MordechaiHadad/nvim-papadark
+Mr-LLLLL/interestingwords.nvim
 MrcJkb/telescope-manix
 MunifTanjim/exrc.nvim
 MunifTanjim/nui.nvim
@@ -141,6 +142,7 @@ askfiy/nvim-picgo
 aspeddro/cmp-pandoc.nvim
 axieax/urlview.nvim
 axkirillov/easypick.nvim
+axkirillov/hbac.nvim
 b0o/SchemaStore.nvim
 b0o/incline.nvim
 b0o/mapx.nvim
@@ -532,8 +534,8 @@ pwntester/codeql.nvim
 pwntester/octo.nvim
 quangnguyen30192/cmp-nvim-ultisnips
 rafaelsq/nvim-goc.lua
-rafaqz/ranger.vim
 rafamadriz/neon
+rafaqz/ranger.vim
 rafcamlet/nvim-luapad
 rafcamlet/tabline-framework.nvim
 raimon49/requirements.txt.vim
@@ -579,6 +581,7 @@ ruifm/gitlinker.nvim
 s1n7ax/nvim-comment-frame
 s1n7ax/nvim-search-and-replace
 s1n7ax/nvim-terminal
+sQVe/bufignore.nvim
 sQVe/sort.nvim
 saadparwaiz1/cmp_luasnip
 saifulapm/chartoggle.nvim
@@ -636,6 +639,7 @@ tanvirtin/monokai.nvim
 tanvirtin/vgit.nvim
 tenxsoydev/karen-yank.nvim
 tenxsoydev/nx.nvim
+tenxsoydev/tabs-vs-spaces.nvim
 terrortylor/nvim-comment
 thaerkh/vim-workspace
 themaxmarchuk/tailwindcss-colors.nvim
@@ -652,6 +656,7 @@ tjdevries/train.nvim
 tjdevries/vlog.nvim
 tmillr/sos.nvim
 tomasiser/vim-code-dark
+tomasky/bookmarks.nvim
 toppair/peek.nvim
 toppair/reach.nvim
 tversteeg/registers.nvim
