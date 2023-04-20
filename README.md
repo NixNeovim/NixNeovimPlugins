@@ -82,6 +82,11 @@ Supported are Github (default), SourceHut, and GitLab.
 
 I am happy for any contribution. :)
 
+### How to remove a new plugin
+
+Copy the entry from manifest.txt to blacklist.txt and create a PR.
+The GitHub Actions will do the rest, including removing the entry from manifest.txt
+
 ## Credits
 
 This is originally based on work by [m15a](https://github.com/m15a/nixpkgs-vim-extra-plugins)
