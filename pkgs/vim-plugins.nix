@@ -2390,12 +2390,12 @@
       license = with licenses; [ mit ];
     };
   };
-  bookmarks-nvim = buildVimPluginFrom2Nix {
-    pname = "bookmarks-nvim"; # Manifest entry: "crusj/bookmarks.nvim"
-    version = "2023-03-23";
+  bookmarks-crusj = buildVimPluginFrom2Nix {
+    pname = "bookmarks-crusj"; # Manifest entry: "crusj/bookmarks.nvim::bookmarks-crusj"
+    version = "2023-04-13";
     src = fetchurl {
-      url = "https://github.com/crusj/bookmarks.nvim/archive/1c95ec30f4b01c45f5b7f36eb495cb56a82f8c5d.tar.gz";
-      sha256 = "02brvxcnzwpywgxd09dgz4jmfp5rh1frrx0cf7iy0yi23d996k8v";
+      url = "https://github.com/crusj/bookmarks.nvim/archive/6f34f1e18bb44c3fc2a0b003d01a7115c84331d9.tar.gz";
+      sha256 = "0painw5w7fm22719ara9h5k42pcqnwa5077j2l4dsr95nmnbngld";
     };
     meta = with lib; {
       description = "Remember file locations and sort by time and frequency and support telescope";
@@ -8420,8 +8420,8 @@
       license = with licenses; [ mit ];
     };
   };
-  bookmarks-nvim = buildVimPluginFrom2Nix {
-    pname = "bookmarks-nvim"; # Manifest entry: "tomasky/bookmarks.nvim"
+  bookmarks-tomasky = buildVimPluginFrom2Nix {
+    pname = "bookmarks-tomasky"; # Manifest entry: "tomasky/bookmarks.nvim::bookmarks-tomasky"
     version = "2023-04-14";
     src = fetchurl {
       url = "https://github.com/tomasky/bookmarks.nvim/archive/5fe06a9190d17141195f67a3fc098f668721b1f2.tar.gz";
