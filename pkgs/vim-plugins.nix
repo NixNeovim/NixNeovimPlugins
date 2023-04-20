@@ -2390,6 +2390,19 @@
       license = with licenses; [ mit ];
     };
   };
+  bookmarks-nvim = buildVimPluginFrom2Nix {
+    pname = "bookmarks-nvim"; # Manifest entry: "crusj/bookmarks.nvim"
+    version = "2023-03-23";
+    src = fetchurl {
+      url = "https://github.com/crusj/bookmarks.nvim/archive/1c95ec30f4b01c45f5b7f36eb495cb56a82f8c5d.tar.gz";
+      sha256 = "02brvxcnzwpywgxd09dgz4jmfp5rh1frrx0cf7iy0yi23d996k8v";
+    };
+    meta = with lib; {
+      description = "Remember file locations and sort by time and frequency and support telescope";
+      homepage = "https://github.com/crusj/bookmarks.nvim";
+      license = with licenses; [ mit ];
+    };
+  };
   bookmarks-crusj = buildVimPluginFrom2Nix {
     pname = "bookmarks-crusj"; # Manifest entry: "crusj/bookmarks.nvim::bookmarks-crusj"
     version = "2023-04-13";
@@ -8404,6 +8417,19 @@
     meta = with lib; {
       description = "Dark color scheme for Vim and vim-airline, inspired by Dark+ in Visual Studio Code";
       homepage = "https://github.com/tomasiser/vim-code-dark";
+      license = with licenses; [ mit ];
+    };
+  };
+  bookmarks-nvim = buildVimPluginFrom2Nix {
+    pname = "bookmarks-nvim"; # Manifest entry: "tomasky/bookmarks.nvim"
+    version = "2023-04-14";
+    src = fetchurl {
+      url = "https://github.com/tomasky/bookmarks.nvim/archive/5fe06a9190d17141195f67a3fc098f668721b1f2.tar.gz";
+      sha256 = "0nw7s0w6mnyha0pakrdizl3c2kakxsdph77wj8vx0hcls4f5y7kp";
+    };
+    meta = with lib; {
+      description = "A Bookmarks Plugin With Global File Store  For Neovim Written In Lua";
+      homepage = "https://github.com/tomasky/bookmarks.nvim";
       license = with licenses; [ mit ];
     };
   };

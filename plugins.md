@@ -187,6 +187,7 @@
 | [crispgm/nvim-go](https://github.com/crispgm/nvim-go) | 2023-03-02 | `nvim-go` |
 | [crispgm/nvim-tabline](https://github.com/crispgm/nvim-tabline) | 2023-02-03 | `nvim-tabline` |
 | [crispgm/telescope-heading.nvim](https://github.com/crispgm/telescope-heading.nvim) | 2023-04-04 | `telescope-heading-nvim` |
+| [crusj/bookmarks.nvim](https://github.com/crusj/bookmarks.nvim) | 2023-03-23 | `bookmarks-nvim` |
 | [crusj/bookmarks.nvim](https://github.com/crusj/bookmarks.nvim) | 2023-04-13 | `bookmarks-crusj` |
 | [crusj/hierarchy-tree-go.nvim](https://github.com/crusj/hierarchy-tree-go.nvim) | 2022-12-01 | `hierarchy-tree-go-nvim` |
 | [crusj/structrue-go.nvim](https://github.com/crusj/structrue-go.nvim) | 2022-09-29 | `structrue-go-nvim` |
@@ -236,7 +237,6 @@
 | [f-person/git-blame.nvim](https://github.com/f-person/git-blame.nvim) | 2023-04-06 | `git-blame-nvim` |
 | [f3fora/cmp-spell](https://github.com/f3fora/cmp-spell) | 2022-10-10 | `cmp-spell` |
 | [famiu/bufdelete.nvim](https://github.com/famiu/bufdelete.nvim) | 2023-02-16 | `bufdelete-nvim` |
-| [famiu/feline.nvim](https://github.com/famiu/feline.nvim) | 2022-12-22 | `feline-nvim` |
 | [fenetikm/falcon](https://github.com/fenetikm/falcon) | 2023-03-12 | `falcon` |
 | [filipdutescu/renamer.nvim](https://github.com/filipdutescu/renamer.nvim) | 2022-08-29 | `renamer-nvim` |
 | [folke/lsp-colors.nvim](https://github.com/folke/lsp-colors.nvim) | 2023-02-27 | `lsp-colors-nvim` |
@@ -658,6 +658,7 @@
 | [tjdevries/vlog.nvim](https://github.com/tjdevries/vlog.nvim) | 2020-08-04 | `vlog-nvim` |
 | [tmillr/sos.nvim](https://github.com/tmillr/sos.nvim) | 2023-04-09 | `sos-nvim` |
 | [tomasiser/vim-code-dark](https://github.com/tomasiser/vim-code-dark) | 2023-03-26 | `vim-code-dark` |
+| [tomasky/bookmarks.nvim](https://github.com/tomasky/bookmarks.nvim) | 2023-04-14 | `bookmarks-nvim` |
 | [tomasky/bookmarks.nvim](https://github.com/tomasky/bookmarks.nvim) | 2023-04-14 | `bookmarks-tomasky` |
 | [toppair/peek.nvim](https://github.com/toppair/peek.nvim) | 2023-04-01 | `peek-nvim` |
 | [toppair/reach.nvim](https://github.com/toppair/reach.nvim) | 2022-11-21 | `reach-nvim` |
