@@ -20,11 +20,11 @@ jobs:
         with:
           extra_nix_config: |
             access-tokens = github.com=${{ secrets.NIXPKGS_TOKEN }}
-      - name: Fetch from awesome-neovim
-        run: nix run .#update-vim-plugins -- awesome-neovim
-        env:
-          GITHUB_TOKEN: ${{ secrets.NIXPKGS_TOKEN }}
-          SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}
+      # - name: Fetch from awesome-neovim
+      #   run: nix run .#update-vim-plugins -- awesome-neovim
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.NIXPKGS_TOKEN }}
+      #     SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}
       - name: Fetch from m15a
         run: |
           git clone https://github.com/m15a/nixpkgs-vim-extra-plugins.git other
