@@ -14,3 +14,5 @@ rose-pine/neovim
 savq/melange
 shaeinst/penvim
 sourcehut:nedia/auto-save.nvim
+tomasky/bookmarks.nvim
+crusj/bookmarks.nvim

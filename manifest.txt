@@ -185,7 +185,6 @@ cpea2506/relative-toggle.nvim
 crispgm/nvim-go
 crispgm/nvim-tabline
 crispgm/telescope-heading.nvim
-crusj/bookmarks.nvim
 crusj/bookmarks.nvim::bookmarks-crusj
 crusj/hierarchy-tree-go.nvim
 crusj/structrue-go.nvim
@@ -656,7 +655,6 @@ tjdevries/train.nvim
 tjdevries/vlog.nvim
 tmillr/sos.nvim
 tomasiser/vim-code-dark
-tomasky/bookmarks.nvim
 tomasky/bookmarks.nvim::bookmarks-tomasky
 toppair/peek.nvim
 toppair/reach.nvim
