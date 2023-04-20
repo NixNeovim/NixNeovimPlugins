@@ -2991,19 +2991,6 @@
       license = with licenses; [ gpl3Only ];
     };
   };
-  feline-nvim = buildVimPluginFrom2Nix {
-    pname = "feline-nvim"; # Manifest entry: "feline-nvim/feline.nvim"
-    version = "2022-12-22";
-    src = fetchurl {
-      url = "https://github.com/famiu/feline.nvim/archive/d48b6f92c6ccdd6654c956f437be49ea160b5b0c.tar.gz";
-      sha256 = "1jcrw81w753k1qb92xfzk2nlgp88zynpfsvyzl6cc8vc9lgrz80s";
-    };
-    meta = with lib; {
-      description = "A minimal, stylish and customizable statusline for Neovim written in Lua";
-      homepage = "https://github.com/famiu/feline.nvim";
-      license = with licenses; [ gpl3Only ];
-    };
-  };
   falcon = buildVimPluginFrom2Nix {
     pname = "falcon"; # Manifest entry: "fenetikm/falcon"
     version = "2023-03-12";
@@ -9066,6 +9053,19 @@
       description = "A plugin for Neovim that helps you surf through your document and move elements around using the nvim-treesitter API";
       homepage = "https://github.com/ziontee113/syntax-tree-surfer";
       license = with licenses; [ mit ];
+    };
+  };
+  ranger-vim = buildVimPluginFrom2Nix {
+    pname = "ranger.vim";
+    version = "2021-12-13";
+    src = fetchgit {
+      url = "https://github.com/rafaqz/ranger.vim";
+      rev = "527c7c5371667f7848da91c2abc75c3998cbf1a0";
+      sha256 = "1rfzv6lxbhfk4xwdmhpc9b0xamfa2lrzc1xi630v1hakscjdjcm1";
+    };
+    meta = with lib; {
+        description = "This plugin draws on the examples included with ranger and airodactyl/neovim-ranger to embed ranger as vims file manager, as a better alternative to the built in file manager or nerd-tree.";
+        homepage = "https://github.com/rafaqz/ranger.vim";
     };
   };
 }

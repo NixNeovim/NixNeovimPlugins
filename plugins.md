@@ -234,7 +234,6 @@
 | [f-person/git-blame.nvim](https://github.com/f-person/git-blame.nvim) | 2023-04-06 | `git-blame-nvim` |
 | [f3fora/cmp-spell](https://github.com/f3fora/cmp-spell) | 2022-10-10 | `cmp-spell` |
 | [famiu/bufdelete.nvim](https://github.com/famiu/bufdelete.nvim) | 2023-02-16 | `bufdelete-nvim` |
-| [famiu/feline.nvim](https://github.com/famiu/feline.nvim) | 2022-12-22 | `feline-nvim` |
 | [fenetikm/falcon](https://github.com/fenetikm/falcon) | 2023-03-12 | `falcon` |
 | [filipdutescu/renamer.nvim](https://github.com/filipdutescu/renamer.nvim) | 2022-08-29 | `renamer-nvim` |
 | [folke/lsp-colors.nvim](https://github.com/folke/lsp-colors.nvim) | 2023-02-27 | `lsp-colors-nvim` |
@@ -540,6 +539,7 @@
 | [raimon49/requirements.txt.vim](https://github.com/raimon49/requirements.txt.vim) | 2023-02-19 | `requirements-txt-vim` |
 | [ramojus/mellifluous.nvim](https://github.com/ramojus/mellifluous.nvim) | 2023-04-06 | `mellifluous-nvim` |
 | [ranjithshegde/ccls.nvim](https://github.com/ranjithshegde/ccls.nvim) | 2022-11-08 | `ccls-nvim` |
+| [rafaqz/ranger.vim](https://github.com/rafaqz/ranger.vim) | 2021-12-13 | `ranger-vim` |
 | [ray-x/aurora](https://github.com/ray-x/aurora) | 2023-03-23 | `aurora` |
 | [ray-x/cmp-treesitter](https://github.com/ray-x/cmp-treesitter) | 2023-04-06 | `cmp-treesitter` |
 | [ray-x/go.nvim](https://github.com/ray-x/go.nvim) | 2023-04-08 | `go-nvim` |
