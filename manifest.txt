@@ -707,6 +707,7 @@ yonlu/omni.vim
 gitlab:yorickpeterse/nvim-pqf
 gitlab:yorickpeterse/nvim-window
 zbirenbaum/copilot-cmp
+zbirenbaum/copilot.lua
 zbirenbaum/neodim
 zdcthomas/yop.nvim
 ziontee113/color-picker.nvim
