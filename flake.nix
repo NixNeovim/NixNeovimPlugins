@@ -7,8 +7,7 @@
     flake-compat = { url = "github:edolstra/flake-compat"; flake = false; };
   };
 
-  outputs = { self, nixpkgs, flake-utils, ... }:
-    {
+  outputs = { self, nixpkgs, flake-utils, ... }: {
       overlays.default = import ./overlay.nix;
     } // (flake-utils.lib.eachDefaultSystem (system:
     let
@@ -17,15 +16,7 @@
         overlays = [ self.overlays.default ];
       };
 
-      # another pkgs import which does include the overlay
-      # This is used to be able to call update-vim-plugins, when
-      # the 'packages' set is currently broken
-      # TODO: there has to be a better way to do this
-      orig-pkgs = import nixpkgs {
-        inherit system;
-      };
-
-      update-vim-plugins = orig-pkgs.callPackage ./pkgs/update-vim-plugins.nix {};
+      update-vim-plugins = pkgs.callPackage ./pkgs/update-vim-plugins.nix {};
 
       check-missing-licenses = let
         hasLicense = pkg:
