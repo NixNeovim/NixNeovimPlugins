@@ -25,6 +25,10 @@ class VimPlugin:
         meta = f'with lib; {{ description = "{self.description}"; homepage = "{self.homepage}"; license = with licenses; [ {self.license.value} ]; }}'
         return f'{self.name} = buildVimPluginFrom2Nix {{ pname = "{self.name}"; version = "{self.version}"; src = {self.source.get_nix_expression()}; meta = {meta}; }};'
 
+    def __repr__(self):
+        """Return the representation of this plugin."""
+        return f"VimPlugin({self.name!r}, {self.version!r})"
+
 
 def _get_github_token():
     token = os.environ.get("GITHUB_TOKEN")
@@ -42,7 +46,7 @@ class GitHubPlugin(VimPlugin):
         repo_info = self._api_call(f"repos/{full_name}")
         self.description = repo_info.get("description") or self.description
         self.homepage = repo_info["html_url"]
-        self.license = License.from_spdx_id(repo_info.get("license", {}).get("spdx_id"))
+        self.license = License.from_spdx_id((repo_info.get("license") or {}).get("spdx_id"))
 
         default_branch = plugin_spec.branch or repo_info["default_branch"]
         latest_commit = self._api_call(f"repos/{full_name}/commits/{default_branch}")

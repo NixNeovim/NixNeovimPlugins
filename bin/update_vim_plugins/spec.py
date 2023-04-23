@@ -87,3 +87,13 @@ class PluginSpec:
     def to_spec(self):
         """Return a spec line for a VimPluginSpec."""
         return str(self)
+
+    def __eq__(self, o: "PluginSpec") -> bool:
+        """Return True if the two specs are equal."""
+        return (
+            self.repository_host == o.repository_host
+            and self.owner == o.owner
+            and self.repo == o.repo
+            and self.branch == o.branch
+            and self.name == o.name
+        )

@@ -8,6 +8,7 @@ def nix_prefetch_url(url):
     """Return the sha256 hash of the given url."""
     subprocess_output = subprocess.check_output(
         ["nix-prefetch-url", "--type", "sha256", url],
+        stderr=subprocess.DEVNULL,
     )
     sha256 = subprocess_output.decode("utf-8").strip()
     return sha256
@@ -15,7 +16,9 @@ def nix_prefetch_url(url):
 
 def nix_prefetch_git(url):
     """Return the sha256 hash of the given git url."""
-    subprocess_output = subprocess.check_output(["nix-prefetch-git", url])
+    subprocess_output = subprocess.check_output(
+        ["nix-prefetch-git", url], stderr=subprocess.DEVNULL
+    )
     sha256 = json.loads(subprocess_output)["sha256"]
     return sha256
 
