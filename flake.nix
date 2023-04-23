@@ -48,5 +48,9 @@
       inherit check-missing-licenses;
       inherit update-vim-plugins;
     };
+
+    devShells.default = pkgs.mkShell {
+      inherit (update-vim-plugins) buildInputs;
+    };
   }));
 }
