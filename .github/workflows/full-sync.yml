@@ -1,0 +1,14 @@
+name: Completely update the repository
+
+on:
+  workflow_dispatch:
+
+jobs:
+  fetch-plugins:
+    uses: NixNeovim/NixNeovimPlugins/.github/workflows/fetch-plugins@main
+  update-plugins:
+    needs: fetch-plugins
+    uses: NixNeovim/NixNeovimPlugins/.github/workflows/update-all-plugin@main
+  check-duplicates:
+    needs: update-plugins
+    uses: NixNeovim/NixNeovimPlugins/.github/workflows/check-duplicates@main
