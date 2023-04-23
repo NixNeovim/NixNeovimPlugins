@@ -1,5 +1,6 @@
 0styx0/abbreinder.nvim
 4e554c4c/darkman.nvim
+0styx0/abbreinder.nvimfail
 Abstract-IDE/penvim
 AckslD/messages.nvim
 AckslD/nvim-FeMaco.lua
