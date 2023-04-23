@@ -1,0 +1,30 @@
+name: Check for duplicates in vim-plugins.nix
+
+inputs:
+  token:
+    description: 'GITHUB_TOKEN'
+    required: false
+    default: '${{ github.token }}'
+  check_only:
+    description: 'Only check, and do not open an issue'
+    required: false
+    default: false
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Check duplicates
+      shell: bash
+      run: |
+        echo "$CHECK_ONLY"
+        if "$CHECK_ONLY"
+        then
+          echo "Checking only"
+          ./bin/check-duplicates.sh "check-only"
+        else
+          echo "Checking and create issues"
+          ./bin/check-duplicates.sh
+        fi
+      env:
+        GITHUB_TOKEN: ${{ inputs.token }}
+        CHECK_ONLY: ${{ inputs.check_only }}

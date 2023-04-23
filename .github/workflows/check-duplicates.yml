@@ -9,13 +9,11 @@ on:
 jobs:
   check-duplicates:
     runs-on: ubuntu-latest
-    name: Check if duplicates exists.
+    name: Check for duplicates
     steps:
       - uses: actions/checkout@v3
         with:
-          token: ${{ secrets.NIXPKGS_TOKEN }}
+          token: ${{ github.token }}
           ref: ${{ github.head_ref }}
-      - run: |
-          ./bin/check-duplicates.sh
-        env:
-          GITHUB_TOKEN: ${{ secrets.REPO_ACCESS }}
+      - name: Check duplicates
+        uses: NixNeovim/actionstesting/.github/actions/check-duplicates@refactor-actions
