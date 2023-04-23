@@ -11,9 +11,9 @@ runs:
     - name: Commit changes
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        commit_user_name: update-plugins-bot
+        commit_user_name: NixNeovimPlugins-CI
         commit_user_email: ""
-        commit_author: "NixNeovimPlugins CI"
+        commit_author: ""
         commit_message: 'CI: ${{ inputs.msg }} '
         file_pattern: pkgs/vim-plugins.nix .previous-update.json plugins.md
         push_options: '--force'
