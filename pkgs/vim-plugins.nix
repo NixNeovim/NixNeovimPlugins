@@ -305,6 +305,19 @@
       license = with licenses; [ mit ];
     };
   };
+  cmp-async-path = buildVimPluginFrom2Nix {
+    pname = "cmp-async-path"; # Manifest entry: "FelipeLema/cmp-async-path"
+    version = "2023-01-16";
+    src = fetchurl {
+      url = "https://github.com/FelipeLema/cmp-async-path/archive/d8229a93d7b71f22c66ca35ac9e6c6cd850ec61d.tar.gz";
+      sha256 = "1ljb4qq3l440191l7131ana4lyzk1xac2fq51ry1xipn877fpldx";
+    };
+    meta = with lib; {
+      description = "nvim-cmp source for path (async version)";
+      homepage = "https://github.com/FelipeLema/cmp-async-path";
+      license = with licenses; [ mit ];
+    };
+  };
   aquarium-vim = buildVimPluginFrom2Nix {
     pname = "aquarium-vim"; # Manifest entry: "FrenzyExists/aquarium-vim"
     version = "2023-02-12";
@@ -2788,6 +2801,18 @@
       license = with licenses; [ mit ];
     };
   };
+  NeoComposer-nvim = buildVimPluginFrom2Nix {
+    pname = "NeoComposer-nvim"; # Manifest entry: "ecthelionvi/NeoComposer.nvim"
+    version = "2023-04-22";
+    src = fetchurl {
+      url = "https://github.com/ecthelionvi/NeoComposer.nvim/archive/b32f2f10f314947ff81d43d71d658707fda900e4.tar.gz";
+      sha256 = "01gizplgvixradzlxyx2xpk45ppp98hm8bp15jrcac7gn51hm0f0";
+    };
+    meta = with lib; {
+      description = "Neovim plugin that simplifies macros, enhancing productivity with harmony";
+      homepage = "https://github.com/ecthelionvi/NeoComposer.nvim";
+    };
+  };
   specs-nvim = buildVimPluginFrom2Nix {
     pname = "specs-nvim"; # Manifest entry: "edluffy/specs.nvim"
     version = "2022-09-20";
@@ -5101,6 +5126,19 @@
       description = "Neovim plugin to stabilize window open/close events";
       homepage = "https://github.com/luukvbaal/stabilize.nvim";
       license = with licenses; [ bsd2 ];
+    };
+  };
+  statuscol-nvim = buildVimPluginFrom2Nix {
+    pname = "statuscol-nvim"; # Manifest entry: "luukvbaal/statuscol.nvim"
+    version = "2023-04-23";
+    src = fetchurl {
+      url = "https://github.com/luukvbaal/statuscol.nvim/archive/b115b5d7a4ea5d4b152d61d89457cc874e08a7d1.tar.gz";
+      sha256 = "0na77if18c5bwak9wwgs3cw9mb2kgclkxnqn9h2fwpxr5j377gkh";
+    };
+    meta = with lib; {
+      description = "Status column plugin that provides a configurable 'statuscolumn' and click handlers";
+      homepage = "https://github.com/luukvbaal/statuscol.nvim";
+      license = with licenses; [ mit ];
     };
   };
   attempt-nvim = buildVimPluginFrom2Nix {
@@ -9066,6 +9104,19 @@
     meta = with lib; {
       description = "Lua plugin to turn github copilot into a cmp source";
       homepage = "https://github.com/zbirenbaum/copilot-cmp";
+      license = with licenses; [ mit ];
+    };
+  };
+  copilot-lua = buildVimPluginFrom2Nix {
+    pname = "copilot-lua"; # Manifest entry: "zbirenbaum/copilot.lua"
+    version = "2023-04-19";
+    src = fetchurl {
+      url = "https://github.com/zbirenbaum/copilot.lua/archive/decc8d43bcd73a288fa689690c20faf0485da217.tar.gz";
+      sha256 = "03p84dcsrn8w49a9advkd1ps8jkn3i5w4m8cy7yvqys1bl1i6g8i";
+    };
+    meta = with lib; {
+      description = "Fully featured & enhanced replacement for copilot.vim complete with API for interacting with Github Copilot";
+      homepage = "https://github.com/zbirenbaum/copilot.lua";
       license = with licenses; [ mit ];
     };
   };

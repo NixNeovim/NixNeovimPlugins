@@ -24,6 +24,7 @@
 | [EthanJWright/vs-tasks.nvim](https://github.com/EthanJWright/vs-tasks.nvim) | 2023-02-06 | `vs-tasks-nvim` |
 | [Everblush/nvim](https://github.com/Everblush/nvim) | 2023-01-24 | `everblush` |
 | [FeiyouG/command_center.nvim](https://github.com/FeiyouG/command_center.nvim) | 2022-11-25 | `command-center-nvim` |
+| [FelipeLema/cmp-async-path](https://github.com/FelipeLema/cmp-async-path) | 2023-01-16 | `cmp-async-path` |
 | [FrenzyExists/aquarium-vim](https://github.com/FrenzyExists/aquarium-vim) | 2023-02-12 | `aquarium-vim` |
 | [Fymyte/rasi.vim](https://github.com/Fymyte/rasi.vim) | 2023-02-08 | `rasi-vim` |
 | [Iron-E/nvim-cartographer](https://github.com/Iron-E/nvim-cartographer) | 2022-04-18 | `nvim-cartographer` |
@@ -218,6 +219,7 @@
 | [dstein64/vim-startuptime](https://github.com/dstein64/vim-startuptime) | 2023-02-01 | `vim-startuptime` |
 | [echasnovski/mini.nvim](https://github.com/echasnovski/mini.nvim) | 2023-04-02 | `mini-nvim` |
 | [ecthelionvi/NeoColumn.nvim](https://github.com/ecthelionvi/NeoColumn.nvim) | 2023-04-05 | `NeoColumn-nvim` |
+| [ecthelionvi/NeoComposer.nvim](https://github.com/ecthelionvi/NeoComposer.nvim) | 2023-04-22 | `NeoComposer-nvim` |
 | [edluffy/specs.nvim](https://github.com/edluffy/specs.nvim) | 2022-09-20 | `specs-nvim` |
 | [edolphin-ydf/goimpl.nvim](https://github.com/edolphin-ydf/goimpl.nvim) | 2023-01-30 | `goimpl-nvim` |
 | [ekickx/clipboard-image.nvim](https://github.com/ekickx/clipboard-image.nvim) | 2022-11-10 | `clipboard-image-nvim` |
@@ -399,6 +401,7 @@
 | [lukas-reineke/lsp-format.nvim](https://github.com/lukas-reineke/lsp-format.nvim) | 2022-11-25 | `lsp-format-nvim` |
 | [luukvbaal/nnn.nvim](https://github.com/luukvbaal/nnn.nvim) | 2023-04-07 | `nnn-nvim` |
 | [luukvbaal/stabilize.nvim](https://github.com/luukvbaal/stabilize.nvim) | 2022-10-06 | `stabilize-nvim` |
+| [luukvbaal/statuscol.nvim](https://github.com/luukvbaal/statuscol.nvim) | 2023-04-23 | `statuscol-nvim` |
 | [m-demare/attempt.nvim](https://github.com/m-demare/attempt.nvim) | 2022-06-11 | `attempt-nvim` |
 | [m-demare/hlargs.nvim](https://github.com/m-demare/hlargs.nvim) | 2023-04-03 | `hlargs-nvim` |
 | [m00qek/baleia.nvim](https://github.com/m00qek/baleia.nvim) | 2023-03-28 | `baleia-nvim` |
@@ -709,6 +712,7 @@
 | [gitlab:yorickpeterse/nvim-pqf](https://gitlab.com/yorickpeterse/nvim-pqf) | 2022-10-23 | `nvim-pqf` |
 | [gitlab:yorickpeterse/nvim-window](https://gitlab.com/yorickpeterse/nvim-window) | 2022-03-23 | `nvim-window` |
 | [zbirenbaum/copilot-cmp](https://github.com/zbirenbaum/copilot-cmp) | 2023-04-06 | `copilot-cmp` |
+| [zbirenbaum/copilot.lua](https://github.com/zbirenbaum/copilot.lua) | 2023-04-19 | `copilot-lua` |
 | [zbirenbaum/neodim](https://github.com/zbirenbaum/neodim) | 2023-04-06 | `neodim` |
 | [zdcthomas/yop.nvim](https://github.com/zdcthomas/yop.nvim) | 2023-01-22 | `yop-nvim` |
 | [ziontee113/color-picker.nvim](https://github.com/ziontee113/color-picker.nvim) | 2023-04-02 | `color-picker-nvim` |
