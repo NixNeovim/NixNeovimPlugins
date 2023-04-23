@@ -5,10 +5,10 @@ on:
 
 jobs:
   fetch-plugins:
-    uses: NixNeovim/NixNeovimPlugins/.github/workflows/fetch-plugins@main
+    uses: NixNeovim/NixNeovimPlugins/.github/workflows/fetch-plugins.yml@main
   update-plugins:
     needs: fetch-plugins
-    uses: NixNeovim/NixNeovimPlugins/.github/workflows/update-all-plugin@main
+    uses: NixNeovim/NixNeovimPlugins/.github/workflows/update-all-plugin.yml@main
   check-duplicates:
     needs: update-plugins
-    uses: NixNeovim/NixNeovimPlugins/.github/workflows/check-duplicates@main
+    uses: NixNeovim/NixNeovimPlugins/.github/workflows/check-duplicates.yml@main
