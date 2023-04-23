@@ -1,0 +1,19 @@
+name: Commit changes to the repository
+
+inputs:
+  msg:
+    description: 'Specify the commit message. Will be prepended with: CI:'
+    required: true
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Commit changes
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_user_name: update-plugins-bot
+        commit_user_email: ""
+        commit_author: ""
+        commit_message: 'CI: ${{ inputs.msg }} '
+        file_pattern: pkgs/vim-plugins.nix .previous-update.json plugins.md
+        push_options: '--force'
