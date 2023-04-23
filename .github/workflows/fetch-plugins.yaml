@@ -32,7 +32,7 @@ jobs:
           git clone https://github.com/m15a/nixpkgs-vim-extra-plugins.git other
           cat other/manifest.txt >> manifest.txt
       - name: Clean up manifest.txt
-        uses: NixNeovim/actionstesting/.github/actions/cleanup@refactor-actions
+        uses: NixNeovim/NixNeovimPlugins/.github/actions/cleanup@refactor-actions
       - name: Generate derivations for new plugins
         run: |
           nix run .#update-vim-plugins -- lint
@@ -41,8 +41,8 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
           SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}
       - name: Check duplicates
-        uses: NixNeovim/actionstesting/.github/actions/check-duplicates@refactor-actions
+        uses: NixNeovim/NixNeovimPlugins/.github/actions/check-duplicates@refactor-actions
       - name: Commit changes
-        uses: NixNeovim/actionstesting/.github/actions/ci-commit@refactor-actions
+        uses: NixNeovim/NixNeovimPlugins/.github/actions/ci-commit@refactor-actions
         with:
           msg: 'Update plugin list'

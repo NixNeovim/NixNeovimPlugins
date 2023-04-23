@@ -25,8 +25,8 @@ jobs:
       #     GITHUB_TOKEN: ${{ github.token }}
       #     SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}
       - name: Check duplicates
-        uses: NixNeovim/actionstesting/.github/actions/check-duplicates@refactor-actions
+        uses: NixNeovim/NixNeovimPlugins/.github/actions/check-duplicates@refactor-actions
       - name: Commit changes
-        uses: NixNeovim/actionstesting/.github/actions/ci-commit@refactor-actions
+        uses: NixNeovim/NixNeovimPlugins/.github/actions/ci-commit@refactor-actions
         with:
           msg: 'Update plugins'
