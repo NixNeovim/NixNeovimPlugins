@@ -21,10 +21,10 @@ jobs:
       - name: Reset vim-plugins.nix # TODO: workaround: if vim-plugins is broken, all 'nix run' actions will fail
         run: |
           echo "{ ...} : {}" > ./pkgs/vim-plugins.nix
-      # - run: nix run .#update-vim-plugins -- update --all
-      #   env:
-      #     GITHUB_TOKEN: ${{ github.token }}
-      #     SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}
+      - run: nix run .#update-vim-plugins -- update --all
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}
       - name: Check duplicates
         uses: NixNeovim/NixNeovimPlugins/.github/actions/check-duplicates@main
       - name: Commit changes
