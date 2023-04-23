@@ -18,6 +18,6 @@ jobs:
           token: ${{ github.token }}
           ref: ${{ github.head_ref }}
       - name: Check duplicates
-        uses: NixNeovim/NixNeovimPlugins/.github/actions/check-duplicates@refactor-actions
+        uses: NixNeovim/NixNeovimPlugins/.github/actions/check-duplicates@main
         with:
           check_only: true

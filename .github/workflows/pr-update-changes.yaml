@@ -29,6 +29,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.NIXPKGS_TOKEN }}
           SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}
       - name: Commit changes
-        uses: NixNeovim/NixNeovimPlugins/.github/actions/ci-commit@refactor-actions
+        uses: NixNeovim/NixNeovimPlugins/.github/actions/ci-commit@main
         with:
           msg: 'Update plugins'
