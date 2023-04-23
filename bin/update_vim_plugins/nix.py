@@ -23,9 +23,20 @@ def nix_prefetch_git(url):
 class Source(abc.ABC):
     """Abstract base class for sources."""
 
+    url: str
+    sha256: str
+
+    @abc.abstractmethod
+    def __init__(self, url: str) -> None:
+        """Initialize a Source."""
+
     @abc.abstractmethod
     def get_nix_expression(self):
         """Return the nix expression for this source."""
+
+    def __repr__(self):
+        """Return the representation of this source."""
+        return self.get_nix_expression()
 
 
 class UrlSource(Source):
@@ -38,10 +49,7 @@ class UrlSource(Source):
 
     def get_nix_expression(self):
         """Return the nix expression for this source."""
-        return f"""fetchurl {{
-  url = \"{self.url}\";
-  sha256 = \"{self.sha256}\";
-}}"""
+        return f'fetchurl {{ url = "{self.url}"; sha256 = "{self.sha256}"; }}'
 
 
 class GitSource(Source):
@@ -55,11 +63,7 @@ class GitSource(Source):
 
     def get_nix_expression(self):
         """Return the nix expression for this source."""
-        return f"""fetchgit {{
-  url = \"{self.url}\";
-  rev = \"{self.rev}\";
-  sha256 = \"{self.sha256}\";
-}}"""
+        return f'fetchgit {{ url = "{self.url}"; rev = "{self.rev}"; sha256 = "{self.sha256}"; }}'
 
 
 class License(enum.Enum):
@@ -82,7 +86,7 @@ class License(enum.Enum):
     UNFREE = "unfree"
 
     @classmethod
-    def from_github(cls, spdx_id: str):
+    def from_spdx_id(cls, spdx_id: str):
         """Return the License from the given spdx_id."""
         mapping = {
             "AGPL-3.0": cls.AGPL_3_0,
@@ -103,4 +107,7 @@ class License(enum.Enum):
             "Unlicense": cls.UNLUNLICENSE,
             "WTFPL": cls.WTFPL,
         }
+
+        if spdx_id is not None:
+            spdx_id = spdx_id.upper()
         return mapping.get(spdx_id, cls.UNFREE)

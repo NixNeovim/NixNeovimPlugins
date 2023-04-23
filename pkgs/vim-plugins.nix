@@ -8420,19 +8420,6 @@
       license = with licenses; [ mit ];
     };
   };
-  bookmarks-nvim = buildVimPluginFrom2Nix {
-    pname = "bookmarks-nvim"; # Manifest entry: "tomasky/bookmarks.nvim"
-    version = "2023-04-14";
-    src = fetchurl {
-      url = "https://github.com/tomasky/bookmarks.nvim/archive/5fe06a9190d17141195f67a3fc098f668721b1f2.tar.gz";
-      sha256 = "0nw7s0w6mnyha0pakrdizl3c2kakxsdph77wj8vx0hcls4f5y7kp";
-    };
-    meta = with lib; {
-      description = "A Bookmarks Plugin With Global File Store  For Neovim Written In Lua";
-      homepage = "https://github.com/tomasky/bookmarks.nvim";
-      license = with licenses; [ mit ];
-    };
-  };
   bookmarks-tomasky = buildVimPluginFrom2Nix {
     pname = "bookmarks-tomasky"; # Manifest entry: "tomasky/bookmarks.nvim::bookmarks-tomasky"
     version = "2023-04-14";

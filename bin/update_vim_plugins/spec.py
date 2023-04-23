@@ -16,25 +16,25 @@ class PluginSpec:
     @classmethod
     def from_spec(cls, spec):
         """The spec line must be in the format:
-            [<repository_host>:]<owner>/<repo>[:<gitref>][:name].
+            [<repository_host>:]<owner>/<repo>[:<branch>][:name].
 
         repository_host is one of github (default), gitlab, or sourcehut.
         owner is the repository owner.
         repo is the repository name.
-        gitref is the git reference.
+        branch is the git branch.
         name is the name to use for the plugin (default is value of repo).
         """
         repository_host = RepositoryHost.GITHUB
         gitref = "master"
 
-        repository_host_regex = r"((?P<repository_host>[^:]+):)?"
+        repository_host_regex = r"((?P<repository_host>[^:]+):)"
         owner_regex = r"(?P<owner>[^/:]+)"
         repo_regex = r"(?P<repo>[^:]+)"
-        gitref_regex = r"(:(?P<gitref>[^:]+)?)?"
-        name_regex = r"(:(?P<name>[^:]+))?"
+        branch_regex = r"(:(?P<branch>[^:]+)?)"
+        name_regex = r"(:(?P<name>[^:]+))"
 
         spec_regex = re.compile(
-            f"^{repository_host_regex}{owner_regex}/{repo_regex}{gitref_regex}{name_regex}$",
+            f"^{repository_host_regex}?{owner_regex}/{repo_regex}{branch_regex}?{name_regex}?$",
         )
 
         match = spec_regex.match(spec)
@@ -46,27 +46,24 @@ class PluginSpec:
         repository_host = RepositoryHost(group_dict.get("repository_host") or "github")
         owner = group_dict.get("owner")
         repo = group_dict.get("repo")
-        gitref = group_dict.get("gitref")
+        branch = group_dict.get("branch")
         name = group_dict.get("name")
 
-        if owner is None or repo is None:
-            raise ValueError(f"Invalid owner or repo in spec: {spec}")
-
-        return cls(repository_host, owner, repo, gitref, name)
+        return cls(repository_host, owner, repo, branch, name)
 
     def __init__(
         self,
         repository_host: RepositoryHost,
         owner: str,
         repo: str,
-        gitref: str | None = None,
+        branch: str | None = None,
         name: str | None = None,
     ) -> None:
         """Initialize a VimPluginSpec."""
         self.repository_host = repository_host
         self.owner = owner
         self.repo = repo
-        self.gitref = gitref
+        self.branch = branch
         self.name = name or repo.replace(".", "-")
 
     def __str__(self) -> str:
@@ -78,11 +75,11 @@ class PluginSpec:
 
         spec += f"{self.owner}/{self.repo}"
 
-        if self.gitref != "master" and self.name != self.repo:
-            spec += f":{self.gitref}:{self.name}"
-        elif self.gitref != "master" and self.name == self.repo:
-            spec += f":{self.gitref}"
-        elif self.gitref == "master" and self.name != self.repo:
+        if self.branch != "master" and self.name != self.repo:
+            spec += f":{self.branch}:{self.name}"
+        elif self.branch != "master" and self.name == self.repo:
+            spec += f":{self.branch}"
+        elif self.branch == "master" and self.name != self.repo:
             spec += f"::{self.name}"
 
         return spec

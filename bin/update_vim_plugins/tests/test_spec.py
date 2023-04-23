@@ -33,7 +33,7 @@ def test_from_spec_simple(owner, repo):
 def test_from_spec_with_gitref(owner, repo, gitref):
     vim_plugin = PluginSpec.from_spec(f"{owner}/{repo}:{gitref}")
 
-    assert vim_plugin.gitref == gitref
+    assert vim_plugin.branch == gitref
 
 
 def test_from_spec_with_name(owner, repo, name):
@@ -61,7 +61,7 @@ def test_from_spec_complex(owner, repo, gitref, name):
     assert vim_plugin.repository_host == RepositoryHost.GITLAB
     assert vim_plugin.owner == owner
     assert vim_plugin.repo == repo
-    assert vim_plugin.gitref == gitref
+    assert vim_plugin.branch == gitref
     assert vim_plugin.name == name
 
 
