@@ -76,8 +76,8 @@ Supported are Github (default), SourceHut, and GitLab.
 
 #### 2. Create a Pull Request
 
-- Create a pull request with all your changed files.
-- A GitHub action will check your contribution and generate all neccessary nix code for your new plugin.
+- Create a pull request with the changed manifest.txt (and blacklist.txt if neccessary).
+- A GitHub action will check your contribution and generate all neccessary nix code for your new plugin. It will also take care of sorting and cleaning the manifest.txt
 - After all checks have passed, I will merge your change.
 
 I am happy for any contribution. :)
