@@ -16,9 +16,7 @@ def nix_prefetch_url(url):
 
 def nix_prefetch_git(url):
     """Return the sha256 hash of the given git url."""
-    subprocess_output = subprocess.check_output(
-        ["nix-prefetch-git", url], stderr=subprocess.DEVNULL
-    )
+    subprocess_output = subprocess.check_output(["nix-prefetch-git", url], stderr=subprocess.DEVNULL)
     sha256 = json.loads(subprocess_output)["sha256"]
     return sha256
 
@@ -87,9 +85,10 @@ class License(enum.Enum):
     UNLUNLICENSE = "unlicense"
     WTFPL = "wtfpl"
     UNFREE = "unfree"
+    UNKNOWN = ""
 
     @classmethod
-    def from_spdx_id(cls, spdx_id: str):
+    def from_spdx_id(cls, spdx_id: str | None) -> "License":
         """Return the License from the given spdx_id."""
         mapping = {
             "AGPL-3.0": cls.AGPL_3_0,
@@ -111,6 +110,12 @@ class License(enum.Enum):
             "WTFPL": cls.WTFPL,
         }
 
-        if spdx_id is not None:
-            spdx_id = spdx_id.upper()
-        return mapping.get(spdx_id, cls.UNFREE)
+        if spdx_id is None:
+            return cls.UNKNOWN
+
+        spdx_id = spdx_id.upper()
+        return mapping.get(spdx_id, cls.UNKNOWN)
+
+    def __str__(self):
+        """Return the string representation of this license."""
+        return self.value

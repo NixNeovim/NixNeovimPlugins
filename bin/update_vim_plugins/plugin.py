@@ -1,10 +1,10 @@
 import logging
 import os
 import urllib
-import json
 
 import requests
-from update_vim_plugins.nix import License, Source, UrlSource, GitSource
+
+from update_vim_plugins.nix import GitSource, License, Source, UrlSource
 from update_vim_plugins.spec import PluginSpec, RepositoryHost
 
 logger = logging.getLogger(__name__)
@@ -18,7 +18,7 @@ class VimPlugin:
     source: Source
     description: str = "No description"
     homepage: str
-    license: License = License.UNFREE
+    license: License
 
     def get_nix_expression(self):
         """Return the nix expression for this plugin."""
@@ -40,20 +40,19 @@ def _get_github_token():
 class GitHubPlugin(VimPlugin):
     def __init__(self, plugin_spec: PluginSpec) -> None:
         """Initialize a GitHubPlugin."""
-        self.name = plugin_spec.name
 
         full_name = f"{plugin_spec.owner}/{plugin_spec.repo}"
         repo_info = self._api_call(f"repos/{full_name}")
-        self.description = repo_info.get("description") or self.description
-        self.homepage = repo_info["html_url"]
-        self.license = License.from_spdx_id((repo_info.get("license") or {}).get("spdx_id"))
-
         default_branch = plugin_spec.branch or repo_info["default_branch"]
         latest_commit = self._api_call(f"repos/{full_name}/commits/{default_branch}")
-        self.version = latest_commit["commit"]["committer"]["date"].split("T")[0]
-
         sha = latest_commit["sha"]
+
+        self.name = plugin_spec.name
+        self.version = latest_commit["commit"]["committer"]["date"].split("T")[0]
         self.source = UrlSource(f"https://github.com/{full_name}/archive/{sha}.tar.gz")
+        self.description = repo_info.get("description") or self.description
+        self.homepage = repo_info["html_url"]
+        self.license = plugin_spec.license or License.from_spdx_id((repo_info.get("license") or {}).get("spdx_id"))
 
     def _api_call(self, path: str, token: str | None = _get_github_token()):
         """Call the GitHub API."""
@@ -70,25 +69,19 @@ class GitHubPlugin(VimPlugin):
 class GitlabPlugin(VimPlugin):
     def __init__(self, plugin_spec: PluginSpec) -> None:
         """Initialize a GitlabPlugin."""
-        self.name = plugin_spec.name
 
-        full_name = urllib.parse.quote(
-            f"{plugin_spec.owner}/{plugin_spec.repo}", safe=""
-        )
+        full_name = urllib.parse.quote(f"{plugin_spec.owner}/{plugin_spec.repo}", safe="")
         repo_info = self._api_call(f"projects/{full_name}")
+        default_branch = plugin_spec.branch or repo_info["default_branch"]
+        latest_commit = self._api_call(f"projects/{full_name}/repository/branches/{default_branch}")
+        sha = latest_commit["commit"]["id"]
+
+        self.name = plugin_spec.name
+        self.version = latest_commit["commit"]["committed_date"].split("T")[0]
+        self.source = UrlSource(f"https://gitlab.com/api/v4/projects/{full_name}/repository/archive.tar.gz?sha={sha}")
         self.description = repo_info.get("description") or self.description
         self.homepage = repo_info["web_url"]
-        self.license = License.from_spdx_id(repo_info.get("license", {}).get("key"))
-
-        default_branch = plugin_spec.branch or repo_info["default_branch"]
-        latest_commit = self._api_call(
-            f"projects/{full_name}/repository/branches/{default_branch}"
-        )
-        sha = latest_commit["commit"]["id"]
-        self.version = latest_commit["commit"]["committed_date"].split("T")[0]
-        self.source = UrlSource(
-            f"https://gitlab.com/api/v4/projects/{full_name}/repository/archive.tar.gz?sha={sha}"
-        )
+        self.license = plugin_spec.license or License.from_spdx_id(repo_info.get("license", {}).get("key"))
 
     def _api_call(self, path: str) -> dict:
         """Call the Gitlab API."""
@@ -109,28 +102,21 @@ def _get_sourcehut_token():
 class SourceHutPlugin(VimPlugin):
     def __init__(self, plugin_spec: PluginSpec) -> None:
         """Initialize a SourceHutPlugin."""
-        self.name = plugin_spec.name
 
         repo_info = self._api_call(f"~{plugin_spec.owner}/repos/{plugin_spec.repo}")
-        print(json.dumps(repo_info, indent=2))
-        self.description = repo_info.get("description") or self.description
-        self.homepage = f"https://git.sr.ht/~{plugin_spec.owner}/{plugin_spec.repo}"
-        self.license = License.UNFREE  # cannot be determined via API
-
         if plugin_spec.branch is None:
-            commits = self._api_call(
-                f"~{plugin_spec.owner}/repos/{plugin_spec.repo}/log"
-            )
+            commits = self._api_call(f"~{plugin_spec.owner}/repos/{plugin_spec.repo}/log")
         else:
-            commits = self._api_call(
-                f"~{plugin_spec.owner}/repos/{plugin_spec.repo}/log/{plugin_spec.branch}"
-            )
+            commits = self._api_call(f"~{plugin_spec.owner}/repos/{plugin_spec.repo}/log/{plugin_spec.branch}")
         latest_commit = commits["results"][0]
-        print(json.dumps(latest_commit, indent=2))
-        self.version = latest_commit["timestamp"].split("T")[0]
         sha = latest_commit["id"]
 
+        self.name = plugin_spec.name
+        self.version = latest_commit["timestamp"].split("T")[0]
+        self.description = repo_info.get("description") or self.description
+        self.homepage = f"https://git.sr.ht/~{plugin_spec.owner}/{plugin_spec.repo}"
         self.source = GitSource(self.homepage, sha)
+        self.license = plugin_spec.license or License.UNKNOWN  # cannot be determined via API
 
     def _api_call(self, path: str, token: str | None = _get_sourcehut_token()):
         """Call the SourceHut API."""
@@ -144,7 +130,7 @@ class SourceHutPlugin(VimPlugin):
         return response.json()
 
 
-def plugin_from_spec(plugin_spec: PluginSpec) -> None:
+def plugin_from_spec(plugin_spec: PluginSpec) -> VimPlugin:
     """Initialize a VimPlugin."""
     if plugin_spec.repository_host == RepositoryHost.GITHUB:
         return GitHubPlugin(plugin_spec)

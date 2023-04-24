@@ -1,9 +1,11 @@
-from cleo.commands.command import Command
-from cleo.application import Application
-from cleo.helpers import argument, option
-from .spec import PluginSpec
-from .plugin import plugin_from_spec
 import subprocess
+
+from cleo.application import Application
+from cleo.commands.command import Command
+from cleo.helpers import argument, option
+
+from .plugin import plugin_from_spec
+from .spec import PluginSpec
 
 
 class UpdateCommand(Command):
@@ -45,7 +47,7 @@ class UpdateCommand(Command):
                 self.line(f"<info>Processing</info> {plugin!r}")
                 file.write(f"{plugin.get_nix_expression()}\n")
             file.write(footer)
-        
+
         self.line(f"<info>Formatting</info> {output_file!r}")
         subprocess.run(
             ["alejandra", output_file],

@@ -1,6 +1,8 @@
 import enum
 import re
 
+from update_vim_plugins.nix import License
+
 
 class RepositoryHost(enum.Enum):
     """A repository host."""
@@ -32,9 +34,10 @@ class PluginSpec:
         repo_regex = r"(?P<repo>[^:]+)"
         branch_regex = r"(:(?P<branch>[^:]+)?)"
         name_regex = r"(:(?P<name>[^:]+))"
+        license_regex = r"(:(?P<license>[^:]+))"
 
         spec_regex = re.compile(
-            f"^{repository_host_regex}?{owner_regex}/{repo_regex}{branch_regex}?{name_regex}?$",
+            f"^{repository_host_regex}?{owner_regex}/{repo_regex}{branch_regex}?{name_regex}?{license_regex}?$",
         )
 
         match = spec_regex.match(spec)
@@ -48,8 +51,9 @@ class PluginSpec:
         repo = group_dict.get("repo")
         branch = group_dict.get("branch")
         name = group_dict.get("name")
+        license = group_dict.get("license")
 
-        return cls(repository_host, owner, repo, branch, name)
+        return cls(repository_host, owner, repo, branch, name, license)
 
     def __init__(
         self,
@@ -58,13 +62,16 @@ class PluginSpec:
         repo: str,
         branch: str | None = None,
         name: str | None = None,
+        license: str | None = None,
     ) -> None:
         """Initialize a VimPluginSpec."""
         self.repository_host = repository_host
         self.owner = owner
         self.repo = repo
         self.branch = branch
+        self._name = name
         self.name = name or repo.replace(".", "-")
+        self.license = License(license) if license else None
 
     def __str__(self) -> str:
         """Return a string representation of a VimPluginSpec."""
@@ -75,21 +82,29 @@ class PluginSpec:
 
         spec += f"{self.owner}/{self.repo}"
 
-        if self.branch != "master" and self.name != self.repo:
-            spec += f":{self.branch}:{self.name}"
-        elif self.branch != "master" and self.name == self.repo:
-            spec += f":{self.branch}"
-        elif self.branch == "master" and self.name != self.repo:
-            spec += f"::{self.name}"
+        spec += ":"
+        if self.branch is not None:
+            spec += self.branch
 
-        return spec
+        spec += ":"
+        if self._name is not None:
+            spec += self._name
+
+        spec += ":"
+        if self.license is not None:
+            spec += str(self.license)
+
+        return spec.rstrip(":")
 
     def to_spec(self):
         """Return a spec line for a VimPluginSpec."""
         return str(self)
 
-    def __eq__(self, o: "PluginSpec") -> bool:
+    def __eq__(self, o: object) -> bool:
         """Return True if the two specs are equal."""
+        if not isinstance(o, PluginSpec):
+            return False
+
         return (
             self.repository_host == o.repository_host
             and self.owner == o.owner
