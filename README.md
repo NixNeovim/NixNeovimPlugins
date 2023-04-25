@@ -37,7 +37,7 @@ nixpkgs.overlays = [
 
 ```
 
-Finally, you can add the packages to your vim/neovim config. For example you can use [nixvim](https://github.com/jooooscha/nixvim) or you can add the plugins directly:
+Finally, you can add the packages to your vim/neovim config. For example you can use [NixNeovim](https://github.com/NixNeovim/Nixneovim) or you can add the plugins directly:
 
 ```
  programs.neovim = {
