@@ -681,6 +681,7 @@ wbthomason/packer.nvim
 weilbith/nvim-code-action-menu
 sourcehut:whynothugo/lsp_lines.nvim
 williamboman/mason.nvim
+williamboman/mason-lspconfig.nvim
 williamboman/nvim-lsp-installer
 willothy/moveline.nvim
 willothy/veil.nvim
