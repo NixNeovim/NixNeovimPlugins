@@ -1200,6 +1200,19 @@
       license = with licenses; [ mit ];
     };
   };
+  lsp-zero-nvim = buildVimPluginFrom2Nix {
+    pname = "lsp-zero-nvim"; # Manifest entry: "VonHeikemen/lsp-zero.nvim"
+    version = "2023-04-26";
+    src = fetchurl {
+      url = "https://github.com/VonHeikemen/lsp-zero.nvim/archive/318ba1708e9134c4a4bfa7019756911b1a18cbf4.tar.gz";
+      sha256 = "0krhwji6v67a75a614wayy90maladg0bxyg9xpi2p6rh26hfxa2x";
+    };
+    meta = with lib; {
+      description = "A starting point to setup some lsp related features in neovim";
+      homepage = "https://github.com/VonHeikemen/lsp-zero.nvim";
+      license = with licenses; [ mit ];
+    };
+  };
   binary-swap-nvim = buildVimPluginFrom2Nix {
     pname = "binary-swap-nvim"; # Manifest entry: "Wansmer/binary-swap.nvim"
     version = "2023-03-24";
@@ -2799,18 +2812,6 @@
       description = "Neovim plugin that highlights individual characters with a toggleable ColorColumn";
       homepage = "https://github.com/ecthelionvi/NeoColumn.nvim";
       license = with licenses; [ mit ];
-    };
-  };
-  NeoComposer-nvim = buildVimPluginFrom2Nix {
-    pname = "NeoComposer-nvim"; # Manifest entry: "ecthelionvi/NeoComposer.nvim"
-    version = "2023-04-22";
-    src = fetchurl {
-      url = "https://github.com/ecthelionvi/NeoComposer.nvim/archive/b32f2f10f314947ff81d43d71d658707fda900e4.tar.gz";
-      sha256 = "01gizplgvixradzlxyx2xpk45ppp98hm8bp15jrcac7gn51hm0f0";
-    };
-    meta = with lib; {
-      description = "Neovim plugin that simplifies macros, enhancing productivity with harmony";
-      homepage = "https://github.com/ecthelionvi/NeoComposer.nvim";
     };
   };
   specs-nvim = buildVimPluginFrom2Nix {
@@ -5126,19 +5127,6 @@
       description = "Neovim plugin to stabilize window open/close events";
       homepage = "https://github.com/luukvbaal/stabilize.nvim";
       license = with licenses; [ bsd2 ];
-    };
-  };
-  statuscol-nvim = buildVimPluginFrom2Nix {
-    pname = "statuscol-nvim"; # Manifest entry: "luukvbaal/statuscol.nvim"
-    version = "2023-04-23";
-    src = fetchurl {
-      url = "https://github.com/luukvbaal/statuscol.nvim/archive/b115b5d7a4ea5d4b152d61d89457cc874e08a7d1.tar.gz";
-      sha256 = "0na77if18c5bwak9wwgs3cw9mb2kgclkxnqn9h2fwpxr5j377gkh";
-    };
-    meta = with lib; {
-      description = "Status column plugin that provides a configurable 'statuscolumn' and click handlers";
-      homepage = "https://github.com/luukvbaal/statuscol.nvim";
-      license = with licenses; [ mit ];
     };
   };
   attempt-nvim = buildVimPluginFrom2Nix {
