@@ -92,6 +92,7 @@ ThePrimeagen/vim-apm
 ThePrimeagen/vim-be-good
 TimUntersberger/neofs
 TimUntersberger/neogit
+VonHeikemen/lsp-zero.nvim
 Wansmer/binary-swap.nvim
 Wansmer/langmapper.nvim
 Wansmer/sibling-swap.nvim
