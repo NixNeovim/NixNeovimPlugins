@@ -94,6 +94,7 @@
 | [ThePrimeagen/vim-be-good](https://github.com/ThePrimeagen/vim-be-good) | 2022-11-08 | `vim-be-good` |
 | [TimUntersberger/neofs](https://github.com/TimUntersberger/neofs) | 2022-08-10 | `neofs` |
 | [TimUntersberger/neogit](https://github.com/TimUntersberger/neogit) | 2023-03-20 | `neogit` |
+| [VonHeikemen/lsp-zero.nvim](https://github.com/VonHeikemen/lsp-zero.nvim) | 2023-04-26 | `lsp-zero-nvim` |
 | [Wansmer/binary-swap.nvim](https://github.com/Wansmer/binary-swap.nvim) | 2023-03-24 | `binary-swap-nvim` |
 | [Wansmer/langmapper.nvim](https://github.com/Wansmer/langmapper.nvim) | 2023-03-26 | `langmapper-nvim` |
 | [Wansmer/sibling-swap.nvim](https://github.com/Wansmer/sibling-swap.nvim) | 2023-04-06 | `sibling-swap-nvim` |
@@ -219,7 +220,6 @@
 | [dstein64/vim-startuptime](https://github.com/dstein64/vim-startuptime) | 2023-02-01 | `vim-startuptime` |
 | [echasnovski/mini.nvim](https://github.com/echasnovski/mini.nvim) | 2023-04-02 | `mini-nvim` |
 | [ecthelionvi/NeoColumn.nvim](https://github.com/ecthelionvi/NeoColumn.nvim) | 2023-04-05 | `NeoColumn-nvim` |
-| [ecthelionvi/NeoComposer.nvim](https://github.com/ecthelionvi/NeoComposer.nvim) | 2023-04-22 | `NeoComposer-nvim` |
 | [edluffy/specs.nvim](https://github.com/edluffy/specs.nvim) | 2022-09-20 | `specs-nvim` |
 | [edolphin-ydf/goimpl.nvim](https://github.com/edolphin-ydf/goimpl.nvim) | 2023-01-30 | `goimpl-nvim` |
 | [ekickx/clipboard-image.nvim](https://github.com/ekickx/clipboard-image.nvim) | 2022-11-10 | `clipboard-image-nvim` |
@@ -401,7 +401,6 @@
 | [lukas-reineke/lsp-format.nvim](https://github.com/lukas-reineke/lsp-format.nvim) | 2022-11-25 | `lsp-format-nvim` |
 | [luukvbaal/nnn.nvim](https://github.com/luukvbaal/nnn.nvim) | 2023-04-07 | `nnn-nvim` |
 | [luukvbaal/stabilize.nvim](https://github.com/luukvbaal/stabilize.nvim) | 2022-10-06 | `stabilize-nvim` |
-| [luukvbaal/statuscol.nvim](https://github.com/luukvbaal/statuscol.nvim) | 2023-04-23 | `statuscol-nvim` |
 | [m-demare/attempt.nvim](https://github.com/m-demare/attempt.nvim) | 2022-06-11 | `attempt-nvim` |
 | [m-demare/hlargs.nvim](https://github.com/m-demare/hlargs.nvim) | 2023-04-03 | `hlargs-nvim` |
 | [m00qek/baleia.nvim](https://github.com/m00qek/baleia.nvim) | 2023-03-28 | `baleia-nvim` |
