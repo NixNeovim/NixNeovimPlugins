@@ -1,3 +1,4 @@
+saadparwaiz1/cmp_luasnip
 0styx0/abbreinder.nvim
 4e554c4c/darkman.nvim
 Abstract-IDE/penvim
