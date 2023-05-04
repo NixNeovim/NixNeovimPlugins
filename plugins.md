@@ -484,6 +484,7 @@
 | [nvim-neo-tree/neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) | 2023-04-23 | `neo-tree-nvim` |
 | [nvim-neorg/neorg](https://github.com/nvim-neorg/neorg) | 2023-05-02 | `neorg` |
 | [nvim-neorocks/luarocks-tag-release](https://github.com/nvim-neorocks/luarocks-tag-release) | 2023-05-02 | `luarocks-tag-release` |
+| [williamboman/mason.nvim](https://github.com/williamboman/mason.nvim) | 2023-05-04 | `mason-nvim` |
 | [sourcehut:whynothugo/lsp_lines.nvim](https://sr.ht/~whynothugo/lsp_lines.nvim/) | 2023-05-03 | `lsp-lines-nvim` |
 | [gitlab:yorickpeterse/nvim-pqf](https://gitlab.com/yorickpeterse/nvim-pqf) | 2022-10-23 | `nvim-pqf` |
 | [gitlab:yorickpeterse/nvim-window](https://gitlab.com/yorickpeterse/nvim-window) | 2022-03-23 | `nvim-window` |
