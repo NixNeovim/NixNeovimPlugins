@@ -22,5 +22,6 @@ runs:
       run: |
         nix run .#update-vim-plugins -- lint
     - name: Restore vim-plugins.nix
+      shell: bash
       run: |
         mv ./pkgs/vim-plugins.nix.bak ./pkgs/vim-plugins.nix
