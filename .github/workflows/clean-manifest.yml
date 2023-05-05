@@ -20,4 +20,4 @@ jobs:
       - name: Commit changes
         uses: NixNeovim/NixNeovimPlugins/.github/actions/ci-commit@main
         with:
-          msg: 'Update plugins'
+          msg: 'Clean up Manifest'
