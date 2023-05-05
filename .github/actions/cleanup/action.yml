@@ -14,6 +14,7 @@ runs:
       with:
         github_access_token: ${{ github.token }}
     - name: Backup vim-plugins.nix # TODO: workaround: if vim-plugins is broken, all 'nix run' actions will fail
+      shell: bash
       run: |
         mv ./pkgs/vim-plugins.nix ./pkgs/vim-plugins.nix.bak
         echo "{ ...} : {}" > ./pkgs/vim-plugins.nix
