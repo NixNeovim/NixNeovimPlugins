@@ -23,7 +23,7 @@ jobs:
           echo "{ ...} : {}" > ./pkgs/vim-plugins.nix
       - run: nix run .#update-vim-plugins -- update --all
         env:
-          GITHUB_TOKEN: ${{ secrets.NIXNEOVIM_REPO_ACCESS }}
+          GITHUB_TOKEN: ${{ github.token }}
           SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}
       - name: Check duplicates
         uses: NixNeovim/NixNeovimPlugins/.github/actions/check-duplicates@main
