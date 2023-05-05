@@ -634,7 +634,10 @@
                         (nix:write nixexpr)
                         (readme:write mditem)
                         (tset %cache.data spec {: nixexpr : mditem}))
-                      (io.stderr:write "error updating...\n"))) ;; else
+                      (do (io.stderr:write (string.format "%s: Error updating. skipping for now %s..." (program-name) spec))
+                        (nix:write (. %cache :data spec :nixexpr))
+                        (readme:write (. %cache :data spec :mditem))
+                        (io.stderr:write "used previous result\n"))))
                 (set %cache.changed? true)
                 (io.stderr:write "done\n"))
             (do (io.stderr:write (string.format "%s: skip %s..." (program-name) spec))
