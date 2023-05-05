@@ -10,3 +10,6 @@ runs:
         sort -o ./blacklist.txt ./blacklist.txt
         # remove all files that are in my blacklist
         echo "$(comm -23 ./manifest.txt ./blacklist.txt)" > ./manifest.txt
+    - name: Generate derivations for new plugins
+      run: |
+        nix run .#update-vim-plugins -- lint
