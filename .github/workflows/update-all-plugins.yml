@@ -21,10 +21,22 @@ jobs:
       - name: Reset vim-plugins.nix # TODO: workaround: if vim-plugins is broken, all 'nix run' actions will fail
         run: |
           echo "{ ...} : {}" > ./pkgs/vim-plugins.nix
+
+      # Sometimes, the workflow runs into rate limits for GitHub API calls, and the last entries will not be updated.
+      # Therefore, we shuffle the entries to create a fair chance for every plugin to be updated
+      - name: Shuffle manifest
+        run: |
+           echo "$(cat manifest.txt | shuf)" > manifest.txt
+
       - run: nix run .#update-vim-plugins -- update --all
         env:
           GITHUB_TOKEN: ${{ github.token }}
           SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}
+
+      # Because we shuffle the manifest, we need to sort if back here
+      - name: Sort manifest
+        run: |
+          nix run .#update-vim-plugins -- lint
       - name: Check duplicates
         uses: NixNeovim/NixNeovimPlugins/.github/actions/check-duplicates@main
       - name: Commit changes
