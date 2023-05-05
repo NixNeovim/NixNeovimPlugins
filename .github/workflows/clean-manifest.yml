@@ -6,7 +6,7 @@ on:
 jobs:
   update-plugins:
     runs-on: ubuntu-latest
-    name: Update plugins
+    name: Clean up manifest
     steps:
       - uses: actions/checkout@v3
         with:
