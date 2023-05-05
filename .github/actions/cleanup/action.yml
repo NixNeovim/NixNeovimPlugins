@@ -14,5 +14,6 @@ runs:
       with:
         github_access_token: ${{ github.token }}
     - name: Generate derivations for new plugins
+      shell: bash
       run: |
         nix run .#update-vim-plugins -- lint
