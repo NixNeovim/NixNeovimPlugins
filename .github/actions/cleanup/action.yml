@@ -13,7 +13,14 @@ runs:
     - uses: cachix/install-nix-action@v20
       with:
         github_access_token: ${{ github.token }}
+    - name: Backup vim-plugins.nix # TODO: workaround: if vim-plugins is broken, all 'nix run' actions will fail
+      run: |
+        mv ./pkgs/vim-plugins.nix ./pkgs/vim-plugins.nix.bak
+        echo "{ ...} : {}" > ./pkgs/vim-plugins.nix
     - name: Generate derivations for new plugins
       shell: bash
       run: |
         nix run .#update-vim-plugins -- lint
+    - name: Restore vim-plugins.nix
+      run: |
+        mv ./pkgs/vim-plugins.nix.bak ./pkgs/vim-plugins.nix

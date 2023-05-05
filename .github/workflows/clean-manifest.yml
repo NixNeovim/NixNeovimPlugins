@@ -12,9 +12,6 @@ jobs:
         with:
           token: ${{ github.token }}
           ref: ${{ github.head_ref }}
-      - uses: cachix/install-nix-action@v20
-        with:
-          github_access_token: ${{ github.token }}
       - name: Clean up manifest.txt
         uses: NixNeovim/NixNeovimPlugins/.github/actions/cleanup@main
       - name: Commit changes
