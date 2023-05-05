@@ -20,5 +20,5 @@ runs:
         commit_user_email: ""
         commit_author: ""
         commit_message: 'CI: ${{ inputs.msg }} '
-        file_pattern: ${{ inputs.fiels }}
+        file_pattern: ${{ inputs.files }}
         push_options: '--force'
