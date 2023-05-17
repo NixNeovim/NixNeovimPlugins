@@ -1,5 +1,7 @@
 0styx0/abbreinder.nvim
+amiel/neovim-tmux-navigator
 nvim-treesitter/playground
+p00f/clangd_extensions.nvim
 moll/vim-bbye
 4e554c4c/darkman.nvim
 Abstract-IDE/penvim
@@ -474,6 +476,7 @@ notomo/gesture.nvim
 novakne/kosmikoa.nvim
 numToStr/BufOnly.nvim
 numToStr/Comment.nvim
+ms-jpq/coq.thirdparty
 numToStr/FTerm.nvim
 numToStr/Navigator.nvim
 nvim-colortils/colortils.nvim
@@ -563,6 +566,9 @@ renerocksai/telekasten.nvim
 rest-nvim/rest.nvim
 rgroli/other.nvim
 rhysd/git-messenger.vim
+mfussenegger/nvim-jdtls
+ojroques/nvim-osc52
+salkin-mada/openscad.nvim
 rhysd/vim-gfm-syntax
 rktjmp/highlight-current-n.nvim
 rktjmp/hotpot.nvim
