@@ -1,4 +1,5 @@
 0styx0/abbreinder.nvim
+nvim-treesitter/playground
 moll/vim-bbye
 4e554c4c/darkman.nvim
 Abstract-IDE/penvim
