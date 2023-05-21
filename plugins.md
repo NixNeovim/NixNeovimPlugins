@@ -80,6 +80,7 @@
 | [RishabhRD/lspactions](https://github.com/RishabhRD/lspactions) [branch: `nvim-0.6-compatible`] | 2022-01-08 | `lspactions-nvim06-compatible` |
 | [RishabhRD/nvim-lsputils](https://github.com/RishabhRD/nvim-lsputils) | 2022-01-29 | `nvim-lsputils` |
 | [RishabhRD/nvim-rdark](https://github.com/RishabhRD/nvim-rdark) | 2020-12-25 | `nvim-rdark` |
+| [RutaTang/compter.nvim](https://github.com/RutaTang/compter.nvim) | 2023-05-18 | `compter-nvim` |
 | [RutaTang/quicknote.nvim](https://github.com/RutaTang/quicknote.nvim) | 2023-05-05 | `quicknote-nvim` |
 | [RutaTang/spectacle.nvim](https://github.com/RutaTang/spectacle.nvim) | 2023-05-17 | `spectacle-nvim` |
 | [Saecki/crates.nvim](https://github.com/Saecki/crates.nvim) | 2023-05-12 | `crates-nvim` |

@@ -1021,6 +1021,18 @@
       homepage = "https://github.com/RishabhRD/nvim-rdark";
     };
   };
+  compter-nvim = buildVimPluginFrom2Nix {
+    pname = "compter-nvim"; # Manifest entry: "RutaTang/compter.nvim"
+    version = "2023-05-18";
+    src = fetchurl {
+      url = "https://github.com/RutaTang/compter.nvim/archive/4383e6dfacbeaac0fffe7315577add01113c9546.tar.gz";
+      sha256 = "1mk9jsw710n6bkjbifxryhn3hm6zdrinsin8gz6j4fvc011dfv54";
+    };
+    meta = with lib; {
+      description = "Power and extend the ability of <C-a> and <C-x> with customized patterns";
+      homepage = "https://github.com/RutaTang/compter.nvim";
+    };
+  };
   quicknote-nvim = buildVimPluginFrom2Nix {
     pname = "quicknote-nvim"; # Manifest entry: "RutaTang/quicknote.nvim"
     version = "2023-05-05";
