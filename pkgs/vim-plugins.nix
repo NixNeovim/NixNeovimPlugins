@@ -846,6 +846,18 @@
       license = with licenses; [ unlicense ];
     };
   };
+  rsync-nvim = buildVimPluginFrom2Nix {
+    pname = "rsync-nvim"; # Manifest entry: "OscarCreator/rsync.nvim"
+    version = "2023-05-21";
+    src = fetchurl {
+      url = "https://github.com/OscarCreator/rsync.nvim/archive/d426dfec90ce5a519907eff28800b37b13a31ebd.tar.gz";
+      sha256 = "160yswigr8f21r6f8ag7i1hwqsnyywzd4cqydgnwjrypxbycgvm0";
+    };
+    meta = with lib; {
+      description = "neovim plugin which synchronises project with rsync on save";
+      homepage = "https://github.com/OscarCreator/rsync.nvim";
+    };
+  };
   nvim-hybrid = buildVimPluginFrom2Nix {
     pname = "nvim-hybrid"; # Manifest entry: "PHSix/nvim-hybrid"
     version = "2022-01-22";

@@ -66,6 +66,7 @@
 | [NvChad/nvim-colorizer.lua](https://github.com/NvChad/nvim-colorizer.lua) | 2023-02-27 | `nvim-colorizer-lua` |
 | [Olical/aniseed](https://github.com/Olical/aniseed) | 2023-02-19 | `aniseed` |
 | [Olical/conjure](https://github.com/Olical/conjure) | 2023-05-05 | `conjure` |
+| [OscarCreator/rsync.nvim](https://github.com/OscarCreator/rsync.nvim) | 2023-05-21 | `rsync-nvim` |
 | [PHSix/nvim-hybrid](https://github.com/PHSix/nvim-hybrid) | 2022-01-22 | `nvim-hybrid` |
 | [Pocco81/abbrev-man.nvim](https://github.com/Pocco81/abbrev-man.nvim) | 2023-05-15 | `abbrev-man-nvim` |
 | [Pocco81/dap-buddy.nvim](https://github.com/Pocco81/dap-buddy.nvim) | 2022-04-20 | `dap-buddy-nvim` |
