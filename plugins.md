@@ -429,6 +429,7 @@
 | [mawkler/modicator.nvim](https://github.com/mawkler/modicator.nvim) | 2023-03-14 | `modicator-nvim` |
 | [max397574/better-escape.nvim](https://github.com/max397574/better-escape.nvim) | 2023-05-02 | `better-escape-nvim` |
 | [max397574/cmp-greek](https://github.com/max397574/cmp-greek) | 2022-01-10 | `cmp-greek` |
+| [maxmx03/fluoromachine.nvim](https://github.com/maxmx03/fluoromachine.nvim) | 2023-05-24 | `fluoromachine-nvim` |
 | [mbbill/undotree](https://github.com/mbbill/undotree) | 2023-02-25 | `undotree` |
 | [mcauley-penney/tidy.nvim](https://github.com/mcauley-penney/tidy.nvim) | 2023-05-14 | `tidy-nvim` |
 | [mcchrish/zenbones.nvim](https://github.com/mcchrish/zenbones.nvim) | 2023-04-09 | `zenbones-nvim` |

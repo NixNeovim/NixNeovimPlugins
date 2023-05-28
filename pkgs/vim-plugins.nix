@@ -5482,6 +5482,19 @@
       homepage = "https://github.com/max397574/cmp-greek";
     };
   };
+  fluoromachine-nvim = buildVimPluginFrom2Nix {
+    pname = "fluoromachine-nvim"; # Manifest entry: "maxmx03/FluoroMachine.nvim"
+    version = "2023-05-24";
+    src = fetchurl {
+      url = "https://github.com/maxmx03/fluoromachine.nvim/archive/f083b6d05a59cdb79885ed6e188c1fbff57958f7.tar.gz";
+      sha256 = "0rhff479pjwjz52lv5a33qzhmpwfd72i7hg42gkc2n4kijkadgyf";
+    };
+    meta = with lib; {
+      description = "Synthwave x Fluoromachine port for Neovim";
+      homepage = "https://github.com/maxmx03/fluoromachine.nvim";
+      license = with licenses; [ mit ];
+    };
+  };
   undotree = buildVimPluginFrom2Nix {
     pname = "undotree"; # Manifest entry: "mbbill/undotree"
     version = "2023-02-25";
