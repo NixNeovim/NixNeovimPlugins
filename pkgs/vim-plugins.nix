@@ -3722,6 +3722,19 @@
       license = with licenses; [ gpl3Only ];
     };
   };
+  executor-nvim = buildVimPluginFrom2Nix {
+    pname = "executor-nvim"; # Manifest entry: "google/executor.nvim"
+    version = "2023-05-23";
+    src = fetchurl {
+      url = "https://github.com/google/executor.nvim/archive/c1c8d69dceefbfa299c43c8b69433e2adcb0ed02.tar.gz";
+      sha256 = "0kd1ihwf010yzr4r66rplri27fdxqz7b8axck8ivpaf0mahihjpr";
+    };
+    meta = with lib; {
+      description = "No description";
+      homepage = "https://github.com/google/executor.nvim";
+      license = with licenses; [ asl20 ];
+    };
+  };
   alpha-nvim = buildVimPluginFrom2Nix {
     pname = "alpha-nvim"; # Manifest entry: "goolord/alpha-nvim"
     version = "2023-05-09";
@@ -7442,6 +7455,19 @@
       license = with licenses; [ mit ];
     };
   };
+  licenses-nvim = buildVimPluginFrom2Nix {
+    pname = "licenses-nvim"; # Manifest entry: "sourcehut:reggie/licenses.nvim"
+    version = "2023-05-31";
+    src = fetchgit {
+      url = "https://git.sr.ht/~reggie/licenses.nvim";
+      rev = "bea9f6b9f46fa24d001455de200ea7f22f1e54cb";
+      sha256 = "1v7b6bvqdkz6hb36sjcb2br68qcs5ij5fjdsgycj2hmc5yqvq81v";
+    };
+    meta = with lib; {
+      description = "No description";
+      homepage = "https://sr.ht/~reggie/licenses.nvim/";
+    };
+  };
   telekasten-nvim = buildVimPluginFrom2Nix {
     pname = "telekasten-nvim"; # Manifest entry: "renerocksai/telekasten.nvim"
     version = "2023-05-09";
@@ -9273,6 +9299,19 @@
     meta = with lib; {
       description = "Display a line as the colorcolumn";
       homepage = "https://github.com/xiyaowong/virtcolumn.nvim";
+    };
+  };
+  AirSupport-nvim = buildVimPluginFrom2Nix {
+    pname = "AirSupport-nvim"; # Manifest entry: "yagiziskirik/AirSupport.nvim"
+    version = "2023-05-25";
+    src = fetchurl {
+      url = "https://github.com/yagiziskirik/AirSupport.nvim/archive/e73a309d3097dc7e6d7c719c5d3261a1c1ea11f7.tar.gz";
+      sha256 = "0ip7rhjkjif78kq2c8c5a9fqazix59c2fmpadjrkzk7fg27fg1ds";
+    };
+    meta = with lib; {
+      description = "A NeoVim addon which helps you to write your own shortcut reminders and forget them";
+      homepage = "https://github.com/yagiziskirik/AirSupport.nvim";
+      license = with licenses; [ mit ];
     };
   };
   nvim-cursorline = buildVimPluginFrom2Nix {

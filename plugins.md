@@ -291,6 +291,7 @@
 | [glepnir/prodoc.nvim](https://github.com/glepnir/prodoc.nvim) | 2022-08-20 | `prodoc-nvim` |
 | [nvimdev/zephyr-nvim](https://github.com/nvimdev/zephyr-nvim) | 2022-12-31 | `zephyr-nvim` |
 | [GnikDroy/projections.nvim](https://github.com/GnikDroy/projections.nvim) | 2023-02-21 | `projections-nvim` |
+| [google/executor.nvim](https://github.com/google/executor.nvim) | 2023-05-23 | `executor-nvim` |
 | [goolord/alpha-nvim](https://github.com/goolord/alpha-nvim) | 2023-05-09 | `alpha-nvim` |
 | [gorbit99/codewindow.nvim](https://github.com/gorbit99/codewindow.nvim) | 2023-05-14 | `codewindow-nvim` |
 | [gpanders/editorconfig.nvim](https://github.com/gpanders/editorconfig.nvim) | 2023-01-10 | `editorconfig-nvim` |
@@ -582,6 +583,7 @@
 | [rcarriga/vim-ultest](https://github.com/rcarriga/vim-ultest) | 2023-02-09 | `vim-ultest` |
 | [rebelot/heirline.nvim](https://github.com/rebelot/heirline.nvim) | 2023-04-20 | `heirline-nvim` |
 | [rebelot/kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim) | 2023-05-03 | `kanagawa-nvim` |
+| [sourcehut:reggie/licenses.nvim](https://sr.ht/~reggie/licenses.nvim/) | 2023-05-31 | `licenses-nvim` |
 | [renerocksai/telekasten.nvim](https://github.com/renerocksai/telekasten.nvim) | 2023-05-09 | `telekasten-nvim` |
 | [rest-nvim/rest.nvim](https://github.com/rest-nvim/rest.nvim) | 2023-05-11 | `rest-nvim` |
 | [rgroli/other.nvim](https://github.com/rgroli/other.nvim) | 2022-11-15 | `other-nvim` |
@@ -725,6 +727,7 @@
 | [xiyaowong/nvim-cursorword](https://github.com/xiyaowong/nvim-cursorword) | 2022-06-22 | `nvim-cursorword` |
 | [xiyaowong/transparent.nvim](https://github.com/xiyaowong/transparent.nvim) | 2023-04-18 | `transparent-nvim` |
 | [xiyaowong/virtcolumn.nvim](https://github.com/xiyaowong/virtcolumn.nvim) | 2022-08-13 | `virtcolumn-nvim` |
+| [yagiziskirik/AirSupport.nvim](https://github.com/yagiziskirik/AirSupport.nvim) | 2023-05-25 | `AirSupport-nvim` |
 | [yamatsum/nvim-cursorline](https://github.com/yamatsum/nvim-cursorline) | 2022-04-15 | `nvim-cursorline` |
 | [yamatsum/nvim-nonicons](https://github.com/yamatsum/nvim-nonicons) | 2023-02-04 | `nvim-nonicons` |
 | [yaocccc/nvim-foldsign](https://github.com/yaocccc/nvim-foldsign) | 2023-02-22 | `nvim-foldsign` |
