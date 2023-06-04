@@ -12,6 +12,7 @@
 | [AckslD/swenv.nvim](https://github.com/AckslD/swenv.nvim) | 2023-05-17 | `swenv-nvim` |
 | [AllenDang/nvim-expand-expr](https://github.com/AllenDang/nvim-expand-expr) | 2021-08-14 | `nvim-expand-expr` |
 | [Bekaboo/deadcolumn.nvim](https://github.com/Bekaboo/deadcolumn.nvim) | 2023-05-08 | `deadcolumn-nvim` |
+| [Bekaboo/dropbar.nvim](https://github.com/Bekaboo/dropbar.nvim) | 2023-06-04 | `dropbar-nvim` |
 | [CRAG666/code_runner.nvim](https://github.com/CRAG666/code_runner.nvim) | 2023-05-12 | `code-runner-nvim` |
 | [Chaitanyabsprip/present.nvim](https://github.com/Chaitanyabsprip/present.nvim) | 2022-04-15 | `present-nvim` |
 | [ChristianChiarulli/nvcode-color-schemes.vim](https://github.com/ChristianChiarulli/nvcode-color-schemes.vim) | 2021-07-03 | `nvcode-color-schemes-vim` |
@@ -20,6 +21,7 @@
 | [Darazaki/indent-o-matic](https://github.com/Darazaki/indent-o-matic) | 2023-02-13 | `indent-o-matic` |
 | [David-Kunz/cmp-npm](https://github.com/David-Kunz/cmp-npm) | 2023-02-15 | `cmp-npm` |
 | [David-Kunz/jester](https://github.com/David-Kunz/jester) | 2023-04-20 | `jester` |
+| [Dhanus3133/Leetbuddy.nvim](https://github.com/Dhanus3133/Leetbuddy.nvim) | 2023-06-02 | `Leetbuddy-nvim` |
 | [Eandrju/cellular-automaton.nvim](https://github.com/Eandrju/cellular-automaton.nvim) | 2023-01-25 | `cellular-automaton-nvim` |
 | [EdenEast/nightfox.nvim](https://github.com/EdenEast/nightfox.nvim) | 2023-05-12 | `nightfox-nvim` |
 | [EthanJWright/vs-tasks.nvim](https://github.com/EthanJWright/vs-tasks.nvim) | 2023-02-06 | `vs-tasks-nvim` |
@@ -426,6 +428,7 @@
 | [madskjeldgaard/reaper-nvim](https://github.com/madskjeldgaard/reaper-nvim) | 2021-01-29 | `reaper-nvim` |
 | [preservim/tagbar](https://github.com/preservim/tagbar) | 2023-04-05 | `tagbar` |
 | [marko-cerovac/material.nvim](https://github.com/marko-cerovac/material.nvim) | 2023-04-25 | `material-nvim` |
+| [martineausimon/nvim-lilypond-suite](https://github.com/martineausimon/nvim-lilypond-suite) | 2023-05-28 | `nvim-lilypond-suite` |
 | [matbme/JABS.nvim](https://github.com/matbme/JABS.nvim) | 2023-05-09 | `JABS-nvim` |
 | [mawkler/modicator.nvim](https://github.com/mawkler/modicator.nvim) | 2023-03-14 | `modicator-nvim` |
 | [max397574/better-escape.nvim](https://github.com/max397574/better-escape.nvim) | 2023-05-02 | `better-escape-nvim` |

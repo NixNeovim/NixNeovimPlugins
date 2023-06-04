@@ -151,6 +151,19 @@
       license = with licenses; [ gpl3Only ];
     };
   };
+  dropbar-nvim = buildVimPluginFrom2Nix {
+    pname = "dropbar-nvim"; # Manifest entry: "Bekaboo/dropbar.nvim"
+    version = "2023-06-04";
+    src = fetchurl {
+      url = "https://github.com/Bekaboo/dropbar.nvim/archive/d6825fd782c53a73aff490232c27f7350407e6d7.tar.gz";
+      sha256 = "0v61ilgby4343x3alzjclbk95h45i846c68sqwqhllwm8xl5xhya";
+    };
+    meta = with lib; {
+      description = "IDE-like breadcrumbs, out of the box";
+      homepage = "https://github.com/Bekaboo/dropbar.nvim";
+      license = with licenses; [ gpl3Only ];
+    };
+  };
   code-runner-nvim = buildVimPluginFrom2Nix {
     pname = "code-runner-nvim"; # Manifest entry: "CRAG666/code_runner.nvim"
     version = "2023-05-12";
@@ -252,6 +265,19 @@
       description = "A Neovim plugin to easily run and debug Jest tests";
       homepage = "https://github.com/David-Kunz/jester";
       license = with licenses; [ unlicense ];
+    };
+  };
+  Leetbuddy-nvim = buildVimPluginFrom2Nix {
+    pname = "Leetbuddy-nvim"; # Manifest entry: "Dhanus3133/Leetbuddy.nvim"
+    version = "2023-06-02";
+    src = fetchurl {
+      url = "https://github.com/Dhanus3133/Leetbuddy.nvim/archive/97f7a930868f8bff5b1c6e6eda5005ad17064cf6.tar.gz";
+      sha256 = "15mbhd9bb7f12p7j31rkpp2ci4kx5rxncj1vamspgln7mb1fics1";
+    };
+    meta = with lib; {
+      description = "Solve Leetcode problems within Neovim 🔥";
+      homepage = "https://github.com/Dhanus3133/Leetbuddy.nvim";
+      license = with licenses; [ mit ];
     };
   };
   cellular-automaton-nvim = buildVimPluginFrom2Nix {
@@ -5443,6 +5469,19 @@
       description = ":trident: Material colorscheme for NeoVim written in Lua with built-in support for native LSP, TreeSitter and many more plugins";
       homepage = "https://github.com/marko-cerovac/material.nvim";
       license = with licenses; [ gpl2Only ];
+    };
+  };
+  nvim-lilypond-suite = buildVimPluginFrom2Nix {
+    pname = "nvim-lilypond-suite"; # Manifest entry: "martineausimon/nvim-lilypond-suite"
+    version = "2023-05-28";
+    src = fetchurl {
+      url = "https://github.com/martineausimon/nvim-lilypond-suite/archive/2613bc1da45264f899c21991c607c5c9a3f8b3b5.tar.gz";
+      sha256 = "0b7glky57z53j9gf5q3fgcmhhqd6d9r7zmfd4z2d4dc8iz94brsj";
+    };
+    meta = with lib; {
+      description = "Neovim plugin for writing LilyPond scores, with asynchronous make, midi/mp3 player, fast syntax highlighting, \"hyphenation\" function, and support for LaTex files";
+      homepage = "https://github.com/martineausimon/nvim-lilypond-suite";
+      license = with licenses; [ gpl3Only ];
     };
   };
   JABS-nvim = buildVimPluginFrom2Nix {
