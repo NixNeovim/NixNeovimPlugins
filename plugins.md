@@ -592,6 +592,7 @@
 | [rgroli/other.nvim](https://github.com/rgroli/other.nvim) | 2022-11-15 | `other-nvim` |
 | [rhysd/git-messenger.vim](https://github.com/rhysd/git-messenger.vim) | 2022-08-30 | `git-messenger-vim` |
 | [rhysd/vim-gfm-syntax](https://github.com/rhysd/vim-gfm-syntax) | 2022-08-01 | `vim-gfm-syntax` |
+| [ribru17/bamboo.nvim](https://github.com/ribru17/bamboo.nvim) | 2023-06-05 | `bamboo-nvim` |
 | [rktjmp/highlight-current-n.nvim](https://github.com/rktjmp/highlight-current-n.nvim) | 2022-12-03 | `highlight-current-n-nvim` |
 | [rktjmp/hotpot.nvim](https://github.com/rktjmp/hotpot.nvim) | 2023-02-14 | `hotpot-nvim` |
 | [rktjmp/lush.nvim](https://github.com/rktjmp/lush.nvim) | 2023-05-01 | `lush-nvim` |

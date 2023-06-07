@@ -7572,6 +7572,18 @@
       license = with licenses; [ mit ];
     };
   };
+  bamboo-nvim = buildVimPluginFrom2Nix {
+    pname = "bamboo-nvim"; # Manifest entry: "ribru17/bamboo.nvim"
+    version = "2023-06-05";
+    src = fetchurl {
+      url = "https://github.com/ribru17/bamboo.nvim/archive/84ef93c9a9c9df34ed58b7b09ba4c6fffab1c7bb.tar.gz";
+      sha256 = "1hr1nf2abj46vz6mf5kiz6jinsb000agc58a6zksgn1a7bfj3r96";
+    };
+    meta = with lib; {
+      description = "Warm Green Neovim Theme";
+      homepage = "https://github.com/ribru17/bamboo.nvim";
+    };
+  };
   highlight-current-n-nvim = buildVimPluginFrom2Nix {
     pname = "highlight-current-n-nvim"; # Manifest entry: "rktjmp/highlight-current-n.nvim"
     version = "2022-12-03";
