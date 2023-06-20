@@ -487,6 +487,7 @@ nvim-lua/popup.nvim
 nvim-lualine/lualine.nvim
 nvim-neo-tree/neo-tree.nvim
 nvim-neorg/neorg
+nvim-neorg/neorg-telescope
 nvim-neorocks/luarocks-tag-release
 nvim-neotest/neotest
 nvim-orgmode/orgmode
