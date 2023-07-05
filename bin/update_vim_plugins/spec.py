@@ -1,7 +1,7 @@
 import enum
 import re
 
-from update_vim_plugins.nix import License
+from nix import License
 
 
 class RepositoryHost(enum.Enum):
@@ -47,8 +47,15 @@ class PluginSpec:
         group_dict = match.groupdict()
 
         repository_host = RepositoryHost(group_dict.get("repository_host") or "github")
+
         owner = group_dict.get("owner")
+        if owner is None:
+            raise RuntimeError("Could not get owner")
+
         repo = group_dict.get("repo")
+        if repo is None:
+            raise RuntimeError("Could not get repo")
+
         branch = group_dict.get("branch")
         name = group_dict.get("name")
         license = group_dict.get("license")

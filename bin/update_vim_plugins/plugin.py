@@ -4,8 +4,8 @@ import urllib
 
 import requests
 
-from update_vim_plugins.nix import GitSource, License, Source, UrlSource
-from update_vim_plugins.spec import PluginSpec, RepositoryHost
+from nix import GitSource, License, Source, UrlSource
+from spec import PluginSpec, RepositoryHost
 
 logger = logging.getLogger(__name__)
 
@@ -62,7 +62,7 @@ class GitHubPlugin(VimPlugin):
             headers["Authorization"] = f"token {token}"
         response = requests.get(url, headers=headers)
         if response.status_code != 200:
-            raise RuntimeError(f"GitHub API call failed: {response.status_code}")
+            raise RuntimeError(f"GitHub API call failed: {response.text}")
         return response.json()
 
 
@@ -88,7 +88,7 @@ class GitlabPlugin(VimPlugin):
         url = f"https://gitlab.com/api/v4/{path}"
         response = requests.get(url)
         if response.status_code != 200:
-            raise RuntimeError(f"Gitlab API call failed: {response.status_code}")
+            raise RuntimeError(f"Gitlab API call failed: {response.text}")
         return response.json()
 
 
@@ -120,6 +120,7 @@ class SourceHutPlugin(VimPlugin):
 
     def _api_call(self, path: str, token: str | None = _get_sourcehut_token()):
         """Call the SourceHut API."""
+
         url = f"https://git.sr.ht/api/{path}"
         headers = {"Content-Type": "application/json"}
         if token is not None:
@@ -132,6 +133,7 @@ class SourceHutPlugin(VimPlugin):
 
 def plugin_from_spec(plugin_spec: PluginSpec) -> VimPlugin:
     """Initialize a VimPlugin."""
+
     if plugin_spec.repository_host == RepositoryHost.GITHUB:
         return GitHubPlugin(plugin_spec)
     elif plugin_spec.repository_host == RepositoryHost.GITLAB:
