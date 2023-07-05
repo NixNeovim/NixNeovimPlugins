@@ -5,6 +5,11 @@ from cleo.helpers import argument, option
 from plugin import plugin_from_spec
 from spec import PluginSpec
 
+import json
+import jsonpickle
+
+JSON_FILE = "../../.plugins.json"
+
 class UpdateCommand(Command):
     name = "update"
     description = "Generate nix module from input file"
@@ -49,11 +54,33 @@ class UpdateCommand(Command):
                 vim_plugin = plugin_from_spec(spec)
                 processed_plugins.append(vim_plugin)
             except Exception as e:
-                self.line(f"<error>Error:</error> Could not generate nix expression for {spec.name}. Because: {e}")
+                self.line(f"<error>Error:</error> Could not update <info>{spec.name}</info>. Keeping old values. Reason: {e}")
+                try:
+                    with open(JSON_FILE, "r+") as json_file:
+                        data = json.load(json_file)
+                        vim_plugin = jsonpickle.decode(data[spec.name])
+                        processed_plugins.append(vim_plugin)
+                except:
+                    self.line(f"<error>Error:</error> No entries for <info> {spec.name}</info> in '.plugins.json'. Skipping...")
 
             if i > limit:
                 break
             i += 1
+
+
+        # TODO:
+        # check for duplicates in proccesed_plugins
+
+        # update plugin database
+
+        with open(JSON_FILE, "r+") as json_file:
+            data = json.load(json_file)
+            self.line(f"<info>Storing results in .plugins.json</info>")
+            for plugin in processed_plugins:
+                data.update({f"{plugin.name}": plugin.to_json()})
+
+            json_file.seek(0)
+            json_file.write(json.dumps(data))
 
 
         # generate output
@@ -65,7 +92,7 @@ class UpdateCommand(Command):
             file.write(header)
             for plugin in processed_plugins:
                 self.line(f"<info>Processing</info> {plugin!r}")
-                file.write(f"{plugin.get_nix_expression()}\n")
+                file.write(f"{plugin.to_nix_expression()}\n")
             file.write(footer)
 
         self.line(f"<info>Formatting</info> {output_file!r}")

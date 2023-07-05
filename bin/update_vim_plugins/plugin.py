@@ -7,6 +7,9 @@ import requests
 from nix import GitSource, License, Source, UrlSource
 from spec import PluginSpec, RepositoryHost
 
+import json
+import jsonpickle
+
 logger = logging.getLogger(__name__)
 
 
@@ -20,10 +23,14 @@ class VimPlugin:
     homepage: str
     license: License
 
-    def get_nix_expression(self):
+    def to_nix_expression(self):
         """Return the nix expression for this plugin."""
         meta = f'with lib; {{ description = "{self.description}"; homepage = "{self.homepage}"; license = with licenses; [ {self.license.value} ]; }}'
         return f'{self.name} = buildVimPluginFrom2Nix {{ pname = "{self.name}"; version = "{self.version}"; src = {self.source.get_nix_expression()}; meta = {meta}; }};'
+
+    def to_json(self):
+        """Serizalize the plugin to json"""
+        return jsonpickle.encode(self)
 
     def __repr__(self):
         """Return the representation of this plugin."""
