@@ -60,13 +60,16 @@ class PluginSpec:
         name = group_dict.get("name")
         license = group_dict.get("license")
 
-        return cls(repository_host, owner, repo, branch, name, license)
+        line = spec
+
+        return cls(repository_host, owner, repo, line, branch, name, license)
 
     def __init__(
         self,
         repository_host: RepositoryHost,
         owner: str,
         repo: str,
+        line: str,
         branch: str | None = None,
         name: str | None = None,
         license: str | None = None,
@@ -79,6 +82,7 @@ class PluginSpec:
         self._name = name
         self.name = name or repo.replace(".", "-")
         self.license = License(license) if license else None
+        self.line = line
 
     def __str__(self) -> str:
         """Return a string representation of a VimPluginSpec."""

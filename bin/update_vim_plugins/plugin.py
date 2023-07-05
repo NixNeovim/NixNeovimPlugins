@@ -17,11 +17,13 @@ class VimPlugin:
     """Abstract base class for vim plugins."""
 
     name: str
+    owner: str
     version: str
     source: Source
     description: str = "No description"
     homepage: str
     license: License
+    source_line: str
 
     def to_nix_expression(self):
         """Return the nix expression for this plugin."""
@@ -55,11 +57,13 @@ class GitHubPlugin(VimPlugin):
         sha = latest_commit["sha"]
 
         self.name = plugin_spec.name
+        self.owner = plugin_spec.owner
         self.version = latest_commit["commit"]["committer"]["date"].split("T")[0]
         self.source = UrlSource(f"https://github.com/{full_name}/archive/{sha}.tar.gz")
         self.description = repo_info.get("description") or self.description
         self.homepage = repo_info["html_url"]
         self.license = plugin_spec.license or License.from_spdx_id((repo_info.get("license") or {}).get("spdx_id"))
+        self.source_line = plugin_spec.line
 
     def _api_call(self, path: str, token: str | None = _get_github_token()):
         """Call the GitHub API."""
@@ -84,11 +88,13 @@ class GitlabPlugin(VimPlugin):
         sha = latest_commit["commit"]["id"]
 
         self.name = plugin_spec.name
+        self.owner = plugin_spec.owner
         self.version = latest_commit["commit"]["committed_date"].split("T")[0]
         self.source = UrlSource(f"https://gitlab.com/api/v4/projects/{full_name}/repository/archive.tar.gz?sha={sha}")
         self.description = repo_info.get("description") or self.description
         self.homepage = repo_info["web_url"]
         self.license = plugin_spec.license or License.from_spdx_id(repo_info.get("license", {}).get("key"))
+        self.source_line = plugin_spec.line
 
     def _api_call(self, path: str) -> dict:
         """Call the Gitlab API."""
@@ -119,11 +125,13 @@ class SourceHutPlugin(VimPlugin):
         sha = latest_commit["id"]
 
         self.name = plugin_spec.name
+        self.owner = plugin_spec.owner
         self.version = latest_commit["timestamp"].split("T")[0]
         self.description = repo_info.get("description") or self.description
         self.homepage = f"https://git.sr.ht/~{plugin_spec.owner}/{plugin_spec.repo}"
         self.source = GitSource(self.homepage, sha)
         self.license = plugin_spec.license or License.UNKNOWN  # cannot be determined via API
+        self.source_line = plugin_spec.line
 
     def _api_call(self, path: str, token: str | None = _get_sourcehut_token()):
         """Call the SourceHut API."""

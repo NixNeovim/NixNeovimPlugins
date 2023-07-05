@@ -44,10 +44,7 @@ class UpdateCommand(Command):
 
         self.line(f"<info>Generating plugins to</info> {output_file!r}")
 
-        #  plugins = (plugin_from_spec(spec) for spec in self.specs)
-        #  plugins = (plugin for plugin in plugins if plugin is not None)
-        limit = 20
-        i = 0
+        # TODO: handle api limits
         processed_plugins = []
         for spec in self.specs:
             try:
@@ -63,13 +60,20 @@ class UpdateCommand(Command):
                 except:
                     self.line(f"<error>Error:</error> No entries for <info> {spec.name}</info> in '.plugins.json'. Skipping...")
 
-            if i > limit:
-                break
-            i += 1
-
-
-        # TODO:
         # check for duplicates in proccesed_plugins
+
+        error = False
+        for i, plugin in enumerate(processed_plugins):
+            for p in processed_plugins[i+1:]:
+                print(p.name, plugin.name)
+                if plugin.name == p.name:
+                    self.line(f"<error>Error:</error> The following two lines produce the same plugin name:\n - {plugin.source_line}\n - {p.source_line}")
+                    error = True
+
+        # We want to exit if the resulting nix file would be broken
+        # But we want to go through all plugins before we do so
+        if error:
+            exit(1)
 
         # update plugin database
 
@@ -81,7 +85,6 @@ class UpdateCommand(Command):
 
             json_file.seek(0)
             json_file.write(json.dumps(data))
-
 
         # generate output
 
