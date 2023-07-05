@@ -49,8 +49,22 @@
       inherit update-vim-plugins;
     };
 
-    devShells.default = pkgs.mkShell {
-      inherit (update-vim-plugins) buildInputs;
+    devShells = {
+      default = pkgs.mkShell {
+        inherit (update-vim-plugins) buildInputs;
+      };
+      pythonEnv = pkgs.mkShell {
+        name = "Python Env";
+        packages = with pkgs; let
+          python-with-packages = pkgs.python3.withPackages (p: with p; [
+            cleo
+            requests
+          ]);
+        in [
+          python-with-packages
+          alejandra
+        ];
+      };
     };
   }));
 }
