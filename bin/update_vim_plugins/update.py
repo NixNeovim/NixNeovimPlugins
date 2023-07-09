@@ -9,6 +9,7 @@ import json
 import jsonpickle
 
 JSON_FILE = "../../.plugins.json"
+jsonpickle.set_encoder_options('json', sort_keys=True)
 
 class UpdateCommand(Command):
     name = "update"
@@ -84,7 +85,7 @@ class UpdateCommand(Command):
                 data.update({f"{plugin.name}": plugin.to_json()})
 
             json_file.seek(0)
-            json_file.write(json.dumps(data))
+            json_file.write(json.dumps(data, indent=2, sort_keys=True))
 
         # generate output
 
