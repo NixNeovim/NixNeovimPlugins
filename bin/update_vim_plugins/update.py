@@ -42,7 +42,7 @@ class UpdateCommand(Command):
         # filter duplicate entries
         self.filter_specs()
 
-        self.line(f"<info>Generating plugins to</info> {output_file!r}")
+        self.line(f"<info>Writing plugins to</info> {output_file!r}")
 
         # TODO: handle api limits
         processed_plugins = []
