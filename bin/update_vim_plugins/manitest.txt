@@ -1,0 +1,2 @@
+gitlab:yorickpeterse/nvim-pqf
+gitlab:yorickpeterse/nvim-window::nvim-pqf
