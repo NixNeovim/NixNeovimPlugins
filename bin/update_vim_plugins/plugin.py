@@ -4,8 +4,8 @@ import urllib
 
 import requests
 
-from nix import GitSource, License, Source, UrlSource
-from spec import PluginSpec, RepositoryHost
+from .nix import GitSource, License, Source, UrlSource
+from .spec import PluginSpec, RepositoryHost
 
 import json
 import jsonpickle

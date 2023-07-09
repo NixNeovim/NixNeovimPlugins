@@ -1,6 +1,6 @@
 from cleo.application import Application
 
-from update import UpdateCommand
+from .update import UpdateCommand
 
 
 def main():

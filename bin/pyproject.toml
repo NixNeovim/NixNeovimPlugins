@@ -13,6 +13,7 @@ update-vim-plugins = "update_vim_plugins.__main__:main"
 python = "^3.10"
 requests = "^2.28.2"
 cleo = "^2.0.1"
+jsonpickle = "*"
 
 [tool.poetry.group.test.dependencies]
 pytest-cov = "^4.0.0"
@@ -23,12 +24,12 @@ pytest-mock = "^3.10.0"
 optional = true
 
 [tool.poetry.group.dev.dependencies]
-black = "^23.3.0"
-ruff-lsp = "^0.0.24"
-mypy = "^1.2.0"
-types-requests = "^2.28.11.17"
-isort = "^5.12.0"
-ruff = "^0.0.262"
+# black = "^23.3.0"
+# ruff-lsp = "^0.0.24"
+# mypy = "^1.2.0"
+# types-requests = "^2.28.11.17"
+# isort = "^5.12.0"
+# ruff = "^0.0.262"
 
 [tool.isort]
 profile = "black"

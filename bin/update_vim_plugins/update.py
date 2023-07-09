@@ -2,8 +2,8 @@ import subprocess
 from cleo.commands.command import Command
 from cleo.helpers import argument, option
 
-from plugin import plugin_from_spec
-from spec import PluginSpec
+from .plugin import plugin_from_spec
+from .spec import PluginSpec
 
 import json
 import jsonpickle

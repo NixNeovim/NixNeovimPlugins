@@ -1,7 +1,7 @@
 import enum
 import re
 
-from nix import License
+from .nix import License
 
 
 class RepositoryHost(enum.Enum):
