@@ -19,6 +19,13 @@ class UpdateCommand(Command):
         argument("input", description="Where to read the manifest file from"),
         argument("output", description="Where to write the generated nix file to"),
     ]
+    options = [
+        option(
+            "all",
+            description="Update all plugins. Else only update new plugins",
+            flag=True
+        )
+    ]
 
     def filter_specs(self) -> None:
         """Helper function that removes duplicate entries"""
@@ -48,9 +55,20 @@ class UpdateCommand(Command):
 
         # TODO: handle api limits
         # TODO: add feature: only update new plugins
+
+
+        if self.option("all"):
+            updating = self.specs
+        else:
+            updating = self.specs
+
+            with open(JSON_FILE, "r+") as json_file:
+                data = json.load(json_file)
+                updating = list(filter(lambda x: x.name not in data, updating))
+
         processed_plugins = []
-        num = len(self.specs)
-        for i, spec in enumerate(self.specs):
+        num = len(updating)
+        for i, spec in enumerate(updating):
             try:
                 self.line(f" - <info>({i+1}/{num}) Processing</info> {spec!r}")
                 vim_plugin = plugin_from_spec(spec)
@@ -124,5 +142,7 @@ class UpdateCommand(Command):
             file.write(header)
             for plugin in processed_plugins:
                 file.write(f"{plugin.to_markdown()}\n")
+
+        # TODO: output list of failed plugins
 
         self.line("<comment>Done</comment>")

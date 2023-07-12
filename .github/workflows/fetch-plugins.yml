@@ -20,6 +20,7 @@ jobs:
         uses: cachix/install-nix-action@v20
         with:
           github_access_token: ${{ github.token }}
+      - uses: DeterminateSystems/magic-nix-cache-action@main
       - name: Reset vim-plugins.nix # NOTE: this is a workaround: if vim-plugins is broken, all 'nix run' actions will fail
         run: |
           echo "{ ...} : {}" > ./pkgs/vim-plugins.nix
@@ -37,7 +38,7 @@ jobs:
         uses: NixNeovim/NixNeovimPlugins/.github/actions/cleanup@main
       - name: Generate derivations for new plugins
         run: |
-          nix run .#update-vim-plugins -- update ./manifest.txt ./pkgs/vim-plugins.nix
+          nix run .#update-vim-plugins -- update ./manifest.txt ./pkgs/vim-plugins.nix --all
         env:
           GITHUB_TOKEN: ${{ github.token }}
           SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}
