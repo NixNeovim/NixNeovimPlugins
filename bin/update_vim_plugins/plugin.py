@@ -3,12 +3,13 @@ import os
 import urllib
 
 import requests
+from datetime import datetime, date
+import jsonpickle
+from datetime import datetime
 
 from .nix import GitSource, License, Source, UrlSource
 from .spec import PluginSpec, RepositoryHost
 
-import json
-import jsonpickle
 
 logger = logging.getLogger(__name__)
 
@@ -24,8 +25,10 @@ class VimPlugin:
     homepage: str
     license: License
     source_line: str
+    updated: date
+    checked: date = datetime.now().date()
 
-    def to_nix_expression(self):
+    def to_nix(self):
         """Return the nix expression for this plugin."""
         meta = f'with lib; {{ description = "{self.description}"; homepage = "{self.homepage}"; license = with licenses; [ {self.license.value} ]; }}'
         return f'{self.name} = buildVimPluginFrom2Nix {{ pname = "{self.name}"; version = "{self.version}"; src = {self.source.get_nix_expression()}; meta = {meta}; }};'
@@ -33,6 +36,14 @@ class VimPlugin:
     def to_json(self):
         """Serizalize the plugin to json"""
         return jsonpickle.encode(self)
+
+    def to_markdown(self):
+        link = f"[{self.source_line}]({self.source.url})"
+        updated = f"{self.updated}"
+        package_name = f"{self.name}"
+        checked = f"{self.checked}"
+
+        return f"| {link} | {updated} | {package_name} | {checked} |"
 
     def __repr__(self):
         """Return the representation of this plugin."""
@@ -53,17 +64,19 @@ class GitHubPlugin(VimPlugin):
         full_name = f"{plugin_spec.owner}/{plugin_spec.repo}"
         repo_info = self._api_call(f"repos/{full_name}")
         default_branch = plugin_spec.branch or repo_info["default_branch"]
-        latest_commit = self._api_call(f"repos/{full_name}/commits/{default_branch}")
-        sha = latest_commit["sha"]
+        api_callback = self._api_call(f"repos/{full_name}/commits/{default_branch}")
+        latest_commit = api_callback["commit"]
+        sha = api_callback["sha"]
 
         self.name = plugin_spec.name
         self.owner = plugin_spec.owner
-        self.version = latest_commit["commit"]["committer"]["date"].split("T")[0]
+        self.version = latest_commit["committer"]["date"].split("T")[0]
         self.source = UrlSource(f"https://github.com/{full_name}/archive/{sha}.tar.gz")
         self.description = repo_info.get("description") or self.description
         self.homepage = repo_info["html_url"]
         self.license = plugin_spec.license or License.from_spdx_id((repo_info.get("license") or {}).get("spdx_id"))
         self.source_line = plugin_spec.line
+        self.updated = datetime.strptime(latest_commit["committer"]["date"], '%Y-%m-%dT%H:%M:%SZ').date()
 
     def _api_call(self, path: str, token: str | None = _get_github_token()):
         """Call the GitHub API."""
@@ -84,17 +97,19 @@ class GitlabPlugin(VimPlugin):
         full_name = urllib.parse.quote(f"{plugin_spec.owner}/{plugin_spec.repo}", safe="")
         repo_info = self._api_call(f"projects/{full_name}")
         default_branch = plugin_spec.branch or repo_info["default_branch"]
-        latest_commit = self._api_call(f"projects/{full_name}/repository/branches/{default_branch}")
-        sha = latest_commit["commit"]["id"]
+        api_callback = self._api_call(f"projects/{full_name}/repository/branches/{default_branch}")
+        latest_commit = api_callback["commit"]
+        sha = latest_commit["id"]
 
         self.name = plugin_spec.name
         self.owner = plugin_spec.owner
-        self.version = latest_commit["commit"]["committed_date"].split("T")[0]
+        self.version = latest_commit["committed_date"].split("T")[0]
         self.source = UrlSource(f"https://gitlab.com/api/v4/projects/{full_name}/repository/archive.tar.gz?sha={sha}")
         self.description = repo_info.get("description") or self.description
         self.homepage = repo_info["web_url"]
         self.license = plugin_spec.license or License.from_spdx_id(repo_info.get("license", {}).get("key"))
         self.source_line = plugin_spec.line
+        self.updated = datetime.strptime(latest_commit["created_at"], '%Y-%m-%dT%H:%M:%S.%f%z').date()
 
     def _api_call(self, path: str) -> dict:
         """Call the Gitlab API."""

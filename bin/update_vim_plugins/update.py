@@ -8,7 +8,8 @@ from .spec import PluginSpec
 import json
 import jsonpickle
 
-JSON_FILE = "../../.plugins.json"
+JSON_FILE = "./.plugins.json"
+PLUGINS_LIST_FILE = "./plugins.md"
 jsonpickle.set_encoder_options('json', sort_keys=True)
 
 class UpdateCommand(Command):
@@ -78,9 +79,10 @@ class UpdateCommand(Command):
 
         # update plugin database
 
+        self.line(f"<info>Storing results in .plugins.json</info>")
+
         with open(JSON_FILE, "r+") as json_file:
             data = json.load(json_file)
-            self.line(f"<info>Storing results in .plugins.json</info>")
             for plugin in processed_plugins:
                 data.update({f"{plugin.name}": plugin.to_json()})
 
@@ -90,21 +92,34 @@ class UpdateCommand(Command):
 
         # generate output
 
+        self.line(f"<info>Generating nix output</info>")
+
         header = "{ lib, buildVimPluginFrom2Nix, fetchurl, fetchgit }: {"
         footer = "}"
 
         with open(output_file, "w") as file:
             file.write(header)
             for plugin in processed_plugins:
-                self.line(f"<info>Processing</info> {plugin!r}")
-                file.write(f"{plugin.to_nix_expression()}\n")
+                self.line(f" - <info>Processing</info> {plugin!r}")
+                file.write(f"{plugin.to_nix()}\n")
             file.write(footer)
 
-        self.line(f"<info>Formatting</info> {output_file!r}")
+        self.line(f"<info>Formatting nix output</info> {output_file!r}")
+
         subprocess.run(
             ["alejandra", output_file],
             stdout=subprocess.DEVNULL,
             stderr=subprocess.DEVNULL,
         )
+
+        self.line(f"<info>Updating plugins.md</info>")
+
+        header = "| Repo | Last Update | Nix package name | Last checked |\n| :- | :- | :- |\n"
+
+        # TODO:
+        with open(PLUGINS_LIST_FILE, "w") as file:
+            file.write(header)
+            for plugin in processed_plugins:
+                file.write(f"{plugin.to_markdown()}\n")
 
         self.line("<comment>Done</comment>")
