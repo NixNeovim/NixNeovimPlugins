@@ -82,14 +82,13 @@ class UpdateCommand(Command):
                         vim_plugin = jsonpickle.decode(data[spec.name])
                         processed_plugins.append(vim_plugin)
                 except:
-                    self.line(f"<error>Error:</error> No entries for <info> {spec.name}</info> in '.plugins.json'. Skipping...")
+                    self.line(f"   • <error>Error:</error> No entries for <info> {spec.name}</info> in '.plugins.json'. Skipping...")
 
         # check for duplicates in proccesed_plugins
 
         error = False
         for i, plugin in enumerate(processed_plugins):
             for p in processed_plugins[i+1:]:
-                print(p.name, plugin.name)
                 if plugin.name == p.name:
                     self.line(f"<error>Error:</error> The following two lines produce the same plugin name:\n - {plugin.source_line}\n - {p.source_line}")
                     error = True
