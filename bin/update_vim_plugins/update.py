@@ -111,6 +111,11 @@ class UpdateCommand(Command):
             json_file.write(json.dumps(data, indent=2, sort_keys=True))
             json_file.truncate()
 
+        if failed_plugins != []:
+            self.line(f"<error>The following plugins could not be updated</error>")
+            for s in failed_plugins:
+                self.line(f" - {s!r}")
+
         # generate output
 
         self.line(f"<info>Generating nix output</info>")
@@ -140,11 +145,5 @@ class UpdateCommand(Command):
             file.write(header)
             for plugin in processed_plugins:
                 file.write(f"{plugin.to_markdown()}\n")
-
-        # TODO: output list of failed plugins
-        if failed_plugins != []:
-            self.line(f"<error>The following plugins could not be updated</error>")
-            for s in failed_plugins:
-                self.line(f" - {s!r}")
 
         self.line("<comment>Done</comment>")
