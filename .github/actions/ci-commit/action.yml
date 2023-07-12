@@ -1,0 +1,24 @@
+name: Commit changes to the repository
+
+inputs:
+  msg:
+    description: 'Specify the commit message. Will be prepended with: CI:'
+    required: true
+  files:
+    description: 'Specify the commited files'
+    required: false
+    default: pkgs/vim-plugins.nix .previous-update.json plugins.md manifest.nix
+
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Commit changes
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_user_name: NixNeovimPlugins-CI
+        commit_user_email: ""
+        commit_author: ""
+        commit_message: 'CI: ${{ inputs.msg }} '
+        file_pattern: ${{ inputs.files }}
+        push_options: '--force'

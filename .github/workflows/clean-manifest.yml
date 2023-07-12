@@ -1,0 +1,21 @@
+name: Clean up mainfest
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update-plugins:
+    runs-on: ubuntu-latest
+    name: Clean up manifest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ github.token }}
+          ref: ${{ github.head_ref }}
+      - name: Clean up manifest.txt
+        uses: NixNeovim/NixNeovimPlugins/.github/actions/cleanup@main
+      - name: Commit changes
+        uses: NixNeovim/NixNeovimPlugins/.github/actions/ci-commit@main
+        with:
+          msg: 'Clean up Manifest'
+          files: manifest.txt

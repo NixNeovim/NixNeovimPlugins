@@ -4,6 +4,7 @@ on:
   schedule:
     - cron: "5 14 * * 0,4"
   workflow_dispatch:
+  workflow_call:
 
 jobs:
   update-plugins:
@@ -12,21 +13,33 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          token: ${{ secrets.NIXPKGS_TOKEN }}
+          token: ${{ github.token }}
           ref: ${{ github.head_ref }}
-      - uses: cachix/install-nix-action@v18
+      - uses: cachix/install-nix-action@v20
         with:
-          extra_nix_config: |
-            access-tokens = github.com=${{ secrets.NIXPKGS_TOKEN }}
+          github_access_token: ${{ github.token }}
+      - name: Reset vim-plugins.nix # TODO: workaround: if vim-plugins is broken, all 'nix run' actions will fail
+        run: |
+          echo "{ ...} : {}" > ./pkgs/vim-plugins.nix
+
+      # Sometimes, the workflow runs into rate limits for GitHub API calls, and the last entries will not be updated.
+      # Therefore, we shuffle the entries to create a fair chance for every plugin to be updated
+      - name: Shuffle manifest
+        run: |
+           echo "$(cat manifest.txt | shuf)" > manifest.txt
+
       - run: nix run .#update-vim-plugins -- update --all
         env:
-          GITHUB_TOKEN: ${{ secrets.NIXPKGS_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
           SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}
-      - uses: stefanzweifel/git-auto-commit-action@v4
+
+      # Because we shuffle the manifest, we need to sort if back here
+      - name: Sort manifest
+        run: |
+          nix run .#update-vim-plugins -- lint
+      - name: Check duplicates
+        uses: NixNeovim/NixNeovimPlugins/.github/actions/check-duplicates@main
+      - name: Commit changes
+        uses: NixNeovim/NixNeovimPlugins/.github/actions/ci-commit@main
         with:
-          commit_user_name: update-plugins-bot
-          commit_user_email: ""
-          commit_author: ""
-          commit_message: 'bot: auto update plugins'
-          file_pattern: README.md pkgs/vim-plugins.nix .previous-update.json plugins.md
-          push_options: '--force'
+          msg: 'Update plugins'

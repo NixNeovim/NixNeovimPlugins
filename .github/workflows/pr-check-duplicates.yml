@@ -1,6 +1,7 @@
 name: PR - check for duplicate caused by new PR
 
 on:
+  workflow_dispatch:
   pull_request:
     paths:
       - pkgs/vim-plugins.nix
@@ -14,9 +15,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          token: ${{ secrets.NIXPKGS_TOKEN }}
+          token: ${{ github.token }}
           ref: ${{ github.head_ref }}
-      - run: |
-          ./bin/check-duplicates.sh "check-only"
-        env:
-          GITHUB_TOKEN: ${{ secrets.REPO_ACCESS }}
+      - name: Check duplicates
+        uses: NixNeovim/NixNeovimPlugins/.github/actions/check-duplicates@main
+        with:
+          check_only: true

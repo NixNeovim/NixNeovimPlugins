@@ -1,0 +1,49 @@
+name: Fetch plugins from various sources
+
+on:
+  schedule:
+    - cron: "5 14 * * 0,4" # At 14:05 on Sunday and Thursday
+  workflow_dispatch:
+  workflow_call:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    name: Fetch plugins
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+        with:
+          token: ${{ github.token }}
+          ref: ${{ github.head_ref }}
+      - name: Install nix
+        uses: cachix/install-nix-action@v20
+        with:
+          github_access_token: ${{ github.token }}
+      - name: Reset vim-plugins.nix # TODO: workaround: if vim-plugins is broken, all 'nix run' actions will fail
+        run: |
+          echo "{ ...} : {}" > ./pkgs/vim-plugins.nix
+      - name: Fetch from awesome-neovim
+        run: nix run .#update-vim-plugins -- awesome-neovim
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}
+      - name: Fetch from m15a
+        run: |
+          git clone https://github.com/m15a/nixpkgs-vim-extra-plugins.git other
+          cat other/manifest.txt >> manifest.txt
+      - name: Clean up manifest.txt
+        uses: NixNeovim/NixNeovimPlugins/.github/actions/cleanup@main
+      - name: Generate derivations for new plugins
+        run: |
+          nix run .#update-vim-plugins -- lint
+          nix run .#update-vim-plugins
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}
+      - name: Check duplicates
+        uses: NixNeovim/NixNeovimPlugins/.github/actions/check-duplicates@main
+      - name: Commit changes
+        uses: NixNeovim/NixNeovimPlugins/.github/actions/ci-commit@main
+        with:
+          msg: 'Update plugin list'

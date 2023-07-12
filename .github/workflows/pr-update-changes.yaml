@@ -1,32 +1,36 @@
 name: PR - Update plugins in new PR
 
 on:
-  pull_request:
-    branches: [ main ]
+  workflow_dispatch:
+  pull_request_target:
+    branches:
+      - main
 
 jobs:
   sync-changes:
     runs-on: ubuntu-latest
     name: Update plugins
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v3
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.head_ref }}
-      - uses: cachix/install-nix-action@v18
+      - name: Install nix
+        uses: cachix/install-nix-action@v20
         with:
-          extra_nix_config: |
-            access-tokens = github.com=${{ secrets.NIXPKGS_TOKEN }}
+          github_access_token: ${{ github.token }}
+      - name: Reset vim-plugins.nix # TODO: workaround: if vim-plugins is broken, all 'nix run' actions will fail
+        run: |
+          echo "{ ...} : {}" > ./pkgs/vim-plugins.nix
       - run: |
           nix run .#update-vim-plugins -- lint
           nix run .#update-vim-plugins
         env:
           GITHUB_TOKEN: ${{ secrets.NIXPKGS_TOKEN }}
           SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - name: Commit changes
+        uses: NixNeovim/NixNeovimPlugins/.github/actions/ci-commit@main
         with:
-          commit_user_name: FetchPluginsBot
-          commit_user_email: joscha.loos@rwth-aachen.de
-          commit_author: Joscha Loos <joscha.loos@rwth-aachen.de>
-          commit_message: 'bot: Sync Manifest'
-          file_pattern: manifest.txt pkgs/vim-plugins.nix .previous-update.json plugins.md
+          msg: 'Update plugins'
