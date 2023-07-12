@@ -47,6 +47,7 @@ class UpdateCommand(Command):
         self.line(f"<info>Writing plugins to</info> {output_file!r}")
 
         # TODO: handle api limits
+        # TODO: add feature: only update new plugins
         processed_plugins = []
         num = len(self.specs)
         for i, spec in enumerate(self.specs):
