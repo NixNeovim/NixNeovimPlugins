@@ -86,6 +86,7 @@ class UpdateCommand(Command):
 
             json_file.seek(0)
             json_file.write(json.dumps(data, indent=2, sort_keys=True))
+            json_file.truncate()
 
         # generate output
 
