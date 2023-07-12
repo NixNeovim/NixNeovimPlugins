@@ -19,13 +19,12 @@ class VimPlugin:
 
     name: str
     owner: str
-    version: str
+    version: date
     source: Source
     description: str = "No description"
     homepage: str
     license: License
     source_line: str
-    updated: date
     checked: date = datetime.now().date()
 
     def to_nix(self):
@@ -39,15 +38,15 @@ class VimPlugin:
 
     def to_markdown(self):
         link = f"[{self.source_line}]({self.source.url})"
-        updated = f"{self.updated}"
+        version = f"{self.version}"
         package_name = f"{self.name}"
         checked = f"{self.checked}"
 
-        return f"| {link} | {updated} | {package_name} | {checked} |"
+        return f"| {link} | {version} | {package_name} | {checked} |"
 
     def __repr__(self):
         """Return the representation of this plugin."""
-        return f"VimPlugin({self.name!r}, {self.version!r})"
+        return f"VimPlugin({self.name!r}, {self.version.strftime('%Y-%m-%d')})"
 
 
 def _get_github_token():
@@ -70,13 +69,12 @@ class GitHubPlugin(VimPlugin):
 
         self.name = plugin_spec.name
         self.owner = plugin_spec.owner
-        self.version = latest_commit["committer"]["date"].split("T")[0]
+        self.version = datetime.strptime(latest_commit["committer"]["date"], '%Y-%m-%dT%H:%M:%SZ').date()
         self.source = UrlSource(f"https://github.com/{full_name}/archive/{sha}.tar.gz")
         self.description = repo_info.get("description") or self.description
         self.homepage = repo_info["html_url"]
         self.license = plugin_spec.license or License.from_spdx_id((repo_info.get("license") or {}).get("spdx_id"))
         self.source_line = plugin_spec.line
-        self.updated = datetime.strptime(latest_commit["committer"]["date"], '%Y-%m-%dT%H:%M:%SZ').date()
 
     def _api_call(self, path: str, token: str | None = _get_github_token()):
         """Call the GitHub API."""
@@ -103,13 +101,12 @@ class GitlabPlugin(VimPlugin):
 
         self.name = plugin_spec.name
         self.owner = plugin_spec.owner
-        self.version = latest_commit["committed_date"].split("T")[0]
+        self.version = datetime.strptime(latest_commit["created_at"], '%Y-%m-%dT%H:%M:%S.%f%z').date()
         self.source = UrlSource(f"https://gitlab.com/api/v4/projects/{full_name}/repository/archive.tar.gz?sha={sha}")
         self.description = repo_info.get("description") or self.description
         self.homepage = repo_info["web_url"]
         self.license = plugin_spec.license or License.from_spdx_id(repo_info.get("license", {}).get("key"))
         self.source_line = plugin_spec.line
-        self.updated = datetime.strptime(latest_commit["created_at"], '%Y-%m-%dT%H:%M:%S.%f%z').date()
 
     def _api_call(self, path: str) -> dict:
         """Call the Gitlab API."""
@@ -141,7 +138,7 @@ class SourceHutPlugin(VimPlugin):
 
         self.name = plugin_spec.name
         self.owner = plugin_spec.owner
-        self.version = latest_commit["timestamp"].split("T")[0]
+        self.version = datetime.strptime(latest_commit["timestamp"], '%Y-%m-%dT%H:%M:%S.%f%z').date()
         self.description = repo_info.get("description") or self.description
         self.homepage = f"https://git.sr.ht/~{plugin_spec.owner}/{plugin_spec.repo}"
         self.source = GitSource(self.homepage, sha)

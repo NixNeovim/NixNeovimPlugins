@@ -48,9 +48,12 @@ class UpdateCommand(Command):
 
         # TODO: handle api limits
         processed_plugins = []
-        for spec in self.specs:
+        num = len(self.specs)
+        for i, spec in enumerate(self.specs):
             try:
+                self.line(f" - <info>({i+1}/{num}) Processing</info> {spec!r}")
                 vim_plugin = plugin_from_spec(spec)
+                self.line(f"   • <comment>Success</comment> {vim_plugin!r}")
                 processed_plugins.append(vim_plugin)
             except Exception as e:
                 self.line(f"<error>Error:</error> Could not update <info>{spec.name}</info>. Keeping old values. Reason: {e}")
@@ -100,7 +103,6 @@ class UpdateCommand(Command):
         with open(output_file, "w") as file:
             file.write(header)
             for plugin in processed_plugins:
-                self.line(f" - <info>Processing</info> {plugin!r}")
                 file.write(f"{plugin.to_nix()}\n")
             file.write(footer)
 

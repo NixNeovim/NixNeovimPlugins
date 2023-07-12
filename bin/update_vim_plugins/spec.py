@@ -107,6 +107,10 @@ class PluginSpec:
 
         return spec.rstrip(":")
 
+    def __repr__(self):
+        """Return the representation of the specs"""
+        return f"PluginSpec({self.owner}/{self.repo}, {self.name})"
+
     def to_spec(self):
         """Return a spec line for a VimPluginSpec."""
         return str(self)
