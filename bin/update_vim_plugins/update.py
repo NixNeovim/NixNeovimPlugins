@@ -54,8 +54,6 @@ class UpdateCommand(Command):
         self.line(f"<info>Writing plugins to</info> {output_file!r}")
 
         # TODO: handle api limits
-        # TODO: add feature: only update new plugins
-
 
         if self.option("all"):
             updating = self.specs
@@ -67,6 +65,7 @@ class UpdateCommand(Command):
                 updating = list(filter(lambda x: x.name not in data, updating))
 
         processed_plugins = []
+        failed_plugins = []
         num = len(updating)
         for i, spec in enumerate(updating):
             try:
@@ -76,6 +75,7 @@ class UpdateCommand(Command):
                 processed_plugins.append(vim_plugin)
             except Exception as e:
                 self.line(f"<error>Error:</error> Could not update <info>{spec.name}</info>. Keeping old values. Reason: {e}")
+                failed_plugins.append(spec)
                 try:
                     with open(JSON_FILE, "r+") as json_file:
                         data = json.load(json_file)
@@ -136,12 +136,15 @@ class UpdateCommand(Command):
 
         header = "| Repo | Last Update | Nix package name | Last checked |\n| :- | :- | :- |\n"
 
-        # TODO:
         with open(PLUGINS_LIST_FILE, "w") as file:
             file.write(header)
             for plugin in processed_plugins:
                 file.write(f"{plugin.to_markdown()}\n")
 
         # TODO: output list of failed plugins
+        if failed_plugins != []:
+            self.line(f"<error>The following plugins could not be updated</error>")
+            for s in failed_plugins:
+                self.line(f" - {s!r}")
 
         self.line("<comment>Done</comment>")
