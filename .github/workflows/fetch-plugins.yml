@@ -37,7 +37,7 @@ jobs:
         uses: NixNeovim/NixNeovimPlugins/.github/actions/cleanup@main
       - name: Generate derivations for new plugins
         run: |
-          nix run -L .#update-vim-plugins -- ./manifest.txt ./pkgs/vim-plugins.nix
+          nix run -L .#update-vim-plugins -- update ./manifest.txt ./pkgs/vim-plugins.nix
         env:
           GITHUB_TOKEN: ${{ github.token }}
           SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}
