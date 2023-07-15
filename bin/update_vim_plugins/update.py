@@ -48,20 +48,31 @@ class UpdateCommand(Command):
         if self.option("all"):
             # update all plugins
             spec_list = self.specs
+            known_plugins = []
         else:
             # filter plugins we already know
             spec_list = self.specs
 
             with open(JSON_FILE, "r+") as json_file:
                 data = json.load(json_file)
+
+                known_specs = list(filter(lambda x: x.name in data, spec_list))
+                known_plugins = [ jsonpickle.decode(data[x.name]) for x in known_specs ]
+
                 spec_list = list(filter(lambda x: x.name not in data, spec_list))
 
-        spec_list = spec_list[:5]
+        processed_plugins, failed_plugins, failed_but_known = self.process_manifest(spec_list)
 
-        processed_plugins, failed_plugins = self.process_manifest(spec_list)
+        processed_plugins += known_plugins # add plugins from .plugins.json
+        processed_plugins.sort()
 
         if failed_plugins != []:
             self.line(f"<error>The following plugins could not be updated</error>")
+            for s in failed_plugins:
+                self.line(f" - {s!r}")
+
+        if failed_but_known != []:
+            self.line(f"<error>The following plugins could not be updated but an older version is known</error>")
             for s in failed_plugins:
                 self.line(f" - {s!r}")
 
@@ -124,6 +135,7 @@ class UpdateCommand(Command):
 
         with open(JSON_FILE, "r+") as json_file:
             data = json.load(json_file)
+
             for plugin in plugins:
                 data.update({f"{plugin.name}": plugin.to_json()})
 
@@ -135,6 +147,7 @@ class UpdateCommand(Command):
         """Read specs in 'spec_list' and generate plugins"""
         processed_plugins = []
         failed_plugins = []
+        failed_but_known = []
         size = len(spec_list)
 
         # We have to assume that we will reach an api limit. Therefore
@@ -150,14 +163,15 @@ class UpdateCommand(Command):
                 processed_plugins.append(vim_plugin)
             except Exception as e:
                 self.line(f"<error>Error:</error> Could not update <info>{spec.name}</info>. Keeping old values. Reason: {e}")
-                failed_plugins.append(spec)
                 try:
                     with open(JSON_FILE, "r+") as json_file:
                         data = json.load(json_file)
                         vim_plugin = jsonpickle.decode(data[spec.name])
                         processed_plugins.append(vim_plugin)
+                        failed_but_known.append(spec)
                 except:
                     self.line(f"   • <error>Error:</error> No entries for <info> {spec.name}</info> in '.plugins.json'. Skipping...")
+                    failed_plugins.append(spec)
 
         # check for duplicates in proccesed_plugins
 
@@ -175,5 +189,6 @@ class UpdateCommand(Command):
 
         processed_plugins.sort()
         failed_plugins.sort()
+        failed_but_known.sort()
 
-        return processed_plugins, failed_plugins
+        return processed_plugins, failed_plugins, failed_but_known
