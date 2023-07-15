@@ -44,6 +44,12 @@ class VimPlugin:
 
         return f"| {link} | {version} | {package_name} | {checked} |"
 
+    def __lt__(self, o: object) -> bool:
+        if not isinstance(o, VimPlugin):
+            return False
+
+        return self.name < o.name
+
     def __repr__(self):
         """Return the representation of this plugin."""
         return f"VimPlugin({self.name!r}, {self.version.strftime('%Y-%m-%d')})"

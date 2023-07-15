@@ -115,6 +115,12 @@ class PluginSpec:
         """Return a spec line for a VimPluginSpec."""
         return str(self)
 
+    def __lt__(self, o: object) -> bool:
+        if not isinstance(o, PluginSpec):
+            return False
+
+        return self.name < o.name
+
     def __eq__(self, o: object) -> bool:
         """Return True if the two specs are equal."""
         if not isinstance(o, PluginSpec):

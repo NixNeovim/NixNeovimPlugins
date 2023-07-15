@@ -1,4 +1,5 @@
 import subprocess
+from random import shuffle
 from cleo.commands.command import Command
 from cleo.helpers import argument, option
 
@@ -27,6 +28,53 @@ class UpdateCommand(Command):
         )
     ]
 
+    def handle(self):
+        """Main command function"""
+
+        input_file: str = str(self.argument("input"))
+        output_path: str = str(self.argument("output"))
+
+        self.line(f"<info>Reading from</info> {input_file!r}")
+        with open(input_file, "r") as file:
+            self.specs = (PluginSpec.from_spec(spec.strip()) for spec in file.readlines())
+
+        # filter duplicate entries
+        self.filter_specs()
+
+        self.line(f"<info>Writing plugins to</info> {output_path!r}")
+
+        # TODO: handle api limits
+
+        if self.option("all"):
+            # update all plugins
+            spec_list = self.specs
+        else:
+            # filter plugins we already know
+            spec_list = self.specs
+
+            with open(JSON_FILE, "r+") as json_file:
+                data = json.load(json_file)
+                spec_list = list(filter(lambda x: x.name not in data, spec_list))
+
+        spec_list = spec_list[:5]
+
+        processed_plugins, failed_plugins = self.process_manifest(spec_list)
+
+        if failed_plugins != []:
+            self.line(f"<error>The following plugins could not be updated</error>")
+            for s in failed_plugins:
+                self.line(f" - {s!r}")
+
+        # update plugin "database"
+        self.write_plugins_json(processed_plugins)
+
+        # generate output
+        self.write_plugins_nix(processed_plugins, output_path)
+
+        self.write_plugins_markdown(processed_plugins)
+
+        self.line("<comment>Done</comment>")
+
     def filter_specs(self) -> None:
         """Helper function that removes duplicate entries"""
 
@@ -38,38 +86,65 @@ class UpdateCommand(Command):
                 self.line(f"<error>Skipping duplicate spec:</error> {spec.name}")
         self.specs = filtered_specs
 
-    def handle(self):
-        """Main command function"""
+    def write_plugins_markdown(self, plugins):
+        """Write the list of all plugins to PLUGINS_LIST_FILE in markdown"""
 
-        input_file: str = str(self.argument("input"))
-        output_file: str = str(self.argument("output"))
+        self.line(f"<info>Updating plugins.md</info>")
 
-        self.line(f"<info>Reading from</info> {input_file!r}")
-        with open(input_file, "r") as file:
-            self.specs = (PluginSpec.from_spec(spec.strip()) for spec in file.readlines())
+        header = "| Repo | Last Update | Nix package name | Last checked |\n| :- | :- | :- |\n"
 
-        # filter duplicate entries
-        self.filter_specs()
+        with open(PLUGINS_LIST_FILE, "w") as file:
+            file.write(header)
+            for plugin in plugins:
+                file.write(f"{plugin.to_markdown()}\n")
 
-        self.line(f"<info>Writing plugins to</info> {output_file!r}")
 
-        # TODO: handle api limits
+    def write_plugins_nix(self, plugins, output_path):
+        self.line(f"<info>Generating nix output</info>")
 
-        if self.option("all"):
-            updating = self.specs
-        else:
-            updating = self.specs
+        header = "{ lib, buildVimPluginFrom2Nix, fetchurl, fetchgit }: {"
+        footer = "}"
 
-            with open(JSON_FILE, "r+") as json_file:
-                data = json.load(json_file)
-                updating = list(filter(lambda x: x.name not in data, updating))
+        with open(output_path, "w") as file:
+            file.write(header)
+            for plugin in plugins:
+                file.write(f"{plugin.to_nix()}\n")
+            file.write(footer)
 
+        self.line(f"<info>Formatting nix output</info> {output_path!r}")
+
+        subprocess.run(
+            ["alejandra", output_path],
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+        )
+
+    def write_plugins_json(self, plugins):
+        self.line(f"<info>Storing results in .plugins.json</info>")
+
+        with open(JSON_FILE, "r+") as json_file:
+            data = json.load(json_file)
+            for plugin in plugins:
+                data.update({f"{plugin.name}": plugin.to_json()})
+
+            json_file.seek(0)
+            json_file.write(json.dumps(data, indent=2, sort_keys=True))
+            json_file.truncate()
+
+    def process_manifest(self, spec_list):
+        """Read specs in 'spec_list' and generate plugins"""
         processed_plugins = []
         failed_plugins = []
-        num = len(updating)
-        for i, spec in enumerate(updating):
+        size = len(spec_list)
+
+        # We have to assume that we will reach an api limit. Therefore
+        # we randomize the spec list to give every entry the same change to be updated and
+        # not favor those at the start of the list
+        shuffle(spec_list)
+
+        for i, spec in enumerate(spec_list):
             try:
-                self.line(f" - <info>({i+1}/{num}) Processing</info> {spec!r}")
+                self.line(f" - <info>({i+1}/{size}) Processing</info> {spec!r}")
                 vim_plugin = plugin_from_spec(spec)
                 self.line(f"   • <comment>Success</comment> {vim_plugin!r}")
                 processed_plugins.append(vim_plugin)
@@ -98,52 +173,7 @@ class UpdateCommand(Command):
         if error:
             exit(1)
 
-        # update plugin database
+        processed_plugins.sort()
+        failed_plugins.sort()
 
-        self.line(f"<info>Storing results in .plugins.json</info>")
-
-        with open(JSON_FILE, "r+") as json_file:
-            data = json.load(json_file)
-            for plugin in processed_plugins:
-                data.update({f"{plugin.name}": plugin.to_json()})
-
-            json_file.seek(0)
-            json_file.write(json.dumps(data, indent=2, sort_keys=True))
-            json_file.truncate()
-
-        if failed_plugins != []:
-            self.line(f"<error>The following plugins could not be updated</error>")
-            for s in failed_plugins:
-                self.line(f" - {s!r}")
-
-        # generate output
-
-        self.line(f"<info>Generating nix output</info>")
-
-        header = "{ lib, buildVimPluginFrom2Nix, fetchurl, fetchgit }: {"
-        footer = "}"
-
-        with open(output_file, "w") as file:
-            file.write(header)
-            for plugin in processed_plugins:
-                file.write(f"{plugin.to_nix()}\n")
-            file.write(footer)
-
-        self.line(f"<info>Formatting nix output</info> {output_file!r}")
-
-        subprocess.run(
-            ["alejandra", output_file],
-            stdout=subprocess.DEVNULL,
-            stderr=subprocess.DEVNULL,
-        )
-
-        self.line(f"<info>Updating plugins.md</info>")
-
-        header = "| Repo | Last Update | Nix package name | Last checked |\n| :- | :- | :- |\n"
-
-        with open(PLUGINS_LIST_FILE, "w") as file:
-            file.write(header)
-            for plugin in processed_plugins:
-                file.write(f"{plugin.to_markdown()}\n")
-
-        self.line("<comment>Done</comment>")
+        return processed_plugins, failed_plugins
