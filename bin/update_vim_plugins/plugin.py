@@ -42,7 +42,7 @@ class VimPlugin:
         package_name = f"{self.name}"
         checked = f"{self.checked}"
 
-        return f"| {link} | {version} | {package_name} | {checked} |"
+        return f"| {link} | {version} | `{package_name}` | {checked} |"
 
     def __lt__(self, o: object) -> bool:
         if not isinstance(o, VimPlugin):
