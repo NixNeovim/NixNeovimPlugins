@@ -80,7 +80,7 @@ class PluginSpec:
         self.repo = repo
         self.branch = branch
         self._name = name
-        self.name = name or repo.replace(".", "-")
+        self.name = name or repo.replace(".", "-").replace("_", "-")
         self.license = License(license) if license else None
         self.line = line
 
