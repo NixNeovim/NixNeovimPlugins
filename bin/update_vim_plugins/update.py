@@ -43,8 +43,6 @@ class UpdateCommand(Command):
 
         self.line(f"<info>Writing plugins to</info> {output_path!r}")
 
-        # TODO: handle api limits
-
         if self.option("all"):
             # update all plugins
             spec_list = self.specs
@@ -67,13 +65,13 @@ class UpdateCommand(Command):
         processed_plugins.sort()
 
         if failed_plugins != []:
-            self.line(f"<error>The following plugins could not be updated</error>")
+            self.line(f"<error>Not processed:</error> The following plugins could not be updated")
             for s in failed_plugins:
                 self.line(f" - {s!r}")
 
         if failed_but_known != []:
-            self.line(f"<error>The following plugins could not be updated but an older version is known</error>")
-            for s in failed_plugins:
+            self.line(f"<error>Not updated:</error> The following plugins could not be updated but an older version is known")
+            for s in failed_but_known:
                 self.line(f" - {s!r}")
 
         # update plugin "database"
@@ -168,7 +166,7 @@ class UpdateCommand(Command):
                         data = json.load(json_file)
                         vim_plugin = jsonpickle.decode(data[spec.name])
                         processed_plugins.append(vim_plugin)
-                        failed_but_known.append(spec)
+                        failed_but_known.append(vim_plugin)
                 except:
                     self.line(f"   • <error>Error:</error> No entries for <info> {spec.name}</info> in '.plugins.json'. Skipping...")
                     failed_plugins.append(spec)
