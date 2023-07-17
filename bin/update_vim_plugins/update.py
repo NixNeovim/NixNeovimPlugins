@@ -59,6 +59,7 @@ class UpdateCommand(Command):
 
                 spec_list = list(filter(lambda x: x.name not in data, spec_list))
 
+
         processed_plugins, failed_plugins, failed_but_known = self.process_manifest(spec_list)
 
         processed_plugins += known_plugins # add plugins from .plugins.json
@@ -66,13 +67,13 @@ class UpdateCommand(Command):
 
         if failed_plugins != []:
             self.line(f"<error>Not processed:</error> The following plugins could not be updated")
-            for s in failed_plugins:
-                self.line(f" - {s!r}")
+            for (s, e) in failed_plugins:
+                self.line(f" - {s!r} - {e}")
 
         if failed_but_known != []:
             self.line(f"<error>Not updated:</error> The following plugins could not be updated but an older version is known")
-            for s in failed_but_known:
-                self.line(f" - {s!r}")
+            for (s, e) in failed_but_known:
+                self.line(f" - {s!r} - {e}")
 
         # update plugin "database"
         self.write_plugins_json(processed_plugins)
@@ -166,10 +167,10 @@ class UpdateCommand(Command):
                         data = json.load(json_file)
                         vim_plugin = jsonpickle.decode(data[spec.name])
                         processed_plugins.append(vim_plugin)
-                        failed_but_known.append(vim_plugin)
+                        failed_but_known.append((vim_plugin, e))
                 except:
                     self.line(f"   • <error>Error:</error> No entries for <info> {spec.name}</info> in '.plugins.json'. Skipping...")
-                    failed_plugins.append(spec)
+                    failed_plugins.append((spec, e))
 
         # check for duplicates in proccesed_plugins
 
