@@ -1,6 +1,6 @@
 | Repo | Last Update | Nix package name | Last checked |
-| :-   | :-          | :-               | :-           |
-[|](|) [Pocco81/AbbrevMan.nvim](https://github.com/Pocco81/AbbrevMan.nvim/archive/47bece40365c3bba9ac5ab48adcfc7688d53965e.tar.gz)                                                | 2023-05-15  | AbbrevMan-nvim                   | 2023-07-17   |
+| :- | :- | :- | :- |
+| [Pocco81/AbbrevMan.nvim](https://github.com/Pocco81/AbbrevMan.nvim/archive/47bece40365c3bba9ac5ab48adcfc7688d53965e.tar.gz)                                                | 2023-05-15  | AbbrevMan-nvim                   | 2023-07-17   |
 | [numToStr/BufOnly.nvim](https://github.com/numToStr/BufOnly.nvim/archive/30579c2851743b00c4547c324a16f2c1cfa5a41c.tar.gz)                                                  | 2021-07-05  | BufOnly-nvim                     | 2023-07-17   |
 | [numToStr/Comment.nvim](https://github.com/numToStr/Comment.nvim/archive/176e85eeb63f1a5970d6b88f1725039d85ca0055.tar.gz)                                                  | 2023-06-12  | Comment-nvim                     | 2023-07-17   |
 | [Pocco81/DAPInstall.nvim](https://github.com/Pocco81/DAPInstall.nvim/archive/bbda2b062e5519cde4e10b6e4240d3dd1f867b20.tar.gz)                                              | 2022-04-20  | DAPInstall-nvim                  | 2023-07-17   |
