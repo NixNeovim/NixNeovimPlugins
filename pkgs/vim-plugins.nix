@@ -459,6 +459,20 @@
       license = with licenses; [mit];
     };
   };
+  ataraxis-lua = buildVimPluginFrom2Nix {
+    pname = "ataraxis-lua";
+    version = "2023-03-22";
+    src = fetchgit {
+      url = "https://git.sr.ht/~henriquehbr/ataraxis.lua";
+      rev = "5c89190860fd443aa629940f7dbd7ce997ebb6d6";
+      sha256 = "1q04lj0357gjaxbvxjllcq0x98p2a64ij5s3clsgy59ljy1fzh7y";
+    };
+    meta = with lib; {
+      description = "Neovim zen mode for improving code readability";
+      homepage = "https://git.sr.ht/~henriquehbr/ataraxis.lua";
+      license = with licenses; [];
+    };
+  };
   attempt-nvim = buildVimPluginFrom2Nix {
     pname = "attempt-nvim";
     version = "2023-07-05";
@@ -498,6 +512,20 @@
       license = with licenses; [gpl3Only];
     };
   };
+  auto-format-nvim = buildVimPluginFrom2Nix {
+    pname = "auto-format-nvim";
+    version = "2023-02-21";
+    src = fetchgit {
+      url = "https://git.sr.ht/~nedia/auto-format.nvim";
+      rev = "13c6bfe340520463643838e947639fc5efd27433";
+      sha256 = "024l6x3srdvs4hxp950dpdnm4j8azx0qzb9xh8ih1kr9v025ap81";
+    };
+    meta = with lib; {
+      description = "Simple auto formatter that prefers `null-ls` over LSP.";
+      homepage = "https://git.sr.ht/~nedia/auto-format.nvim";
+      license = with licenses; [];
+    };
+  };
   auto-pandoc-nvim = buildVimPluginFrom2Nix {
     pname = "auto-pandoc-nvim";
     version = "2022-09-05";
@@ -509,6 +537,20 @@
       description = "A neovim plugin leveraging pandoc to help you convert your markdown files. It takes pandoc options from yaml blocks.";
       homepage = "https://github.com/jghauser/auto-pandoc.nvim";
       license = with licenses; [gpl3Only];
+    };
+  };
+  auto-save-nvim-nedia = buildVimPluginFrom2Nix {
+    pname = "auto-save-nvim-nedia";
+    version = "2023-04-27";
+    src = fetchgit {
+      url = "https://git.sr.ht/~nedia/auto-save.nvim";
+      rev = "20f2bd0aed7534a2c80bd21af20c912480725fa0";
+      sha256 = "17k4fs6kr6lrzy35w4xx7y1ndl6ifl2b0y2gy7n6j9k6mblci8ll";
+    };
+    meta = with lib; {
+      description = "Extremely simple, small, auto save plugin for Neovim.";
+      homepage = "https://git.sr.ht/~nedia/auto-save.nvim";
+      license = with licenses; [];
     };
   };
   auto-save-nvim-pocco81 = buildVimPluginFrom2Nix {
@@ -3696,6 +3738,20 @@
       license = with licenses; [];
     };
   };
+  lsp-lines-nvim = buildVimPluginFrom2Nix {
+    pname = "lsp-lines-nvim";
+    version = "2023-05-13";
+    src = fetchgit {
+      url = "https://git.sr.ht/~whynothugo/lsp_lines.nvim";
+      rev = "f53af96d4789eef39a082dbcce078d2bfc384ece";
+      sha256 = "11nsp21n1lhjl6m4mgj1vdcvalik9dmvv8baflzd2njb5g3gc5v6";
+    };
+    meta = with lib; {
+      description = "Show nvim diagnostics using virtual lines";
+      homepage = "https://git.sr.ht/~whynothugo/lsp_lines.nvim";
+      license = with licenses; [];
+    };
+  };
   lsp-progress-nvim = buildVimPluginFrom2Nix {
     pname = "lsp-progress-nvim";
     version = "2023-07-17";
@@ -6124,6 +6180,20 @@
     meta = with lib; {
       description = "A colorscheme for Neovim inspired by Srcery.";
       homepage = "https://github.com/mnacamura/nvim-srcerite";
+      license = with licenses; [];
+    };
+  };
+  nvim-startup-lua = buildVimPluginFrom2Nix {
+    pname = "nvim-startup-lua";
+    version = "2022-07-31";
+    src = fetchgit {
+      url = "https://git.sr.ht/~henriquehbr/nvim-startup.lua";
+      rev = "f2f450df0ea970b9e7848ab1634f01baccc1dcf8";
+      sha256 = "18355a1mb4a0p2fbirzyx1axs4vl7vnmgls5hpgdw51kylffz9gp";
+    };
+    meta = with lib; {
+      description = "Displays neovim startup time";
+      homepage = "https://git.sr.ht/~henriquehbr/nvim-startup.lua";
       license = with licenses; [];
     };
   };

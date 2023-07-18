@@ -35,10 +35,13 @@
 | [jim-at-jibba/ariake-vim-colors](https://github.com/jim-at-jibba/ariake-vim-colors) | 2021-02-23 | `ariake-vim-colors` | 2023-07-18 |
 | [tjdevries/astronauta.nvim:edc19d30a3c51a8c3fc3f606008e5b4238821f1e](https://github.com/tjdevries/astronauta.nvim) | 2021-11-09 | `astronauta-nvim` | 2023-07-18 |
 | [skywind3000/asyncrun.vim](https://github.com/skywind3000/asyncrun.vim) | 2023-03-17 | `asyncrun-vim` | 2023-07-18 |
+| [sourcehut:henriquehbr/ataraxis.lua](https://git.sr.ht/~henriquehbr/ataraxis.lua) | 2023-03-22 | `ataraxis-lua` | 2023-07-18 |
 | [m-demare/attempt.nvim](https://github.com/m-demare/attempt.nvim) | 2023-07-05 | `attempt-nvim` | 2023-07-18 |
 | [ray-x/aurora](https://github.com/ray-x/aurora) | 2023-03-23 | `aurora` | 2023-07-18 |
 | [f-person/auto-dark-mode.nvim](https://github.com/f-person/auto-dark-mode.nvim) | 2023-06-15 | `auto-dark-mode-nvim` | 2023-07-18 |
+| [sourcehut:nedia/auto-format.nvim](https://git.sr.ht/~nedia/auto-format.nvim) | 2023-02-21 | `auto-format-nvim` | 2023-07-18 |
 | [jghauser/auto-pandoc.nvim](https://github.com/jghauser/auto-pandoc.nvim) | 2022-09-05 | `auto-pandoc-nvim` | 2023-07-18 |
+| [sourcehut:nedia/auto-save.nvim::auto-save-nvim-nedia](https://git.sr.ht/~nedia/auto-save.nvim) | 2023-04-27 | `auto-save-nvim-nedia` | 2023-07-18 |
 | [Pocco81/auto-save.nvim::auto-save-nvim-pocco81](https://github.com/Pocco81/auto-save.nvim) | 2022-11-01 | `auto-save-nvim-pocco81` | 2023-07-18 |
 | [rmagatti/auto-session](https://github.com/rmagatti/auto-session) | 2023-06-13 | `auto-session` | 2023-07-18 |
 | [m4xshen/autoclose.nvim](https://github.com/m4xshen/autoclose.nvim) | 2023-06-22 | `autoclose-nvim` | 2023-07-18 |
@@ -284,6 +287,7 @@
 | [folke/lsp-colors.nvim](https://github.com/folke/lsp-colors.nvim) | 2023-02-27 | `lsp-colors-nvim` | 2023-07-18 |
 | [nvim-lua/lsp_extensions.nvim](https://github.com/nvim-lua/lsp_extensions.nvim) | 2022-07-07 | `lsp-extensions-nvim` | 2023-07-18 |
 | [lukas-reineke/lsp-format.nvim](https://github.com/lukas-reineke/lsp-format.nvim) | 2022-11-25 | `lsp-format-nvim` | 2023-07-18 |
+| [sourcehut:whynothugo/lsp_lines.nvim](https://git.sr.ht/~whynothugo/lsp_lines.nvim) | 2023-05-13 | `lsp-lines-nvim` | 2023-07-18 |
 | [linrongbin16/lsp-progress.nvim](https://github.com/linrongbin16/lsp-progress.nvim) | 2023-07-17 | `lsp-progress-nvim` | 2023-07-18 |
 | [ray-x/lsp_signature.nvim](https://github.com/ray-x/lsp_signature.nvim) | 2023-06-01 | `lsp-signature-nvim` | 2023-07-18 |
 | [nvim-lua/lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim) | 2022-08-03 | `lsp-status-nvim` | 2023-07-18 |
@@ -471,6 +475,7 @@
 | [windwp/nvim-spectre](https://github.com/nvim-pack/nvim-spectre) | 2023-07-09 | `nvim-spectre` | 2023-07-18 |
 | [chrisgrieser/nvim-spider](https://github.com/chrisgrieser/nvim-spider) | 2023-07-12 | `nvim-spider` | 2023-07-18 |
 | [mnacamura/nvim-srcerite](https://github.com/mnacamura/nvim-srcerite) | 2022-07-23 | `nvim-srcerite` | 2023-07-18 |
+| [sourcehut:henriquehbr/nvim-startup.lua](https://git.sr.ht/~henriquehbr/nvim-startup.lua) | 2022-07-31 | `nvim-startup-lua` | 2023-07-18 |
 | [emileferreira/nvim-strict](https://github.com/emileferreira/nvim-strict) | 2023-03-16 | `nvim-strict` | 2023-07-18 |
 | [kylechui/nvim-surround](https://github.com/kylechui/nvim-surround) | 2023-05-30 | `nvim-surround` | 2023-07-18 |
 | [crispgm/nvim-tabline](https://github.com/crispgm/nvim-tabline) | 2023-05-10 | `nvim-tabline` | 2023-07-18 |
