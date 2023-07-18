@@ -1,5 +1,4 @@
 0styx0/abbreinder.nvim
-niuiic/format.nvim
 4e554c4c/darkman.nvim
 Abstract-IDE/penvim
 AckslD/messages.nvim
@@ -463,6 +462,7 @@ nguyenvukhang/nvim-toggler
 nikvdp/neomux
 niuiic/cp-image.nvim
 niuiic/divider.nvim
+niuiic/format.nvim
 niuiic/multiple-session.nvim
 niuiic/part-edit.nvim
 niuiic/translate.nvim
