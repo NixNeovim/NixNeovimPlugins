@@ -54,7 +54,7 @@ class VimPlugin:
 
     def __repr__(self):
         """Return the representation of this plugin."""
-        return f"VimPlugin({self.name!r}, {parse(self.version)})"
+        return f"VimPlugin({self.name!r}, {parse(str(self.version))})"
 
 
 def _get_github_token():
