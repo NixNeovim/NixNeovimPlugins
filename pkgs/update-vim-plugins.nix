@@ -1,31 +1,18 @@
-{ stdenvNoCC, makeWrapper, nix, nix-prefetch-git, fennel, luajit }:
+{ mkPoetryApplication, nix, nix-prefetch-git, alejandra, pkgs, lib }:
 
-stdenvNoCC.mkDerivation {
-  pname = "update-vim-plugins";
-  version = "0.1";
-
-  src = ../.;
-
-  nativeBuildInputs = [ makeWrapper ];
-
+mkPoetryApplication {
+  projectDir = ../bin;
   buildInputs = [
     nix
     nix-prefetch-git
-    (fennel.override { lua = luajit; })
-  ] ++ (with luajit.pkgs; [
-    http
-    cjson
-    lpeg
-  ]);
+    alejandra
+  ];
 
-  dontPatchShebangs = true;
+  postFixup = ''
+      wrapProgram $out/bin/update-vim-plugins \
+        --prefix PATH : ${lib.makeBinPath [ pkgs.alejandra ]}
+    '';
 
-  installPhase = ''
-    mkdir -p $out/bin/.unwrapped
-    install bin/update-vim-plugins -m 755 $out/bin/.unwrapped/update-vim-plugins
-    makeWrapper $out/bin/.unwrapped/update-vim-plugins $out/bin/update-vim-plugins \
-      --set PATH "$PATH" \
-      --set LUA_CPATH "?.lua;$LUA_CPATH" \
-      --set LUA_PATH "?.lua;$LUA_PATH"
-  '';
+  # FIX:
+  # checkPhase = "${pkgs.python310Packages.pytest}/bin/pytest --cov update_vim_plugins --cov-report term-missing:skip-covered --cov-fail-under 50 update_vim_plugins/tests";
 }
