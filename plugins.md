@@ -194,6 +194,7 @@
 | [jghauser/fold-cycle.nvim](https://github.com/jghauser/fold-cycle.nvim) | 2023-04-22 | `fold-cycle-nvim` | 2023-07-18 |
 | [anuvyklack/fold-preview.nvim](https://github.com/anuvyklack/fold-preview.nvim) | 2023-01-27 | `fold-preview-nvim` | 2023-07-18 |
 | [jghauser/follow-md-links.nvim](https://github.com/jghauser/follow-md-links.nvim) | 2023-04-20 | `follow-md-links-nvim` | 2023-07-18 |
+| [niuiic/format.nvim](https://github.com/niuiic/format.nvim) | 2023-07-18 | `format-nvim` | 2023-07-18 |
 | [mhartington/formatter.nvim](https://github.com/mhartington/formatter.nvim) | 2023-07-13 | `formatter-nvim` | 2023-07-18 |
 | [amirrezaask/fuzzy.nvim](https://github.com/amirrezaask/fuzzy.nvim) | 2021-05-13 | `fuzzy-nvim` | 2023-07-18 |
 | [gfanto/fzf-lsp.nvim](https://github.com/gfanto/fzf-lsp.nvim) | 2023-02-02 | `fzf-lsp-nvim` | 2023-07-18 |

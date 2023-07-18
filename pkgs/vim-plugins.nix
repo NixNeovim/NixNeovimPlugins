@@ -2526,6 +2526,19 @@
       license = with licenses; [gpl3Only];
     };
   };
+  format-nvim = buildVimPluginFrom2Nix {
+    pname = "format-nvim";
+    version = "2023-07-18";
+    src = fetchurl {
+      url = "https://github.com/niuiic/format.nvim/archive/fa675dd34a6d2b7ce95fe152f4e6089ed84aaee2.tar.gz";
+      sha256 = "0ir4wzj97lvrd61c0415fk9w9c97w79xzwpg86y7kbrhdg0bgp6n";
+    };
+    meta = with lib; {
+      description = "An asynchronous, multitasking, and highly configurable formatting plugin.";
+      homepage = "https://github.com/niuiic/format.nvim";
+      license = with licenses; [mit];
+    };
+  };
   formatter-nvim = buildVimPluginFrom2Nix {
     pname = "formatter-nvim";
     version = "2023-07-13";
