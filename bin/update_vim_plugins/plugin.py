@@ -6,6 +6,7 @@ import requests
 from datetime import datetime, date
 import jsonpickle
 from datetime import datetime
+from dateparser import parse
 
 from .nix import GitSource, License, Source, UrlSource
 from .spec import PluginSpec, RepositoryHost
@@ -53,7 +54,7 @@ class VimPlugin:
 
     def __repr__(self):
         """Return the representation of this plugin."""
-        return f"VimPlugin({self.name!r}, {self.version.strftime('%Y-%m-%d')})"
+        return f"VimPlugin({self.name!r}, {parse(self.version)})"
 
 
 def _get_github_token():
