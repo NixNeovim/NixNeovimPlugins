@@ -4,13 +4,11 @@ mkPoetryApplication {
   projectDir = ../bin;
   buildInputs = [
     nix
-    nix-prefetch-git
-    alejandra
   ];
 
   postFixup = ''
       wrapProgram $out/bin/update-vim-plugins \
-        --prefix PATH : ${lib.makeBinPath [ pkgs.alejandra ]}
+        --prefix PATH : ${lib.makeBinPath [ pkgs.alejandra pkgs.nix-prefetch-git ]}
     '';
 
   # FIX:
