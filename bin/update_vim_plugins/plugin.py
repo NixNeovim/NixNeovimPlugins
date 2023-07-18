@@ -19,6 +19,7 @@ class VimPlugin:
 
     name: str
     owner: str
+    repo: str
     version: date
     source: Source
     description: str = "No description"
@@ -37,7 +38,7 @@ class VimPlugin:
         return jsonpickle.encode(self)
 
     def to_markdown(self):
-        link = f"[{self.source_line}]({self.source.url})"
+        link = f"[{self.source_line}]({self.homepage})"
         version = f"{self.version}"
         package_name = f"{self.name}"
         checked = f"{self.checked}"
