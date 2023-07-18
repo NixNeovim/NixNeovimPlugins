@@ -272,6 +272,8 @@ ggandor/leap.nvim
 ggandor/lightspeed.nvim
 ghillb/cybu.nvim
 github/copilot.vim
+gitlab:yorickpeterse/nvim-pqf
+gitlab:yorickpeterse/nvim-window
 glacambre/firenvim
 glepnir/dashboard-nvim
 glepnir/indent-guides.nvim
@@ -285,8 +287,6 @@ gpanders/editorconfig.nvim
 gwatcha/reaper-keys
 h-hg/fcitx.nvim
 haringsrob/nvim_context_vt
-sourcehut:henriquehbr/ataraxis.lua
-sourcehut:henriquehbr/nvim-startup.lua
 hkupty/iron.nvim
 hkupty/nvimux
 houtsnip/vim-emacscommandline
@@ -456,8 +456,6 @@ nanozuki/tabby.nvim
 natecraddock/workspaces.nvim
 navarasu/onedark.nvim
 neanias/everforest-nvim
-sourcehut:nedia/auto-format.nvim
-sourcehut:nedia/auto-save.nvim::auto-save-nvim-nedia
 nekonako/xresources-nvim
 neovim/nvim-lspconfig
 nguyenvukhang/nvim-toggler
@@ -628,6 +626,11 @@ smjonas/inc-rename.nvim
 smjonas/snippet-converter.nvim
 smzm/hydrovim
 someone-stole-my-name/yaml-companion.nvim
+sourcehut:henriquehbr/ataraxis.lua
+sourcehut:henriquehbr/nvim-startup.lua
+sourcehut:nedia/auto-format.nvim
+sourcehut:nedia/auto-save.nvim::auto-save-nvim-nedia
+sourcehut:whynothugo/lsp_lines.nvim
 startup-nvim/startup.nvim
 stevearc/aerial.nvim
 stevearc/dressing.nvim
@@ -690,7 +693,6 @@ vuki656/package-info.nvim
 wakatime/vim-wakatime
 wbthomason/packer.nvim
 weilbith/nvim-code-action-menu
-sourcehut:whynothugo/lsp_lines.nvim
 williamboman/mason-lspconfig.nvim
 williamboman/mason.nvim
 williamboman/nvim-lsp-installer
@@ -718,8 +720,6 @@ yashguptaz/calvera-dark.nvim
 yazeed1s/minimal.nvim
 yazeed1s/oh-lucy.nvim
 yonlu/omni.vim
-gitlab:yorickpeterse/nvim-pqf
-gitlab:yorickpeterse/nvim-window
 zbirenbaum/copilot-cmp
 zbirenbaum/copilot.lua
 zbirenbaum/neodim
