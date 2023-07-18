@@ -54,7 +54,7 @@ class VimPlugin:
 
     def __repr__(self):
         """Return the representation of this plugin."""
-        return f"VimPlugin({self.name!r}, {parse(str(self.version))})"
+        return f"VimPlugin({self.name!r}, {self.version.strftime('%Y-%m-%d')})"
 
 
 def _get_github_token():
@@ -77,7 +77,7 @@ class GitHubPlugin(VimPlugin):
 
         self.name = plugin_spec.name
         self.owner = plugin_spec.owner
-        self.version = datetime.strptime(latest_commit["committer"]["date"], '%Y-%m-%dT%H:%M:%SZ').date()
+        self.version = parse(latest_commit["committer"]["date"]).date()
         self.source = UrlSource(f"https://github.com/{full_name}/archive/{sha}.tar.gz")
         self.description = repo_info.get("description") or self.description
         self.homepage = repo_info["html_url"]
@@ -109,7 +109,7 @@ class GitlabPlugin(VimPlugin):
 
         self.name = plugin_spec.name
         self.owner = plugin_spec.owner
-        self.version = datetime.strptime(latest_commit["created_at"], '%Y-%m-%dT%H:%M:%S.%f%z').date()
+        self.version = parse(latest_commit["created_at"]).date()
         self.source = UrlSource(f"https://gitlab.com/api/v4/projects/{full_name}/repository/archive.tar.gz?sha={sha}")
         self.description = repo_info.get("description") or self.description
         self.homepage = repo_info["web_url"]
@@ -146,7 +146,7 @@ class SourceHutPlugin(VimPlugin):
 
         self.name = plugin_spec.name
         self.owner = plugin_spec.owner
-        self.version = datetime.strptime(latest_commit["timestamp"], '%Y-%m-%dT%H:%M:%S.%f%z').date()
+        self.version = parse(latest_commit["timestamp"]).date()
         self.description = repo_info.get("description") or self.description
         self.homepage = f"https://git.sr.ht/~{plugin_spec.owner}/{plugin_spec.repo}"
         self.source = GitSource(self.homepage, sha)
