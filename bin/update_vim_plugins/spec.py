@@ -33,11 +33,12 @@ class PluginSpec:
         owner_regex = r"(?P<owner>[^/:]+)"
         repo_regex = r"(?P<repo>[^:]+)"
         branch_regex = r"(:(?P<branch>[^:]+)?)"
-        name_regex = r"(:(?P<name>[^:]+))"
-        license_regex = r"(:(?P<license>[^:]+))"
+        name_regex = r"(:(?P<name>[^:]+)?)"
+        license_regex = r"(:(?P<license>[^:]+)?)"
+        marked_duplicate_regex = r'(:(?P<duplicate>duplicate))'
 
         spec_regex = re.compile(
-            f"^{repository_host_regex}?{owner_regex}/{repo_regex}{branch_regex}?{name_regex}?{license_regex}?$",
+            f"^{repository_host_regex}?{owner_regex}/{repo_regex}{branch_regex}?{name_regex}?{license_regex}?{marked_duplicate_regex}?$",
         )
 
         match = spec_regex.match(spec)
@@ -59,10 +60,11 @@ class PluginSpec:
         branch = group_dict.get("branch")
         name = group_dict.get("name")
         license = group_dict.get("license")
+        marked_duplicate = bool(group_dict.get("duplicate")) # True if 'duplicate', False if None
 
         line = spec
 
-        return cls(repository_host, owner, repo, line, branch, name, license)
+        return cls(repository_host, owner, repo, line, branch, name, license, marked_duplicate)
 
     def __init__(
         self,
@@ -73,16 +75,18 @@ class PluginSpec:
         branch: str | None = None,
         name: str | None = None,
         license: str | None = None,
+        marked_duplicate: bool = False,
     ) -> None:
         """Initialize a VimPluginSpec."""
         self.repository_host = repository_host
         self.owner = owner
         self.repo = repo
         self.branch = branch
-        self._name = name
+        self.custom_name = name
         self.name = name or repo.replace(".", "-").replace("_", "-")
         self.license = License(license) if license else None
         self.line = line
+        self.marked_duplicate = marked_duplicate
 
     def __str__(self) -> str:
         """Return a string representation of a VimPluginSpec."""
@@ -98,8 +102,8 @@ class PluginSpec:
             spec += self.branch
 
         spec += ":"
-        if self._name is not None:
-            spec += self._name
+        if self.custom_name is not None:
+            spec += self.custom_name
 
         spec += ":"
         if self.license is not None:
