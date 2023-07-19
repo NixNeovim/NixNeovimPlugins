@@ -136,9 +136,7 @@ class UpdateCommand(Command):
         for i, plugin in enumerate(plugins):
             for p in plugins[i+1:]:
                 if plugin.name == p.name:
-                    self.line(f"<error>Error:</error> The following two lines produce the same plugin name:\n - {plugin.source_line}\n - {p.source_line}")
-                    pprint(plugin.name)
-                    pprint(p.name)
+                    self.line(f"<error>Error:</error> The following two lines produce the same plugin name:\n - {plugin.source_line}\n - {p.source_line}\n -> {p.name}")
                     error = True
 
         # We want to exit if the resulting nix file would be broken
