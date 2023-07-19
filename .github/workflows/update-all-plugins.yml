@@ -21,11 +21,8 @@ jobs:
 
       - uses: DeterminateSystems/magic-nix-cache-action@main
 
-      - name: Reset vim-plugins.nix # NOTE: this is a workaround: if vim-plugins is broken, all 'nix run' actions will fail
-        run: |
-          echo "{ ...} : {}" > ./pkgs/vim-plugins.nix
-
-      - run: nix run .#update-vim-plugins -- update --all
+      - name: Update all plugins
+        run: nix run .#update-vim-plugins -- update --all
         env:
           GITHUB_TOKEN: ${{ github.token }}
           SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}

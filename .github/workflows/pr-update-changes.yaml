@@ -28,11 +28,8 @@ jobs:
       - name: Clean up Manifest
         uses: NixNeovim/NixNeovimPlugins/.github/actions/cleanup@main
 
-      - name: Reset vim-plugins.nix # NOTE: this is a workaround: if vim-plugins is broken, all 'nix run' actions will fail
+      - name: Update new plugins
         run: |
-          echo "{ ...} : {}" > ./pkgs/vim-plugins.nix
-
-      - run: |
           nix run .#update-vim-plugins -- update
         env:
           GITHUB_TOKEN: ${{ github.token }}
