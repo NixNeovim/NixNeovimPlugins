@@ -16,7 +16,7 @@ def read_manifest() -> list[str]:
 
 def read_manifest_to_spec() -> list[PluginSpec]:
     manifest = read_manifest()
-    specs = set([ PluginSpec.from_spec(spec.strip()) for spec in manifest ])
+    specs = [ PluginSpec.from_spec(spec.strip()) for spec in manifest ]
 
     return sorted(specs)
 
@@ -25,6 +25,12 @@ def read_blacklist() -> list[str]:
         blacklisted_specs = set([ spec.strip() for spec in file.readlines() ])
 
     return sorted(blacklisted_specs)
+
+def read_blacklist_to_spec() -> list[PluginSpec]:
+    blacklist = read_blacklist()
+    specs = [ PluginSpec.from_spec(spec.strip()) for spec in blacklist ]
+
+    return sorted(specs)
 
 def write_manifest(specs: list[str]|set[str]):
     """write specs to manifest file. Does some cleaning up"""
