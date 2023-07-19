@@ -13,12 +13,13 @@ class FetchCommand(Command):
     def handle(self):
         """Main command function"""
 
-        awesome_plugins_specs = self.fetch_awesome()
+        #  awesome_plugins_specs = self.fetch_awesome()
         m15a_plugins_specs = self.fetch_m15a()
 
         known_specs = read_manifest()
 
-        new_specs = known_specs + awesome_plugins_specs + m15a_plugins_specs
+        new_specs = known_specs + m15a_plugins_specs
+        #  new_specs = known_specs + awesome_plugins_specs + m15a_plugins_specs
 
         write_manifest(new_specs)
 
