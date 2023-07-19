@@ -43,8 +43,11 @@ jobs:
       - name: Clean up manifest.txt
         uses: NixNeovim/NixNeovimPlugins/.github/actions/cleanup@main
 
-      - name: Generate derivations for new plugins
-        uses: NixNeovim/NixNeovimPlugins/.github/actions/update-plugins@main
+      - run: |
+          nix run .#update-vim-plugins -- update
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}
 
       - name: Commit changes
         uses: NixNeovim/NixNeovimPlugins/.github/actions/ci-commit@main
