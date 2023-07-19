@@ -240,10 +240,10 @@
   };
   SchemaStore-nvim = buildVimPluginFrom2Nix {
     pname = "SchemaStore-nvim";
-    version = "2023-07-17";
+    version = "2023-07-18";
     src = fetchurl {
-      url = "https://github.com/b0o/SchemaStore.nvim/archive/0682f56392ddc86cf5e6b2af76a63bc48ad4ed84.tar.gz";
-      sha256 = "1mgq65g31fj6jskqw6dac22z37wfxaa2rffzkjh4dmv9f87mhbhd";
+      url = "https://github.com/b0o/SchemaStore.nvim/archive/43b2ef9a1b716752dcdcb9fafddfdb871a59051f.tar.gz";
+      sha256 = "0iidphh9w001xy16yyphnynf34nf3jlcyascm21zjh3yndvx8qsn";
     };
     meta = with lib; {
       description = "🛍 JSON schemas for Neovim";
@@ -958,10 +958,10 @@
   };
   chadtree = buildVimPluginFrom2Nix {
     pname = "chadtree";
-    version = "2023-07-16";
+    version = "2023-07-19";
     src = fetchurl {
-      url = "https://github.com/ms-jpq/chadtree/archive/829b59a7593fb004b276b3f6c30e06f6f650ccb0.tar.gz";
-      sha256 = "0iwnwh9kc0qj6asp0c0llsds0m3s9h1gi1m5g64qdspm5qwpmg7k";
+      url = "https://github.com/ms-jpq/chadtree/archive/97090700510b791ae0937b46a78a8c2626c5aba2.tar.gz";
+      sha256 = "0v5ddchrk07agwq847j2c9sgdwxgp7jdqbm52rgjzr2lw74n76am";
     };
     meta = with lib; {
       description = "File manager for Neovim. Better than NERDTree.";
@@ -1946,10 +1946,10 @@
   };
   coq-nvim = buildVimPluginFrom2Nix {
     pname = "coq-nvim";
-    version = "2023-07-16";
+    version = "2023-07-19";
     src = fetchurl {
-      url = "https://github.com/ms-jpq/coq_nvim/archive/b3a8b20f080f3bfe55a5ee998c29f31258dfe378.tar.gz";
-      sha256 = "00vmchb3f8w00pgzg3wj9s6z8q4x2ka4pcf0r017cpzp2snm3yvq";
+      url = "https://github.com/ms-jpq/coq_nvim/archive/ac991666d3c6fef33bf07374d2f1e3d086e60530.tar.gz";
+      sha256 = "0k8ij46pdajwyjql2h0wid4advlsrswsdjbcpy9w4khz495s3kpx";
     };
     meta = with lib; {
       description = "Fast as FUCK nvim completion. SQLite, concurrent scheduler, hundreds of hours of optimization.";
@@ -4430,10 +4430,10 @@
   };
   neogit = buildVimPluginFrom2Nix {
     pname = "neogit";
-    version = "2023-07-18";
+    version = "2023-07-19";
     src = fetchurl {
-      url = "https://github.com/TimUntersberger/neogit/archive/f765604913f9a21f1e9f31ac4d38ae5c676b93c2.tar.gz";
-      sha256 = "0wprsiyw3nz8lj2fyl3nr8g6kf651dnzc9qw28akwd3wv082x3ad";
+      url = "https://github.com/TimUntersberger/neogit/archive/3d63d76f04dc7102c83a057ded30a93822b59dec.tar.gz";
+      sha256 = "1xjbc8jq9hkz1270dpcv52yz4g1q9wpgkd1i5qcqycdf25dqpnbv";
     };
     meta = with lib; {
       description = "magit for neovim";
@@ -8513,10 +8513,10 @@
   };
   translate-nvim = buildVimPluginFrom2Nix {
     pname = "translate-nvim";
-    version = "2023-07-16";
+    version = "2023-07-18";
     src = fetchurl {
-      url = "https://github.com/niuiic/translate.nvim/archive/8a3b9d383671c884ab2d53688e1df21cab696044.tar.gz";
-      sha256 = "1vbrlda2qla2g7jj77j8fj2l22jcjq5aiidm91idqsf7zly2r0yq";
+      url = "https://github.com/niuiic/translate.nvim/archive/dbe51100db78cb011bb0147bc0805a5e35824240.tar.gz";
+      sha256 = "01ixyfnzc9h9hvwhj6p83lzfn7xy420y1fn1b803qg7ad3w5gcms";
     };
     meta = with lib; {
       description = "Highly configurable translation plugin for neovim.";

@@ -18,7 +18,7 @@
 | [nyngwang/NeoWell.lua](https://github.com/nyngwang/NeoWell.lua) | 2023-05-11 | `NeoWell-lua` | 2023-07-19 |
 | [LoricAndre/OneTerm.nvim](https://github.com/LoricAndre/OneTerm.nvim) | 2022-03-14 | `OneTerm-nvim` | 2023-07-19 |
 | [jinzhongjia/PS_manager.nvim](https://github.com/jinzhongjia/PS_manager.nvim) | 2023-01-27 | `PS-manager-nvim` | 2023-07-19 |
-| [b0o/SchemaStore.nvim](https://github.com/b0o/SchemaStore.nvim) | 2023-07-17 | `SchemaStore-nvim` | 2023-07-19 |
+| [b0o/SchemaStore.nvim](https://github.com/b0o/SchemaStore.nvim) | 2023-07-18 | `SchemaStore-nvim` | 2023-07-19 |
 | [sunjon/Shade.nvim](https://github.com/sunjon/Shade.nvim) | 2022-02-01 | `Shade-nvim` | 2023-07-19 |
 | [gen740/SmoothCursor.nvim](https://github.com/gen740/SmoothCursor.nvim) | 2023-03-07 | `SmoothCursor-nvim` | 2023-07-19 |
 | [0styx0/abbreinder.nvim](https://github.com/0styx0/abbreinder.nvim) | 2022-04-28 | `abbreinder-nvim` | 2023-07-19 |
@@ -73,7 +73,7 @@
 | [uga-rosa/ccc.nvim](https://github.com/uga-rosa/ccc.nvim) | 2023-06-12 | `ccc-nvim` | 2023-07-19 |
 | [ranjithshegde/ccls.nvim](https://github.com/ranjithshegde/ccls.nvim) | 2022-11-08 | `ccls-nvim` | 2023-07-19 |
 | [Eandrju/cellular-automaton.nvim](https://github.com/Eandrju/cellular-automaton.nvim) | 2023-01-25 | `cellular-automaton-nvim` | 2023-07-19 |
-| [ms-jpq/chadtree](https://github.com/ms-jpq/chadtree) | 2023-07-16 | `chadtree` | 2023-07-19 |
+| [ms-jpq/chadtree](https://github.com/ms-jpq/chadtree) | 2023-07-19 | `chadtree` | 2023-07-19 |
 | [saifulapm/chartoggle.nvim](https://github.com/saifulapm/chartoggle.nvim) | 2022-07-21 | `chartoggle-nvim` | 2023-07-19 |
 | [sudormrfbin/cheatsheet.nvim](https://github.com/sudormrfbin/cheatsheet.nvim) | 2021-12-23 | `cheatsheet-nvim` | 2023-07-19 |
 | [NTBBloodbath/cheovim](https://github.com/NTBBloodbath/cheovim) | 2023-01-25 | `cheovim` | 2023-07-19 |
@@ -149,7 +149,7 @@
 | [zbirenbaum/copilot.lua](https://github.com/zbirenbaum/copilot.lua) | 2023-07-01 | `copilot-lua` | 2023-07-19 |
 | [github/copilot.vim](https://github.com/github/copilot.vim) | 2023-06-30 | `copilot-vim` | 2023-07-19 |
 | [ms-jpq/coq.artifacts:artifacts](https://github.com/ms-jpq/coq.artifacts) | 2023-07-19 | `coq-artifacts` | 2023-07-19 |
-| [ms-jpq/coq_nvim](https://github.com/ms-jpq/coq_nvim) | 2023-07-16 | `coq-nvim` | 2023-07-19 |
+| [ms-jpq/coq_nvim](https://github.com/ms-jpq/coq_nvim) | 2023-07-19 | `coq-nvim` | 2023-07-19 |
 | [ms-jpq/coq.thirdparty](https://github.com/ms-jpq/coq.thirdparty) | 2023-07-16 | `coq-thirdparty` | 2023-07-19 |
 | [CosmicNvim/cosmic-ui](https://github.com/CosmicNvim/cosmic-ui) | 2022-12-30 | `cosmic-ui` | 2023-07-19 |
 | [niuiic/cp-image.nvim](https://github.com/niuiic/cp-image.nvim) | 2023-07-14 | `cp-image-nvim` | 2023-07-19 |
@@ -340,7 +340,7 @@
 | [sbdchd/neoformat](https://github.com/sbdchd/neoformat) | 2023-07-01 | `neoformat` | 2023-07-19 |
 | [TimUntersberger/neofs](https://github.com/TimUntersberger/neofs) | 2022-08-10 | `neofs` | 2023-07-19 |
 | [danymat/neogen](https://github.com/danymat/neogen) | 2023-06-09 | `neogen` | 2023-07-19 |
-| [TimUntersberger/neogit](https://github.com/NeogitOrg/neogit) | 2023-07-18 | `neogit` | 2023-07-19 |
+| [TimUntersberger/neogit](https://github.com/NeogitOrg/neogit) | 2023-07-19 | `neogit` | 2023-07-19 |
 | [adelarsq/neoline.vim](https://github.com/adelarsq/neoline.vim) | 2023-07-13 | `neoline-vim` | 2023-07-19 |
 | [nikvdp/neomux](https://github.com/nikvdp/neomux) | 2023-04-14 | `neomux` | 2023-07-19 |
 | [rafamadriz/neon](https://github.com/rafamadriz/neon) | 2022-11-27 | `neon` | 2023-07-19 |
@@ -654,7 +654,7 @@
 | [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim) | 2023-07-13 | `tokyonight-nvim` | 2023-07-19 |
 | [LeonHeidelbach/trailblazer.nvim](https://github.com/LeonHeidelbach/trailblazer.nvim) | 2023-04-08 | `trailblazer-nvim` | 2023-07-19 |
 | [tjdevries/train.nvim](https://github.com/tjdevries/train.nvim) | 2020-09-10 | `train-nvim` | 2023-07-19 |
-| [niuiic/translate.nvim](https://github.com/niuiic/translate.nvim) | 2023-07-16 | `translate-nvim` | 2023-07-19 |
+| [niuiic/translate.nvim](https://github.com/niuiic/translate.nvim) | 2023-07-18 | `translate-nvim` | 2023-07-19 |
 | [drybalka/tree-climber.nvim](https://github.com/drybalka/tree-climber.nvim) | 2022-10-14 | `tree-climber-nvim` | 2023-07-19 |
 | [NFrid/treesitter-utils](https://github.com/nfrid/treesitter-utils) | 2023-04-24 | `treesitter-utils` | 2023-07-19 |
 | [Wansmer/treesj](https://github.com/Wansmer/treesj) | 2023-06-29 | `treesj` | 2023-07-19 |
