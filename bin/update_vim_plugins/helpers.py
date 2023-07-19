@@ -41,3 +41,9 @@ def write_manifest(specs: list[str]|set[str]):
 
         for s in specs:
             file.write(f"{s}\n")
+
+def write_manifest_from_spec(specs: list[PluginSpec]):
+    """write specs to manifest file. Does some cleaning up"""
+
+    strings = [ f"{spec}" for spec in specs ]
+    write_manifest(strings)
