@@ -1,3 +1,5 @@
+from .spec import PluginSpec
+
 MANIFEST_FILE = "./manifest.txt"
 BLACKLIST_FILE = "./blacklist.txt"
 PKGS_FILE = "./pkgs/vim-plugins.nix"
@@ -9,6 +11,12 @@ PLUGINS_LIST_FILE = "./plugins.md"
 def read_manifest() -> list[str]:
     with open(MANIFEST_FILE, "r") as file:
         specs = set([ spec.strip() for spec in file.readlines() ])
+
+    return sorted(specs)
+
+def read_manifest_to_spec() -> list[PluginSpec]:
+    manifest = read_manifest()
+    specs = set([ PluginSpec.from_spec(spec.strip()) for spec in manifest ])
 
     return sorted(specs)
 
