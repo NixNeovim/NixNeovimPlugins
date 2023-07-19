@@ -16,3 +16,4 @@ shaeinst/penvim
 sourcehut:nedia/auto-save.nvim
 tomasky/bookmarks.nvim
 crusj/bookmarks.nvim
+catppuccin/nvim
