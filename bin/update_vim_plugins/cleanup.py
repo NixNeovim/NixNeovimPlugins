@@ -38,11 +38,13 @@ class CleanUpCommand(Command):
                 marked_duplicate = p.marked_duplicate or p2.marked_duplicate
 
                 if same_owner and same_repo and different_specs and not marked_duplicate:
-                    self.line(f"<info>The following lines appear to define the same plugin</info>\n - {p.line}\n - {p2.line}")
+                    self.line(f"<info>The following lines appear to define the same plugin</info>")
 
                     p_props_defined = p.branch is not None or p.custom_name is not None
                     p2_props_defined = p2.branch is not None or p2.custom_name is not None
                     if p_props_defined and p2_props_defined or p.repository_host != p2.repository_host:
+                        self.line(f" - {p.line}")
+                        self.line(f" - {p2.line}")
                         self.line(f" • <error>Cannot determine which is the correct plugin</error>")
                         error = True
                         # remove second spec to not encounter the error twice
@@ -50,10 +52,12 @@ class CleanUpCommand(Command):
                         # the error flag and will exit after the loop
                         specs.remove(p2)
                     elif p_props_defined:
-                        self.line(f" • Selecting: {p}")
+                        self.line(f" - <comment>{p.line}</comment>")
+                        self.line(f" - {p2.line}")
                         specs.remove(p2)
                     elif p2_props_defined:
-                        self.line(f" • Selecting: {p2}")
+                        self.line(f" - {p.line}")
+                        self.line(f" - <comment>{p2.line}</comment>")
                         specs.remove(p)
                     else:
                         self.line(f"<error>Logic error with correct spec determination</error>")

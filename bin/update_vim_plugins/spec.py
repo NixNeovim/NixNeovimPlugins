@@ -52,6 +52,7 @@ class PluginSpec:
         owner = group_dict.get("owner")
         if owner is None:
             raise RuntimeError("Could not get owner")
+        owner = owner.lower()
 
         repo = group_dict.get("repo")
         if repo is None:
