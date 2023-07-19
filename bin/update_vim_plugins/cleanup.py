@@ -12,6 +12,10 @@ class CleanUpCommand(Command):
 
         # all cleaning up will be done during reading and writing automatically
         manifest = read_manifest()
-        write_manifest(manifest)
+        blacklist = read_blacklist()
+
+        new_manifest = [ spec for spec in manifest if spec not in blacklist ]
+
+        write_manifest(new_manifest)
 
         self.line("<comment>Done</comment>")

@@ -1,4 +1,5 @@
 MANIFEST_FILE = "./manifest.txt"
+BLACKLIST_FILE = "./blacklist.txt"
 PKGS_FILE = "./pkgs/vim-plugins.nix"
 AWESOME_NEOVIM_README = "https://raw.githubusercontent.com/rockerBOO/awesome-neovim/main/README.md"
 M15A_MANIFEST = "https://raw.githubusercontent.com/m15a/nixpkgs-vim-extra-plugins/main/manifest.txt"
@@ -10,6 +11,12 @@ def read_manifest() -> list[str]:
         specs = set([ spec.strip() for spec in file.readlines() ])
 
     return sorted(specs)
+
+def read_blacklist() -> list[str]:
+    with open(BLACKLIST_FILE, "r") as file:
+        blacklisted_specs = set([ spec.strip() for spec in file.readlines() ])
+
+    return sorted(blacklisted_specs)
 
 def write_manifest(specs: list[str]|set[str]):
     """write specs to manifest file. Does some cleaning up"""
