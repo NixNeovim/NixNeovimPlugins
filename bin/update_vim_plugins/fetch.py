@@ -14,16 +14,28 @@ class FetchCommand(Command):
         """Main command function"""
 
         awesome_plugins_specs = self.fetch_awesome()
+        m15a_plugins_specs = self.fetch_m15a()
 
         known_specs = read_manifest()
 
-        new_specs = known_specs + awesome_plugins_specs
+        new_specs = known_specs + awesome_plugins_specs + m15a_plugins_specs
 
         write_manifest(new_specs)
 
         self.line("<comment>Done</comment>")
 
-    def fetch_awesome(self):
+    def fetch_m15a(self) -> list[str]:
+        self.line(f"<info>Fetching from m15a's repo</info>")
+
+        manifest = urlopen(M15A_MANIFEST).read()
+        manifest = str(manifest, 'utf-8')
+        manifest = manifest.split("\n")
+
+        plugins = list(filter(lambda x: x != "", manifest))
+
+        return plugins
+
+    def fetch_awesome(self) -> list[str]:
         self.line(f"<info>Fetching from awesome-neovim</info>")
 
         readme = urlopen(AWESOME_NEOVIM_README).read()

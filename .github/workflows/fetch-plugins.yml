@@ -29,21 +29,14 @@ jobs:
         run: |
           echo "{ ...} : {}" > ./pkgs/vim-plugins.nix
 
-      - name: Fetch from awesome-neovim
+      - name: Fetch plugins
         run: nix run .#update-vim-plugins -- fetch
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-          SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}
-
-      - name: Fetch from m15a # todo: implement in python
-        run: |
-          git clone https://github.com/m15a/nixpkgs-vim-extra-plugins.git other
-          cat other/manifest.txt >> manifest.txt
 
       - name: Clean up manifest.txt
         uses: NixNeovim/NixNeovimPlugins/.github/actions/cleanup@main
 
-      - run: |
+      - name: Update new plugins
+        run: |
           nix run .#update-vim-plugins -- update
         env:
           GITHUB_TOKEN: ${{ github.token }}
