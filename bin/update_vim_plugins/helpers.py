@@ -1,5 +1,5 @@
 MANIFEST_FILE = "./manifest.txt"
-PKGS_FILE = "./pkgs/update-vim-plugins.nix"
+PKGS_FILE = "./pkgs/vim-plugins.nix"
 AWESOME_NEOVIM_README = "https://raw.githubusercontent.com/rockerBOO/awesome-neovim/main/README.md"
 JSON_FILE = "./.plugins.json"
 PLUGINS_LIST_FILE = "./plugins.md"
