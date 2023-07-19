@@ -11,39 +11,41 @@ jobs:
     runs-on: ubuntu-latest
     name: Fetch plugins
     steps:
+
       - name: Checkout repo
         uses: actions/checkout@v3
         with:
           token: ${{ github.token }}
           ref: ${{ github.head_ref }}
+
       - name: Install nix
         uses: cachix/install-nix-action@v20
         with:
           github_access_token: ${{ github.token }}
+
       - uses: DeterminateSystems/magic-nix-cache-action@main
+
       - name: Reset vim-plugins.nix # NOTE: this is a workaround: if vim-plugins is broken, all 'nix run' actions will fail
         run: |
           echo "{ ...} : {}" > ./pkgs/vim-plugins.nix
-      # TODO:
-      # - name: Fetch from awesome-neovim
-        # run: nix run -L .#update-vim-plugins -- awesome-neovim
-        # env:
-          # GITHUB_TOKEN: ${{ github.token }}
-          # SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}
-      - name: Fetch from m15a
-        run: |
-          git clone https://github.com/m15a/nixpkgs-vim-extra-plugins.git other
-          cat other/manifest.txt >> manifest.txt
-      - name: Clean up manifest.txt
-        uses: NixNeovim/NixNeovimPlugins/.github/actions/cleanup@main
-      - name: Generate derivations for new plugins
-        run: |
-          nix run .#update-vim-plugins -- update ./manifest.txt ./pkgs/vim-plugins.nix --all
+
+      - name: Fetch from awesome-neovim
+        run: nix run .#update-vim-plugins -- fetch
         env:
           GITHUB_TOKEN: ${{ github.token }}
           SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}
-      - name: Check duplicates
+
+      - name: Fetch from m15a # todo: implement in python
+        run: |
+          git clone https://github.com/m15a/nixpkgs-vim-extra-plugins.git other
+          cat other/manifest.txt >> manifest.txt
+
+      - name: Clean up manifest.txt
         uses: NixNeovim/NixNeovimPlugins/.github/actions/cleanup@main
+
+      - name: Generate derivations for new plugins
+        uses: NixNeovim/NixNeovimPlugins/.github/actions/updte-plugins@main
+
       - name: Commit changes
         uses: NixNeovim/NixNeovimPlugins/.github/actions/ci-commit@main
         with:

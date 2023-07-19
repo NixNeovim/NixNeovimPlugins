@@ -21,7 +21,7 @@ runs:
     - name: Generate derivations for new plugins
       shell: bash
       run: |
-        nix run .#update-vim-plugins -- cleanup ./manifest.txt
+        nix run .#update-vim-plugins -- cleanup
     - name: Restore vim-plugins.nix
       shell: bash
       run: |

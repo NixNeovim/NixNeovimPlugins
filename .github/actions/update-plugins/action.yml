@@ -1,0 +1,11 @@
+name: Update plugins
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Generate derivations for new plugins
+      run: |
+        nix run .#update-vim-plugins -- update
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+        SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}

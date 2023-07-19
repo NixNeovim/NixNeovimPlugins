@@ -25,7 +25,7 @@ jobs:
         run: |
           echo "{ ...} : {}" > ./pkgs/vim-plugins.nix
 
-      - run: nix run .#update-vim-plugins -- update ./manifest.txt ./pkgs/vim-plugins.nix --all
+      - run: nix run .#update-vim-plugins -- update --all
         env:
           GITHUB_TOKEN: ${{ github.token }}
           SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}
