@@ -44,7 +44,7 @@ jobs:
         uses: NixNeovim/NixNeovimPlugins/.github/actions/cleanup@main
 
       - name: Generate derivations for new plugins
-        uses: NixNeovim/NixNeovimPlugins/.github/actions/updte-plugins@main
+        uses: NixNeovim/NixNeovimPlugins/.github/actions/update-plugins@main
 
       - name: Commit changes
         uses: NixNeovim/NixNeovimPlugins/.github/actions/ci-commit@main
