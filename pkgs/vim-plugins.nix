@@ -5541,7 +5541,7 @@
       sha256 = "1x8xqssm8052i4vvpdd2ryqhj267yiiwbcc69av2sv5q2g6068j6";
     };
     meta = with lib; {
-      description = "Neovim plugin for writing LilyPond scores, with asynchronous make, midi/mp3 player, fast syntax highlighting, " hyphenation " function, and support for LaTex files";
+      description = "Neovim plugin for writing LilyPond scores, with asynchronous make, midi/mp3 player, fast syntax highlighting, \" hyphenation \" function, and support for LaTex files";
       homepage = "https://github.com/martineausimon/nvim-lilypond-suite";
       license = with licenses; [gpl3Only];
     };
@@ -7726,7 +7726,7 @@
       sha256 = "1lldf028a9a3a721avrwzai60msiaib30a18rsa98wa5fnvsi60j";
     };
     meta = with lib; {
-      description = "Escape terminal " smartly " with <Esc> in Neovim";
+      description = "Escape terminal \" smartly \" with <Esc> in Neovim";
       homepage = "https://github.com/sychen52/smart-term-esc.nvim";
       license = with licenses; [];
     };
@@ -8129,7 +8129,7 @@
       sha256 = "11gdnrc9p033cg87xkpbjj807185gl9h6w2s6xddrxxsa6z77a6y";
     };
     meta = with lib; {
-      description = "A " buffer and tab " tabline for neovim";
+      description = "A \" buffer and tab \" tabline for neovim";
       homepage = "https://github.com/kdheepak/tabline.nvim";
       license = with licenses; [mit];
     };
