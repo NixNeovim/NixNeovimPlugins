@@ -13,15 +13,11 @@ class FetchCommand(Command):
     def handle(self):
         """Main command function"""
 
-        #  awesome_plugins_specs = self.fetch_awesome()
-        m15a_plugins_specs = self.fetch_m15a()
+        specs = read_manifest()
+        specs += self.fetch_awesome()
+        specs += self.fetch_m15a()
 
-        known_specs = read_manifest()
-
-        new_specs = known_specs + m15a_plugins_specs
-        #  new_specs = known_specs + awesome_plugins_specs + m15a_plugins_specs
-
-        write_manifest(new_specs)
+        write_manifest(specs)
 
         self.line("<comment>Done</comment>")
 
@@ -43,10 +39,59 @@ class FetchCommand(Command):
         readme = str(readme, 'utf-8')
         readme = readme.split("\n")
 
+        start = readme.index("## Plugin")
+        end = readme.index("## External")
+
+        gitlab_regex = r'(gitlab.com/)?' # some plugins have a 'gitlab.com' prefix
+        plugin_regex = r'(?P<plugin>[^/]+/[^#\]]+)'
+        hashtag_match = r'(\#.+)?' # this matches the optional '#mini....' part of the mini plugins
+        url_regex = r'(?P<url>https://[^)]+)'
+
+        regex = rf'^- \[{gitlab_regex}{plugin_regex}{hashtag_match}\]\({url_regex}\) - .+$'
+        regex = re.compile(regex)
+
         plugins = []
-        for line in readme:
-            m = re.match(r'- \[(.+/[\w.]+).*\]\(https://.+\) - .+$', line)
-            if m:
-                plugins.append(m.group(1))
+        skipping = False
+        for line in readme[start:end]:
+
+            if line.startswith("#"): # stop skipping at next section
+                skipping = False
+
+            if skipping:
+                continue
+
+            if line == "### Preconfigured Configuration": # skip preconfigured configurations
+                skipping = True
+
+            # extract plugin and url from readme
+
+            match = regex.match(line)
+            if match is None:
+                continue
+
+            matches = match.groupdict()
+
+            plugin = matches.get("plugin")
+            if plugin is None:
+                raise ValueError("Error in regex")
+
+            url = matches.get("url")
+            if url is None:
+                raise ValueError("Error in regex")
+
+            if "github" in url:
+                pass
+            elif "gitlab" in url:
+                plugin = f"gitlab:{plugin}"
+            elif "sr.ht" in url:
+                plugin = f"sourcehut:{plugin}"
+            elif url == "https://cj.rs/telescope-repo-nvim/":
+                plugin = "cljoly/telescope-repo.nvim"
+            else:
+                self.line(f"<error>Source unknown</error> {url} ({plugin})")
+
+            plugins.append(plugin)
 
         return plugins
+
+
