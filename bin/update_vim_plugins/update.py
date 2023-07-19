@@ -6,7 +6,6 @@ from cleo.helpers import option
 from pprint import pprint
 
 from .plugin import plugin_from_spec
-from .spec import PluginSpec
 
 from .helpers import *
 
@@ -34,8 +33,7 @@ class UpdateCommand(Command):
     def handle(self):
         """Main command function"""
 
-        manifest = read_manifest()
-        self.specs = [PluginSpec.from_spec(spec.strip()) for spec in manifest]
+        self.specs = read_manifest_to_spec()
 
         if self.option("all"):
             # update all plugins
@@ -161,6 +159,7 @@ class UpdateCommand(Command):
         shuffle(spec_list)
 
         for i, spec in enumerate(spec_list):
+
             try:
                 self.line(f" - <info>({i+1}/{size}) Processing</info> {spec!r}")
                 vim_plugin = plugin_from_spec(spec)
