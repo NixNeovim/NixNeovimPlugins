@@ -4,6 +4,7 @@ runs:
   using: 'composite'
   steps:
     - name: Generate derivations for new plugins
+      shell: bash
       run: |
         nix run .#update-vim-plugins -- update
       env:
