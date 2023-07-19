@@ -473,6 +473,20 @@
       license = with licenses; [];
     };
   };
+  ataraxis-lua = buildVimPluginFrom2Nix {
+    pname = "ataraxis-lua";
+    version = "2023-03-22";
+    src = fetchgit {
+      url = "https://git.sr.ht/~henriquehbr/ataraxis.lua";
+      rev = "5c89190860fd443aa629940f7dbd7ce997ebb6d6";
+      sha256 = "1q04lj0357gjaxbvxjllcq0x98p2a64ij5s3clsgy59ljy1fzh7y";
+    };
+    meta = with lib; {
+      description = "Neovim zen mode for improving code readability";
+      homepage = "https://git.sr.ht/~henriquehbr/ataraxis.lua";
+      license = with licenses; [];
+    };
+  };
   attempt-nvim = buildVimPluginFrom2Nix {
     pname = "attempt-nvim";
     version = "2023-07-05";
@@ -2282,6 +2296,19 @@
       license = with licenses; [gpl3Only];
     };
   };
+  drex-nvim = buildVimPluginFrom2Nix {
+    pname = "drex-nvim";
+    version = "2023-07-05";
+    src = fetchurl {
+      url = "https://github.com/TheBlob42/drex.nvim/archive/744499c3433a60e6fb50299d40228a2a80bd9cbd.tar.gz";
+      sha256 = "0hw71rz1pz22l31wi9392ii9s9ww149mraa2myrcv7q92jm7x7m0";
+    };
+    meta = with lib; {
+      description = "Another directory/file explorer for Neovim written in Lua ";
+      homepage = "https://github.com/TheBlob42/drex.nvim";
+      license = with licenses; [gpl3Only];
+    };
+  };
   due-nvim = buildVimPluginFrom2Nix {
     pname = "due-nvim";
     version = "2023-01-25";
@@ -2357,6 +2384,19 @@
     meta = with lib; {
       description = "A port of everblush.vim but written in lua";
       homepage = "https://github.com/Everblush/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  everforest = buildVimPluginFrom2Nix {
+    pname = "everforest";
+    version = "2023-05-19";
+    src = fetchurl {
+      url = "https://github.com/sainnhe/everforest/archive/1db527e770deb8cbb3b5b60d8921f80bd2a4c12c.tar.gz";
+      sha256 = "1wdcdzaa8d2qm91xwnmn7kkhfp0gcjigwpng1p0yq07js8pcd82v";
+    };
+    meta = with lib; {
+      description = "🌲 Comfortable & Pleasant Color Scheme for Vim";
+      homepage = "https://github.com/sainnhe/everforest";
       license = with licenses; [mit];
     };
   };
@@ -2763,6 +2803,19 @@
       license = with licenses; [gpl3Only];
     };
   };
+  gitlinker-nvim = buildVimPluginFrom2Nix {
+    pname = "gitlinker-nvim";
+    version = "2023-02-03";
+    src = fetchurl {
+      url = "https://github.com/ruifm/gitlinker.nvim/archive/cc59f732f3d043b626c8702cb725c82e54d35c25.tar.gz";
+      sha256 = "18d388aki5kvl6j6gkvwhvwm66kp4qcchjsdyisx431f33syc2y0";
+    };
+    meta = with lib; {
+      description = "A lua neovim plugin to generate shareable file permalinks (with line ranges) for several git web frontend hosts. Inspired by tpope/vim-fugitive's :GBrowse";
+      homepage = "https://github.com/ruifm/gitlinker.nvim";
+      license = with licenses; [gpl3Only];
+    };
+  };
   gitsigns-nvim = buildVimPluginFrom2Nix {
     pname = "gitsigns-nvim";
     version = "2023-07-18";
@@ -2904,6 +2957,32 @@
       description = "Launcher for Neovim";
       homepage = "https://github.com/desdic/greyjoy.nvim";
       license = with licenses; [mit];
+    };
+  };
+  gruvbox = buildVimPluginFrom2Nix {
+    pname = "gruvbox";
+    version = "2020-07-03";
+    src = fetchurl {
+      url = "https://github.com/morhetz/gruvbox/archive/bf2885a95efdad7bd5e4794dd0213917770d79b7.tar.gz";
+      sha256 = "1kpb337cmnzih4carisbvb42w3kj1gbgafq8bnnr0mscwyqgnavi";
+    };
+    meta = with lib; {
+      description = "Retro groove color scheme for Vim";
+      homepage = "https://github.com/morhetz/gruvbox";
+      license = with licenses; [];
+    };
+  };
+  gruvbox = buildVimPluginFrom2Nix {
+    pname = "gruvbox";
+    version = "2020-07-03";
+    src = fetchurl {
+      url = "https://github.com/morhetz/gruvbox/archive/bf2885a95efdad7bd5e4794dd0213917770d79b7.tar.gz";
+      sha256 = "1kpb337cmnzih4carisbvb42w3kj1gbgafq8bnnr0mscwyqgnavi";
+    };
+    meta = with lib; {
+      description = "Retro groove color scheme for Vim";
+      homepage = "https://github.com/morhetz/gruvbox";
+      license = with licenses; [];
     };
   };
   gruvbox = buildVimPluginFrom2Nix {
@@ -3752,6 +3831,20 @@
       license = with licenses; [];
     };
   };
+  lsp-lines-nvim = buildVimPluginFrom2Nix {
+    pname = "lsp-lines-nvim";
+    version = "2023-05-13";
+    src = fetchgit {
+      url = "https://git.sr.ht/~whynothugo/lsp_lines.nvim";
+      rev = "f53af96d4789eef39a082dbcce078d2bfc384ece";
+      sha256 = "11nsp21n1lhjl6m4mgj1vdcvalik9dmvv8baflzd2njb5g3gc5v6";
+    };
+    meta = with lib; {
+      description = "Show nvim diagnostics using virtual lines";
+      homepage = "https://git.sr.ht/~whynothugo/lsp_lines.nvim";
+      license = with licenses; [];
+    };
+  };
   lsp-progress-nvim = buildVimPluginFrom2Nix {
     pname = "lsp-progress-nvim";
     version = "2023-07-19";
@@ -4166,6 +4259,19 @@
       description = "Library of 30+ independent Lua modules improving overall Neovim (version 0.7 and higher) experience with minimal effort";
       homepage = "https://github.com/echasnovski/mini.nvim";
       license = with licenses; [mit];
+    };
+  };
+  minimal-nvim = buildVimPluginFrom2Nix {
+    pname = "minimal-nvim";
+    version = "2022-11-03";
+    src = fetchurl {
+      url = "https://github.com/yazeed1s/minimal.nvim/archive/22d837b814d3bd22625640ef63cc73b8507f291d.tar.gz";
+      sha256 = "0pn4vi8njcqdpnxzbws9rndxm5vj9xn7qzcjzp2ih6pg5fbq1was";
+    };
+    meta = with lib; {
+      description = "No description";
+      homepage = "https://github.com/Yazeed1s/minimal.nvim";
+      license = with licenses; [];
     };
   };
   minimal-nvim = buildVimPluginFrom2Nix {
@@ -4740,6 +4846,32 @@
       license = with licenses; [wtfpl];
     };
   };
+  nord-nvim = buildVimPluginFrom2Nix {
+    pname = "nord-nvim";
+    version = "2023-07-18";
+    src = fetchurl {
+      url = "https://github.com/gbprod/nord.nvim/archive/25f45989fc320ae8948335704dc9c22c8a0af0c9.tar.gz";
+      sha256 = "0bl46y1llwhwpbg8fmbbg0nsy0w771xd2spabq8scigblpsw04g0";
+    };
+    meta = with lib; {
+      description = " An arctic, north-bluish clean and elegant Neovim theme. ";
+      homepage = "https://github.com/gbprod/nord.nvim";
+      license = with licenses; [wtfpl];
+    };
+  };
+  nordic-nvim = buildVimPluginFrom2Nix {
+    pname = "nordic-nvim";
+    version = "2022-12-08";
+    src = fetchurl {
+      url = "https://github.com/andersevenrud/nordic.nvim/archive/cd552784eeeae61644fec60f6cc52c267dbddc73.tar.gz";
+      sha256 = "0l0wdd9is7srgmr9kqpnjhqwpm37zkarxaxj5588lc449hvms4an";
+    };
+    meta = with lib; {
+      description = "A nord-esque colorscheme for neovim";
+      homepage = "https://github.com/andersevenrud/nordic.nvim";
+      license = with licenses; [mit];
+    };
+  };
   nordic-nvim = buildVimPluginFrom2Nix {
     pname = "nordic-nvim";
     version = "2022-12-08";
@@ -4841,6 +4973,1020 @@
     meta = with lib; {
       description = "A bunch of generated colorschemes (treesitter supported)";
       homepage = "https://github.com/ChristianChiarulli/nvcode-color-schemes.vim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+  nvim = buildVimPluginFrom2Nix {
+    pname = "nvim";
+    version = "2023-07-17";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/bfe91dfb3a19ffd4445e43611fcde68acbb3fed4.tar.gz";
+      sha256 = "1r487dv9dsx7yx8nnssd76dda3m7jrshmrvf10xvvyldhx47n5v5";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
       license = with licenses; [mit];
     };
   };
@@ -7211,6 +8357,19 @@
       license = with licenses; [];
     };
   };
+  present-nvim = buildVimPluginFrom2Nix {
+    pname = "present-nvim";
+    version = "2022-04-15";
+    src = fetchurl {
+      url = "https://github.com/Chaitanyabsprip/present.nvim/archive/3e9ac3f1a1cdef1b33f84fa98914951004512fde.tar.gz";
+      sha256 = "1163n58lifmy5l168phxi65xx5bbsjw2gl91y5swkcrifmvy3c1l";
+    };
+    meta = with lib; {
+      description = "Presentation plugin for neovim written in lua";
+      homepage = "https://github.com/Chaitanyabsprip/present.nvim";
+      license = with licenses; [];
+    };
+  };
   prettier-nvim = buildVimPluginFrom2Nix {
     pname = "prettier-nvim";
     version = "2023-06-16";
@@ -7442,6 +8601,19 @@
     meta = with lib; {
       description = "the Requirements File Format syntax support for Vim";
       homepage = "https://github.com/raimon49/requirements.txt.vim";
+      license = with licenses; [mit];
+    };
+  };
+  rest-nvim = buildVimPluginFrom2Nix {
+    pname = "rest-nvim";
+    version = "2023-07-16";
+    src = fetchurl {
+      url = "https://github.com/rest-nvim/rest.nvim/archive/22673c848768ff25517154a5aebfebc0c77d0b4f.tar.gz";
+      sha256 = "1j7vfd6qp3nqsxygx8a9k48qai2k6rmm3a3ib34lilzs72ip2k7b";
+    };
+    meta = with lib; {
+      description = "A fast Neovim http client written in Lua";
+      homepage = "https://github.com/rest-nvim/rest.nvim";
       license = with licenses; [mit];
     };
   };
@@ -8394,6 +9566,19 @@
       license = with licenses; [gpl3Only];
     };
   };
+  themer-lua = buildVimPluginFrom2Nix {
+    pname = "themer-lua";
+    version = "2023-07-11";
+    src = fetchurl {
+      url = "https://github.com/themercorp/themer.lua/archive/0caddae348b78ec525a94dd1ab97f9e3eadeca75.tar.gz";
+      sha256 = "0ana64xy0asv1n7m8qvkf7d2gi4cd3xh7r7wczsf6fyxjzsimf6d";
+    };
+    meta = with lib; {
+      description = "A simple, minimal highlighter plugin for neovim";
+      homepage = "https://github.com/ThemerCorp/themer.lua";
+      license = with licenses; [gpl3Only];
+    };
+  };
   tidy-nvim = buildVimPluginFrom2Nix {
     pname = "tidy-nvim";
     version = "2023-06-17";
@@ -8742,6 +9927,71 @@
     meta = with lib; {
       description = "Visual git plugin for Neovim";
       homepage = "https://github.com/tanvirtin/vgit.nvim";
+      license = with licenses; [mit];
+    };
+  };
+  vim = buildVimPluginFrom2Nix {
+    pname = "vim";
+    version = "2023-04-21";
+    src = fetchurl {
+      url = "https://github.com/embark-theme/vim/archive/0e2c7d36b766dcebba2d8a3a0639784446dea086.tar.gz";
+      sha256 = "1yr8jj2hn0rpzw0mjir76zbhyigrrizrgmsdwkc8xb9rns35rzxa";
+    };
+    meta = with lib; {
+      description = "An ambitious theme for vim";
+      homepage = "https://github.com/embark-theme/vim";
+      license = with licenses; [mit];
+    };
+  };
+  vim = buildVimPluginFrom2Nix {
+    pname = "vim";
+    version = "2023-04-21";
+    src = fetchurl {
+      url = "https://github.com/embark-theme/vim/archive/0e2c7d36b766dcebba2d8a3a0639784446dea086.tar.gz";
+      sha256 = "1yr8jj2hn0rpzw0mjir76zbhyigrrizrgmsdwkc8xb9rns35rzxa";
+    };
+    meta = with lib; {
+      description = "An ambitious theme for vim";
+      homepage = "https://github.com/embark-theme/vim";
+      license = with licenses; [mit];
+    };
+  };
+  vim = buildVimPluginFrom2Nix {
+    pname = "vim";
+    version = "2023-04-21";
+    src = fetchurl {
+      url = "https://github.com/embark-theme/vim/archive/0e2c7d36b766dcebba2d8a3a0639784446dea086.tar.gz";
+      sha256 = "1yr8jj2hn0rpzw0mjir76zbhyigrrizrgmsdwkc8xb9rns35rzxa";
+    };
+    meta = with lib; {
+      description = "An ambitious theme for vim";
+      homepage = "https://github.com/embark-theme/vim";
+      license = with licenses; [mit];
+    };
+  };
+  vim = buildVimPluginFrom2Nix {
+    pname = "vim";
+    version = "2023-04-21";
+    src = fetchurl {
+      url = "https://github.com/embark-theme/vim/archive/0e2c7d36b766dcebba2d8a3a0639784446dea086.tar.gz";
+      sha256 = "1yr8jj2hn0rpzw0mjir76zbhyigrrizrgmsdwkc8xb9rns35rzxa";
+    };
+    meta = with lib; {
+      description = "An ambitious theme for vim";
+      homepage = "https://github.com/embark-theme/vim";
+      license = with licenses; [mit];
+    };
+  };
+  vim = buildVimPluginFrom2Nix {
+    pname = "vim";
+    version = "2023-04-21";
+    src = fetchurl {
+      url = "https://github.com/embark-theme/vim/archive/0e2c7d36b766dcebba2d8a3a0639784446dea086.tar.gz";
+      sha256 = "1yr8jj2hn0rpzw0mjir76zbhyigrrizrgmsdwkc8xb9rns35rzxa";
+    };
+    meta = with lib; {
+      description = "An ambitious theme for vim";
+      homepage = "https://github.com/embark-theme/vim";
       license = with licenses; [mit];
     };
   };
