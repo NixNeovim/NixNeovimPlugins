@@ -28,7 +28,7 @@ class UpdateCommand(Command):
         """Main command function"""
 
         manifest = read_manifest()
-        self.specs = (PluginSpec.from_spec(spec.strip()) for spec in manifest)
+        self.specs = [PluginSpec.from_spec(spec.strip()) for spec in manifest]
 
         if self.option("all"):
             # update all plugins
