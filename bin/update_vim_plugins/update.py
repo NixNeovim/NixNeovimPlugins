@@ -1,25 +1,21 @@
 import subprocess
 from random import shuffle
 from cleo.commands.command import Command
-from cleo.helpers import argument, option
+from cleo.helpers import option
 
 from .plugin import plugin_from_spec
 from .spec import PluginSpec
 
+from .helpers import *
+
 import json
 import jsonpickle
 
-JSON_FILE = "./.plugins.json"
-PLUGINS_LIST_FILE = "./plugins.md"
 jsonpickle.set_encoder_options('json', sort_keys=True)
 
 class UpdateCommand(Command):
     name = "update"
     description = "Generate nix module from input file"
-    arguments = [
-        argument("input", description="Where to read the manifest file from"),
-        argument("output", description="Where to write the generated nix file to"),
-    ]
     options = [
         option(
             "all",
@@ -31,17 +27,8 @@ class UpdateCommand(Command):
     def handle(self):
         """Main command function"""
 
-        input_file: str = str(self.argument("input"))
-        output_path: str = str(self.argument("output"))
-
-        self.line(f"<info>Reading from</info> {input_file!r}")
-        with open(input_file, "r") as file:
-            self.specs = (PluginSpec.from_spec(spec.strip()) for spec in file.readlines())
-
-        # filter duplicate entries
-        self.filter_specs()
-
-        self.line(f"<info>Writing plugins to</info> {output_path!r}")
+        manifest = read_manifest()
+        self.specs = (PluginSpec.from_spec(spec.strip()) for spec in manifest)
 
         if self.option("all"):
             # update all plugins
@@ -51,7 +38,7 @@ class UpdateCommand(Command):
             # filter plugins we already know
             spec_list = self.specs
 
-            with open(JSON_FILE, "r+") as json_file:
+            with open(JSON_FILE, "r") as json_file:
                 data = json.load(json_file)
 
                 known_specs = list(filter(lambda x: x.name in data, spec_list))
@@ -79,22 +66,11 @@ class UpdateCommand(Command):
         self.write_plugins_json(processed_plugins)
 
         # generate output
-        self.write_plugins_nix(processed_plugins, output_path)
+        self.write_plugins_nix(processed_plugins)
 
         self.write_plugins_markdown(processed_plugins)
 
         self.line("<comment>Done</comment>")
-
-    def filter_specs(self) -> None:
-        """Helper function that removes duplicate entries"""
-
-        filtered_specs = []
-        for spec in self.specs:
-            if not any(spec == filtered_spec for filtered_spec in filtered_specs):
-                filtered_specs.append(spec)
-            else:
-                self.line(f"<error>Skipping duplicate spec:</error> {spec.name}")
-        self.specs = filtered_specs
 
     def write_plugins_markdown(self, plugins):
         """Write the list of all plugins to PLUGINS_LIST_FILE in markdown"""
@@ -109,22 +85,22 @@ class UpdateCommand(Command):
                 file.write(f"{plugin.to_markdown()}\n")
 
 
-    def write_plugins_nix(self, plugins, output_path):
+    def write_plugins_nix(self, plugins):
         self.line(f"<info>Generating nix output</info>")
 
         header = "{ lib, buildVimPluginFrom2Nix, fetchurl, fetchgit }: {"
         footer = "}"
 
-        with open(output_path, "w") as file:
+        with open(PKGS_FILE, "w") as file:
             file.write(header)
             for plugin in plugins:
                 file.write(f"{plugin.to_nix()}\n")
             file.write(footer)
 
-        self.line(f"<info>Formatting nix output</info> {output_path!r}")
+        self.line(f"<info>Formatting nix output</info>")
 
         subprocess.run(
-            ["alejandra", output_path],
+            ["alejandra", PKGS_FILE],
             stdout=subprocess.DEVNULL,
             stderr=subprocess.DEVNULL,
         )
