@@ -32,7 +32,7 @@ class FetchCommand(Command):
 
         plugins = []
         for line in readme:
-            m = re.match(r'- \[(.+/.+)\]\(https://.+\) - .+$', line)
+            m = re.match(r'- \[(.+/[\w.]+).*\]\(https://.+\) - .+$', line)
             if m:
                 plugins.append(m.group(1))
 
