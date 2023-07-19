@@ -43,11 +43,12 @@ class FetchCommand(Command):
         end = readme.index("## External")
 
         gitlab_regex = r'(gitlab.com/)?' # some plugins have a 'gitlab.com' prefix
+        sourcehut_regex = r'~?' # remove tilde from sourcehut names
         plugin_regex = r'(?P<plugin>[^/]+/[^#\]]+)'
         hashtag_match = r'(\#.+)?' # this matches the optional '#mini....' part of the mini plugins
         url_regex = r'(?P<url>https://[^)]+)'
 
-        regex = rf'^- \[{gitlab_regex}{plugin_regex}{hashtag_match}\]\({url_regex}\) - .+$'
+        regex = rf'^- \[{gitlab_regex}{sourcehut_regex}{plugin_regex}{hashtag_match}\]\({url_regex}\) - .+$'
         regex = re.compile(regex)
 
         plugins = []
