@@ -43,7 +43,7 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
           SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}
       - name: Check duplicates
-        uses: NixNeovim/NixNeovimPlugins/.github/actions/check-duplicates@main
+        uses: NixNeovim/NixNeovimPlugins/.github/actions/cleanup@main
       - name: Commit changes
         uses: NixNeovim/NixNeovimPlugins/.github/actions/ci-commit@main
         with:
