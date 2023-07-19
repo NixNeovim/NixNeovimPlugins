@@ -9,6 +9,3 @@ jobs:
   update-plugins:
     needs: fetch-plugins
     uses: NixNeovim/NixNeovimPlugins/.github/workflows/update-all-plugins.yml@main
-  check-duplicates:
-    needs: update-plugins
-    uses: NixNeovim/NixNeovimPlugins/.github/workflows/check-duplicates.yml@main
