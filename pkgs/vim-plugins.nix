@@ -5424,7 +5424,7 @@
       sha256 = "0afr756rkgdw8cbylxygr83z6mfllflm3fhs4fzbwisd8vbk65y9";
     };
     meta = with lib; {
-      description = "A colorscheme generator that is " lite " on logic for the developer.";
+      description = "A colorscheme generator that is \" lite \" on logic for the developer.";
       homepage = "https://github.com/Iron-E/nvim-highlite";
       license = with licenses; [];
     };
