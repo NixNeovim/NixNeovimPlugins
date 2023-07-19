@@ -109,6 +109,10 @@ class PluginSpec:
         if self.license is not None:
             spec += str(self.license)
 
+        spec += ":"
+        if self.marked_duplicate:
+            spec += "duplicate"
+
         return spec.rstrip(":")
 
     def __repr__(self):
