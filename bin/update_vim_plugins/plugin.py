@@ -79,8 +79,7 @@ class GitHubPlugin(VimPlugin):
         self.owner = plugin_spec.owner
         self.version = parse(latest_commit["committer"]["date"]).date()
         self.source = UrlSource(f"https://github.com/{full_name}/archive/{sha}.tar.gz")
-        self.description = repo_info.get("description") or self.description
-        self.description.replace("\"", '\\"')
+        self.description = (repo_info.get("description") or "").replace('"', '\\"')
         self.homepage = repo_info["html_url"]
         self.license = plugin_spec.license or License.from_spdx_id((repo_info.get("license") or {}).get("spdx_id"))
         self.source_line = plugin_spec.line
@@ -112,8 +111,7 @@ class GitlabPlugin(VimPlugin):
         self.owner = plugin_spec.owner
         self.version = parse(latest_commit["created_at"]).date()
         self.source = UrlSource(f"https://gitlab.com/api/v4/projects/{full_name}/repository/archive.tar.gz?sha={sha}")
-        self.description = repo_info.get("description") or self.description
-        self.description.replace("\"", '\\"')
+        self.description = (repo_info.get("description") or "").replace('"', '\\"')
         self.homepage = repo_info["web_url"]
         self.license = plugin_spec.license or License.from_spdx_id(repo_info.get("license", {}).get("key"))
         self.source_line = plugin_spec.line
@@ -149,8 +147,7 @@ class SourceHutPlugin(VimPlugin):
         self.name = plugin_spec.name
         self.owner = plugin_spec.owner
         self.version = parse(latest_commit["timestamp"]).date()
-        self.description = repo_info.get("description") or self.description
-        self.description.replace("\"", '\\"')
+        self.description = (repo_info.get("description") or "").replace('"', '\\"')
         self.homepage = f"https://git.sr.ht/~{plugin_spec.owner}/{plugin_spec.repo}"
         self.source = GitSource(self.homepage, sha)
         self.license = plugin_spec.license or License.UNKNOWN  # cannot be determined via API
