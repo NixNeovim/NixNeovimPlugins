@@ -89,7 +89,7 @@ RRethy/nvim-treesitter-textsubjects
 RRethy/vim-illuminate
 RishabhRD/gruvy
 RishabhRD/lspactions
-RishabhRD/lspactions:nvim-0.6-compatible:lspactions-nvim06-compatible
+RishabhRD/lspactions:nvim-0.6-compatible:lspactions-nvim06-compatible::duplicate
 RishabhRD/nvim-lsputils
 RishabhRD/nvim-rdark
 RutaTang/compter.nvim
