@@ -3,6 +3,8 @@ from random import shuffle
 from cleo.commands.command import Command
 from cleo.helpers import option
 
+from pprint import pprint
+
 from .plugin import plugin_from_spec
 from .spec import PluginSpec
 
@@ -41,16 +43,19 @@ class UpdateCommand(Command):
             with open(JSON_FILE, "r") as json_file:
                 data = json.load(json_file)
 
-                known_specs = list(filter(lambda x: x.name in data, spec_list))
+                known_specs = list(filter(lambda x: x.line in data, spec_list))
                 known_plugins = [ jsonpickle.decode(data[x.name]) for x in known_specs ]
 
-                spec_list = list(filter(lambda x: x.name not in data, spec_list))
+                spec_list = list(filter(lambda x: x.line not in data, spec_list))
 
 
         processed_plugins, failed_plugins, failed_but_known = self.process_manifest(spec_list)
 
+        
         processed_plugins += known_plugins # add plugins from .plugins.json
-        processed_plugins.sort()
+        processed_plugins: list = sorted(set(processed_plugins)) # remove duplicates based only on source line
+
+        self.check_duplicates(processed_plugins)
 
         if failed_plugins != []:
             self.line(f"<error>Not processed:</error> The following plugins could not be updated")
@@ -112,11 +117,27 @@ class UpdateCommand(Command):
             data = json.load(json_file)
 
             for plugin in plugins:
-                data.update({f"{plugin.name}": plugin.to_json()})
+                data.update({f"{plugin.source_line}": plugin.to_json()})
 
             json_file.seek(0)
             json_file.write(json.dumps(data, indent=2, sort_keys=True))
             json_file.truncate()
+
+    def check_duplicates(self, plugins):
+        """check for duplicates in proccesed_plugins"""
+        error = False
+        for i, plugin in enumerate(plugins):
+            for p in plugins[i+1:]:
+                if plugin.name == p.name:
+                    self.line(f"<error>Error:</error> The following two lines produce the same plugin name:\n - {plugin.source_line}\n - {p.source_line}")
+                    pprint(plugin.name)
+                    pprint(p.name)
+                    error = True
+
+        # We want to exit if the resulting nix file would be broken
+        # But we want to go through all plugins before we do so
+        if error:
+            exit(1)
 
     def process_manifest(self, spec_list):
         """Read specs in 'spec_list' and generate plugins"""
@@ -137,7 +158,7 @@ class UpdateCommand(Command):
                 self.line(f"   • <comment>Success</comment> {vim_plugin!r}")
                 processed_plugins.append(vim_plugin)
             except Exception as e:
-                self.line(f"<error>Error:</error> Could not update <info>{spec.name}</info>. Keeping old values. Reason: {e}")
+                self.line(f"   • <error>Error:</error> Could not update <info>{spec.name}</info>. Keeping old values. Reason: {e}")
                 try:
                     with open(JSON_FILE, "r+") as json_file:
                         data = json.load(json_file)
@@ -145,22 +166,8 @@ class UpdateCommand(Command):
                         processed_plugins.append(vim_plugin)
                         failed_but_known.append((vim_plugin, e))
                 except:
-                    self.line(f"   • <error>Error:</error> No entries for <info> {spec.name}</info> in '.plugins.json'. Skipping...")
+                    self.line(f"   • <error>Error:</error> No entries for <info>{spec.name}</info> in '.plugins.json'. Skipping...")
                     failed_plugins.append((spec, e))
-
-        # check for duplicates in proccesed_plugins
-
-        error = False
-        for i, plugin in enumerate(processed_plugins):
-            for p in processed_plugins[i+1:]:
-                if plugin.name == p.name:
-                    self.line(f"<error>Error:</error> The following two lines produce the same plugin name:\n - {plugin.source_line}\n - {p.source_line}")
-                    error = True
-
-        # We want to exit if the resulting nix file would be broken
-        # But we want to go through all plugins before we do so
-        if error:
-            exit(1)
 
         processed_plugins.sort()
         failed_plugins.sort()
