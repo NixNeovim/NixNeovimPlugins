@@ -28,9 +28,10 @@ class FetchCommand(Command):
         manifest = str(manifest, 'utf-8')
         manifest = manifest.split("\n")
 
-        plugins = list(filter(lambda x: x != "", manifest))
+        specs = list(filter(lambda x: x != "", manifest))
+        specs = [ p.lower() for p in specs ]
 
-        return plugins
+        return specs
 
     def fetch_awesome(self) -> list[str]:
         self.line(f"<info>Fetching from awesome-neovim</info>")
@@ -51,7 +52,7 @@ class FetchCommand(Command):
         regex = rf'^- \[{gitlab_regex}{sourcehut_regex}{plugin_regex}{hashtag_match}\]\({url_regex}\) - .+$'
         regex = re.compile(regex)
 
-        plugins = []
+        specs = []
         skipping = False
         for line in readme[start:end]:
 
@@ -91,8 +92,8 @@ class FetchCommand(Command):
             else:
                 self.line(f"<error>Source unknown</error> {url} ({plugin})")
 
-            plugins.append(plugin)
+            specs.append(plugin.lower())
 
-        return plugins
+        return specs
 
 

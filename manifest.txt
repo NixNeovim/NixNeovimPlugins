@@ -9,7 +9,7 @@ AckslD/nvim-gfold.lua
 AckslD/nvim-neoclip.lua
 AckslD/nvim-revJ.lua
 AckslD/swenv.nvim
-AlexvZyl/nordic.nvim
+AlexvZyl/nordic.nvim::nordic-alexczyl
 AllenDang/nvim-expand-expr
 Allendang/nvim-expand-expr
 Bekaboo/deadcolumn.nvim
@@ -154,7 +154,7 @@ amiel/neovim-tmux-navigator
 amirrezaask/fuzzy.nvim
 amrbashir/nvim-docs-view
 andersevenrud/cmp-tmux
-andersevenrud/nordic.nvim
+andersevenrud/nordic.nvim::nordic-andersevenrud
 andrewferrier/debugprint.nvim
 andrewferrier/textobj-diagnostic
 andrewferrier/textobj-diagnostic.nvim
@@ -442,7 +442,7 @@ lewis6991/satellite.nvim
 lewis6991/spellsitter.nvim
 lewpoly/sherbet.nvim
 liangxianzhe/nap.nvim
-linrongbin16/gitlinker.nvim
+linrongbin16/gitlinker.nvim::gitlinker-linrongbin16
 linrongbin16/lsp-progress.nvim
 linty-org/key-menu.nvim
 linty-org/readline.nvim
@@ -655,7 +655,7 @@ romgrk/barbar.nvim
 roobert/search-replace.nvim
 rose-pine/neovim
 rose-pine/neovim::rose-pine
-ruifm/gitlinker.nvim
+ruifm/gitlinker.nvim::gitlinker-ruifm
 s1n7ax/nvim-comment-frame
 s1n7ax/nvim-search-and-replace
 s1n7ax/nvim-terminal
@@ -734,7 +734,6 @@ tenxsoydev/nx.nvim
 tenxsoydev/tabs-vs-spaces.nvim
 terrortylor/nvim-comment
 thaerkh/vim-workspace
-theblob42/drex.nvim
 themaxmarchuk/tailwindcss-colors.nvim
 themercorp/themer.lua
 theniceboy/nvim-deus
