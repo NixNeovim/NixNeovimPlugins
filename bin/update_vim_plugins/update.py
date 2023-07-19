@@ -23,6 +23,11 @@ class UpdateCommand(Command):
             "all",
             description="Update all plugins. Else only update new plugins",
             flag=True
+        ),
+        option(
+            "dry-run",
+            description="Show which plugins would be updated",
+            flag=True
         )
     ]
 
@@ -48,10 +53,14 @@ class UpdateCommand(Command):
 
                 spec_list = list(filter(lambda x: x.line not in data, spec_list))
 
+        if self.option("dry-run"):
+            self.line("<comment>These plugins would be updated</comment>")
+            pprint(spec_list)
+            self.line(f"<info>Total:</info> {len(spec_list)}")
+            exit(0)
 
         processed_plugins, failed_plugins, failed_but_known = self.process_manifest(spec_list)
 
-        
         processed_plugins += known_plugins # add plugins from .plugins.json
         processed_plugins: list = sorted(set(processed_plugins)) # remove duplicates based only on source line
 
