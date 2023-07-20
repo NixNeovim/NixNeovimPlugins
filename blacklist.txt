@@ -5,8 +5,11 @@ Pocco81/TrueZen.nvim
 RishabhRD/lspactions:nvim-0.6-compatible:lspactions-nvim06-compatible
 andersevenrud/compe-tmux
 bluz71/vim-nightfly-guicolors
+glepnir/indent-guides.nvim
 catppuccin/nvim
 crusj/bookmarks.nvim
+anuvyklack/fold-preview
+niuiic/dap-utils
 dracula/vim
 feline-nvim/feline.nvim
 henriquehbr/ataraxis.lua
@@ -21,3 +24,5 @@ savq/melange
 shaeinst/penvim
 sourcehut:nedia/auto-save.nvim
 tomasky/bookmarks.nvim
+glepnir/prodoc.nvim
+chaitanyabsrip/present.nvim

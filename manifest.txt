@@ -44,7 +44,6 @@ andythigpen/nvim-coverage
 anott03/nvim-lspinstall
 antonk52/bad-practices.nvim
 anuvyklack/animation.nvim
-anuvyklack/fold-preview
 anuvyklack/fold-preview.nvim
 anuvyklack/hydra.nvim
 anuvyklack/keymap-amend.nvim
@@ -84,7 +83,6 @@ catppuccin/nvim::catppuccin
 cbochs/grapple.nvim
 cbochs/portal.nvim
 chaitanyabsprip/present.nvim
-chaitanyabsrip/present.nvim
 chentoast/marks.nvim
 chipsenkbeil/distant.nvim
 chiyadev/dep
@@ -221,9 +219,7 @@ gitlab:yorickpeterse/nvim-pqf
 gitlab:yorickpeterse/nvim-window
 glacambre/firenvim
 glepnir/dashboard-nvim
-glepnir/indent-guides.nvim
 glepnir/lspsaga.nvim
-glepnir/prodoc.nvim
 glepnir/zephyr-nvim
 gnikdroy/projections.nvim
 google/executor.nvim
@@ -450,7 +446,7 @@ nfrid/treesitter-utils
 nguyenvukhang/nvim-toggler
 nikvdp/neomux
 niuiic/cp-image.nvim
-niuiic/dap-utils
+niuiic/dap-utils.nvim
 niuiic/divider.nvim
 niuiic/format.nvim
 niuiic/multiple-session.nvim
