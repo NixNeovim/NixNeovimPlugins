@@ -469,7 +469,6 @@ novakne/kosmikoa.nvim
 ntbbloodbath/cheovim
 ntbbloodbath/doom-one.nvim
 ntbbloodbath/galaxyline.nvim
-ntbbloodbath/rest.nvim
 numtostr/bufonly.nvim
 numtostr/comment.nvim
 numtostr/fterm.nvim
