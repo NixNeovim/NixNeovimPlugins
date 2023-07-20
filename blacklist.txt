@@ -13,6 +13,8 @@ henriquehbr/ataraxis.lua
 lukas-reineke/format.nvim
 meliora-theme/neovim
 melkster/modicator.nvim
+mrjones2014/nvim-ts-rainbow
+p00f/nvim-ts-rainbow
 rose-pine/neovim
 savq/melange
 shaeinst/penvim

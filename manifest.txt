@@ -422,8 +422,8 @@ mr-lllll/interestingwords.nvim
 mrcjkb/haskell-tools.nvim
 mrcjkb/telescope-manix
 mrjones2014/legendary.nvim
-mrjones2014/nvim-ts-rainbow
 ms-jpq/chadtree
+HiPhish/nvim-ts-rainbow2
 ms-jpq/coq.artifacts:artifacts
 ms-jpq/coq.thirdparty
 ms-jpq/coq_nvim
@@ -529,7 +529,6 @@ otavioschwanck/telescope-alternate.nvim
 otavioschwanck/tmux-awesome-manager.nvim
 p00f/clangd_extensions.nvim
 p00f/cphelper.nvim
-p00f/nvim-ts-rainbow
 petertriho/cmp-git
 petertriho/nvim-scrollbar
 phaazon/hop.nvim
