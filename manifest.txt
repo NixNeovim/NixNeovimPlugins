@@ -233,6 +233,7 @@ gpanders/editorconfig.nvim
 gwatcha/reaper-keys
 h-hg/fcitx.nvim
 haringsrob/nvim_context_vt
+hiphish/nvim-ts-rainbow2
 hkupty/iron.nvim
 hkupty/nvimux
 houtsnip/vim-emacscommandline
@@ -423,7 +424,6 @@ mrcjkb/haskell-tools.nvim
 mrcjkb/telescope-manix
 mrjones2014/legendary.nvim
 ms-jpq/chadtree
-HiPhish/nvim-ts-rainbow2
 ms-jpq/coq.artifacts:artifacts
 ms-jpq/coq.thirdparty
 ms-jpq/coq_nvim
