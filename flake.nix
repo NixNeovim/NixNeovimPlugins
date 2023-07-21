@@ -10,60 +10,63 @@
     };
   };
 
-  outputs = { self, nixpkgs, flake-utils, poetry2nix, ... }: {
-    overlays.default = import ./overlay.nix;
-  } // (flake-utils.lib.eachDefaultSystem (system:
-  let
+  outputs = { self, nixpkgs, flake-utils, poetry2nix, ... }:
+    let
+      inherit (flake-utils.lib)
+        filterPackages
+        eachSystem
+        mkApp;
 
-    inherit (flake-utils.lib)
-      filterPackages
-      mkApp;
+      systems = [  "aarch64-linux" "aarch64-darwin" "x86_64-darwin" "x86_64-linux" ];
 
-    inherit (pkgs)
-      callPackage
-      runCommandNoCC;
+    in eachSystem systems (system:
 
-    inherit (pkgs.lib)
-      mapAttrsToList;
-
-    inherit (poetry2nix.legacyPackages.${system})
-      mkPoetryApplication;
-
-
-    pkgs = import nixpkgs {
-      inherit system;
-      overlays = [ self.overlays.default ];
-    };
-
-    update-vim-plugins = callPackage ./pkgs/update-vim-plugins.nix { inherit mkPoetryApplication; };
-
-    # cheks if a plugin has a license
-    hasLicense = pkg:
       let
 
-        warn = x: nixpkgs.lib.warn x x;
+        pkgs = import nixpkgs {
+          inherit system;
+          overlays = [ self.overlays.default ];
+        };
 
-        msg =
-          if builtins.hasAttr "license" pkg.meta then
-            "${pkg.name} has license"
-          else
-            warn "${pkg.name} has no license";
+        inherit (pkgs)
+          callPackage
+          runCommandNoCC;
 
-        msg' = nixpkgs.lib.replaceStrings [" "] ["-"] msg;
+        inherit (pkgs.lib)
+          mapAttrsToList;
 
-      in runCommandNoCC msg' {} "echo : > $out";
+        inherit (poetry2nix.legacyPackages.${system})
+          mkPoetryApplication;
 
-    # function to check lisece for all packages
-    check-missing-licenses =
-      let
-        buildInputs =
-          mapAttrsToList
-            (_: pkg: hasLicense pkg)
-            self.packages.${system};
-      in runCommandNoCC
-          "check-missing-licenses"
-          { inherit buildInputs; }
-          "echo : > $out";
+        update-vim-plugins = callPackage ./pkgs/update-vim-plugins.nix { inherit mkPoetryApplication; };
+
+        # cheks if a plugin has a license
+        hasLicense = pkg:
+          let
+
+            warn = x: nixpkgs.lib.warn x x;
+
+            msg =
+              if builtins.hasAttr "license" pkg.meta then
+                "${pkg.name} has license"
+              else
+                warn "${pkg.name} has no license";
+
+            msg' = nixpkgs.lib.replaceStrings [" "] ["-"] msg;
+
+          in runCommandNoCC msg' {} "echo : > $out ";
+
+        # function to check lisece for all packages
+        check-missing-licenses =
+          let
+            buildInputs =
+              mapAttrsToList
+                (_: pkg: hasLicense pkg)
+                self.packages.${system};
+          in runCommandNoCC
+              "check-missing-licenses"
+              { inherit buildInputs; }
+              "echo : > $out";
 
   in {
     packages = filterPackages system pkgs.vimExtraPlugins;
@@ -97,5 +100,7 @@
         ];
       };
     };
-  }));
+  }) // {
+    overlays.default = import ./overlay.nix;
+  };
 }
