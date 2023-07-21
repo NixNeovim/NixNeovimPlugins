@@ -29,7 +29,7 @@ class FetchCommand(Command):
         manifest = manifest.split("\n")
 
         specs = list(filter(lambda x: x != "", manifest))
-        specs = [ p.lower() for p in specs ]
+        specs = [ p for p in specs ]
 
         return specs
 
@@ -43,13 +43,18 @@ class FetchCommand(Command):
         start = readme.index("## Plugin")
         end = readme.index("## External")
 
-        gitlab_regex = r'(gitlab.com/)?' # some plugins have a 'gitlab.com' prefix
-        sourcehut_regex = r'~?' # remove tilde from sourcehut names
-        plugin_regex = r'(?P<plugin>[^/]+/[^#\]]+)'
-        hashtag_match = r'(\#.+)?' # this matches the optional '#mini....' part of the mini plugins
-        url_regex = r'(?P<url>https://[^)]+)'
+        #  gitlab_regex = r'(gitlab.com/)?' # some plugins have a 'gitlab.com' prefix
+        #  plugin_regex = r'(?P<plugin>[^/]+/[^#\]]+)'
+        #  url_regex = r'(?P<url>https://[^)]+)'
 
-        regex = rf'^- \[{gitlab_regex}{sourcehut_regex}{plugin_regex}{hashtag_match}\]\({url_regex}\) - .+$'
+        source_regex = r'(?P<source>github.com|gitlab.com|git.sr.ht|sr.ht)'
+        sourcehut_regex = r'~?' # remove tilde from sourcehut names
+        owner_regex = r'(?P<owner>[^/]+?)'
+        repo_regex = r'(?P<repo>[^/]+?)'
+        hashtag_regex = r'(\#.+)?' # this matches the optional '#mini....' part of the mini plugins
+
+        #  regex = rf'^- \[{gitlab_regex}{sourcehut_regex}{plugin_regex}{hashtag_match}\]\({url_regex}\) - .+$'
+        regex = rf'^- \[.+?\]\(https://{source_regex}/{sourcehut_regex}{owner_regex}/{repo_regex}{hashtag_regex}\) - .+$'
         regex = re.compile(regex)
 
         specs = []
@@ -73,26 +78,35 @@ class FetchCommand(Command):
 
             matches = match.groupdict()
 
-            plugin = matches.get("plugin")
-            if plugin is None:
-                raise ValueError("Error in regex")
+            owner = matches.get("owner")
+            if owner is None:
+                raise ValueError("Error in regex: owner not found")
+            repo = matches.get("repo")
+            if repo is None:
+                raise ValueError("Error in regex: repo not found")
 
-            url = matches.get("url")
-            if url is None:
-                raise ValueError("Error in regex")
+            #  url = matches.get("url")
+            #  if url is None:
+                #  raise ValueError("Error in regex: url not found")
 
-            if "github" in url:
+            source = matches.get("source")
+            if source is None:
+                raise ValueError("Error in regex: repo not found")
+
+            spec = f"{owner}/{repo}"
+
+            if source == "github.com":
                 pass
-            elif "gitlab" in url:
-                plugin = f"gitlab:{plugin}"
-            elif "sr.ht" in url:
-                plugin = f"sourcehut:{plugin}"
-            elif url == "https://cj.rs/telescope-repo-nvim/":
-                plugin = "cljoly/telescope-repo.nvim"
+            elif source == "gitlab.com":
+                spec = f"gitlab:{spec}"
+            elif source == "sr.ht" or source == "git.sr.ht":
+                spec = f"sourcehut:{spec}"
+            #  elif url == "https://cj.rs/telescope-repo-nvim/":
+                #  spec = "cljoly/telescope-repo.nvim"
             else:
-                self.line(f"<error>Source unknown</error> {url} ({plugin})")
+                self.line(f"<error>Source unknown</error> {source} ({spec})")
 
-            specs.append(plugin.lower())
+            specs.append(spec)
 
         return specs
 

@@ -38,7 +38,7 @@ def write_manifest(specs: list[str]|set[str]):
     with open(MANIFEST_FILE, "w") as file:
 
         specs = sorted(set(specs))
-        specs = [ p.lower() for p in specs ]
+        specs = [ p for p in specs ]
 
         for s in specs:
             file.write(f"{s}\n")
