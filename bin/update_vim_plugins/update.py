@@ -181,7 +181,6 @@ class UpdateCommand(Command):
         failed_plugins.sort()
         failed_but_known.sort()
 
-        assert processed_plugins != []
         assert len(processed_plugins) == len(spec_list) - len(failed_plugins)
 
         return processed_plugins, failed_plugins, failed_but_known
