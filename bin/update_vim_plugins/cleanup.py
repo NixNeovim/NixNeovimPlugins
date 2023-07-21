@@ -42,10 +42,26 @@ class CleanUpCommand(Command):
 
                     p_props_defined = p.branch is not None or p.custom_name is not None
                     p2_props_defined = p2.branch is not None or p2.custom_name is not None
-                    p_is_lower_case = p.owner == p.owner.lower() or p.name == p.name.lower()
-                    p2_is_lower_case = p2.owner == p2.owner.lower() or p2.name == p2.name.lower()
+                    p_is_lower_case = p.owner == p.owner.lower() and p.name == p.name.lower()
+                    p2_is_lower_case = p2.owner == p2.owner.lower() and p2.name == p2.name.lower()
 
-                    if p_props_defined and p2_props_defined or p.repository_host != p2.repository_host:
+                    # list of conditions for selecting p
+                    select_p = p_props_defined and not p2_props_defined or p2_is_lower_case and not p_is_lower_case
+                    # list of conditions for selecting p2
+                    select_p2 = p2_props_defined and not p_props_defined or p_is_lower_case and not p2_is_lower_case
+
+                    # one is more defined and is all lower, but the other is not all lower
+                    # (we assume the not all lower case is the correct naming)
+                    error_props_lower = p_props_defined and p_is_lower_case and not p2_props_defined and not p2_is_lower_case
+                    error_props_lower2 = p2_props_defined and p2_is_lower_case and not p_props_defined and not p_is_lower_case
+
+                    # both props are defined
+                    error_props = p_props_defined and p2_props_defined
+
+                    # the sources are different
+                    error_source = p.repository_host != p2.repository_host
+
+                    if error_props_lower or error_props_lower2 or error_props or error_source:
                         self.line(f" • <error>Cannot determine which is the correct plugin</error>")
                         self.line(f" - {p.line}")
                         self.line(f" - {p2.line}")
@@ -54,11 +70,11 @@ class CleanUpCommand(Command):
                         # this will not be written to the manifest.txt because we set
                         # the error flag and will exit after the loop
                         specs.remove(p2)
-                    elif p_props_defined or p_is_lower_case:
+                    elif select_p:
                         self.line(f" - <comment>{p.line}</comment>")
                         self.line(f" - {p2.line}")
                         specs.remove(p2)
-                    elif p2_props_defined or p2_is_lower_case:
+                    elif select_p2:
                         self.line(f" - {p.line}")
                         self.line(f" - <comment>{p2.line}</comment>")
                         specs.remove(p)
