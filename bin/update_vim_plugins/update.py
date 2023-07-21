@@ -165,18 +165,23 @@ class UpdateCommand(Command):
                 processed_plugins.append(vim_plugin)
             except Exception as e:
                 self.line(f"   • <error>Error:</error> Could not update <info>{spec.name}</info>. Keeping old values. Reason: {e}")
-                try:
-                    with open(JSON_FILE, "r+") as json_file:
-                        data = json.load(json_file)
-                        vim_plugin = jsonpickle.decode(data[spec.name])
-                        processed_plugins.append(vim_plugin)
-                        failed_but_known.append((vim_plugin, e))
-                except:
+                with open(JSON_FILE, "r") as json_file:
+                    data = json.load(json_file)
+
+                plugin_json = data.get(spec.line)
+                if plugin_json:
+                    vim_plugin = jsonpickle.decode(plugin_json)
+                    processed_plugins.append(vim_plugin)
+                    failed_but_known.append((vim_plugin, e))
+                else:
                     self.line(f"   • <error>Error:</error> No entries for <info>{spec.name}</info> in '.plugins.json'. Skipping...")
                     failed_plugins.append((spec, e))
 
         processed_plugins.sort()
         failed_plugins.sort()
         failed_but_known.sort()
+
+        assert processed_plugins != []
+        assert len(processed_plugins) == len(spec_list) - len(failed_plugins)
 
         return processed_plugins, failed_plugins, failed_but_known
