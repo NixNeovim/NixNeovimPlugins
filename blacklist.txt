@@ -17,7 +17,7 @@ lukas-reineke/format.nvim
 meliora-theme/neovim
 melkster/modicator.nvim
 mrjones2014/nvim-ts-rainbow
-ntbbloodbath/rest.nvim
+NTBBloodbath/rest.nvim
 p00f/nvim-ts-rainbow
 rose-pine/neovim
 savq/melange
