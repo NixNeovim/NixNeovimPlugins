@@ -300,9 +300,6 @@ github/copilot.vim
 gitlab:yorickpeterse/nvim-pqf
 gitlab:yorickpeterse/nvim-window
 glacambre/firenvim
-glepnir/dashboard-nvim::dashboard-glepnir
-glepnir/lspsaga.nvim
-glepnir/zephyr-nvim
 gnikdroy/projections.nvim
 google/executor.nvim
 goolord/alpha-nvim
@@ -538,7 +535,7 @@ nvim-treesitter/nvim-treesitter-refactor
 nvim-treesitter/nvim-treesitter-textobjects
 nvim-treesitter/playground
 nvim-zh/colorful-winsep.nvim
-nvimdev/dashboard-nvim::dashboard-nvimdev
+nvimdev/dashboard-nvim
 nvimdev/indentmini.nvim
 nvimdev/lspsaga.nvim
 nvimdev/zephyr-nvim
