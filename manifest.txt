@@ -62,7 +62,6 @@ NMAC427/guess-indent.nvim
 NTBBloodbath/cheovim
 NTBBloodbath/doom-one.nvim
 NTBBloodbath/galaxyline.nvim
-NTBBloodbath/rest.nvim
 Nexmean/caskey.nvim
 NvChad/nvim-colorizer.lua
 Olical/aniseed
@@ -301,7 +300,7 @@ github/copilot.vim
 gitlab:yorickpeterse/nvim-pqf
 gitlab:yorickpeterse/nvim-window
 glacambre/firenvim
-glepnir/dashboard-nvim
+glepnir/dashboard-nvim::dashboard-glepnir
 glepnir/lspsaga.nvim
 glepnir/zephyr-nvim
 gnikdroy/projections.nvim
@@ -539,7 +538,7 @@ nvim-treesitter/nvim-treesitter-refactor
 nvim-treesitter/nvim-treesitter-textobjects
 nvim-treesitter/playground
 nvim-zh/colorful-winsep.nvim
-nvimdev/dashboard-nvim
+nvimdev/dashboard-nvim::dashboard-nvimdev
 nvimdev/indentmini.nvim
 nvimdev/lspsaga.nvim
 nvimdev/zephyr-nvim
