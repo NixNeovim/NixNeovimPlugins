@@ -2,6 +2,7 @@ import subprocess
 from random import shuffle
 from cleo.commands.command import Command
 from cleo.helpers import option
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from pprint import pprint
 
@@ -150,11 +151,40 @@ class UpdateCommand(Command):
         if error:
             exit(1)
 
+
+
+    def generate_plugin(self, spec, i, size):
+        debug_string = ""
+
+        processed_plugin = None
+        failed_but_known = None
+        failed_plugin = None
+        try:
+            debug_string += f" - <info>({i+1}/{size}) Processing</info> {spec!r}\n"
+            vim_plugin = plugin_from_spec(spec)
+            debug_string += f"   • <comment>Success</comment> {vim_plugin!r}\n"
+            processed_plugin = (vim_plugin)
+        except Exception as e:
+            debug_string += f"   • <error>Error:</error> Could not update <info>{spec.name}</info>. Keeping old values. Reason: {e}\n"
+            with open(JSON_FILE, "r") as json_file:
+                data = json.load(json_file)
+
+            plugin_json = data.get(spec.line)
+            if plugin_json:
+                vim_plugin = jsonpickle.decode(plugin_json)
+                processed_plugin = vim_plugin
+                failed_but_known = (vim_plugin, e)
+            else:
+                debug_string += f"   • <error>Error:</error> No entries for <info>{spec.name}</info> in '.plugins.json'. Skipping...\n"
+                failed_plugin = (spec, e)
+
+        self.line(debug_string.strip())
+
+        return processed_plugin, failed_plugin, failed_but_known
+
     def process_manifest(self, spec_list):
         """Read specs in 'spec_list' and generate plugins"""
-        processed_plugins = []
-        failed_plugins = []
-        failed_but_known = []
+
         size = len(spec_list)
 
         # We have to assume that we will reach an api limit. Therefore
@@ -162,26 +192,17 @@ class UpdateCommand(Command):
         # not favor those at the start of the list
         shuffle(spec_list)
 
-        for i, spec in enumerate(spec_list):
+        with ThreadPoolExecutor() as executor:
+            futures = [executor.submit(self.generate_plugin, spec, i, size) for i, spec in enumerate(spec_list)]
+            results = [future.result() for future in as_completed(futures)]
+        
+        processed_plugins = [ r[0] for r in results ]
+        failed_plugins = [ r[1] for r in results ]
+        failed_but_known = [ r[2] for r in results ]
 
-            try:
-                self.line(f" - <info>({i+1}/{size}) Processing</info> {spec!r}")
-                vim_plugin = plugin_from_spec(spec)
-                self.line(f"   • <comment>Success</comment> {vim_plugin!r}")
-                processed_plugins.append(vim_plugin)
-            except Exception as e:
-                self.line(f"   • <error>Error:</error> Could not update <info>{spec.name}</info>. Keeping old values. Reason: {e}")
-                with open(JSON_FILE, "r") as json_file:
-                    data = json.load(json_file)
-
-                plugin_json = data.get(spec.line)
-                if plugin_json:
-                    vim_plugin = jsonpickle.decode(plugin_json)
-                    processed_plugins.append(vim_plugin)
-                    failed_but_known.append((vim_plugin, e))
-                else:
-                    self.line(f"   • <error>Error:</error> No entries for <info>{spec.name}</info> in '.plugins.json'. Skipping...")
-                    failed_plugins.append((spec, e))
+        processed_plugins = list(filter(lambda x: x is not None, processed_plugins))
+        failed_plugins = list(filter(lambda x: x is not None, failed_plugins))
+        failed_but_known = list(filter(lambda x: x is not None, failed_but_known))
 
         processed_plugins.sort()
         failed_plugins.sort()
