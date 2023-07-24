@@ -38,7 +38,6 @@ amrbashir/nvim-docs-view
 andersevenrud/cmp-tmux
 andersevenrud/nordic.nvim::nordic-andersevenrud
 andrewferrier/debugprint.nvim
-andrewferrier/textobj-diagnostic
 andrewferrier/textobj-diagnostic.nvim
 andweeb/presence.nvim
 andythigpen/nvim-coverage
