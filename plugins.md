@@ -26,7 +26,6 @@
 | [pocco81/auto-save.nvim::auto-save-nvim-pocco81](https://github.com/Pocco81/auto-save.nvim) | 2022-11-01 | `auto-save-nvim-pocco81` | 2023-07-24 |
 | [rmagatti/auto-session](https://github.com/rmagatti/auto-session) | 2023-06-13 | `auto-session` | 2023-07-24 |
 | [m4xshen/autoclose.nvim](https://github.com/m4xshen/autoclose.nvim) | 2023-06-22 | `autoclose-nvim` | 2023-07-24 |
-| [pocco81/autosave.nvim](https://github.com/Pocco81/auto-save.nvim) | 2022-11-01 | `autosave-nvim` | 2023-07-24 |
 | [antonk52/bad-practices.nvim](https://github.com/antonk52/bad-practices.nvim) | 2021-10-31 | `bad-practices-nvim` | 2023-07-24 |
 | [m00qek/baleia.nvim](https://github.com/m00qek/baleia.nvim) | 2023-04-18 | `baleia-nvim` | 2023-07-24 |
 | [ribru17/bamboo.nvim](https://github.com/ribru17/bamboo.nvim) | 2023-07-18 | `bamboo-nvim` | 2023-07-24 |
@@ -687,7 +686,6 @@
 | [cappyzawa/trim.nvim](https://github.com/cappyzawa/trim.nvim) | 2023-03-22 | `trim-nvim` | 2023-07-24 |
 | [folke/trouble.nvim](https://github.com/folke/trouble.nvim) | 2023-07-23 | `trouble-nvim` | 2023-07-24 |
 | [pocco81/true-zen.nvim](https://github.com/Pocco81/true-zen.nvim) | 2023-06-09 | `true-zen-nvim` | 2023-07-24 |
-| [pocco81/truezen.nvim](https://github.com/Pocco81/true-zen.nvim) | 2023-06-09 | `truezen-nvim` | 2023-07-24 |
 | [ckolkey/ts-node-action](https://github.com/CKolkey/ts-node-action) | 2023-07-22 | `ts-node-action` | 2023-07-24 |
 | [dmmulroy/tsc.nvim](https://github.com/dmmulroy/tsc.nvim) | 2023-06-23 | `tsc-nvim` | 2023-07-24 |
 | [folke/twilight.nvim](https://github.com/folke/twilight.nvim) | 2023-05-22 | `twilight-nvim` | 2023-07-24 |

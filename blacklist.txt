@@ -24,6 +24,8 @@ melkster/modicator.nvim
 mrjones2014/nvim-ts-rainbow
 niuiic/dap-utils
 p00f/nvim-ts-rainbow
+pocco81/autosave.nvim
+pocco81/truezen.nvim
 rose-pine/neovim
 savq/melange
 shaeinst/penvim
