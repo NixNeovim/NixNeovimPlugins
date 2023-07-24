@@ -37,7 +37,7 @@ def write_manifest(specs: list[str]|set[str]):
 
     with open(MANIFEST_FILE, "w") as file:
 
-        specs = sorted(set(specs))
+        specs = sorted(set(specs), key=lambda x: x.lower())
         specs = [ p for p in specs ]
 
         for s in specs:
