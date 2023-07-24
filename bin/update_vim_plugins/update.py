@@ -87,6 +87,8 @@ class UpdateCommand(Command):
     def write_plugins_markdown(self, plugins):
         """Write the list of all plugins to PLUGINS_LIST_FILE in markdown"""
 
+        plugins.sort()
+
         self.line(f"<info>Updating plugins.md</info>")
 
         header = "| Repo | Last Update | Nix package name | Last checked |\n|:---|:---|:---|:---|\n"
@@ -99,6 +101,8 @@ class UpdateCommand(Command):
 
     def write_plugins_nix(self, plugins):
         self.line(f"<info>Generating nix output</info>")
+
+        plugins.sort()
 
         header = "{ lib, buildVimPluginFrom2Nix, fetchurl, fetchgit }: {"
         footer = "}"
@@ -119,6 +123,8 @@ class UpdateCommand(Command):
 
     def write_plugins_json(self, plugins):
         self.line(f"<info>Storing results in .plugins.json</info>")
+
+        plugins.sort()
 
         with open(JSON_FILE, "r+") as json_file:
             data = json.load(json_file)

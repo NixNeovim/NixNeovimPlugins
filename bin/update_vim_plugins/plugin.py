@@ -50,7 +50,7 @@ class VimPlugin:
         if not isinstance(o, VimPlugin):
             return False
 
-        return self.name < o.name
+        return self.name.lower() < o.name.lower()
 
     def __repr__(self):
         """Return the representation of this plugin."""

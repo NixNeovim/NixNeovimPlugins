@@ -127,7 +127,7 @@ class PluginSpec:
         if not isinstance(o, PluginSpec):
             return False
 
-        return self.name < o.name
+        return self.name.lower() < o.name.lower()
 
     def __eq__(self, o: object) -> bool:
         """Return True if the two specs are equal."""
