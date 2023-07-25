@@ -34,7 +34,6 @@ Next, apply the provided overlay:
 nixpkgs.overlays = [
   inputs.nixneovimplugins.overlays.default
 ];
-
 ```
 
 Finally, you can add the packages to your vim/neovim config. For example you can use [NixNeovim](https://github.com/NixNeovim/Nixneovim) or you can add the plugins directly:
