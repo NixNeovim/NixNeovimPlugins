@@ -212,11 +212,11 @@ gennaro-tedesco/nvim-jqx
 gennaro-tedesco/nvim-peekup
 gennaro-tedesco/nvim-possession
 gfanto/fzf-lsp.nvim
-ggandor/leap.nvim
-ggandor/leap-ast.nvim
-ggandor/lightspeed.nvim
 ggandor/flit.nvim
+ggandor/leap-ast.nvim
 ggandor/leap-spooky.nvim
+ggandor/leap.nvim
+ggandor/lightspeed.nvim
 ghillb/cybu.nvim
 github/copilot.vim
 gitlab:yorickpeterse/nvim-pqf
@@ -710,7 +710,6 @@ tjdevries/nlua.nvim
 tjdevries/train.nvim
 tjdevries/vlog.nvim
 tmillr/sos.nvim
-tpope/vim-repeat
 TobinPalmer/rayso.nvim
 tomasiser/vim-code-dark
 tomasky/bookmarks.nvim::bookmarks-tomasky
@@ -719,6 +718,7 @@ tomiis4/hypersonic.nvim
 topaxi/gh-actions.nvim
 toppair/peek.nvim
 toppair/reach.nvim
+tpope/vim-repeat
 tversteeg/registers.nvim
 tveskag/nvim-blame-line
 tzachar/cmp-fuzzy-buffer
