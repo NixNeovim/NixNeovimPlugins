@@ -724,7 +724,6 @@ tveskag/nvim-blame-line
 tzachar/cmp-fuzzy-buffer
 tzachar/cmp-fuzzy-path
 tzachar/cmp-tabnine
-tzachar/fuzzy.nvim
 udayvir-singh/hibiscus.nvim
 udayvir-singh/tangerine.nvim
 uga-rosa/ccc.nvim
