@@ -3048,6 +3048,22 @@
     };
   };
   /*
+  Generated from: ggandor/flit.nvim
+  */
+  flit-nvim = buildVimPluginFrom2Nix {
+    pname = "flit-nvim";
+    version = "2023-07-13";
+    src = fetchurl {
+      url = "https://github.com/ggandor/flit.nvim/archive/498b3a4864e697f1ed1145e518c4c78c776c55d8.tar.gz";
+      sha256 = "1fzydb4i8mbq2imnarw7yvcw5wf2ly8snjb211sc3fk7x8154pr4";
+    };
+    meta = with lib; {
+      description = "Enhanced f/t motions for Leap";
+      homepage = "https://github.com/ggandor/flit.nvim";
+      license = with licenses; [];
+    };
+  };
+  /*
   Generated from: maxmx03/FluoroMachine.nvim
   */
   FluoroMachine-nvim = buildVimPluginFrom2Nix {
@@ -4664,6 +4680,22 @@
     };
   };
   /*
+  Generated from: ggandor/leap-ast.nvim
+  */
+  leap-ast-nvim = buildVimPluginFrom2Nix {
+    pname = "leap-ast-nvim";
+    version = "2022-10-10";
+    src = fetchurl {
+      url = "https://github.com/ggandor/leap-ast.nvim/archive/1a21b70505ebb868a1e196c0d63797e1426b53a5.tar.gz";
+      sha256 = "0kdiw596hb3y6mzdsa46cbyv2jwrxiwh20l5yjj9jd95pw1n3ili";
+    };
+    meta = with lib; {
+      description = "Jump to, select and operate on AST nodes via the Leap interface with Treesitter (WIP)";
+      homepage = "https://github.com/ggandor/leap-ast.nvim";
+      license = with licenses; [];
+    };
+  };
+  /*
   Generated from: ggandor/leap.nvim
   */
   leap-nvim = buildVimPluginFrom2Nix {
@@ -4677,6 +4709,22 @@
       description = "Neovim's answer to the mouse 🦘";
       homepage = "https://github.com/ggandor/leap.nvim";
       license = with licenses; [mit];
+    };
+  };
+  /*
+  Generated from: ggandor/leap-spooky.nvim
+  */
+  leap-spooky-nvim = buildVimPluginFrom2Nix {
+    pname = "leap-spooky-nvim";
+    version = "2023-06-26";
+    src = fetchurl {
+      url = "https://github.com/ggandor/leap-spooky.nvim/archive/e003f2aa376190148f2e7731a60c89239335013c.tar.gz";
+      sha256 = "1ssza9bniyidffdrjipr56hcgqb89fc67wh4r7wr42xg2x8bml63";
+    };
+    meta = with lib; {
+      description = "👻 Actions at a distance";
+      homepage = "https://github.com/ggandor/leap-spooky.nvim";
+      license = with licenses; [];
     };
   };
   /*
@@ -8571,6 +8619,22 @@
     };
   };
   /*
+  Generated from: s1n7ax/nvim-window-picker
+  */
+  nvim-window-picker = buildVimPluginFrom2Nix {
+    pname = "nvim-window-picker";
+    version = "2023-07-29";
+    src = fetchurl {
+      url = "https://github.com/s1n7ax/nvim-window-picker/archive/1b1bb834b0acb9eebb11a61664efc665757f1ba2.tar.gz";
+      sha256 = "1ncyyypl6cppz9l49zf8a1i1hdg9d8in2w95sgdx3c5k1a1y9m2g";
+    };
+    meta = with lib; {
+      description = "This plugins prompts the user to pick a window and returns the window id of the picked window";
+      homepage = "https://github.com/s1n7ax/nvim-window-picker";
+      license = with licenses; [mit];
+    };
+  };
+  /*
   Generated from: seandewar/nvimesweeper
   */
   nvimesweeper = buildVimPluginFrom2Nix {
@@ -11912,6 +11976,22 @@
       description = "Vim syntax highlighting for R7RS Scheme and Gauche.";
       homepage = "https://github.com/mnacamura/vim-r7rs-syntax";
       license = with licenses; [mit];
+    };
+  };
+  /*
+  Generated from: tpope/vim-repeat
+  */
+  vim-repeat = buildVimPluginFrom2Nix {
+    pname = "vim-repeat";
+    version = "2021-01-25";
+    src = fetchurl {
+      url = "https://github.com/tpope/vim-repeat/archive/24afe922e6a05891756ecf331f39a1f6743d3d5a.tar.gz";
+      sha256 = "13lkilh159yhgrigvcwgy65nzfnzfkzx56ywaxlq6kw2xn2wzlan";
+    };
+    meta = with lib; {
+      description = "repeat.vim: enable repeating supported plugin maps with \".\"";
+      homepage = "https://github.com/tpope/vim-repeat";
+      license = with licenses; [];
     };
   };
   /*

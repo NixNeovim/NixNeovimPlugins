@@ -212,6 +212,9 @@ gennaro-tedesco/nvim-jqx
 gennaro-tedesco/nvim-peekup
 gennaro-tedesco/nvim-possession
 gfanto/fzf-lsp.nvim
+ggandor/flit.nvim
+ggandor/leap-ast.nvim
+ggandor/leap-spooky.nvim
 ggandor/leap.nvim
 ggandor/lightspeed.nvim
 ghillb/cybu.nvim
@@ -606,6 +609,7 @@ RutaTang/spectacle.nvim
 s1n7ax/nvim-comment-frame
 s1n7ax/nvim-search-and-replace
 s1n7ax/nvim-terminal
+s1n7ax/nvim-window-picker
 saadparwaiz1/cmp_luasnip
 Saecki/crates.nvim
 saifulapm/chartoggle.nvim
@@ -714,6 +718,7 @@ tomiis4/hypersonic.nvim
 topaxi/gh-actions.nvim
 toppair/peek.nvim
 toppair/reach.nvim
+tpope/vim-repeat
 tversteeg/registers.nvim
 tveskag/nvim-blame-line
 tzachar/cmp-fuzzy-buffer
