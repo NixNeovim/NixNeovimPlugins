@@ -19,7 +19,7 @@ jobs:
           ref: ${{ github.head_ref }}
 
       - name: Install nix
-        uses: cachix/install-nix-action@v20
+        uses: cachix/install-nix-action@v22
         with:
           github_access_token: ${{ github.token }}
 
