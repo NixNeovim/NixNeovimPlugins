@@ -4760,6 +4760,22 @@
     };
   };
   /*
+  Generated from: lmburns/lf.nvim
+  */
+  lf-nvim = buildVimPluginFrom2Nix {
+    pname = "lf-nvim";
+    version = "2023-08-09";
+    src = fetchurl {
+      url = "https://github.com/lmburns/lf.nvim/archive/5c1d8569d3a221fb3bbf497de3f2834f1db289e1.tar.gz";
+      sha256 = "0wqf1l7jg9zl28mi96yj5bbsr0kh2z6991l269gqfbiizqz8m54h";
+    };
+    meta = with lib; {
+      description = "Lf file manager for Neovim (in Lua)";
+      homepage = "https://github.com/lmburns/lf.nvim";
+      license = with licenses; [mit];
+    };
+  };
+  /*
   Generated from: sourcehut:reggie/licenses.nvim
   */
   licenses-nvim = buildVimPluginFrom2Nix {
