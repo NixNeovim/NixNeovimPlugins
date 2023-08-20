@@ -353,6 +353,7 @@ linty-org/key-menu.nvim
 linty-org/readline.nvim
 LionC/nest.nvim
 lmburns/kimbox
+lmburns/lf.nvim
 LoricAndre/OneTerm.nvim
 lourenci/github-colors
 lstwn/broot.vim
