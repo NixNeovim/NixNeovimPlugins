@@ -11131,6 +11131,22 @@
     };
   };
   /*
+  Generated from: nvim-telescope/telescope-symbols.nvim
+  */
+  telescope-symbols-nvim = buildVimPluginFrom2Nix {
+    pname = "telescope-symbols-nvim";
+    version = "2023-02-19";
+    src = fetchurl {
+      url = "https://github.com/nvim-telescope/telescope-symbols.nvim/archive/f2060117d965df4a626f068a4ebbd8ee051aa076.tar.gz";
+      sha256 = "15cfcydj5fj00z4iady8w9w5c1fi8cz43m765ffmr3lmw33vq7zq";
+    };
+    meta = with lib; {
+      description = "";
+      homepage = "https://github.com/nvim-telescope/telescope-symbols.nvim";
+      license = with licenses; [mit];
+    };
+  };
+  /*
   Generated from: LukasPietzschmann/telescope-tabs
   */
   telescope-tabs = buildVimPluginFrom2Nix {
