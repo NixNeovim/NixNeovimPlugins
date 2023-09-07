@@ -725,6 +725,7 @@
 | [dmmulroy/tsc.nvim](https://github.com/dmmulroy/tsc.nvim) | 2023-08-02 | `tsc-nvim` | 2023-09-07 |
 | [folke/twilight.nvim](https://github.com/folke/twilight.nvim) | 2023-05-22 | `twilight-nvim` | 2023-09-07 |
 | [jose-elias-alvarez/typescript.nvim](https://github.com/jose-elias-alvarez/typescript.nvim) | 2023-08-12 | `typescript-nvim` | 2023-09-07 |
+| [kaarmu/typst.vim](https://github.com/kaarmu/typst.vim) | 2023-08-29 | `typst-vim` | 2023-09-07 |
 | [altermo/ultimate-autopair.nvim](https://github.com/altermo/ultimate-autopair.nvim) | 2023-08-28 | `ultimate-autopair-nvim` | 2023-09-07 |
 | [mbbill/undotree](https://github.com/mbbill/undotree) | 2023-07-07 | `undotree` | 2023-09-07 |
 | [slugbyte/unruly-worker](https://github.com/slugbyte/unruly-worker) | 2022-03-22 | `unruly-worker` | 2023-09-07 |

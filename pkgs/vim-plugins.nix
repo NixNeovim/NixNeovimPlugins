@@ -11611,6 +11611,22 @@
     };
   };
   /*
+  Generated from: kaarmu/typst.vim
+  */
+  typst-vim = buildVimPluginFrom2Nix {
+    pname = "typst-vim";
+    version = "2023-08-29";
+    src = fetchurl {
+      url = "https://github.com/kaarmu/typst.vim/archive/555b76ceb3e5d4fbd040e2948646204501ecfdad.tar.gz";
+      sha256 = "14q8wzwm2l00yqsykr0fzwcfcrfn5anr36ns8mrlaw5idra5vnm3";
+    };
+    meta = with lib; {
+      description = "Vim plugin for Typst";
+      homepage = "https://github.com/kaarmu/typst.vim";
+      license = with licenses; [mit];
+    };
+  };
+  /*
   Generated from: altermo/ultimate-autopair.nvim
   */
   ultimate-autopair-nvim = buildVimPluginFrom2Nix {

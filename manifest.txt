@@ -1,5 +1,4 @@
 00sapo/visual.nvim
-kaarmu/typst.vim
 0styx0/abbreinder.nvim
 2nthony/vitesse.nvim
 4e554c4c/darkman.nvim
@@ -300,6 +299,7 @@ Julian/lean.nvim
 junegunn/vim-easy-align
 Junnplus/nvim-lsp-setup
 jvgrootveld/telescope-zoxide
+kaarmu/typst.vim
 kaiuri/nvim-juliana
 kana/vim-textobj-indent
 karb94/neoscroll.nvim
