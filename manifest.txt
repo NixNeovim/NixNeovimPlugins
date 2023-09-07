@@ -1,5 +1,4 @@
 00sapo/visual.nvim
-andymass/vim-matchup
 0styx0/abbreinder.nvim
 2nthony/vitesse.nvim
 4e554c4c/darkman.nvim
@@ -41,6 +40,7 @@ andersevenrud/nordic.nvim::nordic-andersevenrud
 andrewferrier/debugprint.nvim
 andrewferrier/textobj-diagnostic.nvim
 andweeb/presence.nvim
+andymass/vim-matchup
 andythigpen/nvim-coverage
 anott03/nvim-lspinstall
 antonk52/bad-practices.nvim

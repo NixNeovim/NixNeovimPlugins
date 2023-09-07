@@ -11947,6 +11947,22 @@
     };
   };
   /*
+  Generated from: andymass/vim-matchup
+  */
+  vim-matchup = buildVimPluginFrom2Nix {
+    pname = "vim-matchup";
+    version = "2023-09-02";
+    src = fetchurl {
+      url = "https://github.com/andymass/vim-matchup/archive/6dbe108230c7dbbf00555b7d4d9f6a891837ef07.tar.gz";
+      sha256 = "0iwl5ca1hw22qvyyvrsdv8zxc94kb7yw4a7a14xv3fjj6qmz8c2d";
+    };
+    meta = with lib; {
+      description = "vim match-up: even better % :facepunch: navigate and highlight matching words :facepunch: modern matchit and matchparen.  Supports both vim and neovim + tree-sitter.";
+      homepage = "https://github.com/andymass/vim-matchup";
+      license = with licenses; [mit];
+    };
+  };
+  /*
   Generated from: bluz71/vim-moonfly-colors
   */
   vim-moonfly-colors = buildVimPluginFrom2Nix {
