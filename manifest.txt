@@ -299,6 +299,7 @@ Julian/lean.nvim
 junegunn/vim-easy-align
 Junnplus/nvim-lsp-setup
 jvgrootveld/telescope-zoxide
+kaarmu/typst.vim
 kaiuri/nvim-juliana
 kana/vim-textobj-indent
 karb94/neoscroll.nvim
