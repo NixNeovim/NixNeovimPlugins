@@ -40,6 +40,7 @@ andersevenrud/nordic.nvim::nordic-andersevenrud
 andrewferrier/debugprint.nvim
 andrewferrier/textobj-diagnostic.nvim
 andweeb/presence.nvim
+andymass/vim-matchup
 andythigpen/nvim-coverage
 anott03/nvim-lspinstall
 antonk52/bad-practices.nvim
