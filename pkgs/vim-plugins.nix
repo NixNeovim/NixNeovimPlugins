@@ -7354,6 +7354,22 @@
     };
   };
   /*
+  Generated from: ckipp01/nvim-jenkinsfile-linter
+  */
+  nvim-jenkinsfile-linter = buildVimPluginFrom2Nix {
+    pname = "nvim-jenkinsfile-linter";
+    version = "2023-06-02";
+    src = fetchurl {
+      url = "https://github.com/ckipp01/nvim-jenkinsfile-linter/archive/4e37807dfc5b95dba7f4406f4f11dd7c4d94661e.tar.gz";
+      sha256 = "0zw9ajfg1yfcndh1z0v3fxq0r2nh8ssnq5z9cl494qsdiqi9w5kl";
+    };
+    meta = with lib; {
+      description = "Neovim plugin for linting Jenkinsfiles";
+      homepage = "https://github.com/ckipp01/nvim-jenkinsfile-linter";
+      license = with licenses; [mit];
+    };
+  };
+  /*
   Generated from: gennaro-tedesco/nvim-jqx
   */
   nvim-jqx = buildVimPluginFrom2Nix {
