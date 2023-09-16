@@ -99,6 +99,7 @@ ChristianChiarulli/nvcode-color-schemes.vim
 chrsm/impulse.nvim
 chrsm/paramount-ng.nvim
 Civitasv/cmake-tools.nvim
+ckipp01/nvim-jenkinsfile-linter
 ckolkey/ts-node-action
 cljoly/telescope-repo.nvim
 clojure-vim/jazz.nvim
