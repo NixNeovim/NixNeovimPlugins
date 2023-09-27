@@ -1,4 +1,5 @@
 EdvinVikstrom/filetree.nvim
+NeogitOrg/neogit
 Everblush/everblush.nvim
 gitlab:yorickpeterse/nvim-window
 gitlab:yorickpeterse/nvim-pqf

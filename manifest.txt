@@ -311,7 +311,8 @@ kdheepak/cmp-latex-symbols
 kdheepak/lazygit.nvim
 kdheepak/monochrome.nvim
 kdheepak/panvimdoc
-kdheepak/tabline.nvim
+kdheepak/tabline.nvim::tabline-kdheepak
+mg979/tabline.nvim::tabline-mg979
 keaising/im-select.nvim
 kelly-lin/ranger.nvim
 kevinhwang91/nvim-bqf
@@ -706,7 +707,7 @@ theprimeagen/vim-apm
 ThePrimeagen/vim-be-good
 tiagovla/tokyodark.nvim
 TimUntersberger/neofs
-TimUntersberger/neogit
+NeogitOrg/neogit
 titanzero/zephyrium
 tjdevries/astronauta.nvim:edc19d30a3c51a8c3fc3f606008e5b4238821f1e
 tjdevries/colorbuddy.nvim
