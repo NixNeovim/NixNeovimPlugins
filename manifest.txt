@@ -222,8 +222,8 @@ ggandor/leap.nvim
 ggandor/lightspeed.nvim
 ghillb/cybu.nvim
 github/copilot.vim
-gitlab:yorickpeterse/nvim-pqf
-gitlab:yorickpeterse/nvim-window
+yorickpeterse/nvim-pqf
+yorickpeterse/nvim-window
 glacambre/firenvim
 gnikdroy/projections.nvim
 google/executor.nvim

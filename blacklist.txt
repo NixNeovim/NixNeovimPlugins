@@ -1,5 +1,7 @@
 EdvinVikstrom/filetree.nvim
 Everblush/everblush.nvim
+gitlab:yorickpeterse/nvim-window
+gitlab:yorickpeterse/nvim-pqf
 NTBBloodbath/rest.nvim
 Pocco81/AutoSave.nvim
 Pocco81/TrueZen.nvim
