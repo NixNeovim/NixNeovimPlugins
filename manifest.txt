@@ -1,6 +1,4 @@
 00sapo/visual.nvim
-kiyoon/jupynium.nvim
-chrisgrieser/nvim-origami
 0styx0/abbreinder.nvim
 2nthony/vitesse.nvim
 4e554c4c/darkman.nvim
@@ -341,6 +339,7 @@ kevinhwang91/nvim-ufo
 kevinhwang91/rnvimr
 kiran94/edit-markdown-table.nvim
 kiran94/s3edit.nvim
+kiyoon/jupynium.nvim
 kkharji/sqlite.lua
 klen/nvim-config-local
 klen/nvim-test

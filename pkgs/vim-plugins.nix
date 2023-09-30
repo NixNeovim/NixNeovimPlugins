@@ -4728,6 +4728,22 @@
     };
   };
   /*
+  Generated from: kiyoon/jupynium.nvim
+  */
+  jupynium-nvim = buildVimPluginFrom2Nix {
+    pname = "jupynium-nvim";
+    version = "2023-09-19";
+    src = fetchurl {
+      url = "https://github.com/kiyoon/jupynium.nvim/archive/b02c65e35c80ebeee4edb45897385857e4836625.tar.gz";
+      sha256 = "084lahrk7qwdsjyc06s3g1xz9dzahjg2pml0pag9mqyfwpp8js9v";
+    };
+    meta = with lib; {
+      description = "Selenium-automated Jupyter Notebook that is synchronised with NeoVim in real-time.";
+      homepage = "https://github.com/kiyoon/jupynium.nvim";
+      license = with licenses; [mit];
+    };
+  };
+  /*
   Generated from: rebelot/kanagawa.nvim
   */
   kanagawa-nvim = buildVimPluginFrom2Nix {
