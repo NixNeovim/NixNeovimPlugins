@@ -4744,6 +4744,22 @@
     };
   };
   /*
+  Generated from: untitled-ai/jupyter_ascending
+  */
+  jupyter-ascending = buildVimPluginFrom2Nix {
+    pname = "jupyter-ascending";
+    version = "2023-06-25";
+    src = fetchurl {
+      url = "https://github.com/untitled-ai/jupyter_ascending/archive/915f5a26fa1ff1b55bea6b65f99a6f058bb611ef.tar.gz";
+      sha256 = "06ifs3s8lcnl0sl0b0s8ky9z69pavkdal0dycc28kx434346mjw0";
+    };
+    meta = with lib; {
+      description = "Ascend your Jupyter Notebook usage";
+      homepage = "https://github.com/untitled-ai/jupyter_ascending";
+      license = with licenses; [mit];
+    };
+  };
+  /*
   Generated from: rebelot/kanagawa.nvim
   */
   kanagawa-nvim = buildVimPluginFrom2Nix {

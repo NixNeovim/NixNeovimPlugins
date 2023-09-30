@@ -296,6 +296,7 @@
 | [David-Kunz/jester](https://github.com/David-Kunz/jester) | 2023-06-01 | `jester` | 2023-09-30 |
 | [fuenor/JpFormat.vim](https://github.com/fuenor/JpFormat.vim) | 2019-07-12 | `JpFormat-vim` | 2023-09-30 |
 | [kiyoon/jupynium.nvim](https://github.com/kiyoon/jupynium.nvim) | 2023-09-19 | `jupynium-nvim` | 2023-09-30 |
+| [untitled-ai/jupyter_ascending](https://github.com/untitled-ai/jupyter_ascending) | 2023-06-25 | `jupyter-ascending` | 2023-09-30 |
 | [rebelot/kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim) | 2023-09-13 | `kanagawa-nvim` | 2023-09-30 |
 | [tenxsoydev/karen-yank.nvim](https://github.com/tenxsoydev/karen-yank.nvim) | 2023-07-29 | `karen-yank-nvim` | 2023-09-30 |
 | [linty-org/key-menu.nvim](https://github.com/linty-org/key-menu.nvim) | 2023-08-28 | `key-menu-nvim` | 2023-09-30 |
