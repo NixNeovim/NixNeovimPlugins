@@ -40,7 +40,7 @@ def mock_plugin(mock_source):
 def test_vim_plugin_nix_expression(mock_plugin):
     assert (
         mock_plugin.get_nix_expression()
-        == 'test = buildVimPluginFrom2Nix { pname = "test"; version = "1.0.0"; src = src; meta = with lib; { description = "No description"; homepage = "https://example.com"; license = with licenses; [  ]; }; };'
+        == 'test = buildVimPlugin { pname = "test"; version = "1.0.0"; src = src; meta = with lib; { description = "No description"; homepage = "https://example.com"; license = with licenses; [  ]; }; };'
     )
 
 
