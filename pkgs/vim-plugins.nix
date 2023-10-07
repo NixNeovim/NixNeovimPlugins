@@ -10219,6 +10219,22 @@
     };
   };
   /*
+  Generated from: kevinhwang91/promise-async
+  */
+  promise-async = buildVimPlugin {
+    pname = "promise-async";
+    version = "2023-04-09";
+    src = fetchurl {
+      url = "https://github.com/kevinhwang91/promise-async/archive/e94f35161b8c5d4a4ca3b6ff93dd073eb9214c0e.tar.gz";
+      sha256 = "1ppki6r10k8mar7fzs2gbpfmp2nnb136k7yhid59by2383p296wv";
+    };
+    meta = with lib; {
+      description = "Promise & Async in Lua";
+      homepage = "https://github.com/kevinhwang91/promise-async";
+      license = with licenses; [];
+    };
+  };
+  /*
   Generated from: jinzhongjia/PS_manager.nvim
   */
   PS-manager-nvim = buildVimPlugin {

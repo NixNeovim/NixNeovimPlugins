@@ -1,5 +1,4 @@
 00sapo/visual.nvim
-kevinhwang91/promise-async
 0styx0/abbreinder.nvim
 2nthony/vitesse.nvim
 4e554c4c/darkman.nvim
@@ -337,6 +336,7 @@ kelly-lin/ranger.nvim
 kevinhwang91/nvim-bqf
 kevinhwang91/nvim-hlslens
 kevinhwang91/nvim-ufo
+kevinhwang91/promise-async
 kevinhwang91/rnvimr
 kiran94/edit-markdown-table.nvim
 kiran94/s3edit.nvim
