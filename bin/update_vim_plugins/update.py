@@ -105,7 +105,7 @@ class UpdateCommand(Command):
 
         plugins.sort()
 
-        header = "{ lib, buildVimPlugin, fetchurl, fetchgit }: {"
+        header = "{ lib, buildVimPluginFrom2Nix, fetchurl, fetchgit }: {"
         footer = "}"
 
         with open(PKGS_FILE, "w") as file:

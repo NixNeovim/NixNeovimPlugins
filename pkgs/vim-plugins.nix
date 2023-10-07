@@ -1,13 +1,13 @@
 {
   lib,
-  buildVimPlugin,
+  buildVimPluginFrom2Nix,
   fetchurl,
   fetchgit,
 }: {
   /*
   Generated from: 0styx0/abbreinder.nvim
   */
-  abbreinder-nvim = buildVimPlugin {
+  abbreinder-nvim = buildVimPluginFrom2Nix {
     pname = "abbreinder-nvim";
     version = "2022-04-28";
     src = fetchurl {
@@ -23,7 +23,7 @@
   /*
   Generated from: Pocco81/AbbrevMan.nvim
   */
-  AbbrevMan-nvim = buildVimPlugin {
+  AbbrevMan-nvim = buildVimPluginFrom2Nix {
     pname = "AbbrevMan-nvim";
     version = "2023-05-15";
     src = fetchurl {
@@ -39,7 +39,7 @@
   /*
   Generated from: roobert/action-hints.nvim
   */
-  action-hints-nvim = buildVimPlugin {
+  action-hints-nvim = buildVimPluginFrom2Nix {
     pname = "action-hints-nvim";
     version = "2023-09-09";
     src = fetchurl {
@@ -55,7 +55,7 @@
   /*
   Generated from: aznhe21/actions-preview.nvim
   */
-  actions-preview-nvim = buildVimPlugin {
+  actions-preview-nvim = buildVimPluginFrom2Nix {
     pname = "actions-preview-nvim";
     version = "2023-08-23";
     src = fetchurl {
@@ -71,7 +71,7 @@
   /*
   Generated from: roobert/activate.nvim
   */
-  activate-nvim = buildVimPlugin {
+  activate-nvim = buildVimPluginFrom2Nix {
     pname = "activate-nvim";
     version = "2023-09-29";
     src = fetchurl {
@@ -87,7 +87,7 @@
   /*
   Generated from: aaronhallaert/advanced-git-search.nvim
   */
-  advanced-git-search-nvim = buildVimPlugin {
+  advanced-git-search-nvim = buildVimPluginFrom2Nix {
     pname = "advanced-git-search-nvim";
     version = "2023-08-07";
     src = fetchurl {
@@ -103,7 +103,7 @@
   /*
   Generated from: Mofiqul/adwaita.nvim
   */
-  adwaita-nvim = buildVimPlugin {
+  adwaita-nvim = buildVimPluginFrom2Nix {
     pname = "adwaita-nvim";
     version = "2023-06-22";
     src = fetchurl {
@@ -119,7 +119,7 @@
   /*
   Generated from: stevearc/aerial.nvim
   */
-  aerial-nvim = buildVimPlugin {
+  aerial-nvim = buildVimPluginFrom2Nix {
     pname = "aerial-nvim";
     version = "2023-09-29";
     src = fetchurl {
@@ -135,7 +135,7 @@
   /*
   Generated from: desdic/agrolens.nvim
   */
-  agrolens-nvim = buildVimPlugin {
+  agrolens-nvim = buildVimPluginFrom2Nix {
     pname = "agrolens-nvim";
     version = "2023-05-17";
     src = fetchurl {
@@ -151,7 +151,7 @@
   /*
   Generated from: yagiziskirik/AirSupport.nvim
   */
-  AirSupport-nvim = buildVimPlugin {
+  AirSupport-nvim = buildVimPluginFrom2Nix {
     pname = "AirSupport-nvim";
     version = "2023-05-25";
     src = fetchurl {
@@ -167,7 +167,7 @@
   /*
   Generated from: goolord/alpha-nvim
   */
-  alpha-nvim = buildVimPlugin {
+  alpha-nvim = buildVimPluginFrom2Nix {
     pname = "alpha-nvim";
     version = "2023-09-14";
     src = fetchurl {
@@ -183,7 +183,7 @@
   /*
   Generated from: anuvyklack/animation.nvim
   */
-  animation-nvim = buildVimPlugin {
+  animation-nvim = buildVimPluginFrom2Nix {
     pname = "animation-nvim";
     version = "2022-09-18";
     src = fetchurl {
@@ -199,7 +199,7 @@
   /*
   Generated from: Olical/aniseed
   */
-  aniseed = buildVimPlugin {
+  aniseed = buildVimPluginFrom2Nix {
     pname = "aniseed";
     version = "2023-07-06";
     src = fetchurl {
@@ -215,7 +215,7 @@
   /*
   Generated from: aPeoplesCalendar/apc.nvim
   */
-  apc-nvim = buildVimPlugin {
+  apc-nvim = buildVimPluginFrom2Nix {
     pname = "apc-nvim";
     version = "2023-09-27";
     src = fetchurl {
@@ -231,7 +231,7 @@
   /*
   Generated from: adisen99/apprentice.nvim
   */
-  apprentice-nvim = buildVimPlugin {
+  apprentice-nvim = buildVimPluginFrom2Nix {
     pname = "apprentice-nvim";
     version = "2022-08-17";
     src = fetchurl {
@@ -247,7 +247,7 @@
   /*
   Generated from: FrenzyExists/aquarium-vim
   */
-  aquarium-vim = buildVimPlugin {
+  aquarium-vim = buildVimPluginFrom2Nix {
     pname = "aquarium-vim";
     version = "2023-02-12";
     src = fetchurl {
@@ -263,7 +263,7 @@
   /*
   Generated from: rockyzhang24/arctic.nvim
   */
-  arctic-nvim = buildVimPlugin {
+  arctic-nvim = buildVimPluginFrom2Nix {
     pname = "arctic-nvim";
     version = "2023-10-03";
     src = fetchurl {
@@ -279,7 +279,7 @@
   /*
   Generated from: jim-at-jibba/ariake-vim-colors
   */
-  ariake-vim-colors = buildVimPlugin {
+  ariake-vim-colors = buildVimPluginFrom2Nix {
     pname = "ariake-vim-colors";
     version = "2021-02-23";
     src = fetchurl {
@@ -295,7 +295,7 @@
   /*
   Generated from: tjdevries/astronauta.nvim:edc19d30a3c51a8c3fc3f606008e5b4238821f1e
   */
-  astronauta-nvim = buildVimPlugin {
+  astronauta-nvim = buildVimPluginFrom2Nix {
     pname = "astronauta-nvim";
     version = "2021-11-09";
     src = fetchurl {
@@ -311,7 +311,7 @@
   /*
   Generated from: skywind3000/asyncrun.vim
   */
-  asyncrun-vim = buildVimPlugin {
+  asyncrun-vim = buildVimPluginFrom2Nix {
     pname = "asyncrun-vim";
     version = "2023-09-26";
     src = fetchurl {
@@ -327,7 +327,7 @@
   /*
   Generated from: sourcehut:henriquehbr/ataraxis.lua
   */
-  ataraxis-lua = buildVimPlugin {
+  ataraxis-lua = buildVimPluginFrom2Nix {
     pname = "ataraxis-lua";
     version = "2023-03-22";
     src = fetchgit {
@@ -344,7 +344,7 @@
   /*
   Generated from: m-demare/attempt.nvim
   */
-  attempt-nvim = buildVimPlugin {
+  attempt-nvim = buildVimPluginFrom2Nix {
     pname = "attempt-nvim";
     version = "2023-07-05";
     src = fetchurl {
@@ -360,7 +360,7 @@
   /*
   Generated from: ray-x/aurora
   */
-  aurora = buildVimPlugin {
+  aurora = buildVimPluginFrom2Nix {
     pname = "aurora";
     version = "2023-09-09";
     src = fetchurl {
@@ -376,7 +376,7 @@
   /*
   Generated from: f-person/auto-dark-mode.nvim
   */
-  auto-dark-mode-nvim = buildVimPlugin {
+  auto-dark-mode-nvim = buildVimPluginFrom2Nix {
     pname = "auto-dark-mode-nvim";
     version = "2023-09-23";
     src = fetchurl {
@@ -392,7 +392,7 @@
   /*
   Generated from: sourcehut:nedia/auto-format.nvim
   */
-  auto-format-nvim = buildVimPlugin {
+  auto-format-nvim = buildVimPluginFrom2Nix {
     pname = "auto-format-nvim";
     version = "2023-02-21";
     src = fetchgit {
@@ -409,7 +409,7 @@
   /*
   Generated from: jghauser/auto-pandoc.nvim
   */
-  auto-pandoc-nvim = buildVimPlugin {
+  auto-pandoc-nvim = buildVimPluginFrom2Nix {
     pname = "auto-pandoc-nvim";
     version = "2023-07-30";
     src = fetchurl {
@@ -425,7 +425,7 @@
   /*
   Generated from: okuuva/auto-save.nvim
   */
-  auto-save-nvim = buildVimPlugin {
+  auto-save-nvim = buildVimPluginFrom2Nix {
     pname = "auto-save-nvim";
     version = "2023-07-27";
     src = fetchurl {
@@ -441,7 +441,7 @@
   /*
   Generated from: sourcehut:nedia/auto-save.nvim::auto-save-nvim-nedia
   */
-  auto-save-nvim-nedia = buildVimPlugin {
+  auto-save-nvim-nedia = buildVimPluginFrom2Nix {
     pname = "auto-save-nvim-nedia";
     version = "2023-04-27";
     src = fetchgit {
@@ -458,7 +458,7 @@
   /*
   Generated from: pocco81/auto-save.nvim::auto-save-nvim-pocco81
   */
-  auto-save-nvim-pocco81 = buildVimPlugin {
+  auto-save-nvim-pocco81 = buildVimPluginFrom2Nix {
     pname = "auto-save-nvim-pocco81";
     version = "2022-11-01";
     src = fetchurl {
@@ -474,7 +474,7 @@
   /*
   Generated from: rmagatti/auto-session
   */
-  auto-session = buildVimPlugin {
+  auto-session = buildVimPluginFrom2Nix {
     pname = "auto-session";
     version = "2023-08-29";
     src = fetchurl {
@@ -490,7 +490,7 @@
   /*
   Generated from: m4xshen/autoclose.nvim
   */
-  autoclose-nvim = buildVimPlugin {
+  autoclose-nvim = buildVimPluginFrom2Nix {
     pname = "autoclose-nvim";
     version = "2023-09-16";
     src = fetchurl {
@@ -506,7 +506,7 @@
   /*
   Generated from: antonk52/bad-practices.nvim
   */
-  bad-practices-nvim = buildVimPlugin {
+  bad-practices-nvim = buildVimPluginFrom2Nix {
     pname = "bad-practices-nvim";
     version = "2021-10-31";
     src = fetchurl {
@@ -522,7 +522,7 @@
   /*
   Generated from: m00qek/baleia.nvim
   */
-  baleia-nvim = buildVimPlugin {
+  baleia-nvim = buildVimPluginFrom2Nix {
     pname = "baleia-nvim";
     version = "2023-04-18";
     src = fetchurl {
@@ -538,7 +538,7 @@
   /*
   Generated from: ribru17/bamboo.nvim
   */
-  bamboo-nvim = buildVimPlugin {
+  bamboo-nvim = buildVimPluginFrom2Nix {
     pname = "bamboo-nvim";
     version = "2023-10-05";
     src = fetchurl {
@@ -554,7 +554,7 @@
   /*
   Generated from: romgrk/barbar.nvim
   */
-  barbar-nvim = buildVimPlugin {
+  barbar-nvim = buildVimPluginFrom2Nix {
     pname = "barbar-nvim";
     version = "2023-09-14";
     src = fetchurl {
@@ -570,7 +570,7 @@
   /*
   Generated from: utilyre/barbecue.nvim
   */
-  barbecue-nvim = buildVimPlugin {
+  barbecue-nvim = buildVimPluginFrom2Nix {
     pname = "barbecue-nvim";
     version = "2023-09-13";
     src = fetchurl {
@@ -586,7 +586,7 @@
   /*
   Generated from: aliou/bats.vim
   */
-  bats-vim = buildVimPlugin {
+  bats-vim = buildVimPluginFrom2Nix {
     pname = "bats-vim";
     version = "2023-04-09";
     src = fetchurl {
@@ -602,7 +602,7 @@
   /*
   Generated from: max397574/better-escape.nvim
   */
-  better-escape-nvim = buildVimPlugin {
+  better-escape-nvim = buildVimPluginFrom2Nix {
     pname = "better-escape-nvim";
     version = "2023-05-02";
     src = fetchurl {
@@ -618,7 +618,7 @@
   /*
   Generated from: Wansmer/binary-swap.nvim
   */
-  binary-swap-nvim = buildVimPlugin {
+  binary-swap-nvim = buildVimPluginFrom2Nix {
     pname = "binary-swap-nvim";
     version = "2023-08-06";
     src = fetchurl {
@@ -634,7 +634,7 @@
   /*
   Generated from: alanfortlink/blackjack.nvim
   */
-  blackjack-nvim = buildVimPlugin {
+  blackjack-nvim = buildVimPluginFrom2Nix {
     pname = "blackjack-nvim";
     version = "2023-09-23";
     src = fetchurl {
@@ -650,7 +650,7 @@
   /*
   Generated from: kyazdani42/blue-moon
   */
-  blue-moon = buildVimPlugin {
+  blue-moon = buildVimPluginFrom2Nix {
     pname = "blue-moon";
     version = "2023-09-10";
     src = fetchurl {
@@ -666,7 +666,7 @@
   /*
   Generated from: rockerBOO/boo-colorscheme-nvim
   */
-  boo-colorscheme-nvim = buildVimPlugin {
+  boo-colorscheme-nvim = buildVimPluginFrom2Nix {
     pname = "boo-colorscheme-nvim";
     version = "2023-06-21";
     src = fetchurl {
@@ -682,7 +682,7 @@
   /*
   Generated from: crusj/bookmarks.nvim::bookmarks-crusj
   */
-  bookmarks-crusj = buildVimPlugin {
+  bookmarks-crusj = buildVimPluginFrom2Nix {
     pname = "bookmarks-crusj";
     version = "2023-09-14";
     src = fetchurl {
@@ -698,7 +698,7 @@
   /*
   Generated from: tomasky/bookmarks.nvim::bookmarks-tomasky
   */
-  bookmarks-tomasky = buildVimPlugin {
+  bookmarks-tomasky = buildVimPluginFrom2Nix {
     pname = "bookmarks-tomasky";
     version = "2023-07-06";
     src = fetchurl {
@@ -714,7 +714,7 @@
   /*
   Generated from: lstwn/broot.vim
   */
-  broot-vim = buildVimPlugin {
+  broot-vim = buildVimPluginFrom2Nix {
     pname = "broot-vim";
     version = "2023-04-03";
     src = fetchurl {
@@ -730,7 +730,7 @@
   /*
   Generated from: datwaft/bubbly.nvim
   */
-  bubbly-nvim = buildVimPlugin {
+  bubbly-nvim = buildVimPluginFrom2Nix {
     pname = "bubbly-nvim";
     version = "2023-01-07";
     src = fetchurl {
@@ -746,7 +746,7 @@
   /*
   Generated from: famiu/bufdelete.nvim
   */
-  bufdelete-nvim = buildVimPlugin {
+  bufdelete-nvim = buildVimPluginFrom2Nix {
     pname = "bufdelete-nvim";
     version = "2023-06-29";
     src = fetchurl {
@@ -762,7 +762,7 @@
   /*
   Generated from: j-morano/buffer_manager.nvim
   */
-  buffer-manager-nvim = buildVimPlugin {
+  buffer-manager-nvim = buildVimPluginFrom2Nix {
     pname = "buffer-manager-nvim";
     version = "2023-10-02";
     src = fetchurl {
@@ -778,7 +778,7 @@
   /*
   Generated from: roobert/bufferline-cycle-windowless.nvim
   */
-  bufferline-cycle-windowless-nvim = buildVimPlugin {
+  bufferline-cycle-windowless-nvim = buildVimPluginFrom2Nix {
     pname = "bufferline-cycle-windowless-nvim";
     version = "2023-01-08";
     src = fetchurl {
@@ -794,7 +794,7 @@
   /*
   Generated from: akinsho/bufferline.nvim
   */
-  bufferline-nvim = buildVimPlugin {
+  bufferline-nvim = buildVimPluginFrom2Nix {
     pname = "bufferline-nvim";
     version = "2023-10-02";
     src = fetchurl {
@@ -810,7 +810,7 @@
   /*
   Generated from: tomiis4/BufferTabs.nvim
   */
-  BufferTabs-nvim = buildVimPlugin {
+  BufferTabs-nvim = buildVimPluginFrom2Nix {
     pname = "BufferTabs-nvim";
     version = "2023-09-18";
     src = fetchurl {
@@ -826,7 +826,7 @@
   /*
   Generated from: sQVe/bufignore.nvim
   */
-  bufignore-nvim = buildVimPlugin {
+  bufignore-nvim = buildVimPluginFrom2Nix {
     pname = "bufignore-nvim";
     version = "2023-05-23";
     src = fetchurl {
@@ -842,7 +842,7 @@
   /*
   Generated from: numToStr/BufOnly.nvim
   */
-  BufOnly-nvim = buildVimPlugin {
+  BufOnly-nvim = buildVimPluginFrom2Nix {
     pname = "BufOnly-nvim";
     version = "2021-07-05";
     src = fetchurl {
@@ -858,7 +858,7 @@
   /*
   Generated from: dkarter/bullets.vim
   */
-  bullets-vim = buildVimPlugin {
+  bullets-vim = buildVimPluginFrom2Nix {
     pname = "bullets-vim";
     version = "2022-10-10";
     src = fetchurl {
@@ -874,7 +874,7 @@
   /*
   Generated from: yashguptaz/calvera-dark.nvim
   */
-  calvera-dark-nvim = buildVimPlugin {
+  calvera-dark-nvim = buildVimPluginFrom2Nix {
     pname = "calvera-dark-nvim";
     version = "2021-08-13";
     src = fetchurl {
@@ -890,7 +890,7 @@
   /*
   Generated from: ellisonleao/carbon-now.nvim
   */
-  carbon-now-nvim = buildVimPlugin {
+  carbon-now-nvim = buildVimPluginFrom2Nix {
     pname = "carbon-now-nvim";
     version = "2023-09-20";
     src = fetchurl {
@@ -906,7 +906,7 @@
   /*
   Generated from: SidOfc/carbon.nvim
   */
-  carbon-nvim = buildVimPlugin {
+  carbon-nvim = buildVimPluginFrom2Nix {
     pname = "carbon-nvim";
     version = "2023-08-16";
     src = fetchurl {
@@ -922,7 +922,7 @@
   /*
   Generated from: jbyuki/carrot.nvim
   */
-  carrot-nvim = buildVimPlugin {
+  carrot-nvim = buildVimPluginFrom2Nix {
     pname = "carrot-nvim";
     version = "2023-04-25";
     src = fetchurl {
@@ -938,7 +938,7 @@
   /*
   Generated from: Nexmean/caskey.nvim
   */
-  caskey-nvim = buildVimPlugin {
+  caskey-nvim = buildVimPluginFrom2Nix {
     pname = "caskey-nvim";
     version = "2023-01-06";
     src = fetchurl {
@@ -954,7 +954,7 @@
   /*
   Generated from: catppuccin/nvim::catppuccin
   */
-  catppuccin = buildVimPlugin {
+  catppuccin = buildVimPluginFrom2Nix {
     pname = "catppuccin";
     version = "2023-09-30";
     src = fetchurl {
@@ -970,7 +970,7 @@
   /*
   Generated from: uga-rosa/ccc.nvim
   */
-  ccc-nvim = buildVimPlugin {
+  ccc-nvim = buildVimPluginFrom2Nix {
     pname = "ccc-nvim";
     version = "2023-10-05";
     src = fetchurl {
@@ -986,7 +986,7 @@
   /*
   Generated from: ranjithshegde/ccls.nvim
   */
-  ccls-nvim = buildVimPlugin {
+  ccls-nvim = buildVimPluginFrom2Nix {
     pname = "ccls-nvim";
     version = "2022-11-08";
     src = fetchurl {
@@ -1002,7 +1002,7 @@
   /*
   Generated from: Eandrju/cellular-automaton.nvim
   */
-  cellular-automaton-nvim = buildVimPlugin {
+  cellular-automaton-nvim = buildVimPluginFrom2Nix {
     pname = "cellular-automaton-nvim";
     version = "2023-09-01";
     src = fetchurl {
@@ -1018,7 +1018,7 @@
   /*
   Generated from: ms-jpq/chadtree
   */
-  chadtree = buildVimPlugin {
+  chadtree = buildVimPluginFrom2Nix {
     pname = "chadtree";
     version = "2023-10-04";
     src = fetchurl {
@@ -1034,7 +1034,7 @@
   /*
   Generated from: saifulapm/chartoggle.nvim
   */
-  chartoggle-nvim = buildVimPlugin {
+  chartoggle-nvim = buildVimPluginFrom2Nix {
     pname = "chartoggle-nvim";
     version = "2022-07-21";
     src = fetchurl {
@@ -1050,7 +1050,7 @@
   /*
   Generated from: jackMort/ChatGPT.nvim
   */
-  ChatGPT-nvim = buildVimPlugin {
+  ChatGPT-nvim = buildVimPluginFrom2Nix {
     pname = "ChatGPT-nvim";
     version = "2023-10-03";
     src = fetchurl {
@@ -1066,7 +1066,7 @@
   /*
   Generated from: sudormrfbin/cheatsheet.nvim
   */
-  cheatsheet-nvim = buildVimPlugin {
+  cheatsheet-nvim = buildVimPluginFrom2Nix {
     pname = "cheatsheet-nvim";
     version = "2021-12-23";
     src = fetchurl {
@@ -1082,7 +1082,7 @@
   /*
   Generated from: NTBBloodbath/cheovim
   */
-  cheovim = buildVimPlugin {
+  cheovim = buildVimPluginFrom2Nix {
     pname = "cheovim";
     version = "2023-08-01";
     src = fetchurl {
@@ -1098,7 +1098,7 @@
   /*
   Generated from: skanehira/christmas.vim
   */
-  christmas-vim = buildVimPlugin {
+  christmas-vim = buildVimPluginFrom2Nix {
     pname = "christmas-vim";
     version = "2021-12-24";
     src = fetchurl {
@@ -1114,7 +1114,7 @@
   /*
   Generated from: declancm/cinnamon.nvim
   */
-  cinnamon-nvim = buildVimPlugin {
+  cinnamon-nvim = buildVimPluginFrom2Nix {
     pname = "cinnamon-nvim";
     version = "2022-12-04";
     src = fetchurl {
@@ -1130,7 +1130,7 @@
   /*
   Generated from: zootedb0t/citruszest.nvim
   */
-  citruszest-nvim = buildVimPlugin {
+  citruszest-nvim = buildVimPluginFrom2Nix {
     pname = "citruszest-nvim";
     version = "2023-10-02";
     src = fetchurl {
@@ -1146,7 +1146,7 @@
   /*
   Generated from: p00f/clangd_extensions.nvim
   */
-  clangd-extensions-nvim = buildVimPlugin {
+  clangd-extensions-nvim = buildVimPluginFrom2Nix {
     pname = "clangd-extensions-nvim";
     version = "2023-09-08";
     src = fetchurl {
@@ -1162,7 +1162,7 @@
   /*
   Generated from: ekickx/clipboard-image.nvim
   */
-  clipboard-image-nvim = buildVimPlugin {
+  clipboard-image-nvim = buildVimPluginFrom2Nix {
     pname = "clipboard-image-nvim";
     version = "2022-11-10";
     src = fetchurl {
@@ -1178,7 +1178,7 @@
   /*
   Generated from: kazhala/close-buffers.nvim
   */
-  close-buffers-nvim = buildVimPlugin {
+  close-buffers-nvim = buildVimPluginFrom2Nix {
     pname = "close-buffers-nvim";
     version = "2021-11-14";
     src = fetchurl {
@@ -1194,7 +1194,7 @@
   /*
   Generated from: Civitasv/cmake-tools.nvim
   */
-  cmake-tools-nvim = buildVimPlugin {
+  cmake-tools-nvim = buildVimPluginFrom2Nix {
     pname = "cmake-tools-nvim";
     version = "2023-10-02";
     src = fetchurl {
@@ -1210,7 +1210,7 @@
   /*
   Generated from: notomo/cmdbuf.nvim
   */
-  cmdbuf-nvim = buildVimPlugin {
+  cmdbuf-nvim = buildVimPluginFrom2Nix {
     pname = "cmdbuf-nvim";
     version = "2023-08-18";
     src = fetchurl {
@@ -1226,7 +1226,7 @@
   /*
   Generated from: felipelema/cmp-async-path
   */
-  cmp-async-path = buildVimPlugin {
+  cmp-async-path = buildVimPluginFrom2Nix {
     pname = "cmp-async-path";
     version = "2023-01-16";
     src = fetchurl {
@@ -1242,7 +1242,7 @@
   /*
   Generated from: hrsh7th/cmp-buffer
   */
-  cmp-buffer = buildVimPlugin {
+  cmp-buffer = buildVimPluginFrom2Nix {
     pname = "cmp-buffer";
     version = "2022-08-10";
     src = fetchurl {
@@ -1258,7 +1258,7 @@
   /*
   Generated from: hrsh7th/cmp-calc
   */
-  cmp-calc = buildVimPlugin {
+  cmp-calc = buildVimPluginFrom2Nix {
     pname = "cmp-calc";
     version = "2023-08-18";
     src = fetchurl {
@@ -1274,7 +1274,7 @@
   /*
   Generated from: vappolinario/cmp-clippy
   */
-  cmp-clippy = buildVimPlugin {
+  cmp-clippy = buildVimPluginFrom2Nix {
     pname = "cmp-clippy";
     version = "2023-02-08";
     src = fetchurl {
@@ -1290,7 +1290,7 @@
   /*
   Generated from: hrsh7th/cmp-cmdline
   */
-  cmp-cmdline = buildVimPlugin {
+  cmp-cmdline = buildVimPluginFrom2Nix {
     pname = "cmp-cmdline";
     version = "2023-06-08";
     src = fetchurl {
@@ -1306,7 +1306,7 @@
   /*
   Generated from: dmitmel/cmp-cmdline-history
   */
-  cmp-cmdline-history = buildVimPlugin {
+  cmp-cmdline-history = buildVimPluginFrom2Nix {
     pname = "cmp-cmdline-history";
     version = "2022-05-04";
     src = fetchurl {
@@ -1322,7 +1322,7 @@
   /*
   Generated from: davidsierradz/cmp-conventionalcommits
   */
-  cmp-conventionalcommits = buildVimPlugin {
+  cmp-conventionalcommits = buildVimPluginFrom2Nix {
     pname = "cmp-conventionalcommits";
     version = "2022-10-16";
     src = fetchurl {
@@ -1338,7 +1338,7 @@
   /*
   Generated from: hrsh7th/cmp-copilot
   */
-  cmp-copilot = buildVimPlugin {
+  cmp-copilot = buildVimPluginFrom2Nix {
     pname = "cmp-copilot";
     version = "2022-04-11";
     src = fetchurl {
@@ -1354,7 +1354,7 @@
   /*
   Generated from: rcarriga/cmp-dap
   */
-  cmp-dap = buildVimPlugin {
+  cmp-dap = buildVimPluginFrom2Nix {
     pname = "cmp-dap";
     version = "2022-11-13";
     src = fetchurl {
@@ -1370,7 +1370,7 @@
   /*
   Generated from: uga-rosa/cmp-dictionary
   */
-  cmp-dictionary = buildVimPlugin {
+  cmp-dictionary = buildVimPluginFrom2Nix {
     pname = "cmp-dictionary";
     version = "2023-08-30";
     src = fetchurl {
@@ -1386,7 +1386,7 @@
   /*
   Generated from: dmitmel/cmp-digraphs
   */
-  cmp-digraphs = buildVimPlugin {
+  cmp-digraphs = buildVimPluginFrom2Nix {
     pname = "cmp-digraphs";
     version = "2021-12-13";
     src = fetchurl {
@@ -1402,7 +1402,7 @@
   /*
   Generated from: hrsh7th/cmp-emoji
   */
-  cmp-emoji = buildVimPlugin {
+  cmp-emoji = buildVimPluginFrom2Nix {
     pname = "cmp-emoji";
     version = "2021-09-28";
     src = fetchurl {
@@ -1418,7 +1418,7 @@
   /*
   Generated from: mtoohey31/cmp-fish
   */
-  cmp-fish = buildVimPlugin {
+  cmp-fish = buildVimPluginFrom2Nix {
     pname = "cmp-fish";
     version = "2022-09-01";
     src = fetchurl {
@@ -1434,7 +1434,7 @@
   /*
   Generated from: tzachar/cmp-fuzzy-buffer
   */
-  cmp-fuzzy-buffer = buildVimPlugin {
+  cmp-fuzzy-buffer = buildVimPluginFrom2Nix {
     pname = "cmp-fuzzy-buffer";
     version = "2023-04-02";
     src = fetchurl {
@@ -1450,7 +1450,7 @@
   /*
   Generated from: tzachar/cmp-fuzzy-path
   */
-  cmp-fuzzy-path = buildVimPlugin {
+  cmp-fuzzy-path = buildVimPluginFrom2Nix {
     pname = "cmp-fuzzy-path";
     version = "2023-06-18";
     src = fetchurl {
@@ -1466,7 +1466,7 @@
   /*
   Generated from: petertriho/cmp-git
   */
-  cmp-git = buildVimPlugin {
+  cmp-git = buildVimPluginFrom2Nix {
     pname = "cmp-git";
     version = "2023-05-30";
     src = fetchurl {
@@ -1482,7 +1482,7 @@
   /*
   Generated from: max397574/cmp-greek
   */
-  cmp-greek = buildVimPlugin {
+  cmp-greek = buildVimPluginFrom2Nix {
     pname = "cmp-greek";
     version = "2022-01-10";
     src = fetchurl {
@@ -1498,7 +1498,7 @@
   /*
   Generated from: kdheepak/cmp-latex-symbols
   */
-  cmp-latex-symbols = buildVimPlugin {
+  cmp-latex-symbols = buildVimPluginFrom2Nix {
     pname = "cmp-latex-symbols";
     version = "2023-01-23";
     src = fetchurl {
@@ -1514,7 +1514,7 @@
   /*
   Generated from: octaltree/cmp-look
   */
-  cmp-look = buildVimPlugin {
+  cmp-look = buildVimPluginFrom2Nix {
     pname = "cmp-look";
     version = "2022-06-26";
     src = fetchurl {
@@ -1530,7 +1530,7 @@
   /*
   Generated from: saadparwaiz1/cmp_luasnip
   */
-  cmp-luasnip = buildVimPlugin {
+  cmp-luasnip = buildVimPluginFrom2Nix {
     pname = "cmp-luasnip";
     version = "2022-10-28";
     src = fetchurl {
@@ -1546,7 +1546,7 @@
   /*
   Generated from: david-kunz/cmp-npm
   */
-  cmp-npm = buildVimPlugin {
+  cmp-npm = buildVimPluginFrom2Nix {
     pname = "cmp-npm";
     version = "2023-06-12";
     src = fetchurl {
@@ -1562,7 +1562,7 @@
   /*
   Generated from: hrsh7th/cmp-nvim-lsp
   */
-  cmp-nvim-lsp = buildVimPlugin {
+  cmp-nvim-lsp = buildVimPluginFrom2Nix {
     pname = "cmp-nvim-lsp";
     version = "2023-06-23";
     src = fetchurl {
@@ -1578,7 +1578,7 @@
   /*
   Generated from: hrsh7th/cmp-nvim-lsp-document-symbol
   */
-  cmp-nvim-lsp-document-symbol = buildVimPlugin {
+  cmp-nvim-lsp-document-symbol = buildVimPluginFrom2Nix {
     pname = "cmp-nvim-lsp-document-symbol";
     version = "2023-04-01";
     src = fetchurl {
@@ -1594,7 +1594,7 @@
   /*
   Generated from: hrsh7th/cmp-nvim-lsp-signature-help
   */
-  cmp-nvim-lsp-signature-help = buildVimPlugin {
+  cmp-nvim-lsp-signature-help = buildVimPluginFrom2Nix {
     pname = "cmp-nvim-lsp-signature-help";
     version = "2023-02-03";
     src = fetchurl {
@@ -1610,7 +1610,7 @@
   /*
   Generated from: hrsh7th/cmp-nvim-lua
   */
-  cmp-nvim-lua = buildVimPlugin {
+  cmp-nvim-lua = buildVimPluginFrom2Nix {
     pname = "cmp-nvim-lua";
     version = "2023-04-14";
     src = fetchurl {
@@ -1626,7 +1626,7 @@
   /*
   Generated from: quangnguyen30192/cmp-nvim-ultisnips
   */
-  cmp-nvim-ultisnips = buildVimPlugin {
+  cmp-nvim-ultisnips = buildVimPluginFrom2Nix {
     pname = "cmp-nvim-ultisnips";
     version = "2023-07-05";
     src = fetchurl {
@@ -1642,7 +1642,7 @@
   /*
   Generated from: hrsh7th/cmp-omni
   */
-  cmp-omni = buildVimPlugin {
+  cmp-omni = buildVimPluginFrom2Nix {
     pname = "cmp-omni";
     version = "2023-09-24";
     src = fetchurl {
@@ -1658,7 +1658,7 @@
   /*
   Generated from: aspeddro/cmp-pandoc.nvim
   */
-  cmp-pandoc-nvim = buildVimPlugin {
+  cmp-pandoc-nvim = buildVimPluginFrom2Nix {
     pname = "cmp-pandoc-nvim";
     version = "2023-03-03";
     src = fetchurl {
@@ -1674,7 +1674,7 @@
   /*
   Generated from: jc-doyle/cmp-pandoc-references
   */
-  cmp-pandoc-references = buildVimPlugin {
+  cmp-pandoc-references = buildVimPluginFrom2Nix {
     pname = "cmp-pandoc-references";
     version = "2022-04-20";
     src = fetchurl {
@@ -1690,7 +1690,7 @@
   /*
   Generated from: hrsh7th/cmp-path
   */
-  cmp-path = buildVimPlugin {
+  cmp-path = buildVimPluginFrom2Nix {
     pname = "cmp-path";
     version = "2022-10-03";
     src = fetchurl {
@@ -1706,7 +1706,7 @@
   /*
   Generated from: lukas-reineke/cmp-rg
   */
-  cmp-rg = buildVimPlugin {
+  cmp-rg = buildVimPluginFrom2Nix {
     pname = "cmp-rg";
     version = "2023-09-01";
     src = fetchurl {
@@ -1722,7 +1722,7 @@
   /*
   Generated from: dcampos/cmp-snippy
   */
-  cmp-snippy = buildVimPlugin {
+  cmp-snippy = buildVimPluginFrom2Nix {
     pname = "cmp-snippy";
     version = "2023-06-15";
     src = fetchurl {
@@ -1738,7 +1738,7 @@
   /*
   Generated from: f3fora/cmp-spell
   */
-  cmp-spell = buildVimPlugin {
+  cmp-spell = buildVimPluginFrom2Nix {
     pname = "cmp-spell";
     version = "2023-09-20";
     src = fetchurl {
@@ -1754,7 +1754,7 @@
   /*
   Generated from: tzachar/cmp-tabnine
   */
-  cmp-tabnine = buildVimPlugin {
+  cmp-tabnine = buildVimPluginFrom2Nix {
     pname = "cmp-tabnine";
     version = "2023-05-09";
     src = fetchurl {
@@ -1770,7 +1770,7 @@
   /*
   Generated from: andersevenrud/cmp-tmux
   */
-  cmp-tmux = buildVimPlugin {
+  cmp-tmux = buildVimPluginFrom2Nix {
     pname = "cmp-tmux";
     version = "2023-09-02";
     src = fetchurl {
@@ -1786,7 +1786,7 @@
   /*
   Generated from: ray-x/cmp-treesitter
   */
-  cmp-treesitter = buildVimPlugin {
+  cmp-treesitter = buildVimPluginFrom2Nix {
     pname = "cmp-treesitter";
     version = "2023-04-06";
     src = fetchurl {
@@ -1802,7 +1802,7 @@
   /*
   Generated from: lukas-reineke/cmp-under-comparator
   */
-  cmp-under-comparator = buildVimPlugin {
+  cmp-under-comparator = buildVimPluginFrom2Nix {
     pname = "cmp-under-comparator";
     version = "2021-11-11";
     src = fetchurl {
@@ -1818,7 +1818,7 @@
   /*
   Generated from: dmitmel/cmp-vim-lsp
   */
-  cmp-vim-lsp = buildVimPlugin {
+  cmp-vim-lsp = buildVimPluginFrom2Nix {
     pname = "cmp-vim-lsp";
     version = "2021-10-26";
     src = fetchurl {
@@ -1834,7 +1834,7 @@
   /*
   Generated from: pontusk/cmp-vimwiki-tags
   */
-  cmp-vimwiki-tags = buildVimPlugin {
+  cmp-vimwiki-tags = buildVimPluginFrom2Nix {
     pname = "cmp-vimwiki-tags";
     version = "2022-04-25";
     src = fetchurl {
@@ -1850,7 +1850,7 @@
   /*
   Generated from: hrsh7th/cmp-vsnip
   */
-  cmp-vsnip = buildVimPlugin {
+  cmp-vsnip = buildVimPluginFrom2Nix {
     pname = "cmp-vsnip";
     version = "2022-11-22";
     src = fetchurl {
@@ -1866,7 +1866,7 @@
   /*
   Generated from: tamago324/cmp-zsh
   */
-  cmp-zsh = buildVimPlugin {
+  cmp-zsh = buildVimPluginFrom2Nix {
     pname = "cmp-zsh";
     version = "2022-10-03";
     src = fetchurl {
@@ -1882,7 +1882,7 @@
   /*
   Generated from: lalitmee/cobalt2.nvim
   */
-  cobalt2-nvim = buildVimPlugin {
+  cobalt2-nvim = buildVimPluginFrom2Nix {
     pname = "cobalt2-nvim";
     version = "2023-06-26";
     src = fetchurl {
@@ -1898,7 +1898,7 @@
   /*
   Generated from: coc-extensions/coc-svelte
   */
-  coc-svelte = buildVimPlugin {
+  coc-svelte = buildVimPluginFrom2Nix {
     pname = "coc-svelte";
     version = "2022-03-14";
     src = fetchurl {
@@ -1914,7 +1914,7 @@
   /*
   Generated from: rodrigore/coc-tailwind-intellisense
   */
-  coc-tailwind-intellisense = buildVimPlugin {
+  coc-tailwind-intellisense = buildVimPluginFrom2Nix {
     pname = "coc-tailwind-intellisense";
     version = "2021-09-07";
     src = fetchurl {
@@ -1930,7 +1930,7 @@
   /*
   Generated from: iamcco/coc-tailwindcss
   */
-  coc-tailwindcss = buildVimPlugin {
+  coc-tailwindcss = buildVimPluginFrom2Nix {
     pname = "coc-tailwindcss";
     version = "2020-08-19";
     src = fetchurl {
@@ -1946,7 +1946,7 @@
   /*
   Generated from: CRAG666/code_runner.nvim
   */
-  code-runner-nvim = buildVimPlugin {
+  code-runner-nvim = buildVimPluginFrom2Nix {
     pname = "code-runner-nvim";
     version = "2023-05-25";
     src = fetchurl {
@@ -1962,7 +1962,7 @@
   /*
   Generated from: niuiic/code-shot.nvim
   */
-  code-shot-nvim = buildVimPlugin {
+  code-shot-nvim = buildVimPluginFrom2Nix {
     pname = "code-shot-nvim";
     version = "2023-08-18";
     src = fetchurl {
@@ -1978,7 +1978,7 @@
   /*
   Generated from: dpayne/CodeGPT.nvim
   */
-  CodeGPT-nvim = buildVimPlugin {
+  CodeGPT-nvim = buildVimPluginFrom2Nix {
     pname = "CodeGPT-nvim";
     version = "2023-05-01";
     src = fetchurl {
@@ -1994,7 +1994,7 @@
   /*
   Generated from: pwntester/codeql.nvim
   */
-  codeql-nvim = buildVimPlugin {
+  codeql-nvim = buildVimPluginFrom2Nix {
     pname = "codeql-nvim";
     version = "2023-09-13";
     src = fetchurl {
@@ -2010,7 +2010,7 @@
   /*
   Generated from: adisen99/codeschool.nvim
   */
-  codeschool-nvim = buildVimPlugin {
+  codeschool-nvim = buildVimPluginFrom2Nix {
     pname = "codeschool-nvim";
     version = "2022-08-17";
     src = fetchurl {
@@ -2026,7 +2026,7 @@
   /*
   Generated from: gorbit99/codewindow.nvim
   */
-  codewindow-nvim = buildVimPlugin {
+  codewindow-nvim = buildVimPluginFrom2Nix {
     pname = "codewindow-nvim";
     version = "2023-09-23";
     src = fetchurl {
@@ -2042,7 +2042,7 @@
   /*
   Generated from: noib3/cokeline.nvim
   */
-  cokeline-nvim = buildVimPlugin {
+  cokeline-nvim = buildVimPluginFrom2Nix {
     pname = "cokeline-nvim";
     version = "2023-10-04";
     src = fetchurl {
@@ -2058,7 +2058,7 @@
   /*
   Generated from: ziontee113/color-picker.nvim
   */
-  color-picker-nvim = buildVimPlugin {
+  color-picker-nvim = buildVimPluginFrom2Nix {
     pname = "color-picker-nvim";
     version = "2023-05-21";
     src = fetchurl {
@@ -2074,7 +2074,7 @@
   /*
   Generated from: tjdevries/colorbuddy.nvim
   */
-  colorbuddy-nvim = buildVimPlugin {
+  colorbuddy-nvim = buildVimPluginFrom2Nix {
     pname = "colorbuddy-nvim";
     version = "2022-02-28";
     src = fetchurl {
@@ -2090,7 +2090,7 @@
   /*
   Generated from: nvim-zh/colorful-winsep.nvim
   */
-  colorful-winsep-nvim = buildVimPlugin {
+  colorful-winsep-nvim = buildVimPluginFrom2Nix {
     pname = "colorful-winsep-nvim";
     version = "2023-05-31";
     src = fetchurl {
@@ -2106,7 +2106,7 @@
   /*
   Generated from: nvim-colortils/colortils.nvim
   */
-  colortils-nvim = buildVimPlugin {
+  colortils-nvim = buildVimPluginFrom2Nix {
     pname = "colortils-nvim";
     version = "2023-04-26";
     src = fetchurl {
@@ -2122,7 +2122,7 @@
   /*
   Generated from: FeiyouG/command_center.nvim
   */
-  command-center-nvim = buildVimPlugin {
+  command-center-nvim = buildVimPluginFrom2Nix {
     pname = "command-center-nvim";
     version = "2023-09-11";
     src = fetchurl {
@@ -2138,7 +2138,7 @@
   /*
   Generated from: LudoPinelli/comment-box.nvim
   */
-  comment-box-nvim = buildVimPlugin {
+  comment-box-nvim = buildVimPluginFrom2Nix {
     pname = "comment-box-nvim";
     version = "2023-07-20";
     src = fetchurl {
@@ -2154,7 +2154,7 @@
   /*
   Generated from: numToStr/Comment.nvim
   */
-  Comment-nvim = buildVimPlugin {
+  Comment-nvim = buildVimPluginFrom2Nix {
     pname = "Comment-nvim";
     version = "2023-08-07";
     src = fetchurl {
@@ -2170,7 +2170,7 @@
   /*
   Generated from: winston0410/commented.nvim
   */
-  commented-nvim = buildVimPlugin {
+  commented-nvim = buildVimPluginFrom2Nix {
     pname = "commented-nvim";
     version = "2022-03-12";
     src = fetchurl {
@@ -2186,7 +2186,7 @@
   /*
   Generated from: xeluxee/competitest.nvim
   */
-  competitest-nvim = buildVimPlugin {
+  competitest-nvim = buildVimPluginFrom2Nix {
     pname = "competitest-nvim";
     version = "2023-09-20";
     src = fetchurl {
@@ -2202,7 +2202,7 @@
   /*
   Generated from: krady21/compiler-explorer.nvim
   */
-  compiler-explorer-nvim = buildVimPlugin {
+  compiler-explorer-nvim = buildVimPluginFrom2Nix {
     pname = "compiler-explorer-nvim";
     version = "2023-05-29";
     src = fetchurl {
@@ -2218,7 +2218,7 @@
   /*
   Generated from: Zeioth/compiler.nvim
   */
-  compiler-nvim = buildVimPlugin {
+  compiler-nvim = buildVimPluginFrom2Nix {
     pname = "compiler-nvim";
     version = "2023-10-04";
     src = fetchurl {
@@ -2234,7 +2234,7 @@
   /*
   Generated from: vigoux/complementree.nvim
   */
-  complementree-nvim = buildVimPlugin {
+  complementree-nvim = buildVimPluginFrom2Nix {
     pname = "complementree-nvim";
     version = "2022-10-17";
     src = fetchurl {
@@ -2250,7 +2250,7 @@
   /*
   Generated from: RutaTang/compter.nvim
   */
-  compter-nvim = buildVimPlugin {
+  compter-nvim = buildVimPluginFrom2Nix {
     pname = "compter-nvim";
     version = "2023-06-01";
     src = fetchurl {
@@ -2266,7 +2266,7 @@
   /*
   Generated from: stevearc/conform.nvim
   */
-  conform-nvim = buildVimPlugin {
+  conform-nvim = buildVimPluginFrom2Nix {
     pname = "conform-nvim";
     version = "2023-10-06";
     src = fetchurl {
@@ -2282,7 +2282,7 @@
   /*
   Generated from: Olical/conjure
   */
-  conjure = buildVimPlugin {
+  conjure = buildVimPluginFrom2Nix {
     pname = "conjure";
     version = "2023-08-27";
     src = fetchurl {
@@ -2298,7 +2298,7 @@
   /*
   Generated from: pianocomposer321/consolation.nvim
   */
-  consolation-nvim = buildVimPlugin {
+  consolation-nvim = buildVimPluginFrom2Nix {
     pname = "consolation-nvim";
     version = "2021-09-01";
     src = fetchurl {
@@ -2314,7 +2314,7 @@
   /*
   Generated from: zbirenbaum/copilot-cmp
   */
-  copilot-cmp = buildVimPlugin {
+  copilot-cmp = buildVimPluginFrom2Nix {
     pname = "copilot-cmp";
     version = "2023-09-09";
     src = fetchurl {
@@ -2330,7 +2330,7 @@
   /*
   Generated from: zbirenbaum/copilot.lua
   */
-  copilot-lua = buildVimPlugin {
+  copilot-lua = buildVimPluginFrom2Nix {
     pname = "copilot-lua";
     version = "2023-09-21";
     src = fetchurl {
@@ -2346,7 +2346,7 @@
   /*
   Generated from: github/copilot.vim
   */
-  copilot-vim = buildVimPlugin {
+  copilot-vim = buildVimPluginFrom2Nix {
     pname = "copilot-vim";
     version = "2023-09-20";
     src = fetchurl {
@@ -2362,7 +2362,7 @@
   /*
   Generated from: ms-jpq/coq.artifacts:artifacts
   */
-  coq-artifacts = buildVimPlugin {
+  coq-artifacts = buildVimPluginFrom2Nix {
     pname = "coq-artifacts";
     version = "2023-09-07";
     src = fetchurl {
@@ -2378,7 +2378,7 @@
   /*
   Generated from: ms-jpq/coq_nvim
   */
-  coq-nvim = buildVimPlugin {
+  coq-nvim = buildVimPluginFrom2Nix {
     pname = "coq-nvim";
     version = "2023-10-04";
     src = fetchurl {
@@ -2394,7 +2394,7 @@
   /*
   Generated from: ms-jpq/coq.thirdparty
   */
-  coq-thirdparty = buildVimPlugin {
+  coq-thirdparty = buildVimPluginFrom2Nix {
     pname = "coq-thirdparty";
     version = "2023-08-27";
     src = fetchurl {
@@ -2410,7 +2410,7 @@
   /*
   Generated from: CosmicNvim/cosmic-ui
   */
-  cosmic-ui = buildVimPlugin {
+  cosmic-ui = buildVimPluginFrom2Nix {
     pname = "cosmic-ui";
     version = "2022-12-30";
     src = fetchurl {
@@ -2426,7 +2426,7 @@
   /*
   Generated from: niuiic/cp-image.nvim
   */
-  cp-image-nvim = buildVimPlugin {
+  cp-image-nvim = buildVimPluginFrom2Nix {
     pname = "cp-image-nvim";
     version = "2023-07-14";
     src = fetchurl {
@@ -2442,7 +2442,7 @@
   /*
   Generated from: p00f/cphelper.nvim
   */
-  cphelper-nvim = buildVimPlugin {
+  cphelper-nvim = buildVimPluginFrom2Nix {
     pname = "cphelper-nvim";
     version = "2023-06-01";
     src = fetchurl {
@@ -2458,7 +2458,7 @@
   /*
   Generated from: Saecki/crates.nvim
   */
-  crates-nvim = buildVimPlugin {
+  crates-nvim = buildVimPluginFrom2Nix {
     pname = "crates-nvim";
     version = "2023-10-05";
     src = fetchurl {
@@ -2474,7 +2474,7 @@
   /*
   Generated from: gaborvecsei/cryptoprice.nvim
   */
-  cryptoprice-nvim = buildVimPlugin {
+  cryptoprice-nvim = buildVimPluginFrom2Nix {
     pname = "cryptoprice-nvim";
     version = "2022-03-18";
     src = fetchurl {
@@ -2490,7 +2490,7 @@
   /*
   Generated from: gbprod/cutlass.nvim
   */
-  cutlass-nvim = buildVimPlugin {
+  cutlass-nvim = buildVimPluginFrom2Nix {
     pname = "cutlass-nvim";
     version = "2023-05-01";
     src = fetchurl {
@@ -2506,7 +2506,7 @@
   /*
   Generated from: ghillb/cybu.nvim
   */
-  cybu-nvim = buildVimPlugin {
+  cybu-nvim = buildVimPluginFrom2Nix {
     pname = "cybu-nvim";
     version = "2023-04-28";
     src = fetchurl {
@@ -2522,7 +2522,7 @@
   /*
   Generated from: niuiic/dap-utils.nvim
   */
-  dap-utils-nvim = buildVimPlugin {
+  dap-utils-nvim = buildVimPluginFrom2Nix {
     pname = "dap-utils-nvim";
     version = "2023-07-19";
     src = fetchurl {
@@ -2538,7 +2538,7 @@
   /*
   Generated from: Pocco81/DAPInstall.nvim
   */
-  DAPInstall-nvim = buildVimPlugin {
+  DAPInstall-nvim = buildVimPluginFrom2Nix {
     pname = "DAPInstall-nvim";
     version = "2022-04-20";
     src = fetchurl {
@@ -2554,7 +2554,7 @@
   /*
   Generated from: sekke276/dark_flat.nvim
   */
-  dark-flat-nvim = buildVimPlugin {
+  dark-flat-nvim = buildVimPluginFrom2Nix {
     pname = "dark-flat-nvim";
     version = "2023-07-20";
     src = fetchurl {
@@ -2570,7 +2570,7 @@
   /*
   Generated from: 4e554c4c/darkman.nvim
   */
-  darkman-nvim = buildVimPlugin {
+  darkman-nvim = buildVimPluginFrom2Nix {
     pname = "darkman-nvim";
     version = "2023-10-01";
     src = fetchurl {
@@ -2586,7 +2586,7 @@
   /*
   Generated from: nvimdev/dashboard-nvim
   */
-  dashboard-nvim = buildVimPlugin {
+  dashboard-nvim = buildVimPluginFrom2Nix {
     pname = "dashboard-nvim";
     version = "2023-09-30";
     src = fetchurl {
@@ -2602,7 +2602,7 @@
   /*
   Generated from: Bekaboo/deadcolumn.nvim
   */
-  deadcolumn-nvim = buildVimPlugin {
+  deadcolumn-nvim = buildVimPluginFrom2Nix {
     pname = "deadcolumn-nvim";
     version = "2023-06-03";
     src = fetchurl {
@@ -2618,7 +2618,7 @@
   /*
   Generated from: andrewferrier/debugprint.nvim
   */
-  debugprint-nvim = buildVimPlugin {
+  debugprint-nvim = buildVimPluginFrom2Nix {
     pname = "debugprint-nvim";
     version = "2023-09-23";
     src = fetchurl {
@@ -2634,7 +2634,7 @@
   /*
   Generated from: Verf/deepwhite.nvim
   */
-  deepwhite-nvim = buildVimPlugin {
+  deepwhite-nvim = buildVimPluginFrom2Nix {
     pname = "deepwhite-nvim";
     version = "2023-09-29";
     src = fetchurl {
@@ -2650,7 +2650,7 @@
   /*
   Generated from: chiyadev/dep
   */
-  dep = buildVimPlugin {
+  dep = buildVimPluginFrom2Nix {
     pname = "dep";
     version = "2022-12-20";
     src = fetchurl {
@@ -2666,7 +2666,7 @@
   /*
   Generated from: akinsho/dependency-assist.nvim
   */
-  dependency-assist-nvim = buildVimPlugin {
+  dependency-assist-nvim = buildVimPluginFrom2Nix {
     pname = "dependency-assist-nvim";
     version = "2021-11-11";
     src = fetchurl {
@@ -2682,7 +2682,7 @@
   /*
   Generated from: onsails/diaglist.nvim
   */
-  diaglist-nvim = buildVimPlugin {
+  diaglist-nvim = buildVimPluginFrom2Nix {
     pname = "diaglist-nvim";
     version = "2022-09-01";
     src = fetchurl {
@@ -2698,7 +2698,7 @@
   /*
   Generated from: creativenull/diagnosticls-configs-nvim
   */
-  diagnosticls-configs-nvim = buildVimPlugin {
+  diagnosticls-configs-nvim = buildVimPluginFrom2Nix {
     pname = "diagnosticls-configs-nvim";
     version = "2023-09-03";
     src = fetchurl {
@@ -2714,7 +2714,7 @@
   /*
   Generated from: monaqa/dial.nvim
   */
-  dial-nvim = buildVimPlugin {
+  dial-nvim = buildVimPluginFrom2Nix {
     pname = "dial-nvim";
     version = "2023-10-05";
     src = fetchurl {
@@ -2730,7 +2730,7 @@
   /*
   Generated from: sindrets/diffview.nvim
   */
-  diffview-nvim = buildVimPlugin {
+  diffview-nvim = buildVimPluginFrom2Nix {
     pname = "diffview-nvim";
     version = "2023-10-05";
     src = fetchurl {
@@ -2746,7 +2746,7 @@
   /*
   Generated from: elihunter173/dirbuf.nvim
   */
-  dirbuf-nvim = buildVimPlugin {
+  dirbuf-nvim = buildVimPluginFrom2Nix {
     pname = "dirbuf-nvim";
     version = "2022-08-28";
     src = fetchurl {
@@ -2762,7 +2762,7 @@
   /*
   Generated from: chipsenkbeil/distant.nvim
   */
-  distant-nvim = buildVimPlugin {
+  distant-nvim = buildVimPluginFrom2Nix {
     pname = "distant-nvim";
     version = "2023-09-13";
     src = fetchurl {
@@ -2778,7 +2778,7 @@
   /*
   Generated from: niuiic/divider.nvim
   */
-  divider-nvim = buildVimPlugin {
+  divider-nvim = buildVimPluginFrom2Nix {
     pname = "divider-nvim";
     version = "2023-07-19";
     src = fetchurl {
@@ -2794,7 +2794,7 @@
   /*
   Generated from: Zeioth/dooku.nvim
   */
-  dooku-nvim = buildVimPlugin {
+  dooku-nvim = buildVimPluginFrom2Nix {
     pname = "dooku-nvim";
     version = "2023-09-01";
     src = fetchurl {
@@ -2810,7 +2810,7 @@
   /*
   Generated from: NTBBloodbath/doom-one.nvim
   */
-  doom-one-nvim = buildVimPlugin {
+  doom-one-nvim = buildVimPluginFrom2Nix {
     pname = "doom-one-nvim";
     version = "2022-12-24";
     src = fetchurl {
@@ -2826,7 +2826,7 @@
   /*
   Generated from: Mofiqul/dracula.nvim
   */
-  dracula-nvim = buildVimPlugin {
+  dracula-nvim = buildVimPluginFrom2Nix {
     pname = "dracula-nvim";
     version = "2023-07-29";
     src = fetchurl {
@@ -2842,7 +2842,7 @@
   /*
   Generated from: dracula/vim::dracula-vim
   */
-  dracula-vim = buildVimPlugin {
+  dracula-vim = buildVimPluginFrom2Nix {
     pname = "dracula-vim";
     version = "2023-08-30";
     src = fetchurl {
@@ -2858,7 +2858,7 @@
   /*
   Generated from: stevearc/dressing.nvim
   */
-  dressing-nvim = buildVimPlugin {
+  dressing-nvim = buildVimPluginFrom2Nix {
     pname = "dressing-nvim";
     version = "2023-09-30";
     src = fetchurl {
@@ -2874,7 +2874,7 @@
   /*
   Generated from: TheBlob42/drex.nvim
   */
-  drex-nvim = buildVimPlugin {
+  drex-nvim = buildVimPluginFrom2Nix {
     pname = "drex-nvim";
     version = "2023-07-05";
     src = fetchurl {
@@ -2890,7 +2890,7 @@
   /*
   Generated from: Bekaboo/dropbar.nvim
   */
-  dropbar-nvim = buildVimPlugin {
+  dropbar-nvim = buildVimPluginFrom2Nix {
     pname = "dropbar-nvim";
     version = "2023-09-30";
     src = fetchurl {
@@ -2906,7 +2906,7 @@
   /*
   Generated from: NFrid/due.nvim
   */
-  due-nvim = buildVimPlugin {
+  due-nvim = buildVimPluginFrom2Nix {
     pname = "due-nvim";
     version = "2023-09-04";
     src = fetchurl {
@@ -2922,7 +2922,7 @@
   /*
   Generated from: Weissle/easy-action
   */
-  easy-action = buildVimPlugin {
+  easy-action = buildVimPluginFrom2Nix {
     pname = "easy-action";
     version = "2022-11-13";
     src = fetchurl {
@@ -2938,7 +2938,7 @@
   /*
   Generated from: axkirillov/easypick.nvim
   */
-  easypick-nvim = buildVimPlugin {
+  easypick-nvim = buildVimPluginFrom2Nix {
     pname = "easypick-nvim";
     version = "2023-07-28";
     src = fetchurl {
@@ -2954,7 +2954,7 @@
   /*
   Generated from: sainnhe/edge
   */
-  edge = buildVimPlugin {
+  edge = buildVimPluginFrom2Nix {
     pname = "edge";
     version = "2023-08-07";
     src = fetchurl {
@@ -2970,7 +2970,7 @@
   /*
   Generated from: kiran94/edit-markdown-table.nvim
   */
-  edit-markdown-table-nvim = buildVimPlugin {
+  edit-markdown-table-nvim = buildVimPluginFrom2Nix {
     pname = "edit-markdown-table-nvim";
     version = "2023-05-28";
     src = fetchurl {
@@ -2986,7 +2986,7 @@
   /*
   Generated from: gpanders/editorconfig.nvim
   */
-  editorconfig-nvim = buildVimPlugin {
+  editorconfig-nvim = buildVimPluginFrom2Nix {
     pname = "editorconfig-nvim";
     version = "2023-01-10";
     src = fetchurl {
@@ -3002,7 +3002,7 @@
   /*
   Generated from: creativenull/efmls-configs-nvim
   */
-  efmls-configs-nvim = buildVimPlugin {
+  efmls-configs-nvim = buildVimPluginFrom2Nix {
     pname = "efmls-configs-nvim";
     version = "2023-10-04";
     src = fetchurl {
@@ -3018,7 +3018,7 @@
   /*
   Generated from: everblush/nvim::everblush
   */
-  everblush = buildVimPlugin {
+  everblush = buildVimPluginFrom2Nix {
     pname = "everblush";
     version = "2023-05-11";
     src = fetchurl {
@@ -3034,7 +3034,7 @@
   /*
   Generated from: sainnhe/everforest
   */
-  everforest = buildVimPlugin {
+  everforest = buildVimPluginFrom2Nix {
     pname = "everforest";
     version = "2023-08-07";
     src = fetchurl {
@@ -3050,7 +3050,7 @@
   /*
   Generated from: neanias/everforest-nvim
   */
-  everforest-nvim = buildVimPlugin {
+  everforest-nvim = buildVimPluginFrom2Nix {
     pname = "everforest-nvim";
     version = "2023-09-06";
     src = fetchurl {
@@ -3066,7 +3066,7 @@
   /*
   Generated from: google/executor.nvim
   */
-  executor-nvim = buildVimPlugin {
+  executor-nvim = buildVimPluginFrom2Nix {
     pname = "executor-nvim";
     version = "2023-09-07";
     src = fetchurl {
@@ -3082,7 +3082,7 @@
   /*
   Generated from: tjdevries/express_line.nvim
   */
-  express-line-nvim = buildVimPlugin {
+  express-line-nvim = buildVimPluginFrom2Nix {
     pname = "express-line-nvim";
     version = "2021-12-01";
     src = fetchurl {
@@ -3098,7 +3098,7 @@
   /*
   Generated from: MunifTanjim/exrc.nvim
   */
-  exrc-nvim = buildVimPlugin {
+  exrc-nvim = buildVimPluginFrom2Nix {
     pname = "exrc-nvim";
     version = "2022-12-28";
     src = fetchurl {
@@ -3114,7 +3114,7 @@
   /*
   Generated from: roobert/f-string-toggle.nvim
   */
-  f-string-toggle-nvim = buildVimPlugin {
+  f-string-toggle-nvim = buildVimPluginFrom2Nix {
     pname = "f-string-toggle-nvim";
     version = "2023-09-09";
     src = fetchurl {
@@ -3130,7 +3130,7 @@
   /*
   Generated from: fenetikm/falcon
   */
-  falcon = buildVimPlugin {
+  falcon = buildVimPluginFrom2Nix {
     pname = "falcon";
     version = "2023-03-12";
     src = fetchurl {
@@ -3146,7 +3146,7 @@
   /*
   Generated from: h-hg/fcitx.nvim
   */
-  fcitx-nvim = buildVimPlugin {
+  fcitx-nvim = buildVimPluginFrom2Nix {
     pname = "fcitx-nvim";
     version = "2022-06-25";
     src = fetchurl {
@@ -3162,7 +3162,7 @@
   /*
   Generated from: freddiehaddad/feline.nvim
   */
-  feline-nvim = buildVimPlugin {
+  feline-nvim = buildVimPluginFrom2Nix {
     pname = "feline-nvim";
     version = "2023-06-19";
     src = fetchurl {
@@ -3178,7 +3178,7 @@
   /*
   Generated from: j-hui/fidget.nvim
   */
-  fidget-nvim = buildVimPlugin {
+  fidget-nvim = buildVimPluginFrom2Nix {
     pname = "fidget-nvim";
     version = "2023-07-18";
     src = fetchurl {
@@ -3194,7 +3194,7 @@
   /*
   Generated from: vonheikemen/fine-cmdline.nvim
   */
-  fine-cmdline-nvim = buildVimPlugin {
+  fine-cmdline-nvim = buildVimPluginFrom2Nix {
     pname = "fine-cmdline-nvim";
     version = "2022-07-01";
     src = fetchurl {
@@ -3210,7 +3210,7 @@
   /*
   Generated from: glacambre/firenvim
   */
-  firenvim = buildVimPlugin {
+  firenvim = buildVimPluginFrom2Nix {
     pname = "firenvim";
     version = "2023-08-18";
     src = fetchurl {
@@ -3226,7 +3226,7 @@
   /*
   Generated from: folke/flash.nvim
   */
-  flash-nvim = buildVimPlugin {
+  flash-nvim = buildVimPluginFrom2Nix {
     pname = "flash-nvim";
     version = "2023-10-05";
     src = fetchurl {
@@ -3242,7 +3242,7 @@
   /*
   Generated from: willothy/flatten.nvim
   */
-  flatten-nvim = buildVimPlugin {
+  flatten-nvim = buildVimPluginFrom2Nix {
     pname = "flatten-nvim";
     version = "2023-10-03";
     src = fetchurl {
@@ -3258,7 +3258,7 @@
   /*
   Generated from: ggandor/flit.nvim
   */
-  flit-nvim = buildVimPlugin {
+  flit-nvim = buildVimPluginFrom2Nix {
     pname = "flit-nvim";
     version = "2023-07-13";
     src = fetchurl {
@@ -3274,7 +3274,7 @@
   /*
   Generated from: maxmx03/FluoroMachine.nvim
   */
-  FluoroMachine-nvim = buildVimPlugin {
+  FluoroMachine-nvim = buildVimPluginFrom2Nix {
     pname = "FluoroMachine-nvim";
     version = "2023-06-28";
     src = fetchurl {
@@ -3290,7 +3290,7 @@
   /*
   Generated from: akinsho/flutter-tools.nvim
   */
-  flutter-tools-nvim = buildVimPlugin {
+  flutter-tools-nvim = buildVimPluginFrom2Nix {
     pname = "flutter-tools-nvim";
     version = "2023-10-04";
     src = fetchurl {
@@ -3306,7 +3306,7 @@
   /*
   Generated from: CamdenClark/flyboy
   */
-  flyboy = buildVimPlugin {
+  flyboy = buildVimPluginFrom2Nix {
     pname = "flyboy";
     version = "2023-09-04";
     src = fetchurl {
@@ -3322,7 +3322,7 @@
   /*
   Generated from: is0n/fm-nvim
   */
-  fm-nvim = buildVimPlugin {
+  fm-nvim = buildVimPluginFrom2Nix {
     pname = "fm-nvim";
     version = "2022-10-11";
     src = fetchurl {
@@ -3338,7 +3338,7 @@
   /*
   Generated from: beauwilliams/focus.nvim
   */
-  focus-nvim = buildVimPlugin {
+  focus-nvim = buildVimPluginFrom2Nix {
     pname = "focus-nvim";
     version = "2023-10-05";
     src = fetchurl {
@@ -3354,7 +3354,7 @@
   /*
   Generated from: jghauser/fold-cycle.nvim
   */
-  fold-cycle-nvim = buildVimPlugin {
+  fold-cycle-nvim = buildVimPluginFrom2Nix {
     pname = "fold-cycle-nvim";
     version = "2023-04-22";
     src = fetchurl {
@@ -3370,7 +3370,7 @@
   /*
   Generated from: anuvyklack/fold-preview.nvim
   */
-  fold-preview-nvim = buildVimPlugin {
+  fold-preview-nvim = buildVimPluginFrom2Nix {
     pname = "fold-preview-nvim";
     version = "2023-01-27";
     src = fetchurl {
@@ -3386,7 +3386,7 @@
   /*
   Generated from: jghauser/follow-md-links.nvim
   */
-  follow-md-links-nvim = buildVimPlugin {
+  follow-md-links-nvim = buildVimPluginFrom2Nix {
     pname = "follow-md-links-nvim";
     version = "2023-04-20";
     src = fetchurl {
@@ -3402,7 +3402,7 @@
   /*
   Generated from: niuiic/format.nvim
   */
-  format-nvim = buildVimPlugin {
+  format-nvim = buildVimPluginFrom2Nix {
     pname = "format-nvim";
     version = "2023-09-17";
     src = fetchurl {
@@ -3418,7 +3418,7 @@
   /*
   Generated from: elentok/format-on-save.nvim
   */
-  format-on-save-nvim = buildVimPlugin {
+  format-on-save-nvim = buildVimPluginFrom2Nix {
     pname = "format-on-save-nvim";
     version = "2023-08-23";
     src = fetchurl {
@@ -3434,7 +3434,7 @@
   /*
   Generated from: mhartington/formatter.nvim
   */
-  formatter-nvim = buildVimPlugin {
+  formatter-nvim = buildVimPluginFrom2Nix {
     pname = "formatter-nvim";
     version = "2023-09-21";
     src = fetchurl {
@@ -3450,7 +3450,7 @@
   /*
   Generated from: numToStr/FTerm.nvim
   */
-  FTerm-nvim = buildVimPlugin {
+  FTerm-nvim = buildVimPluginFrom2Nix {
     pname = "FTerm-nvim";
     version = "2022-11-13";
     src = fetchurl {
@@ -3466,7 +3466,7 @@
   /*
   Generated from: amirrezaask/fuzzy.nvim
   */
-  fuzzy-nvim = buildVimPlugin {
+  fuzzy-nvim = buildVimPluginFrom2Nix {
     pname = "fuzzy-nvim";
     version = "2021-05-13";
     src = fetchurl {
@@ -3482,7 +3482,7 @@
   /*
   Generated from: gfanto/fzf-lsp.nvim
   */
-  fzf-lsp-nvim = buildVimPlugin {
+  fzf-lsp-nvim = buildVimPluginFrom2Nix {
     pname = "fzf-lsp-nvim";
     version = "2023-02-02";
     src = fetchurl {
@@ -3498,7 +3498,7 @@
   /*
   Generated from: ibhagwan/fzf-lua
   */
-  fzf-lua = buildVimPlugin {
+  fzf-lua = buildVimPluginFrom2Nix {
     pname = "fzf-lua";
     version = "2023-09-29";
     src = fetchurl {
@@ -3514,7 +3514,7 @@
   /*
   Generated from: linrongbin16/fzfx.nvim
   */
-  fzfx-nvim = buildVimPlugin {
+  fzfx-nvim = buildVimPluginFrom2Nix {
     pname = "fzfx-nvim";
     version = "2023-10-07";
     src = fetchurl {
@@ -3530,7 +3530,7 @@
   /*
   Generated from: NTBBloodbath/galaxyline.nvim
   */
-  galaxyline-nvim = buildVimPlugin {
+  galaxyline-nvim = buildVimPluginFrom2Nix {
     pname = "galaxyline-nvim";
     version = "2022-01-21";
     src = fetchurl {
@@ -3546,7 +3546,7 @@
   /*
   Generated from: gbprod/nord.nvim::gbprod-nord-nvim
   */
-  gbprod-nord-nvim = buildVimPlugin {
+  gbprod-nord-nvim = buildVimPluginFrom2Nix {
     pname = "gbprod-nord-nvim";
     version = "2023-09-01";
     src = fetchurl {
@@ -3562,7 +3562,7 @@
   /*
   Generated from: notomo/gesture.nvim
   */
-  gesture-nvim = buildVimPlugin {
+  gesture-nvim = buildVimPluginFrom2Nix {
     pname = "gesture-nvim";
     version = "2023-08-19";
     src = fetchurl {
@@ -3578,7 +3578,7 @@
   /*
   Generated from: topaxi/gh-actions.nvim
   */
-  gh-actions-nvim = buildVimPlugin {
+  gh-actions-nvim = buildVimPluginFrom2Nix {
     pname = "gh-actions-nvim";
     version = "2023-08-12";
     src = fetchurl {
@@ -3594,7 +3594,7 @@
   /*
   Generated from: ldelossa/gh.nvim
   */
-  gh-nvim = buildVimPlugin {
+  gh-nvim = buildVimPluginFrom2Nix {
     pname = "gh-nvim";
     version = "2023-10-06";
     src = fetchurl {
@@ -3610,7 +3610,7 @@
   /*
   Generated from: f-person/git-blame.nvim
   */
-  git-blame-nvim = buildVimPlugin {
+  git-blame-nvim = buildVimPluginFrom2Nix {
     pname = "git-blame-nvim";
     version = "2023-09-29";
     src = fetchurl {
@@ -3626,7 +3626,7 @@
   /*
   Generated from: akinsho/git-conflict.nvim
   */
-  git-conflict-nvim = buildVimPlugin {
+  git-conflict-nvim = buildVimPluginFrom2Nix {
     pname = "git-conflict-nvim";
     version = "2023-09-18";
     src = fetchurl {
@@ -3642,7 +3642,7 @@
   /*
   Generated from: rhysd/git-messenger.vim
   */
-  git-messenger-vim = buildVimPlugin {
+  git-messenger-vim = buildVimPluginFrom2Nix {
     pname = "git-messenger-vim";
     version = "2022-08-30";
     src = fetchurl {
@@ -3658,7 +3658,7 @@
   /*
   Generated from: lourenci/github-colors
   */
-  github-colors = buildVimPlugin {
+  github-colors = buildVimPluginFrom2Nix {
     pname = "github-colors";
     version = "2023-09-28";
     src = fetchurl {
@@ -3674,7 +3674,7 @@
   /*
   Generated from: projekt0n/github-nvim-theme
   */
-  github-nvim-theme = buildVimPlugin {
+  github-nvim-theme = buildVimPluginFrom2Nix {
     pname = "github-nvim-theme";
     version = "2023-09-23";
     src = fetchurl {
@@ -3690,7 +3690,7 @@
   /*
   Generated from: linrongbin16/gitlinker.nvim::gitlinker-linrongbin16
   */
-  gitlinker-linrongbin16 = buildVimPlugin {
+  gitlinker-linrongbin16 = buildVimPluginFrom2Nix {
     pname = "gitlinker-linrongbin16";
     version = "2023-09-04";
     src = fetchurl {
@@ -3706,7 +3706,7 @@
   /*
   Generated from: ruifm/gitlinker.nvim::gitlinker-ruifm
   */
-  gitlinker-ruifm = buildVimPlugin {
+  gitlinker-ruifm = buildVimPluginFrom2Nix {
     pname = "gitlinker-ruifm";
     version = "2023-02-03";
     src = fetchurl {
@@ -3722,7 +3722,7 @@
   /*
   Generated from: lewis6991/gitsigns.nvim
   */
-  gitsigns-nvim = buildVimPlugin {
+  gitsigns-nvim = buildVimPluginFrom2Nix {
     pname = "gitsigns-nvim";
     version = "2023-10-06";
     src = fetchurl {
@@ -3738,7 +3738,7 @@
   /*
   Generated from: stevearc/gkeep.nvim
   */
-  gkeep-nvim = buildVimPlugin {
+  gkeep-nvim = buildVimPluginFrom2Nix {
     pname = "gkeep-nvim";
     version = "2023-05-27";
     src = fetchurl {
@@ -3754,7 +3754,7 @@
   /*
   Generated from: DNLHC/glance.nvim
   */
-  glance-nvim = buildVimPlugin {
+  glance-nvim = buildVimPluginFrom2Nix {
     pname = "glance-nvim";
     version = "2023-08-26";
     src = fetchurl {
@@ -3770,7 +3770,7 @@
   /*
   Generated from: bkegley/gloombuddy
   */
-  gloombuddy = buildVimPlugin {
+  gloombuddy = buildVimPluginFrom2Nix {
     pname = "gloombuddy";
     version = "2021-04-16";
     src = fetchurl {
@@ -3786,7 +3786,7 @@
   /*
   Generated from: ellisonleao/glow.nvim
   */
-  glow-nvim = buildVimPlugin {
+  glow-nvim = buildVimPluginFrom2Nix {
     pname = "glow-nvim";
     version = "2023-08-28";
     src = fetchurl {
@@ -3802,7 +3802,7 @@
   /*
   Generated from: ray-x/go.nvim
   */
-  go-nvim = buildVimPlugin {
+  go-nvim = buildVimPluginFrom2Nix {
     pname = "go-nvim";
     version = "2023-10-02";
     src = fetchurl {
@@ -3818,7 +3818,7 @@
   /*
   Generated from: edolphin-ydf/goimpl.nvim
   */
-  goimpl-nvim = buildVimPlugin {
+  goimpl-nvim = buildVimPluginFrom2Nix {
     pname = "goimpl-nvim";
     version = "2023-07-11";
     src = fetchurl {
@@ -3834,7 +3834,7 @@
   /*
   Generated from: olexsmir/gopher.nvim
   */
-  gopher-nvim = buildVimPlugin {
+  gopher-nvim = buildVimPluginFrom2Nix {
     pname = "gopher-nvim";
     version = "2023-05-07";
     src = fetchurl {
@@ -3850,7 +3850,7 @@
   /*
   Generated from: ofirgall/goto-breakpoints.nvim
   */
-  goto-breakpoints-nvim = buildVimPlugin {
+  goto-breakpoints-nvim = buildVimPluginFrom2Nix {
     pname = "goto-breakpoints-nvim";
     version = "2023-03-14";
     src = fetchurl {
@@ -3866,7 +3866,7 @@
   /*
   Generated from: rmagatti/goto-preview
   */
-  goto-preview = buildVimPlugin {
+  goto-preview = buildVimPluginFrom2Nix {
     pname = "goto-preview";
     version = "2023-09-26";
     src = fetchurl {
@@ -3882,7 +3882,7 @@
   /*
   Generated from: Robitx/gp.nvim
   */
-  gp-nvim = buildVimPlugin {
+  gp-nvim = buildVimPluginFrom2Nix {
     pname = "gp-nvim";
     version = "2023-09-28";
     src = fetchurl {
@@ -3898,7 +3898,7 @@
   /*
   Generated from: cbochs/grapple.nvim
   */
-  grapple-nvim = buildVimPlugin {
+  grapple-nvim = buildVimPluginFrom2Nix {
     pname = "grapple-nvim";
     version = "2023-03-08";
     src = fetchurl {
@@ -3914,7 +3914,7 @@
   /*
   Generated from: desdic/greyjoy.nvim
   */
-  greyjoy-nvim = buildVimPlugin {
+  greyjoy-nvim = buildVimPluginFrom2Nix {
     pname = "greyjoy-nvim";
     version = "2023-03-31";
     src = fetchurl {
@@ -3930,7 +3930,7 @@
   /*
   Generated from: morhetz/gruvbox
   */
-  gruvbox = buildVimPlugin {
+  gruvbox = buildVimPluginFrom2Nix {
     pname = "gruvbox";
     version = "2023-08-14";
     src = fetchurl {
@@ -3946,7 +3946,7 @@
   /*
   Generated from: luisiacc/gruvbox-baby
   */
-  gruvbox-baby = buildVimPlugin {
+  gruvbox-baby = buildVimPluginFrom2Nix {
     pname = "gruvbox-baby";
     version = "2023-09-28";
     src = fetchurl {
@@ -3962,7 +3962,7 @@
   /*
   Generated from: sainnhe/gruvbox-material
   */
-  gruvbox-material = buildVimPlugin {
+  gruvbox-material = buildVimPluginFrom2Nix {
     pname = "gruvbox-material";
     version = "2023-10-03";
     src = fetchurl {
@@ -3978,7 +3978,7 @@
   /*
   Generated from: ellisonleao/gruvbox.nvim
   */
-  gruvbox-nvim = buildVimPlugin {
+  gruvbox-nvim = buildVimPluginFrom2Nix {
     pname = "gruvbox-nvim";
     version = "2023-09-30";
     src = fetchurl {
@@ -3994,7 +3994,7 @@
   /*
   Generated from: tjdevries/gruvbuddy.nvim
   */
-  gruvbuddy-nvim = buildVimPlugin {
+  gruvbuddy-nvim = buildVimPluginFrom2Nix {
     pname = "gruvbuddy-nvim";
     version = "2021-04-15";
     src = fetchurl {
@@ -4010,7 +4010,7 @@
   /*
   Generated from: RishabhRD/gruvy
   */
-  gruvy = buildVimPlugin {
+  gruvy = buildVimPluginFrom2Nix {
     pname = "gruvy";
     version = "2022-01-09";
     src = fetchurl {
@@ -4026,7 +4026,7 @@
   /*
   Generated from: NMAC427/guess-indent.nvim
   */
-  guess-indent-nvim = buildVimPlugin {
+  guess-indent-nvim = buildVimPluginFrom2Nix {
     pname = "guess-indent-nvim";
     version = "2023-04-03";
     src = fetchurl {
@@ -4042,7 +4042,7 @@
   /*
   Generated from: ray-x/guihua.lua
   */
-  guihua-lua = buildVimPlugin {
+  guihua-lua = buildVimPluginFrom2Nix {
     pname = "guihua-lua";
     version = "2023-08-15";
     src = fetchurl {
@@ -4058,7 +4058,7 @@
   /*
   Generated from: m4xshen/hardtime.nvim
   */
-  hardtime-nvim = buildVimPlugin {
+  hardtime-nvim = buildVimPluginFrom2Nix {
     pname = "hardtime-nvim";
     version = "2023-10-07";
     src = fetchurl {
@@ -4074,7 +4074,7 @@
   /*
   Generated from: ThePrimeagen/harpoon
   */
-  harpoon = buildVimPlugin {
+  harpoon = buildVimPluginFrom2Nix {
     pname = "harpoon";
     version = "2023-05-28";
     src = fetchurl {
@@ -4090,7 +4090,7 @@
   /*
   Generated from: MrcJkb/haskell-tools.nvim
   */
-  haskell-tools-nvim = buildVimPlugin {
+  haskell-tools-nvim = buildVimPluginFrom2Nix {
     pname = "haskell-tools-nvim";
     version = "2023-10-05";
     src = fetchurl {
@@ -4106,7 +4106,7 @@
   /*
   Generated from: axkirillov/hbac.nvim
   */
-  hbac-nvim = buildVimPlugin {
+  hbac-nvim = buildVimPluginFrom2Nix {
     pname = "hbac-nvim";
     version = "2023-07-03";
     src = fetchurl {
@@ -4122,7 +4122,7 @@
   /*
   Generated from: lukas-reineke/headlines.nvim
   */
-  headlines-nvim = buildVimPlugin {
+  headlines-nvim = buildVimPluginFrom2Nix {
     pname = "headlines-nvim";
     version = "2023-07-27";
     src = fetchurl {
@@ -4138,7 +4138,7 @@
   /*
   Generated from: rebelot/heirline.nvim
   */
-  heirline-nvim = buildVimPlugin {
+  heirline-nvim = buildVimPluginFrom2Nix {
     pname = "heirline-nvim";
     version = "2023-09-03";
     src = fetchurl {
@@ -4154,7 +4154,7 @@
   /*
   Generated from: udayvir-singh/hibiscus.nvim
   */
-  hibiscus-nvim = buildVimPlugin {
+  hibiscus-nvim = buildVimPluginFrom2Nix {
     pname = "hibiscus-nvim";
     version = "2023-07-18";
     src = fetchurl {
@@ -4170,7 +4170,7 @@
   /*
   Generated from: crusj/hierarchy-tree-go.nvim
   */
-  hierarchy-tree-go-nvim = buildVimPlugin {
+  hierarchy-tree-go-nvim = buildVimPluginFrom2Nix {
     pname = "hierarchy-tree-go-nvim";
     version = "2022-12-01";
     src = fetchurl {
@@ -4186,7 +4186,7 @@
   /*
   Generated from: rktjmp/highlight-current-n.nvim
   */
-  highlight-current-n-nvim = buildVimPlugin {
+  highlight-current-n-nvim = buildVimPluginFrom2Nix {
     pname = "highlight-current-n-nvim";
     version = "2023-06-26";
     src = fetchurl {
@@ -4202,7 +4202,7 @@
   /*
   Generated from: Pocco81/HighStr.nvim
   */
-  HighStr-nvim = buildVimPlugin {
+  HighStr-nvim = buildVimPluginFrom2Nix {
     pname = "HighStr-nvim";
     version = "2022-10-21";
     src = fetchurl {
@@ -4218,7 +4218,7 @@
   /*
   Generated from: m-demare/hlargs.nvim
   */
-  hlargs-nvim = buildVimPlugin {
+  hlargs-nvim = buildVimPluginFrom2Nix {
     pname = "hlargs-nvim";
     version = "2023-09-15";
     src = fetchurl {
@@ -4234,7 +4234,7 @@
   /*
   Generated from: shellRaining/hlchunk.nvim
   */
-  hlchunk-nvim = buildVimPlugin {
+  hlchunk-nvim = buildVimPluginFrom2Nix {
     pname = "hlchunk-nvim";
     version = "2023-09-17";
     src = fetchurl {
@@ -4250,7 +4250,7 @@
   /*
   Generated from: phaazon/hop.nvim
   */
-  hop-nvim = buildVimPlugin {
+  hop-nvim = buildVimPluginFrom2Nix {
     pname = "hop-nvim";
     version = "2023-09-09";
     src = fetchurl {
@@ -4266,7 +4266,7 @@
   /*
   Generated from: rktjmp/hotpot.nvim
   */
-  hotpot-nvim = buildVimPlugin {
+  hotpot-nvim = buildVimPluginFrom2Nix {
     pname = "hotpot-nvim";
     version = "2023-09-14";
     src = fetchurl {
@@ -4282,7 +4282,7 @@
   /*
   Generated from: roobert/hoversplit.nvim
   */
-  hoversplit-nvim = buildVimPlugin {
+  hoversplit-nvim = buildVimPluginFrom2Nix {
     pname = "hoversplit-nvim";
     version = "2023-09-09";
     src = fetchurl {
@@ -4298,7 +4298,7 @@
   /*
   Generated from: anuvyklack/hydra.nvim
   */
-  hydra-nvim = buildVimPlugin {
+  hydra-nvim = buildVimPluginFrom2Nix {
     pname = "hydra-nvim";
     version = "2023-02-06";
     src = fetchurl {
@@ -4314,7 +4314,7 @@
   /*
   Generated from: smzm/hydrovim
   */
-  hydrovim = buildVimPlugin {
+  hydrovim = buildVimPluginFrom2Nix {
     pname = "hydrovim";
     version = "2023-05-07";
     src = fetchurl {
@@ -4330,7 +4330,7 @@
   /*
   Generated from: tomiis4/hypersonic.nvim
   */
-  hypersonic-nvim = buildVimPlugin {
+  hypersonic-nvim = buildVimPluginFrom2Nix {
     pname = "hypersonic-nvim";
     version = "2023-07-10";
     src = fetchurl {
@@ -4346,7 +4346,7 @@
   /*
   Generated from: ziontee113/icon-picker.nvim
   */
-  icon-picker-nvim = buildVimPlugin {
+  icon-picker-nvim = buildVimPluginFrom2Nix {
     pname = "icon-picker-nvim";
     version = "2023-05-04";
     src = fetchurl {
@@ -4362,7 +4362,7 @@
   /*
   Generated from: keaising/im-select.nvim
   */
-  im-select-nvim = buildVimPlugin {
+  im-select-nvim = buildVimPluginFrom2Nix {
     pname = "im-select-nvim";
     version = "2023-09-11";
     src = fetchurl {
@@ -4378,7 +4378,7 @@
   /*
   Generated from: samodostal/image.nvim
   */
-  image-nvim = buildVimPlugin {
+  image-nvim = buildVimPluginFrom2Nix {
     pname = "image-nvim";
     version = "2023-06-08";
     src = fetchurl {
@@ -4394,7 +4394,7 @@
   /*
   Generated from: adelarsq/image_preview.nvim
   */
-  image-preview-nvim = buildVimPlugin {
+  image-preview-nvim = buildVimPluginFrom2Nix {
     pname = "image-preview-nvim";
     version = "2023-06-09";
     src = fetchurl {
@@ -4410,7 +4410,7 @@
   /*
   Generated from: miversen33/import.nvim
   */
-  import-nvim = buildVimPlugin {
+  import-nvim = buildVimPluginFrom2Nix {
     pname = "import-nvim";
     version = "2023-03-01";
     src = fetchurl {
@@ -4426,7 +4426,7 @@
   /*
   Generated from: chrsm/impulse.nvim
   */
-  impulse-nvim = buildVimPlugin {
+  impulse-nvim = buildVimPluginFrom2Nix {
     pname = "impulse-nvim";
     version = "2022-06-26";
     src = fetchurl {
@@ -4442,7 +4442,7 @@
   /*
   Generated from: smjonas/inc-rename.nvim
   */
-  inc-rename-nvim = buildVimPlugin {
+  inc-rename-nvim = buildVimPluginFrom2Nix {
     pname = "inc-rename-nvim";
     version = "2023-06-03";
     src = fetchurl {
@@ -4458,7 +4458,7 @@
   /*
   Generated from: b0o/incline.nvim
   */
-  incline-nvim = buildVimPlugin {
+  incline-nvim = buildVimPluginFrom2Nix {
     pname = "incline-nvim";
     version = "2023-08-26";
     src = fetchurl {
@@ -4474,7 +4474,7 @@
   /*
   Generated from: lukas-reineke/indent-blankline.nvim
   */
-  indent-blankline-nvim = buildVimPlugin {
+  indent-blankline-nvim = buildVimPluginFrom2Nix {
     pname = "indent-blankline-nvim";
     version = "2023-10-06";
     src = fetchurl {
@@ -4490,7 +4490,7 @@
   /*
   Generated from: Darazaki/indent-o-matic
   */
-  indent-o-matic = buildVimPlugin {
+  indent-o-matic = buildVimPluginFrom2Nix {
     pname = "indent-o-matic";
     version = "2023-06-03";
     src = fetchurl {
@@ -4506,7 +4506,7 @@
   /*
   Generated from: nvimdev/indentmini.nvim
   */
-  indentmini-nvim = buildVimPlugin {
+  indentmini-nvim = buildVimPluginFrom2Nix {
     pname = "indentmini-nvim";
     version = "2023-09-01";
     src = fetchurl {
@@ -4522,7 +4522,7 @@
   /*
   Generated from: malbertzard/inline-fold.nvim
   */
-  inline-fold-nvim = buildVimPlugin {
+  inline-fold-nvim = buildVimPluginFrom2Nix {
     pname = "inline-fold-nvim";
     version = "2023-07-31";
     src = fetchurl {
@@ -4538,7 +4538,7 @@
   /*
   Generated from: mvpopuk/inspired-github.vim
   */
-  inspired-github-vim = buildVimPlugin {
+  inspired-github-vim = buildVimPluginFrom2Nix {
     pname = "inspired-github-vim";
     version = "2022-04-07";
     src = fetchurl {
@@ -4554,7 +4554,7 @@
   /*
   Generated from: jbyuki/instant.nvim
   */
-  instant-nvim = buildVimPlugin {
+  instant-nvim = buildVimPluginFrom2Nix {
     pname = "instant-nvim";
     version = "2022-06-25";
     src = fetchurl {
@@ -4570,7 +4570,7 @@
   /*
   Generated from: Mr-LLLLL/interestingwords.nvim
   */
-  interestingwords-nvim = buildVimPlugin {
+  interestingwords-nvim = buildVimPluginFrom2Nix {
     pname = "interestingwords-nvim";
     version = "2023-08-30";
     src = fetchurl {
@@ -4586,7 +4586,7 @@
   /*
   Generated from: hkupty/iron.nvim
   */
-  iron-nvim = buildVimPlugin {
+  iron-nvim = buildVimPluginFrom2Nix {
     pname = "iron-nvim";
     version = "2023-07-13";
     src = fetchurl {
@@ -4602,7 +4602,7 @@
   /*
   Generated from: mnacamura/iron.nvim::iron-nvim-mnacamura
   */
-  iron-nvim-mnacamura = buildVimPlugin {
+  iron-nvim-mnacamura = buildVimPluginFrom2Nix {
     pname = "iron-nvim-mnacamura";
     version = "2021-12-19";
     src = fetchurl {
@@ -4618,7 +4618,7 @@
   /*
   Generated from: mizlan/iswap.nvim
   */
-  iswap-nvim = buildVimPlugin {
+  iswap-nvim = buildVimPluginFrom2Nix {
     pname = "iswap-nvim";
     version = "2023-09-11";
     src = fetchurl {
@@ -4634,7 +4634,7 @@
   /*
   Generated from: matbme/JABS.nvim
   */
-  JABS-nvim = buildVimPlugin {
+  JABS-nvim = buildVimPluginFrom2Nix {
     pname = "JABS-nvim";
     version = "2023-05-09";
     src = fetchurl {
@@ -4650,7 +4650,7 @@
   /*
   Generated from: is0n/jaq-nvim
   */
-  jaq-nvim = buildVimPlugin {
+  jaq-nvim = buildVimPluginFrom2Nix {
     pname = "jaq-nvim";
     version = "2022-10-11";
     src = fetchurl {
@@ -4666,7 +4666,7 @@
   /*
   Generated from: clojure-vim/jazz.nvim
   */
-  jazz-nvim = buildVimPlugin {
+  jazz-nvim = buildVimPluginFrom2Nix {
     pname = "jazz-nvim";
     version = "2019-04-30";
     src = fetchurl {
@@ -4682,7 +4682,7 @@
   /*
   Generated from: metalelf0/jellybeans-nvim
   */
-  jellybeans-nvim = buildVimPlugin {
+  jellybeans-nvim = buildVimPluginFrom2Nix {
     pname = "jellybeans-nvim";
     version = "2022-03-21";
     src = fetchurl {
@@ -4698,7 +4698,7 @@
   /*
   Generated from: David-Kunz/jester
   */
-  jester = buildVimPlugin {
+  jester = buildVimPluginFrom2Nix {
     pname = "jester";
     version = "2023-06-01";
     src = fetchurl {
@@ -4714,7 +4714,7 @@
   /*
   Generated from: fuenor/JpFormat.vim
   */
-  JpFormat-vim = buildVimPlugin {
+  JpFormat-vim = buildVimPluginFrom2Nix {
     pname = "JpFormat-vim";
     version = "2019-07-12";
     src = fetchurl {
@@ -4730,7 +4730,7 @@
   /*
   Generated from: kiyoon/jupynium.nvim
   */
-  jupynium-nvim = buildVimPlugin {
+  jupynium-nvim = buildVimPluginFrom2Nix {
     pname = "jupynium-nvim";
     version = "2023-10-04";
     src = fetchurl {
@@ -4746,7 +4746,7 @@
   /*
   Generated from: untitled-ai/jupyter_ascending
   */
-  jupyter-ascending = buildVimPlugin {
+  jupyter-ascending = buildVimPluginFrom2Nix {
     pname = "jupyter-ascending";
     version = "2023-10-06";
     src = fetchurl {
@@ -4762,7 +4762,7 @@
   /*
   Generated from: rebelot/kanagawa.nvim
   */
-  kanagawa-nvim = buildVimPlugin {
+  kanagawa-nvim = buildVimPluginFrom2Nix {
     pname = "kanagawa-nvim";
     version = "2023-09-13";
     src = fetchurl {
@@ -4778,7 +4778,7 @@
   /*
   Generated from: tenxsoydev/karen-yank.nvim
   */
-  karen-yank-nvim = buildVimPlugin {
+  karen-yank-nvim = buildVimPluginFrom2Nix {
     pname = "karen-yank-nvim";
     version = "2023-07-29";
     src = fetchurl {
@@ -4794,7 +4794,7 @@
   /*
   Generated from: linty-org/key-menu.nvim
   */
-  key-menu-nvim = buildVimPlugin {
+  key-menu-nvim = buildVimPluginFrom2Nix {
     pname = "key-menu-nvim";
     version = "2023-08-28";
     src = fetchurl {
@@ -4810,7 +4810,7 @@
   /*
   Generated from: anuvyklack/keymap-amend.nvim
   */
-  keymap-amend-nvim = buildVimPlugin {
+  keymap-amend-nvim = buildVimPluginFrom2Nix {
     pname = "keymap-amend-nvim";
     version = "2022-09-22";
     src = fetchurl {
@@ -4826,7 +4826,7 @@
   /*
   Generated from: seandewar/killersheep.nvim
   */
-  killersheep-nvim = buildVimPlugin {
+  killersheep-nvim = buildVimPluginFrom2Nix {
     pname = "killersheep-nvim";
     version = "2022-05-11";
     src = fetchurl {
@@ -4842,7 +4842,7 @@
   /*
   Generated from: lmburns/kimbox
   */
-  kimbox = buildVimPlugin {
+  kimbox = buildVimPluginFrom2Nix {
     pname = "kimbox";
     version = "2023-09-02";
     src = fetchurl {
@@ -4858,7 +4858,7 @@
   /*
   Generated from: jghauser/kitty-runner.nvim
   */
-  kitty-runner-nvim = buildVimPlugin {
+  kitty-runner-nvim = buildVimPluginFrom2Nix {
     pname = "kitty-runner-nvim";
     version = "2023-09-17";
     src = fetchurl {
@@ -4874,7 +4874,7 @@
   /*
   Generated from: mikesmithgh/kitty-scrollback.nvim
   */
-  kitty-scrollback-nvim = buildVimPlugin {
+  kitty-scrollback-nvim = buildVimPluginFrom2Nix {
     pname = "kitty-scrollback-nvim";
     version = "2023-10-02";
     src = fetchurl {
@@ -4890,7 +4890,7 @@
   /*
   Generated from: serenevoid/kiwi.nvim
   */
-  kiwi-nvim = buildVimPlugin {
+  kiwi-nvim = buildVimPluginFrom2Nix {
     pname = "kiwi-nvim";
     version = "2023-09-15";
     src = fetchurl {
@@ -4906,7 +4906,7 @@
   /*
   Generated from: kmonad/kmonad-vim
   */
-  kmonad-vim = buildVimPlugin {
+  kmonad-vim = buildVimPluginFrom2Nix {
     pname = "kmonad-vim";
     version = "2022-03-20";
     src = fetchurl {
@@ -4922,7 +4922,7 @@
   /*
   Generated from: frabjous/knap
   */
-  knap = buildVimPlugin {
+  knap = buildVimPluginFrom2Nix {
     pname = "knap";
     version = "2023-07-25";
     src = fetchurl {
@@ -4938,7 +4938,7 @@
   /*
   Generated from: b3nj5m1n/kommentary
   */
-  kommentary = buildVimPlugin {
+  kommentary = buildVimPluginFrom2Nix {
     pname = "kommentary";
     version = "2023-01-06";
     src = fetchurl {
@@ -4954,7 +4954,7 @@
   /*
   Generated from: novakne/kosmikoa.nvim
   */
-  kosmikoa-nvim = buildVimPlugin {
+  kosmikoa-nvim = buildVimPluginFrom2Nix {
     pname = "kosmikoa-nvim";
     version = "2021-11-19";
     src = fetchurl {
@@ -4970,7 +4970,7 @@
   /*
   Generated from: Wansmer/langmapper.nvim
   */
-  langmapper-nvim = buildVimPlugin {
+  langmapper-nvim = buildVimPluginFrom2Nix {
     pname = "langmapper-nvim";
     version = "2023-07-31";
     src = fetchurl {
@@ -4986,7 +4986,7 @@
   /*
   Generated from: folke/lazy.nvim
   */
-  lazy-nvim = buildVimPlugin {
+  lazy-nvim = buildVimPluginFrom2Nix {
     pname = "lazy-nvim";
     version = "2023-10-07";
     src = fetchurl {
@@ -5002,7 +5002,7 @@
   /*
   Generated from: kdheepak/lazygit.nvim
   */
-  lazygit-nvim = buildVimPlugin {
+  lazygit-nvim = buildVimPluginFrom2Nix {
     pname = "lazygit-nvim";
     version = "2023-09-26";
     src = fetchurl {
@@ -5018,7 +5018,7 @@
   /*
   Generated from: Julian/lean.nvim
   */
-  lean-nvim = buildVimPlugin {
+  lean-nvim = buildVimPluginFrom2Nix {
     pname = "lean-nvim";
     version = "2023-09-30";
     src = fetchurl {
@@ -5034,7 +5034,7 @@
   /*
   Generated from: ggandor/leap-ast.nvim
   */
-  leap-ast-nvim = buildVimPlugin {
+  leap-ast-nvim = buildVimPluginFrom2Nix {
     pname = "leap-ast-nvim";
     version = "2022-10-10";
     src = fetchurl {
@@ -5050,7 +5050,7 @@
   /*
   Generated from: ggandor/leap.nvim
   */
-  leap-nvim = buildVimPlugin {
+  leap-nvim = buildVimPluginFrom2Nix {
     pname = "leap-nvim";
     version = "2023-07-23";
     src = fetchurl {
@@ -5066,7 +5066,7 @@
   /*
   Generated from: ggandor/leap-spooky.nvim
   */
-  leap-spooky-nvim = buildVimPlugin {
+  leap-spooky-nvim = buildVimPluginFrom2Nix {
     pname = "leap-spooky-nvim";
     version = "2023-06-26";
     src = fetchurl {
@@ -5082,7 +5082,7 @@
   /*
   Generated from: Dhanus3133/Leetbuddy.nvim
   */
-  Leetbuddy-nvim = buildVimPlugin {
+  Leetbuddy-nvim = buildVimPluginFrom2Nix {
     pname = "Leetbuddy-nvim";
     version = "2023-08-27";
     src = fetchurl {
@@ -5098,7 +5098,7 @@
   /*
   Generated from: mrjones2014/legendary.nvim
   */
-  legendary-nvim = buildVimPlugin {
+  legendary-nvim = buildVimPluginFrom2Nix {
     pname = "legendary-nvim";
     version = "2023-07-08";
     src = fetchurl {
@@ -5114,7 +5114,7 @@
   /*
   Generated from: lmburns/lf.nvim
   */
-  lf-nvim = buildVimPlugin {
+  lf-nvim = buildVimPluginFrom2Nix {
     pname = "lf-nvim";
     version = "2023-10-03";
     src = fetchurl {
@@ -5130,7 +5130,7 @@
   /*
   Generated from: sourcehut:reggie/licenses.nvim
   */
-  licenses-nvim = buildVimPlugin {
+  licenses-nvim = buildVimPluginFrom2Nix {
     pname = "licenses-nvim";
     version = "2023-06-05";
     src = fetchgit {
@@ -5147,7 +5147,7 @@
   /*
   Generated from: ggandor/lightspeed.nvim
   */
-  lightspeed-nvim = buildVimPlugin {
+  lightspeed-nvim = buildVimPluginFrom2Nix {
     pname = "lightspeed-nvim";
     version = "2022-10-21";
     src = fetchurl {
@@ -5163,7 +5163,7 @@
   /*
   Generated from: xiyaowong/link-visitor.nvim
   */
-  link-visitor-nvim = buildVimPlugin {
+  link-visitor-nvim = buildVimPluginFrom2Nix {
     pname = "link-visitor-nvim";
     version = "2023-03-19";
     src = fetchurl {
@@ -5179,7 +5179,7 @@
   /*
   Generated from: tamago324/lir.nvim
   */
-  lir-nvim = buildVimPlugin {
+  lir-nvim = buildVimPluginFrom2Nix {
     pname = "lir-nvim";
     version = "2023-07-12";
     src = fetchurl {
@@ -5195,7 +5195,7 @@
   /*
   Generated from: ldelossa/litee.nvim
   */
-  litee-nvim = buildVimPlugin {
+  litee-nvim = buildVimPluginFrom2Nix {
     pname = "litee-nvim";
     version = "2022-12-11";
     src = fetchurl {
@@ -5211,7 +5211,7 @@
   /*
   Generated from: smjonas/live-command.nvim
   */
-  live-command-nvim = buildVimPlugin {
+  live-command-nvim = buildVimPluginFrom2Nix {
     pname = "live-command-nvim";
     version = "2023-06-05";
     src = fetchurl {
@@ -5227,7 +5227,7 @@
   /*
   Generated from: gsuuon/llm.nvim
   */
-  llm-nvim = buildVimPlugin {
+  llm-nvim = buildVimPluginFrom2Nix {
     pname = "llm-nvim";
     version = "2023-09-26";
     src = fetchurl {
@@ -5243,7 +5243,7 @@
   /*
   Generated from: folke/lsp-colors.nvim
   */
-  lsp-colors-nvim = buildVimPlugin {
+  lsp-colors-nvim = buildVimPluginFrom2Nix {
     pname = "lsp-colors-nvim";
     version = "2023-02-27";
     src = fetchurl {
@@ -5259,7 +5259,7 @@
   /*
   Generated from: nvim-lua/lsp_extensions.nvim
   */
-  lsp-extensions-nvim = buildVimPlugin {
+  lsp-extensions-nvim = buildVimPluginFrom2Nix {
     pname = "lsp-extensions-nvim";
     version = "2022-07-07";
     src = fetchurl {
@@ -5275,7 +5275,7 @@
   /*
   Generated from: lukas-reineke/lsp-format.nvim
   */
-  lsp-format-nvim = buildVimPlugin {
+  lsp-format-nvim = buildVimPluginFrom2Nix {
     pname = "lsp-format-nvim";
     version = "2023-09-13";
     src = fetchurl {
@@ -5291,7 +5291,7 @@
   /*
   Generated from: VidocqH/lsp-lens.nvim
   */
-  lsp-lens-nvim = buildVimPlugin {
+  lsp-lens-nvim = buildVimPluginFrom2Nix {
     pname = "lsp-lens-nvim";
     version = "2023-09-19";
     src = fetchurl {
@@ -5307,7 +5307,7 @@
   /*
   Generated from: sourcehut:whynothugo/lsp_lines.nvim
   */
-  lsp-lines-nvim = buildVimPlugin {
+  lsp-lines-nvim = buildVimPluginFrom2Nix {
     pname = "lsp-lines-nvim";
     version = "2023-05-13";
     src = fetchgit {
@@ -5324,7 +5324,7 @@
   /*
   Generated from: linrongbin16/lsp-progress.nvim
   */
-  lsp-progress-nvim = buildVimPlugin {
+  lsp-progress-nvim = buildVimPluginFrom2Nix {
     pname = "lsp-progress-nvim";
     version = "2023-10-06";
     src = fetchurl {
@@ -5340,7 +5340,7 @@
   /*
   Generated from: ray-x/lsp_signature.nvim
   */
-  lsp-signature-nvim = buildVimPlugin {
+  lsp-signature-nvim = buildVimPluginFrom2Nix {
     pname = "lsp-signature-nvim";
     version = "2023-09-20";
     src = fetchurl {
@@ -5356,7 +5356,7 @@
   /*
   Generated from: nvim-lua/lsp-status.nvim
   */
-  lsp-status-nvim = buildVimPlugin {
+  lsp-status-nvim = buildVimPluginFrom2Nix {
     pname = "lsp-status-nvim";
     version = "2022-08-03";
     src = fetchurl {
@@ -5372,7 +5372,7 @@
   /*
   Generated from: vonheikemen/lsp-zero.nvim
   */
-  lsp-zero-nvim = buildVimPlugin {
+  lsp-zero-nvim = buildVimPluginFrom2Nix {
     pname = "lsp-zero-nvim";
     version = "2023-10-03";
     src = fetchurl {
@@ -5388,7 +5388,7 @@
   /*
   Generated from: RishabhRD/lspactions
   */
-  lspactions = buildVimPlugin {
+  lspactions = buildVimPluginFrom2Nix {
     pname = "lspactions";
     version = "2022-05-15";
     src = fetchurl {
@@ -5404,7 +5404,7 @@
   /*
   Generated from: onsails/lspkind.nvim
   */
-  lspkind-nvim = buildVimPlugin {
+  lspkind-nvim = buildVimPluginFrom2Nix {
     pname = "lspkind-nvim";
     version = "2023-05-05";
     src = fetchurl {
@@ -5420,7 +5420,7 @@
   /*
   Generated from: nvimdev/lspsaga.nvim
   */
-  lspsaga-nvim = buildVimPlugin {
+  lspsaga-nvim = buildVimPluginFrom2Nix {
     pname = "lspsaga-nvim";
     version = "2023-10-07";
     src = fetchurl {
@@ -5436,7 +5436,7 @@
   /*
   Generated from: jinzhongjia/LspUI.nvim
   */
-  LspUI-nvim = buildVimPlugin {
+  LspUI-nvim = buildVimPluginFrom2Nix {
     pname = "LspUI-nvim";
     version = "2023-09-24";
     src = fetchurl {
@@ -5452,7 +5452,7 @@
   /*
   Generated from: barreiroleo/ltex_extra.nvim
   */
-  ltex-extra-nvim = buildVimPlugin {
+  ltex-extra-nvim = buildVimPluginFrom2Nix {
     pname = "ltex-extra-nvim";
     version = "2023-07-28";
     src = fetchurl {
@@ -5468,7 +5468,7 @@
   /*
   Generated from: folke/lua-dev.nvim
   */
-  lua-dev-nvim = buildVimPlugin {
+  lua-dev-nvim = buildVimPluginFrom2Nix {
     pname = "lua-dev-nvim";
     version = "2023-10-05";
     src = fetchurl {
@@ -5484,7 +5484,7 @@
   /*
   Generated from: nvim-lualine/lualine.nvim
   */
-  lualine-nvim = buildVimPlugin {
+  lualine-nvim = buildVimPluginFrom2Nix {
     pname = "lualine-nvim";
     version = "2023-08-03";
     src = fetchurl {
@@ -5500,7 +5500,7 @@
   /*
   Generated from: nvim-neorocks/luarocks-tag-release
   */
-  luarocks-tag-release = buildVimPlugin {
+  luarocks-tag-release = buildVimPluginFrom2Nix {
     pname = "luarocks-tag-release";
     version = "2023-10-07";
     src = fetchurl {
@@ -5516,7 +5516,7 @@
   /*
   Generated from: L3MON4D3/LuaSnip
   */
-  LuaSnip = buildVimPlugin {
+  LuaSnip = buildVimPluginFrom2Nix {
     pname = "LuaSnip";
     version = "2023-09-25";
     src = fetchurl {
@@ -5532,7 +5532,7 @@
   /*
   Generated from: alvarosevilla95/luatab.nvim
   */
-  luatab-nvim = buildVimPlugin {
+  luatab-nvim = buildVimPluginFrom2Nix {
     pname = "luatab-nvim";
     version = "2021-12-05";
     src = fetchurl {
@@ -5548,7 +5548,7 @@
   /*
   Generated from: rktjmp/lush.nvim
   */
-  lush-nvim = buildVimPlugin {
+  lush-nvim = buildVimPluginFrom2Nix {
     pname = "lush-nvim";
     version = "2023-09-23";
     src = fetchurl {
@@ -5564,7 +5564,7 @@
   /*
   Generated from: nanotee/luv-vimdocs
   */
-  luv-vimdocs = buildVimPlugin {
+  luv-vimdocs = buildVimPluginFrom2Nix {
     pname = "luv-vimdocs";
     version = "2023-02-08";
     src = fetchurl {
@@ -5580,7 +5580,7 @@
   /*
   Generated from: desdic/macrothis.nvim
   */
-  macrothis-nvim = buildVimPlugin {
+  macrothis-nvim = buildVimPluginFrom2Nix {
     pname = "macrothis-nvim";
     version = "2023-09-11";
     src = fetchurl {
@@ -5596,7 +5596,7 @@
   /*
   Generated from: dccsillag/magma-nvim
   */
-  magma-nvim = buildVimPlugin {
+  magma-nvim = buildVimPluginFrom2Nix {
     pname = "magma-nvim";
     version = "2023-07-08";
     src = fetchurl {
@@ -5612,7 +5612,7 @@
   /*
   Generated from: b0o/mapx.nvim
   */
-  mapx-nvim = buildVimPlugin {
+  mapx-nvim = buildVimPluginFrom2Nix {
     pname = "mapx-nvim";
     version = "2022-02-24";
     src = fetchurl {
@@ -5628,7 +5628,7 @@
   /*
   Generated from: iamcco/markdown-preview.nvim
   */
-  markdown-preview-nvim = buildVimPlugin {
+  markdown-preview-nvim = buildVimPluginFrom2Nix {
     pname = "markdown-preview-nvim";
     version = "2022-05-13";
     src = fetchurl {
@@ -5644,7 +5644,7 @@
   /*
   Generated from: NFrid/markdown-togglecheck
   */
-  markdown-togglecheck = buildVimPlugin {
+  markdown-togglecheck = buildVimPluginFrom2Nix {
     pname = "markdown-togglecheck";
     version = "2023-09-04";
     src = fetchurl {
@@ -5660,7 +5660,7 @@
   /*
   Generated from: Zeioth/markmap.nvim
   */
-  markmap-nvim = buildVimPlugin {
+  markmap-nvim = buildVimPluginFrom2Nix {
     pname = "markmap-nvim";
     version = "2023-09-12";
     src = fetchurl {
@@ -5676,7 +5676,7 @@
   /*
   Generated from: chentoast/marks.nvim
   */
-  marks-nvim = buildVimPlugin {
+  marks-nvim = buildVimPluginFrom2Nix {
     pname = "marks-nvim";
     version = "2023-02-25";
     src = fetchurl {
@@ -5692,7 +5692,7 @@
   /*
   Generated from: williamboman/mason-lspconfig.nvim
   */
-  mason-lspconfig-nvim = buildVimPlugin {
+  mason-lspconfig-nvim = buildVimPluginFrom2Nix {
     pname = "mason-lspconfig-nvim";
     version = "2023-10-01";
     src = fetchurl {
@@ -5708,7 +5708,7 @@
   /*
   Generated from: williamboman/mason.nvim
   */
-  mason-nvim = buildVimPlugin {
+  mason-nvim = buildVimPluginFrom2Nix {
     pname = "mason-nvim";
     version = "2023-09-10";
     src = fetchurl {
@@ -5724,7 +5724,7 @@
   /*
   Generated from: monkoose/matchparen.nvim
   */
-  matchparen-nvim = buildVimPlugin {
+  matchparen-nvim = buildVimPluginFrom2Nix {
     pname = "matchparen-nvim";
     version = "2023-07-19";
     src = fetchurl {
@@ -5740,7 +5740,7 @@
   /*
   Generated from: marko-cerovac/material.nvim
   */
-  material-nvim = buildVimPlugin {
+  material-nvim = buildVimPluginFrom2Nix {
     pname = "material-nvim";
     version = "2023-10-01";
     src = fetchurl {
@@ -5756,7 +5756,7 @@
   /*
   Generated from: jubnzv/mdeval.nvim
   */
-  mdeval-nvim = buildVimPlugin {
+  mdeval-nvim = buildVimPluginFrom2Nix {
     pname = "mdeval-nvim";
     version = "2022-10-30";
     src = fetchurl {
@@ -5772,7 +5772,7 @@
   /*
   Generated from: savq/melange-nvim
   */
-  melange-nvim = buildVimPlugin {
+  melange-nvim = buildVimPluginFrom2Nix {
     pname = "melange-nvim";
     version = "2023-08-11";
     src = fetchurl {
@@ -5788,7 +5788,7 @@
   /*
   Generated from: ramojus/mellifluous.nvim
   */
-  mellifluous-nvim = buildVimPlugin {
+  mellifluous-nvim = buildVimPluginFrom2Nix {
     pname = "mellifluous-nvim";
     version = "2023-09-14";
     src = fetchurl {
@@ -5804,7 +5804,7 @@
   /*
   Generated from: kvrohit/mellow.nvim
   */
-  mellow-nvim = buildVimPlugin {
+  mellow-nvim = buildVimPluginFrom2Nix {
     pname = "mellow-nvim";
     version = "2023-08-20";
     src = fetchurl {
@@ -5820,7 +5820,7 @@
   /*
   Generated from: gaborvecsei/memento.nvim
   */
-  memento-nvim = buildVimPlugin {
+  memento-nvim = buildVimPluginFrom2Nix {
     pname = "memento-nvim";
     version = "2022-03-18";
     src = fetchurl {
@@ -5836,7 +5836,7 @@
   /*
   Generated from: AckslD/messages.nvim
   */
-  messages-nvim = buildVimPlugin {
+  messages-nvim = buildVimPluginFrom2Nix {
     pname = "messages-nvim";
     version = "2023-07-20";
     src = fetchurl {
@@ -5852,7 +5852,7 @@
   /*
   Generated from: xero/miasma.nvim
   */
-  miasma-nvim = buildVimPlugin {
+  miasma-nvim = buildVimPluginFrom2Nix {
     pname = "miasma-nvim";
     version = "2023-08-07";
     src = fetchurl {
@@ -5868,7 +5868,7 @@
   /*
   Generated from: anuvyklack/middleclass
   */
-  middleclass = buildVimPlugin {
+  middleclass = buildVimPluginFrom2Nix {
     pname = "middleclass";
     version = "2022-09-20";
     src = fetchurl {
@@ -5884,7 +5884,7 @@
   /*
   Generated from: dasupradyumna/midnight.nvim
   */
-  midnight-nvim = buildVimPlugin {
+  midnight-nvim = buildVimPluginFrom2Nix {
     pname = "midnight-nvim";
     version = "2023-07-18";
     src = fetchurl {
@@ -5900,7 +5900,7 @@
   /*
   Generated from: phaazon/mind.nvim
   */
-  mind-nvim = buildVimPlugin {
+  mind-nvim = buildVimPluginFrom2Nix {
     pname = "mind-nvim";
     version = "2023-03-22";
     src = fetchurl {
@@ -5916,7 +5916,7 @@
   /*
   Generated from: echasnovski/mini.nvim
   */
-  mini-nvim = buildVimPlugin {
+  mini-nvim = buildVimPluginFrom2Nix {
     pname = "mini-nvim";
     version = "2023-10-03";
     src = fetchurl {
@@ -5932,7 +5932,7 @@
   /*
   Generated from: yazeed1s/minimal.nvim
   */
-  minimal-nvim = buildVimPlugin {
+  minimal-nvim = buildVimPluginFrom2Nix {
     pname = "minimal-nvim";
     version = "2022-11-03";
     src = fetchurl {
@@ -5948,7 +5948,7 @@
   /*
   Generated from: brendalf/mix.nvim
   */
-  mix-nvim = buildVimPlugin {
+  mix-nvim = buildVimPluginFrom2Nix {
     pname = "mix-nvim";
     version = "2022-08-22";
     src = fetchurl {
@@ -5964,7 +5964,7 @@
   /*
   Generated from: jghauser/mkdir.nvim
   */
-  mkdir-nvim = buildVimPlugin {
+  mkdir-nvim = buildVimPluginFrom2Nix {
     pname = "mkdir-nvim";
     version = "2022-07-23";
     src = fetchurl {
@@ -5980,7 +5980,7 @@
   /*
   Generated from: jakewvincent/mkdnflow.nvim
   */
-  mkdnflow-nvim = buildVimPlugin {
+  mkdnflow-nvim = buildVimPluginFrom2Nix {
     pname = "mkdnflow-nvim";
     version = "2023-07-05";
     src = fetchurl {
@@ -5996,7 +5996,7 @@
   /*
   Generated from: mawkler/modicator.nvim
   */
-  modicator-nvim = buildVimPlugin {
+  modicator-nvim = buildVimPluginFrom2Nix {
     pname = "modicator-nvim";
     version = "2023-08-25";
     src = fetchurl {
@@ -6012,7 +6012,7 @@
   /*
   Generated from: ishan9299/modus-theme-vim
   */
-  modus-theme-vim = buildVimPlugin {
+  modus-theme-vim = buildVimPluginFrom2Nix {
     pname = "modus-theme-vim";
     version = "2022-10-09";
     src = fetchurl {
@@ -6028,7 +6028,7 @@
   /*
   Generated from: kdheepak/monochrome.nvim
   */
-  monochrome-nvim = buildVimPlugin {
+  monochrome-nvim = buildVimPluginFrom2Nix {
     pname = "monochrome-nvim";
     version = "2021-07-14";
     src = fetchurl {
@@ -6044,7 +6044,7 @@
   /*
   Generated from: tanvirtin/monokai.nvim
   */
-  monokai-nvim = buildVimPlugin {
+  monokai-nvim = buildVimPluginFrom2Nix {
     pname = "monokai-nvim";
     version = "2023-01-18";
     src = fetchurl {
@@ -6060,7 +6060,7 @@
   /*
   Generated from: shaunsingh/moonlight.nvim
   */
-  moonlight-nvim = buildVimPlugin {
+  moonlight-nvim = buildVimPluginFrom2Nix {
     pname = "moonlight-nvim";
     version = "2021-05-16";
     src = fetchurl {
@@ -6076,7 +6076,7 @@
   /*
   Generated from: willothy/moveline.nvim
   */
-  moveline-nvim = buildVimPlugin {
+  moveline-nvim = buildVimPluginFrom2Nix {
     pname = "moveline-nvim";
     version = "2023-07-06";
     src = fetchurl {
@@ -6092,7 +6092,7 @@
   /*
   Generated from: niuiic/multiple-session.nvim
   */
-  multiple-session-nvim = buildVimPlugin {
+  multiple-session-nvim = buildVimPluginFrom2Nix {
     pname = "multiple-session-nvim";
     version = "2023-07-15";
     src = fetchurl {
@@ -6108,7 +6108,7 @@
   /*
   Generated from: acksld/muren.nvim
   */
-  muren-nvim = buildVimPlugin {
+  muren-nvim = buildVimPluginFrom2Nix {
     pname = "muren-nvim";
     version = "2023-08-26";
     src = fetchurl {
@@ -6124,7 +6124,7 @@
   /*
   Generated from: nyngwang/murmur.lua
   */
-  murmur-lua = buildVimPlugin {
+  murmur-lua = buildVimPluginFrom2Nix {
     pname = "murmur-lua";
     version = "2023-07-20";
     src = fetchurl {
@@ -6140,7 +6140,7 @@
   /*
   Generated from: jbyuki/nabla.nvim
   */
-  nabla-nvim = buildVimPlugin {
+  nabla-nvim = buildVimPluginFrom2Nix {
     pname = "nabla-nvim";
     version = "2023-04-22";
     src = fetchurl {
@@ -6156,7 +6156,7 @@
   /*
   Generated from: liangxianzhe/nap.nvim
   */
-  nap-nvim = buildVimPlugin {
+  nap-nvim = buildVimPluginFrom2Nix {
     pname = "nap-nvim";
     version = "2023-06-30";
     src = fetchurl {
@@ -6172,7 +6172,7 @@
   /*
   Generated from: ray-x/navigator.lua
   */
-  navigator-lua = buildVimPlugin {
+  navigator-lua = buildVimPluginFrom2Nix {
     pname = "navigator-lua";
     version = "2023-09-26";
     src = fetchurl {
@@ -6188,7 +6188,7 @@
   /*
   Generated from: numToStr/Navigator.nvim
   */
-  Navigator-nvim = buildVimPlugin {
+  Navigator-nvim = buildVimPluginFrom2Nix {
     pname = "Navigator-nvim";
     version = "2023-02-02";
     src = fetchurl {
@@ -6204,7 +6204,7 @@
   /*
   Generated from: nvim-neo-tree/neo-tree.nvim
   */
-  neo-tree-nvim = buildVimPlugin {
+  neo-tree-nvim = buildVimPluginFrom2Nix {
     pname = "neo-tree-nvim";
     version = "2023-09-30";
     src = fetchurl {
@@ -6220,7 +6220,7 @@
   /*
   Generated from: ecthelionvi/NeoColumn.nvim
   */
-  NeoColumn-nvim = buildVimPlugin {
+  NeoColumn-nvim = buildVimPluginFrom2Nix {
     pname = "NeoColumn-nvim";
     version = "2023-05-04";
     src = fetchurl {
@@ -6236,7 +6236,7 @@
   /*
   Generated from: ecthelionvi/NeoComposer.nvim
   */
-  NeoComposer-nvim = buildVimPlugin {
+  NeoComposer-nvim = buildVimPluginFrom2Nix {
     pname = "NeoComposer-nvim";
     version = "2023-09-22";
     src = fetchurl {
@@ -6252,7 +6252,7 @@
   /*
   Generated from: folke/neodev.nvim
   */
-  neodev-nvim = buildVimPlugin {
+  neodev-nvim = buildVimPluginFrom2Nix {
     pname = "neodev-nvim";
     version = "2023-10-05";
     src = fetchurl {
@@ -6268,7 +6268,7 @@
   /*
   Generated from: zbirenbaum/neodim
   */
-  neodim = buildVimPlugin {
+  neodim = buildVimPluginFrom2Nix {
     pname = "neodim";
     version = "2023-09-05";
     src = fetchurl {
@@ -6284,7 +6284,7 @@
   /*
   Generated from: sbdchd/neoformat
   */
-  neoformat = buildVimPlugin {
+  neoformat = buildVimPluginFrom2Nix {
     pname = "neoformat";
     version = "2023-09-22";
     src = fetchurl {
@@ -6300,7 +6300,7 @@
   /*
   Generated from: TimUntersberger/neofs
   */
-  neofs = buildVimPlugin {
+  neofs = buildVimPluginFrom2Nix {
     pname = "neofs";
     version = "2022-08-10";
     src = fetchurl {
@@ -6316,7 +6316,7 @@
   /*
   Generated from: danymat/neogen
   */
-  neogen = buildVimPlugin {
+  neogen = buildVimPluginFrom2Nix {
     pname = "neogen";
     version = "2023-09-09";
     src = fetchurl {
@@ -6332,7 +6332,7 @@
   /*
   Generated from: adelarsq/neoline.vim
   */
-  neoline-vim = buildVimPlugin {
+  neoline-vim = buildVimPluginFrom2Nix {
     pname = "neoline-vim";
     version = "2023-09-21";
     src = fetchurl {
@@ -6348,7 +6348,7 @@
   /*
   Generated from: nikvdp/neomux
   */
-  neomux = buildVimPlugin {
+  neomux = buildVimPluginFrom2Nix {
     pname = "neomux";
     version = "2023-04-14";
     src = fetchurl {
@@ -6364,7 +6364,7 @@
   /*
   Generated from: rafamadriz/neon
   */
-  neon = buildVimPlugin {
+  neon = buildVimPluginFrom2Nix {
     pname = "neon";
     version = "2022-11-27";
     src = fetchurl {
@@ -6380,7 +6380,7 @@
   /*
   Generated from: nyngwang/NeoNoName.lua
   */
-  NeoNoName-lua = buildVimPlugin {
+  NeoNoName-lua = buildVimPluginFrom2Nix {
     pname = "NeoNoName-lua";
     version = "2023-06-01";
     src = fetchurl {
@@ -6396,7 +6396,7 @@
   /*
   Generated from: pluffie/neoproj
   */
-  neoproj = buildVimPlugin {
+  neoproj = buildVimPluginFrom2Nix {
     pname = "neoproj";
     version = "2023-05-02";
     src = fetchurl {
@@ -6412,7 +6412,7 @@
   /*
   Generated from: nvim-neorg/neorg
   */
-  neorg = buildVimPlugin {
+  neorg = buildVimPluginFrom2Nix {
     pname = "neorg";
     version = "2023-10-04";
     src = fetchurl {
@@ -6428,7 +6428,7 @@
   /*
   Generated from: nvim-neorg/neorg-telescope
   */
-  neorg-telescope = buildVimPlugin {
+  neorg-telescope = buildVimPluginFrom2Nix {
     pname = "neorg-telescope";
     version = "2023-08-06";
     src = fetchurl {
@@ -6444,7 +6444,7 @@
   /*
   Generated from: nyngwang/NeoRoot.lua
   */
-  NeoRoot-lua = buildVimPlugin {
+  NeoRoot-lua = buildVimPluginFrom2Nix {
     pname = "NeoRoot-lua";
     version = "2023-02-08";
     src = fetchurl {
@@ -6460,7 +6460,7 @@
   /*
   Generated from: karb94/neoscroll.nvim
   */
-  neoscroll-nvim = buildVimPlugin {
+  neoscroll-nvim = buildVimPluginFrom2Nix {
     pname = "neoscroll-nvim";
     version = "2023-08-10";
     src = fetchurl {
@@ -6476,7 +6476,7 @@
   /*
   Generated from: svrana/neosolarized.nvim
   */
-  neosolarized-nvim = buildVimPlugin {
+  neosolarized-nvim = buildVimPluginFrom2Nix {
     pname = "neosolarized-nvim";
     version = "2023-08-03";
     src = fetchurl {
@@ -6492,7 +6492,7 @@
   /*
   Generated from: nyngwang/NeoTerm.lua
   */
-  NeoTerm-lua = buildVimPlugin {
+  NeoTerm-lua = buildVimPluginFrom2Nix {
     pname = "NeoTerm-lua";
     version = "2023-06-22";
     src = fetchurl {
@@ -6508,7 +6508,7 @@
   /*
   Generated from: nvim-neotest/neotest
   */
-  neotest = buildVimPlugin {
+  neotest = buildVimPluginFrom2Nix {
     pname = "neotest";
     version = "2023-09-10";
     src = fetchurl {
@@ -6524,7 +6524,7 @@
   /*
   Generated from: coffebar/neovim-project
   */
-  neovim-project = buildVimPlugin {
+  neovim-project = buildVimPluginFrom2Nix {
     pname = "neovim-project";
     version = "2023-09-26";
     src = fetchurl {
@@ -6540,7 +6540,7 @@
   /*
   Generated from: Shatur/neovim-session-manager
   */
-  neovim-session-manager = buildVimPlugin {
+  neovim-session-manager = buildVimPluginFrom2Nix {
     pname = "neovim-session-manager";
     version = "2023-09-05";
     src = fetchurl {
@@ -6556,7 +6556,7 @@
   /*
   Generated from: Shatur/neovim-tasks
   */
-  neovim-tasks = buildVimPlugin {
+  neovim-tasks = buildVimPluginFrom2Nix {
     pname = "neovim-tasks";
     version = "2023-07-18";
     src = fetchurl {
@@ -6572,7 +6572,7 @@
   /*
   Generated from: amiel/neovim-tmux-navigator
   */
-  neovim-tmux-navigator = buildVimPlugin {
+  neovim-tmux-navigator = buildVimPluginFrom2Nix {
     pname = "neovim-tmux-navigator";
     version = "2022-08-30";
     src = fetchurl {
@@ -6588,7 +6588,7 @@
   /*
   Generated from: nyngwang/NeoWell.lua
   */
-  NeoWell-lua = buildVimPlugin {
+  NeoWell-lua = buildVimPluginFrom2Nix {
     pname = "NeoWell-lua";
     version = "2023-05-11";
     src = fetchurl {
@@ -6604,7 +6604,7 @@
   /*
   Generated from: preservim/nerdcommenter
   */
-  nerdcommenter = buildVimPlugin {
+  nerdcommenter = buildVimPluginFrom2Nix {
     pname = "nerdcommenter";
     version = "2023-08-12";
     src = fetchurl {
@@ -6620,7 +6620,7 @@
   /*
   Generated from: LionC/nest.nvim
   */
-  nest-nvim = buildVimPlugin {
+  nest-nvim = buildVimPluginFrom2Nix {
     pname = "nest-nvim";
     version = "2021-09-26";
     src = fetchurl {
@@ -6636,7 +6636,7 @@
   /*
   Generated from: miversen33/netman.nvim
   */
-  netman-nvim = buildVimPlugin {
+  netman-nvim = buildVimPluginFrom2Nix {
     pname = "netman-nvim";
     version = "2023-04-19";
     src = fetchurl {
@@ -6652,7 +6652,7 @@
   /*
   Generated from: oberblastmeister/neuron.nvim
   */
-  neuron-nvim = buildVimPlugin {
+  neuron-nvim = buildVimPluginFrom2Nix {
     pname = "neuron-nvim";
     version = "2022-02-27";
     src = fetchurl {
@@ -6668,7 +6668,7 @@
   /*
   Generated from: Olical/nfnl
   */
-  nfnl = buildVimPlugin {
+  nfnl = buildVimPluginFrom2Nix {
     pname = "nfnl";
     version = "2023-09-08";
     src = fetchurl {
@@ -6684,7 +6684,7 @@
   /*
   Generated from: cryptomilk/nightcity.nvim
   */
-  nightcity-nvim = buildVimPlugin {
+  nightcity-nvim = buildVimPluginFrom2Nix {
     pname = "nightcity-nvim";
     version = "2023-09-26";
     src = fetchurl {
@@ -6700,7 +6700,7 @@
   /*
   Generated from: EdenEast/nightfox.nvim
   */
-  nightfox-nvim = buildVimPlugin {
+  nightfox-nvim = buildVimPluginFrom2Nix {
     pname = "nightfox-nvim";
     version = "2023-09-27";
     src = fetchurl {
@@ -6716,7 +6716,7 @@
   /*
   Generated from: alaviss/nim.nvim
   */
-  nim-nvim = buildVimPlugin {
+  nim-nvim = buildVimPluginFrom2Nix {
     pname = "nim-nvim";
     version = "2022-08-08";
     src = fetchurl {
@@ -6732,7 +6732,7 @@
   /*
   Generated from: figsoda/nix-develop.nvim
   */
-  nix-develop-nvim = buildVimPlugin {
+  nix-develop-nvim = buildVimPluginFrom2Nix {
     pname = "nix-develop-nvim";
     version = "2023-07-23";
     src = fetchurl {
@@ -6748,7 +6748,7 @@
   /*
   Generated from: tamago324/nlsp-settings.nvim
   */
-  nlsp-settings-nvim = buildVimPlugin {
+  nlsp-settings-nvim = buildVimPluginFrom2Nix {
     pname = "nlsp-settings-nvim";
     version = "2023-08-23";
     src = fetchurl {
@@ -6764,7 +6764,7 @@
   /*
   Generated from: tjdevries/nlua.nvim
   */
-  nlua-nvim = buildVimPlugin {
+  nlua-nvim = buildVimPluginFrom2Nix {
     pname = "nlua-nvim";
     version = "2022-12-20";
     src = fetchurl {
@@ -6780,7 +6780,7 @@
   /*
   Generated from: luukvbaal/nnn.nvim
   */
-  nnn-nvim = buildVimPlugin {
+  nnn-nvim = buildVimPluginFrom2Nix {
     pname = "nnn-nvim";
     version = "2023-06-08";
     src = fetchurl {
@@ -6796,7 +6796,7 @@
   /*
   Generated from: shortcuts/no-neck-pain.nvim
   */
-  no-neck-pain-nvim = buildVimPlugin {
+  no-neck-pain-nvim = buildVimPluginFrom2Nix {
     pname = "no-neck-pain-nvim";
     version = "2023-09-30";
     src = fetchurl {
@@ -6812,7 +6812,7 @@
   /*
   Generated from: folke/noice.nvim
   */
-  noice-nvim = buildVimPlugin {
+  noice-nvim = buildVimPluginFrom2Nix {
     pname = "noice-nvim";
     version = "2023-08-30";
     src = fetchurl {
@@ -6828,7 +6828,7 @@
   /*
   Generated from: AlexvZyl/nordic.nvim::nordic-alexczyl
   */
-  nordic-alexczyl = buildVimPlugin {
+  nordic-alexczyl = buildVimPluginFrom2Nix {
     pname = "nordic-alexczyl";
     version = "2023-09-26";
     src = fetchurl {
@@ -6844,7 +6844,7 @@
   /*
   Generated from: andersevenrud/nordic.nvim::nordic-andersevenrud
   */
-  nordic-andersevenrud = buildVimPlugin {
+  nordic-andersevenrud = buildVimPluginFrom2Nix {
     pname = "nordic-andersevenrud";
     version = "2022-12-08";
     src = fetchurl {
@@ -6860,7 +6860,7 @@
   /*
   Generated from: GCBallesteros/NotebookNavigator.nvim
   */
-  NotebookNavigator-nvim = buildVimPlugin {
+  NotebookNavigator-nvim = buildVimPluginFrom2Nix {
     pname = "NotebookNavigator-nvim";
     version = "2023-09-26";
     src = fetchurl {
@@ -6876,7 +6876,7 @@
   /*
   Generated from: XXiaoA/ns-textobject.nvim
   */
-  ns-textobject-nvim = buildVimPlugin {
+  ns-textobject-nvim = buildVimPluginFrom2Nix {
     pname = "ns-textobject-nvim";
     version = "2023-05-26";
     src = fetchurl {
@@ -6892,7 +6892,7 @@
   /*
   Generated from: jlesquembre/nterm.nvim
   */
-  nterm-nvim = buildVimPlugin {
+  nterm-nvim = buildVimPluginFrom2Nix {
     pname = "nterm-nvim";
     version = "2022-05-10";
     src = fetchurl {
@@ -6908,7 +6908,7 @@
   /*
   Generated from: MunifTanjim/nui.nvim
   */
-  nui-nvim = buildVimPlugin {
+  nui-nvim = buildVimPluginFrom2Nix {
     pname = "nui-nvim";
     version = "2023-09-06";
     src = fetchurl {
@@ -6924,7 +6924,7 @@
   /*
   Generated from: jose-elias-alvarez/null-ls.nvim
   */
-  null-ls-nvim = buildVimPlugin {
+  null-ls-nvim = buildVimPluginFrom2Nix {
     pname = "null-ls-nvim";
     version = "2023-08-12";
     src = fetchurl {
@@ -6940,7 +6940,7 @@
   /*
   Generated from: nacro90/numb.nvim
   */
-  numb-nvim = buildVimPlugin {
+  numb-nvim = buildVimPluginFrom2Nix {
     pname = "numb-nvim";
     version = "2023-08-25";
     src = fetchurl {
@@ -6956,7 +6956,7 @@
   /*
   Generated from: nkakouros-original/numbers.nvim
   */
-  numbers-nvim = buildVimPlugin {
+  numbers-nvim = buildVimPluginFrom2Nix {
     pname = "numbers-nvim";
     version = "2022-09-19";
     src = fetchurl {
@@ -6972,7 +6972,7 @@
   /*
   Generated from: ChristianChiarulli/nvcode-color-schemes.vim
   */
-  nvcode-color-schemes-vim = buildVimPlugin {
+  nvcode-color-schemes-vim = buildVimPluginFrom2Nix {
     pname = "nvcode-color-schemes-vim";
     version = "2021-07-03";
     src = fetchurl {
@@ -6988,7 +6988,7 @@
   /*
   Generated from: chrisgrieser/nvim-alt-substitute
   */
-  nvim-alt-substitute = buildVimPlugin {
+  nvim-alt-substitute = buildVimPluginFrom2Nix {
     pname = "nvim-alt-substitute";
     version = "2023-07-28";
     src = fetchurl {
@@ -7004,7 +7004,7 @@
   /*
   Generated from: windwp/nvim-autopairs
   */
-  nvim-autopairs = buildVimPlugin {
+  nvim-autopairs = buildVimPluginFrom2Nix {
     pname = "nvim-autopairs";
     version = "2023-09-23";
     src = fetchurl {
@@ -7020,7 +7020,7 @@
   /*
   Generated from: RRethy/nvim-base16
   */
-  nvim-base16 = buildVimPlugin {
+  nvim-base16 = buildVimPluginFrom2Nix {
     pname = "nvim-base16";
     version = "2023-09-30";
     src = fetchurl {
@@ -7036,7 +7036,7 @@
   /*
   Generated from: norcalli/nvim-base16.lua
   */
-  nvim-base16-lua = buildVimPlugin {
+  nvim-base16-lua = buildVimPluginFrom2Nix {
     pname = "nvim-base16-lua";
     version = "2019-10-16";
     src = fetchurl {
@@ -7052,7 +7052,7 @@
   /*
   Generated from: code-biscuits/nvim-biscuits
   */
-  nvim-biscuits = buildVimPlugin {
+  nvim-biscuits = buildVimPluginFrom2Nix {
     pname = "nvim-biscuits";
     version = "2023-03-28";
     src = fetchurl {
@@ -7068,7 +7068,7 @@
   /*
   Generated from: tveskag/nvim-blame-line
   */
-  nvim-blame-line = buildVimPlugin {
+  nvim-blame-line = buildVimPluginFrom2Nix {
     pname = "nvim-blame-line";
     version = "2022-05-04";
     src = fetchurl {
@@ -7084,7 +7084,7 @@
   /*
   Generated from: kevinhwang91/nvim-bqf
   */
-  nvim-bqf = buildVimPlugin {
+  nvim-bqf = buildVimPluginFrom2Nix {
     pname = "nvim-bqf";
     version = "2023-09-19";
     src = fetchurl {
@@ -7100,7 +7100,7 @@
   /*
   Generated from: idanarye/nvim-buffls
   */
-  nvim-buffls = buildVimPlugin {
+  nvim-buffls = buildVimPluginFrom2Nix {
     pname = "nvim-buffls";
     version = "2023-04-09";
     src = fetchurl {
@@ -7116,7 +7116,7 @@
   /*
   Generated from: Iron-E/nvim-cartographer
   */
-  nvim-cartographer = buildVimPlugin {
+  nvim-cartographer = buildVimPluginFrom2Nix {
     pname = "nvim-cartographer";
     version = "2023-06-19";
     src = fetchurl {
@@ -7132,7 +7132,7 @@
   /*
   Generated from: idanarye/nvim-channelot
   */
-  nvim-channelot = buildVimPlugin {
+  nvim-channelot = buildVimPluginFrom2Nix {
     pname = "nvim-channelot";
     version = "2023-09-11";
     src = fetchurl {
@@ -7148,7 +7148,7 @@
   /*
   Generated from: hrsh7th/nvim-cmp
   */
-  nvim-cmp = buildVimPlugin {
+  nvim-cmp = buildVimPluginFrom2Nix {
     pname = "nvim-cmp";
     version = "2023-08-26";
     src = fetchurl {
@@ -7164,7 +7164,7 @@
   /*
   Generated from: weilbith/nvim-code-action-menu
   */
-  nvim-code-action-menu = buildVimPlugin {
+  nvim-code-action-menu = buildVimPluginFrom2Nix {
     pname = "nvim-code-action-menu";
     version = "2022-12-20";
     src = fetchurl {
@@ -7180,7 +7180,7 @@
   /*
   Generated from: willothy/nvim-cokeline
   */
-  nvim-cokeline = buildVimPlugin {
+  nvim-cokeline = buildVimPluginFrom2Nix {
     pname = "nvim-cokeline";
     version = "2023-10-04";
     src = fetchurl {
@@ -7196,7 +7196,7 @@
   /*
   Generated from: NvChad/nvim-colorizer.lua
   */
-  nvim-colorizer-lua = buildVimPlugin {
+  nvim-colorizer-lua = buildVimPluginFrom2Nix {
     pname = "nvim-colorizer-lua";
     version = "2023-02-27";
     src = fetchurl {
@@ -7212,7 +7212,7 @@
   /*
   Generated from: gennaro-tedesco/nvim-commaround
   */
-  nvim-commaround = buildVimPlugin {
+  nvim-commaround = buildVimPluginFrom2Nix {
     pname = "nvim-commaround";
     version = "2023-01-06";
     src = fetchurl {
@@ -7228,7 +7228,7 @@
   /*
   Generated from: terrortylor/nvim-comment
   */
-  nvim-comment = buildVimPlugin {
+  nvim-comment = buildVimPluginFrom2Nix {
     pname = "nvim-comment";
     version = "2022-08-09";
     src = fetchurl {
@@ -7244,7 +7244,7 @@
   /*
   Generated from: s1n7ax/nvim-comment-frame
   */
-  nvim-comment-frame = buildVimPlugin {
+  nvim-comment-frame = buildVimPluginFrom2Nix {
     pname = "nvim-comment-frame";
     version = "2022-10-11";
     src = fetchurl {
@@ -7260,7 +7260,7 @@
   /*
   Generated from: noib3/nvim-compleet
   */
-  nvim-compleet = buildVimPlugin {
+  nvim-compleet = buildVimPluginFrom2Nix {
     pname = "nvim-compleet";
     version = "2022-12-01";
     src = fetchurl {
@@ -7276,7 +7276,7 @@
   /*
   Generated from: klen/nvim-config-local
   */
-  nvim-config-local = buildVimPlugin {
+  nvim-config-local = buildVimPluginFrom2Nix {
     pname = "nvim-config-local";
     version = "2023-06-15";
     src = fetchurl {
@@ -7292,7 +7292,7 @@
   /*
   Generated from: haringsrob/nvim_context_vt
   */
-  nvim-context-vt = buildVimPlugin {
+  nvim-context-vt = buildVimPluginFrom2Nix {
     pname = "nvim-context-vt";
     version = "2023-08-26";
     src = fetchurl {
@@ -7308,7 +7308,7 @@
   /*
   Generated from: andythigpen/nvim-coverage
   */
-  nvim-coverage = buildVimPlugin {
+  nvim-coverage = buildVimPluginFrom2Nix {
     pname = "nvim-coverage";
     version = "2023-07-20";
     src = fetchurl {
@@ -7324,7 +7324,7 @@
   /*
   Generated from: yamatsum/nvim-cursorline
   */
-  nvim-cursorline = buildVimPlugin {
+  nvim-cursorline = buildVimPluginFrom2Nix {
     pname = "nvim-cursorline";
     version = "2022-04-15";
     src = fetchurl {
@@ -7340,7 +7340,7 @@
   /*
   Generated from: xiyaowong/nvim-cursorword
   */
-  nvim-cursorword = buildVimPlugin {
+  nvim-cursorword = buildVimPluginFrom2Nix {
     pname = "nvim-cursorword";
     version = "2022-06-22";
     src = fetchurl {
@@ -7356,7 +7356,7 @@
   /*
   Generated from: Kasama/nvim-custom-diagnostic-highlight
   */
-  nvim-custom-diagnostic-highlight = buildVimPlugin {
+  nvim-custom-diagnostic-highlight = buildVimPluginFrom2Nix {
     pname = "nvim-custom-diagnostic-highlight";
     version = "2023-05-09";
     src = fetchurl {
@@ -7372,7 +7372,7 @@
   /*
   Generated from: mfussenegger/nvim-dap
   */
-  nvim-dap = buildVimPlugin {
+  nvim-dap = buildVimPluginFrom2Nix {
     pname = "nvim-dap";
     version = "2023-09-14";
     src = fetchurl {
@@ -7388,7 +7388,7 @@
   /*
   Generated from: rcarriga/nvim-dap-ui
   */
-  nvim-dap-ui = buildVimPlugin {
+  nvim-dap-ui = buildVimPluginFrom2Nix {
     pname = "nvim-dap-ui";
     version = "2023-09-10";
     src = fetchurl {
@@ -7404,7 +7404,7 @@
   /*
   Generated from: theniceboy/nvim-deus
   */
-  nvim-deus = buildVimPlugin {
+  nvim-deus = buildVimPluginFrom2Nix {
     pname = "nvim-deus";
     version = "2023-07-28";
     src = fetchurl {
@@ -7420,7 +7420,7 @@
   /*
   Generated from: esensar/nvim-dev-container
   */
-  nvim-dev-container = buildVimPlugin {
+  nvim-dev-container = buildVimPluginFrom2Nix {
     pname = "nvim-dev-container";
     version = "2023-09-27";
     src = fetchurl {
@@ -7436,7 +7436,7 @@
   /*
   Generated from: luckasRanarison/nvim-devdocs
   */
-  nvim-devdocs = buildVimPlugin {
+  nvim-devdocs = buildVimPluginFrom2Nix {
     pname = "nvim-devdocs";
     version = "2023-10-05";
     src = fetchurl {
@@ -7452,7 +7452,7 @@
   /*
   Generated from: amrbashir/nvim-docs-view
   */
-  nvim-docs-view = buildVimPlugin {
+  nvim-docs-view = buildVimPluginFrom2Nix {
     pname = "nvim-docs-view";
     version = "2023-02-13";
     src = fetchurl {
@@ -7468,7 +7468,7 @@
   /*
   Generated from: chrisgrieser/nvim-dr-lsp
   */
-  nvim-dr-lsp = buildVimPlugin {
+  nvim-dr-lsp = buildVimPluginFrom2Nix {
     pname = "nvim-dr-lsp";
     version = "2023-09-18";
     src = fetchurl {
@@ -7484,7 +7484,7 @@
   /*
   Generated from: chrisgrieser/nvim-early-retirement
   */
-  nvim-early-retirement = buildVimPlugin {
+  nvim-early-retirement = buildVimPluginFrom2Nix {
     pname = "nvim-early-retirement";
     version = "2023-09-04";
     src = fetchurl {
@@ -7500,7 +7500,7 @@
   /*
   Generated from: AllenDang/nvim-expand-expr
   */
-  nvim-expand-expr = buildVimPlugin {
+  nvim-expand-expr = buildVimPluginFrom2Nix {
     pname = "nvim-expand-expr";
     version = "2021-08-14";
     src = fetchurl {
@@ -7516,7 +7516,7 @@
   /*
   Generated from: AckslD/nvim-FeMaco.lua
   */
-  nvim-FeMaco-lua = buildVimPlugin {
+  nvim-FeMaco-lua = buildVimPluginFrom2Nix {
     pname = "nvim-FeMaco-lua";
     version = "2023-08-28";
     src = fetchurl {
@@ -7532,7 +7532,7 @@
   /*
   Generated from: yaocccc/nvim-foldsign
   */
-  nvim-foldsign = buildVimPlugin {
+  nvim-foldsign = buildVimPluginFrom2Nix {
     pname = "nvim-foldsign";
     version = "2023-02-22";
     src = fetchurl {
@@ -7548,7 +7548,7 @@
   /*
   Generated from: vijaymarupudi/nvim-fzf
   */
-  nvim-fzf = buildVimPlugin {
+  nvim-fzf = buildVimPluginFrom2Nix {
     pname = "nvim-fzf";
     version = "2023-09-05";
     src = fetchurl {
@@ -7564,7 +7564,7 @@
   /*
   Generated from: sakhnik/nvim-gdb
   */
-  nvim-gdb = buildVimPlugin {
+  nvim-gdb = buildVimPluginFrom2Nix {
     pname = "nvim-gdb";
     version = "2023-10-02";
     src = fetchurl {
@@ -7580,7 +7580,7 @@
   /*
   Generated from: chrisgrieser/nvim-genghis
   */
-  nvim-genghis = buildVimPlugin {
+  nvim-genghis = buildVimPluginFrom2Nix {
     pname = "nvim-genghis";
     version = "2023-09-18";
     src = fetchurl {
@@ -7596,7 +7596,7 @@
   /*
   Generated from: AckslD/nvim-gfold.lua
   */
-  nvim-gfold-lua = buildVimPlugin {
+  nvim-gfold-lua = buildVimPluginFrom2Nix {
     pname = "nvim-gfold-lua";
     version = "2022-10-19";
     src = fetchurl {
@@ -7612,7 +7612,7 @@
   /*
   Generated from: subnut/nvim-ghost.nvim
   */
-  nvim-ghost-nvim = buildVimPlugin {
+  nvim-ghost-nvim = buildVimPluginFrom2Nix {
     pname = "nvim-ghost-nvim";
     version = "2023-05-29";
     src = fetchurl {
@@ -7628,7 +7628,7 @@
   /*
   Generated from: crispgm/nvim-go
   */
-  nvim-go = buildVimPlugin {
+  nvim-go = buildVimPluginFrom2Nix {
     pname = "nvim-go";
     version = "2023-08-22";
     src = fetchurl {
@@ -7644,7 +7644,7 @@
   /*
   Generated from: rafaelsq/nvim-goc.lua
   */
-  nvim-goc-lua = buildVimPlugin {
+  nvim-goc-lua = buildVimPluginFrom2Nix {
     pname = "nvim-goc-lua";
     version = "2023-07-18";
     src = fetchurl {
@@ -7660,7 +7660,7 @@
   /*
   Generated from: booperlv/nvim-gomove
   */
-  nvim-gomove = buildVimPlugin {
+  nvim-gomove = buildVimPluginFrom2Nix {
     pname = "nvim-gomove";
     version = "2022-07-19";
     src = fetchurl {
@@ -7676,7 +7676,7 @@
   /*
   Generated from: smiteshp/nvim-gps
   */
-  nvim-gps = buildVimPlugin {
+  nvim-gps = buildVimPluginFrom2Nix {
     pname = "nvim-gps";
     version = "2022-07-05";
     src = fetchurl {
@@ -7692,7 +7692,7 @@
   /*
   Generated from: ojroques/nvim-hardline
   */
-  nvim-hardline = buildVimPlugin {
+  nvim-hardline = buildVimPluginFrom2Nix {
     pname = "nvim-hardline";
     version = "2023-08-20";
     src = fetchurl {
@@ -7708,7 +7708,7 @@
   /*
   Generated from: brenoprata10/nvim-highlight-colors
   */
-  nvim-highlight-colors = buildVimPlugin {
+  nvim-highlight-colors = buildVimPluginFrom2Nix {
     pname = "nvim-highlight-colors";
     version = "2023-07-27";
     src = fetchurl {
@@ -7724,7 +7724,7 @@
   /*
   Generated from: Iron-E/nvim-highlite
   */
-  nvim-highlite = buildVimPlugin {
+  nvim-highlite = buildVimPluginFrom2Nix {
     pname = "nvim-highlite";
     version = "2023-09-28";
     src = fetchurl {
@@ -7740,7 +7740,7 @@
   /*
   Generated from: yaocccc/nvim-hl-mdcodeblock.lua
   */
-  nvim-hl-mdcodeblock-lua = buildVimPlugin {
+  nvim-hl-mdcodeblock-lua = buildVimPluginFrom2Nix {
     pname = "nvim-hl-mdcodeblock-lua";
     version = "2023-04-29";
     src = fetchurl {
@@ -7756,7 +7756,7 @@
   /*
   Generated from: yaocccc/nvim-hlchunk
   */
-  nvim-hlchunk = buildVimPlugin {
+  nvim-hlchunk = buildVimPluginFrom2Nix {
     pname = "nvim-hlchunk";
     version = "2023-03-09";
     src = fetchurl {
@@ -7772,7 +7772,7 @@
   /*
   Generated from: kevinhwang91/nvim-hlslens
   */
-  nvim-hlslens = buildVimPlugin {
+  nvim-hlslens = buildVimPluginFrom2Nix {
     pname = "nvim-hlslens";
     version = "2023-08-06";
     src = fetchurl {
@@ -7788,7 +7788,7 @@
   /*
   Generated from: PHSix/nvim-hybrid
   */
-  nvim-hybrid = buildVimPlugin {
+  nvim-hybrid = buildVimPluginFrom2Nix {
     pname = "nvim-hybrid";
     version = "2022-01-22";
     src = fetchurl {
@@ -7804,7 +7804,7 @@
   /*
   Generated from: mfussenegger/nvim-jdtls
   */
-  nvim-jdtls = buildVimPlugin {
+  nvim-jdtls = buildVimPluginFrom2Nix {
     pname = "nvim-jdtls";
     version = "2023-09-19";
     src = fetchurl {
@@ -7820,7 +7820,7 @@
   /*
   Generated from: ckipp01/nvim-jenkinsfile-linter
   */
-  nvim-jenkinsfile-linter = buildVimPlugin {
+  nvim-jenkinsfile-linter = buildVimPluginFrom2Nix {
     pname = "nvim-jenkinsfile-linter";
     version = "2023-10-02";
     src = fetchurl {
@@ -7836,7 +7836,7 @@
   /*
   Generated from: gennaro-tedesco/nvim-jqx
   */
-  nvim-jqx = buildVimPlugin {
+  nvim-jqx = buildVimPluginFrom2Nix {
     pname = "nvim-jqx";
     version = "2023-02-28";
     src = fetchurl {
@@ -7852,7 +7852,7 @@
   /*
   Generated from: kaiuri/nvim-juliana
   */
-  nvim-juliana = buildVimPlugin {
+  nvim-juliana = buildVimPluginFrom2Nix {
     pname = "nvim-juliana";
     version = "2023-08-06";
     src = fetchurl {
@@ -7868,7 +7868,7 @@
   /*
   Generated from: ethanholz/nvim-lastplace
   */
-  nvim-lastplace = buildVimPlugin {
+  nvim-lastplace = buildVimPluginFrom2Nix {
     pname = "nvim-lastplace";
     version = "2023-07-27";
     src = fetchurl {
@@ -7884,7 +7884,7 @@
   /*
   Generated from: kosayoda/nvim-lightbulb
   */
-  nvim-lightbulb = buildVimPlugin {
+  nvim-lightbulb = buildVimPluginFrom2Nix {
     pname = "nvim-lightbulb";
     version = "2023-07-20";
     src = fetchurl {
@@ -7900,7 +7900,7 @@
   /*
   Generated from: martineausimon/nvim-lilypond-suite
   */
-  nvim-lilypond-suite = buildVimPlugin {
+  nvim-lilypond-suite = buildVimPluginFrom2Nix {
     pname = "nvim-lilypond-suite";
     version = "2023-09-27";
     src = fetchurl {
@@ -7916,7 +7916,7 @@
   /*
   Generated from: yaocccc/nvim-lines.lua
   */
-  nvim-lines-lua = buildVimPlugin {
+  nvim-lines-lua = buildVimPluginFrom2Nix {
     pname = "nvim-lines-lua";
     version = "2023-04-06";
     src = fetchurl {
@@ -7932,7 +7932,7 @@
   /*
   Generated from: mfussenegger/nvim-lint
   */
-  nvim-lint = buildVimPlugin {
+  nvim-lint = buildVimPluginFrom2Nix {
     pname = "nvim-lint";
     version = "2023-10-05";
     src = fetchurl {
@@ -7948,7 +7948,7 @@
   /*
   Generated from: nanotee/nvim-lsp-basics
   */
-  nvim-lsp-basics = buildVimPlugin {
+  nvim-lsp-basics = buildVimPluginFrom2Nix {
     pname = "nvim-lsp-basics";
     version = "2022-05-08";
     src = fetchurl {
@@ -7964,7 +7964,7 @@
   /*
   Generated from: williamboman/nvim-lsp-installer
   */
-  nvim-lsp-installer = buildVimPlugin {
+  nvim-lsp-installer = buildVimPluginFrom2Nix {
     pname = "nvim-lsp-installer";
     version = "2022-11-12";
     src = fetchurl {
@@ -7980,7 +7980,7 @@
   /*
   Generated from: Junnplus/nvim-lsp-setup
   */
-  nvim-lsp-setup = buildVimPlugin {
+  nvim-lsp-setup = buildVimPluginFrom2Nix {
     pname = "nvim-lsp-setup";
     version = "2023-09-20";
     src = fetchurl {
@@ -7996,7 +7996,7 @@
   /*
   Generated from: jose-elias-alvarez/nvim-lsp-ts-utils
   */
-  nvim-lsp-ts-utils = buildVimPlugin {
+  nvim-lsp-ts-utils = buildVimPluginFrom2Nix {
     pname = "nvim-lsp-ts-utils";
     version = "2022-07-17";
     src = fetchurl {
@@ -8012,7 +8012,7 @@
   /*
   Generated from: neovim/nvim-lspconfig
   */
-  nvim-lspconfig = buildVimPlugin {
+  nvim-lspconfig = buildVimPluginFrom2Nix {
     pname = "nvim-lspconfig";
     version = "2023-10-04";
     src = fetchurl {
@@ -8028,7 +8028,7 @@
   /*
   Generated from: ojroques/nvim-lspfuzzy
   */
-  nvim-lspfuzzy = buildVimPlugin {
+  nvim-lspfuzzy = buildVimPluginFrom2Nix {
     pname = "nvim-lspfuzzy";
     version = "2023-06-28";
     src = fetchurl {
@@ -8044,7 +8044,7 @@
   /*
   Generated from: anott03/nvim-lspinstall
   */
-  nvim-lspinstall = buildVimPlugin {
+  nvim-lspinstall = buildVimPluginFrom2Nix {
     pname = "nvim-lspinstall";
     version = "2021-07-23";
     src = fetchurl {
@@ -8060,7 +8060,7 @@
   /*
   Generated from: alexaandru/nvim-lspupdate
   */
-  nvim-lspupdate = buildVimPlugin {
+  nvim-lspupdate = buildVimPluginFrom2Nix {
     pname = "nvim-lspupdate";
     version = "2021-12-21";
     src = fetchurl {
@@ -8076,7 +8076,7 @@
   /*
   Generated from: RishabhRD/nvim-lsputils
   */
-  nvim-lsputils = buildVimPlugin {
+  nvim-lsputils = buildVimPluginFrom2Nix {
     pname = "nvim-lsputils";
     version = "2022-01-29";
     src = fetchurl {
@@ -8092,7 +8092,7 @@
   /*
   Generated from: nanotee/nvim-lua-guide
   */
-  nvim-lua-guide = buildVimPlugin {
+  nvim-lua-guide = buildVimPluginFrom2Nix {
     pname = "nvim-lua-guide";
     version = "2022-12-19";
     src = fetchurl {
@@ -8108,7 +8108,7 @@
   /*
   Generated from: bfredl/nvim-luadev
   */
-  nvim-luadev = buildVimPlugin {
+  nvim-luadev = buildVimPluginFrom2Nix {
     pname = "nvim-luadev";
     version = "2023-03-13";
     src = fetchurl {
@@ -8124,7 +8124,7 @@
   /*
   Generated from: rafcamlet/nvim-luapad
   */
-  nvim-luapad = buildVimPlugin {
+  nvim-luapad = buildVimPluginFrom2Nix {
     pname = "nvim-luapad";
     version = "2022-12-11";
     src = fetchurl {
@@ -8140,7 +8140,7 @@
   /*
   Generated from: milisims/nvim-luaref
   */
-  nvim-luaref = buildVimPlugin {
+  nvim-luaref = buildVimPluginFrom2Nix {
     pname = "nvim-luaref";
     version = "2022-02-17";
     src = fetchurl {
@@ -8156,7 +8156,7 @@
   /*
   Generated from: jameshiew/nvim-magic
   */
-  nvim-magic = buildVimPlugin {
+  nvim-magic = buildVimPluginFrom2Nix {
     pname = "nvim-magic";
     version = "2023-06-08";
     src = fetchurl {
@@ -8172,7 +8172,7 @@
   /*
   Generated from: davidgranstrom/nvim-markdown-preview
   */
-  nvim-markdown-preview = buildVimPlugin {
+  nvim-markdown-preview = buildVimPluginFrom2Nix {
     pname = "nvim-markdown-preview";
     version = "2022-05-21";
     src = fetchurl {
@@ -8188,7 +8188,7 @@
   /*
   Generated from: scalameta/nvim-metals
   */
-  nvim-metals = buildVimPlugin {
+  nvim-metals = buildVimPluginFrom2Nix {
     pname = "nvim-metals";
     version = "2023-10-04";
     src = fetchurl {
@@ -8204,7 +8204,7 @@
   /*
   Generated from: bfredl/nvim-miniyank
   */
-  nvim-miniyank = buildVimPlugin {
+  nvim-miniyank = buildVimPluginFrom2Nix {
     pname = "nvim-miniyank";
     version = "2019-11-05";
     src = fetchurl {
@@ -8220,7 +8220,7 @@
   /*
   Generated from: idanarye/nvim-moonicipal
   */
-  nvim-moonicipal = buildVimPlugin {
+  nvim-moonicipal = buildVimPluginFrom2Nix {
     pname = "nvim-moonicipal";
     version = "2023-09-14";
     src = fetchurl {
@@ -8236,7 +8236,7 @@
   /*
   Generated from: SmiteshP/nvim-navbuddy
   */
-  nvim-navbuddy = buildVimPlugin {
+  nvim-navbuddy = buildVimPluginFrom2Nix {
     pname = "nvim-navbuddy";
     version = "2023-09-14";
     src = fetchurl {
@@ -8252,7 +8252,7 @@
   /*
   Generated from: SmiteshP/nvim-navic
   */
-  nvim-navic = buildVimPlugin {
+  nvim-navic = buildVimPluginFrom2Nix {
     pname = "nvim-navic";
     version = "2023-09-18";
     src = fetchurl {
@@ -8268,7 +8268,7 @@
   /*
   Generated from: AckslD/nvim-neoclip.lua
   */
-  nvim-neoclip-lua = buildVimPlugin {
+  nvim-neoclip-lua = buildVimPluginFrom2Nix {
     pname = "nvim-neoclip-lua";
     version = "2023-05-16";
     src = fetchurl {
@@ -8284,7 +8284,7 @@
   /*
   Generated from: yamatsum/nvim-nonicons
   */
-  nvim-nonicons = buildVimPlugin {
+  nvim-nonicons = buildVimPluginFrom2Nix {
     pname = "nvim-nonicons";
     version = "2023-02-04";
     src = fetchurl {
@@ -8300,7 +8300,7 @@
   /*
   Generated from: rcarriga/nvim-notify
   */
-  nvim-notify = buildVimPlugin {
+  nvim-notify = buildVimPluginFrom2Nix {
     pname = "nvim-notify";
     version = "2023-09-28";
     src = fetchurl {
@@ -8316,7 +8316,7 @@
   /*
   Generated from: LhKipp/nvim-nu
   */
-  nvim-nu = buildVimPlugin {
+  nvim-nu = buildVimPluginFrom2Nix {
     pname = "nvim-nu";
     version = "2023-03-07";
     src = fetchurl {
@@ -8332,7 +8332,7 @@
   /*
   Generated from: sitiom/nvim-numbertoggle
   */
-  nvim-numbertoggle = buildVimPlugin {
+  nvim-numbertoggle = buildVimPluginFrom2Nix {
     pname = "nvim-numbertoggle";
     version = "2023-09-05";
     src = fetchurl {
@@ -8348,7 +8348,7 @@
   /*
   Generated from: chrisgrieser/nvim-origami
   */
-  nvim-origami = buildVimPlugin {
+  nvim-origami = buildVimPluginFrom2Nix {
     pname = "nvim-origami";
     version = "2023-09-14";
     src = fetchurl {
@@ -8364,7 +8364,7 @@
   /*
   Generated from: ojroques/nvim-osc52
   */
-  nvim-osc52 = buildVimPlugin {
+  nvim-osc52 = buildVimPluginFrom2Nix {
     pname = "nvim-osc52";
     version = "2023-05-15";
     src = fetchurl {
@@ -8380,7 +8380,7 @@
   /*
   Generated from: mordechaihadad/nvim-papadark
   */
-  nvim-papadark = buildVimPlugin {
+  nvim-papadark = buildVimPluginFrom2Nix {
     pname = "nvim-papadark";
     version = "2021-10-30";
     src = fetchurl {
@@ -8396,7 +8396,7 @@
   /*
   Generated from: gennaro-tedesco/nvim-peekup
   */
-  nvim-peekup = buildVimPlugin {
+  nvim-peekup = buildVimPluginFrom2Nix {
     pname = "nvim-peekup";
     version = "2023-02-23";
     src = fetchurl {
@@ -8412,7 +8412,7 @@
   /*
   Generated from: askfiy/nvim-picgo
   */
-  nvim-picgo = buildVimPlugin {
+  nvim-picgo = buildVimPluginFrom2Nix {
     pname = "nvim-picgo";
     version = "2022-12-05";
     src = fetchurl {
@@ -8428,7 +8428,7 @@
   /*
   Generated from: ellisonleao/nvim-plugin-template
   */
-  nvim-plugin-template = buildVimPlugin {
+  nvim-plugin-template = buildVimPluginFrom2Nix {
     pname = "nvim-plugin-template";
     version = "2023-08-17";
     src = fetchurl {
@@ -8444,7 +8444,7 @@
   /*
   Generated from: gennaro-tedesco/nvim-possession
   */
-  nvim-possession = buildVimPlugin {
+  nvim-possession = buildVimPluginFrom2Nix {
     pname = "nvim-possession";
     version = "2023-09-12";
     src = fetchurl {
@@ -8460,7 +8460,7 @@
   /*
   Generated from: yorickpeterse/nvim-pqf
   */
-  nvim-pqf = buildVimPlugin {
+  nvim-pqf = buildVimPluginFrom2Nix {
     pname = "nvim-pqf";
     version = "2023-07-24";
     src = fetchurl {
@@ -8476,7 +8476,7 @@
   /*
   Generated from: windwp/nvim-projectconfig
   */
-  nvim-projectconfig = buildVimPlugin {
+  nvim-projectconfig = buildVimPluginFrom2Nix {
     pname = "nvim-projectconfig";
     version = "2021-11-10";
     src = fetchurl {
@@ -8492,7 +8492,7 @@
   /*
   Generated from: chrisgrieser/nvim-puppeteer
   */
-  nvim-puppeteer = buildVimPlugin {
+  nvim-puppeteer = buildVimPluginFrom2Nix {
     pname = "nvim-puppeteer";
     version = "2023-09-26";
     src = fetchurl {
@@ -8508,7 +8508,7 @@
   /*
   Generated from: RishabhRD/nvim-rdark
   */
-  nvim-rdark = buildVimPlugin {
+  nvim-rdark = buildVimPluginFrom2Nix {
     pname = "nvim-rdark";
     version = "2020-12-25";
     src = fetchurl {
@@ -8524,7 +8524,7 @@
   /*
   Generated from: chrisgrieser/nvim-recorder
   */
-  nvim-recorder = buildVimPlugin {
+  nvim-recorder = buildVimPluginFrom2Nix {
     pname = "nvim-recorder";
     version = "2023-09-04";
     src = fetchurl {
@@ -8540,7 +8540,7 @@
   /*
   Generated from: bennypowers/nvim-regexplainer
   */
-  nvim-regexplainer = buildVimPlugin {
+  nvim-regexplainer = buildVimPluginFrom2Nix {
     pname = "nvim-regexplainer";
     version = "2023-08-03";
     src = fetchurl {
@@ -8556,7 +8556,7 @@
   /*
   Generated from: jamestthompson3/nvim-remote-containers
   */
-  nvim-remote-containers = buildVimPlugin {
+  nvim-remote-containers = buildVimPluginFrom2Nix {
     pname = "nvim-remote-containers";
     version = "2023-08-01";
     src = fetchurl {
@@ -8572,7 +8572,7 @@
   /*
   Generated from: AckslD/nvim-revJ.lua
   */
-  nvim-revJ-lua = buildVimPlugin {
+  nvim-revJ-lua = buildVimPluginFrom2Nix {
     pname = "nvim-revJ-lua";
     version = "2022-04-11";
     src = fetchurl {
@@ -8588,7 +8588,7 @@
   /*
   Generated from: chrisgrieser/nvim-rulebook
   */
-  nvim-rulebook = buildVimPlugin {
+  nvim-rulebook = buildVimPluginFrom2Nix {
     pname = "nvim-rulebook";
     version = "2023-10-07";
     src = fetchurl {
@@ -8604,7 +8604,7 @@
   /*
   Generated from: petertriho/nvim-scrollbar
   */
-  nvim-scrollbar = buildVimPlugin {
+  nvim-scrollbar = buildVimPluginFrom2Nix {
     pname = "nvim-scrollbar";
     version = "2023-05-23";
     src = fetchurl {
@@ -8620,7 +8620,7 @@
   /*
   Generated from: dstein64/nvim-scrollview
   */
-  nvim-scrollview = buildVimPlugin {
+  nvim-scrollview = buildVimPluginFrom2Nix {
     pname = "nvim-scrollview";
     version = "2023-10-04";
     src = fetchurl {
@@ -8636,7 +8636,7 @@
   /*
   Generated from: s1n7ax/nvim-search-and-replace
   */
-  nvim-search-and-replace = buildVimPlugin {
+  nvim-search-and-replace = buildVimPluginFrom2Nix {
     pname = "nvim-search-and-replace";
     version = "2022-09-06";
     src = fetchurl {
@@ -8652,7 +8652,7 @@
   /*
   Generated from: johann2357/nvim-smartbufs
   */
-  nvim-smartbufs = buildVimPlugin {
+  nvim-smartbufs = buildVimPluginFrom2Nix {
     pname = "nvim-smartbufs";
     version = "2021-06-14";
     src = fetchurl {
@@ -8668,7 +8668,7 @@
   /*
   Generated from: dcampos/nvim-snippy
   */
-  nvim-snippy = buildVimPlugin {
+  nvim-snippy = buildVimPluginFrom2Nix {
     pname = "nvim-snippy";
     version = "2023-09-09";
     src = fetchurl {
@@ -8684,7 +8684,7 @@
   /*
   Generated from: ishan9299/nvim-solarized-lua
   */
-  nvim-solarized-lua = buildVimPlugin {
+  nvim-solarized-lua = buildVimPluginFrom2Nix {
     pname = "nvim-solarized-lua";
     version = "2022-11-19";
     src = fetchurl {
@@ -8700,7 +8700,7 @@
   /*
   Generated from: windwp/nvim-spectre
   */
-  nvim-spectre = buildVimPlugin {
+  nvim-spectre = buildVimPluginFrom2Nix {
     pname = "nvim-spectre";
     version = "2023-09-13";
     src = fetchurl {
@@ -8716,7 +8716,7 @@
   /*
   Generated from: chrisgrieser/nvim-spider
   */
-  nvim-spider = buildVimPlugin {
+  nvim-spider = buildVimPluginFrom2Nix {
     pname = "nvim-spider";
     version = "2023-09-14";
     src = fetchurl {
@@ -8732,7 +8732,7 @@
   /*
   Generated from: mnacamura/nvim-srcerite
   */
-  nvim-srcerite = buildVimPlugin {
+  nvim-srcerite = buildVimPluginFrom2Nix {
     pname = "nvim-srcerite";
     version = "2022-07-23";
     src = fetchurl {
@@ -8748,7 +8748,7 @@
   /*
   Generated from: sourcehut:henriquehbr/nvim-startup.lua
   */
-  nvim-startup-lua = buildVimPlugin {
+  nvim-startup-lua = buildVimPluginFrom2Nix {
     pname = "nvim-startup-lua";
     version = "2022-07-31";
     src = fetchgit {
@@ -8765,7 +8765,7 @@
   /*
   Generated from: emileferreira/nvim-strict
   */
-  nvim-strict = buildVimPlugin {
+  nvim-strict = buildVimPluginFrom2Nix {
     pname = "nvim-strict";
     version = "2023-03-16";
     src = fetchurl {
@@ -8781,7 +8781,7 @@
   /*
   Generated from: kylechui/nvim-surround
   */
-  nvim-surround = buildVimPlugin {
+  nvim-surround = buildVimPluginFrom2Nix {
     pname = "nvim-surround";
     version = "2023-08-18";
     src = fetchurl {
@@ -8797,7 +8797,7 @@
   /*
   Generated from: crispgm/nvim-tabline
   */
-  nvim-tabline = buildVimPlugin {
+  nvim-tabline = buildVimPluginFrom2Nix {
     pname = "nvim-tabline";
     version = "2023-05-10";
     src = fetchurl {
@@ -8813,7 +8813,7 @@
   /*
   Generated from: s1n7ax/nvim-terminal
   */
-  nvim-terminal = buildVimPlugin {
+  nvim-terminal = buildVimPluginFrom2Nix {
     pname = "nvim-terminal";
     version = "2022-06-29";
     src = fetchurl {
@@ -8829,7 +8829,7 @@
   /*
   Generated from: norcalli/nvim-terminal.lua
   */
-  nvim-terminal-lua = buildVimPlugin {
+  nvim-terminal-lua = buildVimPluginFrom2Nix {
     pname = "nvim-terminal-lua";
     version = "2019-10-17";
     src = fetchurl {
@@ -8845,7 +8845,7 @@
   /*
   Generated from: klen/nvim-test
   */
-  nvim-test = buildVimPlugin {
+  nvim-test = buildVimPluginFrom2Nix {
     pname = "nvim-test";
     version = "2023-05-02";
     src = fetchurl {
@@ -8861,7 +8861,7 @@
   /*
   Generated from: alec-gibson/nvim-tetris
   */
-  nvim-tetris = buildVimPlugin {
+  nvim-tetris = buildVimPluginFrom2Nix {
     pname = "nvim-tetris";
     version = "2021-06-28";
     src = fetchurl {
@@ -8877,7 +8877,7 @@
   /*
   Generated from: chrisgrieser/nvim-tinygit
   */
-  nvim-tinygit = buildVimPlugin {
+  nvim-tinygit = buildVimPluginFrom2Nix {
     pname = "nvim-tinygit";
     version = "2023-09-28";
     src = fetchurl {
@@ -8893,7 +8893,7 @@
   /*
   Generated from: richardbizik/nvim-toc
   */
-  nvim-toc = buildVimPlugin {
+  nvim-toc = buildVimPluginFrom2Nix {
     pname = "nvim-toc";
     version = "2023-07-21";
     src = fetchurl {
@@ -8909,7 +8909,7 @@
   /*
   Generated from: nguyenvukhang/nvim-toggler
   */
-  nvim-toggler = buildVimPlugin {
+  nvim-toggler = buildVimPluginFrom2Nix {
     pname = "nvim-toggler";
     version = "2023-10-01";
     src = fetchurl {
@@ -8925,7 +8925,7 @@
   /*
   Generated from: akinsho/nvim-toggleterm.lua
   */
-  nvim-toggleterm-lua = buildVimPlugin {
+  nvim-toggleterm-lua = buildVimPluginFrom2Nix {
     pname = "nvim-toggleterm-lua";
     version = "2023-09-25";
     src = fetchurl {
@@ -8941,7 +8941,7 @@
   /*
   Generated from: xiyaowong/nvim-transparent
   */
-  nvim-transparent = buildVimPlugin {
+  nvim-transparent = buildVimPluginFrom2Nix {
     pname = "nvim-transparent";
     version = "2023-09-03";
     src = fetchurl {
@@ -8957,7 +8957,7 @@
   /*
   Generated from: kyazdani42/nvim-tree.lua
   */
-  nvim-tree-lua = buildVimPlugin {
+  nvim-tree-lua = buildVimPluginFrom2Nix {
     pname = "nvim-tree-lua";
     version = "2023-10-07";
     src = fetchurl {
@@ -8973,7 +8973,7 @@
   /*
   Generated from: nvim-treesitter/nvim-treesitter
   */
-  nvim-treesitter = buildVimPlugin {
+  nvim-treesitter = buildVimPluginFrom2Nix {
     pname = "nvim-treesitter";
     version = "2023-10-01";
     src = fetchurl {
@@ -8989,7 +8989,7 @@
   /*
   Generated from: nvim-treesitter/nvim-treesitter-context
   */
-  nvim-treesitter-context = buildVimPlugin {
+  nvim-treesitter-context = buildVimPluginFrom2Nix {
     pname = "nvim-treesitter-context";
     version = "2023-10-05";
     src = fetchurl {
@@ -9005,7 +9005,7 @@
   /*
   Generated from: nvim-treesitter/nvim-treesitter-refactor
   */
-  nvim-treesitter-refactor = buildVimPlugin {
+  nvim-treesitter-refactor = buildVimPluginFrom2Nix {
     pname = "nvim-treesitter-refactor";
     version = "2023-04-04";
     src = fetchurl {
@@ -9021,7 +9021,7 @@
   /*
   Generated from: nvim-treesitter/nvim-treesitter-textobjects
   */
-  nvim-treesitter-textobjects = buildVimPlugin {
+  nvim-treesitter-textobjects = buildVimPluginFrom2Nix {
     pname = "nvim-treesitter-textobjects";
     version = "2023-10-06";
     src = fetchurl {
@@ -9037,7 +9037,7 @@
   /*
   Generated from: RRethy/nvim-treesitter-textsubjects
   */
-  nvim-treesitter-textsubjects = buildVimPlugin {
+  nvim-treesitter-textsubjects = buildVimPluginFrom2Nix {
     pname = "nvim-treesitter-textsubjects";
     version = "2023-09-30";
     src = fetchurl {
@@ -9053,7 +9053,7 @@
   /*
   Generated from: windwp/nvim-ts-autotag
   */
-  nvim-ts-autotag = buildVimPlugin {
+  nvim-ts-autotag = buildVimPluginFrom2Nix {
     pname = "nvim-ts-autotag";
     version = "2023-06-16";
     src = fetchurl {
@@ -9069,7 +9069,7 @@
   /*
   Generated from: JoosepAlviste/nvim-ts-context-commentstring
   */
-  nvim-ts-context-commentstring = buildVimPlugin {
+  nvim-ts-context-commentstring = buildVimPluginFrom2Nix {
     pname = "nvim-ts-context-commentstring";
     version = "2023-09-14";
     src = fetchurl {
@@ -9085,7 +9085,7 @@
   /*
   Generated from: mfussenegger/nvim-ts-hint-textobject
   */
-  nvim-ts-hint-textobject = buildVimPlugin {
+  nvim-ts-hint-textobject = buildVimPluginFrom2Nix {
     pname = "nvim-ts-hint-textobject";
     version = "2023-02-24";
     src = fetchurl {
@@ -9101,7 +9101,7 @@
   /*
   Generated from: hiphish/nvim-ts-rainbow2
   */
-  nvim-ts-rainbow2 = buildVimPlugin {
+  nvim-ts-rainbow2 = buildVimPluginFrom2Nix {
     pname = "nvim-ts-rainbow2";
     version = "2023-07-12";
     src = fetchurl {
@@ -9117,7 +9117,7 @@
   /*
   Generated from: kevinhwang91/nvim-ufo
   */
-  nvim-ufo = buildVimPlugin {
+  nvim-ufo = buildVimPluginFrom2Nix {
     pname = "nvim-ufo";
     version = "2023-09-22";
     src = fetchurl {
@@ -9133,7 +9133,7 @@
   /*
   Generated from: samjwill/nvim-unception
   */
-  nvim-unception = buildVimPlugin {
+  nvim-unception = buildVimPluginFrom2Nix {
     pname = "nvim-unception";
     version = "2023-04-11";
     src = fetchurl {
@@ -9149,7 +9149,7 @@
   /*
   Generated from: chrisgrieser/nvim-various-textobjs
   */
-  nvim-various-textobjs = buildVimPlugin {
+  nvim-various-textobjs = buildVimPluginFrom2Nix {
     pname = "nvim-various-textobjs";
     version = "2023-10-07";
     src = fetchurl {
@@ -9165,7 +9165,7 @@
   /*
   Generated from: kyazdani42/nvim-web-devicons
   */
-  nvim-web-devicons = buildVimPlugin {
+  nvim-web-devicons = buildVimPluginFrom2Nix {
     pname = "nvim-web-devicons";
     version = "2023-09-24";
     src = fetchurl {
@@ -9181,7 +9181,7 @@
   /*
   Generated from: yorickpeterse/nvim-window
   */
-  nvim-window = buildVimPlugin {
+  nvim-window = buildVimPluginFrom2Nix {
     pname = "nvim-window";
     version = "2023-07-23";
     src = fetchurl {
@@ -9197,7 +9197,7 @@
   /*
   Generated from: s1n7ax/nvim-window-picker
   */
-  nvim-window-picker = buildVimPlugin {
+  nvim-window-picker = buildVimPluginFrom2Nix {
     pname = "nvim-window-picker";
     version = "2023-09-24";
     src = fetchurl {
@@ -9213,7 +9213,7 @@
   /*
   Generated from: seandewar/nvimesweeper
   */
-  nvimesweeper = buildVimPlugin {
+  nvimesweeper = buildVimPluginFrom2Nix {
     pname = "nvimesweeper";
     version = "2023-02-27";
     src = fetchurl {
@@ -9229,7 +9229,7 @@
   /*
   Generated from: nyngwang/nvimgelion
   */
-  nvimgelion = buildVimPlugin {
+  nvimgelion = buildVimPluginFrom2Nix {
     pname = "nvimgelion";
     version = "2023-06-21";
     src = fetchurl {
@@ -9245,7 +9245,7 @@
   /*
   Generated from: hkupty/nvimux
   */
-  nvimux = buildVimPlugin {
+  nvimux = buildVimPluginFrom2Nix {
     pname = "nvimux";
     version = "2022-05-02";
     src = fetchurl {
@@ -9261,7 +9261,7 @@
   /*
   Generated from: tenxsoydev/nx.nvim
   */
-  nx-nvim = buildVimPlugin {
+  nx-nvim = buildVimPluginFrom2Nix {
     pname = "nx-nvim";
     version = "2023-04-13";
     src = fetchurl {
@@ -9277,7 +9277,7 @@
   /*
   Generated from: IlyasYOY/obs.nvim
   */
-  obs-nvim = buildVimPlugin {
+  obs-nvim = buildVimPluginFrom2Nix {
     pname = "obs-nvim";
     version = "2023-09-05";
     src = fetchurl {
@@ -9293,7 +9293,7 @@
   /*
   Generated from: ada0l/obsidian
   */
-  obsidian = buildVimPlugin {
+  obsidian = buildVimPluginFrom2Nix {
     pname = "obsidian";
     version = "2023-08-11";
     src = fetchurl {
@@ -9309,7 +9309,7 @@
   /*
   Generated from: epwalsh/obsidian.nvim
   */
-  obsidian-nvim = buildVimPlugin {
+  obsidian-nvim = buildVimPluginFrom2Nix {
     pname = "obsidian-nvim";
     version = "2023-10-02";
     src = fetchurl {
@@ -9325,7 +9325,7 @@
   /*
   Generated from: mhartington/oceanic-next
   */
-  oceanic-next = buildVimPlugin {
+  oceanic-next = buildVimPluginFrom2Nix {
     pname = "oceanic-next";
     version = "2023-05-01";
     src = fetchurl {
@@ -9341,7 +9341,7 @@
   /*
   Generated from: pwntester/octo.nvim
   */
-  octo-nvim = buildVimPlugin {
+  octo-nvim = buildVimPluginFrom2Nix {
     pname = "octo-nvim";
     version = "2023-10-06";
     src = fetchurl {
@@ -9357,7 +9357,7 @@
   /*
   Generated from: ofirgall/ofirkai.nvim
   */
-  ofirkai-nvim = buildVimPlugin {
+  ofirkai-nvim = buildVimPluginFrom2Nix {
     pname = "ofirkai-nvim";
     version = "2023-09-28";
     src = fetchurl {
@@ -9373,7 +9373,7 @@
   /*
   Generated from: yazeed1s/oh-lucy.nvim
   */
-  oh-lucy-nvim = buildVimPlugin {
+  oh-lucy-nvim = buildVimPluginFrom2Nix {
     pname = "oh-lucy-nvim";
     version = "2022-11-26";
     src = fetchurl {
@@ -9389,7 +9389,7 @@
   /*
   Generated from: stevearc/oil.nvim
   */
-  oil-nvim = buildVimPlugin {
+  oil-nvim = buildVimPluginFrom2Nix {
     pname = "oil-nvim";
     version = "2023-09-30";
     src = fetchurl {
@@ -9405,7 +9405,7 @@
   /*
   Generated from: yonlu/omni.vim
   */
-  omni-vim = buildVimPlugin {
+  omni-vim = buildVimPluginFrom2Nix {
     pname = "omni-vim";
     version = "2022-06-17";
     src = fetchurl {
@@ -9421,7 +9421,7 @@
   /*
   Generated from: cpea2506/one_monokai.nvim
   */
-  one-monokai-nvim = buildVimPlugin {
+  one-monokai-nvim = buildVimPluginFrom2Nix {
     pname = "one-monokai-nvim";
     version = "2023-07-05";
     src = fetchurl {
@@ -9437,7 +9437,7 @@
   /*
   Generated from: Th3Whit3Wolf/one-nvim
   */
-  one-nvim = buildVimPlugin {
+  one-nvim = buildVimPluginFrom2Nix {
     pname = "one-nvim";
     version = "2021-06-10";
     src = fetchurl {
@@ -9453,7 +9453,7 @@
   /*
   Generated from: jbyuki/one-small-step-for-vimkind
   */
-  one-small-step-for-vimkind = buildVimPlugin {
+  one-small-step-for-vimkind = buildVimPluginFrom2Nix {
     pname = "one-small-step-for-vimkind";
     version = "2023-09-08";
     src = fetchurl {
@@ -9469,7 +9469,7 @@
   /*
   Generated from: Th3Whit3Wolf/onebuddy
   */
-  onebuddy = buildVimPlugin {
+  onebuddy = buildVimPluginFrom2Nix {
     pname = "onebuddy";
     version = "2021-04-01";
     src = fetchurl {
@@ -9485,7 +9485,7 @@
   /*
   Generated from: navarasu/onedark.nvim
   */
-  onedark-nvim = buildVimPlugin {
+  onedark-nvim = buildVimPluginFrom2Nix {
     pname = "onedark-nvim";
     version = "2023-09-04";
     src = fetchurl {
@@ -9501,7 +9501,7 @@
   /*
   Generated from: olimorris/onedarkpro.nvim
   */
-  onedarkpro-nvim = buildVimPlugin {
+  onedarkpro-nvim = buildVimPluginFrom2Nix {
     pname = "onedarkpro-nvim";
     version = "2023-09-29";
     src = fetchurl {
@@ -9517,7 +9517,7 @@
   /*
   Generated from: rmehri01/onenord.nvim
   */
-  onenord-nvim = buildVimPlugin {
+  onenord-nvim = buildVimPluginFrom2Nix {
     pname = "onenord-nvim";
     version = "2023-09-11";
     src = fetchurl {
@@ -9533,7 +9533,7 @@
   /*
   Generated from: LoricAndre/OneTerm.nvim
   */
-  OneTerm-nvim = buildVimPlugin {
+  OneTerm-nvim = buildVimPluginFrom2Nix {
     pname = "OneTerm-nvim";
     version = "2022-03-14";
     src = fetchurl {
@@ -9549,7 +9549,7 @@
   /*
   Generated from: ofirgall/open.nvim
   */
-  open-nvim = buildVimPlugin {
+  open-nvim = buildVimPluginFrom2Nix {
     pname = "open-nvim";
     version = "2023-07-06";
     src = fetchurl {
@@ -9565,7 +9565,7 @@
   /*
   Generated from: salkin-mada/openscad.nvim
   */
-  openscad-nvim = buildVimPlugin {
+  openscad-nvim = buildVimPluginFrom2Nix {
     pname = "openscad-nvim";
     version = "2023-06-19";
     src = fetchurl {
@@ -9581,7 +9581,7 @@
   /*
   Generated from: nvim-orgmode/orgmode
   */
-  orgmode = buildVimPlugin {
+  orgmode = buildVimPluginFrom2Nix {
     pname = "orgmode";
     version = "2023-10-07";
     src = fetchurl {
@@ -9597,7 +9597,7 @@
   /*
   Generated from: davidgranstrom/osc.nvim
   */
-  osc-nvim = buildVimPlugin {
+  osc-nvim = buildVimPluginFrom2Nix {
     pname = "osc-nvim";
     version = "2021-08-02";
     src = fetchurl {
@@ -9613,7 +9613,7 @@
   /*
   Generated from: rgroli/other.nvim
   */
-  other-nvim = buildVimPlugin {
+  other-nvim = buildVimPluginFrom2Nix {
     pname = "other-nvim";
     version = "2023-08-02";
     src = fetchurl {
@@ -9629,7 +9629,7 @@
   /*
   Generated from: lcheylus/overlength.nvim
   */
-  overlength-nvim = buildVimPlugin {
+  overlength-nvim = buildVimPluginFrom2Nix {
     pname = "overlength-nvim";
     version = "2023-09-11";
     src = fetchurl {
@@ -9645,7 +9645,7 @@
   /*
   Generated from: stevearc/overseer.nvim
   */
-  overseer-nvim = buildVimPlugin {
+  overseer-nvim = buildVimPluginFrom2Nix {
     pname = "overseer-nvim";
     version = "2023-10-06";
     src = fetchurl {
@@ -9661,7 +9661,7 @@
   /*
   Generated from: nyoom-engineering/oxocarbon.nvim
   */
-  oxocarbon-nvim = buildVimPlugin {
+  oxocarbon-nvim = buildVimPluginFrom2Nix {
     pname = "oxocarbon-nvim";
     version = "2023-09-23";
     src = fetchurl {
@@ -9677,7 +9677,7 @@
   /*
   Generated from: vuki656/package-info.nvim
   */
-  package-info-nvim = buildVimPlugin {
+  package-info-nvim = buildVimPluginFrom2Nix {
     pname = "package-info-nvim";
     version = "2023-03-28";
     src = fetchurl {
@@ -9693,7 +9693,7 @@
   /*
   Generated from: wbthomason/packer.nvim
   */
-  packer-nvim = buildVimPlugin {
+  packer-nvim = buildVimPluginFrom2Nix {
     pname = "packer-nvim";
     version = "2023-08-24";
     src = fetchurl {
@@ -9709,7 +9709,7 @@
   /*
   Generated from: rktjmp/pact.nvim
   */
-  pact-nvim = buildVimPlugin {
+  pact-nvim = buildVimPluginFrom2Nix {
     pname = "pact-nvim";
     version = "2023-02-03";
     src = fetchurl {
@@ -9725,7 +9725,7 @@
   /*
   Generated from: potamides/pantran.nvim
   */
-  pantran-nvim = buildVimPlugin {
+  pantran-nvim = buildVimPluginFrom2Nix {
     pname = "pantran-nvim";
     version = "2023-07-27";
     src = fetchurl {
@@ -9741,7 +9741,7 @@
   /*
   Generated from: kdheepak/panvimdoc
   */
-  panvimdoc = buildVimPlugin {
+  panvimdoc = buildVimPluginFrom2Nix {
     pname = "panvimdoc";
     version = "2023-09-17";
     src = fetchurl {
@@ -9757,7 +9757,7 @@
   /*
   Generated from: rktjmp/paperplanes.nvim
   */
-  paperplanes-nvim = buildVimPlugin {
+  paperplanes-nvim = buildVimPluginFrom2Nix {
     pname = "paperplanes-nvim";
     version = "2023-08-15";
     src = fetchurl {
@@ -9773,7 +9773,7 @@
   /*
   Generated from: jghauser/papis.nvim
   */
-  papis-nvim = buildVimPlugin {
+  papis-nvim = buildVimPluginFrom2Nix {
     pname = "papis-nvim";
     version = "2023-08-16";
     src = fetchurl {
@@ -9789,7 +9789,7 @@
   /*
   Generated from: savq/paq-nvim
   */
-  paq-nvim = buildVimPlugin {
+  paq-nvim = buildVimPluginFrom2Nix {
     pname = "paq-nvim";
     version = "2023-09-11";
     src = fetchurl {
@@ -9805,7 +9805,7 @@
   /*
   Generated from: chrsm/paramount-ng.nvim
   */
-  paramount-ng-nvim = buildVimPlugin {
+  paramount-ng-nvim = buildVimPluginFrom2Nix {
     pname = "paramount-ng-nvim";
     version = "2022-06-18";
     src = fetchurl {
@@ -9821,7 +9821,7 @@
   /*
   Generated from: niuiic/part-edit.nvim
   */
-  part-edit-nvim = buildVimPlugin {
+  part-edit-nvim = buildVimPluginFrom2Nix {
     pname = "part-edit-nvim";
     version = "2023-07-18";
     src = fetchurl {
@@ -9837,7 +9837,7 @@
   /*
   Generated from: lewis6991/pckr.nvim
   */
-  pckr-nvim = buildVimPlugin {
+  pckr-nvim = buildVimPluginFrom2Nix {
     pname = "pckr-nvim";
     version = "2023-10-05";
     src = fetchurl {
@@ -9853,7 +9853,7 @@
   /*
   Generated from: toppair/peek.nvim
   */
-  peek-nvim = buildVimPlugin {
+  peek-nvim = buildVimPluginFrom2Nix {
     pname = "peek-nvim";
     version = "2023-04-01";
     src = fetchurl {
@@ -9869,7 +9869,7 @@
   /*
   Generated from: koenverburg/peepsight.nvim
   */
-  peepsight-nvim = buildVimPlugin {
+  peepsight-nvim = buildVimPluginFrom2Nix {
     pname = "peepsight-nvim";
     version = "2023-08-30";
     src = fetchurl {
@@ -9885,7 +9885,7 @@
   /*
   Generated from: Abstract-IDE/penvim
   */
-  penvim = buildVimPlugin {
+  penvim = buildVimPluginFrom2Nix {
     pname = "penvim";
     version = "2022-07-23";
     src = fetchurl {
@@ -9901,7 +9901,7 @@
   /*
   Generated from: t-troebst/perfanno.nvim
   */
-  perfanno-nvim = buildVimPlugin {
+  perfanno-nvim = buildVimPluginFrom2Nix {
     pname = "perfanno-nvim";
     version = "2023-06-21";
     src = fetchurl {
@@ -9917,7 +9917,7 @@
   /*
   Generated from: olimorris/persisted.nvim
   */
-  persisted-nvim = buildVimPlugin {
+  persisted-nvim = buildVimPluginFrom2Nix {
     pname = "persisted-nvim";
     version = "2023-08-11";
     src = fetchurl {
@@ -9933,7 +9933,7 @@
   /*
   Generated from: folke/persistence.nvim
   */
-  persistence-nvim = buildVimPlugin {
+  persistence-nvim = buildVimPluginFrom2Nix {
     pname = "persistence-nvim";
     version = "2023-05-22";
     src = fetchurl {
@@ -9949,7 +9949,7 @@
   /*
   Generated from: Weissle/persistent-breakpoints.nvim
   */
-  persistent-breakpoints-nvim = buildVimPlugin {
+  persistent-breakpoints-nvim = buildVimPluginFrom2Nix {
     pname = "persistent-breakpoints-nvim";
     version = "2023-07-13";
     src = fetchurl {
@@ -9965,7 +9965,7 @@
   /*
   Generated from: gbprod/phpactor.nvim
   */
-  phpactor-nvim = buildVimPlugin {
+  phpactor-nvim = buildVimPluginFrom2Nix {
     pname = "phpactor-nvim";
     version = "2023-02-28";
     src = fetchurl {
@@ -9981,7 +9981,7 @@
   /*
   Generated from: aklt/plantuml-syntax
   */
-  plantuml-syntax = buildVimPlugin {
+  plantuml-syntax = buildVimPluginFrom2Nix {
     pname = "plantuml-syntax";
     version = "2022-08-26";
     src = fetchurl {
@@ -9997,7 +9997,7 @@
   /*
   Generated from: nvim-treesitter/playground
   */
-  playground = buildVimPlugin {
+  playground = buildVimPluginFrom2Nix {
     pname = "playground";
     version = "2023-09-15";
     src = fetchurl {
@@ -10013,7 +10013,7 @@
   /*
   Generated from: nvim-lua/plenary.nvim
   */
-  plenary-nvim = buildVimPlugin {
+  plenary-nvim = buildVimPluginFrom2Nix {
     pname = "plenary-nvim";
     version = "2023-09-12";
     src = fetchurl {
@@ -10029,7 +10029,7 @@
   /*
   Generated from: m00qek/plugin-template.nvim
   */
-  plugin-template-nvim = buildVimPlugin {
+  plugin-template-nvim = buildVimPluginFrom2Nix {
     pname = "plugin-template-nvim";
     version = "2022-06-10";
     src = fetchurl {
@@ -10045,7 +10045,7 @@
   /*
   Generated from: olivercederborg/poimandres.nvim
   */
-  poimandres-nvim = buildVimPlugin {
+  poimandres-nvim = buildVimPluginFrom2Nix {
     pname = "poimandres-nvim";
     version = "2023-08-16";
     src = fetchurl {
@@ -10061,7 +10061,7 @@
   /*
   Generated from: nvim-lua/popup.nvim
   */
-  popup-nvim = buildVimPlugin {
+  popup-nvim = buildVimPluginFrom2Nix {
     pname = "popup-nvim";
     version = "2021-11-18";
     src = fetchurl {
@@ -10077,7 +10077,7 @@
   /*
   Generated from: cbochs/portal.nvim
   */
-  portal-nvim = buildVimPlugin {
+  portal-nvim = buildVimPluginFrom2Nix {
     pname = "portal-nvim";
     version = "2023-03-25";
     src = fetchurl {
@@ -10093,7 +10093,7 @@
   /*
   Generated from: jedrzejboczar/possession.nvim
   */
-  possession-nvim = buildVimPlugin {
+  possession-nvim = buildVimPluginFrom2Nix {
     pname = "possession-nvim";
     version = "2023-09-27";
     src = fetchurl {
@@ -10109,7 +10109,7 @@
   /*
   Generated from: rlane/pounce.nvim
   */
-  pounce-nvim = buildVimPlugin {
+  pounce-nvim = buildVimPluginFrom2Nix {
     pname = "pounce-nvim";
     version = "2023-06-20";
     src = fetchurl {
@@ -10125,7 +10125,7 @@
   /*
   Generated from: andweeb/presence.nvim
   */
-  presence-nvim = buildVimPlugin {
+  presence-nvim = buildVimPluginFrom2Nix {
     pname = "presence-nvim";
     version = "2023-01-29";
     src = fetchurl {
@@ -10141,7 +10141,7 @@
   /*
   Generated from: Chaitanyabsprip/present.nvim
   */
-  present-nvim = buildVimPlugin {
+  present-nvim = buildVimPluginFrom2Nix {
     pname = "present-nvim";
     version = "2023-10-04";
     src = fetchurl {
@@ -10157,7 +10157,7 @@
   /*
   Generated from: MunifTanjim/prettier.nvim
   */
-  prettier-nvim = buildVimPlugin {
+  prettier-nvim = buildVimPluginFrom2Nix {
     pname = "prettier-nvim";
     version = "2023-06-16";
     src = fetchurl {
@@ -10173,7 +10173,7 @@
   /*
   Generated from: anuvyklack/pretty-fold.nvim
   */
-  pretty-fold-nvim = buildVimPlugin {
+  pretty-fold-nvim = buildVimPluginFrom2Nix {
     pname = "pretty-fold-nvim";
     version = "2022-07-20";
     src = fetchurl {
@@ -10189,7 +10189,7 @@
   /*
   Generated from: ahmedkhalf/project.nvim
   */
-  project-nvim = buildVimPlugin {
+  project-nvim = buildVimPluginFrom2Nix {
     pname = "project-nvim";
     version = "2023-04-04";
     src = fetchurl {
@@ -10205,7 +10205,7 @@
   /*
   Generated from: gnikdroy/projections.nvim
   */
-  projections-nvim = buildVimPlugin {
+  projections-nvim = buildVimPluginFrom2Nix {
     pname = "projections-nvim";
     version = "2023-06-29";
     src = fetchurl {
@@ -10221,7 +10221,7 @@
   /*
   Generated from: kevinhwang91/promise-async
   */
-  promise-async = buildVimPlugin {
+  promise-async = buildVimPluginFrom2Nix {
     pname = "promise-async";
     version = "2023-04-09";
     src = fetchurl {
@@ -10237,7 +10237,7 @@
   /*
   Generated from: jinzhongjia/PS_manager.nvim
   */
-  PS-manager-nvim = buildVimPlugin {
+  PS-manager-nvim = buildVimPluginFrom2Nix {
     pname = "PS-manager-nvim";
     version = "2023-01-27";
     src = fetchurl {
@@ -10253,7 +10253,7 @@
   /*
   Generated from: stevearc/qf_helper.nvim
   */
-  qf-helper-nvim = buildVimPlugin {
+  qf-helper-nvim = buildVimPluginFrom2Nix {
     pname = "qf-helper-nvim";
     version = "2023-06-16";
     src = fetchurl {
@@ -10269,7 +10269,7 @@
   /*
   Generated from: ashfinal/qfview.nvim
   */
-  qfview-nvim = buildVimPlugin {
+  qfview-nvim = buildVimPluginFrom2Nix {
     pname = "qfview-nvim";
     version = "2023-09-09";
     src = fetchurl {
@@ -10285,7 +10285,7 @@
   /*
   Generated from: RutaTang/quicknote.nvim
   */
-  quicknote-nvim = buildVimPlugin {
+  quicknote-nvim = buildVimPluginFrom2Nix {
     pname = "quicknote-nvim";
     version = "2023-08-26";
     src = fetchurl {
@@ -10301,7 +10301,7 @@
   /*
   Generated from: HiPhish/rainbow-delimiters.nvim
   */
-  rainbow-delimiters-nvim = buildVimPlugin {
+  rainbow-delimiters-nvim = buildVimPluginFrom2Nix {
     pname = "rainbow-delimiters-nvim";
     version = "2023-09-20";
     src = fetchurl {
@@ -10317,7 +10317,7 @@
   /*
   Generated from: winston0410/range-highlight.nvim
   */
-  range-highlight-nvim = buildVimPlugin {
+  range-highlight-nvim = buildVimPluginFrom2Nix {
     pname = "range-highlight-nvim";
     version = "2021-08-03";
     src = fetchurl {
@@ -10333,7 +10333,7 @@
   /*
   Generated from: kelly-lin/ranger.nvim
   */
-  ranger-nvim = buildVimPlugin {
+  ranger-nvim = buildVimPluginFrom2Nix {
     pname = "ranger-nvim";
     version = "2023-08-26";
     src = fetchurl {
@@ -10349,7 +10349,7 @@
   /*
   Generated from: rafaqz/ranger.vim
   */
-  ranger-vim = buildVimPlugin {
+  ranger-vim = buildVimPluginFrom2Nix {
     pname = "ranger-vim";
     version = "2021-12-13";
     src = fetchurl {
@@ -10365,7 +10365,7 @@
   /*
   Generated from: Fymyte/rasi.vim
   */
-  rasi-vim = buildVimPlugin {
+  rasi-vim = buildVimPluginFrom2Nix {
     pname = "rasi-vim";
     version = "2023-02-08";
     src = fetchurl {
@@ -10381,7 +10381,7 @@
   /*
   Generated from: kvrohit/rasmus.nvim
   */
-  rasmus-nvim = buildVimPlugin {
+  rasmus-nvim = buildVimPluginFrom2Nix {
     pname = "rasmus-nvim";
     version = "2023-07-18";
     src = fetchurl {
@@ -10397,7 +10397,7 @@
   /*
   Generated from: TobinPalmer/rayso.nvim
   */
-  rayso-nvim = buildVimPlugin {
+  rayso-nvim = buildVimPluginFrom2Nix {
     pname = "rayso-nvim";
     version = "2023-07-05";
     src = fetchurl {
@@ -10413,7 +10413,7 @@
   /*
   Generated from: toppair/reach.nvim
   */
-  reach-nvim = buildVimPlugin {
+  reach-nvim = buildVimPluginFrom2Nix {
     pname = "reach-nvim";
     version = "2022-11-21";
     src = fetchurl {
@@ -10429,7 +10429,7 @@
   /*
   Generated from: linty-org/readline.nvim
   */
-  readline-nvim = buildVimPlugin {
+  readline-nvim = buildVimPluginFrom2Nix {
     pname = "readline-nvim";
     version = "2022-08-13";
     src = fetchurl {
@@ -10445,7 +10445,7 @@
   /*
   Generated from: gwatcha/reaper-keys
   */
-  reaper-keys = buildVimPlugin {
+  reaper-keys = buildVimPluginFrom2Nix {
     pname = "reaper-keys";
     version = "2021-08-23";
     src = fetchurl {
@@ -10461,7 +10461,7 @@
   /*
   Generated from: madskjeldgaard/reaper-nvim
   */
-  reaper-nvim = buildVimPlugin {
+  reaper-nvim = buildVimPluginFrom2Nix {
     pname = "reaper-nvim";
     version = "2021-01-29";
     src = fetchurl {
@@ -10477,7 +10477,7 @@
   /*
   Generated from: tversteeg/registers.nvim
   */
-  registers-nvim = buildVimPlugin {
+  registers-nvim = buildVimPluginFrom2Nix {
     pname = "registers-nvim";
     version = "2023-09-05";
     src = fetchurl {
@@ -10493,7 +10493,7 @@
   /*
   Generated from: cpea2506/relative-toggle.nvim
   */
-  relative-toggle-nvim = buildVimPlugin {
+  relative-toggle-nvim = buildVimPluginFrom2Nix {
     pname = "relative-toggle-nvim";
     version = "2023-03-25";
     src = fetchurl {
@@ -10509,7 +10509,7 @@
   /*
   Generated from: filipdutescu/renamer.nvim
   */
-  renamer-nvim = buildVimPlugin {
+  renamer-nvim = buildVimPluginFrom2Nix {
     pname = "renamer-nvim";
     version = "2022-08-29";
     src = fetchurl {
@@ -10525,7 +10525,7 @@
   /*
   Generated from: 9seconds/repolink.nvim
   */
-  repolink-nvim = buildVimPlugin {
+  repolink-nvim = buildVimPluginFrom2Nix {
     pname = "repolink-nvim";
     version = "2023-09-11";
     src = fetchurl {
@@ -10541,7 +10541,7 @@
   /*
   Generated from: raimon49/requirements.txt.vim
   */
-  requirements-txt-vim = buildVimPlugin {
+  requirements-txt-vim = buildVimPluginFrom2Nix {
     pname = "requirements-txt-vim";
     version = "2023-08-30";
     src = fetchurl {
@@ -10557,7 +10557,7 @@
   /*
   Generated from: rest-nvim/rest.nvim
   */
-  rest-nvim = buildVimPlugin {
+  rest-nvim = buildVimPluginFrom2Nix {
     pname = "rest-nvim";
     version = "2023-09-30";
     src = fetchurl {
@@ -10573,7 +10573,7 @@
   /*
   Generated from: kevinhwang91/rnvimr
   */
-  rnvimr = buildVimPlugin {
+  rnvimr = buildVimPluginFrom2Nix {
     pname = "rnvimr";
     version = "2023-08-06";
     src = fetchurl {
@@ -10589,7 +10589,7 @@
   /*
   Generated from: judaew/ronny.nvim
   */
-  ronny-nvim = buildVimPlugin {
+  ronny-nvim = buildVimPluginFrom2Nix {
     pname = "ronny-nvim";
     version = "2023-09-29";
     src = fetchurl {
@@ -10605,7 +10605,7 @@
   /*
   Generated from: rose-pine/neovim::rose-pine
   */
-  rose-pine = buildVimPlugin {
+  rose-pine = buildVimPluginFrom2Nix {
     pname = "rose-pine";
     version = "2023-07-28";
     src = fetchurl {
@@ -10621,7 +10621,7 @@
   /*
   Generated from: shaeinst/roshnivim-cs
   */
-  roshnivim-cs = buildVimPlugin {
+  roshnivim-cs = buildVimPluginFrom2Nix {
     pname = "roshnivim-cs";
     version = "2023-09-15";
     src = fetchurl {
@@ -10637,7 +10637,7 @@
   /*
   Generated from: OscarCreator/rsync.nvim
   */
-  rsync-nvim = buildVimPlugin {
+  rsync-nvim = buildVimPluginFrom2Nix {
     pname = "rsync-nvim";
     version = "2023-09-10";
     src = fetchurl {
@@ -10653,7 +10653,7 @@
   /*
   Generated from: MarcHamamji/runner.nvim
   */
-  runner-nvim = buildVimPlugin {
+  runner-nvim = buildVimPluginFrom2Nix {
     pname = "runner-nvim";
     version = "2023-09-03";
     src = fetchurl {
@@ -10669,7 +10669,7 @@
   /*
   Generated from: simrat39/rust-tools.nvim
   */
-  rust-tools-nvim = buildVimPlugin {
+  rust-tools-nvim = buildVimPluginFrom2Nix {
     pname = "rust-tools-nvim";
     version = "2023-07-10";
     src = fetchurl {
@@ -10685,7 +10685,7 @@
   /*
   Generated from: kiran94/s3edit.nvim
   */
-  s3edit-nvim = buildVimPlugin {
+  s3edit-nvim = buildVimPluginFrom2Nix {
     pname = "s3edit-nvim";
     version = "2023-05-28";
     src = fetchurl {
@@ -10701,7 +10701,7 @@
   /*
   Generated from: ray-x/sad.nvim
   */
-  sad-nvim = buildVimPlugin {
+  sad-nvim = buildVimPluginFrom2Nix {
     pname = "sad-nvim";
     version = "2023-03-13";
     src = fetchurl {
@@ -10717,7 +10717,7 @@
   /*
   Generated from: lewis6991/satellite.nvim
   */
-  satellite-nvim = buildVimPlugin {
+  satellite-nvim = buildVimPluginFrom2Nix {
     pname = "satellite-nvim";
     version = "2023-07-31";
     src = fetchurl {
@@ -10733,7 +10733,7 @@
   /*
   Generated from: b0o/SchemaStore.nvim
   */
-  SchemaStore-nvim = buildVimPlugin {
+  SchemaStore-nvim = buildVimPluginFrom2Nix {
     pname = "SchemaStore-nvim";
     version = "2023-10-06";
     src = fetchurl {
@@ -10749,7 +10749,7 @@
   /*
   Generated from: davidgranstrom/scnvim
   */
-  scnvim = buildVimPlugin {
+  scnvim = buildVimPluginFrom2Nix {
     pname = "scnvim";
     version = "2023-09-11";
     src = fetchurl {
@@ -10765,7 +10765,7 @@
   /*
   Generated from: LintaoAmons/scratch.nvim
   */
-  scratch-nvim = buildVimPlugin {
+  scratch-nvim = buildVimPluginFrom2Nix {
     pname = "scratch-nvim";
     version = "2023-08-22";
     src = fetchurl {
@@ -10781,7 +10781,7 @@
   /*
   Generated from: ostralyan/scribe.nvim
   */
-  scribe-nvim = buildVimPlugin {
+  scribe-nvim = buildVimPluginFrom2Nix {
     pname = "scribe-nvim";
     version = "2023-02-02";
     src = fetchurl {
@@ -10797,7 +10797,7 @@
   /*
   Generated from: Xuyuanp/scrollbar.nvim
   */
-  scrollbar-nvim = buildVimPlugin {
+  scrollbar-nvim = buildVimPluginFrom2Nix {
     pname = "scrollbar-nvim";
     version = "2022-06-16";
     src = fetchurl {
@@ -10813,7 +10813,7 @@
   /*
   Generated from: roobert/search-replace.nvim
   */
-  search-replace-nvim = buildVimPlugin {
+  search-replace-nvim = buildVimPluginFrom2Nix {
     pname = "search-replace-nvim";
     version = "2023-09-09";
     src = fetchurl {
@@ -10829,7 +10829,7 @@
   /*
   Generated from: utilyre/sentiment.nvim
   */
-  sentiment-nvim = buildVimPlugin {
+  sentiment-nvim = buildVimPluginFrom2Nix {
     pname = "sentiment-nvim";
     version = "2023-05-26";
     src = fetchurl {
@@ -10845,7 +10845,7 @@
   /*
   Generated from: dinhhuy258/sfm.nvim
   */
-  sfm-nvim = buildVimPlugin {
+  sfm-nvim = buildVimPluginFrom2Nix {
     pname = "sfm-nvim";
     version = "2023-10-04";
     src = fetchurl {
@@ -10861,7 +10861,7 @@
   /*
   Generated from: sunjon/Shade.nvim
   */
-  Shade-nvim = buildVimPlugin {
+  Shade-nvim = buildVimPluginFrom2Nix {
     pname = "Shade-nvim";
     version = "2022-02-01";
     src = fetchurl {
@@ -10877,7 +10877,7 @@
   /*
   Generated from: shaunsingh/nord.nvim::shaunsingh-nord-nvim
   */
-  shaunsingh-nord-nvim = buildVimPlugin {
+  shaunsingh-nord-nvim = buildVimPluginFrom2Nix {
     pname = "shaunsingh-nord-nvim";
     version = "2023-10-04";
     src = fetchurl {
@@ -10893,7 +10893,7 @@
   /*
   Generated from: rktjmp/shenzhen-solitaire.nvim
   */
-  shenzhen-solitaire-nvim = buildVimPlugin {
+  shenzhen-solitaire-nvim = buildVimPluginFrom2Nix {
     pname = "shenzhen-solitaire-nvim";
     version = "2023-03-04";
     src = fetchurl {
@@ -10909,7 +10909,7 @@
   /*
   Generated from: lewpoly/sherbet.nvim
   */
-  sherbet-nvim = buildVimPlugin {
+  sherbet-nvim = buildVimPluginFrom2Nix {
     pname = "sherbet-nvim";
     version = "2022-12-17";
     src = fetchurl {
@@ -10925,7 +10925,7 @@
   /*
   Generated from: Wansmer/sibling-swap.nvim
   */
-  sibling-swap-nvim = buildVimPlugin {
+  sibling-swap-nvim = buildVimPluginFrom2Nix {
     pname = "sibling-swap-nvim";
     version = "2023-08-06";
     src = fetchurl {
@@ -10941,7 +10941,7 @@
   /*
   Generated from: LucasTavaresA/simpleIndentGuides.nvim
   */
-  simpleIndentGuides-nvim = buildVimPlugin {
+  simpleIndentGuides-nvim = buildVimPluginFrom2Nix {
     pname = "simpleIndentGuides-nvim";
     version = "2023-01-10";
     src = fetchurl {
@@ -10957,7 +10957,7 @@
   /*
   Generated from: LucasTavaresA/SingleComment.nvim
   */
-  SingleComment-nvim = buildVimPlugin {
+  SingleComment-nvim = buildVimPluginFrom2Nix {
     pname = "SingleComment-nvim";
     version = "2023-07-10";
     src = fetchurl {
@@ -10973,7 +10973,7 @@
   /*
   Generated from: woosaaahh/sj.nvim
   */
-  sj-nvim = buildVimPlugin {
+  sj-nvim = buildVimPluginFrom2Nix {
     pname = "sj-nvim";
     version = "2023-08-06";
     src = fetchurl {
@@ -10989,7 +10989,7 @@
   /*
   Generated from: ZhiyuanLck/smart-pairs
   */
-  smart-pairs = buildVimPlugin {
+  smart-pairs = buildVimPluginFrom2Nix {
     pname = "smart-pairs";
     version = "2022-03-22";
     src = fetchurl {
@@ -11005,7 +11005,7 @@
   /*
   Generated from: sychen52/smart-term-esc.nvim
   */
-  smart-term-esc-nvim = buildVimPlugin {
+  smart-term-esc-nvim = buildVimPluginFrom2Nix {
     pname = "smart-term-esc-nvim";
     version = "2021-09-27";
     src = fetchurl {
@@ -11021,7 +11021,7 @@
   /*
   Generated from: m4xshen/smartcolumn.nvim
   */
-  smartcolumn-nvim = buildVimPlugin {
+  smartcolumn-nvim = buildVimPluginFrom2Nix {
     pname = "smartcolumn-nvim";
     version = "2023-09-12";
     src = fetchurl {
@@ -11037,7 +11037,7 @@
   /*
   Generated from: gen740/SmoothCursor.nvim
   */
-  SmoothCursor-nvim = buildVimPlugin {
+  SmoothCursor-nvim = buildVimPluginFrom2Nix {
     pname = "SmoothCursor-nvim";
     version = "2023-03-07";
     src = fetchurl {
@@ -11053,7 +11053,7 @@
   /*
   Generated from: camspiers/snap
   */
-  snap = buildVimPlugin {
+  snap = buildVimPluginFrom2Nix {
     pname = "snap";
     version = "2022-08-03";
     src = fetchurl {
@@ -11069,7 +11069,7 @@
   /*
   Generated from: smjonas/snippet-converter.nvim
   */
-  snippet-converter-nvim = buildVimPlugin {
+  snippet-converter-nvim = buildVimPluginFrom2Nix {
     pname = "snippet-converter-nvim";
     version = "2023-09-21";
     src = fetchurl {
@@ -11085,7 +11085,7 @@
   /*
   Generated from: norcalli/snippets.nvim
   */
-  snippets-nvim = buildVimPlugin {
+  snippets-nvim = buildVimPluginFrom2Nix {
     pname = "snippets-nvim";
     version = "2020-09-09";
     src = fetchurl {
@@ -11101,7 +11101,7 @@
   /*
   Generated from: michaelb/sniprun
   */
-  sniprun = buildVimPlugin {
+  sniprun = buildVimPluginFrom2Nix {
     pname = "sniprun";
     version = "2023-10-04";
     src = fetchurl {
@@ -11117,7 +11117,7 @@
   /*
   Generated from: sainnhe/sonokai
   */
-  sonokai = buildVimPlugin {
+  sonokai = buildVimPluginFrom2Nix {
     pname = "sonokai";
     version = "2023-08-07";
     src = fetchurl {
@@ -11133,7 +11133,7 @@
   /*
   Generated from: sQVe/sort.nvim
   */
-  sort-nvim = buildVimPlugin {
+  sort-nvim = buildVimPluginFrom2Nix {
     pname = "sort-nvim";
     version = "2023-04-12";
     src = fetchurl {
@@ -11149,7 +11149,7 @@
   /*
   Generated from: tmillr/sos.nvim
   */
-  sos-nvim = buildVimPlugin {
+  sos-nvim = buildVimPluginFrom2Nix {
     pname = "sos-nvim";
     version = "2023-05-21";
     src = fetchurl {
@@ -11165,7 +11165,7 @@
   /*
   Generated from: Th3Whit3Wolf/space-nvim
   */
-  space-nvim = buildVimPlugin {
+  space-nvim = buildVimPluginFrom2Nix {
     pname = "space-nvim";
     version = "2023-07-15";
     src = fetchurl {
@@ -11181,7 +11181,7 @@
   /*
   Generated from: edluffy/specs.nvim
   */
-  specs-nvim = buildVimPlugin {
+  specs-nvim = buildVimPluginFrom2Nix {
     pname = "specs-nvim";
     version = "2022-09-20";
     src = fetchurl {
@@ -11197,7 +11197,7 @@
   /*
   Generated from: RutaTang/spectacle.nvim
   */
-  spectacle-nvim = buildVimPlugin {
+  spectacle-nvim = buildVimPluginFrom2Nix {
     pname = "spectacle-nvim";
     version = "2023-09-28";
     src = fetchurl {
@@ -11213,7 +11213,7 @@
   /*
   Generated from: lewis6991/spellsitter.nvim
   */
-  spellsitter-nvim = buildVimPlugin {
+  spellsitter-nvim = buildVimPluginFrom2Nix {
     pname = "spellsitter-nvim";
     version = "2022-09-06";
     src = fetchurl {
@@ -11229,7 +11229,7 @@
   /*
   Generated from: bennypowers/splitjoin.nvim
   */
-  splitjoin-nvim = buildVimPlugin {
+  splitjoin-nvim = buildVimPluginFrom2Nix {
     pname = "splitjoin-nvim";
     version = "2023-08-03";
     src = fetchurl {
@@ -11245,7 +11245,7 @@
   /*
   Generated from: kkharji/sqlite.lua
   */
-  sqlite-lua = buildVimPlugin {
+  sqlite-lua = buildVimPluginFrom2Nix {
     pname = "sqlite-lua";
     version = "2023-04-19";
     src = fetchurl {
@@ -11261,7 +11261,7 @@
   /*
   Generated from: nanotee/sqls.nvim
   */
-  sqls-nvim = buildVimPlugin {
+  sqls-nvim = buildVimPluginFrom2Nix {
     pname = "sqls-nvim";
     version = "2023-05-21";
     src = fetchurl {
@@ -11277,7 +11277,7 @@
   /*
   Generated from: luukvbaal/stabilize.nvim
   */
-  stabilize-nvim = buildVimPlugin {
+  stabilize-nvim = buildVimPluginFrom2Nix {
     pname = "stabilize-nvim";
     version = "2023-04-14";
     src = fetchurl {
@@ -11293,7 +11293,7 @@
   /*
   Generated from: tamton-aquib/staline.nvim
   */
-  staline-nvim = buildVimPlugin {
+  staline-nvim = buildVimPluginFrom2Nix {
     pname = "staline-nvim";
     version = "2023-08-30";
     src = fetchurl {
@@ -11309,7 +11309,7 @@
   /*
   Generated from: ray-x/starry.nvim
   */
-  starry-nvim = buildVimPlugin {
+  starry-nvim = buildVimPluginFrom2Nix {
     pname = "starry-nvim";
     version = "2023-09-09";
     src = fetchurl {
@@ -11325,7 +11325,7 @@
   /*
   Generated from: startup-nvim/startup.nvim
   */
-  startup-nvim = buildVimPlugin {
+  startup-nvim = buildVimPluginFrom2Nix {
     pname = "startup-nvim";
     version = "2023-03-13";
     src = fetchurl {
@@ -11341,7 +11341,7 @@
   /*
   Generated from: jaytyrrell13/static.nvim
   */
-  static-nvim = buildVimPlugin {
+  static-nvim = buildVimPluginFrom2Nix {
     pname = "static-nvim";
     version = "2023-09-12";
     src = fetchurl {
@@ -11357,7 +11357,7 @@
   /*
   Generated from: luukvbaal/statuscol.nvim
   */
-  statuscol-nvim = buildVimPlugin {
+  statuscol-nvim = buildVimPluginFrom2Nix {
     pname = "statuscol-nvim";
     version = "2023-10-07";
     src = fetchurl {
@@ -11373,7 +11373,7 @@
   /*
   Generated from: beauwilliams/statusline.lua
   */
-  statusline-lua = buildVimPlugin {
+  statusline-lua = buildVimPluginFrom2Nix {
     pname = "statusline-lua";
     version = "2022-10-12";
     src = fetchurl {
@@ -11389,7 +11389,7 @@
   /*
   Generated from: gbprod/stay-in-place.nvim
   */
-  stay-in-place-nvim = buildVimPlugin {
+  stay-in-place-nvim = buildVimPluginFrom2Nix {
     pname = "stay-in-place-nvim";
     version = "2023-01-20";
     src = fetchurl {
@@ -11405,7 +11405,7 @@
   /*
   Generated from: sontungexpt/stcursorword
   */
-  stcursorword = buildVimPlugin {
+  stcursorword = buildVimPluginFrom2Nix {
     pname = "stcursorword";
     version = "2023-10-03";
     src = fetchurl {
@@ -11421,7 +11421,7 @@
   /*
   Generated from: crusj/structrue-go.nvim
   */
-  structrue-go-nvim = buildVimPlugin {
+  structrue-go-nvim = buildVimPluginFrom2Nix {
     pname = "structrue-go-nvim";
     version = "2022-09-29";
     src = fetchurl {
@@ -11437,7 +11437,7 @@
   /*
   Generated from: nyngwang/suave.lua
   */
-  suave-lua = buildVimPlugin {
+  suave-lua = buildVimPluginFrom2Nix {
     pname = "suave-lua";
     version = "2023-05-11";
     src = fetchurl {
@@ -11453,7 +11453,7 @@
   /*
   Generated from: gbprod/substitute.nvim
   */
-  substitute-nvim = buildVimPlugin {
+  substitute-nvim = buildVimPluginFrom2Nix {
     pname = "substitute-nvim";
     version = "2023-07-20";
     src = fetchurl {
@@ -11469,7 +11469,7 @@
   /*
   Generated from: kvrohit/substrata.nvim
   */
-  substrata-nvim = buildVimPlugin {
+  substrata-nvim = buildVimPluginFrom2Nix {
     pname = "substrata-nvim";
     version = "2022-10-07";
     src = fetchurl {
@@ -11485,7 +11485,7 @@
   /*
   Generated from: jim-fx/sudoku.nvim
   */
-  sudoku-nvim = buildVimPlugin {
+  sudoku-nvim = buildVimPluginFrom2Nix {
     pname = "sudoku-nvim";
     version = "2023-03-19";
     src = fetchurl {
@@ -11501,7 +11501,7 @@
   /*
   Generated from: roobert/surround-ui.nvim
   */
-  surround-ui-nvim = buildVimPlugin {
+  surround-ui-nvim = buildVimPluginFrom2Nix {
     pname = "surround-ui-nvim";
     version = "2023-09-09";
     src = fetchurl {
@@ -11517,7 +11517,7 @@
   /*
   Generated from: bennypowers/svgo.nvim
   */
-  svgo-nvim = buildVimPlugin {
+  svgo-nvim = buildVimPluginFrom2Nix {
     pname = "svgo-nvim";
     version = "2023-06-20";
     src = fetchurl {
@@ -11533,7 +11533,7 @@
   /*
   Generated from: AckslD/swenv.nvim
   */
-  swenv-nvim = buildVimPlugin {
+  swenv-nvim = buildVimPluginFrom2Nix {
     pname = "swenv-nvim";
     version = "2023-05-19";
     src = fetchurl {
@@ -11549,7 +11549,7 @@
   /*
   Generated from: Wansmer/symbol-usage.nvim
   */
-  symbol-usage-nvim = buildVimPlugin {
+  symbol-usage-nvim = buildVimPluginFrom2Nix {
     pname = "symbol-usage-nvim";
     version = "2023-10-01";
     src = fetchurl {
@@ -11565,7 +11565,7 @@
   /*
   Generated from: simrat39/symbols-outline.nvim
   */
-  symbols-outline-nvim = buildVimPlugin {
+  symbols-outline-nvim = buildVimPluginFrom2Nix {
     pname = "symbols-outline-nvim";
     version = "2023-01-25";
     src = fetchurl {
@@ -11581,7 +11581,7 @@
   /*
   Generated from: ziontee113/syntax-tree-surfer
   */
-  syntax-tree-surfer = buildVimPlugin {
+  syntax-tree-surfer = buildVimPluginFrom2Nix {
     pname = "syntax-tree-surfer";
     version = "2023-10-06";
     src = fetchurl {
@@ -11597,7 +11597,7 @@
   /*
   Generated from: nanozuki/tabby.nvim
   */
-  tabby-nvim = buildVimPlugin {
+  tabby-nvim = buildVimPluginFrom2Nix {
     pname = "tabby-nvim";
     version = "2023-09-21";
     src = fetchurl {
@@ -11613,7 +11613,7 @@
   /*
   Generated from: rafcamlet/tabline-framework.nvim
   */
-  tabline-framework-nvim = buildVimPlugin {
+  tabline-framework-nvim = buildVimPluginFrom2Nix {
     pname = "tabline-framework-nvim";
     version = "2023-03-10";
     src = fetchurl {
@@ -11629,7 +11629,7 @@
   /*
   Generated from: kdheepak/tabline.nvim::tabline-kdheepak
   */
-  tabline-kdheepak = buildVimPlugin {
+  tabline-kdheepak = buildVimPluginFrom2Nix {
     pname = "tabline-kdheepak";
     version = "2023-07-24";
     src = fetchurl {
@@ -11645,7 +11645,7 @@
   /*
   Generated from: mg979/tabline.nvim::tabline-mg979
   */
-  tabline-mg979 = buildVimPlugin {
+  tabline-mg979 = buildVimPluginFrom2Nix {
     pname = "tabline-mg979";
     version = "2023-08-26";
     src = fetchurl {
@@ -11661,7 +11661,7 @@
   /*
   Generated from: abecodes/tabout.nvim
   */
-  tabout-nvim = buildVimPlugin {
+  tabout-nvim = buildVimPluginFrom2Nix {
     pname = "tabout-nvim";
     version = "2023-03-29";
     src = fetchurl {
@@ -11677,7 +11677,7 @@
   /*
   Generated from: tenxsoydev/tabs-vs-spaces.nvim
   */
-  tabs-vs-spaces-nvim = buildVimPlugin {
+  tabs-vs-spaces-nvim = buildVimPluginFrom2Nix {
     pname = "tabs-vs-spaces-nvim";
     version = "2023-04-10";
     src = fetchurl {
@@ -11693,7 +11693,7 @@
   /*
   Generated from: roobert/tabtree.nvim
   */
-  tabtree-nvim = buildVimPlugin {
+  tabtree-nvim = buildVimPluginFrom2Nix {
     pname = "tabtree-nvim";
     version = "2023-09-29";
     src = fetchurl {
@@ -11709,7 +11709,7 @@
   /*
   Generated from: majutsushi/tagbar
   */
-  tagbar = buildVimPlugin {
+  tagbar = buildVimPluginFrom2Nix {
     pname = "tagbar";
     version = "2023-09-25";
     src = fetchurl {
@@ -11725,7 +11725,7 @@
   /*
   Generated from: roobert/tailwindcss-colorizer-cmp.nvim
   */
-  tailwindcss-colorizer-cmp-nvim = buildVimPlugin {
+  tailwindcss-colorizer-cmp-nvim = buildVimPluginFrom2Nix {
     pname = "tailwindcss-colorizer-cmp-nvim";
     version = "2023-09-09";
     src = fetchurl {
@@ -11741,7 +11741,7 @@
   /*
   Generated from: themaxmarchuk/tailwindcss-colors.nvim
   */
-  tailwindcss-colors-nvim = buildVimPlugin {
+  tailwindcss-colors-nvim = buildVimPluginFrom2Nix {
     pname = "tailwindcss-colors-nvim";
     version = "2021-12-24";
     src = fetchurl {
@@ -11757,7 +11757,7 @@
   /*
   Generated from: udayvir-singh/tangerine.nvim
   */
-  tangerine-nvim = buildVimPlugin {
+  tangerine-nvim = buildVimPluginFrom2Nix {
     pname = "tangerine-nvim";
     version = "2023-08-28";
     src = fetchurl {
@@ -11773,7 +11773,7 @@
   /*
   Generated from: renerocksai/telekasten.nvim
   */
-  telekasten-nvim = buildVimPlugin {
+  telekasten-nvim = buildVimPluginFrom2Nix {
     pname = "telekasten-nvim";
     version = "2023-09-08";
     src = fetchurl {
@@ -11789,7 +11789,7 @@
   /*
   Generated from: otavioschwanck/telescope-alternate.nvim
   */
-  telescope-alternate-nvim = buildVimPlugin {
+  telescope-alternate-nvim = buildVimPluginFrom2Nix {
     pname = "telescope-alternate-nvim";
     version = "2023-08-17";
     src = fetchurl {
@@ -11805,7 +11805,7 @@
   /*
   Generated from: nvim-telescope/telescope-bibtex.nvim
   */
-  telescope-bibtex-nvim = buildVimPlugin {
+  telescope-bibtex-nvim = buildVimPluginFrom2Nix {
     pname = "telescope-bibtex-nvim";
     version = "2023-07-30";
     src = fetchurl {
@@ -11821,7 +11821,7 @@
   /*
   Generated from: LinArcX/telescope-command-palette.nvim
   */
-  telescope-command-palette-nvim = buildVimPlugin {
+  telescope-command-palette-nvim = buildVimPluginFrom2Nix {
     pname = "telescope-command-palette-nvim";
     version = "2023-08-24";
     src = fetchurl {
@@ -11837,7 +11837,7 @@
   /*
   Generated from: crispgm/telescope-heading.nvim
   */
-  telescope-heading-nvim = buildVimPlugin {
+  telescope-heading-nvim = buildVimPluginFrom2Nix {
     pname = "telescope-heading-nvim";
     version = "2023-09-03";
     src = fetchurl {
@@ -11853,7 +11853,7 @@
   /*
   Generated from: piersolenski/telescope-import.nvim
   */
-  telescope-import-nvim = buildVimPlugin {
+  telescope-import-nvim = buildVimPluginFrom2Nix {
     pname = "telescope-import-nvim";
     version = "2023-10-01";
     src = fetchurl {
@@ -11869,7 +11869,7 @@
   /*
   Generated from: mrcjkb/telescope-manix
   */
-  telescope-manix = buildVimPlugin {
+  telescope-manix = buildVimPluginFrom2Nix {
     pname = "telescope-manix";
     version = "2023-10-02";
     src = fetchurl {
@@ -11885,7 +11885,7 @@
   /*
   Generated from: nvim-telescope/telescope-media-files.nvim
   */
-  telescope-media-files-nvim = buildVimPlugin {
+  telescope-media-files-nvim = buildVimPluginFrom2Nix {
     pname = "telescope-media-files-nvim";
     version = "2023-02-19";
     src = fetchurl {
@@ -11901,7 +11901,7 @@
   /*
   Generated from: nvim-telescope/telescope.nvim
   */
-  telescope-nvim = buildVimPlugin {
+  telescope-nvim = buildVimPluginFrom2Nix {
     pname = "telescope-nvim";
     version = "2023-10-06";
     src = fetchurl {
@@ -11917,7 +11917,7 @@
   /*
   Generated from: cljoly/telescope-repo.nvim
   */
-  telescope-repo-nvim = buildVimPlugin {
+  telescope-repo-nvim = buildVimPluginFrom2Nix {
     pname = "telescope-repo-nvim";
     version = "2023-03-17";
     src = fetchurl {
@@ -11933,7 +11933,7 @@
   /*
   Generated from: desdic/telescope-rooter.nvim
   */
-  telescope-rooter-nvim = buildVimPlugin {
+  telescope-rooter-nvim = buildVimPluginFrom2Nix {
     pname = "telescope-rooter-nvim";
     version = "2022-11-26";
     src = fetchurl {
@@ -11949,7 +11949,7 @@
   /*
   Generated from: nvim-telescope/telescope-symbols.nvim
   */
-  telescope-symbols-nvim = buildVimPlugin {
+  telescope-symbols-nvim = buildVimPluginFrom2Nix {
     pname = "telescope-symbols-nvim";
     version = "2023-02-19";
     src = fetchurl {
@@ -11965,7 +11965,7 @@
   /*
   Generated from: LukasPietzschmann/telescope-tabs
   */
-  telescope-tabs = buildVimPlugin {
+  telescope-tabs = buildVimPluginFrom2Nix {
     pname = "telescope-tabs";
     version = "2023-07-22";
     src = fetchurl {
@@ -11981,7 +11981,7 @@
   /*
   Generated from: danielpieper/telescope-tmuxinator.nvim
   */
-  telescope-tmuxinator-nvim = buildVimPlugin {
+  telescope-tmuxinator-nvim = buildVimPluginFrom2Nix {
     pname = "telescope-tmuxinator-nvim";
     version = "2021-08-19";
     src = fetchurl {
@@ -11997,7 +11997,7 @@
   /*
   Generated from: debugloop/telescope-undo.nvim
   */
-  telescope-undo-nvim = buildVimPlugin {
+  telescope-undo-nvim = buildVimPluginFrom2Nix {
     pname = "telescope-undo-nvim";
     version = "2023-06-03";
     src = fetchurl {
@@ -12013,7 +12013,7 @@
   /*
   Generated from: jvgrootveld/telescope-zoxide
   */
-  telescope-zoxide = buildVimPlugin {
+  telescope-zoxide = buildVimPluginFrom2Nix {
     pname = "telescope-zoxide";
     version = "2023-02-08";
     src = fetchurl {
@@ -12029,7 +12029,7 @@
   /*
   Generated from: chomosuke/term-edit.nvim
   */
-  term-edit-nvim = buildVimPlugin {
+  term-edit-nvim = buildVimPluginFrom2Nix {
     pname = "term-edit-nvim";
     version = "2023-07-30";
     src = fetchurl {
@@ -12045,7 +12045,7 @@
   /*
   Generated from: jakewvincent/texmagic.nvim
   */
-  texmagic-nvim = buildVimPlugin {
+  texmagic-nvim = buildVimPluginFrom2Nix {
     pname = "texmagic-nvim";
     version = "2022-05-15";
     src = fetchurl {
@@ -12061,7 +12061,7 @@
   /*
   Generated from: andrewferrier/textobj-diagnostic.nvim
   */
-  textobj-diagnostic-nvim = buildVimPlugin {
+  textobj-diagnostic-nvim = buildVimPluginFrom2Nix {
     pname = "textobj-diagnostic-nvim";
     version = "2022-12-31";
     src = fetchurl {
@@ -12077,7 +12077,7 @@
   /*
   Generated from: themercorp/themer.lua
   */
-  themer-lua = buildVimPlugin {
+  themer-lua = buildVimPluginFrom2Nix {
     pname = "themer-lua";
     version = "2023-10-06";
     src = fetchurl {
@@ -12093,7 +12093,7 @@
   /*
   Generated from: zaldih/themery.nvim
   */
-  themery-nvim = buildVimPlugin {
+  themery-nvim = buildVimPluginFrom2Nix {
     pname = "themery-nvim";
     version = "2023-09-24";
     src = fetchurl {
@@ -12109,7 +12109,7 @@
   /*
   Generated from: mcauley-penney/tidy.nvim
   */
-  tidy-nvim = buildVimPlugin {
+  tidy-nvim = buildVimPluginFrom2Nix {
     pname = "tidy-nvim";
     version = "2023-08-09";
     src = fetchurl {
@@ -12125,7 +12125,7 @@
   /*
   Generated from: otavioschwanck/tmux-awesome-manager.nvim
   */
-  tmux-awesome-manager-nvim = buildVimPlugin {
+  tmux-awesome-manager-nvim = buildVimPluginFrom2Nix {
     pname = "tmux-awesome-manager-nvim";
     version = "2023-04-04";
     src = fetchurl {
@@ -12141,7 +12141,7 @@
   /*
   Generated from: aserowy/tmux.nvim
   */
-  tmux-nvim = buildVimPlugin {
+  tmux-nvim = buildVimPluginFrom2Nix {
     pname = "tmux-nvim";
     version = "2023-09-06";
     src = fetchurl {
@@ -12157,7 +12157,7 @@
   /*
   Generated from: folke/todo-comments.nvim
   */
-  todo-comments-nvim = buildVimPlugin {
+  todo-comments-nvim = buildVimPluginFrom2Nix {
     pname = "todo-comments-nvim";
     version = "2023-07-28";
     src = fetchurl {
@@ -12173,7 +12173,7 @@
   /*
   Generated from: jedrzejboczar/toggletasks.nvim
   */
-  toggletasks-nvim = buildVimPlugin {
+  toggletasks-nvim = buildVimPluginFrom2Nix {
     pname = "toggletasks-nvim";
     version = "2023-03-08";
     src = fetchurl {
@@ -12189,7 +12189,7 @@
   /*
   Generated from: tiagovla/tokyodark.nvim
   */
-  tokyodark-nvim = buildVimPlugin {
+  tokyodark-nvim = buildVimPluginFrom2Nix {
     pname = "tokyodark-nvim";
     version = "2023-07-31";
     src = fetchurl {
@@ -12205,7 +12205,7 @@
   /*
   Generated from: folke/tokyonight.nvim
   */
-  tokyonight-nvim = buildVimPlugin {
+  tokyonight-nvim = buildVimPluginFrom2Nix {
     pname = "tokyonight-nvim";
     version = "2023-09-28";
     src = fetchurl {
@@ -12221,7 +12221,7 @@
   /*
   Generated from: LeonHeidelbach/trailblazer.nvim
   */
-  trailblazer-nvim = buildVimPlugin {
+  trailblazer-nvim = buildVimPluginFrom2Nix {
     pname = "trailblazer-nvim";
     version = "2023-04-08";
     src = fetchurl {
@@ -12237,7 +12237,7 @@
   /*
   Generated from: tjdevries/train.nvim
   */
-  train-nvim = buildVimPlugin {
+  train-nvim = buildVimPluginFrom2Nix {
     pname = "train-nvim";
     version = "2023-07-31";
     src = fetchurl {
@@ -12253,7 +12253,7 @@
   /*
   Generated from: niuiic/translate.nvim
   */
-  translate-nvim = buildVimPlugin {
+  translate-nvim = buildVimPluginFrom2Nix {
     pname = "translate-nvim";
     version = "2023-07-18";
     src = fetchurl {
@@ -12269,7 +12269,7 @@
   /*
   Generated from: drybalka/tree-climber.nvim
   */
-  tree-climber-nvim = buildVimPlugin {
+  tree-climber-nvim = buildVimPluginFrom2Nix {
     pname = "tree-climber-nvim";
     version = "2022-10-14";
     src = fetchurl {
@@ -12285,7 +12285,7 @@
   /*
   Generated from: NFrid/treesitter-utils
   */
-  treesitter-utils = buildVimPlugin {
+  treesitter-utils = buildVimPluginFrom2Nix {
     pname = "treesitter-utils";
     version = "2023-04-24";
     src = fetchurl {
@@ -12301,7 +12301,7 @@
   /*
   Generated from: Wansmer/treesj
   */
-  treesj = buildVimPlugin {
+  treesj = buildVimPluginFrom2Nix {
     pname = "treesj";
     version = "2023-09-28";
     src = fetchurl {
@@ -12317,7 +12317,7 @@
   /*
   Generated from: cappyzawa/trim.nvim
   */
-  trim-nvim = buildVimPlugin {
+  trim-nvim = buildVimPluginFrom2Nix {
     pname = "trim-nvim";
     version = "2023-03-22";
     src = fetchurl {
@@ -12333,7 +12333,7 @@
   /*
   Generated from: folke/trouble.nvim
   */
-  trouble-nvim = buildVimPlugin {
+  trouble-nvim = buildVimPluginFrom2Nix {
     pname = "trouble-nvim";
     version = "2023-10-07";
     src = fetchurl {
@@ -12349,7 +12349,7 @@
   /*
   Generated from: pocco81/true-zen.nvim
   */
-  true-zen-nvim = buildVimPlugin {
+  true-zen-nvim = buildVimPluginFrom2Nix {
     pname = "true-zen-nvim";
     version = "2023-06-09";
     src = fetchurl {
@@ -12365,7 +12365,7 @@
   /*
   Generated from: ckolkey/ts-node-action
   */
-  ts-node-action = buildVimPlugin {
+  ts-node-action = buildVimPluginFrom2Nix {
     pname = "ts-node-action";
     version = "2023-09-27";
     src = fetchurl {
@@ -12381,7 +12381,7 @@
   /*
   Generated from: dmmulroy/tsc.nvim
   */
-  tsc-nvim = buildVimPlugin {
+  tsc-nvim = buildVimPluginFrom2Nix {
     pname = "tsc-nvim";
     version = "2023-09-15";
     src = fetchurl {
@@ -12397,7 +12397,7 @@
   /*
   Generated from: folke/twilight.nvim
   */
-  twilight-nvim = buildVimPlugin {
+  twilight-nvim = buildVimPluginFrom2Nix {
     pname = "twilight-nvim";
     version = "2023-09-25";
     src = fetchurl {
@@ -12413,7 +12413,7 @@
   /*
   Generated from: jose-elias-alvarez/typescript.nvim
   */
-  typescript-nvim = buildVimPlugin {
+  typescript-nvim = buildVimPluginFrom2Nix {
     pname = "typescript-nvim";
     version = "2023-08-12";
     src = fetchurl {
@@ -12429,7 +12429,7 @@
   /*
   Generated from: kaarmu/typst.vim
   */
-  typst-vim = buildVimPlugin {
+  typst-vim = buildVimPluginFrom2Nix {
     pname = "typst-vim";
     version = "2023-10-05";
     src = fetchurl {
@@ -12445,7 +12445,7 @@
   /*
   Generated from: chuwy/ucm.nvim
   */
-  ucm-nvim = buildVimPlugin {
+  ucm-nvim = buildVimPluginFrom2Nix {
     pname = "ucm-nvim";
     version = "2023-08-23";
     src = fetchurl {
@@ -12461,7 +12461,7 @@
   /*
   Generated from: altermo/ultimate-autopair.nvim
   */
-  ultimate-autopair-nvim = buildVimPlugin {
+  ultimate-autopair-nvim = buildVimPluginFrom2Nix {
     pname = "ultimate-autopair-nvim";
     version = "2023-09-30";
     src = fetchurl {
@@ -12477,7 +12477,7 @@
   /*
   Generated from: mbbill/undotree
   */
-  undotree = buildVimPlugin {
+  undotree = buildVimPluginFrom2Nix {
     pname = "undotree";
     version = "2023-07-07";
     src = fetchurl {
@@ -12493,7 +12493,7 @@
   /*
   Generated from: slugbyte/unruly-worker
   */
-  unruly-worker = buildVimPlugin {
+  unruly-worker = buildVimPluginFrom2Nix {
     pname = "unruly-worker";
     version = "2022-03-22";
     src = fetchurl {
@@ -12509,7 +12509,7 @@
   /*
   Generated from: sontungexpt/url-open
   */
-  url-open = buildVimPlugin {
+  url-open = buildVimPluginFrom2Nix {
     pname = "url-open";
     version = "2023-09-24";
     src = fetchurl {
@@ -12525,7 +12525,7 @@
   /*
   Generated from: axieax/urlview.nvim
   */
-  urlview-nvim = buildVimPlugin {
+  urlview-nvim = buildVimPluginFrom2Nix {
     pname = "urlview-nvim";
     version = "2023-09-19";
     src = fetchurl {
@@ -12541,7 +12541,7 @@
   /*
   Generated from: gaborvecsei/usage-tracker.nvim
   */
-  usage-tracker-nvim = buildVimPlugin {
+  usage-tracker-nvim = buildVimPluginFrom2Nix {
     pname = "usage-tracker-nvim";
     version = "2023-09-01";
     src = fetchurl {
@@ -12557,7 +12557,7 @@
   /*
   Generated from: Mangeshrex/uwu.vim
   */
-  uwu-vim = buildVimPlugin {
+  uwu-vim = buildVimPluginFrom2Nix {
     pname = "uwu-vim";
     version = "2023-06-19";
     src = fetchurl {
@@ -12573,7 +12573,7 @@
   /*
   Generated from: konapun/vacuumline.nvim
   */
-  vacuumline-nvim = buildVimPlugin {
+  vacuumline-nvim = buildVimPluginFrom2Nix {
     pname = "vacuumline-nvim";
     version = "2022-03-13";
     src = fetchurl {
@@ -12589,7 +12589,7 @@
   /*
   Generated from: willothy/veil.nvim
   */
-  veil-nvim = buildVimPlugin {
+  veil-nvim = buildVimPluginFrom2Nix {
     pname = "veil-nvim";
     version = "2023-04-01";
     src = fetchurl {
@@ -12605,7 +12605,7 @@
   /*
   Generated from: jbyuki/venn.nvim
   */
-  venn-nvim = buildVimPlugin {
+  venn-nvim = buildVimPluginFrom2Nix {
     pname = "venn-nvim";
     version = "2022-11-22";
     src = fetchurl {
@@ -12621,7 +12621,7 @@
   /*
   Generated from: tanvirtin/vgit.nvim
   */
-  vgit-nvim = buildVimPlugin {
+  vgit-nvim = buildVimPluginFrom2Nix {
     pname = "vgit-nvim";
     version = "2023-03-15";
     src = fetchurl {
@@ -12637,7 +12637,7 @@
   /*
   Generated from: embark-theme/vim
   */
-  vim = buildVimPlugin {
+  vim = buildVimPluginFrom2Nix {
     pname = "vim";
     version = "2023-04-21";
     src = fetchurl {
@@ -12653,7 +12653,7 @@
   /*
   Generated from: theprimeagen/vim-apm
   */
-  vim-apm = buildVimPlugin {
+  vim-apm = buildVimPluginFrom2Nix {
     pname = "vim-apm";
     version = "2020-09-28";
     src = fetchurl {
@@ -12669,7 +12669,7 @@
   /*
   Generated from: moll/vim-bbye
   */
-  vim-bbye = buildVimPlugin {
+  vim-bbye = buildVimPluginFrom2Nix {
     pname = "vim-bbye";
     version = "2018-03-03";
     src = fetchurl {
@@ -12685,7 +12685,7 @@
   /*
   Generated from: ThePrimeagen/vim-be-good
   */
-  vim-be-good = buildVimPlugin {
+  vim-be-good = buildVimPluginFrom2Nix {
     pname = "vim-be-good";
     version = "2022-11-08";
     src = fetchurl {
@@ -12701,7 +12701,7 @@
   /*
   Generated from: tomasiser/vim-code-dark
   */
-  vim-code-dark = buildVimPlugin {
+  vim-code-dark = buildVimPluginFrom2Nix {
     pname = "vim-code-dark";
     version = "2023-07-18";
     src = fetchurl {
@@ -12717,7 +12717,7 @@
   /*
   Generated from: junegunn/vim-easy-align
   */
-  vim-easy-align = buildVimPlugin {
+  vim-easy-align = buildVimPluginFrom2Nix {
     pname = "vim-easy-align";
     version = "2019-04-29";
     src = fetchurl {
@@ -12733,7 +12733,7 @@
   /*
   Generated from: houtsnip/vim-emacscommandline
   */
-  vim-emacscommandline = buildVimPlugin {
+  vim-emacscommandline = buildVimPluginFrom2Nix {
     pname = "vim-emacscommandline";
     version = "2017-11-24";
     src = fetchurl {
@@ -12749,7 +12749,7 @@
   /*
   Generated from: mnacamura/vim-fennel-syntax
   */
-  vim-fennel-syntax = buildVimPlugin {
+  vim-fennel-syntax = buildVimPluginFrom2Nix {
     pname = "vim-fennel-syntax";
     version = "2021-07-08";
     src = fetchurl {
@@ -12765,7 +12765,7 @@
   /*
   Generated from: inkch/vim-fish::vim-fish-inkch
   */
-  vim-fish-inkch = buildVimPlugin {
+  vim-fish-inkch = buildVimPluginFrom2Nix {
     pname = "vim-fish-inkch";
     version = "2022-03-06";
     src = fetchurl {
@@ -12781,7 +12781,7 @@
   /*
   Generated from: rhysd/vim-gfm-syntax
   */
-  vim-gfm-syntax = buildVimPlugin {
+  vim-gfm-syntax = buildVimPluginFrom2Nix {
     pname = "vim-gfm-syntax";
     version = "2022-08-01";
     src = fetchurl {
@@ -12797,7 +12797,7 @@
   /*
   Generated from: hylang/vim-hy
   */
-  vim-hy = buildVimPlugin {
+  vim-hy = buildVimPluginFrom2Nix {
     pname = "vim-hy";
     version = "2023-08-22";
     src = fetchurl {
@@ -12813,7 +12813,7 @@
   /*
   Generated from: RRethy/vim-illuminate
   */
-  vim-illuminate = buildVimPlugin {
+  vim-illuminate = buildVimPluginFrom2Nix {
     pname = "vim-illuminate";
     version = "2023-10-06";
     src = fetchurl {
@@ -12829,7 +12829,7 @@
   /*
   Generated from: andymass/vim-matchup
   */
-  vim-matchup = buildVimPlugin {
+  vim-matchup = buildVimPluginFrom2Nix {
     pname = "vim-matchup";
     version = "2023-09-02";
     src = fetchurl {
@@ -12845,7 +12845,7 @@
   /*
   Generated from: bluz71/vim-moonfly-colors
   */
-  vim-moonfly-colors = buildVimPlugin {
+  vim-moonfly-colors = buildVimPluginFrom2Nix {
     pname = "vim-moonfly-colors";
     version = "2023-10-05";
     src = fetchurl {
@@ -12861,7 +12861,7 @@
   /*
   Generated from: bluz71/vim-nightfly-colors
   */
-  vim-nightfly-colors = buildVimPlugin {
+  vim-nightfly-colors = buildVimPluginFrom2Nix {
     pname = "vim-nightfly-colors";
     version = "2023-10-05";
     src = fetchurl {
@@ -12877,7 +12877,7 @@
   /*
   Generated from: meain/vim-printer
   */
-  vim-printer = buildVimPlugin {
+  vim-printer = buildVimPluginFrom2Nix {
     pname = "vim-printer";
     version = "2022-03-01";
     src = fetchurl {
@@ -12893,7 +12893,7 @@
   /*
   Generated from: mnacamura/vim-r7rs-syntax
   */
-  vim-r7rs-syntax = buildVimPlugin {
+  vim-r7rs-syntax = buildVimPluginFrom2Nix {
     pname = "vim-r7rs-syntax";
     version = "2021-07-09";
     src = fetchurl {
@@ -12909,7 +12909,7 @@
   /*
   Generated from: tpope/vim-repeat
   */
-  vim-repeat = buildVimPlugin {
+  vim-repeat = buildVimPluginFrom2Nix {
     pname = "vim-repeat";
     version = "2021-01-25";
     src = fetchurl {
@@ -12925,7 +12925,7 @@
   /*
   Generated from: dstein64/vim-startuptime
   */
-  vim-startuptime = buildVimPlugin {
+  vim-startuptime = buildVimPluginFrom2Nix {
     pname = "vim-startuptime";
     version = "2023-06-03";
     src = fetchurl {
@@ -12941,7 +12941,7 @@
   /*
   Generated from: evanleck/vim-svelte
   */
-  vim-svelte = buildVimPlugin {
+  vim-svelte = buildVimPluginFrom2Nix {
     pname = "vim-svelte";
     version = "2022-10-27";
     src = fetchurl {
@@ -12957,7 +12957,7 @@
   /*
   Generated from: leafOfTree/vim-svelte-plugin
   */
-  vim-svelte-plugin = buildVimPlugin {
+  vim-svelte-plugin = buildVimPluginFrom2Nix {
     pname = "vim-svelte-plugin";
     version = "2023-05-04";
     src = fetchurl {
@@ -12973,7 +12973,7 @@
   /*
   Generated from: kana/vim-textobj-indent
   */
-  vim-textobj-indent = buildVimPlugin {
+  vim-textobj-indent = buildVimPluginFrom2Nix {
     pname = "vim-textobj-indent";
     version = "2013-01-18";
     src = fetchurl {
@@ -12989,7 +12989,7 @@
   /*
   Generated from: sgur/vim-textobj-parameter
   */
-  vim-textobj-parameter = buildVimPlugin {
+  vim-textobj-parameter = buildVimPluginFrom2Nix {
     pname = "vim-textobj-parameter";
     version = "2017-05-16";
     src = fetchurl {
@@ -13005,7 +13005,7 @@
   /*
   Generated from: rcarriga/vim-ultest
   */
-  vim-ultest = buildVimPlugin {
+  vim-ultest = buildVimPluginFrom2Nix {
     pname = "vim-ultest";
     version = "2023-02-09";
     src = fetchurl {
@@ -13021,7 +13021,7 @@
   /*
   Generated from: wakatime/vim-wakatime
   */
-  vim-wakatime = buildVimPlugin {
+  vim-wakatime = buildVimPluginFrom2Nix {
     pname = "vim-wakatime";
     version = "2023-08-16";
     src = fetchurl {
@@ -13037,7 +13037,7 @@
   /*
   Generated from: thaerkh/vim-workspace
   */
-  vim-workspace = buildVimPlugin {
+  vim-workspace = buildVimPluginFrom2Nix {
     pname = "vim-workspace";
     version = "2023-05-29";
     src = fetchurl {
@@ -13053,7 +13053,7 @@
   /*
   Generated from: svermeulen/vim-yoink
   */
-  vim-yoink = buildVimPlugin {
+  vim-yoink = buildVimPluginFrom2Nix {
     pname = "vim-yoink";
     version = "2021-09-15";
     src = fetchurl {
@@ -13069,7 +13069,7 @@
   /*
   Generated from: ldelossa/vimdark
   */
-  vimdark = buildVimPlugin {
+  vimdark = buildVimPluginFrom2Nix {
     pname = "vimdark";
     version = "2022-03-20";
     src = fetchurl {
@@ -13085,7 +13085,7 @@
   /*
   Generated from: svermeulen/vimpeccable
   */
-  vimpeccable = buildVimPlugin {
+  vimpeccable = buildVimPluginFrom2Nix {
     pname = "vimpeccable";
     version = "2021-12-28";
     src = fetchurl {
@@ -13101,7 +13101,7 @@
   /*
   Generated from: lervag/vimtex
   */
-  vimtex = buildVimPlugin {
+  vimtex = buildVimPluginFrom2Nix {
     pname = "vimtex";
     version = "2023-10-03";
     src = fetchurl {
@@ -13117,7 +13117,7 @@
   /*
   Generated from: vimwiki/vimwiki
   */
-  vimwiki = buildVimPlugin {
+  vimwiki = buildVimPluginFrom2Nix {
     pname = "vimwiki";
     version = "2023-07-31";
     src = fetchurl {
@@ -13133,7 +13133,7 @@
   /*
   Generated from: xiyaowong/virtcolumn.nvim
   */
-  virtcolumn-nvim = buildVimPlugin {
+  virtcolumn-nvim = buildVimPluginFrom2Nix {
     pname = "virtcolumn-nvim";
     version = "2022-08-13";
     src = fetchurl {
@@ -13149,7 +13149,7 @@
   /*
   Generated from: jubnzv/virtual-types.nvim
   */
-  virtual-types-nvim = buildVimPlugin {
+  virtual-types-nvim = buildVimPluginFrom2Nix {
     pname = "virtual-types-nvim";
     version = "2023-04-07";
     src = fetchurl {
@@ -13165,7 +13165,7 @@
   /*
   Generated from: 00sapo/visual.nvim
   */
-  visual-nvim = buildVimPlugin {
+  visual-nvim = buildVimPluginFrom2Nix {
     pname = "visual-nvim";
     version = "2023-09-02";
     src = fetchurl {
@@ -13181,7 +13181,7 @@
   /*
   Generated from: askfiy/visual_studio_code
   */
-  visual-studio-code = buildVimPlugin {
+  visual-studio-code = buildVimPluginFrom2Nix {
     pname = "visual-studio-code";
     version = "2023-09-12";
     src = fetchurl {
@@ -13197,7 +13197,7 @@
   /*
   Generated from: 2nthony/vitesse.nvim
   */
-  vitesse-nvim = buildVimPlugin {
+  vitesse-nvim = buildVimPluginFrom2Nix {
     pname = "vitesse-nvim";
     version = "2023-07-12";
     src = fetchurl {
@@ -13213,7 +13213,7 @@
   /*
   Generated from: tjdevries/vlog.nvim
   */
-  vlog-nvim = buildVimPlugin {
+  vlog-nvim = buildVimPluginFrom2Nix {
     pname = "vlog-nvim";
     version = "2020-08-04";
     src = fetchurl {
@@ -13229,7 +13229,7 @@
   /*
   Generated from: nxvu699134/vn-night.nvim
   */
-  vn-night-nvim = buildVimPlugin {
+  vn-night-nvim = buildVimPluginFrom2Nix {
     pname = "vn-night-nvim";
     version = "2022-06-04";
     src = fetchurl {
@@ -13245,7 +13245,7 @@
   /*
   Generated from: EthanJWright/vs-tasks.nvim
   */
-  vs-tasks-nvim = buildVimPlugin {
+  vs-tasks-nvim = buildVimPluginFrom2Nix {
     pname = "vs-tasks-nvim";
     version = "2023-10-06";
     src = fetchurl {
@@ -13261,7 +13261,7 @@
   /*
   Generated from: Mofiqul/vscode.nvim
   */
-  vscode-nvim = buildVimPlugin {
+  vscode-nvim = buildVimPluginFrom2Nix {
     pname = "vscode-nvim";
     version = "2023-08-08";
     src = fetchurl {
@@ -13277,7 +13277,7 @@
   /*
   Generated from: ray-x/web-tools.nvim
   */
-  web-tools-nvim = buildVimPlugin {
+  web-tools-nvim = buildVimPluginFrom2Nix {
     pname = "web-tools-nvim";
     version = "2023-02-14";
     src = fetchurl {
@@ -13293,7 +13293,7 @@
   /*
   Generated from: willothy/wezterm.nvim
   */
-  wezterm-nvim = buildVimPlugin {
+  wezterm-nvim = buildVimPluginFrom2Nix {
     pname = "wezterm-nvim";
     version = "2023-09-13";
     src = fetchurl {
@@ -13309,7 +13309,7 @@
   /*
   Generated from: folke/which-key.nvim
   */
-  which-key-nvim = buildVimPlugin {
+  which-key-nvim = buildVimPluginFrom2Nix {
     pname = "which-key-nvim";
     version = "2023-07-28";
     src = fetchurl {
@@ -13325,7 +13325,7 @@
   /*
   Generated from: gelguy/wilder.nvim
   */
-  wilder-nvim = buildVimPlugin {
+  wilder-nvim = buildVimPluginFrom2Nix {
     pname = "wilder-nvim";
     version = "2022-08-13";
     src = fetchurl {
@@ -13341,7 +13341,7 @@
   /*
   Generated from: declancm/windex.nvim
   */
-  windex-nvim = buildVimPlugin {
+  windex-nvim = buildVimPluginFrom2Nix {
     pname = "windex-nvim";
     version = "2022-07-12";
     src = fetchurl {
@@ -13357,7 +13357,7 @@
   /*
   Generated from: windwp/windline.nvim
   */
-  windline-nvim = buildVimPlugin {
+  windline-nvim = buildVimPluginFrom2Nix {
     pname = "windline-nvim";
     version = "2023-09-29";
     src = fetchurl {
@@ -13373,7 +13373,7 @@
   /*
   Generated from: anuvyklack/windows.nvim
   */
-  windows-nvim = buildVimPlugin {
+  windows-nvim = buildVimPluginFrom2Nix {
     pname = "windows-nvim";
     version = "2023-01-16";
     src = fetchurl {
@@ -13389,7 +13389,7 @@
   /*
   Generated from: sindrets/winshift.nvim
   */
-  winshift-nvim = buildVimPlugin {
+  winshift-nvim = buildVimPluginFrom2Nix {
     pname = "winshift-nvim";
     version = "2022-09-06";
     src = fetchurl {
@@ -13405,7 +13405,7 @@
   /*
   Generated from: natecraddock/workspaces.nvim
   */
-  workspaces-nvim = buildVimPlugin {
+  workspaces-nvim = buildVimPluginFrom2Nix {
     pname = "workspaces-nvim";
     version = "2023-08-24";
     src = fetchurl {
@@ -13421,7 +13421,7 @@
   /*
   Generated from: piersolenski/wtf.nvim
   */
-  wtf-nvim = buildVimPlugin {
+  wtf-nvim = buildVimPluginFrom2Nix {
     pname = "wtf-nvim";
     version = "2023-09-07";
     src = fetchurl {
@@ -13437,7 +13437,7 @@
   /*
   Generated from: nekonako/xresources-nvim
   */
-  xresources-nvim = buildVimPlugin {
+  xresources-nvim = buildVimPluginFrom2Nix {
     pname = "xresources-nvim";
     version = "2021-11-23";
     src = fetchurl {
@@ -13453,7 +13453,7 @@
   /*
   Generated from: pianocomposer321/yabs.nvim
   */
-  yabs-nvim = buildVimPlugin {
+  yabs-nvim = buildVimPluginFrom2Nix {
     pname = "yabs-nvim";
     version = "2022-05-09";
     src = fetchurl {
@@ -13469,7 +13469,7 @@
   /*
   Generated from: someone-stole-my-name/yaml-companion.nvim
   */
-  yaml-companion-nvim = buildVimPlugin {
+  yaml-companion-nvim = buildVimPluginFrom2Nix {
     pname = "yaml-companion-nvim";
     version = "2023-03-03";
     src = fetchurl {
@@ -13485,7 +13485,7 @@
   /*
   Generated from: cuducos/yaml.nvim
   */
-  yaml-nvim = buildVimPlugin {
+  yaml-nvim = buildVimPluginFrom2Nix {
     pname = "yaml-nvim";
     version = "2023-07-12";
     src = fetchurl {
@@ -13501,7 +13501,7 @@
   /*
   Generated from: Xuyuanp/yanil
   */
-  yanil = buildVimPlugin {
+  yanil = buildVimPluginFrom2Nix {
     pname = "yanil";
     version = "2022-03-28";
     src = fetchurl {
@@ -13517,7 +13517,7 @@
   /*
   Generated from: gbprod/yanky.nvim
   */
-  yanky-nvim = buildVimPlugin {
+  yanky-nvim = buildVimPluginFrom2Nix {
     pname = "yanky-nvim";
     version = "2023-10-06";
     src = fetchurl {
@@ -13533,7 +13533,7 @@
   /*
   Generated from: milanglacier/yarepl.nvim
   */
-  yarepl-nvim = buildVimPlugin {
+  yarepl-nvim = buildVimPluginFrom2Nix {
     pname = "yarepl-nvim";
     version = "2023-10-02";
     src = fetchurl {
@@ -13549,7 +13549,7 @@
   /*
   Generated from: sonjiku/yawnc.nvim
   */
-  yawnc-nvim = buildVimPlugin {
+  yawnc-nvim = buildVimPluginFrom2Nix {
     pname = "yawnc-nvim";
     version = "2023-06-25";
     src = fetchurl {
@@ -13565,7 +13565,7 @@
   /*
   Generated from: zdcthomas/yop.nvim
   */
-  yop-nvim = buildVimPlugin {
+  yop-nvim = buildVimPluginFrom2Nix {
     pname = "yop-nvim";
     version = "2023-05-29";
     src = fetchurl {
@@ -13581,7 +13581,7 @@
   /*
   Generated from: folke/zen-mode.nvim
   */
-  zen-mode-nvim = buildVimPlugin {
+  zen-mode-nvim = buildVimPluginFrom2Nix {
     pname = "zen-mode-nvim";
     version = "2023-10-05";
     src = fetchurl {
@@ -13597,7 +13597,7 @@
   /*
   Generated from: mcchrish/zenbones.nvim
   */
-  zenbones-nvim = buildVimPlugin {
+  zenbones-nvim = buildVimPluginFrom2Nix {
     pname = "zenbones-nvim";
     version = "2023-10-02";
     src = fetchurl {
@@ -13613,7 +13613,7 @@
   /*
   Generated from: phha/zenburn.nvim
   */
-  zenburn-nvim = buildVimPlugin {
+  zenburn-nvim = buildVimPluginFrom2Nix {
     pname = "zenburn-nvim";
     version = "2022-11-23";
     src = fetchurl {
@@ -13629,7 +13629,7 @@
   /*
   Generated from: nvimdev/zephyr-nvim
   */
-  zephyr-nvim = buildVimPlugin {
+  zephyr-nvim = buildVimPluginFrom2Nix {
     pname = "zephyr-nvim";
     version = "2022-12-31";
     src = fetchurl {
@@ -13645,7 +13645,7 @@
   /*
   Generated from: titanzero/zephyrium
   */
-  zephyrium = buildVimPlugin {
+  zephyrium = buildVimPluginFrom2Nix {
     pname = "zephyrium";
     version = "2022-02-20";
     src = fetchurl {
@@ -13661,7 +13661,7 @@
   /*
   Generated from: mickael-menu/zk-nvim
   */
-  zk-nvim = buildVimPlugin {
+  zk-nvim = buildVimPluginFrom2Nix {
     pname = "zk-nvim";
     version = "2023-09-30";
     src = fetchurl {
