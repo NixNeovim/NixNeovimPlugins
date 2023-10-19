@@ -726,6 +726,7 @@ stevearc/overseer.nvim
 stevearc/qf_helper.nvim
 subnut/nvim-ghost.nvim
 sudormrfbin/cheatsheet.nvim
+suketa/nvim-dap-ruby
 sunjon/Shade.nvim
 svermeulen/vim-yoink
 svermeulen/vimpeccable
