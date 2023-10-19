@@ -744,6 +744,7 @@ Th3Whit3Wolf/onebuddy
 Th3Whit3Wolf/space-nvim
 thaerkh/vim-workspace
 TheBlob42/drex.nvim
+theHamsta/nvim-dap-virtual-text
 themaxmarchuk/tailwindcss-colors.nvim
 themercorp/themer.lua
 theniceboy/nvim-deus
