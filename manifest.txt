@@ -363,6 +363,7 @@ ldelossa/gh.nvim
 ldelossa/litee.nvim
 ldelossa/vimdark
 leafOfTree/vim-svelte-plugin
+leoluz/nvim-dap-go
 LeonHeidelbach/trailblazer.nvim
 lervag/vimtex
 lewis6991/gitsigns.nvim
