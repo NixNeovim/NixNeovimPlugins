@@ -461,7 +461,13 @@
 | [xiyaowong/nvim-cursorword](https://github.com/xiyaowong/nvim-cursorword) | 2022-06-22 | `nvim-cursorword` | 2023-10-19 |
 | [Kasama/nvim-custom-diagnostic-highlight](https://github.com/Kasama/nvim-custom-diagnostic-highlight) | 2023-05-09 | `nvim-custom-diagnostic-highlight` | 2023-10-19 |
 | [mfussenegger/nvim-dap](https://github.com/mfussenegger/nvim-dap) | 2023-10-12 | `nvim-dap` | 2023-10-19 |
+| [leoluz/nvim-dap-go](https://github.com/leoluz/nvim-dap-go) | 2023-10-07 | `nvim-dap-go` | 2023-10-19 |
+| [mfussenegger/nvim-dap-python](https://github.com/mfussenegger/nvim-dap-python) | 2023-05-23 | `nvim-dap-python` | 2023-10-19 |
+| [LiadOz/nvim-dap-repl-highlights](https://github.com/LiadOz/nvim-dap-repl-highlights) | 2023-05-24 | `nvim-dap-repl-highlights` | 2023-10-19 |
+| [suketa/nvim-dap-ruby](https://github.com/suketa/nvim-dap-ruby) | 2023-09-29 | `nvim-dap-ruby` | 2023-10-19 |
 | [rcarriga/nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui) | 2023-09-10 | `nvim-dap-ui` | 2023-10-19 |
+| [theHamsta/nvim-dap-virtual-text](https://github.com/theHamsta/nvim-dap-virtual-text) | 2023-05-25 | `nvim-dap-virtual-text` | 2023-10-19 |
+| [mxsdev/nvim-dap-vscode-js](https://github.com/mxsdev/nvim-dap-vscode-js) | 2023-03-06 | `nvim-dap-vscode-js` | 2023-10-19 |
 | [theniceboy/nvim-deus](https://github.com/theniceboy/nvim-deus) | 2023-07-28 | `nvim-deus` | 2023-10-19 |
 | [esensar/nvim-dev-container](https://github.com/esensar/nvim-dev-container) | 2023-10-11 | `nvim-dev-container` | 2023-10-19 |
 | [luckasRanarison/nvim-devdocs](https://github.com/luckasRanarison/nvim-devdocs) | 2023-10-05 | `nvim-devdocs` | 2023-10-19 |

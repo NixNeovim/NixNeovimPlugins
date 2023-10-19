@@ -372,8 +372,8 @@ lewis6991/satellite.nvim
 lewis6991/spellsitter.nvim
 lewpoly/sherbet.nvim
 LhKipp/nvim-nu
-liangxianzhe/nap.nvim
 LiadOz/nvim-dap-repl-highlights
+liangxianzhe/nap.nvim
 LinArcX/telescope-command-palette.nvim
 linrongbin16/fzfx.nvim
 linrongbin16/gitlinker.nvim::gitlinker-linrongbin16
