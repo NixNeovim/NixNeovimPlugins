@@ -466,6 +466,7 @@ MunifTanjim/exrc.nvim
 MunifTanjim/nui.nvim
 MunifTanjim/prettier.nvim
 mvpopuk/inspired-github.vim
+mxsdev/nvim-dap-vscode-js
 nacro90/numb.nvim
 nanotee/luv-vimdocs
 nanotee/nvim-lsp-basics
