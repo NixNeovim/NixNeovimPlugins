@@ -425,6 +425,7 @@ mcchrish/zenbones.nvim
 meain/vim-printer
 metalelf0/jellybeans-nvim
 mfussenegger/nvim-dap
+mfussenegger/nvim-dap-python
 mfussenegger/nvim-jdtls
 mfussenegger/nvim-lint
 mfussenegger/nvim-ts-hint-textobject
