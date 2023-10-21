@@ -7386,6 +7386,70 @@
     };
   };
   /*
+  Generated from: leoluz/nvim-dap-go
+  */
+  nvim-dap-go = buildVimPluginFrom2Nix {
+    pname = "nvim-dap-go";
+    version = "2023-10-07";
+    src = fetchurl {
+      url = "https://github.com/leoluz/nvim-dap-go/archive/a5cc8dcad43f0732585d4793deb02a25c4afb766.tar.gz";
+      sha256 = "07if9ls7ibr4srjfvpjqdqz9v253jqsnnlmrv1w3sv0cp0jr4xmm";
+    };
+    meta = with lib; {
+      description = "An extension for nvim-dap providing configurations for launching go debugger (delve) and debugging individual tests";
+      homepage = "https://github.com/leoluz/nvim-dap-go";
+      license = with licenses; [mit];
+    };
+  };
+  /*
+  Generated from: mfussenegger/nvim-dap-python
+  */
+  nvim-dap-python = buildVimPluginFrom2Nix {
+    pname = "nvim-dap-python";
+    version = "2023-05-23";
+    src = fetchurl {
+      url = "https://github.com/mfussenegger/nvim-dap-python/archive/37b4cba02e337a95cb62ad1609b3d1dccb2e5d42.tar.gz";
+      sha256 = "1nk6f0l936c44g3185ia98ylqdis5mxpfi4d7938d7pqd2j29a1x";
+    };
+    meta = with lib; {
+      description = "An extension for nvim-dap, providing default configurations for python and methods to debug individual test methods or classes.";
+      homepage = "https://github.com/mfussenegger/nvim-dap-python";
+      license = with licenses; [gpl3Only];
+    };
+  };
+  /*
+  Generated from: LiadOz/nvim-dap-repl-highlights
+  */
+  nvim-dap-repl-highlights = buildVimPluginFrom2Nix {
+    pname = "nvim-dap-repl-highlights";
+    version = "2023-05-24";
+    src = fetchurl {
+      url = "https://github.com/LiadOz/nvim-dap-repl-highlights/archive/97a2b322c05cf945c5aabaad5e599a20b25e77d9.tar.gz";
+      sha256 = "1jgn4v57g7pkyq1iwz2i6irmqgpw9fj783rqvx1y1lmcs2xl3bki";
+    };
+    meta = with lib; {
+      description = "Add syntax highlighting to the nvim-dap REPL";
+      homepage = "https://github.com/LiadOz/nvim-dap-repl-highlights";
+      license = with licenses; [];
+    };
+  };
+  /*
+  Generated from: suketa/nvim-dap-ruby
+  */
+  nvim-dap-ruby = buildVimPluginFrom2Nix {
+    pname = "nvim-dap-ruby";
+    version = "2023-09-29";
+    src = fetchurl {
+      url = "https://github.com/suketa/nvim-dap-ruby/archive/fc15c7d50e557379e13f3a825bc58adcc7323cc3.tar.gz";
+      sha256 = "0ji8vqwld3ib5sfvn747ri42qyvm0953cgz8vz4579bi646jzc7w";
+    };
+    meta = with lib; {
+      description = "";
+      homepage = "https://github.com/suketa/nvim-dap-ruby";
+      license = with licenses; [mit];
+    };
+  };
+  /*
   Generated from: rcarriga/nvim-dap-ui
   */
   nvim-dap-ui = buildVimPluginFrom2Nix {
@@ -7399,6 +7463,38 @@
       description = "A UI for nvim-dap";
       homepage = "https://github.com/rcarriga/nvim-dap-ui";
       license = with licenses; [mit];
+    };
+  };
+  /*
+  Generated from: theHamsta/nvim-dap-virtual-text
+  */
+  nvim-dap-virtual-text = buildVimPluginFrom2Nix {
+    pname = "nvim-dap-virtual-text";
+    version = "2023-05-25";
+    src = fetchurl {
+      url = "https://github.com/theHamsta/nvim-dap-virtual-text/archive/57f1dbd0458dd84a286b27768c142e1567f3ce3b.tar.gz";
+      sha256 = "1jqxl8aa0k0yg1mp6kfdxzk1a2wk188f9p4iacfyz0irv7wn8sx9";
+    };
+    meta = with lib; {
+      description = "";
+      homepage = "https://github.com/theHamsta/nvim-dap-virtual-text";
+      license = with licenses; [gpl3Only];
+    };
+  };
+  /*
+  Generated from: mxsdev/nvim-dap-vscode-js
+  */
+  nvim-dap-vscode-js = buildVimPluginFrom2Nix {
+    pname = "nvim-dap-vscode-js";
+    version = "2023-03-06";
+    src = fetchurl {
+      url = "https://github.com/mxsdev/nvim-dap-vscode-js/archive/03bd29672d7fab5e515fc8469b7d07cc5994bbf6.tar.gz";
+      sha256 = "0jvpshsz9k4vvz2i1nzxgbq5f41gpraq4qf7iimmgxasqcr7yr44";
+    };
+    meta = with lib; {
+      description = "nvim-dap adapter for vscode-js-debug";
+      homepage = "https://github.com/mxsdev/nvim-dap-vscode-js";
+      license = with licenses; [];
     };
   };
   /*

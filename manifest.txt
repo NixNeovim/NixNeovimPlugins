@@ -363,6 +363,7 @@ ldelossa/gh.nvim
 ldelossa/litee.nvim
 ldelossa/vimdark
 leafOfTree/vim-svelte-plugin
+leoluz/nvim-dap-go
 LeonHeidelbach/trailblazer.nvim
 lervag/vimtex
 lewis6991/gitsigns.nvim
@@ -371,6 +372,7 @@ lewis6991/satellite.nvim
 lewis6991/spellsitter.nvim
 lewpoly/sherbet.nvim
 LhKipp/nvim-nu
+LiadOz/nvim-dap-repl-highlights
 liangxianzhe/nap.nvim
 LinArcX/telescope-command-palette.nvim
 linrongbin16/fzfx.nvim
@@ -424,6 +426,7 @@ mcchrish/zenbones.nvim
 meain/vim-printer
 metalelf0/jellybeans-nvim
 mfussenegger/nvim-dap
+mfussenegger/nvim-dap-python
 mfussenegger/nvim-jdtls
 mfussenegger/nvim-lint
 mfussenegger/nvim-ts-hint-textobject
@@ -463,6 +466,7 @@ MunifTanjim/exrc.nvim
 MunifTanjim/nui.nvim
 MunifTanjim/prettier.nvim
 mvpopuk/inspired-github.vim
+mxsdev/nvim-dap-vscode-js
 nacro90/numb.nvim
 nanotee/luv-vimdocs
 nanotee/nvim-lsp-basics
@@ -723,6 +727,7 @@ stevearc/overseer.nvim
 stevearc/qf_helper.nvim
 subnut/nvim-ghost.nvim
 sudormrfbin/cheatsheet.nvim
+suketa/nvim-dap-ruby
 sunjon/Shade.nvim
 svermeulen/vim-yoink
 svermeulen/vimpeccable
@@ -744,6 +749,7 @@ Th3Whit3Wolf/onebuddy
 Th3Whit3Wolf/space-nvim
 thaerkh/vim-workspace
 TheBlob42/drex.nvim
+theHamsta/nvim-dap-virtual-text
 themaxmarchuk/tailwindcss-colors.nvim
 themercorp/themer.lua
 theniceboy/nvim-deus
