@@ -92,7 +92,7 @@ class UpdateCommand(Command):
 
         self.line(f"<info>Updating plugins.md</info>")
 
-        header = "| Repo | Last Update | Nix package name | Last checked |\n|:---|:---|:---|:---|\n"
+        header = f" - Plugin count: {len(plugins)}\n\n| Repo | Last Update | Nix package name | Last checked |\n|:---|:---|:---|:---|\n"
 
         with open(PLUGINS_LIST_FILE, "w") as file:
             file.write(header)
