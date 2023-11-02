@@ -40,7 +40,7 @@ class FetchCommand(Command):
         readme = str(readme, 'utf-8')
         readme = readme.split("\n")
 
-        start = readme.index("## Plugin")
+        start = readme.index("## Plugin Manager")
         end = readme.index("## External")
 
         #  gitlab_regex = r'(gitlab.com/)?' # some plugins have a 'gitlab.com' prefix
