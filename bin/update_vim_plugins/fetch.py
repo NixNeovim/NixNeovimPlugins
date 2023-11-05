@@ -41,7 +41,7 @@ class FetchCommand(Command):
         readme = readme.split("\n")
 
         start = readme.index("## Plugin Manager")
-        end = readme.index("## External")
+        end = readme.index("## Preconfigured Configuration")
 
         #  gitlab_regex = r'(gitlab.com/)?' # some plugins have a 'gitlab.com' prefix
         #  plugin_regex = r'(?P<plugin>[^/]+/[^#\]]+)'

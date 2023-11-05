@@ -34,3 +34,4 @@ savq/melange
 shaeinst/penvim
 sourcehut:nedia/auto-save.nvim
 tomasky/bookmarks.nvim
+phaazon/hop.nvim
