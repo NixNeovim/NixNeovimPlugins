@@ -74,6 +74,7 @@ beauwilliams/focus.nvim
 beauwilliams/statusline.lua
 Bekaboo/deadcolumn.nvim
 Bekaboo/dropbar.nvim
+benlubas/molten-nvim
 bennypowers/nvim-regexplainer
 bennypowers/splitjoin.nvim
 bennypowers/svgo.nvim
@@ -170,6 +171,7 @@ dracula/vim::dracula-vim
 drybalka/tree-climber.nvim
 dstein64/nvim-scrollview
 dstein64/vim-startuptime
+duane9/nvim-rg
 Eandrju/cellular-automaton.nvim
 echasnovski/mini.nvim
 ecthelionvi/NeoColumn.nvim
@@ -454,6 +456,7 @@ milanglacier/yarepl.nvim
 milisims/nvim-luaref
 miversen33/import.nvim
 miversen33/netman.nvim
+miversen33/sunglasses.nvim
 mizlan/iswap.nvim
 mnacamura/iron.nvim::iron-nvim-mnacamura
 mnacamura/nvim-srcerite
