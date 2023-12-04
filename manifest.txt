@@ -31,6 +31,7 @@ alanfortlink/blackjack.nvim
 alaviss/nim.nvim
 alec-gibson/nvim-tetris
 alexaandru/nvim-lspupdate
+alexmozaidze/palenight.nvim
 AlexvZyl/nordic.nvim::nordic-alexczyl
 aliou/bats.vim
 AllenDang/nvim-expand-expr
@@ -78,14 +79,17 @@ benlubas/molten-nvim
 bennypowers/nvim-regexplainer
 bennypowers/splitjoin.nvim
 bennypowers/svgo.nvim
+bfredl/nvim-ipy
 bfredl/nvim-luadev
 bfredl/nvim-miniyank
+bgaillard/readonly.nvim
 bkegley/gloombuddy
 bluz71/vim-moonfly-colors
 bluz71/vim-nightfly-colors
 booperlv/nvim-gomove
 brendalf/mix.nvim
 brenoprata10/nvim-highlight-colors
+calind/selenized.nvim
 CamdenClark/flyboy
 camspiers/snap
 cappyzawa/trim.nvim
@@ -97,6 +101,7 @@ chentoast/marks.nvim
 chipsenkbeil/distant.nvim
 chiyadev/dep
 chomosuke/term-edit.nvim
+chomosuke/typst-preview.nvim::typst-preview-chomsuke
 chrisgrieser/nvim-alt-substitute
 chrisgrieser/nvim-dr-lsp
 chrisgrieser/nvim-early-retirement
@@ -134,7 +139,9 @@ crusj/bookmarks.nvim::bookmarks-crusj
 crusj/hierarchy-tree-go.nvim
 crusj/structrue-go.nvim
 cryptomilk/nightcity.nvim
+cshuaimin/ssr.nvim
 cuducos/yaml.nvim
+cvigilv/esqueleto.nvim
 danielpieper/telescope-tmuxinator.nvim
 danymat/neogen
 Darazaki/indent-o-matic
@@ -142,6 +149,7 @@ dasupradyumna/launch.nvim
 dasupradyumna/midnight.nvim
 datwaft/bubbly.nvim
 david-kunz/cmp-npm
+David-Kunz/gen.nvim
 David-Kunz/jester
 davidgranstrom/nvim-markdown-preview
 davidgranstrom/osc.nvim
@@ -184,6 +192,7 @@ ekickx/clipboard-image.nvim
 elentok/format-on-save.nvim
 elihunter173/dirbuf.nvim
 ellisonleao/carbon-now.nvim
+ellisonleao/dotenv.nvim
 ellisonleao/glow.nvim
 ellisonleao/gruvbox.nvim
 ellisonleao/nvim-plugin-template
@@ -199,6 +208,7 @@ f-person/auto-dark-mode.nvim
 f-person/git-blame.nvim
 f3fora/cmp-spell
 famiu/bufdelete.nvim
+fdschmidt93/telescope-egrepify.nvim
 FeiyouG/command_center.nvim
 felipelema/cmp-async-path
 fenetikm/falcon
@@ -231,6 +241,7 @@ gbprod/phpactor.nvim
 gbprod/stay-in-place.nvim
 gbprod/substitute.nvim
 gbprod/yanky.nvim
+GCBallesteros/jupytext.nvim
 GCBallesteros/NotebookNavigator.nvim
 gelguy/wilder.nvim
 gen740/SmoothCursor.nvim
@@ -258,6 +269,7 @@ gsuuon/tshjkl.nvim
 gwatcha/reaper-keys
 h-hg/fcitx.nvim
 haringsrob/nvim_context_vt
+hedyhli/outline.nvim
 hinell/duplicate.nvim
 hinell/lsp-timeout.nvim
 hinell/move.nvim
@@ -287,6 +299,7 @@ idanarye/nvim-buffls
 idanarye/nvim-channelot
 idanarye/nvim-moonicipal
 IlyasYOY/obs.nvim
+IndianBoy42/tree-sitter-just
 inkch/vim-fish::vim-fish-inkch
 Iron-E/nvim-cartographer
 Iron-E/nvim-highlite
@@ -327,6 +340,7 @@ JoosepAlviste/nvim-ts-context-commentstring
 jose-elias-alvarez/null-ls.nvim
 jose-elias-alvarez/nvim-lsp-ts-utils
 jose-elias-alvarez/typescript.nvim
+jpmcb/nvim-llama
 jubnzv/mdeval.nvim
 jubnzv/virtual-types.nvim
 judaew/ronny.nvim
@@ -334,6 +348,8 @@ Julian/lean.nvim
 junegunn/vim-easy-align
 Junnplus/nvim-lsp-setup
 jvgrootveld/telescope-zoxide
+Jxstxs/conceal.nvim
+jyscao/ventana.nvim
 kaarmu/typst.vim
 kaiuri/nvim-juliana
 kana/vim-textobj-indent
@@ -389,6 +405,7 @@ LhKipp/nvim-nu
 LiadOz/nvim-dap-repl-highlights
 liangxianzhe/nap.nvim
 LinArcX/telescope-command-palette.nvim
+linrongbin16/colorbox.nvim
 linrongbin16/fzfx.nvim
 linrongbin16/gitlinker.nvim::gitlinker-linrongbin16
 linrongbin16/lsp-progress.nvim
@@ -476,6 +493,7 @@ MrcJkb/haskell-tools.nvim
 mrcjkb/rustaceanvim
 mrcjkb/telescope-manix
 mrjones2014/legendary.nvim
+mrjones2014/smart-splits.nvim
 ms-jpq/chadtree
 ms-jpq/coq.artifacts:artifacts
 ms-jpq/coq.thirdparty
@@ -493,6 +511,7 @@ nanotee/nvim-lsp-basics
 nanotee/nvim-lua-guide
 nanotee/sqls.nvim
 nanozuki/tabby.nvim
+nat-418/boole.nvim
 natecraddock/workspaces.nvim
 navarasu/onedark.nvim
 neanias/everforest-nvim
@@ -516,7 +535,6 @@ niuiic/remote.nvim
 niuiic/terminal.nvim
 niuiic/translate.nvim
 niuiic/typst-preview.nvim::typst-preview-niuiic
-chomosuke/typst-preview.nvim::typst-preview-chomsuke
 nkakouros-original/numbers.nvim
 NMAC427/guess-indent.nvim
 noib3/cokeline.nvim
@@ -558,6 +576,8 @@ nvim-treesitter/nvim-treesitter-textobjects
 nvim-treesitter/playground
 nvim-zh/colorful-winsep.nvim
 nvimdev/dashboard-nvim
+nvimdev/epo.nvim
+nvimdev/guard.nvim
 nvimdev/hlsearch.nvim
 nvimdev/indentmini.nvim
 nvimdev/lspsaga.nvim
@@ -621,6 +641,7 @@ pwntester/codeql.nvim
 pwntester/octo.nvim
 quangnguyen30192/cmp-nvim-ultisnips
 rafaelsq/nvim-goc.lua
+rafamadriz/friendly-snippets
 rafamadriz/neon
 rafaqz/ranger.vim
 rafcamlet/nvim-luapad
@@ -700,6 +721,7 @@ sainnhe/gruvbox-material
 sainnhe/sonokai
 sakhnik/nvim-gdb
 salkin-mada/openscad.nvim
+SalOrak/whaler.nvim
 samjwill/nvim-unception
 samodostal/image.nvim
 savq/melange-nvim
@@ -719,6 +741,7 @@ shaunsingh/nord.nvim::shaunsingh-nord-nvim
 shellRaining/hlchunk.nvim
 shortcuts/no-neck-pain.nvim
 SidOfc/carbon.nvim
+simaxme/java.nvim
 simrat39/rust-tools.nvim
 simrat39/symbols-outline.nvim
 sindrets/diffview.nvim
@@ -750,6 +773,7 @@ sourcehut:whynothugo/lsp_lines.nvim
 sQVe/bufignore.nvim
 sQVe/sort.nvim
 startup-nvim/startup.nvim
+stevanmilic/nvim-lspimport
 stevearc/aerial.nvim
 stevearc/conform.nvim
 stevearc/dressing.nvim
@@ -768,6 +792,7 @@ svermeulen/vimpeccable
 svrana/neosolarized.nvim
 sychen52/smart-term-esc.nvim
 t-troebst/perfanno.nvim
+tadmccorkle/markdown.nvim
 tamago324/cmp-zsh
 tamago324/lir.nvim
 tamago324/nlsp-settings.nvim
@@ -802,6 +827,7 @@ tjdevries/train.nvim
 tjdevries/vlog.nvim
 tmillr/sos.nvim
 TobinPalmer/rayso.nvim
+TobinPalmer/Tip.nvim
 tomasiser/vim-code-dark
 tomasky/bookmarks.nvim::bookmarks-tomasky
 tomiis4/BufferTabs.nvim
@@ -810,6 +836,7 @@ topaxi/gh-actions.nvim
 toppair/peek.nvim
 toppair/reach.nvim
 tpope/vim-repeat
+Tsuzat/NeoSolarized.nvim
 tversteeg/registers.nvim
 tveskag/nvim-blame-line
 tzachar/cmp-fuzzy-buffer
@@ -862,6 +889,7 @@ winston0410/range-highlight.nvim
 woosaaahh/sj.nvim
 xeluxee/competitest.nvim
 xero/miasma.nvim
+xiaoshihou514/squirrel.nvim
 xiyaowong/link-visitor.nvim
 xiyaowong/nvim-cursorword
 xiyaowong/nvim-transparent
@@ -882,6 +910,7 @@ yazeed1s/oh-lucy.nvim
 yonlu/omni.vim
 yorickpeterse/nvim-pqf
 yorickpeterse/nvim-window
+yutkat/confirm-quit.nvim
 zaldih/themery.nvim
 zbirenbaum/copilot-cmp
 zbirenbaum/copilot.lua
