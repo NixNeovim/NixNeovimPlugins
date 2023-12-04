@@ -515,7 +515,8 @@ niuiic/part-edit.nvim
 niuiic/remote.nvim
 niuiic/terminal.nvim
 niuiic/translate.nvim
-niuiic/typst-preview.nvim
+niuiic/typst-preview.nvim::typst-preview-niuiic
+chomosuke/typst-preview.nvim::typst-preview-chomsuke
 nkakouros-original/numbers.nvim
 NMAC427/guess-indent.nvim
 noib3/cokeline.nvim
