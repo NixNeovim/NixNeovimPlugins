@@ -839,6 +839,7 @@ tpope/vim-repeat
 Tsuzat/NeoSolarized.nvim
 tversteeg/registers.nvim
 tveskag/nvim-blame-line
+typicode/bg.nvim
 tzachar/cmp-fuzzy-buffer
 tzachar/cmp-fuzzy-path
 tzachar/cmp-tabnine
@@ -924,4 +925,3 @@ ziontee113/color-picker.nvim
 ziontee113/icon-picker.nvim
 ziontee113/syntax-tree-surfer
 zootedb0t/citruszest.nvim
-typicode/bg.nvim
