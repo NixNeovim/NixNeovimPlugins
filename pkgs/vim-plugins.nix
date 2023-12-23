@@ -12843,6 +12843,38 @@
     };
   };
   /*
+  Generated from: nvim-telescope/telescope-file-browser.nvim
+  */
+  telescope-file-browser-nvim = buildVimPluginFrom2Nix {
+    pname = "telescope-file-browser-nvim";
+    version = "2023-12-07";
+    src = fetchurl {
+      url = "https://github.com/nvim-telescope/telescope-file-browser.nvim/archive/8e0543365fe5781c9babea7db89ef06bcff3716d.tar.gz";
+      sha256 = "1daqvm2sssg0qz4g0jfydb897dsxc93052nv8qwpcdrrgpwjgwdg";
+    };
+    meta = with lib; {
+      description = "File Browser extension for telescope.nvim";
+      homepage = "https://github.com/nvim-telescope/telescope-file-browser.nvim";
+      license = with licenses; [mit];
+    };
+  };
+  /*
+  Generated from: nvim-telescope/telescope-fzf-native.nvim
+  */
+  telescope-fzf-native-nvim = buildVimPluginFrom2Nix {
+    pname = "telescope-fzf-native-nvim";
+    version = "2023-09-10";
+    src = fetchurl {
+      url = "https://github.com/nvim-telescope/telescope-fzf-native.nvim/archive/6c921ca12321edaa773e324ef64ea301a1d0da62.tar.gz";
+      sha256 = "1qr17fnnjv2fw5bjzxzjn78sbxng1kqgr9xq9wm7276g09d8qjfv";
+    };
+    meta = with lib; {
+      description = "FZF sorter for telescope written in c";
+      homepage = "https://github.com/nvim-telescope/telescope-fzf-native.nvim";
+      license = with licenses; [];
+    };
+  };
+  /*
   Generated from: crispgm/telescope-heading.nvim
   */
   telescope-heading-nvim = buildVimPluginFrom2Nix {
