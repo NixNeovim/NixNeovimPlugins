@@ -1,4 +1,4 @@
- - Plugin count: 927
+ - Plugin count: 929
 
 | Repo | Last Update | Nix package name | Last checked |
 |:---|:---|:---|:---|
@@ -804,6 +804,8 @@
 | [nvim-telescope/telescope-bibtex.nvim](https://github.com/nvim-telescope/telescope-bibtex.nvim) | 2023-11-20 | `telescope-bibtex-nvim` | 2023-12-23 |
 | [LinArcX/telescope-command-palette.nvim](https://github.com/LinArcX/telescope-command-palette.nvim) | 2023-08-24 | `telescope-command-palette-nvim` | 2023-12-23 |
 | [fdschmidt93/telescope-egrepify.nvim](https://github.com/fdschmidt93/telescope-egrepify.nvim) | 2023-11-06 | `telescope-egrepify-nvim` | 2023-12-23 |
+| [nvim-telescope/telescope-file-browser.nvim](https://github.com/nvim-telescope/telescope-file-browser.nvim) | 2023-12-07 | `telescope-file-browser-nvim` | 2023-12-23 |
+| [nvim-telescope/telescope-fzf-native.nvim](https://github.com/nvim-telescope/telescope-fzf-native.nvim) | 2023-09-10 | `telescope-fzf-native-nvim` | 2023-12-23 |
 | [crispgm/telescope-heading.nvim](https://github.com/crispgm/telescope-heading.nvim) | 2023-09-03 | `telescope-heading-nvim` | 2023-12-23 |
 | [piersolenski/telescope-import.nvim](https://github.com/piersolenski/telescope-import.nvim) | 2023-12-09 | `telescope-import-nvim` | 2023-12-23 |
 | [mrcjkb/telescope-manix](https://github.com/mrcjkb/telescope-manix) | 2023-12-04 | `telescope-manix` | 2023-12-23 |
