@@ -839,6 +839,7 @@ tpope/vim-repeat
 Tsuzat/NeoSolarized.nvim
 tversteeg/registers.nvim
 tveskag/nvim-blame-line
+typicode/bg.nvim
 tzachar/cmp-fuzzy-buffer
 tzachar/cmp-fuzzy-path
 tzachar/cmp-tabnine
