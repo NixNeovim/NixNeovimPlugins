@@ -925,3 +925,5 @@ ziontee113/color-picker.nvim
 ziontee113/icon-picker.nvim
 ziontee113/syntax-tree-surfer
 zootedb0t/citruszest.nvim
+nvim-telescope/telescope-file-browser.nvim
+nvim-telescope/telescope-fzf-native.nvim
