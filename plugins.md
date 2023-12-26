@@ -1,4 +1,4 @@
- - Plugin count: 930
+ - Plugin count: 931
 
 | Repo | Last Update | Nix package name | Last checked |
 |:---|:---|:---|:---|
@@ -926,6 +926,7 @@
 | [milanglacier/yarepl.nvim](https://github.com/milanglacier/yarepl.nvim) | 2023-11-18 | `yarepl-nvim` | 2023-12-26 |
 | [sonjiku/yawnc.nvim](https://github.com/sonjiku/yawnc.nvim) | 2023-06-25 | `yawnc-nvim` | 2023-12-26 |
 | [zdcthomas/yop.nvim](https://github.com/zdcthomas/yop.nvim) | 2023-05-29 | `yop-nvim` | 2023-12-26 |
+| [Lilja/zellij.nvim](https://github.com/Lilja/zellij.nvim) | 2023-12-03 | `zellij-nvim` | 2023-12-26 |
 | [folke/zen-mode.nvim](https://github.com/folke/zen-mode.nvim) | 2023-10-20 | `zen-mode-nvim` | 2023-12-26 |
 | [mcchrish/zenbones.nvim](https://github.com/mcchrish/zenbones.nvim) | 2023-10-30 | `zenbones-nvim` | 2023-12-26 |
 | [phha/zenburn.nvim](https://github.com/phha/zenburn.nvim) | 2022-11-23 | `zenburn-nvim` | 2023-12-26 |
