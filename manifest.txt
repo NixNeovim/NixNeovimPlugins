@@ -741,6 +741,7 @@ Shatur/neovim-tasks
 shaunsingh/moonlight.nvim
 shaunsingh/nord.nvim::shaunsingh-nord-nvim
 shellRaining/hlchunk.nvim
+ShinKage/idris2-nvim
 shortcuts/no-neck-pain.nvim
 SidOfc/carbon.nvim
 simaxme/java.nvim
