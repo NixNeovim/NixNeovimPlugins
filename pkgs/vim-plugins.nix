@@ -14795,6 +14795,22 @@
     };
   };
   /*
+  Generated from: Lilja/zellij.nvim
+  */
+  zellij-nvim = buildVimPluginFrom2Nix {
+    pname = "zellij-nvim";
+    version = "2023-12-03";
+    src = fetchurl {
+      url = "https://github.com/Lilja/zellij.nvim/archive/483c855ab7a3aba60e522971991481807ea3a47b.tar.gz";
+      sha256 = "01423cyjzdvgy19zv7szqcwb5ydc1scylnilf9w7dsadc5x6al5d";
+    };
+    meta = with lib; {
+      description = "Zellij integration for neovim";
+      homepage = "https://github.com/Lilja/zellij.nvim";
+      license = with licenses; [];
+    };
+  };
+  /*
   Generated from: folke/zen-mode.nvim
   */
   zen-mode-nvim = buildVimPluginFrom2Nix {

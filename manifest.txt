@@ -404,6 +404,7 @@ lewpoly/sherbet.nvim
 LhKipp/nvim-nu
 LiadOz/nvim-dap-repl-highlights
 liangxianzhe/nap.nvim
+Lilja/zellij.nvim
 LinArcX/telescope-command-palette.nvim
 linrongbin16/colorbox.nvim
 linrongbin16/fzfx.nvim
