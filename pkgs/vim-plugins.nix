@@ -4776,6 +4776,22 @@
     };
   };
   /*
+  Generated from: HakonHarnes/img-clip.nvim
+  */
+  img-clip-nvim = buildVimPluginFrom2Nix {
+    pname = "img-clip-nvim";
+    version = "2023-12-30";
+    src = fetchurl {
+      url = "https://github.com/HakonHarnes/img-clip.nvim/archive/1a22455f83dda15046c1a8dc079190c11bc20307.tar.gz";
+      sha256 = "148g8gs6j1rlwi6d33nc4s6c6vmbmjdx9avyjxq2wgn91dgibkbq";
+    };
+    meta = with lib; {
+      description = "📸 Effortlessly embed images into any markup language, like LaTeX, Markdown or Typst.";
+      homepage = "https://github.com/HakonHarnes/img-clip.nvim";
+      license = with licenses; [mit];
+    };
+  };
+  /*
   Generated from: miversen33/import.nvim
   */
   import-nvim = buildVimPluginFrom2Nix {
@@ -7002,22 +7018,6 @@
     };
   };
   /*
-  Generated from: svrana/neosolarized.nvim
-  */
-  neosolarized-nvim = buildVimPluginFrom2Nix {
-    pname = "neosolarized-nvim";
-    version = "2023-12-13";
-    src = fetchurl {
-      url = "https://github.com/svrana/neosolarized.nvim/archive/f04cb6517933ced4b9701048aad5865968a58218.tar.gz";
-      sha256 = "0a6lw4bsrz19i84iyjxg5wl6v2nz31q2ys7b12ppqiz89w36v370";
-    };
-    meta = with lib; {
-      description = "Truecolor solarized theme for neovim in Lua using colorbuddy";
-      homepage = "https://github.com/svrana/neosolarized.nvim";
-      license = with licenses; [];
-    };
-  };
-  /*
   Generated from: Tsuzat/NeoSolarized.nvim
   */
   NeoSolarized-nvim = buildVimPluginFrom2Nix {
@@ -7030,6 +7030,22 @@
     meta = with lib; {
       description = "NeoSolarized colorscheme for NeoVim with full transparency";
       homepage = "https://github.com/Tsuzat/NeoSolarized.nvim";
+      license = with licenses; [];
+    };
+  };
+  /*
+  Generated from: svrana/neosolarized.nvim
+  */
+  neosolarized-nvim = buildVimPluginFrom2Nix {
+    pname = "neosolarized-nvim";
+    version = "2023-12-13";
+    src = fetchurl {
+      url = "https://github.com/svrana/neosolarized.nvim/archive/f04cb6517933ced4b9701048aad5865968a58218.tar.gz";
+      sha256 = "0a6lw4bsrz19i84iyjxg5wl6v2nz31q2ys7b12ppqiz89w36v370";
+    };
+    meta = with lib; {
+      description = "Truecolor solarized theme for neovim in Lua using colorbuddy";
+      homepage = "https://github.com/svrana/neosolarized.nvim";
       license = with licenses; [];
     };
   };
