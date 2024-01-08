@@ -519,6 +519,8 @@ navarasu/onedark.nvim
 neanias/everforest-nvim
 nekonako/xresources-nvim
 neovim/nvim-lspconfig
+samodostal/image.nvim::image-samodostal
+3rd/image.nvim::image-3rd
 Nexmean/caskey.nvim
 NFrid/due.nvim
 NFrid/markdown-togglecheck
