@@ -18,6 +18,7 @@ The [plugins.md](plugins.md) contains an auto-generated list of all available pl
 ## Usage
 
 - We recommend using [NixNeovim](https://github.com/NixNeovim/NixNeovim), and only access the plugins directly when they do not have a module in NixNeovim.
+- Sometimes, a new plugin has the same name as an already existing one. In this case, we rename both plugins to <plugin-name>-<owner>, introducing a breaking change. Therefore, again: We recommend using NixNeovim, and not this repo directly.
 
 However, you can also use this repo without NixNeovim:
 To access the plugins, you need to add the overlay.
