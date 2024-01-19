@@ -629,7 +629,6 @@ pianocomposer321/yabs.nvim
 piersolenski/telescope-import.nvim
 piersolenski/wtf.nvim
 pluffie/neoproj
-Pocco81/AbbrevMan.nvim
 pocco81/auto-save.nvim::auto-save-nvim-pocco81
 Pocco81/DAPInstall.nvim
 Pocco81/HighStr.nvim
