@@ -66,15 +66,14 @@ def write_manifest_yaml_from_spec(specs: list[PluginSpec]):
     """write specs to manifest file. Does some cleaning up"""
 
     strings = [ p.to_dict() for p in specs ]
-    #  pprint(strings)
-    #  print(specs[0].to_yaml())
-    y = yaml.dump(strings, default_flow_style=False)
-    print(y)
-    #  with open(MANIFEST_YAML, "w") as file:
+    y = yaml.dump(strings, default_flow_style=False, sort_keys=False)
+    #  print(y)
+    with open(MANIFEST_YAML, "w") as file:
+        file.write(y)
 
         #  specs = sorted(set(specs), key=lambda x: x.lower())
         #  specs = [ p for p in specs ]
 
         #  for s in specs:
-            #  #  file.write(f"{s}\n")
+            #  file.write(f"{s}\n")
             #  print(f"output: {s}")

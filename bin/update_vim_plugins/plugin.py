@@ -32,6 +32,7 @@ class VimPlugin:
     def to_nix(self):
         """Return the nix expression for this plugin."""
         meta = f'with lib; {{ description = "{self.description}"; homepage = "{self.homepage}"; license = with licenses; [ {self.license.value} ]; }}'
+        # TODO: replace source line with something else and similar useful
         return f'/* Generated from: {self.source_line} */ {self.name} = buildVimPlugin {{ pname = "{self.name}";  version = "{self.version}"; src = {self.source.get_nix_expression()}; meta = {meta}; }};'
 
     def to_json(self):

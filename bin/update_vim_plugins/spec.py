@@ -92,30 +92,56 @@ class PluginSpec:
         custom_name = yaml.get("name", "")
         license = yaml.get("license", "")
 
+        commit = yaml.get("commit", "")
+        deprecated = yaml.get("deprecated", False)
+
         marked_duplicate = yaml.get("duplicate", False) # TODO: remove? still needed?
 
         line = ""
 
-        return cls(repository_host, owner, repo, line, branch, custom_name, license, marked_duplicate)
+        return cls(
+            repository_host,
+            owner=owner,
+            repo=repo,
+            line=line,
+            branch=branch,
+            custom_name=custom_name,
+            license=license,
+            marked_duplicate=marked_duplicate,
+            commit=commit,
+            deprecated=deprecated,
+        )
 
     def to_dict(self) -> dict:
+        """ turns the spec into a dict, so it can be converted
+        to yaml later.
+        The order of the items in this dict defines the order of the
+        fields in the final yaml output
+        (as long as sort_keys is set to False. see 'write_manifest_yaml_from_spec')
+        """
         data = {
             "owner": self.owner,
             "repo": self.repo,
             #  "duplicate": self.duplicate,
         }
 
-        if self.branch:
-            data.update({"branch": self.branch})
+        if self.repository_host != RepositoryHost.GITHUB:
+            data.update({"repository_host": str(self.repository_host)})
 
         if self.custom_name:
             data.update({"name": self.custom_name})
 
-        if self.repository_host != RepositoryHost.GITHUB:
-            data.update({"repository_host": str(self.repository_host)})
+        if self.branch:
+            data.update({"branch": self.branch})
 
         if self.license:
             data.update({"license": str(self.license)})
+
+        if self.commit:
+            data.update({"commit": self.commit})
+
+        if self.deprecated:
+            data.update({"deprecated": str(self.deprecated)})
 
         return data
 
@@ -129,6 +155,8 @@ class PluginSpec:
         custom_name: str | None = None,
         license: str | None = None,
         marked_duplicate: bool = False,
+        commit: str | None = None,
+        deprecated: bool = False,
     ) -> None:
         """Initialize a VimPluginSpec."""
         self.repository_host = repository_host
@@ -140,6 +168,8 @@ class PluginSpec:
         self.license = License(license) if license else None
         self.line = line
         self.marked_duplicate = marked_duplicate
+        self.commit = commit
+        self.deprecated = deprecated
 
     def __str__(self) -> str:
         """Return a string representation of a VimPluginSpec."""
