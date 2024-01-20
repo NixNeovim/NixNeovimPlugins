@@ -3,7 +3,7 @@ final: prev:
 prev.lib.composeManyExtensions [
   (self: super: let
     origin = self.callPackage ./pkgs/vim-plugins.nix {
-      inherit (self.vimUtils) buildVimPluginFrom2Nix;
+      inherit (self.vimUtils) buildVimPlugin;
     };
   in {
     vimExtraPlugins = final.lib.makeExtensible (_: final.lib.recurseIntoAttrs origin);
