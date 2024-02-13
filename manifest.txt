@@ -287,6 +287,7 @@ gwatcha/reaper-keys
 h-hg/fcitx.nvim
 HakonHarnes/img-clip.nvim
 haringsrob/nvim_context_vt
+harrisoncramer/gitlab.nvim
 hedyhli/outline.nvim
 hiberabyss/bzlops.vim
 hinell/duplicate.nvim
