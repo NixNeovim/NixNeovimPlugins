@@ -17,7 +17,7 @@ jsonpickle.set_encoder_options('json', sort_keys=True)
 
 class UpdateCommand(Command):
     name = "update"
-    description = "Generate nix module from input file"
+    description = "Update plugins. Optional args: 'all', 'dry-run'"
     options = [
         option(
             "all",
