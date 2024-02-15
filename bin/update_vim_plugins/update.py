@@ -17,7 +17,7 @@ jsonpickle.set_encoder_options('json', sort_keys=True)
 
 class UpdateCommand(Command):
     name = "update"
-    description = "Generate nix module from input file"
+    description = "Update plugins. Optional args: 'all', 'dry-run'"
     options = [
         option(
             "all",
@@ -92,7 +92,7 @@ class UpdateCommand(Command):
 
         self.line(f"<info>Updating plugins.md</info>")
 
-        header = f" - Plugin count: {len(plugins)}\n\n| Repo | Last Update | Nix package name | Last checked |\n|:---|:---|:---|:---|\n"
+        header = f" - Plugin count: {len(plugins)}\n\n| Repo | Last Update | Nix package name |\n|:---|:---|:---|:---|\n"
 
         with open(PLUGINS_LIST_FILE, "w") as file:
             file.write(header)

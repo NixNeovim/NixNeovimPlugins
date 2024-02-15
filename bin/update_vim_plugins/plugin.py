@@ -42,9 +42,8 @@ class VimPlugin:
         link = f"[{self.source_line}]({self.homepage})"
         version = f"{self.version}"
         package_name = f"{self.name}"
-        checked = f"{self.checked}"
 
-        return f"| {link} | {version} | `{package_name}` | {checked} |"
+        return f"| {link} | {version} | `{package_name}` |"
 
     def __lt__(self, o: object) -> bool:
         if not isinstance(o, VimPlugin):
