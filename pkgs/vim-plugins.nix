@@ -4136,6 +4136,22 @@
     };
   };
   /*
+  Generated from: harrisoncramer/gitlab.nvim
+  */
+  gitlab-nvim = buildVimPlugin {
+    pname = "gitlab-nvim";
+    version = "2024-02-11";
+    src = fetchurl {
+      url = "https://github.com/harrisoncramer/gitlab.nvim/archive/60466693912aa3b84f419f8863428dd2f983e3c7.tar.gz";
+      sha256 = "0cqfq94fw1fc8r7qirw34la9s23n8lzfb6s7v0617lzihnbrb5b5";
+    };
+    meta = with lib; {
+      description = "Create, review, and manage Gitlab reources without leaving Neovim";
+      homepage = "https://github.com/harrisoncramer/gitlab.nvim";
+      license = with licenses; [mit];
+    };
+  };
+  /*
   Generated from: linrongbin16/gitlinker.nvim::gitlinker-linrongbin16
   */
   gitlinker-linrongbin16 = buildVimPlugin {
