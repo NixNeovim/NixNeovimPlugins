@@ -1,7 +1,7 @@
  - Plugin count: 964
 
 | Repo | Last Update | Nix package name |
-|:---|:---|:---|:---|
+|:---|:---|:---|
 | [0styx0/abbreinder.nvim](https://github.com/0styx0/abbreinder.nvim) | 2022-04-28 | `abbreinder-nvim` |
 | [0styx0/abbremand.nvim](https://github.com/0styx0/abbremand.nvim) | 2022-01-16 | `abbremand-nvim` |
 | [Pocco81/AbbrevMan.nvim](https://github.com/Pocco81/abbrev-man.nvim) | 2023-05-15 | `AbbrevMan-nvim` |
