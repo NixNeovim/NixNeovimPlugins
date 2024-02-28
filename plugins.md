@@ -1,4 +1,4 @@
- - Plugin count: 964
+ - Plugin count: 965
 
 | Repo | Last Update | Nix package name |
 |:---|:---|:---|
@@ -838,7 +838,9 @@
 | [nvim-telescope/telescope-fzf-native.nvim](https://github.com/nvim-telescope/telescope-fzf-native.nvim) | 2023-09-10 | `telescope-fzf-native-nvim` |
 | [crispgm/telescope-heading.nvim](https://github.com/crispgm/telescope-heading.nvim) | 2023-09-03 | `telescope-heading-nvim` |
 | [piersolenski/telescope-import.nvim](https://github.com/piersolenski/telescope-import.nvim) | 2024-01-08 | `telescope-import-nvim` |
+| [benfowler/telescope-luasnip.nvim](https://github.com/benfowler/telescope-luasnip.nvim) | 2023-10-05 | `telescope-luasnip-nvim` |
 | [mrcjkb/telescope-manix](https://github.com/mrcjkb/telescope-manix) | 2024-02-28 | `telescope-manix` |
+| [mrcjkb/telescope-manix](https://github.com/mrcjkb/telescope-manix) | 2024-02-25 | `telescope-manix` |
 | [nvim-telescope/telescope-media-files.nvim](https://github.com/nvim-telescope/telescope-media-files.nvim) | 2023-02-19 | `telescope-media-files-nvim` |
 | [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) | 2024-02-29 | `telescope-nvim` |
 | [cljoly/telescope-repo.nvim](https://github.com/cljoly/telescope-repo.nvim) | 2023-10-25 | `telescope-repo-nvim` |
