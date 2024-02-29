@@ -1,4 +1,4 @@
- - Plugin count: 964
+ - Plugin count: 965
 
 | Repo | Last Update | Nix package name |
 |:---|:---|:---|
@@ -457,8 +457,8 @@
 | [nvim-neorg/neorg-telescope](https://github.com/nvim-neorg/neorg-telescope) | 2024-02-10 | `neorg-telescope` |
 | [nyngwang/NeoRoot.lua](https://github.com/nyngwang/NeoRoot.lua) | 2023-02-08 | `NeoRoot-lua` |
 | [karb94/neoscroll.nvim](https://github.com/karb94/neoscroll.nvim) | 2024-02-04 | `neoscroll-nvim` |
-| [svrana/neosolarized.nvim](https://github.com/svrana/neosolarized.nvim) | 2023-12-13 | `neosolarized-nvim` |
 | [Tsuzat/NeoSolarized.nvim](https://github.com/Tsuzat/NeoSolarized.nvim) | 2024-02-24 | `NeoSolarized-nvim` |
+| [svrana/neosolarized.nvim](https://github.com/svrana/neosolarized.nvim) | 2023-12-13 | `neosolarized-nvim` |
 | [nyngwang/NeoTerm.lua](https://github.com/nyngwang/NeoTerm.lua) | 2023-06-22 | `NeoTerm-lua` |
 | [nvim-neotest/neotest](https://github.com/nvim-neotest/neotest) | 2024-02-27 | `neotest` |
 | [coffebar/neovim-project](https://github.com/coffebar/neovim-project) | 2023-12-12 | `neovim-project` |
@@ -838,6 +838,7 @@
 | [nvim-telescope/telescope-fzf-native.nvim](https://github.com/nvim-telescope/telescope-fzf-native.nvim) | 2023-09-10 | `telescope-fzf-native-nvim` |
 | [crispgm/telescope-heading.nvim](https://github.com/crispgm/telescope-heading.nvim) | 2023-09-03 | `telescope-heading-nvim` |
 | [piersolenski/telescope-import.nvim](https://github.com/piersolenski/telescope-import.nvim) | 2024-01-08 | `telescope-import-nvim` |
+| [benfowler/telescope-luasnip.nvim](https://github.com/benfowler/telescope-luasnip.nvim) | 2023-10-05 | `telescope-luasnip-nvim` |
 | [mrcjkb/telescope-manix](https://github.com/mrcjkb/telescope-manix) | 2024-02-28 | `telescope-manix` |
 | [nvim-telescope/telescope-media-files.nvim](https://github.com/nvim-telescope/telescope-media-files.nvim) | 2023-02-19 | `telescope-media-files-nvim` |
 | [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) | 2024-02-29 | `telescope-nvim` |
