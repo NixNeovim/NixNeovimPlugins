@@ -31,6 +31,8 @@ class PluginSpec:
         repo is the repository name.
         branch is the git branch.
         name is the name to use for the plugin (default is value of repo).
+
+        This format is deprecated in NixNeovimPlugins but still used in some of our sources
         """
         repository_host = RepositoryHost.GITHUB
         gitref = "master"

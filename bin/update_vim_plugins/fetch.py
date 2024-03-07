@@ -13,15 +13,15 @@ class FetchCommand(Command):
     def handle(self):
         """Main command function"""
 
-        specs = read_manifest()
+        specs = read_manifest_yaml_to_spec()
         specs += self.fetch_awesome()
         specs += self.fetch_m15a()
 
-        write_manifest(specs)
+        write_manifest_yaml_from_spec(specs)
 
         self.line("<comment>Done</comment>")
 
-    def fetch_m15a(self) -> list[str]:
+    def fetch_m15a(self) -> list[PluginSpec]:
         self.line(f"<info>Fetching from m15a's repo</info>")
 
         manifest = urlopen(M15A_MANIFEST).read()
@@ -29,11 +29,11 @@ class FetchCommand(Command):
         manifest = manifest.split("\n")
 
         specs = list(filter(lambda x: x != "", manifest))
-        specs = [ p for p in specs ]
+        specs = [ PluginSpec.from_spec(p) for p in specs ]
 
         return specs
 
-    def fetch_awesome(self) -> list[str]:
+    def fetch_awesome(self) -> list[PluginSpec]:
         self.line(f"<info>Fetching from awesome-neovim</info>")
 
         readme = urlopen(AWESOME_NEOVIM_README).read()
@@ -107,6 +107,8 @@ class FetchCommand(Command):
                 self.line(f"<error>Source unknown</error> {source} ({spec})")
 
             specs.append(spec)
+
+        specs = [ PluginSpec.from_spec(s) for s in specs ]
 
         return specs
 

@@ -34,7 +34,8 @@ class UpdateCommand(Command):
     def handle(self):
         """Main command function"""
 
-        self.specs = read_manifest_to_spec()
+        #  self.specs = read_manifest_to_spec()
+        self.specs = read_manifest_yaml_to_spec()
 
         if self.option("all"):
             # update all plugins

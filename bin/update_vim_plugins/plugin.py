@@ -28,12 +28,19 @@ class VimPlugin:
     license: License
     source_line: str
     checked: date = datetime.now().date()
+    deprecated: str = ""
 
     def to_nix(self):
         """Return the nix expression for this plugin."""
         meta = f'with lib; {{ description = "{self.description}"; homepage = "{self.homepage}"; license = with licenses; [ {self.license.value} ]; }}'
         # TODO: replace source line with something else and similar useful
-        return f'/* Generated from: {self.source_line} */ {self.name} = buildVimPlugin {{ pname = "{self.name}";  version = "{self.version}"; src = {self.source.get_nix_expression()}; meta = {meta}; }};'
+
+        if self.deprecated:
+            warning = f"lib.warn \"The plugin '{self.name}' is deprecated: {self.deprecated}\""
+        else:
+            warning = ""
+
+        return f'/* Generated from: {self.source_line} */ {self.name} = {warning} buildVimPlugin {{ pname = "{self.name}";  version = "{self.version}"; src = {self.source.get_nix_expression()}; meta = {meta}; }};'
 
     def to_json(self):
         """Serizalize the plugin to json"""
