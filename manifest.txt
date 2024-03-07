@@ -54,7 +54,8 @@ anott03/nvim-lspinstall
 antonk52/bad-practices.nvim
 anuvyklack/animation.nvim
 anuvyklack/fold-preview.nvim
-anuvyklack/hydra.nvim
+anuvyklack/hydra.nvim::hydra-anuvyklack
+nvimtools/hydra.nvim::hydra-nvimtools
 anuvyklack/keymap-amend.nvim
 anuvyklack/middleclass
 anuvyklack/pretty-fold.nvim
