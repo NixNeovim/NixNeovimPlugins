@@ -80,7 +80,7 @@ class UpdateCommand(Command):
         self.write_plugins_json(processed_plugins)
 
         # generate output
-        self.write_plugins_nix(processed_plugins)
+        self.write_plugins(processed_plugins)
 
         self.write_plugins_markdown(processed_plugins)
 
@@ -101,27 +101,14 @@ class UpdateCommand(Command):
                 file.write(f"{plugin.to_markdown()}\n")
 
 
-    def write_plugins_nix(self, plugins):
+    def write_plugins(self, plugins):
         self.line(f"<info>Generating nix output</info>")
 
-        plugins.sort()
-
-        header = "{ lib, buildVimPlugin, fetchurl, fetchgit }: {"
-        footer = "}"
-
-        with open(PKGS_FILE, "w") as file:
-            file.write(header)
-            for plugin in plugins:
-                file.write(f"{plugin.to_nix()}\n")
-            file.write(footer)
+        write_plugins_nix(plugins)
 
         self.line(f"<info>Formatting nix output</info>")
 
-        subprocess.run(
-            ["alejandra", PKGS_FILE],
-            stdout=subprocess.DEVNULL,
-            stderr=subprocess.DEVNULL,
-        )
+        format_nix_output()
 
     def write_plugins_json(self, plugins):
         self.line(f"<info>Storing results in .plugins.json</info>")
@@ -196,7 +183,7 @@ class UpdateCommand(Command):
         with ThreadPoolExecutor() as executor:
             futures = [executor.submit(self.generate_plugin, spec, i, size) for i, spec in enumerate(spec_list)]
             results = [future.result() for future in as_completed(futures)]
-        
+
         processed_plugins = [ r[0] for r in results ]
         failed_plugins = [ r[1] for r in results ]
         failed_but_known = [ r[2] for r in results ]

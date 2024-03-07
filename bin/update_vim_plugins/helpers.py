@@ -1,6 +1,7 @@
 from .spec import PluginSpec
 import yaml
 from pprint import pprint
+import subprocess
 
 #  MANIFEST_FILE = "./manifest.txt"
 MANIFEST_YAML = "./manifest.yaml"
@@ -43,6 +44,26 @@ def read_blacklist_to_spec() -> list[PluginSpec]:
     specs = [ PluginSpec.from_spec(spec.strip()) for spec in blacklist ]
 
     return sorted(specs)
+
+def write_plugins_nix(plugins):
+    plugins.sort()
+
+    header = "{ lib, buildVimPlugin, fetchurl, fetchgit }: {"
+    footer = "}"
+
+    with open(PKGS_FILE, "w") as file:
+        file.write(header)
+        for plugin in plugins:
+            file.write(f"{plugin.to_nix()}\n")
+        file.write(footer)
+
+def format_nix_output():
+    subprocess.run(
+        ["alejandra", PKGS_FILE],
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL,
+    )
+
 
 #  def write_manifest(specs: list[str]|set[str]):
     #  """write specs to manifest file. Does some cleaning up"""
