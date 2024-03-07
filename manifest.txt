@@ -84,6 +84,7 @@ beauwilliams/focus.nvim
 beauwilliams/statusline.lua
 Bekaboo/deadcolumn.nvim
 Bekaboo/dropbar.nvim
+benfowler/telescope-luasnip.nvim
 benlubas/molten-nvim
 bennypowers/nvim-regexplainer
 bennypowers/splitjoin.nvim
