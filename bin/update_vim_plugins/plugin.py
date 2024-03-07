@@ -28,7 +28,7 @@ class VimPlugin:
     license: License
     source_line: str
     checked: date = datetime.now().date()
-    deprecated: str = ""
+    deprecated: str | None = None
 
     def to_nix(self):
         """Return the nix expression for this plugin."""
@@ -37,8 +37,11 @@ class VimPlugin:
 
         if self.deprecated:
             warning = f"lib.warn \"The plugin '{self.name}' is deprecated: {self.deprecated}\""
+            print("self.deprecated:", self.deprecated)
         else:
             warning = ""
+
+
 
         return f'/* Generated from: {self.source_line} */ {self.name} = {warning} buildVimPlugin {{ pname = "{self.name}";  version = "{self.version}"; src = {self.source.get_nix_expression()}; meta = {meta}; }};'
 
@@ -90,6 +93,7 @@ class GitHubPlugin(VimPlugin):
         self.homepage = repo_info["html_url"]
         self.license = plugin_spec.license or License.from_spdx_id((repo_info.get("license") or {}).get("spdx_id"))
         self.source_line = plugin_spec.line
+        self.deprecated = plugin_spec.deprecated
 
     def _api_call(self, path: str, token: str | None = _get_github_token()):
         """Call the GitHub API."""
@@ -122,6 +126,7 @@ class GitlabPlugin(VimPlugin):
         self.homepage = repo_info["web_url"]
         self.license = plugin_spec.license or License.from_spdx_id(repo_info.get("license", {}).get("key"))
         self.source_line = plugin_spec.line
+        self.deprecated = plugin_spec.deprecated
 
     def _api_call(self, path: str) -> dict:
         """Call the Gitlab API."""

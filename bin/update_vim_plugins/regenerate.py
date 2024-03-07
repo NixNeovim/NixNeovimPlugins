@@ -17,7 +17,6 @@ class RegenerateCommand(Command):
         json_data = None
         with open(JSON_FILE, "r+") as json_file:
             json_data = json.load(json_file)
-        #  pprint(json_data)
 
         plugins = [ jsonpickle.decode(plugin_json) for plugin_json in json_data.values() ]
 

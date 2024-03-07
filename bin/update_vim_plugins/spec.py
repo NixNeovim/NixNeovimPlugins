@@ -95,7 +95,7 @@ class PluginSpec:
         license = yaml.get("license", "")
 
         commit = yaml.get("commit", "")
-        deprecated = yaml.get("deprecated", False)
+        deprecated = yaml.get("deprecated", None)
 
         marked_duplicate = yaml.get("duplicate", False) # TODO: remove? still needed?
 
@@ -143,7 +143,7 @@ class PluginSpec:
             data.update({"commit": self.commit})
 
         if self.deprecated:
-            data.update({"deprecated": str(self.deprecated)})
+            data.update({"deprecated": self.deprecated})
 
         return data
 
@@ -158,7 +158,7 @@ class PluginSpec:
         license: str | None = None,
         marked_duplicate: bool = False,
         commit: str | None = None,
-        deprecated: bool = False,
+        deprecated: str | None = None,
     ) -> None:
         """Initialize a VimPluginSpec."""
         self.repository_host = repository_host
