@@ -16,6 +16,8 @@ AckslD/swenv.nvim
 AlexvZyl/nordic.nvim::nordic-alexczyl
 AllenDang/nvim-expand-expr
 Bekaboo/deadcolumn.nvim
+Bekaboo/deadcolumn.nvim
+Bekaboo/dropbar.nvim
 Bekaboo/dropbar.nvim
 CRAG666/code_runner.nvim
 CWood-sdf/pineapple
@@ -209,8 +211,6 @@ backdround/tabscope.nvim
 barreiroleo/ltex_extra.nvim
 beauwilliams/focus.nvim
 beauwilliams/statusline.lua
-Bekaboo/deadcolumn.nvim
-Bekaboo/dropbar.nvim
 benfowler/telescope-luasnip.nvim
 benlubas/molten-nvim
 bennypowers/nvim-regexplainer

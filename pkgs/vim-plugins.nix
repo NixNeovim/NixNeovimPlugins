@@ -7726,10 +7726,10 @@
   */
   none-ls-nvim = buildVimPlugin {
     pname = "none-ls-nvim";
-    version = "2024-03-01";
+    version = "2024-02-13";
     src = fetchurl {
-      url = "https://github.com/nvimtools/none-ls.nvim/archive/ff3819c52ca04232fb70fbd6c1639de9abcbe122.tar.gz";
-      sha256 = "1v1ldb209x9n7nydhmnr6f7qhcafsri608mmmv9pz5kg6j0ngynk";
+      url = "https://github.com/nvimtools/none-ls.nvim/archive/34b1311bd07bd3741e60e06b34d0709d6e5a9f0f.tar.gz";
+      sha256 = "1cp1vmvl3k5wk04swins5zkhz34qynbs4nh08q4fkh2haa7d0w48";
     };
     meta = with lib; {
       description = "null-ls.nvim reloaded / Use Neovim as a language server to inject LSP diagnostics, code actions, and more via Lua.";

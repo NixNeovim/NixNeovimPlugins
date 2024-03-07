@@ -1,4 +1,4 @@
- - Plugin count: 965
+ - Plugin count: 966
 
 | Repo | Last Update | Nix package name |
 |:---|:---|:---|
@@ -458,8 +458,8 @@
 | [nvim-neorg/neorg-telescope](https://github.com/nvim-neorg/neorg-telescope) | 2024-02-10 | `neorg-telescope` |
 | [nyngwang/NeoRoot.lua](https://github.com/nyngwang/NeoRoot.lua) | 2023-02-08 | `NeoRoot-lua` |
 | [karb94/neoscroll.nvim](https://github.com/karb94/neoscroll.nvim) | 2024-02-04 | `neoscroll-nvim` |
-| [svrana/neosolarized.nvim](https://github.com/svrana/neosolarized.nvim) | 2023-12-13 | `neosolarized-nvim` |
 | [Tsuzat/NeoSolarized.nvim](https://github.com/Tsuzat/NeoSolarized.nvim) | 2024-02-24 | `NeoSolarized-nvim` |
+| [svrana/neosolarized.nvim](https://github.com/svrana/neosolarized.nvim) | 2023-12-13 | `neosolarized-nvim` |
 | [nyngwang/NeoTerm.lua](https://github.com/nyngwang/NeoTerm.lua) | 2023-06-22 | `NeoTerm-lua` |
 | [nvim-neotest/neotest](https://github.com/nvim-neotest/neotest) | 2024-02-27 | `neotest` |
 | [coffebar/neovim-project](https://github.com/coffebar/neovim-project) | 2023-12-12 | `neovim-project` |
@@ -484,7 +484,7 @@
 | [luukvbaal/nnn.nvim](https://github.com/luukvbaal/nnn.nvim) | 2023-06-08 | `nnn-nvim` |
 | [shortcuts/no-neck-pain.nvim](https://github.com/shortcuts/no-neck-pain.nvim) | 2024-02-05 | `no-neck-pain-nvim` |
 | [folke/noice.nvim](https://github.com/folke/noice.nvim) | 2024-01-22 | `noice-nvim` |
-| [nvimtools/none-ls.nvim](https://github.com/nvimtools/none-ls.nvim) | 2024-03-01 | `none-ls-nvim` |
+| [nvimtools/none-ls.nvim](https://github.com/nvimtools/none-ls.nvim) | 2024-02-13 | `none-ls-nvim` |
 | [AlexvZyl/nordic.nvim::nordic-alexczyl](https://github.com/AlexvZyl/nordic.nvim) | 2024-03-06 | `nordic-alexczyl` |
 | [andersevenrud/nordic.nvim::nordic-andersevenrud](https://github.com/andersevenrud/nordic.nvim) | 2022-12-08 | `nordic-andersevenrud` |
 | [gsuuon/note.nvim](https://github.com/gsuuon/note.nvim) | 2024-01-10 | `note-nvim` |
