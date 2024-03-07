@@ -4856,10 +4856,10 @@
     };
   };
   /*
-  Generated from: anuvyklack/hydra.nvim
+  Generated from: anuvyklack/hydra.nvim::hydra-anuvyklack
   */
-  hydra-nvim = buildVimPlugin {
-    pname = "hydra-nvim";
+  hydra-anuvyklack = buildVimPlugin {
+    pname = "hydra-anuvyklack";
     version = "2023-02-06";
     src = fetchurl {
       url = "https://github.com/anuvyklack/hydra.nvim/archive/3ced42c0b6a6c85583ff0f221635a7f4c1ab0dd0.tar.gz";
@@ -4869,6 +4869,22 @@
       description = "Create custom submodes and menus";
       homepage = "https://github.com/anuvyklack/hydra.nvim";
       license = with licenses; [];
+    };
+  };
+  /*
+  Generated from: nvimtools/hydra.nvim::hydra-nvimtools
+  */
+  hydra-nvimtools = buildVimPlugin {
+    pname = "hydra-nvimtools";
+    version = "2024-02-05";
+    src = fetchurl {
+      url = "https://github.com/nvimtools/hydra.nvim/archive/1ce9ee35d2b869241091c0c7496c3cf0f3be981e.tar.gz";
+      sha256 = "135zsi1fs34rmm1fya30c4ydmaa88ccclx6j8gid0yfbxy54jiic";
+    };
+    meta = with lib; {
+      description = "Create custom submodes and menus";
+      homepage = "https://github.com/nvimtools/hydra.nvim";
+      license = with licenses; [mit];
     };
   };
   /*

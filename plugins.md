@@ -1,7 +1,7 @@
- - Plugin count: 964
+ - Plugin count: 965
 
 | Repo | Last Update | Nix package name |
-|:---|:---|:---|:---|
+|:---|:---|:---|
 | [0styx0/abbreinder.nvim](https://github.com/0styx0/abbreinder.nvim) | 2022-04-28 | `abbreinder-nvim` |
 | [0styx0/abbremand.nvim](https://github.com/0styx0/abbremand.nvim) | 2022-01-16 | `abbremand-nvim` |
 | [Pocco81/AbbrevMan.nvim](https://github.com/Pocco81/abbrev-man.nvim) | 2023-05-15 | `AbbrevMan-nvim` |
@@ -305,7 +305,8 @@
 | [rktjmp/hotpot.nvim](https://github.com/rktjmp/hotpot.nvim) | 2024-01-25 | `hotpot-nvim` |
 | [soulis-1256/hoverhints.nvim](https://github.com/soulis-1256/eagle.nvim) | 2024-02-03 | `hoverhints-nvim` |
 | [roobert/hoversplit.nvim](https://github.com/roobert/hoversplit.nvim) | 2023-09-09 | `hoversplit-nvim` |
-| [anuvyklack/hydra.nvim](https://github.com/anuvyklack/hydra.nvim) | 2023-02-06 | `hydra-nvim` |
+| [anuvyklack/hydra.nvim::hydra-anuvyklack](https://github.com/anuvyklack/hydra.nvim) | 2023-02-06 | `hydra-anuvyklack` |
+| [nvimtools/hydra.nvim::hydra-nvimtools](https://github.com/nvimtools/hydra.nvim) | 2024-02-05 | `hydra-nvimtools` |
 | [smzm/hydrovim](https://github.com/smzm/hydrovim) | 2023-05-07 | `hydrovim` |
 | [tomiis4/hypersonic.nvim](https://github.com/tomiis4/hypersonic.nvim) | 2023-07-10 | `hypersonic-nvim` |
 | [ziontee113/icon-picker.nvim](https://github.com/ziontee113/icon-picker.nvim) | 2024-01-03 | `icon-picker-nvim` |

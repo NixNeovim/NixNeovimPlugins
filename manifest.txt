@@ -55,7 +55,6 @@ antonk52/bad-practices.nvim
 anuvyklack/animation.nvim
 anuvyklack/fold-preview.nvim
 anuvyklack/hydra.nvim::hydra-anuvyklack
-nvimtools/hydra.nvim::hydra-nvimtools
 anuvyklack/keymap-amend.nvim
 anuvyklack/middleclass
 anuvyklack/pretty-fold.nvim
@@ -613,6 +612,7 @@ nvimdev/hlsearch.nvim
 nvimdev/indentmini.nvim
 nvimdev/lspsaga.nvim
 nvimdev/zephyr-nvim
+nvimtools/hydra.nvim::hydra-nvimtools
 nvimtools/none-ls.nvim
 nxvu699134/vn-night.nvim
 nyngwang/murmur.lua
