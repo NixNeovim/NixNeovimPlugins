@@ -36,7 +36,6 @@ class VimPlugin:
     def to_nix(self):
         """Return the nix expression for this plugin."""
         meta = f'with lib; {{ description = "{self.description}"; homepage = "{self.homepage}"; license = with licenses; [ {self.license.value} ]; }}'
-        # TODO: replace source line with something else and similar useful
 
         if self.warning:
             warning = f"lib.warn \"Warning for '{self.name}': {self.warning}\""

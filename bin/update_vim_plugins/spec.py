@@ -21,6 +21,34 @@ class RepositoryHost(enum.Enum):
 class PluginSpec:
     """A Vim plugin Spec."""
 
+    def __init__(
+        self,
+        repository_host: RepositoryHost,
+        owner: str,
+        repo: str,
+        branch: str | None = None,
+        custom_name: str | None = None,
+        license: str | None = None,
+        marked_duplicate: bool = False,
+        commit: str | None = None,
+        warning: str | None = None,
+    ) -> None:
+        """Initialize a VimPluginSpec."""
+        self.repository_host = repository_host
+        self.owner = owner
+        self.repo = repo
+        self.branch = branch
+        self.custom_name = custom_name
+        self.name = custom_name or repo.replace(".", "-").replace("_", "-")
+        self.license = License(license) if license else None
+        self.marked_duplicate = marked_duplicate
+        self.commit = commit
+        self.warning = warning
+
+    @property
+    def id(self) -> str:
+        return f"{self.owner}-{self.repo}"
+
     @classmethod
     def from_spec(cls, spec):
         """The spec line must be in the format:
@@ -70,9 +98,7 @@ class PluginSpec:
         license = group_dict.get("license")
         marked_duplicate = bool(group_dict.get("duplicate")) # True if 'duplicate', False if None
 
-        line = spec
-
-        return cls(repository_host, owner, repo, line, branch, custom_name, license, marked_duplicate)
+        return cls(repository_host, owner, repo, branch, custom_name, license, marked_duplicate)
 
     @classmethod
     def from_yaml(cls, yaml):
@@ -144,32 +170,6 @@ class PluginSpec:
             data.update({"warning": self.warning})
 
         return data
-
-    def __init__(
-        self,
-        repository_host: RepositoryHost,
-        owner: str,
-        repo: str,
-        line: str | None = None,
-        branch: str | None = None,
-        custom_name: str | None = None,
-        license: str | None = None,
-        marked_duplicate: bool = False,
-        commit: str | None = None,
-        warning: str | None = None,
-    ) -> None:
-        """Initialize a VimPluginSpec."""
-        self.repository_host = repository_host
-        self.owner = owner
-        self.repo = repo
-        self.branch = branch
-        self.custom_name = custom_name
-        self.name = custom_name or repo.replace(".", "-").replace("_", "-")
-        self.license = License(license) if license else None
-        self.line = line
-        self.marked_duplicate = marked_duplicate
-        self.commit = commit
-        self.warning = warning
 
     def __str__(self) -> str:
         """Return a string representation of a VimPluginSpec."""

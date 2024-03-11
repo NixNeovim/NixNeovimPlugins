@@ -48,7 +48,7 @@ class UpdateCommand(Command):
             with open(JSON_FILE, "r") as json_file:
                 data = json.load(json_file)
 
-                known_specs = list(filter(lambda x: x.line in data, spec_list))
+                known_specs = list(filter(lambda x: x.id in data, spec_list))
                 known_plugins = [ jsonpickle.decode(data[x.line]) for x in known_specs ]
 
                 spec_list = list(filter(lambda x: x.line not in data, spec_list))
@@ -141,7 +141,7 @@ class UpdateCommand(Command):
 
 
 
-    def generate_plugin(self, spec, i, size):
+    def generate_plugin(self, spec: PluginSpec, i, size):
         debug_string = ""
 
         processed_plugin = None
@@ -157,7 +157,7 @@ class UpdateCommand(Command):
             with open(JSON_FILE, "r") as json_file:
                 data = json.load(json_file)
 
-            plugin_json = data.get(spec.line)
+            plugin_json = data.get(spec.id)
             if plugin_json:
                 vim_plugin = jsonpickle.decode(plugin_json)
                 processed_plugin = vim_plugin
