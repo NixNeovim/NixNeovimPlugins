@@ -39,7 +39,6 @@ class VimPlugin:
 
         if self.warning:
             warning = f"lib.warn \"Warning for '{self.name}': {self.warning}\""
-            print("self.warning:", self.warning)
         else:
             warning = ""
 
