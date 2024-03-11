@@ -27,7 +27,7 @@ class VimPlugin:
     homepage: str
     license: License
     checked: date = datetime.now().date()
-    deprecated: str | None = None
+    warning: str | None = None
 
     @property
     def id(self) -> str:
@@ -38,9 +38,9 @@ class VimPlugin:
         meta = f'with lib; {{ description = "{self.description}"; homepage = "{self.homepage}"; license = with licenses; [ {self.license.value} ]; }}'
         # TODO: replace source line with something else and similar useful
 
-        if self.deprecated:
-            warning = f"lib.warn \"The plugin '{self.name}' is deprecated: {self.deprecated}\""
-            print("self.deprecated:", self.deprecated)
+        if self.warning:
+            warning = f"lib.warn \"Warning for '{self.name}': {self.warning}\""
+            print("self.warning:", self.warning)
         else:
             warning = ""
 
@@ -54,8 +54,9 @@ class VimPlugin:
         link = f"[{self.id}]({self.homepage})"
         version = f"{self.version}"
         package_name = f"{self.name}"
+        hints = f"{}"
 
-        return f"| {link} | {version} | `{package_name}` |"
+        return f"| {link} | {version} | `{package_name}` | {hints}"
 
     def __lt__(self, o: object) -> bool:
         if not isinstance(o, VimPlugin):
@@ -96,7 +97,7 @@ class GitHubPlugin(VimPlugin):
         self.description = (repo_info.get("description") or "").replace('"', '\\"')
         self.homepage = repo_info["html_url"]
         self.license = plugin_spec.license or License.from_spdx_id((repo_info.get("license") or {}).get("spdx_id"))
-        self.deprecated = plugin_spec.deprecated
+        self.warning = plugin_spec.warning
 
     def _api_call(self, path: str, token: str | None = _get_github_token()):
         """Call the GitHub API."""
@@ -129,7 +130,7 @@ class GitlabPlugin(VimPlugin):
         self.description = (repo_info.get("description") or "").replace('"', '\\"')
         self.homepage = repo_info["web_url"]
         self.license = plugin_spec.license or License.from_spdx_id(repo_info.get("license", {}).get("key"))
-        self.deprecated = plugin_spec.deprecated
+        self.warning = plugin_spec.warning
 
     def _api_call(self, path: str) -> dict:
         """Call the Gitlab API."""

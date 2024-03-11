@@ -535,7 +535,7 @@
   name: gitlinker-ruifm
 - owner: lewis6991
   repo: gitsigns.nvim
-  deprecated: "Replaced by other plugin (test)"
+  warning: "Replaced by other plugin (test)"
 - owner: stevearc
   repo: gkeep.nvim
 - owner: DNLHC

@@ -95,7 +95,7 @@ class PluginSpec:
         license = yaml.get("license", "")
 
         commit = yaml.get("commit", "")
-        deprecated = yaml.get("deprecated", None)
+        warning = yaml.get("warning", None)
 
         marked_duplicate = yaml.get("duplicate", False) # TODO: remove? still needed?
 
@@ -109,7 +109,7 @@ class PluginSpec:
             license=license,
             marked_duplicate=marked_duplicate,
             commit=commit,
-            deprecated=deprecated,
+            warning=warning,
         )
 
     def to_dict(self) -> dict:
@@ -140,8 +140,8 @@ class PluginSpec:
         if self.commit:
             data.update({"commit": self.commit})
 
-        if self.deprecated:
-            data.update({"deprecated": self.deprecated})
+        if self.warning:
+            data.update({"warning": self.warning})
 
         return data
 
@@ -156,7 +156,7 @@ class PluginSpec:
         license: str | None = None,
         marked_duplicate: bool = False,
         commit: str | None = None,
-        deprecated: str | None = None,
+        warning: str | None = None,
     ) -> None:
         """Initialize a VimPluginSpec."""
         self.repository_host = repository_host
@@ -169,7 +169,7 @@ class PluginSpec:
         self.line = line
         self.marked_duplicate = marked_duplicate
         self.commit = commit
-        self.deprecated = deprecated
+        self.warning = warning
 
     def __str__(self) -> str:
         """Return a string representation of a VimPluginSpec."""
