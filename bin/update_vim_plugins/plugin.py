@@ -122,6 +122,7 @@ class GitlabPlugin(VimPlugin):
         sha = latest_commit["id"]
 
         self.name = plugin_spec.name
+        self.repo = plugin_spec.repo
         self.owner = plugin_spec.owner
         self.version = parse(latest_commit["created_at"]).date()
         self.source = UrlSource(f"https://gitlab.com/api/v4/projects/{full_name}/repository/archive.tar.gz?sha={sha}")
@@ -159,6 +160,7 @@ class SourceHutPlugin(VimPlugin):
         sha = latest_commit["id"]
 
         self.name = plugin_spec.name
+        self.repo = plugin_spec.repo
         self.owner = plugin_spec.owner
         self.version = parse(latest_commit["timestamp"]).date()
         self.description = (repo_info.get("description") or "").replace('"', '\\"')
