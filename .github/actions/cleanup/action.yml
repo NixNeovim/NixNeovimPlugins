@@ -10,7 +10,7 @@ runs:
         sort -o ./blacklist.txt ./blacklist.txt
         # remove all files that are in my blacklist
         echo "$(comm -23 ./manifest.txt ./blacklist.txt)" > ./manifest.txt
-    - uses: cachix/install-nix-action@v20
+    - uses: cachix/install-nix-action@v26
       with:
         github_access_token: ${{ github.token }}
     - name: Backup vim-plugins.nix # TODO: workaround: if vim-plugins is broken, all 'nix run' actions will fail
