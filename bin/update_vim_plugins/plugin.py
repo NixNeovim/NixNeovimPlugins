@@ -26,9 +26,12 @@ class VimPlugin:
     description: str = "No description"
     homepage: str
     license: License
-    source_line: str
     checked: date = datetime.now().date()
     deprecated: str | None = None
+
+    @property
+    def id(self) -> str:
+        return f"{self.owner}-{self.repo}"
 
     def to_nix(self):
         """Return the nix expression for this plugin."""
@@ -41,16 +44,14 @@ class VimPlugin:
         else:
             warning = ""
 
-
-
-        return f'/* Generated from: {self.source_line} */ {self.name} = {warning} buildVimPlugin {{ pname = "{self.name}";  version = "{self.version}"; src = {self.source.get_nix_expression()}; meta = {meta}; }};'
+        return f'/* Generated from: {self.id} */ {self.name} = {warning} buildVimPlugin {{ pname = "{self.name}";  version = "{self.version}"; src = {self.source.get_nix_expression()}; meta = {meta}; }};'
 
     def to_json(self):
         """Serizalize the plugin to json"""
         return jsonpickle.encode(self)
 
     def to_markdown(self):
-        link = f"[{self.source_line}]({self.homepage})"
+        link = f"[{self.id}]({self.homepage})"
         version = f"{self.version}"
         package_name = f"{self.name}"
 
@@ -92,7 +93,6 @@ class GitHubPlugin(VimPlugin):
         self.description = (repo_info.get("description") or "").replace('"', '\\"')
         self.homepage = repo_info["html_url"]
         self.license = plugin_spec.license or License.from_spdx_id((repo_info.get("license") or {}).get("spdx_id"))
-        self.source_line = plugin_spec.line
         self.deprecated = plugin_spec.deprecated
 
     def _api_call(self, path: str, token: str | None = _get_github_token()):
@@ -125,7 +125,6 @@ class GitlabPlugin(VimPlugin):
         self.description = (repo_info.get("description") or "").replace('"', '\\"')
         self.homepage = repo_info["web_url"]
         self.license = plugin_spec.license or License.from_spdx_id(repo_info.get("license", {}).get("key"))
-        self.source_line = plugin_spec.line
         self.deprecated = plugin_spec.deprecated
 
     def _api_call(self, path: str) -> dict:
@@ -163,7 +162,6 @@ class SourceHutPlugin(VimPlugin):
         self.homepage = f"https://git.sr.ht/~{plugin_spec.owner}/{plugin_spec.repo}"
         self.source = GitSource(self.homepage, sha)
         self.license = plugin_spec.license or License.UNKNOWN  # cannot be determined via API
-        self.source_line = plugin_spec.line
 
     def _api_call(self, path: str, token: str | None = _get_sourcehut_token()):
         """Call the SourceHut API."""

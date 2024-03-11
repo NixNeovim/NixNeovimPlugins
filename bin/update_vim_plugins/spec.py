@@ -99,13 +99,11 @@ class PluginSpec:
 
         marked_duplicate = yaml.get("duplicate", False) # TODO: remove? still needed?
 
-        line = ""
 
         return cls(
             repository_host,
             owner=owner,
             repo=repo,
-            line=line,
             branch=branch,
             custom_name=custom_name,
             license=license,
@@ -152,7 +150,7 @@ class PluginSpec:
         repository_host: RepositoryHost,
         owner: str,
         repo: str,
-        line: str,
+        line: str | None = None,
         branch: str | None = None,
         custom_name: str | None = None,
         license: str | None = None,

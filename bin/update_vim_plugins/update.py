@@ -119,7 +119,7 @@ class UpdateCommand(Command):
             data = json.load(json_file)
 
             for plugin in plugins:
-                data.update({f"{plugin.source_line}": plugin.to_json()})
+                data.update({f"{plugin.id}": plugin.to_json()})
 
             json_file.seek(0)
             json_file.write(json.dumps(data, indent=2, sort_keys=True))
@@ -131,7 +131,7 @@ class UpdateCommand(Command):
         for i, plugin in enumerate(plugins):
             for p in plugins[i+1:]:
                 if plugin.name == p.name:
-                    self.line(f"<error>Error:</error> The following two lines produce the same plugin name:\n - {plugin.source_line}\n - {p.source_line}\n -> {p.name}")
+                    self.line(f"<error>Error:</error> The following two definitions produce the same plugin name:\n - {plugin}\n - {p}\n -> {p.name}")
                     error = True
 
         # We want to exit if the resulting nix file would be broken
