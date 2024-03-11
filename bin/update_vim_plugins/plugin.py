@@ -52,7 +52,8 @@ class VimPlugin:
         link = f"[{self.id}]({self.homepage})"
         version = f"{self.version}"
         package_name = f"{self.name}"
-        warning = f"{self.warning}"
+
+        warning = f"{self.warning or ''}"
 
         return f"| {link} | {version} | `{package_name}` | {warning}"
 
