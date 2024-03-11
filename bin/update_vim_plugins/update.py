@@ -49,9 +49,9 @@ class UpdateCommand(Command):
                 data = json.load(json_file)
 
                 known_specs = list(filter(lambda x: x.id in data, spec_list))
-                known_plugins = [ jsonpickle.decode(data[x.line]) for x in known_specs ]
+                known_plugins = [ jsonpickle.decode(data[x.id]) for x in known_specs ]
 
-                spec_list = list(filter(lambda x: x.line not in data, spec_list))
+                spec_list = list(filter(lambda x: x.id not in data, spec_list))
 
         if self.option("dry-run"):
             self.line("<comment>These plugins would be updated</comment>")
