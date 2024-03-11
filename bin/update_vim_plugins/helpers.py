@@ -91,6 +91,7 @@ def write_manifest_yaml_from_spec(specs: list[PluginSpec]):
     #  print(y)
     with open(MANIFEST_YAML, "w") as file:
         file.write(y)
+        file.write("\n")
 
         #  specs = sorted(set(specs), key=lambda x: x.lower())
         #  specs = [ p for p in specs ]

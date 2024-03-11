@@ -54,9 +54,9 @@ class VimPlugin:
         link = f"[{self.id}]({self.homepage})"
         version = f"{self.version}"
         package_name = f"{self.name}"
-        hints = f"{}"
+        warning = f"{self.warning}"
 
-        return f"| {link} | {version} | `{package_name}` | {hints}"
+        return f"| {link} | {version} | `{package_name}` | {warning}"
 
     def __lt__(self, o: object) -> bool:
         if not isinstance(o, VimPlugin):
