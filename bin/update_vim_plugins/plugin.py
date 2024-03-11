@@ -79,7 +79,9 @@ class GitHubPlugin(VimPlugin):
     def __init__(self, plugin_spec: PluginSpec) -> None:
         """Initialize a GitHubPlugin."""
 
-        full_name = f"{plugin_spec.owner}/{plugin_spec.repo}"
+        owner = plugin_spec.owner
+        repo = plugin_spec.repo
+        full_name = f"{owner}/{repo}"
         repo_info = self._api_call(f"repos/{full_name}")
         default_branch = plugin_spec.branch or repo_info["default_branch"]
         api_callback = self._api_call(f"repos/{full_name}/commits/{default_branch}")
@@ -87,7 +89,8 @@ class GitHubPlugin(VimPlugin):
         sha = api_callback["sha"]
 
         self.name = plugin_spec.name
-        self.owner = plugin_spec.owner
+        self.repo = repo
+        self.owner = owner
         self.version = parse(latest_commit["committer"]["date"]).date()
         self.source = UrlSource(f"https://github.com/{full_name}/archive/{sha}.tar.gz")
         self.description = (repo_info.get("description") or "").replace('"', '\\"')
