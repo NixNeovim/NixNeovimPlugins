@@ -5816,6 +5816,22 @@
     };
   };
   /*
+  Generated from: kawre/leetcode.nvim
+  */
+  leetcode-nvim = buildVimPlugin {
+    pname = "leetcode-nvim";
+    version = "2024-03-14";
+    src = fetchurl {
+      url = "https://github.com/kawre/leetcode.nvim/archive/765cc76df77072e3ff4c3fdc256b9a244af73b6d.tar.gz";
+      sha256 = "1792zmhf8fp0a7qj2km6rzpg6h7r1vi4hkqn8vd26mxfabwphvz5";
+    };
+    meta = with lib; {
+      description = "A Neovim plugin enabling you to solve LeetCode problems.";
+      homepage = "https://github.com/kawre/leetcode.nvim";
+      license = with licenses; [mit];
+    };
+  };
+  /*
   Generated from: mrjones2014/legendary.nvim
   */
   legendary-nvim = buildVimPlugin {
