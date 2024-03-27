@@ -377,6 +377,7 @@ kaiuri/nvim-juliana
 kana/vim-textobj-indent
 karb94/neoscroll.nvim
 Kasama/nvim-custom-diagnostic-highlight
+kawre/leetcode.nvim
 kazhala/close-buffers.nvim
 kdheepak/cmp-latex-symbols
 kdheepak/lazygit.nvim
