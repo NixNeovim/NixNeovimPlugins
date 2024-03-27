@@ -59,17 +59,19 @@ More info on using neovim with nix can be found here: [NixOS Neovim](https://nix
 
 ### How to add a new plugin
 
-#### 1. Add the plugin to manifest.txt:
+#### 1. Add the plugin to manifest.yaml:
+
+The new yaml format has the following format
 
 ```
-# Examples
-
-haringsrob/nvim_context_vt
-sourcehut:henriquehbr/ataraxis.lua
-gitlab:yorickpeterse/nvim-pqf
-williamboman/mason.nvim:45b9a4da776d9fb017960b3ac7241161fb7bc578 
-foo/bar::baz                   --> renamed to baz
-foo/bar:dev                    --> using dev branch
+- owner: nvim-telescope
+  repo: telescope.nvim
+  # the following keys are optional
+  branch: ... # explicitly select branch
+  custom_name: ... # set custom name, used to fix name clashes
+  license: ... # specify license
+  commit: ... # specify commit to use, can be used when newest version is broken
+  warning: ... # add a waning that will be displayed when using the plugin, will also be visible in plugins.md
 ```
 
 Supported are Github (default), SourceHut, and GitLab.

@@ -11,14 +11,15 @@ class CleanUpCommand(Command):
         """Main command function"""
 
         # all cleaning up will be done during reading and writing automatically
-        manifest = read_manifest_to_spec()
+        #  manifest = read_manifest_to_spec()
+        manifest = read_manifest_yaml_to_spec()
         blacklist = read_blacklist_to_spec()
 
         new_manifest = [ spec for spec in manifest if spec not in blacklist ]
 
         new_manifest_filterd = self.filter_renamed(new_manifest)
 
-        write_manifest_from_spec(new_manifest_filterd)
+        write_manifest_yaml_from_spec(new_manifest_filterd)
 
         self.line("<comment>Done</comment>")
 

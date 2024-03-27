@@ -34,7 +34,8 @@ class UpdateCommand(Command):
     def handle(self):
         """Main command function"""
 
-        self.specs = read_manifest_to_spec()
+        #  self.specs = read_manifest_to_spec()
+        self.specs = read_manifest_yaml_to_spec()
 
         if self.option("all"):
             # update all plugins
@@ -47,10 +48,10 @@ class UpdateCommand(Command):
             with open(JSON_FILE, "r") as json_file:
                 data = json.load(json_file)
 
-                known_specs = list(filter(lambda x: x.line in data, spec_list))
-                known_plugins = [ jsonpickle.decode(data[x.line]) for x in known_specs ]
+                known_specs = list(filter(lambda x: x.id in data, spec_list))
+                known_plugins = [ jsonpickle.decode(data[x.id]) for x in known_specs ]
 
-                spec_list = list(filter(lambda x: x.line not in data, spec_list))
+                spec_list = list(filter(lambda x: x.id not in data, spec_list))
 
         if self.option("dry-run"):
             self.line("<comment>These plugins would be updated</comment>")
@@ -79,7 +80,7 @@ class UpdateCommand(Command):
         self.write_plugins_json(processed_plugins)
 
         # generate output
-        self.write_plugins_nix(processed_plugins)
+        self.write_plugins(processed_plugins)
 
         self.write_plugins_markdown(processed_plugins)
 
@@ -92,7 +93,7 @@ class UpdateCommand(Command):
 
         self.line(f"<info>Updating plugins.md</info>")
 
-        header = f" - Plugin count: {len(plugins)}\n\n| Repo | Last Update | Nix package name |\n|:---|:---|:---|\n"
+        header = f" - Plugin count: {len(plugins)}\n\n| Repo | Last Update | Nix package name | warnings | \n|:---|:---|:---|:---|\n"
 
         with open(PLUGINS_LIST_FILE, "w") as file:
             file.write(header)
@@ -100,27 +101,14 @@ class UpdateCommand(Command):
                 file.write(f"{plugin.to_markdown()}\n")
 
 
-    def write_plugins_nix(self, plugins):
+    def write_plugins(self, plugins):
         self.line(f"<info>Generating nix output</info>")
 
-        plugins.sort()
-
-        header = "{ lib, buildVimPlugin, fetchurl, fetchgit }: {"
-        footer = "}"
-
-        with open(PKGS_FILE, "w") as file:
-            file.write(header)
-            for plugin in plugins:
-                file.write(f"{plugin.to_nix()}\n")
-            file.write(footer)
+        write_plugins_nix(plugins)
 
         self.line(f"<info>Formatting nix output</info>")
 
-        subprocess.run(
-            ["alejandra", PKGS_FILE],
-            stdout=subprocess.DEVNULL,
-            stderr=subprocess.DEVNULL,
-        )
+        format_nix_output()
 
     def write_plugins_json(self, plugins):
         self.line(f"<info>Storing results in .plugins.json</info>")
@@ -131,7 +119,7 @@ class UpdateCommand(Command):
             data = json.load(json_file)
 
             for plugin in plugins:
-                data.update({f"{plugin.source_line}": plugin.to_json()})
+                data.update({f"{plugin.id}": plugin.to_json()})
 
             json_file.seek(0)
             json_file.write(json.dumps(data, indent=2, sort_keys=True))
@@ -143,7 +131,7 @@ class UpdateCommand(Command):
         for i, plugin in enumerate(plugins):
             for p in plugins[i+1:]:
                 if plugin.name == p.name:
-                    self.line(f"<error>Error:</error> The following two lines produce the same plugin name:\n - {plugin.source_line}\n - {p.source_line}\n -> {p.name}")
+                    self.line(f"<error>Error:</error> The following two definitions produce the same plugin name:\n - {plugin}\n - {p}\n -> {p.name}")
                     error = True
 
         # We want to exit if the resulting nix file would be broken
@@ -153,7 +141,7 @@ class UpdateCommand(Command):
 
 
 
-    def generate_plugin(self, spec, i, size):
+    def generate_plugin(self, spec: PluginSpec, i, size):
         debug_string = ""
 
         processed_plugin = None
@@ -169,7 +157,7 @@ class UpdateCommand(Command):
             with open(JSON_FILE, "r") as json_file:
                 data = json.load(json_file)
 
-            plugin_json = data.get(spec.line)
+            plugin_json = data.get(spec.id)
             if plugin_json:
                 vim_plugin = jsonpickle.decode(plugin_json)
                 processed_plugin = vim_plugin
@@ -195,7 +183,7 @@ class UpdateCommand(Command):
         with ThreadPoolExecutor() as executor:
             futures = [executor.submit(self.generate_plugin, spec, i, size) for i, spec in enumerate(spec_list)]
             results = [future.result() for future in as_completed(futures)]
-        
+
         processed_plugins = [ r[0] for r in results ]
         failed_plugins = [ r[1] for r in results ]
         failed_but_known = [ r[2] for r in results ]
