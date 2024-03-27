@@ -5,7 +5,7 @@
   fetchgit,
 }: {
   /*
-  Generated from: 0styx0-abbreinder.nvim
+  Generated from: 0styx0/abbreinder.nvim
   */
   abbreinder-nvim = buildVimPlugin {
     pname = "abbreinder-nvim";
@@ -20,8 +20,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: 0styx0-abbremand.nvim
+  Generated from: 0styx0/abbremand.nvim
   */
   abbremand-nvim = buildVimPlugin {
     pname = "abbremand-nvim";
@@ -36,8 +37,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: roobert-action-hints.nvim
+  Generated from: roobert/action-hints.nvim
   */
   action-hints-nvim = buildVimPlugin {
     pname = "action-hints-nvim";
@@ -52,8 +54,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: aznhe21-actions-preview.nvim
+  Generated from: aznhe21/actions-preview.nvim
   */
   actions-preview-nvim = buildVimPlugin {
     pname = "actions-preview-nvim";
@@ -68,15 +71,16 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: roobert-activate.nvim
+  Generated from: roobert/activate.nvim
   */
   activate-nvim = buildVimPlugin {
     pname = "activate-nvim";
-    version = "2024-03-10";
+    version = "2024-03-23";
     src = fetchurl {
-      url = "https://github.com/roobert/activate.nvim/archive/a3f9c7fa56169cd9f838a33ea841982e01ab7787.tar.gz";
-      sha256 = "1c4d7bbfzxz681i4q03dg15psrvz5pz3dsh0sww6n5vy7acyb58q";
+      url = "https://github.com/roobert/activate.nvim/archive/e5f099b9a02266a779470ed313d7b93ecef371b8.tar.gz";
+      sha256 = "10zpv5yyhlpim0hnmfwvjhs56xnj7hwd63lzf9gx73liixix9yca";
     };
     meta = with lib; {
       description = "🚀 Activate is a plugin installation system for Neovim";
@@ -84,15 +88,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: aaronhallaert-advanced-git-search.nvim
+  Generated from: aaronhallaert/advanced-git-search.nvim
   */
   advanced-git-search-nvim = buildVimPlugin {
     pname = "advanced-git-search-nvim";
-    version = "2024-01-21";
+    version = "2024-03-20";
     src = fetchurl {
-      url = "https://github.com/aaronhallaert/advanced-git-search.nvim/archive/98c87741278345edd15914862ef3886c9b055f6f.tar.gz";
-      sha256 = "1wxdxxwl64dzwa1bi794x0c4yrh187z47djzbknal4i5h7xp2n43";
+      url = "https://github.com/aaronhallaert/advanced-git-search.nvim/archive/36a380a155d059651855e50463f70cca61def4c2.tar.gz";
+      sha256 = "03xg6vc2lp4gp1pmk84nyx7sp94awyi8f2z5fipf9x2ahwmgsa2x";
     };
     meta = with lib; {
       description = "Search your git history by commit message, content and author in Neovim";
@@ -100,8 +105,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: Mofiqul-adwaita.nvim
+  Generated from: Mofiqul/adwaita.nvim
   */
   adwaita-nvim = buildVimPlugin {
     pname = "adwaita-nvim";
@@ -116,15 +122,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: stevearc-aerial.nvim
+  Generated from: stevearc/aerial.nvim
   */
   aerial-nvim = buildVimPlugin {
     pname = "aerial-nvim";
-    version = "2024-03-02";
+    version = "2024-03-24";
     src = fetchurl {
-      url = "https://github.com/stevearc/aerial.nvim/archive/31fbd369bbbeb53080c4b1ead9e76be322725ef5.tar.gz";
-      sha256 = "1ndnjsdfphp8xxng8a9jk8fnwxs3nbva4djh874p063lqvja7dng";
+      url = "https://github.com/stevearc/aerial.nvim/archive/51a07949abf169b4cad30e14c165ac1ec0ce4e6f.tar.gz";
+      sha256 = "0n3i90h870af1wx2jhwliff139ihjd2fii693zcrwhsqjrhyh4ym";
     };
     meta = with lib; {
       description = "Neovim plugin for a code outline window";
@@ -132,8 +139,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: desdic-agrolens.nvim
+  Generated from: desdic/agrolens.nvim
   */
   agrolens-nvim = buildVimPlugin {
     pname = "agrolens-nvim";
@@ -148,8 +156,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: yagiziskirik-AirSupport.nvim
+  Generated from: yagiziskirik/AirSupport.nvim
   */
   AirSupport-nvim = buildVimPlugin {
     pname = "AirSupport-nvim";
@@ -164,8 +173,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: goolord-alpha-nvim
+  Generated from: goolord/alpha-nvim
   */
   alpha-nvim = buildVimPlugin {
     pname = "alpha-nvim";
@@ -180,8 +190,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: anuvyklack-animation.nvim
+  Generated from: anuvyklack/animation.nvim
   */
   animation-nvim = buildVimPlugin {
     pname = "animation-nvim";
@@ -196,8 +207,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: Olical-aniseed
+  Generated from: Olical/aniseed
   */
   aniseed = buildVimPlugin {
     pname = "aniseed";
@@ -212,8 +224,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: aPeoplesCalendar-apc.nvim
+  Generated from: aPeoplesCalendar/apc.nvim
   */
   apc-nvim = buildVimPlugin {
     pname = "apc-nvim";
@@ -228,8 +241,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: adisen99-apprentice.nvim
+  Generated from: adisen99/apprentice.nvim
   */
   apprentice-nvim = buildVimPlugin {
     pname = "apprentice-nvim";
@@ -244,8 +258,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: FrenzyExists-aquarium-vim
+  Generated from: FrenzyExists/aquarium-vim
   */
   aquarium-vim = buildVimPlugin {
     pname = "aquarium-vim";
@@ -260,15 +275,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: rockyzhang24-arctic.nvim
+  Generated from: rockyzhang24/arctic.nvim
   */
   arctic-nvim = buildVimPlugin {
     pname = "arctic-nvim";
-    version = "2024-02-22";
+    version = "2024-03-20";
     src = fetchurl {
-      url = "https://github.com/rockyzhang24/arctic.nvim/archive/d056c73f7b77dc2a8c2285542fe0b934214c88f5.tar.gz";
-      sha256 = "1nyhp27cz50fkngf0yrcg7p6z1idb18f2p15zxrsg3xj5752qf9k";
+      url = "https://github.com/rockyzhang24/arctic.nvim/archive/1ed00a7a78c3dfdd39b2d5b223822a160bb4b843.tar.gz";
+      sha256 = "1i95j8r469vf5ap10idlji1pmafi30hagkbmhba03xal2zc7byb8";
     };
     meta = with lib; {
       description = "Neovim color schemes ported from VSCode Dark+ and Dark Modern with Treesitter and semantic token highlighting";
@@ -276,8 +292,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: jim-at-jibba-ariake-vim-colors
+  Generated from: jim-at-jibba/ariake-vim-colors
   */
   ariake-vim-colors = buildVimPlugin {
     pname = "ariake-vim-colors";
@@ -292,8 +309,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: tjdevries-astronauta.nvim
+  Generated from: tjdevries/astronauta.nvim
   */
   astronauta-nvim = buildVimPlugin {
     pname = "astronauta-nvim";
@@ -308,15 +326,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: skywind3000-asyncrun.vim
+  Generated from: skywind3000/asyncrun.vim
   */
   asyncrun-vim = buildVimPlugin {
     pname = "asyncrun-vim";
-    version = "2024-03-05";
+    version = "2024-03-22";
     src = fetchurl {
-      url = "https://github.com/skywind3000/asyncrun.vim/archive/c572812e1d32c064859d8e9790c05e09f78ce508.tar.gz";
-      sha256 = "1xr6l99b7p06cfl7v77qxxiipfkanmv4bl0i7j63jabwbwwq2aix";
+      url = "https://github.com/skywind3000/asyncrun.vim/archive/014e2e2fe51ad4b1a774cffa0f12887767d952eb.tar.gz";
+      sha256 = "17d8302mlbw91apj3i85nc8w4yxgvhnjqiyidg0gh6fmsqd5w0n0";
     };
     meta = with lib; {
       description = ":rocket: Run Async Shell Commands in Vim 8.0 / NeoVim and Output to the Quickfix Window !!";
@@ -324,8 +343,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: m-demare-attempt.nvim
+  Generated from: m-demare/attempt.nvim
   */
   attempt-nvim = buildVimPlugin {
     pname = "attempt-nvim";
@@ -340,15 +360,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ray-x-aurora
+  Generated from: ray-x/aurora
   */
   aurora = buildVimPlugin {
     pname = "aurora";
-    version = "2023-11-25";
+    version = "2024-03-20";
     src = fetchurl {
-      url = "https://github.com/ray-x/aurora/archive/6157dffe86f20d891df723c0c6734676295b01e0.tar.gz";
-      sha256 = "024gnz16jjj3sxxkf3sfp7rz127hh1gw2069ygkb5cs0qlxndg8p";
+      url = "https://github.com/ray-x/aurora/archive/f712bacedb99b862f558540a1d67ec5b7dcee30b.tar.gz";
+      sha256 = "0a9k4gnzxri8gg682255wc05vrxi1v90afrs3glsq4pv9jq2zc6p";
     };
     meta = with lib; {
       description = "A vivid dark theme for (Neo)Vim. Optimized for treesitter, LSP.";
@@ -356,8 +377,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: f-person-auto-dark-mode.nvim
+  Generated from: f-person/auto-dark-mode.nvim
   */
   auto-dark-mode-nvim = buildVimPlugin {
     pname = "auto-dark-mode-nvim";
@@ -372,8 +394,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: VidocqH-auto-indent.nvim
+  Generated from: VidocqH/auto-indent.nvim
   */
   auto-indent-nvim = buildVimPlugin {
     pname = "auto-indent-nvim";
@@ -388,8 +411,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: jghauser-auto-pandoc.nvim
+  Generated from: jghauser/auto-pandoc.nvim
   */
   auto-pandoc-nvim = buildVimPlugin {
     pname = "auto-pandoc-nvim";
@@ -404,8 +428,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: okuuva-auto-save.nvim
+  Generated from: okuuva/auto-save.nvim
   */
   auto-save-nvim = buildVimPlugin {
     pname = "auto-save-nvim";
@@ -420,8 +445,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: pocco81-auto-save.nvim
+  Generated from: pocco81/auto-save.nvim
   */
   auto-save-nvim-pocco81 = buildVimPlugin {
     pname = "auto-save-nvim-pocco81";
@@ -436,8 +462,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: rmagatti-auto-session
+  Generated from: rmagatti/auto-session
   */
   auto-session = buildVimPlugin {
     pname = "auto-session";
@@ -452,8 +479,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: m4xshen-autoclose.nvim
+  Generated from: m4xshen/autoclose.nvim
   */
   autoclose-nvim = buildVimPlugin {
     pname = "autoclose-nvim";
@@ -468,8 +496,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: mateuszwieloch-automkdir.nvim
+  Generated from: mateuszwieloch/automkdir.nvim
   */
   automkdir-nvim = buildVimPlugin {
     pname = "automkdir-nvim";
@@ -484,8 +513,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: antonk52-bad-practices.nvim
+  Generated from: antonk52/bad-practices.nvim
   */
   bad-practices-nvim = buildVimPlugin {
     pname = "bad-practices-nvim";
@@ -500,8 +530,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: m00qek-baleia.nvim
+  Generated from: m00qek/baleia.nvim
   */
   baleia-nvim = buildVimPlugin {
     pname = "baleia-nvim";
@@ -516,15 +547,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: ribru17-bamboo.nvim
+  Generated from: ribru17/bamboo.nvim
   */
   bamboo-nvim = buildVimPlugin {
     pname = "bamboo-nvim";
-    version = "2024-03-09";
+    version = "2024-03-16";
     src = fetchurl {
-      url = "https://github.com/ribru17/bamboo.nvim/archive/ca93b6193742f80330ace6d5e4e9f0f0480e0c45.tar.gz";
-      sha256 = "03flv6rz7smri7qwa8jhzg3q0r93gb5nvzrd94p0s6wc8mmxm1l3";
+      url = "https://github.com/ribru17/bamboo.nvim/archive/5c826c8ad27010ac2fcaf7deb4c36b16d00ef5a1.tar.gz";
+      sha256 = "0k1ax51vg97wp4h0sdzm26cpmv0sim0igzi1amqz6pb5gjfnjjkz";
     };
     meta = with lib; {
       description = "Warm Green Theme for Neovim and Beyond";
@@ -532,15 +564,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: romgrk-barbar.nvim
+  Generated from: romgrk/barbar.nvim
   */
   barbar-nvim = buildVimPlugin {
     pname = "barbar-nvim";
-    version = "2024-02-27";
+    version = "2024-03-13";
     src = fetchurl {
-      url = "https://github.com/romgrk/barbar.nvim/archive/1d6b1386abe97d1d8cba47eb9afa8a9f2d1bbe66.tar.gz";
-      sha256 = "1wxmc9wfsbzsma3lhishi0hn7n0ywwhd9sgwqssin1nva1ffrzs1";
+      url = "https://github.com/romgrk/barbar.nvim/archive/3c48b5edf61dda21ad41c514e53448fee366a824.tar.gz";
+      sha256 = "1vpc7ccm5jwks82rb6i3r4c2kf9rmijld8l6xq8sq296nc65v144";
     };
     meta = with lib; {
       description = "The neovim tabline plugin.";
@@ -548,8 +581,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: utilyre-barbecue.nvim
+  Generated from: utilyre/barbecue.nvim
   */
   barbecue-nvim = buildVimPlugin {
     pname = "barbecue-nvim";
@@ -564,8 +598,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: aliou-bats.vim
+  Generated from: aliou/bats.vim
   */
   bats-vim = buildVimPlugin {
     pname = "bats-vim";
@@ -580,8 +615,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: max397574-better-escape.nvim
+  Generated from: max397574/better-escape.nvim
   */
   better-escape-nvim = buildVimPlugin {
     pname = "better-escape-nvim";
@@ -596,8 +632,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: typicode-bg.nvim
+  Generated from: typicode/bg.nvim
   */
   bg-nvim = buildVimPlugin {
     pname = "bg-nvim";
@@ -612,8 +649,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: Wansmer-binary-swap.nvim
+  Generated from: Wansmer/binary-swap.nvim
   */
   binary-swap-nvim = buildVimPlugin {
     pname = "binary-swap-nvim";
@@ -628,8 +666,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: alanfortlink-blackjack.nvim
+  Generated from: alanfortlink/blackjack.nvim
   */
   blackjack-nvim = buildVimPlugin {
     pname = "blackjack-nvim";
@@ -644,8 +683,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: kyazdani42-blue-moon
+  Generated from: kyazdani42/blue-moon
   */
   blue-moon = buildVimPlugin {
     pname = "blue-moon";
@@ -660,8 +700,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: ariel-frischer-bmessages.nvim
+  Generated from: ariel-frischer/bmessages.nvim
   */
   bmessages-nvim = buildVimPlugin {
     pname = "bmessages-nvim";
@@ -676,8 +717,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: rockerBOO-boo-colorscheme-nvim
+  Generated from: rockerBOO/boo-colorscheme-nvim
   */
   boo-colorscheme-nvim = buildVimPlugin {
     pname = "boo-colorscheme-nvim";
@@ -692,8 +734,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: crusj-bookmarks.nvim
+  Generated from: crusj/bookmarks.nvim
   */
   bookmarks-crusj = buildVimPlugin {
     pname = "bookmarks-crusj";
@@ -708,8 +751,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: tomasky-bookmarks.nvim
+  Generated from: tomasky/bookmarks.nvim
   */
   bookmarks-tomasky = buildVimPlugin {
     pname = "bookmarks-tomasky";
@@ -724,8 +768,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: nat-418-boole.nvim
+  Generated from: nat-418/boole.nvim
   */
   boole-nvim = buildVimPlugin {
     pname = "boole-nvim";
@@ -740,8 +785,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: lstwn-broot.vim
+  Generated from: lstwn/broot.vim
   */
   broot-vim = buildVimPlugin {
     pname = "broot-vim";
@@ -756,8 +802,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: datwaft-bubbly.nvim
+  Generated from: datwaft/bubbly.nvim
   */
   bubbly-nvim = buildVimPlugin {
     pname = "bubbly-nvim";
@@ -772,8 +819,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: famiu-bufdelete.nvim
+  Generated from: famiu/bufdelete.nvim
   */
   bufdelete-nvim = buildVimPlugin {
     pname = "bufdelete-nvim";
@@ -788,8 +836,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: j-morano-buffer_manager.nvim
+  Generated from: j-morano/buffer_manager.nvim
   */
   buffer-manager-nvim = buildVimPlugin {
     pname = "buffer-manager-nvim";
@@ -804,8 +853,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: roobert-bufferline-cycle-windowless.nvim
+  Generated from: roobert/bufferline-cycle-windowless.nvim
   */
   bufferline-cycle-windowless-nvim = buildVimPlugin {
     pname = "bufferline-cycle-windowless-nvim";
@@ -820,8 +870,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: akinsho-bufferline.nvim
+  Generated from: akinsho/bufferline.nvim
   */
   bufferline-nvim = buildVimPlugin {
     pname = "bufferline-nvim";
@@ -836,8 +887,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: tomiis4-BufferTabs.nvim
+  Generated from: tomiis4/BufferTabs.nvim
   */
   BufferTabs-nvim = buildVimPlugin {
     pname = "BufferTabs-nvim";
@@ -852,8 +904,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: sQVe-bufignore.nvim
+  Generated from: sQVe/bufignore.nvim
   */
   bufignore-nvim = buildVimPlugin {
     pname = "bufignore-nvim";
@@ -868,8 +921,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: numToStr-BufOnly.nvim
+  Generated from: numToStr/BufOnly.nvim
   */
   BufOnly-nvim = buildVimPlugin {
     pname = "BufOnly-nvim";
@@ -884,8 +938,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: dkarter-bullets.vim
+  Generated from: dkarter/bullets.vim
   */
   bullets-vim = buildVimPlugin {
     pname = "bullets-vim";
@@ -900,8 +955,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: hiberabyss-bzlops.vim
+  Generated from: hiberabyss/bzlops.vim
   */
   bzlops-vim = buildVimPlugin {
     pname = "bzlops-vim";
@@ -916,8 +972,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: yashguptaz-calvera-dark.nvim
+  Generated from: yashguptaz/calvera-dark.nvim
   */
   calvera-dark-nvim = buildVimPlugin {
     pname = "calvera-dark-nvim";
@@ -932,8 +989,9 @@
       license = with licenses; [gpl2Only];
     };
   };
+
   /*
-  Generated from: ellisonleao-carbon-now.nvim
+  Generated from: ellisonleao/carbon-now.nvim
   */
   carbon-now-nvim = buildVimPlugin {
     pname = "carbon-now-nvim";
@@ -948,15 +1006,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: SidOfc-carbon.nvim
+  Generated from: SidOfc/carbon.nvim
   */
   carbon-nvim = buildVimPlugin {
     pname = "carbon-nvim";
-    version = "2023-12-10";
+    version = "2024-03-18";
     src = fetchurl {
-      url = "https://github.com/SidOfc/carbon.nvim/archive/9670efb032c4a43c5aa32a0a7ae56afdbf3c275c.tar.gz";
-      sha256 = "1n5886vghry15lib9gfbkjj9k7l1yf2fzjl84qv1lhjfn7micp7m";
+      url = "https://github.com/SidOfc/carbon.nvim/archive/b4f20d4ed231498bc385e0c8cf8eb15a40b833e2.tar.gz";
+      sha256 = "0iz70smmw2nvcpha6livdi9rhhbhdncbrxvqq5cg6xd97m7ikbm0";
     };
     meta = with lib; {
       description = "The simple directory tree viewer for Neovim written in Lua.";
@@ -964,8 +1023,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: jbyuki-carrot.nvim
+  Generated from: jbyuki/carrot.nvim
   */
   carrot-nvim = buildVimPlugin {
     pname = "carrot-nvim";
@@ -980,8 +1040,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: Nexmean-caskey.nvim
+  Generated from: Nexmean/caskey.nvim
   */
   caskey-nvim = buildVimPlugin {
     pname = "caskey-nvim";
@@ -996,15 +1057,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: catppuccin-nvim
+  Generated from: catppuccin/nvim
   */
   catppuccin = buildVimPlugin {
     pname = "catppuccin";
-    version = "2024-03-05";
+    version = "2024-03-26";
     src = fetchurl {
-      url = "https://github.com/catppuccin/nvim/archive/045e3499d9ec8d84635fb08877ae44fd33f6a38d.tar.gz";
-      sha256 = "1m7g0mxjlbqkqqyahkyhjadq0cpm5p2qy69gk1wpzzwp5zxriz07";
+      url = "https://github.com/catppuccin/nvim/archive/07679af1af4f446655682ee2557b5840ac551504.tar.gz";
+      sha256 = "0prghq2x61qchwb4za3qd5hizfvdspqim31a2az1703q3w7pxr0n";
     };
     meta = with lib; {
       description = "🍨 Soothing pastel theme for (Neo)vim";
@@ -1012,15 +1074,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: uga-rosa-ccc.nvim
+  Generated from: uga-rosa/ccc.nvim
   */
   ccc-nvim = buildVimPlugin {
     pname = "ccc-nvim";
-    version = "2024-03-08";
+    version = "2024-03-27";
     src = fetchurl {
-      url = "https://github.com/uga-rosa/ccc.nvim/archive/f3d9d31aab7990d50ae6922fd7c1e3a9eb7da183.tar.gz";
-      sha256 = "047q9fa33k9rqybj3209dimc2b7ckqab6fzqqd75rmlx967izbwi";
+      url = "https://github.com/uga-rosa/ccc.nvim/archive/f9df50bf62444c174efa8209313fd94a16a9ee90.tar.gz";
+      sha256 = "00h7sr1sjxjqj8jsacx6k6ckrrxi5vn79bhyw6m291gpbdw7vgmi";
     };
     meta = with lib; {
       description = "Color picker and highlighter plugin for Neovim.";
@@ -1028,8 +1091,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ranjithshegde-ccls.nvim
+  Generated from: ranjithshegde/ccls.nvim
   */
   ccls-nvim = buildVimPlugin {
     pname = "ccls-nvim";
@@ -1044,8 +1108,9 @@
       license = with licenses; [gpl2Only];
     };
   };
+
   /*
-  Generated from: Eandrju-cellular-automaton.nvim
+  Generated from: Eandrju/cellular-automaton.nvim
   */
   cellular-automaton-nvim = buildVimPlugin {
     pname = "cellular-automaton-nvim";
@@ -1060,15 +1125,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ms-jpq-chadtree
+  Generated from: ms-jpq/chadtree
   */
   chadtree = buildVimPlugin {
     pname = "chadtree";
-    version = "2024-03-03";
+    version = "2024-03-11";
     src = fetchurl {
-      url = "https://github.com/ms-jpq/chadtree/archive/b1bad283a51098f08bf09fb4a61a569102366341.tar.gz";
-      sha256 = "00h075fbncv6lcxv5yba2lyx0jngbsyw8j054gf7xxp6v638pc6m";
+      url = "https://github.com/ms-jpq/chadtree/archive/d2afbb28ed1b6de119fe7c1d4fe248da0819b4d8.tar.gz";
+      sha256 = "0hk720m6sf41h6528h0ddajak2wqnh57vc67v1c3za6ic0fjmysi";
     };
     meta = with lib; {
       description = "File manager for Neovim. Better than NERDTree.";
@@ -1076,8 +1142,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: saifulapm-chartoggle.nvim
+  Generated from: saifulapm/chartoggle.nvim
   */
   chartoggle-nvim = buildVimPlugin {
     pname = "chartoggle-nvim";
@@ -1092,8 +1159,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: jackMort-ChatGPT.nvim
+  Generated from: jackMort/ChatGPT.nvim
   */
   ChatGPT-nvim = buildVimPlugin {
     pname = "ChatGPT-nvim";
@@ -1108,8 +1176,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: sudormrfbin-cheatsheet.nvim
+  Generated from: sudormrfbin/cheatsheet.nvim
   */
   cheatsheet-nvim = buildVimPlugin {
     pname = "cheatsheet-nvim";
@@ -1124,8 +1193,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: NTBBloodbath-cheovim
+  Generated from: NTBBloodbath/cheovim
   */
   cheovim = buildVimPlugin {
     pname = "cheovim";
@@ -1140,8 +1210,9 @@
       license = with licenses; [gpl2Only];
     };
   };
+
   /*
-  Generated from: skanehira-christmas.vim
+  Generated from: skanehira/christmas.vim
   */
   christmas-vim = buildVimPlugin {
     pname = "christmas-vim";
@@ -1156,15 +1227,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: declancm-cinnamon.nvim
+  Generated from: declancm/cinnamon.nvim
   */
   cinnamon-nvim = buildVimPlugin {
     pname = "cinnamon-nvim";
-    version = "2022-12-04";
+    version = "2024-03-21";
     src = fetchurl {
-      url = "https://github.com/declancm/cinnamon.nvim/archive/c406ffda3a0302f32c23b24ab756ea20467d6578.tar.gz";
-      sha256 = "1hsl39pk689rr58gv9slp4wrbpphwwi3lxwg3cnmjpngib5nabla";
+      url = "https://github.com/declancm/cinnamon.nvim/archive/559fe02fae00ffd78377e9c242b2faa25a428592.tar.gz";
+      sha256 = "1vs5z8ij31dxrglw333iivnrln5mrq65c9ixzbn6b1a3q1980w7f";
     };
     meta = with lib; {
       description = "Smooth scrolling for ANY movement command 🤯. A Neovim plugin written in Lua!";
@@ -1172,8 +1244,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: zootedb0t-citruszest.nvim
+  Generated from: zootedb0t/citruszest.nvim
   */
   citruszest-nvim = buildVimPlugin {
     pname = "citruszest-nvim";
@@ -1188,15 +1261,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: p00f-clangd_extensions.nvim
+  Generated from: p00f/clangd_extensions.nvim
   */
   clangd-extensions-nvim = buildVimPlugin {
     pname = "clangd-extensions-nvim";
-    version = "2023-10-15";
+    version = "2024-03-25";
     src = fetchurl {
-      url = "https://github.com/p00f/clangd_extensions.nvim/archive/34c8eaa12be192e83cd4865ce2375e9f53e728f2.tar.gz";
-      sha256 = "0qs0n7sw7vizzra29ai7sdirvm1p4gr94l5jv0wfwlvifv12zfdm";
+      url = "https://github.com/p00f/clangd_extensions.nvim/archive/2992ba8c13c2de41f91a7c7488bf1c48bcec31fe.tar.gz";
+      sha256 = "0qh5all6p7mxcwfwbxqs1cbbpal8pbkw6i4hyxip47l2d6fvi9hb";
     };
     meta = with lib; {
       description = "Clangd's off-spec features for neovim's LSP client. Use https://sr.ht/~p00f/clangd_extensions.nvim instead";
@@ -1204,8 +1278,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ekickx-clipboard-image.nvim
+  Generated from: ekickx/clipboard-image.nvim
   */
   clipboard-image-nvim = buildVimPlugin {
     pname = "clipboard-image-nvim";
@@ -1220,8 +1295,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: kazhala-close-buffers.nvim
+  Generated from: kazhala/close-buffers.nvim
   */
   close-buffers-nvim = buildVimPlugin {
     pname = "close-buffers-nvim";
@@ -1236,15 +1312,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: Civitasv-cmake-tools.nvim
+  Generated from: Civitasv/cmake-tools.nvim
   */
   cmake-tools-nvim = buildVimPlugin {
     pname = "cmake-tools-nvim";
-    version = "2024-02-02";
+    version = "2024-03-19";
     src = fetchurl {
-      url = "https://github.com/Civitasv/cmake-tools.nvim/archive/055d7bb37d5c4038ce1e400656b6504602934ce7.tar.gz";
-      sha256 = "0fpyqaqhkvr584qhk1fkkfvkbf60y40x1bg0id97vmkv5hksk5c1";
+      url = "https://github.com/Civitasv/cmake-tools.nvim/archive/a4cd0b3a2c8a166a54b36bc00579954426748959.tar.gz";
+      sha256 = "1z8x95rljqiigm645kgjlx0mv92b9dx5ds1x4bpdncgz71ws35pl";
     };
     meta = with lib; {
       description = "CMake integration in Neovim";
@@ -1252,8 +1329,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: notomo-cmdbuf.nvim
+  Generated from: notomo/cmdbuf.nvim
   */
   cmdbuf-nvim = buildVimPlugin {
     pname = "cmdbuf-nvim";
@@ -1268,8 +1346,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: felipelema-cmp-async-path
+  Generated from: felipelema/cmp-async-path
   */
   cmp-async-path = buildVimPlugin {
     pname = "cmp-async-path";
@@ -1284,8 +1363,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: hrsh7th-cmp-buffer
+  Generated from: hrsh7th/cmp-buffer
   */
   cmp-buffer = buildVimPlugin {
     pname = "cmp-buffer";
@@ -1300,8 +1380,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: hrsh7th-cmp-calc
+  Generated from: hrsh7th/cmp-calc
   */
   cmp-calc = buildVimPlugin {
     pname = "cmp-calc";
@@ -1316,8 +1397,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: vappolinario-cmp-clippy
+  Generated from: vappolinario/cmp-clippy
   */
   cmp-clippy = buildVimPlugin {
     pname = "cmp-clippy";
@@ -1332,15 +1414,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: hrsh7th-cmp-cmdline
+  Generated from: hrsh7th/cmp-cmdline
   */
   cmp-cmdline = buildVimPlugin {
     pname = "cmp-cmdline";
-    version = "2023-06-08";
+    version = "2024-03-22";
     src = fetchurl {
-      url = "https://github.com/hrsh7th/cmp-cmdline/archive/8ee981b4a91f536f52add291594e89fb6645e451.tar.gz";
-      sha256 = "0aakq3j6lvqkgdns67qi0py9533vf9wkwzy299rs62jhcn4qahyx";
+      url = "https://github.com/hrsh7th/cmp-cmdline/archive/d250c63aa13ead745e3a40f61fdd3470efde3923.tar.gz";
+      sha256 = "1gpfgpxdskm2dxs3vvk5gcxsrgnq473xr4qv8gkz0lzqx2i4d02w";
     };
     meta = with lib; {
       description = "nvim-cmp source for vim's cmdline";
@@ -1348,8 +1431,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: dmitmel-cmp-cmdline-history
+  Generated from: dmitmel/cmp-cmdline-history
   */
   cmp-cmdline-history = buildVimPlugin {
     pname = "cmp-cmdline-history";
@@ -1364,8 +1448,9 @@
       license = with licenses; [cc0];
     };
   };
+
   /*
-  Generated from: davidsierradz-cmp-conventionalcommits
+  Generated from: davidsierradz/cmp-conventionalcommits
   */
   cmp-conventionalcommits = buildVimPlugin {
     pname = "cmp-conventionalcommits";
@@ -1380,8 +1465,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: hrsh7th-cmp-copilot
+  Generated from: hrsh7th/cmp-copilot
   */
   cmp-copilot = buildVimPlugin {
     pname = "cmp-copilot";
@@ -1396,8 +1482,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: rcarriga-cmp-dap
+  Generated from: rcarriga/cmp-dap
   */
   cmp-dap = buildVimPlugin {
     pname = "cmp-dap";
@@ -1412,8 +1499,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: uga-rosa-cmp-dictionary
+  Generated from: uga-rosa/cmp-dictionary
   */
   cmp-dictionary = buildVimPlugin {
     pname = "cmp-dictionary";
@@ -1428,8 +1516,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: dmitmel-cmp-digraphs
+  Generated from: dmitmel/cmp-digraphs
   */
   cmp-digraphs = buildVimPlugin {
     pname = "cmp-digraphs";
@@ -1444,15 +1533,16 @@
       license = with licenses; [cc0];
     };
   };
+
   /*
-  Generated from: hrsh7th-cmp-emoji
+  Generated from: hrsh7th/cmp-emoji
   */
   cmp-emoji = buildVimPlugin {
     pname = "cmp-emoji";
-    version = "2024-03-05";
+    version = "2024-03-19";
     src = fetchurl {
-      url = "https://github.com/hrsh7th/cmp-emoji/archive/0acd702358230abeb6576769f7116e766bca28a0.tar.gz";
-      sha256 = "184xqi5bl6lg3q6agzmwymsmd9shan2jvxg0yc3j4gach6qhxdif";
+      url = "https://github.com/hrsh7th/cmp-emoji/archive/e8398e2adf512a03bb4e1728ca017ffeac670a9f.tar.gz";
+      sha256 = "1b3vlh6jwlbmr5bhpxs07kbc08lg97whda9cd5aay1xp6lv16q0h";
     };
     meta = with lib; {
       description = "nvim-cmp source for emoji";
@@ -1460,8 +1550,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: mtoohey31-cmp-fish
+  Generated from: mtoohey31/cmp-fish
   */
   cmp-fish = buildVimPlugin {
     pname = "cmp-fish";
@@ -1476,8 +1567,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: tzachar-cmp-fuzzy-buffer
+  Generated from: tzachar/cmp-fuzzy-buffer
   */
   cmp-fuzzy-buffer = buildVimPlugin {
     pname = "cmp-fuzzy-buffer";
@@ -1492,8 +1584,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: tzachar-cmp-fuzzy-path
+  Generated from: tzachar/cmp-fuzzy-path
   */
   cmp-fuzzy-path = buildVimPlugin {
     pname = "cmp-fuzzy-path";
@@ -1508,8 +1601,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: petertriho-cmp-git
+  Generated from: petertriho/cmp-git
   */
   cmp-git = buildVimPlugin {
     pname = "cmp-git";
@@ -1524,8 +1618,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: max397574-cmp-greek
+  Generated from: max397574/cmp-greek
   */
   cmp-greek = buildVimPlugin {
     pname = "cmp-greek";
@@ -1540,8 +1635,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: kdheepak-cmp-latex-symbols
+  Generated from: kdheepak/cmp-latex-symbols
   */
   cmp-latex-symbols = buildVimPlugin {
     pname = "cmp-latex-symbols";
@@ -1556,8 +1652,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: octaltree-cmp-look
+  Generated from: octaltree/cmp-look
   */
   cmp-look = buildVimPlugin {
     pname = "cmp-look";
@@ -1572,8 +1669,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: saadparwaiz1-cmp_luasnip
+  Generated from: saadparwaiz1/cmp_luasnip
   */
   cmp-luasnip = buildVimPlugin {
     pname = "cmp-luasnip";
@@ -1588,8 +1686,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: david-kunz-cmp-npm
+  Generated from: david-kunz/cmp-npm
   */
   cmp-npm = buildVimPlugin {
     pname = "cmp-npm";
@@ -1604,8 +1703,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: hrsh7th-cmp-nvim-lsp
+  Generated from: hrsh7th/cmp-nvim-lsp
   */
   cmp-nvim-lsp = buildVimPlugin {
     pname = "cmp-nvim-lsp";
@@ -1620,8 +1720,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: hrsh7th-cmp-nvim-lsp-document-symbol
+  Generated from: hrsh7th/cmp-nvim-lsp-document-symbol
   */
   cmp-nvim-lsp-document-symbol = buildVimPlugin {
     pname = "cmp-nvim-lsp-document-symbol";
@@ -1636,8 +1737,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: hrsh7th-cmp-nvim-lsp-signature-help
+  Generated from: hrsh7th/cmp-nvim-lsp-signature-help
   */
   cmp-nvim-lsp-signature-help = buildVimPlugin {
     pname = "cmp-nvim-lsp-signature-help";
@@ -1652,8 +1754,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: hrsh7th-cmp-nvim-lua
+  Generated from: hrsh7th/cmp-nvim-lua
   */
   cmp-nvim-lua = buildVimPlugin {
     pname = "cmp-nvim-lua";
@@ -1668,8 +1771,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: quangnguyen30192-cmp-nvim-ultisnips
+  Generated from: quangnguyen30192/cmp-nvim-ultisnips
   */
   cmp-nvim-ultisnips = buildVimPlugin {
     pname = "cmp-nvim-ultisnips";
@@ -1684,8 +1788,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: hrsh7th-cmp-omni
+  Generated from: hrsh7th/cmp-omni
   */
   cmp-omni = buildVimPlugin {
     pname = "cmp-omni";
@@ -1700,8 +1805,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: aspeddro-cmp-pandoc.nvim
+  Generated from: aspeddro/cmp-pandoc.nvim
   */
   cmp-pandoc-nvim = buildVimPlugin {
     pname = "cmp-pandoc-nvim";
@@ -1716,8 +1822,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: jc-doyle-cmp-pandoc-references
+  Generated from: jc-doyle/cmp-pandoc-references
   */
   cmp-pandoc-references = buildVimPlugin {
     pname = "cmp-pandoc-references";
@@ -1732,8 +1839,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: hrsh7th-cmp-path
+  Generated from: hrsh7th/cmp-path
   */
   cmp-path = buildVimPlugin {
     pname = "cmp-path";
@@ -1748,8 +1856,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: lukas-reineke-cmp-rg
+  Generated from: lukas-reineke/cmp-rg
   */
   cmp-rg = buildVimPlugin {
     pname = "cmp-rg";
@@ -1764,8 +1873,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: dcampos-cmp-snippy
+  Generated from: dcampos/cmp-snippy
   */
   cmp-snippy = buildVimPlugin {
     pname = "cmp-snippy";
@@ -1780,8 +1890,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: f3fora-cmp-spell
+  Generated from: f3fora/cmp-spell
   */
   cmp-spell = buildVimPlugin {
     pname = "cmp-spell";
@@ -1796,15 +1907,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: tzachar-cmp-tabnine
+  Generated from: tzachar/cmp-tabnine
   */
   cmp-tabnine = buildVimPlugin {
     pname = "cmp-tabnine";
-    version = "2024-01-22";
+    version = "2024-03-26";
     src = fetchurl {
-      url = "https://github.com/tzachar/cmp-tabnine/archive/a8d76fe729ee2ca6ffc497ebdc2d0f5ddff41b79.tar.gz";
-      sha256 = "0z6w265j2752gdw2vq20pxbxhza9mcag3ismfr9qm8i5a2pfh3yd";
+      url = "https://github.com/tzachar/cmp-tabnine/archive/d52aae40ee86b62960c31a003352ddfc9e31c8d2.tar.gz";
+      sha256 = "17dpsnxg0sp389rzhba4a5gllf1rrk54349i8ckvbz9bkan6qj17";
     };
     meta = with lib; {
       description = "TabNine plugin for hrsh7th/nvim-cmp";
@@ -1812,8 +1924,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: andersevenrud-cmp-tmux
+  Generated from: andersevenrud/cmp-tmux
   */
   cmp-tmux = buildVimPlugin {
     pname = "cmp-tmux";
@@ -1828,8 +1941,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ray-x-cmp-treesitter
+  Generated from: ray-x/cmp-treesitter
   */
   cmp-treesitter = buildVimPlugin {
     pname = "cmp-treesitter";
@@ -1844,8 +1958,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: lukas-reineke-cmp-under-comparator
+  Generated from: lukas-reineke/cmp-under-comparator
   */
   cmp-under-comparator = buildVimPlugin {
     pname = "cmp-under-comparator";
@@ -1860,8 +1975,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: dmitmel-cmp-vim-lsp
+  Generated from: dmitmel/cmp-vim-lsp
   */
   cmp-vim-lsp = buildVimPlugin {
     pname = "cmp-vim-lsp";
@@ -1876,8 +1992,9 @@
       license = with licenses; [cc0];
     };
   };
+
   /*
-  Generated from: pontusk-cmp-vimwiki-tags
+  Generated from: pontusk/cmp-vimwiki-tags
   */
   cmp-vimwiki-tags = buildVimPlugin {
     pname = "cmp-vimwiki-tags";
@@ -1892,8 +2009,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: hrsh7th-cmp-vsnip
+  Generated from: hrsh7th/cmp-vsnip
   */
   cmp-vsnip = buildVimPlugin {
     pname = "cmp-vsnip";
@@ -1908,8 +2026,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: tamago324-cmp-zsh
+  Generated from: tamago324/cmp-zsh
   */
   cmp-zsh = buildVimPlugin {
     pname = "cmp-zsh";
@@ -1924,8 +2043,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: 2KAbhishek-co-author.nvim
+  Generated from: 2KAbhishek/co-author.nvim
   */
   co-author-nvim = buildVimPlugin {
     pname = "co-author-nvim";
@@ -1940,15 +2060,16 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: lalitmee-cobalt2.nvim
+  Generated from: lalitmee/cobalt2.nvim
   */
   cobalt2-nvim = buildVimPlugin {
     pname = "cobalt2-nvim";
-    version = "2024-01-13";
+    version = "2024-03-17";
     src = fetchurl {
-      url = "https://github.com/lalitmee/cobalt2.nvim/archive/89c4212da7f2a6ce7570ca1b8ed01a95e30585c2.tar.gz";
-      sha256 = "0y3f8sq25bijmw7szw2zd4c0i9amcysgg4k299wdrqkbsz5r9izw";
+      url = "https://github.com/lalitmee/cobalt2.nvim/archive/7a3e1a77782d5501d8d825a5df05ccc834891903.tar.gz";
+      sha256 = "0li13xk7rnj3fbk7rdl5hmkbj7vg759zikh3bxagwylmm5grw46l";
     };
     meta = with lib; {
       description = "cobalt2 theme for neovim in Lua using colorbuddy";
@@ -1956,8 +2077,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: coc-extensions-coc-svelte
+  Generated from: coc-extensions/coc-svelte
   */
   coc-svelte = buildVimPlugin {
     pname = "coc-svelte";
@@ -1972,8 +2094,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: rodrigore-coc-tailwind-intellisense
+  Generated from: rodrigore/coc-tailwind-intellisense
   */
   coc-tailwind-intellisense = buildVimPlugin {
     pname = "coc-tailwind-intellisense";
@@ -1988,8 +2111,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: iamcco-coc-tailwindcss
+  Generated from: iamcco/coc-tailwindcss
   */
   coc-tailwindcss = buildVimPlugin {
     pname = "coc-tailwindcss";
@@ -2004,15 +2128,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: CRAG666-code_runner.nvim
+  Generated from: CRAG666/code_runner.nvim
   */
   code-runner-nvim = buildVimPlugin {
     pname = "code-runner-nvim";
-    version = "2024-01-24";
+    version = "2024-03-26";
     src = fetchurl {
-      url = "https://github.com/CRAG666/code_runner.nvim/archive/0c701cae3265c79b4fdfd4b35a4f3d7c5986d46c.tar.gz";
-      sha256 = "0p2h1p1gkbba930rlw1ypd9vy1vs0sjpg8i5m04lihcl03016d2v";
+      url = "https://github.com/CRAG666/code_runner.nvim/archive/e40f651e98a0a12fcd44bf54a2ed258cfee5a914.tar.gz";
+      sha256 = "16344568fykdp99gx9lzgiyngyf2n79fj2yx9fyv3yvi0pr52i81";
     };
     meta = with lib; {
       description = "Neovim plugin.The best code runner you could have, it is like the one in vscode but with super powers, it manages projects like in intellij but without being slow";
@@ -2020,8 +2145,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: niuiic-code-shot.nvim
+  Generated from: niuiic/code-shot.nvim
   */
   code-shot-nvim = buildVimPlugin {
     pname = "code-shot-nvim";
@@ -2036,8 +2162,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: dpayne-CodeGPT.nvim
+  Generated from: dpayne/CodeGPT.nvim
   */
   CodeGPT-nvim = buildVimPlugin {
     pname = "CodeGPT-nvim";
@@ -2052,15 +2179,16 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: Exafunction-codeium.nvim
+  Generated from: Exafunction/codeium.nvim
   */
   codeium-nvim = buildVimPlugin {
     pname = "codeium-nvim";
-    version = "2024-02-14";
+    version = "2024-03-21";
     src = fetchurl {
-      url = "https://github.com/Exafunction/codeium.nvim/archive/cd5913ff5481229b15186293d1d46dd9500789f9.tar.gz";
-      sha256 = "1xfqg0zxkx2bh8j91g0zm3wcn4jy9z65nrjf1ymjfbvn0n0ksbj9";
+      url = "https://github.com/Exafunction/codeium.nvim/archive/a070f57c0f54bd940436b94c8b679bcad5a48811.tar.gz";
+      sha256 = "14cmx6gws6ishikcj9myfy01d8dk0s5b5r0fjljbnb02383m8awq";
     };
     meta = with lib; {
       description = "A native neovim extension for Codeium";
@@ -2068,15 +2196,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: pwntester-codeql.nvim
+  Generated from: pwntester/codeql.nvim
   */
   codeql-nvim = buildVimPlugin {
     pname = "codeql-nvim";
-    version = "2024-03-01";
+    version = "2024-03-13";
     src = fetchurl {
-      url = "https://github.com/pwntester/codeql.nvim/archive/16e07deb5acdd036d231ee5235650366a6f0387e.tar.gz";
-      sha256 = "02nbcj0sx0vvjzf58jc37jf1j8w6mwvwb4ym82pz1vz4vbb7skaw";
+      url = "https://github.com/pwntester/codeql.nvim/archive/fecb14e7e5b9b6f31fe6017c9f10984ac8e2c2b4.tar.gz";
+      sha256 = "0m46rvdkg7108fnywg0m3zxc550vlk1rikj4hp5an94yx57gix3x";
     };
     meta = with lib; {
       description = "CodeQL plugin for Neovim";
@@ -2084,8 +2213,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: adisen99-codeschool.nvim
+  Generated from: adisen99/codeschool.nvim
   */
   codeschool-nvim = buildVimPlugin {
     pname = "codeschool-nvim";
@@ -2100,8 +2230,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: gorbit99-codewindow.nvim
+  Generated from: gorbit99/codewindow.nvim
   */
   codewindow-nvim = buildVimPlugin {
     pname = "codewindow-nvim";
@@ -2116,8 +2247,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: gregorias-coerce.nvim
+  Generated from: gregorias/coerce.nvim
   */
   coerce-nvim = buildVimPlugin {
     pname = "coerce-nvim";
@@ -2132,15 +2264,16 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: noib3-cokeline.nvim
+  Generated from: noib3/cokeline.nvim
   */
   cokeline-nvim = buildVimPlugin {
     pname = "cokeline-nvim";
-    version = "2024-01-27";
+    version = "2024-03-20";
     src = fetchurl {
-      url = "https://github.com/noib3/cokeline.nvim/archive/7310f192af74c6912ca7a40ae1b16253aa95e50e.tar.gz";
-      sha256 = "0p0lrzk6yfaphlz75czabfq6zscyqxanl6x9w87c5i4hfcax3fy8";
+      url = "https://github.com/noib3/cokeline.nvim/archive/32929480b1753a5c2a99435e891da9be1e61e0b9.tar.gz";
+      sha256 = "1iq8pskkpnfz7gb5w7kf0s4csbz6iv6ykg3a0mdsqwyyv9rfdzq5";
     };
     meta = with lib; {
       description = ":nose: A Neovim bufferline for people with addictive personalities";
@@ -2148,8 +2281,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ziontee113-color-picker.nvim
+  Generated from: ziontee113/color-picker.nvim
   */
   color-picker-nvim = buildVimPlugin {
     pname = "color-picker-nvim";
@@ -2164,15 +2298,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: linrongbin16-colorbox.nvim
+  Generated from: linrongbin16/colorbox.nvim
   */
   colorbox-nvim = buildVimPlugin {
     pname = "colorbox-nvim";
-    version = "2024-03-11";
+    version = "2024-03-27";
     src = fetchurl {
-      url = "https://github.com/linrongbin16/colorbox.nvim/archive/ff2cee7d5cae5edb328d70a00005f3f71b8a1dc7.tar.gz";
-      sha256 = "0347lqlmcibzwwbwggsay9b6xhyqp5g2ih549skdycbn1vc5ps39";
+      url = "https://github.com/linrongbin16/colorbox.nvim/archive/5dfd6ece95ed027e4d7d084e53b376f2a9f9db99.tar.gz";
+      sha256 = "0dyw1qa8cjxiqyx55lv6hih5mh0166jcqibvc35lnqdbwj74fgs1";
     };
     meta = with lib; {
       description = "Load all the ultra colorschemes into Neovim player!";
@@ -2180,15 +2315,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: tjdevries-colorbuddy.nvim
+  Generated from: tjdevries/colorbuddy.nvim
   */
   colorbuddy-nvim = buildVimPlugin {
     pname = "colorbuddy-nvim";
-    version = "2022-02-28";
+    version = "2024-03-20";
     src = fetchurl {
-      url = "https://github.com/tjdevries/colorbuddy.nvim/archive/cdb5b0654d3cafe61d2a845e15b2b4b0e78e752a.tar.gz";
-      sha256 = "1vxkgfh27rdpl2vbnw3hh8v9y5byhm8c52d8xdvkiwnrg6xdaq4v";
+      url = "https://github.com/tjdevries/colorbuddy.nvim/archive/9e96ccd88f4510d0a54ce1d5c11119eac9fb217e.tar.gz";
+      sha256 = "00d5bay4sfc3l89cdhnbqpm2vp9mkdhmjacdfdf8f1ymi1zpgvsh";
     };
     meta = with lib; {
       description = "Your color buddy for making cool neovim color schemes";
@@ -2196,8 +2332,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: nvim-zh-colorful-winsep.nvim
+  Generated from: nvim-zh/colorful-winsep.nvim
   */
   colorful-winsep-nvim = buildVimPlugin {
     pname = "colorful-winsep-nvim";
@@ -2212,8 +2349,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: nvim-colortils-colortils.nvim
+  Generated from: nvim-colortils/colortils.nvim
   */
   colortils-nvim = buildVimPlugin {
     pname = "colortils-nvim";
@@ -2228,8 +2366,9 @@
       license = with licenses; [gpl2Only];
     };
   };
+
   /*
-  Generated from: FeiyouG-command_center.nvim
+  Generated from: FeiyouG/command_center.nvim
   */
   command-center-nvim = buildVimPlugin {
     pname = "command-center-nvim";
@@ -2244,8 +2383,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: FeiyouG-commander.nvim
+  Generated from: FeiyouG/commander.nvim
   */
   commander-nvim = buildVimPlugin {
     pname = "commander-nvim";
@@ -2260,8 +2400,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: LudoPinelli-comment-box.nvim
+  Generated from: LudoPinelli/comment-box.nvim
   */
   comment-box-nvim = buildVimPlugin {
     pname = "comment-box-nvim";
@@ -2276,8 +2417,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: numToStr-Comment.nvim
+  Generated from: numToStr/Comment.nvim
   */
   Comment-nvim = buildVimPlugin {
     pname = "Comment-nvim";
@@ -2292,8 +2434,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: winston0410-commented.nvim
+  Generated from: winston0410/commented.nvim
   */
   commented-nvim = buildVimPlugin {
     pname = "commented-nvim";
@@ -2308,8 +2451,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: xeluxee-competitest.nvim
+  Generated from: xeluxee/competitest.nvim
   */
   competitest-nvim = buildVimPlugin {
     pname = "competitest-nvim";
@@ -2324,8 +2468,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: krady21-compiler-explorer.nvim
+  Generated from: krady21/compiler-explorer.nvim
   */
   compiler-explorer-nvim = buildVimPlugin {
     pname = "compiler-explorer-nvim";
@@ -2340,15 +2485,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: Zeioth-compiler.nvim
+  Generated from: Zeioth/compiler.nvim
   */
   compiler-nvim = buildVimPlugin {
     pname = "compiler-nvim";
-    version = "2024-03-09";
+    version = "2024-03-27";
     src = fetchurl {
-      url = "https://github.com/Zeioth/compiler.nvim/archive/cb684ac7cfb3872bbdcd64cfc4d3e0c2affaab62.tar.gz";
-      sha256 = "05x29874m4qkn2vb32zfffrgdiiy86slm3zsj7pnplcmlri6krav";
+      url = "https://github.com/Zeioth/compiler.nvim/archive/a0fc34e3aa6c8109863441fc674cf04de6241bd0.tar.gz";
+      sha256 = "0w32y8j26d8ys1kgbmhx389ihrizxih2c9vhfdnlxwjykjkdrqhw";
     };
     meta = with lib; {
       description = "Neovim compiler for building and running your code without having to configure anything";
@@ -2356,8 +2502,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: vigoux-complementree.nvim
+  Generated from: vigoux/complementree.nvim
   */
   complementree-nvim = buildVimPlugin {
     pname = "complementree-nvim";
@@ -2372,8 +2519,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: RutaTang-compter.nvim
+  Generated from: RutaTang/compter.nvim
   */
   compter-nvim = buildVimPlugin {
     pname = "compter-nvim";
@@ -2388,8 +2536,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: Jxstxs-conceal.nvim
+  Generated from: Jxstxs/conceal.nvim
   */
   conceal-nvim = buildVimPlugin {
     pname = "conceal-nvim";
@@ -2404,8 +2553,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: yutkat-confirm-quit.nvim
+  Generated from: yutkat/confirm-quit.nvim
   */
   confirm-quit-nvim = buildVimPlugin {
     pname = "confirm-quit-nvim";
@@ -2420,15 +2570,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: stevearc-conform.nvim
+  Generated from: stevearc/conform.nvim
   */
   conform-nvim = buildVimPlugin {
     pname = "conform-nvim";
-    version = "2024-03-07";
+    version = "2024-03-25";
     src = fetchurl {
-      url = "https://github.com/stevearc/conform.nvim/archive/5a15cc46e75cad804fd51ec5af9227aeb1d1bdaa.tar.gz";
-      sha256 = "168hj7sgxjc7hikskq4h4b1a4sw3ggda2p23hc5dmw2jj58llyl9";
+      url = "https://github.com/stevearc/conform.nvim/archive/f9523f75134614fc0eff29c2377ed36603a1b0aa.tar.gz";
+      sha256 = "1cbnn7bl4pl7lcr3azfkxvbh3r96xfj6g9li4scisyknr6ldgaz6";
     };
     meta = with lib; {
       description = "Lightweight yet powerful formatter plugin for Neovim";
@@ -2436,15 +2587,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: Olical-conjure
+  Generated from: Olical/conjure
   */
   conjure = buildVimPlugin {
     pname = "conjure";
-    version = "2024-02-02";
+    version = "2024-03-11";
     src = fetchurl {
-      url = "https://github.com/Olical/conjure/archive/f50d4db821489f66ff93afe58155eef42c273a5d.tar.gz";
-      sha256 = "1qqsayxymc3h5cl15k63039rdfjmgnlpqc3cp954b85fvs7kmykm";
+      url = "https://github.com/Olical/conjure/archive/dfb9f75010a181c090ab905b2a2b4180aea20f15.tar.gz";
+      sha256 = "1k6dm7gsjkm45f86dfh13aj94gy2mf4aavpxpwffrbdlli3f67a1";
     };
     meta = with lib; {
       description = "Interactive evaluation for Neovim (Clojure, Fennel, Janet, Racket, Hy, MIT Scheme, Guile, Python and more!)";
@@ -2452,8 +2604,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: pianocomposer321-consolation.nvim
+  Generated from: pianocomposer321/consolation.nvim
   */
   consolation-nvim = buildVimPlugin {
     pname = "consolation-nvim";
@@ -2468,8 +2621,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: zbirenbaum-copilot-cmp
+  Generated from: zbirenbaum/copilot-cmp
   */
   copilot-cmp = buildVimPlugin {
     pname = "copilot-cmp";
@@ -2484,8 +2638,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: zbirenbaum-copilot.lua
+  Generated from: zbirenbaum/copilot.lua
   */
   copilot-lua = buildVimPlugin {
     pname = "copilot-lua";
@@ -2500,15 +2655,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: github-copilot.vim
+  Generated from: github/copilot.vim
   */
   copilot-vim = buildVimPlugin {
     pname = "copilot-vim";
-    version = "2024-03-08";
+    version = "2024-03-14";
     src = fetchurl {
-      url = "https://github.com/github/copilot.vim/archive/3b39e786d865df9ba77fe61624d6ee646528a809.tar.gz";
-      sha256 = "1wq5n5vlvkw8mjakgjfkn7wn0d2gh1b312zski78vmwh0akvwdrn";
+      url = "https://github.com/github/copilot.vim/archive/9484e35cf222e9360e05450622a884f95c662c4c.tar.gz";
+      sha256 = "0mbjh7hw2jsfw62qd7cxfc53l2lqh9ph45vmibisrc9hpx1965r4";
     };
     meta = with lib; {
       description = "Neovim plugin for GitHub Copilot";
@@ -2516,8 +2672,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: ms-jpq-coq.artifacts
+  Generated from: ms-jpq/coq.artifacts
   */
   coq-artifacts = buildVimPlugin {
     pname = "coq-artifacts";
@@ -2532,15 +2689,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: ms-jpq-coq_nvim
+  Generated from: ms-jpq/coq_nvim
   */
   coq-nvim = buildVimPlugin {
     pname = "coq-nvim";
-    version = "2024-03-03";
+    version = "2024-03-22";
     src = fetchurl {
-      url = "https://github.com/ms-jpq/coq_nvim/archive/806a0a71a20795a6b3cd11e0bc9deaa68ae81d7f.tar.gz";
-      sha256 = "16ij2j9fi8my0brdg1073ll1acdgrxx2fz2a9x2s7lda6vcp2imm";
+      url = "https://github.com/ms-jpq/coq_nvim/archive/c6f4505074674c5d7fdd3afbbd6164323fe20fd7.tar.gz";
+      sha256 = "1b81lrbxfzj3k5n6js9fzjhdp0fk6d9rc2fkz0lyxx5knqrq4fgx";
     };
     meta = with lib; {
       description = "Fast as FUCK nvim completion. SQLite, concurrent scheduler, hundreds of hours of optimization.";
@@ -2548,8 +2706,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: ms-jpq-coq.thirdparty
+  Generated from: ms-jpq/coq.thirdparty
   */
   coq-thirdparty = buildVimPlugin {
     pname = "coq-thirdparty";
@@ -2564,8 +2723,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: CosmicNvim-cosmic-ui
+  Generated from: CosmicNvim/cosmic-ui
   */
   cosmic-ui = buildVimPlugin {
     pname = "cosmic-ui";
@@ -2580,8 +2740,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: niuiic-cp-image.nvim
+  Generated from: niuiic/cp-image.nvim
   */
   cp-image-nvim = buildVimPlugin {
     pname = "cp-image-nvim";
@@ -2596,8 +2757,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: p00f-cphelper.nvim
+  Generated from: p00f/cphelper.nvim
   */
   cphelper-nvim = buildVimPlugin {
     pname = "cphelper-nvim";
@@ -2612,15 +2774,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: Saecki-crates.nvim
+  Generated from: Saecki/crates.nvim
   */
   crates-nvim = buildVimPlugin {
     pname = "crates-nvim";
-    version = "2024-03-07";
+    version = "2024-03-13";
     src = fetchurl {
-      url = "https://github.com/Saecki/crates.nvim/archive/535773ed3b321d68ddd6ef8cd5a1e07b345026a6.tar.gz";
-      sha256 = "0jh07sm7wajqfxzq6bd0cql4qbv48snay697w44sh87iyrrqc74i";
+      url = "https://github.com/Saecki/crates.nvim/archive/b4f4987ccdb1cc3899ee541ef4375c73c48c4570.tar.gz";
+      sha256 = "1q8i9s9vfnzp29yd5jxxfjk5xpd4krycw5z0wjjfagvplr21l6pk";
     };
     meta = with lib; {
       description = "A neovim plugin that helps managing crates.io dependencies";
@@ -2628,8 +2791,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: gaborvecsei-cryptoprice.nvim
+  Generated from: gaborvecsei/cryptoprice.nvim
   */
   cryptoprice-nvim = buildVimPlugin {
     pname = "cryptoprice-nvim";
@@ -2644,8 +2808,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: gbprod-cutlass.nvim
+  Generated from: gbprod/cutlass.nvim
   */
   cutlass-nvim = buildVimPlugin {
     pname = "cutlass-nvim";
@@ -2660,15 +2825,16 @@
       license = with licenses; [wtfpl];
     };
   };
+
   /*
-  Generated from: scottmckendry-cyberdream.nvim
+  Generated from: scottmckendry/cyberdream.nvim
   */
   cyberdream-nvim = buildVimPlugin {
     pname = "cyberdream-nvim";
-    version = "2024-03-09";
+    version = "2024-03-26";
     src = fetchurl {
-      url = "https://github.com/scottmckendry/cyberdream.nvim/archive/7ad27cf30a2aeeaefb8e4d25a9ae7c06bd4ce299.tar.gz";
-      sha256 = "02jqas7wg0shngc1sd65jadx3hfr33k11ygrlz4gzhrdc34bb572";
+      url = "https://github.com/scottmckendry/cyberdream.nvim/archive/184554643fa02460b2429d4adfb8a7e6ddc89476.tar.gz";
+      sha256 = "14zbv7zlclqji4z32xk0v5hg8nzc6ygi215hr1r71f4fffpq9jq8";
     };
     meta = with lib; {
       description = "🤖💤 High-contrast, Futuristic & Vibrant Coloursheme for Neovim";
@@ -2676,8 +2842,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ghillb-cybu.nvim
+  Generated from: ghillb/cybu.nvim
   */
   cybu-nvim = buildVimPlugin {
     pname = "cybu-nvim";
@@ -2692,8 +2859,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: niuiic-dap-utils.nvim
+  Generated from: niuiic/dap-utils.nvim
   */
   dap-utils-nvim = buildVimPlugin {
     pname = "dap-utils-nvim";
@@ -2708,8 +2876,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: Pocco81-DAPInstall.nvim
+  Generated from: Pocco81/DAPInstall.nvim
   */
   DAPInstall-nvim = buildVimPlugin {
     pname = "DAPInstall-nvim";
@@ -2724,8 +2893,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: sekke276-dark_flat.nvim
+  Generated from: sekke276/dark_flat.nvim
   */
   dark-flat-nvim = buildVimPlugin {
     pname = "dark-flat-nvim";
@@ -2740,8 +2910,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: 4e554c4c-darkman.nvim
+  Generated from: 4e554c4c/darkman.nvim
   */
   darkman-nvim = buildVimPlugin {
     pname = "darkman-nvim";
@@ -2756,15 +2927,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: nvimdev-dashboard-nvim
+  Generated from: nvimdev/dashboard-nvim
   */
   dashboard-nvim = buildVimPlugin {
     pname = "dashboard-nvim";
-    version = "2024-02-13";
+    version = "2024-03-26";
     src = fetchurl {
-      url = "https://github.com/nvimdev/dashboard-nvim/archive/413442b12d85315fc626c44a0ce4929b213ef604.tar.gz";
-      sha256 = "1gy5zlg4s4pcjl0bxisf6w2m5jc39zh27v1fwq7syid776g07p2d";
+      url = "https://github.com/nvimdev/dashboard-nvim/archive/39f308a0b845b8da46f83c8a2d69f0191d4b7a8f.tar.gz";
+      sha256 = "0wlhi9jhig8697b75sjp7dnw4dl7hl8bkxjjk1vaaxnywv88r6mi";
     };
     meta = with lib; {
       description = "vim dashboard";
@@ -2772,8 +2944,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: VidocqH-data-viewer.nvim
+  Generated from: VidocqH/data-viewer.nvim
   */
   data-viewer-nvim = buildVimPlugin {
     pname = "data-viewer-nvim";
@@ -2788,8 +2961,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: Bekaboo-deadcolumn.nvim
+  Generated from: Bekaboo/deadcolumn.nvim
   */
   deadcolumn-nvim = buildVimPlugin {
     pname = "deadcolumn-nvim";
@@ -2804,15 +2978,16 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: andrewferrier-debugprint.nvim
+  Generated from: andrewferrier/debugprint.nvim
   */
   debugprint-nvim = buildVimPlugin {
     pname = "debugprint-nvim";
-    version = "2024-03-05";
+    version = "2024-03-26";
     src = fetchurl {
-      url = "https://github.com/andrewferrier/debugprint.nvim/archive/39d21298151dda8bfab537ae7741528cffe07aa3.tar.gz";
-      sha256 = "0win7yfj5g4vn6j4ysjvj77hk025lszsh90fir00v06d1f4mzlm8";
+      url = "https://github.com/andrewferrier/debugprint.nvim/archive/2a4fc9a8192644c7db98becafc751a1556cbbebe.tar.gz";
+      sha256 = "0njwxn5kcrp2wz90j12kcjk4ydsh1wcim4bj6ygncfllb73sj64m";
     };
     meta = with lib; {
       description = "Debugging in NeoVim the print() way!";
@@ -2820,15 +2995,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: Verf-deepwhite.nvim
+  Generated from: Verf/deepwhite.nvim
   */
   deepwhite-nvim = buildVimPlugin {
     pname = "deepwhite-nvim";
-    version = "2024-01-23";
+    version = "2024-03-25";
     src = fetchurl {
-      url = "https://github.com/Verf/deepwhite.nvim/archive/7c8d12505dafac651f14d4eaa21623a7658871ab.tar.gz";
-      sha256 = "0v4z1310jr1z6f7jmra1yqxg4h6crddvj3j8gcjj17ay2lz17bq6";
+      url = "https://github.com/Verf/deepwhite.nvim/archive/264cf7a2e881b806edd379342cffba3da38fbc07.tar.gz";
+      sha256 = "1lqgjjmvlaxxgg7z12amqd8nnlzmzsp2r5jn7hl6jrfxxkhdb8fg";
     };
     meta = with lib; {
       description = "DeepWhite colorscheme for Neovim.";
@@ -2836,8 +3012,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: chiyadev-dep
+  Generated from: chiyadev/dep
   */
   dep = buildVimPlugin {
     pname = "dep";
@@ -2852,8 +3029,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: akinsho-dependency-assist.nvim
+  Generated from: akinsho/dependency-assist.nvim
   */
   dependency-assist-nvim = buildVimPlugin {
     pname = "dependency-assist-nvim";
@@ -2868,8 +3046,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: onsails-diaglist.nvim
+  Generated from: onsails/diaglist.nvim
   */
   diaglist-nvim = buildVimPlugin {
     pname = "diaglist-nvim";
@@ -2884,8 +3063,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: creativenull-diagnosticls-configs-nvim
+  Generated from: creativenull/diagnosticls-configs-nvim
   */
   diagnosticls-configs-nvim = buildVimPlugin {
     pname = "diagnosticls-configs-nvim";
@@ -2900,8 +3080,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: monaqa-dial.nvim
+  Generated from: monaqa/dial.nvim
   */
   dial-nvim = buildVimPlugin {
     pname = "dial-nvim";
@@ -2916,8 +3097,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: sindrets-diffview.nvim
+  Generated from: sindrets/diffview.nvim
   */
   diffview-nvim = buildVimPlugin {
     pname = "diffview-nvim";
@@ -2932,8 +3114,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: elihunter173-dirbuf.nvim
+  Generated from: elihunter173/dirbuf.nvim
   */
   dirbuf-nvim = buildVimPlugin {
     pname = "dirbuf-nvim";
@@ -2948,8 +3131,9 @@
       license = with licenses; [agpl3Only];
     };
   };
+
   /*
-  Generated from: chipsenkbeil-distant.nvim
+  Generated from: chipsenkbeil/distant.nvim
   */
   distant-nvim = buildVimPlugin {
     pname = "distant-nvim";
@@ -2964,8 +3148,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: niuiic-divider.nvim
+  Generated from: niuiic/divider.nvim
   */
   divider-nvim = buildVimPlugin {
     pname = "divider-nvim";
@@ -2980,15 +3165,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: Zeioth-dooku.nvim
+  Generated from: Zeioth/dooku.nvim
   */
   dooku-nvim = buildVimPlugin {
     pname = "dooku-nvim";
-    version = "2024-03-09";
+    version = "2024-03-26";
     src = fetchurl {
-      url = "https://github.com/Zeioth/dooku.nvim/archive/123e34d3b0b4cfb8b2e6d686bc713b671123cbf0.tar.gz";
-      sha256 = "1vbii89rhg4jd6722lif6wzb0jy02xbqmc41zgq382mhzpivcsps";
+      url = "https://github.com/Zeioth/dooku.nvim/archive/7cdb1d8fcefbb50a90424e3562569208a19b306e.tar.gz";
+      sha256 = "0razvpbm31cn7fski6m7j6dq5hmcsw8g2l5gzcisf1gq0q25pn0q";
     };
     meta = with lib; {
       description = "Code documentation generator for Neovim";
@@ -2996,8 +3182,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: NTBBloodbath-doom-one.nvim
+  Generated from: NTBBloodbath/doom-one.nvim
   */
   doom-one-nvim = buildVimPlugin {
     pname = "doom-one-nvim";
@@ -3012,8 +3199,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ellisonleao-dotenv.nvim
+  Generated from: ellisonleao/dotenv.nvim
   */
   dotenv-nvim = buildVimPlugin {
     pname = "dotenv-nvim";
@@ -3028,8 +3216,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: Mofiqul-dracula.nvim
+  Generated from: Mofiqul/dracula.nvim
   */
   dracula-nvim = buildVimPlugin {
     pname = "dracula-nvim";
@@ -3044,8 +3233,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: dracula-vim
+  Generated from: dracula/vim
   */
   dracula-vim = buildVimPlugin {
     pname = "dracula-vim";
@@ -3060,15 +3250,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: stevearc-dressing.nvim
+  Generated from: stevearc/dressing.nvim
   */
   dressing-nvim = buildVimPlugin {
     pname = "dressing-nvim";
-    version = "2024-01-29";
+    version = "2024-03-13";
     src = fetchurl {
-      url = "https://github.com/stevearc/dressing.nvim/archive/6f212262061a2120e42da0d1e87326e8a41c0478.tar.gz";
-      sha256 = "0yirisrrihmmsdwlc9gq96067kzycm0g5wfhr1nrzk5iv3i73syq";
+      url = "https://github.com/stevearc/dressing.nvim/archive/18e5beb3845f085b6a33c24112b37988f3f93c06.tar.gz";
+      sha256 = "11m7kp7giq7kfl44l7xcryv9gaxlb6npqb4mg8vmk4yqw6yk17im";
     };
     meta = with lib; {
       description = "Neovim plugin to improve the default vim.ui interfaces";
@@ -3076,8 +3267,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: TheBlob42-drex.nvim
+  Generated from: TheBlob42/drex.nvim
   */
   drex-nvim = buildVimPlugin {
     pname = "drex-nvim";
@@ -3092,15 +3284,16 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: Bekaboo-dropbar.nvim
+  Generated from: Bekaboo/dropbar.nvim
   */
   dropbar-nvim = buildVimPlugin {
     pname = "dropbar-nvim";
-    version = "2024-03-08";
+    version = "2024-03-24";
     src = fetchurl {
-      url = "https://github.com/Bekaboo/dropbar.nvim/archive/f1034cfe852cf62a0ebb12ae583f1477ea07e060.tar.gz";
-      sha256 = "0snanrwkxiyq2s626pyv6k0kvz6v0c1kfbmjdvkb28akanc51znl";
+      url = "https://github.com/Bekaboo/dropbar.nvim/archive/a5f3d6a172fceadcfed58b8c209ac3211635a3c8.tar.gz";
+      sha256 = "15y7xfhgypyxvgnpzi6glczsbkvr4yyhjvlkdlzfq940x3m73g81";
     };
     meta = with lib; {
       description = "IDE-like breadcrumbs, out of the box";
@@ -3108,8 +3301,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: NFrid-due.nvim
+  Generated from: NFrid/due.nvim
   */
   due-nvim = buildVimPlugin {
     pname = "due-nvim";
@@ -3124,8 +3318,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: hinell-duplicate.nvim
+  Generated from: hinell/duplicate.nvim
   */
   duplicate-nvim = buildVimPlugin {
     pname = "duplicate-nvim";
@@ -3140,8 +3335,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: Weissle-easy-action
+  Generated from: Weissle/easy-action
   */
   easy-action = buildVimPlugin {
     pname = "easy-action";
@@ -3156,8 +3352,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: LintaoAmons-easy-commands.nvim
+  Generated from: LintaoAmons/easy-commands.nvim
   */
   easy-commands-nvim = buildVimPlugin {
     pname = "easy-commands-nvim";
@@ -3172,8 +3369,9 @@
       license = with licenses; [agpl3Only];
     };
   };
+
   /*
-  Generated from: axkirillov-easypick.nvim
+  Generated from: axkirillov/easypick.nvim
   */
   easypick-nvim = buildVimPlugin {
     pname = "easypick-nvim";
@@ -3188,8 +3386,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: sainnhe-edge
+  Generated from: sainnhe/edge
   */
   edge = buildVimPlugin {
     pname = "edge";
@@ -3204,8 +3403,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: kiran94-edit-markdown-table.nvim
+  Generated from: kiran94/edit-markdown-table.nvim
   */
   edit-markdown-table-nvim = buildVimPlugin {
     pname = "edit-markdown-table-nvim";
@@ -3220,8 +3420,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: gpanders-editorconfig.nvim
+  Generated from: gpanders/editorconfig.nvim
   */
   editorconfig-nvim = buildVimPlugin {
     pname = "editorconfig-nvim";
@@ -3236,8 +3437,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: creativenull-efmls-configs-nvim
+  Generated from: creativenull/efmls-configs-nvim
   */
   efmls-configs-nvim = buildVimPlugin {
     pname = "efmls-configs-nvim";
@@ -3252,8 +3454,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: nvimdev-epo.nvim
+  Generated from: nvimdev/epo.nvim
   */
   epo-nvim = buildVimPlugin {
     pname = "epo-nvim";
@@ -3268,15 +3471,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: cvigilv-esqueleto.nvim
+  Generated from: cvigilv/esqueleto.nvim
   */
   esqueleto-nvim = buildVimPlugin {
     pname = "esqueleto-nvim";
-    version = "2024-02-29";
+    version = "2024-03-25";
     src = fetchurl {
-      url = "https://github.com/cvigilv/esqueleto.nvim/archive/cb0d358efdf5c8de219cc3db4d08b835a406328d.tar.gz";
-      sha256 = "0k1752dcmaxzs86p47rpx0syiq4yf5f4gsz6dv3x5bgnd1jmfd3c";
+      url = "https://github.com/cvigilv/esqueleto.nvim/archive/0808d756dfa38b00c4496d8605353286ab15bd8c.tar.gz";
+      sha256 = "06f2vyvv2l6fl0xfgicbi3431ha1fwmxc85dd84q92xvvs3s5cvp";
     };
     meta = with lib; {
       description = "Reduce your boilerplate code the lazy-bones way";
@@ -3284,8 +3488,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: everblush-nvim
+  Generated from: everblush/nvim
   */
   everblush = buildVimPlugin {
     pname = "everblush";
@@ -3300,15 +3505,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: sainnhe-everforest
+  Generated from: sainnhe/everforest
   */
   everforest = buildVimPlugin {
     pname = "everforest";
-    version = "2024-03-02";
+    version = "2024-03-23";
     src = fetchurl {
-      url = "https://github.com/sainnhe/everforest/archive/d8ce3131f7491c61bd751bd455e2ddc0d47e74e9.tar.gz";
-      sha256 = "09nl9qhs6v08xjv0gzds7p7afivm86pa51zbrarfsbi08s130jr1";
+      url = "https://github.com/sainnhe/everforest/archive/a0f744c5574e11f1be365fe6be41da8ac4a0ae5b.tar.gz";
+      sha256 = "11ys0i8ab8knwpmgl3zk9paspw0wwczy4wdcl2c7vfi9pdhiqzrx";
     };
     meta = with lib; {
       description = "🌲 Comfortable & Pleasant Color Scheme for Vim";
@@ -3316,15 +3522,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: neanias-everforest-nvim
+  Generated from: neanias/everforest-nvim
   */
   everforest-nvim = buildVimPlugin {
     pname = "everforest-nvim";
-    version = "2024-02-21";
+    version = "2024-03-19";
     src = fetchurl {
-      url = "https://github.com/neanias/everforest-nvim/archive/eedb19079c6bf9d162f74a5c48a6d2759f38cc76.tar.gz";
-      sha256 = "1r16m9szmzhxnqj534cgf88h97m3aqpqzgilybx1q1aicml1vwvm";
+      url = "https://github.com/neanias/everforest-nvim/archive/5e0e32a569fb464911342f0d421721cc1c94cf25.tar.gz";
+      sha256 = "1d5r0zdr11wy1n2ckda5l0msasm8dc9hb5ln6n5bwj5in5887y4i";
     };
     meta = with lib; {
       description = "A Lua port of the Everforest colour scheme";
@@ -3332,15 +3539,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: crispybaccoon-evergarden
+  Generated from: crispybaccoon/evergarden
   */
   evergarden = buildVimPlugin {
     pname = "evergarden";
-    version = "2024-02-28";
+    version = "2024-03-12";
     src = fetchurl {
-      url = "https://github.com/crispybaccoon/evergarden/archive/e43a2eb28405fa823e6e57270f047f507fb9c6ff.tar.gz";
-      sha256 = "1rirykdcbdrwpk3m810h794f2h5pagmhff8lpw39i5vdhk2pfh08";
+      url = "https://github.com/crispybaccoon/evergarden/archive/9f18f8b5f20882774ded04e768179e49b9339af0.tar.gz";
+      sha256 = "1sakg1f3lz3dhl4l1ckmjfmjagayxindp6gw53k7i17igf0phx1d";
     };
     meta = with lib; {
       description = ":rose: a comfy neovim colorscheme for cozy morning coding.";
@@ -3348,15 +3556,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: google-executor.nvim
+  Generated from: google/executor.nvim
   */
   executor-nvim = buildVimPlugin {
     pname = "executor-nvim";
-    version = "2024-03-09";
+    version = "2024-03-12";
     src = fetchurl {
-      url = "https://github.com/google/executor.nvim/archive/9efdea7a25ad45fcf475b452e42c49399e034d1b.tar.gz";
-      sha256 = "1b6laqrq40kv89hj6i05s1plycganbssmav1wkpwqsnbalpzwpca";
+      url = "https://github.com/google/executor.nvim/archive/f6c3109f714d89641fb939b42044b2136f8520b7.tar.gz";
+      sha256 = "0b7ak1vxm43gslnp0303w4g0ghha64b2zwgxszvvla1i48zzkndx";
     };
     meta = with lib; {
       description = "";
@@ -3364,8 +3573,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: tjdevries-express_line.nvim
+  Generated from: tjdevries/express_line.nvim
   */
   express-line-nvim = buildVimPlugin {
     pname = "express-line-nvim";
@@ -3380,8 +3590,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: MunifTanjim-exrc.nvim
+  Generated from: MunifTanjim/exrc.nvim
   */
   exrc-nvim = buildVimPlugin {
     pname = "exrc-nvim";
@@ -3396,8 +3607,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: roobert-f-string-toggle.nvim
+  Generated from: roobert/f-string-toggle.nvim
   */
   f-string-toggle-nvim = buildVimPlugin {
     pname = "f-string-toggle-nvim";
@@ -3412,8 +3624,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: fenetikm-falcon
+  Generated from: fenetikm/falcon
   */
   falcon = buildVimPlugin {
     pname = "falcon";
@@ -3428,8 +3641,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: h-hg-fcitx.nvim
+  Generated from: h-hg/fcitx.nvim
   */
   fcitx-nvim = buildVimPlugin {
     pname = "fcitx-nvim";
@@ -3444,8 +3658,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: freddiehaddad-feline.nvim
+  Generated from: freddiehaddad/feline.nvim
   */
   feline-nvim = buildVimPlugin {
     pname = "feline-nvim";
@@ -3460,8 +3675,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: vxpm-ferris.nvim
+  Generated from: vxpm/ferris.nvim
   */
   ferris-nvim = buildVimPlugin {
     pname = "ferris-nvim";
@@ -3476,8 +3692,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: j-hui-fidget.nvim
+  Generated from: j-hui/fidget.nvim
   */
   fidget-nvim = buildVimPlugin {
     pname = "fidget-nvim";
@@ -3492,8 +3709,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: vonheikemen-fine-cmdline.nvim
+  Generated from: vonheikemen/fine-cmdline.nvim
   */
   fine-cmdline-nvim = buildVimPlugin {
     pname = "fine-cmdline-nvim";
@@ -3508,8 +3726,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: glacambre-firenvim
+  Generated from: glacambre/firenvim
   */
   firenvim = buildVimPlugin {
     pname = "firenvim";
@@ -3524,8 +3743,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: folke-flash.nvim
+  Generated from: folke/flash.nvim
   */
   flash-nvim = buildVimPlugin {
     pname = "flash-nvim";
@@ -3540,8 +3760,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: willothy-flatten.nvim
+  Generated from: willothy/flatten.nvim
   */
   flatten-nvim = buildVimPlugin {
     pname = "flatten-nvim";
@@ -3556,15 +3777,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ggandor-flit.nvim
+  Generated from: ggandor/flit.nvim
   */
   flit-nvim = buildVimPlugin {
     pname = "flit-nvim";
-    version = "2024-02-22";
+    version = "2024-03-20";
     src = fetchurl {
-      url = "https://github.com/ggandor/flit.nvim/archive/94419242ba07170b0009514d745e617b120964f4.tar.gz";
-      sha256 = "09aqh69s45pf8ai7572nacsy3zp6ybs89hr0qb0d6mjipgcn3mby";
+      url = "https://github.com/ggandor/flit.nvim/archive/04f744bbb2b91fb2ad2c702b5eb8e23d17924fa6.tar.gz";
+      sha256 = "1nbrqdg5s1hl5jm04bzzzmnnywqfgkxmzzsdg63w6rkwcchrgbcz";
     };
     meta = with lib; {
       description = "Enhanced f/t motions for Leap";
@@ -3572,8 +3794,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: maxmx03-FluoroMachine.nvim
+  Generated from: maxmx03/FluoroMachine.nvim
   */
   FluoroMachine-nvim = buildVimPlugin {
     pname = "FluoroMachine-nvim";
@@ -3588,8 +3811,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: akinsho-flutter-tools.nvim
+  Generated from: akinsho/flutter-tools.nvim
   */
   flutter-tools-nvim = buildVimPlugin {
     pname = "flutter-tools-nvim";
@@ -3604,8 +3828,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: CamdenClark-flyboy
+  Generated from: CamdenClark/flyboy
   */
   flyboy = buildVimPlugin {
     pname = "flyboy";
@@ -3620,8 +3845,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: is0n-fm-nvim
+  Generated from: is0n/fm-nvim
   */
   fm-nvim = buildVimPlugin {
     pname = "fm-nvim";
@@ -3636,8 +3862,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: beauwilliams-focus.nvim
+  Generated from: beauwilliams/focus.nvim
   */
   focus-nvim = buildVimPlugin {
     pname = "focus-nvim";
@@ -3652,15 +3879,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: jghauser-fold-cycle.nvim
+  Generated from: jghauser/fold-cycle.nvim
   */
   fold-cycle-nvim = buildVimPlugin {
     pname = "fold-cycle-nvim";
-    version = "2023-10-21";
+    version = "2024-03-17";
     src = fetchurl {
-      url = "https://github.com/jghauser/fold-cycle.nvim/archive/eab5db9129593d46e58154320e415f2e30cf537e.tar.gz";
-      sha256 = "1ycnm3nvdlscwiyqzli2g46iwa0f0wcndv0qfqhlcc27m5ficajg";
+      url = "https://github.com/jghauser/fold-cycle.nvim/archive/6dc8052a22e396adff36567e2a1f2dc19ee289c5.tar.gz";
+      sha256 = "113nk31djii5zm1wa7mjl5pyra2pdkgpq0m1cck5gki7szrdycv6";
     };
     meta = with lib; {
       description = "This neovim plugin allows you to cycle folds open or closed";
@@ -3668,8 +3896,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: anuvyklack-fold-preview.nvim
+  Generated from: anuvyklack/fold-preview.nvim
   */
   fold-preview-nvim = buildVimPlugin {
     pname = "fold-preview-nvim";
@@ -3684,8 +3913,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: jghauser-follow-md-links.nvim
+  Generated from: jghauser/follow-md-links.nvim
   */
   follow-md-links-nvim = buildVimPlugin {
     pname = "follow-md-links-nvim";
@@ -3700,8 +3930,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: niuiic-format.nvim
+  Generated from: niuiic/format.nvim
   */
   format-nvim = buildVimPlugin {
     pname = "format-nvim";
@@ -3716,8 +3947,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: elentok-format-on-save.nvim
+  Generated from: elentok/format-on-save.nvim
   */
   format-on-save-nvim = buildVimPlugin {
     pname = "format-on-save-nvim";
@@ -3732,15 +3964,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: mhartington-formatter.nvim
+  Generated from: mhartington/formatter.nvim
   */
   formatter-nvim = buildVimPlugin {
     pname = "formatter-nvim";
-    version = "2023-11-28";
+    version = "2024-03-18";
     src = fetchurl {
-      url = "https://github.com/mhartington/formatter.nvim/archive/cb4778b8432f1ae86dae4634c0b611cb269a4c2f.tar.gz";
-      sha256 = "08riyw2jpih6yr5w714887hax0w41d20hpiq17hy4bz1bzkl1jcd";
+      url = "https://github.com/mhartington/formatter.nvim/archive/ad246d34ce7a32f752071ed81b09b94e6b127fad.tar.gz";
+      sha256 = "0yay16zpyx4n7sn3585x88zrbrg9ia3ww1nyag5pw9pfq0sw39f9";
     };
     meta = with lib; {
       description = "";
@@ -3748,8 +3981,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: rafamadriz-friendly-snippets
+  Generated from: rafamadriz/friendly-snippets
   */
   friendly-snippets = buildVimPlugin {
     pname = "friendly-snippets";
@@ -3764,8 +3998,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: numToStr-FTerm.nvim
+  Generated from: numToStr/FTerm.nvim
   */
   FTerm-nvim = buildVimPlugin {
     pname = "FTerm-nvim";
@@ -3780,8 +4015,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: amirrezaask-fuzzy.nvim
+  Generated from: amirrezaask/fuzzy.nvim
   */
   fuzzy-nvim = buildVimPlugin {
     pname = "fuzzy-nvim";
@@ -3796,8 +4032,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: gfanto-fzf-lsp.nvim
+  Generated from: gfanto/fzf-lsp.nvim
   */
   fzf-lsp-nvim = buildVimPlugin {
     pname = "fzf-lsp-nvim";
@@ -3812,15 +4049,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ibhagwan-fzf-lua
+  Generated from: ibhagwan/fzf-lua
   */
   fzf-lua = buildVimPlugin {
     pname = "fzf-lua";
-    version = "2024-03-09";
+    version = "2024-03-24";
     src = fetchurl {
-      url = "https://github.com/ibhagwan/fzf-lua/archive/fb94dde9147af859463b9a1a929159b572ee723b.tar.gz";
-      sha256 = "1nxyp0cg8sl4c7v5pxq5jiy5vkf4kz209wijnfa1km2if2wgbij5";
+      url = "https://github.com/ibhagwan/fzf-lua/archive/618c4de7d36b6c2a2f46794845e631fa6007bbfc.tar.gz";
+      sha256 = "1z6ryx6g4sap9m77zf00qb70r15k3vqiia9wr1v7m2y4yizl5f9l";
     };
     meta = with lib; {
       description = "Improved fzf.vim written in lua";
@@ -3828,24 +4066,26 @@
       license = with licenses; [agpl3Only];
     };
   };
+
   /*
-  Generated from: linrongbin16-fzfx.nvim
+  Generated from: linrongbin16/fzfx.nvim
   */
   fzfx-nvim = buildVimPlugin {
     pname = "fzfx-nvim";
-    version = "2024-03-08";
+    version = "2024-03-21";
     src = fetchurl {
-      url = "https://github.com/linrongbin16/fzfx.nvim/archive/580bea4d7658a4bd7295530ea4d20670b69a66d6.tar.gz";
-      sha256 = "0f1lw1pnpkirjg34m91q1aq2qlqwjyranz34cdwrg6gajc41lc5x";
+      url = "https://github.com/linrongbin16/fzfx.nvim/archive/efb8813fab6997f80c99a078be2ed2481a5cab4d.tar.gz";
+      sha256 = "0qx8nnvg86z7bq7cf0ydf2rzlrr7maw9vbjbpq1wfvi1ir0fnw7v";
     };
     meta = with lib; {
-      description = "A fzf fuzzy finder that updates on every keystroke of user query and selection.";
+      description = "A Neovim fuzzy finder that updates on every keystroke.";
       homepage = "https://github.com/linrongbin16/fzfx.nvim";
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: NTBBloodbath-galaxyline.nvim
+  Generated from: NTBBloodbath/galaxyline.nvim
   */
   galaxyline-nvim = buildVimPlugin {
     pname = "galaxyline-nvim";
@@ -3860,15 +4100,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: gbprod-nord.nvim
+  Generated from: gbprod/nord.nvim
   */
   gbprod-nord-nvim = buildVimPlugin {
     pname = "gbprod-nord-nvim";
-    version = "2024-02-01";
+    version = "2024-03-20";
     src = fetchurl {
-      url = "https://github.com/gbprod/nord.nvim/archive/4ae9eb96e9ee65493d4ade102dec7e4b4d4b8b21.tar.gz";
-      sha256 = "05qsx97jq9id3xyiqh88y3xkrsdhzfagmmz3iy5mvwd7maklhv7x";
+      url = "https://github.com/gbprod/nord.nvim/archive/9896e4634b1ba99e7a532a568b3b66e3344ad0df.tar.gz";
+      sha256 = "1bv2bzxysh19hfds4xmz41njcvl202xz9jihky7bybqdscxcq8rx";
     };
     meta = with lib; {
       description = " An arctic, north-bluish clean and elegant Neovim theme. ";
@@ -3876,15 +4117,16 @@
       license = with licenses; [wtfpl];
     };
   };
+
   /*
-  Generated from: David-Kunz-gen.nvim
+  Generated from: David-Kunz/gen.nvim
   */
   gen-nvim = buildVimPlugin {
     pname = "gen-nvim";
-    version = "2024-03-06";
+    version = "2024-03-22";
     src = fetchurl {
-      url = "https://github.com/David-Kunz/gen.nvim/archive/85a739cea06148a56d52f26b01d63de6671ce4ce.tar.gz";
-      sha256 = "1qw00hv67g3ldk7491lnwx13q3p8d48qzhxx5igksygmawba2c6z";
+      url = "https://github.com/David-Kunz/gen.nvim/archive/46ab810130097494bbcf12b1426a7166f4c2995e.tar.gz";
+      sha256 = "168jbk6jj1gsd99nzgc86hqyxxzdhfz5h2dr0mg4f7ki0d0ih9nr";
     };
     meta = with lib; {
       description = "Neovim plugin to generate text using LLMs with customizable prompts";
@@ -3892,8 +4134,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: JMarkin-gentags.lua
+  Generated from: JMarkin/gentags.lua
   */
   gentags-lua = buildVimPlugin {
     pname = "gentags-lua";
@@ -3908,8 +4151,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: linrongbin16-gentags.nvim
+  Generated from: linrongbin16/gentags.nvim
   */
   gentags-nvim = buildVimPlugin {
     pname = "gentags-nvim";
@@ -3924,8 +4168,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: notomo-gesture.nvim
+  Generated from: notomo/gesture.nvim
   */
   gesture-nvim = buildVimPlugin {
     pname = "gesture-nvim";
@@ -3940,8 +4185,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: topaxi-gh-actions.nvim
+  Generated from: topaxi/gh-actions.nvim
   */
   gh-actions-nvim = buildVimPlugin {
     pname = "gh-actions-nvim";
@@ -3956,8 +4202,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: ldelossa-gh.nvim
+  Generated from: ldelossa/gh.nvim
   */
   gh-nvim = buildVimPlugin {
     pname = "gh-nvim";
@@ -3972,8 +4219,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: f-person-git-blame.nvim
+  Generated from: f-person/git-blame.nvim
   */
   git-blame-nvim = buildVimPlugin {
     pname = "git-blame-nvim";
@@ -3988,8 +4236,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: akinsho-git-conflict.nvim
+  Generated from: akinsho/git-conflict.nvim
   */
   git-conflict-nvim = buildVimPlugin {
     pname = "git-conflict-nvim";
@@ -4004,8 +4253,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: niuiic-git-log.nvim
+  Generated from: niuiic/git-log.nvim
   */
   git-log-nvim = buildVimPlugin {
     pname = "git-log-nvim";
@@ -4020,8 +4270,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: rhysd-git-messenger.vim
+  Generated from: rhysd/git-messenger.vim
   */
   git-messenger-vim = buildVimPlugin {
     pname = "git-messenger-vim";
@@ -4036,8 +4287,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: lourenci-github-colors
+  Generated from: lourenci/github-colors
   */
   github-colors = buildVimPlugin {
     pname = "github-colors";
@@ -4052,8 +4304,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: projekt0n-github-nvim-theme
+  Generated from: projekt0n/github-nvim-theme
   */
   github-nvim-theme = buildVimPlugin {
     pname = "github-nvim-theme";
@@ -4068,15 +4321,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: linrongbin16-gitlinker.nvim
+  Generated from: linrongbin16/gitlinker.nvim
   */
   gitlinker-linrongbin16 = buildVimPlugin {
     pname = "gitlinker-linrongbin16";
-    version = "2024-03-09";
+    version = "2024-03-26";
     src = fetchurl {
-      url = "https://github.com/linrongbin16/gitlinker.nvim/archive/1801ed9513fd4a1f0bff3440dcca7b0ea656a508.tar.gz";
-      sha256 = "12783qv4a4rxb4yfcvxhjvmha569iwqv2x0y1z2vk7a55nji350x";
+      url = "https://github.com/linrongbin16/gitlinker.nvim/archive/839215b322b15b662c08a010534e8de00dae38a6.tar.gz";
+      sha256 = "0fvfwdsn0rj7a1zqrn5kc8qsj1454w4pkb99rd4s7h8sd6vaijp7";
     };
     meta = with lib; {
       description = "Maintained fork of ruifm's gitlinker, refactored with bug fixes, ssh aliases, blame support and other improvements.";
@@ -4084,8 +4338,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: ruifm-gitlinker.nvim
+  Generated from: ruifm/gitlinker.nvim
   */
   gitlinker-ruifm = buildVimPlugin {
     pname = "gitlinker-ruifm";
@@ -4100,15 +4355,16 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: lewis6991-gitsigns.nvim
+  Generated from: lewis6991/gitsigns.nvim
   */
   gitsigns-nvim = lib.warn "Warning for 'gitsigns-nvim': Replaced by other plugin (test)" buildVimPlugin {
     pname = "gitsigns-nvim";
-    version = "2024-01-27";
+    version = "2024-03-17";
     src = fetchurl {
-      url = "https://github.com/lewis6991/gitsigns.nvim/archive/2c2463dbd82eddd7dbab881c3a62cfbfbe3c67ae.tar.gz";
-      sha256 = "1jsh4pgwk04jx2sdwbcw3icgiasscxjd0vhgx63al46biv5a2ngx";
+      url = "https://github.com/lewis6991/gitsigns.nvim/archive/078041e9d060a386b0c9d3a8c7a7b019a35d3fb0.tar.gz";
+      sha256 = "07q2hj6rnhpic8yx7nn6hmg120589v9aa2ribw0d5mx4va0pgjgp";
     };
     meta = with lib; {
       description = "Git integration for buffers";
@@ -4116,8 +4372,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: stevearc-gkeep.nvim
+  Generated from: stevearc/gkeep.nvim
   */
   gkeep-nvim = buildVimPlugin {
     pname = "gkeep-nvim";
@@ -4132,8 +4389,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: DNLHC-glance.nvim
+  Generated from: DNLHC/glance.nvim
   */
   glance-nvim = buildVimPlugin {
     pname = "glance-nvim";
@@ -4148,8 +4406,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: bkegley-gloombuddy
+  Generated from: bkegley/gloombuddy
   */
   gloombuddy = buildVimPlugin {
     pname = "gloombuddy";
@@ -4164,8 +4423,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ellisonleao-glow.nvim
+  Generated from: ellisonleao/glow.nvim
   */
   glow-nvim = buildVimPlugin {
     pname = "glow-nvim";
@@ -4180,15 +4440,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ray-x-go.nvim
+  Generated from: ray-x/go.nvim
   */
   go-nvim = buildVimPlugin {
     pname = "go-nvim";
-    version = "2024-03-10";
+    version = "2024-03-27";
     src = fetchurl {
-      url = "https://github.com/ray-x/go.nvim/archive/d217a74fa823d0adef1a3680c3af562ae14e6854.tar.gz";
-      sha256 = "1h4857qz0s6hbx0aw1n2siaibcpmpkazg1y5dg2rpxkzy0lrs387";
+      url = "https://github.com/ray-x/go.nvim/archive/abd282564a31c5dec14e2038ebf04fdac9ea3278.tar.gz";
+      sha256 = "14jrc2ns4za0clddk4h304kb1a92rf9iwmb7p0ln56ihkzc47ghv";
     };
     meta = with lib; {
       description = "A feature-rich Go development plugin, leveraging gopls, treesitter AST, Dap, and various Go tools to enhance the dev experience.";
@@ -4196,8 +4457,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: edolphin-ydf-goimpl.nvim
+  Generated from: edolphin-ydf/goimpl.nvim
   */
   goimpl-nvim = buildVimPlugin {
     pname = "goimpl-nvim";
@@ -4212,8 +4474,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: olexsmir-gopher.nvim
+  Generated from: olexsmir/gopher.nvim
   */
   gopher-nvim = buildVimPlugin {
     pname = "gopher-nvim";
@@ -4228,8 +4491,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: ofirgall-goto-breakpoints.nvim
+  Generated from: ofirgall/goto-breakpoints.nvim
   */
   goto-breakpoints-nvim = buildVimPlugin {
     pname = "goto-breakpoints-nvim";
@@ -4244,8 +4508,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: rmagatti-goto-preview
+  Generated from: rmagatti/goto-preview
   */
   goto-preview = buildVimPlugin {
     pname = "goto-preview";
@@ -4260,15 +4525,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: Robitx-gp.nvim
+  Generated from: Robitx/gp.nvim
   */
   gp-nvim = buildVimPlugin {
     pname = "gp-nvim";
-    version = "2024-02-28";
+    version = "2024-03-26";
     src = fetchurl {
-      url = "https://github.com/Robitx/gp.nvim/archive/d76be3d067b4e7352d1e744954327982cf1d24aa.tar.gz";
-      sha256 = "1lmn0b3dindkbwyajlf2zpypzq15siy4nsk48q6hhpizq6492xv8";
+      url = "https://github.com/Robitx/gp.nvim/archive/52938ffbd47b5e06d0f9b7c8b146f26d6021fbac.tar.gz";
+      sha256 = "1hbxnr8q50j1jzckr413qzyl1yd8in4r5dd8vpq2gr7kjnlq7gxq";
     };
     meta = with lib; {
       description = "Gp.nvim (GPT prompt) Neovim AI plugin: ChatGPT sessions & Instructable text/code operations & Speech to text [OpenAI]";
@@ -4276,15 +4542,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: cbochs-grapple.nvim
+  Generated from: cbochs/grapple.nvim
   */
   grapple-nvim = buildVimPlugin {
     pname = "grapple-nvim";
-    version = "2024-03-10";
+    version = "2024-03-25";
     src = fetchurl {
-      url = "https://github.com/cbochs/grapple.nvim/archive/59d458e378c4884f22b7a68e61c07ed3e41aabf0.tar.gz";
-      sha256 = "049rfjck9r4y7iign5gnj0p65w3h7svbfl4hspbz8xfrbsvfnb59";
+      url = "https://github.com/cbochs/grapple.nvim/archive/5d96868a6e9791b7a8ee51a9eef43fc408b9650e.tar.gz";
+      sha256 = "1n246nwcwhkv1wrp10nv7gjzrz1qa8k2pnixb6xlq1cnxykq1k89";
     };
     meta = with lib; {
       description = "Neovim plugin for tagging important files";
@@ -4292,8 +4559,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: desdic-greyjoy.nvim
+  Generated from: desdic/greyjoy.nvim
   */
   greyjoy-nvim = buildVimPlugin {
     pname = "greyjoy-nvim";
@@ -4308,8 +4576,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: morhetz-gruvbox
+  Generated from: morhetz/gruvbox
   */
   gruvbox = buildVimPlugin {
     pname = "gruvbox";
@@ -4324,8 +4593,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: luisiacc-gruvbox-baby
+  Generated from: luisiacc/gruvbox-baby
   */
   gruvbox-baby = buildVimPlugin {
     pname = "gruvbox-baby";
@@ -4340,15 +4610,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: sainnhe-gruvbox-material
+  Generated from: sainnhe/gruvbox-material
   */
   gruvbox-material = buildVimPlugin {
     pname = "gruvbox-material";
-    version = "2024-02-10";
+    version = "2024-03-26";
     src = fetchurl {
-      url = "https://github.com/sainnhe/gruvbox-material/archive/b17fe51688b76e2ccf118e5f76f3978b9a8c503e.tar.gz";
-      sha256 = "0ymnw3yhlb1xj415z01vapsylqf55br3cp8m0ilza53sf0ljvpnj";
+      url = "https://github.com/sainnhe/gruvbox-material/archive/0322d59d7cafdeeef57b828b56a4649bb5fe5847.tar.gz";
+      sha256 = "0bmabvwrimdlp8zbbpip5wrb9p0jj2ffqggjp2gfd2fdb5aijz6y";
     };
     meta = with lib; {
       description = "Gruvbox with Material Palette";
@@ -4356,8 +4627,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ellisonleao-gruvbox.nvim
+  Generated from: ellisonleao/gruvbox.nvim
   */
   gruvbox-nvim = buildVimPlugin {
     pname = "gruvbox-nvim";
@@ -4372,15 +4644,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: tjdevries-gruvbuddy.nvim
+  Generated from: tjdevries/gruvbuddy.nvim
   */
   gruvbuddy-nvim = buildVimPlugin {
     pname = "gruvbuddy-nvim";
-    version = "2021-04-15";
+    version = "2024-03-15";
     src = fetchurl {
-      url = "https://github.com/tjdevries/gruvbuddy.nvim/archive/52bdae82517d7767dbd287141b9aabceeab0f9a5.tar.gz";
-      sha256 = "0vlsj2sbl1cgzz087b2v7ybf1hhq1vkdwd6v9iiyijvcdvgxx966";
+      url = "https://github.com/tjdevries/gruvbuddy.nvim/archive/3aa94b2fb061b13ccc118d21fad25d6b1ff3fc8b.tar.gz";
+      sha256 = "0ihvi5fx73q8c6wij84pyw80h0kawg997bjl6ypkr6yiqrklql8b";
     };
     meta = with lib; {
       description = "Gruvbox colors using https://github.com/tjdevries/colorbuddy.vim";
@@ -4388,8 +4661,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: RishabhRD-gruvy
+  Generated from: RishabhRD/gruvy
   */
   gruvy = buildVimPlugin {
     pname = "gruvy";
@@ -4404,8 +4678,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: nvimdev-guard.nvim
+  Generated from: nvimdev/guard.nvim
   */
   guard-nvim = buildVimPlugin {
     pname = "guard-nvim";
@@ -4420,8 +4695,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: NMAC427-guess-indent.nvim
+  Generated from: NMAC427/guess-indent.nvim
   */
   guess-indent-nvim = buildVimPlugin {
     pname = "guess-indent-nvim";
@@ -4436,15 +4712,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ray-x-guihua.lua
+  Generated from: ray-x/guihua.lua
   */
   guihua-lua = buildVimPlugin {
     pname = "guihua-lua";
-    version = "2023-12-06";
+    version = "2024-03-24";
     src = fetchurl {
-      url = "https://github.com/ray-x/guihua.lua/archive/9fb6795474918b492d9ab01b1ebaf85e8bf6fe0b.tar.gz";
-      sha256 = "1cfd7ck9fm1y3csa5ldy8m3jqf7fj6jprfnw84n9mdy2kyp19m4p";
+      url = "https://github.com/ray-x/guihua.lua/archive/f8ef84df19369bd1fcb8c3210a3b9db13026b7bc.tar.gz";
+      sha256 = "0hfx4pdkb2yk2plg06xg6f18v8hvv4wn1s5pqpyrl817ikphw32g";
     };
     meta = with lib; {
       description = "A GUI library for Neovim plugin developers";
@@ -4452,15 +4729,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: m4xshen-hardtime.nvim
+  Generated from: m4xshen/hardtime.nvim
   */
   hardtime-nvim = buildVimPlugin {
     pname = "hardtime-nvim";
-    version = "2024-02-03";
+    version = "2024-03-17";
     src = fetchurl {
-      url = "https://github.com/m4xshen/hardtime.nvim/archive/860e912895176112868c97b46277f547e149f5e6.tar.gz";
-      sha256 = "18gcb13v5zwkrn50jp6h58d6yh699j2sbjwd8xkdrs06z9yhsrs6";
+      url = "https://github.com/m4xshen/hardtime.nvim/archive/21b0f9146198bb43fbc9f5ec66c8af3234f278ed.tar.gz";
+      sha256 = "03j6fmaijs75fnbf8rhdbgd4dznqms74pymr3awjyvshdd4dld97";
     };
     meta = with lib; {
       description = "A Neovim plugin helping you establish good command workflow and habit";
@@ -4468,8 +4746,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ThePrimeagen-harpoon
+  Generated from: ThePrimeagen/harpoon
   */
   harpoon = buildVimPlugin {
     pname = "harpoon";
@@ -4484,15 +4763,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: mrcjkb-haskell-snippets.nvim
+  Generated from: mrcjkb/haskell-snippets.nvim
   */
   haskell-snippets-nvim = buildVimPlugin {
     pname = "haskell-snippets-nvim";
-    version = "2024-02-05";
+    version = "2024-03-25";
     src = fetchurl {
-      url = "https://github.com/mrcjkb/haskell-snippets.nvim/archive/0adc2b0956c2de107bbf3b0329b5b7450a1d07e4.tar.gz";
-      sha256 = "0acixcx9rr9kpry70scfp8fx2lkk8lrwr2bfyp0a95r8afv7gcm4";
+      url = "https://github.com/mrcjkb/haskell-snippets.nvim/archive/89a4f683b83a656e6ccb4ad0db97ad8863037f5d.tar.gz";
+      sha256 = "0d2swg48iwr6sk9dxwngd586337ymvn0qksa5zxmsgdqic2gx7pz";
     };
     meta = with lib; {
       description = "My collection of Haskell snippets for LuaSnip. Powered by tree-sitter and LSP. ";
@@ -4500,15 +4780,16 @@
       license = with licenses; [gpl2Only];
     };
   };
+
   /*
-  Generated from: MrcJkb-haskell-tools.nvim
+  Generated from: MrcJkb/haskell-tools.nvim
   */
   haskell-tools-nvim = buildVimPlugin {
     pname = "haskell-tools-nvim";
-    version = "2024-03-04";
+    version = "2024-03-25";
     src = fetchurl {
-      url = "https://github.com/MrcJkb/haskell-tools.nvim/archive/255c62afab1dfcb89c61e9001c90cd52516f34b2.tar.gz";
-      sha256 = "0n560dnz3j26pahpyikrdy491p6dfb8kq4fq5qxlvags9hc89bpb";
+      url = "https://github.com/MrcJkb/haskell-tools.nvim/archive/b53d4f2faef93c4b85c1510adef280747b37ec67.tar.gz";
+      sha256 = "050zn3xy31y8621xn76lajnxasgdaq938dncdh2p3vbw8hwqlad7";
     };
     meta = with lib; {
       description = "Supercharge your Haskell experience in neovim!";
@@ -4516,8 +4797,9 @@
       license = with licenses; [gpl2Only];
     };
   };
+
   /*
-  Generated from: tris203-hawtkeys.nvim
+  Generated from: tris203/hawtkeys.nvim
   */
   hawtkeys-nvim = buildVimPlugin {
     pname = "hawtkeys-nvim";
@@ -4532,8 +4814,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: axkirillov-hbac.nvim
+  Generated from: axkirillov/hbac.nvim
   */
   hbac-nvim = buildVimPlugin {
     pname = "hbac-nvim";
@@ -4548,8 +4831,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: lukas-reineke-headlines.nvim
+  Generated from: lukas-reineke/headlines.nvim
   */
   headlines-nvim = buildVimPlugin {
     pname = "headlines-nvim";
@@ -4564,8 +4848,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: rebelot-heirline.nvim
+  Generated from: rebelot/heirline.nvim
   */
   heirline-nvim = buildVimPlugin {
     pname = "heirline-nvim";
@@ -4580,8 +4865,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: udayvir-singh-hibiscus.nvim
+  Generated from: udayvir-singh/hibiscus.nvim
   */
   hibiscus-nvim = buildVimPlugin {
     pname = "hibiscus-nvim";
@@ -4596,8 +4882,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: crusj-hierarchy-tree-go.nvim
+  Generated from: crusj/hierarchy-tree-go.nvim
   */
   hierarchy-tree-go-nvim = buildVimPlugin {
     pname = "hierarchy-tree-go-nvim";
@@ -4612,8 +4899,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: rktjmp-highlight-current-n.nvim
+  Generated from: rktjmp/highlight-current-n.nvim
   */
   highlight-current-n-nvim = buildVimPlugin {
     pname = "highlight-current-n-nvim";
@@ -4628,8 +4916,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: Pocco81-HighStr.nvim
+  Generated from: Pocco81/HighStr.nvim
   */
   HighStr-nvim = buildVimPlugin {
     pname = "HighStr-nvim";
@@ -4644,8 +4933,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: m-demare-hlargs.nvim
+  Generated from: m-demare/hlargs.nvim
   */
   hlargs-nvim = buildVimPlugin {
     pname = "hlargs-nvim";
@@ -4660,8 +4950,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: shellRaining-hlchunk.nvim
+  Generated from: shellRaining/hlchunk.nvim
   */
   hlchunk-nvim = buildVimPlugin {
     pname = "hlchunk-nvim";
@@ -4676,8 +4967,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: nvimdev-hlsearch.nvim
+  Generated from: nvimdev/hlsearch.nvim
   */
   hlsearch-nvim = buildVimPlugin {
     pname = "hlsearch-nvim";
@@ -4692,8 +4984,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: edluffy-hologram.nvim
+  Generated from: edluffy/hologram.nvim
   */
   hologram-nvim = buildVimPlugin {
     pname = "hologram-nvim";
@@ -4708,8 +5001,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: smoka7-hop.nvim
+  Generated from: smoka7/hop.nvim
   */
   hop-nvim = buildVimPlugin {
     pname = "hop-nvim";
@@ -4724,15 +5018,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: rktjmp-hotpot.nvim
+  Generated from: rktjmp/hotpot.nvim
   */
   hotpot-nvim = buildVimPlugin {
     pname = "hotpot-nvim";
-    version = "2024-02-21";
+    version = "2024-03-22";
     src = fetchurl {
-      url = "https://github.com/rktjmp/hotpot.nvim/archive/b18d3d82e8545d9f765870c1d8f0da041bd61097.tar.gz";
-      sha256 = "1jc3pqgrg3si74daa2ynrwpw8ldi1zq13h5cfb8syql2n5p0yyrx";
+      url = "https://github.com/rktjmp/hotpot.nvim/archive/bf3e4cf4dce0e35a17a11ba08b06f55157b3d51f.tar.gz";
+      sha256 = "1khwnsand7h9j73xnfsynd1x1cgjb910p2yfm3knyfwfjlar93av";
     };
     meta = with lib; {
       description = ":stew: Carl Weathers #1 Neovim Plugin.";
@@ -4740,8 +5035,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: soulis-1256-hoverhints.nvim
+  Generated from: soulis-1256/hoverhints.nvim
   */
   hoverhints-nvim = buildVimPlugin {
     pname = "hoverhints-nvim";
@@ -4756,8 +5052,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: roobert-hoversplit.nvim
+  Generated from: roobert/hoversplit.nvim
   */
   hoversplit-nvim = buildVimPlugin {
     pname = "hoversplit-nvim";
@@ -4772,8 +5069,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: anuvyklack-hydra.nvim
+  Generated from: anuvyklack/hydra.nvim
   */
   hydra-nvim = buildVimPlugin {
     pname = "hydra-nvim";
@@ -4788,8 +5086,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: smzm-hydrovim
+  Generated from: smzm/hydrovim
   */
   hydrovim = buildVimPlugin {
     pname = "hydrovim";
@@ -4804,15 +5103,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: tomiis4-hypersonic.nvim
+  Generated from: tomiis4/hypersonic.nvim
   */
   hypersonic-nvim = buildVimPlugin {
     pname = "hypersonic-nvim";
-    version = "2023-07-10";
+    version = "2024-03-16";
     src = fetchurl {
-      url = "https://github.com/tomiis4/hypersonic.nvim/archive/a98dbd6b5ac1aac3cd895990e08d1ea40e67a9e3.tar.gz";
-      sha256 = "00ck8za3mf10nmzm9s8ji425wf52ha4xjqxwvg6piw84i1lbd2bz";
+      url = "https://github.com/tomiis4/hypersonic.nvim/archive/aee42425b24a92febc46a42a9cabebe5f96f021b.tar.gz";
+      sha256 = "1zzivrsgh9hwj5grqrw4wdqgsxs8pvha8gyw8w9jlmw1yws0vdkk";
     };
     meta = with lib; {
       description = "A Neovim plugin that provides an explanation for regular expressions.";
@@ -4820,8 +5120,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: ziontee113-icon-picker.nvim
+  Generated from: ziontee113/icon-picker.nvim
   */
   icon-picker-nvim = buildVimPlugin {
     pname = "icon-picker-nvim";
@@ -4836,8 +5137,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ShinKage-idris2-nvim
+  Generated from: ShinKage/idris2-nvim
   */
   idris2-nvim = buildVimPlugin {
     pname = "idris2-nvim";
@@ -4852,8 +5154,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: keaising-im-select.nvim
+  Generated from: keaising/im-select.nvim
   */
   im-select-nvim = buildVimPlugin {
     pname = "im-select-nvim";
@@ -4868,8 +5171,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: 3rd-image.nvim
+  Generated from: 3rd/image.nvim
   */
   image-3rd = buildVimPlugin {
     pname = "image-3rd";
@@ -4884,8 +5188,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: adelarsq-image_preview.nvim
+  Generated from: adelarsq/image_preview.nvim
   */
   image-preview-nvim = buildVimPlugin {
     pname = "image-preview-nvim";
@@ -4900,8 +5205,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: samodostal-image.nvim
+  Generated from: samodostal/image.nvim
   */
   image-samodostal = buildVimPlugin {
     pname = "image-samodostal";
@@ -4916,15 +5222,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: HakonHarnes-img-clip.nvim
+  Generated from: HakonHarnes/img-clip.nvim
   */
   img-clip-nvim = buildVimPlugin {
     pname = "img-clip-nvim";
-    version = "2024-03-01";
+    version = "2024-03-25";
     src = fetchurl {
-      url = "https://github.com/HakonHarnes/img-clip.nvim/archive/568f0d94ac934cd501040216d426d81926d2a9cb.tar.gz";
-      sha256 = "0lx7nvs0h3hzdsb6mzpy189kipw8lb93s6ay7rm84zzwkm7n2rh9";
+      url = "https://github.com/HakonHarnes/img-clip.nvim/archive/ba847e55738979fcf54532a5b23bf0f040e5f968.tar.gz";
+      sha256 = "0gbjwgy20za08q2z8g9hz7sagby0a47v0mq0q0ql634qzqqq5bj9";
     };
     meta = with lib; {
       description = "Effortlessly embed images into any markup language, like LaTeX, Markdown or Typst.";
@@ -4932,8 +5239,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: miversen33-import.nvim
+  Generated from: miversen33/import.nvim
   */
   import-nvim = buildVimPlugin {
     pname = "import-nvim";
@@ -4948,8 +5256,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: backdround-improved-ft.nvim
+  Generated from: backdround/improved-ft.nvim
   */
   improved-ft-nvim = buildVimPlugin {
     pname = "improved-ft-nvim";
@@ -4964,8 +5273,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: backdround-improved-search.nvim
+  Generated from: backdround/improved-search.nvim
   */
   improved-search-nvim = buildVimPlugin {
     pname = "improved-search-nvim";
@@ -4980,8 +5290,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: chrsm-impulse.nvim
+  Generated from: chrsm/impulse.nvim
   */
   impulse-nvim = buildVimPlugin {
     pname = "impulse-nvim";
@@ -4996,8 +5307,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: smjonas-inc-rename.nvim
+  Generated from: smjonas/inc-rename.nvim
   */
   inc-rename-nvim = buildVimPlugin {
     pname = "inc-rename-nvim";
@@ -5012,15 +5324,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: b0o-incline.nvim
+  Generated from: b0o/incline.nvim
   */
   incline-nvim = buildVimPlugin {
     pname = "incline-nvim";
-    version = "2024-03-08";
+    version = "2024-03-14";
     src = fetchurl {
-      url = "https://github.com/b0o/incline.nvim/archive/a3df527789289016b561c4ad3c891490169d1d6b.tar.gz";
-      sha256 = "1aw6nd7ii6sdrarizkj5cinjj6ijp8jk7sbsd3qn8amcgydl7l2b";
+      url = "https://github.com/b0o/incline.nvim/archive/a03020c920a55b75d82ac54c9da18cbf52e8c4d8.tar.gz";
+      sha256 = "0wz62d9rhs0kzdyphkl1zljcr1r370v7z9yr1m3dbbi150mvq5rr";
     };
     meta = with lib; {
       description = "🎈 Floating statuslines for Neovim, winbar alternative";
@@ -5028,8 +5341,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: lukas-reineke-indent-blankline.nvim
+  Generated from: lukas-reineke/indent-blankline.nvim
   */
   indent-blankline-nvim = buildVimPlugin {
     pname = "indent-blankline-nvim";
@@ -5044,8 +5358,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: Darazaki-indent-o-matic
+  Generated from: Darazaki/indent-o-matic
   */
   indent-o-matic = buildVimPlugin {
     pname = "indent-o-matic";
@@ -5060,8 +5375,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: nvimdev-indentmini.nvim
+  Generated from: nvimdev/indentmini.nvim
   */
   indentmini-nvim = buildVimPlugin {
     pname = "indentmini-nvim";
@@ -5076,8 +5392,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: malbertzard-inline-fold.nvim
+  Generated from: malbertzard/inline-fold.nvim
   */
   inline-fold-nvim = buildVimPlugin {
     pname = "inline-fold-nvim";
@@ -5092,8 +5409,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: mvpopuk-inspired-github.vim
+  Generated from: mvpopuk/inspired-github.vim
   */
   inspired-github-vim = buildVimPlugin {
     pname = "inspired-github-vim";
@@ -5108,8 +5426,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: jbyuki-instant.nvim
+  Generated from: jbyuki/instant.nvim
   */
   instant-nvim = buildVimPlugin {
     pname = "instant-nvim";
@@ -5124,8 +5443,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: Mr-LLLLL-interestingwords.nvim
+  Generated from: Mr-LLLLL/interestingwords.nvim
   */
   interestingwords-nvim = buildVimPlugin {
     pname = "interestingwords-nvim";
@@ -5140,8 +5460,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: hkupty-iron.nvim
+  Generated from: hkupty/iron.nvim
   */
   iron-nvim = buildVimPlugin {
     pname = "iron-nvim";
@@ -5156,8 +5477,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: mnacamura-iron.nvim
+  Generated from: mnacamura/iron.nvim
   */
   iron-nvim-mnacamura = buildVimPlugin {
     pname = "iron-nvim-mnacamura";
@@ -5172,8 +5494,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: mizlan-iswap.nvim
+  Generated from: mizlan/iswap.nvim
   */
   iswap-nvim = buildVimPlugin {
     pname = "iswap-nvim";
@@ -5188,8 +5511,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: matbme-JABS.nvim
+  Generated from: matbme/JABS.nvim
   */
   JABS-nvim = buildVimPlugin {
     pname = "JABS-nvim";
@@ -5204,8 +5528,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: is0n-jaq-nvim
+  Generated from: is0n/jaq-nvim
   */
   jaq-nvim = buildVimPlugin {
     pname = "jaq-nvim";
@@ -5220,8 +5545,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: simaxme-java.nvim
+  Generated from: simaxme/java.nvim
   */
   java-nvim = buildVimPlugin {
     pname = "java-nvim";
@@ -5236,8 +5562,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: clojure-vim-jazz.nvim
+  Generated from: clojure-vim/jazz.nvim
   */
   jazz-nvim = buildVimPlugin {
     pname = "jazz-nvim";
@@ -5252,8 +5579,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: metalelf0-jellybeans-nvim
+  Generated from: metalelf0/jellybeans-nvim
   */
   jellybeans-nvim = buildVimPlugin {
     pname = "jellybeans-nvim";
@@ -5268,8 +5596,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: David-Kunz-jester
+  Generated from: David-Kunz/jester
   */
   jester = buildVimPlugin {
     pname = "jester";
@@ -5284,8 +5613,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: fuenor-JpFormat.vim
+  Generated from: fuenor/JpFormat.vim
   */
   JpFormat-vim = buildVimPlugin {
     pname = "JpFormat-vim";
@@ -5300,8 +5630,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: kiyoon-jupynium.nvim
+  Generated from: kiyoon/jupynium.nvim
   */
   jupynium-nvim = buildVimPlugin {
     pname = "jupynium-nvim";
@@ -5316,8 +5647,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: untitled-ai-jupyter_ascending
+  Generated from: untitled-ai/jupyter_ascending
   */
   jupyter-ascending = buildVimPlugin {
     pname = "jupyter-ascending";
@@ -5332,15 +5664,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: GCBallesteros-jupytext.nvim
+  Generated from: GCBallesteros/jupytext.nvim
   */
   jupytext-nvim = buildVimPlugin {
     pname = "jupytext-nvim";
-    version = "2024-01-24";
+    version = "2024-03-25";
     src = fetchurl {
-      url = "https://github.com/GCBallesteros/jupytext.nvim/archive/68fddf28119dbaddfaea6b71f3d6aa1e081afb93.tar.gz";
-      sha256 = "1q76lfbk1snhzpia8kvh7cv1l95q6iw11m6yjpda9nxhvrpdyycn";
+      url = "https://github.com/GCBallesteros/jupytext.nvim/archive/6e439dc048986bcc00f8ba8695cb452de932127b.tar.gz";
+      sha256 = "1rfydkv6crv5ixbccwgccra68izcyi8s8qw9jgr2fkxmidq508ka";
     };
     meta = with lib; {
       description = "Jupyter notebooks on neovim powered by Jupytext";
@@ -5348,8 +5681,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: rebelot-kanagawa.nvim
+  Generated from: rebelot/kanagawa.nvim
   */
   kanagawa-nvim = buildVimPlugin {
     pname = "kanagawa-nvim";
@@ -5364,8 +5698,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: tenxsoydev-karen-yank.nvim
+  Generated from: tenxsoydev/karen-yank.nvim
   */
   karen-yank-nvim = buildVimPlugin {
     pname = "karen-yank-nvim";
@@ -5380,8 +5715,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: anuvyklack-keymap-amend.nvim
+  Generated from: anuvyklack/keymap-amend.nvim
   */
   keymap-amend-nvim = buildVimPlugin {
     pname = "keymap-amend-nvim";
@@ -5396,8 +5732,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: seandewar-killersheep.nvim
+  Generated from: seandewar/killersheep.nvim
   */
   killersheep-nvim = buildVimPlugin {
     pname = "killersheep-nvim";
@@ -5412,8 +5749,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: lmburns-kimbox
+  Generated from: lmburns/kimbox
   */
   kimbox = buildVimPlugin {
     pname = "kimbox";
@@ -5428,15 +5766,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: jghauser-kitty-runner.nvim
+  Generated from: jghauser/kitty-runner.nvim
   */
   kitty-runner-nvim = buildVimPlugin {
     pname = "kitty-runner-nvim";
-    version = "2024-02-11";
+    version = "2024-03-17";
     src = fetchurl {
-      url = "https://github.com/jghauser/kitty-runner.nvim/archive/81442c64e0f9362470de5a0feb60bc4a64293a90.tar.gz";
-      sha256 = "1xw9iwh468yvkk58j5sz9k1hmmwxcdqi04hn88j4a0qdj6rgrki7";
+      url = "https://github.com/jghauser/kitty-runner.nvim/archive/1d254d70696d87bc9c3842191b6e837e2b97edb6.tar.gz";
+      sha256 = "168iv9ynm95hjhjsfgkshfvjqyfr21n4lrkrksyazg52jpkpa9iq";
     };
     meta = with lib; {
       description = "A neovim plugin allowing you to easily send lines from the current buffer to another kitty terminal";
@@ -5444,15 +5783,16 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: mikesmithgh-kitty-scrollback.nvim
+  Generated from: mikesmithgh/kitty-scrollback.nvim
   */
   kitty-scrollback-nvim = buildVimPlugin {
     pname = "kitty-scrollback-nvim";
-    version = "2024-03-10";
+    version = "2024-03-21";
     src = fetchurl {
-      url = "https://github.com/mikesmithgh/kitty-scrollback.nvim/archive/95c401021ed1f272081b422da547faffc096d943.tar.gz";
-      sha256 = "1nf0k710fjpx8d1bnv431jzlmjn9cgq6drjd4pnhs52a4x6k562w";
+      url = "https://github.com/mikesmithgh/kitty-scrollback.nvim/archive/74d46367f91ebb0ed4591435095972489ec6bb5b.tar.gz";
+      sha256 = "1qh3v0p9byz3jjnz8gxbxbya5n6jf6sb4ps8gasvda8whqs1n65b";
     };
     meta = with lib; {
       description = "😽 Open your Kitty scrollback buffer with Neovim. Ameowzing!";
@@ -5460,8 +5800,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: serenevoid-kiwi.nvim
+  Generated from: serenevoid/kiwi.nvim
   */
   kiwi-nvim = buildVimPlugin {
     pname = "kiwi-nvim";
@@ -5476,8 +5817,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: kmonad-kmonad-vim
+  Generated from: kmonad/kmonad-vim
   */
   kmonad-vim = buildVimPlugin {
     pname = "kmonad-vim";
@@ -5492,8 +5834,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: frabjous-knap
+  Generated from: frabjous/knap
   */
   knap = buildVimPlugin {
     pname = "knap";
@@ -5508,8 +5851,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: b3nj5m1n-kommentary
+  Generated from: b3nj5m1n/kommentary
   */
   kommentary = buildVimPlugin {
     pname = "kommentary";
@@ -5524,8 +5868,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: novakne-kosmikoa.nvim
+  Generated from: novakne/kosmikoa.nvim
   */
   kosmikoa-nvim = buildVimPlugin {
     pname = "kosmikoa-nvim";
@@ -5540,8 +5885,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: Wansmer-langmapper.nvim
+  Generated from: Wansmer/langmapper.nvim
   */
   langmapper-nvim = buildVimPlugin {
     pname = "langmapper-nvim";
@@ -5556,8 +5902,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: dasupradyumna-launch.nvim
+  Generated from: dasupradyumna/launch.nvim
   */
   launch-nvim = buildVimPlugin {
     pname = "launch-nvim";
@@ -5572,15 +5919,16 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: folke-lazy.nvim
+  Generated from: folke/lazy.nvim
   */
   lazy-nvim = buildVimPlugin {
     pname = "lazy-nvim";
-    version = "2024-03-07";
+    version = "2024-03-27";
     src = fetchurl {
-      url = "https://github.com/folke/lazy.nvim/archive/83493db50a434a4c5c648faf41e2ead80f96e478.tar.gz";
-      sha256 = "145jziy7ymj5nvyb13ks6w3x3d9qc35x88lwl28infqkshjp83k3";
+      url = "https://github.com/folke/lazy.nvim/archive/e888d5b64c34bc41f7ef2e8850a5e67e4b3e2731.tar.gz";
+      sha256 = "1nvy2f5vi5qzj7mqfvzhdh5f55fqqs7pz2fz1y6yc3i7p7w4p8xk";
     };
     meta = with lib; {
       description = "💤 A modern plugin manager for Neovim";
@@ -5588,8 +5936,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: abeldekat-lazyflex.nvim
+  Generated from: abeldekat/lazyflex.nvim
   */
   lazyflex-nvim = buildVimPlugin {
     pname = "lazyflex-nvim";
@@ -5604,15 +5953,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: kdheepak-lazygit.nvim
+  Generated from: kdheepak/lazygit.nvim
   */
   lazygit-nvim = buildVimPlugin {
     pname = "lazygit-nvim";
-    version = "2024-03-01";
+    version = "2024-03-24";
     src = fetchurl {
-      url = "https://github.com/kdheepak/lazygit.nvim/archive/774dcecbd0b9b57be6c150adacb60ced79b11b23.tar.gz";
-      sha256 = "1r1rq4wq6rydpy1kgqrmvfs7dsg90nyc7bppaksdbrk9n1gci51v";
+      url = "https://github.com/kdheepak/lazygit.nvim/archive/0ada6c6e7e138df92f5009b6952f4ac41248305a.tar.gz";
+      sha256 = "0d8ycfdkdf2smch6wah7fd6k0md10aphnnld5rw00qsz4pqhv8n7";
     };
     meta = with lib; {
       description = "Plugin for calling lazygit from within neovim.";
@@ -5620,15 +5970,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: Julian-lean.nvim
+  Generated from: Julian/lean.nvim
   */
   lean-nvim = buildVimPlugin {
     pname = "lean-nvim";
-    version = "2024-03-04";
+    version = "2024-03-20";
     src = fetchurl {
-      url = "https://github.com/Julian/lean.nvim/archive/2dc102db03e83afc473c80a7d962974841e13b54.tar.gz";
-      sha256 = "06wyjh74v60r4v7s5mk9yw5nsjm7mxfk1pi8cqf85mkz74mv1c1l";
+      url = "https://github.com/Julian/lean.nvim/archive/1b35a32538a773a7e79cf52740f485528b3ecb8f.tar.gz";
+      sha256 = "0hn7i24adq16v04g46mgfynssjhblq1l8yp2f7lfyzwhpdax0ww7";
     };
     meta = with lib; {
       description = "neovim support for the Lean theorem prover";
@@ -5636,8 +5987,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ggandor-leap-ast.nvim
+  Generated from: ggandor/leap-ast.nvim
   */
   leap-ast-nvim = buildVimPlugin {
     pname = "leap-ast-nvim";
@@ -5652,15 +6004,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: ggandor-leap.nvim
+  Generated from: ggandor/leap.nvim
   */
   leap-nvim = buildVimPlugin {
     pname = "leap-nvim";
-    version = "2024-03-09";
+    version = "2024-03-23";
     src = fetchurl {
-      url = "https://github.com/ggandor/leap.nvim/archive/bf5d64f072a74968191f9994b0c05fac64f5f015.tar.gz";
-      sha256 = "0a973iy64ciwahlcd5k54421gdkgzz8zc65hgyhby5z9kxy491v0";
+      url = "https://github.com/ggandor/leap.nvim/archive/25753d8a16b69fbbce5d392702c21dbc79d86bd1.tar.gz";
+      sha256 = "1sl4sh4xr42yal0jspbc62r73pmqq818hdjsc0r2z98jf9j6fx4n";
     };
     meta = with lib; {
       description = "Neovim's answer to the mouse 🦘";
@@ -5668,8 +6021,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ggandor-leap-spooky.nvim
+  Generated from: ggandor/leap-spooky.nvim
   */
   leap-spooky-nvim = buildVimPlugin {
     pname = "leap-spooky-nvim";
@@ -5684,8 +6038,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: Dhanus3133-Leetbuddy.nvim
+  Generated from: Dhanus3133/Leetbuddy.nvim
   */
   Leetbuddy-nvim = buildVimPlugin {
     pname = "Leetbuddy-nvim";
@@ -5700,15 +6055,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: mrjones2014-legendary.nvim
+  Generated from: mrjones2014/legendary.nvim
   */
   legendary-nvim = buildVimPlugin {
     pname = "legendary-nvim";
-    version = "2024-03-08";
+    version = "2024-03-26";
     src = fetchurl {
-      url = "https://github.com/mrjones2014/legendary.nvim/archive/c9c6ebb63d5375058f440c19ddccdcbc0ac4bb1a.tar.gz";
-      sha256 = "1snypg44ks4hnq9snr21vaw3ycw61m9df2my1zy79ix5hjk287dk";
+      url = "https://github.com/mrjones2014/legendary.nvim/archive/22fac9d74f127f50bdf1ef1f04a647035bef2389.tar.gz";
+      sha256 = "198g8v3kz6wbhhkij5jbc0863i57xg48sz1979h9xcp14xb81vd2";
     };
     meta = with lib; {
       description = "🗺️ A legend for your keymaps, commands, and autocmds, integrates with which-key.nvim, lazy.nvim, and more.";
@@ -5716,8 +6072,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: lmburns-lf.nvim
+  Generated from: lmburns/lf.nvim
   */
   lf-nvim = buildVimPlugin {
     pname = "lf-nvim";
@@ -5732,8 +6089,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ggandor-lightspeed.nvim
+  Generated from: ggandor/lightspeed.nvim
   */
   lightspeed-nvim = buildVimPlugin {
     pname = "lightspeed-nvim";
@@ -5748,8 +6106,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: xiyaowong-link-visitor.nvim
+  Generated from: xiyaowong/link-visitor.nvim
   */
   link-visitor-nvim = buildVimPlugin {
     pname = "link-visitor-nvim";
@@ -5764,15 +6123,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: tamago324-lir.nvim
+  Generated from: tamago324/lir.nvim
   */
   lir-nvim = buildVimPlugin {
     pname = "lir-nvim";
-    version = "2023-07-12";
+    version = "2024-03-15";
     src = fetchurl {
-      url = "https://github.com/tamago324/lir.nvim/archive/969e95bd07ec315b5efc53af69c881278c2b74fa.tar.gz";
-      sha256 = "1nv44r3ibbclvwchs982a3lk84mxc6cmqnn5jc6bjpbwp8jwi23l";
+      url = "https://github.com/tamago324/lir.nvim/archive/7a9d45de08fecd23a04aca1f96688d744830029e.tar.gz";
+      sha256 = "1fikfnnkvczld1by8z64bh82skk5hvs73n347sbfpkrajy79093r";
     };
     meta = with lib; {
       description = "Neovim file explorer";
@@ -5780,8 +6140,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ldelossa-litee.nvim
+  Generated from: ldelossa/litee.nvim
   */
   litee-nvim = buildVimPlugin {
     pname = "litee-nvim";
@@ -5796,8 +6157,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: smjonas-live-command.nvim
+  Generated from: smjonas/live-command.nvim
   */
   live-command-nvim = buildVimPlugin {
     pname = "live-command-nvim";
@@ -5812,8 +6174,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: gsuuon-llm.nvim
+  Generated from: gsuuon/llm.nvim
   */
   llm-nvim = buildVimPlugin {
     pname = "llm-nvim";
@@ -5828,8 +6191,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: folke-lsp-colors.nvim
+  Generated from: folke/lsp-colors.nvim
   */
   lsp-colors-nvim = buildVimPlugin {
     pname = "lsp-colors-nvim";
@@ -5844,8 +6208,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: nvim-lua-lsp_extensions.nvim
+  Generated from: nvim-lua/lsp_extensions.nvim
   */
   lsp-extensions-nvim = buildVimPlugin {
     pname = "lsp-extensions-nvim";
@@ -5860,8 +6225,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: lukas-reineke-lsp-format.nvim
+  Generated from: lukas-reineke/lsp-format.nvim
   */
   lsp-format-nvim = buildVimPlugin {
     pname = "lsp-format-nvim";
@@ -5876,8 +6242,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: VidocqH-lsp-lens.nvim
+  Generated from: VidocqH/lsp-lens.nvim
   */
   lsp-lens-nvim = buildVimPlugin {
     pname = "lsp-lens-nvim";
@@ -5892,8 +6259,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: linrongbin16-lsp-progress.nvim
+  Generated from: linrongbin16/lsp-progress.nvim
   */
   lsp-progress-nvim = buildVimPlugin {
     pname = "lsp-progress-nvim";
@@ -5908,15 +6276,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ray-x-lsp_signature.nvim
+  Generated from: ray-x/lsp_signature.nvim
   */
   lsp-signature-nvim = buildVimPlugin {
     pname = "lsp-signature-nvim";
-    version = "2024-03-10";
+    version = "2024-03-17";
     src = fetchurl {
-      url = "https://github.com/ray-x/lsp_signature.nvim/archive/1b32f64549478efd8f9e0d00517db84cf41aa0ea.tar.gz";
-      sha256 = "1jrijzx0philzyz8iywjg5qc58i1y3c158z6n7aimy0f4874xg26";
+      url = "https://github.com/ray-x/lsp_signature.nvim/archive/c6aeb2f1d2538bbdfdaab1664d9d4c3c75aa9db8.tar.gz";
+      sha256 = "1b7vaz1ba1gvpxh197c0a4x73zl8gffym66zj8h8151cg1jda8ig";
     };
     meta = with lib; {
       description = "LSP signature hint as you type";
@@ -5924,8 +6293,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: nvim-lua-lsp-status.nvim
+  Generated from: nvim-lua/lsp-status.nvim
   */
   lsp-status-nvim = buildVimPlugin {
     pname = "lsp-status-nvim";
@@ -5940,8 +6310,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: hinell-lsp-timeout.nvim
+  Generated from: hinell/lsp-timeout.nvim
   */
   lsp-timeout-nvim = buildVimPlugin {
     pname = "lsp-timeout-nvim";
@@ -5956,15 +6327,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: vonheikemen-lsp-zero.nvim
+  Generated from: vonheikemen/lsp-zero.nvim
   */
   lsp-zero-nvim = buildVimPlugin {
     pname = "lsp-zero-nvim";
-    version = "2024-03-09";
+    version = "2024-03-24";
     src = fetchurl {
-      url = "https://github.com/vonheikemen/lsp-zero.nvim/archive/14c9164413df4be17a5a0ca9e01a376691cbcaef.tar.gz";
-      sha256 = "1hrg143fdni7i7wx9bkx492659j6ni0zaa3wv1iz1r81fy7laksx";
+      url = "https://github.com/vonheikemen/lsp-zero.nvim/archive/2b5e9a39b3bf60bfb0cc7c35d5f2e879d4cd72ea.tar.gz";
+      sha256 = "1c3zanhf64zlh57vpzdvxcn45l9bvy4dhjj0k53nd28nrzbjyabm";
     };
     meta = with lib; {
       description = "A starting point to setup some lsp related features in neovim.";
@@ -5972,8 +6344,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: RishabhRD-lspactions
+  Generated from: RishabhRD/lspactions
   */
   lspactions = buildVimPlugin {
     pname = "lspactions";
@@ -5988,8 +6361,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: onsails-lspkind.nvim
+  Generated from: onsails/lspkind.nvim
   */
   lspkind-nvim = buildVimPlugin {
     pname = "lspkind-nvim";
@@ -6004,15 +6378,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: nvimdev-lspsaga.nvim
+  Generated from: nvimdev/lspsaga.nvim
   */
   lspsaga-nvim = buildVimPlugin {
     pname = "lspsaga-nvim";
-    version = "2024-03-09";
+    version = "2024-03-20";
     src = fetchurl {
-      url = "https://github.com/nvimdev/lspsaga.nvim/archive/b4e80c2da41ebe8721dd4f30442edcb903db69ea.tar.gz";
-      sha256 = "03l2x96zlmarrf9440h5janrkcbjr1i8qx4a4b0bab8571x000x5";
+      url = "https://github.com/nvimdev/lspsaga.nvim/archive/d5aa1a02a23b5725054928426b1de6932a6d3bc3.tar.gz";
+      sha256 = "11c7w80p524xvrr1fa3rk5r30iav07k70770ralxqrci2svbrbyi";
     };
     meta = with lib; {
       description = "improve neovim lsp experience";
@@ -6020,8 +6395,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: jinzhongjia-LspUI.nvim
+  Generated from: jinzhongjia/LspUI.nvim
   */
   LspUI-nvim = buildVimPlugin {
     pname = "LspUI-nvim";
@@ -6036,8 +6412,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: barreiroleo-ltex_extra.nvim
+  Generated from: barreiroleo/ltex_extra.nvim
   */
   ltex-extra-nvim = buildVimPlugin {
     pname = "ltex-extra-nvim";
@@ -6052,15 +6429,16 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: folke-lua-dev.nvim
+  Generated from: folke/lua-dev.nvim
   */
   lua-dev-nvim = buildVimPlugin {
     pname = "lua-dev-nvim";
-    version = "2024-02-28";
+    version = "2024-03-22";
     src = fetchurl {
-      url = "https://github.com/folke/lua-dev.nvim/archive/84e0290f5600e8b89c0dfcafc864f45496a53400.tar.gz";
-      sha256 = "1zii5j34bkw6b1jsd4phal0wb36lifarwmxzzfn080zmc9y09yx3";
+      url = "https://github.com/folke/lua-dev.nvim/archive/6a533ed9d3435dcaa456380d833ea04da37ea2ed.tar.gz";
+      sha256 = "1xly8kpqwvgwv742frg729510jyn7335cw81x17yhxy1rc3nxynd";
     };
     meta = with lib; {
       description = "💻  Neovim setup for init.lua and plugin development with full signature help, docs and completion for the nvim lua API.";
@@ -6068,15 +6446,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: nvim-lualine-lualine.nvim
+  Generated from: nvim-lualine/lualine.nvim
   */
   lualine-nvim = buildVimPlugin {
     pname = "lualine-nvim";
-    version = "2024-03-04";
+    version = "2024-03-21";
     src = fetchurl {
-      url = "https://github.com/nvim-lualine/lualine.nvim/archive/8b56462bfb746760465264de41b4907310f113ec.tar.gz";
-      sha256 = "0dzbkvv8rl235s4xgl8maw3sis6dzbzfy7v9ih9dmlj0b59l7480";
+      url = "https://github.com/nvim-lualine/lualine.nvim/archive/b5e8bb642138f787a2c1c5aedc2a78cb2cebbd67.tar.gz";
+      sha256 = "1rmwgyyhiq2x6xfgl6jd2d1c2lp2lw0sp93v7kq5wmn18mabxcb0";
     };
     meta = with lib; {
       description = "A blazing fast and easy to configure neovim statusline plugin written in pure lua.";
@@ -6084,15 +6463,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: nvim-neorocks-luarocks-tag-release
+  Generated from: nvim-neorocks/luarocks-tag-release
   */
   luarocks-tag-release = buildVimPlugin {
     pname = "luarocks-tag-release";
-    version = "2024-03-10";
+    version = "2024-03-25";
     src = fetchurl {
-      url = "https://github.com/nvim-neorocks/luarocks-tag-release/archive/60c2eb8fbfdddfe62eebce36d5a351683cf54b80.tar.gz";
-      sha256 = "1g78l2ydszpd4zsjl5gxcnvlvdkrmsbd64j069wsaqmskh3znw3w";
+      url = "https://github.com/nvim-neorocks/luarocks-tag-release/archive/87b26570218b6479291d93bb2b2e2efb4858b00f.tar.gz";
+      sha256 = "1wfd52c9d3w2n8w7aanrdgcn0ngihrfp912kk2j8jz2b8kivs38a";
     };
     meta = with lib; {
       description = "GitHub workflow for automatically generating Luarocks releases from tags and running busted tests";
@@ -6100,8 +6480,9 @@
       license = with licenses; [agpl3Only];
     };
   };
+
   /*
-  Generated from: L3MON4D3-LuaSnip
+  Generated from: L3MON4D3/LuaSnip
   */
   LuaSnip = buildVimPlugin {
     pname = "LuaSnip";
@@ -6116,8 +6497,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: alvarosevilla95-luatab.nvim
+  Generated from: alvarosevilla95/luatab.nvim
   */
   luatab-nvim = buildVimPlugin {
     pname = "luatab-nvim";
@@ -6132,15 +6514,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: rktjmp-lush.nvim
+  Generated from: rktjmp/lush.nvim
   */
   lush-nvim = buildVimPlugin {
     pname = "lush-nvim";
-    version = "2024-01-23";
+    version = "2024-03-17";
     src = fetchurl {
-      url = "https://github.com/rktjmp/lush.nvim/archive/2e8d34e748642621d761a65e3c2a198154b914e8.tar.gz";
-      sha256 = "1iqbsmjxxv96lrhfvimyqc92dzr8g3i6scv1krr9kj3r9nk0wmhf";
+      url = "https://github.com/rktjmp/lush.nvim/archive/bc12f010b34cfeefac35720656eb777753b165d9.tar.gz";
+      sha256 = "0259jpiyccxwz7p1xakhhxhxrssl1bgnsc87am7xn8j26f2g4b1i";
     };
     meta = with lib; {
       description = "Create Neovim themes with real-time feedback, export anywhere.";
@@ -6148,8 +6531,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: nanotee-luv-vimdocs
+  Generated from: nanotee/luv-vimdocs
   */
   luv-vimdocs = buildVimPlugin {
     pname = "luv-vimdocs";
@@ -6164,8 +6548,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: desdic-macrothis.nvim
+  Generated from: desdic/macrothis.nvim
   */
   macrothis-nvim = buildVimPlugin {
     pname = "macrothis-nvim";
@@ -6180,8 +6565,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: dccsillag-magma-nvim
+  Generated from: dccsillag/magma-nvim
   */
   magma-nvim = buildVimPlugin {
     pname = "magma-nvim";
@@ -6196,8 +6582,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: b0o-mapx.nvim
+  Generated from: b0o/mapx.nvim
   */
   mapx-nvim = buildVimPlugin {
     pname = "mapx-nvim";
@@ -6212,8 +6599,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: tadmccorkle-markdown.nvim
+  Generated from: tadmccorkle/markdown.nvim
   */
   markdown-nvim = buildVimPlugin {
     pname = "markdown-nvim";
@@ -6228,8 +6616,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: iamcco-markdown-preview.nvim
+  Generated from: iamcco/markdown-preview.nvim
   */
   markdown-preview-nvim = buildVimPlugin {
     pname = "markdown-preview-nvim";
@@ -6244,8 +6633,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: NFrid-markdown-togglecheck
+  Generated from: NFrid/markdown-togglecheck
   */
   markdown-togglecheck = buildVimPlugin {
     pname = "markdown-togglecheck";
@@ -6260,15 +6650,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: Zeioth-markmap.nvim
+  Generated from: Zeioth/markmap.nvim
   */
   markmap-nvim = buildVimPlugin {
     pname = "markmap-nvim";
-    version = "2024-03-09";
+    version = "2024-03-26";
     src = fetchurl {
-      url = "https://github.com/Zeioth/markmap.nvim/archive/559cf81d2d19bc9cc09e42ddc9996e2e717697f8.tar.gz";
-      sha256 = "0f14f3jb1lp23q6g16xchs5n7g6ryigprd61ciphcp1gyaa6rbjb";
+      url = "https://github.com/Zeioth/markmap.nvim/archive/33cfdbf05a4db38a48ac245eaf52452f7028ceb8.tar.gz";
+      sha256 = "1zgsi17lzmxhivn4nf8ck16clrlab4vfy6a5ffqbx1fm9c93c3jw";
     };
     meta = with lib; {
       description = "Visualize your Markdown as mindmaps with markmap";
@@ -6276,8 +6667,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: chentoast-marks.nvim
+  Generated from: chentoast/marks.nvim
   */
   marks-nvim = buildVimPlugin {
     pname = "marks-nvim";
@@ -6292,8 +6684,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: mpas-marp-nvim
+  Generated from: mpas/marp-nvim
   */
   marp-nvim = buildVimPlugin {
     pname = "marp-nvim";
@@ -6308,15 +6701,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: williamboman-mason-lspconfig.nvim
+  Generated from: williamboman/mason-lspconfig.nvim
   */
   mason-lspconfig-nvim = buildVimPlugin {
     pname = "mason-lspconfig-nvim";
-    version = "2024-03-10";
+    version = "2024-03-22";
     src = fetchurl {
-      url = "https://github.com/williamboman/mason-lspconfig.nvim/archive/55716a879568a498fa236593c8119789054a3b8e.tar.gz";
-      sha256 = "1zc01bvyr6p933gv07p1b67nhfc09pn9km6w1f1wgrdymlklpsbl";
+      url = "https://github.com/williamboman/mason-lspconfig.nvim/archive/9dfcf2036c223920826140f0151d929a43f9eceb.tar.gz";
+      sha256 = "0swsf7nq4lqg04n7pj0qj72mgx04i1pmbbh08abg9h1aw0lr9w2h";
     };
     meta = with lib; {
       description = "Extension to mason.nvim that makes it easier to use lspconfig with mason.nvim.";
@@ -6324,15 +6718,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: williamboman-mason.nvim
+  Generated from: williamboman/mason.nvim
   */
   mason-nvim = buildVimPlugin {
     pname = "mason-nvim";
-    version = "2024-02-25";
+    version = "2024-03-21";
     src = fetchurl {
-      url = "https://github.com/williamboman/mason.nvim/archive/3b5068f0fc565f337d67a2d315d935f574848ee7.tar.gz";
-      sha256 = "03d7069vjlb4d6l95xm1zafx88wmh4m67rz8nj8nm1r5jbji4287";
+      url = "https://github.com/williamboman/mason.nvim/archive/751b1fcbf3d3b783fcf8d48865264a9bcd8f9b10.tar.gz";
+      sha256 = "1m6v40kygilqzcf7kngjll0d49kf5dkvz7ppky1mcplw1iiax4kj";
     };
     meta = with lib; {
       description = "Portable package manager for Neovim that runs everywhere Neovim runs. Easily install and manage LSP servers, DAP servers, linters, and formatters.";
@@ -6340,8 +6735,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: monkoose-matchparen.nvim
+  Generated from: monkoose/matchparen.nvim
   */
   matchparen-nvim = buildVimPlugin {
     pname = "matchparen-nvim";
@@ -6356,15 +6752,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: marko-cerovac-material.nvim
+  Generated from: marko-cerovac/material.nvim
   */
   material-nvim = buildVimPlugin {
     pname = "material-nvim";
-    version = "2024-02-11";
+    version = "2024-03-25";
     src = fetchurl {
-      url = "https://github.com/marko-cerovac/material.nvim/archive/1804e517ceb0fce958a9fabaa94c9a6e09d54b8f.tar.gz";
-      sha256 = "1s99fxqcz6rhn2bf3gmpsld51wgwbncqkr1g0w3sqydk47dm1wsb";
+      url = "https://github.com/marko-cerovac/material.nvim/archive/946e2f3241c0c809aa01c7ab3590d30e9eb5dab0.tar.gz";
+      sha256 = "1b65vyw7pfk7mlq8z40l07aqravjza7hsy7w785r5ljk4bgggh6z";
     };
     meta = with lib; {
       description = ":trident: Material colorscheme for NeoVim written in Lua with built-in support for native LSP, TreeSitter and many more plugins";
@@ -6372,8 +6769,9 @@
       license = with licenses; [gpl2Only];
     };
   };
+
   /*
-  Generated from: jubnzv-mdeval.nvim
+  Generated from: jubnzv/mdeval.nvim
   */
   mdeval-nvim = buildVimPlugin {
     pname = "mdeval-nvim";
@@ -6388,8 +6786,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: savq-melange-nvim
+  Generated from: savq/melange-nvim
   */
   melange-nvim = buildVimPlugin {
     pname = "melange-nvim";
@@ -6404,15 +6803,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ramojus-mellifluous.nvim
+  Generated from: ramojus/mellifluous.nvim
   */
   mellifluous-nvim = buildVimPlugin {
     pname = "mellifluous-nvim";
-    version = "2024-02-20";
+    version = "2024-03-24";
     src = fetchurl {
-      url = "https://github.com/ramojus/mellifluous.nvim/archive/42ccf800b96b4ff401506c3eebabea1975cf2d4b.tar.gz";
-      sha256 = "0z27hxq8z5pb967i3b7js3qh72l7yxrbl8q41nw66hild6sr750m";
+      url = "https://github.com/ramojus/mellifluous.nvim/archive/b5df5623a6c37001d22477c4fb9d53385f0292eb.tar.gz";
+      sha256 = "094ba7r41ykxihayd45nv78vh1swzl5j3f387jq4cyfg86qfx8q0";
     };
     meta = with lib; {
       description = "Pleasant and productive colorscheme for Neovim";
@@ -6420,8 +6820,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: kvrohit-mellow.nvim
+  Generated from: kvrohit/mellow.nvim
   */
   mellow-nvim = buildVimPlugin {
     pname = "mellow-nvim";
@@ -6436,8 +6837,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: gaborvecsei-memento.nvim
+  Generated from: gaborvecsei/memento.nvim
   */
   memento-nvim = buildVimPlugin {
     pname = "memento-nvim";
@@ -6452,8 +6854,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: AckslD-messages.nvim
+  Generated from: AckslD/messages.nvim
   */
   messages-nvim = buildVimPlugin {
     pname = "messages-nvim";
@@ -6468,8 +6871,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: xero-miasma.nvim
+  Generated from: xero/miasma.nvim
   */
   miasma-nvim = buildVimPlugin {
     pname = "miasma-nvim";
@@ -6484,8 +6888,9 @@
       license = with licenses; [cc0];
     };
   };
+
   /*
-  Generated from: anuvyklack-middleclass
+  Generated from: anuvyklack/middleclass
   */
   middleclass = buildVimPlugin {
     pname = "middleclass";
@@ -6500,8 +6905,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: dasupradyumna-midnight.nvim
+  Generated from: dasupradyumna/midnight.nvim
   */
   midnight-nvim = buildVimPlugin {
     pname = "midnight-nvim";
@@ -6516,8 +6922,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: phaazon-mind.nvim
+  Generated from: phaazon/mind.nvim
   */
   mind-nvim = buildVimPlugin {
     pname = "mind-nvim";
@@ -6532,15 +6939,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: echasnovski-mini.nvim
+  Generated from: echasnovski/mini.nvim
   */
   mini-nvim = buildVimPlugin {
     pname = "mini-nvim";
-    version = "2024-03-10";
+    version = "2024-03-24";
     src = fetchurl {
-      url = "https://github.com/echasnovski/mini.nvim/archive/d7d079d6f99c95218d6059e0eaf83997990b2e0e.tar.gz";
-      sha256 = "0b0960zfrps12qiafrlav1687d7lp7ys0km8gaxgmvchfazhl04y";
+      url = "https://github.com/echasnovski/mini.nvim/archive/3fbc18cd225ee04fb712ed03ff835c4495f3494b.tar.gz";
+      sha256 = "1i1ynlalq1lvhhj6hwkav84a9f9m9sqf6azbczbp8n7ih7f0cncz";
     };
     meta = with lib; {
       description = "Library of 35+ independent Lua modules improving overall Neovim (version 0.7 and higher) experience with minimal effort";
@@ -6548,8 +6956,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: yazeed1s-minimal.nvim
+  Generated from: yazeed1s/minimal.nvim
   */
   minimal-nvim = buildVimPlugin {
     pname = "minimal-nvim";
@@ -6564,8 +6973,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: brendalf-mix.nvim
+  Generated from: brendalf/mix.nvim
   */
   mix-nvim = buildVimPlugin {
     pname = "mix-nvim";
@@ -6580,8 +6990,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: jghauser-mkdir.nvim
+  Generated from: jghauser/mkdir.nvim
   */
   mkdir-nvim = buildVimPlugin {
     pname = "mkdir-nvim";
@@ -6596,8 +7007,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: jakewvincent-mkdnflow.nvim
+  Generated from: jakewvincent/mkdnflow.nvim
   */
   mkdnflow-nvim = buildVimPlugin {
     pname = "mkdnflow-nvim";
@@ -6612,8 +7024,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: mawkler-modicator.nvim
+  Generated from: mawkler/modicator.nvim
   */
   modicator-nvim = buildVimPlugin {
     pname = "modicator-nvim";
@@ -6628,8 +7041,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ishan9299-modus-theme-vim
+  Generated from: ishan9299/modus-theme-vim
   */
   modus-theme-vim = buildVimPlugin {
     pname = "modus-theme-vim";
@@ -6644,15 +7058,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: miikanissi-modus-themes.nvim
+  Generated from: miikanissi/modus-themes.nvim
   */
   modus-themes-nvim = buildVimPlugin {
     pname = "modus-themes-nvim";
-    version = "2024-01-02";
+    version = "2024-03-24";
     src = fetchurl {
-      url = "https://github.com/miikanissi/modus-themes.nvim/archive/71fd92fb7b606af51b48b0cffceba8193e2e8713.tar.gz";
-      sha256 = "0xw67mba4r5ydnc8zfn797grlsp8qv335kqlya66v81z39mzg0by";
+      url = "https://github.com/miikanissi/modus-themes.nvim/archive/7cef53b10b6964a0be483fa27a3d66069cefaa6c.tar.gz";
+      sha256 = "1vbivif37jb4i9wmp23ajcgnqxa2j87hqzf5fpnlbhrq4i0a7lh6";
     };
     meta = with lib; {
       description = "Highly accessible themes for Neovim, conforming with the highest standard for color contrast between background and foreground values (WCAG AAA). A Neovim port of the original Modus Themes built for GNU Emacs.";
@@ -6660,15 +7075,16 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: benlubas-molten-nvim
+  Generated from: benlubas/molten-nvim
   */
   molten-nvim = buildVimPlugin {
     pname = "molten-nvim";
-    version = "2024-03-06";
+    version = "2024-03-25";
     src = fetchurl {
-      url = "https://github.com/benlubas/molten-nvim/archive/7d8bd23e3b36bfc911f7af361f3e1c311c61e8e7.tar.gz";
-      sha256 = "0hzfrzlxibmvfidny9pzynbh01898q00zw8gmq9fgvgfjih99l0c";
+      url = "https://github.com/benlubas/molten-nvim/archive/2fffc76616b645f8e0fff65a3acb89e5f38bd2a9.tar.gz";
+      sha256 = "12mc5dvi73dmmxdj6w759k7lxlgrl01j635vbv4ahlymvbp0xf26";
     };
     meta = with lib; {
       description = "A neovim plugin for interactively running code with the jupyter kernel. Fork of magma-nvim with improvements in image rendering, performance, and more";
@@ -6676,8 +7092,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: kdheepak-monochrome.nvim
+  Generated from: kdheepak/monochrome.nvim
   */
   monochrome-nvim = buildVimPlugin {
     pname = "monochrome-nvim";
@@ -6692,15 +7109,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: polirritmico-monokai-nightasty.nvim
+  Generated from: polirritmico/monokai-nightasty.nvim
   */
   monokai-nightasty-nvim = buildVimPlugin {
     pname = "monokai-nightasty-nvim";
-    version = "2024-03-09";
+    version = "2024-03-24";
     src = fetchurl {
-      url = "https://github.com/polirritmico/monokai-nightasty.nvim/archive/87032d3995ee978f16e40259693134921015bcdd.tar.gz";
-      sha256 = "08fl8k6cd2l5x6g4dcd0sgh31da5yld2zn0pzbxs8ggxc2b0yxnq";
+      url = "https://github.com/polirritmico/monokai-nightasty.nvim/archive/da7552d5141d871c4597395b7bc1adaeb6e004f2.tar.gz";
+      sha256 = "0wcpgzxb3c5pdijscrd2nks334gk81ghv27llzzbvc52jxr7501y";
     };
     meta = with lib; {
       description = "A dark/light theme for Neovim based on the Monokai color palette written in Lua, support for LSP, Treesitter and lots of plugins.";
@@ -6708,8 +7126,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: tanvirtin-monokai.nvim
+  Generated from: tanvirtin/monokai.nvim
   */
   monokai-nvim = buildVimPlugin {
     pname = "monokai-nvim";
@@ -6724,8 +7143,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: shaunsingh-moonlight.nvim
+  Generated from: shaunsingh/moonlight.nvim
   */
   moonlight-nvim = buildVimPlugin {
     pname = "moonlight-nvim";
@@ -6740,8 +7160,9 @@
       license = with licenses; [gpl2Only];
     };
   };
+
   /*
-  Generated from: hinell-move.nvim
+  Generated from: hinell/move.nvim
   */
   move-nvim = buildVimPlugin {
     pname = "move-nvim";
@@ -6756,8 +7177,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: willothy-moveline.nvim
+  Generated from: willothy/moveline.nvim
   */
   moveline-nvim = buildVimPlugin {
     pname = "moveline-nvim";
@@ -6772,8 +7194,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: niuiic-multiple-session.nvim
+  Generated from: niuiic/multiple-session.nvim
   */
   multiple-session-nvim = buildVimPlugin {
     pname = "multiple-session-nvim";
@@ -6788,8 +7211,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: acksld-muren.nvim
+  Generated from: acksld/muren.nvim
   */
   muren-nvim = buildVimPlugin {
     pname = "muren-nvim";
@@ -6804,8 +7228,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: nyngwang-murmur.lua
+  Generated from: nyngwang/murmur.lua
   */
   murmur-lua = buildVimPlugin {
     pname = "murmur-lua";
@@ -6820,8 +7245,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: jbyuki-nabla.nvim
+  Generated from: jbyuki/nabla.nvim
   */
   nabla-nvim = buildVimPlugin {
     pname = "nabla-nvim";
@@ -6836,8 +7262,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: liangxianzhe-nap.nvim
+  Generated from: liangxianzhe/nap.nvim
   */
   nap-nvim = buildVimPlugin {
     pname = "nap-nvim";
@@ -6852,8 +7279,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ray-x-navigator.lua
+  Generated from: ray-x/navigator.lua
   */
   navigator-lua = buildVimPlugin {
     pname = "navigator-lua";
@@ -6868,8 +7296,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: numToStr-Navigator.nvim
+  Generated from: numToStr/Navigator.nvim
   */
   Navigator-nvim = buildVimPlugin {
     pname = "Navigator-nvim";
@@ -6884,15 +7313,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: nvim-neo-tree-neo-tree.nvim
+  Generated from: nvim-neo-tree/neo-tree.nvim
   */
   neo-tree-nvim = buildVimPlugin {
     pname = "neo-tree-nvim";
-    version = "2024-03-09";
+    version = "2024-03-21";
     src = fetchurl {
-      url = "https://github.com/nvim-neo-tree/neo-tree.nvim/archive/230e9383c664061bdf3517c998ed1bf6ed409c59.tar.gz";
-      sha256 = "184rrd93f2ql0g5za1qlkvfgc6wjszsd0y4f1x80dglr4jqcww8p";
+      url = "https://github.com/nvim-neo-tree/neo-tree.nvim/archive/16d1b194376bf1fc2acd89ccb3c29ba8315bfcea.tar.gz";
+      sha256 = "190pkrl9vx5n7il7svjjls66fg1pvwwcgx0mij36mk75k6h3rnkh";
     };
     meta = with lib; {
       description = "Neovim plugin to manage the file system and other tree like structures.";
@@ -6900,8 +7330,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ecthelionvi-NeoColumn.nvim
+  Generated from: ecthelionvi/NeoColumn.nvim
   */
   NeoColumn-nvim = buildVimPlugin {
     pname = "NeoColumn-nvim";
@@ -6916,8 +7347,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ecthelionvi-NeoComposer.nvim
+  Generated from: ecthelionvi/NeoComposer.nvim
   */
   NeoComposer-nvim = buildVimPlugin {
     pname = "NeoComposer-nvim";
@@ -6932,8 +7364,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: folke-neodev.nvim
+  Generated from: folke/neodev.nvim
   */
   neodev-nvim = buildVimPlugin {
     pname = "neodev-nvim";
@@ -6948,8 +7381,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: zbirenbaum-neodim
+  Generated from: zbirenbaum/neodim
   */
   neodim = buildVimPlugin {
     pname = "neodim";
@@ -6964,8 +7398,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: sbdchd-neoformat
+  Generated from: sbdchd/neoformat
   */
   neoformat = buildVimPlugin {
     pname = "neoformat";
@@ -6980,8 +7415,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: TimUntersberger-neofs
+  Generated from: TimUntersberger/neofs
   */
   neofs = buildVimPlugin {
     pname = "neofs";
@@ -6996,15 +7432,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: danymat-neogen
+  Generated from: danymat/neogen
   */
   neogen = buildVimPlugin {
     pname = "neogen";
-    version = "2024-03-03";
+    version = "2024-03-23";
     src = fetchurl {
-      url = "https://github.com/danymat/neogen/archive/b95347a588401a755eadd17482edc1662876bd58.tar.gz";
-      sha256 = "052xw7938fpyzrs5zpan48m9srrm72y37f03f8adrfcrll82m4vv";
+      url = "https://github.com/danymat/neogen/archive/0daffcec249bf42275e322361fe55b89a05ff278.tar.gz";
+      sha256 = "1205vj210ihxqpd3vcxwcbgnfpf2mljpzha1jjnmys7wx0dn4nzf";
     };
     meta = with lib; {
       description = "A better annotation generator. Supports multiple languages and annotation conventions.";
@@ -7012,8 +7449,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: adelarsq-neoline.vim
+  Generated from: adelarsq/neoline.vim
   */
   neoline-vim = buildVimPlugin {
     pname = "neoline-vim";
@@ -7028,8 +7466,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: nikvdp-neomux
+  Generated from: nikvdp/neomux
   */
   neomux = buildVimPlugin {
     pname = "neomux";
@@ -7044,8 +7483,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: rafamadriz-neon
+  Generated from: rafamadriz/neon
   */
   neon = buildVimPlugin {
     pname = "neon";
@@ -7060,8 +7500,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: nyngwang-NeoNoName.lua
+  Generated from: nyngwang/NeoNoName.lua
   */
   NeoNoName-lua = buildVimPlugin {
     pname = "NeoNoName-lua";
@@ -7076,8 +7517,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: pluffie-neoproj
+  Generated from: pluffie/neoproj
   */
   neoproj = buildVimPlugin {
     pname = "neoproj";
@@ -7092,15 +7534,16 @@
       license = with licenses; [mpl20];
     };
   };
+
   /*
-  Generated from: nvim-neorg-neorg
+  Generated from: nvim-neorg/neorg
   */
   neorg = buildVimPlugin {
     pname = "neorg";
-    version = "2024-03-04";
+    version = "2024-03-26";
     src = fetchurl {
-      url = "https://github.com/nvim-neorg/neorg/archive/086891d396ac9fccd91faf1520f563b6eb9eb942.tar.gz";
-      sha256 = "1r167m2nm4qfb1a4fhndxqpnba6hs8qwnbmqli3v6pmn3cynlxr1";
+      url = "https://github.com/nvim-neorg/neorg/archive/20be50c7651a47813020797075d8c34150e79abd.tar.gz";
+      sha256 = "0h0vwz3hd04m13q1695r1bb4a3db8ndki5b20s9srjzb67m9l6vc";
     };
     meta = with lib; {
       description = "Modernity meets insane extensibility. The future of organizing your life in Neovim.";
@@ -7108,8 +7551,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: nvim-neorg-neorg-telescope
+  Generated from: nvim-neorg/neorg-telescope
   */
   neorg-telescope = buildVimPlugin {
     pname = "neorg-telescope";
@@ -7124,8 +7568,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: nyngwang-NeoRoot.lua
+  Generated from: nyngwang/NeoRoot.lua
   */
   NeoRoot-lua = buildVimPlugin {
     pname = "NeoRoot-lua";
@@ -7140,8 +7585,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: karb94-neoscroll.nvim
+  Generated from: karb94/neoscroll.nvim
   */
   neoscroll-nvim = buildVimPlugin {
     pname = "neoscroll-nvim";
@@ -7156,8 +7602,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: Tsuzat-NeoSolarized.nvim
+  Generated from: Tsuzat/NeoSolarized.nvim
   */
   NeoSolarized-nvim = buildVimPlugin {
     pname = "NeoSolarized-nvim";
@@ -7172,15 +7619,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: svrana-neosolarized.nvim
+  Generated from: svrana/neosolarized.nvim
   */
   neosolarized-nvim = buildVimPlugin {
     pname = "neosolarized-nvim";
-    version = "2023-12-13";
+    version = "2024-03-22";
     src = fetchurl {
-      url = "https://github.com/svrana/neosolarized.nvim/archive/f04cb6517933ced4b9701048aad5865968a58218.tar.gz";
-      sha256 = "0a6lw4bsrz19i84iyjxg5wl6v2nz31q2ys7b12ppqiz89w36v370";
+      url = "https://github.com/svrana/neosolarized.nvim/archive/c1d9a1451f914599cc40e905bce9598a78546a8a.tar.gz";
+      sha256 = "1jk79q1rh4zgwjhnd8nl9n8j66cfc157srv8agh6pwsd3635z52z";
     };
     meta = with lib; {
       description = "Truecolor solarized theme for neovim in Lua using colorbuddy";
@@ -7188,8 +7636,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: nyngwang-NeoTerm.lua
+  Generated from: nyngwang/NeoTerm.lua
   */
   NeoTerm-lua = buildVimPlugin {
     pname = "NeoTerm-lua";
@@ -7204,15 +7653,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: nvim-neotest-neotest
+  Generated from: nvim-neotest/neotest
   */
   neotest = buildVimPlugin {
     pname = "neotest";
-    version = "2024-02-27";
+    version = "2024-03-20";
     src = fetchurl {
-      url = "https://github.com/nvim-neotest/neotest/archive/4440cc2227894c2ae9b0673a30e6cc6f1836e8c2.tar.gz";
-      sha256 = "0cc6f2mn6d38ikx9xgskj0l4084l5gi2nq8mhlcz2pbwfjqysbv6";
+      url = "https://github.com/nvim-neotest/neotest/archive/e07fe8241112274aae9947b98d255763738a1d52.tar.gz";
+      sha256 = "0s3lnm7180flgqsxfvbr3y0r3ziky7pikx9m9shck07kn6sv5l1l";
     };
     meta = with lib; {
       description = "An extensible framework for interacting with tests within NeoVim.";
@@ -7220,15 +7670,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: coffebar-neovim-project
+  Generated from: coffebar/neovim-project
   */
   neovim-project = buildVimPlugin {
     pname = "neovim-project";
-    version = "2024-03-09";
+    version = "2024-03-25";
     src = fetchurl {
-      url = "https://github.com/coffebar/neovim-project/archive/d7a91b6b86f3b5ff2d47c2ef920bc362e581ac48.tar.gz";
-      sha256 = "0ry7whanzbj7hfr532az58b05x0pix031bbb4fp47h1dxvr1q2gh";
+      url = "https://github.com/coffebar/neovim-project/archive/771ccd6d7969d19bd84489d1fbae2541c5b9b9c7.tar.gz";
+      sha256 = "0f96bidm428pffr7a2zvvaapm5r2c4wzsza7jjr8d2dwlcqhhclx";
     };
     meta = with lib; {
       description = "Neovim project manager maintains your recent project history and uses Telescope to select from autosaved sessions.";
@@ -7236,8 +7687,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: Shatur-neovim-session-manager
+  Generated from: Shatur/neovim-session-manager
   */
   neovim-session-manager = buildVimPlugin {
     pname = "neovim-session-manager";
@@ -7252,8 +7704,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: Shatur-neovim-tasks
+  Generated from: Shatur/neovim-tasks
   */
   neovim-tasks = buildVimPlugin {
     pname = "neovim-tasks";
@@ -7268,8 +7721,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: amiel-neovim-tmux-navigator
+  Generated from: amiel/neovim-tmux-navigator
   */
   neovim-tmux-navigator = buildVimPlugin {
     pname = "neovim-tmux-navigator";
@@ -7284,8 +7738,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: nyngwang-NeoWell.lua
+  Generated from: nyngwang/NeoWell.lua
   */
   NeoWell-lua = buildVimPlugin {
     pname = "NeoWell-lua";
@@ -7300,8 +7755,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: backdround-neowords.nvim
+  Generated from: backdround/neowords.nvim
   */
   neowords-nvim = buildVimPlugin {
     pname = "neowords-nvim";
@@ -7316,8 +7772,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: preservim-nerdcommenter
+  Generated from: preservim/nerdcommenter
   */
   nerdcommenter = buildVimPlugin {
     pname = "nerdcommenter";
@@ -7332,8 +7789,9 @@
       license = with licenses; [cc0];
     };
   };
+
   /*
-  Generated from: LionC-nest.nvim
+  Generated from: LionC/nest.nvim
   */
   nest-nvim = buildVimPlugin {
     pname = "nest-nvim";
@@ -7348,8 +7806,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: miversen33-netman.nvim
+  Generated from: miversen33/netman.nvim
   */
   netman-nvim = buildVimPlugin {
     pname = "netman-nvim";
@@ -7364,8 +7823,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: dense-analysis-neural
+  Generated from: dense-analysis/neural
   */
   neural = buildVimPlugin {
     pname = "neural";
@@ -7380,8 +7840,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: oberblastmeister-neuron.nvim
+  Generated from: oberblastmeister/neuron.nvim
   */
   neuron-nvim = buildVimPlugin {
     pname = "neuron-nvim";
@@ -7396,15 +7857,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: Olical-nfnl
+  Generated from: Olical/nfnl
   */
   nfnl = buildVimPlugin {
     pname = "nfnl";
-    version = "2024-02-19";
+    version = "2024-03-22";
     src = fetchurl {
-      url = "https://github.com/Olical/nfnl/archive/92f03c01405477fc61e410bb75d4387781a493dc.tar.gz";
-      sha256 = "11xx9bwm2q2qklak58hagr927xdc638yjammpcl96vbr8m73xzxj";
+      url = "https://github.com/Olical/nfnl/archive/9ac9bcac112269d38548f2578fdd927c6ce3d50b.tar.gz";
+      sha256 = "03dkkm7sqbzfw54xw7z4vhbv7gv2bbwq8f4d6zif8wyvj556jkw5";
     };
     meta = with lib; {
       description = "Enhance your Neovim with Fennel";
@@ -7412,15 +7874,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: oxfist-night-owl.nvim
+  Generated from: oxfist/night-owl.nvim
   */
   night-owl-nvim = buildVimPlugin {
     pname = "night-owl-nvim";
-    version = "2024-02-26";
+    version = "2024-03-12";
     src = fetchurl {
-      url = "https://github.com/oxfist/night-owl.nvim/archive/b9205dac99317b9ece31636a0414d35efb957aca.tar.gz";
-      sha256 = "1jl4s982yldfvb4b8bsgmk9ah9gikdsznmdf4akvrcaz8xj1giaa";
+      url = "https://github.com/oxfist/night-owl.nvim/archive/7f139517b6d2f05ee6542850b04de004a6b25dce.tar.gz";
+      sha256 = "1ng8xsnzrkjm6i61y7vr4aqnc82353glaj51vv7758v077wcy5ck";
     };
     meta = with lib; {
       description = "🦉 🌌 Night Owl colorscheme implementation for Neovim with support for Treesitter and semantic tokens";
@@ -7428,15 +7891,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: cryptomilk-nightcity.nvim
+  Generated from: cryptomilk/nightcity.nvim
   */
   nightcity-nvim = buildVimPlugin {
     pname = "nightcity-nvim";
-    version = "2024-01-30";
+    version = "2024-03-19";
     src = fetchurl {
-      url = "https://github.com/cryptomilk/nightcity.nvim/archive/be339f7016372b138b52a52a1e17e5966449fab5.tar.gz";
-      sha256 = "1zi5qqfwr0p1mnx23rvgrcy2iaqkfp07jb77h8sva7p9c6cprlnq";
+      url = "https://github.com/cryptomilk/nightcity.nvim/archive/8d83a8e09e39bba9c4c161c93522cc230452feeb.tar.gz";
+      sha256 = "18zc3bib6z42bwnlgrcqc7flcpd25k93vbgj1z7q6q7ghh16ng8s";
     };
     meta = with lib; {
       description = "🏙 Night City - A dark colorscheme for Neovim with LSP support";
@@ -7444,15 +7908,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: EdenEast-nightfox.nvim
+  Generated from: EdenEast/nightfox.nvim
   */
   nightfox-nvim = buildVimPlugin {
     pname = "nightfox-nvim";
-    version = "2024-01-31";
+    version = "2024-03-18";
     src = fetchurl {
-      url = "https://github.com/EdenEast/nightfox.nvim/archive/a408e6bb101066952b81de9c11be367114bd561f.tar.gz";
-      sha256 = "1iyayhh395phz739dfm1zxkv7xjs0n6217xid96m13lbf0kwprfs";
+      url = "https://github.com/EdenEast/nightfox.nvim/archive/e352a32e0f54feb2550ebdab815ae8f7f26ed63b.tar.gz";
+      sha256 = "0mszrp2g4la6lfal1jzwhwy29ijwggn7z3xx6nv0z1vnvfpz6msn";
     };
     meta = with lib; {
       description = "🦊A highly customizable theme for vim and neovim with support for lsp, treesitter and a variety of plugins.";
@@ -7460,8 +7925,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: alaviss-nim.nvim
+  Generated from: alaviss/nim.nvim
   */
   nim-nvim = buildVimPlugin {
     pname = "nim-nvim";
@@ -7476,8 +7942,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: figsoda-nix-develop.nvim
+  Generated from: figsoda/nix-develop.nvim
   */
   nix-develop-nvim = buildVimPlugin {
     pname = "nix-develop-nvim";
@@ -7492,15 +7959,16 @@
       license = with licenses; [mpl20];
     };
   };
+
   /*
-  Generated from: tamago324-nlsp-settings.nvim
+  Generated from: tamago324/nlsp-settings.nvim
   */
   nlsp-settings-nvim = buildVimPlugin {
     pname = "nlsp-settings-nvim";
-    version = "2023-08-23";
+    version = "2024-03-27";
     src = fetchurl {
-      url = "https://github.com/tamago324/nlsp-settings.nvim/archive/2a52e793d4f293c0e1d61ee5794e3ff62bfbbb5d.tar.gz";
-      sha256 = "0xrn7ny3aw927s4d2rhgnbxg6scm81nia8rbzn8q3kna5vcjhmk9";
+      url = "https://github.com/tamago324/nlsp-settings.nvim/archive/407a6531b8b8e0e8a33a24421edcdaac5c562350.tar.gz";
+      sha256 = "0r0w32z8j7z3rj87bnrmy80s7ri16lvpgfbdk9a11wngkxh48l4l";
     };
     meta = with lib; {
       description = "A plugin for setting Neovim LSP with JSON or YAML files";
@@ -7508,8 +7976,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: tjdevries-nlua.nvim
+  Generated from: tjdevries/nlua.nvim
   */
   nlua-nvim = buildVimPlugin {
     pname = "nlua-nvim";
@@ -7524,8 +7993,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: luukvbaal-nnn.nvim
+  Generated from: luukvbaal/nnn.nvim
   */
   nnn-nvim = buildVimPlugin {
     pname = "nnn-nvim";
@@ -7540,15 +8010,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: shortcuts-no-neck-pain.nvim
+  Generated from: shortcuts/no-neck-pain.nvim
   */
   no-neck-pain-nvim = buildVimPlugin {
     pname = "no-neck-pain-nvim";
-    version = "2024-02-05";
+    version = "2024-03-26";
     src = fetchurl {
-      url = "https://github.com/shortcuts/no-neck-pain.nvim/archive/7ab539aaa083e92ef438d4cdc0261d8661916f1d.tar.gz";
-      sha256 = "0s12d61xlb9f70224fix17fb3lj08qnz8f6mwm665kyiixrhm0f3";
+      url = "https://github.com/shortcuts/no-neck-pain.nvim/archive/a54ffe9c61a30b8351fb3686cf83cf5840ddeaf0.tar.gz";
+      sha256 = "07sbsvhgiq4faf2idja5qjlx5z4mhays5vmlad260dvfbll0j9x4";
     };
     meta = with lib; {
       description = "☕ Dead simple yet super extensible plugin to center the currently focused buffer to the middle of the screen.";
@@ -7556,15 +8027,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: folke-noice.nvim
+  Generated from: folke/noice.nvim
   */
   noice-nvim = buildVimPlugin {
     pname = "noice-nvim";
-    version = "2024-01-22";
+    version = "2024-03-26";
     src = fetchurl {
-      url = "https://github.com/folke/noice.nvim/archive/bf67d70bd7265d075191e7812d8eb42b9791f737.tar.gz";
-      sha256 = "0a2iz3a6hbdrjfvwyq1j5b270svvrgxd54ay1z91p8kkllpdhyj9";
+      url = "https://github.com/folke/noice.nvim/archive/0cbe3f88d038320bdbda3c4c5c95f43a13c3aa12.tar.gz";
+      sha256 = "1ppd4hw7fgwn1g7i3hvwy9c3cj6hxrz86j6laph6291inlwailyz";
     };
     meta = with lib; {
       description = "💥 Highly experimental plugin that completely replaces the UI for messages, cmdline and the popupmenu.";
@@ -7572,15 +8044,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: nvimtools-none-ls.nvim
+  Generated from: nvimtools/none-ls.nvim
   */
   none-ls-nvim = buildVimPlugin {
     pname = "none-ls-nvim";
-    version = "2024-03-01";
+    version = "2024-03-21";
     src = fetchurl {
-      url = "https://github.com/nvimtools/none-ls.nvim/archive/ff3819c52ca04232fb70fbd6c1639de9abcbe122.tar.gz";
-      sha256 = "1v1ldb209x9n7nydhmnr6f7qhcafsri608mmmv9pz5kg6j0ngynk";
+      url = "https://github.com/nvimtools/none-ls.nvim/archive/18910d09d21d7df339805343bfe4a2b2e41c057b.tar.gz";
+      sha256 = "0v1dv9ykq29yab8psavyyi942j2n8qi0a36745hl5vny91n443cm";
     };
     meta = with lib; {
       description = "null-ls.nvim reloaded / Use Neovim as a language server to inject LSP diagnostics, code actions, and more via Lua.";
@@ -7588,15 +8061,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: AlexvZyl-nordic.nvim
+  Generated from: AlexvZyl/nordic.nvim
   */
   nordic-alexczyl = buildVimPlugin {
     pname = "nordic-alexczyl";
-    version = "2024-03-06";
+    version = "2024-03-23";
     src = fetchurl {
-      url = "https://github.com/AlexvZyl/nordic.nvim/archive/37acfa1bd8bc3f5b9f4c26b2a9b7c8b729215bf6.tar.gz";
-      sha256 = "0zhvlgmkxknpw6ik5xswgafr8rf2li6nwp77pjw8brjax0hiwymn";
+      url = "https://github.com/AlexvZyl/nordic.nvim/archive/5e2813e7d171bab13ca27a4eea25b82f57863c24.tar.gz";
+      sha256 = "1syigp8gi17kbad5pgbbj6w8aaw7yzq83wvh7wgqwbcdhsmg9yha";
     };
     meta = with lib; {
       description = "🌒  Nord for Neovim, but warmer and darker.  Supports a variety of plugins and other platforms.";
@@ -7604,15 +8078,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: andersevenrud-nordic.nvim
+  Generated from: andersevenrud/nordic.nvim
   */
   nordic-andersevenrud = buildVimPlugin {
     pname = "nordic-andersevenrud";
-    version = "2022-12-08";
+    version = "2024-03-15";
     src = fetchurl {
-      url = "https://github.com/andersevenrud/nordic.nvim/archive/cd552784eeeae61644fec60f6cc52c267dbddc73.tar.gz";
-      sha256 = "0l0wdd9is7srgmr9kqpnjhqwpm37zkarxaxj5588lc449hvms4an";
+      url = "https://github.com/andersevenrud/nordic.nvim/archive/9697dc86e888f603cdb7e3a0742b7814b8a01cd1.tar.gz";
+      sha256 = "17zn09n0arhn0ni8y3pn06ymfzqh1ijzshmsj5irac2ical2lkjc";
     };
     meta = with lib; {
       description = "A nord-esque colorscheme for neovim";
@@ -7620,8 +8095,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: gsuuon-note.nvim
+  Generated from: gsuuon/note.nvim
   */
   note-nvim = buildVimPlugin {
     pname = "note-nvim";
@@ -7636,8 +8112,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: GCBallesteros-NotebookNavigator.nvim
+  Generated from: GCBallesteros/NotebookNavigator.nvim
   */
   NotebookNavigator-nvim = buildVimPlugin {
     pname = "NotebookNavigator-nvim";
@@ -7652,8 +8129,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: MunifTanjim-nougat.nvim
+  Generated from: MunifTanjim/nougat.nvim
   */
   nougat-nvim = buildVimPlugin {
     pname = "nougat-nvim";
@@ -7668,8 +8146,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: XXiaoA-ns-textobject.nvim
+  Generated from: XXiaoA/ns-textobject.nvim
   */
   ns-textobject-nvim = buildVimPlugin {
     pname = "ns-textobject-nvim";
@@ -7684,8 +8163,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: jlesquembre-nterm.nvim
+  Generated from: jlesquembre/nterm.nvim
   */
   nterm-nvim = buildVimPlugin {
     pname = "nterm-nvim";
@@ -7700,15 +8180,16 @@
       license = with licenses; [epl20];
     };
   };
+
   /*
-  Generated from: MunifTanjim-nui.nvim
+  Generated from: MunifTanjim/nui.nvim
   */
   nui-nvim = buildVimPlugin {
     pname = "nui-nvim";
-    version = "2024-03-06";
+    version = "2024-03-18";
     src = fetchurl {
-      url = "https://github.com/MunifTanjim/nui.nvim/archive/756c59f46057cd2d43619cd3a6d4e01b2aa60295.tar.gz";
-      sha256 = "0l64s0xqslgriazk1f0yyd2dss9ln8909y94jbzz1dvywy7phfq4";
+      url = "https://github.com/MunifTanjim/nui.nvim/archive/cbd2668414331c10039278f558630ed19b93e69b.tar.gz";
+      sha256 = "0v9y357djckklm7pmbmwk0qmcd8xb8n8kd1a5fiym1vy3v538851";
     };
     meta = with lib; {
       description = "UI Component Library for Neovim.";
@@ -7716,8 +8197,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: jose-elias-alvarez-null-ls.nvim
+  Generated from: jose-elias-alvarez/null-ls.nvim
   */
   null-ls-nvim = buildVimPlugin {
     pname = "null-ls-nvim";
@@ -7732,8 +8214,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: nacro90-numb.nvim
+  Generated from: nacro90/numb.nvim
   */
   numb-nvim = buildVimPlugin {
     pname = "numb-nvim";
@@ -7748,8 +8231,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: nkakouros-original-numbers.nvim
+  Generated from: nkakouros-original/numbers.nvim
   */
   numbers-nvim = buildVimPlugin {
     pname = "numbers-nvim";
@@ -7764,8 +8248,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: ChristianChiarulli-nvcode-color-schemes.vim
+  Generated from: ChristianChiarulli/nvcode-color-schemes.vim
   */
   nvcode-color-schemes-vim = buildVimPlugin {
     pname = "nvcode-color-schemes-vim";
@@ -7780,8 +8265,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: chrisgrieser-nvim-alt-substitute
+  Generated from: chrisgrieser/nvim-alt-substitute
   */
   nvim-alt-substitute = buildVimPlugin {
     pname = "nvim-alt-substitute";
@@ -7796,15 +8282,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: windwp-nvim-autopairs
+  Generated from: windwp/nvim-autopairs
   */
   nvim-autopairs = buildVimPlugin {
     pname = "nvim-autopairs";
-    version = "2024-02-25";
+    version = "2024-03-20";
     src = fetchurl {
-      url = "https://github.com/windwp/nvim-autopairs/archive/c6139ca0d5ad7af129ea6c89cb4c56093f2c034a.tar.gz";
-      sha256 = "0yabdvnfx3ckxraqhxgqpjdg5zgpnmzkvbr8361i2byqswklkhjb";
+      url = "https://github.com/windwp/nvim-autopairs/archive/dbfc1c34bed415906395db8303c71039b3a3ffb4.tar.gz";
+      sha256 = "1c5hcbryixp3r43zh4lhi35lkjjy5y1abb9w2bawy245691dz378";
     };
     meta = with lib; {
       description = "autopairs for neovim written in lua";
@@ -7812,8 +8299,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: RRethy-nvim-base16
+  Generated from: RRethy/nvim-base16
   */
   nvim-base16 = buildVimPlugin {
     pname = "nvim-base16";
@@ -7828,8 +8316,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: norcalli-nvim-base16.lua
+  Generated from: norcalli/nvim-base16.lua
   */
   nvim-base16-lua = buildVimPlugin {
     pname = "nvim-base16-lua";
@@ -7844,8 +8333,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: code-biscuits-nvim-biscuits
+  Generated from: code-biscuits/nvim-biscuits
   */
   nvim-biscuits = buildVimPlugin {
     pname = "nvim-biscuits";
@@ -7860,8 +8350,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: tveskag-nvim-blame-line
+  Generated from: tveskag/nvim-blame-line
   */
   nvim-blame-line = buildVimPlugin {
     pname = "nvim-blame-line";
@@ -7876,8 +8367,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: kevinhwang91-nvim-bqf
+  Generated from: kevinhwang91/nvim-bqf
   */
   nvim-bqf = buildVimPlugin {
     pname = "nvim-bqf";
@@ -7892,8 +8384,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: idanarye-nvim-buffls
+  Generated from: idanarye/nvim-buffls
   */
   nvim-buffls = buildVimPlugin {
     pname = "nvim-buffls";
@@ -7908,8 +8401,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: Iron-E-nvim-cartographer
+  Generated from: Iron-E/nvim-cartographer
   */
   nvim-cartographer = buildVimPlugin {
     pname = "nvim-cartographer";
@@ -7924,15 +8418,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: chrisgrieser-nvim-chainsaw
+  Generated from: chrisgrieser/nvim-chainsaw
   */
   nvim-chainsaw = buildVimPlugin {
     pname = "nvim-chainsaw";
-    version = "2024-03-04";
+    version = "2024-03-14";
     src = fetchurl {
-      url = "https://github.com/chrisgrieser/nvim-chainsaw/archive/5471802bb4a92329bb96ef6041677dd7d1940954.tar.gz";
-      sha256 = "0g128qhxz8y5dh2848yk7zjw21gfxwfh7w4qawdi8kqqylrispl1";
+      url = "https://github.com/chrisgrieser/nvim-chainsaw/archive/338aa8c8539aa92c7dcf3053fb276a22d700560f.tar.gz";
+      sha256 = "1dkdjzb86jfjncb7i2py7srrc4bggw43gd2nk4snq70x7wi1j9sk";
     };
     meta = with lib; {
       description = "Speed up log creation. Create various kinds of language-specific log statements, such as logs of variables, assertions, or time-measuring.";
@@ -7940,8 +8435,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: idanarye-nvim-channelot
+  Generated from: idanarye/nvim-channelot
   */
   nvim-channelot = buildVimPlugin {
     pname = "nvim-channelot";
@@ -7956,15 +8452,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: hrsh7th-nvim-cmp
+  Generated from: hrsh7th/nvim-cmp
   */
   nvim-cmp = buildVimPlugin {
     pname = "nvim-cmp";
-    version = "2024-02-02";
+    version = "2024-03-24";
     src = fetchurl {
-      url = "https://github.com/hrsh7th/nvim-cmp/archive/04e0ca376d6abdbfc8b52180f8ea236cbfddf782.tar.gz";
-      sha256 = "1qyhxj9nha0vh38l6i146svip2vnb47f6w2z3xic0a33011h69gh";
+      url = "https://github.com/hrsh7th/nvim-cmp/archive/97dc716fc914c46577a4f254035ebef1aa72558a.tar.gz";
+      sha256 = "0s3ykrrvqqpjfa141d2d5l71czl78l557fb39ap6vf0iihs02zi4";
     };
     meta = with lib; {
       description = "A completion plugin for neovim coded in Lua.";
@@ -7972,8 +8469,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: weilbith-nvim-code-action-menu
+  Generated from: weilbith/nvim-code-action-menu
   */
   nvim-code-action-menu = buildVimPlugin {
     pname = "nvim-code-action-menu";
@@ -7988,15 +8486,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: willothy-nvim-cokeline
+  Generated from: willothy/nvim-cokeline
   */
   nvim-cokeline = buildVimPlugin {
     pname = "nvim-cokeline";
-    version = "2024-01-27";
+    version = "2024-03-20";
     src = fetchurl {
-      url = "https://github.com/willothy/nvim-cokeline/archive/7310f192af74c6912ca7a40ae1b16253aa95e50e.tar.gz";
-      sha256 = "0p0lrzk6yfaphlz75czabfq6zscyqxanl6x9w87c5i4hfcax3fy8";
+      url = "https://github.com/willothy/nvim-cokeline/archive/32929480b1753a5c2a99435e891da9be1e61e0b9.tar.gz";
+      sha256 = "1iq8pskkpnfz7gb5w7kf0s4csbz6iv6ykg3a0mdsqwyyv9rfdzq5";
     };
     meta = with lib; {
       description = ":nose: A Neovim bufferline for people with addictive personalities";
@@ -8004,8 +8503,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: NvChad-nvim-colorizer.lua
+  Generated from: NvChad/nvim-colorizer.lua
   */
   nvim-colorizer-lua = buildVimPlugin {
     pname = "nvim-colorizer-lua";
@@ -8020,8 +8520,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: gennaro-tedesco-nvim-commaround
+  Generated from: gennaro-tedesco/nvim-commaround
   */
   nvim-commaround = buildVimPlugin {
     pname = "nvim-commaround";
@@ -8036,8 +8537,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: terrortylor-nvim-comment
+  Generated from: terrortylor/nvim-comment
   */
   nvim-comment = buildVimPlugin {
     pname = "nvim-comment";
@@ -8052,8 +8554,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: s1n7ax-nvim-comment-frame
+  Generated from: s1n7ax/nvim-comment-frame
   */
   nvim-comment-frame = buildVimPlugin {
     pname = "nvim-comment-frame";
@@ -8068,8 +8571,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: noib3-nvim-compleet
+  Generated from: noib3/nvim-compleet
   */
   nvim-compleet = buildVimPlugin {
     pname = "nvim-compleet";
@@ -8084,8 +8588,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: klen-nvim-config-local
+  Generated from: klen/nvim-config-local
   */
   nvim-config-local = buildVimPlugin {
     pname = "nvim-config-local";
@@ -8100,8 +8605,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: haringsrob-nvim_context_vt
+  Generated from: haringsrob/nvim_context_vt
   */
   nvim-context-vt = buildVimPlugin {
     pname = "nvim-context-vt";
@@ -8116,15 +8622,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: andythigpen-nvim-coverage
+  Generated from: andythigpen/nvim-coverage
   */
   nvim-coverage = buildVimPlugin {
     pname = "nvim-coverage";
-    version = "2023-12-03";
+    version = "2024-03-24";
     src = fetchurl {
-      url = "https://github.com/andythigpen/nvim-coverage/archive/cf4b5c61dfac977026a51a2bcad9173c272986ce.tar.gz";
-      sha256 = "132jahvmgf10lfpc281iix3jbnnx296cn1kwhlxkpdylm9r6ikqf";
+      url = "https://github.com/andythigpen/nvim-coverage/archive/aa4b4400588e2259e87e372b1e4e90ae13cf5a39.tar.gz";
+      sha256 = "0q1azmyhr5cpg0s1bjvg6fph5na42p2vjpzfv6fpz5mscmbrpjgg";
     };
     meta = with lib; {
       description = "Displays test coverage data in the sign column";
@@ -8132,8 +8639,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: yamatsum-nvim-cursorline
+  Generated from: yamatsum/nvim-cursorline
   */
   nvim-cursorline = buildVimPlugin {
     pname = "nvim-cursorline";
@@ -8148,8 +8656,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: xiyaowong-nvim-cursorword
+  Generated from: xiyaowong/nvim-cursorword
   */
   nvim-cursorword = buildVimPlugin {
     pname = "nvim-cursorword";
@@ -8164,8 +8673,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: Kasama-nvim-custom-diagnostic-highlight
+  Generated from: Kasama/nvim-custom-diagnostic-highlight
   */
   nvim-custom-diagnostic-highlight = buildVimPlugin {
     pname = "nvim-custom-diagnostic-highlight";
@@ -8180,15 +8690,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: mfussenegger-nvim-dap
+  Generated from: mfussenegger/nvim-dap
   */
   nvim-dap = buildVimPlugin {
     pname = "nvim-dap";
-    version = "2024-02-17";
+    version = "2024-03-25";
     src = fetchurl {
-      url = "https://github.com/mfussenegger/nvim-dap/archive/fc880e82059eb21c0fa896be60146e5f17680648.tar.gz";
-      sha256 = "1467bq0k6apzbshc26lx2y2a7y7a3kh9h0nal96738pnf1ikyylz";
+      url = "https://github.com/mfussenegger/nvim-dap/archive/405df1dcc2e395ab5173a9c3d00e03942c023074.tar.gz";
+      sha256 = "0qiian2rjjpyqnx8czj5sgbbxcf5z4s5dmc4qlrjs4f7mxsnrygs";
     };
     meta = with lib; {
       description = "Debug Adapter Protocol client implementation for Neovim";
@@ -8196,15 +8707,16 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: leoluz-nvim-dap-go
+  Generated from: leoluz/nvim-dap-go
   */
   nvim-dap-go = buildVimPlugin {
     pname = "nvim-dap-go";
-    version = "2024-02-21";
+    version = "2024-03-25";
     src = fetchurl {
-      url = "https://github.com/leoluz/nvim-dap-go/archive/64f73400761e2d19459e664a52ea478f3a4420e7.tar.gz";
-      sha256 = "1hfy8r0lbzm5rrcg9yd734n4yxjlbjy3q0v702x6grbzkqg3z7h4";
+      url = "https://github.com/leoluz/nvim-dap-go/archive/36abe1d320cb61bfdf094d4e0fe815ef58f2302a.tar.gz";
+      sha256 = "09jnvi0glldbicy252cwr61pn2n4g5d2qrvxvzi4rzvaxz4vk3yz";
     };
     meta = with lib; {
       description = "An extension for nvim-dap providing configurations for launching go debugger (delve) and debugging individual tests";
@@ -8212,8 +8724,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: mfussenegger-nvim-dap-python
+  Generated from: mfussenegger/nvim-dap-python
   */
   nvim-dap-python = buildVimPlugin {
     pname = "nvim-dap-python";
@@ -8228,8 +8741,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: LiadOz-nvim-dap-repl-highlights
+  Generated from: LiadOz/nvim-dap-repl-highlights
   */
   nvim-dap-repl-highlights = buildVimPlugin {
     pname = "nvim-dap-repl-highlights";
@@ -8244,8 +8758,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: suketa-nvim-dap-ruby
+  Generated from: suketa/nvim-dap-ruby
   */
   nvim-dap-ruby = buildVimPlugin {
     pname = "nvim-dap-ruby";
@@ -8260,15 +8775,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: rcarriga-nvim-dap-ui
+  Generated from: rcarriga/nvim-dap-ui
   */
   nvim-dap-ui = buildVimPlugin {
     pname = "nvim-dap-ui";
-    version = "2024-02-17";
+    version = "2024-03-19";
     src = fetchurl {
-      url = "https://github.com/rcarriga/nvim-dap-ui/archive/9720eb5fa2f41988e8770f973cd11b76dd568a5d.tar.gz";
-      sha256 = "0w7akkzgl5ymlcy45z4j3r8sn913rdbxzqa2yvxbfdcwh8370v3y";
+      url = "https://github.com/rcarriga/nvim-dap-ui/archive/edfa93f60b189e5952c016eee262d0685d838450.tar.gz";
+      sha256 = "1r6skxajvah9hpa97l9p7yss4akgp1gg3jdgm610dhrm2088jszf";
     };
     meta = with lib; {
       description = "A UI for nvim-dap";
@@ -8276,8 +8792,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: theHamsta-nvim-dap-virtual-text
+  Generated from: theHamsta/nvim-dap-virtual-text
   */
   nvim-dap-virtual-text = buildVimPlugin {
     pname = "nvim-dap-virtual-text";
@@ -8292,8 +8809,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: mxsdev-nvim-dap-vscode-js
+  Generated from: mxsdev/nvim-dap-vscode-js
   */
   nvim-dap-vscode-js = buildVimPlugin {
     pname = "nvim-dap-vscode-js";
@@ -8308,8 +8826,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: theniceboy-nvim-deus
+  Generated from: theniceboy/nvim-deus
   */
   nvim-deus = buildVimPlugin {
     pname = "nvim-deus";
@@ -8324,8 +8843,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: esensar-nvim-dev-container
+  Generated from: esensar/nvim-dev-container
   */
   nvim-dev-container = buildVimPlugin {
     pname = "nvim-dev-container";
@@ -8340,8 +8860,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: luckasRanarison-nvim-devdocs
+  Generated from: luckasRanarison/nvim-devdocs
   */
   nvim-devdocs = buildVimPlugin {
     pname = "nvim-devdocs";
@@ -8356,8 +8877,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: amrbashir-nvim-docs-view
+  Generated from: amrbashir/nvim-docs-view
   */
   nvim-docs-view = buildVimPlugin {
     pname = "nvim-docs-view";
@@ -8372,8 +8894,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: chrisgrieser-nvim-dr-lsp
+  Generated from: chrisgrieser/nvim-dr-lsp
   */
   nvim-dr-lsp = buildVimPlugin {
     pname = "nvim-dr-lsp";
@@ -8388,8 +8911,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: chrisgrieser-nvim-early-retirement
+  Generated from: chrisgrieser/nvim-early-retirement
   */
   nvim-early-retirement = buildVimPlugin {
     pname = "nvim-early-retirement";
@@ -8404,8 +8928,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: AllenDang-nvim-expand-expr
+  Generated from: AllenDang/nvim-expand-expr
   */
   nvim-expand-expr = buildVimPlugin {
     pname = "nvim-expand-expr";
@@ -8420,8 +8945,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: AckslD-nvim-FeMaco.lua
+  Generated from: AckslD/nvim-FeMaco.lua
   */
   nvim-FeMaco-lua = buildVimPlugin {
     pname = "nvim-FeMaco-lua";
@@ -8436,8 +8962,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: yaocccc-nvim-foldsign
+  Generated from: yaocccc/nvim-foldsign
   */
   nvim-foldsign = buildVimPlugin {
     pname = "nvim-foldsign";
@@ -8452,8 +8979,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: vijaymarupudi-nvim-fzf
+  Generated from: vijaymarupudi/nvim-fzf
   */
   nvim-fzf = buildVimPlugin {
     pname = "nvim-fzf";
@@ -8468,8 +8996,9 @@
       license = with licenses; [agpl3Only];
     };
   };
+
   /*
-  Generated from: sakhnik-nvim-gdb
+  Generated from: sakhnik/nvim-gdb
   */
   nvim-gdb = buildVimPlugin {
     pname = "nvim-gdb";
@@ -8484,8 +9013,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: chrisgrieser-nvim-genghis
+  Generated from: chrisgrieser/nvim-genghis
   */
   nvim-genghis = buildVimPlugin {
     pname = "nvim-genghis";
@@ -8500,8 +9030,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: AckslD-nvim-gfold.lua
+  Generated from: AckslD/nvim-gfold.lua
   */
   nvim-gfold-lua = buildVimPlugin {
     pname = "nvim-gfold-lua";
@@ -8516,8 +9047,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: subnut-nvim-ghost.nvim
+  Generated from: subnut/nvim-ghost.nvim
   */
   nvim-ghost-nvim = buildVimPlugin {
     pname = "nvim-ghost-nvim";
@@ -8532,8 +9064,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: crispgm-nvim-go
+  Generated from: crispgm/nvim-go
   */
   nvim-go = buildVimPlugin {
     pname = "nvim-go";
@@ -8548,8 +9081,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: rafaelsq-nvim-goc.lua
+  Generated from: rafaelsq/nvim-goc.lua
   */
   nvim-goc-lua = buildVimPlugin {
     pname = "nvim-goc-lua";
@@ -8564,8 +9098,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: booperlv-nvim-gomove
+  Generated from: booperlv/nvim-gomove
   */
   nvim-gomove = buildVimPlugin {
     pname = "nvim-gomove";
@@ -8580,8 +9115,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: smiteshp-nvim-gps
+  Generated from: smiteshp/nvim-gps
   */
   nvim-gps = buildVimPlugin {
     pname = "nvim-gps";
@@ -8596,8 +9132,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: ojroques-nvim-hardline
+  Generated from: ojroques/nvim-hardline
   */
   nvim-hardline = buildVimPlugin {
     pname = "nvim-hardline";
@@ -8612,15 +9149,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: brenoprata10-nvim-highlight-colors
+  Generated from: brenoprata10/nvim-highlight-colors
   */
   nvim-highlight-colors = buildVimPlugin {
     pname = "nvim-highlight-colors";
-    version = "2024-03-05";
+    version = "2024-03-21";
     src = fetchurl {
-      url = "https://github.com/brenoprata10/nvim-highlight-colors/archive/a9f191d5ba27a5943b8992bf618858fa7374758f.tar.gz";
-      sha256 = "01kk3m1mbrirkwrvnx4xilkfwpr87k5m4q317c9nbihp0z5mwdxh";
+      url = "https://github.com/brenoprata10/nvim-highlight-colors/archive/56e40d86a3202aedb0dbcded7aa6248c299eb0f0.tar.gz";
+      sha256 = "1nl2l1aqs9ga1jjppkyd6q93q8jmn0rkhfddq3d1nkmd90kps6fr";
     };
     meta = with lib; {
       description = "Highlight colors for neovim";
@@ -8628,15 +9166,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: Iron-E-nvim-highlite
+  Generated from: Iron-E/nvim-highlite
   */
   nvim-highlite = buildVimPlugin {
     pname = "nvim-highlite";
-    version = "2024-03-10";
+    version = "2024-03-21";
     src = fetchurl {
-      url = "https://github.com/Iron-E/nvim-highlite/archive/d5fd1f147daaf9bf026cf51ace42c679dedd693a.tar.gz";
-      sha256 = "16bw7d04h0n97q4lw577q5px9fbagcgby404bkx2002a364h9h9q";
+      url = "https://github.com/Iron-E/nvim-highlite/archive/0962a3a5f206676d7111cd56185b28d5498a0f88.tar.gz";
+      sha256 = "0a21z2zbs3imav7wwwa8imcfsq2xzlnbvj54rlgiwj4hsq9sy1r5";
     };
     meta = with lib; {
       description = "A colorscheme generator that is \"lite\" on logic for the developer.";
@@ -8644,8 +9183,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: yaocccc-nvim-hl-mdcodeblock.lua
+  Generated from: yaocccc/nvim-hl-mdcodeblock.lua
   */
   nvim-hl-mdcodeblock-lua = buildVimPlugin {
     pname = "nvim-hl-mdcodeblock-lua";
@@ -8660,8 +9200,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: yaocccc-nvim-hlchunk
+  Generated from: yaocccc/nvim-hlchunk
   */
   nvim-hlchunk = buildVimPlugin {
     pname = "nvim-hlchunk";
@@ -8676,15 +9217,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: kevinhwang91-nvim-hlslens
+  Generated from: kevinhwang91/nvim-hlslens
   */
   nvim-hlslens = buildVimPlugin {
     pname = "nvim-hlslens";
-    version = "2024-02-16";
+    version = "2024-03-22";
     src = fetchurl {
-      url = "https://github.com/kevinhwang91/nvim-hlslens/archive/e4c811a401b06f86a7bb042b1d64a5cba21729a9.tar.gz";
-      sha256 = "17b54q5b5q12ymfigxkncnzvgnqnsfyjmz4zx2gqp70mbdh5yp6f";
+      url = "https://github.com/kevinhwang91/nvim-hlslens/archive/c42b4526e6d83b904eb5f3d50e68d7c2fc4be4b5.tar.gz";
+      sha256 = "03ljqp4dxwwvnpy904lrhhd97maivzf7kx7glyp9kf32h2qvbdlx";
     };
     meta = with lib; {
       description = "Hlsearch Lens for Neovim";
@@ -8692,8 +9234,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: PHSix-nvim-hybrid
+  Generated from: PHSix/nvim-hybrid
   */
   nvim-hybrid = buildVimPlugin {
     pname = "nvim-hybrid";
@@ -8708,8 +9251,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: bfredl-nvim-ipy
+  Generated from: bfredl/nvim-ipy
   */
   nvim-ipy = buildVimPlugin {
     pname = "nvim-ipy";
@@ -8724,8 +9268,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: mfussenegger-nvim-jdtls
+  Generated from: mfussenegger/nvim-jdtls
   */
   nvim-jdtls = buildVimPlugin {
     pname = "nvim-jdtls";
@@ -8740,8 +9285,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: ckipp01-nvim-jenkinsfile-linter
+  Generated from: ckipp01/nvim-jenkinsfile-linter
   */
   nvim-jenkinsfile-linter = buildVimPlugin {
     pname = "nvim-jenkinsfile-linter";
@@ -8756,8 +9302,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: gennaro-tedesco-nvim-jqx
+  Generated from: gennaro-tedesco/nvim-jqx
   */
   nvim-jqx = buildVimPlugin {
     pname = "nvim-jqx";
@@ -8772,8 +9319,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: kaiuri-nvim-juliana
+  Generated from: kaiuri/nvim-juliana
   */
   nvim-juliana = buildVimPlugin {
     pname = "nvim-juliana";
@@ -8788,8 +9336,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ethanholz-nvim-lastplace
+  Generated from: ethanholz/nvim-lastplace
   */
   nvim-lastplace = buildVimPlugin {
     pname = "nvim-lastplace";
@@ -8804,8 +9353,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: kosayoda-nvim-lightbulb
+  Generated from: kosayoda/nvim-lightbulb
   */
   nvim-lightbulb = buildVimPlugin {
     pname = "nvim-lightbulb";
@@ -8820,8 +9370,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: martineausimon-nvim-lilypond-suite
+  Generated from: martineausimon/nvim-lilypond-suite
   */
   nvim-lilypond-suite = buildVimPlugin {
     pname = "nvim-lilypond-suite";
@@ -8836,8 +9387,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: yaocccc-nvim-lines.lua
+  Generated from: yaocccc/nvim-lines.lua
   */
   nvim-lines-lua = buildVimPlugin {
     pname = "nvim-lines-lua";
@@ -8852,15 +9404,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: mfussenegger-nvim-lint
+  Generated from: mfussenegger/nvim-lint
   */
   nvim-lint = buildVimPlugin {
     pname = "nvim-lint";
-    version = "2024-02-29";
+    version = "2024-03-20";
     src = fetchurl {
-      url = "https://github.com/mfussenegger/nvim-lint/archive/e824adb9bc01647f71e55457353a68f0f37f9931.tar.gz";
-      sha256 = "0clldhljyyqk9sfbi0wsfc4k2ma5xv8pcxn0mh7h51876rlhwkhx";
+      url = "https://github.com/mfussenegger/nvim-lint/archive/2669aabb8362fdc36aced5ba864b7135636ea863.tar.gz";
+      sha256 = "0y2mlvryv1labnhxmnm0q3bvf435n94dprzvywyl3y78sa62qi7b";
     };
     meta = with lib; {
       description = "An asynchronous linter plugin for Neovim complementary to the built-in Language Server Protocol support.";
@@ -8868,8 +9421,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: jpmcb-nvim-llama
+  Generated from: jpmcb/nvim-llama
   */
   nvim-llama = buildVimPlugin {
     pname = "nvim-llama";
@@ -8884,8 +9438,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: nanotee-nvim-lsp-basics
+  Generated from: nanotee/nvim-lsp-basics
   */
   nvim-lsp-basics = buildVimPlugin {
     pname = "nvim-lsp-basics";
@@ -8900,8 +9455,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: williamboman-nvim-lsp-installer
+  Generated from: williamboman/nvim-lsp-installer
   */
   nvim-lsp-installer = buildVimPlugin {
     pname = "nvim-lsp-installer";
@@ -8916,8 +9472,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: Junnplus-nvim-lsp-setup
+  Generated from: Junnplus/nvim-lsp-setup
   */
   nvim-lsp-setup = buildVimPlugin {
     pname = "nvim-lsp-setup";
@@ -8932,8 +9489,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: jose-elias-alvarez-nvim-lsp-ts-utils
+  Generated from: jose-elias-alvarez/nvim-lsp-ts-utils
   */
   nvim-lsp-ts-utils = buildVimPlugin {
     pname = "nvim-lsp-ts-utils";
@@ -8948,15 +9506,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: neovim-nvim-lspconfig
+  Generated from: neovim/nvim-lspconfig
   */
   nvim-lspconfig = buildVimPlugin {
     pname = "nvim-lspconfig";
-    version = "2024-03-10";
+    version = "2024-03-24";
     src = fetchurl {
-      url = "https://github.com/neovim/nvim-lspconfig/archive/99330586c6e1912c890fc39d19d97571fde660cd.tar.gz";
-      sha256 = "0x3gkzqs5mwg6clynq4bi9miy3j7v2670dl341g4drb6vr3iz9zq";
+      url = "https://github.com/neovim/nvim-lspconfig/archive/6e5c78ebc9936ca74add66bda22c566f951b6ee5.tar.gz";
+      sha256 = "127767gp8rpbvxaq6j9gis5zrj4aya6gmlcgmrwjyy07d6pwkz90";
     };
     meta = with lib; {
       description = "Quickstart configs for Nvim LSP";
@@ -8964,8 +9523,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: ojroques-nvim-lspfuzzy
+  Generated from: ojroques/nvim-lspfuzzy
   */
   nvim-lspfuzzy = buildVimPlugin {
     pname = "nvim-lspfuzzy";
@@ -8980,8 +9540,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: stevanmilic-nvim-lspimport
+  Generated from: stevanmilic/nvim-lspimport
   */
   nvim-lspimport = buildVimPlugin {
     pname = "nvim-lspimport";
@@ -8996,8 +9557,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: anott03-nvim-lspinstall
+  Generated from: anott03/nvim-lspinstall
   */
   nvim-lspinstall = buildVimPlugin {
     pname = "nvim-lspinstall";
@@ -9012,8 +9574,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: alexaandru-nvim-lspupdate
+  Generated from: alexaandru/nvim-lspupdate
   */
   nvim-lspupdate = buildVimPlugin {
     pname = "nvim-lspupdate";
@@ -9028,8 +9591,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: RishabhRD-nvim-lsputils
+  Generated from: RishabhRD/nvim-lsputils
   */
   nvim-lsputils = buildVimPlugin {
     pname = "nvim-lsputils";
@@ -9044,8 +9608,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: nanotee-nvim-lua-guide
+  Generated from: nanotee/nvim-lua-guide
   */
   nvim-lua-guide = buildVimPlugin {
     pname = "nvim-lua-guide";
@@ -9060,8 +9625,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: bfredl-nvim-luadev
+  Generated from: bfredl/nvim-luadev
   */
   nvim-luadev = buildVimPlugin {
     pname = "nvim-luadev";
@@ -9076,8 +9642,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: rafcamlet-nvim-luapad
+  Generated from: rafcamlet/nvim-luapad
   */
   nvim-luapad = buildVimPlugin {
     pname = "nvim-luapad";
@@ -9092,8 +9659,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: milisims-nvim-luaref
+  Generated from: milisims/nvim-luaref
   */
   nvim-luaref = buildVimPlugin {
     pname = "nvim-luaref";
@@ -9108,8 +9676,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: svermeulen-nvim-lusc
+  Generated from: svermeulen/nvim-lusc
   */
   nvim-lusc = buildVimPlugin {
     pname = "nvim-lusc";
@@ -9124,8 +9693,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: jameshiew-nvim-magic
+  Generated from: jameshiew/nvim-magic
   */
   nvim-magic = buildVimPlugin {
     pname = "nvim-magic";
@@ -9140,8 +9710,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: davidgranstrom-nvim-markdown-preview
+  Generated from: davidgranstrom/nvim-markdown-preview
   */
   nvim-markdown-preview = buildVimPlugin {
     pname = "nvim-markdown-preview";
@@ -9156,8 +9727,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: scalameta-nvim-metals
+  Generated from: scalameta/nvim-metals
   */
   nvim-metals = buildVimPlugin {
     pname = "nvim-metals";
@@ -9172,8 +9744,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: bfredl-nvim-miniyank
+  Generated from: bfredl/nvim-miniyank
   */
   nvim-miniyank = buildVimPlugin {
     pname = "nvim-miniyank";
@@ -9188,15 +9761,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: idanarye-nvim-moonicipal
+  Generated from: idanarye/nvim-moonicipal
   */
   nvim-moonicipal = buildVimPlugin {
     pname = "nvim-moonicipal";
-    version = "2023-11-07";
+    version = "2024-03-21";
     src = fetchurl {
-      url = "https://github.com/idanarye/nvim-moonicipal/archive/c15f09244e6300b907f478bbbb6815deb1060501.tar.gz";
-      sha256 = "180ivm9rm2xc9wjj8l1xjihp9qdc9c2gckfn6q3fx31j13qijgpc";
+      url = "https://github.com/idanarye/nvim-moonicipal/archive/aca9e3cc3f6b4b0eae9a1b3f5a2ba04ba74abb83.tar.gz";
+      sha256 = "1ynh8fpiap79z1lj14xi8p7lvd4551w4pvkwg484p7xmx4hxr9wj";
     };
     meta = with lib; {
       description = "Task runner with focus on rapidly changing personal tasks";
@@ -9204,15 +9778,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: SmiteshP-nvim-navbuddy
+  Generated from: SmiteshP/nvim-navbuddy
   */
   nvim-navbuddy = buildVimPlugin {
     pname = "nvim-navbuddy";
-    version = "2023-09-14";
+    version = "2024-03-24";
     src = fetchurl {
-      url = "https://github.com/SmiteshP/nvim-navbuddy/archive/f137a3466a6cd1965cdcc5398daff54e66eebbe5.tar.gz";
-      sha256 = "10wsnvs4q01caj34i4l05b3pz7v1mkhp8bswc45lmq9ww38kj99f";
+      url = "https://github.com/SmiteshP/nvim-navbuddy/archive/f34237e8a41ebc6e2716af2ebf49854d8c5289c8.tar.gz";
+      sha256 = "1ibiaikrwc4cm1gzwyb7pwj16lwq8z0cjhh20xi43c4xk23p4bks";
     };
     meta = with lib; {
       description = "A simple popup display that provides breadcrumbs feature using LSP server";
@@ -9220,8 +9795,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: SmiteshP-nvim-navic
+  Generated from: SmiteshP/nvim-navic
   */
   nvim-navic = buildVimPlugin {
     pname = "nvim-navic";
@@ -9236,8 +9812,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: AckslD-nvim-neoclip.lua
+  Generated from: AckslD/nvim-neoclip.lua
   */
   nvim-neoclip-lua = buildVimPlugin {
     pname = "nvim-neoclip-lua";
@@ -9252,8 +9829,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: yamatsum-nvim-nonicons
+  Generated from: yamatsum/nvim-nonicons
   */
   nvim-nonicons = buildVimPlugin {
     pname = "nvim-nonicons";
@@ -9268,8 +9846,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: rcarriga-nvim-notify
+  Generated from: rcarriga/nvim-notify
   */
   nvim-notify = buildVimPlugin {
     pname = "nvim-notify";
@@ -9284,8 +9863,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: LhKipp-nvim-nu
+  Generated from: LhKipp/nvim-nu
   */
   nvim-nu = buildVimPlugin {
     pname = "nvim-nu";
@@ -9300,8 +9880,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: sitiom-nvim-numbertoggle
+  Generated from: sitiom/nvim-numbertoggle
   */
   nvim-numbertoggle = buildVimPlugin {
     pname = "nvim-numbertoggle";
@@ -9316,15 +9897,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: chrisgrieser-nvim-origami
+  Generated from: chrisgrieser/nvim-origami
   */
   nvim-origami = buildVimPlugin {
     pname = "nvim-origami";
-    version = "2024-02-13";
+    version = "2024-03-16";
     src = fetchurl {
-      url = "https://github.com/chrisgrieser/nvim-origami/archive/8615cdc4c97aaeb8c7723a49f48e9c44d749034a.tar.gz";
-      sha256 = "18pi0wqapdk67pihhx12jxnxpzd2mgwmah9v1ah5xyxbv8j34a7p";
+      url = "https://github.com/chrisgrieser/nvim-origami/archive/fc63e4d2900d5f069e6a9f754451f028fda4f6dd.tar.gz";
+      sha256 = "16pkv1rgy6p7xkrcjszjz5gl1sfcy0dvmrl5x8k7nmv1vq9wwiha";
     };
     meta = with lib; {
       description = "Fold with relentless elegance.";
@@ -9332,8 +9914,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ojroques-nvim-osc52
+  Generated from: ojroques/nvim-osc52
   */
   nvim-osc52 = buildVimPlugin {
     pname = "nvim-osc52";
@@ -9348,8 +9931,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: mordechaihadad-nvim-papadark
+  Generated from: mordechaihadad/nvim-papadark
   */
   nvim-papadark = buildVimPlugin {
     pname = "nvim-papadark";
@@ -9364,8 +9948,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: gennaro-tedesco-nvim-peekup
+  Generated from: gennaro-tedesco/nvim-peekup
   */
   nvim-peekup = buildVimPlugin {
     pname = "nvim-peekup";
@@ -9380,8 +9965,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: askfiy-nvim-picgo
+  Generated from: askfiy/nvim-picgo
   */
   nvim-picgo = buildVimPlugin {
     pname = "nvim-picgo";
@@ -9396,8 +9982,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: ellisonleao-nvim-plugin-template
+  Generated from: ellisonleao/nvim-plugin-template
   */
   nvim-plugin-template = buildVimPlugin {
     pname = "nvim-plugin-template";
@@ -9412,8 +9999,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: gennaro-tedesco-nvim-possession
+  Generated from: gennaro-tedesco/nvim-possession
   */
   nvim-possession = buildVimPlugin {
     pname = "nvim-possession";
@@ -9428,8 +10016,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: yorickpeterse-nvim-pqf
+  Generated from: yorickpeterse/nvim-pqf
   */
   nvim-pqf = buildVimPlugin {
     pname = "nvim-pqf";
@@ -9444,8 +10033,9 @@
       license = with licenses; [mpl20];
     };
   };
+
   /*
-  Generated from: windwp-nvim-projectconfig
+  Generated from: windwp/nvim-projectconfig
   */
   nvim-projectconfig = buildVimPlugin {
     pname = "nvim-projectconfig";
@@ -9460,15 +10050,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: chrisgrieser-nvim-puppeteer
+  Generated from: chrisgrieser/nvim-puppeteer
   */
   nvim-puppeteer = buildVimPlugin {
     pname = "nvim-puppeteer";
-    version = "2024-03-02";
+    version = "2024-03-12";
     src = fetchurl {
-      url = "https://github.com/chrisgrieser/nvim-puppeteer/archive/d72c7045683c0960e9ae6ae9628d0907b2cab9f3.tar.gz";
-      sha256 = "0b81108632fqrqnpgsp1lw0hz7ywdcfhivjpb1fsh77d83hnc1bz";
+      url = "https://github.com/chrisgrieser/nvim-puppeteer/archive/ea340595967919222f3ba5c6c6def0787a336c82.tar.gz";
+      sha256 = "0ina7svry0f5ahg5by1wdxjfi50mprwgbfq2zfba530iznzv6xcl";
     };
     meta = with lib; {
       description = "Automatically convert strings to f-strings or template strings and back.";
@@ -9476,8 +10067,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: RishabhRD-nvim-rdark
+  Generated from: RishabhRD/nvim-rdark
   */
   nvim-rdark = buildVimPlugin {
     pname = "nvim-rdark";
@@ -9492,15 +10084,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: chrisgrieser-nvim-recorder
+  Generated from: chrisgrieser/nvim-recorder
   */
   nvim-recorder = buildVimPlugin {
     pname = "nvim-recorder";
-    version = "2024-03-08";
+    version = "2024-03-24";
     src = fetchurl {
-      url = "https://github.com/chrisgrieser/nvim-recorder/archive/f37f8e80b32c2a5dca2bd8f6d9dce278b3f5e434.tar.gz";
-      sha256 = "05fygrqplrj1sgkbfqzm6y8i6zazmm8gapjqx9rjhfkq45s5xzr2";
+      url = "https://github.com/chrisgrieser/nvim-recorder/archive/61531ea45819e7a2c267c191360cee9ff269fc6b.tar.gz";
+      sha256 = "0y2ha9hkkyvi75z35pyl6q0f694f2f7iml5wibxpdv2g5i47c5pf";
     };
     meta = with lib; {
       description = "Enhance the usage of macros in Neovim.";
@@ -9508,8 +10101,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: bennypowers-nvim-regexplainer
+  Generated from: bennypowers/nvim-regexplainer
   */
   nvim-regexplainer = buildVimPlugin {
     pname = "nvim-regexplainer";
@@ -9524,8 +10118,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: jamestthompson3-nvim-remote-containers
+  Generated from: jamestthompson3/nvim-remote-containers
   */
   nvim-remote-containers = buildVimPlugin {
     pname = "nvim-remote-containers";
@@ -9540,8 +10135,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: AckslD-nvim-revJ.lua
+  Generated from: AckslD/nvim-revJ.lua
   */
   nvim-revJ-lua = buildVimPlugin {
     pname = "nvim-revJ-lua";
@@ -9556,15 +10152,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: duane9-nvim-rg
+  Generated from: duane9/nvim-rg
   */
   nvim-rg = buildVimPlugin {
     pname = "nvim-rg";
-    version = "2024-03-03";
+    version = "2024-03-16";
     src = fetchurl {
-      url = "https://github.com/duane9/nvim-rg/archive/72557ed1306f7c3070b62b0eb81531d8fbb3919d.tar.gz";
-      sha256 = "0rrrwi8x5d89bykxbs8pg1yah3sx3wn63y4892va9ws1dvwh2xyh";
+      url = "https://github.com/duane9/nvim-rg/archive/483539de6872e8293ca9f3f5af7c56f5ec33ba65.tar.gz";
+      sha256 = "15apynm770k9lrxdlp6s9wlfsaf5kr5lyw32fnmkbwcjzvh2qf65";
     };
     meta = with lib; {
       description = "Run ripgrep from Neovim asynchronously.";
@@ -9572,8 +10169,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: chrisgrieser-nvim-rulebook
+  Generated from: chrisgrieser/nvim-rulebook
   */
   nvim-rulebook = buildVimPlugin {
     pname = "nvim-rulebook";
@@ -9588,8 +10186,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: chrisgrieser-nvim-scissors
+  Generated from: chrisgrieser/nvim-scissors
   */
   nvim-scissors = buildVimPlugin {
     pname = "nvim-scissors";
@@ -9604,8 +10203,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: petertriho-nvim-scrollbar
+  Generated from: petertriho/nvim-scrollbar
   */
   nvim-scrollbar = buildVimPlugin {
     pname = "nvim-scrollbar";
@@ -9620,15 +10220,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: dstein64-nvim-scrollview
+  Generated from: dstein64/nvim-scrollview
   */
   nvim-scrollview = buildVimPlugin {
     pname = "nvim-scrollview";
-    version = "2024-02-19";
+    version = "2024-03-20";
     src = fetchurl {
-      url = "https://github.com/dstein64/nvim-scrollview/archive/7ef112edde3355cb50c3b7bf1e8909c8d2bc3186.tar.gz";
-      sha256 = "0667p7dq3grnkccqbm2yd4ymxpxvjy2bpka6hq1i9mxv4zxkbd4w";
+      url = "https://github.com/dstein64/nvim-scrollview/archive/5a7eb7e6c1b921761615b57a6140d73b1cc2b034.tar.gz";
+      sha256 = "0712sc6bqsqh6kwv4i44mmpxvz5rspp7y1ymc0shlqj6cij9yhis";
     };
     meta = with lib; {
       description = "A Neovim plugin that displays interactive vertical scrollbars and signs.";
@@ -9636,8 +10237,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: s1n7ax-nvim-search-and-replace
+  Generated from: s1n7ax/nvim-search-and-replace
   */
   nvim-search-and-replace = buildVimPlugin {
     pname = "nvim-search-and-replace";
@@ -9652,8 +10254,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: johann2357-nvim-smartbufs
+  Generated from: johann2357/nvim-smartbufs
   */
   nvim-smartbufs = buildVimPlugin {
     pname = "nvim-smartbufs";
@@ -9668,8 +10271,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: dcampos-nvim-snippy
+  Generated from: dcampos/nvim-snippy
   */
   nvim-snippy = buildVimPlugin {
     pname = "nvim-snippy";
@@ -9684,8 +10288,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ishan9299-nvim-solarized-lua
+  Generated from: ishan9299/nvim-solarized-lua
   */
   nvim-solarized-lua = buildVimPlugin {
     pname = "nvim-solarized-lua";
@@ -9700,15 +10305,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: windwp-nvim-spectre
+  Generated from: windwp/nvim-spectre
   */
   nvim-spectre = buildVimPlugin {
     pname = "nvim-spectre";
-    version = "2024-02-19";
+    version = "2024-03-27";
     src = fetchurl {
-      url = "https://github.com/windwp/nvim-spectre/archive/3712ff0cdf4f9f877d9ca708d835a877d9a0abaf.tar.gz";
-      sha256 = "102dvz5m1v39qa5pgc0xsi10wdiz79hp7q4sqwdlfib9b5qc43jv";
+      url = "https://github.com/windwp/nvim-spectre/archive/2b012554a2536465243c0dff3605b5927c49ed23.tar.gz";
+      sha256 = "07yhb1l3ha3v62aim1mih0vdrjqrawizip1vvh16alijq0h8ia6s";
     };
     meta = with lib; {
       description = "Find the enemy and replace them with dark power.";
@@ -9716,15 +10322,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: chrisgrieser-nvim-spider
+  Generated from: chrisgrieser/nvim-spider
   */
   nvim-spider = buildVimPlugin {
     pname = "nvim-spider";
-    version = "2024-03-03";
+    version = "2024-03-15";
     src = fetchurl {
-      url = "https://github.com/chrisgrieser/nvim-spider/archive/b369f24ac107b903cd73f9f0f5f326d8629bde28.tar.gz";
-      sha256 = "19v55n6svcizcxazyfkak6ivjww17q10ac1a571c6szmz7b74fh1";
+      url = "https://github.com/chrisgrieser/nvim-spider/archive/bcc9fa38a62637491b75b02e364191553fd858a2.tar.gz";
+      sha256 = "1xmh1l1ixrgd3lvy4bxdbrbxg3in2h1sg8iasqzbqbvyfrplqjv1";
     };
     meta = with lib; {
       description = "Use the w, e, b motions like a spider. Move by subwords and skip insignificant punctuation.";
@@ -9732,8 +10339,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: mnacamura-nvim-srcerite
+  Generated from: mnacamura/nvim-srcerite
   */
   nvim-srcerite = buildVimPlugin {
     pname = "nvim-srcerite";
@@ -9748,8 +10356,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: emileferreira-nvim-strict
+  Generated from: emileferreira/nvim-strict
   */
   nvim-strict = buildVimPlugin {
     pname = "nvim-strict";
@@ -9764,8 +10373,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: kylechui-nvim-surround
+  Generated from: kylechui/nvim-surround
   */
   nvim-surround = buildVimPlugin {
     pname = "nvim-surround";
@@ -9780,8 +10390,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: crispgm-nvim-tabline
+  Generated from: crispgm/nvim-tabline
   */
   nvim-tabline = buildVimPlugin {
     pname = "nvim-tabline";
@@ -9796,8 +10407,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: s1n7ax-nvim-terminal
+  Generated from: s1n7ax/nvim-terminal
   */
   nvim-terminal = buildVimPlugin {
     pname = "nvim-terminal";
@@ -9812,8 +10424,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: norcalli-nvim-terminal.lua
+  Generated from: norcalli/nvim-terminal.lua
   */
   nvim-terminal-lua = buildVimPlugin {
     pname = "nvim-terminal-lua";
@@ -9828,8 +10441,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: klen-nvim-test
+  Generated from: klen/nvim-test
   */
   nvim-test = buildVimPlugin {
     pname = "nvim-test";
@@ -9844,8 +10458,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: alec-gibson-nvim-tetris
+  Generated from: alec-gibson/nvim-tetris
   */
   nvim-tetris = buildVimPlugin {
     pname = "nvim-tetris";
@@ -9860,15 +10475,16 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: chrisgrieser-nvim-tinygit
+  Generated from: chrisgrieser/nvim-tinygit
   */
   nvim-tinygit = buildVimPlugin {
     pname = "nvim-tinygit";
-    version = "2024-03-10";
+    version = "2024-03-26";
     src = fetchurl {
-      url = "https://github.com/chrisgrieser/nvim-tinygit/archive/f648f51f99652f00448df6487e1f6e91f6216932.tar.gz";
-      sha256 = "1xv575cxs0ygl72s5azvf5mmw2akpvps5rrrh513gm9pf3zhpvx0";
+      url = "https://github.com/chrisgrieser/nvim-tinygit/archive/9a5c31db23cb2e1c9625180268cae2139777cc70.tar.gz";
+      sha256 = "069hhcszcv9l75w9hadgapc8wsh3nn068r3fsz3p2kc470lpx5pj";
     };
     meta = with lib; {
       description = "Lightweight and nimble git client for nvim.";
@@ -9876,8 +10492,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: richardbizik-nvim-toc
+  Generated from: richardbizik/nvim-toc
   */
   nvim-toc = buildVimPlugin {
     pname = "nvim-toc";
@@ -9892,8 +10509,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: nguyenvukhang-nvim-toggler
+  Generated from: nguyenvukhang/nvim-toggler
   */
   nvim-toggler = buildVimPlugin {
     pname = "nvim-toggler";
@@ -9908,8 +10526,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: akinsho-nvim-toggleterm.lua
+  Generated from: akinsho/nvim-toggleterm.lua
   */
   nvim-toggleterm-lua = buildVimPlugin {
     pname = "nvim-toggleterm-lua";
@@ -9924,8 +10543,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: xiyaowong-nvim-transparent
+  Generated from: xiyaowong/nvim-transparent
   */
   nvim-transparent = buildVimPlugin {
     pname = "nvim-transparent";
@@ -9940,15 +10560,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: kyazdani42-nvim-tree.lua
+  Generated from: kyazdani42/nvim-tree.lua
   */
   nvim-tree-lua = buildVimPlugin {
     pname = "nvim-tree-lua";
-    version = "2024-03-09";
+    version = "2024-03-26";
     src = fetchurl {
-      url = "https://github.com/kyazdani42/nvim-tree.lua/archive/041dbd18f440207ad161503a384e7c82d575db66.tar.gz";
-      sha256 = "076rr4w7y4jcr7za40rzkiym549k8wqy7llffj7mnd92wcazlim5";
+      url = "https://github.com/kyazdani42/nvim-tree.lua/archive/e508bdc4184c33c6d9705c503cf7f0e029601788.tar.gz";
+      sha256 = "1zcrhwvq183j7rvhfhc9wnnh7pg9bcdzrn1vfkrhl0z9snplkkag";
     };
     meta = with lib; {
       description = "A file explorer tree for neovim written in lua";
@@ -9956,15 +10577,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: nvim-treesitter-nvim-treesitter
+  Generated from: nvim-treesitter/nvim-treesitter
   */
   nvim-treesitter = buildVimPlugin {
     pname = "nvim-treesitter";
-    version = "2024-03-10";
+    version = "2024-03-27";
     src = fetchurl {
-      url = "https://github.com/nvim-treesitter/nvim-treesitter/archive/488bec03254207b1dd071be8cb1fb78434b6e777.tar.gz";
-      sha256 = "1aq763i04aars7warfr59piryb5la6m8892cc3bjzmhzlvhzaz9k";
+      url = "https://github.com/nvim-treesitter/nvim-treesitter/archive/aa8d8bc600e00f84d11b9d40c6900d72d0f68fa3.tar.gz";
+      sha256 = "1lrk10r4kjcbfgxri1p22p5scvk9vzj0n53ki6rm9ix68hw10ira";
     };
     meta = with lib; {
       description = "Nvim Treesitter configurations and abstraction layer";
@@ -9972,15 +10594,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: nvim-treesitter-nvim-treesitter-context
+  Generated from: nvim-treesitter/nvim-treesitter-context
   */
   nvim-treesitter-context = buildVimPlugin {
     pname = "nvim-treesitter-context";
-    version = "2024-03-05";
+    version = "2024-03-22";
     src = fetchurl {
-      url = "https://github.com/nvim-treesitter/nvim-treesitter-context/archive/b8b7e52c1517d401d7c519787d5dc4528c41291a.tar.gz";
-      sha256 = "01gp1vd1h5nl0blmhgjka4kp162fizq23q60ahgxx89dbhsq41g6";
+      url = "https://github.com/nvim-treesitter/nvim-treesitter-context/archive/f19766163c18515fb4d3c12d572bf9cba6cdb990.tar.gz";
+      sha256 = "03xvy0c4pasa9n2jsy77ra5xrfhwzalvvglwqq190rysqz5y136b";
     };
     meta = with lib; {
       description = "Show code context";
@@ -9988,8 +10611,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: nvim-treesitter-nvim-treesitter-refactor
+  Generated from: nvim-treesitter/nvim-treesitter-refactor
   */
   nvim-treesitter-refactor = buildVimPlugin {
     pname = "nvim-treesitter-refactor";
@@ -10004,15 +10628,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: nvim-treesitter-nvim-treesitter-textobjects
+  Generated from: nvim-treesitter/nvim-treesitter-textobjects
   */
   nvim-treesitter-textobjects = buildVimPlugin {
     pname = "nvim-treesitter-textobjects";
-    version = "2024-03-05";
+    version = "2024-03-12";
     src = fetchurl {
-      url = "https://github.com/nvim-treesitter/nvim-treesitter-textobjects/archive/b7a0bfa3e93697ca5b61b15df633404bf8f45883.tar.gz";
-      sha256 = "1nyya192awsivjpm7h7p9xbkbrbaimrgrj389fq26cmgxf0jikf9";
+      url = "https://github.com/nvim-treesitter/nvim-treesitter-textobjects/archive/d2a4ffc22d9d38d44edb73da007b3cf43451e9b4.tar.gz";
+      sha256 = "0hj7mpb5k18v96b9m2gjf1sam8mrpgr9nvdcd3w83yk874sgh79g";
     };
     meta = with lib; {
       description = "";
@@ -10020,15 +10645,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: RRethy-nvim-treesitter-textsubjects
+  Generated from: RRethy/nvim-treesitter-textsubjects
   */
   nvim-treesitter-textsubjects = buildVimPlugin {
     pname = "nvim-treesitter-textsubjects";
-    version = "2024-01-15";
+    version = "2024-03-24";
     src = fetchurl {
-      url = "https://github.com/RRethy/nvim-treesitter-textsubjects/archive/55d11124c45e9bb506703f73e5775652ed5357e9.tar.gz";
-      sha256 = "1gzgzfa9n9dzbrds97q2mnz5qa50v4xvazsbh27k77m16yc3x1nw";
+      url = "https://github.com/RRethy/nvim-treesitter-textsubjects/archive/9f9a6b307fb122f13708f78483222abd43b7bb3a.tar.gz";
+      sha256 = "0lb3jq290vjnsdawdbyj5rpklpb9g9qvn588xxfbhfvqp447xsxy";
     };
     meta = with lib; {
       description = "Location and syntax aware text objects which *do what you mean*";
@@ -10036,8 +10662,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: windwp-nvim-ts-autotag
+  Generated from: windwp/nvim-ts-autotag
   */
   nvim-ts-autotag = buildVimPlugin {
     pname = "nvim-ts-autotag";
@@ -10052,8 +10679,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: JoosepAlviste-nvim-ts-context-commentstring
+  Generated from: JoosepAlviste/nvim-ts-context-commentstring
   */
   nvim-ts-context-commentstring = buildVimPlugin {
     pname = "nvim-ts-context-commentstring";
@@ -10068,8 +10696,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: mfussenegger-nvim-ts-hint-textobject
+  Generated from: mfussenegger/nvim-ts-hint-textobject
   */
   nvim-ts-hint-textobject = buildVimPlugin {
     pname = "nvim-ts-hint-textobject";
@@ -10084,8 +10713,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: hiphish-nvim-ts-rainbow2
+  Generated from: hiphish/nvim-ts-rainbow2
   */
   nvim-ts-rainbow2 = buildVimPlugin {
     pname = "nvim-ts-rainbow2";
@@ -10100,15 +10730,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: kevinhwang91-nvim-ufo
+  Generated from: kevinhwang91/nvim-ufo
   */
   nvim-ufo = buildVimPlugin {
     pname = "nvim-ufo";
-    version = "2024-02-27";
+    version = "2024-03-23";
     src = fetchurl {
-      url = "https://github.com/kevinhwang91/nvim-ufo/archive/239ae620d818ffa1319ca3056546df71906d4bfb.tar.gz";
-      sha256 = "00kyf0878rsvbrjk7m396qcv7s8bbqfi89p0024a84427iqp7fys";
+      url = "https://github.com/kevinhwang91/nvim-ufo/archive/458aa4451b98614cfab6b3d7beddc8caff5e3052.tar.gz";
+      sha256 = "1rxs4yn6jmk1m1g2h9spbw3pm0ryx10zczsnc0ffshaykyx2f1pc";
     };
     meta = with lib; {
       description = "Not UFO in the sky, but an ultra fold in Neovim.";
@@ -10116,8 +10747,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: samjwill-nvim-unception
+  Generated from: samjwill/nvim-unception
   */
   nvim-unception = buildVimPlugin {
     pname = "nvim-unception";
@@ -10132,15 +10764,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: chrisgrieser-nvim-various-textobjs
+  Generated from: chrisgrieser/nvim-various-textobjs
   */
   nvim-various-textobjs = buildVimPlugin {
     pname = "nvim-various-textobjs";
-    version = "2024-02-28";
+    version = "2024-03-11";
     src = fetchurl {
-      url = "https://github.com/chrisgrieser/nvim-various-textobjs/archive/3782eb41a964f45788843e34f325a470f0dc6757.tar.gz";
-      sha256 = "1s3saa1cl9x3ix2ryma7agacwbcf3bgxh6s1lzwajn6vsnic6pd4";
+      url = "https://github.com/chrisgrieser/nvim-various-textobjs/archive/6cefba253d69306004a641a11c395381ae428903.tar.gz";
+      sha256 = "0n94lb0bxmnk7x666mhl8m6kzq5zpc1gds37k0anmxcda2dxxxc8";
     };
     meta = with lib; {
       description = "Bundle of more than 30 new text objects for Neovim.";
@@ -10148,15 +10781,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: kyazdani42-nvim-web-devicons
+  Generated from: kyazdani42/nvim-web-devicons
   */
   nvim-web-devicons = buildVimPlugin {
     pname = "nvim-web-devicons";
-    version = "2024-03-09";
+    version = "2024-03-26";
     src = fetchurl {
-      url = "https://github.com/kyazdani42/nvim-web-devicons/archive/75df79feb02d5e0ec114e447453775d4d291ea03.tar.gz";
-      sha256 = "1rmp2bm0wn642sj80f864zvsw63xhxyll6w02fz2yg9j2x13cy12";
+      url = "https://github.com/kyazdani42/nvim-web-devicons/archive/3ee60deaa539360518eaab93a6c701fe9f4d82ef.tar.gz";
+      sha256 = "09psaajplsqqfrdkraas0p24hmcczf6yjwknm1hpi3f9rnq4a6mp";
     };
     meta = with lib; {
       description = "lua `fork` of vim-web-devicons for neovim";
@@ -10164,8 +10798,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: yorickpeterse-nvim-window
+  Generated from: yorickpeterse/nvim-window
   */
   nvim-window = buildVimPlugin {
     pname = "nvim-window";
@@ -10180,8 +10815,9 @@
       license = with licenses; [mpl20];
     };
   };
+
   /*
-  Generated from: s1n7ax-nvim-window-picker
+  Generated from: s1n7ax/nvim-window-picker
   */
   nvim-window-picker = buildVimPlugin {
     pname = "nvim-window-picker";
@@ -10196,8 +10832,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: seandewar-nvimesweeper
+  Generated from: seandewar/nvimesweeper
   */
   nvimesweeper = buildVimPlugin {
     pname = "nvimesweeper";
@@ -10212,8 +10849,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: nyngwang-nvimgelion
+  Generated from: nyngwang/nvimgelion
   */
   nvimgelion = buildVimPlugin {
     pname = "nvimgelion";
@@ -10228,8 +10866,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: hkupty-nvimux
+  Generated from: hkupty/nvimux
   */
   nvimux = buildVimPlugin {
     pname = "nvimux";
@@ -10244,8 +10883,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: tenxsoydev-nx.nvim
+  Generated from: tenxsoydev/nx.nvim
   */
   nx-nvim = buildVimPlugin {
     pname = "nx-nvim";
@@ -10260,24 +10900,26 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: altermo-nxwm
+  Generated from: altermo/nxwm
   */
   nxwm = buildVimPlugin {
     pname = "nxwm";
-    version = "2024-02-26";
+    version = "2024-03-11";
     src = fetchurl {
-      url = "https://github.com/altermo/nxwm/archive/552cb17ec6bf4bf591f94b60547de0a2f1e544df.tar.gz";
-      sha256 = "1fcc6sla8kjv7rlsz7i0ff2nd91pnhndk16mc42hxnfsbwlchsml";
+      url = "https://github.com/altermo/nxwm/archive/1817c0d2686686473a38221929732c6622a60d76.tar.gz";
+      sha256 = "1vikgkdzm07mkhnrdvdfjjn29bjzpzs44vk9p2x6l1zzq4grysvi";
     };
     meta = with lib; {
-      description = "A display window manager in neovim";
-      homepage = "https://github.com/altermo/nxwm";
+      description = "A graphical display window manager in neovim";
+      homepage = "https://github.com/altermo/nwm";
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: IlyasYOY-obs.nvim
+  Generated from: IlyasYOY/obs.nvim
   */
   obs-nvim = buildVimPlugin {
     pname = "obs-nvim";
@@ -10292,8 +10934,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: ada0l-obsidian
+  Generated from: ada0l/obsidian
   */
   obsidian = buildVimPlugin {
     pname = "obsidian";
@@ -10308,15 +10951,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: epwalsh-obsidian.nvim
+  Generated from: epwalsh/obsidian.nvim
   */
   obsidian-nvim = buildVimPlugin {
     pname = "obsidian-nvim";
-    version = "2024-03-10";
+    version = "2024-03-22";
     src = fetchurl {
-      url = "https://github.com/epwalsh/obsidian.nvim/archive/979f154090099fc6e31f8bb639a30e2e3e5841d3.tar.gz";
-      sha256 = "0ab9ii3vycf81kgzc6cwdxvxc1v3zwz73p5ayzyhkia4mfi0kdxk";
+      url = "https://github.com/epwalsh/obsidian.nvim/archive/df0c5cce68a02481c0d40d1b25433e368fd12a5a.tar.gz";
+      sha256 = "1n8gb28lnrfy4iqzg46gr9ny4ap44jr625f3f9nqidh4jn4nh24v";
     };
     meta = with lib; {
       description = "Obsidian 🤝 Neovim";
@@ -10324,8 +10968,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: mhartington-oceanic-next
+  Generated from: mhartington/oceanic-next
   */
   oceanic-next = buildVimPlugin {
     pname = "oceanic-next";
@@ -10340,15 +10985,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: pwntester-octo.nvim
+  Generated from: pwntester/octo.nvim
   */
   octo-nvim = buildVimPlugin {
     pname = "octo-nvim";
-    version = "2024-02-16";
+    version = "2024-03-21";
     src = fetchurl {
-      url = "https://github.com/pwntester/octo.nvim/archive/feae1e5519deebad3c59ee1d57d28aa22822f7c8.tar.gz";
-      sha256 = "170qxqk8743bwq9lcar7q473xrmqvl62ikqk1mb53gwjvlv64fxn";
+      url = "https://github.com/pwntester/octo.nvim/archive/27d6fd6ad2f2f59330724d6ea5c751f0c3ec96e6.tar.gz";
+      sha256 = "0hs81n2f963ir45dc9qfsbkkf07mnhj7jf3a8cny3qh7rdr4x3wx";
     };
     meta = with lib; {
       description = "Edit and review GitHub issues and pull requests from the comfort of your favorite editor";
@@ -10356,8 +11002,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ofirgall-ofirkai.nvim
+  Generated from: ofirgall/ofirkai.nvim
   */
   ofirkai-nvim = buildVimPlugin {
     pname = "ofirkai-nvim";
@@ -10372,8 +11019,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: yazeed1s-oh-lucy.nvim
+  Generated from: yazeed1s/oh-lucy.nvim
   */
   oh-lucy-nvim = buildVimPlugin {
     pname = "oh-lucy-nvim";
@@ -10388,15 +11036,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: stevearc-oil.nvim
+  Generated from: stevearc/oil.nvim
   */
   oil-nvim = buildVimPlugin {
     pname = "oil-nvim";
-    version = "2024-03-04";
+    version = "2024-03-18";
     src = fetchurl {
-      url = "https://github.com/stevearc/oil.nvim/archive/18dfd2458dc741fea683357a17aaa95870b25a3c.tar.gz";
-      sha256 = "0p8m0d9j1bymg590vq19x2vkslvx1ncnpwmv15pa9rgmcv1c9z4i";
+      url = "https://github.com/stevearc/oil.nvim/archive/e462a3446505185adf063566f5007771b69027a1.tar.gz";
+      sha256 = "18yi8n6dfx3wbp3plnh9alwrj27j67mbpd2x9qh9psw5im0rjpa9";
     };
     meta = with lib; {
       description = "Neovim file explorer: edit your filesystem like a buffer";
@@ -10404,8 +11053,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: yonlu-omni.vim
+  Generated from: yonlu/omni.vim
   */
   omni-vim = buildVimPlugin {
     pname = "omni-vim";
@@ -10420,8 +11070,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: cpea2506-one_monokai.nvim
+  Generated from: cpea2506/one_monokai.nvim
   */
   one-monokai-nvim = buildVimPlugin {
     pname = "one-monokai-nvim";
@@ -10436,8 +11087,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: Th3Whit3Wolf-one-nvim
+  Generated from: Th3Whit3Wolf/one-nvim
   */
   one-nvim = buildVimPlugin {
     pname = "one-nvim";
@@ -10452,15 +11104,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: jbyuki-one-small-step-for-vimkind
+  Generated from: jbyuki/one-small-step-for-vimkind
   */
   one-small-step-for-vimkind = buildVimPlugin {
     pname = "one-small-step-for-vimkind";
-    version = "2023-12-23";
+    version = "2024-03-17";
     src = fetchurl {
-      url = "https://github.com/jbyuki/one-small-step-for-vimkind/archive/aaee281bdaa3141d9d0cdb3dec468532da61124f.tar.gz";
-      sha256 = "07a6lbgl6nl3gwk8f0lb0ybr9fj66z0ybyln9fyxw4f1niccqmli";
+      url = "https://github.com/jbyuki/one-small-step-for-vimkind/archive/cd2500ab74addeed6ac260a008dd649c01d3ba12.tar.gz";
+      sha256 = "09h4h5yhysqs5nkk4qgpyd2kp5g4y8nsrv41rbq57z86ylw5975k";
     };
     meta = with lib; {
       description = "Debug adapter for Neovim plugins";
@@ -10468,8 +11121,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: Th3Whit3Wolf-onebuddy
+  Generated from: Th3Whit3Wolf/onebuddy
   */
   onebuddy = buildVimPlugin {
     pname = "onebuddy";
@@ -10484,8 +11138,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: navarasu-onedark.nvim
+  Generated from: navarasu/onedark.nvim
   */
   onedark-nvim = buildVimPlugin {
     pname = "onedark-nvim";
@@ -10500,24 +11155,26 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: olimorris-onedarkpro.nvim
+  Generated from: olimorris/onedarkpro.nvim
   */
   onedarkpro-nvim = buildVimPlugin {
     pname = "onedarkpro-nvim";
-    version = "2024-02-29";
+    version = "2024-03-24";
     src = fetchurl {
-      url = "https://github.com/olimorris/onedarkpro.nvim/archive/0059f3f9b21daf3540f1108c2bab3fa9e9082331.tar.gz";
-      sha256 = "0hgw3nbr0lia8qymfm69qlvnsnvzpw2dasn03nrxjb3f7lfvqz31";
+      url = "https://github.com/olimorris/onedarkpro.nvim/archive/9cb77d936fd42c2c98becceb0f132df170d4eba0.tar.gz";
+      sha256 = "1ia6zv0jiyh4jis29hkygb91fllgw65fmpiq2igz98ryxj1rv67y";
     };
     meta = with lib; {
-      description = "🎨 Atom's iconic One Dark theme, for Neovim. Cacheable, fully customisable, Tree-sitter and LSP semantic token support. Comes with variants";
+      description = "🎨 Atom's iconic One Dark theme. Cacheable, fully customisable, Tree-sitter and LSP semantic token support. Comes with variants";
       homepage = "https://github.com/olimorris/onedarkpro.nvim";
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: rmehri01-onenord.nvim
+  Generated from: rmehri01/onenord.nvim
   */
   onenord-nvim = buildVimPlugin {
     pname = "onenord-nvim";
@@ -10532,8 +11189,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: LoricAndre-OneTerm.nvim
+  Generated from: LoricAndre/OneTerm.nvim
   */
   OneTerm-nvim = buildVimPlugin {
     pname = "OneTerm-nvim";
@@ -10548,8 +11206,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: ofirgall-open.nvim
+  Generated from: ofirgall/open.nvim
   */
   open-nvim = buildVimPlugin {
     pname = "open-nvim";
@@ -10564,15 +11223,16 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: salkin-mada-openscad.nvim
+  Generated from: salkin-mada/openscad.nvim
   */
   openscad-nvim = buildVimPlugin {
     pname = "openscad-nvim";
-    version = "2023-06-19";
+    version = "2024-03-12";
     src = fetchurl {
-      url = "https://github.com/salkin-mada/openscad.nvim/archive/d77e7b3822da685d24a58081e94c4384e254d91f.tar.gz";
-      sha256 = "1l9fccbzkw6fglagnls00bl6ri33sm22zxdhdhdixihqdk69prmv";
+      url = "https://github.com/salkin-mada/openscad.nvim/archive/5c35ce921a63d59f2a0bb20d872c15a0d4c8aa72.tar.gz";
+      sha256 = "1w4vdk1v9rzw6j3vya01d975dqbini9m2v08f3f1gxxh90ahy5ay";
     };
     meta = with lib; {
       description = "openscad plugin for neovim";
@@ -10580,15 +11240,16 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: nvim-orgmode-orgmode
+  Generated from: nvim-orgmode/orgmode
   */
   orgmode = buildVimPlugin {
     pname = "orgmode";
-    version = "2024-03-10";
+    version = "2024-03-27";
     src = fetchurl {
-      url = "https://github.com/nvim-orgmode/orgmode/archive/872853d5d24058105eec168cbcc07a6a277117ca.tar.gz";
-      sha256 = "0q0lnpp9wrrf57s3d3iym22jl4ky3w53qnjmpzc4gi7wgmcvv1dv";
+      url = "https://github.com/nvim-orgmode/orgmode/archive/5a5b4864ce5883d7505139125cb40256b40ddc6e.tar.gz";
+      sha256 = "1hf48vnqw4c1wyl21fqklrbkyi2lxj8xdf5alsywpj75v1xl9hzc";
     };
     meta = with lib; {
       description = "Orgmode clone written in Lua for Neovim 0.9+.";
@@ -10596,8 +11257,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: davidgranstrom-osc.nvim
+  Generated from: davidgranstrom/osc.nvim
   */
   osc-nvim = buildVimPlugin {
     pname = "osc-nvim";
@@ -10612,8 +11274,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: rgroli-other.nvim
+  Generated from: rgroli/other.nvim
   */
   other-nvim = buildVimPlugin {
     pname = "other-nvim";
@@ -10628,15 +11291,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: jmbuhr-otter.nvim
+  Generated from: jmbuhr/otter.nvim
   */
   otter-nvim = buildVimPlugin {
     pname = "otter-nvim";
-    version = "2024-03-04";
+    version = "2024-03-25";
     src = fetchurl {
-      url = "https://github.com/jmbuhr/otter.nvim/archive/e926e5eeb541d89bfab422083feaaf230a2abf8e.tar.gz";
-      sha256 = "1c5jbw9v8qd00hf462ly1yv7vkmng8301q4sn77cd8r3mgyqwp34";
+      url = "https://github.com/jmbuhr/otter.nvim/archive/145a7b0c3c40f4e62fc6c0bc9721e2cfe8f95471.tar.gz";
+      sha256 = "0daw1bjwdg94r8vr21qj52xvdik9x1yjiwsh1f350fysc1mxg0j7";
     };
     meta = with lib; {
       description = "Just ask an otter! 🦦";
@@ -10644,15 +11308,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: hedyhli-outline.nvim
+  Generated from: hedyhli/outline.nvim
   */
   outline-nvim = buildVimPlugin {
     pname = "outline-nvim";
-    version = "2024-01-22";
+    version = "2024-03-16";
     src = fetchurl {
-      url = "https://github.com/hedyhli/outline.nvim/archive/a8d40aecb799196303ff3521c0e31c87bba57198.tar.gz";
-      sha256 = "1y8b0xfl7d1n03dlyhyw935vsnrfqc5pbabmxl0x55bnk0njrfm9";
+      url = "https://github.com/hedyhli/outline.nvim/archive/bdfd2da90e9a7686d00e55afa9f772c4b6809413.tar.gz";
+      sha256 = "0w8wlvsn49sr8xn29c1szg75iicvp8v9fqkwwdzzjn8dzlgqax9d";
     };
     meta = with lib; {
       description = "Code outline sidebar powered by LSP. Significantly enhanced & refactored fork of symbols-outline.nvim. ";
@@ -10660,8 +11325,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: lcheylus-overlength.nvim
+  Generated from: lcheylus/overlength.nvim
   */
   overlength-nvim = buildVimPlugin {
     pname = "overlength-nvim";
@@ -10676,15 +11342,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: stevearc-overseer.nvim
+  Generated from: stevearc/overseer.nvim
   */
   overseer-nvim = buildVimPlugin {
     pname = "overseer-nvim";
-    version = "2024-03-07";
+    version = "2024-03-24";
     src = fetchurl {
-      url = "https://github.com/stevearc/overseer.nvim/archive/b72f6d23ce47ccd427be2341f389c63448278f17.tar.gz";
-      sha256 = "0pa1z1bkjyfkcmq61grzzjkpy9x1d3rcrr6n0cnipd8f97lnyb23";
+      url = "https://github.com/stevearc/overseer.nvim/archive/b04b0b105c07b4f02b3073ea3a98d6eca90bf152.tar.gz";
+      sha256 = "0q2jkxrxplqj6zzwr1z6q1b0r3k357gnfgganvsfmzl2csfvd6xg";
     };
     meta = with lib; {
       description = "A task runner and job management plugin for Neovim";
@@ -10692,8 +11359,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: nyoom-engineering-oxocarbon.nvim
+  Generated from: nyoom-engineering/oxocarbon.nvim
   */
   oxocarbon-nvim = buildVimPlugin {
     pname = "oxocarbon-nvim";
@@ -10708,8 +11376,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: vuki656-package-info.nvim
+  Generated from: vuki656/package-info.nvim
   */
   package-info-nvim = buildVimPlugin {
     pname = "package-info-nvim";
@@ -10724,8 +11393,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: wbthomason-packer.nvim
+  Generated from: wbthomason/packer.nvim
   */
   packer-nvim = buildVimPlugin {
     pname = "packer-nvim";
@@ -10740,8 +11410,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: rktjmp-pact.nvim
+  Generated from: rktjmp/pact.nvim
   */
   pact-nvim = buildVimPlugin {
     pname = "pact-nvim";
@@ -10756,8 +11427,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: alexmozaidze-palenight.nvim
+  Generated from: alexmozaidze/palenight.nvim
   */
   palenight-nvim = buildVimPlugin {
     pname = "palenight-nvim";
@@ -10772,8 +11444,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: roobert-palette.nvim
+  Generated from: roobert/palette.nvim
   */
   palette-nvim = buildVimPlugin {
     pname = "palette-nvim";
@@ -10788,8 +11461,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: potamides-pantran.nvim
+  Generated from: potamides/pantran.nvim
   */
   pantran-nvim = buildVimPlugin {
     pname = "pantran-nvim";
@@ -10804,8 +11478,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: kdheepak-panvimdoc
+  Generated from: kdheepak/panvimdoc
   */
   panvimdoc = buildVimPlugin {
     pname = "panvimdoc";
@@ -10820,8 +11495,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: rktjmp-paperplanes.nvim
+  Generated from: rktjmp/paperplanes.nvim
   */
   paperplanes-nvim = buildVimPlugin {
     pname = "paperplanes-nvim";
@@ -10836,15 +11512,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: jghauser-papis.nvim
+  Generated from: jghauser/papis.nvim
   */
   papis-nvim = buildVimPlugin {
     pname = "papis-nvim";
-    version = "2023-11-27";
+    version = "2024-03-18";
     src = fetchurl {
-      url = "https://github.com/jghauser/papis.nvim/archive/ed475c5da3a56d269feecac8832f9f440066cdf0.tar.gz";
-      sha256 = "1g5fdam2l9jlwn7k2nf97vbblfp6lyhrllxqv6fcdw9yzlw7xamv";
+      url = "https://github.com/jghauser/papis.nvim/archive/78dad93ee104fdf95c46e355d8cbbfbf9978d943.tar.gz";
+      sha256 = "0cg85civy3rkh2h71spxrh914d65cffdcbrk45afvppgsihsh0wm";
     };
     meta = with lib; {
       description = "Manage your bibliography from within your favourite editor";
@@ -10852,8 +11529,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: savq-paq-nvim
+  Generated from: savq/paq-nvim
   */
   paq-nvim = buildVimPlugin {
     pname = "paq-nvim";
@@ -10868,8 +11546,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: chrsm-paramount-ng.nvim
+  Generated from: chrsm/paramount-ng.nvim
   */
   paramount-ng-nvim = buildVimPlugin {
     pname = "paramount-ng-nvim";
@@ -10884,8 +11563,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: niuiic-part-edit.nvim
+  Generated from: niuiic/part-edit.nvim
   */
   part-edit-nvim = buildVimPlugin {
     pname = "part-edit-nvim";
@@ -10900,8 +11580,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: lewis6991-pckr.nvim
+  Generated from: lewis6991/pckr.nvim
   */
   pckr-nvim = buildVimPlugin {
     pname = "pckr-nvim";
@@ -10916,15 +11597,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: toppair-peek.nvim
+  Generated from: toppair/peek.nvim
   */
   peek-nvim = buildVimPlugin {
     pname = "peek-nvim";
-    version = "2024-03-08";
+    version = "2024-03-26";
     src = fetchurl {
-      url = "https://github.com/toppair/peek.nvim/archive/a22092aa146668913705f6ff7944f37b01ea6552.tar.gz";
-      sha256 = "15ahxnhhyz4aby1ks7f91sdqdzyzb6623iy3qawj2a6yk81zmcq3";
+      url = "https://github.com/toppair/peek.nvim/archive/62e9e46fb5b6be510c60f67c1fd9913764efaac0.tar.gz";
+      sha256 = "07jmd3z7d7c26y2fp2axpklq60a86y93y4smbr4ba9ikamfplkqn";
     };
     meta = with lib; {
       description = "Markdown preview plugin for Neovim";
@@ -10932,8 +11614,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: koenverburg-peepsight.nvim
+  Generated from: koenverburg/peepsight.nvim
   */
   peepsight-nvim = buildVimPlugin {
     pname = "peepsight-nvim";
@@ -10948,8 +11631,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: Abstract-IDE-penvim
+  Generated from: Abstract-IDE/penvim
   */
   penvim = buildVimPlugin {
     pname = "penvim";
@@ -10964,8 +11648,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: t-troebst-perfanno.nvim
+  Generated from: t-troebst/perfanno.nvim
   */
   perfanno-nvim = buildVimPlugin {
     pname = "perfanno-nvim";
@@ -10980,15 +11665,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: olimorris-persisted.nvim
+  Generated from: olimorris/persisted.nvim
   */
   persisted-nvim = buildVimPlugin {
     pname = "persisted-nvim";
-    version = "2024-03-06";
+    version = "2024-03-13";
     src = fetchurl {
-      url = "https://github.com/olimorris/persisted.nvim/archive/18fda8136f91d1df64e8fc8d49417c958d6af206.tar.gz";
-      sha256 = "0vldhqqbi42vywq19f8c1rpqx9p9y0l5x2z4r3dza2asn0my84bh";
+      url = "https://github.com/olimorris/persisted.nvim/archive/c157b89b5c6e057c17a562ebcf02f0577405ad57.tar.gz";
+      sha256 = "1bdml1xxs26y7spwpggm9khw5p31s5nmpx9gi3ayckhc2fnr3hn4";
     };
     meta = with lib; {
       description = "💾 Simple session management for Neovim with git branching, autoloading and Telescope support";
@@ -10996,8 +11682,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: folke-persistence.nvim
+  Generated from: folke/persistence.nvim
   */
   persistence-nvim = buildVimPlugin {
     pname = "persistence-nvim";
@@ -11012,8 +11699,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: Weissle-persistent-breakpoints.nvim
+  Generated from: Weissle/persistent-breakpoints.nvim
   */
   persistent-breakpoints-nvim = buildVimPlugin {
     pname = "persistent-breakpoints-nvim";
@@ -11028,8 +11716,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: gbprod-phpactor.nvim
+  Generated from: gbprod/phpactor.nvim
   */
   phpactor-nvim = buildVimPlugin {
     pname = "phpactor-nvim";
@@ -11044,8 +11733,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: CWood-sdf-pineapple
+  Generated from: CWood-sdf/pineapple
   */
   pineapple = buildVimPlugin {
     pname = "pineapple";
@@ -11060,8 +11750,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: aklt-plantuml-syntax
+  Generated from: aklt/plantuml-syntax
   */
   plantuml-syntax = buildVimPlugin {
     pname = "plantuml-syntax";
@@ -11076,8 +11767,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: nvim-treesitter-playground
+  Generated from: nvim-treesitter/playground
   */
   playground = buildVimPlugin {
     pname = "playground";
@@ -11092,15 +11784,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: nvim-lua-plenary.nvim
+  Generated from: nvim-lua/plenary.nvim
   */
   plenary-nvim = buildVimPlugin {
     pname = "plenary-nvim";
-    version = "2024-03-06";
+    version = "2024-03-25";
     src = fetchurl {
-      url = "https://github.com/nvim-lua/plenary.nvim/archive/f7adfc4b3f4f91aab6caebf42b3682945fbc35be.tar.gz";
-      sha256 = "1mp0fvhmyw241mks45j622ngpajlg52wfvgxyk16b73kqjfdylfk";
+      url = "https://github.com/nvim-lua/plenary.nvim/archive/8aad4396840be7fc42896e3011751b7609ca4119.tar.gz";
+      sha256 = "0pj3axsryhy98jf9r2ysfrb0aw1xcncpghd9k6l5r7xv8in1xcrd";
     };
     meta = with lib; {
       description = "plenary: full; complete; entire; absolute; unqualified. All the lua functions I don't want to write twice.";
@@ -11108,8 +11801,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: m00qek-plugin-template.nvim
+  Generated from: m00qek/plugin-template.nvim
   */
   plugin-template-nvim = buildVimPlugin {
     pname = "plugin-template-nvim";
@@ -11124,8 +11818,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: olivercederborg-poimandres.nvim
+  Generated from: olivercederborg/poimandres.nvim
   */
   poimandres-nvim = buildVimPlugin {
     pname = "poimandres-nvim";
@@ -11140,8 +11835,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: nvim-lua-popup.nvim
+  Generated from: nvim-lua/popup.nvim
   */
   popup-nvim = buildVimPlugin {
     pname = "popup-nvim";
@@ -11156,15 +11852,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: cbochs-portal.nvim
+  Generated from: cbochs/portal.nvim
   */
   portal-nvim = buildVimPlugin {
     pname = "portal-nvim";
-    version = "2024-03-01";
+    version = "2024-03-22";
     src = fetchurl {
-      url = "https://github.com/cbochs/portal.nvim/archive/bba07e8ed0310407b83be812312c5b4656f81f6d.tar.gz";
-      sha256 = "1ssxz1c3wzg1yq85mj4j5dmi73alb50jd73lajpyz8nq1j3a88r1";
+      url = "https://github.com/cbochs/portal.nvim/archive/94ff1d57537e2cdb939a359bf7a7467b21a1defe.tar.gz";
+      sha256 = "0mlxhjf78xn2043aq6r2c64a9acvzvrh3a2msvmbq5pj26jyncxf";
     };
     meta = with lib; {
       description = "Neovim plugin for improved location list navigation";
@@ -11172,8 +11869,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: jedrzejboczar-possession.nvim
+  Generated from: jedrzejboczar/possession.nvim
   */
   possession-nvim = buildVimPlugin {
     pname = "possession-nvim";
@@ -11188,8 +11886,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: rlane-pounce.nvim
+  Generated from: rlane/pounce.nvim
   */
   pounce-nvim = buildVimPlugin {
     pname = "pounce-nvim";
@@ -11204,8 +11903,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: andweeb-presence.nvim
+  Generated from: andweeb/presence.nvim
   */
   presence-nvim = buildVimPlugin {
     pname = "presence-nvim";
@@ -11220,8 +11920,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: Chaitanyabsprip-present.nvim
+  Generated from: Chaitanyabsprip/present.nvim
   */
   present-nvim = buildVimPlugin {
     pname = "present-nvim";
@@ -11236,8 +11937,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: MunifTanjim-prettier.nvim
+  Generated from: MunifTanjim/prettier.nvim
   */
   prettier-nvim = buildVimPlugin {
     pname = "prettier-nvim";
@@ -11252,8 +11954,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: anuvyklack-pretty-fold.nvim
+  Generated from: anuvyklack/pretty-fold.nvim
   */
   pretty-fold-nvim = buildVimPlugin {
     pname = "pretty-fold-nvim";
@@ -11268,8 +11971,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: ahmedkhalf-project.nvim
+  Generated from: ahmedkhalf/project.nvim
   */
   project-nvim = buildVimPlugin {
     pname = "project-nvim";
@@ -11284,8 +11988,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: gnikdroy-projections.nvim
+  Generated from: gnikdroy/projections.nvim
   */
   projections-nvim = buildVimPlugin {
     pname = "projections-nvim";
@@ -11300,8 +12005,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: kevinhwang91-promise-async
+  Generated from: kevinhwang91/promise-async
   */
   promise-async = buildVimPlugin {
     pname = "promise-async";
@@ -11316,8 +12022,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: stevearc-qf_helper.nvim
+  Generated from: stevearc/qf_helper.nvim
   */
   qf-helper-nvim = buildVimPlugin {
     pname = "qf-helper-nvim";
@@ -11332,8 +12039,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ashfinal-qfview.nvim
+  Generated from: ashfinal/qfview.nvim
   */
   qfview-nvim = buildVimPlugin {
     pname = "qfview-nvim";
@@ -11348,8 +12056,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: quarto-dev-quarto-nvim
+  Generated from: quarto-dev/quarto-nvim
   */
   quarto-nvim = buildVimPlugin {
     pname = "quarto-nvim";
@@ -11364,15 +12073,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: RutaTang-quicknote.nvim
+  Generated from: RutaTang/quicknote.nvim
   */
   quicknote-nvim = buildVimPlugin {
     pname = "quicknote-nvim";
-    version = "2023-10-13";
+    version = "2024-03-16";
     src = fetchurl {
-      url = "https://github.com/RutaTang/quicknote.nvim/archive/530ee1f74b0ef191a3a8110b5f9d4bdffc7bfd6c.tar.gz";
-      sha256 = "1bq9z67hglsgi9a2fhhg9qf1zxh48kqrpjpkknmh3h8spa1cnyf3";
+      url = "https://github.com/RutaTang/quicknote.nvim/archive/2fc56f96ef1d983609c1c40b799d7ec32693362a.tar.gz";
+      sha256 = "0w27cvbyd140qcrjb8wl6qrmr3gjxhl378vd628c9fpq4d8ni1m1";
     };
     meta = with lib; {
       description = "Quickly take notes, in-place";
@@ -11380,15 +12090,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: HiPhish-rainbow-delimiters.nvim
+  Generated from: HiPhish/rainbow-delimiters.nvim
   */
   rainbow-delimiters-nvim = buildVimPlugin {
     pname = "rainbow-delimiters-nvim";
-    version = "2024-02-29";
+    version = "2024-03-23";
     src = fetchurl {
-      url = "https://github.com/HiPhish/rainbow-delimiters.nvim/archive/cfc3f53cfa0fbabd95bd33747288aea24fe45211.tar.gz";
-      sha256 = "1g0zgjdswffhlkrwhprmpblh9hflffyw085ssladjbim8r61wsay";
+      url = "https://github.com/HiPhish/rainbow-delimiters.nvim/archive/580bc045c7ab3ab3ebd267774038c0d8cc19c789.tar.gz";
+      sha256 = "12kjcpk590gpnznz3zd4s97575npyjhv44rszpq6zcn3sg1hm80q";
     };
     meta = with lib; {
       description = "Rainbow delimiters for Neovim with Tree-sitter";
@@ -11396,8 +12107,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: winston0410-range-highlight.nvim
+  Generated from: winston0410/range-highlight.nvim
   */
   range-highlight-nvim = buildVimPlugin {
     pname = "range-highlight-nvim";
@@ -11412,8 +12124,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: kelly-lin-ranger.nvim
+  Generated from: kelly-lin/ranger.nvim
   */
   ranger-nvim = buildVimPlugin {
     pname = "ranger-nvim";
@@ -11428,8 +12141,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: rafaqz-ranger.vim
+  Generated from: rafaqz/ranger.vim
   */
   ranger-vim = buildVimPlugin {
     pname = "ranger-vim";
@@ -11444,8 +12158,9 @@
       license = with licenses; [wtfpl];
     };
   };
+
   /*
-  Generated from: Fymyte-rasi.vim
+  Generated from: Fymyte/rasi.vim
   */
   rasi-vim = buildVimPlugin {
     pname = "rasi-vim";
@@ -11460,8 +12175,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: kvrohit-rasmus.nvim
+  Generated from: kvrohit/rasmus.nvim
   */
   rasmus-nvim = buildVimPlugin {
     pname = "rasmus-nvim";
@@ -11476,8 +12192,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: TobinPalmer-rayso.nvim
+  Generated from: TobinPalmer/rayso.nvim
   */
   rayso-nvim = buildVimPlugin {
     pname = "rayso-nvim";
@@ -11492,8 +12209,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: toppair-reach.nvim
+  Generated from: toppair/reach.nvim
   */
   reach-nvim = buildVimPlugin {
     pname = "reach-nvim";
@@ -11508,8 +12226,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: bgaillard-readonly.nvim
+  Generated from: bgaillard/readonly.nvim
   */
   readonly-nvim = buildVimPlugin {
     pname = "readonly-nvim";
@@ -11524,8 +12243,9 @@
       license = with licenses; [cc0];
     };
   };
+
   /*
-  Generated from: gwatcha-reaper-keys
+  Generated from: gwatcha/reaper-keys
   */
   reaper-keys = buildVimPlugin {
     pname = "reaper-keys";
@@ -11540,8 +12260,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: madskjeldgaard-reaper-nvim
+  Generated from: madskjeldgaard/reaper-nvim
   */
   reaper-nvim = buildVimPlugin {
     pname = "reaper-nvim";
@@ -11556,8 +12277,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: tversteeg-registers.nvim
+  Generated from: tversteeg/registers.nvim
   */
   registers-nvim = buildVimPlugin {
     pname = "registers-nvim";
@@ -11572,8 +12294,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: cpea2506-relative-toggle.nvim
+  Generated from: cpea2506/relative-toggle.nvim
   */
   relative-toggle-nvim = buildVimPlugin {
     pname = "relative-toggle-nvim";
@@ -11588,8 +12311,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: niuiic-remote.nvim
+  Generated from: niuiic/remote.nvim
   */
   remote-nvim = buildVimPlugin {
     pname = "remote-nvim";
@@ -11604,8 +12328,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: filipdutescu-renamer.nvim
+  Generated from: filipdutescu/renamer.nvim
   */
   renamer-nvim = buildVimPlugin {
     pname = "renamer-nvim";
@@ -11620,8 +12345,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: 9seconds-repolink.nvim
+  Generated from: 9seconds/repolink.nvim
   */
   repolink-nvim = buildVimPlugin {
     pname = "repolink-nvim";
@@ -11636,8 +12362,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: raimon49-requirements.txt.vim
+  Generated from: raimon49/requirements.txt.vim
   */
   requirements-txt-vim = buildVimPlugin {
     pname = "requirements-txt-vim";
@@ -11652,24 +12379,26 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: rest-nvim-rest.nvim
+  Generated from: rest-nvim/rest.nvim
   */
   rest-nvim = buildVimPlugin {
     pname = "rest-nvim";
-    version = "2024-03-05";
+    version = "2024-03-26";
     src = fetchurl {
-      url = "https://github.com/rest-nvim/rest.nvim/archive/b1c84475a8f053037cecf5249e6b69af5a7548d6.tar.gz";
-      sha256 = "0xx2s6z65xvkqpgni6pvfkxdb2lxz3i98sfqhsrk0r3llnrsfgx7";
+      url = "https://github.com/rest-nvim/rest.nvim/archive/1bad966117230e173e31f503c9718f9eb145388f.tar.gz";
+      sha256 = "1gw31dnx0jxn7nrclj9br4maxcrjxqb6a82gmgl2id07rqqgmvv4";
     };
     meta = with lib; {
       description = "A fast Neovim http client written in Lua";
       homepage = "https://github.com/rest-nvim/rest.nvim";
-      license = with licenses; [mit];
+      license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: mangelozzi-rgflow.nvim
+  Generated from: mangelozzi/rgflow.nvim
   */
   rgflow-nvim = buildVimPlugin {
     pname = "rgflow-nvim";
@@ -11684,8 +12413,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: kevinhwang91-rnvimr
+  Generated from: kevinhwang91/rnvimr
   */
   rnvimr = buildVimPlugin {
     pname = "rnvimr";
@@ -11700,24 +12430,26 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: nvim-neorocks-rocks.nvim
+  Generated from: nvim-neorocks/rocks.nvim
   */
   rocks-nvim = buildVimPlugin {
     pname = "rocks-nvim";
-    version = "2024-03-09";
+    version = "2024-03-26";
     src = fetchurl {
-      url = "https://github.com/nvim-neorocks/rocks.nvim/archive/6892cead6f91e3e770287ef73def6cca12ef47f8.tar.gz";
-      sha256 = "0v5r68lq0kwy8nqrvkndl326zfxczcfw7ry9jd19525m13mmgsc2";
+      url = "https://github.com/nvim-neorocks/rocks.nvim/archive/0189ebefef70849801b9e48f0d9015dc03a21758.tar.gz";
+      sha256 = "1zrqvs8d9f9sxhgpwkl7qxivbq1np2b4n5pl3hikcv8vsymlrsv7";
     };
     meta = with lib; {
-      description = "Neovim plugin management inspired by Cargo.";
+      description = "Neovim plugin management inspired by Cargo, powered by luarocks";
       homepage = "https://github.com/nvim-neorocks/rocks.nvim";
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: judaew-ronny.nvim
+  Generated from: judaew/ronny.nvim
   */
   ronny-nvim = buildVimPlugin {
     pname = "ronny-nvim";
@@ -11732,15 +12464,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: rose-pine-neovim
+  Generated from: rose-pine/neovim
   */
   rose-pine = buildVimPlugin {
     pname = "rose-pine";
-    version = "2024-03-05";
+    version = "2024-03-23";
     src = fetchurl {
-      url = "https://github.com/rose-pine/neovim/archive/a29b09d15a9ef5cd575fbe5ae2a3cfb854876caf.tar.gz";
-      sha256 = "1dhdcr98vgfvqpj961k2nq81pjawm9dhpj3qfa8ir8ra9xs0c2r5";
+      url = "https://github.com/rose-pine/neovim/archive/f48fcd5ccc5f70d8e221e7e2e87ee2003c5eda37.tar.gz";
+      sha256 = "0kmbb2iygb1b8w54sdpfwrf163wlphcwp7chm7r3dhsilprp6y3f";
     };
     meta = with lib; {
       description = "Soho vibes for Neovim";
@@ -11748,8 +12481,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: shaeinst-roshnivim-cs
+  Generated from: shaeinst/roshnivim-cs
   */
   roshnivim-cs = buildVimPlugin {
     pname = "roshnivim-cs";
@@ -11764,8 +12498,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: OscarCreator-rsync.nvim
+  Generated from: OscarCreator/rsync.nvim
   */
   rsync-nvim = buildVimPlugin {
     pname = "rsync-nvim";
@@ -11780,8 +12515,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: MarcHamamji-runner.nvim
+  Generated from: MarcHamamji/runner.nvim
   */
   runner-nvim = buildVimPlugin {
     pname = "runner-nvim";
@@ -11796,8 +12532,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: simrat39-rust-tools.nvim
+  Generated from: simrat39/rust-tools.nvim
   */
   rust-tools-nvim = buildVimPlugin {
     pname = "rust-tools-nvim";
@@ -11812,15 +12549,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: mrcjkb-rustaceanvim
+  Generated from: mrcjkb/rustaceanvim
   */
   rustaceanvim = buildVimPlugin {
     pname = "rustaceanvim";
-    version = "2024-03-10";
+    version = "2024-03-27";
     src = fetchurl {
-      url = "https://github.com/mrcjkb/rustaceanvim/archive/a59b4e04f7ac55a805b9705ac0a0653c5adca459.tar.gz";
-      sha256 = "0fbwdkgamqy3diimr9g1p1i25c2hyb8c3c600z2qjm6xxgzmaqpa";
+      url = "https://github.com/mrcjkb/rustaceanvim/archive/c2cdbeca8674e1b1b66ba870ff502bdad55a6d8a.tar.gz";
+      sha256 = "0wzyanq5h1nirwf5zn9nybjpnz4xx5wm6rvbhywcjwq7d812yylq";
     };
     meta = with lib; {
       description = "Supercharge your Rust experience in Neovim! A heavily modified fork of rust-tools.nvim";
@@ -11828,8 +12566,9 @@
       license = with licenses; [gpl2Only];
     };
   };
+
   /*
-  Generated from: kiran94-s3edit.nvim
+  Generated from: kiran94/s3edit.nvim
   */
   s3edit-nvim = buildVimPlugin {
     pname = "s3edit-nvim";
@@ -11844,8 +12583,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ray-x-sad.nvim
+  Generated from: ray-x/sad.nvim
   */
   sad-nvim = buildVimPlugin {
     pname = "sad-nvim";
@@ -11860,8 +12600,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: lewis6991-satellite.nvim
+  Generated from: lewis6991/satellite.nvim
   */
   satellite-nvim = buildVimPlugin {
     pname = "satellite-nvim";
@@ -11876,15 +12617,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: b0o-SchemaStore.nvim
+  Generated from: b0o/SchemaStore.nvim
   */
   SchemaStore-nvim = buildVimPlugin {
     pname = "SchemaStore-nvim";
-    version = "2024-03-08";
+    version = "2024-03-27";
     src = fetchurl {
-      url = "https://github.com/b0o/SchemaStore.nvim/archive/b788bde023f9fbc2eb86e89d32c0bf98a60ae406.tar.gz";
-      sha256 = "07n8p7aijpcvqg6n0y59j15zhd383ashw4xpmfqi3fpsdfahn69p";
+      url = "https://github.com/b0o/SchemaStore.nvim/archive/4ce271f0db8b5224b4d69a43a75c13f5b4dcba43.tar.gz";
+      sha256 = "130ml30arnmdam1x12mybs5i0yjnwhh6y75k8r2fajj3fgax0cxq";
     };
     meta = with lib; {
       description = "🛍 JSON schemas for Neovim";
@@ -11892,8 +12634,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: davidgranstrom-scnvim
+  Generated from: davidgranstrom/scnvim
   */
   scnvim = buildVimPlugin {
     pname = "scnvim";
@@ -11908,8 +12651,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: LintaoAmons-scratch.nvim
+  Generated from: LintaoAmons/scratch.nvim
   */
   scratch-nvim = buildVimPlugin {
     pname = "scratch-nvim";
@@ -11924,8 +12668,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: ostralyan-scribe.nvim
+  Generated from: ostralyan/scribe.nvim
   */
   scribe-nvim = buildVimPlugin {
     pname = "scribe-nvim";
@@ -11940,8 +12685,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: Xuyuanp-scrollbar.nvim
+  Generated from: Xuyuanp/scrollbar.nvim
   */
   scrollbar-nvim = buildVimPlugin {
     pname = "scrollbar-nvim";
@@ -11956,8 +12702,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: nkakouros-scrollofffraction.nvim
+  Generated from: nkakouros/scrollofffraction.nvim
   */
   scrollofffraction-nvim = buildVimPlugin {
     pname = "scrollofffraction-nvim";
@@ -11972,8 +12719,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: FabianWirth-search.nvim
+  Generated from: FabianWirth/search.nvim
   */
   search-nvim = buildVimPlugin {
     pname = "search-nvim";
@@ -11988,8 +12736,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: roobert-search-replace.nvim
+  Generated from: roobert/search-replace.nvim
   */
   search-replace-nvim = buildVimPlugin {
     pname = "search-replace-nvim";
@@ -12004,8 +12753,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: calind-selenized.nvim
+  Generated from: calind/selenized.nvim
   */
   selenized-nvim = buildVimPlugin {
     pname = "selenized-nvim";
@@ -12020,8 +12770,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: utilyre-sentiment.nvim
+  Generated from: utilyre/sentiment.nvim
   */
   sentiment-nvim = buildVimPlugin {
     pname = "sentiment-nvim";
@@ -12036,8 +12787,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: dinhhuy258-sfm.nvim
+  Generated from: dinhhuy258/sfm.nvim
   */
   sfm-nvim = buildVimPlugin {
     pname = "sfm-nvim";
@@ -12052,8 +12804,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: sunjon-Shade.nvim
+  Generated from: sunjon/Shade.nvim
   */
   Shade-nvim = buildVimPlugin {
     pname = "Shade-nvim";
@@ -12068,8 +12821,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: shaunsingh-nord.nvim
+  Generated from: shaunsingh/nord.nvim
   */
   shaunsingh-nord-nvim = buildVimPlugin {
     pname = "shaunsingh-nord-nvim";
@@ -12084,8 +12838,9 @@
       license = with licenses; [gpl2Only];
     };
   };
+
   /*
-  Generated from: rktjmp-shenzhen-solitaire.nvim
+  Generated from: rktjmp/shenzhen-solitaire.nvim
   */
   shenzhen-solitaire-nvim = buildVimPlugin {
     pname = "shenzhen-solitaire-nvim";
@@ -12100,8 +12855,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: lewpoly-sherbet.nvim
+  Generated from: lewpoly/sherbet.nvim
   */
   sherbet-nvim = buildVimPlugin {
     pname = "sherbet-nvim";
@@ -12116,8 +12872,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: Wansmer-sibling-swap.nvim
+  Generated from: Wansmer/sibling-swap.nvim
   */
   sibling-swap-nvim = buildVimPlugin {
     pname = "sibling-swap-nvim";
@@ -12132,8 +12889,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: LucasTavaresA-simpleIndentGuides.nvim
+  Generated from: LucasTavaresA/simpleIndentGuides.nvim
   */
   simpleIndentGuides-nvim = buildVimPlugin {
     pname = "simpleIndentGuides-nvim";
@@ -12148,8 +12906,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: LucasTavaresA-SingleComment.nvim
+  Generated from: LucasTavaresA/SingleComment.nvim
   */
   SingleComment-nvim = buildVimPlugin {
     pname = "SingleComment-nvim";
@@ -12164,8 +12923,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: woosaaahh-sj.nvim
+  Generated from: woosaaahh/sj.nvim
   */
   sj-nvim = buildVimPlugin {
     pname = "sj-nvim";
@@ -12180,8 +12940,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ZhiyuanLck-smart-pairs
+  Generated from: ZhiyuanLck/smart-pairs
   */
   smart-pairs = buildVimPlugin {
     pname = "smart-pairs";
@@ -12196,15 +12957,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: mrjones2014-smart-splits.nvim
+  Generated from: mrjones2014/smart-splits.nvim
   */
   smart-splits-nvim = buildVimPlugin {
     pname = "smart-splits-nvim";
-    version = "2024-03-08";
+    version = "2024-03-22";
     src = fetchurl {
-      url = "https://github.com/mrjones2014/smart-splits.nvim/archive/039fb0a5172cc35ffee7cc9d40d9496541609799.tar.gz";
-      sha256 = "135cz05l06rwi63bm9sgdy6b2la6i9fhnyvs9w29h09k6yc37vsx";
+      url = "https://github.com/mrjones2014/smart-splits.nvim/archive/cd59333ecf787856065f1c0e4cd41b0d9ec9c432.tar.gz";
+      sha256 = "01hg8ig2ax6m4sgfff1hl1c92m7m83gafpxsih7ivkc6mjjd4s87";
     };
     meta = with lib; {
       description = "🧠 Smart, seamless, directional navigation and resizing of Neovim + terminal multiplexer splits. Supports tmux, Wezterm, and Kitty. Think about splits in terms of \"up/down/left/right\".";
@@ -12212,8 +12974,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: sychen52-smart-term-esc.nvim
+  Generated from: sychen52/smart-term-esc.nvim
   */
   smart-term-esc-nvim = buildVimPlugin {
     pname = "smart-term-esc-nvim";
@@ -12228,8 +12991,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: m4xshen-smartcolumn.nvim
+  Generated from: m4xshen/smartcolumn.nvim
   */
   smartcolumn-nvim = buildVimPlugin {
     pname = "smartcolumn-nvim";
@@ -12244,8 +13008,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: gen740-SmoothCursor.nvim
+  Generated from: gen740/SmoothCursor.nvim
   */
   SmoothCursor-nvim = buildVimPlugin {
     pname = "SmoothCursor-nvim";
@@ -12260,8 +13025,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: camspiers-snap
+  Generated from: camspiers/snap
   */
   snap = buildVimPlugin {
     pname = "snap";
@@ -12276,8 +13042,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: smjonas-snippet-converter.nvim
+  Generated from: smjonas/snippet-converter.nvim
   */
   snippet-converter-nvim = buildVimPlugin {
     pname = "snippet-converter-nvim";
@@ -12292,8 +13059,9 @@
       license = with licenses; [mpl20];
     };
   };
+
   /*
-  Generated from: norcalli-snippets.nvim
+  Generated from: norcalli/snippets.nvim
   */
   snippets-nvim = buildVimPlugin {
     pname = "snippets-nvim";
@@ -12308,15 +13076,16 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: michaelb-sniprun
+  Generated from: michaelb/sniprun
   */
   sniprun = buildVimPlugin {
     pname = "sniprun";
-    version = "2024-01-16";
+    version = "2024-03-24";
     src = fetchurl {
-      url = "https://github.com/michaelb/sniprun/archive/0079f9c4675a6825f84e108bbff866f67dd8762f.tar.gz";
-      sha256 = "053dg129wwrqxq8gbimsqnrfkfyad5ypnfiwb3yqvrxlm3k8ywdk";
+      url = "https://github.com/michaelb/sniprun/archive/97daa506e2faa3939e0491642103635f9d22cd04.tar.gz";
+      sha256 = "13z9b68raqb2mdsxfcdz1cj43jsmzb4hzjvyjn5nxv4wgr0x2pim";
     };
     meta = with lib; {
       description = "A neovim plugin to run lines/blocs of code (independently of the rest of the file), supporting multiples languages";
@@ -12324,8 +13093,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: sainnhe-sonokai
+  Generated from: sainnhe/sonokai
   */
   sonokai = buildVimPlugin {
     pname = "sonokai";
@@ -12340,8 +13110,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: sQVe-sort.nvim
+  Generated from: sQVe/sort.nvim
   */
   sort-nvim = buildVimPlugin {
     pname = "sort-nvim";
@@ -12356,8 +13127,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: tmillr-sos.nvim
+  Generated from: tmillr/sos.nvim
   */
   sos-nvim = buildVimPlugin {
     pname = "sos-nvim";
@@ -12372,8 +13144,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: Th3Whit3Wolf-space-nvim
+  Generated from: Th3Whit3Wolf/space-nvim
   */
   space-nvim = buildVimPlugin {
     pname = "space-nvim";
@@ -12388,8 +13161,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: edluffy-specs.nvim
+  Generated from: edluffy/specs.nvim
   */
   specs-nvim = buildVimPlugin {
     pname = "specs-nvim";
@@ -12404,8 +13178,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: RutaTang-spectacle.nvim
+  Generated from: RutaTang/spectacle.nvim
   */
   spectacle-nvim = buildVimPlugin {
     pname = "spectacle-nvim";
@@ -12420,8 +13195,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: lewis6991-spellsitter.nvim
+  Generated from: lewis6991/spellsitter.nvim
   */
   spellsitter-nvim = buildVimPlugin {
     pname = "spellsitter-nvim";
@@ -12436,8 +13212,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: bennypowers-splitjoin.nvim
+  Generated from: bennypowers/splitjoin.nvim
   */
   splitjoin-nvim = buildVimPlugin {
     pname = "splitjoin-nvim";
@@ -12452,8 +13229,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: kkharji-sqlite.lua
+  Generated from: kkharji/sqlite.lua
   */
   sqlite-lua = buildVimPlugin {
     pname = "sqlite-lua";
@@ -12468,8 +13246,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: nanotee-sqls.nvim
+  Generated from: nanotee/sqls.nvim
   */
   sqls-nvim = buildVimPlugin {
     pname = "sqls-nvim";
@@ -12484,8 +13263,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: xiaoshihou514-squirrel.nvim
+  Generated from: xiaoshihou514/squirrel.nvim
   */
   squirrel-nvim = buildVimPlugin {
     pname = "squirrel-nvim";
@@ -12500,8 +13280,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: cshuaimin-ssr.nvim
+  Generated from: cshuaimin/ssr.nvim
   */
   ssr-nvim = buildVimPlugin {
     pname = "ssr-nvim";
@@ -12516,8 +13297,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: luukvbaal-stabilize.nvim
+  Generated from: luukvbaal/stabilize.nvim
   */
   stabilize-nvim = buildVimPlugin {
     pname = "stabilize-nvim";
@@ -12532,8 +13314,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: tamton-aquib-staline.nvim
+  Generated from: tamton-aquib/staline.nvim
   */
   staline-nvim = buildVimPlugin {
     pname = "staline-nvim";
@@ -12548,15 +13331,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ray-x-starry.nvim
+  Generated from: ray-x/starry.nvim
   */
   starry-nvim = buildVimPlugin {
     pname = "starry-nvim";
-    version = "2024-02-29";
+    version = "2024-03-12";
     src = fetchurl {
-      url = "https://github.com/ray-x/starry.nvim/archive/57ae790ea001281040b0f1fb02c7b5347f41f7e5.tar.gz";
-      sha256 = "1sxjhkavvlkdkr3cpzn1c40csvl639z6hsmcwpxmncfbcm0p084f";
+      url = "https://github.com/ray-x/starry.nvim/archive/6451a041f1af6266c7482b5e404fb2a3a70d9d86.tar.gz";
+      sha256 = "0704kcyhra1yjdiin9dav0rlsmziksz6gn20p2bn15n0f9bcx41z";
     };
     meta = with lib; {
       description = "A pack of modern nvim color schemes: material, moonlight, Dracula (blood), Monokai, Mariana, Emerald, earlysummer, middlenight_blue... Fully support Treesitter, LSP and a variety of plugins.";
@@ -12564,8 +13348,9 @@
       license = with licenses; [gpl2Only];
     };
   };
+
   /*
-  Generated from: startup-nvim-startup.nvim
+  Generated from: startup-nvim/startup.nvim
   */
   startup-nvim = buildVimPlugin {
     pname = "startup-nvim";
@@ -12580,8 +13365,9 @@
       license = with licenses; [gpl2Only];
     };
   };
+
   /*
-  Generated from: jaytyrrell13-static.nvim
+  Generated from: jaytyrrell13/static.nvim
   */
   static-nvim = buildVimPlugin {
     pname = "static-nvim";
@@ -12596,8 +13382,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: luukvbaal-statuscol.nvim
+  Generated from: luukvbaal/statuscol.nvim
   */
   statuscol-nvim = buildVimPlugin {
     pname = "statuscol-nvim";
@@ -12612,8 +13399,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: beauwilliams-statusline.lua
+  Generated from: beauwilliams/statusline.lua
   */
   statusline-lua = buildVimPlugin {
     pname = "statusline-lua";
@@ -12628,8 +13416,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: gbprod-stay-in-place.nvim
+  Generated from: gbprod/stay-in-place.nvim
   */
   stay-in-place-nvim = buildVimPlugin {
     pname = "stay-in-place-nvim";
@@ -12644,15 +13433,16 @@
       license = with licenses; [wtfpl];
     };
   };
+
   /*
-  Generated from: sontungexpt-stcursorword
+  Generated from: sontungexpt/stcursorword
   */
   stcursorword = buildVimPlugin {
     pname = "stcursorword";
-    version = "2024-02-17";
+    version = "2024-03-14";
     src = fetchurl {
-      url = "https://github.com/sontungexpt/stcursorword/archive/ab855d1f56d6a52bbe32ab9eb244d727fbbf58c1.tar.gz";
-      sha256 = "11bpmhdq5zvflcvf06ww5wrxhbqss3g16vra8i9jwi584jb8rzpc";
+      url = "https://github.com/sontungexpt/stcursorword/archive/aedd22aa6070b7e2467972276150596a7fba396c.tar.gz";
+      sha256 = "0ivqb9xgbgm5vdqw30g3d6519phg1r7ghw6yyifl7qq0y42a9f1k";
     };
     meta = with lib; {
       description = "A concise, precise, and high-performance cursor word highlighting plugin for Neovim, implemented in Lua.";
@@ -12660,8 +13450,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: crusj-structrue-go.nvim
+  Generated from: crusj/structrue-go.nvim
   */
   structrue-go-nvim = buildVimPlugin {
     pname = "structrue-go-nvim";
@@ -12676,8 +13467,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: sontungexpt-sttusline
+  Generated from: sontungexpt/sttusline
   */
   sttusline = buildVimPlugin {
     pname = "sttusline";
@@ -12692,8 +13484,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: nyngwang-suave.lua
+  Generated from: nyngwang/suave.lua
   */
   suave-lua = buildVimPlugin {
     pname = "suave-lua";
@@ -12708,8 +13501,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: gbprod-substitute.nvim
+  Generated from: gbprod/substitute.nvim
   */
   substitute-nvim = buildVimPlugin {
     pname = "substitute-nvim";
@@ -12724,8 +13518,9 @@
       license = with licenses; [wtfpl];
     };
   };
+
   /*
-  Generated from: kvrohit-substrata.nvim
+  Generated from: kvrohit/substrata.nvim
   */
   substrata-nvim = buildVimPlugin {
     pname = "substrata-nvim";
@@ -12740,8 +13535,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: jim-fx-sudoku.nvim
+  Generated from: jim-fx/sudoku.nvim
   */
   sudoku-nvim = buildVimPlugin {
     pname = "sudoku-nvim";
@@ -12756,8 +13552,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: miversen33-sunglasses.nvim
+  Generated from: miversen33/sunglasses.nvim
   */
   sunglasses-nvim = buildVimPlugin {
     pname = "sunglasses-nvim";
@@ -12772,8 +13569,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: roobert-surround-ui.nvim
+  Generated from: roobert/surround-ui.nvim
   */
   surround-ui-nvim = buildVimPlugin {
     pname = "surround-ui-nvim";
@@ -12788,8 +13586,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: bennypowers-svgo.nvim
+  Generated from: bennypowers/svgo.nvim
   */
   svgo-nvim = buildVimPlugin {
     pname = "svgo-nvim";
@@ -12804,8 +13603,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: AckslD-swenv.nvim
+  Generated from: AckslD/swenv.nvim
   */
   swenv-nvim = buildVimPlugin {
     pname = "swenv-nvim";
@@ -12820,8 +13620,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: Wansmer-symbol-usage.nvim
+  Generated from: Wansmer/symbol-usage.nvim
   */
   symbol-usage-nvim = buildVimPlugin {
     pname = "symbol-usage-nvim";
@@ -12836,8 +13637,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: simrat39-symbols-outline.nvim
+  Generated from: simrat39/symbols-outline.nvim
   */
   symbols-outline-nvim = buildVimPlugin {
     pname = "symbols-outline-nvim";
@@ -12852,8 +13654,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ziontee113-syntax-tree-surfer
+  Generated from: ziontee113/syntax-tree-surfer
   */
   syntax-tree-surfer = buildVimPlugin {
     pname = "syntax-tree-surfer";
@@ -12868,8 +13671,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: nanozuki-tabby.nvim
+  Generated from: nanozuki/tabby.nvim
   */
   tabby-nvim = buildVimPlugin {
     pname = "tabby-nvim";
@@ -12884,8 +13688,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: rafcamlet-tabline-framework.nvim
+  Generated from: rafcamlet/tabline-framework.nvim
   */
   tabline-framework-nvim = buildVimPlugin {
     pname = "tabline-framework-nvim";
@@ -12900,8 +13705,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: kdheepak-tabline.nvim
+  Generated from: kdheepak/tabline.nvim
   */
   tabline-kdheepak = buildVimPlugin {
     pname = "tabline-kdheepak";
@@ -12916,8 +13722,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: mg979-tabline.nvim
+  Generated from: mg979/tabline.nvim
   */
   tabline-mg979 = buildVimPlugin {
     pname = "tabline-mg979";
@@ -12932,8 +13739,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: abecodes-tabout.nvim
+  Generated from: abecodes/tabout.nvim
   */
   tabout-nvim = buildVimPlugin {
     pname = "tabout-nvim";
@@ -12948,8 +13756,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: tenxsoydev-tabs-vs-spaces.nvim
+  Generated from: tenxsoydev/tabs-vs-spaces.nvim
   */
   tabs-vs-spaces-nvim = buildVimPlugin {
     pname = "tabs-vs-spaces-nvim";
@@ -12964,8 +13773,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: backdround-tabscope.nvim
+  Generated from: backdround/tabscope.nvim
   */
   tabscope-nvim = buildVimPlugin {
     pname = "tabscope-nvim";
@@ -12980,8 +13790,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: roobert-tabtree.nvim
+  Generated from: roobert/tabtree.nvim
   */
   tabtree-nvim = buildVimPlugin {
     pname = "tabtree-nvim";
@@ -12996,8 +13807,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: majutsushi-tagbar
+  Generated from: majutsushi/tagbar
   */
   tagbar = buildVimPlugin {
     pname = "tagbar";
@@ -13012,15 +13824,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: roobert-tailwindcss-colorizer-cmp.nvim
+  Generated from: roobert/tailwindcss-colorizer-cmp.nvim
   */
   tailwindcss-colorizer-cmp-nvim = buildVimPlugin {
     pname = "tailwindcss-colorizer-cmp-nvim";
-    version = "2023-09-09";
+    version = "2024-03-23";
     src = fetchurl {
-      url = "https://github.com/roobert/tailwindcss-colorizer-cmp.nvim/archive/bc25c56083939f274edcfe395c6ff7de23b67c50.tar.gz";
-      sha256 = "0y4ap8wq0al742rc8pq0sqlxb2kzazlvpnd55x16fs6gjvk8j89x";
+      url = "https://github.com/roobert/tailwindcss-colorizer-cmp.nvim/archive/3d3cd95e4a4135c250faf83dd5ed61b8e5502b86.tar.gz";
+      sha256 = "03bvvclrpjgbfj52rr568757p95yhhah8nxikshmm9qq9zvby12f";
     };
     meta = with lib; {
       description = ":rainbow: A Neovim plugin to add vscode-style TailwindCSS completion to nvim-cmp";
@@ -13028,8 +13841,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: themaxmarchuk-tailwindcss-colors.nvim
+  Generated from: themaxmarchuk/tailwindcss-colors.nvim
   */
   tailwindcss-colors-nvim = buildVimPlugin {
     pname = "tailwindcss-colors-nvim";
@@ -13044,8 +13858,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: udayvir-singh-tangerine.nvim
+  Generated from: udayvir-singh/tangerine.nvim
   */
   tangerine-nvim = buildVimPlugin {
     pname = "tangerine-nvim";
@@ -13060,8 +13875,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: renerocksai-telekasten.nvim
+  Generated from: renerocksai/telekasten.nvim
   */
   telekasten-nvim = buildVimPlugin {
     pname = "telekasten-nvim";
@@ -13076,8 +13892,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: otavioschwanck-telescope-alternate.nvim
+  Generated from: otavioschwanck/telescope-alternate.nvim
   */
   telescope-alternate-nvim = buildVimPlugin {
     pname = "telescope-alternate-nvim";
@@ -13092,8 +13909,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: nvim-telescope-telescope-bibtex.nvim
+  Generated from: nvim-telescope/telescope-bibtex.nvim
   */
   telescope-bibtex-nvim = buildVimPlugin {
     pname = "telescope-bibtex-nvim";
@@ -13108,8 +13926,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: LinArcX-telescope-command-palette.nvim
+  Generated from: LinArcX/telescope-command-palette.nvim
   */
   telescope-command-palette-nvim = buildVimPlugin {
     pname = "telescope-command-palette-nvim";
@@ -13124,8 +13943,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: fdschmidt93-telescope-egrepify.nvim
+  Generated from: fdschmidt93/telescope-egrepify.nvim
   */
   telescope-egrepify-nvim = buildVimPlugin {
     pname = "telescope-egrepify-nvim";
@@ -13140,15 +13960,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: nvim-telescope-telescope-file-browser.nvim
+  Generated from: nvim-telescope/telescope-file-browser.nvim
   */
   telescope-file-browser-nvim = buildVimPlugin {
     pname = "telescope-file-browser-nvim";
-    version = "2024-03-06";
+    version = "2024-03-24";
     src = fetchurl {
-      url = "https://github.com/nvim-telescope/telescope-file-browser.nvim/archive/8839e3f8070dfafa5b0c0e4652700298e7b872c4.tar.gz";
-      sha256 = "051ih307w76362sn72rr91j095dc6f9x9y6c31dwxykvw9ls9q18";
+      url = "https://github.com/nvim-telescope/telescope-file-browser.nvim/archive/5ee5002373655fd684a4ad0d47a3de876ceacf9a.tar.gz";
+      sha256 = "02jpz1bzkrwf6hswf6y27q3knxvlscw8qzcia8iqsvj6j7bqyxxr";
     };
     meta = with lib; {
       description = "File Browser extension for telescope.nvim";
@@ -13156,8 +13977,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: nvim-telescope-telescope-fzf-native.nvim
+  Generated from: nvim-telescope/telescope-fzf-native.nvim
   */
   telescope-fzf-native-nvim = buildVimPlugin {
     pname = "telescope-fzf-native-nvim";
@@ -13172,8 +13994,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: crispgm-telescope-heading.nvim
+  Generated from: crispgm/telescope-heading.nvim
   */
   telescope-heading-nvim = buildVimPlugin {
     pname = "telescope-heading-nvim";
@@ -13188,8 +14011,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: piersolenski-telescope-import.nvim
+  Generated from: piersolenski/telescope-import.nvim
   */
   telescope-import-nvim = buildVimPlugin {
     pname = "telescope-import-nvim";
@@ -13204,15 +14028,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: mrcjkb-telescope-manix
+  Generated from: mrcjkb/telescope-manix
   */
   telescope-manix = buildVimPlugin {
     pname = "telescope-manix";
-    version = "2024-03-10";
+    version = "2024-03-25";
     src = fetchurl {
-      url = "https://github.com/mrcjkb/telescope-manix/archive/5dc676c310e8c314b8270d6bbf3684ec3e25cfcb.tar.gz";
-      sha256 = "0l70yd36j5kkm577kylmddyziif8h45480yfck470akbpb5b4mpk";
+      url = "https://github.com/mrcjkb/telescope-manix/archive/2edae9ea08a70a43959d26efbcfb203e15b4a50a.tar.gz";
+      sha256 = "0ncxdklx6dx5b4w02kr7qcfbf3whq3ndzldcxy1jd2lbhrrndi1a";
     };
     meta = with lib; {
       description = "A telescope.nvim extension for Manix - A fast documentation searcher for Nix";
@@ -13220,8 +14045,9 @@
       license = with licenses; [gpl2Only];
     };
   };
+
   /*
-  Generated from: nvim-telescope-telescope-media-files.nvim
+  Generated from: nvim-telescope/telescope-media-files.nvim
   */
   telescope-media-files-nvim = buildVimPlugin {
     pname = "telescope-media-files-nvim";
@@ -13236,15 +14062,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: nvim-telescope-telescope.nvim
+  Generated from: nvim-telescope/telescope.nvim
   */
   telescope-nvim = buildVimPlugin {
     pname = "telescope-nvim";
-    version = "2024-03-07";
+    version = "2024-03-24";
     src = fetchurl {
-      url = "https://github.com/nvim-telescope/telescope.nvim/archive/7472420f8734c710bd7009081cef9b97f08a3821.tar.gz";
-      sha256 = "0cwjm9i8mhlzfm94qr8qbzkkplh7vwgwk28c2x3cjd2hg1phzq3r";
+      url = "https://github.com/nvim-telescope/telescope.nvim/archive/c2b8311dfacd08b3056b8f0249025d633a4e71a8.tar.gz";
+      sha256 = "1qzz2l7sg6h45zdh4i2nlq63c03lnfkydqmbmaj9bi4zn1is3r5n";
     };
     meta = with lib; {
       description = "Find, Filter, Preview, Pick. All lua, all the time.";
@@ -13252,15 +14079,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: cljoly-telescope-repo.nvim
+  Generated from: cljoly/telescope-repo.nvim
   */
   telescope-repo-nvim = buildVimPlugin {
     pname = "telescope-repo-nvim";
-    version = "2024-03-10";
+    version = "2024-03-20";
     src = fetchurl {
-      url = "https://github.com/cljoly/telescope-repo.nvim/archive/4c9cb0413b189829c36e62d8fd3de9f24a157aac.tar.gz";
-      sha256 = "1r5dx6p1ciqmhlh06qk0yhhdark6szzxhg8kx8ny2g43kia7r9fa";
+      url = "https://github.com/cljoly/telescope-repo.nvim/archive/ca8a541eeb9cba5061db864a2927507a79882a88.tar.gz";
+      sha256 = "0wrcfkv0m9aahy37xnhg5gczc5df07hzg41yi0h97a5vgh1i4sbk";
     };
     meta = with lib; {
       description = "🦘 Jump into the repositories (git, mercurial…) of your filesystem with telescope.nvim, without any setup";
@@ -13268,8 +14096,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: desdic-telescope-rooter.nvim
+  Generated from: desdic/telescope-rooter.nvim
   */
   telescope-rooter-nvim = buildVimPlugin {
     pname = "telescope-rooter-nvim";
@@ -13284,8 +14113,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: nvim-telescope-telescope-symbols.nvim
+  Generated from: nvim-telescope/telescope-symbols.nvim
   */
   telescope-symbols-nvim = buildVimPlugin {
     pname = "telescope-symbols-nvim";
@@ -13300,8 +14130,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: LukasPietzschmann-telescope-tabs
+  Generated from: LukasPietzschmann/telescope-tabs
   */
   telescope-tabs = buildVimPlugin {
     pname = "telescope-tabs";
@@ -13316,8 +14147,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: danielpieper-telescope-tmuxinator.nvim
+  Generated from: danielpieper/telescope-tmuxinator.nvim
   */
   telescope-tmuxinator-nvim = buildVimPlugin {
     pname = "telescope-tmuxinator-nvim";
@@ -13332,15 +14164,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: debugloop-telescope-undo.nvim
+  Generated from: debugloop/telescope-undo.nvim
   */
   telescope-undo-nvim = buildVimPlugin {
     pname = "telescope-undo-nvim";
-    version = "2023-11-16";
+    version = "2024-03-26";
     src = fetchurl {
-      url = "https://github.com/debugloop/telescope-undo.nvim/archive/d3afc1c105535a90caec092ce27a113f77ba7b84.tar.gz";
-      sha256 = "1fizsc5p7287wsff1zmcl9qi8aiksgxyl1xfm0krls2z6xc4haim";
+      url = "https://github.com/debugloop/telescope-undo.nvim/archive/d19e2edc8b18d03283bd91f67310ac300ad003ce.tar.gz";
+      sha256 = "0ihfqpgcmzarxc3s16an3zf729mr2hskaaxsyc7mappm1l2a2akz";
     };
     meta = with lib; {
       description = "A telescope extension to view and search your undo tree 🌴";
@@ -13348,8 +14181,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: jvgrootveld-telescope-zoxide
+  Generated from: jvgrootveld/telescope-zoxide
   */
   telescope-zoxide = buildVimPlugin {
     pname = "telescope-zoxide";
@@ -13364,8 +14198,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: chomosuke-term-edit.nvim
+  Generated from: chomosuke/term-edit.nvim
   */
   term-edit-nvim = buildVimPlugin {
     pname = "term-edit-nvim";
@@ -13380,8 +14215,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: niuiic-terminal.nvim
+  Generated from: niuiic/terminal.nvim
   */
   terminal-nvim = buildVimPlugin {
     pname = "terminal-nvim";
@@ -13396,8 +14232,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: jakewvincent-texmagic.nvim
+  Generated from: jakewvincent/texmagic.nvim
   */
   texmagic-nvim = buildVimPlugin {
     pname = "texmagic-nvim";
@@ -13412,15 +14249,16 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: svermeulen-text-to-colorscheme
+  Generated from: svermeulen/text-to-colorscheme
   */
   text-to-colorscheme = buildVimPlugin {
     pname = "text-to-colorscheme";
-    version = "2023-12-27";
+    version = "2024-03-20";
     src = fetchurl {
-      url = "https://github.com/svermeulen/text-to-colorscheme/archive/5a326c6667c2da8fdb53fbac90fc6e9b5af22362.tar.gz";
-      sha256 = "12rs97vp1biqns5ajmahnshhw1d01sn8biw4yxdd3s33abcmyham";
+      url = "https://github.com/svermeulen/text-to-colorscheme/archive/62023ea1b3d31017c50746504490283a642ddf6d.tar.gz";
+      sha256 = "03fgsp6xl0w3dxc8579iyifwasx8gzm3g1mha31640wdnl5yivc6";
     };
     meta = with lib; {
       description = "Neovim colorschemes generated on the fly with a text prompt using ChatGPT";
@@ -13428,8 +14266,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: andrewferrier-textobj-diagnostic.nvim
+  Generated from: andrewferrier/textobj-diagnostic.nvim
   */
   textobj-diagnostic-nvim = buildVimPlugin {
     pname = "textobj-diagnostic-nvim";
@@ -13444,8 +14283,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: Rolv-Apneseth-tfm.nvim
+  Generated from: Rolv-Apneseth/tfm.nvim
   */
   tfm-nvim = buildVimPlugin {
     pname = "tfm-nvim";
@@ -13460,8 +14300,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: themercorp-themer.lua
+  Generated from: themercorp/themer.lua
   */
   themer-lua = buildVimPlugin {
     pname = "themer-lua";
@@ -13476,8 +14317,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: zaldih-themery.nvim
+  Generated from: zaldih/themery.nvim
   */
   themery-nvim = buildVimPlugin {
     pname = "themery-nvim";
@@ -13492,8 +14334,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: mcauley-penney-tidy.nvim
+  Generated from: mcauley-penney/tidy.nvim
   */
   tidy-nvim = buildVimPlugin {
     pname = "tidy-nvim";
@@ -13508,8 +14351,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: TobinPalmer-Tip.nvim
+  Generated from: TobinPalmer/Tip.nvim
   */
   Tip-nvim = buildVimPlugin {
     pname = "Tip-nvim";
@@ -13524,8 +14368,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: otavioschwanck-tmux-awesome-manager.nvim
+  Generated from: otavioschwanck/tmux-awesome-manager.nvim
   */
   tmux-awesome-manager-nvim = buildVimPlugin {
     pname = "tmux-awesome-manager-nvim";
@@ -13540,8 +14385,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: aserowy-tmux.nvim
+  Generated from: aserowy/tmux.nvim
   */
   tmux-nvim = buildVimPlugin {
     pname = "tmux-nvim";
@@ -13556,8 +14402,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: folke-todo-comments.nvim
+  Generated from: folke/todo-comments.nvim
   */
   todo-comments-nvim = buildVimPlugin {
     pname = "todo-comments-nvim";
@@ -13572,8 +14419,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: jedrzejboczar-toggletasks.nvim
+  Generated from: jedrzejboczar/toggletasks.nvim
   */
   toggletasks-nvim = buildVimPlugin {
     pname = "toggletasks-nvim";
@@ -13588,15 +14436,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: tiagovla-tokyodark.nvim
+  Generated from: tiagovla/tokyodark.nvim
   */
   tokyodark-nvim = buildVimPlugin {
     pname = "tokyodark-nvim";
-    version = "2024-02-24";
+    version = "2024-03-15";
     src = fetchurl {
-      url = "https://github.com/tiagovla/tokyodark.nvim/archive/fe5847e379b3d1c52896fa69ff8faf20cde483cc.tar.gz";
-      sha256 = "1c3hyxnnpnaa7aza263xr87n9cayddlavr6g5ij1p11l1a9mh0s1";
+      url = "https://github.com/tiagovla/tokyodark.nvim/archive/a19cef29a190f37eb7a025eb155abda6f3979f3f.tar.gz";
+      sha256 = "1izgczw8g17s22r1hv6vkaay8j2bcsq92rwg5xcjz5djmvw5yzvd";
     };
     meta = with lib; {
       description = "A clean dark theme written in lua for neovim.";
@@ -13604,15 +14453,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: folke-tokyonight.nvim
+  Generated from: folke/tokyonight.nvim
   */
   tokyonight-nvim = buildVimPlugin {
     pname = "tokyonight-nvim";
-    version = "2024-03-10";
+    version = "2024-03-26";
     src = fetchurl {
-      url = "https://github.com/folke/tokyonight.nvim/archive/c025baf23b62f044eff1f4ef561c45de636f0e32.tar.gz";
-      sha256 = "1zbvv7h3c043r2gpkg2jnvqz4rwx8gwddmpkb95p1xk7xgn9xlnj";
+      url = "https://github.com/folke/tokyonight.nvim/archive/f4b415bfbce390866a83277db42cf6aa94230728.tar.gz";
+      sha256 = "0x41bpc8k1msr4kap0lfqyply93bgxmhy3n0ham13s04fw9jhpv0";
     };
     meta = with lib; {
       description = "🏙  A clean, dark Neovim theme written in Lua, with support for lsp, treesitter and lots of plugins. Includes additional themes for Kitty, Alacritty, iTerm and Fish.";
@@ -13620,8 +14470,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: LeonHeidelbach-trailblazer.nvim
+  Generated from: LeonHeidelbach/trailblazer.nvim
   */
   trailblazer-nvim = buildVimPlugin {
     pname = "trailblazer-nvim";
@@ -13636,8 +14487,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: tjdevries-train.nvim
+  Generated from: tjdevries/train.nvim
   */
   train-nvim = buildVimPlugin {
     pname = "train-nvim";
@@ -13652,8 +14504,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: coffebar-transfer.nvim
+  Generated from: coffebar/transfer.nvim
   */
   transfer-nvim = buildVimPlugin {
     pname = "transfer-nvim";
@@ -13668,8 +14521,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: niuiic-translate.nvim
+  Generated from: niuiic/translate.nvim
   */
   translate-nvim = buildVimPlugin {
     pname = "translate-nvim";
@@ -13684,8 +14538,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: drybalka-tree-climber.nvim
+  Generated from: drybalka/tree-climber.nvim
   */
   tree-climber-nvim = buildVimPlugin {
     pname = "tree-climber-nvim";
@@ -13700,15 +14555,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: IndianBoy42-tree-sitter-just
+  Generated from: IndianBoy42/tree-sitter-just
   */
   tree-sitter-just = buildVimPlugin {
     pname = "tree-sitter-just";
-    version = "2024-03-10";
+    version = "2024-03-22";
     src = fetchurl {
-      url = "https://github.com/IndianBoy42/tree-sitter-just/archive/a909b06b5a9b1051bd06e33bb1c366142cae6e15.tar.gz";
-      sha256 = "1xy58k7k6jcq47pad4xjma6wd51naqbp748pzyqz4vzf6x0ryy2c";
+      url = "https://github.com/IndianBoy42/tree-sitter-just/archive/6c2f018ab1d90946c0ce029bb2f7d57f56895dff.tar.gz";
+      sha256 = "1rdjj7zsbp35g2cli1v31c8nh2gyrcvv4gs0aqxm0mircsgmmn0z";
     };
     meta = with lib; {
       description = "Treesitter grammar for Justfiles (casey/just)";
@@ -13716,8 +14572,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: atusy-treemonkey.nvim
+  Generated from: atusy/treemonkey.nvim
   */
   treemonkey-nvim = buildVimPlugin {
     pname = "treemonkey-nvim";
@@ -13732,8 +14589,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: NFrid-treesitter-utils
+  Generated from: NFrid/treesitter-utils
   */
   treesitter-utils = buildVimPlugin {
     pname = "treesitter-utils";
@@ -13748,8 +14606,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: Wansmer-treesj
+  Generated from: Wansmer/treesj
   */
   treesj = buildVimPlugin {
     pname = "treesj";
@@ -13764,15 +14623,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: cappyzawa-trim.nvim
+  Generated from: cappyzawa/trim.nvim
   */
   trim-nvim = buildVimPlugin {
     pname = "trim-nvim";
-    version = "2024-03-09";
+    version = "2024-03-15";
     src = fetchurl {
-      url = "https://github.com/cappyzawa/trim.nvim/archive/00541dd6f131b615c1d45959476969001b4f05fa.tar.gz";
-      sha256 = "00nlbs7s8ll5d8kja1szdngiwjn81g1is8yzf2spndp20h8zh20x";
+      url = "https://github.com/cappyzawa/trim.nvim/archive/4fe47a46c02a58894ded8328ca81f6c214a892f5.tar.gz";
+      sha256 = "18nxg1maf84r3752a2m5dfd8ip5bwrx1s5r1jib72pwkvmw51agh";
     };
     meta = with lib; {
       description = "This plugin trims trailing whitespace and lines.";
@@ -13780,8 +14640,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: simonmclean-triptych.nvim
+  Generated from: simonmclean/triptych.nvim
   */
   triptych-nvim = buildVimPlugin {
     pname = "triptych-nvim";
@@ -13796,8 +14657,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: folke-trouble.nvim
+  Generated from: folke/trouble.nvim
   */
   trouble-nvim = buildVimPlugin {
     pname = "trouble-nvim";
@@ -13812,8 +14674,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: pocco81-true-zen.nvim
+  Generated from: pocco81/true-zen.nvim
   */
   true-zen-nvim = buildVimPlugin {
     pname = "true-zen-nvim";
@@ -13828,8 +14691,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: ckolkey-ts-node-action
+  Generated from: ckolkey/ts-node-action
   */
   ts-node-action = buildVimPlugin {
     pname = "ts-node-action";
@@ -13844,15 +14708,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: dmmulroy-tsc.nvim
+  Generated from: dmmulroy/tsc.nvim
   */
   tsc-nvim = buildVimPlugin {
     pname = "tsc-nvim";
-    version = "2024-03-01";
+    version = "2024-03-21";
     src = fetchurl {
-      url = "https://github.com/dmmulroy/tsc.nvim/archive/ec4e6c2493df1b3a8d381ff7a482685cb4122063.tar.gz";
-      sha256 = "18z49sn7hlzkb91zv217sgwxmvc2hm91arpnzshybaxjjagyjz6r";
+      url = "https://github.com/dmmulroy/tsc.nvim/archive/02856f0c67741a7c060df8f24a7f2806e1935f46.tar.gz";
+      sha256 = "0jid8zf7ksdrwnq9j9hlkgvpjld3bm1qabw4f2grfnahc88h36l6";
     };
     meta = with lib; {
       description = "A Neovim plugin for seamless, asynchronous project-wide TypeScript type-checking using the TypeScript compiler (tsc)";
@@ -13860,8 +14725,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: gsuuon-tshjkl.nvim
+  Generated from: gsuuon/tshjkl.nvim
   */
   tshjkl-nvim = buildVimPlugin {
     pname = "tshjkl-nvim";
@@ -13876,8 +14742,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: folke-twilight.nvim
+  Generated from: folke/twilight.nvim
   */
   twilight-nvim = buildVimPlugin {
     pname = "twilight-nvim";
@@ -13892,8 +14759,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: jose-elias-alvarez-typescript.nvim
+  Generated from: jose-elias-alvarez/typescript.nvim
   */
   typescript-nvim = buildVimPlugin {
     pname = "typescript-nvim";
@@ -13908,15 +14776,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: chomosuke-typst-preview.nvim
+  Generated from: chomosuke/typst-preview.nvim
   */
   typst-preview-chomsuke = buildVimPlugin {
     pname = "typst-preview-chomsuke";
-    version = "2024-03-04";
+    version = "2024-03-23";
     src = fetchurl {
-      url = "https://github.com/chomosuke/typst-preview.nvim/archive/5867db936576741f378b558a9d7428b928819df5.tar.gz";
-      sha256 = "1iqqpy1wss81jrah07wnaimd07ha2dl8mkjhd1i35ish797jzrmi";
+      url = "https://github.com/chomosuke/typst-preview.nvim/archive/36a82aaff8931f96015ee7365afe2e253ab3b1ea.tar.gz";
+      sha256 = "1ghyqhvh6i1mnrahl6yh6bkfjn7z1bdlv2b0wm80cajcy5la03c5";
     };
     meta = with lib; {
       description = "Low latency typst preview for Neovim";
@@ -13924,8 +14793,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: niuiic-typst-preview.nvim
+  Generated from: niuiic/typst-preview.nvim
   */
   typst-preview-niuiic = buildVimPlugin {
     pname = "typst-preview-niuiic";
@@ -13940,15 +14810,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: kaarmu-typst.vim
+  Generated from: kaarmu/typst.vim
   */
   typst-vim = buildVimPlugin {
     pname = "typst-vim";
-    version = "2024-02-26";
+    version = "2024-03-25";
     src = fetchurl {
-      url = "https://github.com/kaarmu/typst.vim/archive/ff57d27cf5ee7427941a63fb537714f9a80e0246.tar.gz";
-      sha256 = "132wsrm2ch4cghn33rggwzblbpd28sdpd6v4jj3iz9cynn8ymgmg";
+      url = "https://github.com/kaarmu/typst.vim/archive/86e4fa8dcddd032f9fdbf04602417a8baac8fed3.tar.gz";
+      sha256 = "17gxxmak0g59yh417j98pk1cw0a99746l4f8lwf7fddvv09ngl8y";
     };
     meta = with lib; {
       description = "Vim plugin for Typst";
@@ -13956,8 +14827,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: chuwy-ucm.nvim
+  Generated from: chuwy/ucm.nvim
   */
   ucm-nvim = buildVimPlugin {
     pname = "ucm-nvim";
@@ -13972,8 +14844,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: altermo-ultimate-autopair.nvim
+  Generated from: altermo/ultimate-autopair.nvim
   */
   ultimate-autopair-nvim = buildVimPlugin {
     pname = "ultimate-autopair-nvim";
@@ -13988,8 +14861,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: mbbill-undotree
+  Generated from: mbbill/undotree
   */
   undotree = buildVimPlugin {
     pname = "undotree";
@@ -14004,15 +14878,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: slugbyte-unruly-worker
+  Generated from: slugbyte/unruly-worker
   */
   unruly-worker = buildVimPlugin {
     pname = "unruly-worker";
-    version = "2022-03-22";
+    version = "2024-03-22";
     src = fetchurl {
-      url = "https://github.com/slugbyte/unruly-worker/archive/6046d8fedf84ee6cb344d4e248a74b4586cb6e14.tar.gz";
-      sha256 = "1pcab6n484a28rk9h8dxg7xiq6rl5ml21j3wpqan8m38y420asld";
+      url = "https://github.com/slugbyte/unruly-worker/archive/192b199477a1a2e250b4b3139a3bfc189a141f6c.tar.gz";
+      sha256 = "06yz6p1hfaq2wysbbb47fp0lzibjiyizlxx5wirvnk4r1rg7d86f";
     };
     meta = with lib; {
       description = "A ridiculously fun alternative nvim keymap for the workman keyboard layout";
@@ -14020,8 +14895,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: sontungexpt-url-open
+  Generated from: sontungexpt/url-open
   */
   url-open = buildVimPlugin {
     pname = "url-open";
@@ -14036,8 +14912,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: axieax-urlview.nvim
+  Generated from: axieax/urlview.nvim
   */
   urlview-nvim = buildVimPlugin {
     pname = "urlview-nvim";
@@ -14052,8 +14929,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: gaborvecsei-usage-tracker.nvim
+  Generated from: gaborvecsei/usage-tracker.nvim
   */
   usage-tracker-nvim = buildVimPlugin {
     pname = "usage-tracker-nvim";
@@ -14068,8 +14946,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: Mangeshrex-uwu.vim
+  Generated from: Mangeshrex/uwu.vim
   */
   uwu-vim = buildVimPlugin {
     pname = "uwu-vim";
@@ -14084,8 +14963,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: konapun-vacuumline.nvim
+  Generated from: konapun/vacuumline.nvim
   */
   vacuumline-nvim = buildVimPlugin {
     pname = "vacuumline-nvim";
@@ -14100,8 +14980,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: willothy-veil.nvim
+  Generated from: willothy/veil.nvim
   */
   veil-nvim = buildVimPlugin {
     pname = "veil-nvim";
@@ -14116,8 +14997,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: jbyuki-venn.nvim
+  Generated from: jbyuki/venn.nvim
   */
   venn-nvim = buildVimPlugin {
     pname = "venn-nvim";
@@ -14132,8 +15014,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: jyscao-ventana.nvim
+  Generated from: jyscao/ventana.nvim
   */
   ventana-nvim = buildVimPlugin {
     pname = "ventana-nvim";
@@ -14148,8 +15031,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: tanvirtin-vgit.nvim
+  Generated from: tanvirtin/vgit.nvim
   */
   vgit-nvim = buildVimPlugin {
     pname = "vgit-nvim";
@@ -14164,8 +15048,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: embark-theme-vim
+  Generated from: embark-theme/vim
   */
   vim = buildVimPlugin {
     pname = "vim";
@@ -14180,8 +15065,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: theprimeagen-vim-apm
+  Generated from: theprimeagen/vim-apm
   */
   vim-apm = buildVimPlugin {
     pname = "vim-apm";
@@ -14196,8 +15082,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: moll-vim-bbye
+  Generated from: moll/vim-bbye
   */
   vim-bbye = buildVimPlugin {
     pname = "vim-bbye";
@@ -14212,8 +15099,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: ThePrimeagen-vim-be-good
+  Generated from: ThePrimeagen/vim-be-good
   */
   vim-be-good = buildVimPlugin {
     pname = "vim-be-good";
@@ -14228,8 +15116,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: tomasiser-vim-code-dark
+  Generated from: tomasiser/vim-code-dark
   */
   vim-code-dark = buildVimPlugin {
     pname = "vim-code-dark";
@@ -14244,8 +15133,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: junegunn-vim-easy-align
+  Generated from: junegunn/vim-easy-align
   */
   vim-easy-align = buildVimPlugin {
     pname = "vim-easy-align";
@@ -14260,8 +15150,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: houtsnip-vim-emacscommandline
+  Generated from: houtsnip/vim-emacscommandline
   */
   vim-emacscommandline = buildVimPlugin {
     pname = "vim-emacscommandline";
@@ -14276,15 +15167,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: mnacamura-vim-fennel-syntax
+  Generated from: mnacamura/vim-fennel-syntax
   */
   vim-fennel-syntax = buildVimPlugin {
     pname = "vim-fennel-syntax";
-    version = "2024-02-24";
+    version = "2024-03-18";
     src = fetchurl {
-      url = "https://github.com/mnacamura/vim-fennel-syntax/archive/db1614afc0efd608540e32cab0fe56c9f05c7523.tar.gz";
-      sha256 = "070cy3wf07a25im5gjgm22aas0nxddsmf9k3mb84yxxms89fpcin";
+      url = "https://github.com/mnacamura/vim-fennel-syntax/archive/0a325825bec5daf28e14213b9c2d374781a355c7.tar.gz";
+      sha256 = "1pg9aavc1hzymjn8ix4ild9swlr1s2r9lclqiykml17j854h3p06";
     };
     meta = with lib; {
       description = "Yet another Vim syntax highlighting plugin for Fennel.";
@@ -14292,8 +15184,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: inkch-vim-fish
+  Generated from: inkch/vim-fish
   */
   vim-fish-inkch = buildVimPlugin {
     pname = "vim-fish-inkch";
@@ -14308,8 +15201,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: rhysd-vim-gfm-syntax
+  Generated from: rhysd/vim-gfm-syntax
   */
   vim-gfm-syntax = buildVimPlugin {
     pname = "vim-gfm-syntax";
@@ -14324,8 +15218,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: hylang-vim-hy
+  Generated from: hylang/vim-hy
   */
   vim-hy = buildVimPlugin {
     pname = "vim-hy";
@@ -14340,8 +15235,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: RRethy-vim-illuminate
+  Generated from: RRethy/vim-illuminate
   */
   vim-illuminate = buildVimPlugin {
     pname = "vim-illuminate";
@@ -14356,8 +15252,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: andymass-vim-matchup
+  Generated from: andymass/vim-matchup
   */
   vim-matchup = buildVimPlugin {
     pname = "vim-matchup";
@@ -14372,15 +15269,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: bluz71-vim-moonfly-colors
+  Generated from: bluz71/vim-moonfly-colors
   */
   vim-moonfly-colors = buildVimPlugin {
     pname = "vim-moonfly-colors";
-    version = "2024-03-08";
+    version = "2024-03-24";
     src = fetchurl {
-      url = "https://github.com/bluz71/vim-moonfly-colors/archive/3469ee3e54e676deafd9dc29beddfde3643b4d0d.tar.gz";
-      sha256 = "14y0rqzq5xwvc5ihmsf1mk0vhdggq5mvggckn42ivf6w2ixqihmb";
+      url = "https://github.com/bluz71/vim-moonfly-colors/archive/b027635777683c8c255843bab67edb3a210b91e2.tar.gz";
+      sha256 = "1kqnrwk79yzhamavryldjbacg1y0znhyfvpkrfxchqfli4cd108s";
     };
     meta = with lib; {
       description = "A dark charcoal theme for modern Neovim & classic Vim";
@@ -14388,15 +15286,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: bluz71-vim-nightfly-colors
+  Generated from: bluz71/vim-nightfly-colors
   */
   vim-nightfly-colors = buildVimPlugin {
     pname = "vim-nightfly-colors";
-    version = "2024-03-08";
+    version = "2024-03-24";
     src = fetchurl {
-      url = "https://github.com/bluz71/vim-nightfly-colors/archive/e17c27c27372dd3db4aeb9a86d294c506de85ae6.tar.gz";
-      sha256 = "02aryjszipz8c5fdhib5h41a3k2bx7vjvshyfvd1lpznrq2vg5b0";
+      url = "https://github.com/bluz71/vim-nightfly-colors/archive/e6be35b24e5ff3736aa9be0d9f39f5c105069f98.tar.gz";
+      sha256 = "07cl5v416qc9h884m4hbgk6sf4vvbn4hnhvqp5h8dp4fslqyh9r0";
     };
     meta = with lib; {
       description = "A dark midnight theme for modern Neovim & classic Vim";
@@ -14404,8 +15303,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: meain-vim-printer
+  Generated from: meain/vim-printer
   */
   vim-printer = buildVimPlugin {
     pname = "vim-printer";
@@ -14420,8 +15320,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: mnacamura-vim-r7rs-syntax
+  Generated from: mnacamura/vim-r7rs-syntax
   */
   vim-r7rs-syntax = buildVimPlugin {
     pname = "vim-r7rs-syntax";
@@ -14436,8 +15337,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: tpope-vim-repeat
+  Generated from: tpope/vim-repeat
   */
   vim-repeat = buildVimPlugin {
     pname = "vim-repeat";
@@ -14452,15 +15354,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: dstein64-vim-startuptime
+  Generated from: dstein64/vim-startuptime
   */
   vim-startuptime = buildVimPlugin {
     pname = "vim-startuptime";
-    version = "2024-02-17";
+    version = "2024-03-17";
     src = fetchurl {
-      url = "https://github.com/dstein64/vim-startuptime/archive/308b0088a864c4711a96e45b6734cf9294074f65.tar.gz";
-      sha256 = "1cj0x2wpr34wl7zh2nwr8s84hi6r0k0k55fpjddgprciq07yjw41";
+      url = "https://github.com/dstein64/vim-startuptime/archive/ac2cccb5be617672add1f4f3c0a55ce99ba34e01.tar.gz";
+      sha256 = "0y4mwc9yxzdbn7mb3cb18kijmihaqbzpqlw28gh68pwnk5d9nf5j";
     };
     meta = with lib; {
       description = "A plugin for profiling Vim and Neovim startup time.";
@@ -14468,8 +15371,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: evanleck-vim-svelte
+  Generated from: evanleck/vim-svelte
   */
   vim-svelte = buildVimPlugin {
     pname = "vim-svelte";
@@ -14484,15 +15388,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: leafOfTree-vim-svelte-plugin
+  Generated from: leafOfTree/vim-svelte-plugin
   */
   vim-svelte-plugin = buildVimPlugin {
     pname = "vim-svelte-plugin";
-    version = "2023-05-04";
+    version = "2024-03-13";
     src = fetchurl {
-      url = "https://github.com/leafOfTree/vim-svelte-plugin/archive/612b34640919c29b5cf2d85289dbc762b099858a.tar.gz";
-      sha256 = "077pk319952ajkdina891pnsrszs01vi8wwjcr5x2jnzligsyxd8";
+      url = "https://github.com/leafOfTree/vim-svelte-plugin/archive/e0971a037ace074f61703fd8d0cd7feb313690ac.tar.gz";
+      sha256 = "0ykahfd8acv7wyba61dhz4598iqm82bcisnhbch78dh46g6lkpq1";
     };
     meta = with lib; {
       description = "Vim syntax and indent plugin for .svelte files";
@@ -14500,8 +15405,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: kana-vim-textobj-indent
+  Generated from: kana/vim-textobj-indent
   */
   vim-textobj-indent = buildVimPlugin {
     pname = "vim-textobj-indent";
@@ -14516,8 +15422,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: sgur-vim-textobj-parameter
+  Generated from: sgur/vim-textobj-parameter
   */
   vim-textobj-parameter = buildVimPlugin {
     pname = "vim-textobj-parameter";
@@ -14532,8 +15439,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: rcarriga-vim-ultest
+  Generated from: rcarriga/vim-ultest
   */
   vim-ultest = buildVimPlugin {
     pname = "vim-ultest";
@@ -14548,15 +15456,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: wakatime-vim-wakatime
+  Generated from: wakatime/vim-wakatime
   */
   vim-wakatime = buildVimPlugin {
     pname = "vim-wakatime";
-    version = "2024-02-22";
+    version = "2024-03-15";
     src = fetchurl {
-      url = "https://github.com/wakatime/vim-wakatime/archive/285c2e4e48fb0c63ced233c00fb10a2edb3b6c94.tar.gz";
-      sha256 = "1ccadkf0hmkbgc7m0kpvl604fir9rncpx7rfynpfbl1qr2y89n1c";
+      url = "https://github.com/wakatime/vim-wakatime/archive/56b4d073adaf18c04c7bb5728d41c03b2f25754d.tar.gz";
+      sha256 = "1mvcl2vs3a1gsz9i1h092pvlfvrp1x7r3czjxqc4da4bizhm41c8";
     };
     meta = with lib; {
       description = "Vim plugin for automatic time tracking and metrics generated from your programming activity.";
@@ -14564,8 +15473,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: thaerkh-vim-workspace
+  Generated from: thaerkh/vim-workspace
   */
   vim-workspace = buildVimPlugin {
     pname = "vim-workspace";
@@ -14580,8 +15490,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: svermeulen-vim-yoink
+  Generated from: svermeulen/vim-yoink
   */
   vim-yoink = buildVimPlugin {
     pname = "vim-yoink";
@@ -14596,8 +15507,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ldelossa-vimdark
+  Generated from: ldelossa/vimdark
   */
   vimdark = buildVimPlugin {
     pname = "vimdark";
@@ -14612,8 +15524,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: svermeulen-vimpeccable
+  Generated from: svermeulen/vimpeccable
   */
   vimpeccable = buildVimPlugin {
     pname = "vimpeccable";
@@ -14628,15 +15541,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: lervag-vimtex
+  Generated from: lervag/vimtex
   */
   vimtex = buildVimPlugin {
     pname = "vimtex";
-    version = "2024-03-04";
+    version = "2024-03-20";
     src = fetchurl {
-      url = "https://github.com/lervag/vimtex/archive/a77d14b2e4391c0d3e860708bb1fd56161ab68eb.tar.gz";
-      sha256 = "1vdhggxmp7ais9nm2a088mzyxf369lmp9m624pmk9r88abdadpkc";
+      url = "https://github.com/lervag/vimtex/archive/73605f8b7655301ea47a2c355500ab4984f41b91.tar.gz";
+      sha256 = "1wx7dg731x1cdkh1s95hyix8piv289vpz2abxlz2frkp2dlqjj9s";
     };
     meta = with lib; {
       description = "VimTeX: A modern Vim and neovim filetype plugin for LaTeX files.";
@@ -14644,15 +15558,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: vimwiki-vimwiki
+  Generated from: vimwiki/vimwiki
   */
   vimwiki = buildVimPlugin {
     pname = "vimwiki";
-    version = "2024-01-25";
+    version = "2024-03-16";
     src = fetchurl {
-      url = "https://github.com/vimwiki/vimwiki/archive/fde35bb87e45abe930eebef5ab99a16289e53789.tar.gz";
-      sha256 = "1pnf44x2390xfbb31kwqw0bbxj875x9xp655v66sxwzxmk815675";
+      url = "https://github.com/vimwiki/vimwiki/archive/69318e74c88ef7677e2496fd0a836446ceac61e8.tar.gz";
+      sha256 = "1ycqvwhr7200l869r60g7nc4qcm4h8if5krjx6i35pgq1pwyn28w";
     };
     meta = with lib; {
       description = "Personal Wiki for Vim";
@@ -14660,8 +15575,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: xiyaowong-virtcolumn.nvim
+  Generated from: xiyaowong/virtcolumn.nvim
   */
   virtcolumn-nvim = buildVimPlugin {
     pname = "virtcolumn-nvim";
@@ -14676,8 +15592,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: jubnzv-virtual-types.nvim
+  Generated from: jubnzv/virtual-types.nvim
   */
   virtual-types-nvim = buildVimPlugin {
     pname = "virtual-types-nvim";
@@ -14692,8 +15609,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: 00sapo-visual.nvim
+  Generated from: 00sapo/visual.nvim
   */
   visual-nvim = buildVimPlugin {
     pname = "visual-nvim";
@@ -14708,8 +15626,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: askfiy-visual_studio_code
+  Generated from: askfiy/visual_studio_code
   */
   visual-studio-code = buildVimPlugin {
     pname = "visual-studio-code";
@@ -14724,8 +15643,9 @@
       license = with licenses; [mpl20];
     };
   };
+
   /*
-  Generated from: 2nthony-vitesse.nvim
+  Generated from: 2nthony/vitesse.nvim
   */
   vitesse-nvim = buildVimPlugin {
     pname = "vitesse-nvim";
@@ -14740,8 +15660,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: tjdevries-vlog.nvim
+  Generated from: tjdevries/vlog.nvim
   */
   vlog-nvim = buildVimPlugin {
     pname = "vlog-nvim";
@@ -14756,8 +15677,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: nxvu699134-vn-night.nvim
+  Generated from: nxvu699134/vn-night.nvim
   */
   vn-night-nvim = buildVimPlugin {
     pname = "vn-night-nvim";
@@ -14772,8 +15694,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: EthanJWright-vs-tasks.nvim
+  Generated from: EthanJWright/vs-tasks.nvim
   */
   vs-tasks-nvim = buildVimPlugin {
     pname = "vs-tasks-nvim";
@@ -14788,8 +15711,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: Mofiqul-vscode.nvim
+  Generated from: Mofiqul/vscode.nvim
   */
   vscode-nvim = buildVimPlugin {
     pname = "vscode-nvim";
@@ -14804,15 +15728,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ray-x-web-tools.nvim
+  Generated from: ray-x/web-tools.nvim
   */
   web-tools-nvim = buildVimPlugin {
     pname = "web-tools-nvim";
-    version = "2024-02-24";
+    version = "2024-03-19";
     src = fetchurl {
-      url = "https://github.com/ray-x/web-tools.nvim/archive/b55bc15c8a640d7e7704c25550b1314bb5d0da92.tar.gz";
-      sha256 = "0zk1b2k24rpwn7sxk5jfpf0f8vmdzc45n06znm1ayg0kznwyyrqi";
+      url = "https://github.com/ray-x/web-tools.nvim/archive/c2686925df47eb684f9de65fba8152ab90425030.tar.gz";
+      sha256 = "1k1c6d2fc3q1fjji3sxp9iyhjy5qr33cq2vi99v5rmz5n4frs0y7";
     };
     meta = with lib; {
       description = "Neovim plugin for web developers";
@@ -14820,8 +15745,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: willothy-wezterm.nvim
+  Generated from: willothy/wezterm.nvim
   */
   wezterm-nvim = buildVimPlugin {
     pname = "wezterm-nvim";
@@ -14836,8 +15762,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: SalOrak-whaler.nvim
+  Generated from: SalOrak/whaler.nvim
   */
   whaler-nvim = buildVimPlugin {
     pname = "whaler-nvim";
@@ -14852,8 +15779,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: ragnarok22-whereami.nvim
+  Generated from: ragnarok22/whereami.nvim
   */
   whereami-nvim = buildVimPlugin {
     pname = "whereami-nvim";
@@ -14868,8 +15796,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: folke-which-key.nvim
+  Generated from: folke/which-key.nvim
   */
   which-key-nvim = buildVimPlugin {
     pname = "which-key-nvim";
@@ -14884,8 +15813,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: gelguy-wilder.nvim
+  Generated from: gelguy/wilder.nvim
   */
   wilder-nvim = buildVimPlugin {
     pname = "wilder-nvim";
@@ -14900,8 +15830,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: declancm-windex.nvim
+  Generated from: declancm/windex.nvim
   */
   windex-nvim = buildVimPlugin {
     pname = "windex-nvim";
@@ -14916,8 +15847,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: windwp-windline.nvim
+  Generated from: windwp/windline.nvim
   */
   windline-nvim = buildVimPlugin {
     pname = "windline-nvim";
@@ -14932,8 +15864,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: anuvyklack-windows.nvim
+  Generated from: anuvyklack/windows.nvim
   */
   windows-nvim = buildVimPlugin {
     pname = "windows-nvim";
@@ -14948,8 +15881,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: sindrets-winshift.nvim
+  Generated from: sindrets/winshift.nvim
   */
   winshift-nvim = buildVimPlugin {
     pname = "winshift-nvim";
@@ -14964,15 +15898,16 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: natecraddock-workspaces.nvim
+  Generated from: natecraddock/workspaces.nvim
   */
   workspaces-nvim = buildVimPlugin {
     pname = "workspaces-nvim";
-    version = "2024-02-06";
+    version = "2024-03-26";
     src = fetchurl {
-      url = "https://github.com/natecraddock/workspaces.nvim/archive/43e8402816a23f4e2573b054220e27934ddf50d5.tar.gz";
-      sha256 = "05jflvb5dh2jbgcplxfdwfkavxcyg7i6sqh40s9skvwbcyncqssr";
+      url = "https://github.com/natecraddock/workspaces.nvim/archive/c6f19b08123eaee37d27561299f2b4f1385fa9f0.tar.gz";
+      sha256 = "0jdziyy6nrc874dfzgv7gny4v988bmmjddia91qhzjkc85c41i51";
     };
     meta = with lib; {
       description = "a simple plugin to manage workspace directories in neovim";
@@ -14980,15 +15915,16 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: piersolenski-wtf.nvim
+  Generated from: piersolenski/wtf.nvim
   */
   wtf-nvim = buildVimPlugin {
     pname = "wtf-nvim";
-    version = "2023-12-11";
+    version = "2024-03-23";
     src = fetchurl {
-      url = "https://github.com/piersolenski/wtf.nvim/archive/07f79bdffaa9dd2785fe2543da6d850e76d2709c.tar.gz";
-      sha256 = "09qhsalbzzk49y7g8rym0s1y8fn0dxig7b1hbyr6wf1x63g2w4hm";
+      url = "https://github.com/piersolenski/wtf.nvim/archive/8e7bec4d3cb2ea2e3d078b9af8c4cc68d1066c33.tar.gz";
+      sha256 = "1k2viscqyf3hfcr1cfri99ks0d9vdyjwx4q4spxl14i8vfawzxia";
     };
     meta = with lib; {
       description = "Delicious diagnostic debugging in Neovim 🤤";
@@ -14996,8 +15932,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: nekonako-xresources-nvim
+  Generated from: nekonako/xresources-nvim
   */
   xresources-nvim = buildVimPlugin {
     pname = "xresources-nvim";
@@ -15012,8 +15949,9 @@
       license = with licenses; [gpl2Only];
     };
   };
+
   /*
-  Generated from: pianocomposer321-yabs.nvim
+  Generated from: pianocomposer321/yabs.nvim
   */
   yabs-nvim = buildVimPlugin {
     pname = "yabs-nvim";
@@ -15028,8 +15966,9 @@
       license = with licenses; [agpl3Only];
     };
   };
+
   /*
-  Generated from: someone-stole-my-name-yaml-companion.nvim
+  Generated from: someone-stole-my-name/yaml-companion.nvim
   */
   yaml-companion-nvim = buildVimPlugin {
     pname = "yaml-companion-nvim";
@@ -15044,8 +15983,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: cuducos-yaml.nvim
+  Generated from: cuducos/yaml.nvim
   */
   yaml-nvim = buildVimPlugin {
     pname = "yaml-nvim";
@@ -15060,8 +16000,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: Xuyuanp-yanil
+  Generated from: Xuyuanp/yanil
   */
   yanil = buildVimPlugin {
     pname = "yanil";
@@ -15076,8 +16017,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: gbprod-yanky.nvim
+  Generated from: gbprod/yanky.nvim
   */
   yanky-nvim = buildVimPlugin {
     pname = "yanky-nvim";
@@ -15092,8 +16034,9 @@
       license = with licenses; [wtfpl];
     };
   };
+
   /*
-  Generated from: milanglacier-yarepl.nvim
+  Generated from: milanglacier/yarepl.nvim
   */
   yarepl-nvim = buildVimPlugin {
     pname = "yarepl-nvim";
@@ -15108,8 +16051,9 @@
       license = with licenses; [gpl3Only];
     };
   };
+
   /*
-  Generated from: sonjiku-yawnc.nvim
+  Generated from: sonjiku/yawnc.nvim
   */
   yawnc-nvim = buildVimPlugin {
     pname = "yawnc-nvim";
@@ -15124,8 +16068,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: zdcthomas-yop.nvim
+  Generated from: zdcthomas/yop.nvim
   */
   yop-nvim = buildVimPlugin {
     pname = "yop-nvim";
@@ -15140,8 +16085,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: Lilja-zellij.nvim
+  Generated from: Lilja/zellij.nvim
   */
   zellij-nvim = buildVimPlugin {
     pname = "zellij-nvim";
@@ -15156,8 +16102,9 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: folke-zen-mode.nvim
+  Generated from: folke/zen-mode.nvim
   */
   zen-mode-nvim = buildVimPlugin {
     pname = "zen-mode-nvim";
@@ -15172,15 +16119,16 @@
       license = with licenses; [];
     };
   };
+
   /*
-  Generated from: mcchrish-zenbones.nvim
+  Generated from: mcchrish/zenbones.nvim
   */
   zenbones-nvim = buildVimPlugin {
     pname = "zenbones-nvim";
-    version = "2024-02-10";
+    version = "2024-03-24";
     src = fetchurl {
-      url = "https://github.com/mcchrish/zenbones.nvim/archive/33672310aac6b823c88cf16d5d99472439111f9c.tar.gz";
-      sha256 = "003fg4c8rbn0srrnk05zi7cx94dj8ly5p5pz4dri6v0y13icmgg6";
+      url = "https://github.com/mcchrish/zenbones.nvim/archive/bbc8f49662c62e13520e3aa19167982c000126b8.tar.gz";
+      sha256 = "1fj892a5xva7siw6g9mdrlfbh22ic5j25yv0mqwxpl4xh0gvzj6h";
     };
     meta = with lib; {
       description = "🪨 A collection of contrast-based Vim/Neovim colorschemes";
@@ -15188,8 +16136,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: phha-zenburn.nvim
+  Generated from: phha/zenburn.nvim
   */
   zenburn-nvim = buildVimPlugin {
     pname = "zenburn-nvim";
@@ -15204,8 +16153,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: nvimdev-zephyr-nvim
+  Generated from: nvimdev/zephyr-nvim
   */
   zephyr-nvim = buildVimPlugin {
     pname = "zephyr-nvim";
@@ -15220,8 +16170,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: titanzero-zephyrium
+  Generated from: titanzero/zephyrium
   */
   zephyrium = buildVimPlugin {
     pname = "zephyrium";
@@ -15236,8 +16187,9 @@
       license = with licenses; [mit];
     };
   };
+
   /*
-  Generated from: mickael-menu-zk-nvim
+  Generated from: mickael-menu/zk-nvim
   */
   zk-nvim = buildVimPlugin {
     pname = "zk-nvim";
