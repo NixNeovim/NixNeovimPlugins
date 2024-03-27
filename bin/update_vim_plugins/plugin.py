@@ -31,7 +31,7 @@ class VimPlugin:
 
     @property
     def id(self) -> str:
-        return f"{self.owner}-{self.repo}"
+        return f"{self.owner}/{self.repo}"
 
     def to_nix(self):
         """Return the nix expression for this plugin."""
@@ -42,7 +42,15 @@ class VimPlugin:
         else:
             warning = ""
 
-        return f'/* Generated from: {self.id} */ {self.name} = {warning} buildVimPlugin {{ pname = "{self.name}";  version = "{self.version}"; src = {self.source.get_nix_expression()}; meta = {meta}; }};'
+        return f'''
+            /* Generated from: {self.id} */
+            {self.name} = {warning} buildVimPlugin {{
+                pname = "{self.name}";
+                version = "{self.version}";
+                src = {self.source.get_nix_expression()};
+                meta = {meta};
+            }};
+        '''
 
     def to_json(self):
         """Serizalize the plugin to json"""
