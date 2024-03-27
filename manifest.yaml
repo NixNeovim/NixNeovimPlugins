@@ -334,6 +334,9 @@
   branch: artifacts
 - owner: ms-jpq
   repo: coq_nvim
+- owner: nvimtools
+  repo: hydra.nvim
+  name: hydra-nvimtools
 - owner: ms-jpq
   repo: coq.thirdparty
 - owner: CosmicNvim
@@ -403,8 +406,12 @@
   repo: dressing.nvim
 - owner: TheBlob42
   repo: drex.nvim
+- owner: benfowler
+  repo: telescope-luasnip.nvim
 - owner: Bekaboo
   repo: dropbar.nvim
+- owner: harrisoncramer
+  repo: gitlab.nvim
 - owner: NFrid
   repo: due.nvim
 - owner: hinell
@@ -620,6 +627,7 @@
   repo: hoversplit.nvim
 - owner: anuvyklack
   repo: hydra.nvim
+  name: hydra-anuvyklack
 - owner: smzm
   repo: hydrovim
 - owner: tomiis4
