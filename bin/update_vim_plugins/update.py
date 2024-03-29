@@ -190,6 +190,7 @@ class UpdateCommand(Command):
             plugin_json = data.get(spec.id)
             if plugin_json:
                 vim_plugin = jsonpickle.decode(plugin_json)
+                vim_plugin.warning = spec.warning # udpate warning
                 ret = PluginOld(vim_plugin, e)
             else:
                 debug_string += f"   • <error>Error:</error> No entries for <info>{spec.id}</info> in '.plugins.json'. Skipping...\n"
