@@ -182,17 +182,17 @@ class UpdateCommand(Command):
             ret = PluginUpdated(vim_plugin)
         except Exception as e:
             if str(e).startswith("GitHub API call failed") and re.search("exceeded a secondary rate limit", str(e)):
-                e = "GitHub API rate limit reached"
+                e = Exception("GitHub API rate limit reached")
             debug_string += f"   • <error>Error:</error> Could not update <info>{spec.name}</info>. Keeping old values. Reason: {e}\n"
             with open(JSON_FILE, "r") as json_file:
                 data = json.load(json_file)
 
-            plugin_json = data.get(spec.id)
+            plugin_json = data.get(spec.id) # FIX:
             if plugin_json:
                 vim_plugin = jsonpickle.decode(plugin_json)
                 ret = PluginOld(vim_plugin, e)
             else:
-                debug_string += f"   • <error>Error:</error> No entries for <info>{spec.name}</info> in '.plugins.json'. Skipping...\n"
+                debug_string += f"   • <error>Error:</error> No entries for <info>{spec.id}</info> in '.plugins.json'. Skipping...\n"
                 ret = PluginFailure(spec, e)
 
         self.line(debug_string.strip())

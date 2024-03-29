@@ -47,7 +47,7 @@ class PluginSpec:
 
     @property
     def id(self) -> str:
-        return f"{self.owner}-{self.repo}"
+        return f"{self.owner}/{self.repo}"
 
     @classmethod
     def from_spec(cls, spec):
