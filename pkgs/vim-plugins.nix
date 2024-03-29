@@ -500,6 +500,24 @@
   };
 
   /*
+  Generated from: nedia/auto-save.nvim::auto-save-nvim-nedia
+  */
+  auto-save-nvim-nedia = buildVimPlugin {
+    pname = "auto-save-nvim-nedia";
+    version = "2023-04-27";
+    src = fetchgit {
+      url = "https://git.sr.ht/~nedia/auto-save.nvim";
+      rev = "20f2bd0aed7534a2c80bd21af20c912480725fa0";
+      sha256 = "17k4fs6kr6lrzy35w4xx7y1ndl6ifl2b0y2gy7n6j9k6mblci8ll";
+    };
+    meta = with lib; {
+      description = "Extremely simple, small, auto save plugin for Neovim.";
+      homepage = "https://git.sr.ht/~nedia/auto-save.nvim";
+      license = with licenses; [];
+    };
+  };
+
+  /*
   Generated from: pocco81/auto-save.nvim
   */
   auto-save-nvim-pocco81 = buildVimPlugin {

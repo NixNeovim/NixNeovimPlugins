@@ -1,4 +1,4 @@
- - Plugin count: 965
+ - Plugin count: 966
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -31,6 +31,7 @@
 | [VidocqH/auto-indent.nvim](https://github.com/VidocqH/auto-indent.nvim) | 2023-11-03 | `auto-indent-nvim` | 
 | [jghauser/auto-pandoc.nvim](https://github.com/jghauser/auto-pandoc.nvim) | 2024-02-25 | `auto-pandoc-nvim` | 
 | [okuuva/auto-save.nvim](https://github.com/okuuva/auto-save.nvim) | 2024-02-27 | `auto-save-nvim` | 
+| [nedia/auto-save.nvim::auto-save-nvim-nedia](https://git.sr.ht/~nedia/auto-save.nvim) | 2023-04-27 | `auto-save-nvim-nedia` | 
 | [pocco81/auto-save.nvim](https://github.com/pocco81/auto-save.nvim) | 2022-11-01 | `auto-save-nvim-pocco81` | 
 | [rmagatti/auto-session](https://github.com/rmagatti/auto-session) | 2024-02-03 | `auto-session` | 
 | [m4xshen/autoclose.nvim](https://github.com/m4xshen/autoclose.nvim) | 2024-02-23 | `autoclose-nvim` | 
