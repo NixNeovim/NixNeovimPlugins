@@ -50,7 +50,11 @@ def write_plugins_nix(plugins: list[VimPlugin]):
     with open(PKGS_FILE, "w") as file:
         file.write(header)
         for plugin in plugins:
-            file.write(f"{plugin.to_nix()}\n")
+            try:
+                file.write(f"{plugin.to_nix()}\n")
+            except Exception as e:
+                pass
+
         file.write(footer)
 
 def format_nix_output():
