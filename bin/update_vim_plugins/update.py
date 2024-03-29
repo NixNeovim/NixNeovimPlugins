@@ -14,6 +14,7 @@ from .helpers import *
 
 import json
 import jsonpickle
+import re
 
 jsonpickle.set_encoder_options('json', sort_keys=True)
 
@@ -100,7 +101,7 @@ class UpdateCommand(Command):
             for (s, e) in failed_but_known:
                 self.line(f" - {s!r} - {e}")
 
-        # update plugin "database"
+        # update .plugins.json
         self.write_plugins_json(processed_plugins)
 
         # generate output
@@ -180,6 +181,8 @@ class UpdateCommand(Command):
             debug_string += f"   • <comment>Success</comment> {vim_plugin!r}\n"
             ret = PluginUpdated(vim_plugin)
         except Exception as e:
+            if str(e).startswith("GitHub API call failed") and re.search("exceeded a secondary rate limit", str(e)):
+                e = "GitHub API rate limit reached"
             debug_string += f"   • <error>Error:</error> Could not update <info>{spec.name}</info>. Keeping old values. Reason: {e}\n"
             with open(JSON_FILE, "r") as json_file:
                 data = json.load(json_file)
