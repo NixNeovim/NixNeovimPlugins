@@ -87,7 +87,7 @@ class UpdateCommand(Command):
         processed_plugins, failed_plugins, failed_but_known = self.process_manifest(spec_list)
 
         processed_plugins += known_plugins # add plugins from .plugins.json
-        processed_plugins: list = sorted(set(processed_plugins)) # remove duplicates based only on source line
+        processed_plugins: list[VimPlugin] = sorted(set(processed_plugins)) # remove duplicates based only on source line
 
         self.check_duplicates(processed_plugins)
 
@@ -135,7 +135,7 @@ class UpdateCommand(Command):
 
         format_nix_output()
 
-    def write_plugins_json(self, plugins):
+    def write_plugins_json(self, plugins: list[VimPlugin]):
         self.line(f"<info>Storing results in .plugins.json</info>")
 
         plugins.sort()
@@ -187,7 +187,7 @@ class UpdateCommand(Command):
             with open(JSON_FILE, "r") as json_file:
                 data = json.load(json_file)
 
-            plugin_json = data.get(spec.id) # FIX:
+            plugin_json = data.get(spec.id)
             if plugin_json:
                 vim_plugin = jsonpickle.decode(plugin_json)
                 ret = PluginOld(vim_plugin, e)

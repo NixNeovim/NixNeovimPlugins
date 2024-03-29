@@ -3,6 +3,8 @@ import yaml
 from pprint import pprint
 import subprocess
 
+from .plugin import VimPlugin
+
 #  MANIFEST_FILE = "./manifest.txt"
 MANIFEST_YAML = "./manifest.yaml"
 BLACKLIST_FILE = "./blacklist.txt"
@@ -39,7 +41,7 @@ def read_blacklist_to_spec() -> list[PluginSpec]:
 
     return sorted(specs)
 
-def write_plugins_nix(plugins):
+def write_plugins_nix(plugins: list[VimPlugin]):
     plugins.sort()
 
     header = "{ lib, buildVimPlugin, fetchurl, fetchgit }: {"
