@@ -362,6 +362,24 @@
   };
 
   /*
+  Generated from: henriquehbr/ataraxis.lua
+  */
+  ataraxis-lua = buildVimPlugin {
+    pname = "ataraxis-lua";
+    version = "2023-03-22";
+    src = fetchgit {
+      url = "https://git.sr.ht/~henriquehbr/ataraxis.lua";
+      rev = "5c89190860fd443aa629940f7dbd7ce997ebb6d6";
+      sha256 = "1q04lj0357gjaxbvxjllcq0x98p2a64ij5s3clsgy59ljy1fzh7y";
+    };
+    meta = with lib; {
+      description = "Neovim zen mode for improving code readability";
+      homepage = "https://git.sr.ht/~henriquehbr/ataraxis.lua";
+      license = with licenses; [];
+    };
+  };
+
+  /*
   Generated from: m-demare/attempt.nvim
   */
   attempt-nvim = buildVimPlugin {
@@ -409,6 +427,24 @@
       description = "A Neovim plugin for macOS, Linux & Windows that automatically changes the editor appearance based on system settings.";
       homepage = "https://github.com/f-person/auto-dark-mode.nvim";
       license = with licenses; [gpl3Only];
+    };
+  };
+
+  /*
+  Generated from: nedia/auto-format.nvim
+  */
+  auto-format-nvim = buildVimPlugin {
+    pname = "auto-format-nvim";
+    version = "2023-02-21";
+    src = fetchgit {
+      url = "https://git.sr.ht/~nedia/auto-format.nvim";
+      rev = "13c6bfe340520463643838e947639fc5efd27433";
+      sha256 = "024l6x3srdvs4hxp950dpdnm4j8azx0qzb9xh8ih1kr9v025ap81";
+    };
+    meta = with lib; {
+      description = "Simple auto formatter that prefers `null-ls` over LSP.";
+      homepage = "https://git.sr.ht/~nedia/auto-format.nvim";
+      license = with licenses; [];
     };
   };
 
@@ -6159,6 +6195,24 @@
   };
 
   /*
+  Generated from: reggie/licenses.nvim
+  */
+  licenses-nvim = buildVimPlugin {
+    pname = "licenses-nvim";
+    version = "2023-06-05";
+    src = fetchgit {
+      url = "https://git.sr.ht/~reggie/licenses.nvim";
+      rev = "42ba9610d78677826b8a7d79d3bbae19dc69287b";
+      sha256 = "194s4lhqvspsyzp8d46l1p81gnnh9sx2px13csi2p4s84m646bvz";
+    };
+    meta = with lib; {
+      description = "Insert and write license headers and/or files.";
+      homepage = "https://git.sr.ht/~reggie/licenses.nvim";
+      license = with licenses; [];
+    };
+  };
+
+  /*
   Generated from: ggandor/lightspeed.nvim
   */
   lightspeed-nvim = buildVimPlugin {
@@ -6325,6 +6379,24 @@
       description = "Neovim plugin for displaying references and difinition infos upon functions like JB's IDEA.";
       homepage = "https://github.com/VidocqH/lsp-lens.nvim";
       license = with licenses; [mit];
+    };
+  };
+
+  /*
+  Generated from: whynothugo/lsp_lines.nvim
+  */
+  lsp-lines-nvim = buildVimPlugin {
+    pname = "lsp-lines-nvim";
+    version = "2023-05-13";
+    src = fetchgit {
+      url = "https://git.sr.ht/~whynothugo/lsp_lines.nvim";
+      rev = "f53af96d4789eef39a082dbcce078d2bfc384ece";
+      sha256 = "11nsp21n1lhjl6m4mgj1vdcvalik9dmvv8baflzd2njb5g3gc5v6";
+    };
+    meta = with lib; {
+      description = "Show nvim diagnostics using virtual lines";
+      homepage = "https://git.sr.ht/~whynothugo/lsp_lines.nvim";
+      license = with licenses; [];
     };
   };
 
@@ -7672,23 +7744,6 @@
   };
 
   /*
-  Generated from: svrana/neosolarized.nvim
-  */
-  neosolarized-nvim = buildVimPlugin {
-    pname = "neosolarized-nvim";
-    version = "2024-03-22";
-    src = fetchurl {
-      url = "https://github.com/svrana/neosolarized.nvim/archive/c1d9a1451f914599cc40e905bce9598a78546a8a.tar.gz";
-      sha256 = "1jk79q1rh4zgwjhnd8nl9n8j66cfc157srv8agh6pwsd3635z52z";
-    };
-    meta = with lib; {
-      description = "Truecolor solarized theme for neovim in Lua using colorbuddy";
-      homepage = "https://github.com/svrana/neosolarized.nvim";
-      license = with licenses; [];
-    };
-  };
-
-  /*
   Generated from: Tsuzat/NeoSolarized.nvim
   */
   NeoSolarized-nvim = buildVimPlugin {
@@ -7701,6 +7756,23 @@
     meta = with lib; {
       description = "NeoSolarized colorscheme for NeoVim with full transparency";
       homepage = "https://github.com/Tsuzat/NeoSolarized.nvim";
+      license = with licenses; [];
+    };
+  };
+
+  /*
+  Generated from: svrana/neosolarized.nvim
+  */
+  neosolarized-nvim = buildVimPlugin {
+    pname = "neosolarized-nvim";
+    version = "2024-03-22";
+    src = fetchurl {
+      url = "https://github.com/svrana/neosolarized.nvim/archive/c1d9a1451f914599cc40e905bce9598a78546a8a.tar.gz";
+      sha256 = "1jk79q1rh4zgwjhnd8nl9n8j66cfc157srv8agh6pwsd3635z52z";
+    };
+    meta = with lib; {
+      description = "Truecolor solarized theme for neovim in Lua using colorbuddy";
+      homepage = "https://github.com/svrana/neosolarized.nvim";
       license = with licenses; [];
     };
   };
@@ -10421,6 +10493,24 @@
     meta = with lib; {
       description = "Neovim colorscheme inspired by Srcery.";
       homepage = "https://github.com/mnacamura/nvim-srcerite";
+      license = with licenses; [];
+    };
+  };
+
+  /*
+  Generated from: henriquehbr/nvim-startup.lua
+  */
+  nvim-startup-lua = buildVimPlugin {
+    pname = "nvim-startup-lua";
+    version = "2022-07-31";
+    src = fetchgit {
+      url = "https://git.sr.ht/~henriquehbr/nvim-startup.lua";
+      rev = "f2f450df0ea970b9e7848ab1634f01baccc1dcf8";
+      sha256 = "18355a1mb4a0p2fbirzyx1axs4vl7vnmgls5hpgdw51kylffz9gp";
+    };
+    meta = with lib; {
+      description = "Displays neovim startup time";
+      homepage = "https://git.sr.ht/~henriquehbr/nvim-startup.lua";
       license = with licenses; [];
     };
   };
