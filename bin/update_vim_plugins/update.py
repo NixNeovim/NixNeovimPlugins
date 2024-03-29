@@ -5,8 +5,10 @@ from cleo.helpers import option
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from pprint import pprint
+from enum import Enum
+from dataclasses import dataclass
 
-from .plugin import plugin_from_spec
+from .plugin import plugin_from_spec, VimPlugin
 
 from .helpers import *
 
@@ -14,6 +16,29 @@ import json
 import jsonpickle
 
 jsonpickle.set_encoder_options('json', sort_keys=True)
+
+
+class UpdateState:
+    """Abstract class to combine the three state classes below"""
+    pass
+
+@dataclass
+class PluginUpdated(UpdateState):
+    """Used when plugin could be updated correctly"""
+    plugin: VimPlugin
+
+@dataclass
+class PluginOld(UpdateState):
+    """Used when plugin could not be updated, but we do have old information in .plugins.json that we can use"""
+    plugin: VimPlugin
+    error: Exception
+
+@dataclass
+class PluginFailure(UpdateState):
+    """Used when we could not download any information about the plugin, and no old information are present in .plugins.json"""
+    plugin: PluginSpec
+    error: Exception
+
 
 class UpdateCommand(Command):
     name = "update"
@@ -34,7 +59,6 @@ class UpdateCommand(Command):
     def handle(self):
         """Main command function"""
 
-        #  self.specs = read_manifest_to_spec()
         self.specs = read_manifest_yaml_to_spec()
 
         if self.option("all"):
@@ -141,17 +165,20 @@ class UpdateCommand(Command):
 
 
 
-    def generate_plugin(self, spec: PluginSpec, i, size):
+    def generate_plugin(self, spec: PluginSpec, i, size) -> UpdateState:
+        """
+        Tries to generate the VimPlugin from PluginSpec. (plugin goes to 'processed_plugin')
+        If the 'plugin_from_spec' functions fails (e.g. fails to download the relevant information)
+        then we try to use the old information from the .plugins.json. (plugin goes to 'failed_but_known')
+        If that fails as well, we put the spec in 'failed_plugin'.
+        """
         debug_string = ""
 
-        processed_plugin = None
-        failed_but_known = None
-        failed_plugin = None
         try:
             debug_string += f" - <info>({i+1}/{size}) Processing</info> {spec!r}\n"
             vim_plugin = plugin_from_spec(spec)
             debug_string += f"   • <comment>Success</comment> {vim_plugin!r}\n"
-            processed_plugin = (vim_plugin)
+            ret = PluginUpdated(vim_plugin)
         except Exception as e:
             debug_string += f"   • <error>Error:</error> Could not update <info>{spec.name}</info>. Keeping old values. Reason: {e}\n"
             with open(JSON_FILE, "r") as json_file:
@@ -160,17 +187,16 @@ class UpdateCommand(Command):
             plugin_json = data.get(spec.id)
             if plugin_json:
                 vim_plugin = jsonpickle.decode(plugin_json)
-                processed_plugin = vim_plugin
-                failed_but_known = (vim_plugin, e)
+                ret = PluginOld(vim_plugin, e)
             else:
                 debug_string += f"   • <error>Error:</error> No entries for <info>{spec.name}</info> in '.plugins.json'. Skipping...\n"
-                failed_plugin = (spec, e)
+                ret = PluginFailure(spec, e)
 
         self.line(debug_string.strip())
 
-        return processed_plugin, failed_plugin, failed_but_known
+        return ret
 
-    def process_manifest(self, spec_list):
+    def process_manifest(self, spec_list) -> tuple[list, list, list]:
         """Read specs in 'spec_list' and generate plugins"""
 
         size = len(spec_list)
@@ -184,13 +210,21 @@ class UpdateCommand(Command):
             futures = [executor.submit(self.generate_plugin, spec, i, size) for i, spec in enumerate(spec_list)]
             results = [future.result() for future in as_completed(futures)]
 
-        processed_plugins = [ r[0] for r in results ]
-        failed_plugins = [ r[1] for r in results ]
-        failed_but_known = [ r[2] for r in results ]
-
-        processed_plugins = list(filter(lambda x: x is not None, processed_plugins))
-        failed_plugins = list(filter(lambda x: x is not None, failed_plugins))
-        failed_but_known = list(filter(lambda x: x is not None, failed_but_known))
+        processed_plugins = []
+        failed_but_known = []
+        failed_plugins = []
+        for r in results:
+            if isinstance(r, PluginUpdated):
+                processed_plugins.append(r.plugin)
+            elif isinstance(r, PluginOld):
+                # we catch all plugins in processed_plugins. Because after this step,
+                # we don't care anymore if the plugin was updated, or if we reuse old information
+                processed_plugins.append(r.plugin)
+                failed_but_known.append((r.plugin, r.error))
+            elif isinstance(r, PluginFailure):
+                failed_plugins.append((r.plugin, r.error))
+            else:
+                exit(f"Unknown plugin update state: {r}")
 
         processed_plugins.sort()
         failed_plugins.sort()
