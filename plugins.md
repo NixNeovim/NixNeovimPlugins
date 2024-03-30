@@ -1,4 +1,4 @@
- - Plugin count: 967
+ - Plugin count: 968
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -459,8 +459,8 @@
 | [nvim-neorg/neorg-telescope](https://github.com/nvim-neorg/neorg-telescope) | 2024-02-10 | `neorg-telescope` | 
 | [nyngwang/NeoRoot.lua](https://github.com/nyngwang/NeoRoot.lua) | 2023-02-08 | `NeoRoot-lua` | 
 | [karb94/neoscroll.nvim](https://github.com/karb94/neoscroll.nvim) | 2024-03-10 | `neoscroll-nvim` | 
-| [Tsuzat/NeoSolarized.nvim](https://github.com/Tsuzat/NeoSolarized.nvim) | 2024-02-24 | `NeoSolarized-nvim` | 
 | [svrana/neosolarized.nvim](https://github.com/svrana/neosolarized.nvim) | 2024-03-22 | `neosolarized-nvim` | 
+| [Tsuzat/NeoSolarized.nvim](https://github.com/Tsuzat/NeoSolarized.nvim) | 2024-02-24 | `NeoSolarized-nvim` | 
 | [nyngwang/NeoTerm.lua](https://github.com/nyngwang/NeoTerm.lua) | 2023-06-22 | `NeoTerm-lua` | 
 | [nvim-neotest/neotest](https://github.com/nvim-neotest/neotest) | 2024-03-20 | `neotest` | 
 | [coffebar/neovim-project](https://github.com/coffebar/neovim-project) | 2024-03-25 | `neovim-project` | 
@@ -916,6 +916,7 @@
 | [andymass/vim-matchup](https://github.com/andymass/vim-matchup) | 2024-02-24 | `vim-matchup` | 
 | [bluz71/vim-moonfly-colors](https://github.com/bluz71/vim-moonfly-colors) | 2024-03-28 | `vim-moonfly-colors` | 
 | [bluz71/vim-nightfly-colors](https://github.com/bluz71/vim-nightfly-colors) | 2024-03-28 | `vim-nightfly-colors` | 
+| [LnL7/vim-nix](https://github.com/LnL7/vim-nix) | 2024-02-24 | `vim-nix` | 
 | [meain/vim-printer](https://github.com/meain/vim-printer) | 2024-01-24 | `vim-printer` | 
 | [mnacamura/vim-r7rs-syntax](https://github.com/mnacamura/vim-r7rs-syntax) | 2021-07-09 | `vim-r7rs-syntax` | 
 | [tpope/vim-repeat](https://github.com/tpope/vim-repeat) | 2021-01-25 | `vim-repeat` | 

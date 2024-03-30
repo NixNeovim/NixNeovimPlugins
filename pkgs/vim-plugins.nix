@@ -7779,23 +7779,6 @@
   };
 
   /*
-  Generated from: Tsuzat/NeoSolarized.nvim
-  */
-  NeoSolarized-nvim = buildVimPlugin {
-    pname = "NeoSolarized-nvim";
-    version = "2024-02-24";
-    src = fetchurl {
-      url = "https://github.com/Tsuzat/NeoSolarized.nvim/archive/208e65a3ede945b8a1d00104a4441217c5e23509.tar.gz";
-      sha256 = "0iq3yizygrmhpbcr5jpjkwkarqnainrghvmskvbix6yq7jk4b99w";
-    };
-    meta = with lib; {
-      description = "NeoSolarized colorscheme for NeoVim with full transparency";
-      homepage = "https://github.com/Tsuzat/NeoSolarized.nvim";
-      license = with licenses; [];
-    };
-  };
-
-  /*
   Generated from: svrana/neosolarized.nvim
   */
   neosolarized-nvim = buildVimPlugin {
@@ -7808,6 +7791,23 @@
     meta = with lib; {
       description = "Truecolor solarized theme for neovim in Lua using colorbuddy";
       homepage = "https://github.com/svrana/neosolarized.nvim";
+      license = with licenses; [];
+    };
+  };
+
+  /*
+  Generated from: Tsuzat/NeoSolarized.nvim
+  */
+  NeoSolarized-nvim = buildVimPlugin {
+    pname = "NeoSolarized-nvim";
+    version = "2024-02-24";
+    src = fetchurl {
+      url = "https://github.com/Tsuzat/NeoSolarized.nvim/archive/208e65a3ede945b8a1d00104a4441217c5e23509.tar.gz";
+      sha256 = "0iq3yizygrmhpbcr5jpjkwkarqnainrghvmskvbix6yq7jk4b99w";
+    };
+    meta = with lib; {
+      description = "NeoSolarized colorscheme for NeoVim with full transparency";
+      homepage = "https://github.com/Tsuzat/NeoSolarized.nvim";
       license = with licenses; [];
     };
   };
@@ -15544,6 +15544,23 @@
     meta = with lib; {
       description = "A dark midnight theme for modern Neovim & classic Vim";
       homepage = "https://github.com/bluz71/vim-nightfly-colors";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
+  Generated from: LnL7/vim-nix
+  */
+  vim-nix = buildVimPlugin {
+    pname = "vim-nix";
+    version = "2024-02-24";
+    src = fetchurl {
+      url = "https://github.com/LnL7/vim-nix/archive/e25cd0f2e5922f1f4d3cd969f92e35a9a327ffb0.tar.gz";
+      sha256 = "11azsrfvlbb63hl31lby4qlw39nn6clzgvlnx216pr1cfg52zydr";
+    };
+    meta = with lib; {
+      description = "Vim configuration files for Nix http://nixos.org/nix";
+      homepage = "https://github.com/LnL7/vim-nix";
       license = with licenses; [mit];
     };
   };
