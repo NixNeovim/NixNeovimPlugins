@@ -26,24 +26,47 @@ class VimPlugin:
     description: str = "No description"
     homepage: str
     license: License
-    source_line: str
     checked: date = datetime.now().date()
+    warning: str | None = None
+
+    @property
+    def id(self) -> str:
+        if not hasattr(self, 'repo'): # WARN: should be removed after a few runs, only needed to handle old .plugin.json entries
+            self.repo = self.source_line.split("/")[1]
+
+        return f"{self.owner}/{self.repo}"
 
     def to_nix(self):
         """Return the nix expression for this plugin."""
         meta = f'with lib; {{ description = "{self.description}"; homepage = "{self.homepage}"; license = with licenses; [ {self.license.value} ]; }}'
-        return f'/* Generated from: {self.source_line} */ {self.name} = buildVimPlugin {{ pname = "{self.name}";  version = "{self.version}"; src = {self.source.get_nix_expression()}; meta = {meta}; }};'
+
+        if self.warning:
+            warning = f"lib.warn \"Warning for '{self.name}': {self.warning}\""
+        else:
+            warning = ""
+
+        return f'''
+            /* Generated from: {self.id} */
+            {self.name} = {warning} buildVimPlugin {{
+                pname = "{self.name}";
+                version = "{self.version}";
+                src = {self.source.get_nix_expression()};
+                meta = {meta};
+            }};
+        '''
 
     def to_json(self):
         """Serizalize the plugin to json"""
         return jsonpickle.encode(self)
 
     def to_markdown(self):
-        link = f"[{self.source_line}]({self.homepage})"
+        link = f"[{self.id}]({self.homepage})"
         version = f"{self.version}"
         package_name = f"{self.name}"
 
-        return f"| {link} | {version} | `{package_name}` |"
+        warning = f"{self.warning or ''}"
+
+        return f"| {link} | {version} | `{package_name}` | {warning}"
 
     def __lt__(self, o: object) -> bool:
         if not isinstance(o, VimPlugin):
@@ -67,7 +90,9 @@ class GitHubPlugin(VimPlugin):
     def __init__(self, plugin_spec: PluginSpec) -> None:
         """Initialize a GitHubPlugin."""
 
-        full_name = f"{plugin_spec.owner}/{plugin_spec.repo}"
+        owner = plugin_spec.owner
+        repo = plugin_spec.repo
+        full_name = f"{owner}/{repo}"
         repo_info = self._api_call(f"repos/{full_name}")
         default_branch = plugin_spec.branch or repo_info["default_branch"]
         api_callback = self._api_call(f"repos/{full_name}/commits/{default_branch}")
@@ -75,13 +100,14 @@ class GitHubPlugin(VimPlugin):
         sha = api_callback["sha"]
 
         self.name = plugin_spec.name
-        self.owner = plugin_spec.owner
+        self.repo = repo
+        self.owner = owner
         self.version = parse(latest_commit["committer"]["date"]).date()
         self.source = UrlSource(f"https://github.com/{full_name}/archive/{sha}.tar.gz")
         self.description = (repo_info.get("description") or "").replace('"', '\\"')
         self.homepage = repo_info["html_url"]
         self.license = plugin_spec.license or License.from_spdx_id((repo_info.get("license") or {}).get("spdx_id"))
-        self.source_line = plugin_spec.line
+        self.warning = plugin_spec.warning
 
     def _api_call(self, path: str, token: str | None = _get_github_token()):
         """Call the GitHub API."""
@@ -107,13 +133,14 @@ class GitlabPlugin(VimPlugin):
         sha = latest_commit["id"]
 
         self.name = plugin_spec.name
+        self.repo = plugin_spec.repo
         self.owner = plugin_spec.owner
         self.version = parse(latest_commit["created_at"]).date()
         self.source = UrlSource(f"https://gitlab.com/api/v4/projects/{full_name}/repository/archive.tar.gz?sha={sha}")
         self.description = (repo_info.get("description") or "").replace('"', '\\"')
         self.homepage = repo_info["web_url"]
         self.license = plugin_spec.license or License.from_spdx_id(repo_info.get("license", {}).get("key"))
-        self.source_line = plugin_spec.line
+        self.warning = plugin_spec.warning
 
     def _api_call(self, path: str) -> dict:
         """Call the Gitlab API."""
@@ -144,13 +171,13 @@ class SourceHutPlugin(VimPlugin):
         sha = latest_commit["id"]
 
         self.name = plugin_spec.name
+        self.repo = plugin_spec.repo
         self.owner = plugin_spec.owner
         self.version = parse(latest_commit["timestamp"]).date()
         self.description = (repo_info.get("description") or "").replace('"', '\\"')
         self.homepage = f"https://git.sr.ht/~{plugin_spec.owner}/{plugin_spec.repo}"
         self.source = GitSource(self.homepage, sha)
         self.license = plugin_spec.license or License.UNKNOWN  # cannot be determined via API
-        self.source_line = plugin_spec.line
 
     def _api_call(self, path: str, token: str | None = _get_sourcehut_token()):
         """Call the SourceHut API."""
