@@ -54,6 +54,12 @@ class UpdateCommand(Command):
             "dry-run",
             description="Show which plugins would be updated",
             flag=True
+        ),
+        option(
+            "only",
+            description="Only update this plugins",
+            flag=False,
+            value_required=True
         )
     ]
 
@@ -66,6 +72,24 @@ class UpdateCommand(Command):
             # update all plugins
             spec_list = self.specs
             known_plugins = []
+        elif self.option("only") is not None:
+            selected_plugin = self.option("only")
+
+            spec_list = []
+            known_plugins = []
+
+            with open(JSON_FILE, "r") as json_file:
+                data = json.load(json_file)
+
+                for spec in self.specs:
+                    if spec.id == selected_plugin:
+                        spec_list = [ spec ]
+                    else:
+                        known_plugins.append(jsonpickle.decode(data[spec.id]))
+            if spec_list == []:
+                self.line(f"Error: Could not find Plugin: {selected_plugin}.\nUsage: --only <owner>/<repo>")
+                exit()
+
         else:
             # filter plugins we already know
             spec_list = self.specs
