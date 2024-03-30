@@ -21,4 +21,4 @@ jobs:
         uses: NixNeovim/NixNeovimPlugins/.github/actions/ci-commit@main
         with:
           msg: 'Clean up Manifest'
-          files: manifest.txt
+          files: manifest.yaml
