@@ -4398,10 +4398,10 @@
   */
   gitlab-nvim = buildVimPlugin {
     pname = "gitlab-nvim";
-    version = "2024-03-04";
+    version = "2024-03-28";
     src = fetchurl {
-      url = "https://github.com/harrisoncramer/gitlab.nvim/archive/c0c67486d17d4f73f62b50c13c77aaed2e9f17f0.tar.gz";
-      sha256 = "10fq3ihsy5mhf189j1dz094igg9b3l3cif5hvf2bcm6yxy7h8fkj";
+      url = "https://github.com/harrisoncramer/gitlab.nvim/archive/670f08849f1f840f43a3c5f6a7b7ffb18c3c3369.tar.gz";
+      sha256 = "1f26k470mckp70lhrg2chnddppnzj7x38whnjmnhs1bk48bj8ybf";
     };
     meta = with lib; {
       description = "Create, review, and manage Gitlab reources without leaving Neovim";
