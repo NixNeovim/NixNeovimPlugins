@@ -1,4 +1,4 @@
- - Plugin count: 966
+ - Plugin count: 967
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -365,6 +365,7 @@
 | [ggandor/leap.nvim](https://github.com/ggandor/leap.nvim) | 2024-03-23 | `leap-nvim` | 
 | [ggandor/leap-spooky.nvim](https://github.com/ggandor/leap-spooky.nvim) | 2024-02-08 | `leap-spooky-nvim` | 
 | [Dhanus3133/Leetbuddy.nvim](https://github.com/Dhanus3133/Leetbuddy.nvim) | 2023-11-19 | `Leetbuddy-nvim` | 
+| [kawre/leetcode.nvim](https://github.com/kawre/leetcode.nvim) | 2024-03-14 | `leetcode-nvim` | 
 | [mrjones2014/legendary.nvim](https://github.com/mrjones2014/legendary.nvim) | 2024-03-26 | `legendary-nvim` | 
 | [lmburns/lf.nvim](https://github.com/lmburns/lf.nvim) | 2023-10-03 | `lf-nvim` | 
 | [reggie/licenses.nvim](https://git.sr.ht/~reggie/licenses.nvim) | 2023-06-05 | `licenses-nvim` | 

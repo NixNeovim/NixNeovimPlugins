@@ -4398,10 +4398,10 @@
   */
   gitlab-nvim = buildVimPlugin {
     pname = "gitlab-nvim";
-    version = "2024-03-28";
+    version = "2024-03-04";
     src = fetchurl {
-      url = "https://github.com/harrisoncramer/gitlab.nvim/archive/670f08849f1f840f43a3c5f6a7b7ffb18c3c3369.tar.gz";
-      sha256 = "1f26k470mckp70lhrg2chnddppnzj7x38whnjmnhs1bk48bj8ybf";
+      url = "https://github.com/harrisoncramer/gitlab.nvim/archive/c0c67486d17d4f73f62b50c13c77aaed2e9f17f0.tar.gz";
+      sha256 = "10fq3ihsy5mhf189j1dz094igg9b3l3cif5hvf2bcm6yxy7h8fkj";
     };
     meta = with lib; {
       description = "Create, review, and manage Gitlab reources without leaving Neovim";
@@ -6174,6 +6174,23 @@
     meta = with lib; {
       description = "Solve Leetcode problems within Neovim 🔥";
       homepage = "https://github.com/Dhanus3133/Leetbuddy.nvim";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
+  Generated from: kawre/leetcode.nvim
+  */
+  leetcode-nvim = buildVimPlugin {
+    pname = "leetcode-nvim";
+    version = "2024-03-14";
+    src = fetchurl {
+      url = "https://github.com/kawre/leetcode.nvim/archive/765cc76df77072e3ff4c3fdc256b9a244af73b6d.tar.gz";
+      sha256 = "1792zmhf8fp0a7qj2km6rzpg6h7r1vi4hkqn8vd26mxfabwphvz5";
+    };
+    meta = with lib; {
+      description = "A Neovim plugin enabling you to solve LeetCode problems.";
+      homepage = "https://github.com/kawre/leetcode.nvim";
       license = with licenses; [mit];
     };
   };
