@@ -15549,6 +15549,23 @@
   };
 
   /*
+  Generated from: LnL7/vim-nix
+  */
+  vim-nix = buildVimPlugin {
+    pname = "vim-nix";
+    version = "2024-02-24";
+    src = fetchurl {
+      url = "https://github.com/LnL7/vim-nix/archive/e25cd0f2e5922f1f4d3cd969f92e35a9a327ffb0.tar.gz";
+      sha256 = "11azsrfvlbb63hl31lby4qlw39nn6clzgvlnx216pr1cfg52zydr";
+    };
+    meta = with lib; {
+      description = "Vim configuration files for Nix http://nixos.org/nix";
+      homepage = "https://github.com/LnL7/vim-nix";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
   Generated from: meain/vim-printer
   */
   vim-printer = buildVimPlugin {
