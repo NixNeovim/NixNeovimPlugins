@@ -544,6 +544,8 @@
   repo: gitsigns.nvim
 - owner: stevearc
   repo: gkeep.nvim
+- owner: kawre
+  repo: leetcode.nvim
 - owner: DNLHC
   repo: glance.nvim
 - owner: bkegley
