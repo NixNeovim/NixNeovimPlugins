@@ -7,7 +7,7 @@ inputs:
   files:
     description: 'Specify the commited files'
     required: false
-    default: pkgs/vim-plugins.nix .plugins.json plugins.md manifest.txt
+    default: pkgs/vim-plugins.nix .plugins.json plugins.md manifest.yaml
 
 
 runs:

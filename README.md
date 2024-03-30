@@ -79,15 +79,17 @@ Supported are Github (default), SourceHut, and GitLab.
 #### 2. Create a Pull Request
 
 - Create a pull request with the changed manifest.txt (and blacklist.txt if neccessary).
-- A GitHub action will check your contribution and generate all neccessary nix code for your new plugin. It will also take care of sorting and cleaning the manifest.txt
+- A GitHub action will check your contribution and generate all neccessary nix code for your new plugin. It will also take care of sorting and cleaning the manifest.yaml
 - After all checks have passed, I will merge your change.
 
 I am happy for any contribution. :)
 
 ### How to remove a new plugin
 
+this contains old information. Just open an issue for now
+
 Copy the entry from manifest.txt to blacklist.txt and create a PR.
-The GitHub Actions will do the rest, including removing the entry from manifest.txt
+The GitHub Actions will do the rest, including removing the entry from manifest.yaml
 
 ## Credits
 
