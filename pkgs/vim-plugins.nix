@@ -4447,12 +4447,12 @@
   /*
   Generated from: lewis6991/gitsigns.nvim
   */
-  gitsigns-nvim = lib.warn "Warning for 'gitsigns-nvim': Replaced by other plugin (test)" buildVimPlugin {
+  gitsigns-nvim = buildVimPlugin {
     pname = "gitsigns-nvim";
-    version = "2024-03-17";
+    version = "2024-03-29";
     src = fetchurl {
-      url = "https://github.com/lewis6991/gitsigns.nvim/archive/078041e9d060a386b0c9d3a8c7a7b019a35d3fb0.tar.gz";
-      sha256 = "07q2hj6rnhpic8yx7nn6hmg120589v9aa2ribw0d5mx4va0pgjgp";
+      url = "https://github.com/lewis6991/gitsigns.nvim/archive/70584ff9aae8078b64430c574079d79620b8f06d.tar.gz";
+      sha256 = "0mhqy909vbf6y7a89ydsgdjpxllbaf9d6qas0cq8nv48rb26p9cf";
     };
     meta = with lib; {
       description = "Git integration for buffers";

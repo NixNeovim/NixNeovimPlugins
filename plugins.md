@@ -263,7 +263,7 @@
 | [harrisoncramer/gitlab.nvim](https://github.com/harrisoncramer/gitlab.nvim) | 2024-03-04 | `gitlab-nvim` | 
 | [linrongbin16/gitlinker.nvim](https://github.com/linrongbin16/gitlinker.nvim) | 2024-03-26 | `gitlinker-linrongbin16` | 
 | [ruifm/gitlinker.nvim](https://github.com/ruifm/gitlinker.nvim) | 2023-02-03 | `gitlinker-ruifm` | 
-| [lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) | 2024-03-17 | `gitsigns-nvim` | Replaced by other plugin (test)
+| [lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) | 2024-03-29 | `gitsigns-nvim` | 
 | [stevearc/gkeep.nvim](https://github.com/stevearc/gkeep.nvim) | 2024-01-06 | `gkeep-nvim` | 
 | [DNLHC/glance.nvim](https://github.com/DNLHC/glance.nvim) | 2023-08-26 | `glance-nvim` | 
 | [bkegley/gloombuddy](https://github.com/bkegley/gloombuddy) | 2021-04-16 | `gloombuddy` | 
