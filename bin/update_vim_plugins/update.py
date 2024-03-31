@@ -85,7 +85,9 @@ class UpdateCommand(Command):
                     if spec.id == selected_plugin:
                         spec_list = [ spec ]
                     else:
-                        known_plugins.append(jsonpickle.decode(data[spec.id]))
+                        spec_json = data.get(spec.id)
+                        if spec_json is not None: # not all plugins are stored in .plugins.json already
+                            known_plugins.append(jsonpickle.decode(spec_json))
             if spec_list == []:
                 self.line(f"Error: Could not find Plugin: {selected_plugin}.\nUsage: --only <owner>/<repo>")
                 exit()
