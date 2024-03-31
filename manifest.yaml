@@ -1,5 +1,7 @@
 - owner: LnL7
   repo: vim-nix
+- owner: ledger
+  repo: vim-ledger
 - owner: 0styx0
   repo: abbreinder.nvim
 - owner: 0styx0
