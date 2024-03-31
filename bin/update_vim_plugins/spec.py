@@ -16,8 +16,6 @@ class RepositoryHost(enum.Enum):
         return self.value
 
 
-
-
 class PluginSpec:
     """A Vim plugin Spec."""
 
@@ -46,7 +44,7 @@ class PluginSpec:
         self.warning = warning
 
     def __hash__(self):
-        return hash((self.id, self.repository_host))
+        return hash((self.id.lower(), self.repository_host))
 
     @property
     def id(self) -> str:
@@ -222,7 +220,6 @@ class PluginSpec:
 
         return (
             self.repository_host == o.repository_host
-            and self.owner == o.owner
-            and self.repo == o.repo
-            and self.name == o.name
+            and self.owner.lower() == o.owner.lower()
+            and self.repo.lower() == o.repo.lower()
         )

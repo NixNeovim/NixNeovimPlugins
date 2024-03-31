@@ -14,8 +14,10 @@ class FetchCommand(Command):
         """Main command function"""
 
         specs = read_manifest_yaml_to_spec()
-        specs += self.fetch_awesome()
-        specs += self.fetch_m15a()
+
+        for p in self.fetch_awesome() + self.fetch_m15a():
+            if p not in specs:
+                specs.append(p)
 
         write_manifest_yaml_from_spec(specs)
 
