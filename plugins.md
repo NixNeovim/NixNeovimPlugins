@@ -1,4 +1,4 @@
- - Plugin count: 1024
+ - Plugin count: 1025
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -784,6 +784,7 @@
 | [kevinhwang91/rnvimr](https://github.com/kevinhwang91/rnvimr) | 2024-03-01 | `rnvimr` | 
 | [nvim-neorocks/rocks.nvim](https://github.com/nvim-neorocks/rocks.nvim) | 2024-03-31 | `rocks-nvim` | 
 | [judaew/ronny.nvim](https://github.com/judaew/ronny.nvim) | 2023-09-29 | `ronny-nvim` | 
+| [rose-pine/neovim](https://github.com/rose-pine/neovim) | 2024-03-30 | `rose-pine` | 
 | [shaeinst/roshnivim-cs](https://github.com/Abstract-IDE/Abstract-cs) | 2024-02-04 | `roshnivim-cs` | 
 | [OscarCreator/rsync.nvim](https://github.com/OscarCreator/rsync.nvim) | 2024-03-27 | `rsync-nvim` | 
 | [MarcHamamji/runner.nvim](https://github.com/MarcHamamji/runner.nvim) | 2024-03-06 | `runner-nvim` | 

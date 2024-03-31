@@ -13304,6 +13304,23 @@
   };
 
   /*
+  Generated from: rose-pine/neovim
+  */
+  rose-pine = buildVimPlugin {
+    pname = "rose-pine";
+    version = "2024-03-30";
+    src = fetchurl {
+      url = "https://github.com/rose-pine/neovim/archive/19055dfe90bfa46a1e5b0a706d13980bdffa2dee.tar.gz";
+      sha256 = "0yimqmlyz2nrdygmlanl4vr4q3ni1lf76rf2i6drn4rbnslvpshj";
+    };
+    meta = with lib; {
+      description = "Soho vibes for Neovim";
+      homepage = "https://github.com/rose-pine/neovim";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
   Generated from: shaeinst/roshnivim-cs
   */
   roshnivim-cs = buildVimPlugin {

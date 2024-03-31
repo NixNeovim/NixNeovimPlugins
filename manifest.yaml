@@ -1865,6 +1865,9 @@
 - owner: catppuccin
   repo: nvim
   name: catppuccin
+- owner: rose-pine
+  repo: neovim
+  name: rose-pine
 - owner: cappyzawa
   repo: trim.nvim
 - owner: simonmclean
