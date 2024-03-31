@@ -56,8 +56,6 @@
   repo: autosave.nvim
 - owner: pocco81
   repo: truezen.nvim
-- owner: rose-pine
-  repo: neovim
 - owner: savq
   repo: melange
 - owner: shaeinst
