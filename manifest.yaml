@@ -1,7 +1,3 @@
-- owner: LnL7
-  repo: vim-nix
-- owner: ledger
-  repo: vim-ledger
 - owner: 0styx0
   repo: abbreinder.nvim
 - owner: 0styx0
@@ -338,9 +334,6 @@
   branch: artifacts
 - owner: ms-jpq
   repo: coq_nvim
-- owner: nvimtools
-  repo: hydra.nvim
-  name: hydra-nvimtools
 - owner: ms-jpq
   repo: coq.thirdparty
 - owner: CosmicNvim
@@ -410,12 +403,8 @@
   repo: dressing.nvim
 - owner: TheBlob42
   repo: drex.nvim
-- owner: benfowler
-  repo: telescope-luasnip.nvim
 - owner: Bekaboo
   repo: dropbar.nvim
-- owner: harrisoncramer
-  repo: gitlab.nvim
 - owner: NFrid
   repo: due.nvim
 - owner: hinell
@@ -538,6 +527,8 @@
   repo: github-colors
 - owner: projekt0n
   repo: github-nvim-theme
+- owner: harrisoncramer
+  repo: gitlab.nvim
 - owner: linrongbin16
   repo: gitlinker.nvim
   name: gitlinker-linrongbin16
@@ -548,8 +539,6 @@
   repo: gitsigns.nvim
 - owner: stevearc
   repo: gkeep.nvim
-- owner: kawre
-  repo: leetcode.nvim
 - owner: DNLHC
   repo: glance.nvim
 - owner: bkegley
@@ -633,6 +622,9 @@
 - owner: anuvyklack
   repo: hydra.nvim
   name: hydra-anuvyklack
+- owner: nvimtools
+  repo: hydra.nvim
+  name: hydra-nvimtools
 - owner: smzm
   repo: hydrovim
 - owner: tomiis4
@@ -752,6 +744,8 @@
   repo: leap-spooky.nvim
 - owner: Dhanus3133
   repo: Leetbuddy.nvim
+- owner: kawre
+  repo: leetcode.nvim
 - owner: mrjones2014
   repo: legendary.nvim
 - owner: lmburns
@@ -1709,6 +1703,8 @@
   repo: telescope-heading.nvim
 - owner: piersolenski
   repo: telescope-import.nvim
+- owner: benfowler
+  repo: telescope-luasnip.nvim
 - owner: mrcjkb
   repo: telescope-manix
 - owner: nvim-telescope
@@ -1856,12 +1852,16 @@
   repo: vim-hy
 - owner: RRethy
   repo: vim-illuminate
+- owner: ledger
+  repo: vim-ledger
 - owner: andymass
   repo: vim-matchup
 - owner: bluz71
   repo: vim-moonfly-colors
 - owner: bluz71
   repo: vim-nightfly-colors
+- owner: LnL7
+  repo: vim-nix
 - owner: meain
   repo: vim-printer
 - owner: mnacamura
@@ -1968,3 +1968,4 @@
   repo: zephyrium
 - owner: mickael-menu
   repo: zk-nvim
+

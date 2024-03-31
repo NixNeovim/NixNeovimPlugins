@@ -1,0 +1,6 @@
+- owner: yorickpeterse
+  repo: nvim-window
+  repository_host: gitlab
+- owner: yorickpeterse
+  repo: nvim-pqf
+  repository_host: gitlab
