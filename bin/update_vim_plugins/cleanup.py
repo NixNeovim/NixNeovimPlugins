@@ -13,7 +13,7 @@ class CleanUpCommand(Command):
         # all cleaning up will be done during reading and writing automatically
         #  manifest = read_manifest_to_spec()
         manifest = read_manifest_yaml_to_spec()
-        blacklist = read_blacklist_to_spec()
+        blacklist = read_blocklist_yaml_to_spec()
 
         new_manifest = [ spec for spec in manifest if spec not in blacklist ]
 
@@ -64,8 +64,14 @@ class CleanUpCommand(Command):
 
                     if error_props_lower or error_props_lower2 or error_props or error_source:
                         self.line(f" • <error>Cannot determine which is the correct plugin</error>")
-                        self.line(f" - {p.id}")
-                        self.line(f" - {p2.id}")
+                        #  self.line(f" - {p.id} ({p.repository_host})")
+                        #  self.line(f" - {p2.id} ({p2.repository_host})")
+                        p_yaml = p.to_yaml().split("\n")
+                        p_s = p_yaml[0] + "\n" + "\n".join([ "   " + line.strip() for line in p_yaml[1:]])
+                        self.line(f" - {p_s}")
+                        p2_yaml = p2.to_yaml().split("\n")
+                        p2_s = p2_yaml[0] + "\n" + "\n".join([ "   " + line.strip() for line in p2_yaml[1:]])
+                        self.line(f" - {p2_s}")
                         error = True
                         # remove second spec to not encounter the error twice
                         # this will not be written to the manifest.txt because we set

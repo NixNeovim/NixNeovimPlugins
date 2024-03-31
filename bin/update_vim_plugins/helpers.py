@@ -2,12 +2,14 @@ from .spec import PluginSpec
 import yaml
 from pprint import pprint
 import subprocess
+from collections import defaultdict
 
 from .plugin import VimPlugin
 
 #  MANIFEST_FILE = "./manifest.txt"
 MANIFEST_YAML = "./manifest.yaml"
-BLACKLIST_FILE = "./blacklist.txt"
+BLOCKLIST_YAML = "./blocklist.yaml"
+#  BLACKLIST_FILE = "./blacklist.txt"
 PKGS_FILE = "./pkgs/vim-plugins.nix"
 AWESOME_NEOVIM_README = "https://raw.githubusercontent.com/rockerBOO/awesome-neovim/main/README.md"
 M15A_MANIFEST = "https://raw.githubusercontent.com/m15a/nixpkgs-vim-extra-plugins/main/manifest.txt"
@@ -28,18 +30,25 @@ def read_manifest_yaml_to_spec() -> list[PluginSpec]:
 
     return sorted(specs)
 
+#  def read_blacklist() -> list[str]:
+    #  with open(BLACKLIST_FILE, "r") as file:
+        #  blacklisted_specs = set([ spec.strip() for spec in file.readlines() ])
 
-def read_blacklist() -> list[str]:
-    with open(BLACKLIST_FILE, "r") as file:
-        blacklisted_specs = set([ spec.strip() for spec in file.readlines() ])
+    #  return sorted(blacklisted_specs)
 
-    return sorted(blacklisted_specs)
+def read_blocklist_yaml_to_spec() -> list[PluginSpec]:
+    with open(BLOCKLIST_YAML, "r") as file:
+        data = yaml.safe_load(file) or []
 
-def read_blacklist_to_spec() -> list[PluginSpec]:
-    blacklist = read_blacklist()
-    specs = [ PluginSpec.from_spec(spec.strip()) for spec in blacklist ]
+    specs = [ PluginSpec.from_yaml(p) for p in data ]
 
     return sorted(specs)
+
+#  def read_blacklist_to_spec() -> list[PluginSpec]:
+    #  blacklist = read_blacklist()
+    #  specs = [ PluginSpec.from_spec(spec.strip()) for spec in blacklist ]
+
+    #  return sorted(specs)
 
 def write_plugins_nix(plugins: list[VimPlugin]):
     plugins.sort()

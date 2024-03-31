@@ -44,7 +44,7 @@ class PluginSpec:
         self.warning = warning
 
     def __hash__(self):
-        return hash((self.id.lower(), self.repository_host))
+        return hash((self.id, self.repository_host))
 
     @property
     def id(self) -> str:
@@ -171,6 +171,9 @@ class PluginSpec:
             data.update({"warning": self.warning})
 
         return data
+
+    def to_yaml(self) -> str:
+        return yaml.dump(self.to_dict(), default_flow_style=False, sort_keys=False)
 
     def __str__(self) -> str:
         """Return a string representation of a VimPluginSpec."""
