@@ -1,4 +1,4 @@
- - Plugin count: 1023
+ - Plugin count: 1024
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -69,6 +69,7 @@
 | [SidOfc/carbon.nvim](https://github.com/SidOfc/carbon.nvim) | 2024-03-18 | `carbon-nvim` | 
 | [jbyuki/carrot.nvim](https://github.com/jbyuki/carrot.nvim) | 2023-04-25 | `carrot-nvim` | 
 | [Nexmean/caskey.nvim](https://github.com/Nexmean/caskey.nvim) | 2023-01-06 | `caskey-nvim` | 
+| [catppuccin/nvim](https://github.com/catppuccin/nvim) | 2024-03-29 | `catppuccin` | 
 | [uga-rosa/ccc.nvim](https://github.com/uga-rosa/ccc.nvim) | 2024-03-31 | `ccc-nvim` | 
 | [ranjithshegde/ccls.nvim](https://github.com/ranjithshegde/ccls.nvim) | 2023-11-07 | `ccls-nvim` | 
 | [LintaoAmons/cd-project.nvim](https://github.com/LintaoAmons/cd-project.nvim) | 2024-03-25 | `cd-project-nvim` | 

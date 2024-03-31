@@ -1864,6 +1864,7 @@
   repo: treesj
 - owner: catppuccin
   repo: nvim
+  name: catppuccin
 - owner: cappyzawa
   repo: trim.nvim
 - owner: simonmclean

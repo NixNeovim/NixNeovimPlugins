@@ -1146,6 +1146,23 @@
   };
 
   /*
+  Generated from: catppuccin/nvim
+  */
+  catppuccin = buildVimPlugin {
+    pname = "catppuccin";
+    version = "2024-03-29";
+    src = fetchurl {
+      url = "https://github.com/catppuccin/nvim/archive/aebe43db9cb26e1c70fc5b2fd4158169c405e720.tar.gz";
+      sha256 = "1b3g9m487sfx0m0acdk3k42b516hl33q4wl9xbzm2s2cnbnv185p";
+    };
+    meta = with lib; {
+      description = "🍨 Soothing pastel theme for (Neo)vim";
+      homepage = "https://github.com/catppuccin/nvim";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
   Generated from: uga-rosa/ccc.nvim
   */
   ccc-nvim = buildVimPlugin {
