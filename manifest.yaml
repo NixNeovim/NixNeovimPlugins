@@ -36,6 +36,8 @@
   repo: arctic.nvim
 - owner: jim-at-jibba
   repo: ariake-vim-colors
+- owner: otavioschwanck
+  repo: arrow.nvim
 - owner: tjdevries
   repo: astronauta.nvim
   branch: edc19d30a3c51a8c3fc3f606008e5b4238821f1e
@@ -59,10 +61,6 @@
   repo: auto-pandoc.nvim
 - owner: okuuva
   repo: auto-save.nvim
-- owner: nedia
-  repo: auto-save.nvim
-  repository_host: sourcehut
-  name: auto-save-nvim-nedia
 - owner: pocco81
   repo: auto-save.nvim
   name: auto-save-nvim-pocco81
@@ -70,6 +68,8 @@
   repo: auto-session
 - owner: m4xshen
   repo: autoclose.nvim
+- owner: deathbeam
+  repo: autocomplete.nvim
 - owner: mateuszwieloch
   repo: automkdir.nvim
 - owner: antonk52
@@ -98,12 +98,10 @@
   repo: bmessages.nvim
 - owner: rockerBOO
   repo: boo-colorscheme-nvim
-- owner: crusj
+- owner: LukasPietzschmann
+  repo: boo.nvim
+- owner: LintaoAmons
   repo: bookmarks.nvim
-  name: bookmarks-crusj
-- owner: tomasky
-  repo: bookmarks.nvim
-  name: bookmarks-tomasky
 - owner: nat-418
   repo: boole.nvim
 - owner: lstwn
@@ -138,13 +136,12 @@
   repo: carrot.nvim
 - owner: Nexmean
   repo: caskey.nvim
-- owner: catppuccin
-  repo: nvim
-  name: catppuccin
 - owner: uga-rosa
   repo: ccc.nvim
 - owner: ranjithshegde
   repo: ccls.nvim
+- owner: LintaoAmons
+  repo: cd-project.nvim
 - owner: Eandrju
   repo: cellular-automaton.nvim
 - owner: ms-jpq
@@ -269,6 +266,8 @@
   repo: code_runner.nvim
 - owner: niuiic
   repo: code-shot.nvim
+- owner: olimorris
+  repo: codecompanion.nvim
 - owner: dpayne
   repo: CodeGPT.nvim
 - owner: Exafunction
@@ -346,6 +345,10 @@
   repo: crates.nvim
 - owner: gaborvecsei
   repo: cryptoprice.nvim
+- owner: iabdelkareem
+  repo: csharp.nvim
+- owner: theKnightsOfRohan
+  repo: csvlens.nvim
 - owner: gbprod
   repo: cutlass.nvim
 - owner: scottmckendry
@@ -386,6 +389,11 @@
   repo: dirbuf.nvim
 - owner: chipsenkbeil
   repo: distant.nvim
+- owner: bartekjaszczak
+  repo: distinct-nvim
+  repository_host: gitlab
+- owner: Zeioth
+  repo: distroupdate.nvim
 - owner: niuiic
   repo: divider.nvim
 - owner: Zeioth
@@ -396,9 +404,6 @@
   repo: dotenv.nvim
 - owner: Mofiqul
   repo: dracula.nvim
-- owner: dracula
-  repo: vim
-  name: dracula-vim
 - owner: stevearc
   repo: dressing.nvim
 - owner: TheBlob42
@@ -409,12 +414,16 @@
   repo: due.nvim
 - owner: hinell
   repo: duplicate.nvim
+- owner: soulis-1256
+  repo: eagle.nvim
 - owner: Weissle
   repo: easy-action
 - owner: LintaoAmons
   repo: easy-commands.nvim
 - owner: axkirillov
   repo: easypick.nvim
+- owner: Myzel394
+  repo: easytables.nvim
 - owner: sainnhe
   repo: edge
 - owner: kiran94
@@ -500,9 +509,13 @@
   repo: fzfx.nvim
 - owner: NTBBloodbath
   repo: galaxyline.nvim
+- owner: Zeioth
+  repo: garbage-day.nvim
 - owner: gbprod
   repo: nord.nvim
   name: gbprod-nord-nvim
+- owner: kiddos
+  repo: gemini.nvim
 - owner: David-Kunz
   repo: gen.nvim
 - owner: JMarkin
@@ -515,6 +528,8 @@
   repo: gh-actions.nvim
 - owner: ldelossa
   repo: gh.nvim
+- owner: rawnly
+  repo: gist.nvim
 - owner: f-person
   repo: git-blame.nvim
 - owner: akinsho
@@ -541,6 +556,8 @@
   repo: gkeep.nvim
 - owner: DNLHC
   repo: glance.nvim
+- owner: backdround
+  repo: global-note.nvim
 - owner: bkegley
   repo: gloombuddy
 - owner: ellisonleao
@@ -551,6 +568,8 @@
   repo: goimpl.nvim
 - owner: olexsmir
   repo: gopher.nvim
+- owner: yanskun
+  repo: gotests.nvim
 - owner: ofirgall
   repo: goto-breakpoints.nvim
 - owner: rmagatti
@@ -579,10 +598,15 @@
   repo: guess-indent.nvim
 - owner: ray-x
   repo: guihua.lua
+- owner: sxwpb
+  repo: halfspace.nvim
+  repository_host: gitlab
 - owner: m4xshen
   repo: hardtime.nvim
 - owner: ThePrimeagen
   repo: harpoon
+- owner: abeldekat
+  repo: harpoonline
 - owner: mrcjkb
   repo: haskell-snippets.nvim
 - owner: MrcJkb
@@ -593,6 +617,8 @@
   repo: hbac.nvim
 - owner: lukas-reineke
   repo: headlines.nvim
+- owner: zeioth
+  repo: heirline-components.nvim
 - owner: rebelot
   repo: heirline.nvim
 - owner: udayvir-singh
@@ -619,6 +645,8 @@
   repo: hoverhints.nvim
 - owner: roobert
   repo: hoversplit.nvim
+- owner: HoNamDuong
+  repo: hybrid.nvim
 - owner: anuvyklack
   repo: hydra.nvim
   name: hydra-anuvyklack
@@ -633,6 +661,8 @@
   repo: icon-picker.nvim
 - owner: ShinKage
   repo: idris2-nvim
+- owner: altermo
+  repo: iedit.nvim
 - owner: keaising
   repo: im-select.nvim
 - owner: 3rd
@@ -671,6 +701,8 @@
   repo: instant.nvim
 - owner: Mr-LLLLL
   repo: interestingwords.nvim
+- owner: tanloong
+  repo: interlaced.nvim
 - owner: hkupty
   repo: iron.nvim
 - owner: mnacamura
@@ -724,6 +756,8 @@
   repo: kommentary
 - owner: novakne
   repo: kosmikoa.nvim
+- owner: kevinm6
+  repo: kurayami.nvim
 - owner: Wansmer
   repo: langmapper.nvim
 - owner: dasupradyumna
@@ -786,8 +820,8 @@
   repo: lsp-timeout.nvim
 - owner: vonheikemen
   repo: lsp-zero.nvim
-- owner: RishabhRD
-  repo: lspactions
+- owner: deathbeam
+  repo: lspecho.nvim
 - owner: onsails
   repo: lspkind.nvim
 - owner: nvimdev
@@ -798,6 +832,8 @@
   repo: ltex_extra.nvim
 - owner: folke
   repo: lua-dev.nvim
+- owner: Mr-LLLLL
+  repo: lualine-ext.nvim
 - owner: nvim-lualine
   repo: lualine.nvim
 - owner: nvim-neorocks
@@ -806,6 +842,8 @@
   repo: LuaSnip
 - owner: alvarosevilla95
   repo: luatab.nvim
+- owner: lopi-py
+  repo: luau-lsp.nvim
 - owner: rktjmp
   repo: lush.nvim
 - owner: nanotee
@@ -814,6 +852,8 @@
   repo: macrothis.nvim
 - owner: dccsillag
   repo: magma-nvim
+- owner: Zeioth
+  repo: makeit.nvim
 - owner: b0o
   repo: mapx.nvim
 - owner: tadmccorkle
@@ -826,6 +866,8 @@
   repo: markmap.nvim
 - owner: chentoast
   repo: marks.nvim
+- owner: desdic
+  repo: marlin.nvim
 - owner: mpas
   repo: marp-nvim
 - owner: williamboman
@@ -866,6 +908,8 @@
   repo: mkdir.nvim
 - owner: jakewvincent
   repo: mkdnflow.nvim
+- owner: gsuuon
+  repo: model.nvim
 - owner: mawkler
   repo: modicator.nvim
 - owner: ishan9299
@@ -900,6 +944,8 @@
   repo: navigator.lua
 - owner: numToStr
   repo: Navigator.nvim
+- owner: RAprogramm
+  repo: nekifoch
 - owner: nvim-neo-tree
   repo: neo-tree.nvim
 - owner: ecthelionvi
@@ -926,6 +972,8 @@
   repo: NeoNoName.lua
 - owner: pluffie
   repo: neoproj
+- owner: SUSTech-data
+  repo: neopyter
 - owner: nvim-neorg
   repo: neorg
 - owner: nvim-neorg
@@ -934,10 +982,10 @@
   repo: NeoRoot.lua
 - owner: karb94
   repo: neoscroll.nvim
-- owner: Tsuzat
-  repo: NeoSolarized.nvim
 - owner: svrana
   repo: neosolarized.nvim
+- owner: Tsuzat
+  repo: NeoSolarized.nvim
 - owner: nyngwang
   repo: NeoTerm.lua
 - owner: nvim-neotest
@@ -960,6 +1008,8 @@
   repo: nest.nvim
 - owner: miversen33
   repo: netman.nvim
+- owner: prichrd
+  repo: netrw.nvim
 - owner: dense-analysis
   repo: neural
 - owner: oberblastmeister
@@ -1182,10 +1232,14 @@
   repo: nvim-luaref
 - owner: svermeulen
   repo: nvim-lusc
+- owner: kr40
+  repo: nvim-macros
 - owner: jameshiew
   repo: nvim-magic
 - owner: davidgranstrom
   repo: nvim-markdown-preview
+- owner: Nedra1998
+  repo: nvim-mdlink
 - owner: scalameta
   repo: nvim-metals
 - owner: bfredl
@@ -1299,6 +1353,8 @@
   repo: nvim-treesitter-textobjects
 - owner: RRethy
   repo: nvim-treesitter-textsubjects
+- owner: AckslD
+  repo: nvim-trevJ.lua
 - owner: windwp
   repo: nvim-ts-autotag
 - owner: JoosepAlviste
@@ -1339,6 +1395,8 @@
   repo: oceanic-next
 - owner: pwntester
   repo: octo.nvim
+- owner: pianocomposer321
+  repo: officer.nvim
 - owner: ofirgall
   repo: ofirkai.nvim
 - owner: yazeed1s
@@ -1423,6 +1481,8 @@
   repo: persistence.nvim
 - owner: Weissle
   repo: persistent-breakpoints.nvim
+- owner: ta-tikoma
+  repo: php.easy.nvim
 - owner: gbprod
   repo: phpactor.nvim
 - owner: CWood-sdf
@@ -1437,6 +1497,8 @@
   repo: plugin-template.nvim
 - owner: olivercederborg
   repo: poimandres.nvim
+- owner: loganswartz
+  repo: polychrome.nvim
 - owner: nvim-lua
   repo: popup.nvim
 - owner: cbochs
@@ -1485,6 +1547,8 @@
   repo: rayso.nvim
 - owner: toppair
   repo: reach.nvim
+- owner: rasulomaroff
+  repo: reactive.nvim
 - owner: linty-org
   repo: readline.nvim
 - owner: bgaillard
@@ -1493,6 +1557,8 @@
   repo: reaper-keys
 - owner: madskjeldgaard
   repo: reaper-nvim
+- owner: fnune
+  repo: recall.nvim
 - owner: tversteeg
   repo: registers.nvim
 - owner: cpea2506
@@ -1515,9 +1581,6 @@
   repo: rocks.nvim
 - owner: judaew
   repo: ronny.nvim
-- owner: rose-pine
-  repo: neovim
-  name: rose-pine
 - owner: shaeinst
   repo: roshnivim-cs
 - owner: OscarCreator
@@ -1567,6 +1630,10 @@
   repo: sherbet.nvim
 - owner: Wansmer
   repo: sibling-swap.nvim
+- owner: terje
+  repo: simctl.nvim
+- owner: you-n-g
+  repo: simplegpt.nvim
 - owner: LucasTavaresA
   repo: simpleIndentGuides.nvim
 - owner: LucasTavaresA
@@ -1599,6 +1666,8 @@
   repo: sos.nvim
 - owner: Th3Whit3Wolf
   repo: space-nvim
+- owner: CWood-sdf
+  repo: spaceport.nvim
 - owner: edluffy
   repo: specs.nvim
 - owner: RutaTang
@@ -1645,6 +1714,8 @@
   repo: substrata.nvim
 - owner: jim-fx
   repo: sudoku.nvim
+- owner: loganswartz
+  repo: sunburn.nvim
 - owner: miversen33
   repo: sunglasses.nvim
 - owner: roobert
@@ -1659,6 +1730,8 @@
   repo: symbols-outline.nvim
 - owner: ziontee113
   repo: syntax-tree-surfer
+- owner: samharju
+  repo: synthweave.nvim
 - owner: nanozuki
   repo: tabby.nvim
 - owner: rafcamlet
@@ -1679,14 +1752,20 @@
   repo: tabtree.nvim
 - owner: majutsushi
   repo: tagbar
+- owner: luckasRanarison
+  repo: tailwind-tools.nvim
 - owner: roobert
   repo: tailwindcss-colorizer-cmp.nvim
 - owner: themaxmarchuk
   repo: tailwindcss-colors.nvim
 - owner: udayvir-singh
   repo: tangerine.nvim
+- owner: 2KAbhishek
+  repo: tdo.nvim
 - owner: renerocksai
   repo: telekasten.nvim
+- owner: rasulomaroff
+  repo: telepath.nvim
 - owner: otavioschwanck
   repo: telescope-alternate.nvim
 - owner: nvim-telescope
@@ -1699,10 +1778,14 @@
   repo: telescope-file-browser.nvim
 - owner: nvim-telescope
   repo: telescope-fzf-native.nvim
+- owner: isak102
+  repo: telescope-git-file-history.nvim
 - owner: crispgm
   repo: telescope-heading.nvim
 - owner: piersolenski
   repo: telescope-import.nvim
+- owner: polirritmico
+  repo: telescope-lazy-plugins.nvim
 - owner: benfowler
   repo: telescope-luasnip.nvim
 - owner: mrcjkb
@@ -1731,6 +1814,8 @@
   repo: terminal.nvim
 - owner: jakewvincent
   repo: texmagic.nvim
+- owner: johmsalas
+  repo: text-case.nvim
 - owner: svermeulen
   repo: text-to-colorscheme
 - owner: andrewferrier
@@ -1771,6 +1856,8 @@
   repo: tree-sitter-just
 - owner: atusy
   repo: treemonkey.nvim
+- owner: Mr-LLLLL
+  repo: treesitter-outer
 - owner: NFrid
   repo: treesitter-utils
 - owner: Wansmer
@@ -1783,6 +1870,8 @@
   repo: trouble.nvim
 - owner: pocco81
   repo: true-zen.nvim
+- owner: dmmulroy
+  repo: ts-error-translator.nvim
 - owner: ckolkey
   repo: ts-node-action
 - owner: dmmulroy
@@ -1791,6 +1880,8 @@
   repo: tshjkl.nvim
 - owner: folke
   repo: twilight.nvim
+- owner: marilari88
+  repo: twoslash-queries.nvim
 - owner: jose-elias-alvarez
   repo: typescript.nvim
 - owner: chomosuke
@@ -1815,6 +1906,8 @@
   repo: urlview.nvim
 - owner: gaborvecsei
   repo: usage-tracker.nvim
+- owner: Mr-LLLLL
+  repo: utilities.nvim
 - owner: Mangeshrex
   repo: uwu.vim
 - owner: konapun
@@ -1898,10 +1991,14 @@
   repo: virtcolumn.nvim
 - owner: jubnzv
   repo: virtual-types.nvim
+- owner: Willem-J-an
+  repo: visidata.nvim
 - owner: 00sapo
   repo: visual.nvim
 - owner: askfiy
   repo: visual_studio_code
+- owner: mcauley-penney
+  repo: visual-whitespace.nvim
 - owner: 2nthony
   repo: vitesse.nvim
 - owner: tjdevries
@@ -1932,6 +2029,10 @@
   repo: windows.nvim
 - owner: sindrets
   repo: winshift.nvim
+- owner: sontungexpt
+  repo: witch
+- owner: artemave
+  repo: workspace-diagnostics.nvim
 - owner: natecraddock
   repo: workspaces.nvim
 - owner: piersolenski
@@ -1952,6 +2053,8 @@
   repo: yarepl.nvim
 - owner: sonjiku
   repo: yawnc.nvim
+- owner: samharju
+  repo: yeet.nvim
 - owner: zdcthomas
   repo: yop.nvim
 - owner: Lilja
