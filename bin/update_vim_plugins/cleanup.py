@@ -64,25 +64,25 @@ class CleanUpCommand(Command):
 
                     if error_props_lower or error_props_lower2 or error_props or error_source:
                         self.line(f" • <error>Cannot determine which is the correct plugin</error>")
-                        self.line(f" - {p.line}")
-                        self.line(f" - {p2.line}")
+                        self.line(f" - {p.id}")
+                        self.line(f" - {p2.id}")
                         error = True
                         # remove second spec to not encounter the error twice
                         # this will not be written to the manifest.txt because we set
                         # the error flag and will exit after the loop
                         specs.remove(p2)
                     elif select_p:
-                        self.line(f" - <comment>{p.line}</comment>")
-                        self.line(f" - {p2.line}")
+                        self.line(f" - <comment>{p.id}</comment>")
+                        self.line(f" - {p2.id}")
                         specs.remove(p2)
                     elif select_p2:
-                        self.line(f" - {p.line}")
-                        self.line(f" - <comment>{p2.line}</comment>")
+                        self.line(f" - {p.id}")
+                        self.line(f" - <comment>{p2.id}</comment>")
                         specs.remove(p)
                     else:
                         self.line(f" • <error>Logic error in correct spec determination</error>")
-                        self.line(f" - {p.line}")
-                        self.line(f" - {p2.line}")
+                        self.line(f" - {p.id}")
+                        self.line(f" - {p2.id}")
                         error = True
                         # remove second spec to not encounter the error twice
                         # this will not be written to the manifest.txt because we set
