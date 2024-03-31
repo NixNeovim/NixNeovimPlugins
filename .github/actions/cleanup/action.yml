@@ -3,13 +3,6 @@ name: Remove blacklisted entries from manifest.txt
 runs:
   using: 'composite'
   steps:
-    - name: Cleanup manifest
-      shell: bash
-      run: |
-        sort -o ./manifest.txt ./manifest.txt
-        sort -o ./blacklist.txt ./blacklist.txt
-        # remove all files that are in my blacklist
-        echo "$(comm -23 ./manifest.txt ./blacklist.txt)" > ./manifest.txt
     - uses: cachix/install-nix-action@v26
       with:
         github_access_token: ${{ github.token }}
