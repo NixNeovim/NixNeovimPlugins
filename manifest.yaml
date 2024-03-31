@@ -61,10 +61,6 @@
   repo: auto-pandoc.nvim
 - owner: okuuva
   repo: auto-save.nvim
-- owner: nedia
-  repo: auto-save.nvim
-  repository_host: sourcehut
-  name: auto-save-nvim-nedia
 - owner: pocco81
   repo: auto-save.nvim
   name: auto-save-nvim-pocco81
@@ -76,8 +72,6 @@
   repo: autocomplete.nvim
 - owner: mateuszwieloch
   repo: automkdir.nvim
-- owner: Pocco81
-  repo: AutoSave.nvim
 - owner: antonk52
   repo: bad-practices.nvim
 - owner: m00qek
@@ -106,14 +100,8 @@
   repo: boo-colorscheme-nvim
 - owner: LukasPietzschmann
   repo: boo.nvim
-- owner: crusj
-  repo: bookmarks.nvim
-  name: bookmarks-crusj
 - owner: LintaoAmons
   repo: bookmarks.nvim
-- owner: tomasky
-  repo: bookmarks.nvim
-  name: bookmarks-tomasky
 - owner: nat-418
   repo: boole.nvim
 - owner: lstwn
@@ -148,9 +136,6 @@
   repo: carrot.nvim
 - owner: Nexmean
   repo: caskey.nvim
-- owner: catppuccin
-  repo: nvim
-  name: catppuccin
 - owner: uga-rosa
   repo: ccc.nvim
 - owner: ranjithshegde
@@ -419,9 +404,6 @@
   repo: dotenv.nvim
 - owner: Mofiqul
   repo: dracula.nvim
-- owner: dracula
-  repo: vim
-  name: dracula-vim
 - owner: stevearc
   repo: dressing.nvim
 - owner: TheBlob42
@@ -457,8 +439,6 @@
 - owner: everblush
   repo: nvim
   name: everblush
-- owner: Everblush
-  repo: everblush.nvim
 - owner: sainnhe
   repo: everforest
 - owner: neanias
@@ -477,8 +457,6 @@
   repo: falcon
 - owner: h-hg
   repo: fcitx.nvim
-- owner: feline-nvim
-  repo: feline.nvim
 - owner: freddiehaddad
   repo: feline.nvim
 - owner: vxpm
@@ -711,8 +689,6 @@
   repo: incline.nvim
 - owner: lukas-reineke
   repo: indent-blankline.nvim
-- owner: glepnir
-  repo: indent-guides.nvim
 - owner: Darazaki
   repo: indent-o-matic
 - owner: nvimdev
@@ -844,14 +820,10 @@
   repo: lsp-timeout.nvim
 - owner: vonheikemen
   repo: lsp-zero.nvim
-- owner: RishabhRD
-  repo: lspactions
 - owner: deathbeam
   repo: lspecho.nvim
 - owner: onsails
   repo: lspkind.nvim
-- owner: glepnir
-  repo: lspsaga.nvim
 - owner: nvimdev
   repo: lspsaga.nvim
 - owner: jinzhongjia
@@ -909,8 +881,6 @@
 - owner: jubnzv
   repo: mdeval.nvim
 - owner: savq
-  repo: melange
-- owner: savq
   repo: melange-nvim
 - owner: ramojus
   repo: mellifluous.nvim
@@ -940,8 +910,6 @@
   repo: mkdnflow.nvim
 - owner: gsuuon
   repo: model.nvim
-- owner: melkster
-  repo: modicator.nvim
 - owner: mawkler
   repo: modicator.nvim
 - owner: ishan9299
@@ -994,8 +962,6 @@
   repo: neofs
 - owner: danymat
   repo: neogen
-- owner: NeogitOrg
-  repo: neogit
 - owner: adelarsq
   repo: neoline.vim
 - owner: nikvdp
@@ -1016,16 +982,14 @@
   repo: NeoRoot.lua
 - owner: karb94
   repo: neoscroll.nvim
-- owner: svrana
-  repo: neosolarized.nvim
 - owner: Tsuzat
   repo: NeoSolarized.nvim
+- owner: svrana
+  repo: neosolarized.nvim
 - owner: nyngwang
   repo: NeoTerm.lua
 - owner: nvim-neotest
   repo: neotest
-- owner: meliora-theme
-  repo: neovim
 - owner: coffebar
   repo: neovim-project
 - owner: Shatur
@@ -1507,8 +1471,6 @@
   repo: peek.nvim
 - owner: koenverburg
   repo: peepsight.nvim
-- owner: shaeinst
-  repo: penvim
 - owner: Abstract-IDE
   repo: penvim
 - owner: t-troebst
@@ -1553,8 +1515,6 @@
   repo: prettier.nvim
 - owner: anuvyklack
   repo: pretty-fold.nvim
-- owner: glepnir
-  repo: prodoc.nvim
 - owner: ahmedkhalf
   repo: project.nvim
 - owner: gnikdroy
@@ -1611,8 +1571,6 @@
   repo: repolink.nvim
 - owner: raimon49
   repo: requirements.txt.vim
-- owner: NTBBloodbath
-  repo: rest.nvim
 - owner: rest-nvim
   repo: rest.nvim
 - owner: mangelozzi
@@ -1623,9 +1581,6 @@
   repo: rocks.nvim
 - owner: judaew
   repo: ronny.nvim
-- owner: rose-pine
-  repo: neovim
-  name: rose-pine
 - owner: shaeinst
   repo: roshnivim-cs
 - owner: OscarCreator
@@ -1915,8 +1870,6 @@
   repo: trouble.nvim
 - owner: pocco81
   repo: true-zen.nvim
-- owner: Pocco81
-  repo: TrueZen.nvim
 - owner: dmmulroy
   repo: ts-error-translator.nvim
 - owner: ckolkey
@@ -2000,8 +1953,6 @@
   repo: vim-moonfly-colors
 - owner: bluz71
   repo: vim-nightfly-colors
-- owner: bluz71
-  repo: vim-nightfly-guicolors
 - owner: LnL7
   repo: vim-nix
 - owner: meain
