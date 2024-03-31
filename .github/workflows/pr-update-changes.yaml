@@ -30,7 +30,7 @@ jobs:
 
       - name: Update new plugins
         run: |
-          nix run .#update-vim-plugins -- update
+          nix run .#update-vim-plugins -- update --ansi
         env:
           GITHUB_TOKEN: ${{ github.token }}
           SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}
