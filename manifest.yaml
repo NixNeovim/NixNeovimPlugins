@@ -1862,6 +1862,8 @@
   repo: treesitter-utils
 - owner: Wansmer
   repo: treesj
+- owner: catppuccin
+  repo: nvim
 - owner: cappyzawa
   repo: trim.nvim
 - owner: simonmclean

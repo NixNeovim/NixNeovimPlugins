@@ -4,10 +4,6 @@
 - owner: yorickpeterse
   repo: nvim-pqf
   repository_host: gitlab
-
-
-
-
 - owner: EdvinVikstrom
   repo: filetree.nvim
 - owner: NeogitOrg
@@ -26,8 +22,6 @@
   repo: fold-preview
 - owner: bluz71
   repo: vim-nightfly-guicolors
-- owner: catppuccin
-  repo: nvim
 - owner: chaitanyabsrip
   repo: present.nvim
 - owner: crusj
