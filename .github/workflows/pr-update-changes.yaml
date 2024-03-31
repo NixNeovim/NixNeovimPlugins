@@ -25,6 +25,9 @@ jobs:
 
       - uses: DeterminateSystems/magic-nix-cache-action@main
 
+      - name: Clean up Manifest
+        uses: NixNeovim/NixNeovimPlugins/.github/actions/cleanup@main
+
       - name: Update new plugins
         run: |
           nix run .#update-vim-plugins -- update
