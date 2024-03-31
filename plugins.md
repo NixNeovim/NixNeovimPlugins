@@ -1,4 +1,4 @@
- - Plugin count: 1025
+ - Plugin count: 1026
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -42,6 +42,7 @@
 | [ribru17/bamboo.nvim](https://github.com/ribru17/bamboo.nvim) | 2024-03-16 | `bamboo-nvim` | 
 | [romgrk/barbar.nvim](https://github.com/romgrk/barbar.nvim) | 2024-03-29 | `barbar-nvim` | 
 | [utilyre/barbecue.nvim](https://github.com/utilyre/barbecue.nvim) | 2023-09-13 | `barbecue-nvim` | 
+| [chriskempson/base16-vim](https://github.com/chriskempson/base16-vim) | 2022-09-20 | `base16-vim` | 
 | [aliou/bats.vim](https://github.com/aliou/bats.vim) | 2023-04-09 | `bats-vim` | 
 | [max397574/better-escape.nvim](https://github.com/max397574/better-escape.nvim) | 2024-01-21 | `better-escape-nvim` | 
 | [typicode/bg.nvim](https://github.com/typicode/bg.nvim) | 2023-09-22 | `bg-nvim` | 

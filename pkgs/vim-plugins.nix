@@ -687,6 +687,23 @@
   };
 
   /*
+  Generated from: chriskempson/base16-vim
+  */
+  base16-vim = buildVimPlugin {
+    pname = "base16-vim";
+    version = "2022-09-20";
+    src = fetchurl {
+      url = "https://github.com/chriskempson/base16-vim/archive/3be3cd82cd31acfcab9a41bad853d9c68d30478d.tar.gz";
+      sha256 = "0zwrxdk3ils56z57bm5vm24f81l90vwr1hg0gdizszd2kqnwv7li";
+    };
+    meta = with lib; {
+      description = "Base16 for Vim";
+      homepage = "https://github.com/chriskempson/base16-vim";
+      license = with licenses; [];
+    };
+  };
+
+  /*
   Generated from: aliou/bats.vim
   */
   bats-vim = buildVimPlugin {
