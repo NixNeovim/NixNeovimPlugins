@@ -68,9 +68,14 @@ def format_nix_output():
 def write_manifest_yaml_from_spec(specs: list[PluginSpec]):
     """write specs to manifest file. Does some cleaning up"""
 
+    specs = sorted(list(set(specs)))
     strings = [ p.to_dict() for p in specs ]
     y = yaml.dump(strings, default_flow_style=False, sort_keys=False)
+    print(y)
+
     with open(MANIFEST_YAML, "w") as file:
+        file.seek(0)
         file.write(y)
         file.write("\n")
+        file.truncate()
 

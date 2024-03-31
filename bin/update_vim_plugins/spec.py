@@ -45,6 +45,9 @@ class PluginSpec:
         self.commit = commit
         self.warning = warning
 
+    def __hash__(self):
+        return hash((self.id, self.repository_host))
+
     @property
     def id(self) -> str:
         return f"{self.owner}/{self.repo}"
@@ -200,7 +203,7 @@ class PluginSpec:
 
     def __repr__(self):
         """Return the representation of the specs"""
-        return f"PluginSpec({self.owner}/{self.repo}, {self.name})"
+        return f"PluginSpec({self.owner}/{self.repo}, {self.name}, {self.repository_host})"
 
     def to_spec(self):
         """Return a spec line for a VimPluginSpec."""
@@ -221,6 +224,5 @@ class PluginSpec:
             self.repository_host == o.repository_host
             and self.owner == o.owner
             and self.repo == o.repo
-            and self.branch == o.branch
             and self.name == o.name
         )
