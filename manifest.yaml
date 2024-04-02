@@ -1,3 +1,5 @@
+- owner: nvim-neotest
+  repo: nvim-nio
 - owner: chriskempson
   repo: base16-vim
 - owner: 0styx0
