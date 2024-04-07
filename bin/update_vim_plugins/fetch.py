@@ -15,7 +15,7 @@ class FetchCommand(Command):
 
         specs = read_manifest_yaml_to_spec()
 
-        for p in self.fetch_awesome() + self.fetch_m15a():
+        for p in self.fetch_awesome(): #  + self.fetch_m15a():
             if p not in specs:
                 specs.append(p)
 
