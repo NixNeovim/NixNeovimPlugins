@@ -64,6 +64,8 @@
   repo: bookmarks.nvim
 - owner: phaazon
   repo: hop.nvim
+- owner: phaazon
+  repo: mind.nvim
 - owner: nedia
   repo: auto-save.nvim
   repository_host: sourcehut
@@ -72,3 +74,25 @@
   branch: nvim-0.6-compatible:lspactions-nvim06-compatible
 - owner: glepnir
   repo: dashboard-nvim
+- owner: yashguptaz
+  repo: calvera-dark.nvim
+- owner: sudormrfbin
+  repo: cheatsheet.nvim
+- owner: sekke276
+  repo: dark_flat.nvim
+- owner: crispybaccoon
+  repo: evergarden
+- owner: beauwilliams
+  repo: focus.nvim
+- owner: hkupty
+  repo: iron.nvim
+- owner: kvrohit
+  repo: mellow.nvim
+- owner: haringsrob
+  repo: nvim_context_vt
+- owner: windwp
+  repo: nvim-projectconfig
+- owner: kyazdani42
+  repo: nvim-tree.lua
+- owner: kyazdani42
+  repo: nvim-web-devicons

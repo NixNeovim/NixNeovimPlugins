@@ -130,7 +130,7 @@
   repo: bullets.vim
 - owner: hiberabyss
   repo: bzlops.vim
-- owner: yashguptaz
+- owner: niyabits
   repo: calvera-dark.nvim
 - owner: ellisonleao
   repo: carbon-now.nvim
@@ -154,7 +154,7 @@
   repo: chartoggle.nvim
 - owner: jackMort
   repo: ChatGPT.nvim
-- owner: sudormrfbin
+- owner: doctorfree
   repo: cheatsheet.nvim
 - owner: NTBBloodbath
   repo: cheovim
@@ -363,7 +363,7 @@
   repo: dap-utils.nvim
 - owner: Pocco81
   repo: DAPInstall.nvim
-- owner: sekke276
+- owner: uncleTen276
   repo: dark_flat.nvim
 - owner: 4e554c4c
   repo: darkman.nvim
@@ -447,7 +447,7 @@
   repo: everforest
 - owner: neanias
   repo: everforest-nvim
-- owner: crispybaccoon
+- owner: comfysage
   repo: evergarden
 - owner: google
   repo: executor.nvim
@@ -485,7 +485,7 @@
   repo: flyboy
 - owner: is0n
   repo: fm-nvim
-- owner: beauwilliams
+- owner: nvim-focus
   repo: focus.nvim
 - owner: jghauser
   repo: fold-cycle.nvim
@@ -707,7 +707,7 @@
   repo: interestingwords.nvim
 - owner: tanloong
   repo: interlaced.nvim
-- owner: hkupty
+- owner: Vigemus
   repo: iron.nvim
 - owner: mnacamura
   repo: iron.nvim
@@ -862,6 +862,10 @@
   repo: mapx.nvim
 - owner: tadmccorkle
   repo: markdown.nvim
+  name: markdown-tadmccorkle
+- owner: MeanderingProgrammer
+  repo: markdown.nvim
+  name: markdown-meandering-programmer
 - owner: iamcco
   repo: markdown-preview.nvim
 - owner: NFrid
@@ -888,7 +892,7 @@
   repo: melange-nvim
 - owner: ramojus
   repo: mellifluous.nvim
-- owner: kvrohit
+- owner: mellow-theme
   repo: mellow.nvim
 - owner: gaborvecsei
   repo: memento.nvim
@@ -900,7 +904,7 @@
   repo: middleclass
 - owner: dasupradyumna
   repo: midnight.nvim
-- owner: phaazon
+- owner: hadronized
   repo: mind.nvim
 - owner: echasnovski
   repo: mini.nvim
@@ -1108,7 +1112,7 @@
   repo: nvim-compleet
 - owner: klen
   repo: nvim-config-local
-- owner: haringsrob
+- owner: andersevenrud
   repo: nvim_context_vt
 - owner: andythigpen
   repo: nvim-coverage
@@ -1280,7 +1284,7 @@
   repo: nvim-possession
 - owner: yorickpeterse
   repo: nvim-pqf
-- owner: windwp
+- owner: nvim-pack
   repo: nvim-projectconfig
 - owner: chrisgrieser
   repo: nvim-puppeteer
@@ -1345,7 +1349,7 @@
   repo: nvim-toggleterm.lua
 - owner: xiyaowong
   repo: nvim-transparent
-- owner: kyazdani42
+- owner: nvim-tree
   repo: nvim-tree.lua
 - owner: nvim-treesitter
   repo: nvim-treesitter
@@ -1373,7 +1377,7 @@
   repo: nvim-unception
 - owner: chrisgrieser
   repo: nvim-various-textobjs
-- owner: kyazdani42
+- owner: nvim-tree
   repo: nvim-web-devicons
 - owner: yorickpeterse
   repo: nvim-window
@@ -1611,7 +1615,7 @@
   repo: scribe.nvim
 - owner: Xuyuanp
   repo: scrollbar.nvim
-- owner: nkakouros
+- owner: nkakouros-original
   repo: scrollofffraction.nvim
 - owner: FabianWirth
   repo: search.nvim
@@ -2079,6 +2083,5 @@
   repo: zephyr-nvim
 - owner: titanzero
   repo: zephyrium
-- owner: mickael-menu
+- owner: zk-org
   repo: zk-nvim
-
