@@ -1074,7 +1074,7 @@
   repo: nvcode-color-schemes.vim
 - owner: chrisgrieser
   repo: nvim-alt-substitute
-- owner: windwp
+- owner: nvim-pack
   repo: nvim-autopairs
 - owner: RRethy
   repo: nvim-base16
@@ -1316,7 +1316,7 @@
   repo: nvim-snippy
 - owner: ishan9299
   repo: nvim-solarized-lua
-- owner: windwp
+- owner: nvim-pack
   repo: nvim-spectre
 - owner: chrisgrieser
   repo: nvim-spider
@@ -1363,7 +1363,7 @@
   repo: nvim-treesitter-textsubjects
 - owner: AckslD
   repo: nvim-trevJ.lua
-- owner: windwp
+- owner: nvim-pack
   repo: nvim-ts-autotag
 - owner: JoosepAlviste
   repo: nvim-ts-context-commentstring
@@ -2037,7 +2037,7 @@
   repo: wilder.nvim
 - owner: declancm
   repo: windex.nvim
-- owner: windwp
+- owner: nvim-pack
   repo: windline.nvim
 - owner: anuvyklack
   repo: windows.nvim
