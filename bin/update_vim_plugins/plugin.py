@@ -132,7 +132,7 @@ class GitlabPlugin(VimPlugin):
         latest_commit = api_callback["commit"]
         sha = latest_commit["id"]
 
-        self.name = plugin_spec.name
+        self.name = plugin_spec.name # TODO: use info from api_call to auto update when repos are renamed
         self.repo = plugin_spec.repo
         self.owner = plugin_spec.owner
         self.version = parse(latest_commit["created_at"]).date()
