@@ -16738,6 +16738,23 @@
   };
 
   /*
+  Generated from: tpope/vim-endwise
+  */
+  vim-endwise = buildVimPlugin {
+    pname = "vim-endwise";
+    version = "2024-01-16";
+    src = fetchurl {
+      url = "https://github.com/tpope/vim-endwise/archive/3719ffddb5e42bf67b55b2183d7a6fb8d3e5a2b8.tar.gz";
+      sha256 = "15cjjr96pazy09l94dqcvqq5xz69qmd7n7c2dd13lk7x1bc7qghl";
+    };
+    meta = with lib; {
+      description = "endwise.vim: Wisely add ";
+      homepage = "https://github.com/tpope/vim-endwise";
+      license = with licenses; [];
+    };
+  };
+
+  /*
   Generated from: mnacamura/vim-fennel-syntax
   */
   vim-fennel-syntax = buildVimPlugin {

@@ -1,4 +1,4 @@
- - Plugin count: 1053
+ - Plugin count: 1054
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -986,6 +986,7 @@
 | [tomasiser/vim-code-dark](https://github.com/tomasiser/vim-code-dark) | 2024-04-11 | `vim-code-dark` | 
 | [junegunn/vim-easy-align](https://github.com/junegunn/vim-easy-align) | 2024-04-13 | `vim-easy-align` | 
 | [houtsnip/vim-emacscommandline](https://github.com/houtsnip/vim-emacscommandline) | 2017-11-24 | `vim-emacscommandline` | 
+| [tpope/vim-endwise](https://github.com/tpope/vim-endwise) | 2024-01-16 | `vim-endwise` | 
 | [mnacamura/vim-fennel-syntax](https://github.com/m15a/vim-fennel-syntax) | 2024-03-18 | `vim-fennel-syntax` | 
 | [inkch/vim-fish](https://github.com/inkch/vim-fish) | 2022-03-06 | `vim-fish-inkch` | 
 | [rhysd/vim-gfm-syntax](https://github.com/rhysd/vim-gfm-syntax) | 2022-08-01 | `vim-gfm-syntax` | 
