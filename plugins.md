@@ -1,4 +1,4 @@
- - Plugin count: 1056
+ - Plugin count: 1057
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -247,6 +247,7 @@
 | [glacambre/firenvim](https://github.com/glacambre/firenvim) | 2024-05-12 | `firenvim` | 
 | [folke/flash.nvim](https://github.com/folke/flash.nvim) | 2024-05-14 | `flash-nvim` | 
 | [willothy/flatten.nvim](https://github.com/willothy/flatten.nvim) | 2024-04-03 | `flatten-nvim` | 
+| [kepano/flexoki-neovim](https://github.com/kepano/flexoki-neovim) | 2024-02-07 | `flexoki-neovim` | 
 | [ggandor/flit.nvim](https://github.com/ggandor/flit.nvim) | 2024-04-08 | `flit-nvim` | 
 | [maxmx03/FluoroMachine.nvim](https://github.com/maxmx03/fluoromachine.nvim) | 2024-01-29 | `FluoroMachine-nvim` | 
 | [akinsho/flutter-tools.nvim](https://github.com/akinsho/flutter-tools.nvim) | 2024-04-19 | `flutter-tools-nvim` | 
