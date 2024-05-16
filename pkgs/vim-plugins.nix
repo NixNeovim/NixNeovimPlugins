@@ -16619,6 +16619,23 @@
   };
 
   /*
+  Generated from: linux-cultist/venv-selector.nvim
+  */
+  venv-selector-nvim = buildVimPlugin {
+    pname = "venv-selector-nvim";
+    version = "2024-05-14";
+    src = fetchurl {
+      url = "https://github.com/linux-cultist/venv-selector.nvim/archive/6a1b15eb35bbb827b6db428055087e2dbf32838f.tar.gz";
+      sha256 = "1ghg5lap1laz4nfgvfk1g9jbc8hd3rxp4xvywyrzgahnlyrrgms1";
+    };
+    meta = with lib; {
+      description = "Allows selection of python virtual environment from within neovim";
+      homepage = "https://github.com/linux-cultist/venv-selector.nvim";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
   Generated from: tanvirtin/vgit.nvim
   */
   vgit-nvim = buildVimPlugin {

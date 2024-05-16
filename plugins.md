@@ -1,4 +1,4 @@
- - Plugin count: 1056
+ - Plugin count: 1057
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -979,6 +979,7 @@
 | [willothy/veil.nvim](https://github.com/willothy/veil.nvim) | 2023-12-25 | `veil-nvim` | 
 | [jbyuki/venn.nvim](https://github.com/jbyuki/venn.nvim) | 2024-05-03 | `venn-nvim` | 
 | [jyscao/ventana.nvim](https://github.com/jyscao/ventana.nvim) | 2023-10-13 | `ventana-nvim` | 
+| [linux-cultist/venv-selector.nvim](https://github.com/linux-cultist/venv-selector.nvim) | 2024-05-14 | `venv-selector-nvim` | 
 | [tanvirtin/vgit.nvim](https://github.com/tanvirtin/vgit.nvim) | 2024-04-06 | `vgit-nvim` | 
 | [embark-theme/vim](https://github.com/embark-theme/vim) | 2024-02-14 | `vim` | 
 | [theprimeagen/vim-apm](https://github.com/ThePrimeagen/vim-apm) | 2024-02-03 | `vim-apm` | 
