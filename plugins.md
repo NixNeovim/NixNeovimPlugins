@@ -1,4 +1,4 @@
- - Plugin count: 1054
+ - Plugin count: 1055
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -299,6 +299,7 @@
 | [yanskun/gotests.nvim](https://github.com/yanskun/gotests.nvim) | 2024-03-05 | `gotests-nvim` | 
 | [ofirgall/goto-breakpoints.nvim](https://github.com/ofirgall/goto-breakpoints.nvim) | 2023-11-02 | `goto-breakpoints-nvim` | 
 | [rmagatti/goto-preview](https://github.com/rmagatti/goto-preview) | 2024-04-05 | `goto-preview` | 
+| [junegunn/goyo.vim](https://github.com/junegunn/goyo.vim) | 2023-03-04 | `goyo-vim` | 
 | [Robitx/gp.nvim](https://github.com/Robitx/gp.nvim) | 2024-03-26 | `gp-nvim` | 
 | [cbochs/grapple.nvim](https://github.com/cbochs/grapple.nvim) | 2024-04-28 | `grapple-nvim` | 
 | [desdic/greyjoy.nvim](https://github.com/desdic/greyjoy.nvim) | 2024-05-03 | `greyjoy-nvim` | 
@@ -504,8 +505,8 @@
 | [nvim-neorg/neorg-telescope](https://github.com/nvim-neorg/neorg-telescope) | 2024-04-19 | `neorg-telescope` | 
 | [nyngwang/NeoRoot.lua](https://github.com/nyngwang/NeoRoot.lua) | 2023-02-08 | `NeoRoot-lua` | 
 | [karb94/neoscroll.nvim](https://github.com/karb94/neoscroll.nvim) | 2024-04-30 | `neoscroll-nvim` | 
-| [svrana/neosolarized.nvim](https://github.com/svrana/neosolarized.nvim) | 2024-05-08 | `neosolarized-nvim` | 
 | [Tsuzat/NeoSolarized.nvim](https://github.com/Tsuzat/NeoSolarized.nvim) | 2024-05-13 | `NeoSolarized-nvim` | 
+| [svrana/neosolarized.nvim](https://github.com/svrana/neosolarized.nvim) | 2024-05-08 | `neosolarized-nvim` | 
 | [nyngwang/NeoTerm.lua](https://github.com/nyngwang/NeoTerm.lua) | 2023-06-22 | `NeoTerm-lua` | 
 | [nvim-neotest/neotest](https://github.com/nvim-neotest/neotest) | 2024-04-28 | `neotest` | 
 | [coffebar/neovim-project](https://github.com/coffebar/neovim-project) | 2024-04-28 | `neovim-project` | 

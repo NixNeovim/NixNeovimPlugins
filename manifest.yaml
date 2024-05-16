@@ -1,3 +1,5 @@
+- owner: junegunn
+  repo: goyo.vim
 - owner: tpope
   repo: vim-endwise
 - owner: 0styx0
