@@ -2149,5 +2149,5 @@
   repo: zephyrium
 - owner: zk-org
   repo: zk-nvim
-- owner: kepano
-  repo: flexoki-neovim
+- owner: linux-cultist
+  repo: venv-selector.nvim
