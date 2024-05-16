@@ -1,9 +1,3 @@
-- owner: mhinz
-  repo: vim-startify
-- owner: junegunn
-  repo: goyo.vim
-- owner: tpope
-  repo: vim-endwise
 - owner: 0styx0
   repo: abbreinder.nvim
 - owner: 0styx0
@@ -609,6 +603,8 @@
   repo: goto-breakpoints.nvim
 - owner: rmagatti
   repo: goto-preview
+- owner: junegunn
+  repo: goyo.vim
 - owner: Robitx
   repo: gp.nvim
 - owner: cbochs
@@ -1113,9 +1109,9 @@
   repo: nvcode-color-schemes.vim
 - owner: chrisgrieser
   repo: nvim-alt-substitute
-- owner: nvim-pack
-  repo: nvim-autopairs
 - owner: windwp
+  repo: nvim-autopairs
+- owner: nvim-pack
   repo: nvim-autopairs
 - owner: RRethy
   repo: nvim-base16
@@ -1408,9 +1404,9 @@
   repo: nvim-treesitter-textsubjects
 - owner: AckslD
   repo: nvim-trevJ.lua
-- owner: nvim-pack
-  repo: nvim-ts-autotag
 - owner: windwp
+  repo: nvim-ts-autotag
+- owner: nvim-pack
   repo: nvim-ts-autotag
 - owner: JoosepAlviste
   repo: nvim-ts-context-commentstring
@@ -1906,6 +1902,8 @@
   repo: tmux.nvim
 - owner: folke
   repo: todo-comments.nvim
+- owner: WhoIsSethDaniel
+  repo: toggle-lsp-diagnostics.nvim
 - owner: jedrzejboczar
   repo: toggletasks.nvim
 - owner: akinsho
@@ -2008,6 +2006,8 @@
   repo: vim-easy-align
 - owner: houtsnip
   repo: vim-emacscommandline
+- owner: tpope
+  repo: vim-endwise
 - owner: mnacamura
   repo: vim-fennel-syntax
 - owner: inkch
@@ -2035,6 +2035,8 @@
   repo: vim-r7rs-syntax
 - owner: tpope
   repo: vim-repeat
+- owner: mhinz
+  repo: vim-startify
 - owner: dstein64
   repo: vim-startuptime
 - owner: evanleck
@@ -2149,5 +2151,4 @@
   repo: zephyrium
 - owner: zk-org
   repo: zk-nvim
-- owner: WhoIsSethDaniel
-  repo: toggle-lsp-diagnostics.nvim
+

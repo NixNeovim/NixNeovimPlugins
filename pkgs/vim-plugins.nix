@@ -15905,6 +15905,23 @@
   };
 
   /*
+  Generated from: WhoIsSethDaniel/toggle-lsp-diagnostics.nvim
+  */
+  toggle-lsp-diagnostics-nvim = buildVimPlugin {
+    pname = "toggle-lsp-diagnostics-nvim";
+    version = "2024-04-30";
+    src = fetchurl {
+      url = "https://github.com/WhoIsSethDaniel/toggle-lsp-diagnostics.nvim/archive/afcacba44d86df4c3c9752b869e78eb838f55765.tar.gz";
+      sha256 = "1qyf745q9cs75jq759hy4bknwwigw907a649hmpmxf8lxzxg54dz";
+    };
+    meta = with lib; {
+      description = "Neovim plugin for toggling the LSP diagnostics.";
+      homepage = "https://github.com/WhoIsSethDaniel/toggle-lsp-diagnostics.nvim";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
   Generated from: jedrzejboczar/toggletasks.nvim
   */
   toggletasks-nvim = buildVimPlugin {
