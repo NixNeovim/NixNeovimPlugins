@@ -228,6 +228,7 @@
 | [kiran94/edit-markdown-table.nvim](https://github.com/kiran94/edit-markdown-table.nvim) | 2023-05-28 | `edit-markdown-table-nvim` | 
 | [gpanders/editorconfig.nvim](https://github.com/gpanders/editorconfig.nvim) | 2023-01-10 | `editorconfig-nvim` | 
 | [creativenull/efmls-configs-nvim](https://github.com/creativenull/efmls-configs-nvim) | 2024-05-07 | `efmls-configs-nvim` | 
+| [mattn/emmet-vim](https://github.com/mattn/emmet-vim) | 2021-12-04 | `emmet-vim` | 
 | [nvimdev/epo.nvim](https://github.com/nvimdev/epo.nvim) | 2024-05-09 | `epo-nvim` | 
 | [cvigilv/esqueleto.nvim](https://github.com/cvigilv/esqueleto.nvim) | 2024-03-25 | `esqueleto-nvim` | 
 | [everblush/nvim](https://github.com/Everblush/nvim) | 2023-05-11 | `everblush` | 

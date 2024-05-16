@@ -1,3 +1,5 @@
+- owner: mattn
+  repo: emmet-vim
 - owner: mhinz
   repo: vim-startify
 - owner: junegunn
