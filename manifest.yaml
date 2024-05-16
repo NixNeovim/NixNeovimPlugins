@@ -1,3 +1,5 @@
+- owner: mhinz
+  repo: vim-startify
 - owner: junegunn
   repo: goyo.vim
 - owner: tpope
@@ -2147,4 +2149,3 @@
   repo: zephyrium
 - owner: zk-org
   repo: zk-nvim
-

@@ -16993,6 +16993,23 @@
   };
 
   /*
+  Generated from: mhinz/vim-startify
+  */
+  vim-startify = buildVimPlugin {
+    pname = "vim-startify";
+    version = "2023-09-20";
+    src = fetchurl {
+      url = "https://github.com/mhinz/vim-startify/archive/4e089dffdad46f3f5593f34362d530e8fe823dcf.tar.gz";
+      sha256 = "1w113zr3i52rcyg6nv8cri4djqmkxlf9rpf6ssi4nm92d06xa6bg";
+    };
+    meta = with lib; {
+      description = ":link: The fancy start screen for Vim.";
+      homepage = "https://github.com/mhinz/vim-startify";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
   Generated from: dstein64/vim-startuptime
   */
   vim-startuptime = buildVimPlugin {

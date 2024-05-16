@@ -1,4 +1,4 @@
- - Plugin count: 1055
+ - Plugin count: 1056
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -1001,6 +1001,7 @@
 | [meain/vim-printer](https://github.com/meain/vim-printer) | 2024-01-24 | `vim-printer` | 
 | [mnacamura/vim-r7rs-syntax](https://github.com/m15a/vim-r7rs-syntax) | 2021-07-09 | `vim-r7rs-syntax` | 
 | [tpope/vim-repeat](https://github.com/tpope/vim-repeat) | 2021-01-25 | `vim-repeat` | 
+| [mhinz/vim-startify](https://github.com/mhinz/vim-startify) | 2023-09-20 | `vim-startify` | 
 | [dstein64/vim-startuptime](https://github.com/dstein64/vim-startuptime) | 2024-03-17 | `vim-startuptime` | 
 | [evanleck/vim-svelte](https://github.com/evanleck/vim-svelte) | 2022-10-27 | `vim-svelte` | 
 | [leafOfTree/vim-svelte-plugin](https://github.com/leafOfTree/vim-svelte-plugin) | 2024-03-13 | `vim-svelte-plugin` | 
