@@ -2149,3 +2149,5 @@
   repo: zephyrium
 - owner: zk-org
   repo: zk-nvim
+- owner: nvimtools
+  repo: none-ls-extras.nvim
