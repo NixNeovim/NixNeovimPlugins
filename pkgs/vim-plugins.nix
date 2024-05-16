@@ -9019,6 +9019,23 @@
   };
 
   /*
+  Generated from: nvimtools/none-ls-extras.nvim
+  */
+  none-ls-extras-nvim = buildVimPlugin {
+    pname = "none-ls-extras-nvim";
+    version = "2024-05-10";
+    src = fetchurl {
+      url = "https://github.com/nvimtools/none-ls-extras.nvim/archive/336e84b9e43c0effb735b08798ffac382920053b.tar.gz";
+      sha256 = "1g2257cs5lcp6bgb601l5d4dcgkflylrqz8yj54ljk74c63m0118";
+    };
+    meta = with lib; {
+      description = "Extra sources for none-ls.nvim. Not extensively tested, may be prone to break.";
+      homepage = "https://github.com/nvimtools/none-ls-extras.nvim";
+      license = with licenses; [];
+    };
+  };
+
+  /*
   Generated from: nvimtools/none-ls.nvim
   */
   none-ls-nvim = buildVimPlugin {
