@@ -1,3 +1,11 @@
+- owner: mattn
+  repo: emmet-vim
+- owner: mhinz
+  repo: vim-startify
+- owner: junegunn
+  repo: goyo.vim
+- owner: tpope
+  repo: vim-endwise
 - owner: 0styx0
   repo: abbreinder.nvim
 - owner: 0styx0
@@ -1025,10 +1033,10 @@
   repo: NeoRoot.lua
 - owner: karb94
   repo: neoscroll.nvim
-- owner: Tsuzat
-  repo: NeoSolarized.nvim
 - owner: svrana
   repo: neosolarized.nvim
+- owner: Tsuzat
+  repo: NeoSolarized.nvim
 - owner: nyngwang
   repo: NeoTerm.lua
 - owner: nvim-neotest
@@ -1079,6 +1087,8 @@
   repo: no-neck-pain.nvim
 - owner: folke
   repo: noice.nvim
+- owner: nvimtools
+  repo: none-ls-extras.nvim
 - owner: nvimtools
   repo: none-ls.nvim
 - owner: AlexvZyl
