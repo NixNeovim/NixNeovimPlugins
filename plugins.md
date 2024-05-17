@@ -940,6 +940,7 @@
 | [otavioschwanck/tmux-awesome-manager.nvim](https://github.com/otavioschwanck/tmux-awesome-manager.nvim) | 2024-02-06 | `tmux-awesome-manager-nvim` | 
 | [aserowy/tmux.nvim](https://github.com/aserowy/tmux.nvim) | 2024-04-25 | `tmux-nvim` | 
 | [folke/todo-comments.nvim](https://github.com/folke/todo-comments.nvim) | 2024-03-27 | `todo-comments-nvim` | 
+| [WhoIsSethDaniel/toggle-lsp-diagnostics.nvim](https://github.com/WhoIsSethDaniel/toggle-lsp-diagnostics.nvim) | 2024-04-30 | `toggle-lsp-diagnostics-nvim` | 
 | [jedrzejboczar/toggletasks.nvim](https://github.com/jedrzejboczar/toggletasks.nvim) | 2023-03-08 | `toggletasks-nvim` | 
 | [akinsho/toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim) | 2024-04-22 | `toggleterm-nvim` | 
 | [tiagovla/tokyodark.nvim](https://github.com/tiagovla/tokyodark.nvim) | 2024-04-29 | `tokyodark-nvim` | 

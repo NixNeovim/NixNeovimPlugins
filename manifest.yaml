@@ -1908,6 +1908,8 @@
   repo: tmux.nvim
 - owner: folke
   repo: todo-comments.nvim
+- owner: WhoIsSethDaniel
+  repo: toggle-lsp-diagnostics.nvim
 - owner: jedrzejboczar
   repo: toggletasks.nvim
 - owner: akinsho
@@ -2105,9 +2107,9 @@
   repo: wilder.nvim
 - owner: declancm
   repo: windex.nvim
-- owner: nvim-pack
-  repo: windline.nvim
 - owner: windwp
+  repo: windline.nvim
+- owner: nvim-pack
   repo: windline.nvim
 - owner: anuvyklack
   repo: windows.nvim
