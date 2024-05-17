@@ -124,6 +124,23 @@
   };
 
   /*
+  Generated from: MaximilianLloyd/adjacent.nvim
+  */
+  adjacent-nvim = buildVimPlugin {
+    pname = "adjacent-nvim";
+    version = "2023-02-28";
+    src = fetchurl {
+      url = "https://github.com/MaximilianLloyd/adjacent.nvim/archive/a555ab92d61aa6fbbfa1bfaef4633b663563f04e.tar.gz";
+      sha256 = "0101gg3q8mc6d36y5ka5pn69c2z7cjqd15x4nkmbq3ldfcyh8vdr";
+    };
+    meta = with lib; {
+      description = "A tiny telescope extension to find files in the same directory as the current buffer.";
+      homepage = "https://github.com/MaximilianLloyd/adjacent.nvim";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
   Generated from: aaronhallaert/advanced-git-search.nvim
   */
   advanced-git-search-nvim = buildVimPlugin {
@@ -8594,23 +8611,6 @@
   };
 
   /*
-  Generated from: Tsuzat/NeoSolarized.nvim
-  */
-  NeoSolarized-nvim = buildVimPlugin {
-    pname = "NeoSolarized-nvim";
-    version = "2024-05-13";
-    src = fetchurl {
-      url = "https://github.com/Tsuzat/NeoSolarized.nvim/archive/5c0335123ce2ddf0e98546312e4c120df9cf502f.tar.gz";
-      sha256 = "1rqfwl8l03qfqf33rhxigp7p5ghl4wdc4lyjc3l91nfljxcx5ii6";
-    };
-    meta = with lib; {
-      description = "NeoSolarized colorscheme for NeoVim with full transparency";
-      homepage = "https://github.com/Tsuzat/NeoSolarized.nvim";
-      license = with licenses; [];
-    };
-  };
-
-  /*
   Generated from: svrana/neosolarized.nvim
   */
   neosolarized-nvim = buildVimPlugin {
@@ -8623,6 +8623,23 @@
     meta = with lib; {
       description = "Truecolor solarized theme for neovim in Lua using colorbuddy";
       homepage = "https://github.com/svrana/neosolarized.nvim";
+      license = with licenses; [];
+    };
+  };
+
+  /*
+  Generated from: Tsuzat/NeoSolarized.nvim
+  */
+  NeoSolarized-nvim = buildVimPlugin {
+    pname = "NeoSolarized-nvim";
+    version = "2024-05-13";
+    src = fetchurl {
+      url = "https://github.com/Tsuzat/NeoSolarized.nvim/archive/5c0335123ce2ddf0e98546312e4c120df9cf502f.tar.gz";
+      sha256 = "1rqfwl8l03qfqf33rhxigp7p5ghl4wdc4lyjc3l91nfljxcx5ii6";
+    };
+    meta = with lib; {
+      description = "NeoSolarized colorscheme for NeoVim with full transparency";
+      homepage = "https://github.com/Tsuzat/NeoSolarized.nvim";
       license = with licenses; [];
     };
   };
