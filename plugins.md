@@ -1,4 +1,4 @@
- - Plugin count: 1057
+ - Plugin count: 1060
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
