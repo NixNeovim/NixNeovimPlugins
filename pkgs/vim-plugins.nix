@@ -3866,6 +3866,23 @@
   };
 
   /*
+  Generated from: mattn/emmet-vim
+  */
+  emmet-vim = buildVimPlugin {
+    pname = "emmet-vim";
+    version = "2021-12-04";
+    src = fetchurl {
+      url = "https://github.com/mattn/emmet-vim/archive/def5d57a1ae5afb1b96ebe83c4652d1c03640f4d.tar.gz";
+      sha256 = "165sdfgdwxsr2mv8bf0g2yagnmny8lvqbw5pfsi52hncp8065959";
+    };
+    meta = with lib; {
+      description = "emmet for vim: http://emmet.io/";
+      homepage = "https://github.com/mattn/emmet-vim";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
   Generated from: nvimdev/epo.nvim
   */
   epo-nvim = buildVimPlugin {
@@ -9031,6 +9048,23 @@
     meta = with lib; {
       description = "💥 Highly experimental plugin that completely replaces the UI for messages, cmdline and the popupmenu.";
       homepage = "https://github.com/folke/noice.nvim";
+      license = with licenses; [];
+    };
+  };
+
+  /*
+  Generated from: nvimtools/none-ls-extras.nvim
+  */
+  none-ls-extras-nvim = buildVimPlugin {
+    pname = "none-ls-extras-nvim";
+    version = "2024-05-10";
+    src = fetchurl {
+      url = "https://github.com/nvimtools/none-ls-extras.nvim/archive/336e84b9e43c0effb735b08798ffac382920053b.tar.gz";
+      sha256 = "1g2257cs5lcp6bgb601l5d4dcgkflylrqz8yj54ljk74c63m0118";
+    };
+    meta = with lib; {
+      description = "Extra sources for none-ls.nvim. Not extensively tested, may be prone to break.";
+      homepage = "https://github.com/nvimtools/none-ls-extras.nvim";
       license = with licenses; [];
     };
   };
@@ -16631,6 +16665,23 @@
     meta = with lib; {
       description = "Convenient flips & shifts for your windows layout";
       homepage = "https://github.com/jyscao/ventana.nvim";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
+  Generated from: linux-cultist/venv-selector.nvim
+  */
+  venv-selector-nvim = buildVimPlugin {
+    pname = "venv-selector-nvim";
+    version = "2024-05-14";
+    src = fetchurl {
+      url = "https://github.com/linux-cultist/venv-selector.nvim/archive/6a1b15eb35bbb827b6db428055087e2dbf32838f.tar.gz";
+      sha256 = "1ghg5lap1laz4nfgvfk1g9jbc8hd3rxp4xvywyrzgahnlyrrgms1";
+    };
+    meta = with lib; {
+      description = "Allows selection of python virtual environment from within neovim";
+      homepage = "https://github.com/linux-cultist/venv-selector.nvim";
       license = with licenses; [mit];
     };
   };

@@ -1,3 +1,11 @@
+- owner: mattn
+  repo: emmet-vim
+- owner: mhinz
+  repo: vim-startify
+- owner: junegunn
+  repo: goyo.vim
+- owner: tpope
+  repo: vim-endwise
 - owner: 0styx0
   repo: abbreinder.nvim
 - owner: 0styx0
@@ -1027,10 +1035,10 @@
   repo: NeoRoot.lua
 - owner: karb94
   repo: neoscroll.nvim
-- owner: Tsuzat
-  repo: NeoSolarized.nvim
 - owner: svrana
   repo: neosolarized.nvim
+- owner: Tsuzat
+  repo: NeoSolarized.nvim
 - owner: nyngwang
   repo: NeoTerm.lua
 - owner: nvim-neotest
@@ -1081,6 +1089,8 @@
   repo: no-neck-pain.nvim
 - owner: folke
   repo: noice.nvim
+- owner: nvimtools
+  repo: none-ls-extras.nvim
 - owner: nvimtools
   repo: none-ls.nvim
 - owner: AlexvZyl
@@ -1406,9 +1416,9 @@
   repo: nvim-treesitter-textsubjects
 - owner: AckslD
   repo: nvim-trevJ.lua
-- owner: nvim-pack
-  repo: nvim-ts-autotag
 - owner: windwp
+  repo: nvim-ts-autotag
+- owner: nvim-pack
   repo: nvim-ts-autotag
 - owner: JoosepAlviste
   repo: nvim-ts-context-commentstring
@@ -1990,6 +2000,8 @@
   repo: venn.nvim
 - owner: jyscao
   repo: ventana.nvim
+- owner: linux-cultist
+  repo: venv-selector.nvim
 - owner: tanvirtin
   repo: vgit.nvim
 - owner: embark-theme
@@ -2099,9 +2111,9 @@
   repo: wilder.nvim
 - owner: declancm
   repo: windex.nvim
-- owner: windwp
-  repo: windline.nvim
 - owner: nvim-pack
+  repo: windline.nvim
+- owner: windwp
   repo: windline.nvim
 - owner: anuvyklack
   repo: windows.nvim
