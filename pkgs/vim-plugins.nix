@@ -4189,6 +4189,23 @@
   };
 
   /*
+  Generated from: kepano/flexoki-neovim
+  */
+  flexoki-neovim = buildVimPlugin {
+    pname = "flexoki-neovim";
+    version = "2024-02-07";
+    src = fetchurl {
+      url = "https://github.com/kepano/flexoki-neovim/archive/975654bce67514114db89373539621cff42befb5.tar.gz";
+      sha256 = "1y52g0jhp4d1iilb96xm93yq13a7iyr631cxz695jxp9y84j2m9w";
+    };
+    meta = with lib; {
+      description = "Flexoki color scheme for Neovim";
+      homepage = "https://github.com/kepano/flexoki-neovim";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
   Generated from: ggandor/flit.nvim
   */
   flit-nvim = buildVimPlugin {
