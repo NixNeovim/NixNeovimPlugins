@@ -3849,6 +3849,23 @@
   };
 
   /*
+  Generated from: mattn/emmet-vim
+  */
+  emmet-vim = buildVimPlugin {
+    pname = "emmet-vim";
+    version = "2021-12-04";
+    src = fetchurl {
+      url = "https://github.com/mattn/emmet-vim/archive/def5d57a1ae5afb1b96ebe83c4652d1c03640f4d.tar.gz";
+      sha256 = "165sdfgdwxsr2mv8bf0g2yagnmny8lvqbw5pfsi52hncp8065959";
+    };
+    meta = with lib; {
+      description = "emmet for vim: http://emmet.io/";
+      homepage = "https://github.com/mattn/emmet-vim";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
   Generated from: nvimdev/epo.nvim
   */
   epo-nvim = buildVimPlugin {
