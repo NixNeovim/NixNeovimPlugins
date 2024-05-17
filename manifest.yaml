@@ -611,6 +611,8 @@
   repo: goto-breakpoints.nvim
 - owner: rmagatti
   repo: goto-preview
+- owner: junegunn
+  repo: goyo.vim
 - owner: Robitx
   repo: gp.nvim
 - owner: cbochs
@@ -1031,10 +1033,10 @@
   repo: NeoRoot.lua
 - owner: karb94
   repo: neoscroll.nvim
-- owner: Tsuzat
-  repo: NeoSolarized.nvim
 - owner: svrana
   repo: neosolarized.nvim
+- owner: Tsuzat
+  repo: NeoSolarized.nvim
 - owner: nyngwang
   repo: NeoTerm.lua
 - owner: nvim-neotest
@@ -1085,6 +1087,8 @@
   repo: no-neck-pain.nvim
 - owner: folke
   repo: noice.nvim
+- owner: nvimtools
+  repo: none-ls-extras.nvim
 - owner: nvimtools
   repo: none-ls.nvim
 - owner: AlexvZyl
@@ -1410,9 +1414,9 @@
   repo: nvim-treesitter-textsubjects
 - owner: AckslD
   repo: nvim-trevJ.lua
-- owner: nvim-pack
-  repo: nvim-ts-autotag
 - owner: windwp
+  repo: nvim-ts-autotag
+- owner: nvim-pack
   repo: nvim-ts-autotag
 - owner: JoosepAlviste
   repo: nvim-ts-context-commentstring
@@ -2010,6 +2014,8 @@
   repo: vim-easy-align
 - owner: houtsnip
   repo: vim-emacscommandline
+- owner: tpope
+  repo: vim-endwise
 - owner: mnacamura
   repo: vim-fennel-syntax
 - owner: inkch
@@ -2037,6 +2043,8 @@
   repo: vim-r7rs-syntax
 - owner: tpope
   repo: vim-repeat
+- owner: mhinz
+  repo: vim-startify
 - owner: dstein64
   repo: vim-startuptime
 - owner: evanleck
@@ -2151,3 +2159,4 @@
   repo: zephyrium
 - owner: zk-org
   repo: zk-nvim
+

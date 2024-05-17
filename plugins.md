@@ -1,4 +1,4 @@
- - Plugin count: 1056
+ - Plugin count: 1057
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -533,6 +533,7 @@
 | [luukvbaal/nnn.nvim](https://github.com/luukvbaal/nnn.nvim) | 2023-06-08 | `nnn-nvim` | 
 | [shortcuts/no-neck-pain.nvim](https://github.com/shortcuts/no-neck-pain.nvim) | 2024-05-15 | `no-neck-pain-nvim` | 
 | [folke/noice.nvim](https://github.com/folke/noice.nvim) | 2024-05-16 | `noice-nvim` | 
+| [nvimtools/none-ls-extras.nvim](https://github.com/nvimtools/none-ls-extras.nvim) | 2024-05-10 | `none-ls-extras-nvim` | 
 | [nvimtools/none-ls.nvim](https://github.com/nvimtools/none-ls.nvim) | 2024-05-14 | `none-ls-nvim` | 
 | [AlexvZyl/nordic.nvim](https://github.com/AlexvZyl/nordic.nvim) | 2024-04-14 | `nordic-alexczyl` | 
 | [andersevenrud/nordic.nvim](https://github.com/andersevenrud/nordic.nvim) | 2024-03-15 | `nordic-andersevenrud` | 
