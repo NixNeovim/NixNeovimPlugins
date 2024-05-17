@@ -1,11 +1,3 @@
-- owner: mattn
-  repo: emmet-vim
-- owner: mhinz
-  repo: vim-startify
-- owner: junegunn
-  repo: goyo.vim
-- owner: tpope
-  repo: vim-endwise
 - owner: 0styx0
   repo: abbreinder.nvim
 - owner: 0styx0
@@ -465,6 +457,8 @@
   repo: editorconfig.nvim
 - owner: creativenull
   repo: efmls-configs-nvim
+- owner: mattn
+  repo: emmet-vim
 - owner: nvimdev
   repo: epo.nvim
 - owner: cvigilv
@@ -1121,9 +1115,9 @@
   repo: nvcode-color-schemes.vim
 - owner: chrisgrieser
   repo: nvim-alt-substitute
-- owner: windwp
-  repo: nvim-autopairs
 - owner: nvim-pack
+  repo: nvim-autopairs
+- owner: windwp
   repo: nvim-autopairs
 - owner: RRethy
   repo: nvim-base16
