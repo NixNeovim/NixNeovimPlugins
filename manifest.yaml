@@ -1,3 +1,11 @@
+- owner: mattn
+  repo: emmet-vim
+- owner: mhinz
+  repo: vim-startify
+- owner: junegunn
+  repo: goyo.vim
+- owner: tpope
+  repo: vim-endwise
 - owner: 0styx0
   repo: abbreinder.nvim
 - owner: 0styx0
@@ -1082,6 +1090,8 @@
 - owner: folke
   repo: noice.nvim
 - owner: nvimtools
+  repo: none-ls-extras.nvim
+- owner: nvimtools
   repo: none-ls.nvim
 - owner: AlexvZyl
   repo: nordic.nvim
@@ -1990,6 +2000,8 @@
   repo: venn.nvim
 - owner: jyscao
   repo: ventana.nvim
+- owner: linux-cultist
+  repo: venv-selector.nvim
 - owner: tanvirtin
   repo: vgit.nvim
 - owner: embark-theme
@@ -2099,9 +2111,9 @@
   repo: wilder.nvim
 - owner: declancm
   repo: windex.nvim
-- owner: windwp
-  repo: windline.nvim
 - owner: nvim-pack
+  repo: windline.nvim
+- owner: windwp
   repo: windline.nvim
 - owner: anuvyklack
   repo: windows.nvim
