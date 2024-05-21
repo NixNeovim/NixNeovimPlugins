@@ -1117,9 +1117,9 @@
   repo: nvcode-color-schemes.vim
 - owner: chrisgrieser
   repo: nvim-alt-substitute
-- owner: nvim-pack
-  repo: nvim-autopairs
 - owner: windwp
+  repo: nvim-autopairs
+- owner: nvim-pack
   repo: nvim-autopairs
 - owner: RRethy
   repo: nvim-base16
@@ -1412,9 +1412,9 @@
   repo: nvim-treesitter-textsubjects
 - owner: AckslD
   repo: nvim-trevJ.lua
-- owner: nvim-pack
-  repo: nvim-ts-autotag
 - owner: windwp
+  repo: nvim-ts-autotag
+- owner: nvim-pack
   repo: nvim-ts-autotag
 - owner: JoosepAlviste
   repo: nvim-ts-context-commentstring
