@@ -1,4 +1,4 @@
- - Plugin count: 1062
+ - Plugin count: 1063
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -508,8 +508,8 @@
 | [nvim-neorg/neorg-telescope](https://github.com/nvim-neorg/neorg-telescope) | 2024-04-19 | `neorg-telescope` | 
 | [nyngwang/NeoRoot.lua](https://github.com/nyngwang/NeoRoot.lua) | 2023-02-08 | `NeoRoot-lua` | 
 | [karb94/neoscroll.nvim](https://github.com/karb94/neoscroll.nvim) | 2024-04-30 | `neoscroll-nvim` | 
-| [Tsuzat/NeoSolarized.nvim](https://github.com/Tsuzat/NeoSolarized.nvim) | 2024-05-13 | `NeoSolarized-nvim` | 
 | [svrana/neosolarized.nvim](https://github.com/svrana/neosolarized.nvim) | 2024-05-08 | `neosolarized-nvim` | 
+| [Tsuzat/NeoSolarized.nvim](https://github.com/Tsuzat/NeoSolarized.nvim) | 2024-05-13 | `NeoSolarized-nvim` | 
 | [nyngwang/NeoTerm.lua](https://github.com/nyngwang/NeoTerm.lua) | 2023-06-22 | `NeoTerm-lua` | 
 | [nvim-neotest/neotest](https://github.com/nvim-neotest/neotest) | 2024-04-28 | `neotest` | 
 | [coffebar/neovim-project](https://github.com/coffebar/neovim-project) | 2024-04-28 | `neovim-project` | 
@@ -996,6 +996,7 @@
 | [tpope/vim-endwise](https://github.com/tpope/vim-endwise) | 2024-01-16 | `vim-endwise` | 
 | [mnacamura/vim-fennel-syntax](https://github.com/m15a/vim-fennel-syntax) | 2024-03-18 | `vim-fennel-syntax` | 
 | [inkch/vim-fish](https://github.com/inkch/vim-fish) | 2022-03-06 | `vim-fish-inkch` | 
+| [tpope/vim-fugitive](https://github.com/tpope/vim-fugitive) | 2024-05-19 | `vim-fugitive` | 
 | [rhysd/vim-gfm-syntax](https://github.com/rhysd/vim-gfm-syntax) | 2022-08-01 | `vim-gfm-syntax` | 
 | [hylang/vim-hy](https://github.com/hylang/vim-hy) | 2023-10-06 | `vim-hy` | 
 | [RRethy/vim-illuminate](https://github.com/RRethy/vim-illuminate) | 2024-05-17 | `vim-illuminate` | 

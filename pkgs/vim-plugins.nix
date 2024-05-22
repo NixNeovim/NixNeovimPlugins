@@ -8611,23 +8611,6 @@
   };
 
   /*
-  Generated from: Tsuzat/NeoSolarized.nvim
-  */
-  NeoSolarized-nvim = buildVimPlugin {
-    pname = "NeoSolarized-nvim";
-    version = "2024-05-13";
-    src = fetchurl {
-      url = "https://github.com/Tsuzat/NeoSolarized.nvim/archive/5c0335123ce2ddf0e98546312e4c120df9cf502f.tar.gz";
-      sha256 = "1rqfwl8l03qfqf33rhxigp7p5ghl4wdc4lyjc3l91nfljxcx5ii6";
-    };
-    meta = with lib; {
-      description = "NeoSolarized colorscheme for NeoVim with full transparency";
-      homepage = "https://github.com/Tsuzat/NeoSolarized.nvim";
-      license = with licenses; [];
-    };
-  };
-
-  /*
   Generated from: svrana/neosolarized.nvim
   */
   neosolarized-nvim = buildVimPlugin {
@@ -8640,6 +8623,23 @@
     meta = with lib; {
       description = "Truecolor solarized theme for neovim in Lua using colorbuddy";
       homepage = "https://github.com/svrana/neosolarized.nvim";
+      license = with licenses; [];
+    };
+  };
+
+  /*
+  Generated from: Tsuzat/NeoSolarized.nvim
+  */
+  NeoSolarized-nvim = buildVimPlugin {
+    pname = "NeoSolarized-nvim";
+    version = "2024-05-13";
+    src = fetchurl {
+      url = "https://github.com/Tsuzat/NeoSolarized.nvim/archive/5c0335123ce2ddf0e98546312e4c120df9cf502f.tar.gz";
+      sha256 = "1rqfwl8l03qfqf33rhxigp7p5ghl4wdc4lyjc3l91nfljxcx5ii6";
+    };
+    meta = with lib; {
+      description = "NeoSolarized colorscheme for NeoVim with full transparency";
+      homepage = "https://github.com/Tsuzat/NeoSolarized.nvim";
       license = with licenses; [];
     };
   };
@@ -16904,6 +16904,23 @@
       description = "Vim support for editing fish scripts";
       homepage = "https://github.com/inkch/vim-fish";
       license = with licenses; [mit];
+    };
+  };
+
+  /*
+  Generated from: tpope/vim-fugitive
+  */
+  vim-fugitive = buildVimPlugin {
+    pname = "vim-fugitive";
+    version = "2024-05-19";
+    src = fetchurl {
+      url = "https://github.com/tpope/vim-fugitive/archive/4f59455d2388e113bd510e85b310d15b9228ca0d.tar.gz";
+      sha256 = "117qpqy17f8gyk3hai1rabdzzmaiaz2az1g4mxjm6s8ngff1zrys";
+    };
+    meta = with lib; {
+      description = "fugitive.vim: A Git wrapper so awesome, it should be illegal";
+      homepage = "https://github.com/tpope/vim-fugitive";
+      license = with licenses; [];
     };
   };
 

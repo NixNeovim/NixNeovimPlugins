@@ -1031,10 +1031,10 @@
   repo: NeoRoot.lua
 - owner: karb94
   repo: neoscroll.nvim
-- owner: Tsuzat
-  repo: NeoSolarized.nvim
 - owner: svrana
   repo: neosolarized.nvim
+- owner: Tsuzat
+  repo: NeoSolarized.nvim
 - owner: nyngwang
   repo: NeoTerm.lua
 - owner: nvim-neotest
@@ -2023,6 +2023,8 @@
 - owner: inkch
   repo: vim-fish
   name: vim-fish-inkch
+- owner: tpope
+  repo: vim-fugitive
 - owner: rhysd
   repo: vim-gfm-syntax
 - owner: hylang
@@ -2109,9 +2111,9 @@
   repo: wilder.nvim
 - owner: declancm
   repo: windex.nvim
-- owner: nvim-pack
-  repo: windline.nvim
 - owner: windwp
+  repo: windline.nvim
+- owner: nvim-pack
   repo: windline.nvim
 - owner: anuvyklack
   repo: windows.nvim
