@@ -510,6 +510,7 @@
 | [karb94/neoscroll.nvim](https://github.com/karb94/neoscroll.nvim) | 2024-05-25 | `neoscroll-nvim` | 
 | [svrana/neosolarized.nvim](https://github.com/svrana/neosolarized.nvim) | 2024-05-08 | `neosolarized-nvim` | 
 | [Tsuzat/NeoSolarized.nvim](https://github.com/Tsuzat/NeoSolarized.nvim) | 2024-05-13 | `NeoSolarized-nvim` | 
+| [svrana/neosolarized.nvim](https://github.com/svrana/neosolarized.nvim) | 2024-05-08 | `neosolarized-nvim` | 
 | [nyngwang/NeoTerm.lua](https://github.com/nyngwang/NeoTerm.lua) | 2023-06-22 | `NeoTerm-lua` | 
 | [nvim-neotest/neotest](https://github.com/nvim-neotest/neotest) | 2024-05-22 | `neotest` | 
 | [coffebar/neovim-project](https://github.com/coffebar/neovim-project) | 2024-05-20 | `neovim-project` | 
@@ -904,7 +905,7 @@
 | [themaxmarchuk/tailwindcss-colors.nvim](https://github.com/themaxmarchuk/tailwindcss-colors.nvim) | 2021-12-24 | `tailwindcss-colors-nvim` | 
 | [udayvir-singh/tangerine.nvim](https://github.com/udayvir-singh/tangerine.nvim) | 2024-04-29 | `tangerine-nvim` | 
 | [2KAbhishek/tdo.nvim](https://github.com/2KAbhishek/tdo.nvim) | 2024-05-06 | `tdo-nvim` | 
-| [renerocksai/telekasten.nvim](https://github.com/nvim-telekasten/telekasten.nvim) | 2024-04-22 | `telekasten-nvim` | 
+| [nvim-telekasten/telekasten.nvim](https://github.com/nvim-telekasten/telekasten.nvim) | 2024-04-22 | `telekasten-nvim` | 
 | [rasulomaroff/telepath.nvim](https://github.com/rasulomaroff/telepath.nvim) | 2024-04-15 | `telepath-nvim` | 
 | [otavioschwanck/telescope-alternate.nvim](https://github.com/otavioschwanck/telescope-alternate.nvim) | 2024-04-15 | `telescope-alternate-nvim` | 
 | [nvim-telescope/telescope-bibtex.nvim](https://github.com/nvim-telescope/telescope-bibtex.nvim) | 2024-03-28 | `telescope-bibtex-nvim` | 

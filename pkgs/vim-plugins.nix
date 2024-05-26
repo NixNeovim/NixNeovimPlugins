@@ -8611,23 +8611,6 @@
   };
 
   /*
-  Generated from: svrana/neosolarized.nvim
-  */
-  neosolarized-nvim = buildVimPlugin {
-    pname = "neosolarized-nvim";
-    version = "2024-05-08";
-    src = fetchurl {
-      url = "https://github.com/svrana/neosolarized.nvim/archive/ce91523ab50cccb7da7e227efc7c1084e84f10b5.tar.gz";
-      sha256 = "0dm0d15xz4dk8jk1y9q7p36fb8dairx4g96ysfy85x44x3m20vw0";
-    };
-    meta = with lib; {
-      description = "Truecolor solarized theme for neovim in Lua using colorbuddy";
-      homepage = "https://github.com/svrana/neosolarized.nvim";
-      license = with licenses; [];
-    };
-  };
-
-  /*
   Generated from: Tsuzat/NeoSolarized.nvim
   */
   NeoSolarized-nvim = buildVimPlugin {
@@ -8640,6 +8623,23 @@
     meta = with lib; {
       description = "NeoSolarized colorscheme for NeoVim with full transparency";
       homepage = "https://github.com/Tsuzat/NeoSolarized.nvim";
+      license = with licenses; [];
+    };
+  };
+
+  /*
+  Generated from: svrana/neosolarized.nvim
+  */
+  neosolarized-nvim = buildVimPlugin {
+    pname = "neosolarized-nvim";
+    version = "2024-05-08";
+    src = fetchurl {
+      url = "https://github.com/svrana/neosolarized.nvim/archive/ce91523ab50cccb7da7e227efc7c1084e84f10b5.tar.gz";
+      sha256 = "0dm0d15xz4dk8jk1y9q7p36fb8dairx4g96ysfy85x44x3m20vw0";
+    };
+    meta = with lib; {
+      description = "Truecolor solarized theme for neovim in Lua using colorbuddy";
+      homepage = "https://github.com/svrana/neosolarized.nvim";
       license = with licenses; [];
     };
   };
@@ -15344,13 +15344,13 @@
   };
 
   /*
-  Generated from: renerocksai/telekasten.nvim
+  Generated from: nvim-telekasten/telekasten.nvim
   */
   telekasten-nvim = buildVimPlugin {
     pname = "telekasten-nvim";
     version = "2024-04-22";
     src = fetchurl {
-      url = "https://github.com/renerocksai/telekasten.nvim/archive/319276a7853ff996b7bb1ed4250d8047c84ad29d.tar.gz";
+      url = "https://github.com/nvim-telekasten/telekasten.nvim/archive/319276a7853ff996b7bb1ed4250d8047c84ad29d.tar.gz";
       sha256 = "13mfmsrpsd2p9mizf100zq7vy4jk1wz9irlv65xg3ickylwpnwgf";
     };
     meta = with lib; {
