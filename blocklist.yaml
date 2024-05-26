@@ -1,3 +1,5 @@
+- owner: renerocksai
+  repo: telekasten.nvim
 - owner: yorickpeterse
   repo: nvim-window
   repository_host: gitlab
