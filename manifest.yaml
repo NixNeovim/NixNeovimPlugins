@@ -177,6 +177,8 @@
   repo: citruszest.nvim
 - owner: p00f
   repo: clangd_extensions.nvim
+- owner: luckasRanarison
+  repo: clear-action.nvim
 - owner: ekickx
   repo: clipboard-image.nvim
 - owner: kazhala
@@ -526,6 +528,8 @@
   repo: format-on-save.nvim
 - owner: mhartington
   repo: formatter.nvim
+- owner: AlejandroSuero
+  repo: freeze-code.nvim
 - owner: rafamadriz
   repo: friendly-snippets
 - owner: numToStr
@@ -613,6 +617,8 @@
   repo: goyo.vim
 - owner: Robitx
   repo: gp.nvim
+- owner: Aaronik
+  repo: GPTModels.nvim
 - owner: cbochs
   repo: grapple.nvim
 - owner: desdic
@@ -771,6 +777,8 @@
   repo: jupyter_ascending
 - owner: GCBallesteros
   repo: jupytext.nvim
+- owner: al1-ce
+  repo: just.nvim
 - owner: rebelot
   repo: kanagawa.nvim
 - owner: tenxsoydev
@@ -799,6 +807,8 @@
   repo: kosmikoa.nvim
 - owner: kevinm6
   repo: kurayami.nvim
+- owner: slugbyte
+  repo: lackluster.nvim
 - owner: Wansmer
   repo: langmapper.nvim
 - owner: dasupradyumna
@@ -925,6 +935,8 @@
   repo: matchparen.nvim
 - owner: marko-cerovac
   repo: material.nvim
+- owner: arminveres
+  repo: md-pdf.nvim
 - owner: jubnzv
   repo: mdeval.nvim
 - owner: savq
@@ -995,6 +1007,8 @@
   repo: Navigator.nvim
 - owner: RAprogramm
   repo: nekifoch
+- owner: NeViRAIDE
+  repo: nekifoch.nvim
 - owner: nvim-neo-tree
   repo: neo-tree.nvim
 - owner: ecthelionvi
@@ -1031,10 +1045,10 @@
   repo: NeoRoot.lua
 - owner: karb94
   repo: neoscroll.nvim
-- owner: Tsuzat
-  repo: NeoSolarized.nvim
 - owner: svrana
   repo: neosolarized.nvim
+- owner: Tsuzat
+  repo: NeoSolarized.nvim
 - owner: nyngwang
   repo: NeoTerm.lua
 - owner: nvim-neotest
@@ -1085,6 +1099,8 @@
   repo: no-neck-pain.nvim
 - owner: folke
   repo: noice.nvim
+- owner: zeioth
+  repo: none-ls-autoload.nvim
 - owner: nvimtools
   repo: none-ls-extras.nvim
 - owner: nvimtools
@@ -1632,6 +1648,8 @@
   repo: relative-toggle.nvim
 - owner: niuiic
   repo: remote.nvim
+- owner: nosduco
+  repo: remote-sshfs.nvim
 - owner: filipdutescu
   repo: renamer.nvim
 - owner: 9seconds
@@ -1902,6 +1920,8 @@
   repo: themery.nvim
 - owner: mcauley-penney
   repo: tidy.nvim
+- owner: rachartier
+  repo: tiny-devicons-auto-colors.nvim
 - owner: TobinPalmer
   repo: Tip.nvim
 - owner: otavioschwanck
@@ -1920,6 +1940,8 @@
   repo: tokyodark.nvim
 - owner: folke
   repo: tokyonight.nvim
+- owner: niuiic
+  repo: track.nvim
 - owner: LeonHeidelbach
   repo: trailblazer.nvim
 - owner: tjdevries
