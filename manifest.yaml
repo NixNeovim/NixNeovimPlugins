@@ -1045,10 +1045,10 @@
   repo: NeoRoot.lua
 - owner: karb94
   repo: neoscroll.nvim
-- owner: svrana
-  repo: neosolarized.nvim
 - owner: Tsuzat
   repo: NeoSolarized.nvim
+- owner: svrana
+  repo: neosolarized.nvim
 - owner: nyngwang
   repo: NeoTerm.lua
 - owner: nvim-neotest
@@ -1428,9 +1428,9 @@
   repo: nvim-treesitter-textsubjects
 - owner: AckslD
   repo: nvim-trevJ.lua
-- owner: nvim-pack
-  repo: nvim-ts-autotag
 - owner: windwp
+  repo: nvim-ts-autotag
+- owner: nvim-pack
   repo: nvim-ts-autotag
 - owner: JoosepAlviste
   repo: nvim-ts-context-commentstring
@@ -2133,9 +2133,9 @@
   repo: wilder.nvim
 - owner: declancm
   repo: windex.nvim
-- owner: windwp
-  repo: windline.nvim
 - owner: nvim-pack
+  repo: windline.nvim
+- owner: windwp
   repo: windline.nvim
 - owner: anuvyklack
   repo: windows.nvim
