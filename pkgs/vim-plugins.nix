@@ -8730,23 +8730,6 @@
   };
 
   /*
-  Generated from: svrana/neosolarized.nvim
-  */
-  neosolarized-nvim = buildVimPlugin {
-    pname = "neosolarized-nvim";
-    version = "2024-05-28";
-    src = fetchurl {
-      url = "https://github.com/svrana/neosolarized.nvim/archive/51c18aaa5f7508cabfb3cfce72430a2679ef809a.tar.gz";
-      sha256 = "1bxxzkg7ms9555yk7a2plfkq64b5gzxlh8bkrq39y06kknf6sj9g";
-    };
-    meta = with lib; {
-      description = "Truecolor solarized theme for neovim in Lua using colorbuddy";
-      homepage = "https://github.com/svrana/neosolarized.nvim";
-      license = with licenses; [];
-    };
-  };
-
-  /*
   Generated from: Tsuzat/NeoSolarized.nvim
   */
   NeoSolarized-nvim = buildVimPlugin {
@@ -8759,6 +8742,23 @@
     meta = with lib; {
       description = "NeoSolarized colorscheme for NeoVim with full transparency";
       homepage = "https://github.com/Tsuzat/NeoSolarized.nvim";
+      license = with licenses; [];
+    };
+  };
+
+  /*
+  Generated from: svrana/neosolarized.nvim
+  */
+  neosolarized-nvim = buildVimPlugin {
+    pname = "neosolarized-nvim";
+    version = "2024-05-28";
+    src = fetchurl {
+      url = "https://github.com/svrana/neosolarized.nvim/archive/51c18aaa5f7508cabfb3cfce72430a2679ef809a.tar.gz";
+      sha256 = "1bxxzkg7ms9555yk7a2plfkq64b5gzxlh8bkrq39y06kknf6sj9g";
+    };
+    meta = with lib; {
+      description = "Truecolor solarized theme for neovim in Lua using colorbuddy";
+      homepage = "https://github.com/svrana/neosolarized.nvim";
       license = with licenses; [];
     };
   };
@@ -18246,6 +18246,23 @@
     meta = with lib; {
       description = "A dark color scheme for Vim, based on Zephyr, written in Lua";
       homepage = "https://github.com/titanzero/zephyrium";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
+  Generated from: ziglang/zig.vim
+  */
+  zig-vim = buildVimPlugin {
+    pname = "zig-vim";
+    version = "2023-10-10";
+    src = fetchurl {
+      url = "https://github.com/ziglang/zig.vim/archive/54c216e5306a5c3878a60596aacb94dca8652ab9.tar.gz";
+      sha256 = "1nzsyms5xbfl9aj9y90dpiy568smr85bfp699g76pn930g4l0dn8";
+    };
+    meta = with lib; {
+      description = "Vim configuration for Zig";
+      homepage = "https://github.com/ziglang/zig.vim";
       license = with licenses; [mit];
     };
   };
