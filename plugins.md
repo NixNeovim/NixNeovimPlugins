@@ -1,4 +1,4 @@
- - Plugin count: 1075
+ - Plugin count: 1076
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -1016,6 +1016,7 @@
 | [bluz71/vim-moonfly-colors](https://github.com/bluz71/vim-moonfly-colors) | 2024-05-19 | `vim-moonfly-colors` | 
 | [bluz71/vim-nightfly-colors](https://github.com/bluz71/vim-nightfly-colors) | 2024-06-09 | `vim-nightfly-colors` | 
 | [LnL7/vim-nix](https://github.com/LnL7/vim-nix) | 2024-02-24 | `vim-nix` | 
+| [rakr/vim-one](https://github.com/rakr/vim-one) | 2020-12-14 | `vim-one` | 
 | [meain/vim-printer](https://github.com/meain/vim-printer) | 2024-01-24 | `vim-printer` | 
 | [mnacamura/vim-r7rs-syntax](https://github.com/m15a/vim-r7rs-syntax) | 2021-07-09 | `vim-r7rs-syntax` | 
 | [tpope/vim-repeat](https://github.com/tpope/vim-repeat) | 2021-01-25 | `vim-repeat` | 

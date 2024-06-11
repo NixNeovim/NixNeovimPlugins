@@ -17248,6 +17248,23 @@
   };
 
   /*
+  Generated from: rakr/vim-one
+  */
+  vim-one = buildVimPlugin {
+    pname = "vim-one";
+    version = "2020-12-14";
+    src = fetchurl {
+      url = "https://github.com/rakr/vim-one/archive/187f5c85b682c1933f8780d4d419c55d26a82e24.tar.gz";
+      sha256 = "0afzvn1jplxygfg7wyi21alrf6s9x277qbzsc0aavsw7m9d2a654";
+    };
+    meta = with lib; {
+      description = "Adaptation of one-light and one-dark colorschemes for Vim";
+      homepage = "https://github.com/rakr/vim-one";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
   Generated from: meain/vim-printer
   */
   vim-printer = buildVimPlugin {
