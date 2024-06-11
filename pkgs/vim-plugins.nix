@@ -12454,6 +12454,23 @@
   };
 
   /*
+  Generated from: joshdick/onedark.vim
+  */
+  onedark-vim = buildVimPlugin {
+    pname = "onedark-vim";
+    version = "2023-07-19";
+    src = fetchurl {
+      url = "https://github.com/joshdick/onedark.vim/archive/57b77747694ea5676c3ca0eeaf9567dc499730c0.tar.gz";
+      sha256 = "04wdzck6kila9yhdgcq5r4a758s2n8v48lynfgwzn2q8iyid4lvn";
+    };
+    meta = with lib; {
+      description = "A dark Vim/Neovim color scheme inspired by Atom's One Dark syntax theme.";
+      homepage = "https://github.com/joshdick/onedark.vim";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
   Generated from: olimorris/onedarkpro.nvim
   */
   onedarkpro-nvim = buildVimPlugin {

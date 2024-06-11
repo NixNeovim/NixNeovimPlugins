@@ -1,4 +1,4 @@
- - Plugin count: 1076
+ - Plugin count: 1077
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -734,6 +734,7 @@
 | [jbyuki/one-small-step-for-vimkind](https://github.com/jbyuki/one-small-step-for-vimkind) | 2024-05-27 | `one-small-step-for-vimkind` | 
 | [Th3Whit3Wolf/onebuddy](https://github.com/Th3Whit3Wolf/onebuddy) | 2021-04-01 | `onebuddy` | 
 | [navarasu/onedark.nvim](https://github.com/navarasu/onedark.nvim) | 2024-05-11 | `onedark-nvim` | 
+| [joshdick/onedark.vim](https://github.com/joshdick/onedark.vim) | 2023-07-19 | `onedark-vim` | 
 | [olimorris/onedarkpro.nvim](https://github.com/olimorris/onedarkpro.nvim) | 2024-05-25 | `onedarkpro-nvim` | 
 | [rmehri01/onenord.nvim](https://github.com/rmehri01/onenord.nvim) | 2024-06-01 | `onenord-nvim` | 
 | [LoricAndre/OneTerm.nvim](https://github.com/LoricAndre/OneTerm.nvim) | 2022-03-14 | `OneTerm-nvim` | 
