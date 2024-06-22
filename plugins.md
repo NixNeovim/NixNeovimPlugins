@@ -506,7 +506,6 @@
 | [sbdchd/neoformat](https://github.com/sbdchd/neoformat) | 2024-05-30 | `neoformat` | 
 | [TimUntersberger/neofs](https://github.com/TimUntersberger/neofs) | 2022-08-10 | `neofs` | 
 | [danymat/neogen](https://github.com/danymat/neogen) | 2024-05-13 | `neogen` | 
-| [NeogitOrg/neogit](https://github.com/NeogitOrg/neogit) | 2024-06-17 | `neogit` | 
 | [adelarsq/neoline.vim](https://github.com/adelarsq/neoline.vim) | 2024-04-25 | `neoline-vim` | 
 | [nikvdp/neomux](https://github.com/nikvdp/neomux) | 2023-04-14 | `neomux` | 
 | [rafamadriz/neon](https://github.com/rafamadriz/neon) | 2022-11-27 | `neon` | 
@@ -1002,6 +1001,7 @@
 | [tanvirtin/vgit.nvim](https://github.com/tanvirtin/vgit.nvim) | 2024-06-06 | `vgit-nvim` | 
 | [embark-theme/vim](https://github.com/embark-theme/vim) | 2024-06-17 | `vim` | 
 | [vim-airline/vim-airline](https://github.com/vim-airline/vim-airline) | 2024-06-16 | `vim-airline` | 
+| [vim-airline/vim-airline-themes](https://github.com/vim-airline/vim-airline-themes) | 2024-01-06 | `vim-airline-themes` | 
 | [theprimeagen/vim-apm](https://github.com/ThePrimeagen/vim-apm) | 2024-02-03 | `vim-apm` | 
 | [moll/vim-bbye](https://github.com/moll/vim-bbye) | 2018-03-03 | `vim-bbye` | 
 | [ThePrimeagen/vim-be-good](https://github.com/ThePrimeagen/vim-be-good) | 2024-01-31 | `vim-be-good` | 

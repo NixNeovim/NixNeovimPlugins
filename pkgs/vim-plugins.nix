@@ -8577,23 +8577,6 @@
   };
 
   /*
-  Generated from: NeogitOrg/neogit
-  */
-  neogit = buildVimPlugin {
-    pname = "neogit";
-    version = "2024-06-17";
-    src = fetchurl {
-      url = "https://github.com/NeogitOrg/neogit/archive/11dea1b67bb153cd5b4a2de348ceefa69508dfce.tar.gz";
-      sha256 = "0zz65zq1lq4ffxqd8mwyskdmlxkzx6zqlxnbisdxk6jwljw9hpmc";
-    };
-    meta = with lib; {
-      description = "An interactive and powerful Git interface for Neovim, inspired by Magit";
-      homepage = "https://github.com/NeogitOrg/neogit";
-      license = with licenses; [mit];
-    };
-  };
-
-  /*
   Generated from: adelarsq/neoline.vim
   */
   neoline-vim = buildVimPlugin {
@@ -17005,6 +16988,23 @@
     meta = with lib; {
       description = "lean & mean status/tabline for vim that's light as air";
       homepage = "https://github.com/vim-airline/vim-airline";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
+  Generated from: vim-airline/vim-airline-themes
+  */
+  vim-airline-themes = buildVimPlugin {
+    pname = "vim-airline-themes";
+    version = "2024-01-06";
+    src = fetchurl {
+      url = "https://github.com/vim-airline/vim-airline-themes/archive/a9aa25ce323b2dd04a52706f4d1b044f4feb7617.tar.gz";
+      sha256 = "1jxpxbxl1w12n8w6349lbixazrnx1bxy8s2vigf06vy1w930a74d";
+    };
+    meta = with lib; {
+      description = "A collection of themes for vim-airline";
+      homepage = "https://github.com/vim-airline/vim-airline-themes";
       license = with licenses; [mit];
     };
   };

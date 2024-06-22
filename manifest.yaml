@@ -1,3 +1,5 @@
+- owner: vim-airline
+  repo: vim-airline-themes
 - owner: 0styx0
   repo: abbreinder.nvim
 - owner: 0styx0
