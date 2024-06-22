@@ -1,9 +1,3 @@
-- owner: joshdick
-  repo: onedark.vim
-- owner: rakr
-  repo: vim-one
-- owner: ziglang
-  repo: zig.vim
 - owner: 0styx0
   repo: abbreinder.nvim
 - owner: 0styx0
@@ -844,6 +838,8 @@
 - owner: reggie
   repo: licenses.nvim
   repository_host: sourcehut
+- owner: itchyny
+  repo: lightline.vim
 - owner: ggandor
   repo: lightspeed.nvim
 - owner: xiyaowong
@@ -1139,9 +1135,9 @@
   repo: nvcode-color-schemes.vim
 - owner: chrisgrieser
   repo: nvim-alt-substitute
-- owner: windwp
-  repo: nvim-autopairs
 - owner: nvim-pack
+  repo: nvim-autopairs
+- owner: windwp
   repo: nvim-autopairs
 - owner: RRethy
   repo: nvim-base16
@@ -1498,6 +1494,8 @@
   repo: onebuddy
 - owner: navarasu
   repo: onedark.nvim
+- owner: joshdick
+  repo: onedark.vim
 - owner: olimorris
   repo: onedarkpro.nvim
 - owner: rmehri01
@@ -2032,6 +2030,8 @@
   repo: vgit.nvim
 - owner: embark-theme
   repo: vim
+- owner: vim-airline
+  repo: vim-airline
 - owner: theprimeagen
   repo: vim-apm
 - owner: moll
@@ -2040,8 +2040,12 @@
   repo: vim-be-good
 - owner: tomasiser
   repo: vim-code-dark
+- owner: tpope
+  repo: vim-commentary
 - owner: junegunn
   repo: vim-easy-align
+- owner: zhou13
+  repo: vim-easyescape
 - owner: houtsnip
   repo: vim-emacscommandline
 - owner: tpope
@@ -2051,10 +2055,14 @@
 - owner: inkch
   repo: vim-fish
   name: vim-fish-inkch
+- owner: voldikss
+  repo: vim-floaterm
 - owner: tpope
   repo: vim-fugitive
 - owner: rhysd
   repo: vim-gfm-syntax
+- owner: airblade
+  repo: vim-gitgutter
 - owner: hylang
   repo: vim-hy
 - owner: RRethy
@@ -2069,6 +2077,8 @@
   repo: vim-nightfly-colors
 - owner: LnL7
   repo: vim-nix
+- owner: rakr
+  repo: vim-one
 - owner: meain
   repo: vim-printer
 - owner: mnacamura
@@ -2139,9 +2149,9 @@
   repo: wilder.nvim
 - owner: declancm
   repo: windex.nvim
-- owner: nvim-pack
-  repo: windline.nvim
 - owner: windwp
+  repo: windline.nvim
+- owner: nvim-pack
   repo: windline.nvim
 - owner: anuvyklack
   repo: windows.nvim
@@ -2189,6 +2199,8 @@
   repo: zephyr-nvim
 - owner: titanzero
   repo: zephyrium
+- owner: ziglang
+  repo: zig.vim
 - owner: zk-org
   repo: zk-nvim
 

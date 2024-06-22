@@ -6995,6 +6995,23 @@
   };
 
   /*
+  Generated from: itchyny/lightline.vim
+  */
+  lightline-vim = buildVimPlugin {
+    pname = "lightline-vim";
+    version = "2024-01-13";
+    src = fetchurl {
+      url = "https://github.com/itchyny/lightline.vim/archive/58c97bc21c6f657d3babdd4eefce7593e30e75ce.tar.gz";
+      sha256 = "11vyz0w1pzpfqr6zngxx2gfbhr0bf6ps636315w5qhwvnrf4p8dq";
+    };
+    meta = with lib; {
+      description = "A light and configurable statusline/tabline plugin for Vim";
+      homepage = "https://github.com/itchyny/lightline.vim";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
   Generated from: ggandor/lightspeed.nvim
   */
   lightspeed-nvim = buildVimPlugin {
@@ -8560,6 +8577,23 @@
   };
 
   /*
+  Generated from: NeogitOrg/neogit
+  */
+  neogit = buildVimPlugin {
+    pname = "neogit";
+    version = "2024-06-17";
+    src = fetchurl {
+      url = "https://github.com/NeogitOrg/neogit/archive/11dea1b67bb153cd5b4a2de348ceefa69508dfce.tar.gz";
+      sha256 = "0zz65zq1lq4ffxqd8mwyskdmlxkzx6zqlxnbisdxk6jwljw9hpmc";
+    };
+    meta = with lib; {
+      description = "An interactive and powerful Git interface for Neovim, inspired by Magit";
+      homepage = "https://github.com/NeogitOrg/neogit";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
   Generated from: adelarsq/neoline.vim
   */
   neoline-vim = buildVimPlugin {
@@ -8730,23 +8764,6 @@
   };
 
   /*
-  Generated from: svrana/neosolarized.nvim
-  */
-  neosolarized-nvim = buildVimPlugin {
-    pname = "neosolarized-nvim";
-    version = "2024-05-28";
-    src = fetchurl {
-      url = "https://github.com/svrana/neosolarized.nvim/archive/51c18aaa5f7508cabfb3cfce72430a2679ef809a.tar.gz";
-      sha256 = "1bxxzkg7ms9555yk7a2plfkq64b5gzxlh8bkrq39y06kknf6sj9g";
-    };
-    meta = with lib; {
-      description = "Truecolor solarized theme for neovim in Lua using colorbuddy";
-      homepage = "https://github.com/svrana/neosolarized.nvim";
-      license = with licenses; [];
-    };
-  };
-
-  /*
   Generated from: Tsuzat/NeoSolarized.nvim
   */
   NeoSolarized-nvim = buildVimPlugin {
@@ -8759,6 +8776,23 @@
     meta = with lib; {
       description = "NeoSolarized colorscheme for NeoVim with full transparency";
       homepage = "https://github.com/Tsuzat/NeoSolarized.nvim";
+      license = with licenses; [];
+    };
+  };
+
+  /*
+  Generated from: svrana/neosolarized.nvim
+  */
+  neosolarized-nvim = buildVimPlugin {
+    pname = "neosolarized-nvim";
+    version = "2024-05-28";
+    src = fetchurl {
+      url = "https://github.com/svrana/neosolarized.nvim/archive/51c18aaa5f7508cabfb3cfce72430a2679ef809a.tar.gz";
+      sha256 = "1bxxzkg7ms9555yk7a2plfkq64b5gzxlh8bkrq39y06kknf6sj9g";
+    };
+    meta = with lib; {
+      description = "Truecolor solarized theme for neovim in Lua using colorbuddy";
+      homepage = "https://github.com/svrana/neosolarized.nvim";
       license = with licenses; [];
     };
   };
@@ -16959,6 +16993,23 @@
   };
 
   /*
+  Generated from: vim-airline/vim-airline
+  */
+  vim-airline = buildVimPlugin {
+    pname = "vim-airline";
+    version = "2024-06-16";
+    src = fetchurl {
+      url = "https://github.com/vim-airline/vim-airline/archive/02894b6ef4752afd8579fc837aec5fb4f62409f7.tar.gz";
+      sha256 = "12yix3y06x0i8nk3q4a702smd65ynryi5s5158ws17583hxxwdaj";
+    };
+    meta = with lib; {
+      description = "lean & mean status/tabline for vim that's light as air";
+      homepage = "https://github.com/vim-airline/vim-airline";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
   Generated from: theprimeagen/vim-apm
   */
   vim-apm = buildVimPlugin {
@@ -17027,6 +17078,23 @@
   };
 
   /*
+  Generated from: tpope/vim-commentary
+  */
+  vim-commentary = buildVimPlugin {
+    pname = "vim-commentary";
+    version = "2024-04-08";
+    src = fetchurl {
+      url = "https://github.com/tpope/vim-commentary/archive/c4b8f52cbb7142ec239494e5a2c4a512f92c4d07.tar.gz";
+      sha256 = "14av9jr2wcvs8wh9ikv6amjc0rrk9z99yd9xzjgng39k3nx9a9cp";
+    };
+    meta = with lib; {
+      description = "commentary.vim: comment stuff out";
+      homepage = "https://github.com/tpope/vim-commentary";
+      license = with licenses; [];
+    };
+  };
+
+  /*
   Generated from: junegunn/vim-easy-align
   */
   vim-easy-align = buildVimPlugin {
@@ -17040,6 +17108,23 @@
       description = ":sunflower: A Vim alignment plugin";
       homepage = "https://github.com/junegunn/vim-easy-align";
       license = with licenses; [];
+    };
+  };
+
+  /*
+  Generated from: zhou13/vim-easyescape
+  */
+  vim-easyescape = buildVimPlugin {
+    pname = "vim-easyescape";
+    version = "2020-11-22";
+    src = fetchurl {
+      url = "https://github.com/zhou13/vim-easyescape/archive/fd7875f1657fd54fae85088acf289b9723d8a790.tar.gz";
+      sha256 = "0jvcjm7il5qfxl0qydy39hnwvj9p30w164il6c0hyym3bh80rj04";
+    };
+    meta = with lib; {
+      description = "vim-easyescape makes exiting insert mode easy and distraction free!";
+      homepage = "https://github.com/zhou13/vim-easyescape";
+      license = with licenses; [mit];
     };
   };
 
@@ -17112,6 +17197,23 @@
   };
 
   /*
+  Generated from: voldikss/vim-floaterm
+  */
+  vim-floaterm = buildVimPlugin {
+    pname = "vim-floaterm";
+    version = "2024-04-08";
+    src = fetchurl {
+      url = "https://github.com/voldikss/vim-floaterm/archive/4e28c8dd0271e10a5f55142fb6fe9b1599ee6160.tar.gz";
+      sha256 = "15vx3pfd5zlpgj0sq23z1cdry3k2krph54wh7rjz2bj24045h991";
+    };
+    meta = with lib; {
+      description = ":computer: Terminal manager for (neo)vim";
+      homepage = "https://github.com/voldikss/vim-floaterm";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
   Generated from: tpope/vim-fugitive
   */
   vim-fugitive = buildVimPlugin {
@@ -17141,6 +17243,23 @@
     meta = with lib; {
       description = "GitHub Flavored Markdown syntax highlight extension for Vim";
       homepage = "https://github.com/rhysd/vim-gfm-syntax";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
+  Generated from: airblade/vim-gitgutter
+  */
+  vim-gitgutter = buildVimPlugin {
+    pname = "vim-gitgutter";
+    version = "2024-04-29";
+    src = fetchurl {
+      url = "https://github.com/airblade/vim-gitgutter/archive/e801371917e52805a4ceb1e93f55ed1fba712f82.tar.gz";
+      sha256 = "13sfsgjc3ffrnj82k1kq2spvjkz79y7qnd673jdn4msif5hsrzbn";
+    };
+    meta = with lib; {
+      description = "A Vim plugin which shows git diff markers in the sign column and stages/previews/undoes hunks and partial hunks.";
+      homepage = "https://github.com/airblade/vim-gitgutter";
       license = with licenses; [mit];
     };
   };

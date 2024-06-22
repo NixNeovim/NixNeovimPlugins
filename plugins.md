@@ -1,4 +1,4 @@
- - Plugin count: 1077
+ - Plugin count: 1084
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -413,6 +413,7 @@
 | [mrjones2014/legendary.nvim](https://github.com/mrjones2014/legendary.nvim) | 2024-06-14 | `legendary-nvim` | 
 | [lmburns/lf.nvim](https://github.com/lmburns/lf.nvim) | 2023-10-03 | `lf-nvim` | 
 | [reggie/licenses.nvim](https://git.sr.ht/~reggie/licenses.nvim) | 2023-06-05 | `licenses-nvim` | 
+| [itchyny/lightline.vim](https://github.com/itchyny/lightline.vim) | 2024-01-13 | `lightline-vim` | 
 | [ggandor/lightspeed.nvim](https://github.com/ggandor/lightspeed.nvim) | 2023-12-01 | `lightspeed-nvim` | 
 | [xiyaowong/link-visitor.nvim](https://github.com/xiyaowong/link-visitor.nvim) | 2023-11-30 | `link-visitor-nvim` | 
 | [tamago324/lir.nvim](https://github.com/tamago324/lir.nvim) | 2024-05-26 | `lir-nvim` | 
@@ -505,6 +506,7 @@
 | [sbdchd/neoformat](https://github.com/sbdchd/neoformat) | 2024-05-30 | `neoformat` | 
 | [TimUntersberger/neofs](https://github.com/TimUntersberger/neofs) | 2022-08-10 | `neofs` | 
 | [danymat/neogen](https://github.com/danymat/neogen) | 2024-05-13 | `neogen` | 
+| [NeogitOrg/neogit](https://github.com/NeogitOrg/neogit) | 2024-06-17 | `neogit` | 
 | [adelarsq/neoline.vim](https://github.com/adelarsq/neoline.vim) | 2024-04-25 | `neoline-vim` | 
 | [nikvdp/neomux](https://github.com/nikvdp/neomux) | 2023-04-14 | `neomux` | 
 | [rafamadriz/neon](https://github.com/rafamadriz/neon) | 2022-11-27 | `neon` | 
@@ -515,8 +517,8 @@
 | [nvim-neorg/neorg-telescope](https://github.com/nvim-neorg/neorg-telescope) | 2024-06-19 | `neorg-telescope` | 
 | [nyngwang/NeoRoot.lua](https://github.com/nyngwang/NeoRoot.lua) | 2023-02-08 | `NeoRoot-lua` | 
 | [karb94/neoscroll.nvim](https://github.com/karb94/neoscroll.nvim) | 2024-05-27 | `neoscroll-nvim` | 
-| [svrana/neosolarized.nvim](https://github.com/svrana/neosolarized.nvim) | 2024-05-28 | `neosolarized-nvim` | 
 | [Tsuzat/NeoSolarized.nvim](https://github.com/Tsuzat/NeoSolarized.nvim) | 2024-06-20 | `NeoSolarized-nvim` | 
+| [svrana/neosolarized.nvim](https://github.com/svrana/neosolarized.nvim) | 2024-05-28 | `neosolarized-nvim` | 
 | [nyngwang/NeoTerm.lua](https://github.com/nyngwang/NeoTerm.lua) | 2023-06-22 | `NeoTerm-lua` | 
 | [nvim-neotest/neotest](https://github.com/nvim-neotest/neotest) | 2024-06-19 | `neotest` | 
 | [coffebar/neovim-project](https://github.com/coffebar/neovim-project) | 2024-05-29 | `neovim-project` | 
@@ -999,17 +1001,22 @@
 | [linux-cultist/venv-selector.nvim](https://github.com/linux-cultist/venv-selector.nvim) | 2024-06-06 | `venv-selector-nvim` | 
 | [tanvirtin/vgit.nvim](https://github.com/tanvirtin/vgit.nvim) | 2024-06-06 | `vgit-nvim` | 
 | [embark-theme/vim](https://github.com/embark-theme/vim) | 2024-06-17 | `vim` | 
+| [vim-airline/vim-airline](https://github.com/vim-airline/vim-airline) | 2024-06-16 | `vim-airline` | 
 | [theprimeagen/vim-apm](https://github.com/ThePrimeagen/vim-apm) | 2024-02-03 | `vim-apm` | 
 | [moll/vim-bbye](https://github.com/moll/vim-bbye) | 2018-03-03 | `vim-bbye` | 
 | [ThePrimeagen/vim-be-good](https://github.com/ThePrimeagen/vim-be-good) | 2024-01-31 | `vim-be-good` | 
 | [tomasiser/vim-code-dark](https://github.com/tomasiser/vim-code-dark) | 2024-05-21 | `vim-code-dark` | 
+| [tpope/vim-commentary](https://github.com/tpope/vim-commentary) | 2024-04-08 | `vim-commentary` | 
 | [junegunn/vim-easy-align](https://github.com/junegunn/vim-easy-align) | 2024-04-13 | `vim-easy-align` | 
+| [zhou13/vim-easyescape](https://github.com/zhou13/vim-easyescape) | 2020-11-22 | `vim-easyescape` | 
 | [houtsnip/vim-emacscommandline](https://github.com/houtsnip/vim-emacscommandline) | 2017-11-24 | `vim-emacscommandline` | 
 | [tpope/vim-endwise](https://github.com/tpope/vim-endwise) | 2024-01-16 | `vim-endwise` | 
 | [mnacamura/vim-fennel-syntax](https://github.com/m15a/vim-fennel-syntax) | 2024-03-18 | `vim-fennel-syntax` | 
 | [inkch/vim-fish](https://github.com/inkch/vim-fish) | 2022-03-06 | `vim-fish-inkch` | 
+| [voldikss/vim-floaterm](https://github.com/voldikss/vim-floaterm) | 2024-04-08 | `vim-floaterm` | 
 | [tpope/vim-fugitive](https://github.com/tpope/vim-fugitive) | 2024-06-12 | `vim-fugitive` | 
 | [rhysd/vim-gfm-syntax](https://github.com/rhysd/vim-gfm-syntax) | 2022-08-01 | `vim-gfm-syntax` | 
+| [airblade/vim-gitgutter](https://github.com/airblade/vim-gitgutter) | 2024-04-29 | `vim-gitgutter` | 
 | [hylang/vim-hy](https://github.com/hylang/vim-hy) | 2023-10-06 | `vim-hy` | 
 | [RRethy/vim-illuminate](https://github.com/RRethy/vim-illuminate) | 2024-05-17 | `vim-illuminate` | 
 | [ledger/vim-ledger](https://github.com/ledger/vim-ledger) | 2024-05-07 | `vim-ledger` | 
