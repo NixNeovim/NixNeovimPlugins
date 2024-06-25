@@ -16653,6 +16653,23 @@
   };
 
   /*
+  Generated from: MrPicklePinosaur/typst-conceal.vim
+  */
+  typst-conceal-vim = buildVimPlugin {
+    pname = "typst-conceal-vim";
+    version = "2023-10-13";
+    src = fetchurl {
+      url = "https://github.com/MrPicklePinosaur/typst-conceal.vim/archive/b8862f2d5a015b838e4a0d361f30423c45e23425.tar.gz";
+      sha256 = "1ysm6i06z5mzl2ilxa9jwy94g8rv7irqm0vpg5j3mhsvaqa0g85v";
+    };
+    meta = with lib; {
+      description = "plugin for typst conceal";
+      homepage = "https://github.com/MrPicklePinosaur/typst-conceal.vim";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
   Generated from: chomosuke/typst-preview.nvim
   */
   typst-preview-chomsuke = buildVimPlugin {

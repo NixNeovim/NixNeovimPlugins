@@ -1,4 +1,4 @@
- - Plugin count: 1084
+ - Plugin count: 1085
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -981,6 +981,7 @@
 | [folke/twilight.nvim](https://github.com/folke/twilight.nvim) | 2023-09-25 | `twilight-nvim` | 
 | [marilari88/twoslash-queries.nvim](https://github.com/marilari88/twoslash-queries.nvim) | 2024-02-10 | `twoslash-queries-nvim` | 
 | [jose-elias-alvarez/typescript.nvim](https://github.com/jose-elias-alvarez/typescript.nvim) | 2023-08-12 | `typescript-nvim` | 
+| [MrPicklePinosaur/typst-conceal.vim](https://github.com/MrPicklePinosaur/typst-conceal.vim) | 2023-10-13 | `typst-conceal-vim` | 
 | [chomosuke/typst-preview.nvim](https://github.com/chomosuke/typst-preview.nvim) | 2024-06-16 | `typst-preview-chomsuke` | 
 | [niuiic/typst-preview.nvim](https://github.com/niuiic/typst-preview.nvim) | 2024-05-11 | `typst-preview-niuiic` | 
 | [kaarmu/typst.vim](https://github.com/kaarmu/typst.vim) | 2024-04-18 | `typst-vim` | 
