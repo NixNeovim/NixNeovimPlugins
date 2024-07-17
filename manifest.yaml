@@ -1079,6 +1079,8 @@
   repo: NeoTerm.lua
 - owner: nvim-neotest
   repo: neotest
+- owner: fredrikaverpil
+  repo: neotest-golang
 - owner: saifulapm
   repo: neotree-file-nesting-config
 - owner: coffebar
