@@ -8951,23 +8951,6 @@
   };
 
   /*
-  Generated from: Tsuzat/NeoSolarized.nvim
-  */
-  NeoSolarized-nvim = buildVimPlugin {
-    pname = "NeoSolarized-nvim";
-    version = "2024-06-20";
-    src = fetchurl {
-      url = "https://github.com/Tsuzat/NeoSolarized.nvim/archive/bdfcdd056c4c73b10fc6f42f0c2d0df839ff49ae.tar.gz";
-      sha256 = "115fdvxbjp9wij09lmswjsl331hhviynsx9jf3z60gq9dg1k77nk";
-    };
-    meta = with lib; {
-      description = "NeoSolarized colorscheme for NeoVim with full transparency";
-      homepage = "https://github.com/Tsuzat/NeoSolarized.nvim";
-      license = with licenses; [];
-    };
-  };
-
-  /*
   Generated from: svrana/neosolarized.nvim
   */
   neosolarized-nvim = buildVimPlugin {
@@ -8980,6 +8963,23 @@
     meta = with lib; {
       description = "Truecolor solarized theme for neovim in Lua using colorbuddy";
       homepage = "https://github.com/svrana/neosolarized.nvim";
+      license = with licenses; [];
+    };
+  };
+
+  /*
+  Generated from: Tsuzat/NeoSolarized.nvim
+  */
+  NeoSolarized-nvim = buildVimPlugin {
+    pname = "NeoSolarized-nvim";
+    version = "2024-06-20";
+    src = fetchurl {
+      url = "https://github.com/Tsuzat/NeoSolarized.nvim/archive/bdfcdd056c4c73b10fc6f42f0c2d0df839ff49ae.tar.gz";
+      sha256 = "115fdvxbjp9wij09lmswjsl331hhviynsx9jf3z60gq9dg1k77nk";
+    };
+    meta = with lib; {
+      description = "NeoSolarized colorscheme for NeoVim with full transparency";
+      homepage = "https://github.com/Tsuzat/NeoSolarized.nvim";
       license = with licenses; [];
     };
   };
@@ -9014,6 +9014,23 @@
     meta = with lib; {
       description = "An extensible framework for interacting with tests within NeoVim.";
       homepage = "https://github.com/nvim-neotest/neotest";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
+  Generated from: fredrikaverpil/neotest-golang
+  */
+  neotest-golang = buildVimPlugin {
+    pname = "neotest-golang";
+    version = "2024-07-16";
+    src = fetchurl {
+      url = "https://github.com/fredrikaverpil/neotest-golang/archive/dabdc5f9954219e9f3fa52cdcfa0bfad4cd13262.tar.gz";
+      sha256 = "13xk49fbikrd37nl98qrx4vc0gk9xd30za4zjnbqkpin711c67fl";
+    };
+    meta = with lib; {
+      description = "Reliable Neotest adapter for running Go tests in Neovim.";
+      homepage = "https://github.com/fredrikaverpil/neotest-golang";
       license = with licenses; [mit];
     };
   };
