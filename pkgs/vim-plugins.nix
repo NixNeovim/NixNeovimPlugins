@@ -8696,6 +8696,23 @@
   };
 
   /*
+  Generated from: folke/neoconf.nvim
+  */
+  neoconf-nvim = buildVimPlugin {
+    pname = "neoconf-nvim";
+    version = "2024-07-18";
+    src = fetchurl {
+      url = "https://github.com/folke/neoconf.nvim/archive/b1affd4d9a669534f54ffc82c87b58afd2608328.tar.gz";
+      sha256 = "1xyqbjygbf44iag7zz02jhgwi7dl1dibl9fpmd61b655nrzyzqk2";
+    };
+    meta = with lib; {
+      description = "💼 Neovim plugin to manage global and project-local settings";
+      homepage = "https://github.com/folke/neoconf.nvim";
+      license = with licenses; [];
+    };
+  };
+
+  /*
   Generated from: folke/neodev.nvim
   */
   neodev-nvim = buildVimPlugin {
