@@ -1,4 +1,4 @@
- - Plugin count: 1106
+ - Plugin count: 1107
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -528,10 +528,11 @@
 | [nvim-neorg/neorg-telescope](https://github.com/nvim-neorg/neorg-telescope) | 2024-07-14 | `neorg-telescope` | 
 | [nyngwang/NeoRoot.lua](https://github.com/nyngwang/NeoRoot.lua) | 2023-02-08 | `NeoRoot-lua` | 
 | [karb94/neoscroll.nvim](https://github.com/karb94/neoscroll.nvim) | 2024-07-05 | `neoscroll-nvim` | 
-| [Tsuzat/NeoSolarized.nvim](https://github.com/Tsuzat/NeoSolarized.nvim) | 2024-06-20 | `NeoSolarized-nvim` | 
 | [svrana/neosolarized.nvim](https://github.com/svrana/neosolarized.nvim) | 2024-05-28 | `neosolarized-nvim` | 
+| [Tsuzat/NeoSolarized.nvim](https://github.com/Tsuzat/NeoSolarized.nvim) | 2024-06-20 | `NeoSolarized-nvim` | 
 | [nyngwang/NeoTerm.lua](https://github.com/nyngwang/NeoTerm.lua) | 2023-06-22 | `NeoTerm-lua` | 
 | [nvim-neotest/neotest](https://github.com/nvim-neotest/neotest) | 2024-07-13 | `neotest` | 
+| [fredrikaverpil/neotest-golang](https://github.com/fredrikaverpil/neotest-golang) | 2024-07-16 | `neotest-golang` | 
 | [saifulapm/neotree-file-nesting-config](https://github.com/saifulapm/neotree-file-nesting-config) | 2024-06-13 | `neotree-file-nesting-config` | 
 | [coffebar/neovim-project](https://github.com/coffebar/neovim-project) | 2024-07-08 | `neovim-project` | 
 | [Shatur/neovim-session-manager](https://github.com/Shatur/neovim-session-manager) | 2024-06-30 | `neovim-session-manager` | 
