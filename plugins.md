@@ -1,4 +1,4 @@
- - Plugin count: 1107
+ - Plugin count: 1108
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -513,6 +513,7 @@
 | [nvim-neo-tree/neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) | 2024-06-11 | `neo-tree-nvim` | 
 | [ecthelionvi/NeoColumn.nvim](https://github.com/ecthelionvi/NeoColumn.nvim) | 2023-10-17 | `NeoColumn-nvim` | 
 | [ecthelionvi/NeoComposer.nvim](https://github.com/ecthelionvi/NeoComposer.nvim) | 2024-06-23 | `NeoComposer-nvim` | 
+| [folke/neoconf.nvim](https://github.com/folke/neoconf.nvim) | 2024-07-18 | `neoconf-nvim` | 
 | [folke/neodev.nvim](https://github.com/folke/neodev.nvim) | 2024-07-06 | `neodev-nvim` | 
 | [zbirenbaum/neodim](https://github.com/zbirenbaum/neodim) | 2023-12-22 | `neodim` | 
 | [sbdchd/neoformat](https://github.com/sbdchd/neoformat) | 2024-05-30 | `neoformat` | 
