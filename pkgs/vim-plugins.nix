@@ -3509,6 +3509,23 @@
   };
 
   /*
+  Generated from: dgagn/diagflow.nvim
+  */
+  diagflow-nvim = buildVimPlugin {
+    pname = "diagflow-nvim";
+    version = "2024-07-18";
+    src = fetchurl {
+      url = "https://github.com/dgagn/diagflow.nvim/archive/fc09d55d2e60edc8ed8f9939ba97b7b7e6488c99.tar.gz";
+      sha256 = "1yvqvks43kbrcms6ml3y964bdnjf5791pakak8jbl05653d1f7q2";
+    };
+    meta = with lib; {
+      description = "LSP diagnostics in virtual text at the top right of your screen";
+      homepage = "https://github.com/dgagn/diagflow.nvim";
+      license = with licenses; [];
+    };
+  };
+
+  /*
   Generated from: onsails/diaglist.nvim
   */
   diaglist-nvim = buildVimPlugin {
@@ -8968,23 +8985,6 @@
   };
 
   /*
-  Generated from: Tsuzat/NeoSolarized.nvim
-  */
-  NeoSolarized-nvim = buildVimPlugin {
-    pname = "NeoSolarized-nvim";
-    version = "2024-06-20";
-    src = fetchurl {
-      url = "https://github.com/Tsuzat/NeoSolarized.nvim/archive/bdfcdd056c4c73b10fc6f42f0c2d0df839ff49ae.tar.gz";
-      sha256 = "115fdvxbjp9wij09lmswjsl331hhviynsx9jf3z60gq9dg1k77nk";
-    };
-    meta = with lib; {
-      description = "NeoSolarized colorscheme for NeoVim with full transparency";
-      homepage = "https://github.com/Tsuzat/NeoSolarized.nvim";
-      license = with licenses; [];
-    };
-  };
-
-  /*
   Generated from: svrana/neosolarized.nvim
   */
   neosolarized-nvim = buildVimPlugin {
@@ -8997,6 +8997,23 @@
     meta = with lib; {
       description = "Truecolor solarized theme for neovim in Lua using colorbuddy";
       homepage = "https://github.com/svrana/neosolarized.nvim";
+      license = with licenses; [];
+    };
+  };
+
+  /*
+  Generated from: Tsuzat/NeoSolarized.nvim
+  */
+  NeoSolarized-nvim = buildVimPlugin {
+    pname = "NeoSolarized-nvim";
+    version = "2024-06-20";
+    src = fetchurl {
+      url = "https://github.com/Tsuzat/NeoSolarized.nvim/archive/bdfcdd056c4c73b10fc6f42f0c2d0df839ff49ae.tar.gz";
+      sha256 = "115fdvxbjp9wij09lmswjsl331hhviynsx9jf3z60gq9dg1k77nk";
+    };
+    meta = with lib; {
+      description = "NeoSolarized colorscheme for NeoVim with full transparency";
+      homepage = "https://github.com/Tsuzat/NeoSolarized.nvim";
       license = with licenses; [];
     };
   };
