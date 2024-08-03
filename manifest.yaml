@@ -96,6 +96,8 @@
   repo: base16-vim
 - owner: aliou
   repo: bats.vim
+- owner: bloznelis
+  repo: before.nvim
 - owner: max397574
   repo: better-escape.nvim
 - owner: typicode
