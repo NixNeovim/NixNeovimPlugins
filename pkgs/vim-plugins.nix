@@ -294,6 +294,23 @@
   };
 
   /*
+  Generated from: pechorin/any-jump.vim
+  */
+  any-jump-vim = buildVimPlugin {
+    pname = "any-jump-vim";
+    version = "2024-03-22";
+    src = fetchurl {
+      url = "https://github.com/pechorin/any-jump.vim/archive/f95674d9a4251ac02f452d5f1861e4422f4652c7.tar.gz";
+      sha256 = "1s65zx7svl6vn1vjhsgp85z5f43kndslwdfbyp6jmzjvy2qz05y5";
+    };
+    meta = with lib; {
+      description = "Jump to any definition and references 👁 IDE madness without overhead 🚀";
+      homepage = "https://github.com/pechorin/any-jump.vim";
+      license = with licenses; [];
+    };
+  };
+
+  /*
   Generated from: aPeoplesCalendar/apc.nvim
   */
   apc-nvim = buildVimPlugin {

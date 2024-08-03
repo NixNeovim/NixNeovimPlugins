@@ -1,4 +1,4 @@
- - Plugin count: 1108
+ - Plugin count: 1109
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -19,6 +19,7 @@
 | [goolord/alpha-nvim](https://github.com/goolord/alpha-nvim) | 2024-02-25 | `alpha-nvim` | 
 | [anuvyklack/animation.nvim](https://github.com/anuvyklack/animation.nvim) | 2022-09-18 | `animation-nvim` | 
 | [Olical/aniseed](https://github.com/Olical/aniseed) | 2024-07-14 | `aniseed` | 
+| [pechorin/any-jump.vim](https://github.com/pechorin/any-jump.vim) | 2024-03-22 | `any-jump-vim` | 
 | [aPeoplesCalendar/apc.nvim](https://github.com/aPeoplesCalendar/apc.nvim) | 2024-05-08 | `apc-nvim` | 
 | [adisen99/apprentice.nvim](https://github.com/adisen99/apprentice.nvim) | 2024-01-25 | `apprentice-nvim` | 
 | [FrenzyExists/aquarium-vim](https://github.com/FrenzyExists/aquarium-vim) | 2023-02-12 | `aquarium-vim` | 
