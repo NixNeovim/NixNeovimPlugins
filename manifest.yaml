@@ -32,6 +32,8 @@
   repo: animation.nvim
 - owner: Olical
   repo: aniseed
+- owner: pechorin
+  repo: any-jump.vim
 - owner: aPeoplesCalendar
   repo: apc.nvim
 - owner: adisen99
