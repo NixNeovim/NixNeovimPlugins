@@ -416,6 +416,8 @@
   repo: dep
 - owner: akinsho
   repo: dependency-assist.nvim
+- owner: dgagn
+  repo: diagflow.nvim
 - owner: onsails
   repo: diaglist.nvim
 - owner: creativenull
