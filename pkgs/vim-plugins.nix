@@ -3526,6 +3526,23 @@
   };
 
   /*
+  Generated from: dgagn/diagflow.nvim
+  */
+  diagflow-nvim = buildVimPlugin {
+    pname = "diagflow-nvim";
+    version = "2024-07-18";
+    src = fetchurl {
+      url = "https://github.com/dgagn/diagflow.nvim/archive/fc09d55d2e60edc8ed8f9939ba97b7b7e6488c99.tar.gz";
+      sha256 = "1yvqvks43kbrcms6ml3y964bdnjf5791pakak8jbl05653d1f7q2";
+    };
+    meta = with lib; {
+      description = "LSP diagnostics in virtual text at the top right of your screen";
+      homepage = "https://github.com/dgagn/diagflow.nvim";
+      license = with licenses; [];
+    };
+  };
+
+  /*
   Generated from: onsails/diaglist.nvim
   */
   diaglist-nvim = buildVimPlugin {

@@ -209,6 +209,7 @@
 | [Verf/deepwhite.nvim](https://github.com/Verf/deepwhite.nvim) | 2024-05-22 | `deepwhite-nvim` | 
 | [chiyadev/dep](https://github.com/chiyadev/dep) | 2022-12-20 | `dep` | 
 | [akinsho/dependency-assist.nvim](https://github.com/akinsho/dependency-assist.nvim) | 2021-11-11 | `dependency-assist-nvim` | 
+| [dgagn/diagflow.nvim](https://github.com/dgagn/diagflow.nvim) | 2024-07-18 | `diagflow-nvim` | 
 | [onsails/diaglist.nvim](https://github.com/onsails/diaglist.nvim) | 2022-09-01 | `diaglist-nvim` | 
 | [creativenull/diagnosticls-configs-nvim](https://github.com/creativenull/diagnosticls-configs-nvim) | 2023-10-17 | `diagnosticls-configs-nvim` | 
 | [monaqa/dial.nvim](https://github.com/monaqa/dial.nvim) | 2024-07-15 | `dial-nvim` | 
