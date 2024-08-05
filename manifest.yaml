@@ -32,6 +32,8 @@
   repo: animation.nvim
 - owner: Olical
   repo: aniseed
+- owner: pechorin
+  repo: any-jump.vim
 - owner: aPeoplesCalendar
   repo: apc.nvim
 - owner: adisen99
@@ -1073,10 +1075,10 @@
   repo: NeoRoot.lua
 - owner: karb94
   repo: neoscroll.nvim
-- owner: svrana
-  repo: neosolarized.nvim
 - owner: Tsuzat
   repo: NeoSolarized.nvim
+- owner: svrana
+  repo: neosolarized.nvim
 - owner: nyngwang
   repo: NeoTerm.lua
 - owner: nvim-neotest
