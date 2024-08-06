@@ -1129,6 +1129,8 @@
   repo: nim.nvim
 - owner: figsoda
   repo: nix-develop.nvim
+- owner: redxtech
+  repo: nix-reaver.nvim
 - owner: tamago324
   repo: nlsp-settings.nvim
 - owner: tjdevries
