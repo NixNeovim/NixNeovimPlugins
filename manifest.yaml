@@ -1486,6 +1486,8 @@
   repo: nvim-unception
 - owner: chrisgrieser
   repo: nvim-various-textobjs
+- owner: yioneko
+  repo: nvim-vtsls
 - owner: nvim-tree
   repo: nvim-web-devicons
 - owner: yorickpeterse
