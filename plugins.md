@@ -1,4 +1,4 @@
- - Plugin count: 1109
+ - Plugin count: 1118
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -50,6 +50,7 @@
 | [RRethy/base16-nvim](https://github.com/RRethy/base16-nvim) | 2024-05-23 | `base16-nvim` | 
 | [chriskempson/base16-vim](https://github.com/chriskempson/base16-vim) | 2022-09-20 | `base16-vim` | 
 | [aliou/bats.vim](https://github.com/aliou/bats.vim) | 2023-04-09 | `bats-vim` | 
+| [bloznelis/before.nvim](https://github.com/bloznelis/before.nvim) | 2024-03-19 | `before-nvim` | 
 | [max397574/better-escape.nvim](https://github.com/max397574/better-escape.nvim) | 2024-08-02 | `better-escape-nvim` | 
 | [typicode/bg.nvim](https://github.com/typicode/bg.nvim) | 2024-06-16 | `bg-nvim` | 
 | [Wansmer/binary-swap.nvim](https://github.com/Wansmer/binary-swap.nvim) | 2023-08-06 | `binary-swap-nvim` | 
@@ -458,6 +459,7 @@
 | [lopi-py/luau-lsp.nvim](https://github.com/lopi-py/luau-lsp.nvim) | 2024-08-02 | `luau-lsp-nvim` | 
 | [rktjmp/lush.nvim](https://github.com/rktjmp/lush.nvim) | 2024-07-09 | `lush-nvim` | 
 | [nanotee/luv-vimdocs](https://github.com/nanotee/luv-vimdocs) | 2023-02-08 | `luv-vimdocs` | 
+| [Bilal2453/luvit-meta](https://github.com/Bilal2453/luvit-meta) | 2024-01-20 | `luvit-meta` | 
 | [desdic/macrothis.nvim](https://github.com/desdic/macrothis.nvim) | 2024-07-20 | `macrothis-nvim` | 
 | [dccsillag/magma-nvim](https://github.com/dccsillag/magma-nvim) | 2023-07-08 | `magma-nvim` | 
 | [Zeioth/makeit.nvim](https://github.com/Zeioth/makeit.nvim) | 2024-06-12 | `makeit-nvim` | 
@@ -469,6 +471,7 @@
 | [NFrid/markdown-togglecheck](https://github.com/nfrid/markdown-togglecheck) | 2023-09-04 | `markdown-togglecheck` | 
 | [Zeioth/markmap.nvim](https://github.com/Zeioth/markmap.nvim) | 2024-06-12 | `markmap-nvim` | 
 | [chentoast/marks.nvim](https://github.com/chentoast/marks.nvim) | 2024-01-07 | `marks-nvim` | 
+| [OXY2DEV/markview.nvim](https://github.com/OXY2DEV/markview.nvim) | 2024-08-05 | `markview-nvim` | 
 | [desdic/marlin.nvim](https://github.com/desdic/marlin.nvim) | 2024-06-09 | `marlin-nvim` | 
 | [mpas/marp-nvim](https://github.com/mpas/marp-nvim) | 2024-07-31 | `marp-nvim` | 
 | [williamboman/mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim) | 2024-07-25 | `mason-lspconfig-nvim` | 
@@ -555,6 +558,7 @@
 | [EdenEast/nightfox.nvim](https://github.com/EdenEast/nightfox.nvim) | 2024-07-22 | `nightfox-nvim` | 
 | [alaviss/nim.nvim](https://github.com/alaviss/nim.nvim) | 2023-10-22 | `nim-nvim` | 
 | [figsoda/nix-develop.nvim](https://github.com/figsoda/nix-develop.nvim) | 2023-07-23 | `nix-develop-nvim` | 
+| [redxtech/nix-reaver.nvim](https://github.com/redxtech/nix-reaver.nvim) | 2024-07-28 | `nix-reaver-nvim` | 
 | [tamago324/nlsp-settings.nvim](https://github.com/tamago324/nlsp-settings.nvim) | 2024-08-03 | `nlsp-settings-nvim` | 
 | [tjdevries/nlua.nvim](https://github.com/tjdevries/nlua.nvim) | 2022-12-20 | `nlua-nvim` | 
 | [luukvbaal/nnn.nvim](https://github.com/luukvbaal/nnn.nvim) | 2023-08-09 | `nnn-nvim` | 
@@ -730,6 +734,7 @@
 | [kevinhwang91/nvim-ufo](https://github.com/kevinhwang91/nvim-ufo) | 2024-08-01 | `nvim-ufo` | 
 | [samjwill/nvim-unception](https://github.com/samjwill/nvim-unception) | 2024-02-06 | `nvim-unception` | 
 | [chrisgrieser/nvim-various-textobjs](https://github.com/chrisgrieser/nvim-various-textobjs) | 2024-07-27 | `nvim-various-textobjs` | 
+| [yioneko/nvim-vtsls](https://github.com/yioneko/nvim-vtsls) | 2024-06-28 | `nvim-vtsls` | 
 | [nvim-tree/nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) | 2024-07-28 | `nvim-web-devicons` | 
 | [yorickpeterse/nvim-window](https://github.com/yorickpeterse/nvim-window) | 2024-05-15 | `nvim-window` | 
 | [s1n7ax/nvim-window-picker](https://github.com/s1n7ax/nvim-window-picker) | 2023-12-17 | `nvim-window-picker` | 
@@ -808,6 +813,7 @@
 | [Chaitanyabsprip/present.nvim](https://github.com/Chaitanyabsprip/present.nvim) | 2024-04-27 | `present-nvim` | 
 | [MunifTanjim/prettier.nvim](https://github.com/MunifTanjim/prettier.nvim) | 2023-06-16 | `prettier-nvim` | 
 | [anuvyklack/pretty-fold.nvim](https://github.com/anuvyklack/pretty-fold.nvim) | 2022-07-20 | `pretty-fold-nvim` | 
+| [stevearc/profile.nvim](https://github.com/stevearc/profile.nvim) | 2024-04-23 | `profile-nvim` | 
 | [ahmedkhalf/project.nvim](https://github.com/ahmedkhalf/project.nvim) | 2023-04-04 | `project-nvim` | 
 | [gnikdroy/projections.nvim](https://github.com/GnikDroy/projections.nvim) | 2023-06-29 | `projections-nvim` | 
 | [kevinhwang91/promise-async](https://github.com/kevinhwang91/promise-async) | 2024-06-10 | `promise-async` | 
@@ -855,6 +861,7 @@
 | [b0o/SchemaStore.nvim](https://github.com/b0o/SchemaStore.nvim) | 2024-07-25 | `SchemaStore-nvim` | 
 | [davidgranstrom/scnvim](https://github.com/davidgranstrom/scnvim) | 2024-05-15 | `scnvim` | 
 | [LintaoAmons/scratch.nvim](https://github.com/LintaoAmons/scratch.nvim) | 2024-07-23 | `scratch-nvim` | 
+| [NStefan002/screenkey.nvim](https://github.com/NStefan002/screenkey.nvim) | 2024-07-05 | `screenkey-nvim` | 
 | [ostralyan/scribe.nvim](https://github.com/Ostralyan/scribe.nvim) | 2023-02-02 | `scribe-nvim` | 
 | [niuiic/scroll.nvim](https://github.com/niuiic/scroll.nvim) | 2024-05-24 | `scroll-nvim` | 
 | [Xuyuanp/scrollbar.nvim](https://github.com/Xuyuanp/scrollbar.nvim) | 2022-06-16 | `scrollbar-nvim` | 
@@ -874,6 +881,7 @@
 | [LucasTavaresA/simpleIndentGuides.nvim](https://github.com/LucasTavaresA/simpleIndentGuides.nvim) | 2023-01-10 | `simpleIndentGuides-nvim` | 
 | [LucasTavaresA/SingleComment.nvim](https://github.com/LucasTavaresA/SingleComment.nvim) | 2024-06-03 | `SingleComment-nvim` | 
 | [woosaaahh/sj.nvim](https://github.com/woosaaahh/sj.nvim) | 2023-08-06 | `sj-nvim` | 
+| [danielfalk/smart-open.nvim](https://github.com/danielfalk/smart-open.nvim) | 2024-06-12 | `smart-open-nvim` | 
 | [ZhiyuanLck/smart-pairs](https://github.com/ZhiyuanLck/smart-pairs) | 2024-01-18 | `smart-pairs` | 
 | [mrjones2014/smart-splits.nvim](https://github.com/mrjones2014/smart-splits.nvim) | 2024-08-02 | `smart-splits-nvim` | 
 | [sychen52/smart-term-esc.nvim](https://github.com/sychen52/smart-term-esc.nvim) | 2021-09-27 | `smart-term-esc-nvim` | 
