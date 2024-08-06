@@ -1739,6 +1739,8 @@
   repo: scnvim
 - owner: LintaoAmons
   repo: scratch.nvim
+- owner: NStefan002
+  repo: screenkey.nvim
 - owner: ostralyan
   repo: scribe.nvim
 - owner: niuiic
