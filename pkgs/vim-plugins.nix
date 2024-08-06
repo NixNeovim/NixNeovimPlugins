@@ -806,6 +806,23 @@
   };
 
   /*
+  Generated from: bloznelis/before.nvim
+  */
+  before-nvim = buildVimPlugin {
+    pname = "before-nvim";
+    version = "2024-03-19";
+    src = fetchurl {
+      url = "https://github.com/bloznelis/before.nvim/archive/42294a3ba5dc02d3f3a9fe4e9a033ef29da6dcc6.tar.gz";
+      sha256 = "1wpzhnf03pajmx0x3x0b9j02kqncgv5270af9x4frmzmm526mvvr";
+    };
+    meta = with lib; {
+      description = "Jump to the last edit in Neovim";
+      homepage = "https://github.com/bloznelis/before.nvim";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
   Generated from: max397574/better-escape.nvim
   */
   better-escape-nvim = buildVimPlugin {

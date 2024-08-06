@@ -1,4 +1,4 @@
- - Plugin count: 1108
+ - Plugin count: 1109
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -49,6 +49,7 @@
 | [RRethy/base16-nvim](https://github.com/RRethy/base16-nvim) | 2024-05-23 | `base16-nvim` | 
 | [chriskempson/base16-vim](https://github.com/chriskempson/base16-vim) | 2022-09-20 | `base16-vim` | 
 | [aliou/bats.vim](https://github.com/aliou/bats.vim) | 2023-04-09 | `bats-vim` | 
+| [bloznelis/before.nvim](https://github.com/bloznelis/before.nvim) | 2024-03-19 | `before-nvim` | 
 | [max397574/better-escape.nvim](https://github.com/max397574/better-escape.nvim) | 2024-07-27 | `better-escape-nvim` | 
 | [typicode/bg.nvim](https://github.com/typicode/bg.nvim) | 2024-06-16 | `bg-nvim` | 
 | [Wansmer/binary-swap.nvim](https://github.com/Wansmer/binary-swap.nvim) | 2023-08-06 | `binary-swap-nvim` | 
