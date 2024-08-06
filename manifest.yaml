@@ -98,6 +98,8 @@
   repo: base16-vim
 - owner: aliou
   repo: bats.vim
+- owner: bloznelis
+  repo: before.nvim
 - owner: max397574
   repo: better-escape.nvim
 - owner: typicode
@@ -929,6 +931,8 @@
   repo: lush.nvim
 - owner: nanotee
   repo: luv-vimdocs
+- owner: Bilal2453
+  repo: luvit-meta
 - owner: desdic
   repo: macrothis.nvim
 - owner: dccsillag
@@ -953,6 +957,8 @@
   repo: markmap.nvim
 - owner: chentoast
   repo: marks.nvim
+- owner: OXY2DEV
+  repo: markview.nvim
 - owner: desdic
   repo: marlin.nvim
 - owner: mpas
@@ -1125,6 +1131,8 @@
   repo: nim.nvim
 - owner: figsoda
   repo: nix-develop.nvim
+- owner: redxtech
+  repo: nix-reaver.nvim
 - owner: tamago324
   repo: nlsp-settings.nvim
 - owner: tjdevries
@@ -1468,9 +1476,9 @@
   repo: nvim-treesitter-textsubjects
 - owner: AckslD
   repo: nvim-trevJ.lua
-- owner: nvim-pack
-  repo: nvim-ts-autotag
 - owner: windwp
+  repo: nvim-ts-autotag
+- owner: nvim-pack
   repo: nvim-ts-autotag
 - owner: JoosepAlviste
   repo: nvim-ts-context-commentstring
@@ -1484,6 +1492,8 @@
   repo: nvim-unception
 - owner: chrisgrieser
   repo: nvim-various-textobjs
+- owner: yioneko
+  repo: nvim-vtsls
 - owner: nvim-tree
   repo: nvim-web-devicons
 - owner: yorickpeterse
@@ -1640,6 +1650,8 @@
   repo: prettier.nvim
 - owner: anuvyklack
   repo: pretty-fold.nvim
+- owner: stevearc
+  repo: profile.nvim
 - owner: ahmedkhalf
   repo: project.nvim
 - owner: gnikdroy
@@ -1735,6 +1747,8 @@
   repo: scnvim
 - owner: LintaoAmons
   repo: scratch.nvim
+- owner: NStefan002
+  repo: screenkey.nvim
 - owner: ostralyan
   repo: scribe.nvim
 - owner: niuiic
@@ -1774,6 +1788,8 @@
   repo: SingleComment.nvim
 - owner: woosaaahh
   repo: sj.nvim
+- owner: danielfalk
+  repo: smart-open.nvim
 - owner: ZhiyuanLck
   repo: smart-pairs
 - owner: mrjones2014
