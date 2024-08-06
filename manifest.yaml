@@ -1642,6 +1642,8 @@
   repo: prettier.nvim
 - owner: anuvyklack
   repo: pretty-fold.nvim
+- owner: stevearc
+  repo: profile.nvim
 - owner: ahmedkhalf
   repo: project.nvim
 - owner: gnikdroy
