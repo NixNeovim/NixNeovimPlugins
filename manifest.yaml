@@ -957,6 +957,8 @@
   repo: markmap.nvim
 - owner: chentoast
   repo: marks.nvim
+- owner: OXY2DEV
+  repo: markview.nvim
 - owner: desdic
   repo: marlin.nvim
 - owner: mpas
