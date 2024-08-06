@@ -931,6 +931,8 @@
   repo: lush.nvim
 - owner: nanotee
   repo: luv-vimdocs
+- owner: Bilal2453
+  repo: luvit-meta
 - owner: desdic
   repo: macrothis.nvim
 - owner: dccsillag
