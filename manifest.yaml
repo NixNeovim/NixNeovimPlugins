@@ -1780,6 +1780,8 @@
   repo: SingleComment.nvim
 - owner: woosaaahh
   repo: sj.nvim
+- owner: danielfalk
+  repo: smart-open.nvim
 - owner: ZhiyuanLck
   repo: smart-pairs
 - owner: mrjones2014
