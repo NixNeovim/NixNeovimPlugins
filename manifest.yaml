@@ -1065,8 +1065,6 @@
   repo: neofs
 - owner: danymat
   repo: neogen
-- owner: NeogitOrg
-  repo: neogit
 - owner: adelarsq
   repo: neoline.vim
 - owner: nikvdp
@@ -1285,8 +1283,6 @@
   repo: nvim-gps
 - owner: ojroques
   repo: nvim-hardline
-- owner: towolf
-  repo: vim-helm
 - owner: brenoprata10
   repo: nvim-highlight-colors
 - owner: Iron-E
@@ -1484,9 +1480,9 @@
   repo: nvim-treesitter-textsubjects
 - owner: AckslD
   repo: nvim-trevJ.lua
-- owner: windwp
-  repo: nvim-ts-autotag
 - owner: nvim-pack
+  repo: nvim-ts-autotag
+- owner: windwp
   repo: nvim-ts-autotag
 - owner: JoosepAlviste
   repo: nvim-ts-context-commentstring
@@ -2147,6 +2143,8 @@
   repo: vim-gfm-syntax
 - owner: airblade
   repo: vim-gitgutter
+- owner: towolf
+  repo: vim-helm
 - owner: hylang
   repo: vim-hy
 - owner: RRethy
