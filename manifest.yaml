@@ -471,6 +471,8 @@
   repo: easytables.nvim
 - owner: sainnhe
   repo: edge
+- owner: folke
+  repo: edgy.nvim
 - owner: kiran94
   repo: edit-markdown-table.nvim
 - owner: gpanders
@@ -1063,6 +1065,8 @@
   repo: neofs
 - owner: danymat
   repo: neogen
+- owner: NeogitOrg
+  repo: neogit
 - owner: adelarsq
   repo: neoline.vim
 - owner: nikvdp
@@ -1083,10 +1087,10 @@
   repo: NeoRoot.lua
 - owner: karb94
   repo: neoscroll.nvim
-- owner: Tsuzat
-  repo: NeoSolarized.nvim
 - owner: svrana
   repo: neosolarized.nvim
+- owner: Tsuzat
+  repo: NeoSolarized.nvim
 - owner: nyngwang
   repo: NeoTerm.lua
 - owner: nvim-neotest
@@ -1423,6 +1427,8 @@
   repo: nvim-search-and-replace
 - owner: johann2357
   repo: nvim-smartbufs
+- owner: garymjr
+  repo: nvim-snippets
 - owner: dcampos
   repo: nvim-snippy
 - owner: ishan9299
@@ -1476,9 +1482,9 @@
   repo: nvim-treesitter-textsubjects
 - owner: AckslD
   repo: nvim-trevJ.lua
-- owner: windwp
-  repo: nvim-ts-autotag
 - owner: nvim-pack
+  repo: nvim-ts-autotag
+- owner: windwp
   repo: nvim-ts-autotag
 - owner: JoosepAlviste
   repo: nvim-ts-context-commentstring
@@ -1870,6 +1876,8 @@
   repo: sunburn.nvim
 - owner: miversen33
   repo: sunglasses.nvim
+- owner: supermaven-inc
+  repo: supermaven-nvim
 - owner: roobert
   repo: surround-ui.nvim
 - owner: bennypowers
@@ -1932,6 +1940,8 @@
   repo: telescope-file-browser.nvim
 - owner: nvim-telescope
   repo: telescope-fzf-native.nvim
+- owner: nvim-telescope
+  repo: telescope-fzy-native.nvim
 - owner: isak102
   repo: telescope-git-file-history.nvim
 - owner: crispgm
@@ -2120,6 +2130,8 @@
   repo: vim-emacscommandline
 - owner: tpope
   repo: vim-endwise
+- owner: tpope
+  repo: vim-eunuch
 - owner: mnacamura
   repo: vim-fennel-syntax
 - owner: inkch
@@ -2133,6 +2145,8 @@
   repo: vim-gfm-syntax
 - owner: airblade
   repo: vim-gitgutter
+- owner: towolf
+  repo: vim-helm
 - owner: hylang
   repo: vim-hy
 - owner: RRethy
@@ -2219,9 +2233,9 @@
   repo: wilder.nvim
 - owner: declancm
   repo: windex.nvim
-- owner: windwp
-  repo: windline.nvim
 - owner: nvim-pack
+  repo: windline.nvim
+- owner: windwp
   repo: windline.nvim
 - owner: anuvyklack
   repo: windows.nvim

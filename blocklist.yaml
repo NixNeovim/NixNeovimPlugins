@@ -8,8 +8,6 @@
   repository_host: gitlab
 - owner: EdvinVikstrom
   repo: filetree.nvim
-- owner: NeogitOrg
-  repo: neogit
 - owner: Everblush
   repo: everblush.nvim
 - owner: NTBBloodbath

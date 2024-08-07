@@ -3968,6 +3968,23 @@
   };
 
   /*
+  Generated from: folke/edgy.nvim
+  */
+  edgy-nvim = buildVimPlugin {
+    pname = "edgy-nvim";
+    version = "2024-07-22";
+    src = fetchurl {
+      url = "https://github.com/folke/edgy.nvim/archive/ebb77fde6f5cb2745431c6c0fe57024f66471728.tar.gz";
+      sha256 = "1625y29aj079vkgyr652nkv883a3m57wzpwlr22n1j0pa2f55w29";
+    };
+    meta = with lib; {
+      description = "Easily create and manage predefined window layouts, bringing a new edge to your workflow";
+      homepage = "https://github.com/folke/edgy.nvim";
+      license = with licenses; [];
+    };
+  };
+
+  /*
   Generated from: kiran94/edit-markdown-table.nvim
   */
   edit-markdown-table-nvim = buildVimPlugin {
@@ -8883,6 +8900,23 @@
   };
 
   /*
+  Generated from: NeogitOrg/neogit
+  */
+  neogit = buildVimPlugin {
+    pname = "neogit";
+    version = "2024-06-17";
+    src = fetchurl {
+      url = "https://github.com/NeogitOrg/neogit/archive/11dea1b67bb153cd5b4a2de348ceefa69508dfce.tar.gz";
+      sha256 = "0zz65zq1lq4ffxqd8mwyskdmlxkzx6zqlxnbisdxk6jwljw9hpmc";
+    };
+    meta = with lib; {
+      description = "An interactive and powerful Git interface for Neovim, inspired by Magit";
+      homepage = "https://github.com/NeogitOrg/neogit";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
   Generated from: adelarsq/neoline.vim
   */
   neoline-vim = buildVimPlugin {
@@ -9053,23 +9087,6 @@
   };
 
   /*
-  Generated from: svrana/neosolarized.nvim
-  */
-  neosolarized-nvim = buildVimPlugin {
-    pname = "neosolarized-nvim";
-    version = "2024-05-28";
-    src = fetchurl {
-      url = "https://github.com/svrana/neosolarized.nvim/archive/51c18aaa5f7508cabfb3cfce72430a2679ef809a.tar.gz";
-      sha256 = "1bxxzkg7ms9555yk7a2plfkq64b5gzxlh8bkrq39y06kknf6sj9g";
-    };
-    meta = with lib; {
-      description = "Truecolor solarized theme for neovim in Lua using colorbuddy";
-      homepage = "https://github.com/svrana/neosolarized.nvim";
-      license = with licenses; [];
-    };
-  };
-
-  /*
   Generated from: Tsuzat/NeoSolarized.nvim
   */
   NeoSolarized-nvim = buildVimPlugin {
@@ -9082,6 +9099,23 @@
     meta = with lib; {
       description = "NeoSolarized colorscheme for NeoVim with full transparency";
       homepage = "https://github.com/Tsuzat/NeoSolarized.nvim";
+      license = with licenses; [];
+    };
+  };
+
+  /*
+  Generated from: svrana/neosolarized.nvim
+  */
+  neosolarized-nvim = buildVimPlugin {
+    pname = "neosolarized-nvim";
+    version = "2024-05-28";
+    src = fetchurl {
+      url = "https://github.com/svrana/neosolarized.nvim/archive/51c18aaa5f7508cabfb3cfce72430a2679ef809a.tar.gz";
+      sha256 = "1bxxzkg7ms9555yk7a2plfkq64b5gzxlh8bkrq39y06kknf6sj9g";
+    };
+    meta = with lib; {
+      description = "Truecolor solarized theme for neovim in Lua using colorbuddy";
+      homepage = "https://github.com/svrana/neosolarized.nvim";
       license = with licenses; [];
     };
   };
@@ -11887,6 +11921,23 @@
     meta = with lib; {
       description = "Smart buffer management in neovim";
       homepage = "https://github.com/johann2357/nvim-smartbufs";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
+  Generated from: garymjr/nvim-snippets
+  */
+  nvim-snippets = buildVimPlugin {
+    pname = "nvim-snippets";
+    version = "2024-07-10";
+    src = fetchurl {
+      url = "https://github.com/garymjr/nvim-snippets/archive/56b4052f71220144689caaa2e5b66222ba5661eb.tar.gz";
+      sha256 = "0g05fqam3cb4pbnkzc71x77kxh5pkk7qsyk35xwimkhh4s7klbn9";
+    };
+    meta = with lib; {
+      description = "Snippet support using native neovim snippets";
+      homepage = "https://github.com/garymjr/nvim-snippets";
       license = with licenses; [mit];
     };
   };
@@ -15650,6 +15701,23 @@
   };
 
   /*
+  Generated from: supermaven-inc/supermaven-nvim
+  */
+  supermaven-nvim = buildVimPlugin {
+    pname = "supermaven-nvim";
+    version = "2024-07-17";
+    src = fetchurl {
+      url = "https://github.com/supermaven-inc/supermaven-nvim/archive/d71257f431e190d9236d7f30da4c2d659389e91f.tar.gz";
+      sha256 = "14g8vymfz1b24d935nfrm2c9wf8jrwvcha5x8cvlhsg170zdqmi7";
+    };
+    meta = with lib; {
+      description = "The official Neovim plugin for Supermaven";
+      homepage = "https://github.com/supermaven-inc/supermaven-nvim";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
   Generated from: roobert/surround-ui.nvim
   */
   surround-ui-nvim = buildVimPlugin {
@@ -16156,6 +16224,23 @@
       description = "FZF sorter for telescope written in c";
       homepage = "https://github.com/nvim-telescope/telescope-fzf-native.nvim";
       license = with licenses; [];
+    };
+  };
+
+  /*
+  Generated from: nvim-telescope/telescope-fzy-native.nvim
+  */
+  telescope-fzy-native-nvim = buildVimPlugin {
+    pname = "telescope-fzy-native-nvim";
+    version = "2022-09-11";
+    src = fetchurl {
+      url = "https://github.com/nvim-telescope/telescope-fzy-native.nvim/archive/282f069504515eec762ab6d6c89903377252bf5b.tar.gz";
+      sha256 = "1m2k6flvq0mq2wnasvzadgqcbl823067kssp8qkvh1zcnhzjmc6r";
+    };
+    meta = with lib; {
+      description = "FZY style sorter that is compiled";
+      homepage = "https://github.com/nvim-telescope/telescope-fzy-native.nvim";
+      license = with licenses; [mit];
     };
   };
 
@@ -17741,6 +17826,23 @@
   };
 
   /*
+  Generated from: tpope/vim-eunuch
+  */
+  vim-eunuch = buildVimPlugin {
+    pname = "vim-eunuch";
+    version = "2024-02-04";
+    src = fetchurl {
+      url = "https://github.com/tpope/vim-eunuch/archive/8fb3904be27b6b60d086f87c2570085902414069.tar.gz";
+      sha256 = "0b5c6hhjlkhyzqksg8s2im9zzz4jw318kwb5ii4zf65yngbvsibl";
+    };
+    meta = with lib; {
+      description = "eunuch.vim: Helpers for UNIX";
+      homepage = "https://github.com/tpope/vim-eunuch";
+      license = with licenses; [];
+    };
+  };
+
+  /*
   Generated from: mnacamura/vim-fennel-syntax
   */
   vim-fennel-syntax = buildVimPlugin {
@@ -17839,6 +17941,23 @@
       description = "A Vim plugin which shows git diff markers in the sign column and stages/previews/undoes hunks and partial hunks.";
       homepage = "https://github.com/airblade/vim-gitgutter";
       license = with licenses; [mit];
+    };
+  };
+
+  /*
+  Generated from: towolf/vim-helm
+  */
+  vim-helm = buildVimPlugin {
+    pname = "vim-helm";
+    version = "2024-05-31";
+    src = fetchurl {
+      url = "https://github.com/towolf/vim-helm/archive/ae1ebc160d2b9b90108477ab10df7a4fc501e358.tar.gz";
+      sha256 = "121vlyvizh999rdp8j3m76ql9k8am986sgpq17yjkqgm9iv1s08p";
+    };
+    meta = with lib; {
+      description = "vim syntax for helm templates (yaml + gotmpl + sprig + custom)";
+      homepage = "https://github.com/towolf/vim-helm";
+      license = with licenses; [];
     };
   };
 
