@@ -1942,6 +1942,8 @@
   repo: telescope-file-browser.nvim
 - owner: nvim-telescope
   repo: telescope-fzf-native.nvim
+- owner: nvim-telescope
+  repo: telescope-fzy-native.nvim
 - owner: isak102
   repo: telescope-git-file-history.nvim
 - owner: crispgm
