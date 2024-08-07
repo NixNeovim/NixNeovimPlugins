@@ -1287,6 +1287,8 @@
   repo: nvim-gps
 - owner: ojroques
   repo: nvim-hardline
+- owner: towolf
+  repo: vim-helm
 - owner: brenoprata10
   repo: nvim-highlight-colors
 - owner: Iron-E
