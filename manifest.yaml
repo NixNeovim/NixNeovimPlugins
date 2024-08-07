@@ -10,6 +10,8 @@
   repo: action-hints.nvim
 - owner: aznhe21
   repo: actions-preview.nvim
+- owner: NeogitOrg
+  repo: neogit
 - owner: roobert
   repo: activate.nvim
 - owner: mong8se
