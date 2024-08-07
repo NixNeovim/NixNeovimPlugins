@@ -1880,6 +1880,8 @@
   repo: sunburn.nvim
 - owner: miversen33
   repo: sunglasses.nvim
+- owner: supermaven-inc
+  repo: supermaven-nvim
 - owner: roobert
   repo: surround-ui.nvim
 - owner: bennypowers
