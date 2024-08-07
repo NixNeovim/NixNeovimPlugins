@@ -471,6 +471,8 @@
   repo: easytables.nvim
 - owner: sainnhe
   repo: edge
+- owner: folke
+  repo: edgy.nvim
 - owner: kiran94
   repo: edit-markdown-table.nvim
 - owner: gpanders
