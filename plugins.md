@@ -1,4 +1,4 @@
- - Plugin count: 1119
+ - Plugin count: 1124
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -235,6 +235,7 @@
 | [axkirillov/easypick.nvim](https://github.com/axkirillov/easypick.nvim) | 2024-04-17 | `easypick-nvim` | 
 | [Myzel394/easytables.nvim](https://github.com/Myzel394/easytables.nvim) | 2024-07-25 | `easytables-nvim` | 
 | [sainnhe/edge](https://github.com/sainnhe/edge) | 2024-07-13 | `edge` | 
+| [folke/edgy.nvim](https://github.com/folke/edgy.nvim) | 2024-07-22 | `edgy-nvim` | 
 | [kiran94/edit-markdown-table.nvim](https://github.com/kiran94/edit-markdown-table.nvim) | 2023-05-28 | `edit-markdown-table-nvim` | 
 | [gpanders/editorconfig.nvim](https://github.com/gpanders/editorconfig.nvim) | 2023-01-10 | `editorconfig-nvim` | 
 | [creativenull/efmls-configs-nvim](https://github.com/creativenull/efmls-configs-nvim) | 2024-07-31 | `efmls-configs-nvim` | 
@@ -702,7 +703,8 @@
 | [dstein64/nvim-scrollview](https://github.com/dstein64/nvim-scrollview) | 2024-07-21 | `nvim-scrollview` | 
 | [s1n7ax/nvim-search-and-replace](https://github.com/s1n7ax/nvim-search-and-replace) | 2022-09-06 | `nvim-search-and-replace` | 
 | [johann2357/nvim-smartbufs](https://github.com/johann2357/nvim-smartbufs) | 2021-06-14 | `nvim-smartbufs` | 
-| [dcampos/nvim-snippy](https://github.com/dcampos/nvim-snippy) | 2024-08-08 | `nvim-snippy` | 
+| [garymjr/nvim-snippets](https://github.com/garymjr/nvim-snippets) | 2024-07-10 | `nvim-snippets` | 
+| [dcampos/nvim-snippy](https://github.com/dcampos/nvim-snippy) | 2024-07-13 | `nvim-snippy` | 
 | [ishan9299/nvim-solarized-lua](https://github.com/ishan9299/nvim-solarized-lua) | 2024-03-04 | `nvim-solarized-lua` | 
 | [nvim-pack/nvim-spectre](https://github.com/nvim-pack/nvim-spectre) | 2024-07-30 | `nvim-spectre` | 
 | [chrisgrieser/nvim-spider](https://github.com/chrisgrieser/nvim-spider) | 2024-07-21 | `nvim-spider` | 
@@ -923,6 +925,7 @@
 | [jim-fx/sudoku.nvim](https://github.com/jim-fx/sudoku.nvim) | 2023-12-11 | `sudoku-nvim` | 
 | [loganswartz/sunburn.nvim](https://github.com/loganswartz/sunburn.nvim) | 2024-04-17 | `sunburn-nvim` | 
 | [miversen33/sunglasses.nvim](https://github.com/miversen33/sunglasses.nvim) | 2024-07-06 | `sunglasses-nvim` | 
+| [supermaven-inc/supermaven-nvim](https://github.com/supermaven-inc/supermaven-nvim) | 2024-07-17 | `supermaven-nvim` | 
 | [roobert/surround-ui.nvim](https://github.com/roobert/surround-ui.nvim) | 2024-07-16 | `surround-ui-nvim` | 
 | [bennypowers/svgo.nvim](https://github.com/bennypowers/svgo.nvim) | 2023-11-17 | `svgo-nvim` | 
 | [AckslD/swenv.nvim](https://github.com/AckslD/swenv.nvim) | 2024-05-05 | `swenv-nvim` | 
@@ -953,6 +956,7 @@
 | [fdschmidt93/telescope-egrepify.nvim](https://github.com/fdschmidt93/telescope-egrepify.nvim) | 2024-07-11 | `telescope-egrepify-nvim` | 
 | [nvim-telescope/telescope-file-browser.nvim](https://github.com/nvim-telescope/telescope-file-browser.nvim) | 2024-08-04 | `telescope-file-browser-nvim` | 
 | [nvim-telescope/telescope-fzf-native.nvim](https://github.com/nvim-telescope/telescope-fzf-native.nvim) | 2024-07-02 | `telescope-fzf-native-nvim` | 
+| [nvim-telescope/telescope-fzy-native.nvim](https://github.com/nvim-telescope/telescope-fzy-native.nvim) | 2022-09-11 | `telescope-fzy-native-nvim` | 
 | [isak102/telescope-git-file-history.nvim](https://github.com/isak102/telescope-git-file-history.nvim) | 2024-03-20 | `telescope-git-file-history-nvim` | 
 | [crispgm/telescope-heading.nvim](https://github.com/crispgm/telescope-heading.nvim) | 2024-06-11 | `telescope-heading-nvim` | 
 | [piersolenski/telescope-import.nvim](https://github.com/piersolenski/telescope-import.nvim) | 2024-03-09 | `telescope-import-nvim` | 
@@ -1046,12 +1050,14 @@
 | [zhou13/vim-easyescape](https://github.com/zhou13/vim-easyescape) | 2020-11-22 | `vim-easyescape` | 
 | [houtsnip/vim-emacscommandline](https://github.com/houtsnip/vim-emacscommandline) | 2017-11-24 | `vim-emacscommandline` | 
 | [tpope/vim-endwise](https://github.com/tpope/vim-endwise) | 2024-01-16 | `vim-endwise` | 
+| [tpope/vim-eunuch](https://github.com/tpope/vim-eunuch) | 2024-02-04 | `vim-eunuch` | 
 | [mnacamura/vim-fennel-syntax](https://github.com/m15a/vim-fennel-syntax) | 2024-03-18 | `vim-fennel-syntax` | 
 | [inkch/vim-fish](https://github.com/inkch/vim-fish) | 2022-03-06 | `vim-fish-inkch` | 
 | [voldikss/vim-floaterm](https://github.com/voldikss/vim-floaterm) | 2024-04-08 | `vim-floaterm` | 
 | [tpope/vim-fugitive](https://github.com/tpope/vim-fugitive) | 2024-07-18 | `vim-fugitive` | 
 | [rhysd/vim-gfm-syntax](https://github.com/rhysd/vim-gfm-syntax) | 2022-08-01 | `vim-gfm-syntax` | 
 | [airblade/vim-gitgutter](https://github.com/airblade/vim-gitgutter) | 2024-07-16 | `vim-gitgutter` | 
+| [towolf/vim-helm](https://github.com/towolf/vim-helm) | 2024-05-31 | `vim-helm` | 
 | [hylang/vim-hy](https://github.com/hylang/vim-hy) | 2023-10-06 | `vim-hy` | 
 | [RRethy/vim-illuminate](https://github.com/RRethy/vim-illuminate) | 2024-05-17 | `vim-illuminate` | 
 | [ledger/vim-ledger](https://github.com/ledger/vim-ledger) | 2024-07-15 | `vim-ledger` | 
