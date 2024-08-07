@@ -2132,6 +2132,8 @@
   repo: vim-emacscommandline
 - owner: tpope
   repo: vim-endwise
+- owner: tpope
+  repo: vim-eunuch
 - owner: mnacamura
   repo: vim-fennel-syntax
 - owner: inkch
