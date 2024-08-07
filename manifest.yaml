@@ -1065,6 +1065,8 @@
   repo: neofs
 - owner: danymat
   repo: neogen
+- owner: NeogitOrg
+  repo: neogit
 - owner: adelarsq
   repo: neoline.vim
 - owner: nikvdp
