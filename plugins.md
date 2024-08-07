@@ -1,4 +1,4 @@
- - Plugin count: 1124
+ - Plugin count: 1125
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -526,6 +526,7 @@
 | [sbdchd/neoformat](https://github.com/sbdchd/neoformat) | 2024-08-03 | `neoformat` | 
 | [TimUntersberger/neofs](https://github.com/TimUntersberger/neofs) | 2022-08-10 | `neofs` | 
 | [danymat/neogen](https://github.com/danymat/neogen) | 2024-08-02 | `neogen` | 
+| [NeogitOrg/neogit](https://github.com/NeogitOrg/neogit) | 2024-06-17 | `neogit` | 
 | [adelarsq/neoline.vim](https://github.com/adelarsq/neoline.vim) | 2024-04-25 | `neoline-vim` | 
 | [nikvdp/neomux](https://github.com/nikvdp/neomux) | 2023-04-14 | `neomux` | 
 | [rafamadriz/neon](https://github.com/rafamadriz/neon) | 2022-11-27 | `neon` | 
@@ -536,8 +537,8 @@
 | [nvim-neorg/neorg-telescope](https://github.com/nvim-neorg/neorg-telescope) | 2024-07-30 | `neorg-telescope` | 
 | [nyngwang/NeoRoot.lua](https://github.com/nyngwang/NeoRoot.lua) | 2023-02-08 | `NeoRoot-lua` | 
 | [karb94/neoscroll.nvim](https://github.com/karb94/neoscroll.nvim) | 2024-08-01 | `neoscroll-nvim` | 
-| [svrana/neosolarized.nvim](https://github.com/svrana/neosolarized.nvim) | 2024-05-28 | `neosolarized-nvim` | 
 | [Tsuzat/NeoSolarized.nvim](https://github.com/Tsuzat/NeoSolarized.nvim) | 2024-06-20 | `NeoSolarized-nvim` | 
+| [svrana/neosolarized.nvim](https://github.com/svrana/neosolarized.nvim) | 2024-05-28 | `neosolarized-nvim` | 
 | [nyngwang/NeoTerm.lua](https://github.com/nyngwang/NeoTerm.lua) | 2023-06-22 | `NeoTerm-lua` | 
 | [nvim-neotest/neotest](https://github.com/nvim-neotest/neotest) | 2024-07-13 | `neotest` | 
 | [fredrikaverpil/neotest-golang](https://github.com/fredrikaverpil/neotest-golang) | 2024-08-08 | `neotest-golang` | 
