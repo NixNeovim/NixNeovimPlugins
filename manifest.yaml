@@ -1429,6 +1429,8 @@
   repo: nvim-search-and-replace
 - owner: johann2357
   repo: nvim-smartbufs
+- owner: garymjr
+  repo: nvim-snippets
 - owner: dcampos
   repo: nvim-snippy
 - owner: ishan9299
