@@ -2273,4 +2273,6 @@
   repo: zig.vim
 - owner: zk-org
   repo: zk-nvim
+- owner: jakobkhansen
+  repo: journal.nvim
 
