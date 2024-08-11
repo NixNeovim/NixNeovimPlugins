@@ -38,6 +38,9 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
           SOURCEHUT_TOKEN: ${{ secrets.SOURCEHUT_TOKEN }}
 
+      - name: Clean up manifest.txt
+        uses: NixNeovim/NixNeovimPlugins/.github/actions/cleanup@main
+
       - name: Commit changes
         uses: NixNeovim/NixNeovimPlugins/.github/actions/ci-commit@main
         with:
