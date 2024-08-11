@@ -1,6 +1,7 @@
 import enum
 import re
 import yaml
+from functools import total_ordering
 
 from .nix import License
 
@@ -16,6 +17,8 @@ class RepositoryHost(enum.Enum):
         return self.value
 
 
+
+@total_ordering
 class PluginSpec:
     """A Vim plugin Spec."""
 
@@ -214,7 +217,7 @@ class PluginSpec:
         if not isinstance(o, PluginSpec):
             return False
 
-        return self.name.lower() < o.name.lower()
+        return self.owner.lower() + self.repo.lower() < o.owner.lower() + o.repo.lower()
 
     def __eq__(self, o: object) -> bool:
         """Return True if the two specs are equal."""
