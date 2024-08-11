@@ -1,4 +1,4 @@
- - Plugin count: 1118
+ - Plugin count: 1119
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -390,6 +390,7 @@
 | [clojure-vim/jazz.nvim](https://github.com/clojure-vim/jazz.nvim) | 2019-04-30 | `jazz-nvim` | 
 | [metalelf0/jellybeans-nvim](https://github.com/metalelf0/jellybeans-nvim) | 2023-12-07 | `jellybeans-nvim` | 
 | [David-Kunz/jester](https://github.com/David-Kunz/jester) | 2023-06-01 | `jester` | 
+| [jakobkhansen/journal.nvim](https://github.com/jakobkhansen/journal.nvim) | 2024-06-13 | `journal-nvim` | 
 | [fuenor/JpFormat.vim](https://github.com/fuenor/JpFormat.vim) | 2019-07-12 | `JpFormat-vim` | 
 | [kiyoon/jupynium.nvim](https://github.com/kiyoon/jupynium.nvim) | 2024-07-16 | `jupynium-nvim` | 
 | [untitled-ai/jupyter_ascending](https://github.com/imbue-ai/jupyter_ascending) | 2023-10-06 | `jupyter-ascending` | 
@@ -534,8 +535,8 @@
 | [nvim-neorg/neorg-telescope](https://github.com/nvim-neorg/neorg-telescope) | 2024-07-30 | `neorg-telescope` | 
 | [nyngwang/NeoRoot.lua](https://github.com/nyngwang/NeoRoot.lua) | 2023-02-08 | `NeoRoot-lua` | 
 | [karb94/neoscroll.nvim](https://github.com/karb94/neoscroll.nvim) | 2024-08-01 | `neoscroll-nvim` | 
-| [Tsuzat/NeoSolarized.nvim](https://github.com/Tsuzat/NeoSolarized.nvim) | 2024-06-20 | `NeoSolarized-nvim` | 
 | [svrana/neosolarized.nvim](https://github.com/svrana/neosolarized.nvim) | 2024-05-28 | `neosolarized-nvim` | 
+| [Tsuzat/NeoSolarized.nvim](https://github.com/Tsuzat/NeoSolarized.nvim) | 2024-06-20 | `NeoSolarized-nvim` | 
 | [nyngwang/NeoTerm.lua](https://github.com/nyngwang/NeoTerm.lua) | 2023-06-22 | `NeoTerm-lua` | 
 | [nvim-neotest/neotest](https://github.com/nvim-neotest/neotest) | 2024-07-13 | `neotest` | 
 | [fredrikaverpil/neotest-golang](https://github.com/fredrikaverpil/neotest-golang) | 2024-08-08 | `neotest-golang` | 
