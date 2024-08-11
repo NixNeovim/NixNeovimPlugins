@@ -88,7 +88,7 @@ I am happy for any contribution. :)
 
 this contains old information. Just open an issue for now
 
-Copy the entry from manifest.txt to blacklist.txt and create a PR.
+Copy the entry from manifest.yaml to blocklist.yaml and create a PR.
 The GitHub Actions will do the rest, including removing the entry from manifest.yaml
 
 ## Credits
