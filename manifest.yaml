@@ -88,6 +88,8 @@
   repo: baleia.nvim
 - owner: ribru17
   repo: bamboo.nvim
+- owner: CWood-sdf
+  repo: banana.nvim
 - owner: romgrk
   repo: barbar.nvim
 - owner: utilyre
@@ -100,6 +102,8 @@
   repo: bats.vim
 - owner: bloznelis
   repo: before.nvim
+- owner: sontungexpt
+  repo: better-diagnostic-virtual-text
 - owner: max397574
   repo: better-escape.nvim
 - owner: typicode
@@ -197,6 +201,8 @@
   repo: cmake-tools.nvim
 - owner: notomo
   repo: cmdbuf.nvim
+- owner: tzachar
+  repo: cmp-ai
 - owner: felipelema
   repo: cmp-async-path
 - owner: hrsh7th
@@ -524,6 +530,8 @@
   repo: flexoki-neovim
 - owner: ggandor
   repo: flit.nvim
+- owner: 0xstepit
+  repo: flow.nvim
 - owner: maxmx03
   repo: FluoroMachine.nvim
 - owner: akinsho
@@ -536,6 +544,8 @@
   repo: focus.nvim
 - owner: jghauser
   repo: fold-cycle.nvim
+- owner: gh-liu
+  repo: fold_line.nvim
 - owner: anuvyklack
   repo: fold-preview.nvim
 - owner: jghauser
@@ -627,6 +637,8 @@
   repo: goimpl.nvim
 - owner: olexsmir
   repo: gopher.nvim
+- owner: maxandron
+  repo: goplements.nvim
 - owner: yanskun
   repo: gotests.nvim
 - owner: ofirgall
@@ -833,6 +845,8 @@
   repo: kommentary
 - owner: novakne
   repo: kosmikoa.nvim
+- owner: mistweaverco
+  repo: kulala.nvim
 - owner: kevinm6
   repo: kurayami.nvim
 - owner: slugbyte
@@ -950,6 +964,8 @@
   name: markdown-meandering-programmer
 - owner: iamcco
   repo: markdown-preview.nvim
+- owner: Kicamon
+  repo: markdown-table-mode.nvim
 - owner: tadmccorkle
   repo: markdown.nvim
   name: markdown-tadmccorkle
@@ -1003,6 +1019,8 @@
   repo: mini.nvim
 - owner: yazeed1s
   repo: minimal.nvim
+- owner: milanglacier
+  repo: minuet-ai.nvim
 - owner: brendalf
   repo: mix.nvim
 - owner: jghauser
@@ -1037,6 +1055,8 @@
   repo: muren.nvim
 - owner: nyngwang
   repo: murmur.lua
+- owner: AntonVanAssche
+  repo: music-controls.nvim
 - owner: jbyuki
   repo: nabla.nvim
 - owner: liangxianzhe
@@ -1183,9 +1203,9 @@
   repo: nvcode-color-schemes.vim
 - owner: chrisgrieser
   repo: nvim-alt-substitute
-- owner: windwp
-  repo: nvim-autopairs
 - owner: nvim-pack
+  repo: nvim-autopairs
+- owner: windwp
   repo: nvim-autopairs
 - owner: RRethy
   repo: nvim-base16
@@ -1484,9 +1504,9 @@
   repo: nvim-treesitter-textsubjects
 - owner: AckslD
   repo: nvim-trevJ.lua
-- owner: nvim-pack
-  repo: nvim-ts-autotag
 - owner: windwp
+  repo: nvim-ts-autotag
+- owner: nvim-pack
   repo: nvim-ts-autotag
 - owner: JoosepAlviste
   repo: nvim-ts-context-commentstring
@@ -1674,10 +1694,14 @@
   repo: qfview.nvim
 - owner: quarto-dev
   repo: quarto-nvim
+- owner: stevearc
+  repo: quicker.nvim
 - owner: niuiic
   repo: quickfix.nvim
 - owner: RutaTang
   repo: quicknote.nvim
+- owner: quolpr
+  repo: quicktest.nvim
 - owner: HiPhish
   repo: rainbow-delimiters.nvim
 - owner: winston0410
@@ -1716,6 +1740,8 @@
   repo: remote-sshfs.nvim
 - owner: filipdutescu
   repo: renamer.nvim
+- owner: MeanderingProgrammer
+  repo: render-markdown.nvim
 - owner: 9seconds
   repo: repolink.nvim
 - owner: raimon49
@@ -1773,6 +1799,8 @@
   repo: selenized.nvim
 - owner: utilyre
   repo: sentiment.nvim
+- owner: samharju
+  repo: serene.nvim
 - owner: dinhhuy258
   repo: sfm.nvim
 - owner: sunjon
@@ -1996,6 +2024,10 @@
   repo: themery.nvim
 - owner: mcauley-penney
   repo: tidy.nvim
+- owner: QuentinGruber
+  repo: timespent.nvim
+- owner: rachartier
+  repo: tiny-code-action.nvim
 - owner: rachartier
   repo: tiny-devicons-auto-colors.nvim
 - owner: rachartier
@@ -2010,6 +2042,8 @@
   repo: tmux.nvim
 - owner: folke
   repo: todo-comments.nvim
+- owner: niuiic
+  repo: todo.nvim
 - owner: WhoIsSethDaniel
   repo: toggle-lsp-diagnostics.nvim
 - owner: jedrzejboczar
