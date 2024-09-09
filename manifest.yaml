@@ -1425,6 +1425,8 @@
 - owner: nvim-neotest
   repo: neotest
 - owner: nvim-neotest
+  repo: neotest-python
+- owner: nvim-neotest
   repo: nvim-nio
 - owner: nvim-orgmode
   repo: orgmode
