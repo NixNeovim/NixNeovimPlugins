@@ -657,8 +657,18 @@
   repo: coerce.nvim
 - owner: gsuuon
   repo: llm.nvim
+  name: llm-gsuuon
+- owner: Kurama622
+  repo: llm.nvim
+  name: llm-kurama622
 - owner: gsuuon
   repo: model.nvim
+- owner: SunnyTamang
+  repo: pendulum.nvim
+  name: pendulum-sunnytamang
+- owner: ptdewey
+  repo: pendulum
+  name: pendulum-ptdewey
 - owner: gsuuon
   repo: note.nvim
 - owner: gsuuon
