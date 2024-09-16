@@ -1,4 +1,4 @@
- - Plugin count: 1145
+ - Plugin count: 1146
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -805,6 +805,7 @@
 | [lewis6991/pckr.nvim](https://github.com/lewis6991/pckr.nvim) | 2024-09-05 | `pckr-nvim` | 
 | [toppair/peek.nvim](https://github.com/toppair/peek.nvim) | 2024-04-09 | `peek-nvim` | 
 | [koenverburg/peepsight.nvim](https://github.com/koenverburg/peepsight.nvim) | 2023-08-30 | `peepsight-nvim` | 
+| [SunnyTamang/pendulum.nvim](https://github.com/SunnyTamang/pendulum.nvim) | 2024-08-22 | `pendulum-sunnytamang` | 
 | [Abstract-IDE/penvim](https://github.com/Abstract-IDE/penvim) | 2022-07-23 | `penvim` | 
 | [t-troebst/perfanno.nvim](https://github.com/t-troebst/perfanno.nvim) | 2023-06-21 | `perfanno-nvim` | 
 | [olimorris/persisted.nvim](https://github.com/olimorris/persisted.nvim) | 2024-09-13 | `persisted-nvim` | 
