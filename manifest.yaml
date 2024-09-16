@@ -658,17 +658,8 @@
 - owner: gsuuon
   repo: llm.nvim
   name: llm-gsuuon
-- owner: Kurama622
-  repo: llm.nvim
-  name: llm-kurama622
 - owner: gsuuon
   repo: model.nvim
-- owner: SunnyTamang
-  repo: pendulum.nvim
-  name: pendulum-sunnytamang
-- owner: ptdewey
-  repo: pendulum
-  name: pendulum-ptdewey
 - owner: gsuuon
   repo: note.nvim
 - owner: gsuuon
@@ -953,6 +944,9 @@
   repo: nvim-macros
 - owner: krady21
   repo: compiler-explorer.nvim
+- owner: Kurama622
+  repo: llm.nvim
+  name: llm-kurama622
 - owner: kvrohit
   repo: rasmus.nvim
 - owner: kvrohit
@@ -1631,6 +1625,9 @@
 - owner: ptdewey
   repo: darkearth-nvim
 - owner: ptdewey
+  repo: pendulum
+  name: pendulum-ptdewey
+- owner: ptdewey
   repo: yankbank-nvim
 - owner: pwntester
   repo: codeql.nvim
@@ -1981,6 +1978,9 @@
   repo: nvim-dap-ruby
 - owner: sunjon
   repo: Shade.nvim
+- owner: SunnyTamang
+  repo: pendulum.nvim
+  name: pendulum-sunnytamang
 - owner: SuperBo
   repo: fugit2.nvim
 - owner: supermaven-inc

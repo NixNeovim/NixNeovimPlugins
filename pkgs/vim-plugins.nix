@@ -13661,6 +13661,23 @@
   };
 
   /*
+  Generated from: SunnyTamang/pendulum.nvim
+  */
+  pendulum-sunnytamang = buildVimPlugin {
+    pname = "pendulum-sunnytamang";
+    version = "2024-08-22";
+    src = fetchurl {
+      url = "https://github.com/SunnyTamang/pendulum.nvim/archive/b6b717dbc7dfb424cdd73e049f93a4c8d892a5d2.tar.gz";
+      sha256 = "11hg2yrpypwlhsg2vdckg1lxcqm0gn635yvzdn2rrr0nx2dqm23w";
+    };
+    meta = with lib; {
+      description = "pendulum is a simple timer plugin for Neovim designed to assist competitive programmers or coders in general who wants to practice coding for interviews.";
+      homepage = "https://github.com/SunnyTamang/pendulum.nvim";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
   Generated from: Abstract-IDE/penvim
   */
   penvim = buildVimPlugin {
