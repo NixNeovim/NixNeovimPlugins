@@ -15,7 +15,7 @@ jobs:
         with:
           token: ${{ github.token }}
           ref: ${{ github.head_ref }}
-      - uses: cachix/install-nix-action@V28
+      - uses: cachix/install-nix-action@v30
         with:
           github_access_token: ${{ github.token }}
 
