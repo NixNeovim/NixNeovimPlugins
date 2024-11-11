@@ -170,6 +170,14 @@
   repo: visual_studio_code
 - owner: aspeddro
   repo: cmp-pandoc.nvim
+- owner: AstroNvim
+  repo: astrocore
+- owner: AstroNvim
+  repo: astrolsp
+- owner: AstroNvim
+  repo: astrotheme
+- owner: AstroNvim
+  repo: astroui
 - owner: atusy
   repo: treemonkey.nvim
 - owner: axieax
@@ -2335,11 +2343,4 @@
   repo: zk-nvim
 - owner: zootedb0t
   repo: citruszest.nvim
-- owner: AstroNvim
-  repo: astrocore
-- owner: AstroNvim
-  repo: astrolsp
-- owner: AstroNvim
-  repo: astroui
-- owner: AstroNvim
-  repo: astrotheme
+

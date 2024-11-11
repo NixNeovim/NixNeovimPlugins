@@ -430,6 +430,40 @@
   };
 
   /*
+  Generated from: AstroNvim/astrocore
+  */
+  astrocore = buildVimPlugin {
+    pname = "astrocore";
+    version = "2024-10-28";
+    src = fetchurl {
+      url = "https://github.com/AstroNvim/astrocore/archive/0fcaac66d115948605c14eaf45a41d3923eaafeb.tar.gz";
+      sha256 = "14ayx8mih085fdsyc4hndb97nlkn3m8mzn5lzwgvlvnz0naf6acj";
+    };
+    meta = with lib; {
+      description = "Core AstroNvim configuration engine";
+      homepage = "https://github.com/AstroNvim/astrocore";
+      license = with licenses; [gpl3Only];
+    };
+  };
+
+  /*
+  Generated from: AstroNvim/astrolsp
+  */
+  astrolsp = buildVimPlugin {
+    pname = "astrolsp";
+    version = "2024-10-30";
+    src = fetchurl {
+      url = "https://github.com/AstroNvim/astrolsp/archive/9f1c8fb22223aaf7224710d677338114690ee8d6.tar.gz";
+      sha256 = "0qmb6c9lv9z6nq8ma4iy07i3nk2cfjvvmvq406035p6sipiz55ki";
+    };
+    meta = with lib; {
+      description = "LSP Configuration Engine built for AstroNvim";
+      homepage = "https://github.com/AstroNvim/astrolsp";
+      license = with licenses; [gpl3Only];
+    };
+  };
+
+  /*
   Generated from: tjdevries/astronauta.nvim
   */
   astronauta-nvim = buildVimPlugin {
@@ -443,6 +477,40 @@
       description = "You now feel at home traveling to the moon";
       homepage = "https://github.com/tjdevries/astronauta.nvim";
       license = with licenses; [mit];
+    };
+  };
+
+  /*
+  Generated from: AstroNvim/astrotheme
+  */
+  astrotheme = buildVimPlugin {
+    pname = "astrotheme";
+    version = "2024-10-14";
+    src = fetchurl {
+      url = "https://github.com/AstroNvim/astrotheme/archive/b1405cc96823d5f6cdd5a2f7ebeb137183220840.tar.gz";
+      sha256 = "1glzn2a05j2bjnswxsmin4bpnyxf4jl5x6znb2ffvacyxhaimyqg";
+    };
+    meta = with lib; {
+      description = "The default colorscheme used by AstroNvim";
+      homepage = "https://github.com/AstroNvim/astrotheme";
+      license = with licenses; [gpl3Only];
+    };
+  };
+
+  /*
+  Generated from: AstroNvim/astroui
+  */
+  astroui = buildVimPlugin {
+    pname = "astroui";
+    version = "2024-09-19";
+    src = fetchurl {
+      url = "https://github.com/AstroNvim/astroui/archive/8a9fa27631abc7d466dbdd14f9489d561eb49d67.tar.gz";
+      sha256 = "1ks7c4dvr6mklw14pypkg5jdzb4ag48qcp7xswa6z9wn7hd6k0vv";
+    };
+    meta = with lib; {
+      description = " UI Configuration Engine built for AstroNvim ";
+      homepage = "https://github.com/AstroNvim/astroui";
+      license = with licenses; [gpl3Only];
     };
   };
 

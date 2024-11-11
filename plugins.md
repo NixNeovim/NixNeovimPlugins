@@ -1,4 +1,4 @@
- - Plugin count: 1146
+ - Plugin count: 1150
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -27,7 +27,11 @@
 | [jim-at-jibba/ariake.nvim](https://github.com/jim-at-jibba/ariake.nvim) | 2024-07-03 | `ariake-nvim` | 
 | [jim-at-jibba/ariake-vim-colors](https://github.com/jim-at-jibba/ariake-vim-colors) | 2024-04-21 | `ariake-vim-colors` | 
 | [otavioschwanck/arrow.nvim](https://github.com/otavioschwanck/arrow.nvim) | 2024-10-15 | `arrow-nvim` | 
+| [AstroNvim/astrocore](https://github.com/AstroNvim/astrocore) | 2024-10-28 | `astrocore` | 
+| [AstroNvim/astrolsp](https://github.com/AstroNvim/astrolsp) | 2024-10-30 | `astrolsp` | 
 | [tjdevries/astronauta.nvim](https://github.com/tjdevries/astronauta.nvim) | 2021-11-09 | `astronauta-nvim` | 
+| [AstroNvim/astrotheme](https://github.com/AstroNvim/astrotheme) | 2024-10-14 | `astrotheme` | 
+| [AstroNvim/astroui](https://github.com/AstroNvim/astroui) | 2024-09-19 | `astroui` | 
 | [skywind3000/asyncrun.vim](https://github.com/skywind3000/asyncrun.vim) | 2024-09-22 | `asyncrun-vim` | 
 | [henriquehbr/ataraxis.lua](https://git.sr.ht/~henriquehbr/ataraxis.lua) | 2023-03-22 | `ataraxis-lua` | 
 | [m-demare/attempt.nvim](https://github.com/m-demare/attempt.nvim) | 2024-06-28 | `attempt-nvim` | 
