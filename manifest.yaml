@@ -2335,4 +2335,11 @@
   repo: zk-nvim
 - owner: zootedb0t
   repo: citruszest.nvim
-
+- owner: AstroNvim
+  repo: astrocore
+- owner: AstroNvim
+  repo: astrolsp
+- owner: AstroNvim
+  repo: astroui
+- owner: AstroNvim
+  repo: astrotheme
