@@ -1,3 +1,11 @@
+- owner: nvim-colortils
+  repo: colortils.nvim
+- owner: startup-nvim
+  repo: startup.nvim
+- owner: mcchrish
+  repo: zenbones.nvim
+- owner: akinsho
+  repo: flutter-tools.nvim
 - owner: renerocksai
   repo: telekasten.nvim
 - owner: yorickpeterse

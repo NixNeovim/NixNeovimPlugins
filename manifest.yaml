@@ -68,8 +68,6 @@
 - owner: akinsho
   repo: dependency-assist.nvim
 - owner: akinsho
-  repo: flutter-tools.nvim
-- owner: akinsho
   repo: git-conflict.nvim
 - owner: akinsho
   repo: nvim-toggleterm.lua
@@ -955,6 +953,9 @@
 - owner: Kurama622
   repo: llm.nvim
   name: llm-kurama622
+- owner: Kurama622
+  repo: profile.nvim
+  name: profile-kurama622
 - owner: kvrohit
   repo: rasmus.nvim
 - owner: kvrohit
@@ -1142,8 +1143,6 @@
   repo: tidy.nvim
 - owner: mcauley-penney
   repo: visual-whitespace.nvim
-- owner: mcchrish
-  repo: zenbones.nvim
 - owner: meain
   repo: vim-printer
 - owner: MeanderingProgrammer
@@ -1410,8 +1409,6 @@
   repo: Navigator.nvim
 - owner: NvChad
   repo: nvim-colorizer.lua
-- owner: nvim-colortils
-  repo: colortils.nvim
 - owner: nvim-focus
   repo: focus.nvim
 - owner: nvim-lualine
@@ -1958,8 +1955,6 @@
   repo: bufignore.nvim
 - owner: sQVe
   repo: sort.nvim
-- owner: startup-nvim
-  repo: startup.nvim
 - owner: stevanmilic
   repo: nvim-lspimport
 - owner: stevearc
@@ -1976,6 +1971,7 @@
   repo: overseer.nvim
 - owner: stevearc
   repo: profile.nvim
+  name: profile-stevearc
 - owner: stevearc
   repo: qf_helper.nvim
 - owner: stevearc
