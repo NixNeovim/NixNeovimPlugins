@@ -521,6 +521,10 @@
   repo: hologram.nvim
 - owner: edluffy
   repo: specs.nvim
+  name: specs-edluffy
+- owner: cxwx
+  repo: specs.nvim
+  name: specs-cxwx
 - owner: edolphin-ydf
   repo: goimpl.nvim
 - owner: ekickx
@@ -1485,6 +1489,10 @@
   repo: Navigator.nvim
 - owner: NvChad
   repo: nvim-colorizer.lua
+  name: nvim-colorizer-nvchad
+- owner: catgoose
+  repo: nvim-colorizer.lua
+  name: nvim-colorizer-catgoose
 - owner: nvim-flutter
   repo: flutter-tools.nvim
 - owner: nvim-focus
