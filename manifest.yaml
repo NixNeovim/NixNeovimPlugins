@@ -636,6 +636,8 @@
   repo: zen-mode.nvim
 - owner: frabjous
   repo: knap
+- owner: frankroeder
+  repo: parrot.nvim
 - owner: freddiehaddad
   repo: feline.nvim
 - owner: fredrikaverpil
