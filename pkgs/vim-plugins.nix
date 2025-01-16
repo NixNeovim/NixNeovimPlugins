@@ -9835,23 +9835,6 @@
   };
 
   /*
-  Generated from: svrana/neosolarized.nvim
-  */
-  neosolarized-nvim = buildVimPlugin {
-    pname = "neosolarized-nvim";
-    version = "2024-09-04";
-    src = fetchurl {
-      url = "https://github.com/svrana/neosolarized.nvim/archive/742deb0b2b1e110b09494206611509e3992aac35.tar.gz";
-      sha256 = "03qlb9kwsbb1ff7jz325z84j5pr16z30af06kf43ri9miljzd7db";
-    };
-    meta = with lib; {
-      description = "Truecolor solarized theme for neovim in Lua using colorbuddy";
-      homepage = "https://github.com/svrana/neosolarized.nvim";
-      license = with licenses; [];
-    };
-  };
-
-  /*
   Generated from: Tsuzat/NeoSolarized.nvim
   */
   NeoSolarized-nvim = buildVimPlugin {
@@ -9864,6 +9847,23 @@
     meta = with lib; {
       description = "NeoSolarized colorscheme for NeoVim with full transparency";
       homepage = "https://github.com/Tsuzat/NeoSolarized.nvim";
+      license = with licenses; [];
+    };
+  };
+
+  /*
+  Generated from: svrana/neosolarized.nvim
+  */
+  neosolarized-nvim = buildVimPlugin {
+    pname = "neosolarized-nvim";
+    version = "2024-09-04";
+    src = fetchurl {
+      url = "https://github.com/svrana/neosolarized.nvim/archive/742deb0b2b1e110b09494206611509e3992aac35.tar.gz";
+      sha256 = "03qlb9kwsbb1ff7jz325z84j5pr16z30af06kf43ri9miljzd7db";
+    };
+    meta = with lib; {
+      description = "Truecolor solarized theme for neovim in Lua using colorbuddy";
+      homepage = "https://github.com/svrana/neosolarized.nvim";
       license = with licenses; [];
     };
   };
@@ -14252,6 +14252,23 @@
       description = "neovim-first paramount colorscheme";
       homepage = "https://github.com/chrsm/paramount-ng.nvim";
       license = with licenses; [mit];
+    };
+  };
+
+  /*
+  Generated from: frankroeder/parrot.nvim
+  */
+  parrot-nvim = buildVimPlugin {
+    pname = "parrot-nvim";
+    version = "2025-01-13";
+    src = fetchurl {
+      url = "https://github.com/frankroeder/parrot.nvim/archive/c5294031a41fea6e32b107d4140bcfb3ce574b4b.tar.gz";
+      sha256 = "05gwb31lzgznidqvaabd4ynij8b4qhswvwpyncs3bllzdd5lxv1a";
+    };
+    meta = with lib; {
+      description = "parrot.nvim 🦜 - the plugin that brings stochastic parrots to Neovim. This is a gp.nvim-fork focused on simplicity.";
+      homepage = "https://github.com/frankroeder/parrot.nvim";
+      license = with licenses; [];
     };
   };
 

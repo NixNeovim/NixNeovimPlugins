@@ -281,6 +281,9 @@
   repo: snap
 - owner: cappyzawa
   repo: trim.nvim
+- owner: catgoose
+  repo: nvim-colorizer.lua
+  name: nvim-colorizer-catgoose
 - owner: catppuccin
   repo: nvim
   name: catppuccin
@@ -409,6 +412,9 @@
   repo: pineapple
 - owner: CWood-sdf
   repo: spaceport.nvim
+- owner: cxwx
+  repo: specs.nvim
+  name: specs-cxwx
 - owner: Dan7h3x
   repo: neaterm.nvim
 - owner: Dan7h3x
@@ -522,9 +528,6 @@
 - owner: edluffy
   repo: specs.nvim
   name: specs-edluffy
-- owner: cxwx
-  repo: specs.nvim
-  name: specs-cxwx
 - owner: edolphin-ydf
   repo: goimpl.nvim
 - owner: ekickx
@@ -636,6 +639,8 @@
   repo: zen-mode.nvim
 - owner: frabjous
   repo: knap
+- owner: frankroeder
+  repo: parrot.nvim
 - owner: freddiehaddad
   repo: feline.nvim
 - owner: fredrikaverpil
@@ -1490,9 +1495,6 @@
 - owner: NvChad
   repo: nvim-colorizer.lua
   name: nvim-colorizer-nvchad
-- owner: catgoose
-  repo: nvim-colorizer.lua
-  name: nvim-colorizer-catgoose
 - owner: nvim-flutter
   repo: flutter-tools.nvim
 - owner: nvim-focus

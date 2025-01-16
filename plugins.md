@@ -1,4 +1,4 @@
- - Plugin count: 1204
+ - Plugin count: 1205
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -580,8 +580,8 @@
 | [nvim-neorg/neorg-telescope](https://github.com/nvim-neorg/neorg-telescope) | 2024-07-30 | `neorg-telescope` | 
 | [nyngwang/NeoRoot.lua](https://github.com/nyngwang/NeoRoot.lua) | 2023-02-08 | `NeoRoot-lua` | 
 | [karb94/neoscroll.nvim](https://github.com/karb94/neoscroll.nvim) | 2024-12-06 | `neoscroll-nvim` | 
-| [svrana/neosolarized.nvim](https://github.com/svrana/neosolarized.nvim) | 2024-09-04 | `neosolarized-nvim` | 
 | [Tsuzat/NeoSolarized.nvim](https://github.com/Tsuzat/NeoSolarized.nvim) | 2024-06-20 | `NeoSolarized-nvim` | 
+| [svrana/neosolarized.nvim](https://github.com/svrana/neosolarized.nvim) | 2024-09-04 | `neosolarized-nvim` | 
 | [kassio/neoterm](https://github.com/kassio/neoterm) | 2023-03-09 | `neoterm` | 
 | [nyngwang/NeoTerm.lua](https://github.com/nyngwang/NeoTerm.lua) | 2023-06-22 | `NeoTerm-lua` | 
 | [nvim-neotest/neotest](https://github.com/nvim-neotest/neotest) | 2025-01-02 | `neotest` | 
@@ -840,6 +840,7 @@
 | [jghauser/papis.nvim](https://github.com/jghauser/papis.nvim) | 2025-01-08 | `papis-nvim` | 
 | [savq/paq-nvim](https://github.com/savq/paq-nvim) | 2024-06-27 | `paq-nvim` | 
 | [chrsm/paramount-ng.nvim](https://github.com/chrsm/paramount-ng.nvim) | 2022-06-18 | `paramount-ng-nvim` | 
+| [frankroeder/parrot.nvim](https://github.com/frankroeder/parrot.nvim) | 2025-01-13 | `parrot-nvim` | 
 | [niuiic/part-edit.nvim](https://github.com/niuiic/part-edit.nvim) | 2024-05-11 | `part-edit-nvim` | 
 | [lewis6991/pckr.nvim](https://github.com/lewis6991/pckr.nvim) | 2025-01-07 | `pckr-nvim` | 
 | [toppair/peek.nvim](https://github.com/toppair/peek.nvim) | 2024-04-09 | `peek-nvim` | 
