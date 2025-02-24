@@ -1286,8 +1286,6 @@
   repo: iron.nvim
   name: iron-nvim-mnacamura
 - owner: mnacamura
-  repo: nvim-srcerite
-- owner: mnacamura
   repo: vim-fennel-syntax
 - owner: mnacamura
   repo: vim-r7rs-syntax
@@ -1995,7 +1993,7 @@
   repo: hlchunk.nvim
 - owner: ShinKage
   repo: idris2-nvim
-- owner: sho-87
+- owner: thesimonho
   repo: kanagawa-paper.nvim
 - owner: shortcuts
   repo: no-neck-pain.nvim
@@ -2383,9 +2381,9 @@
   repo: ns-textobject.nvim
 - owner: yagiziskirik
   repo: AirSupport.nvim
-- owner: yamatsum
+- owner: ya2s
   repo: nvim-cursorline
-- owner: yamatsum
+- owner: ya2s
   repo: nvim-nonicons
 - owner: yanskun
   repo: gotests.nvim
