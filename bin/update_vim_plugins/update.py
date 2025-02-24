@@ -3,6 +3,7 @@ from random import shuffle
 from cleo.commands.command import Command
 from cleo.helpers import option
 from concurrent.futures import ThreadPoolExecutor, as_completed
+import requests
 
 from pprint import pprint
 from enum import Enum
@@ -182,8 +183,22 @@ class UpdateCommand(Command):
         for i, plugin in enumerate(plugins):
             for p in plugins[i+1:]:
                 if plugin.name == p.name:
-                    self.line(f"<error>Error:</error> The following two definitions produce the same plugin name:\n - {plugin}\n - {p}\n -> {p.name}")
-                    error = True
+
+                    # check url of 'plugin'
+                    plugin_url = f"https://github.com/{plugin.owner}/{plugin.repo}"
+                    real_plugin_url = requests.get(plugin_url, allow_redirects=True).url
+
+                    # check url of 'p'
+                    p_url = f"https://github.com/{p.owner}/{p.repo}"
+                    real_p_url = requests.get(p_url, allow_redirects=True).url
+
+                    if real_plugin_url != real_p_url:
+                        self.line(f"<error>Error:</error> The following two definitions produce the same plugin name (different url):\n - {plugin}\n - {p}\n -> {p.name}")
+                        error = True
+                    elif plugin_url != real_plugin_url:
+                        self.line(f"<info>Info:</info> Merged the following plugins into one, their real urls are the same:\n - {plugin} - removed\n - {p}\n -> {p.name}")
+                    elif p_url != real_p_url:
+                        self.line(f"<info>Info:</info> Merged the following plugins into one, their real urls are the same:\n - {plugin}\n - {p} - removed\n -> {p.name}")
 
         # We want to exit if the resulting nix file would be broken
         # But we want to go through all plugins before we do so
