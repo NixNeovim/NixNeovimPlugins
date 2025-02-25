@@ -1,8 +1,10 @@
 from cleo.commands.command import Command
 from cleo.helpers import argument
 import re
+import json
 
 from .helpers import *
+from .spec import RepositoryHost
 
 from urllib.request import urlopen
 
@@ -15,7 +17,7 @@ class FetchCommand(Command):
 
         specs = read_manifest_yaml_to_spec()
 
-        for p in self.fetch_awesome(): #  + self.fetch_m15a():
+        for p in self.fetch_awesome() + self.fetch_m15a():
             if p not in specs:
                 specs.append(p)
 
@@ -26,12 +28,51 @@ class FetchCommand(Command):
     def fetch_m15a(self) -> list[PluginSpec]:
         self.line(f"<info>Fetching from m15a's repo</info>")
 
-        manifest = urlopen(M15A_MANIFEST).read()
-        manifest = str(manifest, 'utf-8')
-        manifest = manifest.split("\n")
+        manifest = urlopen(M15A_DATA)
+        data = json.load(manifest)
 
-        specs = list(filter(lambda x: x != "", manifest))
-        specs = [ PluginSpec.from_spec(p) for p in specs ]
+        specs = []
+
+        for d in data:
+
+            repository_host = d.get("site", "github")
+
+            match repository_host:
+                case "github.com":
+                    repository_host = RepositoryHost("github")
+                case "codeberg.org":
+                    repository_host = RepositoryHost("codeberg")
+                case "git.sr.ht":
+                    repository_host = RepositoryHost("sourcehut")
+                case "gitlab.com":
+                    repository_host = RepositoryHost("gitlab")
+                case url:
+                    repository_host = RepositoryHost(url)
+
+            try:
+                owner = d["owner"]
+            except:
+                raise RuntimeError("Could not get owner")
+
+            try:
+                repo = d["repo"]
+            except:
+                raise RuntimeError("Could not get repo")
+
+            commit = d.get("rev", "")
+
+            spec = PluginSpec(
+                repository_host,
+                owner=owner,
+                repo=repo,
+                branch="",
+                custom_name="",
+                license="",
+                commit=commit,
+                warning=None
+            )
+
+            specs.append(spec)
 
         return specs
 

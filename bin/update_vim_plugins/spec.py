@@ -12,6 +12,7 @@ class RepositoryHost(enum.Enum):
     GITHUB = "github"
     GITLAB = "gitlab"
     SOURCEHUT = "sourcehut"
+    CODEBERG = "codeberg"
 
     def __str__(self):
         return self.value

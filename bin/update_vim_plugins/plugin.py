@@ -191,6 +191,40 @@ class SourceHutPlugin(VimPlugin):
             raise RuntimeError(f"SourceHut API call failed: {response.json()}")
         return response.json()
 
+class CodebergPlugin(VimPlugin):
+    def __init__(self, plugin_spec: PluginSpec) -> None:
+        """Initialize a GitHubPlugin."""
+
+        owner = plugin_spec.owner
+        repo = plugin_spec.repo
+        full_name = f"{owner}/{repo}"
+        repo_info = self._api_call(f"api/v1/repos/{full_name}")
+        default_branch = plugin_spec.branch or repo_info["default_branch"]
+        api_callback = self._api_call(f"api/v1/repos/{full_name}/commits?sha={default_branch}&limit=1")
+        latest_commit = api_callback[0]["commit"]
+        sha = latest_commit["tree"]["sha"]
+
+        self.name = plugin_spec.name
+        self.repo = repo
+        self.owner = owner
+        self.version = parse(latest_commit["committer"]["date"]).date()
+        self.source = UrlSource(f"https://codeberg.org/{full_name}/archive/{sha}.tar.gz")
+        self.description = (repo_info.get("description") or "").replace('"', '\\"')
+        self.homepage = repo_info["html_url"]
+        self.license = plugin_spec.license or License.from_spdx_id((repo_info.get("license") or {}).get("spdx_id"))
+        self.warning = plugin_spec.warning
+
+    def _api_call(self, path: str, token: str | None = _get_github_token()):
+        """Call the Codeberg API."""
+        url = f"https://codeberg.org/{path}"
+        headers = {"Content-Type": "application/json"}
+        if token is not None:
+            headers["Authorization"] = f"token {token}"
+        response = requests.get(url, headers=headers)
+        if response.status_code != 200:
+            raise RuntimeError(f"Codeberg API call failed: {response.text}")
+        return response.json()
+
 
 def plugin_from_spec(plugin_spec: PluginSpec) -> VimPlugin:
     """Initialize a VimPlugin."""
@@ -201,5 +235,7 @@ def plugin_from_spec(plugin_spec: PluginSpec) -> VimPlugin:
         return GitlabPlugin(plugin_spec)
     elif plugin_spec.repository_host == RepositoryHost.SOURCEHUT:
         return SourceHutPlugin(plugin_spec)
+    elif plugin_spec.repository_host == RepositoryHost.CODEBERG:
+        return CodebergPlugin(plugin_spec)
     else:
         raise NotImplementedError(f"Unsupported source: {plugin_spec.repository_host}")
