@@ -292,6 +292,7 @@
   repo: compl.nvim
 - owner: BrunoCiccarino
   repo: gardenal
+  custom_name : gardenal_BrunoCiccarino
 - owner: calind
   repo: selenized.nvim
 - owner: CamdenClark
