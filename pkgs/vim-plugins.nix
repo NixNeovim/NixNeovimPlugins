@@ -2200,6 +2200,23 @@
   };
 
   /*
+  Generated from: SergioRibera/cmp-dotenv
+  */
+  cmp-dotenv = buildVimPlugin {
+    pname = "cmp-dotenv";
+    version = "2024-06-05";
+    src = fetchurl {
+      url = "https://github.com/SergioRibera/cmp-dotenv/archive/4dd53aab60982f1f75848aec5e6214986263325e.tar.gz";
+      sha256 = "0jfsij41q7ijn9517whkfk5x76dmqxlx78faw3rchllhyi0zqj15";
+    };
+    meta = with lib; {
+      description = "cmp import and use all environment variables from .env.* and system";
+      homepage = "https://github.com/SergioRibera/cmp-dotenv";
+      license = with licenses; [gpl2Only];
+    };
+  };
+
+  /*
   Generated from: hrsh7th/cmp-emoji
   */
   cmp-emoji = buildVimPlugin {
@@ -5505,6 +5522,23 @@
     version = "2024-10-31";
     src = fetchurl {
       url = "https://github.com/BrunoCiccarino/gardenal/archive/d8bc3d5aa51b559f745c222f4ab082f468df2c0c.tar.gz";
+      sha256 = "1hjgbw7rbxvn8wnzn0j3x2k17nnyz530p94brs2wbh1n5k3bpi5w";
+    };
+    meta = with lib; {
+      description = "A plugin for vim and neovim that allows you to define keyboard shortcuts for switching between themes.";
+      homepage = "https://github.com/bgcicca/gardenal";
+      license = with licenses; [gpl3Only];
+    };
+  };
+
+  /*
+  Generated from: bgcicca/gardenal
+  */
+  gardenal = buildVimPlugin {
+    pname = "gardenal";
+    version = "2024-10-31";
+    src = fetchurl {
+      url = "https://github.com/bgcicca/gardenal/archive/d8bc3d5aa51b559f745c222f4ab082f468df2c0c.tar.gz";
       sha256 = "1hjgbw7rbxvn8wnzn0j3x2k17nnyz530p94brs2wbh1n5k3bpi5w";
     };
     meta = with lib; {
@@ -10596,6 +10630,23 @@
       description = "Vim plugin for intensely nerdy commenting powers";
       homepage = "https://github.com/preservim/nerdcommenter";
       license = with licenses; [cc0];
+    };
+  };
+
+  /*
+  Generated from: 2KAbhishek/nerdy.nvim
+  */
+  nerdy-nvim = buildVimPlugin {
+    pname = "nerdy-nvim";
+    version = "2025-02-23";
+    src = fetchurl {
+      url = "https://github.com/2KAbhishek/nerdy.nvim/archive/319cc93d4038b24497eb34c344b20fb462be6c9a.tar.gz";
+      sha256 = "1221fwhs6rbsx8a3ywz6d2sal1q15rrl3h93h929rnak6bd4ywb0";
+    };
+    meta = with lib; {
+      description = "Find Nerd Glyphs Easily 🤓🔭";
+      homepage = "https://github.com/2KAbhishek/nerdy.nvim";
+      license = with licenses; [gpl3Only];
     };
   };
 
@@ -18455,6 +18506,23 @@
   };
 
   /*
+  Generated from: 2KAbhishek/termim.nvim
+  */
+  termim-nvim = buildVimPlugin {
+    pname = "termim-nvim";
+    version = "2025-02-23";
+    src = fetchurl {
+      url = "https://github.com/2KAbhishek/termim.nvim/archive/6bb3f8fb5a3c64ca614d7c4782d4965863c41675.tar.gz";
+      sha256 = "0z3ipk5silh6rfz205fdxldgji8gsd4wfakdhcdbvhjlxknfnx2a";
+    };
+    meta = with lib; {
+      description = "Neovim Terminal, Improved 🦾💻";
+      homepage = "https://github.com/2KAbhishek/termim.nvim";
+      license = with licenses; [gpl3Only];
+    };
+  };
+
+  /*
   Generated from: niuiic/terminal.nvim
   */
   terminal-nvim = buildVimPlugin {
@@ -18608,6 +18676,23 @@
   };
 
   /*
+  Generated from: LmanTW/themify.nvim
+  */
+  themify-nvim = buildVimPlugin {
+    pname = "themify-nvim";
+    version = "2025-02-15";
+    src = fetchurl {
+      url = "https://github.com/LmanTW/themify.nvim/archive/092ba515e4d0d96a91494ef9cbed7d0517b2bd80.tar.gz";
+      sha256 = "1ak0nba0lfcp2nwqv0qqis75cqlx2c8rbgx7ik70hisq3bgdjs8r";
+    };
+    meta = with lib; {
+      description = "A lightweight colorscheme manager and switcher.";
+      homepage = "https://github.com/LmanTW/themify.nvim";
+      license = with licenses; [gpl3Only];
+    };
+  };
+
+  /*
   Generated from: mcauley-penney/tidy.nvim
   */
   tidy-nvim = buildVimPlugin {
@@ -18671,6 +18756,23 @@
     meta = with lib; {
       description = "A Neovim plugin that automatically assigns colors to devicons based on their nearest color in a predefined color palette.";
       homepage = "https://github.com/rachartier/tiny-devicons-auto-colors.nvim";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
+  Generated from: rachartier/tiny-glimmer.nvim
+  */
+  tiny-glimmer-nvim = buildVimPlugin {
+    pname = "tiny-glimmer-nvim";
+    version = "2025-02-24";
+    src = fetchurl {
+      url = "https://github.com/rachartier/tiny-glimmer.nvim/archive/1c5cde0516c989444089ad20dfb761d40cff4e32.tar.gz";
+      sha256 = "152zzdm1bv85yv8b4zpbvgb4wgmldnznmimym2462wsq42p4gvd5";
+    };
+    meta = with lib; {
+      description = "A tiny Neovim plugin that adds subtle animations to various operations.";
+      homepage = "https://github.com/rachartier/tiny-glimmer.nvim";
       license = with licenses; [mit];
     };
   };
@@ -20830,6 +20932,23 @@
     meta = with lib; {
       description = "Python interpreter selector for Neovim. Switch interpreters without restarting LSP.";
       homepage = "https://github.com/neolooong/whichpy.nvim";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
+  Generated from: slugbyte/whip.nvim
+  */
+  whip-nvim = buildVimPlugin {
+    pname = "whip-nvim";
+    version = "2024-09-19";
+    src = fetchurl {
+      url = "https://github.com/slugbyte/whip.nvim/archive/3454e25414f0464750661b3570b47441f43bde9e.tar.gz";
+      sha256 = "1pyz287cvg7mn646zvdjzwfjm7aaxmjr9zk5c6zryrjqnh669adc";
+    };
+    meta = with lib; {
+      description = "biew biew biew, a super quick scratchpad manager";
+      homepage = "https://github.com/slugbyte/whip.nvim";
       license = with licenses; [mit];
     };
   };

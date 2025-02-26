@@ -15,9 +15,15 @@
 - owner: 2KAbhishek
   repo: markit.nvim
 - owner: 2KAbhishek
+  repo: nerdy.nvim
+  commit: 319cc93d4038b24497eb34c344b20fb462be6c9a
+- owner: 2KAbhishek
   repo: octohub.nvim
 - owner: 2KAbhishek
   repo: tdo.nvim
+- owner: 2KAbhishek
+  repo: termim.nvim
+  commit: 6bb3f8fb5a3c64ca614d7c4782d4965863c41675
 - owner: 2KAbhishek
   repo: utils.nvim
 - owner: 2nthony
@@ -263,6 +269,9 @@
   repo: nvim-miniyank
 - owner: bgaillard
   repo: readonly.nvim
+- owner: bgcicca
+  repo: gardenal
+  commit: d8bc3d5aa51b559f745c222f4ab082f468df2c0c
 - owner: Bilal2453
   repo: luvit-meta
 - owner: bkegley
@@ -950,6 +959,10 @@
   repo: onedark.vim
 - owner: jpmcb
   repo: nvim-llama
+- owner: jthvai
+  repo: lavender.nvim
+  repository_host: codeberg
+  commit: 50d8c9c19509ba5b03760e2d644128afc4215281
 - owner: jubnzv
   repo: mdeval.nvim
 - owner: jubnzv
@@ -1146,6 +1159,9 @@
   repo: venv-selector.nvim
 - owner: LionC
   repo: nest.nvim
+- owner: LmanTW
+  repo: themify.nvim
+  commit: 092ba515e4d0d96a91494ef9cbed7d0517b2bd80
 - owner: lmburns
   repo: kimbox
 - owner: lmburns
@@ -1757,6 +1773,10 @@
 - owner: piersolenski
   repo: wtf.nvim
 - owner: pluffie
+  repo: md-babel.nvim
+  repository_host: codeberg
+  commit: 3ae00bd77a30fa2a2a1e3eb10f079d454046e004
+- owner: pluffie
   repo: neoproj
 - owner: Pocco81
   repo: AbbrevMan.nvim
@@ -1816,6 +1836,9 @@
   repo: tiny-code-action.nvim
 - owner: rachartier
   repo: tiny-devicons-auto-colors.nvim
+- owner: rachartier
+  repo: tiny-glimmer.nvim
+  commit: 1c5cde0516c989444089ad20dfb761d40cff4e32
 - owner: rachartier
   repo: tiny-inline-diagnostic.nvim
 - owner: rafaelsq
@@ -2044,6 +2067,9 @@
   repo: nvimesweeper
 - owner: serenevoid
   repo: kiwi.nvim
+- owner: SergioRibera
+  repo: cmp-dotenv
+  commit: 4dd53aab60982f1f75848aec5e6214986263325e
 - owner: sgur
   repo: vim-textobj-parameter
 - owner: shaeinst
@@ -2089,6 +2115,9 @@
   repo: unruly-worker
 - owner: slugbyte
   repo: unruly-worker.nvim
+- owner: slugbyte
+  repo: whip.nvim
+  commit: 3454e25414f0464750661b3570b47441f43bde9e
 - owner: smiteshp
   repo: nvim-gps
 - owner: SmiteshP
@@ -2565,4 +2594,24 @@
   repo: proot.nvim
 - owner: zootedb0t
   repo: citruszest.nvim
+- owner: ~henriquehbr
+  repo: ataraxis.lua
+  repository_host: sourcehut
+  commit: 5c89190860fd443aa629940f7dbd7ce997ebb6d6
+- owner: ~henriquehbr
+  repo: nvim-startup.lua
+  repository_host: sourcehut
+  commit: f2f450df0ea970b9e7848ab1634f01baccc1dcf8
+- owner: ~nedia
+  repo: auto-format.nvim
+  repository_host: sourcehut
+  commit: 1e3c069753d4b0960b351292c1a01af1b122907c
+- owner: ~nedia
+  repo: auto-save.nvim
+  repository_host: sourcehut
+  commit: 24af023800c48645e6472cb6f30cebe782288446
+- owner: ~whynothugo
+  repo: lsp_lines.nvim
+  repository_host: sourcehut
+  commit: a92c755f182b89ea91bd8a6a2227208026f27b4d
 
