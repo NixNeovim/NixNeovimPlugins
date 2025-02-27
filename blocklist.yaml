@@ -104,3 +104,5 @@
   repo: nvim-tree.lua
 - owner: kyazdani42
   repo: nvim-web-devicons
+- owner: BrunoCiccarino
+  repo: gardenal
