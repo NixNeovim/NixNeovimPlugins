@@ -2207,6 +2207,7 @@
   repo: vimpeccable
 - owner: svrana
   repo: neosolarized.nvim
+  name: neosolarized-nvim-svrana
 - owner: sxwpb
   repo: halfspace.nvim
   repository_host: gitlab
@@ -2342,6 +2343,7 @@
   repo: lspmark.nvim
 - owner: Tsuzat
   repo: NeoSolarized.nvim
+  name: NeoSolarized-nvim-tsuzat
 - owner: tummetott
   repo: unimpaired.nvim
 - owner: tversteeg
