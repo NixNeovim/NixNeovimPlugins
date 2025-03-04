@@ -5,6 +5,23 @@
   fetchgit,
 }: {
   /*
+  Generated from: 0styx0/abbremand.nvim
+  */
+  abbremand-nvim = buildVimPlugin {
+    pname = "abbremand-nvim";
+    version = "2022-01-16";
+    src = fetchurl {
+      url = "https://github.com/0styx0/abbremand.nvim/archive/d633341f632b0b2666dfc6dfe6b9842ba1610a1d.tar.gz";
+      sha256 = "0kfkj38y3k46pnmr57h781vyxfgrj9963jwz8l8h7sfhrxabszl7";
+    };
+    meta = with lib; {
+      description = "Neovim hooks for abbreviation events";
+      homepage = "https://github.com/0styx0/abbremand.nvim";
+      license = with licenses; [gpl3Only];
+    };
+  };
+
+  /*
   Generated from: Abstract-IDE/Abstract-cs
   */
   Abstract-cs = buildVimPlugin {

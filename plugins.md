@@ -1,7 +1,8 @@
- - Plugin count: 1250
+ - Plugin count: 1251
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
+| [0styx0/abbremand.nvim](https://github.com/0styx0/abbremand.nvim) | 2022-01-16 | `abbremand-nvim` | 
 | [Abstract-IDE/Abstract-cs](https://github.com/Abstract-IDE/Abstract-cs) | 2024-08-04 | `Abstract-cs` | 
 | [roobert/action-hints.nvim](https://github.com/roobert/action-hints.nvim) | 2023-09-09 | `action-hints-nvim` | 
 | [aznhe21/actions-preview.nvim](https://github.com/aznhe21/actions-preview.nvim) | 2025-02-26 | `actions-preview-nvim` | 
