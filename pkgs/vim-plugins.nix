@@ -5411,23 +5411,6 @@
   };
 
   /*
-  Generated from: bgcicca/gardenal
-  */
-  gardenal = buildVimPlugin {
-    pname = "gardenal";
-    version = "2024-10-31";
-    src = fetchurl {
-      url = "https://github.com/bgcicca/gardenal/archive/d8bc3d5aa51b559f745c222f4ab082f468df2c0c.tar.gz";
-      sha256 = "1hjgbw7rbxvn8wnzn0j3x2k17nnyz530p94brs2wbh1n5k3bpi5w";
-    };
-    meta = with lib; {
-      description = "A plugin for vim and neovim that allows you to define keyboard shortcuts for switching between themes.";
-      homepage = "https://github.com/bgcicca/gardenal";
-      license = with licenses; [gpl3Only];
-    };
-  };
-
-  /*
   Generated from: BrunoCiccarino/gardenal
   */
   gardenal = buildVimPlugin {
