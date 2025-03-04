@@ -52,7 +52,7 @@ class PluginSpec:
 
     @property
     def id(self) -> str:
-        return f"{self.owner}/{self.repo}"
+        return f"{self.repository_host}/{self.owner}/{self.repo}/{self.name}"
 
     @classmethod
     def from_spec(cls, spec):

@@ -35,7 +35,7 @@ class VimPlugin:
         if not hasattr(self, 'repo'): # WARN: should be removed after a few runs, only needed to handle old .plugin.json entries
             self.repo = self.source_line.split("/")[1]
 
-        return f"{self.owner}/{self.repo}"
+        return f"{self.repository_host}/{self.owner}/{self.repo}/{self.name}"
 
     def to_nix(self):
         """Return the nix expression for this plugin."""
