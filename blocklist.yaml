@@ -1,43 +1,29 @@
-- owner: nvim-colortils
-  repo: colortils.nvim
-- owner: startup-nvim
-  repo: startup.nvim
-- owner: mcchrish
-  repo: zenbones.nvim
 - owner: akinsho
   repo: flutter-tools.nvim
-- owner: renerocksai
-  repo: telekasten.nvim
-- owner: yorickpeterse
-  repo: nvim-window
-  repository_host: gitlab
-- owner: yorickpeterse
-  repo: nvim-pqf
-  repository_host: gitlab
-- owner: EdvinVikstrom
-  repo: filetree.nvim
-- owner: Everblush
-  repo: everblush.nvim
-- owner: NTBBloodbath
-  repo: rest.nvim
-- owner: Pocco81
-  repo: AutoSave.nvim
-- owner: Pocco81
-  repo: TrueZen.nvim
 - owner: andersevenrud
   repo: compe-tmux
 - owner: anuvyklack
   repo: fold-preview
+- owner: beauwilliams
+  repo: focus.nvim
 - owner: bluz71
   repo: vim-nightfly-guicolors
 - owner: chaitanyabsrip
   repo: present.nvim
+- owner: crispybaccoon
+  repo: evergarden
 - owner: crusj
   repo: bookmarks.nvim
 - owner: dracula
   repo: vim
+- owner: EdvinVikstrom
+  repo: filetree.nvim
+- owner: Everblush
+  repo: everblush.nvim
 - owner: feline-nvim
   repo: feline.nvim
+- owner: glepnir
+  repo: dashboard-nvim
 - owner: glepnir
   repo: indent-guides.nvim
 - owner: glepnir
@@ -46,61 +32,75 @@
   repo: prodoc.nvim
 - owner: glepnir
   repo: zephyr-nvim
+- owner: haringsrob
+  repo: nvim_context_vt
 - owner: henriquehbr
   repo: ataraxis.lua
+- owner: hkupty
+  repo: iron.nvim
+- owner: kvrohit
+  repo: mellow.nvim
+- owner: kyazdani42
+  repo: nvim-tree.lua
+- owner: kyazdani42
+  repo: nvim-web-devicons
 - owner: lukas-reineke
   repo: format.nvim
+- owner: mcchrish
+  repo: zenbones.nvim
 - owner: meliora-theme
   repo: neovim
 - owner: melkster
   repo: modicator.nvim
 - owner: mrjones2014
   repo: nvim-ts-rainbow
+- owner: nedia
+  repo: auto-save.nvim
+  repository_host: sourcehut
 - owner: niuiic
   repo: dap-utils
+- owner: NTBBloodbath
+  repo: rest.nvim
+- owner: nvim-colortils
+  repo: colortils.nvim
 - owner: p00f
   repo: nvim-ts-rainbow
-- owner: pocco81
-  repo: autosave.nvim
-- owner: pocco81
-  repo: truezen.nvim
-- owner: savq
-  repo: melange
-- owner: shaeinst
-  repo: penvim
-- owner: tomasky
-  repo: bookmarks.nvim
 - owner: phaazon
   repo: hop.nvim
 - owner: phaazon
   repo: mind.nvim
-- owner: nedia
-  repo: auto-save.nvim
-  repository_host: sourcehut
+- owner: pocco81
+  repo: autosave.nvim
+- owner: Pocco81
+  repo: AutoSave.nvim
+- owner: Pocco81
+  repo: TrueZen.nvim
+- owner: pocco81
+  repo: truezen.nvim
+- owner: renerocksai
+  repo: telekasten.nvim
 - owner: RishabhRD
   repo: lspactions
   branch: nvim-0.6-compatible:lspactions-nvim06-compatible
-- owner: glepnir
-  repo: dashboard-nvim
-- owner: yashguptaz
-  repo: calvera-dark.nvim
-- owner: sudormrfbin
-  repo: cheatsheet.nvim
+- owner: savq
+  repo: melange
 - owner: sekke276
   repo: dark_flat.nvim
-- owner: crispybaccoon
-  repo: evergarden
-- owner: beauwilliams
-  repo: focus.nvim
-- owner: hkupty
-  repo: iron.nvim
-- owner: kvrohit
-  repo: mellow.nvim
-- owner: haringsrob
-  repo: nvim_context_vt
+- owner: shaeinst
+  repo: penvim
+- owner: startup-nvim
+  repo: startup.nvim
+- owner: sudormrfbin
+  repo: cheatsheet.nvim
+- owner: tomasky
+  repo: bookmarks.nvim
 - owner: windwp
   repo: nvim-projectconfig
-- owner: kyazdani42
-  repo: nvim-tree.lua
-- owner: kyazdani42
-  repo: nvim-web-devicons
+- owner: yashguptaz
+  repo: calvera-dark.nvim
+- owner: yorickpeterse
+  repo: nvim-pqf
+  repository_host: gitlab
+- owner: yorickpeterse
+  repo: nvim-window
+  repository_host: gitlab
