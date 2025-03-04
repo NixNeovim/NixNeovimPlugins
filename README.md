@@ -26,7 +26,7 @@ The overlay adds extra Vim plugins to `pkgs.vimExtraPlugins`.
 First, add this repo to your inputs:
 
 ```
-inputs.nixneovimplugins.url = github:jooooscha/nixpkgs-vim-extra-plugins
+inputs.nixneovimplugins.url = github:NixNeovim/NixNeovimPlugins
 ```
 
 Next, apply the provided overlay:
