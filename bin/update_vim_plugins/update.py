@@ -186,7 +186,7 @@ class UpdateCommand(Command):
         error = False
         for i, plugin in enumerate(plugins):
             for j, p in enumerate(plugins[i+1:]):
-                if plugin.name == p.name:
+                if plugin.name.lower() == p.name.lower():
 
                     # check url of 'plugin'
                     plugin_url = f"https://github.com/{plugin.owner}/{plugin.repo}"
