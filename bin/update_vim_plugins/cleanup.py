@@ -21,6 +21,10 @@ class CleanUpCommand(Command):
 
         write_manifest_yaml_from_spec(new_manifest_filterd)
 
+        # read and write blocklist, sorted the keys and deduplicates them
+        blocked_specs = read_blocklist_yaml_to_spec()
+        write_blocklist_yaml_from_spec(blocked_specs)
+
         self.line("<comment>Done</comment>")
 
 
