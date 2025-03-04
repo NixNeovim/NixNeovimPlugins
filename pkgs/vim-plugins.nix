@@ -5,23 +5,6 @@
   fetchgit,
 }: {
   /*
-  Generated from: 0styx0/abbremand.nvim
-  */
-  abbremand-nvim = buildVimPlugin {
-    pname = "abbremand-nvim";
-    version = "2022-01-16";
-    src = fetchurl {
-      url = "https://github.com/0styx0/abbremand.nvim/archive/d633341f632b0b2666dfc6dfe6b9842ba1610a1d.tar.gz";
-      sha256 = "0kfkj38y3k46pnmr57h781vyxfgrj9963jwz8l8h7sfhrxabszl7";
-    };
-    meta = with lib; {
-      description = "Neovim hooks for abbreviation events";
-      homepage = "https://github.com/0styx0/abbremand.nvim";
-      license = with licenses; [gpl3Only];
-    };
-  };
-
-  /*
   Generated from: Abstract-IDE/Abstract-cs
   */
   Abstract-cs = buildVimPlugin {
@@ -5428,6 +5411,23 @@
   };
 
   /*
+  Generated from: bgcicca/gardenal
+  */
+  gardenal = buildVimPlugin {
+    pname = "gardenal";
+    version = "2024-10-31";
+    src = fetchurl {
+      url = "https://github.com/bgcicca/gardenal/archive/d8bc3d5aa51b559f745c222f4ab082f468df2c0c.tar.gz";
+      sha256 = "1hjgbw7rbxvn8wnzn0j3x2k17nnyz530p94brs2wbh1n5k3bpi5w";
+    };
+    meta = with lib; {
+      description = "A plugin for vim and neovim that allows you to define keyboard shortcuts for switching between themes.";
+      homepage = "https://github.com/bgcicca/gardenal";
+      license = with licenses; [gpl3Only];
+    };
+  };
+
+  /*
   Generated from: gbprod/nord.nvim
   */
   gbprod-nord-nvim = buildVimPlugin {
@@ -10188,23 +10188,6 @@
   };
 
   /*
-  Generated from: svrana/neosolarized.nvim
-  */
-  neosolarized-nvim = buildVimPlugin {
-    pname = "neosolarized-nvim";
-    version = "2024-09-04";
-    src = fetchurl {
-      url = "https://github.com/svrana/neosolarized.nvim/archive/742deb0b2b1e110b09494206611509e3992aac35.tar.gz";
-      sha256 = "03qlb9kwsbb1ff7jz325z84j5pr16z30af06kf43ri9miljzd7db";
-    };
-    meta = with lib; {
-      description = "Truecolor solarized theme for neovim in Lua using colorbuddy";
-      homepage = "https://github.com/svrana/neosolarized.nvim";
-      license = with licenses; [];
-    };
-  };
-
-  /*
   Generated from: Tsuzat/NeoSolarized.nvim
   */
   NeoSolarized-nvim = buildVimPlugin {
@@ -10217,6 +10200,23 @@
     meta = with lib; {
       description = "NeoSolarized colorscheme for NeoVim with full transparency";
       homepage = "https://github.com/Tsuzat/NeoSolarized.nvim";
+      license = with licenses; [];
+    };
+  };
+
+  /*
+  Generated from: svrana/neosolarized.nvim
+  */
+  neosolarized-nvim = buildVimPlugin {
+    pname = "neosolarized-nvim";
+    version = "2024-09-04";
+    src = fetchurl {
+      url = "https://github.com/svrana/neosolarized.nvim/archive/742deb0b2b1e110b09494206611509e3992aac35.tar.gz";
+      sha256 = "03qlb9kwsbb1ff7jz325z84j5pr16z30af06kf43ri9miljzd7db";
+    };
+    meta = with lib; {
+      description = "Truecolor solarized theme for neovim in Lua using colorbuddy";
+      homepage = "https://github.com/svrana/neosolarized.nvim";
       license = with licenses; [];
     };
   };

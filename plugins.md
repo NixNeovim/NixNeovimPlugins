@@ -1,8 +1,7 @@
- - Plugin count: 1250
+ - Plugin count: 1249
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
-| [0styx0/abbremand.nvim](https://github.com/0styx0/abbremand.nvim) | 2022-01-16 | `abbremand-nvim` | 
 | [Abstract-IDE/Abstract-cs](https://github.com/Abstract-IDE/Abstract-cs) | 2024-08-04 | `Abstract-cs` | 
 | [roobert/action-hints.nvim](https://github.com/roobert/action-hints.nvim) | 2023-09-09 | `action-hints-nvim` | 
 | [aznhe21/actions-preview.nvim](https://github.com/aznhe21/actions-preview.nvim) | 2025-02-26 | `actions-preview-nvim` | 
@@ -320,8 +319,8 @@
 | [linrongbin16/fzfx.nvim](https://github.com/linrongbin16/fzfx.nvim) | 2025-02-14 | `fzfx-nvim` | 
 | [NTBBloodbath/galaxyline.nvim](https://github.com/NTBBloodbath/galaxyline.nvim) | 2022-01-21 | `galaxyline-nvim` | 
 | [Zeioth/garbage-day.nvim](https://github.com/Zeioth/garbage-day.nvim) | 2024-09-23 | `garbage-day-nvim` | 
-| [bgcicca/gardenal](https://github.com/bgcicca/gardenal) | 2024-10-31 | `gardenal` | 
 | [BrunoCiccarino/gardenal](https://github.com/bgcicca/gardenal) | 2024-10-31 | `gardenal` | 
+| [bgcicca/gardenal](https://github.com/bgcicca/gardenal) | 2024-10-31 | `gardenal` | 
 | [gbprod/nord.nvim](https://github.com/gbprod/nord.nvim) | 2025-02-12 | `gbprod-nord-nvim` | 
 | [kiddos/gemini.nvim](https://github.com/kiddos/gemini.nvim) | 2025-02-28 | `gemini-nvim` | 
 | [David-Kunz/gen.nvim](https://github.com/David-Kunz/gen.nvim) | 2024-12-29 | `gen-nvim` | 
@@ -602,8 +601,8 @@
 | [nvim-neorg/neorg-telescope](https://github.com/nvim-neorg/neorg-telescope) | 2024-07-30 | `neorg-telescope` | 
 | [nyngwang/NeoRoot.lua](https://github.com/nyngwang/NeoRoot.lua) | 2023-02-08 | `NeoRoot-lua` | 
 | [karb94/neoscroll.nvim](https://github.com/karb94/neoscroll.nvim) | 2024-12-06 | `neoscroll-nvim` | 
-| [svrana/neosolarized.nvim](https://github.com/svrana/neosolarized.nvim) | 2024-09-04 | `neosolarized-nvim` | 
 | [Tsuzat/NeoSolarized.nvim](https://github.com/Tsuzat/NeoSolarized.nvim) | 2025-01-15 | `NeoSolarized-nvim` | 
+| [svrana/neosolarized.nvim](https://github.com/svrana/neosolarized.nvim) | 2024-09-04 | `neosolarized-nvim` | 
 | [kassio/neoterm](https://github.com/kassio/neoterm) | 2023-03-09 | `neoterm` | 
 | [nyngwang/NeoTerm.lua](https://github.com/nyngwang/NeoTerm.lua) | 2023-06-22 | `NeoTerm-lua` | 
 | [nvim-neotest/neotest](https://github.com/nvim-neotest/neotest) | 2025-02-25 | `neotest` | 
