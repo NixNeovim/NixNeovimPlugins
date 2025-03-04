@@ -200,7 +200,7 @@ class UpdateCommand(Command):
                         self.line(f"<error>Error:</error> The following two definitions produce the same plugin name (but have a different real url):\n - {plugin}\n - {p}\n -> {p.name}")
                         error = True
                     elif plugin_url != real_plugin_url:
-                        self.line(f"<info>Info:</info> Merged the following plugins into one, their real urls are the same:\n - {plugin} - removed\n - {p}\n -> {p.name}")
+                        self.line(f"<info>Info:</info> Merged the following plugins into one, their real urls are the same:\n - {plugin} - removed and added to blocklist.yaml\n - {p}")
 
                         block_list = read_blocklist_yaml_to_spec()
                         block_list.append(plugins[i].to_spec())
@@ -209,7 +209,7 @@ class UpdateCommand(Command):
                         removed_keys.append(i)
 
                     elif p_url != real_p_url:
-                        self.line(f"<info>Info:</info> Merged the following plugins into one, their real urls are the same:\n - {plugin}\n - {p} - removed\n -> {p.name}")
+                        self.line(f"<info>Info:</info> Merged the following plugins into one, their real urls are the same:\n - {plugin}\n - {p} - removed and added to blocklist.yaml")
 
                         block_list = read_blocklist_yaml_to_spec()
                         block_list.append(plugins[j].to_spec())
