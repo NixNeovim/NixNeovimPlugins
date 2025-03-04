@@ -1,4 +1,4 @@
- - Plugin count: 1249
+ - Plugin count: 1250
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -320,7 +320,6 @@
 | [NTBBloodbath/galaxyline.nvim](https://github.com/NTBBloodbath/galaxyline.nvim) | 2022-01-21 | `galaxyline-nvim` | 
 | [Zeioth/garbage-day.nvim](https://github.com/Zeioth/garbage-day.nvim) | 2024-09-23 | `garbage-day-nvim` | 
 | [BrunoCiccarino/gardenal](https://github.com/bgcicca/gardenal) | 2024-10-31 | `gardenal` | 
-| [bgcicca/gardenal](https://github.com/bgcicca/gardenal) | 2024-10-31 | `gardenal` | 
 | [gbprod/nord.nvim](https://github.com/gbprod/nord.nvim) | 2025-02-12 | `gbprod-nord-nvim` | 
 | [kiddos/gemini.nvim](https://github.com/kiddos/gemini.nvim) | 2025-02-28 | `gemini-nvim` | 
 | [David-Kunz/gen.nvim](https://github.com/David-Kunz/gen.nvim) | 2024-12-29 | `gen-nvim` | 
@@ -462,6 +461,7 @@
 | [slugbyte/lackluster.nvim](https://github.com/slugbyte/lackluster.nvim) | 2024-12-29 | `lackluster-nvim` | 
 | [Wansmer/langmapper.nvim](https://github.com/Wansmer/langmapper.nvim) | 2024-11-11 | `langmapper-nvim` | 
 | [dasupradyumna/launch.nvim](https://github.com/dasupradyumna/launch.nvim) | 2024-11-11 | `launch-nvim` | 
+| [jthvai/lavender.nvim](https://codeberg.org/jthvai/lavender.nvim) | 2024-06-01 | `lavender-nvim` | 
 | [debugloop/layers.nvim](https://github.com/debugloop/layers.nvim) | 2024-12-22 | `layers-nvim` | 
 | [folke/lazy.nvim](https://github.com/folke/lazy.nvim) | 2025-02-25 | `lazy-nvim` | 
 | [folke/lazydev.nvim](https://github.com/folke/lazydev.nvim) | 2025-02-20 | `lazydev-nvim` | 
@@ -535,6 +535,7 @@
 | [williamboman/mason.nvim](https://github.com/williamboman/mason.nvim) | 2025-02-15 | `mason-nvim` | 
 | [monkoose/matchparen.nvim](https://github.com/monkoose/matchparen.nvim) | 2024-02-04 | `matchparen-nvim` | 
 | [marko-cerovac/material.nvim](https://github.com/marko-cerovac/material.nvim) | 2024-12-29 | `material-nvim` | 
+| [pluffie/md-babel.nvim](https://codeberg.org/pluffie/md-babel.nvim) | 2024-04-06 | `md-babel-nvim` | 
 | [arminveres/md-pdf.nvim](https://github.com/arminveres/md-pdf.nvim) | 2025-02-03 | `md-pdf-nvim` | 
 | [jubnzv/mdeval.nvim](https://github.com/jubnzv/mdeval.nvim) | 2024-11-30 | `mdeval-nvim` | 
 | [Thiago4532/mdmath.nvim](https://github.com/Thiago4532/mdmath.nvim) | 2024-12-27 | `mdmath-nvim` | 

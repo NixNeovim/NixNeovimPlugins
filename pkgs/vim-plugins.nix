@@ -5411,23 +5411,6 @@
   };
 
   /*
-  Generated from: bgcicca/gardenal
-  */
-  gardenal = buildVimPlugin {
-    pname = "gardenal";
-    version = "2024-10-31";
-    src = fetchurl {
-      url = "https://github.com/bgcicca/gardenal/archive/d8bc3d5aa51b559f745c222f4ab082f468df2c0c.tar.gz";
-      sha256 = "1hjgbw7rbxvn8wnzn0j3x2k17nnyz530p94brs2wbh1n5k3bpi5w";
-    };
-    meta = with lib; {
-      description = "A plugin for vim and neovim that allows you to define keyboard shortcuts for switching between themes.";
-      homepage = "https://github.com/bgcicca/gardenal";
-      license = with licenses; [gpl3Only];
-    };
-  };
-
-  /*
   Generated from: gbprod/nord.nvim
   */
   gbprod-nord-nvim = buildVimPlugin {
@@ -7825,6 +7808,23 @@
   };
 
   /*
+  Generated from: jthvai/lavender.nvim
+  */
+  lavender-nvim = buildVimPlugin {
+    pname = "lavender-nvim";
+    version = "2024-06-01";
+    src = fetchurl {
+      url = "https://codeberg.org/jthvai/lavender.nvim/archive/50d8c9c19509ba5b03760e2d644128afc4215281.tar.gz";
+      sha256 = "1nfhksi5jbg1vj3vqx40670y4wzqfvqf08zm4fcza7xvcfah5as2";
+    };
+    meta = with lib; {
+      description = "Purple-hued dark mode colorscheme for Neovim";
+      homepage = "https://codeberg.org/jthvai/lavender.nvim";
+      license = with licenses; [];
+    };
+  };
+
+  /*
   Generated from: debugloop/layers.nvim
   */
   layers-nvim = buildVimPlugin {
@@ -9062,6 +9062,23 @@
       description = ":trident: Material colorscheme for NeoVim written in Lua with built-in support for native LSP, TreeSitter and many more plugins";
       homepage = "https://github.com/marko-cerovac/material.nvim";
       license = with licenses; [gpl2Only];
+    };
+  };
+
+  /*
+  Generated from: pluffie/md-babel.nvim
+  */
+  md-babel-nvim = buildVimPlugin {
+    pname = "md-babel-nvim";
+    version = "2024-04-06";
+    src = fetchurl {
+      url = "https://codeberg.org/pluffie/md-babel.nvim/archive/3ae00bd77a30fa2a2a1e3eb10f079d454046e004.tar.gz";
+      sha256 = "1dhrznfrg2ybksd2yb83xabxd37vbhkbrpbb105kz8p4h16wxz4h";
+    };
+    meta = with lib; {
+      description = "Like org-babel but for Markdown and Neovim";
+      homepage = "https://codeberg.org/pluffie/md-babel.nvim";
+      license = with licenses; [];
     };
   };
 
