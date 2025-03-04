@@ -1,5 +1,7 @@
 - owner: 00sapo
   repo: visual.nvim
+- owner: 0styx0
+  repo: abbremand.nvim
 - owner: 0xJohnnyboy
   repo: scretch.nvim
 - owner: 0xstepit
@@ -265,9 +267,6 @@
   repo: nvim-miniyank
 - owner: bgaillard
   repo: readonly.nvim
-- owner: bgcicca
-  repo: gardenal
-  commit: d8bc3d5aa51b559f745c222f4ab082f468df2c0c
 - owner: Bilal2453
   repo: luvit-meta
 - owner: bkegley

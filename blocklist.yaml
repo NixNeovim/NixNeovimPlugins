@@ -6,6 +6,8 @@
   repo: fold-preview
 - owner: beauwilliams
   repo: focus.nvim
+- owner: bgcicca
+  repo: gardenal
 - owner: bluz71
   repo: vim-nightfly-guicolors
 - owner: chaitanyabsrip
