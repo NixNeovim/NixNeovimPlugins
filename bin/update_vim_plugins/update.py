@@ -203,25 +203,28 @@ class UpdateCommand(Command):
                         self.line(f"<info>Info:</info> Merged the following plugins into one, their real urls are the same:\n - {plugin} - removed and added to blocklist.yaml\n - {p}")
 
                         block_list = read_blocklist_yaml_to_spec()
-                        block_list.append(plugins[i].to_spec())
+                        block_list.append(plugins[j].to_spec())
                         write_blocklist_yaml_from_spec(block_list)
 
-                        removed_keys.append(i)
+                        removed_keys.append(j)
 
                     elif p_url != real_p_url:
                         self.line(f"<info>Info:</info> Merged the following plugins into one, their real urls are the same:\n - {plugin}\n - {p} - removed and added to blocklist.yaml")
 
                         block_list = read_blocklist_yaml_to_spec()
-                        block_list.append(plugins[j].to_spec())
+                        block_list.append(plugins[i].to_spec())
                         write_blocklist_yaml_from_spec(block_list)
 
-                        removed_keys.append(j)
+                        removed_keys.append(i)
+
                     else:
                         self.line(f"<error>Error:</error> Something very unexpected happened. Manual inspection needed. Plugins {plugin} and {p} have some form of broken url")
                         error = True
 
 
-        for k in removed_keys:
+        # removed plugins, reverse sorting is very important here!!
+        # otherwise the indexes would move, and we would remove the wrong plugins
+        for k in sorted(removed_keys, reverse=True):
             del plugins[k]
 
 
