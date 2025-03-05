@@ -48,11 +48,11 @@ class PluginSpec:
         self.warning = warning
 
     def __hash__(self):
-        return hash((self.id, self.repository_host))
+        return hash((self.id.lower(), self.repository_host))
 
     @property
     def id(self) -> str:
-        return f"{self.owner}/{self.repo}"
+        return f"{self.repository_host}/{self.owner}/{self.repo}/{self.name}"
 
     @classmethod
     def from_spec(cls, spec):

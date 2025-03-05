@@ -179,10 +179,14 @@ class UpdateCommand(Command):
 
     def check_duplicates(self, plugins):
         """check for duplicates in proccesed_plugins"""
+
+        # keys that will be removed at the end
+        removed_keys = []
+
         error = False
         for i, plugin in enumerate(plugins):
-            for p in plugins[i+1:]:
-                if plugin.name == p.name:
+            for j, p in enumerate(plugins[i+1:]):
+                if plugin.name.lower() == p.name.lower():
 
                     # check url of 'plugin'
                     plugin_url = f"https://github.com/{plugin.owner}/{plugin.repo}"
@@ -193,12 +197,36 @@ class UpdateCommand(Command):
                     real_p_url = requests.get(p_url, allow_redirects=True).url
 
                     if real_plugin_url != real_p_url:
-                        self.line(f"<error>Error:</error> The following two definitions produce the same plugin name (different url):\n - {plugin}\n - {p}\n -> {p.name}")
+                        self.line(f"<error>Error:</error> The following two definitions produce the same plugin name (but have a different real url):\n - {plugin}\n - {p}\n -> {p.name}")
                         error = True
                     elif plugin_url != real_plugin_url:
-                        self.line(f"<info>Info:</info> Merged the following plugins into one, their real urls are the same:\n - {plugin} - removed\n - {p}\n -> {p.name}")
+                        self.line(f"<info>Info:</info> Merged the following plugins into one, their real urls are the same:\n - {plugin} - removed and added to blocklist.yaml\n - {p}")
+
+                        block_list = read_blocklist_yaml_to_spec()
+                        block_list.append(plugins[j].to_spec())
+                        write_blocklist_yaml_from_spec(block_list)
+
+                        removed_keys.append(j)
+
                     elif p_url != real_p_url:
-                        self.line(f"<info>Info:</info> Merged the following plugins into one, their real urls are the same:\n - {plugin}\n - {p} - removed\n -> {p.name}")
+                        self.line(f"<info>Info:</info> Merged the following plugins into one, their real urls are the same:\n - {plugin}\n - {p} - removed and added to blocklist.yaml")
+
+                        block_list = read_blocklist_yaml_to_spec()
+                        block_list.append(plugins[i].to_spec())
+                        write_blocklist_yaml_from_spec(block_list)
+
+                        removed_keys.append(i)
+
+                    else:
+                        self.line(f"<error>Error:</error> Something very unexpected happened. Manual inspection needed. Plugins {plugin} and {p} have some form of broken url")
+                        error = True
+
+
+        # removed plugins, reverse sorting is very important here!!
+        # otherwise the indexes would move, and we would remove the wrong plugins
+        for k in sorted(removed_keys, reverse=True):
+            del plugins[k]
+
 
         # We want to exit if the resulting nix file would be broken
         # But we want to go through all plugins before we do so

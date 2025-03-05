@@ -44,6 +44,14 @@ def read_blocklist_yaml_to_spec() -> list[PluginSpec]:
 
     return sorted(specs)
 
+def write_blocklist_yaml_from_spec(specs: list[PluginSpec]):
+
+    specs = sorted(list(set(specs)))
+    strings = [ p.to_dict() for p in specs ]
+
+    with open(BLOCKLIST_YAML, "w") as file:
+        yaml.dump(strings, file, default_flow_style=False, sort_keys=False)
+
 #  def read_blacklist_to_spec() -> list[PluginSpec]:
     #  blacklist = read_blacklist()
     #  specs = [ PluginSpec.from_spec(spec.strip()) for spec in blacklist ]

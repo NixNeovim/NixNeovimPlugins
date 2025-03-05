@@ -28,13 +28,14 @@ class VimPlugin:
     license: License
     checked: date = datetime.now().date()
     warning: str | None = None
+    repository_host: RepositoryHost
 
     @property
     def id(self) -> str:
         if not hasattr(self, 'repo'): # WARN: should be removed after a few runs, only needed to handle old .plugin.json entries
             self.repo = self.source_line.split("/")[1]
 
-        return f"{self.owner}/{self.repo}"
+        return f"{self.repository_host}/{self.owner}/{self.repo}/{self.name}"
 
     def to_nix(self):
         """Return the nix expression for this plugin."""
@@ -67,6 +68,14 @@ class VimPlugin:
         warning = f"{self.warning or ''}"
 
         return f"| {link} | {version} | `{package_name}` | {warning}"
+
+    def to_spec(self) -> PluginSpec:
+        return PluginSpec(
+            repository_host=self.repository_host,
+            owner=self.owner,
+            repo=self.repo,
+        )
+
 
     def __lt__(self, o: object) -> bool:
         if not isinstance(o, VimPlugin):
@@ -108,6 +117,7 @@ class GitHubPlugin(VimPlugin):
         self.homepage = repo_info["html_url"]
         self.license = plugin_spec.license or License.from_spdx_id((repo_info.get("license") or {}).get("spdx_id"))
         self.warning = plugin_spec.warning
+        self.repository_host = plugin_spec.repository_host
 
     def _api_call(self, path: str, token: str | None = _get_github_token()):
         """Call the GitHub API."""
@@ -141,6 +151,7 @@ class GitlabPlugin(VimPlugin):
         self.homepage = repo_info["web_url"]
         self.license = plugin_spec.license or License.from_spdx_id(repo_info.get("license", {}).get("key"))
         self.warning = plugin_spec.warning
+        self.repository_host = plugin_spec.repository_host
 
     def _api_call(self, path: str) -> dict:
         """Call the Gitlab API."""
@@ -178,6 +189,7 @@ class SourceHutPlugin(VimPlugin):
         self.homepage = f"https://git.sr.ht/~{plugin_spec.owner}/{plugin_spec.repo}"
         self.source = GitSource(self.homepage, sha)
         self.license = plugin_spec.license or License.UNKNOWN  # cannot be determined via API
+        self.repository_host = plugin_spec.repository_host
 
     def _api_call(self, path: str, token: str | None = _get_sourcehut_token()):
         """Call the SourceHut API."""
@@ -213,6 +225,7 @@ class CodebergPlugin(VimPlugin):
         self.homepage = repo_info["html_url"]
         self.license = plugin_spec.license or License.from_spdx_id((repo_info.get("license") or {}).get("spdx_id"))
         self.warning = plugin_spec.warning
+        self.repository_host = plugin_spec.repository_host
 
     def _api_call(self, path: str, token: str | None = _get_github_token()):
         """Call the Codeberg API."""

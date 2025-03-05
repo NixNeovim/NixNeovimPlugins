@@ -1,8 +1,6 @@
 - owner: 00sapo
   repo: visual.nvim
 - owner: 0styx0
-  repo: abbreinder.nvim
-- owner: 0styx0
   repo: abbremand.nvim
 - owner: 0xJohnnyboy
   repo: scretch.nvim
@@ -269,9 +267,6 @@
   repo: nvim-miniyank
 - owner: bgaillard
   repo: readonly.nvim
-- owner: bgcicca
-  repo: gardenal
-  commit: d8bc3d5aa51b559f745c222f4ab082f468df2c0c
 - owner: Bilal2453
   repo: luvit-meta
 - owner: bkegley
@@ -2210,6 +2205,7 @@
   repo: vimpeccable
 - owner: svrana
   repo: neosolarized.nvim
+  name: neosolarized-nvim-svrana
 - owner: sxwpb
   repo: halfspace.nvim
   repository_host: gitlab
@@ -2345,6 +2341,7 @@
   repo: lspmark.nvim
 - owner: Tsuzat
   repo: NeoSolarized.nvim
+  name: NeoSolarized-nvim-tsuzat
 - owner: tummetott
   repo: unimpaired.nvim
 - owner: tversteeg
