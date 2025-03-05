@@ -173,9 +173,8 @@ class UpdateCommand(Command):
             for plugin in plugins:
                 data.update({f"{plugin.id}": plugin.to_json()})
 
-            json_file.seek(0)
-            json_file.write(json.dumps(data, indent=2, sort_keys=True))
-            json_file.truncate()
+        with open(JSON_FILE, "w") as json_file:
+            json.dump(data, json_file, indent=2, sort_keys=True)
 
     def check_duplicates(self, plugins):
         """check for duplicates in proccesed_plugins"""
