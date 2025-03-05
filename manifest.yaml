@@ -285,8 +285,6 @@
   repo: nvim-highlight-colors
 - owner: brianaung
   repo: compl.nvim
-- owner: BrunoCiccarino
-  repo: gardenal
 - owner: calind
   repo: selenized.nvim
 - owner: CamdenClark
