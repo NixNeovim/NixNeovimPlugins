@@ -742,8 +742,8 @@
     pname = "avante-nvim";
     version = "2025-03-06";
     src = fetchurl {
-      url = "https://github.com/yetone/avante.nvim/archive/6d39e06f574416c50710dd05c1a62f3496af3f70.tar.gz";
-      sha256 = "19vc6v7cwpg2j4amp3g8mpysv1pxzvy8vfvjcmfvydkiv76hw9ic";
+      url = "https://github.com/yetone/avante.nvim/archive/2b0e7e09aedacb19955485cdf6a30138c09bcbd1.tar.gz";
+      sha256 = "023yrsq65iphzvqyzhb7dv6k7947w5zc667vkvnl9a8hlqlyxh87";
     };
     meta = with lib; {
       description = "Use your Neovim like using Cursor AI IDE!";
@@ -1386,10 +1386,10 @@
   */
   buffon-nvim = buildVimPlugin {
     pname = "buffon-nvim";
-    version = "2025-02-27";
+    version = "2025-03-06";
     src = fetchurl {
-      url = "https://github.com/francescarpi/buffon.nvim/archive/b9b82516d6fbd0097fdee4da0196f6ff9d802e2d.tar.gz";
-      sha256 = "1yzhiq0qi3bifg6khyy9kpglym1wayd1ic944w67g3vccqv02rgh";
+      url = "https://github.com/francescarpi/buffon.nvim/archive/ba5e50e68ed371cbdb032148f854d56ce628314d.tar.gz";
+      sha256 = "1z0vwy7jyqbxrzvz4d3pcgdxvq6rdhr2944g72gnv9ppmsl373zw";
     };
     meta = with lib; {
       description = "Neovim plugin for navigating between buffers";
@@ -5411,6 +5411,23 @@
   };
 
   /*
+  Generated from: github/bgcicca/gardenal/gardenal
+  */
+  gardenal = buildVimPlugin {
+    pname = "gardenal";
+    version = "2024-10-31";
+    src = fetchurl {
+      url = "https://github.com/bgcicca/gardenal/archive/d8bc3d5aa51b559f745c222f4ab082f468df2c0c.tar.gz";
+      sha256 = "1hjgbw7rbxvn8wnzn0j3x2k17nnyz530p94brs2wbh1n5k3bpi5w";
+    };
+    meta = with lib; {
+      description = "A plugin for vim and neovim that allows you to define keyboard shortcuts for switching between themes.";
+      homepage = "https://github.com/bgcicca/gardenal";
+      license = with licenses; [gpl3Only];
+    };
+  };
+
+  /*
   Generated from: github/gbprod/nord.nvim/gbprod-nord-nvim
   */
   gbprod-nord-nvim = buildVimPlugin {
@@ -8322,10 +8339,10 @@
   */
   lsp-signature-nvim = buildVimPlugin {
     pname = "lsp-signature-nvim";
-    version = "2025-02-23";
+    version = "2025-03-06";
     src = fetchurl {
-      url = "https://github.com/ray-x/lsp_signature.nvim/archive/02a2784275e05fba89395e1d5e147d7a2b4877d2.tar.gz";
-      sha256 = "19wk9yjvsbd2gdh524zpnln14zlgqrx87r3m6b3i8j9qakwvq7xb";
+      url = "https://github.com/ray-x/lsp_signature.nvim/archive/02629e5bc38f6cb1a49bb43ff4a441f23335a933.tar.gz";
+      sha256 = "0k7d3389dxn845arxxk2ik2qbc4vlhdyjracncvla0dymbpg5nf5";
     };
     meta = with lib; {
       description = "LSP signature hint as you type";
@@ -8492,10 +8509,10 @@
   */
   lua-console-nvim = buildVimPlugin {
     pname = "lua-console-nvim";
-    version = "2025-02-07";
+    version = "2025-03-06";
     src = fetchurl {
-      url = "https://github.com/YaroSpace/lua-console.nvim/archive/2efa0deda136e00fd2c072a7fd0f1f5b295a2e85.tar.gz";
-      sha256 = "1jzymn1azr47m7waqqqyl2gr425g8cvmd4xbvany6xf6abm8ylxi";
+      url = "https://github.com/YaroSpace/lua-console.nvim/archive/9a2233f4a26330921cf290f6564e240cae81f655.tar.gz";
+      sha256 = "1gngw8ya0sg09kjc3zxyhan4k6jvrjk531vr6j4mxayfk5lqxgsy";
     };
     meta = with lib; {
       description = "A handy scratch pad / REPL / debug console for Lua development and Neovim exploration";
@@ -9274,10 +9291,10 @@
   */
   mini-nvim = buildVimPlugin {
     pname = "mini-nvim";
-    version = "2025-03-04";
+    version = "2025-03-06";
     src = fetchurl {
-      url = "https://github.com/echasnovski/mini.nvim/archive/581724ebb39f4aa70bdbffb891d57d6141d29035.tar.gz";
-      sha256 = "1qpq75xij0r73ly4nffdr6nw19c57lim1wvq4zglq5isrvasxmy0";
+      url = "https://github.com/echasnovski/mini.nvim/archive/22a7bcc9e67a86379e95edf00f62ed643f48f5e0.tar.gz";
+      sha256 = "0x2ii1ylzinswfmifsffa13indkgsw01y9vysz9fkfa16xkwfq63";
     };
     meta = with lib; {
       description = "Library of 40+ independent Lua modules improving overall Neovim (version 0.8 and higher) experience with minimal effort";
@@ -14357,10 +14374,10 @@
   */
   orgmode = buildVimPlugin {
     pname = "orgmode";
-    version = "2025-03-05";
+    version = "2025-03-06";
     src = fetchurl {
-      url = "https://github.com/nvim-orgmode/orgmode/archive/f6d2f93f55593be1a9131533aee509784365968c.tar.gz";
-      sha256 = "0nvkfdw6n2vswgzifl78m7qgvvwi8r18cq3lwawq3q643aw652ak";
+      url = "https://github.com/nvim-orgmode/orgmode/archive/bad7aaada66582f7897b2a341be53ac149a9c71b.tar.gz";
+      sha256 = "14md1frzld4i2gxk3z38am7zv7agr5r6bv6xmrsm4zwvcpsd6awk";
     };
     meta = with lib; {
       description = "Orgmode clone written in Lua for Neovim 0.10.0+.";
@@ -14680,10 +14697,10 @@
   */
   parrot-nvim = buildVimPlugin {
     pname = "parrot-nvim";
-    version = "2025-03-03";
+    version = "2025-03-06";
     src = fetchurl {
-      url = "https://github.com/frankroeder/parrot.nvim/archive/2ce83dfe94975da6b5f02fffeebcd6588753ab44.tar.gz";
-      sha256 = "0p2vmvsbchgz7wivkznvb30aj19sr6ldi751xw43ilkf2sp6fqhw";
+      url = "https://github.com/frankroeder/parrot.nvim/archive/5e16d6054a14eb184c497248995d87dc80058072.tar.gz";
+      sha256 = "0pqrfdkr252d06lsqyp3r01wqyf758h2a1s88z437qlvnb4wgsmw";
     };
     meta = with lib; {
       description = "parrot.nvim 🦜 - the plugin that brings stochastic parrots to Neovim. This is a gp.nvim-fork focused on simplicity.";
@@ -16159,10 +16176,10 @@
   */
   scratchpad-nvim = buildVimPlugin {
     pname = "scratchpad-nvim";
-    version = "2025-02-26";
+    version = "2025-03-06";
     src = fetchurl {
-      url = "https://github.com/athar-qadri/scratchpad.nvim/archive/5eaf36a7efc6a7621b869524e0fac24d53572c0d.tar.gz";
-      sha256 = "1l1vs59vy2f1zjd2wa3ajszx96l590w6h75fbv8b53zw5rlc3f73";
+      url = "https://github.com/athar-qadri/scratchpad.nvim/archive/d57ce63208f40cb32f36eb969c57abecd3b74319.tar.gz";
+      sha256 = "1w08d6c9rdry2d6mv9scmkw359yrzasww6wyidvfhwwy20xqs2mq";
     };
     meta = with lib; {
       description = "Effortlessly manage scratchpads in Neovim ";
