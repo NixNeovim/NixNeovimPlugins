@@ -16886,6 +16886,23 @@
   };
 
   /*
+  Generated from: github/folke/snacks.nvim/snacks-nvim
+  */
+  snacks-nvim = buildVimPlugin {
+    pname = "snacks-nvim";
+    version = "2025-03-01";
+    src = fetchurl {
+      url = "https://github.com/folke/snacks.nvim/archive/bc0630e43be5699bb94dadc302c0d21615421d93.tar.gz";
+      sha256 = "0900nkvsbv24dq9bxiqzx2ay48mjbz5dr4fp145f0wmqbijkw353";
+    };
+    meta = with lib; {
+      description = "🍿 A collection of QoL plugins for Neovim";
+      homepage = "https://github.com/folke/snacks.nvim";
+      license = with licenses; [];
+    };
+  };
+
+  /*
   Generated from: github/camspiers/snap/snap
   */
   snap = buildVimPlugin {
@@ -19211,6 +19228,23 @@
       description = "Show the start of long lines when scrolling way off to the right.";
       homepage = "https://github.com/rlychrisg/truncateline.nvim";
       license = with licenses; [mit];
+    };
+  };
+
+  /*
+  Generated from: github/folke/ts-comments.nvim/ts-comments-nvim
+  */
+  ts-comments-nvim = buildVimPlugin {
+    pname = "ts-comments-nvim";
+    version = "2025-02-27";
+    src = fetchurl {
+      url = "https://github.com/folke/ts-comments.nvim/archive/1bd9d0ba1d8b336c3db50692ffd0955fe1bb9f0c.tar.gz";
+      sha256 = "1x1l8vbxyjqv67zygdrg4m4bn2qpk5hh44jwqkvia8ylw0qicbm4";
+    };
+    meta = with lib; {
+      description = "Tiny plugin to enhance Neovim's native comments";
+      homepage = "https://github.com/folke/ts-comments.nvim";
+      license = with licenses; [];
     };
   };
 
