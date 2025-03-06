@@ -658,11 +658,15 @@
 - owner: folke
   repo: persistence.nvim
 - owner: folke
+  repo: snacks.nvim
+- owner: folke
   repo: todo-comments.nvim
 - owner: folke
   repo: tokyonight.nvim
 - owner: folke
   repo: trouble.nvim
+- owner: folke
+  repo: ts-comments.nvim
 - owner: folke
   repo: twilight.nvim
 - owner: folke
