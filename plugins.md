@@ -11,7 +11,7 @@
 | [github/MaximilianLloyd/adjacent.nvim/adjacent-nvim](https://github.com/MaximilianLloyd/adjacent.nvim) | 2023-02-28 | `adjacent-nvim` | 
 | [github/aaronhallaert/advanced-git-search.nvim/advanced-git-search-nvim](https://github.com/aaronhallaert/advanced-git-search.nvim) | 2024-12-06 | `advanced-git-search-nvim` | 
 | [github/Mofiqul/adwaita.nvim/adwaita-nvim](https://github.com/Mofiqul/adwaita.nvim) | 2024-04-28 | `adwaita-nvim` | 
-| [github/stevearc/aerial.nvim/aerial-nvim](https://github.com/stevearc/aerial.nvim) | 2025-02-15 | `aerial-nvim` | 
+| [github/stevearc/aerial.nvim/aerial-nvim](https://github.com/stevearc/aerial.nvim) | 2025-03-05 | `aerial-nvim` | 
 | [github/desdic/agrolens.nvim/agrolens-nvim](https://github.com/desdic/agrolens.nvim) | 2025-02-17 | `agrolens-nvim` | 
 | [github/yagiziskirik/AirSupport.nvim/AirSupport-nvim](https://github.com/yagiziskirik/AirSupport.nvim) | 2023-05-25 | `AirSupport-nvim` | 
 | [github/bakageddy/alduin.nvim/alduin-nvim](https://github.com/bakageddy/alduin.nvim) | 2024-01-27 | `alduin-nvim` | 
@@ -32,7 +32,7 @@
 | [github/AstroNvim/astrolsp/astrolsp](https://github.com/AstroNvim/astrolsp) | 2025-02-20 | `astrolsp` | 
 | [github/tjdevries/astronauta.nvim/astronauta-nvim](https://github.com/tjdevries/astronauta.nvim) | 2021-11-09 | `astronauta-nvim` | 
 | [github/AstroNvim/astrotheme/astrotheme](https://github.com/AstroNvim/astrotheme) | 2025-02-14 | `astrotheme` | 
-| [github/AstroNvim/astroui/astroui](https://github.com/AstroNvim/astroui) | 2025-02-21 | `astroui` | 
+| [github/AstroNvim/astroui/astroui](https://github.com/AstroNvim/astroui) | 2025-03-05 | `astroui` | 
 | [github/skywind3000/asyncrun.vim/asyncrun-vim](https://github.com/skywind3000/asyncrun.vim) | 2024-11-08 | `asyncrun-vim` | 
 | [github/m-demare/attempt.nvim/attempt-nvim](https://github.com/m-demare/attempt.nvim) | 2025-02-04 | `attempt-nvim` | 
 | [github/ray-x/aurora/aurora](https://github.com/ray-x/aurora) | 2025-03-03 | `aurora` | 
@@ -45,7 +45,7 @@
 | [github/m4xshen/autoclose.nvim/autoclose-nvim](https://github.com/m4xshen/autoclose.nvim) | 2024-07-21 | `autoclose-nvim` | 
 | [github/deathbeam/autocomplete.nvim/autocomplete-nvim](https://github.com/deathbeam/autocomplete.nvim) | 2025-03-03 | `autocomplete-nvim` | 
 | [github/mateuszwieloch/automkdir.nvim/automkdir-nvim](https://github.com/mateuszwieloch/automkdir.nvim) | 2023-12-13 | `automkdir-nvim` | 
-| [github/yetone/avante.nvim/avante-nvim](https://github.com/yetone/avante.nvim) | 2025-03-04 | `avante-nvim` | 
+| [github/yetone/avante.nvim/avante-nvim](https://github.com/yetone/avante.nvim) | 2025-03-06 | `avante-nvim` | 
 | [github/antonk52/bad-practices.nvim/bad-practices-nvim](https://github.com/antonk52/bad-practices.nvim) | 2024-04-28 | `bad-practices-nvim` | 
 | [github/m00qek/baleia.nvim/baleia-nvim](https://github.com/m00qek/baleia.nvim) | 2024-07-24 | `baleia-nvim` | 
 | [github/ribru17/bamboo.nvim/bamboo-nvim](https://github.com/ribru17/bamboo.nvim) | 2025-02-19 | `bamboo-nvim` | 
@@ -63,7 +63,7 @@
 | [github/Wansmer/binary-swap.nvim/binary-swap-nvim](https://github.com/Wansmer/binary-swap.nvim) | 2023-08-06 | `binary-swap-nvim` | 
 | [github/alanfortlink/blackjack.nvim/blackjack-nvim](https://github.com/alanfortlink/blackjack.nvim) | 2023-09-23 | `blackjack-nvim` | 
 | [github/Yu-Leo/blame-column.nvim/blame-column-nvim](https://github.com/Yu-Leo/blame-column.nvim) | 2025-01-24 | `blame-column-nvim` | 
-| [github/saghen/blink.cmp/blink-cmp](https://github.com/Saghen/blink.cmp) | 2025-03-03 | `blink-cmp` | 
+| [github/saghen/blink.cmp/blink-cmp](https://github.com/Saghen/blink.cmp) | 2025-03-05 | `blink-cmp` | 
 | [github/kyazdani42/blue-moon/blue-moon](https://github.com/kyazdani42/blue-moon) | 2024-11-10 | `blue-moon` | 
 | [github/uloco/bluloco.nvim/bluloco-nvim](https://github.com/uloco/bluloco.nvim) | 2025-02-17 | `bluloco-nvim` | 
 | [github/ariel-frischer/bmessages.nvim/bmessages-nvim](https://github.com/ariel-frischer/bmessages.nvim) | 2025-01-10 | `bmessages-nvim` | 
@@ -167,7 +167,7 @@
 | [github/iamcco/coc-tailwindcss/coc-tailwindcss](https://github.com/iamcco/coc-tailwindcss) | 2020-08-19 | `coc-tailwindcss` | 
 | [github/CRAG666/code_runner.nvim/code-runner-nvim](https://github.com/CRAG666/code_runner.nvim) | 2025-02-12 | `code-runner-nvim` | 
 | [github/niuiic/code-shot.nvim/code-shot-nvim](https://github.com/niuiic/code-shot.nvim) | 2025-01-04 | `code-shot-nvim` | 
-| [github/olimorris/codecompanion.nvim/codecompanion-nvim](https://github.com/olimorris/codecompanion.nvim) | 2025-03-04 | `codecompanion-nvim` | 
+| [github/olimorris/codecompanion.nvim/codecompanion-nvim](https://github.com/olimorris/codecompanion.nvim) | 2025-03-06 | `codecompanion-nvim` | 
 | [github/Exafunction/codeium.nvim/codeium-nvim](https://github.com/Exafunction/codeium.nvim) | 2025-01-05 | `codeium-nvim` | 
 | [github/pwntester/codeql.nvim/codeql-nvim](https://github.com/pwntester/codeql.nvim) | 2024-12-15 | `codeql-nvim` | 
 | [github/adisen99/codeschool.nvim/codeschool-nvim](https://github.com/adisen99/codeschool.nvim) | 2024-01-25 | `codeschool-nvim` | 
@@ -185,7 +185,7 @@
 | [github/moyiz/command-and-cursor.nvim/command-and-cursor-nvim](https://github.com/moyiz/command-and-cursor.nvim) | 2024-04-18 | `command-and-cursor-nvim` | 
 | [github/FeiyouG/command_center.nvim/command-center-nvim](https://github.com/FeiyouG/commander.nvim) | 2024-06-08 | `command-center-nvim` | 
 | [github/FeiyouG/commander.nvim/commander-nvim](https://github.com/FeiyouG/commander.nvim) | 2024-06-08 | `commander-nvim` | 
-| [github/saifulapm/commasemi.nvim/commasemi-nvim](https://github.com/saifulapm/commasemi.nvim) | 2024-11-14 | `commasemi-nvim` | 
+| [github/saifulapm/commasemi.nvim/commasemi-nvim](https://github.com/saifulapm/commasemi.nvim) | 2025-03-06 | `commasemi-nvim` | 
 | [github/LudoPinelli/comment-box.nvim/comment-box-nvim](https://github.com/LudoPinelli/comment-box.nvim) | 2024-02-03 | `comment-box-nvim` | 
 | [github/numToStr/Comment.nvim/Comment-nvim](https://github.com/numToStr/Comment.nvim) | 2024-06-09 | `Comment-nvim` | 
 | [github/winston0410/commented.nvim/commented-nvim](https://github.com/winston0410/commented.nvim) | 2022-03-12 | `commented-nvim` | 
@@ -197,7 +197,7 @@
 | [github/RutaTang/compter.nvim/compter-nvim](https://github.com/RutaTang/compter.nvim) | 2023-06-01 | `compter-nvim` | 
 | [github/Jxstxs/conceal.nvim/conceal-nvim](https://github.com/Jxstxs/conceal.nvim) | 2023-12-05 | `conceal-nvim` | 
 | [github/yutkat/confirm-quit.nvim/confirm-quit-nvim](https://github.com/yutkat/confirm-quit.nvim) | 2024-01-24 | `confirm-quit-nvim` | 
-| [github/stevearc/conform.nvim/conform-nvim](https://github.com/stevearc/conform.nvim) | 2025-02-15 | `conform-nvim` | 
+| [github/stevearc/conform.nvim/conform-nvim](https://github.com/stevearc/conform.nvim) | 2025-03-05 | `conform-nvim` | 
 | [github/Olical/conjure/conjure](https://github.com/Olical/conjure) | 2025-03-01 | `conjure` | 
 | [github/pianocomposer321/consolation.nvim/consolation-nvim](https://github.com/pianocomposer321/consolation.nvim) | 2021-09-01 | `consolation-nvim` | 
 | [github/cjodo/convert.nvim/convert-nvim](https://github.com/cjodo/convert.nvim) | 2025-02-10 | `convert-nvim` | 
@@ -206,7 +206,7 @@
 | [github/zbirenbaum/copilot-cmp/copilot-cmp](https://github.com/zbirenbaum/copilot-cmp) | 2024-12-11 | `copilot-cmp` | 
 | [github/zbirenbaum/copilot.lua/copilot-lua](https://github.com/zbirenbaum/copilot.lua) | 2025-02-10 | `copilot-lua` | 
 | [github/github/copilot.vim/copilot-vim](https://github.com/github/copilot.vim) | 2025-02-21 | `copilot-vim` | 
-| [github/CopilotC-Nvim/CopilotChat.nvim/CopilotChat-nvim](https://github.com/CopilotC-Nvim/CopilotChat.nvim) | 2025-03-04 | `CopilotChat-nvim` | 
+| [github/CopilotC-Nvim/CopilotChat.nvim/CopilotChat-nvim](https://github.com/CopilotC-Nvim/CopilotChat.nvim) | 2025-03-06 | `CopilotChat-nvim` | 
 | [github/ms-jpq/coq.artifacts/coq-artifacts](https://github.com/ms-jpq/coq.artifacts) | 2025-01-20 | `coq-artifacts` | 
 | [github/ms-jpq/coq_nvim/coq-nvim](https://github.com/ms-jpq/coq_nvim) | 2025-02-17 | `coq-nvim` | 
 | [github/ms-jpq/coq.thirdparty/coq-thirdparty](https://github.com/ms-jpq/coq.thirdparty) | 2025-01-18 | `coq-thirdparty` | 
@@ -235,12 +235,12 @@
 | [github/Bekaboo/deadcolumn.nvim/deadcolumn-nvim](https://github.com/Bekaboo/deadcolumn.nvim) | 2025-02-09 | `deadcolumn-nvim` | 
 | [github/andrewferrier/debugprint.nvim/debugprint-nvim](https://github.com/andrewferrier/debugprint.nvim) | 2025-02-12 | `debugprint-nvim` | 
 | [github/MisanthropicBit/decipher.nvim/decipher-nvim](https://github.com/MisanthropicBit/decipher.nvim) | 2025-02-10 | `decipher-nvim` | 
-| [github/emmanueltouzery/decisive.nvim/decisive-nvim](https://github.com/emmanueltouzery/decisive.nvim) | 2025-02-25 | `decisive-nvim` | 
+| [github/emmanueltouzery/decisive.nvim/decisive-nvim](https://github.com/emmanueltouzery/decisive.nvim) | 2025-03-04 | `decisive-nvim` | 
 | [github/Verf/deepwhite.nvim/deepwhite-nvim](https://github.com/Verf/deepwhite.nvim) | 2024-09-30 | `deepwhite-nvim` | 
 | [github/mawkler/demicolon.nvim/demicolon-nvim](https://github.com/mawkler/demicolon.nvim) | 2025-02-05 | `demicolon-nvim` | 
 | [github/chiyadev/dep/dep](https://github.com/chiyadev/dep) | 2022-12-20 | `dep` | 
 | [github/akinsho/dependency-assist.nvim/dependency-assist-nvim](https://github.com/akinsho/dependency-assist.nvim) | 2021-11-11 | `dependency-assist-nvim` | 
-| [github/dgagn/diagflow.nvim/diagflow-nvim](https://github.com/dgagn/diagflow.nvim) | 2025-01-27 | `diagflow-nvim` | 
+| [github/dgagn/diagflow.nvim/diagflow-nvim](https://github.com/dgagn/diagflow.nvim) | 2025-03-04 | `diagflow-nvim` | 
 | [github/onsails/diaglist.nvim/diaglist-nvim](https://github.com/onsails/diaglist.nvim) | 2022-09-01 | `diaglist-nvim` | 
 | [github/creativenull/diagnosticls-configs-nvim/diagnosticls-configs-nvim](https://github.com/creativenull/diagnosticls-configs-nvim) | 2023-10-17 | `diagnosticls-configs-nvim` | 
 | [github/monaqa/dial.nvim/dial-nvim](https://github.com/monaqa/dial.nvim) | 2025-01-14 | `dial-nvim` | 
@@ -256,7 +256,7 @@
 | [github/Mofiqul/dracula.nvim/dracula-nvim](https://github.com/Mofiqul/dracula.nvim) | 2025-02-24 | `dracula-nvim` | 
 | [github/stevearc/dressing.nvim/dressing-nvim](https://github.com/stevearc/dressing.nvim) | 2025-02-12 | `dressing-nvim` | 
 | [github/TheBlob42/drex.nvim/drex-nvim](https://github.com/TheBlob42/drex.nvim) | 2023-12-18 | `drex-nvim` | 
-| [github/Bekaboo/dropbar.nvim/dropbar-nvim](https://github.com/Bekaboo/dropbar.nvim) | 2025-02-23 | `dropbar-nvim` | 
+| [github/Bekaboo/dropbar.nvim/dropbar-nvim](https://github.com/Bekaboo/dropbar.nvim) | 2025-03-05 | `dropbar-nvim` | 
 | [github/NFrid/due.nvim/due-nvim](https://github.com/nfrid/due.nvim) | 2023-09-04 | `due-nvim` | 
 | [github/hinell/duplicate.nvim/duplicate-nvim](https://github.com/hinell/duplicate.nvim) | 2023-10-23 | `duplicate-nvim` | 
 | [github/soulis-1256/eagle.nvim/eagle-nvim](https://github.com/soulis-1256/eagle.nvim) | 2024-11-25 | `eagle-nvim` | 
@@ -264,7 +264,7 @@
 | [github/LintaoAmons/easy-commands.nvim/easy-commands-nvim](https://github.com/LintaoAmons/easy-commands.nvim) | 2024-07-06 | `easy-commands-nvim` | 
 | [github/axkirillov/easypick.nvim/easypick-nvim](https://github.com/axkirillov/easypick.nvim) | 2024-11-08 | `easypick-nvim` | 
 | [github/Myzel394/easytables.nvim/easytables-nvim](https://github.com/Myzel394/easytables.nvim) | 2024-07-25 | `easytables-nvim` | 
-| [github/philosofonusus/ecolog.nvim/ecolog-nvim](https://github.com/philosofonusus/ecolog.nvim) | 2025-03-03 | `ecolog-nvim` | 
+| [github/philosofonusus/ecolog.nvim/ecolog-nvim](https://github.com/philosofonusus/ecolog.nvim) | 2025-03-04 | `ecolog-nvim` | 
 | [github/sainnhe/edge/edge](https://github.com/sainnhe/edge) | 2025-02-24 | `edge` | 
 | [github/folke/edgy.nvim/edgy-nvim](https://github.com/folke/edgy.nvim) | 2024-08-31 | `edgy-nvim` | 
 | [github/kiran94/edit-markdown-table.nvim/edit-markdown-table-nvim](https://github.com/kiran94/edit-markdown-table.nvim) | 2023-05-28 | `edit-markdown-table-nvim` | 
@@ -285,7 +285,7 @@
 | [github/roobert/f-string-toggle.nvim/f-string-toggle-nvim](https://github.com/roobert/f-string-toggle.nvim) | 2025-02-23 | `f-string-toggle-nvim` | 
 | [github/fenetikm/falcon/falcon](https://github.com/fenetikm/falcon) | 2024-12-02 | `falcon` | 
 | [github/h-hg/fcitx.nvim/fcitx-nvim](https://github.com/h-hg/fcitx.nvim) | 2022-06-25 | `fcitx-nvim` | 
-| [github/neo451/feed.nvim/feed-nvim](https://github.com/neo451/feed.nvim) | 2025-02-28 | `feed-nvim` | 
+| [github/neo451/feed.nvim/feed-nvim](https://github.com/neo451/feed.nvim) | 2025-03-05 | `feed-nvim` | 
 | [github/vxpm/ferris.nvim/ferris-nvim](https://github.com/vxpm/ferris.nvim) | 2024-07-15 | `ferris-nvim` | 
 | [github/j-hui/fidget.nvim/fidget-nvim](https://github.com/j-hui/fidget.nvim) | 2025-02-06 | `fidget-nvim` | 
 | [gitlab/bartekjaszczak/finale-nvim/finale-nvim](https://gitlab.com/bartekjaszczak/finale-nvim) | 2025-01-23 | `finale-nvim` | 
@@ -364,10 +364,10 @@
 | [github/morhetz/gruvbox/gruvbox](https://github.com/morhetz/gruvbox) | 2023-08-14 | `gruvbox` | 
 | [github/luisiacc/gruvbox-baby/gruvbox-baby](https://github.com/luisiacc/gruvbox-baby) | 2024-01-25 | `gruvbox-baby` | 
 | [github/sainnhe/gruvbox-material/gruvbox-material](https://github.com/sainnhe/gruvbox-material) | 2025-02-24 | `gruvbox-material` | 
-| [github/ellisonleao/gruvbox.nvim/gruvbox-nvim](https://github.com/ellisonleao/gruvbox.nvim) | 2025-02-04 | `gruvbox-nvim` | 
+| [github/ellisonleao/gruvbox.nvim/gruvbox-nvim](https://github.com/ellisonleao/gruvbox.nvim) | 2025-03-05 | `gruvbox-nvim` | 
 | [github/tjdevries/gruvbuddy.nvim/gruvbuddy-nvim](https://github.com/tjdevries/gruvbuddy.nvim) | 2024-03-15 | `gruvbuddy-nvim` | 
 | [github/RishabhRD/gruvy/gruvy](https://github.com/RishabhRD/gruvy) | 2022-01-09 | `gruvy` | 
-| [github/nvimdev/guard.nvim/guard-nvim](https://github.com/nvimdev/guard.nvim) | 2025-02-24 | `guard-nvim` | 
+| [github/nvimdev/guard.nvim/guard-nvim](https://github.com/nvimdev/guard.nvim) | 2025-03-05 | `guard-nvim` | 
 | [github/NMAC427/guess-indent.nvim/guess-indent-nvim](https://github.com/NMAC427/guess-indent.nvim) | 2024-07-06 | `guess-indent-nvim` | 
 | [github/ray-x/guihua.lua/guihua-lua](https://github.com/ray-x/guihua.lua) | 2024-11-02 | `guihua-lua` | 
 | [gitlab/sxwpb/halfspace.nvim/halfspace-nvim](https://gitlab.com/sxwpb/halfspace.nvim) | 2024-12-14 | `halfspace-nvim` | 
@@ -412,7 +412,7 @@
 | [github/3rd/image.nvim/image-3rd](https://github.com/3rd/image.nvim) | 2025-01-17 | `image-3rd` | 
 | [github/adelarsq/image_preview.nvim/image-preview-nvim](https://github.com/adelarsq/image_preview.nvim) | 2024-10-22 | `image-preview-nvim` | 
 | [github/samodostal/image.nvim/image-samodostal](https://github.com/samodostal/image.nvim) | 2024-01-07 | `image-samodostal` | 
-| [github/HakonHarnes/img-clip.nvim/img-clip-nvim](https://github.com/HakonHarnes/img-clip.nvim) | 2025-02-23 | `img-clip-nvim` | 
+| [github/HakonHarnes/img-clip.nvim/img-clip-nvim](https://github.com/HakonHarnes/img-clip.nvim) | 2025-03-04 | `img-clip-nvim` | 
 | [github/miversen33/import.nvim/import-nvim](https://github.com/miversen33/import.nvim) | 2023-03-01 | `import-nvim` | 
 | [github/backdround/improved-ft.nvim/improved-ft-nvim](https://github.com/backdround/improved-ft.nvim) | 2024-01-16 | `improved-ft-nvim` | 
 | [github/backdround/improved-search.nvim/improved-search-nvim](https://github.com/backdround/improved-search.nvim) | 2023-12-21 | `improved-search-nvim` | 
@@ -483,7 +483,7 @@
 | [github/smjonas/live-command.nvim/live-command-nvim](https://github.com/smjonas/live-command.nvim) | 2024-09-20 | `live-command-nvim` | 
 | [github/azratul/live-share.nvim/live-share-nvim](https://github.com/azratul/live-share.nvim) | 2024-10-18 | `live-share-nvim` | 
 | [github/gsuuon/llm.nvim/llm-gsuuon](https://github.com/gsuuon/model.nvim) | 2025-01-25 | `llm-gsuuon` | 
-| [github/Kurama622/llm.nvim/llm-kurama622](https://github.com/Kurama622/llm.nvim) | 2025-03-04 | `llm-kurama622` | 
+| [github/Kurama622/llm.nvim/llm-kurama622](https://github.com/Kurama622/llm.nvim) | 2025-03-05 | `llm-kurama622` | 
 | [github/k2589/lluminate.nvim/lluminate-nvim](https://github.com/k2589/LLuMinate.nvim) | 2024-10-11 | `lluminate-nvim` | 
 | [github/folke/lsp-colors.nvim/lsp-colors-nvim](https://github.com/folke/lsp-colors.nvim) | 2023-02-27 | `lsp-colors-nvim` | 
 | [github/nvim-lua/lsp_extensions.nvim/lsp-extensions-nvim](https://github.com/nvim-lua/lsp_extensions.nvim) | 2022-07-07 | `lsp-extensions-nvim` | 
@@ -500,7 +500,7 @@
 | [github/tristone13th/lspmark.nvim/lspmark-nvim](https://github.com/tristone13th/lspmark.nvim) | 2025-02-03 | `lspmark-nvim` | 
 | [github/nvimdev/lspsaga.nvim/lspsaga-nvim](https://github.com/nvimdev/lspsaga.nvim) | 2025-02-26 | `lspsaga-nvim` | 
 | [github/jinzhongjia/LspUI.nvim/LspUI-nvim](https://github.com/jinzhongjia/LspUI.nvim) | 2025-02-28 | `LspUI-nvim` | 
-| [github/barreiroleo/ltex_extra.nvim/ltex-extra-nvim](https://github.com/barreiroleo/ltex_extra.nvim) | 2025-01-26 | `ltex-extra-nvim` | 
+| [github/barreiroleo/ltex_extra.nvim/ltex-extra-nvim](https://github.com/barreiroleo/ltex_extra.nvim) | 2025-03-04 | `ltex-extra-nvim` | 
 | [github/YaroSpace/lua-console.nvim/lua-console-nvim](https://github.com/YaroSpace/lua-console.nvim) | 2025-02-07 | `lua-console-nvim` | 
 | [github/folke/lua-dev.nvim/lua-dev-nvim](https://github.com/folke/neodev.nvim) | 2024-07-06 | `lua-dev-nvim` | 
 | [github/Mr-LLLLL/lualine-ext.nvim/lualine-ext-nvim](https://github.com/Mr-LLLLL/lualine-ext.nvim) | 2024-07-10 | `lualine-ext-nvim` | 
@@ -518,7 +518,7 @@
 | [github/dccsillag/magma-nvim/magma-nvim](https://github.com/dccsillag/magma-nvim) | 2023-07-08 | `magma-nvim` | 
 | [github/Zeioth/makeit.nvim/makeit-nvim](https://github.com/Zeioth/makeit.nvim) | 2024-06-12 | `makeit-nvim` | 
 | [github/b0o/mapx.nvim/mapx-nvim](https://github.com/b0o/mapx.nvim) | 2022-02-24 | `mapx-nvim` | 
-| [github/MeanderingProgrammer/markdown.nvim/markdown-meandering-programmer](https://github.com/MeanderingProgrammer/render-markdown.nvim) | 2025-03-03 | `markdown-meandering-programmer` | 
+| [github/MeanderingProgrammer/markdown.nvim/markdown-meandering-programmer](https://github.com/MeanderingProgrammer/render-markdown.nvim) | 2025-03-05 | `markdown-meandering-programmer` | 
 | [github/iamcco/markdown-preview.nvim/markdown-preview-nvim](https://github.com/iamcco/markdown-preview.nvim) | 2023-10-17 | `markdown-preview-nvim` | 
 | [github/Kicamon/markdown-table-mode.nvim/markdown-table-mode-nvim](https://github.com/Kicamon/markdown-table-mode.nvim) | 2025-02-02 | `markdown-table-mode-nvim` | 
 | [github/tadmccorkle/markdown.nvim/markdown-tadmccorkle](https://github.com/tadmccorkle/markdown.nvim) | 2024-06-25 | `markdown-tadmccorkle` | 
@@ -527,7 +527,7 @@
 | [github/2KAbhishek/markit.nvim/markit-nvim](https://github.com/2KAbhishek/markit.nvim) | 2025-02-23 | `markit-nvim` | 
 | [github/Zeioth/markmap.nvim/markmap-nvim](https://github.com/Zeioth/markmap.nvim) | 2024-06-12 | `markmap-nvim` | 
 | [github/chentoast/marks.nvim/marks-nvim](https://github.com/chentoast/marks.nvim) | 2024-09-02 | `marks-nvim` | 
-| [github/OXY2DEV/markview.nvim/markview-nvim](https://github.com/OXY2DEV/markview.nvim) | 2025-03-02 | `markview-nvim` | 
+| [github/OXY2DEV/markview.nvim/markview-nvim](https://github.com/OXY2DEV/markview.nvim) | 2025-03-05 | `markview-nvim` | 
 | [github/desdic/marlin.nvim/marlin-nvim](https://github.com/desdic/marlin.nvim) | 2025-02-17 | `marlin-nvim` | 
 | [github/mpas/marp-nvim/marp-nvim](https://github.com/mpas/marp-nvim) | 2024-07-31 | `marp-nvim` | 
 | [github/williamboman/mason-lspconfig.nvim/mason-lspconfig-nvim](https://github.com/williamboman/mason-lspconfig.nvim) | 2025-02-15 | `mason-lspconfig-nvim` | 
@@ -547,9 +547,9 @@
 | [github/anuvyklack/middleclass/middleclass](https://github.com/anuvyklack/middleclass) | 2022-09-20 | `middleclass` | 
 | [github/dasupradyumna/midnight.nvim/midnight-nvim](https://github.com/dasupradyumna/midnight.nvim) | 2024-11-01 | `midnight-nvim` | 
 | [github/hadronized/mind.nvim/mind-nvim](https://github.com/hadronized/mind.nvim) | 2023-03-22 | `mind-nvim` | 
-| [github/echasnovski/mini.nvim/mini-nvim](https://github.com/echasnovski/mini.nvim) | 2025-03-02 | `mini-nvim` | 
+| [github/echasnovski/mini.nvim/mini-nvim](https://github.com/echasnovski/mini.nvim) | 2025-03-04 | `mini-nvim` | 
 | [github/yazeed1s/minimal.nvim/minimal-nvim](https://github.com/yazeed1s/minimal.nvim) | 2022-11-03 | `minimal-nvim` | 
-| [github/milanglacier/minuet-ai.nvim/minuet-ai-nvim](https://github.com/milanglacier/minuet-ai.nvim) | 2025-02-26 | `minuet-ai-nvim` | 
+| [github/milanglacier/minuet-ai.nvim/minuet-ai-nvim](https://github.com/milanglacier/minuet-ai.nvim) | 2025-03-04 | `minuet-ai-nvim` | 
 | [github/Enigama/miss.nvim/miss-nvim](https://github.com/Enigama/miss.nvim) | 2025-02-17 | `miss-nvim` | 
 | [github/brendalf/mix.nvim/mix-nvim](https://github.com/brendalf/mix.nvim) | 2022-08-22 | `mix-nvim` | 
 | [github/jghauser/mkdir.nvim/mkdir-nvim](https://github.com/jghauser/mkdir.nvim) | 2022-07-23 | `mkdir-nvim` | 
@@ -579,10 +579,10 @@
 | [github/Dan7h3x/neaterm.nvim/neaterm-nvim](https://github.com/Dan7h3x/neaterm.nvim) | 2025-03-01 | `neaterm-nvim` | 
 | [github/RAprogramm/nekifoch/nekifoch](https://github.com/NeViRAIDE/nekifoch.nvim) | 2024-09-30 | `nekifoch` | 
 | [github/NeViRAIDE/nekifoch.nvim/nekifoch-nvim](https://github.com/NeViRAIDE/nekifoch.nvim) | 2024-09-30 | `nekifoch-nvim` | 
-| [github/nvim-neo-tree/neo-tree.nvim/neo-tree-nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) | 2025-03-01 | `neo-tree-nvim` | 
+| [github/nvim-neo-tree/neo-tree.nvim/neo-tree-nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) | 2025-03-05 | `neo-tree-nvim` | 
 | [github/ecthelionvi/NeoColumn.nvim/NeoColumn-nvim](https://github.com/ecthelionvi/NeoColumn.nvim) | 2023-10-17 | `NeoColumn-nvim` | 
 | [github/ecthelionvi/NeoComposer.nvim/NeoComposer-nvim](https://github.com/ecthelionvi/NeoComposer.nvim) | 2024-06-23 | `NeoComposer-nvim` | 
-| [github/folke/neoconf.nvim/neoconf-nvim](https://github.com/folke/neoconf.nvim) | 2025-03-04 | `neoconf-nvim` | 
+| [github/folke/neoconf.nvim/neoconf-nvim](https://github.com/folke/neoconf.nvim) | 2025-03-06 | `neoconf-nvim` | 
 | [github/folke/neodev.nvim/neodev-nvim](https://github.com/folke/neodev.nvim) | 2024-07-06 | `neodev-nvim` | 
 | [github/zbirenbaum/neodim/neodim](https://github.com/zbirenbaum/neodim) | 2025-01-09 | `neodim` | 
 | [github/sbdchd/neoformat/neoformat](https://github.com/sbdchd/neoformat) | 2025-02-28 | `neoformat` | 
@@ -595,7 +595,7 @@
 | [github/rafamadriz/neon/neon](https://github.com/rafamadriz/neon) | 2022-11-27 | `neon` | 
 | [github/nyngwang/NeoNoName.lua/NeoNoName-lua](https://github.com/nyngwang/NeoNoName.lua) | 2023-06-01 | `NeoNoName-lua` | 
 | [github/pluffie/neoproj/neoproj](https://github.com/pluffie/neoproj) | 2023-05-02 | `neoproj` | 
-| [github/SUSTech-data/neopyter/neopyter](https://github.com/SUSTech-data/neopyter) | 2025-01-20 | `neopyter` | 
+| [github/SUSTech-data/neopyter/neopyter](https://github.com/SUSTech-data/neopyter) | 2025-03-06 | `neopyter` | 
 | [github/nvim-neorg/neorg/neorg](https://github.com/nvim-neorg/neorg) | 2025-02-28 | `neorg` | 
 | [github/nvim-neorg/neorg-telescope/neorg-telescope](https://github.com/nvim-neorg/neorg-telescope) | 2024-07-30 | `neorg-telescope` | 
 | [github/nyngwang/NeoRoot.lua/NeoRoot-lua](https://github.com/nyngwang/NeoRoot.lua) | 2023-02-08 | `NeoRoot-lua` | 
@@ -607,7 +607,7 @@
 | [github/nvim-neotest/neotest/neotest](https://github.com/nvim-neotest/neotest) | 2025-02-25 | `neotest` | 
 | [github/fredrikaverpil/neotest-golang/neotest-golang](https://github.com/fredrikaverpil/neotest-golang) | 2025-02-25 | `neotest-golang` | 
 | [github/nvim-neotest/neotest-python/neotest-python](https://github.com/nvim-neotest/neotest-python) | 2024-10-02 | `neotest-python` | 
-| [github/saifulapm/neotree-file-nesting-config/neotree-file-nesting-config](https://github.com/saifulapm/neotree-file-nesting-config) | 2024-11-17 | `neotree-file-nesting-config` | 
+| [github/saifulapm/neotree-file-nesting-config/neotree-file-nesting-config](https://github.com/saifulapm/neotree-file-nesting-config) | 2025-03-06 | `neotree-file-nesting-config` | 
 | [github/coffebar/neovim-project/neovim-project](https://github.com/coffebar/neovim-project) | 2025-02-22 | `neovim-project` | 
 | [github/Shatur/neovim-session-manager/neovim-session-manager](https://github.com/Shatur/neovim-session-manager) | 2025-01-19 | `neovim-session-manager` | 
 | [github/Shatur/neovim-tasks/neovim-tasks](https://github.com/Shatur/neovim-tasks) | 2025-02-17 | `neovim-tasks` | 
@@ -628,7 +628,7 @@
 | [github/alaviss/nim.nvim/nim-nvim](https://github.com/alaviss/nim.nvim) | 2023-10-22 | `nim-nvim` | 
 | [github/figsoda/nix-develop.nvim/nix-develop-nvim](https://github.com/figsoda/nix-develop.nvim) | 2023-07-23 | `nix-develop-nvim` | 
 | [github/redxtech/nix-reaver.nvim/nix-reaver-nvim](https://github.com/redxtech/nix-reaver.nvim) | 2024-07-28 | `nix-reaver-nvim` | 
-| [github/tamago324/nlsp-settings.nvim/nlsp-settings-nvim](https://github.com/tamago324/nlsp-settings.nvim) | 2025-03-03 | `nlsp-settings-nvim` | 
+| [github/tamago324/nlsp-settings.nvim/nlsp-settings-nvim](https://github.com/tamago324/nlsp-settings.nvim) | 2025-03-05 | `nlsp-settings-nvim` | 
 | [github/tjdevries/nlua.nvim/nlua-nvim](https://github.com/tjdevries/nlua.nvim) | 2022-12-20 | `nlua-nvim` | 
 | [github/luukvbaal/nnn.nvim/nnn-nvim](https://github.com/luukvbaal/nnn.nvim) | 2023-08-09 | `nnn-nvim` | 
 | [github/shortcuts/no-neck-pain.nvim/no-neck-pain-nvim](https://github.com/shortcuts/no-neck-pain.nvim) | 2025-01-23 | `no-neck-pain-nvim` | 
@@ -644,7 +644,7 @@
 | [github/MunifTanjim/nougat.nvim/nougat-nvim](https://github.com/MunifTanjim/nougat.nvim) | 2024-01-07 | `nougat-nvim` | 
 | [github/XXiaoA/ns-textobject.nvim/ns-textobject-nvim](https://github.com/XXiaoA/ns-textobject.nvim) | 2023-05-26 | `ns-textobject-nvim` | 
 | [github/jlesquembre/nterm.nvim/nterm-nvim](https://github.com/jlesquembre/nterm.nvim) | 2022-05-10 | `nterm-nvim` | 
-| [github/MunifTanjim/nui.nvim/nui-nvim](https://github.com/MunifTanjim/nui.nvim) | 2024-12-10 | `nui-nvim` | 
+| [github/MunifTanjim/nui.nvim/nui-nvim](https://github.com/MunifTanjim/nui.nvim) | 2025-03-06 | `nui-nvim` | 
 | [github/jose-elias-alvarez/null-ls.nvim/null-ls-nvim](https://github.com/jose-elias-alvarez/null-ls.nvim) | 2023-08-12 | `null-ls-nvim` | 
 | [github/nacro90/numb.nvim/numb-nvim](https://github.com/nacro90/numb.nvim) | 2025-01-13 | `numb-nvim` | 
 | [github/nkakouros-original/numbers.nvim/numbers-nvim](https://github.com/nkakouros-original/numbers.nvim) | 2025-02-11 | `numbers-nvim` | 
@@ -676,13 +676,13 @@
 | [github/ya2s/nvim-cursorline/nvim-cursorline](https://github.com/ya2s/nvim-cursorline) | 2022-04-15 | `nvim-cursorline` | 
 | [github/xiyaowong/nvim-cursorword/nvim-cursorword](https://github.com/xiyaowong/nvim-cursorword) | 2022-06-22 | `nvim-cursorword` | 
 | [github/Kasama/nvim-custom-diagnostic-highlight/nvim-custom-diagnostic-highlight](https://github.com/Kasama/nvim-custom-diagnostic-highlight) | 2023-05-09 | `nvim-custom-diagnostic-highlight` | 
-| [github/mfussenegger/nvim-dap/nvim-dap](https://github.com/mfussenegger/nvim-dap) | 2025-02-24 | `nvim-dap` | 
+| [github/mfussenegger/nvim-dap/nvim-dap](https://github.com/mfussenegger/nvim-dap) | 2025-03-04 | `nvim-dap` | 
 | [github/leoluz/nvim-dap-go/nvim-dap-go](https://github.com/leoluz/nvim-dap-go) | 2025-02-17 | `nvim-dap-go` | 
 | [github/mfussenegger/nvim-dap-python/nvim-dap-python](https://github.com/mfussenegger/nvim-dap-python) | 2024-11-29 | `nvim-dap-python` | 
 | [github/LiadOz/nvim-dap-repl-highlights/nvim-dap-repl-highlights](https://github.com/LiadOz/nvim-dap-repl-highlights) | 2024-05-19 | `nvim-dap-repl-highlights` | 
 | [github/suketa/nvim-dap-ruby/nvim-dap-ruby](https://github.com/suketa/nvim-dap-ruby) | 2025-01-11 | `nvim-dap-ruby` | 
 | [github/rcarriga/nvim-dap-ui/nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui) | 2025-01-23 | `nvim-dap-ui` | 
-| [github/igorlfs/nvim-dap-view/nvim-dap-view](https://github.com/igorlfs/nvim-dap-view) | 2025-02-27 | `nvim-dap-view` | 
+| [github/igorlfs/nvim-dap-view/nvim-dap-view](https://github.com/igorlfs/nvim-dap-view) | 2025-03-05 | `nvim-dap-view` | 
 | [github/theHamsta/nvim-dap-virtual-text/nvim-dap-virtual-text](https://github.com/theHamsta/nvim-dap-virtual-text) | 2024-12-25 | `nvim-dap-virtual-text` | 
 | [github/mxsdev/nvim-dap-vscode-js/nvim-dap-vscode-js](https://github.com/mxsdev/nvim-dap-vscode-js) | 2023-03-06 | `nvim-dap-vscode-js` | 
 | [github/theniceboy/nvim-deus/nvim-deus](https://github.com/theniceboy/nvim-deus) | 2024-04-23 | `nvim-deus` | 
@@ -729,7 +729,7 @@
 | [github/williamboman/nvim-lsp-installer/nvim-lsp-installer](https://github.com/williamboman/nvim-lsp-installer) | 2022-11-12 | `nvim-lsp-installer` | 
 | [github/Junnplus/nvim-lsp-setup/nvim-lsp-setup](https://github.com/junnplus/lsp-setup.nvim) | 2024-05-20 | `nvim-lsp-setup` | 
 | [github/jose-elias-alvarez/nvim-lsp-ts-utils/nvim-lsp-ts-utils](https://github.com/jose-elias-alvarez/nvim-lsp-ts-utils) | 2022-07-17 | `nvim-lsp-ts-utils` | 
-| [github/neovim/nvim-lspconfig/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) | 2025-03-03 | `nvim-lspconfig` | 
+| [github/neovim/nvim-lspconfig/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) | 2025-03-04 | `nvim-lspconfig` | 
 | [github/ojroques/nvim-lspfuzzy/nvim-lspfuzzy](https://github.com/ojroques/nvim-lspfuzzy) | 2024-05-20 | `nvim-lspfuzzy` | 
 | [github/stevanmilic/nvim-lspimport/nvim-lspimport](https://github.com/stevanmilic/nvim-lspimport) | 2024-03-10 | `nvim-lspimport` | 
 | [github/anott03/nvim-lspinstall/nvim-lspinstall](https://github.com/anott03/nvim-lspinstall) | 2021-07-23 | `nvim-lspinstall` | 
@@ -774,7 +774,7 @@
 | [github/chrisgrieser/nvim-rulebook/nvim-rulebook](https://github.com/chrisgrieser/nvim-rulebook) | 2025-02-01 | `nvim-rulebook` | 
 | [github/chrisgrieser/nvim-scissors/nvim-scissors](https://github.com/chrisgrieser/nvim-scissors) | 2025-01-12 | `nvim-scissors` | 
 | [github/petertriho/nvim-scrollbar/nvim-scrollbar](https://github.com/petertriho/nvim-scrollbar) | 2024-10-17 | `nvim-scrollbar` | 
-| [github/dstein64/nvim-scrollview/nvim-scrollview](https://github.com/dstein64/nvim-scrollview) | 2025-03-03 | `nvim-scrollview` | 
+| [github/dstein64/nvim-scrollview/nvim-scrollview](https://github.com/dstein64/nvim-scrollview) | 2025-03-05 | `nvim-scrollview` | 
 | [github/s1n7ax/nvim-search-and-replace/nvim-search-and-replace](https://github.com/s1n7ax/nvim-search-and-replace) | 2022-09-06 | `nvim-search-and-replace` | 
 | [github/johann2357/nvim-smartbufs/nvim-smartbufs](https://github.com/johann2357/nvim-smartbufs) | 2021-06-14 | `nvim-smartbufs` | 
 | [github/garymjr/nvim-snippets/nvim-snippets](https://github.com/garymjr/nvim-snippets) | 2024-07-10 | `nvim-snippets` | 
@@ -797,7 +797,7 @@
 | [github/xiyaowong/nvim-transparent/nvim-transparent](https://github.com/xiyaowong/transparent.nvim) | 2024-08-25 | `nvim-transparent` | 
 | [github/nvim-tree/nvim-tree.lua/nvim-tree-lua](https://github.com/nvim-tree/nvim-tree.lua) | 2025-03-01 | `nvim-tree-lua` | 
 | [github/mfussenegger/nvim-treehopper/nvim-treehopper](https://github.com/mfussenegger/nvim-treehopper) | 2025-02-09 | `nvim-treehopper` | 
-| [github/nvim-treesitter/nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) | 2025-03-04 | `nvim-treesitter` | 
+| [github/nvim-treesitter/nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) | 2025-03-06 | `nvim-treesitter` | 
 | [github/nvim-treesitter/nvim-treesitter-context/nvim-treesitter-context](https://github.com/nvim-treesitter/nvim-treesitter-context) | 2025-02-17 | `nvim-treesitter-context` | 
 | [github/nvim-treesitter/nvim-treesitter-refactor/nvim-treesitter-refactor](https://github.com/nvim-treesitter/nvim-treesitter-refactor) | 2024-09-14 | `nvim-treesitter-refactor` | 
 | [github/nvim-treesitter/nvim-treesitter-textobjects/nvim-treesitter-textobjects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects) | 2025-03-04 | `nvim-treesitter-textobjects` | 
@@ -826,12 +826,12 @@
 | [github/ada0l/obsidian/obsidian](https://github.com/andvarfolomeev/obsidian) | 2024-07-29 | `obsidian` | 
 | [github/epwalsh/obsidian.nvim/obsidian-nvim](https://github.com/epwalsh/obsidian.nvim) | 2024-08-01 | `obsidian-nvim` | 
 | [github/mhartington/oceanic-next/oceanic-next](https://github.com/mhartington/oceanic-next) | 2023-05-01 | `oceanic-next` | 
-| [github/pwntester/octo.nvim/octo-nvim](https://github.com/pwntester/octo.nvim) | 2025-03-03 | `octo-nvim` | 
+| [github/pwntester/octo.nvim/octo-nvim](https://github.com/pwntester/octo.nvim) | 2025-03-06 | `octo-nvim` | 
 | [github/2KAbhishek/octohub.nvim/octohub-nvim](https://github.com/2KAbhishek/octohub.nvim) | 2025-02-23 | `octohub-nvim` | 
 | [github/pianocomposer321/officer.nvim/officer-nvim](https://github.com/pianocomposer321/officer.nvim) | 2024-01-13 | `officer-nvim` | 
 | [github/ofirgall/ofirkai.nvim/ofirkai-nvim](https://github.com/ofirgall/ofirkai.nvim) | 2024-10-26 | `ofirkai-nvim` | 
 | [github/yazeed1s/oh-lucy.nvim/oh-lucy-nvim](https://github.com/yazeed1s/oh-lucy.nvim) | 2025-02-11 | `oh-lucy-nvim` | 
-| [github/stevearc/oil.nvim/oil-nvim](https://github.com/stevearc/oil.nvim) | 2025-02-15 | `oil-nvim` | 
+| [github/stevearc/oil.nvim/oil-nvim](https://github.com/stevearc/oil.nvim) | 2025-03-05 | `oil-nvim` | 
 | [github/niuiic/omega.nvim/omega-nvim](https://github.com/niuiic/omega.nvim) | 2024-12-24 | `omega-nvim` | 
 | [github/yonlu/omni.vim/omni-vim](https://github.com/yonlu/omni.vim) | 2022-06-17 | `omni-vim` | 
 | [github/cpea2506/one_monokai.nvim/one-monokai-nvim](https://github.com/cpea2506/one_monokai.nvim) | 2025-02-22 | `one-monokai-nvim` | 
@@ -846,13 +846,13 @@
 | [github/karshPrime/only-tmux.nvim/only-tmux-nvim](https://github.com/karshPrime/only-tmux.nvim) | 2024-06-18 | `only-tmux-nvim` | 
 | [github/ofirgall/open.nvim/open-nvim](https://github.com/ofirgall/open.nvim) | 2023-07-06 | `open-nvim` | 
 | [github/salkin-mada/openscad.nvim/openscad-nvim](https://github.com/salkin-mada/openscad.nvim) | 2024-12-23 | `openscad-nvim` | 
-| [github/nvim-orgmode/orgmode/orgmode](https://github.com/nvim-orgmode/orgmode) | 2025-03-03 | `orgmode` | 
+| [github/nvim-orgmode/orgmode/orgmode](https://github.com/nvim-orgmode/orgmode) | 2025-03-05 | `orgmode` | 
 | [github/davidgranstrom/osc.nvim/osc-nvim](https://github.com/davidgranstrom/osc.nvim) | 2021-08-02 | `osc-nvim` | 
 | [github/rgroli/other.nvim/other-nvim](https://github.com/rgroli/other.nvim) | 2024-11-30 | `other-nvim` | 
 | [github/jmbuhr/otter.nvim/otter-nvim](https://github.com/jmbuhr/otter.nvim) | 2025-03-03 | `otter-nvim` | 
 | [github/hedyhli/outline.nvim/outline-nvim](https://github.com/hedyhli/outline.nvim) | 2025-02-23 | `outline-nvim` | 
 | [github/lcheylus/overlength.nvim/overlength-nvim](https://github.com/lcheylus/overlength.nvim) | 2023-09-11 | `overlength-nvim` | 
-| [github/stevearc/overseer.nvim/overseer-nvim](https://github.com/stevearc/overseer.nvim) | 2025-02-15 | `overseer-nvim` | 
+| [github/stevearc/overseer.nvim/overseer-nvim](https://github.com/stevearc/overseer.nvim) | 2025-03-05 | `overseer-nvim` | 
 | [github/nyoom-engineering/oxocarbon.nvim/oxocarbon-nvim](https://github.com/nyoom-engineering/oxocarbon.nvim) | 2024-08-28 | `oxocarbon-nvim` | 
 | [github/vuki656/package-info.nvim/package-info-nvim](https://github.com/vuki656/package-info.nvim) | 2024-11-04 | `package-info-nvim` | 
 | [github/wbthomason/packer.nvim/packer-nvim](https://github.com/wbthomason/packer.nvim) | 2023-08-24 | `packer-nvim` | 
@@ -899,7 +899,7 @@
 | [github/MunifTanjim/prettier.nvim/prettier-nvim](https://github.com/MunifTanjim/prettier.nvim) | 2023-06-16 | `prettier-nvim` | 
 | [github/anuvyklack/pretty-fold.nvim/pretty-fold-nvim](https://github.com/anuvyklack/pretty-fold.nvim) | 2022-07-20 | `pretty-fold-nvim` | 
 | [github/Kurama622/profile.nvim/profile-kurama622](https://github.com/Kurama622/profile.nvim) | 2025-01-01 | `profile-kurama622` | 
-| [github/stevearc/profile.nvim/profile-stevearc](https://github.com/stevearc/profile.nvim) | 2025-02-14 | `profile-stevearc` | 
+| [github/stevearc/profile.nvim/profile-stevearc](https://github.com/stevearc/profile.nvim) | 2025-03-05 | `profile-stevearc` | 
 | [github/ahmedkhalf/project.nvim/project-nvim](https://github.com/ahmedkhalf/project.nvim) | 2023-04-04 | `project-nvim` | 
 | [github/gnikdroy/projections.nvim/projections-nvim](https://github.com/GnikDroy/projections.nvim) | 2023-06-29 | `projections-nvim` | 
 | [github/kevinhwang91/promise-async/promise-async](https://github.com/kevinhwang91/promise-async) | 2024-08-04 | `promise-async` | 
@@ -908,7 +908,7 @@
 | [github/stevearc/qf_helper.nvim/qf-helper-nvim](https://github.com/stevearc/qf_helper.nvim) | 2024-12-24 | `qf-helper-nvim` | 
 | [github/ashfinal/qfview.nvim/qfview-nvim](https://github.com/ashfinal/qfview.nvim) | 2023-09-09 | `qfview-nvim` | 
 | [github/quarto-dev/quarto-nvim/quarto-nvim](https://github.com/quarto-dev/quarto-nvim) | 2025-02-20 | `quarto-nvim` | 
-| [github/stevearc/quicker.nvim/quicker-nvim](https://github.com/stevearc/quicker.nvim) | 2025-02-15 | `quicker-nvim` | 
+| [github/stevearc/quicker.nvim/quicker-nvim](https://github.com/stevearc/quicker.nvim) | 2025-03-05 | `quicker-nvim` | 
 | [github/niuiic/quickfix.nvim/quickfix-nvim](https://github.com/niuiic/quickfix.nvim) | 2024-11-01 | `quickfix-nvim` | 
 | [github/RutaTang/quicknote.nvim/quicknote-nvim](https://github.com/RutaTang/quicknote.nvim) | 2025-01-26 | `quicknote-nvim` | 
 | [github/quolpr/quicktest.nvim/quicktest-nvim](https://github.com/quolpr/quicktest.nvim) | 2025-02-18 | `quicktest-nvim` | 
@@ -931,7 +931,7 @@
 | [github/niuiic/remote.nvim/remote-nvim](https://github.com/niuiic/remote.nvim) | 2024-05-11 | `remote-nvim` | 
 | [github/nosduco/remote-sshfs.nvim/remote-sshfs-nvim](https://github.com/nosduco/remote-sshfs.nvim) | 2024-08-29 | `remote-sshfs-nvim` | 
 | [github/filipdutescu/renamer.nvim/renamer-nvim](https://github.com/filipdutescu/renamer.nvim) | 2022-08-29 | `renamer-nvim` | 
-| [github/MeanderingProgrammer/render-markdown.nvim/render-markdown-nvim](https://github.com/MeanderingProgrammer/render-markdown.nvim) | 2025-03-03 | `render-markdown-nvim` | 
+| [github/MeanderingProgrammer/render-markdown.nvim/render-markdown-nvim](https://github.com/MeanderingProgrammer/render-markdown.nvim) | 2025-03-05 | `render-markdown-nvim` | 
 | [github/9seconds/repolink.nvim/repolink-nvim](https://github.com/9seconds/repolink.nvim) | 2023-12-08 | `repolink-nvim` | 
 | [github/raimon49/requirements.txt.vim/requirements-txt-vim](https://github.com/raimon49/requirements.txt.vim) | 2024-12-10 | `requirements-txt-vim` | 
 | [github/rest-nvim/rest.nvim/rest-nvim](https://github.com/rest-nvim/rest.nvim) | 2025-03-02 | `rest-nvim` | 
@@ -949,7 +949,7 @@
 | [github/kiran94/s3edit.nvim/s3edit-nvim](https://github.com/kiran94/s3edit.nvim) | 2023-05-28 | `s3edit-nvim` | 
 | [github/ray-x/sad.nvim/sad-nvim](https://github.com/ray-x/sad.nvim) | 2024-10-27 | `sad-nvim` | 
 | [github/lewis6991/satellite.nvim/satellite-nvim](https://github.com/lewis6991/satellite.nvim) | 2025-03-02 | `satellite-nvim` | 
-| [github/b0o/SchemaStore.nvim/SchemaStore-nvim](https://github.com/b0o/SchemaStore.nvim) | 2025-03-01 | `SchemaStore-nvim` | 
+| [github/b0o/SchemaStore.nvim/SchemaStore-nvim](https://github.com/b0o/SchemaStore.nvim) | 2025-03-06 | `SchemaStore-nvim` | 
 | [github/davidgranstrom/scnvim/scnvim](https://github.com/davidgranstrom/scnvim) | 2025-01-29 | `scnvim` | 
 | [github/LintaoAmons/scratch.nvim/scratch-nvim](https://github.com/LintaoAmons/scratch.nvim) | 2024-11-13 | `scratch-nvim` | 
 | [github/athar-qadri/scratchpad.nvim/scratchpad-nvim](https://github.com/athar-qadri/scratchpad.nvim) | 2025-02-26 | `scratchpad-nvim` | 
@@ -986,7 +986,7 @@
 | [github/m4xshen/smartcolumn.nvim/smartcolumn-nvim](https://github.com/m4xshen/smartcolumn.nvim) | 2025-02-05 | `smartcolumn-nvim` | 
 | [github/sphamba/smear-cursor.nvim/smear-cursor-nvim](https://github.com/sphamba/smear-cursor.nvim) | 2025-02-12 | `smear-cursor-nvim` | 
 | [github/gen740/SmoothCursor.nvim/SmoothCursor-nvim](https://github.com/gen740/SmoothCursor.nvim) | 2024-09-18 | `SmoothCursor-nvim` | 
-| [github/camspiers/snap/snap](https://github.com/camspiers/snap) | 2024-12-02 | `snap` | 
+| [github/camspiers/snap/snap](https://github.com/camspiers/snap) | 2025-03-06 | `snap` | 
 | [github/smjonas/snippet-converter.nvim/snippet-converter-nvim](https://github.com/smjonas/snippet-converter.nvim) | 2023-09-21 | `snippet-converter-nvim` | 
 | [github/norcalli/snippets.nvim/snippets-nvim](https://github.com/norcalli/snippets.nvim) | 2020-09-09 | `snippets-nvim` | 
 | [github/michaelb/sniprun/sniprun](https://github.com/michaelb/sniprun) | 2025-02-10 | `sniprun` | 
@@ -999,7 +999,7 @@
 | [github/edluffy/specs.nvim/specs-edluffy](https://github.com/edluffy/specs.nvim) | 2022-09-20 | `specs-edluffy` | 
 | [github/RutaTang/spectacle.nvim/spectacle-nvim](https://github.com/RutaTang/spectacle.nvim) | 2023-09-28 | `spectacle-nvim` | 
 | [github/lewis6991/spellsitter.nvim/spellsitter-nvim](https://github.com/lewis6991/spellsitter.nvim) | 2022-09-06 | `spellsitter-nvim` | 
-| [github/EvWilson/spelunk.nvim/spelunk-nvim](https://github.com/EvWilson/spelunk.nvim) | 2025-01-15 | `spelunk-nvim` | 
+| [github/EvWilson/spelunk.nvim/spelunk-nvim](https://github.com/EvWilson/spelunk.nvim) | 2025-03-04 | `spelunk-nvim` | 
 | [github/speelbarrow/spLauncher.nvim/spLauncher-nvim](https://github.com/speelbarrow/spLauncher.nvim) | 2024-07-02 | `spLauncher-nvim` | 
 | [github/wurli/split.nvim/split-nvim](https://github.com/wurli/split.nvim) | 2025-02-07 | `split-nvim` | 
 | [github/bennypowers/splitjoin.nvim/splitjoin-nvim](https://github.com/bennypowers/splitjoin.nvim) | 2024-10-10 | `splitjoin-nvim` | 
@@ -1089,7 +1089,7 @@
 | [github/QuentinGruber/timespent.nvim/timespent-nvim](https://github.com/QuentinGruber/timespent.nvim) | 2024-10-01 | `timespent-nvim` | 
 | [github/rachartier/tiny-code-action.nvim/tiny-code-action-nvim](https://github.com/rachartier/tiny-code-action.nvim) | 2025-02-20 | `tiny-code-action-nvim` | 
 | [github/rachartier/tiny-devicons-auto-colors.nvim/tiny-devicons-auto-colors-nvim](https://github.com/rachartier/tiny-devicons-auto-colors.nvim) | 2025-01-03 | `tiny-devicons-auto-colors-nvim` | 
-| [github/rachartier/tiny-glimmer.nvim/tiny-glimmer-nvim](https://github.com/rachartier/tiny-glimmer.nvim) | 2025-02-26 | `tiny-glimmer-nvim` | 
+| [github/rachartier/tiny-glimmer.nvim/tiny-glimmer-nvim](https://github.com/rachartier/tiny-glimmer.nvim) | 2025-03-04 | `tiny-glimmer-nvim` | 
 | [github/rachartier/tiny-inline-diagnostic.nvim/tiny-inline-diagnostic-nvim](https://github.com/rachartier/tiny-inline-diagnostic.nvim) | 2025-02-28 | `tiny-inline-diagnostic-nvim` | 
 | [github/TobinPalmer/Tip.nvim/Tip-nvim](https://github.com/TobinPalmer/Tip.nvim) | 2024-02-04 | `Tip-nvim` | 
 | [github/juselara1/tmutils.nvim/tmutils-nvim](https://github.com/juselara1/tmutils.nvim) | 2024-12-21 | `tmutils-nvim` | 
@@ -1108,7 +1108,7 @@
 | [github/niuiic/track.nvim/track-nvim](https://github.com/niuiic/track.nvim) | 2024-11-18 | `track-nvim` | 
 | [github/LeonHeidelbach/trailblazer.nvim/trailblazer-nvim](https://github.com/LeonHeidelbach/trailblazer.nvim) | 2025-02-04 | `trailblazer-nvim` | 
 | [github/tjdevries/train.nvim/train-nvim](https://github.com/tjdevries/train.nvim) | 2023-07-31 | `train-nvim` | 
-| [github/coffebar/transfer.nvim/transfer-nvim](https://github.com/coffebar/transfer.nvim) | 2025-01-21 | `transfer-nvim` | 
+| [github/coffebar/transfer.nvim/transfer-nvim](https://github.com/coffebar/transfer.nvim) | 2025-03-04 | `transfer-nvim` | 
 | [github/niuiic/translate.nvim/translate-nvim](https://github.com/niuiic/translate.nvim) | 2024-11-17 | `translate-nvim` | 
 | [github/xiyaowong/transparent.nvim/transparent-nvim](https://github.com/xiyaowong/transparent.nvim) | 2024-08-25 | `transparent-nvim` | 
 | [github/drybalka/tree-climber.nvim/tree-climber-nvim](https://github.com/drybalka/tree-climber.nvim) | 2022-10-14 | `tree-climber-nvim` | 
@@ -1147,7 +1147,7 @@
 | [github/2KAbhishek/utils.nvim/utils-nvim](https://github.com/2KAbhishek/utils.nvim) | 2025-02-23 | `utils-nvim` | 
 | [github/Mangeshrex/uwu.vim/uwu-vim](https://github.com/Everblush/everblush.vim) | 2023-06-19 | `uwu-vim` | 
 | [github/konapun/vacuumline.nvim/vacuumline-nvim](https://github.com/konapun/vacuumline.nvim) | 2022-03-13 | `vacuumline-nvim` | 
-| [github/davidyz/vectorcode/vectorcode](https://github.com/Davidyz/VectorCode) | 2025-03-03 | `vectorcode` | 
+| [github/davidyz/vectorcode/vectorcode](https://github.com/Davidyz/VectorCode) | 2025-03-05 | `vectorcode` | 
 | [github/willothy/veil.nvim/veil-nvim](https://github.com/willothy/veil.nvim) | 2023-12-25 | `veil-nvim` | 
 | [github/jbyuki/venn.nvim/venn-nvim](https://github.com/jbyuki/venn.nvim) | 2024-05-03 | `venn-nvim` | 
 | [github/jyscao/ventana.nvim/ventana-nvim](https://github.com/jyscao/ventana.nvim) | 2023-10-13 | `ventana-nvim` | 
@@ -1197,7 +1197,7 @@
 | [github/TaDaa/vimade/vimade](https://github.com/TaDaa/vimade) | 2025-03-02 | `vimade` | 
 | [github/ldelossa/vimdark/vimdark](https://github.com/ldelossa/vimdark) | 2022-03-20 | `vimdark` | 
 | [github/svermeulen/vimpeccable/vimpeccable](https://github.com/svermeulen/vimpeccable) | 2021-12-28 | `vimpeccable` | 
-| [github/lervag/vimtex/vimtex](https://github.com/lervag/vimtex) | 2025-03-02 | `vimtex` | 
+| [github/lervag/vimtex/vimtex](https://github.com/lervag/vimtex) | 2025-03-05 | `vimtex` | 
 | [github/vimwiki/vimwiki/vimwiki](https://github.com/vimwiki/vimwiki) | 2024-10-14 | `vimwiki` | 
 | [github/xiyaowong/virtcolumn.nvim/virtcolumn-nvim](https://github.com/xiyaowong/virtcolumn.nvim) | 2023-12-15 | `virtcolumn-nvim` | 
 | [github/jubnzv/virtual-types.nvim/virtual-types-nvim](https://github.com/jubnzv/virtual-types.nvim) | 2023-04-07 | `virtual-types-nvim` | 
@@ -1210,7 +1210,7 @@
 | [github/tjdevries/vlog.nvim/vlog-nvim](https://github.com/tjdevries/vlog.nvim) | 2020-08-04 | `vlog-nvim` | 
 | [github/nxvu699134/vn-night.nvim/vn-night-nvim](https://github.com/nxvu699134/vn-night.nvim) | 2025-02-17 | `vn-night-nvim` | 
 | [github/EthanJWright/vs-tasks.nvim/vs-tasks-nvim](https://github.com/EthanJWright/vs-tasks.nvim) | 2025-02-28 | `vs-tasks-nvim` | 
-| [github/Mofiqul/vscode.nvim/vscode-nvim](https://github.com/Mofiqul/vscode.nvim) | 2025-02-27 | `vscode-nvim` | 
+| [github/Mofiqul/vscode.nvim/vscode-nvim](https://github.com/Mofiqul/vscode.nvim) | 2025-03-06 | `vscode-nvim` | 
 | [github/ray-x/web-tools.nvim/web-tools-nvim](https://github.com/ray-x/web-tools.nvim) | 2024-11-11 | `web-tools-nvim` | 
 | [github/willothy/wezterm.nvim/wezterm-nvim](https://github.com/willothy/wezterm.nvim) | 2024-09-26 | `wezterm-nvim` | 
 | [github/SalOrak/whaler.nvim/whaler-nvim](https://github.com/SalOrak/whaler.nvim) | 2024-01-03 | `whaler-nvim` | 
@@ -1236,7 +1236,7 @@
 | [github/Xuyuanp/yanil/yanil](https://github.com/Xuyuanp/yanil) | 2022-03-28 | `yanil` | 
 | [github/ptdewey/yankbank-nvim/yankbank-nvim](https://github.com/ptdewey/yankbank-nvim) | 2024-10-28 | `yankbank-nvim` | 
 | [github/daltongd/yanklock.nvim/yanklock-nvim](https://github.com/daltongd/yanklock.nvim) | 2025-01-03 | `yanklock-nvim` | 
-| [github/gbprod/yanky.nvim/yanky-nvim](https://github.com/gbprod/yanky.nvim) | 2025-02-21 | `yanky-nvim` | 
+| [github/gbprod/yanky.nvim/yanky-nvim](https://github.com/gbprod/yanky.nvim) | 2025-03-05 | `yanky-nvim` | 
 | [github/milanglacier/yarepl.nvim/yarepl-nvim](https://github.com/milanglacier/yarepl.nvim) | 2025-02-18 | `yarepl-nvim` | 
 | [github/sonjiku/yawnc.nvim/yawnc-nvim](https://github.com/sonjiku/yawnc.nvim) | 2023-06-25 | `yawnc-nvim` | 
 | [github/mikavilpas/yazi.nvim/yazi-nvim](https://github.com/mikavilpas/yazi.nvim) | 2025-03-04 | `yazi-nvim` | 
@@ -1244,7 +1244,7 @@
 | [github/zdcthomas/yop.nvim/yop-nvim](https://github.com/zdcthomas/yop.nvim) | 2023-05-29 | `yop-nvim` | 
 | [github/Lilja/zellij.nvim/zellij-nvim](https://github.com/Lilja/zellij.nvim) | 2024-05-03 | `zellij-nvim` | 
 | [github/folke/zen-mode.nvim/zen-mode-nvim](https://github.com/folke/zen-mode.nvim) | 2024-12-11 | `zen-mode-nvim` | 
-| [github/zenbones-theme/zenbones.nvim/zenbones-nvim](https://github.com/zenbones-theme/zenbones.nvim) | 2025-03-02 | `zenbones-nvim` | 
+| [github/zenbones-theme/zenbones.nvim/zenbones-nvim](https://github.com/zenbones-theme/zenbones.nvim) | 2025-03-04 | `zenbones-nvim` | 
 | [github/phha/zenburn.nvim/zenburn-nvim](https://github.com/phha/zenburn.nvim) | 2024-01-31 | `zenburn-nvim` | 
 | [github/nvimdev/zephyr-nvim/zephyr-nvim](https://github.com/nvimdev/zephyr-nvim) | 2022-12-31 | `zephyr-nvim` | 
 | [github/titanzero/zephyrium/zephyrium](https://github.com/titanzero/zephyrium) | 2022-02-20 | `zephyrium` | 
