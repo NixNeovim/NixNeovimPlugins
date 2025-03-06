@@ -6,10 +6,10 @@
   repo: fold-preview
 - owner: beauwilliams
   repo: focus.nvim
-- owner: bgcicca
-  repo: gardenal
 - owner: bluz71
   repo: vim-nightfly-guicolors
+- owner: BrunoCiccarino
+  repo: gardenal
 - owner: chaitanyabsrip
   repo: present.nvim
 - owner: crispybaccoon
@@ -102,9 +102,3 @@
 - owner: yorickpeterse
   repo: nvim-window
   repository_host: gitlab
-- owner: kyazdani42
-  repo: nvim-tree.lua
-- owner: kyazdani42
-  repo: nvim-web-devicons
-- owner: BrunoCiccarino
-  repo: gardenal

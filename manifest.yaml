@@ -267,6 +267,8 @@
   repo: nvim-miniyank
 - owner: bgaillard
   repo: readonly.nvim
+- owner: bgcicca
+  repo: gardenal
 - owner: Bilal2453
   repo: luvit-meta
 - owner: bkegley
