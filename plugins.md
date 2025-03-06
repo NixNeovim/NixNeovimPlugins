@@ -1,4 +1,4 @@
- - Plugin count: 1249
+ - Plugin count: 1250
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -952,6 +952,7 @@
 | [github/lewis6991/satellite.nvim/satellite-nvim](https://github.com/lewis6991/satellite.nvim) | 2025-03-02 | `satellite-nvim` | 
 | [github/b0o/SchemaStore.nvim/SchemaStore-nvim](https://github.com/b0o/SchemaStore.nvim) | 2025-03-06 | `SchemaStore-nvim` | 
 | [github/davidgranstrom/scnvim/scnvim](https://github.com/davidgranstrom/scnvim) | 2025-01-29 | `scnvim` | 
+| [github/tiagovla/scope.nvim/scope-nvim](https://github.com/tiagovla/scope.nvim) | 2025-02-20 | `scope-nvim` | 
 | [github/LintaoAmons/scratch.nvim/scratch-nvim](https://github.com/LintaoAmons/scratch.nvim) | 2024-11-13 | `scratch-nvim` | 
 | [github/athar-qadri/scratchpad.nvim/scratchpad-nvim](https://github.com/athar-qadri/scratchpad.nvim) | 2025-03-06 | `scratchpad-nvim` | 
 | [github/NStefan002/screenkey.nvim/screenkey-nvim](https://github.com/NStefan002/screenkey.nvim) | 2024-12-09 | `screenkey-nvim` | 
