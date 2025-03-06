@@ -16155,6 +16155,23 @@
   };
 
   /*
+  Generated from: github/tiagovla/scope.nvim/scope-nvim
+  */
+  scope-nvim = buildVimPlugin {
+    pname = "scope-nvim";
+    version = "2025-02-20";
+    src = fetchurl {
+      url = "https://github.com/tiagovla/scope.nvim/archive/3fc963e75f88990a9467ff72b8eea667a69c30a2.tar.gz";
+      sha256 = "0i1l7yanyv3bbgnpj8752fb5vgnnxdqwl6dhzvi67nmwxzck4r3j";
+    };
+    meta = with lib; {
+      description = "Revolutionize Your Neovim Tab Workflow: Introducing Enhanced Tab Scoping!";
+      homepage = "https://github.com/tiagovla/scope.nvim";
+      license = with licenses; [];
+    };
+  };
+
+  /*
   Generated from: github/LintaoAmons/scratch.nvim/scratch-nvim
   */
   scratch-nvim = buildVimPlugin {

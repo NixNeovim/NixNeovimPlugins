@@ -2281,6 +2281,8 @@
 - owner: Thiago4532
   repo: mdmath.nvim
 - owner: tiagovla
+  repo: scope.nvim
+- owner: tiagovla
   repo: tokyodark.nvim
 - owner: TimUntersberger
   repo: neofs
