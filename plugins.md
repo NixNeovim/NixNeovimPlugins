@@ -1,4 +1,4 @@
- - Plugin count: 1249
+ - Plugin count: 1252
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -952,6 +952,7 @@
 | [github/lewis6991/satellite.nvim/satellite-nvim](https://github.com/lewis6991/satellite.nvim) | 2025-03-02 | `satellite-nvim` | 
 | [github/b0o/SchemaStore.nvim/SchemaStore-nvim](https://github.com/b0o/SchemaStore.nvim) | 2025-03-06 | `SchemaStore-nvim` | 
 | [github/davidgranstrom/scnvim/scnvim](https://github.com/davidgranstrom/scnvim) | 2025-01-29 | `scnvim` | 
+| [github/tiagovla/scope.nvim/scope-nvim](https://github.com/tiagovla/scope.nvim) | 2025-02-20 | `scope-nvim` | 
 | [github/LintaoAmons/scratch.nvim/scratch-nvim](https://github.com/LintaoAmons/scratch.nvim) | 2024-11-13 | `scratch-nvim` | 
 | [github/athar-qadri/scratchpad.nvim/scratchpad-nvim](https://github.com/athar-qadri/scratchpad.nvim) | 2025-03-06 | `scratchpad-nvim` | 
 | [github/NStefan002/screenkey.nvim/screenkey-nvim](https://github.com/NStefan002/screenkey.nvim) | 2024-12-09 | `screenkey-nvim` | 
@@ -987,6 +988,7 @@
 | [github/m4xshen/smartcolumn.nvim/smartcolumn-nvim](https://github.com/m4xshen/smartcolumn.nvim) | 2025-02-05 | `smartcolumn-nvim` | 
 | [github/sphamba/smear-cursor.nvim/smear-cursor-nvim](https://github.com/sphamba/smear-cursor.nvim) | 2025-02-12 | `smear-cursor-nvim` | 
 | [github/gen740/SmoothCursor.nvim/SmoothCursor-nvim](https://github.com/gen740/SmoothCursor.nvim) | 2024-09-18 | `SmoothCursor-nvim` | 
+| [github/folke/snacks.nvim/snacks-nvim](https://github.com/folke/snacks.nvim) | 2025-03-01 | `snacks-nvim` | 
 | [github/camspiers/snap/snap](https://github.com/camspiers/snap) | 2025-03-06 | `snap` | 
 | [github/smjonas/snippet-converter.nvim/snippet-converter-nvim](https://github.com/smjonas/snippet-converter.nvim) | 2023-09-21 | `snippet-converter-nvim` | 
 | [github/norcalli/snippets.nvim/snippets-nvim](https://github.com/norcalli/snippets.nvim) | 2020-09-09 | `snippets-nvim` | 
@@ -1124,6 +1126,7 @@
 | [github/folke/trouble.nvim/trouble-nvim](https://github.com/folke/trouble.nvim) | 2025-02-12 | `trouble-nvim` | 
 | [github/pocco81/true-zen.nvim/true-zen-nvim](https://github.com/pocco81/true-zen.nvim) | 2023-06-09 | `true-zen-nvim` | 
 | [github/rlychrisg/truncateline.nvim/truncateline-nvim](https://github.com/rlychrisg/truncateline.nvim) | 2024-09-30 | `truncateline-nvim` | 
+| [github/folke/ts-comments.nvim/ts-comments-nvim](https://github.com/folke/ts-comments.nvim) | 2025-02-27 | `ts-comments-nvim` | 
 | [github/dmmulroy/ts-error-translator.nvim/ts-error-translator-nvim](https://github.com/dmmulroy/ts-error-translator.nvim) | 2024-11-16 | `ts-error-translator-nvim` | 
 | [github/ckolkey/ts-node-action/ts-node-action](https://github.com/CKolkey/ts-node-action) | 2025-01-23 | `ts-node-action` | 
 | [github/dmmulroy/tsc.nvim/tsc-nvim](https://github.com/dmmulroy/tsc.nvim) | 2025-02-27 | `tsc-nvim` | 
