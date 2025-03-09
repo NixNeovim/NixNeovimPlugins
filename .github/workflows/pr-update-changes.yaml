@@ -23,7 +23,7 @@ jobs:
         with:
           github_access_token: ${{ github.token }}
 
-      - uses: DeterminateSystems/magic-nix-cache-action@main
+      - uses: DeterminateSystems/flakehub-cache-action@main
 
       - name: Clean up Manifest
         uses: NixNeovim/NixNeovimPlugins/.github/actions/cleanup@main
