@@ -14,7 +14,7 @@ The [plugins.md](plugins.md) contains an auto-generated list of all available pl
 
 ## Usage
 
-- Sometimes, a new plugin has the same name as an existing one. In this case, we rename both plugins to `<plugin-name>-<owner>`, introducing a breaking change.
+- Sometimes, a new plugin has the same name as an existing one. In this case, we rename the new plugin to `<plugin-name>-<owner>`.
 
 To access the plugins, you need to add the overlay.
 The overlay adds extra Vim plugins to `pkgs.vimExtraPlugins`.
