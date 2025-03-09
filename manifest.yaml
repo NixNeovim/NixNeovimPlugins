@@ -1,6 +1,8 @@
 - owner: 00sapo
   repo: visual.nvim
 - owner: 0styx0
+  repo: abbreinder.nvim
+- owner: 0styx0
   repo: abbremand.nvim
 - owner: 0xJohnnyboy
   repo: scretch.nvim
@@ -1474,6 +1476,8 @@
   repo: whichpy.nvim
 - owner: neovim
   repo: nvim-lspconfig
+- owner: neur1n
+  repo: noline.nvim
 - owner: NeViRAIDE
   repo: nekifoch.nvim
 - owner: Nexmean
@@ -1900,6 +1904,8 @@
   repo: heirline.nvim
 - owner: rebelot
   repo: kanagawa.nvim
+- owner: redoxahmii
+  repo: json-to-types.nvim
 - owner: redxtech
   repo: nix-reaver.nvim
 - owner: reggie
@@ -2133,9 +2139,6 @@
   repo: hop.nvim
 - owner: smzm
   repo: hydrovim
-- owner: Yu-Leo
-  repo: cmp-go-pkgs
-  name: cmp-go-pkgs-yu-leo
 - owner: Snikimonkd
   repo: cmp-go-pkgs
 - owner: someone-stole-my-name
@@ -2478,6 +2481,10 @@
   repo: sj.nvim
 - owner: wsdjeg
   repo: flygrep.nvim
+- owner: wsdjeg
+  repo: nvim-plug
+- owner: wsdjeg
+  repo: rooter.nvim
 - owner: wurli
   repo: split.nvim
 - owner: wurli
@@ -2548,6 +2555,11 @@
   repo: in-and-out.nvim
 - owner: Yu-Leo
   repo: blame-column.nvim
+- owner: Yu-Leo
+  repo: cmp-go-pkgs
+  name: cmp-go-pkgs-yu-leo
+- owner: Yu-Leo
+  repo: gosigns.nvim
 - owner: yutkat
   repo: confirm-quit.nvim
 - owner: zaldih
