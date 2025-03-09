@@ -1,7 +1,8 @@
- - Plugin count: 1250
+ - Plugin count: 1257
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
+| [github/0styx0/abbreinder.nvim/abbreinder-nvim](https://github.com/0styx0/abbreinder.nvim) | 2022-04-28 | `abbreinder-nvim` | 
 | [github/0styx0/abbremand.nvim/abbremand-nvim](https://github.com/0styx0/abbremand.nvim) | 2022-01-16 | `abbremand-nvim` | 
 | [github/Abstract-IDE/Abstract-cs/Abstract-cs](https://github.com/Abstract-IDE/Abstract-cs) | 2024-08-04 | `Abstract-cs` | 
 | [github/roobert/action-hints.nvim/action-hints-nvim](https://github.com/roobert/action-hints.nvim) | 2023-09-09 | `action-hints-nvim` | 
@@ -134,6 +135,7 @@
 | [github/tzachar/cmp-fuzzy-path/cmp-fuzzy-path](https://github.com/tzachar/cmp-fuzzy-path) | 2024-01-17 | `cmp-fuzzy-path` | 
 | [github/petertriho/cmp-git/cmp-git](https://github.com/petertriho/cmp-git) | 2025-01-14 | `cmp-git` | 
 | [github/Snikimonkd/cmp-go-pkgs/cmp-go-pkgs](https://github.com/Snikimonkd/cmp-go-pkgs) | 2025-01-07 | `cmp-go-pkgs` | 
+| [github/Yu-Leo/cmp-go-pkgs/cmp-go-pkgs-yu-leo](https://github.com/Yu-Leo/cmp-go-pkgs) | 2025-03-04 | `cmp-go-pkgs-yu-leo` | 
 | [github/max397574/cmp-greek/cmp-greek](https://github.com/max397574/cmp-greek) | 2022-01-10 | `cmp-greek` | 
 | [github/kdheepak/cmp-latex-symbols/cmp-latex-symbols](https://github.com/kdheepak/cmp-latex-symbols) | 2025-01-10 | `cmp-latex-symbols` | 
 | [github/octaltree/cmp-look/cmp-look](https://github.com/octaltree/cmp-look) | 2023-12-24 | `cmp-look` | 
@@ -353,6 +355,7 @@
 | [github/edolphin-ydf/goimpl.nvim/goimpl-nvim](https://github.com/edolphin-ydf/goimpl.nvim) | 2024-10-29 | `goimpl-nvim` | 
 | [github/olexsmir/gopher.nvim/gopher-nvim](https://github.com/olexsmir/gopher.nvim) | 2024-12-23 | `gopher-nvim` | 
 | [github/maxandron/goplements.nvim/goplements-nvim](https://github.com/maxandron/goplements.nvim) | 2024-07-31 | `goplements-nvim` | 
+| [github/Yu-Leo/gosigns.nvim/gosigns-nvim](https://github.com/Yu-Leo/gosigns.nvim) | 2025-03-08 | `gosigns-nvim` | 
 | [github/yanskun/gotests.nvim/gotests-nvim](https://github.com/yanskun/gotests.nvim) | 2024-07-11 | `gotests-nvim` | 
 | [github/ofirgall/goto-breakpoints.nvim/goto-breakpoints-nvim](https://github.com/ofirgall/goto-breakpoints.nvim) | 2023-11-02 | `goto-breakpoints-nvim` | 
 | [github/rmagatti/goto-preview/goto-preview](https://github.com/rmagatti/goto-preview) | 2025-03-09 | `goto-preview` | 
@@ -439,6 +442,7 @@
 | [github/David-Kunz/jester/jester](https://github.com/David-Kunz/jester) | 2025-01-15 | `jester` | 
 | [github/jakobkhansen/journal.nvim/journal-nvim](https://github.com/jakobkhansen/journal.nvim) | 2024-06-13 | `journal-nvim` | 
 | [github/fuenor/JpFormat.vim/JpFormat-vim](https://github.com/fuenor/JpFormat.vim) | 2019-07-12 | `JpFormat-vim` | 
+| [github/redoxahmii/json-to-types.nvim/json-to-types-nvim](https://github.com/redoxahmii/json-to-types.nvim) | 2025-03-06 | `json-to-types-nvim` | 
 | [github/kiyoon/jupynium.nvim/jupynium-nvim](https://github.com/kiyoon/jupynium.nvim) | 2025-02-19 | `jupynium-nvim` | 
 | [github/untitled-ai/jupyter_ascending/jupyter-ascending](https://github.com/imbue-ai/jupyter_ascending) | 2023-10-06 | `jupyter-ascending` | 
 | [github/GCBallesteros/jupytext.nvim/jupytext-nvim](https://github.com/GCBallesteros/jupytext.nvim) | 2024-04-05 | `jupytext-nvim` | 
@@ -634,6 +638,7 @@
 | [github/luukvbaal/nnn.nvim/nnn-nvim](https://github.com/luukvbaal/nnn.nvim) | 2023-08-09 | `nnn-nvim` | 
 | [github/shortcuts/no-neck-pain.nvim/no-neck-pain-nvim](https://github.com/shortcuts/no-neck-pain.nvim) | 2025-03-07 | `no-neck-pain-nvim` | 
 | [github/folke/noice.nvim/noice-nvim](https://github.com/folke/noice.nvim) | 2025-02-11 | `noice-nvim` | 
+| [github/neur1n/noline.nvim/noline-nvim](https://github.com/neur1n/noline.nvim) | 2022-03-16 | `noline-nvim` | 
 | [github/zeioth/none-ls-autoload.nvim/none-ls-autoload-nvim](https://github.com/Zeioth/none-ls-autoload.nvim) | 2024-06-25 | `none-ls-autoload-nvim` | 
 | [github/nvimtools/none-ls-extras.nvim/none-ls-extras-nvim](https://github.com/nvimtools/none-ls-extras.nvim) | 2024-12-10 | `none-ls-extras-nvim` | 
 | [github/nvimtools/none-ls.nvim/none-ls-nvim](https://github.com/nvimtools/none-ls.nvim) | 2025-03-02 | `none-ls-nvim` | 
@@ -761,6 +766,7 @@
 | [github/mordechaihadad/nvim-papadark/nvim-papadark](https://github.com/MordechaiHadad/nvim-papadark) | 2021-10-30 | `nvim-papadark` | 
 | [github/gennaro-tedesco/nvim-peekup/nvim-peekup](https://github.com/gennaro-tedesco/nvim-peekup) | 2023-02-23 | `nvim-peekup` | 
 | [github/askfiy/nvim-picgo/nvim-picgo](https://github.com/askfiy/nvim-picgo) | 2025-01-18 | `nvim-picgo` | 
+| [github/wsdjeg/nvim-plug/nvim-plug](https://github.com/wsdjeg/nvim-plug) | 2025-03-02 | `nvim-plug` | 
 | [github/ellisonleao/nvim-plugin-template/nvim-plugin-template](https://github.com/ellisonleao/nvim-plugin-template) | 2024-01-18 | `nvim-plugin-template` | 
 | [github/gennaro-tedesco/nvim-possession/nvim-possession](https://github.com/gennaro-tedesco/nvim-possession) | 2025-01-31 | `nvim-possession` | 
 | [github/yorickpeterse/nvim-pqf/nvim-pqf](https://github.com/yorickpeterse/nvim-pqf) | 2024-05-20 | `nvim-pqf` | 
@@ -941,6 +947,7 @@
 | [github/kevinhwang91/rnvimr/rnvimr](https://github.com/kevinhwang91/rnvimr) | 2025-02-13 | `rnvimr` | 
 | [github/nvim-neorocks/rocks.nvim/rocks-nvim](https://github.com/nvim-neorocks/rocks.nvim) | 2025-03-02 | `rocks-nvim` | 
 | [github/judaew/ronny.nvim/ronny-nvim](https://github.com/judaew/ronny.nvim) | 2023-09-29 | `ronny-nvim` | 
+| [github/wsdjeg/rooter.nvim/rooter-nvim](https://github.com/wsdjeg/rooter.nvim) | 2025-02-26 | `rooter-nvim` | 
 | [github/rose-pine/neovim/rose-pine](https://github.com/rose-pine/neovim) | 2025-02-26 | `rose-pine` | 
 | [github/shaeinst/roshnivim-cs/roshnivim-cs](https://github.com/Abstract-IDE/Abstract-cs) | 2024-08-04 | `roshnivim-cs` | 
 | [github/OscarCreator/rsync.nvim/rsync-nvim](https://github.com/OscarCreator/rsync.nvim) | 2024-08-08 | `rsync-nvim` | 
