@@ -2139,6 +2139,9 @@
   repo: hop.nvim
 - owner: smzm
   repo: hydrovim
+- owner: Yu-Leo
+  repo: cmp-go-pkgs
+  name: cmp-go-pkgs-yu-leo
 - owner: Snikimonkd
   repo: cmp-go-pkgs
 - owner: someone-stole-my-name
