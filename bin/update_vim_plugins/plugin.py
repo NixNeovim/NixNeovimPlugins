@@ -197,7 +197,7 @@ class SourceHutPlugin(VimPlugin):
         url = f"https://git.sr.ht/api/{path}"
         headers = {"Content-Type": "application/json"}
         if token is not None:
-            headers["Authorization"] = f"token {token}"
+            headers["Authorization"] = f"Bearer {token}"
         response = requests.get(url, headers=headers)
         if response.status_code != 200:
             raise RuntimeError(f"SourceHut API call failed: {response.json()}")
