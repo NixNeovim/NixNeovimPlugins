@@ -1,4 +1,4 @@
- - Plugin count: 1259
+ - Plugin count: 1260
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -1037,6 +1037,7 @@
 | [github/miversen33/sunglasses.nvim/sunglasses-nvim](https://github.com/miversen33/sunglasses.nvim) | 2025-01-13 | `sunglasses-nvim` | 
 | [github/supermaven-inc/supermaven-nvim/supermaven-nvim](https://github.com/supermaven-inc/supermaven-nvim) | 2024-10-07 | `supermaven-nvim` | 
 | [github/roobert/surround-ui.nvim/surround-ui-nvim](https://github.com/roobert/surround-ui.nvim) | 2024-07-16 | `surround-ui-nvim` | 
+| [github/peterbjorgensen/sved/sved](https://github.com/peterbjorgensen/sved) | 2024-06-18 | `sved` | 
 | [github/bennypowers/svgo.nvim/svgo-nvim](https://github.com/bennypowers/svgo.nvim) | 2023-11-17 | `svgo-nvim` | 
 | [github/AckslD/swenv.nvim/swenv-nvim](https://github.com/AckslD/swenv.nvim) | 2025-02-09 | `swenv-nvim` | 
 | [github/Wansmer/symbol-usage.nvim/symbol-usage-nvim](https://github.com/Wansmer/symbol-usage.nvim) | 2024-09-13 | `symbol-usage-nvim` | 

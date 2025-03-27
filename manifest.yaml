@@ -1,5 +1,3 @@
-- owner: peterbjorgensen
-  repo: sved
 - owner: 00sapo
   repo: visual.nvim
 - owner: 0styx0
@@ -1757,6 +1755,8 @@
   repo: toggle-quotes.nvim
 - owner: pechorin
   repo: any-jump.vim
+- owner: peterbjorgensen
+  repo: sved
 - owner: petertriho
   repo: cmp-git
 - owner: petertriho

@@ -17600,6 +17600,23 @@
   };
 
   /*
+  Generated from: github/peterbjorgensen/sved/sved
+  */
+  sved = buildVimPlugin {
+    pname = "sved";
+    version = "2024-06-18";
+    src = fetchurl {
+      url = "https://github.com/peterbjorgensen/sved/archive/3edf1030c28e3a5e3b01aea7f94fa04ac4f0e48a.tar.gz";
+      sha256 = "1ld6x90yy1b6c09hzl84kkzkgiqd0ajg2njn1b6g6fw1w76672w1";
+    };
+    meta = with lib; {
+      description = "Synctex support for Vim and Evince through DBus";
+      homepage = "https://github.com/peterbjorgensen/sved";
+      license = with licenses; [];
+    };
+  };
+
+  /*
   Generated from: github/bennypowers/svgo.nvim/svgo-nvim
   */
   svgo-nvim = buildVimPlugin {
