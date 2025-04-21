@@ -586,7 +586,7 @@
   repo: decisive.nvim
 - owner: Enigama
   repo: miss.nvim
-- owner: epwalsh
+- owner: obsidian-nvim
   repo: obsidian.nvim
 - owner: esensar
   repo: nvim-dev-container
@@ -1144,6 +1144,15 @@
   name: gitlinker-linrongbin16
 - owner: linrongbin16
   repo: lsp-progress.nvim
+- owner: heilgar
+  repo: bookmarks.nvim
+  name: bookmarks-nvim-heilgar
+- owner: neko-night
+  repo: nvim
+  name: neko-night
+- owner: everviolet
+  repo: nvim
+  name: everviolet
 - owner: LintaoAmons
   repo: bookmarks.nvim
 - owner: LintaoAmons
