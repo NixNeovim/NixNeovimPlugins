@@ -1,4 +1,4 @@
- - Plugin count: 1263
+ - Plugin count: 1264
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -142,6 +142,7 @@
 | [github/octaltree/cmp-look/cmp-look](https://github.com/octaltree/cmp-look) | 2023-12-24 | `cmp-look` | 
 | [github/saadparwaiz1/cmp_luasnip/cmp-luasnip](https://github.com/saadparwaiz1/cmp_luasnip) | 2024-11-04 | `cmp-luasnip` | 
 | [github/abeldekat/cmp-mini-snippets/cmp-mini-snippets](https://github.com/abeldekat/cmp-mini-snippets) | 2025-01-26 | `cmp-mini-snippets` | 
+| [github/Gelio/cmp-natdat/cmp-natdat](https://github.com/Gelio/cmp-natdat) | 2024-12-29 | `cmp-natdat` | 
 | [github/david-kunz/cmp-npm/cmp-npm](https://github.com/David-Kunz/cmp-npm) | 2023-06-12 | `cmp-npm` | 
 | [github/hrsh7th/cmp-nvim-lsp/cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp) | 2025-04-01 | `cmp-nvim-lsp` | 
 | [github/hrsh7th/cmp-nvim-lsp-document-symbol/cmp-nvim-lsp-document-symbol](https://github.com/hrsh7th/cmp-nvim-lsp-document-symbol) | 2024-05-29 | `cmp-nvim-lsp-document-symbol` | 

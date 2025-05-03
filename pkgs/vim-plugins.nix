@@ -2385,6 +2385,23 @@
   };
 
   /*
+  Generated from: github/Gelio/cmp-natdat/cmp-natdat
+  */
+  cmp-natdat = buildVimPlugin {
+    pname = "cmp-natdat";
+    version = "2024-12-29";
+    src = fetchurl {
+      url = "https://github.com/Gelio/cmp-natdat/archive/0fcbd9aac5f15104b2c08fc43d856ac15778500a.tar.gz";
+      sha256 = "0p61rspj6ng0pnffdhhpa5i79nl7vvyw86cmz8hzrf40nr6ysrnv";
+    };
+    meta = with lib; {
+      description = "nvim-cmp source to autocomplete natural dates and turm them into ISO dates";
+      homepage = "https://github.com/Gelio/cmp-natdat";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
   Generated from: github/david-kunz/cmp-npm/cmp-npm
   */
   cmp-npm = buildVimPlugin {
