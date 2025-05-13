@@ -1472,9 +1472,9 @@
   repo: nvim-mdlink
 - owner: neko-night
   repo: nvim
+  name: neko-night
 - owner: neko-night
   repo: nvim
-  name: neko-night
 - owner: nekonako
   repo: xresources-nvim
 - owner: neo451
@@ -1560,6 +1560,8 @@
   repo: snippets.nvim
 - owner: nosduco
   repo: remote-sshfs.nvim
+- owner: notashelf
+  repo: direnv.nvim
 - owner: notomo
   repo: cmdbuf.nvim
 - owner: notomo
