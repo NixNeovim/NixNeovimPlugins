@@ -1,4 +1,4 @@
- - Plugin count: 1264
+ - Plugin count: 1265
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -250,6 +250,7 @@
 | [github/monaqa/dial.nvim/dial-nvim](https://github.com/monaqa/dial.nvim) | 2025-03-29 | `dial-nvim` | 
 | [github/sindrets/diffview.nvim/diffview-nvim](https://github.com/sindrets/diffview.nvim) | 2024-06-13 | `diffview-nvim` | 
 | [github/elihunter173/dirbuf.nvim/dirbuf-nvim](https://github.com/elihunter173/dirbuf.nvim) | 2022-08-28 | `dirbuf-nvim` | 
+| [github/notashelf/direnv.nvim/direnv-nvim](https://github.com/NotAShelf/direnv.nvim) | 2025-04-23 | `direnv-nvim` | 
 | [github/chipsenkbeil/distant.nvim/distant-nvim](https://github.com/chipsenkbeil/distant.nvim) | 2024-10-17 | `distant-nvim` | 
 | [gitlab/bartekjaszczak/distinct-nvim/distinct-nvim](https://gitlab.com/bartekjaszczak/distinct-nvim) | 2024-08-11 | `distinct-nvim` | 
 | [github/Zeioth/distroupdate.nvim/distroupdate-nvim](https://github.com/Zeioth/distroupdate.nvim) | 2024-09-24 | `distroupdate-nvim` | 

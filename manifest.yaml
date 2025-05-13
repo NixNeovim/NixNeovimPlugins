@@ -1472,9 +1472,9 @@
   repo: nvim-mdlink
 - owner: neko-night
   repo: nvim
+  name: neko-night
 - owner: neko-night
   repo: nvim
-  name: neko-night
 - owner: nekonako
   repo: xresources-nvim
 - owner: neo451
@@ -1560,6 +1560,8 @@
   repo: snippets.nvim
 - owner: nosduco
   repo: remote-sshfs.nvim
+- owner: notashelf
+  repo: direnv.nvim
 - owner: notomo
   repo: cmdbuf.nvim
 - owner: notomo
@@ -2625,8 +2627,6 @@
   repo: proot.nvim
 - owner: zootedb0t
   repo: citruszest.nvim
-- owner: notashelf
-  repo: direnv.nvim
 - owner: ~henriquehbr
   repo: ataraxis.lua
   repository_host: sourcehut
@@ -2647,3 +2647,4 @@
   repo: lsp_lines.nvim
   repository_host: sourcehut
   commit: a92c755f182b89ea91bd8a6a2227208026f27b4d
+

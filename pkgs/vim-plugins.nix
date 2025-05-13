@@ -4221,6 +4221,23 @@
   };
 
   /*
+  Generated from: github/notashelf/direnv.nvim/direnv-nvim
+  */
+  direnv-nvim = buildVimPlugin {
+    pname = "direnv-nvim";
+    version = "2025-04-23";
+    src = fetchurl {
+      url = "https://github.com/notashelf/direnv.nvim/archive/a2f1264909463fd012b7b0b6bbfebc282c5d2834.tar.gz";
+      sha256 = "1bvzls9hraw3qms8rx5z2nvnj91z3c12s2k853i2m95v08w7zs56";
+    };
+    meta = with lib; {
+      description = "Lua implementation of direnv.vim for automatic .envrc handling & syntax.";
+      homepage = "https://github.com/NotAShelf/direnv.nvim";
+      license = with licenses; [mpl20];
+    };
+  };
+
+  /*
   Generated from: github/chipsenkbeil/distant.nvim/distant-nvim
   */
   distant-nvim = buildVimPlugin {
