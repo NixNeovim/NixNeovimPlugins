@@ -1,3 +1,7 @@
+- owner: milisims
+  repo: nvim-luaref
+- owner: ahmedkhalf
+  repo: project.nvim
 - owner: akinsho
   repo: flutter-tools.nvim
 - owner: andersevenrud

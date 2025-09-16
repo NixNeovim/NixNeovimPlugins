@@ -1,3 +1,5 @@
+- owner: DrKJeff16
+  repo: project.nvim
 - owner: 00sapo
   repo: visual.nvim
 - owner: 0styx0
@@ -81,8 +83,6 @@
   repo: apprentice.nvim
 - owner: adisen99
   repo: codeschool.nvim
-- owner: ahmedkhalf
-  repo: project.nvim
 - owner: airblade
   repo: vim-gitgutter
 - owner: akinsho
@@ -1339,7 +1339,7 @@
   repo: minuet-ai.nvim
 - owner: milanglacier
   repo: yarepl.nvim
-- owner: milisims
+- owner: emiasims
   repo: nvim-luaref
 - owner: MisanthropicBit
   repo: decipher.nvim
