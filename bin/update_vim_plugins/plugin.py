@@ -56,6 +56,9 @@ class VimPlugin:
             }};
         '''
 
+    def full_name(self):
+        return f"{self.owner}_{self.repo}"
+
     def to_json(self):
         """Serizalize the plugin to json"""
         return jsonpickle.encode(self)
