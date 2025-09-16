@@ -1,3 +1,12 @@
+- owner: motaz-shokry
+  repo: gruvbox.nvim
+  name: gruvbox-nvim-motaz-shokry
+- owner: Axot017
+  repo: multiterm.nvim
+  name: multiterm-axot017
+- owner: imranZERO
+  repo: multiterm.nvim
+  name: multiterm-imranzero
 - owner: DrKJeff16
   repo: project.nvim
 - owner: 00sapo
@@ -576,6 +585,7 @@
   repo: glow.nvim
 - owner: ellisonleao
   repo: gruvbox.nvim
+  name: guvbox-nvim-ellisonleao
 - owner: ellisonleao
   repo: nvim-plugin-template
 - owner: embark-theme
@@ -1349,7 +1359,7 @@
   repo: codesnap.nvim
 - owner: mistweaverco
   repo: kulala.nvim
-- owner: miversen33
+- owner: piersolenski
   repo: import.nvim
 - owner: miversen33
   repo: netman.nvim
