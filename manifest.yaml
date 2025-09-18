@@ -1,6 +1,7 @@
 - owner: motaz-shokry
   repo: gruvbox.nvim
   name: gruvbox-nvim-motaz-shokry
+  repository_host: gitlab
 - owner: Axot017
   repo: multiterm.nvim
   name: multiterm-axot017
