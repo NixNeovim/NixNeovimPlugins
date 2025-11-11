@@ -7587,6 +7587,23 @@
   };
 
   /*
+  Generated from: github/phelipetls/jsonpath.nvim/jsonpath-nvim
+  */
+  jsonpath-nvim = buildVimPlugin {
+    pname = "jsonpath-nvim";
+    version = "2025-09-22";
+    src = fetchurl {
+      url = "https://github.com/phelipetls/jsonpath.nvim/archive/9e7a3c2aec3465a8f7c86cec6424cf98ee62ee24.tar.gz";
+      sha256 = "1cp4h4ix9q9wbxgbx1im6k0r9ryki9qlkql9qkmrsq5g41485p0l";
+    };
+    meta = with lib; {
+      description = "A Neovim plugin to help you access JSON values, powered by treesitter";
+      homepage = "https://github.com/phelipetls/jsonpath.nvim";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
   Generated from: github/kiyoon/jupynium.nvim/jupynium-nvim
   */
   jupynium-nvim = buildVimPlugin {

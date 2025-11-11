@@ -1,15 +1,3 @@
-- owner: motaz-shokry
-  repo: gruvbox.nvim
-  name: gruvbox-nvim-motaz-shokry
-  repository_host: gitlab
-- owner: Axot017
-  repo: multiterm.nvim
-  name: multiterm-axot017
-- owner: imranZERO
-  repo: multiterm.nvim
-  name: multiterm-imranzero
-- owner: DrKJeff16
-  repo: project.nvim
 - owner: 00sapo
   repo: visual.nvim
 - owner: 0styx0
@@ -220,6 +208,9 @@
   repo: easypick.nvim
 - owner: axkirillov
   repo: hbac.nvim
+- owner: Axot017
+  repo: multiterm.nvim
+  name: multiterm-axot017
 - owner: aznhe21
   repo: actions-preview.nvim
 - owner: azratul
@@ -543,6 +534,8 @@
   repo: cheatsheet.nvim
 - owner: dpayne
   repo: CodeGPT.nvim
+- owner: DrKJeff16
+  repo: project.nvim
 - owner: drybalka
   repo: tree-climber.nvim
 - owner: dstein64
@@ -591,6 +584,8 @@
   repo: nvim-plugin-template
 - owner: embark-theme
   repo: vim
+- owner: emiasims
+  repo: nvim-luaref
 - owner: emileferreira
   repo: nvim-strict
 - owner: emmanueltouzery
@@ -872,6 +867,9 @@
   repo: nvim-dap-view
 - owner: IlyasYOY
   repo: obs.nvim
+- owner: imranZERO
+  repo: multiterm.nvim
+  name: multiterm-imranzero
 - owner: IndianBoy42
   repo: tree-sitter-just
 - owner: inkch
@@ -1350,8 +1348,6 @@
   repo: minuet-ai.nvim
 - owner: milanglacier
   repo: yarepl.nvim
-- owner: emiasims
-  repo: nvim-luaref
 - owner: MisanthropicBit
   repo: decipher.nvim
 - owner: MisanthropicBit
@@ -1360,8 +1356,6 @@
   repo: codesnap.nvim
 - owner: mistweaverco
   repo: kulala.nvim
-- owner: piersolenski
-  repo: import.nvim
 - owner: miversen33
   repo: netman.nvim
 - owner: miversen33
@@ -1397,6 +1391,10 @@
   repo: nvim-papadark
 - owner: morhetz
   repo: gruvbox
+- owner: motaz-shokry
+  repo: gruvbox.nvim
+  repository_host: gitlab
+  name: gruvbox-nvim-motaz-shokry
 - owner: moyiz
   repo: command-and-cursor.nvim
 - owner: moyiz
@@ -1785,10 +1783,10 @@
   repo: cmp-git
 - owner: petertriho
   repo: nvim-scrollbar
-- owner: phha
-  repo: zenburn.nvim
 - owner: phelipetls
   repo: jsonpath.nvim
+- owner: phha
+  repo: zenburn.nvim
 - owner: philosofonusus
   repo: ecolog.nvim
 - owner: PHSix
@@ -1799,6 +1797,8 @@
   repo: officer.nvim
 - owner: pianocomposer321
   repo: yabs.nvim
+- owner: piersolenski
+  repo: import.nvim
 - owner: piersolenski
   repo: telescope-import.nvim
 - owner: piersolenski
