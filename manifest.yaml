@@ -1787,6 +1787,8 @@
   repo: nvim-scrollbar
 - owner: phha
   repo: zenburn.nvim
+- owner: phelipetls
+  repo: jsonpath.nvim
 - owner: philosofonusus
   repo: ecolog.nvim
 - owner: PHSix
