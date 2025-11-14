@@ -1520,6 +1520,10 @@
   repo: divider.nvim
 - owner: niuiic
   repo: format.nvim
+  name: format-nvim-niuiic
+- owner: wsdjeg
+  repo: format.nvim
+  name: format-nvim-wsdjeg
 - owner: niuiic
   repo: git-log.nvim
 - owner: niuiic
@@ -2535,6 +2539,10 @@
   repo: virtcolumn.nvim
 - owner: Xuyuanp
   repo: scrollbar.nvim
+  name: scrollbar-nvim-xuyuanp
+- owner: wsdjeg
+  repo: scrollbar.nvim
+  name: scrollbar-nvim-wsdjeg
 - owner: Xuyuanp
   repo: yanil
 - owner: XXiaoA
