@@ -1,4 +1,4 @@
- - Plugin count: 1268
+ - Plugin count: 1269
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -448,7 +448,8 @@
 | [github/jakobkhansen/journal.nvim/journal-nvim](https://github.com/jakobkhansen/journal.nvim) | 2024-06-13 | `journal-nvim` | 
 | [github/fuenor/JpFormat.vim/JpFormat-vim](https://github.com/fuenor/JpFormat.vim) | 2019-07-12 | `JpFormat-vim` | 
 | [github/redoxahmii/json-to-types.nvim/json-to-types-nvim](https://github.com/redoxahmii/json-to-types.nvim) | 2025-03-06 | `json-to-types-nvim` | 
-| [github/kiyoon/jupynium.nvim/jupynium-nvim](https://github.com/kiyoon/jupynium.nvim) | 2025-11-10 | `jupynium-nvim` | 
+| [github/phelipetls/jsonpath.nvim/jsonpath-nvim](https://github.com/phelipetls/jsonpath.nvim) | 2025-09-22 | `jsonpath-nvim` | 
+| [github/kiyoon/jupynium.nvim/jupynium-nvim](https://github.com/kiyoon/jupynium.nvim) | 2025-10-31 | `jupynium-nvim` | 
 | [github/untitled-ai/jupyter_ascending/jupyter-ascending](https://github.com/imbue-ai/jupyter_ascending) | 2023-10-06 | `jupyter-ascending` | 
 | [github/GCBallesteros/jupytext.nvim/jupytext-nvim](https://github.com/GCBallesteros/jupytext.nvim) | 2024-04-05 | `jupytext-nvim` | 
 | [github/al1-ce/just.nvim/just-nvim](https://github.com/nxuv/just.nvim) | 2025-02-12 | `just-nvim` | 
