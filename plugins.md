@@ -1,4 +1,4 @@
- - Plugin count: 1269
+ - Plugin count: 1271
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -313,7 +313,8 @@
 | [github/anuvyklack/fold-preview.nvim/fold-preview-nvim](https://github.com/anuvyklack/fold-preview.nvim) | 2023-01-27 | `fold-preview-nvim` | 
 | [github/OXY2DEV/foldtext.nvim/foldtext-nvim](https://github.com/OXY2DEV/foldtext.nvim) | 2025-09-24 | `foldtext-nvim` | 
 | [github/jghauser/follow-md-links.nvim/follow-md-links-nvim](https://github.com/jghauser/follow-md-links.nvim) | 2025-09-01 | `follow-md-links-nvim` | 
-| [github/niuiic/format.nvim/format-nvim](https://github.com/niuiic/format.nvim) | 2024-05-11 | `format-nvim` | 
+| [github/niuiic/format.nvim/format-nvim-niuiic](https://github.com/niuiic/format.nvim) | 2024-05-11 | `format-nvim-niuiic` | 
+| [github/wsdjeg/format.nvim/format-nvim-wsdjeg](https://github.com/wsdjeg/format.nvim) | 2025-11-14 | `format-nvim-wsdjeg` | 
 | [github/elentok/format-on-save.nvim/format-on-save-nvim](https://github.com/elentok/format-on-save.nvim) | 2025-07-20 | `format-on-save-nvim` | 
 | [github/mhartington/formatter.nvim/formatter-nvim](https://github.com/mhartington/formatter.nvim) | 2025-05-29 | `formatter-nvim` | 
 | [github/AlejandroSuero/freeze-code.nvim/freeze-code-nvim](https://github.com/AlejandroSuero/freeze-code.nvim) | 2025-03-15 | `freeze-code-nvim` | 
@@ -449,7 +450,7 @@
 | [github/fuenor/JpFormat.vim/JpFormat-vim](https://github.com/fuenor/JpFormat.vim) | 2019-07-12 | `JpFormat-vim` | 
 | [github/redoxahmii/json-to-types.nvim/json-to-types-nvim](https://github.com/redoxahmii/json-to-types.nvim) | 2025-03-06 | `json-to-types-nvim` | 
 | [github/phelipetls/jsonpath.nvim/jsonpath-nvim](https://github.com/phelipetls/jsonpath.nvim) | 2025-09-22 | `jsonpath-nvim` | 
-| [github/kiyoon/jupynium.nvim/jupynium-nvim](https://github.com/kiyoon/jupynium.nvim) | 2025-10-31 | `jupynium-nvim` | 
+| [github/kiyoon/jupynium.nvim/jupynium-nvim](https://github.com/kiyoon/jupynium.nvim) | 2025-11-10 | `jupynium-nvim` | 
 | [github/untitled-ai/jupyter_ascending/jupyter-ascending](https://github.com/imbue-ai/jupyter_ascending) | 2023-10-06 | `jupyter-ascending` | 
 | [github/GCBallesteros/jupytext.nvim/jupytext-nvim](https://github.com/GCBallesteros/jupytext.nvim) | 2024-04-05 | `jupytext-nvim` | 
 | [github/al1-ce/just.nvim/just-nvim](https://github.com/nxuv/just.nvim) | 2025-02-12 | `just-nvim` | 
@@ -975,7 +976,8 @@
 | [github/0xJohnnyboy/scretch.nvim/scretch-nvim](https://github.com/0xJohnnyboy/scretch.nvim) | 2025-09-11 | `scretch-nvim` | 
 | [github/ostralyan/scribe.nvim/scribe-nvim](https://github.com/Ostralyan/scribe.nvim) | 2023-02-02 | `scribe-nvim` | 
 | [github/niuiic/scroll.nvim/scroll-nvim](https://github.com/niuiic/scroll.nvim) | 2024-05-24 | `scroll-nvim` | 
-| [github/Xuyuanp/scrollbar.nvim/scrollbar-nvim](https://github.com/Xuyuanp/scrollbar.nvim) | 2025-03-23 | `scrollbar-nvim` | 
+| [github/wsdjeg/scrollbar.nvim/scrollbar-nvim-wsdjeg](https://github.com/wsdjeg/scrollbar.nvim) | 2025-10-31 | `scrollbar-nvim-wsdjeg` | 
+| [github/Xuyuanp/scrollbar.nvim/scrollbar-nvim-xuyuanp](https://github.com/Xuyuanp/scrollbar.nvim) | 2025-03-23 | `scrollbar-nvim-xuyuanp` | 
 | [github/nkakouros-original/scrollofffraction.nvim/scrollofffraction-nvim](https://github.com/nkakouros-original/scrollofffraction.nvim) | 2024-04-30 | `scrollofffraction-nvim` | 
 | [github/FabianWirth/search.nvim/search-nvim](https://github.com/FabianWirth/search.nvim) | 2024-05-21 | `search-nvim` | 
 | [github/roobert/search-replace.nvim/search-replace-nvim](https://github.com/roobert/search-replace.nvim) | 2023-09-09 | `search-replace-nvim` | 
