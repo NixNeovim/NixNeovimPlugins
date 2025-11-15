@@ -48,8 +48,8 @@ class VimPlugin:
 
         return f'''
             /* Generated from: {self.id} */
-            {self.name} = {warning} buildVimPlugin {{
-                pname = "{self.name}";
+            {self.name}-{self.owner} = {warning} buildVimPlugin {{
+                pname = "{self.name}-{self.owner}";
                 version = "{self.version}";
                 src = {self.source.get_nix_expression()};
                 meta = {meta};
