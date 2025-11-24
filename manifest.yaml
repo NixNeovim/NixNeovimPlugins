@@ -1481,9 +1481,9 @@
   repo: nvim-mdlink
 - owner: neko-night
   repo: nvim
+  name: neko-night
 - owner: neko-night
   repo: nvim
-  name: neko-night
 - owner: nekonako
   repo: xresources-nvim
 - owner: neo451
@@ -1521,9 +1521,6 @@
 - owner: niuiic
   repo: format.nvim
   name: format-nvim-niuiic
-- owner: wsdjeg
-  repo: format.nvim
-  name: format-nvim-wsdjeg
 - owner: niuiic
   repo: git-log.nvim
 - owner: niuiic
@@ -2514,9 +2511,15 @@
 - owner: wsdjeg
   repo: flygrep.nvim
 - owner: wsdjeg
+  repo: format.nvim
+  name: format-nvim-wsdjeg
+- owner: wsdjeg
   repo: nvim-plug
 - owner: wsdjeg
   repo: rooter.nvim
+- owner: wsdjeg
+  repo: scrollbar.nvim
+  name: scrollbar-nvim-wsdjeg
 - owner: wurli
   repo: split.nvim
 - owner: wurli
@@ -2540,9 +2543,6 @@
 - owner: Xuyuanp
   repo: scrollbar.nvim
   name: scrollbar-nvim-xuyuanp
-- owner: wsdjeg
-  repo: scrollbar.nvim
-  name: scrollbar-nvim-wsdjeg
 - owner: Xuyuanp
   repo: yanil
 - owner: XXiaoA
