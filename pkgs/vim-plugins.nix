@@ -19674,6 +19674,23 @@
   };
 
   /*
+  Generated from: github/y3owk1n/undo-glow.nvim/undo-glow-nvim
+  */
+  undo-glow-nvim = buildVimPlugin {
+    pname = "undo-glow-nvim";
+    version = "2025-12-14";
+    src = fetchurl {
+      url = "https://github.com/y3owk1n/undo-glow.nvim/archive/25314a94cdfd84a3ca62bada1f88ed00982659ac.tar.gz";
+      sha256 = "1mdr9idp2vr6pycgyllpfmqm4v0l6lx42d21398fqnxgrsh8ah9r";
+    };
+    meta = with lib; {
+      description = "🌈 Add animated glow/highlight effects to your neovim operation (undo, redo, yank, paste and more) with simple APIs. Alternatives to highlight-undo.nvim and tiny-glimmer.nvim.";
+      homepage = "https://github.com/y3owk1n/undo-glow.nvim";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
   Generated from: github/mbbill/undotree/undotree
   */
   undotree = buildVimPlugin {
