@@ -1521,9 +1521,6 @@
 - owner: niuiic
   repo: format.nvim
   name: format-nvim-niuiic
-- owner: wsdjeg
-  repo: format.nvim
-  name: format-nvim-wsdjeg
 - owner: niuiic
   repo: git-log.nvim
 - owner: niuiic
@@ -2514,9 +2511,15 @@
 - owner: wsdjeg
   repo: flygrep.nvim
 - owner: wsdjeg
+  repo: format.nvim
+  name: format-nvim-wsdjeg
+- owner: wsdjeg
   repo: nvim-plug
 - owner: wsdjeg
   repo: rooter.nvim
+- owner: wsdjeg
+  repo: scrollbar.nvim
+  name: scrollbar-nvim-wsdjeg
 - owner: wurli
   repo: split.nvim
 - owner: wurli
@@ -2540,15 +2543,14 @@
 - owner: Xuyuanp
   repo: scrollbar.nvim
   name: scrollbar-nvim-xuyuanp
-- owner: wsdjeg
-  repo: scrollbar.nvim
-  name: scrollbar-nvim-wsdjeg
 - owner: Xuyuanp
   repo: yanil
 - owner: XXiaoA
   repo: ns-textobject.nvim
 - owner: xzbdmw
   repo: colorful-menu.nvim
+- owner: y3owk1n
+  repo: undo-glow.nvim
 - owner: ya2s
   repo: nvim-cursorline
 - owner: ya2s

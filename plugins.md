@@ -1,4 +1,4 @@
- - Plugin count: 1271
+ - Plugin count: 1272
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -1159,6 +1159,7 @@
 | [github/kaarmu/typst.vim/typst-vim](https://github.com/kaarmu/typst.vim) | 2025-12-17 | `typst-vim` | 
 | [github/chuwy/ucm.nvim/ucm-nvim](https://github.com/chuwy/ucm.nvim) | 2023-08-23 | `ucm-nvim` | 
 | [github/altermo/ultimate-autopair.nvim/ultimate-autopair-nvim](https://github.com/altermo/ultimate-autopair.nvim) | 2025-11-05 | `ultimate-autopair-nvim` | 
+| [github/y3owk1n/undo-glow.nvim/undo-glow-nvim](https://github.com/y3owk1n/undo-glow.nvim) | 2025-12-14 | `undo-glow-nvim` | 
 | [github/mbbill/undotree/undotree](https://github.com/mbbill/undotree) | 2025-09-29 | `undotree` | 
 | [github/tummetott/unimpaired.nvim/unimpaired-nvim](https://github.com/tummetott/unimpaired.nvim) | 2025-10-16 | `unimpaired-nvim` | 
 | [github/slugbyte/unruly-worker/unruly-worker](https://github.com/slugbyte/unruly-worker.nvim) | 2025-04-02 | `unruly-worker` | 
