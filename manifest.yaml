@@ -2670,4 +2670,19 @@
   repo: lsp_lines.nvim
   repository_host: sourcehut
   commit: a92c755f182b89ea91bd8a6a2227208026f27b4d
-
+- owner: bydlw98
+  repo: blink-cmp-env
+- owner: calops
+  repo: hmts.nvim
+- owner: esmuellert
+  repo: vscode-diff.nvim
+- owner: jake-stewart
+  repo: multicursor.nvim
+- owner: saxon1964
+  repo: neovim-tips
+- owner: XXiaoA
+  repo: atone.nvim
+- owner: qwavies
+  repo: smart-backspace.nvim
+- owner: Fildo7525
+  repo: pretty_hover
