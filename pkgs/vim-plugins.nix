@@ -566,6 +566,23 @@
   };
 
   /*
+  Generated from: github/XXiaoA/atone.nvim/atone-nvim
+  */
+  atone-nvim = buildVimPlugin {
+    pname = "atone-nvim";
+    version = "2025-11-14";
+    src = fetchurl {
+      url = "https://github.com/XXiaoA/atone.nvim/archive/d1c1f08bfe23ac56536d0091c8a398938ee9db4e.tar.gz";
+      sha256 = "1js1gvjbf7v5x878smfr2zlm15sm25v752vxrvliar5by92m654v";
+    };
+    meta = with lib; {
+      description = "Modern undotree plugin for nvim";
+      homepage = "https://github.com/XXiaoA/atone.nvim";
+      license = with licenses; [gpl3Only];
+    };
+  };
+
+  /*
   Generated from: github/m-demare/attempt.nvim/attempt-nvim
   */
   attempt-nvim = buildVimPlugin {
@@ -1071,6 +1088,23 @@
     meta = with lib; {
       description = "Performant, batteries-included completion plugin for Neovim ";
       homepage = "https://github.com/saghen/blink.cmp";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
+  Generated from: github/bydlw98/blink-cmp-env/blink-cmp-env
+  */
+  blink-cmp-env = buildVimPlugin {
+    pname = "blink-cmp-env";
+    version = "2025-09-13";
+    src = fetchurl {
+      url = "https://github.com/bydlw98/blink-cmp-env/archive/99af62c1f9aa46005e8f50ad4ccee581946546ca.tar.gz";
+      sha256 = "1hanpfgpxqicii3lnqhx483pz86iisdrfj58jqj7dddj2xh2l9hg";
+    };
+    meta = with lib; {
+      description = "Environment variables source for blink.cmp";
+      homepage = "https://github.com/bydlw98/blink-cmp-env";
       license = with licenses; [mit];
     };
   };
@@ -6822,6 +6856,23 @@
   };
 
   /*
+  Generated from: github/calops/hmts.nvim/hmts-nvim
+  */
+  hmts-nvim = buildVimPlugin {
+    pname = "hmts-nvim";
+    version = "2025-06-11";
+    src = fetchurl {
+      url = "https://github.com/calops/hmts.nvim/archive/a32cd413f7d0a69d7f3d279c631f20cb117c8d30.tar.gz";
+      sha256 = "19znf65pk9978gc0m92ncmyl60jykqni97avnpnpd0cb1lrrahr5";
+    };
+    meta = with lib; {
+      description = "Custom treesitter queries for Home Manager nix files, in Neovim";
+      homepage = "https://github.com/calops/hmts.nvim";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
   Generated from: github/edluffy/hologram.nvim/hologram-nvim
   */
   hologram-nvim = buildVimPlugin {
@@ -9797,6 +9848,23 @@
   };
 
   /*
+  Generated from: github/jake-stewart/multicursor.nvim/multicursor-nvim
+  */
+  multicursor-nvim = buildVimPlugin {
+    pname = "multicursor-nvim";
+    version = "2025-12-22";
+    src = fetchurl {
+      url = "https://github.com/jake-stewart/multicursor.nvim/archive/c982cc8375f062e9f98e96a408e0f7ad0c80d4db.tar.gz";
+      sha256 = "0y1zhhi620ny1az9xz4yxxz9iw99ii3lj5ackfp6ayq30sw236by";
+    };
+    meta = with lib; {
+      description = "multiple cursors in neovim";
+      homepage = "https://github.com/jake-stewart/multicursor.nvim";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
   Generated from: github/niuiic/multiple-session.nvim/multiple-session-nvim
   */
   multiple-session-nvim = buildVimPlugin {
@@ -10609,6 +10677,23 @@
       description = "A statefull task manager focused on integration with build systems.";
       homepage = "https://github.com/Shatur/neovim-tasks";
       license = with licenses; [gpl3Only];
+    };
+  };
+
+  /*
+  Generated from: github/saxon1964/neovim-tips/neovim-tips
+  */
+  neovim-tips = buildVimPlugin {
+    pname = "neovim-tips";
+    version = "2025-12-21";
+    src = fetchurl {
+      url = "https://github.com/saxon1964/neovim-tips/archive/a43725396a81bd73afcb6a13a94ea3c842bad32f.tar.gz";
+      sha256 = "1j4x3fdgqnjdmwh9a53l8v26alkm28g2r30ma25ybl5km5d0vqj4";
+    };
+    meta = with lib; {
+      description = "Discover hundreds of Neovim tips, tricks, and shortcuts — and even add your own! You’ll also get a beautifully formatted PDF book with every tip inside.";
+      homepage = "https://github.com/saxon1964/neovim-tips";
+      license = with licenses; [cc0];
     };
   };
 
@@ -15526,6 +15611,23 @@
   };
 
   /*
+  Generated from: github/Fildo7525/pretty_hover/pretty-hover
+  */
+  pretty-hover = buildVimPlugin {
+    pname = "pretty-hover";
+    version = "2025-12-06";
+    src = fetchurl {
+      url = "https://github.com/Fildo7525/pretty_hover/archive/700f5721a3774bd7007d1b41491711411494fb47.tar.gz";
+      sha256 = "1j642dhwklawvfa6ppdbp2hvhyvirrfh78x7wdpynncr5qgvq9xn";
+    };
+    meta = with lib; {
+      description = "A small and customizable Neovim plugin for pretty printing the hover information from LSP servers";
+      homepage = "https://github.com/Fildo7525/pretty_hover";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
   Generated from: github/Kurama622/profile.nvim/profile-kurama622
   */
   profile-kurama622 = buildVimPlugin {
@@ -16949,6 +17051,23 @@
     meta = with lib; {
       description = "Send content from the current Neovim buffer to a configurable tmux pane.";
       homepage = "https://github.com/EvWilson/slimux.nvim";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
+  Generated from: github/qwavies/smart-backspace.nvim/smart-backspace-nvim
+  */
+  smart-backspace-nvim = buildVimPlugin {
+    pname = "smart-backspace-nvim";
+    version = "2025-12-11";
+    src = fetchurl {
+      url = "https://github.com/qwavies/smart-backspace.nvim/archive/12a34e281289c34e4da4c8589856a3113b58f45b.tar.gz";
+      sha256 = "09sknncfzcahgn7c59pqfmld01lxak551aa6vv28qnip8bfi30av";
+    };
+    meta = with lib; {
+      description = "Make your neovim feel more like an IDE! A super lightweight neovim plugin giving you context-aware backspace, handling pairs, whitespace and indentation.";
+      homepage = "https://github.com/qwavies/smart-backspace.nvim";
       license = with licenses; [mit];
     };
   };
@@ -20944,6 +21063,23 @@
     meta = with lib; {
       description = "A telescope plugin that runs tasks similar to VS Code's task implementation.";
       homepage = "https://github.com/EthanJWright/vs-tasks.nvim";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
+  Generated from: github/esmuellert/vscode-diff.nvim/vscode-diff-nvim
+  */
+  vscode-diff-nvim = buildVimPlugin {
+    pname = "vscode-diff-nvim";
+    version = "2025-12-20";
+    src = fetchurl {
+      url = "https://github.com/esmuellert/vscode-diff.nvim/archive/f2c6907410161f430e3301fb170fd1d2094174aa.tar.gz";
+      sha256 = "0mw5nmvzy0bswd6wzpkr8gfhmkm7qzk7vbcbl2nv016cvrrcjlj5";
+    };
+    meta = with lib; {
+      description = "A Neovim plugin that provides VSCode-style side-by-side diff rendering with two-tier highlighting (line + character level) using VSCode's algorithm implemented in C.";
+      homepage = "https://github.com/esmuellert/vscode-diff.nvim";
       license = with licenses; [mit];
     };
   };
