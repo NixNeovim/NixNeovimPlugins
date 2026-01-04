@@ -1,4 +1,4 @@
- - Plugin count: 1272
+ - Plugin count: 1273
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -874,6 +874,7 @@
 | [github/vuki656/package-info.nvim/package-info-nvim](https://github.com/vuki656/package-info.nvim) | 2025-12-27 | `package-info-nvim` | 
 | [github/wbthomason/packer.nvim/packer-nvim](https://github.com/wbthomason/packer.nvim) | 2023-08-24 | `packer-nvim` | 
 | [github/rktjmp/pact.nvim/pact-nvim](https://github.com/rktjmp/pact.nvim) | 2023-02-03 | `pact-nvim` | 
+| [github/potamides/painless-digraph/painless-digraph](https://github.com/potamides/painless-digraph) | 2021-10-06 | `painless-digraph` | 
 | [github/alexmozaidze/palenight.nvim/palenight-nvim](https://github.com/alexmozaidze/palenight.nvim) | 2025-12-29 | `palenight-nvim` | 
 | [github/roobert/palette.nvim/palette-nvim](https://github.com/roobert/palette.nvim) | 2023-10-02 | `palette-nvim` | 
 | [github/potamides/pantran.nvim/pantran-nvim](https://github.com/potamides/pantran.nvim) | 2025-04-07 | `pantran-nvim` | 

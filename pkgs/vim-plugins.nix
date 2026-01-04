@@ -14829,6 +14829,23 @@
   };
 
   /*
+  Generated from: github/potamides/painless-digraph/painless-digraph
+  */
+  painless-digraph = buildVimPlugin {
+    pname = "painless-digraph";
+    version = "2021-10-06";
+    src = fetchurl {
+      url = "https://github.com/potamides/painless-digraph/archive/6637746be695d604891a32bdae846845fdb39366.tar.gz";
+      sha256 = "1g9w0dwzkwqf63z5mw4nw34qy03jbvl0rz2yjxn4w5mnc4c2wrx6";
+    };
+    meta = with lib; {
+      description = "Enter a sequence of vim digraphs with ease!";
+      homepage = "https://github.com/potamides/painless-digraph";
+      license = with licenses; [gpl3Only];
+    };
+  };
+
+  /*
   Generated from: github/alexmozaidze/palenight.nvim/palenight-nvim
   */
   palenight-nvim = buildVimPlugin {
