@@ -1833,6 +1833,8 @@
   repo: cmp-vimwiki-tags
 - owner: potamides
   repo: pantran.nvim
+- owner: potamides
+  repo: painless-digraph
 - owner: preservim
   repo: nerdcommenter
 - owner: prichrd
@@ -2670,4 +2672,3 @@
   repo: lsp_lines.nvim
   repository_host: sourcehut
   commit: a92c755f182b89ea91bd8a6a2227208026f27b4d
-
