@@ -290,8 +290,12 @@
   repo: nvim-highlight-colors
 - owner: brianaung
   repo: compl.nvim
+- owner: bydlw98
+  repo: blink-cmp-env
 - owner: calind
   repo: selenized.nvim
+- owner: calops
+  repo: hmts.nvim
 - owner: CamdenClark
   repo: flyboy
 - owner: camspiers
@@ -596,6 +600,8 @@
   repo: nvim-dev-container
 - owner: esmuellert
   repo: nvim-eslint
+- owner: esmuellert
+  repo: vscode-diff.nvim
 - owner: ethanholz
   repo: nvim-lastplace
 - owner: EthanJWright
@@ -640,6 +646,8 @@
   repo: falcon
 - owner: figsoda
   repo: nix-develop.nvim
+- owner: Fildo7525
+  repo: pretty_hover
 - owner: filipdutescu
   repo: renamer.nvim
 - owner: fnune
@@ -899,6 +907,8 @@
   repo: buffer_manager.nvim
 - owner: jackMort
   repo: ChatGPT.nvim
+- owner: jake-stewart
+  repo: multicursor.nvim
 - owner: jakewvincent
   repo: mkdnflow.nvim
 - owner: jakewvincent
@@ -1481,9 +1491,9 @@
   repo: nvim-mdlink
 - owner: neko-night
   repo: nvim
+  name: neko-night
 - owner: neko-night
   repo: nvim
-  name: neko-night
 - owner: nekonako
   repo: xresources-nvim
 - owner: neo451
@@ -1866,6 +1876,8 @@
   repo: timespent.nvim
 - owner: quolpr
   repo: quicktest.nvim
+- owner: qwavies
+  repo: smart-backspace.nvim
 - owner: rachartier
   repo: tiny-code-action.nvim
 - owner: rachartier
@@ -2089,6 +2101,8 @@
   repo: melange-nvim
 - owner: savq
   repo: paq-nvim
+- owner: saxon1964
+  repo: neovim-tips
 - owner: sbdchd
   repo: neoformat
 - owner: scalameta
@@ -2547,6 +2561,8 @@
   name: scrollbar-nvim-xuyuanp
 - owner: Xuyuanp
   repo: yanil
+- owner: XXiaoA
+  repo: atone.nvim
 - owner: XXiaoA
   repo: ns-textobject.nvim
 - owner: xzbdmw
