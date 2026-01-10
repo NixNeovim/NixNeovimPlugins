@@ -4,9 +4,13 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     flake-utils.url = "github:numtide/flake-utils";
+    pyproject-nix = {
+      url = "github:nix-community/pyproject.nix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
-  outputs = { self, nixpkgs, flake-utils }:
+  outputs = { self, nixpkgs, flake-utils, pyproject-nix }:
     let
       inherit (flake-utils.lib)
         eachSystem
@@ -23,20 +27,22 @@
           overlays = [ self.overlays.default ];
         };
 
-        inherit (pkgs)
-          callPackage;
+        python = pkgs.python313;
 
+        project = pyproject-nix.lib.project.loadPyproject {
+          projectRoot = ./.;
+        };
 
-        # inherit (poetry2nix.legacyPackages.${system})
-        #   mkPoetryApplication;
-
-        # update-vim-plugins = callPackage ./pkgs/update-vim-plugins.nix { inherit mkPoetryApplication; };
+        cli = project.renderers.buildPythonPackage {
+          inherit python;
+        };
 
       in {
 
-        # apps.default = mkApp {
-        #   drv = update-vim-plugins;
-        # };
+        packages = {
+          default = python.pkgs.buildPythonPackage cli;
+          cli = python.pkgs.buildPythonPackage cli;
+        };
 
         devShells = {
           default = pkgs.mkShell {
