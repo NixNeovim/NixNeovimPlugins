@@ -37,6 +37,10 @@ class VimPlugin:
 
         return f"{self.repository_host}/{self.owner}/{self.repo}/{self.name}"
 
+    @property
+    def pkgs_name(self) -> str:
+        return f"{self.name}-{self.owner}"
+
     def to_nix(self):
         """Return the nix expression for this plugin."""
         meta = f'with lib; {{ description = "{self.description}"; homepage = "{self.homepage}"; license = with licenses; [ {self.license.value} ]; }}'
@@ -48,8 +52,8 @@ class VimPlugin:
 
         return f'''
             /* Generated from: {self.id} */
-            {self.name} = {warning} buildVimPlugin {{
-                pname = "{self.name}";
+            {self.pkgs_name} = {warning} buildVimPlugin {{
+                pname = "{self.pkgs_name}";
                 version = "{self.version}";
                 src = {self.source.get_nix_expression()};
                 meta = {meta};
@@ -64,9 +68,9 @@ class VimPlugin:
         return jsonpickle.encode(self)
 
     def to_markdown(self):
-        link = f"[{self.id}]({self.homepage})"
+        link = f"[{self.name} ({self.owner})]({self.homepage})"
         version = f"{self.version}"
-        package_name = f"{self.name}"
+        package_name = f"{self.pkgs_name}"
 
         warning = f"{self.warning or ''}"
 
