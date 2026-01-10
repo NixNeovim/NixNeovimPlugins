@@ -1,5 +1,3 @@
-- owner: barthap
-  repo: react-compiler-marker.nvim
 - owner: 00sapo
   repo: visual.nvim
 - owner: 0styx0
@@ -292,6 +290,8 @@
 - owner: bartekjaszczak
   repo: luma-nvim
   repository_host: gitlab
+- owner: barthap
+  repo: react-compiler-marker.nvim
 - owner: bassamsdata
   repo: namu.nvim
 - owner: Beargruug
@@ -1783,9 +1783,9 @@
   repo: nvim-mdlink
 - owner: neko-night
   repo: nvim
-  name: neko-night
 - owner: neko-night
   repo: nvim
+  name: neko-night
 - owner: nekonako
   repo: xresources-nvim
 - owner: neo451
