@@ -330,8 +330,8 @@
 | [easypick-nvim (axkirillov)](https://github.com/axkirillov/easypick.nvim) | 2025-04-26 | `easypick-nvim-axkirillov` | 
 | [easytables-nvim (Myzel394)](https://github.com/Myzel394/easytables.nvim) | 2025-11-02 | `easytables-nvim-Myzel394` | 
 | [echo-nvim (melMass)](https://github.com/melMass/echo.nvim) | 2025-11-26 | `echo-nvim-melMass` | 
-| [ecolog-nvim (philosofonusus)](https://github.com/ph1losof/ecolog.nvim) | 2025-12-10 | `ecolog-nvim-philosofonusus` | 
 | [ecolog-nvim (ph1losof)](https://github.com/ph1losof/ecolog.nvim) | 2025-12-10 | `ecolog-nvim-ph1losof` | 
+| [ecolog-nvim (philosofonusus)](https://github.com/ph1losof/ecolog.nvim) | 2025-12-10 | `ecolog-nvim-philosofonusus` | 
 | [edge (sainnhe)](https://github.com/sainnhe/edge) | 2026-01-04 | `edge-sainnhe` | 
 | [edgy-nvim (folke)](https://github.com/folke/edgy.nvim) | 2025-10-28 | `edgy-nvim-folke` | 
 | [edit-markdown-table-nvim (kiran94)](https://github.com/kiran94/edit-markdown-table.nvim) | 2023-05-28 | `edit-markdown-table-nvim-kiran94` | 
@@ -366,8 +366,8 @@
 | [finale-nvim (bartekjaszczak)](https://gitlab.com/bartekjaszczak/finale-nvim) | 2025-08-15 | `finale-nvim-bartekjaszczak` | 
 | [fine-cmdline-nvim (vonheikemen)](https://github.com/VonHeikemen/fine-cmdline.nvim) | 2025-06-15 | `fine-cmdline-nvim-vonheikemen` | 
 | [firenvim (glacambre)](https://github.com/glacambre/firenvim) | 2025-09-30 | `firenvim-glacambre` | 
-| [Fknotes-nvim (the-mayankjha)](https://github.com/the-mayankjha/Fknotes.nvim) | 2025-10-16 | `Fknotes-nvim-the-mayankjha` | 
 | [Fknotes-nvim (flashcodes-themayankjha)](https://github.com/the-mayankjha/Fknotes.nvim) | 2025-10-16 | `Fknotes-nvim-flashcodes-themayankjha` | 
+| [Fknotes-nvim (the-mayankjha)](https://github.com/the-mayankjha/Fknotes.nvim) | 2025-10-16 | `Fknotes-nvim-the-mayankjha` | 
 | [fkthemes-nvim (flashcodes-themayankjha)](https://github.com/the-mayankjha/fkthemes.nvim) | 2025-11-14 | `fkthemes-nvim-flashcodes-themayankjha` | 
 | [fkthemes-nvim (the-mayankjha)](https://github.com/the-mayankjha/fkthemes.nvim) | 2025-11-14 | `fkthemes-nvim-the-mayankjha` | 
 | [flash-nvim (folke)](https://github.com/folke/flash.nvim) | 2025-10-28 | `flash-nvim-folke` | 
@@ -414,8 +414,8 @@
 | [gentags-lua (JMarkin)](https://github.com/JMarkin/gentags.lua) | 2025-08-21 | `gentags-lua-JMarkin` | 
 | [gentags-nvim (linrongbin16)](https://github.com/linrongbin16/gentags.nvim) | 2025-08-20 | `gentags-nvim-linrongbin16` | 
 | [gesture-nvim (notomo)](https://github.com/notomo/gesture.nvim) | 2025-10-08 | `gesture-nvim-notomo` | 
-| [gh-actions-nvim (topaxi)](https://github.com/topaxi/pipeline.nvim) | 2025-12-18 | `gh-actions-nvim-topaxi` | 
 | [gh-actions-nvim (Hdoc1509)](https://github.com/Hdoc1509/gh-actions.nvim) | 2025-12-16 | `gh-actions-nvim-Hdoc1509` | 
+| [gh-actions-nvim (topaxi)](https://github.com/topaxi/pipeline.nvim) | 2025-12-18 | `gh-actions-nvim-topaxi` | 
 | [gh-co-nvim (comatory)](https://github.com/comatory/gh-co.nvim) | 2025-12-28 | `gh-co-nvim-comatory` | 
 | [gh-nvim (ldelossa)](https://github.com/ldelossa/gh.nvim) | 2025-01-21 | `gh-nvim-ldelossa` | 
 | [ghostty-nvim (isak102)](https://github.com/isak102/ghostty.nvim) | 2025-01-04 | `ghostty-nvim-isak102` | 
@@ -686,8 +686,8 @@
 | [midnight-nvim (dasupradyumna)](https://github.com/dasupradyumna/midnight.nvim) | 2024-11-01 | `midnight-nvim-dasupradyumna` | 
 | [min-theme-nvim (datsfilipe)](https://github.com/datsfilipe/min-theme.nvim) | 2024-08-03 | `min-theme-nvim-datsfilipe` | 
 | [mind-nvim (hadronized)](https://github.com/hadronized/mind.nvim) | 2023-03-22 | `mind-nvim-hadronized` | 
-| [mini-nvim (nvim-mini)](https://github.com/nvim-mini/mini.nvim) | 2026-01-09 | `mini-nvim-nvim-mini` | 
 | [mini-nvim (echasnovski)](https://github.com/nvim-mini/mini.nvim) | 2026-01-06 | `mini-nvim-echasnovski` | 
+| [mini-nvim (nvim-mini)](https://github.com/nvim-mini/mini.nvim) | 2026-01-09 | `mini-nvim-nvim-mini` | 
 | [MiniDYM (Penaz91)](https://github.com/Penaz91/MiniDYM) | 2025-08-05 | `MiniDYM-Penaz91` | 
 | [minimal-nvim (yazeed1s)](https://github.com/yazeed1s/minimal.nvim) | 2022-11-03 | `minimal-nvim-yazeed1s` | 
 | [minty (nvzone)](https://github.com/nvzone/minty) | 2025-02-28 | `minty-nvzone` | 
@@ -1131,8 +1131,8 @@
 | [revman-nvim (3ZsForInsomnia)](https://github.com/3ZsForInsomnia/revman.nvim) | 2025-11-17 | `revman-nvim-3ZsForInsomnia` | 
 | [rgflow-nvim (mangelozzi)](https://github.com/mangelozzi/rgflow.nvim) | 2025-08-11 | `rgflow-nvim-mangelozzi` | 
 | [rnvimr (kevinhwang91)](https://github.com/kevinhwang91/rnvimr) | 2025-08-03 | `rnvimr-kevinhwang91` | 
-| [rocks-nvim (nvim-neorocks)](https://github.com/lumen-oss/rocks.nvim) | 2026-01-04 | `rocks-nvim-nvim-neorocks` | 
 | [rocks-nvim (lumen-oss)](https://github.com/lumen-oss/rocks.nvim) | 2026-01-04 | `rocks-nvim-lumen-oss` | 
+| [rocks-nvim (nvim-neorocks)](https://github.com/lumen-oss/rocks.nvim) | 2026-01-04 | `rocks-nvim-nvim-neorocks` | 
 | [ronny-nvim (judaew)](https://github.com/judaew/ronny.nvim) | 2025-11-02 | `ronny-nvim-judaew` | 
 | [root-swapper-nvim (cosmicbuffalo)](https://github.com/cosmicbuffalo/root_swapper.nvim) | 2026-01-08 | `root-swapper-nvim-cosmicbuffalo` | 
 | [rooter-nvim (wsdjeg)](https://github.com/wsdjeg/rooter.nvim) | 2025-12-03 | `rooter-nvim-wsdjeg` | 
