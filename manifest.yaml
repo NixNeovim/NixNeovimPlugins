@@ -1250,8 +1250,6 @@
   repo: baleia.nvim
 - owner: m00qek
   repo: plugin-template.nvim
-- owner: m15a
-  repo: nvim-srcerite
 - owner: m4xshen
   repo: autoclose.nvim
 - owner: m4xshen
