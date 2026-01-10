@@ -1,4 +1,4 @@
- - Plugin count: 1508
+ - Plugin count: 1509
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -366,10 +366,10 @@
 | [finale-nvim (bartekjaszczak)](https://gitlab.com/bartekjaszczak/finale-nvim) | 2025-08-15 | `finale-nvim-bartekjaszczak` | 
 | [fine-cmdline-nvim (vonheikemen)](https://github.com/VonHeikemen/fine-cmdline.nvim) | 2025-06-15 | `fine-cmdline-nvim-vonheikemen` | 
 | [firenvim (glacambre)](https://github.com/glacambre/firenvim) | 2025-09-30 | `firenvim-glacambre` | 
-| [Fknotes-nvim (flashcodes-themayankjha)](https://github.com/the-mayankjha/Fknotes.nvim) | 2025-10-16 | `Fknotes-nvim-flashcodes-themayankjha` | 
 | [Fknotes-nvim (the-mayankjha)](https://github.com/the-mayankjha/Fknotes.nvim) | 2025-10-16 | `Fknotes-nvim-the-mayankjha` | 
-| [fkthemes-nvim (flashcodes-themayankjha)](https://github.com/the-mayankjha/fkthemes.nvim) | 2025-11-14 | `fkthemes-nvim-flashcodes-themayankjha` | 
+| [Fknotes-nvim (flashcodes-themayankjha)](https://github.com/the-mayankjha/Fknotes.nvim) | 2025-10-16 | `Fknotes-nvim-flashcodes-themayankjha` | 
 | [fkthemes-nvim (the-mayankjha)](https://github.com/the-mayankjha/fkthemes.nvim) | 2025-11-14 | `fkthemes-nvim-the-mayankjha` | 
+| [fkthemes-nvim (flashcodes-themayankjha)](https://github.com/the-mayankjha/fkthemes.nvim) | 2025-11-14 | `fkthemes-nvim-flashcodes-themayankjha` | 
 | [flash-nvim (folke)](https://github.com/folke/flash.nvim) | 2025-10-28 | `flash-nvim-folke` | 
 | [flatten-nvim (willothy)](https://github.com/willothy/flatten.nvim) | 2025-05-27 | `flatten-nvim-willothy` | 
 | [flemma-nvim (Flemma-Dev)](https://github.com/Flemma-Dev/flemma.nvim) | 2025-11-25 | `flemma-nvim-Flemma-Dev` | 
@@ -405,8 +405,8 @@
 | [fzfx-nvim (linrongbin16)](https://github.com/linrongbin16/fzfx.nvim) | 2025-08-23 | `fzfx-nvim-linrongbin16` | 
 | [galaxyline-nvim (NTBBloodbath)](https://github.com/NTBBloodbath/galaxyline.nvim) | 2022-01-21 | `galaxyline-nvim-NTBBloodbath` | 
 | [garbage-day-nvim (Zeioth)](https://github.com/Zeioth/garbage-day.nvim) | 2025-09-16 | `garbage-day-nvim-Zeioth` | 
-| [gardenal (bgcicca)](https://github.com/thebigcicca/gardenal) | 2024-10-31 | `gardenal-bgcicca` | 
 | [gardenal (thebigcicca)](https://github.com/thebigcicca/gardenal) | 2024-10-31 | `gardenal-thebigcicca` | 
+| [gardenal (bgcicca)](https://github.com/thebigcicca/gardenal) | 2024-10-31 | `gardenal-bgcicca` | 
 | [gbprod-nord-nvim (gbprod)](https://github.com/gbprod/nord.nvim) | 2025-10-15 | `gbprod-nord-nvim-gbprod` | 
 | [gem-install-nvim (cosmicbuffalo)](https://github.com/cosmicbuffalo/gem_install.nvim) | 2026-01-06 | `gem-install-nvim-cosmicbuffalo` | 
 | [gemini-nvim (kiddos)](https://github.com/kiddos/gemini.nvim) | 2025-11-29 | `gemini-nvim-kiddos` | 
@@ -557,8 +557,8 @@
 | [jupynium-nvim (kiyoon)](https://github.com/kiyoon/jupynium.nvim) | 2025-12-26 | `jupynium-nvim-kiyoon` | 
 | [jupyter-ascending (untitled-ai)](https://github.com/imbue-ai/jupyter_ascending) | 2023-10-06 | `jupyter-ascending-untitled-ai` | 
 | [jupytext-nvim (GCBallesteros)](https://github.com/GCBallesteros/jupytext.nvim) | 2024-04-05 | `jupytext-nvim-GCBallesteros` | 
-| [just-nvim (al1-ce)](https://github.com/nxuv/just.nvim) | 2025-12-29 | `just-nvim-al1-ce` | 
 | [just-nvim (nxuv)](https://github.com/nxuv/just.nvim) | 2025-12-29 | `just-nvim-nxuv` | 
+| [just-nvim (al1-ce)](https://github.com/nxuv/just.nvim) | 2025-12-29 | `just-nvim-al1-ce` | 
 | [kanagawa-nvim (rebelot)](https://github.com/rebelot/kanagawa.nvim) | 2025-10-15 | `kanagawa-nvim-rebelot` | 
 | [kanagawa-paper-nvim (thesimonho)](https://github.com/thesimonho/kanagawa-paper.nvim) | 2026-01-05 | `kanagawa-paper-nvim-thesimonho` | 
 | [karen-yank-nvim (tenxsoydev)](https://github.com/tenxsoydev/karen-yank.nvim) | 2023-07-29 | `karen-yank-nvim-tenxsoydev` | 
@@ -1108,6 +1108,7 @@
 | [rasmus-nvim (kvrohit)](https://github.com/kvrohit/rasmus.nvim) | 2024-11-12 | `rasmus-nvim-kvrohit` | 
 | [rayso-nvim (TobinPalmer)](https://github.com/TobinPalmer/rayso.nvim) | 2025-11-15 | `rayso-nvim-TobinPalmer` | 
 | [reach-nvim (toppair)](https://github.com/toppair/reach.nvim) | 2022-11-21 | `reach-nvim-toppair` | 
+| [react-compiler-badge-nvim (ycycwx)](https://github.com/ycycwx/react-compiler-badge.nvim) | 2025-12-03 | `react-compiler-badge-nvim-ycycwx` | 
 | [react-compiler-marker-nvim (barthap)](https://github.com/barthap/react-compiler-marker.nvim) | 2025-12-14 | `react-compiler-marker-nvim-barthap` | 
 | [reactive-nvim (rasulomaroff)](https://github.com/rasulomaroff/reactive.nvim) | 2025-12-30 | `reactive-nvim-rasulomaroff` | 
 | [readonly-nvim (bgaillard)](https://github.com/bgaillard/readonly.nvim) | 2025-07-11 | `readonly-nvim-bgaillard` | 
