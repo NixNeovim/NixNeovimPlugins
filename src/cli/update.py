@@ -12,6 +12,7 @@ from dataclasses import dataclass
 from .plugin import plugin_from_spec, VimPlugin
 
 from .helpers import *
+from .mylogging import logger
 
 import json
 import jsonpickle
@@ -279,7 +280,7 @@ class UpdateCommand(Command):
         # not favor those at the start of the list
         shuffle(spec_list)
 
-        with ThreadPoolExecutor() as executor:
+        with ThreadPoolExecutor(1) as executor:
             futures = [executor.submit(self.generate_plugin, spec, i, size) for i, spec in enumerate(spec_list)]
             results = [future.result() for future in as_completed(futures)]
 

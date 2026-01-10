@@ -5,6 +5,7 @@ import jsonpickle
 from pprint import pprint
 
 from .helpers import *
+from .mylogging import logger
 
 class RegenerateCommand(Command):
     name = "regenerate"

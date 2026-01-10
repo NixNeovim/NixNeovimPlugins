@@ -11,6 +11,8 @@ from dateparser import parse
 from .nix import GitSource, License, Source, UrlSource
 from .spec import PluginSpec, RepositoryHost
 
+from .mylogging import logger
+
 
 logger = logging.getLogger(__name__)
 
@@ -85,8 +87,11 @@ class VimPlugin:
 
 
     def __lt__(self, o: object) -> bool:
+        logger.info("Comparing plugins")
         if not isinstance(o, VimPlugin):
             return False
+
+        logger.info("test")
 
         return self.name.lower() < o.name.lower()
 

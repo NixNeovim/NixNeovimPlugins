@@ -5,6 +5,7 @@ import subprocess
 from collections import defaultdict
 
 from .plugin import VimPlugin
+from .mylogging import logger
 
 #  MANIFEST_FILE = "./manifest.txt"
 MANIFEST_YAML = "./manifest.yaml"
@@ -59,7 +60,10 @@ def write_blocklist_yaml_from_spec(specs: list[PluginSpec]):
     #  return sorted(specs)
 
 def write_plugins_nix(plugins: list[VimPlugin]):
+    logger.info("presort")
+    breakpoint()
     plugins.sort()
+    logger.info("post")
 
     header = "{ lib, buildVimPlugin, fetchurl, fetchgit }: {"
     footer = "}"
