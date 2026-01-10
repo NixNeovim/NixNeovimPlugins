@@ -176,16 +176,17 @@ class UpdateCommand(Command):
         with open(JSON_FILE, "w") as json_file:
             json.dump(data, json_file, indent=2, sort_keys=True)
 
-    def check_duplicates(self, plugins):
+    def check_duplicates(self, plugins: list[VimPlugin]):
         """check for duplicates in proccesed_plugins"""
 
         # keys that will be removed at the end
         removed_keys = []
 
         error = False
+
         for i, plugin in enumerate(plugins):
             for j, p in enumerate(plugins[i+1:]):
-                if plugin.name.lower() == p.name.lower():
+                if plugin.pkgs_name.lower() == p.pkgs_name.lower():
 
                     # check url of 'plugin'
                     plugin_url = f"https://github.com/{plugin.owner}/{plugin.repo}"

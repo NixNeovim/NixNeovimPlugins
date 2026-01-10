@@ -7,8 +7,8 @@
   /*
   Generated from: github/0styx0/abbreinder.nvim/abbreinder-nvim
   */
-  abbreinder-nvim = buildVimPlugin {
-    pname = "abbreinder-nvim";
+  abbreinder-nvim-0styx0 = buildVimPlugin {
+    pname = "abbreinder-nvim-0styx0";
     version = "2022-04-28";
     src = fetchurl {
       url = "https://github.com/0styx0/abbreinder.nvim/archive/5b2b5ff08a9ada42238d733aeebc6d3d96314d77.tar.gz";
@@ -24,8 +24,8 @@
   /*
   Generated from: github/0styx0/abbremand.nvim/abbremand-nvim
   */
-  abbremand-nvim = buildVimPlugin {
-    pname = "abbremand-nvim";
+  abbremand-nvim-0styx0 = buildVimPlugin {
+    pname = "abbremand-nvim-0styx0";
     version = "2022-01-16";
     src = fetchurl {
       url = "https://github.com/0styx0/abbremand.nvim/archive/d633341f632b0b2666dfc6dfe6b9842ba1610a1d.tar.gz";
@@ -41,8 +41,8 @@
   /*
   Generated from: github/Abstract-IDE/Abstract-cs/Abstract-cs
   */
-  Abstract-cs = buildVimPlugin {
-    pname = "Abstract-cs";
+  Abstract-cs-Abstract-IDE = buildVimPlugin {
+    pname = "Abstract-cs-Abstract-IDE";
     version = "2025-06-30";
     src = fetchurl {
       url = "https://github.com/Abstract-IDE/Abstract-cs/archive/94e77787c0380fed9944e6f57c3db00e79d69fdb.tar.gz";
@@ -58,8 +58,8 @@
   /*
   Generated from: github/roobert/action-hints.nvim/action-hints-nvim
   */
-  action-hints-nvim = buildVimPlugin {
-    pname = "action-hints-nvim";
+  action-hints-nvim-roobert = buildVimPlugin {
+    pname = "action-hints-nvim-roobert";
     version = "2023-09-09";
     src = fetchurl {
       url = "https://github.com/roobert/action-hints.nvim/archive/ab10fef255dd4bc933c92d8f9969828f2f856e71.tar.gz";
@@ -75,8 +75,8 @@
   /*
   Generated from: github/aznhe21/actions-preview.nvim/actions-preview-nvim
   */
-  actions-preview-nvim = buildVimPlugin {
-    pname = "actions-preview-nvim";
+  actions-preview-nvim-aznhe21 = buildVimPlugin {
+    pname = "actions-preview-nvim-aznhe21";
     version = "2025-10-03";
     src = fetchurl {
       url = "https://github.com/aznhe21/actions-preview.nvim/archive/cb938c25edaac38d362555f19244a9cb85d561e8.tar.gz";
@@ -92,8 +92,8 @@
   /*
   Generated from: github/roobert/activate.nvim/activate-nvim
   */
-  activate-nvim = buildVimPlugin {
-    pname = "activate-nvim";
+  activate-nvim-roobert = buildVimPlugin {
+    pname = "activate-nvim-roobert";
     version = "2026-01-08";
     src = fetchurl {
       url = "https://github.com/roobert/activate.nvim/archive/23137a3a8a330e63367acade663d823ae3009ac0.tar.gz";
@@ -109,8 +109,8 @@
   /*
   Generated from: github/mong8se/actually.nvim/actually-nvim
   */
-  actually-nvim = buildVimPlugin {
-    pname = "actually-nvim";
+  actually-nvim-mong8se = buildVimPlugin {
+    pname = "actually-nvim-mong8se";
     version = "2025-10-13";
     src = fetchurl {
       url = "https://github.com/mong8se/actually.nvim/archive/3740b81196e895e3db01f34a0afcb79a4a9bc475.tar.gz";
@@ -126,8 +126,8 @@
   /*
   Generated from: github/MaximilianLloyd/adjacent.nvim/adjacent-nvim
   */
-  adjacent-nvim = buildVimPlugin {
-    pname = "adjacent-nvim";
+  adjacent-nvim-MaximilianLloyd = buildVimPlugin {
+    pname = "adjacent-nvim-MaximilianLloyd";
     version = "2023-02-28";
     src = fetchurl {
       url = "https://github.com/MaximilianLloyd/adjacent.nvim/archive/a555ab92d61aa6fbbfa1bfaef4633b663563f04e.tar.gz";
@@ -143,8 +143,8 @@
   /*
   Generated from: github/aaronhallaert/advanced-git-search.nvim/advanced-git-search-nvim
   */
-  advanced-git-search-nvim = buildVimPlugin {
-    pname = "advanced-git-search-nvim";
+  advanced-git-search-nvim-aaronhallaert = buildVimPlugin {
+    pname = "advanced-git-search-nvim-aaronhallaert";
     version = "2025-12-09";
     src = fetchurl {
       url = "https://github.com/aaronhallaert/advanced-git-search.nvim/archive/cead1214709226bdef89093f0c58964fb65c81e8.tar.gz";
@@ -160,8 +160,8 @@
   /*
   Generated from: github/Mofiqul/adwaita.nvim/adwaita-nvim
   */
-  adwaita-nvim = buildVimPlugin {
-    pname = "adwaita-nvim";
+  adwaita-nvim-Mofiqul = buildVimPlugin {
+    pname = "adwaita-nvim-Mofiqul";
     version = "2026-01-07";
     src = fetchurl {
       url = "https://github.com/Mofiqul/adwaita.nvim/archive/93f3bed009f7fc4c57f8d710880b6cab9e0b0d15.tar.gz";
@@ -177,8 +177,8 @@
   /*
   Generated from: github/stevearc/aerial.nvim/aerial-nvim
   */
-  aerial-nvim = buildVimPlugin {
-    pname = "aerial-nvim";
+  aerial-nvim-stevearc = buildVimPlugin {
+    pname = "aerial-nvim-stevearc";
     version = "2025-12-30";
     src = fetchurl {
       url = "https://github.com/stevearc/aerial.nvim/archive/da0ceef62eb58b9bec1975017beb2f28c3b1e72c.tar.gz";
@@ -194,8 +194,8 @@
   /*
   Generated from: github/desdic/agrolens.nvim/agrolens-nvim
   */
-  agrolens-nvim = buildVimPlugin {
-    pname = "agrolens-nvim";
+  agrolens-nvim-desdic = buildVimPlugin {
+    pname = "agrolens-nvim-desdic";
     version = "2026-01-04";
     src = fetchurl {
       url = "https://github.com/desdic/agrolens.nvim/archive/ee167a6659f13609a33fb796b702f5674fa085d5.tar.gz";
@@ -211,8 +211,8 @@
   /*
   Generated from: github/yagiziskirik/AirSupport.nvim/AirSupport-nvim
   */
-  AirSupport-nvim = buildVimPlugin {
-    pname = "AirSupport-nvim";
+  AirSupport-nvim-yagiziskirik = buildVimPlugin {
+    pname = "AirSupport-nvim-yagiziskirik";
     version = "2023-05-25";
     src = fetchurl {
       url = "https://github.com/yagiziskirik/AirSupport.nvim/archive/e73a309d3097dc7e6d7c719c5d3261a1c1ea11f7.tar.gz";
@@ -228,8 +228,8 @@
   /*
   Generated from: github/bakageddy/alduin.nvim/alduin-nvim
   */
-  alduin-nvim = buildVimPlugin {
-    pname = "alduin-nvim";
+  alduin-nvim-bakageddy = buildVimPlugin {
+    pname = "alduin-nvim-bakageddy";
     version = "2024-01-27";
     src = fetchurl {
       url = "https://github.com/bakageddy/alduin.nvim/archive/7fb0a2f425123565783c9cc7eed49f510e62c255.tar.gz";
@@ -245,8 +245,8 @@
   /*
   Generated from: github/goolord/alpha-nvim/alpha-nvim
   */
-  alpha-nvim = buildVimPlugin {
-    pname = "alpha-nvim";
+  alpha-nvim-goolord = buildVimPlugin {
+    pname = "alpha-nvim-goolord";
     version = "2025-10-28";
     src = fetchurl {
       url = "https://github.com/goolord/alpha-nvim/archive/3979b01cb05734331c7873049001d3f2bb8477f4.tar.gz";
@@ -262,8 +262,8 @@
   /*
   Generated from: github/anuvyklack/animation.nvim/animation-nvim
   */
-  animation-nvim = buildVimPlugin {
-    pname = "animation-nvim";
+  animation-nvim-anuvyklack = buildVimPlugin {
+    pname = "animation-nvim-anuvyklack";
     version = "2022-09-18";
     src = fetchurl {
       url = "https://github.com/anuvyklack/animation.nvim/archive/fb77091ab72ec9971aee0562e7081182527aaa6a.tar.gz";
@@ -279,8 +279,8 @@
   /*
   Generated from: github/Olical/aniseed/aniseed
   */
-  aniseed = buildVimPlugin {
-    pname = "aniseed";
+  aniseed-Olical = buildVimPlugin {
+    pname = "aniseed-Olical";
     version = "2025-06-12";
     src = fetchurl {
       url = "https://github.com/Olical/aniseed/archive/97078331cf59765613d248ca6d6c7942ebbd219b.tar.gz";
@@ -296,8 +296,8 @@
   /*
   Generated from: github/pechorin/any-jump.vim/any-jump-vim
   */
-  any-jump-vim = buildVimPlugin {
-    pname = "any-jump-vim";
+  any-jump-vim-pechorin = buildVimPlugin {
+    pname = "any-jump-vim-pechorin";
     version = "2024-03-22";
     src = fetchurl {
       url = "https://github.com/pechorin/any-jump.vim/archive/f95674d9a4251ac02f452d5f1861e4422f4652c7.tar.gz";
@@ -313,8 +313,8 @@
   /*
   Generated from: github/csessh/aoc.nvim/aoc-nvim
   */
-  aoc-nvim = buildVimPlugin {
-    pname = "aoc-nvim";
+  aoc-nvim-csessh = buildVimPlugin {
+    pname = "aoc-nvim-csessh";
     version = "2025-12-01";
     src = fetchurl {
       url = "https://github.com/csessh/aoc.nvim/archive/c8a5fc9e5d5ba65b2ea8e472c98e40ce861c3433.tar.gz";
@@ -330,8 +330,8 @@
   /*
   Generated from: github/aPeoplesCalendar/apc.nvim/apc-nvim
   */
-  apc-nvim = buildVimPlugin {
-    pname = "apc-nvim";
+  apc-nvim-aPeoplesCalendar = buildVimPlugin {
+    pname = "apc-nvim-aPeoplesCalendar";
     version = "2024-05-08";
     src = fetchurl {
       url = "https://github.com/aPeoplesCalendar/apc.nvim/archive/57bf9b3798547b6cbb3ffcb12bcdd0a3f41769ba.tar.gz";
@@ -347,8 +347,8 @@
   /*
   Generated from: github/adisen99/apprentice.nvim/apprentice-nvim
   */
-  apprentice-nvim = buildVimPlugin {
-    pname = "apprentice-nvim";
+  apprentice-nvim-adisen99 = buildVimPlugin {
+    pname = "apprentice-nvim-adisen99";
     version = "2024-01-25";
     src = fetchurl {
       url = "https://github.com/adisen99/apprentice.nvim/archive/e6cf4bcbad47433e3ff870bb2f71ef46c8b02fd4.tar.gz";
@@ -364,8 +364,8 @@
   /*
   Generated from: github/FrenzyExists/aquarium-vim/aquarium-vim
   */
-  aquarium-vim = buildVimPlugin {
-    pname = "aquarium-vim";
+  aquarium-vim-FrenzyExists = buildVimPlugin {
+    pname = "aquarium-vim-FrenzyExists";
     version = "2024-11-27";
     src = fetchurl {
       url = "https://github.com/FrenzyExists/aquarium-vim/archive/6da0091836f36f82af558f0395ea50fd5a297d6d.tar.gz";
@@ -381,8 +381,8 @@
   /*
   Generated from: github/rockyzhang24/arctic.nvim/arctic-nvim
   */
-  arctic-nvim = buildVimPlugin {
-    pname = "arctic-nvim";
+  arctic-nvim-rockyzhang24 = buildVimPlugin {
+    pname = "arctic-nvim-rockyzhang24";
     version = "2024-12-18";
     src = fetchurl {
       url = "https://github.com/rockyzhang24/arctic.nvim/archive/46da33aeb3a8ee48533f41911b3aaf4f1541dd6f.tar.gz";
@@ -398,8 +398,8 @@
   /*
   Generated from: github/dzfrias/arena.nvim/arena-nvim
   */
-  arena-nvim = buildVimPlugin {
-    pname = "arena-nvim";
+  arena-nvim-dzfrias = buildVimPlugin {
+    pname = "arena-nvim-dzfrias";
     version = "2024-12-18";
     src = fetchurl {
       url = "https://github.com/dzfrias/arena.nvim/archive/9d0987c3672ebfb39eeed8f15eb47de815d308b9.tar.gz";
@@ -415,8 +415,8 @@
   /*
   Generated from: github/jim-at-jibba/ariake.nvim/ariake-nvim
   */
-  ariake-nvim = buildVimPlugin {
-    pname = "ariake-nvim";
+  ariake-nvim-jim-at-jibba = buildVimPlugin {
+    pname = "ariake-nvim-jim-at-jibba";
     version = "2025-11-11";
     src = fetchurl {
       url = "https://github.com/jim-at-jibba/ariake.nvim/archive/8adc1779a8e86f6f9b9bf791a05f60f207170da6.tar.gz";
@@ -432,8 +432,8 @@
   /*
   Generated from: github/jim-at-jibba/ariake-vim-colors/ariake-vim-colors
   */
-  ariake-vim-colors = buildVimPlugin {
-    pname = "ariake-vim-colors";
+  ariake-vim-colors-jim-at-jibba = buildVimPlugin {
+    pname = "ariake-vim-colors-jim-at-jibba";
     version = "2024-04-21";
     src = fetchurl {
       url = "https://github.com/jim-at-jibba/ariake-vim-colors/archive/94e2c1f81f4077e0ef1f8949ff64dfa6460cde19.tar.gz";
@@ -449,8 +449,8 @@
   /*
   Generated from: github/otavioschwanck/arrow.nvim/arrow-nvim
   */
-  arrow-nvim = buildVimPlugin {
-    pname = "arrow-nvim";
+  arrow-nvim-otavioschwanck = buildVimPlugin {
+    pname = "arrow-nvim-otavioschwanck";
     version = "2025-03-31";
     src = fetchurl {
       url = "https://github.com/otavioschwanck/arrow.nvim/archive/6e0f726f55f99332dd726a53effd6813786b6d49.tar.gz";
@@ -466,8 +466,8 @@
   /*
   Generated from: github/AstroNvim/astrocore/astrocore
   */
-  astrocore = buildVimPlugin {
-    pname = "astrocore";
+  astrocore-AstroNvim = buildVimPlugin {
+    pname = "astrocore-AstroNvim";
     version = "2025-06-06";
     src = fetchurl {
       url = "https://github.com/AstroNvim/astrocore/archive/269484c17558cab87f20e7a0dbc78a0c596f76b8.tar.gz";
@@ -483,8 +483,8 @@
   /*
   Generated from: github/AstroNvim/astrolsp/astrolsp
   */
-  astrolsp = buildVimPlugin {
-    pname = "astrolsp";
+  astrolsp-AstroNvim = buildVimPlugin {
+    pname = "astrolsp-AstroNvim";
     version = "2025-09-25";
     src = fetchurl {
       url = "https://github.com/AstroNvim/astrolsp/archive/0befe28a4ea96e46b7f7c01e4a634c04225ba55a.tar.gz";
@@ -500,8 +500,8 @@
   /*
   Generated from: github/tjdevries/astronauta.nvim/astronauta-nvim
   */
-  astronauta-nvim = buildVimPlugin {
-    pname = "astronauta-nvim";
+  astronauta-nvim-tjdevries = buildVimPlugin {
+    pname = "astronauta-nvim-tjdevries";
     version = "2021-11-09";
     src = fetchurl {
       url = "https://github.com/tjdevries/astronauta.nvim/archive/edc19d30a3c51a8c3fc3f606008e5b4238821f1e.tar.gz";
@@ -517,8 +517,8 @@
   /*
   Generated from: github/AstroNvim/astrotheme/astrotheme
   */
-  astrotheme = buildVimPlugin {
-    pname = "astrotheme";
+  astrotheme-AstroNvim = buildVimPlugin {
+    pname = "astrotheme-AstroNvim";
     version = "2025-09-15";
     src = fetchurl {
       url = "https://github.com/AstroNvim/astrotheme/archive/4a2af93815e4e6adfe69c836e46047a9451de858.tar.gz";
@@ -534,8 +534,8 @@
   /*
   Generated from: github/AstroNvim/astroui/astroui
   */
-  astroui = buildVimPlugin {
-    pname = "astroui";
+  astroui-AstroNvim = buildVimPlugin {
+    pname = "astroui-AstroNvim";
     version = "2025-07-23";
     src = fetchurl {
       url = "https://github.com/AstroNvim/astroui/archive/4943abbd42674b43249313afe83b91065a40e4be.tar.gz";
@@ -551,8 +551,8 @@
   /*
   Generated from: github/skywind3000/asyncrun.vim/asyncrun-vim
   */
-  asyncrun-vim = buildVimPlugin {
-    pname = "asyncrun-vim";
+  asyncrun-vim-skywind3000 = buildVimPlugin {
+    pname = "asyncrun-vim-skywind3000";
     version = "2025-11-20";
     src = fetchurl {
       url = "https://github.com/skywind3000/asyncrun.vim/archive/98d3c0fdeb983f0ef62fe3a49da440f6d2c045ce.tar.gz";
@@ -568,8 +568,8 @@
   /*
   Generated from: github/XXiaoA/atone.nvim/atone-nvim
   */
-  atone-nvim = buildVimPlugin {
-    pname = "atone-nvim";
+  atone-nvim-XXiaoA = buildVimPlugin {
+    pname = "atone-nvim-XXiaoA";
     version = "2025-11-14";
     src = fetchurl {
       url = "https://github.com/XXiaoA/atone.nvim/archive/d1c1f08bfe23ac56536d0091c8a398938ee9db4e.tar.gz";
@@ -585,8 +585,8 @@
   /*
   Generated from: github/m-demare/attempt.nvim/attempt-nvim
   */
-  attempt-nvim = buildVimPlugin {
-    pname = "attempt-nvim";
+  attempt-nvim-m-demare = buildVimPlugin {
+    pname = "attempt-nvim-m-demare";
     version = "2025-02-04";
     src = fetchurl {
       url = "https://github.com/m-demare/attempt.nvim/archive/ab5137f6a511ee7d4d932cf9e16619656233997e.tar.gz";
@@ -602,8 +602,8 @@
   /*
   Generated from: github/ray-x/aurora/aurora
   */
-  aurora = buildVimPlugin {
-    pname = "aurora";
+  aurora-ray-x = buildVimPlugin {
+    pname = "aurora-ray-x";
     version = "2025-04-07";
     src = fetchurl {
       url = "https://github.com/ray-x/aurora/archive/8524a501e42636b8697d6630c6076058ab02de49.tar.gz";
@@ -619,8 +619,8 @@
   /*
   Generated from: github/f-person/auto-dark-mode.nvim/auto-dark-mode-nvim
   */
-  auto-dark-mode-nvim = buildVimPlugin {
-    pname = "auto-dark-mode-nvim";
+  auto-dark-mode-nvim-f-person = buildVimPlugin {
+    pname = "auto-dark-mode-nvim-f-person";
     version = "2025-08-03";
     src = fetchurl {
       url = "https://github.com/f-person/auto-dark-mode.nvim/archive/e300259ec777a40b4b9e3c8e6ade203e78d15881.tar.gz";
@@ -636,8 +636,8 @@
   /*
   Generated from: github/VidocqH/auto-indent.nvim/auto-indent-nvim
   */
-  auto-indent-nvim = buildVimPlugin {
-    pname = "auto-indent-nvim";
+  auto-indent-nvim-VidocqH = buildVimPlugin {
+    pname = "auto-indent-nvim-VidocqH";
     version = "2023-11-03";
     src = fetchurl {
       url = "https://github.com/VidocqH/auto-indent.nvim/archive/46801cf8857d42a20a73c40b0a5d3dfe8b2b6192.tar.gz";
@@ -653,8 +653,8 @@
   /*
   Generated from: github/jghauser/auto-pandoc.nvim/auto-pandoc-nvim
   */
-  auto-pandoc-nvim = buildVimPlugin {
-    pname = "auto-pandoc-nvim";
+  auto-pandoc-nvim-jghauser = buildVimPlugin {
+    pname = "auto-pandoc-nvim-jghauser";
     version = "2025-08-31";
     src = fetchurl {
       url = "https://github.com/jghauser/auto-pandoc.nvim/archive/1e28cbb1de644be466a36a009c6fd3b7950cacf7.tar.gz";
@@ -670,8 +670,8 @@
   /*
   Generated from: github/okuuva/auto-save.nvim/auto-save-nvim
   */
-  auto-save-nvim = buildVimPlugin {
-    pname = "auto-save-nvim";
+  auto-save-nvim-okuuva = buildVimPlugin {
+    pname = "auto-save-nvim-okuuva";
     version = "2025-05-24";
     src = fetchurl {
       url = "https://github.com/okuuva/auto-save.nvim/archive/37c82fd548e3f5ffc2d9d020a65dac1044584f44.tar.gz";
@@ -687,8 +687,8 @@
   /*
   Generated from: github/pocco81/auto-save.nvim/auto-save-nvim-pocco81
   */
-  auto-save-nvim-pocco81 = buildVimPlugin {
-    pname = "auto-save-nvim-pocco81";
+  auto-save-nvim-pocco81-pocco81 = buildVimPlugin {
+    pname = "auto-save-nvim-pocco81-pocco81";
     version = "2022-11-01";
     src = fetchurl {
       url = "https://github.com/pocco81/auto-save.nvim/archive/979b6c82f60cfa80f4cf437d77446d0ded0addf0.tar.gz";
@@ -704,8 +704,8 @@
   /*
   Generated from: github/rmagatti/auto-session/auto-session
   */
-  auto-session = buildVimPlugin {
-    pname = "auto-session";
+  auto-session-rmagatti = buildVimPlugin {
+    pname = "auto-session-rmagatti";
     version = "2025-10-30";
     src = fetchurl {
       url = "https://github.com/rmagatti/auto-session/archive/292492ab7af4bd8b9e37e28508bc8ce995722fd5.tar.gz";
@@ -721,8 +721,8 @@
   /*
   Generated from: github/m4xshen/autoclose.nvim/autoclose-nvim
   */
-  autoclose-nvim = buildVimPlugin {
-    pname = "autoclose-nvim";
+  autoclose-nvim-m4xshen = buildVimPlugin {
+    pname = "autoclose-nvim-m4xshen";
     version = "2025-07-21";
     src = fetchurl {
       url = "https://github.com/m4xshen/autoclose.nvim/archive/3f86702b54a861a17d7994b2e32a7c648cb12fb1.tar.gz";
@@ -738,8 +738,8 @@
   /*
   Generated from: github/deathbeam/autocomplete.nvim/autocomplete-nvim
   */
-  autocomplete-nvim = buildVimPlugin {
-    pname = "autocomplete-nvim";
+  autocomplete-nvim-deathbeam = buildVimPlugin {
+    pname = "autocomplete-nvim-deathbeam";
     version = "2025-03-13";
     src = fetchurl {
       url = "https://github.com/deathbeam/autocomplete.nvim/archive/d2e9c3277ffe43c3414952138fe9072c5194d015.tar.gz";
@@ -755,8 +755,8 @@
   /*
   Generated from: github/mateuszwieloch/automkdir.nvim/automkdir-nvim
   */
-  automkdir-nvim = buildVimPlugin {
-    pname = "automkdir-nvim";
+  automkdir-nvim-mateuszwieloch = buildVimPlugin {
+    pname = "automkdir-nvim-mateuszwieloch";
     version = "2025-03-31";
     src = fetchurl {
       url = "https://github.com/mateuszwieloch/automkdir.nvim/archive/e36da288764cc41864dc5b4e1234f1425033ce59.tar.gz";
@@ -772,8 +772,8 @@
   /*
   Generated from: github/yetone/avante.nvim/avante-nvim
   */
-  avante-nvim = buildVimPlugin {
-    pname = "avante-nvim";
+  avante-nvim-yetone = buildVimPlugin {
+    pname = "avante-nvim-yetone";
     version = "2026-01-04";
     src = fetchurl {
       url = "https://github.com/yetone/avante.nvim/archive/a27b821cc1f9fec70d7b7dc4a42c6dbd76266997.tar.gz";
@@ -789,8 +789,8 @@
   /*
   Generated from: github/antonk52/bad-practices.nvim/bad-practices-nvim
   */
-  bad-practices-nvim = buildVimPlugin {
-    pname = "bad-practices-nvim";
+  bad-practices-nvim-antonk52 = buildVimPlugin {
+    pname = "bad-practices-nvim-antonk52";
     version = "2025-04-25";
     src = fetchurl {
       url = "https://github.com/antonk52/bad-practices.nvim/archive/36a1a504ef83b36795ad6a6cd7a3f675a36365e9.tar.gz";
@@ -806,8 +806,8 @@
   /*
   Generated from: github/m00qek/baleia.nvim/baleia-nvim
   */
-  baleia-nvim = buildVimPlugin {
-    pname = "baleia-nvim";
+  baleia-nvim-m00qek = buildVimPlugin {
+    pname = "baleia-nvim-m00qek";
     version = "2024-07-24";
     src = fetchurl {
       url = "https://github.com/m00qek/baleia.nvim/archive/1b25eac3ac03659c3d3af75c7455e179e5f197f7.tar.gz";
@@ -823,8 +823,8 @@
   /*
   Generated from: github/ribru17/bamboo.nvim/bamboo-nvim
   */
-  bamboo-nvim = buildVimPlugin {
-    pname = "bamboo-nvim";
+  bamboo-nvim-ribru17 = buildVimPlugin {
+    pname = "bamboo-nvim-ribru17";
     version = "2025-11-25";
     src = fetchurl {
       url = "https://github.com/ribru17/bamboo.nvim/archive/1309bc88bffcf1bedc3e84e7fa9004de93da774a.tar.gz";
@@ -840,8 +840,8 @@
   /*
   Generated from: github/CWood-sdf/banana.nvim/banana-nvim
   */
-  banana-nvim = buildVimPlugin {
-    pname = "banana-nvim";
+  banana-nvim-CWood-sdf = buildVimPlugin {
+    pname = "banana-nvim-CWood-sdf";
     version = "2025-12-09";
     src = fetchurl {
       url = "https://github.com/CWood-sdf/banana.nvim/archive/be5694df5faeba7a060830e3df3190061b006e05.tar.gz";
@@ -857,8 +857,8 @@
   /*
   Generated from: github/romgrk/barbar.nvim/barbar-nvim
   */
-  barbar-nvim = buildVimPlugin {
-    pname = "barbar-nvim";
+  barbar-nvim-romgrk = buildVimPlugin {
+    pname = "barbar-nvim-romgrk";
     version = "2025-12-02";
     src = fetchurl {
       url = "https://github.com/romgrk/barbar.nvim/archive/539d73def39c9172b4d4d769f14090e08f37b29d.tar.gz";
@@ -874,8 +874,8 @@
   /*
   Generated from: github/utilyre/barbecue.nvim/barbecue-nvim
   */
-  barbecue-nvim = buildVimPlugin {
-    pname = "barbecue-nvim";
+  barbecue-nvim-utilyre = buildVimPlugin {
+    pname = "barbecue-nvim-utilyre";
     version = "2024-08-20";
     src = fetchurl {
       url = "https://github.com/utilyre/barbecue.nvim/archive/3e31404f0b93a2c30d151abf0648650ac811c664.tar.gz";
@@ -891,8 +891,8 @@
   /*
   Generated from: github/RRethy/base16-nvim/base16-nvim
   */
-  base16-nvim = buildVimPlugin {
-    pname = "base16-nvim";
+  base16-nvim-RRethy = buildVimPlugin {
+    pname = "base16-nvim-RRethy";
     version = "2026-01-08";
     src = fetchurl {
       url = "https://github.com/RRethy/base16-nvim/archive/c2f8107967f7b32e6de511f060def3a78c151436.tar.gz";
@@ -908,8 +908,8 @@
   /*
   Generated from: github/chriskempson/base16-vim/base16-vim
   */
-  base16-vim = buildVimPlugin {
-    pname = "base16-vim";
+  base16-vim-chriskempson = buildVimPlugin {
+    pname = "base16-vim-chriskempson";
     version = "2022-09-20";
     src = fetchurl {
       url = "https://github.com/chriskempson/base16-vim/archive/3be3cd82cd31acfcab9a41bad853d9c68d30478d.tar.gz";
@@ -925,8 +925,8 @@
   /*
   Generated from: github/aliou/bats.vim/bats-vim
   */
-  bats-vim = buildVimPlugin {
-    pname = "bats-vim";
+  bats-vim-aliou = buildVimPlugin {
+    pname = "bats-vim-aliou";
     version = "2023-04-09";
     src = fetchurl {
       url = "https://github.com/aliou/bats.vim/archive/19eb3c5a05aaa889647af8107a4518b3fb4a4711.tar.gz";
@@ -942,8 +942,8 @@
   /*
   Generated from: github/DanilaMihailov/beacon.nvim/beacon-nvim
   */
-  beacon-nvim = buildVimPlugin {
-    pname = "beacon-nvim";
+  beacon-nvim-DanilaMihailov = buildVimPlugin {
+    pname = "beacon-nvim-DanilaMihailov";
     version = "2024-06-25";
     src = fetchurl {
       url = "https://github.com/DanilaMihailov/beacon.nvim/archive/098ff96c33874339d5e61656f3050dbd587d6bd5.tar.gz";
@@ -959,8 +959,8 @@
   /*
   Generated from: github/bloznelis/before.nvim/before-nvim
   */
-  before-nvim = buildVimPlugin {
-    pname = "before-nvim";
+  before-nvim-bloznelis = buildVimPlugin {
+    pname = "before-nvim-bloznelis";
     version = "2024-10-29";
     src = fetchurl {
       url = "https://github.com/bloznelis/before.nvim/archive/187bafe2792a82d53cdb632971e4113cd703ac53.tar.gz";
@@ -976,8 +976,8 @@
   /*
   Generated from: github/sontungexpt/better-diagnostic-virtual-text/better-diagnostic-virtual-text
   */
-  better-diagnostic-virtual-text = buildVimPlugin {
-    pname = "better-diagnostic-virtual-text";
+  better-diagnostic-virtual-text-sontungexpt = buildVimPlugin {
+    pname = "better-diagnostic-virtual-text-sontungexpt";
     version = "2024-07-27";
     src = fetchurl {
       url = "https://github.com/sontungexpt/better-diagnostic-virtual-text/archive/eb3a77e714aa6c295bdb4f074fccbda637090f6e.tar.gz";
@@ -993,8 +993,8 @@
   /*
   Generated from: github/max397574/better-escape.nvim/better-escape-nvim
   */
-  better-escape-nvim = buildVimPlugin {
-    pname = "better-escape-nvim";
+  better-escape-nvim-max397574 = buildVimPlugin {
+    pname = "better-escape-nvim-max397574";
     version = "2025-04-29";
     src = fetchurl {
       url = "https://github.com/max397574/better-escape.nvim/archive/19a38aab94961016430905ebec30d272a01e9742.tar.gz";
@@ -1010,8 +1010,8 @@
   /*
   Generated from: github/typicode/bg.nvim/bg-nvim
   */
-  bg-nvim = buildVimPlugin {
-    pname = "bg-nvim";
+  bg-nvim-typicode = buildVimPlugin {
+    pname = "bg-nvim-typicode";
     version = "2024-12-16";
     src = fetchurl {
       url = "https://github.com/typicode/bg.nvim/archive/df916e4df2493ee302eea62185ed014ba7ca40d9.tar.gz";
@@ -1027,8 +1027,8 @@
   /*
   Generated from: github/Wansmer/binary-swap.nvim/binary-swap-nvim
   */
-  binary-swap-nvim = buildVimPlugin {
-    pname = "binary-swap-nvim";
+  binary-swap-nvim-Wansmer = buildVimPlugin {
+    pname = "binary-swap-nvim-Wansmer";
     version = "2023-08-06";
     src = fetchurl {
       url = "https://github.com/Wansmer/binary-swap.nvim/archive/49bcf671d6f28b46bcbd1abaed46086da48a5239.tar.gz";
@@ -1044,8 +1044,8 @@
   /*
   Generated from: github/alanfortlink/blackjack.nvim/blackjack-nvim
   */
-  blackjack-nvim = buildVimPlugin {
-    pname = "blackjack-nvim";
+  blackjack-nvim-alanfortlink = buildVimPlugin {
+    pname = "blackjack-nvim-alanfortlink";
     version = "2023-09-23";
     src = fetchurl {
       url = "https://github.com/alanfortlink/blackjack.nvim/archive/cf59e79de25b87a3ef68b92b3277c50d4b345a92.tar.gz";
@@ -1061,8 +1061,8 @@
   /*
   Generated from: github/Yu-Leo/blame-column.nvim/blame-column-nvim
   */
-  blame-column-nvim = buildVimPlugin {
-    pname = "blame-column-nvim";
+  blame-column-nvim-Yu-Leo = buildVimPlugin {
+    pname = "blame-column-nvim-Yu-Leo";
     version = "2025-04-15";
     src = fetchurl {
       url = "https://github.com/Yu-Leo/blame-column.nvim/archive/af31fdd83905d1a07a115ac28ba93bbf93940bfc.tar.gz";
@@ -1078,8 +1078,8 @@
   /*
   Generated from: github/saghen/blink.cmp/blink-cmp
   */
-  blink-cmp = buildVimPlugin {
-    pname = "blink-cmp";
+  blink-cmp-saghen = buildVimPlugin {
+    pname = "blink-cmp-saghen";
     version = "2026-01-04";
     src = fetchurl {
       url = "https://github.com/saghen/blink.cmp/archive/6a4914ca987453464a7dfc7fc237a992adb567d0.tar.gz";
@@ -1095,8 +1095,8 @@
   /*
   Generated from: github/bydlw98/blink-cmp-env/blink-cmp-env
   */
-  blink-cmp-env = buildVimPlugin {
-    pname = "blink-cmp-env";
+  blink-cmp-env-bydlw98 = buildVimPlugin {
+    pname = "blink-cmp-env-bydlw98";
     version = "2025-09-13";
     src = fetchurl {
       url = "https://github.com/bydlw98/blink-cmp-env/archive/99af62c1f9aa46005e8f50ad4ccee581946546ca.tar.gz";
@@ -1112,8 +1112,8 @@
   /*
   Generated from: github/kyazdani42/blue-moon/blue-moon
   */
-  blue-moon = buildVimPlugin {
-    pname = "blue-moon";
+  blue-moon-kyazdani42 = buildVimPlugin {
+    pname = "blue-moon-kyazdani42";
     version = "2025-05-04";
     src = fetchurl {
       url = "https://github.com/kyazdani42/blue-moon/archive/ed4ed60abeb8491d02090cea6ae2dd80046c28fc.tar.gz";
@@ -1129,8 +1129,8 @@
   /*
   Generated from: github/uloco/bluloco.nvim/bluloco-nvim
   */
-  bluloco-nvim = buildVimPlugin {
-    pname = "bluloco-nvim";
+  bluloco-nvim-uloco = buildVimPlugin {
+    pname = "bluloco-nvim-uloco";
     version = "2025-06-11";
     src = fetchurl {
       url = "https://github.com/uloco/bluloco.nvim/archive/afc95b6696a0a568a5a186a7e563f6c9947d0d79.tar.gz";
@@ -1146,8 +1146,8 @@
   /*
   Generated from: github/ariel-frischer/bmessages.nvim/bmessages-nvim
   */
-  bmessages-nvim = buildVimPlugin {
-    pname = "bmessages-nvim";
+  bmessages-nvim-ariel-frischer = buildVimPlugin {
+    pname = "bmessages-nvim-ariel-frischer";
     version = "2025-01-10";
     src = fetchurl {
       url = "https://github.com/ariel-frischer/bmessages.nvim/archive/985c6973bc27888598a03f4766a2481248a599b2.tar.gz";
@@ -1163,8 +1163,8 @@
   /*
   Generated from: github/rockerBOO/boo-colorscheme-nvim/boo-colorscheme-nvim
   */
-  boo-colorscheme-nvim = buildVimPlugin {
-    pname = "boo-colorscheme-nvim";
+  boo-colorscheme-nvim-rockerBOO = buildVimPlugin {
+    pname = "boo-colorscheme-nvim-rockerBOO";
     version = "2025-05-20";
     src = fetchurl {
       url = "https://github.com/rockerBOO/boo-colorscheme-nvim/archive/5700bbeb7ea32fe6df0b2dcfc5769b15fd4bfdda.tar.gz";
@@ -1180,8 +1180,8 @@
   /*
   Generated from: github/LukasPietzschmann/boo.nvim/boo-nvim
   */
-  boo-nvim = buildVimPlugin {
-    pname = "boo-nvim";
+  boo-nvim-LukasPietzschmann = buildVimPlugin {
+    pname = "boo-nvim-LukasPietzschmann";
     version = "2024-05-22";
     src = fetchurl {
       url = "https://github.com/LukasPietzschmann/boo.nvim/archive/926b2e92c7e4341ef5e64c7c8f3373768f5e9437.tar.gz";
@@ -1197,8 +1197,8 @@
   /*
   Generated from: github/LintaoAmons/bookmarks.nvim/bookmarks-nvim
   */
-  bookmarks-nvim = buildVimPlugin {
-    pname = "bookmarks-nvim";
+  bookmarks-nvim-LintaoAmons = buildVimPlugin {
+    pname = "bookmarks-nvim-LintaoAmons";
     version = "2025-10-24";
     src = fetchurl {
       url = "https://github.com/LintaoAmons/bookmarks.nvim/archive/6d39685485bfb95e6e8cd3441ff156562ff6fe59.tar.gz";
@@ -1214,8 +1214,8 @@
   /*
   Generated from: github/heilgar/bookmarks.nvim/bookmarks-nvim-heilgar
   */
-  bookmarks-nvim-heilgar = buildVimPlugin {
-    pname = "bookmarks-nvim-heilgar";
+  bookmarks-nvim-heilgar-heilgar = buildVimPlugin {
+    pname = "bookmarks-nvim-heilgar-heilgar";
     version = "2025-07-25";
     src = fetchurl {
       url = "https://github.com/heilgar/bookmarks.nvim/archive/718a5a5ccf06b914d32eded8395d9b4993b401f6.tar.gz";
@@ -1231,8 +1231,8 @@
   /*
   Generated from: github/nat-418/boole.nvim/boole-nvim
   */
-  boole-nvim = buildVimPlugin {
-    pname = "boole-nvim";
+  boole-nvim-nat-418 = buildVimPlugin {
+    pname = "boole-nvim-nat-418";
     version = "2023-07-08";
     src = fetchurl {
       url = "https://github.com/nat-418/boole.nvim/archive/7b4a3dae28e3b2497747aa840439e9493cabdc49.tar.gz";
@@ -1248,8 +1248,8 @@
   /*
   Generated from: github/lstwn/broot.vim/broot-vim
   */
-  broot-vim = buildVimPlugin {
-    pname = "broot-vim";
+  broot-vim-lstwn = buildVimPlugin {
+    pname = "broot-vim-lstwn";
     version = "2025-01-17";
     src = fetchurl {
       url = "https://github.com/lstwn/broot.vim/archive/3bc56fdd14017199364a505f6608e001b1b9587c.tar.gz";
@@ -1265,8 +1265,8 @@
   /*
   Generated from: github/claydugo/browsher.nvim/browsher-nvim
   */
-  browsher-nvim = buildVimPlugin {
-    pname = "browsher-nvim";
+  browsher-nvim-claydugo = buildVimPlugin {
+    pname = "browsher-nvim-claydugo";
     version = "2025-12-11";
     src = fetchurl {
       url = "https://github.com/claydugo/browsher.nvim/archive/6d87d5b8b0d178f75ee047a04f11c5b172fa705a.tar.gz";
@@ -1282,8 +1282,8 @@
   /*
   Generated from: github/datwaft/bubbly.nvim/bubbly-nvim
   */
-  bubbly-nvim = buildVimPlugin {
-    pname = "bubbly-nvim";
+  bubbly-nvim-datwaft = buildVimPlugin {
+    pname = "bubbly-nvim-datwaft";
     version = "2023-01-07";
     src = fetchurl {
       url = "https://github.com/datwaft/bubbly.nvim/archive/5d1374bd4a1430aad4b243406ed9c75e42db1ac3.tar.gz";
@@ -1299,8 +1299,8 @@
   /*
   Generated from: github/neanvo/buben.nvim/buben-nvim
   */
-  buben-nvim = buildVimPlugin {
-    pname = "buben-nvim";
+  buben-nvim-neanvo = buildVimPlugin {
+    pname = "buben-nvim-neanvo";
     version = "2025-02-16";
     src = fetchurl {
       url = "https://github.com/neanvo/buben.nvim/archive/d975248cf8a38e9539f9880fb950cfddd350219e.tar.gz";
@@ -1316,8 +1316,8 @@
   /*
   Generated from: github/famiu/bufdelete.nvim/bufdelete-nvim
   */
-  bufdelete-nvim = buildVimPlugin {
-    pname = "bufdelete-nvim";
+  bufdelete-nvim-famiu = buildVimPlugin {
+    pname = "bufdelete-nvim-famiu";
     version = "2024-02-24";
     src = fetchurl {
       url = "https://github.com/famiu/bufdelete.nvim/archive/f6bcea78afb3060b198125256f897040538bcb81.tar.gz";
@@ -1333,8 +1333,8 @@
   /*
   Generated from: github/j-morano/buffer_manager.nvim/buffer-manager-nvim
   */
-  buffer-manager-nvim = buildVimPlugin {
-    pname = "buffer-manager-nvim";
+  buffer-manager-nvim-j-morano = buildVimPlugin {
+    pname = "buffer-manager-nvim-j-morano";
     version = "2025-10-09";
     src = fetchurl {
       url = "https://github.com/j-morano/buffer_manager.nvim/archive/a39ab3851a5487ac39cac4be43715b69349b8df7.tar.gz";
@@ -1350,8 +1350,8 @@
   /*
   Generated from: github/ChuufMaster/buffer-vacuum/buffer-vacuum
   */
-  buffer-vacuum = buildVimPlugin {
-    pname = "buffer-vacuum";
+  buffer-vacuum-ChuufMaster = buildVimPlugin {
+    pname = "buffer-vacuum-ChuufMaster";
     version = "2025-08-18";
     src = fetchurl {
       url = "https://github.com/ChuufMaster/buffer-vacuum/archive/917986d31cce6501c929ab6088c0887beff56b69.tar.gz";
@@ -1367,8 +1367,8 @@
   /*
   Generated from: github/roobert/bufferline-cycle-windowless.nvim/bufferline-cycle-windowless-nvim
   */
-  bufferline-cycle-windowless-nvim = buildVimPlugin {
-    pname = "bufferline-cycle-windowless-nvim";
+  bufferline-cycle-windowless-nvim-roobert = buildVimPlugin {
+    pname = "bufferline-cycle-windowless-nvim-roobert";
     version = "2023-01-08";
     src = fetchurl {
       url = "https://github.com/roobert/bufferline-cycle-windowless.nvim/archive/74aba67d4cbc0a8ddd031a93f214a15dfc0a790f.tar.gz";
@@ -1384,8 +1384,8 @@
   /*
   Generated from: github/akinsho/bufferline.nvim/bufferline-nvim
   */
-  bufferline-nvim = buildVimPlugin {
-    pname = "bufferline-nvim";
+  bufferline-nvim-akinsho = buildVimPlugin {
+    pname = "bufferline-nvim-akinsho";
     version = "2025-01-14";
     src = fetchurl {
       url = "https://github.com/akinsho/bufferline.nvim/archive/655133c3b4c3e5e05ec549b9f8cc2894ac6f51b3.tar.gz";
@@ -1401,8 +1401,8 @@
   /*
   Generated from: github/EL-MASTOR/bufferlist.nvim/bufferlist-nvim
   */
-  bufferlist-nvim = buildVimPlugin {
-    pname = "bufferlist-nvim";
+  bufferlist-nvim-EL-MASTOR = buildVimPlugin {
+    pname = "bufferlist-nvim-EL-MASTOR";
     version = "2025-04-14";
     src = fetchurl {
       url = "https://github.com/EL-MASTOR/bufferlist.nvim/archive/fd6311c0ba64f534f100b0d52c3b062d02af62c6.tar.gz";
@@ -1418,8 +1418,8 @@
   /*
   Generated from: github/tomiis4/BufferTabs.nvim/BufferTabs-nvim
   */
-  BufferTabs-nvim = buildVimPlugin {
-    pname = "BufferTabs-nvim";
+  BufferTabs-nvim-tomiis4 = buildVimPlugin {
+    pname = "BufferTabs-nvim-tomiis4";
     version = "2024-08-11";
     src = fetchurl {
       url = "https://github.com/tomiis4/BufferTabs.nvim/archive/4b0872392a3d7430237c69b24a49b123aac88f5b.tar.gz";
@@ -1435,8 +1435,8 @@
   /*
   Generated from: github/mong8se/buffish.nvim/buffish-nvim
   */
-  buffish-nvim = buildVimPlugin {
-    pname = "buffish-nvim";
+  buffish-nvim-mong8se = buildVimPlugin {
+    pname = "buffish-nvim-mong8se";
     version = "2025-10-13";
     src = fetchurl {
       url = "https://github.com/mong8se/buffish.nvim/archive/31f4844253c5b0575aa1eae21a1124f340c96983.tar.gz";
@@ -1452,8 +1452,8 @@
   /*
   Generated from: github/francescarpi/buffon.nvim/buffon-nvim
   */
-  buffon-nvim = buildVimPlugin {
-    pname = "buffon-nvim";
+  buffon-nvim-francescarpi = buildVimPlugin {
+    pname = "buffon-nvim-francescarpi";
     version = "2025-07-23";
     src = fetchurl {
       url = "https://github.com/francescarpi/buffon.nvim/archive/a6cda8213497bf62de5d056e310d801968eda408.tar.gz";
@@ -1469,8 +1469,8 @@
   /*
   Generated from: github/sQVe/bufignore.nvim/bufignore-nvim
   */
-  bufignore-nvim = buildVimPlugin {
-    pname = "bufignore-nvim";
+  bufignore-nvim-sQVe = buildVimPlugin {
+    pname = "bufignore-nvim-sQVe";
     version = "2024-01-29";
     src = fetchurl {
       url = "https://github.com/sQVe/bufignore.nvim/archive/ada90dfbc7537261c372542c60e6f59f6aa446a0.tar.gz";
@@ -1486,8 +1486,8 @@
   /*
   Generated from: github/numToStr/BufOnly.nvim/BufOnly-nvim
   */
-  BufOnly-nvim = buildVimPlugin {
-    pname = "BufOnly-nvim";
+  BufOnly-nvim-numToStr = buildVimPlugin {
+    pname = "BufOnly-nvim-numToStr";
     version = "2021-07-05";
     src = fetchurl {
       url = "https://github.com/numToStr/BufOnly.nvim/archive/30579c2851743b00c4547c324a16f2c1cfa5a41c.tar.gz";
@@ -1503,8 +1503,8 @@
   /*
   Generated from: github/dkarter/bullets.vim/bullets-vim
   */
-  bullets-vim = buildVimPlugin {
-    pname = "bullets-vim";
+  bullets-vim-dkarter = buildVimPlugin {
+    pname = "bullets-vim-dkarter";
     version = "2025-12-07";
     src = fetchurl {
       url = "https://github.com/dkarter/bullets.vim/archive/89294b8930e660936374fb763ac48a1ac51dd29c.tar.gz";
@@ -1520,8 +1520,8 @@
   /*
   Generated from: github/hiberabyss/bzlops.vim/bzlops-vim
   */
-  bzlops-vim = buildVimPlugin {
-    pname = "bzlops-vim";
+  bzlops-vim-hiberabyss = buildVimPlugin {
+    pname = "bzlops-vim-hiberabyss";
     version = "2023-12-21";
     src = fetchurl {
       url = "https://github.com/hiberabyss/bzlops.vim/archive/0f4f576100a8d43ac3c826b5a9001efb8a767c66.tar.gz";
@@ -1537,8 +1537,8 @@
   /*
   Generated from: github/niyabits/calvera-dark.nvim/calvera-dark-nvim
   */
-  calvera-dark-nvim = buildVimPlugin {
-    pname = "calvera-dark-nvim";
+  calvera-dark-nvim-niyabits = buildVimPlugin {
+    pname = "calvera-dark-nvim-niyabits";
     version = "2021-08-13";
     src = fetchurl {
       url = "https://github.com/niyabits/calvera-dark.nvim/archive/84802d0bde047ce79ebfddc1800800f0bd67f37a.tar.gz";
@@ -1554,8 +1554,8 @@
   /*
   Generated from: github/zongben/capsoff.nvim/capsoff-nvim
   */
-  capsoff-nvim = buildVimPlugin {
-    pname = "capsoff-nvim";
+  capsoff-nvim-zongben = buildVimPlugin {
+    pname = "capsoff-nvim-zongben";
     version = "2024-12-27";
     src = fetchurl {
       url = "https://github.com/zongben/capsoff.nvim/archive/20e3e547878e2baf131427c8a83c0ee7474599bc.tar.gz";
@@ -1571,8 +1571,8 @@
   /*
   Generated from: github/ellisonleao/carbon-now.nvim/carbon-now-nvim
   */
-  carbon-now-nvim = buildVimPlugin {
-    pname = "carbon-now-nvim";
+  carbon-now-nvim-ellisonleao = buildVimPlugin {
+    pname = "carbon-now-nvim-ellisonleao";
     version = "2025-11-05";
     src = fetchurl {
       url = "https://github.com/ellisonleao/carbon-now.nvim/archive/2440d007633a5d436ebc9d2b5ef74e4fddd83f15.tar.gz";
@@ -1588,8 +1588,8 @@
   /*
   Generated from: github/SidOfc/carbon.nvim/carbon-nvim
   */
-  carbon-nvim = buildVimPlugin {
-    pname = "carbon-nvim";
+  carbon-nvim-SidOfc = buildVimPlugin {
+    pname = "carbon-nvim-SidOfc";
     version = "2025-02-04";
     src = fetchurl {
       url = "https://github.com/SidOfc/carbon.nvim/archive/47a4718f92646aa2f95d2671f7218f3d357d885c.tar.gz";
@@ -1605,8 +1605,8 @@
   /*
   Generated from: github/jbyuki/carrot.nvim/carrot-nvim
   */
-  carrot-nvim = buildVimPlugin {
-    pname = "carrot-nvim";
+  carrot-nvim-jbyuki = buildVimPlugin {
+    pname = "carrot-nvim-jbyuki";
     version = "2025-06-01";
     src = fetchurl {
       url = "https://github.com/jbyuki/carrot.nvim/archive/4e1bac9da30e10108896af91e645b27be78db680.tar.gz";
@@ -1622,8 +1622,8 @@
   /*
   Generated from: github/Nexmean/caskey.nvim/caskey-nvim
   */
-  caskey-nvim = buildVimPlugin {
-    pname = "caskey-nvim";
+  caskey-nvim-Nexmean = buildVimPlugin {
+    pname = "caskey-nvim-Nexmean";
     version = "2023-01-06";
     src = fetchurl {
       url = "https://github.com/Nexmean/caskey.nvim/archive/86fa340f3deb8d67fe596611e717a2859c322964.tar.gz";
@@ -1639,8 +1639,8 @@
   /*
   Generated from: github/catppuccin/nvim/catppuccin
   */
-  catppuccin = buildVimPlugin {
-    pname = "catppuccin";
+  catppuccin-catppuccin = buildVimPlugin {
+    pname = "catppuccin-catppuccin";
     version = "2026-01-08";
     src = fetchurl {
       url = "https://github.com/catppuccin/nvim/archive/4420f0a50dfde7ee79acf91ded8f97e02883a22a.tar.gz";
@@ -1656,8 +1656,8 @@
   /*
   Generated from: github/uga-rosa/ccc.nvim/ccc-nvim
   */
-  ccc-nvim = buildVimPlugin {
-    pname = "ccc-nvim";
+  ccc-nvim-uga-rosa = buildVimPlugin {
+    pname = "ccc-nvim-uga-rosa";
     version = "2025-05-06";
     src = fetchurl {
       url = "https://github.com/uga-rosa/ccc.nvim/archive/9d1a256e006decc574789dfc7d628ca11644d4c2.tar.gz";
@@ -1673,8 +1673,8 @@
   /*
   Generated from: github/ranjithshegde/ccls.nvim/ccls-nvim
   */
-  ccls-nvim = buildVimPlugin {
-    pname = "ccls-nvim";
+  ccls-nvim-ranjithshegde = buildVimPlugin {
+    pname = "ccls-nvim-ranjithshegde";
     version = "2025-01-09";
     src = fetchurl {
       url = "https://github.com/ranjithshegde/ccls.nvim/archive/4b258c269d58cc5e37e55cf2316074e2740e5f57.tar.gz";
@@ -1690,8 +1690,8 @@
   /*
   Generated from: github/LintaoAmons/cd-project.nvim/cd-project-nvim
   */
-  cd-project-nvim = buildVimPlugin {
-    pname = "cd-project-nvim";
+  cd-project-nvim-LintaoAmons = buildVimPlugin {
+    pname = "cd-project-nvim-LintaoAmons";
     version = "2025-05-18";
     src = fetchurl {
       url = "https://github.com/LintaoAmons/cd-project.nvim/archive/a1421a581ed2f407583372a0f0cb418ded5b2f05.tar.gz";
@@ -1707,8 +1707,8 @@
   /*
   Generated from: github/Eandrju/cellular-automaton.nvim/cellular-automaton-nvim
   */
-  cellular-automaton-nvim = buildVimPlugin {
-    pname = "cellular-automaton-nvim";
+  cellular-automaton-nvim-Eandrju = buildVimPlugin {
+    pname = "cellular-automaton-nvim-Eandrju";
     version = "2025-01-31";
     src = fetchurl {
       url = "https://github.com/Eandrju/cellular-automaton.nvim/archive/1606e9d5d04ff254023c3f3c62842d065708d6d3.tar.gz";
@@ -1724,8 +1724,8 @@
   /*
   Generated from: github/ms-jpq/chadtree/chadtree
   */
-  chadtree = buildVimPlugin {
-    pname = "chadtree";
+  chadtree-ms-jpq = buildVimPlugin {
+    pname = "chadtree-ms-jpq";
     version = "2025-09-21";
     src = fetchurl {
       url = "https://github.com/ms-jpq/chadtree/archive/b2ca716282d3d4e048865dfd1aabc3a8760d03b4.tar.gz";
@@ -1741,8 +1741,8 @@
   /*
   Generated from: github/saifulapm/chartoggle.nvim/chartoggle-nvim
   */
-  chartoggle-nvim = buildVimPlugin {
-    pname = "chartoggle-nvim";
+  chartoggle-nvim-saifulapm = buildVimPlugin {
+    pname = "chartoggle-nvim-saifulapm";
     version = "2024-11-14";
     src = fetchurl {
       url = "https://github.com/saifulapm/chartoggle.nvim/archive/9bc99dd79b8de861693fe0d1a2a2fb76bbb537ca.tar.gz";
@@ -1758,8 +1758,8 @@
   /*
   Generated from: github/jackMort/ChatGPT.nvim/ChatGPT-nvim
   */
-  ChatGPT-nvim = buildVimPlugin {
-    pname = "ChatGPT-nvim";
+  ChatGPT-nvim-jackMort = buildVimPlugin {
+    pname = "ChatGPT-nvim-jackMort";
     version = "2025-12-30";
     src = fetchurl {
       url = "https://github.com/jackMort/ChatGPT.nvim/archive/fc5677069a62f2df5826d8fc396810a856f2334e.tar.gz";
@@ -1775,8 +1775,8 @@
   /*
   Generated from: github/doctorfree/cheatsheet.nvim/cheatsheet-nvim
   */
-  cheatsheet-nvim = buildVimPlugin {
-    pname = "cheatsheet-nvim";
+  cheatsheet-nvim-doctorfree = buildVimPlugin {
+    pname = "cheatsheet-nvim-doctorfree";
     version = "2025-10-31";
     src = fetchurl {
       url = "https://github.com/doctorfree/cheatsheet.nvim/archive/6a5c69d42013331a3eda70b340378f2f912b9a90.tar.gz";
@@ -1792,8 +1792,8 @@
   /*
   Generated from: github/NTBBloodbath/cheovim/cheovim
   */
-  cheovim = buildVimPlugin {
-    pname = "cheovim";
+  cheovim-NTBBloodbath = buildVimPlugin {
+    pname = "cheovim-NTBBloodbath";
     version = "2023-08-01";
     src = fetchurl {
       url = "https://github.com/NTBBloodbath/cheovim/archive/0091ef49e3c1a8c985e3f6ee1f077ede6d22e0db.tar.gz";
@@ -1809,8 +1809,8 @@
   /*
   Generated from: github/qaptoR-nvim/chocolatier.nvim/chocolatier-nvim
   */
-  chocolatier-nvim = buildVimPlugin {
-    pname = "chocolatier-nvim";
+  chocolatier-nvim-qaptoR-nvim = buildVimPlugin {
+    pname = "chocolatier-nvim-qaptoR-nvim";
     version = "2025-08-02";
     src = fetchurl {
       url = "https://github.com/qaptoR-nvim/chocolatier.nvim/archive/150a3d264bee8cbb0e5ca0b80744003d929f2be9.tar.gz";
@@ -1826,8 +1826,8 @@
   /*
   Generated from: github/skanehira/christmas.vim/christmas-vim
   */
-  christmas-vim = buildVimPlugin {
-    pname = "christmas-vim";
+  christmas-vim-skanehira = buildVimPlugin {
+    pname = "christmas-vim-skanehira";
     version = "2021-12-24";
     src = fetchurl {
       url = "https://github.com/skanehira/christmas.vim/archive/f243b269787a8b638777fd48d3f392a4d6da8beb.tar.gz";
@@ -1843,8 +1843,8 @@
   /*
   Generated from: github/declancm/cinnamon.nvim/cinnamon-nvim
   */
-  cinnamon-nvim = buildVimPlugin {
-    pname = "cinnamon-nvim";
+  cinnamon-nvim-declancm = buildVimPlugin {
+    pname = "cinnamon-nvim-declancm";
     version = "2024-08-07";
     src = fetchurl {
       url = "https://github.com/declancm/cinnamon.nvim/archive/450cb3247765fed7871b41ef4ce5fa492d834215.tar.gz";
@@ -1860,8 +1860,8 @@
   /*
   Generated from: github/zootedb0t/citruszest.nvim/citruszest-nvim
   */
-  citruszest-nvim = buildVimPlugin {
-    pname = "citruszest-nvim";
+  citruszest-nvim-zootedb0t = buildVimPlugin {
+    pname = "citruszest-nvim-zootedb0t";
     version = "2025-06-16";
     src = fetchurl {
       url = "https://github.com/zootedb0t/citruszest.nvim/archive/ce6749e4c3a842679cc302ce1c2db76c2d07f700.tar.gz";
@@ -1877,8 +1877,8 @@
   /*
   Generated from: github/p00f/clangd_extensions.nvim/clangd-extensions-nvim
   */
-  clangd-extensions-nvim = buildVimPlugin {
-    pname = "clangd-extensions-nvim";
+  clangd-extensions-nvim-p00f = buildVimPlugin {
+    pname = "clangd-extensions-nvim-p00f";
     version = "2025-12-20";
     src = fetchurl {
       url = "https://github.com/p00f/clangd_extensions.nvim/archive/6fd7f12df71a04dd9ec398fc63aaa23fbe9f525f.tar.gz";
@@ -1894,8 +1894,8 @@
   /*
   Generated from: github/StanAngeloff/claudius.nvim/claudius-nvim
   */
-  claudius-nvim = buildVimPlugin {
-    pname = "claudius-nvim";
+  claudius-nvim-StanAngeloff = buildVimPlugin {
+    pname = "claudius-nvim-StanAngeloff";
     version = "2025-11-25";
     src = fetchurl {
       url = "https://github.com/StanAngeloff/claudius.nvim/archive/ca921a6489c816e96b5bdabe130d1034737933b9.tar.gz";
@@ -1911,8 +1911,8 @@
   /*
   Generated from: github/luckasRanarison/clear-action.nvim/clear-action-nvim
   */
-  clear-action-nvim = buildVimPlugin {
-    pname = "clear-action-nvim";
+  clear-action-nvim-luckasRanarison = buildVimPlugin {
+    pname = "clear-action-nvim-luckasRanarison";
     version = "2024-05-17";
     src = fetchurl {
       url = "https://github.com/luckasRanarison/clear-action.nvim/archive/2854c3fda5720c7e53b5a9537774fae212224484.tar.gz";
@@ -1928,8 +1928,8 @@
   /*
   Generated from: github/ekickx/clipboard-image.nvim/clipboard-image-nvim
   */
-  clipboard-image-nvim = buildVimPlugin {
-    pname = "clipboard-image-nvim";
+  clipboard-image-nvim-ekickx = buildVimPlugin {
+    pname = "clipboard-image-nvim-ekickx";
     version = "2022-11-10";
     src = fetchurl {
       url = "https://github.com/ekickx/clipboard-image.nvim/archive/d1550dc26729b7954f95269952e90471b838fa25.tar.gz";
@@ -1945,8 +1945,8 @@
   /*
   Generated from: github/kazhala/close-buffers.nvim/close-buffers-nvim
   */
-  close-buffers-nvim = buildVimPlugin {
-    pname = "close-buffers-nvim";
+  close-buffers-nvim-kazhala = buildVimPlugin {
+    pname = "close-buffers-nvim-kazhala";
     version = "2021-11-14";
     src = fetchurl {
       url = "https://github.com/kazhala/close-buffers.nvim/archive/3acbcad1211572342632a6c0151f839e7dead27f.tar.gz";
@@ -1962,8 +1962,8 @@
   /*
   Generated from: github/Civitasv/cmake-tools.nvim/cmake-tools-nvim
   */
-  cmake-tools-nvim = buildVimPlugin {
-    pname = "cmake-tools-nvim";
+  cmake-tools-nvim-Civitasv = buildVimPlugin {
+    pname = "cmake-tools-nvim-Civitasv";
     version = "2025-12-18";
     src = fetchurl {
       url = "https://github.com/Civitasv/cmake-tools.nvim/archive/f34418d7aa57c730ee91b3e45e7612978506fcf3.tar.gz";
@@ -1979,8 +1979,8 @@
   /*
   Generated from: github/notomo/cmdbuf.nvim/cmdbuf-nvim
   */
-  cmdbuf-nvim = buildVimPlugin {
-    pname = "cmdbuf-nvim";
+  cmdbuf-nvim-notomo = buildVimPlugin {
+    pname = "cmdbuf-nvim-notomo";
     version = "2025-07-26";
     src = fetchurl {
       url = "https://github.com/notomo/cmdbuf.nvim/archive/74f55f860040c432b624492ff8a40e31326ebf4b.tar.gz";
@@ -1996,8 +1996,8 @@
   /*
   Generated from: github/tzachar/cmp-ai/cmp-ai
   */
-  cmp-ai = buildVimPlugin {
-    pname = "cmp-ai";
+  cmp-ai-tzachar = buildVimPlugin {
+    pname = "cmp-ai-tzachar";
     version = "2025-04-21";
     src = fetchurl {
       url = "https://github.com/tzachar/cmp-ai/archive/5fcc7cf57c7e643c0221ac7f80234a0ff32eb803.tar.gz";
@@ -2013,8 +2013,8 @@
   /*
   Generated from: github/felipelema/cmp-async-path/cmp-async-path
   */
-  cmp-async-path = buildVimPlugin {
-    pname = "cmp-async-path";
+  cmp-async-path-felipelema = buildVimPlugin {
+    pname = "cmp-async-path-felipelema";
     version = "2024-02-02";
     src = fetchurl {
       url = "https://github.com/felipelema/cmp-async-path/archive/9d581eec5acf812316913565c135b0d1ee2c9a71.tar.gz";
@@ -2030,8 +2030,8 @@
   /*
   Generated from: github/hrsh7th/cmp-buffer/cmp-buffer
   */
-  cmp-buffer = buildVimPlugin {
-    pname = "cmp-buffer";
+  cmp-buffer-hrsh7th = buildVimPlugin {
+    pname = "cmp-buffer-hrsh7th";
     version = "2025-04-01";
     src = fetchurl {
       url = "https://github.com/hrsh7th/cmp-buffer/archive/b74fab3656eea9de20a9b8116afa3cfc4ec09657.tar.gz";
@@ -2047,8 +2047,8 @@
   /*
   Generated from: github/hrsh7th/cmp-calc/cmp-calc
   */
-  cmp-calc = buildVimPlugin {
-    pname = "cmp-calc";
+  cmp-calc-hrsh7th = buildVimPlugin {
+    pname = "cmp-calc-hrsh7th";
     version = "2024-05-18";
     src = fetchurl {
       url = "https://github.com/hrsh7th/cmp-calc/archive/5947b412da67306c5b68698a02a846760059be2e.tar.gz";
@@ -2064,8 +2064,8 @@
   /*
   Generated from: github/vappolinario/cmp-clippy/cmp-clippy
   */
-  cmp-clippy = buildVimPlugin {
-    pname = "cmp-clippy";
+  cmp-clippy-vappolinario = buildVimPlugin {
+    pname = "cmp-clippy-vappolinario";
     version = "2023-02-08";
     src = fetchurl {
       url = "https://github.com/vappolinario/cmp-clippy/archive/eb501c9fa429c5852f8f420e71a9f565f4852c8f.tar.gz";
@@ -2081,8 +2081,8 @@
   /*
   Generated from: github/hrsh7th/cmp-cmdline/cmp-cmdline
   */
-  cmp-cmdline = buildVimPlugin {
-    pname = "cmp-cmdline";
+  cmp-cmdline-hrsh7th = buildVimPlugin {
+    pname = "cmp-cmdline-hrsh7th";
     version = "2025-05-18";
     src = fetchurl {
       url = "https://github.com/hrsh7th/cmp-cmdline/archive/d126061b624e0af6c3a556428712dd4d4194ec6d.tar.gz";
@@ -2098,8 +2098,8 @@
   /*
   Generated from: github/dmitmel/cmp-cmdline-history/cmp-cmdline-history
   */
-  cmp-cmdline-history = buildVimPlugin {
-    pname = "cmp-cmdline-history";
+  cmp-cmdline-history-dmitmel = buildVimPlugin {
+    pname = "cmp-cmdline-history-dmitmel";
     version = "2022-05-04";
     src = fetchurl {
       url = "https://github.com/dmitmel/cmp-cmdline-history/archive/003573b72d4635ce636234a826fa8c4ba2895ffe.tar.gz";
@@ -2115,8 +2115,8 @@
   /*
   Generated from: github/davidsierradz/cmp-conventionalcommits/cmp-conventionalcommits
   */
-  cmp-conventionalcommits = buildVimPlugin {
-    pname = "cmp-conventionalcommits";
+  cmp-conventionalcommits-davidsierradz = buildVimPlugin {
+    pname = "cmp-conventionalcommits-davidsierradz";
     version = "2022-10-16";
     src = fetchurl {
       url = "https://github.com/davidsierradz/cmp-conventionalcommits/archive/a4dfacf0601130b7f8afa7c948d735c27802fb7f.tar.gz";
@@ -2132,8 +2132,8 @@
   /*
   Generated from: github/hrsh7th/cmp-copilot/cmp-copilot
   */
-  cmp-copilot = buildVimPlugin {
-    pname = "cmp-copilot";
+  cmp-copilot-hrsh7th = buildVimPlugin {
+    pname = "cmp-copilot-hrsh7th";
     version = "2022-04-11";
     src = fetchurl {
       url = "https://github.com/hrsh7th/cmp-copilot/archive/1f3f31c54bd71e41ed157430702bc2837ea582ab.tar.gz";
@@ -2149,8 +2149,8 @@
   /*
   Generated from: github/rcarriga/cmp-dap/cmp-dap
   */
-  cmp-dap = buildVimPlugin {
-    pname = "cmp-dap";
+  cmp-dap-rcarriga = buildVimPlugin {
+    pname = "cmp-dap-rcarriga";
     version = "2023-12-10";
     src = fetchurl {
       url = "https://github.com/rcarriga/cmp-dap/archive/ea92773e84c0ad3288c3bc5e452ac91559669087.tar.gz";
@@ -2166,8 +2166,8 @@
   /*
   Generated from: github/uga-rosa/cmp-dictionary/cmp-dictionary
   */
-  cmp-dictionary = buildVimPlugin {
-    pname = "cmp-dictionary";
+  cmp-dictionary-uga-rosa = buildVimPlugin {
+    pname = "cmp-dictionary-uga-rosa";
     version = "2025-03-27";
     src = fetchurl {
       url = "https://github.com/uga-rosa/cmp-dictionary/archive/fecc3ef2435c2be35818f8fcac4a6c5655f3a8f0.tar.gz";
@@ -2183,8 +2183,8 @@
   /*
   Generated from: github/dmitmel/cmp-digraphs/cmp-digraphs
   */
-  cmp-digraphs = buildVimPlugin {
-    pname = "cmp-digraphs";
+  cmp-digraphs-dmitmel = buildVimPlugin {
+    pname = "cmp-digraphs-dmitmel";
     version = "2021-12-13";
     src = fetchurl {
       url = "https://github.com/dmitmel/cmp-digraphs/archive/5efc1f0078d7c5f3ea1c8e3aad04da3fd6e081a9.tar.gz";
@@ -2200,8 +2200,8 @@
   /*
   Generated from: github/SergioRibera/cmp-dotenv/cmp-dotenv
   */
-  cmp-dotenv = buildVimPlugin {
-    pname = "cmp-dotenv";
+  cmp-dotenv-SergioRibera = buildVimPlugin {
+    pname = "cmp-dotenv-SergioRibera";
     version = "2024-06-05";
     src = fetchurl {
       url = "https://github.com/SergioRibera/cmp-dotenv/archive/4dd53aab60982f1f75848aec5e6214986263325e.tar.gz";
@@ -2217,8 +2217,8 @@
   /*
   Generated from: github/hrsh7th/cmp-emoji/cmp-emoji
   */
-  cmp-emoji = buildVimPlugin {
-    pname = "cmp-emoji";
+  cmp-emoji-hrsh7th = buildVimPlugin {
+    pname = "cmp-emoji-hrsh7th";
     version = "2024-03-19";
     src = fetchurl {
       url = "https://github.com/hrsh7th/cmp-emoji/archive/e8398e2adf512a03bb4e1728ca017ffeac670a9f.tar.gz";
@@ -2234,8 +2234,8 @@
   /*
   Generated from: github/mtoohey31/cmp-fish/cmp-fish
   */
-  cmp-fish = buildVimPlugin {
-    pname = "cmp-fish";
+  cmp-fish-mtoohey31 = buildVimPlugin {
+    pname = "cmp-fish-mtoohey31";
     version = "2024-06-17";
     src = fetchurl {
       url = "https://github.com/mtoohey31/cmp-fish/archive/3a23492e2aead05522a9887ec685d70e8c987323.tar.gz";
@@ -2251,8 +2251,8 @@
   /*
   Generated from: github/tzachar/cmp-fuzzy-buffer/cmp-fuzzy-buffer
   */
-  cmp-fuzzy-buffer = buildVimPlugin {
-    pname = "cmp-fuzzy-buffer";
+  cmp-fuzzy-buffer-tzachar = buildVimPlugin {
+    pname = "cmp-fuzzy-buffer-tzachar";
     version = "2023-04-02";
     src = fetchurl {
       url = "https://github.com/tzachar/cmp-fuzzy-buffer/archive/ada6352bc7e3c32471ab6c08f954001870329de1.tar.gz";
@@ -2268,8 +2268,8 @@
   /*
   Generated from: github/tzachar/cmp-fuzzy-path/cmp-fuzzy-path
   */
-  cmp-fuzzy-path = buildVimPlugin {
-    pname = "cmp-fuzzy-path";
+  cmp-fuzzy-path-tzachar = buildVimPlugin {
+    pname = "cmp-fuzzy-path-tzachar";
     version = "2024-01-17";
     src = fetchurl {
       url = "https://github.com/tzachar/cmp-fuzzy-path/archive/9953c11a2510a04111b7b152cf50ae1e83f00798.tar.gz";
@@ -2285,8 +2285,8 @@
   /*
   Generated from: github/petertriho/cmp-git/cmp-git
   */
-  cmp-git = buildVimPlugin {
-    pname = "cmp-git";
+  cmp-git-petertriho = buildVimPlugin {
+    pname = "cmp-git-petertriho";
     version = "2025-04-30";
     src = fetchurl {
       url = "https://github.com/petertriho/cmp-git/archive/b24309c386c9666c549a1abaedd4956541676d06.tar.gz";
@@ -2302,8 +2302,8 @@
   /*
   Generated from: github/Snikimonkd/cmp-go-pkgs/cmp-go-pkgs
   */
-  cmp-go-pkgs = buildVimPlugin {
-    pname = "cmp-go-pkgs";
+  cmp-go-pkgs-Snikimonkd = buildVimPlugin {
+    pname = "cmp-go-pkgs-Snikimonkd";
     version = "2025-01-07";
     src = fetchurl {
       url = "https://github.com/Snikimonkd/cmp-go-pkgs/archive/d8c2ed12a2a6b6f0499d9a51b776d2e135ae1511.tar.gz";
@@ -2319,8 +2319,8 @@
   /*
   Generated from: github/Yu-Leo/cmp-go-pkgs/cmp-go-pkgs-yu-leo
   */
-  cmp-go-pkgs-yu-leo = buildVimPlugin {
-    pname = "cmp-go-pkgs-yu-leo";
+  cmp-go-pkgs-yu-leo-Yu-Leo = buildVimPlugin {
+    pname = "cmp-go-pkgs-yu-leo-Yu-Leo";
     version = "2025-03-04";
     src = fetchurl {
       url = "https://github.com/Yu-Leo/cmp-go-pkgs/archive/150518bb67b9927a5fe71c107412462fe38644e6.tar.gz";
@@ -2336,8 +2336,8 @@
   /*
   Generated from: github/max397574/cmp-greek/cmp-greek
   */
-  cmp-greek = buildVimPlugin {
-    pname = "cmp-greek";
+  cmp-greek-max397574 = buildVimPlugin {
+    pname = "cmp-greek-max397574";
     version = "2022-01-10";
     src = fetchurl {
       url = "https://github.com/max397574/cmp-greek/archive/799110b976f9194055e9d506931ac38171bc6bcd.tar.gz";
@@ -2353,8 +2353,8 @@
   /*
   Generated from: github/kdheepak/cmp-latex-symbols/cmp-latex-symbols
   */
-  cmp-latex-symbols = buildVimPlugin {
-    pname = "cmp-latex-symbols";
+  cmp-latex-symbols-kdheepak = buildVimPlugin {
+    pname = "cmp-latex-symbols-kdheepak";
     version = "2025-01-10";
     src = fetchurl {
       url = "https://github.com/kdheepak/cmp-latex-symbols/archive/86b68e6d6c550442d4a3f826e1b8358c5300824c.tar.gz";
@@ -2370,8 +2370,8 @@
   /*
   Generated from: github/octaltree/cmp-look/cmp-look
   */
-  cmp-look = buildVimPlugin {
-    pname = "cmp-look";
+  cmp-look-octaltree = buildVimPlugin {
+    pname = "cmp-look-octaltree";
     version = "2023-12-24";
     src = fetchurl {
       url = "https://github.com/octaltree/cmp-look/archive/971e65a6be0e75c3438fe7b176d4fc020cb89d7b.tar.gz";
@@ -2387,8 +2387,8 @@
   /*
   Generated from: github/saadparwaiz1/cmp_luasnip/cmp-luasnip
   */
-  cmp-luasnip = buildVimPlugin {
-    pname = "cmp-luasnip";
+  cmp-luasnip-saadparwaiz1 = buildVimPlugin {
+    pname = "cmp-luasnip-saadparwaiz1";
     version = "2024-11-04";
     src = fetchurl {
       url = "https://github.com/saadparwaiz1/cmp_luasnip/archive/98d9cb5c2c38532bd9bdb481067b20fea8f32e90.tar.gz";
@@ -2404,8 +2404,8 @@
   /*
   Generated from: github/abeldekat/cmp-mini-snippets/cmp-mini-snippets
   */
-  cmp-mini-snippets = buildVimPlugin {
-    pname = "cmp-mini-snippets";
+  cmp-mini-snippets-abeldekat = buildVimPlugin {
+    pname = "cmp-mini-snippets-abeldekat";
     version = "2025-01-26";
     src = fetchurl {
       url = "https://github.com/abeldekat/cmp-mini-snippets/archive/582aea215ce2e65b880e0d23585c20863fbb7604.tar.gz";
@@ -2421,8 +2421,8 @@
   /*
   Generated from: github/Gelio/cmp-natdat/cmp-natdat
   */
-  cmp-natdat = buildVimPlugin {
-    pname = "cmp-natdat";
+  cmp-natdat-Gelio = buildVimPlugin {
+    pname = "cmp-natdat-Gelio";
     version = "2024-12-29";
     src = fetchurl {
       url = "https://github.com/Gelio/cmp-natdat/archive/0fcbd9aac5f15104b2c08fc43d856ac15778500a.tar.gz";
@@ -2438,8 +2438,8 @@
   /*
   Generated from: github/david-kunz/cmp-npm/cmp-npm
   */
-  cmp-npm = buildVimPlugin {
-    pname = "cmp-npm";
+  cmp-npm-david-kunz = buildVimPlugin {
+    pname = "cmp-npm-david-kunz";
     version = "2023-06-12";
     src = fetchurl {
       url = "https://github.com/david-kunz/cmp-npm/archive/2337f109f51a09297596dd6b538b70ccba92b4e4.tar.gz";
@@ -2455,8 +2455,8 @@
   /*
   Generated from: github/hrsh7th/cmp-nvim-lsp/cmp-nvim-lsp
   */
-  cmp-nvim-lsp = buildVimPlugin {
-    pname = "cmp-nvim-lsp";
+  cmp-nvim-lsp-hrsh7th = buildVimPlugin {
+    pname = "cmp-nvim-lsp-hrsh7th";
     version = "2025-11-13";
     src = fetchurl {
       url = "https://github.com/hrsh7th/cmp-nvim-lsp/archive/cbc7b02bb99fae35cb42f514762b89b5126651ef.tar.gz";
@@ -2472,8 +2472,8 @@
   /*
   Generated from: github/hrsh7th/cmp-nvim-lsp-document-symbol/cmp-nvim-lsp-document-symbol
   */
-  cmp-nvim-lsp-document-symbol = buildVimPlugin {
-    pname = "cmp-nvim-lsp-document-symbol";
+  cmp-nvim-lsp-document-symbol-hrsh7th = buildVimPlugin {
+    pname = "cmp-nvim-lsp-document-symbol-hrsh7th";
     version = "2024-05-29";
     src = fetchurl {
       url = "https://github.com/hrsh7th/cmp-nvim-lsp-document-symbol/archive/f94f7ba948e32cd302caba1c2ca3f7c697fb4fcf.tar.gz";
@@ -2489,8 +2489,8 @@
   /*
   Generated from: github/hrsh7th/cmp-nvim-lsp-signature-help/cmp-nvim-lsp-signature-help
   */
-  cmp-nvim-lsp-signature-help = buildVimPlugin {
-    pname = "cmp-nvim-lsp-signature-help";
+  cmp-nvim-lsp-signature-help-hrsh7th = buildVimPlugin {
+    pname = "cmp-nvim-lsp-signature-help-hrsh7th";
     version = "2025-11-14";
     src = fetchurl {
       url = "https://github.com/hrsh7th/cmp-nvim-lsp-signature-help/archive/fd3e882e56956675c620898bf1ffcf4fcbe7ec84.tar.gz";
@@ -2506,8 +2506,8 @@
   /*
   Generated from: github/hrsh7th/cmp-nvim-lua/cmp-nvim-lua
   */
-  cmp-nvim-lua = buildVimPlugin {
-    pname = "cmp-nvim-lua";
+  cmp-nvim-lua-hrsh7th = buildVimPlugin {
+    pname = "cmp-nvim-lua-hrsh7th";
     version = "2025-11-14";
     src = fetchurl {
       url = "https://github.com/hrsh7th/cmp-nvim-lua/archive/e3a22cb071eb9d6508a156306b102c45cd2d573d.tar.gz";
@@ -2523,8 +2523,8 @@
   /*
   Generated from: github/quangnguyen30192/cmp-nvim-ultisnips/cmp-nvim-ultisnips
   */
-  cmp-nvim-ultisnips = buildVimPlugin {
-    pname = "cmp-nvim-ultisnips";
+  cmp-nvim-ultisnips-quangnguyen30192 = buildVimPlugin {
+    pname = "cmp-nvim-ultisnips-quangnguyen30192";
     version = "2024-08-02";
     src = fetchurl {
       url = "https://github.com/quangnguyen30192/cmp-nvim-ultisnips/archive/2be0eda0f7fbf47ebd9fbdace369cc45d57acf49.tar.gz";
@@ -2540,8 +2540,8 @@
   /*
   Generated from: github/hrsh7th/cmp-omni/cmp-omni
   */
-  cmp-omni = buildVimPlugin {
-    pname = "cmp-omni";
+  cmp-omni-hrsh7th = buildVimPlugin {
+    pname = "cmp-omni-hrsh7th";
     version = "2023-09-24";
     src = fetchurl {
       url = "https://github.com/hrsh7th/cmp-omni/archive/4ef610bbd85a5ee4e97e09450c0daecbdc60de86.tar.gz";
@@ -2557,8 +2557,8 @@
   /*
   Generated from: github/aspeddro/cmp-pandoc.nvim/cmp-pandoc-nvim
   */
-  cmp-pandoc-nvim = buildVimPlugin {
-    pname = "cmp-pandoc-nvim";
+  cmp-pandoc-nvim-aspeddro = buildVimPlugin {
+    pname = "cmp-pandoc-nvim-aspeddro";
     version = "2023-03-03";
     src = fetchurl {
       url = "https://github.com/aspeddro/cmp-pandoc.nvim/archive/30faa4456a7643c4cb02d8fa18438fd484ed7602.tar.gz";
@@ -2574,8 +2574,8 @@
   /*
   Generated from: github/jc-doyle/cmp-pandoc-references/cmp-pandoc-references
   */
-  cmp-pandoc-references = buildVimPlugin {
-    pname = "cmp-pandoc-references";
+  cmp-pandoc-references-jc-doyle = buildVimPlugin {
+    pname = "cmp-pandoc-references-jc-doyle";
     version = "2022-04-20";
     src = fetchurl {
       url = "https://github.com/jc-doyle/cmp-pandoc-references/archive/2c808dff631a783ddd2c554c4c6033907589baf6.tar.gz";
@@ -2591,8 +2591,8 @@
   /*
   Generated from: github/hrsh7th/cmp-path/cmp-path
   */
-  cmp-path = buildVimPlugin {
-    pname = "cmp-path";
+  cmp-path-hrsh7th = buildVimPlugin {
+    pname = "cmp-path-hrsh7th";
     version = "2025-07-30";
     src = fetchurl {
       url = "https://github.com/hrsh7th/cmp-path/archive/c642487086dbd9a93160e1679a1327be111cbc25.tar.gz";
@@ -2608,8 +2608,8 @@
   /*
   Generated from: github/lukas-reineke/cmp-rg/cmp-rg
   */
-  cmp-rg = buildVimPlugin {
-    pname = "cmp-rg";
+  cmp-rg-lukas-reineke = buildVimPlugin {
+    pname = "cmp-rg-lukas-reineke";
     version = "2024-11-12";
     src = fetchurl {
       url = "https://github.com/lukas-reineke/cmp-rg/archive/70a43543f61b6083ba9c3b7deb9ccee671410ac6.tar.gz";
@@ -2625,8 +2625,8 @@
   /*
   Generated from: github/dcampos/cmp-snippy/cmp-snippy
   */
-  cmp-snippy = buildVimPlugin {
-    pname = "cmp-snippy";
+  cmp-snippy-dcampos = buildVimPlugin {
+    pname = "cmp-snippy-dcampos";
     version = "2023-10-12";
     src = fetchurl {
       url = "https://github.com/dcampos/cmp-snippy/archive/6e39210aa3a74e2bf6462f492eaf0d436cd2b7d3.tar.gz";
@@ -2642,8 +2642,8 @@
   /*
   Generated from: github/f3fora/cmp-spell/cmp-spell
   */
-  cmp-spell = buildVimPlugin {
-    pname = "cmp-spell";
+  cmp-spell-f3fora = buildVimPlugin {
+    pname = "cmp-spell-f3fora";
     version = "2024-05-07";
     src = fetchurl {
       url = "https://github.com/f3fora/cmp-spell/archive/694a4e50809d6d645c1ea29015dad0c293f019d6.tar.gz";
@@ -2659,8 +2659,8 @@
   /*
   Generated from: github/tzachar/cmp-tabnine/cmp-tabnine
   */
-  cmp-tabnine = buildVimPlugin {
-    pname = "cmp-tabnine";
+  cmp-tabnine-tzachar = buildVimPlugin {
+    pname = "cmp-tabnine-tzachar";
     version = "2024-09-12";
     src = fetchurl {
       url = "https://github.com/tzachar/cmp-tabnine/archive/c0167cdc86c15e782c5461ee62aebee89231c2ed.tar.gz";
@@ -2676,8 +2676,8 @@
   /*
   Generated from: github/andersevenrud/cmp-tmux/cmp-tmux
   */
-  cmp-tmux = buildVimPlugin {
-    pname = "cmp-tmux";
+  cmp-tmux-andersevenrud = buildVimPlugin {
+    pname = "cmp-tmux-andersevenrud";
     version = "2024-02-29";
     src = fetchurl {
       url = "https://github.com/andersevenrud/cmp-tmux/archive/95b1b921802e6f60627b3e76afb9380fddd87f9a.tar.gz";
@@ -2693,8 +2693,8 @@
   /*
   Generated from: github/ray-x/cmp-treesitter/cmp-treesitter
   */
-  cmp-treesitter = buildVimPlugin {
-    pname = "cmp-treesitter";
+  cmp-treesitter-ray-x = buildVimPlugin {
+    pname = "cmp-treesitter-ray-x";
     version = "2024-05-13";
     src = fetchurl {
       url = "https://github.com/ray-x/cmp-treesitter/archive/958fcfa0d8ce46d215e19cc3992c542f576c4123.tar.gz";
@@ -2710,8 +2710,8 @@
   /*
   Generated from: github/lukas-reineke/cmp-under-comparator/cmp-under-comparator
   */
-  cmp-under-comparator = buildVimPlugin {
-    pname = "cmp-under-comparator";
+  cmp-under-comparator-lukas-reineke = buildVimPlugin {
+    pname = "cmp-under-comparator-lukas-reineke";
     version = "2021-11-11";
     src = fetchurl {
       url = "https://github.com/lukas-reineke/cmp-under-comparator/archive/6857f10272c3cfe930cece2afa2406e1385bfef8.tar.gz";
@@ -2727,8 +2727,8 @@
   /*
   Generated from: github/dmitmel/cmp-vim-lsp/cmp-vim-lsp
   */
-  cmp-vim-lsp = buildVimPlugin {
-    pname = "cmp-vim-lsp";
+  cmp-vim-lsp-dmitmel = buildVimPlugin {
+    pname = "cmp-vim-lsp-dmitmel";
     version = "2021-10-26";
     src = fetchurl {
       url = "https://github.com/dmitmel/cmp-vim-lsp/archive/b13312a8c1a74a8747e64117f26f17390e8abfa8.tar.gz";
@@ -2744,8 +2744,8 @@
   /*
   Generated from: github/pontusk/cmp-vimwiki-tags/cmp-vimwiki-tags
   */
-  cmp-vimwiki-tags = buildVimPlugin {
-    pname = "cmp-vimwiki-tags";
+  cmp-vimwiki-tags-pontusk = buildVimPlugin {
+    pname = "cmp-vimwiki-tags-pontusk";
     version = "2022-04-25";
     src = fetchurl {
       url = "https://github.com/pontusk/cmp-vimwiki-tags/archive/a9e631c8f4d64e009d253f741b035eb5d1bd404f.tar.gz";
@@ -2761,8 +2761,8 @@
   /*
   Generated from: github/hrsh7th/cmp-vsnip/cmp-vsnip
   */
-  cmp-vsnip = buildVimPlugin {
-    pname = "cmp-vsnip";
+  cmp-vsnip-hrsh7th = buildVimPlugin {
+    pname = "cmp-vsnip-hrsh7th";
     version = "2022-11-22";
     src = fetchurl {
       url = "https://github.com/hrsh7th/cmp-vsnip/archive/989a8a73c44e926199bfd05fa7a516d51f2d2752.tar.gz";
@@ -2778,8 +2778,8 @@
   /*
   Generated from: github/tamago324/cmp-zsh/cmp-zsh
   */
-  cmp-zsh = buildVimPlugin {
-    pname = "cmp-zsh";
+  cmp-zsh-tamago324 = buildVimPlugin {
+    pname = "cmp-zsh-tamago324";
     version = "2022-10-03";
     src = fetchurl {
       url = "https://github.com/tamago324/cmp-zsh/archive/c24db8e58fac9006ec23d93f236749288d00dec9.tar.gz";
@@ -2795,8 +2795,8 @@
   /*
   Generated from: github/2KAbhishek/co-author.nvim/co-author-nvim
   */
-  co-author-nvim = buildVimPlugin {
-    pname = "co-author-nvim";
+  co-author-nvim-2KAbhishek = buildVimPlugin {
+    pname = "co-author-nvim-2KAbhishek";
     version = "2025-10-16";
     src = fetchurl {
       url = "https://github.com/2KAbhishek/co-author.nvim/archive/f07e2ec7b4267c1c38cecf5f209c0844373bc1cc.tar.gz";
@@ -2812,8 +2812,8 @@
   /*
   Generated from: github/lalitmee/cobalt2.nvim/cobalt2-nvim
   */
-  cobalt2-nvim = buildVimPlugin {
-    pname = "cobalt2-nvim";
+  cobalt2-nvim-lalitmee = buildVimPlugin {
+    pname = "cobalt2-nvim-lalitmee";
     version = "2025-09-06";
     src = fetchurl {
       url = "https://github.com/lalitmee/cobalt2.nvim/archive/0cc17f3491feba19ed62b2d9622577f7822a0113.tar.gz";
@@ -2829,8 +2829,8 @@
   /*
   Generated from: github/coc-extensions/coc-svelte/coc-svelte
   */
-  coc-svelte = buildVimPlugin {
-    pname = "coc-svelte";
+  coc-svelte-coc-extensions = buildVimPlugin {
+    pname = "coc-svelte-coc-extensions";
     version = "2023-10-08";
     src = fetchurl {
       url = "https://github.com/coc-extensions/coc-svelte/archive/b7aa4f70b6e22364b927cad4beb516ebe04175f8.tar.gz";
@@ -2846,8 +2846,8 @@
   /*
   Generated from: github/rodrigore/coc-tailwind-intellisense/coc-tailwind-intellisense
   */
-  coc-tailwind-intellisense = buildVimPlugin {
-    pname = "coc-tailwind-intellisense";
+  coc-tailwind-intellisense-rodrigore = buildVimPlugin {
+    pname = "coc-tailwind-intellisense-rodrigore";
     version = "2021-09-07";
     src = fetchurl {
       url = "https://github.com/rodrigore/coc-tailwind-intellisense/archive/129fbd9dc33f6f7d3daa5e1e0b98dc4352f30290.tar.gz";
@@ -2863,8 +2863,8 @@
   /*
   Generated from: github/iamcco/coc-tailwindcss/coc-tailwindcss
   */
-  coc-tailwindcss = buildVimPlugin {
-    pname = "coc-tailwindcss";
+  coc-tailwindcss-iamcco = buildVimPlugin {
+    pname = "coc-tailwindcss-iamcco";
     version = "2020-08-19";
     src = fetchurl {
       url = "https://github.com/iamcco/coc-tailwindcss/archive/5f41aa1feb36e39b95ccd83be6a37ee8c475f9fb.tar.gz";
@@ -2880,8 +2880,8 @@
   /*
   Generated from: github/CRAG666/code_runner.nvim/code-runner-nvim
   */
-  code-runner-nvim = buildVimPlugin {
-    pname = "code-runner-nvim";
+  code-runner-nvim-CRAG666 = buildVimPlugin {
+    pname = "code-runner-nvim-CRAG666";
     version = "2025-10-19";
     src = fetchurl {
       url = "https://github.com/CRAG666/code_runner.nvim/archive/45dfea066a6110abcbc3cd361457ac3cbaefd68b.tar.gz";
@@ -2897,8 +2897,8 @@
   /*
   Generated from: github/niuiic/code-shot.nvim/code-shot-nvim
   */
-  code-shot-nvim = buildVimPlugin {
-    pname = "code-shot-nvim";
+  code-shot-nvim-niuiic = buildVimPlugin {
+    pname = "code-shot-nvim-niuiic";
     version = "2025-01-04";
     src = fetchurl {
       url = "https://github.com/niuiic/code-shot.nvim/archive/3bb540aad302db13caf913e1cec291546e4b2180.tar.gz";
@@ -2914,8 +2914,8 @@
   /*
   Generated from: github/olimorris/codecompanion.nvim/codecompanion-nvim
   */
-  codecompanion-nvim = buildVimPlugin {
-    pname = "codecompanion-nvim";
+  codecompanion-nvim-olimorris = buildVimPlugin {
+    pname = "codecompanion-nvim-olimorris";
     version = "2026-01-08";
     src = fetchurl {
       url = "https://github.com/olimorris/codecompanion.nvim/archive/1db8bdbdbfeb3cf66e9f96db82688684dfa909e7.tar.gz";
@@ -2931,8 +2931,8 @@
   /*
   Generated from: github/Exafunction/codeium.nvim/codeium-nvim
   */
-  codeium-nvim = buildVimPlugin {
-    pname = "codeium-nvim";
+  codeium-nvim-Exafunction = buildVimPlugin {
+    pname = "codeium-nvim-Exafunction";
     version = "2025-04-30";
     src = fetchurl {
       url = "https://github.com/Exafunction/codeium.nvim/archive/821b570b526dbb05b57aa4ded578b709a704a38a.tar.gz";
@@ -2948,8 +2948,8 @@
   /*
   Generated from: github/pwntester/codeql.nvim/codeql-nvim
   */
-  codeql-nvim = buildVimPlugin {
-    pname = "codeql-nvim";
+  codeql-nvim-pwntester = buildVimPlugin {
+    pname = "codeql-nvim-pwntester";
     version = "2024-12-15";
     src = fetchurl {
       url = "https://github.com/pwntester/codeql.nvim/archive/772fca7306a6302acdf5098387d755d30bd5876a.tar.gz";
@@ -2965,8 +2965,8 @@
   /*
   Generated from: github/adisen99/codeschool.nvim/codeschool-nvim
   */
-  codeschool-nvim = buildVimPlugin {
-    pname = "codeschool-nvim";
+  codeschool-nvim-adisen99 = buildVimPlugin {
+    pname = "codeschool-nvim-adisen99";
     version = "2024-01-25";
     src = fetchurl {
       url = "https://github.com/adisen99/codeschool.nvim/archive/aae2d97b16a70def6223170b1e61c3d3bebda051.tar.gz";
@@ -2982,8 +2982,8 @@
   /*
   Generated from: github/mistricky/codesnap.nvim/codesnap-nvim
   */
-  codesnap-nvim = buildVimPlugin {
-    pname = "codesnap-nvim";
+  codesnap-nvim-mistricky = buildVimPlugin {
+    pname = "codesnap-nvim-mistricky";
     version = "2025-12-03";
     src = fetchurl {
       url = "https://github.com/mistricky/codesnap.nvim/archive/d8d55f5b62a6c12bc7756eb0b997a776eafd086e.tar.gz";
@@ -2999,8 +2999,8 @@
   /*
   Generated from: github/gorbit99/codewindow.nvim/codewindow-nvim
   */
-  codewindow-nvim = buildVimPlugin {
-    pname = "codewindow-nvim";
+  codewindow-nvim-gorbit99 = buildVimPlugin {
+    pname = "codewindow-nvim-gorbit99";
     version = "2025-05-22";
     src = fetchurl {
       url = "https://github.com/gorbit99/codewindow.nvim/archive/a8e175043ce3baaa89e0a6b5171bcd920aab3dad.tar.gz";
@@ -3016,8 +3016,8 @@
   /*
   Generated from: github/gregorias/coerce.nvim/coerce-nvim
   */
-  coerce-nvim = buildVimPlugin {
-    pname = "coerce-nvim";
+  coerce-nvim-gregorias = buildVimPlugin {
+    pname = "coerce-nvim-gregorias";
     version = "2025-07-24";
     src = fetchurl {
       url = "https://github.com/gregorias/coerce.nvim/archive/de8ad1663ba467003b90c79eaf5b8105964dd6f5.tar.gz";
@@ -3033,8 +3033,8 @@
   /*
   Generated from: github/noib3/cokeline.nvim/cokeline-nvim
   */
-  cokeline-nvim = buildVimPlugin {
-    pname = "cokeline-nvim";
+  cokeline-nvim-noib3 = buildVimPlugin {
+    pname = "cokeline-nvim-noib3";
     version = "2025-01-24";
     src = fetchurl {
       url = "https://github.com/noib3/cokeline.nvim/archive/9fbed130683b7b6f73198c09e35ba4b33f547c08.tar.gz";
@@ -3050,8 +3050,8 @@
   /*
   Generated from: github/ziontee113/color-picker.nvim/color-picker-nvim
   */
-  color-picker-nvim = buildVimPlugin {
-    pname = "color-picker-nvim";
+  color-picker-nvim-ziontee113 = buildVimPlugin {
+    pname = "color-picker-nvim-ziontee113";
     version = "2023-05-21";
     src = fetchurl {
       url = "https://github.com/ziontee113/color-picker.nvim/archive/06cb5f853535dea529a523e9a0e8884cdf9eba4d.tar.gz";
@@ -3067,8 +3067,8 @@
   /*
   Generated from: github/linrongbin16/colorbox.nvim/colorbox-nvim
   */
-  colorbox-nvim = buildVimPlugin {
-    pname = "colorbox-nvim";
+  colorbox-nvim-linrongbin16 = buildVimPlugin {
+    pname = "colorbox-nvim-linrongbin16";
     version = "2025-12-25";
     src = fetchurl {
       url = "https://github.com/linrongbin16/colorbox.nvim/archive/98d698ccb4bd0e2c4c1133b40b7dfa0b2c8b794a.tar.gz";
@@ -3084,8 +3084,8 @@
   /*
   Generated from: github/tjdevries/colorbuddy.nvim/colorbuddy-nvim
   */
-  colorbuddy-nvim = buildVimPlugin {
-    pname = "colorbuddy-nvim";
+  colorbuddy-nvim-tjdevries = buildVimPlugin {
+    pname = "colorbuddy-nvim-tjdevries";
     version = "2024-05-08";
     src = fetchurl {
       url = "https://github.com/tjdevries/colorbuddy.nvim/archive/8b968581e5c19d22a861d5f3fe5dbd83394fa681.tar.gz";
@@ -3101,8 +3101,8 @@
   /*
   Generated from: github/xzbdmw/colorful-menu.nvim/colorful-menu-nvim
   */
-  colorful-menu-nvim = buildVimPlugin {
-    pname = "colorful-menu-nvim";
+  colorful-menu-nvim-xzbdmw = buildVimPlugin {
+    pname = "colorful-menu-nvim-xzbdmw";
     version = "2025-11-25";
     src = fetchurl {
       url = "https://github.com/xzbdmw/colorful-menu.nvim/archive/b51a659459df8d078201aefc995db8175ed55e84.tar.gz";
@@ -3118,8 +3118,8 @@
   /*
   Generated from: github/nvim-zh/colorful-winsep.nvim/colorful-winsep-nvim
   */
-  colorful-winsep-nvim = buildVimPlugin {
-    pname = "colorful-winsep-nvim";
+  colorful-winsep-nvim-nvim-zh = buildVimPlugin {
+    pname = "colorful-winsep-nvim-nvim-zh";
     version = "2025-09-30";
     src = fetchurl {
       url = "https://github.com/nvim-zh/colorful-winsep.nvim/archive/e555611c8f39918e30d033a97ea1a5af457ce75e.tar.gz";
@@ -3135,8 +3135,8 @@
   /*
   Generated from: github/max397574/colortils.nvim/colortils-nvim
   */
-  colortils-nvim = buildVimPlugin {
-    pname = "colortils-nvim";
+  colortils-nvim-max397574 = buildVimPlugin {
+    pname = "colortils-nvim-max397574";
     version = "2025-01-10";
     src = fetchurl {
       url = "https://github.com/max397574/colortils.nvim/archive/948d4eddbd20c3e9eac79368dc50c7929d4fb823.tar.gz";
@@ -3152,8 +3152,8 @@
   /*
   Generated from: github/mluders/comfy-line-numbers.nvim/comfy-line-numbers-nvim
   */
-  comfy-line-numbers-nvim = buildVimPlugin {
-    pname = "comfy-line-numbers-nvim";
+  comfy-line-numbers-nvim-mluders = buildVimPlugin {
+    pname = "comfy-line-numbers-nvim-mluders";
     version = "2025-11-08";
     src = fetchurl {
       url = "https://github.com/mluders/comfy-line-numbers.nvim/archive/3c51fa4104b97ddaccb66a6b34552e3eafd5b645.tar.gz";
@@ -3169,8 +3169,8 @@
   /*
   Generated from: github/moyiz/command-and-cursor.nvim/command-and-cursor-nvim
   */
-  command-and-cursor-nvim = buildVimPlugin {
-    pname = "command-and-cursor-nvim";
+  command-and-cursor-nvim-moyiz = buildVimPlugin {
+    pname = "command-and-cursor-nvim-moyiz";
     version = "2025-03-30";
     src = fetchurl {
       url = "https://github.com/moyiz/command-and-cursor.nvim/archive/a3c47385483d7360e85a86c67b485b0f562dce32.tar.gz";
@@ -3186,8 +3186,8 @@
   /*
   Generated from: github/FeiyouG/command_center.nvim/command-center-nvim
   */
-  command-center-nvim = buildVimPlugin {
-    pname = "command-center-nvim";
+  command-center-nvim-FeiyouG = buildVimPlugin {
+    pname = "command-center-nvim-FeiyouG";
     version = "2024-06-08";
     src = fetchurl {
       url = "https://github.com/FeiyouG/command_center.nvim/archive/84101e8eb1613a72bbdec655b734f891d8a00694.tar.gz";
@@ -3203,8 +3203,8 @@
   /*
   Generated from: github/FeiyouG/commander.nvim/commander-nvim
   */
-  commander-nvim = buildVimPlugin {
-    pname = "commander-nvim";
+  commander-nvim-FeiyouG = buildVimPlugin {
+    pname = "commander-nvim-FeiyouG";
     version = "2024-06-08";
     src = fetchurl {
       url = "https://github.com/FeiyouG/commander.nvim/archive/84101e8eb1613a72bbdec655b734f891d8a00694.tar.gz";
@@ -3220,8 +3220,8 @@
   /*
   Generated from: github/saifulapm/commasemi.nvim/commasemi-nvim
   */
-  commasemi-nvim = buildVimPlugin {
-    pname = "commasemi-nvim";
+  commasemi-nvim-saifulapm = buildVimPlugin {
+    pname = "commasemi-nvim-saifulapm";
     version = "2025-03-06";
     src = fetchurl {
       url = "https://github.com/saifulapm/commasemi.nvim/archive/cbfa3554e554f0534fcd79de273742a532c0068f.tar.gz";
@@ -3237,8 +3237,8 @@
   /*
   Generated from: github/LudoPinelli/comment-box.nvim/comment-box-nvim
   */
-  comment-box-nvim = buildVimPlugin {
-    pname = "comment-box-nvim";
+  comment-box-nvim-LudoPinelli = buildVimPlugin {
+    pname = "comment-box-nvim-LudoPinelli";
     version = "2024-02-03";
     src = fetchurl {
       url = "https://github.com/LudoPinelli/comment-box.nvim/archive/06bb771690bc9df0763d14769b779062d8f12bc5.tar.gz";
@@ -3254,8 +3254,8 @@
   /*
   Generated from: github/numToStr/Comment.nvim/Comment-nvim
   */
-  Comment-nvim = buildVimPlugin {
-    pname = "Comment-nvim";
+  Comment-nvim-numToStr = buildVimPlugin {
+    pname = "Comment-nvim-numToStr";
     version = "2024-06-09";
     src = fetchurl {
       url = "https://github.com/numToStr/Comment.nvim/archive/e30b7f2008e52442154b66f7c519bfd2f1e32acb.tar.gz";
@@ -3271,8 +3271,8 @@
   /*
   Generated from: github/winston0410/commented.nvim/commented-nvim
   */
-  commented-nvim = buildVimPlugin {
-    pname = "commented-nvim";
+  commented-nvim-winston0410 = buildVimPlugin {
+    pname = "commented-nvim-winston0410";
     version = "2022-03-12";
     src = fetchurl {
       url = "https://github.com/winston0410/commented.nvim/archive/be322c5ef455800984705cee97490a5450f072bc.tar.gz";
@@ -3288,8 +3288,8 @@
   /*
   Generated from: github/xeluxee/competitest.nvim/competitest-nvim
   */
-  competitest-nvim = buildVimPlugin {
-    pname = "competitest-nvim";
+  competitest-nvim-xeluxee = buildVimPlugin {
+    pname = "competitest-nvim-xeluxee";
     version = "2025-05-13";
     src = fetchurl {
       url = "https://github.com/xeluxee/competitest.nvim/archive/b42c06ca308906f07912ba9aff015ac2c0831f85.tar.gz";
@@ -3305,8 +3305,8 @@
   /*
   Generated from: github/krady21/compiler-explorer.nvim/compiler-explorer-nvim
   */
-  compiler-explorer-nvim = buildVimPlugin {
-    pname = "compiler-explorer-nvim";
+  compiler-explorer-nvim-krady21 = buildVimPlugin {
+    pname = "compiler-explorer-nvim-krady21";
     version = "2025-11-13";
     src = fetchurl {
       url = "https://github.com/krady21/compiler-explorer.nvim/archive/3f1d95509b66803c79b4ef3ab1e51e5bc53f4ca2.tar.gz";
@@ -3322,8 +3322,8 @@
   /*
   Generated from: github/Zeioth/compiler.nvim/compiler-nvim
   */
-  compiler-nvim = buildVimPlugin {
-    pname = "compiler-nvim";
+  compiler-nvim-Zeioth = buildVimPlugin {
+    pname = "compiler-nvim-Zeioth";
     version = "2025-08-14";
     src = fetchurl {
       url = "https://github.com/Zeioth/compiler.nvim/archive/c09ab4e795b92378727d7377c03b0d5c2453957c.tar.gz";
@@ -3339,8 +3339,8 @@
   /*
   Generated from: github/brianaung/compl.nvim/compl-nvim
   */
-  compl-nvim = buildVimPlugin {
-    pname = "compl-nvim";
+  compl-nvim-brianaung = buildVimPlugin {
+    pname = "compl-nvim-brianaung";
     version = "2025-06-10";
     src = fetchurl {
       url = "https://github.com/brianaung/compl.nvim/archive/b9c3811c37b287474db470d353ce2a25d3821eac.tar.gz";
@@ -3356,8 +3356,8 @@
   /*
   Generated from: github/vigoux/complementree.nvim/complementree-nvim
   */
-  complementree-nvim = buildVimPlugin {
-    pname = "complementree-nvim";
+  complementree-nvim-vigoux = buildVimPlugin {
+    pname = "complementree-nvim-vigoux";
     version = "2022-10-17";
     src = fetchurl {
       url = "https://github.com/vigoux/complementree.nvim/archive/cdc8253ae150a391a6e20b712d2d039d37087788.tar.gz";
@@ -3373,8 +3373,8 @@
   /*
   Generated from: github/RutaTang/compter.nvim/compter-nvim
   */
-  compter-nvim = buildVimPlugin {
-    pname = "compter-nvim";
+  compter-nvim-RutaTang = buildVimPlugin {
+    pname = "compter-nvim-RutaTang";
     version = "2023-06-01";
     src = fetchurl {
       url = "https://github.com/RutaTang/compter.nvim/archive/954fa6e860cb0019fb263a8defae0675fcfdf9e8.tar.gz";
@@ -3390,8 +3390,8 @@
   /*
   Generated from: github/Jxstxs/conceal.nvim/conceal-nvim
   */
-  conceal-nvim = buildVimPlugin {
-    pname = "conceal-nvim";
+  conceal-nvim-Jxstxs = buildVimPlugin {
+    pname = "conceal-nvim-Jxstxs";
     version = "2023-12-05";
     src = fetchurl {
       url = "https://github.com/Jxstxs/conceal.nvim/archive/1aff9fc5d1157aef1c7c88b6df6d6db21268d00a.tar.gz";
@@ -3407,8 +3407,8 @@
   /*
   Generated from: github/yutkat/confirm-quit.nvim/confirm-quit-nvim
   */
-  confirm-quit-nvim = buildVimPlugin {
-    pname = "confirm-quit-nvim";
+  confirm-quit-nvim-yutkat = buildVimPlugin {
+    pname = "confirm-quit-nvim-yutkat";
     version = "2025-04-25";
     src = fetchurl {
       url = "https://github.com/yutkat/confirm-quit.nvim/archive/a1dbd9b553e8d6770cd6a879a3ee8ffad292c70c.tar.gz";
@@ -3424,8 +3424,8 @@
   /*
   Generated from: github/stevearc/conform.nvim/conform-nvim
   */
-  conform-nvim = buildVimPlugin {
-    pname = "conform-nvim";
+  conform-nvim-stevearc = buildVimPlugin {
+    pname = "conform-nvim-stevearc";
     version = "2026-01-01";
     src = fetchurl {
       url = "https://github.com/stevearc/conform.nvim/archive/8314f4c9e205e7f30b62147069729f9a1227d8bf.tar.gz";
@@ -3441,8 +3441,8 @@
   /*
   Generated from: github/Olical/conjure/conjure
   */
-  conjure = buildVimPlugin {
-    pname = "conjure";
+  conjure-Olical = buildVimPlugin {
+    pname = "conjure-Olical";
     version = "2026-01-02";
     src = fetchurl {
       url = "https://github.com/Olical/conjure/archive/67705566318002cc0a88b075f695518a43aa0ca7.tar.gz";
@@ -3458,8 +3458,8 @@
   /*
   Generated from: github/pianocomposer321/consolation.nvim/consolation-nvim
   */
-  consolation-nvim = buildVimPlugin {
-    pname = "consolation-nvim";
+  consolation-nvim-pianocomposer321 = buildVimPlugin {
+    pname = "consolation-nvim-pianocomposer321";
     version = "2021-09-01";
     src = fetchurl {
       url = "https://github.com/pianocomposer321/consolation.nvim/archive/9111a1e5204e6d522e0229569f5f2841faa7a72f.tar.gz";
@@ -3475,8 +3475,8 @@
   /*
   Generated from: github/cjodo/convert.nvim/convert-nvim
   */
-  convert-nvim = buildVimPlugin {
-    pname = "convert-nvim";
+  convert-nvim-cjodo = buildVimPlugin {
+    pname = "convert-nvim-cjodo";
     version = "2026-01-08";
     src = fetchurl {
       url = "https://github.com/cjodo/convert.nvim/archive/04a8f290eaa47949f8aaeebb24178dc522e7a398.tar.gz";
@@ -3492,8 +3492,8 @@
   /*
   Generated from: github/Mr-LLLLL/cool-chunk.nvim/cool-chunk-nvim
   */
-  cool-chunk-nvim = buildVimPlugin {
-    pname = "cool-chunk-nvim";
+  cool-chunk-nvim-Mr-LLLLL = buildVimPlugin {
+    pname = "cool-chunk-nvim-Mr-LLLLL";
     version = "2025-01-10";
     src = fetchurl {
       url = "https://github.com/Mr-LLLLL/cool-chunk.nvim/archive/91947d454d435b3aa7827df3f4b4b8be2684124e.tar.gz";
@@ -3509,8 +3509,8 @@
   /*
   Generated from: github/gregorias/coop.nvim/coop-nvim
   */
-  coop-nvim = buildVimPlugin {
-    pname = "coop-nvim";
+  coop-nvim-gregorias = buildVimPlugin {
+    pname = "coop-nvim-gregorias";
     version = "2025-07-24";
     src = fetchurl {
       url = "https://github.com/gregorias/coop.nvim/archive/85986a6f7390d1362864708dcba097ba0e6b8d39.tar.gz";
@@ -3526,8 +3526,8 @@
   /*
   Generated from: github/zbirenbaum/copilot-cmp/copilot-cmp
   */
-  copilot-cmp = buildVimPlugin {
-    pname = "copilot-cmp";
+  copilot-cmp-zbirenbaum = buildVimPlugin {
+    pname = "copilot-cmp-zbirenbaum";
     version = "2024-12-11";
     src = fetchurl {
       url = "https://github.com/zbirenbaum/copilot-cmp/archive/15fc12af3d0109fa76b60b5cffa1373697e261d1.tar.gz";
@@ -3543,8 +3543,8 @@
   /*
   Generated from: github/zbirenbaum/copilot.lua/copilot-lua
   */
-  copilot-lua = buildVimPlugin {
-    pname = "copilot-lua";
+  copilot-lua-zbirenbaum = buildVimPlugin {
+    pname = "copilot-lua-zbirenbaum";
     version = "2025-12-20";
     src = fetchurl {
       url = "https://github.com/zbirenbaum/copilot.lua/archive/e78d1ffebdf6ccb6fd8be4e6898030c1cf5f9b64.tar.gz";
@@ -3560,8 +3560,8 @@
   /*
   Generated from: github/github/copilot.vim/copilot-vim
   */
-  copilot-vim = buildVimPlugin {
-    pname = "copilot-vim";
+  copilot-vim-github = buildVimPlugin {
+    pname = "copilot-vim-github";
     version = "2025-12-24";
     src = fetchurl {
       url = "https://github.com/github/copilot.vim/archive/206011a8bc5078a02560d5c44177e9849e8f8d6c.tar.gz";
@@ -3577,8 +3577,8 @@
   /*
   Generated from: github/CopilotC-Nvim/CopilotChat.nvim/CopilotChat-nvim
   */
-  CopilotChat-nvim = buildVimPlugin {
-    pname = "CopilotChat-nvim";
+  CopilotChat-nvim-CopilotC-Nvim = buildVimPlugin {
+    pname = "CopilotChat-nvim-CopilotC-Nvim";
     version = "2025-12-31";
     src = fetchurl {
       url = "https://github.com/CopilotC-Nvim/CopilotChat.nvim/archive/9db5d3eaafe9fc3c91ce9ecfc416de2798982487.tar.gz";
@@ -3594,8 +3594,8 @@
   /*
   Generated from: github/ms-jpq/coq.artifacts/coq-artifacts
   */
-  coq-artifacts = buildVimPlugin {
-    pname = "coq-artifacts";
+  coq-artifacts-ms-jpq = buildVimPlugin {
+    pname = "coq-artifacts-ms-jpq";
     version = "2025-01-20";
     src = fetchurl {
       url = "https://github.com/ms-jpq/coq.artifacts/archive/ef5f21d638ccc456cfa5b8d0ab37093cefe48c8b.tar.gz";
@@ -3611,8 +3611,8 @@
   /*
   Generated from: github/ms-jpq/coq_nvim/coq-nvim
   */
-  coq-nvim = buildVimPlugin {
-    pname = "coq-nvim";
+  coq-nvim-ms-jpq = buildVimPlugin {
+    pname = "coq-nvim-ms-jpq";
     version = "2026-01-06";
     src = fetchurl {
       url = "https://github.com/ms-jpq/coq_nvim/archive/d939a34ceb2b57d2937890337a4aa75eb55e18a8.tar.gz";
@@ -3628,8 +3628,8 @@
   /*
   Generated from: github/ms-jpq/coq.thirdparty/coq-thirdparty
   */
-  coq-thirdparty = buildVimPlugin {
-    pname = "coq-thirdparty";
+  coq-thirdparty-ms-jpq = buildVimPlugin {
+    pname = "coq-thirdparty-ms-jpq";
     version = "2025-10-29";
     src = fetchurl {
       url = "https://github.com/ms-jpq/coq.thirdparty/archive/2bd969a2bcd2624f9c260b1000957c7e665e308e.tar.gz";
@@ -3645,8 +3645,8 @@
   /*
   Generated from: github/vyfor/cord.nvim/cord-nvim
   */
-  cord-nvim = buildVimPlugin {
-    pname = "cord-nvim";
+  cord-nvim-vyfor = buildVimPlugin {
+    pname = "cord-nvim-vyfor";
     version = "2026-01-07";
     src = fetchurl {
       url = "https://github.com/vyfor/cord.nvim/archive/d1ba1217cf88beddb5ddc66f42ab48ad0b1bb1b7.tar.gz";
@@ -3662,8 +3662,8 @@
   /*
   Generated from: github/CosmicNvim/cosmic-ui/cosmic-ui
   */
-  cosmic-ui = buildVimPlugin {
-    pname = "cosmic-ui";
+  cosmic-ui-CosmicNvim = buildVimPlugin {
+    pname = "cosmic-ui-CosmicNvim";
     version = "2025-01-27";
     src = fetchurl {
       url = "https://github.com/CosmicNvim/cosmic-ui/archive/ab7de388576eaac02ce7bc2389e55b8e207aad12.tar.gz";
@@ -3679,8 +3679,8 @@
   /*
   Generated from: github/niuiic/cp-image.nvim/cp-image-nvim
   */
-  cp-image-nvim = buildVimPlugin {
-    pname = "cp-image-nvim";
+  cp-image-nvim-niuiic = buildVimPlugin {
+    pname = "cp-image-nvim-niuiic";
     version = "2024-05-11";
     src = fetchurl {
       url = "https://github.com/niuiic/cp-image.nvim/archive/032a658e0710cb7264f780f1587777d510920e9f.tar.gz";
@@ -3696,8 +3696,8 @@
   /*
   Generated from: github/p00f/cphelper.nvim/cphelper-nvim
   */
-  cphelper-nvim = buildVimPlugin {
-    pname = "cphelper-nvim";
+  cphelper-nvim-p00f = buildVimPlugin {
+    pname = "cphelper-nvim-p00f";
     version = "2023-06-01";
     src = fetchurl {
       url = "https://github.com/p00f/cphelper.nvim/archive/ab259315496514d58b2021048ef40437ad0f5814.tar.gz";
@@ -3713,8 +3713,8 @@
   /*
   Generated from: github/Saecki/crates.nvim/crates-nvim
   */
-  crates-nvim = buildVimPlugin {
-    pname = "crates-nvim";
+  crates-nvim-Saecki = buildVimPlugin {
+    pname = "crates-nvim-Saecki";
     version = "2025-08-23";
     src = fetchurl {
       url = "https://github.com/Saecki/crates.nvim/archive/ac9fa498a9edb96dc3056724ff69d5f40b898453.tar.gz";
@@ -3730,8 +3730,8 @@
   /*
   Generated from: github/gaborvecsei/cryptoprice.nvim/cryptoprice-nvim
   */
-  cryptoprice-nvim = buildVimPlugin {
-    pname = "cryptoprice-nvim";
+  cryptoprice-nvim-gaborvecsei = buildVimPlugin {
+    pname = "cryptoprice-nvim-gaborvecsei";
     version = "2025-11-03";
     src = fetchurl {
       url = "https://github.com/gaborvecsei/cryptoprice.nvim/archive/590cea7fadb3afedd0e33941313f940e19adab9c.tar.gz";
@@ -3747,8 +3747,8 @@
   /*
   Generated from: github/iabdelkareem/csharp.nvim/csharp-nvim
   */
-  csharp-nvim = buildVimPlugin {
-    pname = "csharp-nvim";
+  csharp-nvim-iabdelkareem = buildVimPlugin {
+    pname = "csharp-nvim-iabdelkareem";
     version = "2024-08-25";
     src = fetchurl {
       url = "https://github.com/iabdelkareem/csharp.nvim/archive/e44e275dabbcfc188ce1a5f504aad778e917c814.tar.gz";
@@ -3764,8 +3764,8 @@
   /*
   Generated from: github/farias-hecdin/CSSVarHighlight/CSSVarHighlight
   */
-  CSSVarHighlight = buildVimPlugin {
-    pname = "CSSVarHighlight";
+  CSSVarHighlight-farias-hecdin = buildVimPlugin {
+    pname = "CSSVarHighlight-farias-hecdin";
     version = "2024-09-24";
     src = fetchurl {
       url = "https://github.com/farias-hecdin/CSSVarHighlight/archive/df12358131e4a5f905488e247d2e999415f25c15.tar.gz";
@@ -3781,8 +3781,8 @@
   /*
   Generated from: github/farias-hecdin/CSSVarViewer/CSSVarViewer
   */
-  CSSVarViewer = buildVimPlugin {
-    pname = "CSSVarViewer";
+  CSSVarViewer-farias-hecdin = buildVimPlugin {
+    pname = "CSSVarViewer-farias-hecdin";
     version = "2024-10-01";
     src = fetchurl {
       url = "https://github.com/farias-hecdin/CSSVarViewer/archive/6716e8634ba402cb9d0fa0cf98122ba724a6aed7.tar.gz";
@@ -3798,8 +3798,8 @@
   /*
   Generated from: github/theKnightsOfRohan/csvlens.nvim/csvlens-nvim
   */
-  csvlens-nvim = buildVimPlugin {
-    pname = "csvlens-nvim";
+  csvlens-nvim-theKnightsOfRohan = buildVimPlugin {
+    pname = "csvlens-nvim-theKnightsOfRohan";
     version = "2024-04-28";
     src = fetchurl {
       url = "https://github.com/theKnightsOfRohan/csvlens.nvim/archive/987375e2cf6399850f7f801b53b89c981ed652fa.tar.gz";
@@ -3815,8 +3815,8 @@
   /*
   Generated from: github/hat0uma/csvview.nvim/csvview-nvim
   */
-  csvview-nvim = buildVimPlugin {
-    pname = "csvview-nvim";
+  csvview-nvim-hat0uma = buildVimPlugin {
+    pname = "csvview-nvim-hat0uma";
     version = "2026-01-03";
     src = fetchurl {
       url = "https://github.com/hat0uma/csvview.nvim/archive/da4106db5c44bfdccd0f76142c0f2740bcae8e5c.tar.gz";
@@ -3832,8 +3832,8 @@
   /*
   Generated from: github/gbprod/cutlass.nvim/cutlass-nvim
   */
-  cutlass-nvim = buildVimPlugin {
-    pname = "cutlass-nvim";
+  cutlass-nvim-gbprod = buildVimPlugin {
+    pname = "cutlass-nvim-gbprod";
     version = "2025-10-23";
     src = fetchurl {
       url = "https://github.com/gbprod/cutlass.nvim/archive/d01b5c1943050fcda8edf5c89d4419c41a65890e.tar.gz";
@@ -3849,8 +3849,8 @@
   /*
   Generated from: github/scottmckendry/cyberdream.nvim/cyberdream-nvim
   */
-  cyberdream-nvim = buildVimPlugin {
-    pname = "cyberdream-nvim";
+  cyberdream-nvim-scottmckendry = buildVimPlugin {
+    pname = "cyberdream-nvim-scottmckendry";
     version = "2026-01-08";
     src = fetchurl {
       url = "https://github.com/scottmckendry/cyberdream.nvim/archive/7464438b099c0ebcd42c4b6dd9abbd6ed93cb7f8.tar.gz";
@@ -3866,8 +3866,8 @@
   /*
   Generated from: github/ghillb/cybu.nvim/cybu-nvim
   */
-  cybu-nvim = buildVimPlugin {
-    pname = "cybu-nvim";
+  cybu-nvim-ghillb = buildVimPlugin {
+    pname = "cybu-nvim-ghillb";
     version = "2025-07-24";
     src = fetchurl {
       url = "https://github.com/ghillb/cybu.nvim/archive/c8a8c71cd0e38d4165b02819dfdc32dedc35a6b6.tar.gz";
@@ -3883,8 +3883,8 @@
   /*
   Generated from: github/pocco81/dap-buddy.nvim/dap-buddy-nvim
   */
-  dap-buddy-nvim = buildVimPlugin {
-    pname = "dap-buddy-nvim";
+  dap-buddy-nvim-pocco81 = buildVimPlugin {
+    pname = "dap-buddy-nvim-pocco81";
     version = "2022-04-20";
     src = fetchurl {
       url = "https://github.com/pocco81/dap-buddy.nvim/archive/bbda2b062e5519cde4e10b6e4240d3dd1f867b20.tar.gz";
@@ -3900,8 +3900,8 @@
   /*
   Generated from: github/niuiic/dap-utils.nvim/dap-utils-nvim
   */
-  dap-utils-nvim = buildVimPlugin {
-    pname = "dap-utils-nvim";
+  dap-utils-nvim-niuiic = buildVimPlugin {
+    pname = "dap-utils-nvim-niuiic";
     version = "2024-05-11";
     src = fetchurl {
       url = "https://github.com/niuiic/dap-utils.nvim/archive/fb55e35015a82548cf2b5f24202f9071def077bc.tar.gz";
@@ -3917,8 +3917,8 @@
   /*
   Generated from: github/Pocco81/DAPInstall.nvim/DAPInstall-nvim
   */
-  DAPInstall-nvim = buildVimPlugin {
-    pname = "DAPInstall-nvim";
+  DAPInstall-nvim-Pocco81 = buildVimPlugin {
+    pname = "DAPInstall-nvim-Pocco81";
     version = "2022-04-20";
     src = fetchurl {
       url = "https://github.com/Pocco81/DAPInstall.nvim/archive/bbda2b062e5519cde4e10b6e4240d3dd1f867b20.tar.gz";
@@ -3934,8 +3934,8 @@
   /*
   Generated from: github/uncleTen276/dark_flat.nvim/dark-flat-nvim
   */
-  dark-flat-nvim = buildVimPlugin {
-    pname = "dark-flat-nvim";
+  dark-flat-nvim-uncleTen276 = buildVimPlugin {
+    pname = "dark-flat-nvim-uncleTen276";
     version = "2024-06-19";
     src = fetchurl {
       url = "https://github.com/uncleTen276/dark_flat.nvim/archive/37b75c99d3294efdefeef2149687b96c42da4fa2.tar.gz";
@@ -3951,8 +3951,8 @@
   /*
   Generated from: github/ptdewey/darkearth-nvim/darkearth-nvim
   */
-  darkearth-nvim = buildVimPlugin {
-    pname = "darkearth-nvim";
+  darkearth-nvim-ptdewey = buildVimPlugin {
+    pname = "darkearth-nvim-ptdewey";
     version = "2025-08-20";
     src = fetchurl {
       url = "https://github.com/ptdewey/darkearth-nvim/archive/1a33a92f083f1ec069ce5653121cb181c0c4cdf3.tar.gz";
@@ -3968,8 +3968,8 @@
   /*
   Generated from: github/4e554c4c/darkman.nvim/darkman-nvim
   */
-  darkman-nvim = buildVimPlugin {
-    pname = "darkman-nvim";
+  darkman-nvim-4e554c4c = buildVimPlugin {
+    pname = "darkman-nvim-4e554c4c";
     version = "2025-04-06";
     src = fetchurl {
       url = "https://github.com/4e554c4c/darkman.nvim/archive/2213b2b484606a20e260bb14b907586d7c6e7eaf.tar.gz";
@@ -3985,8 +3985,8 @@
   /*
   Generated from: github/nvimdev/dashboard-nvim/dashboard-nvim
   */
-  dashboard-nvim = buildVimPlugin {
-    pname = "dashboard-nvim";
+  dashboard-nvim-nvimdev = buildVimPlugin {
+    pname = "dashboard-nvim-nvimdev";
     version = "2025-08-31";
     src = fetchurl {
       url = "https://github.com/nvimdev/dashboard-nvim/archive/0775e567b6c0be96d01a61795f7b64c1758262f6.tar.gz";
@@ -4002,8 +4002,8 @@
   /*
   Generated from: github/VidocqH/data-viewer.nvim/data-viewer-nvim
   */
-  data-viewer-nvim = buildVimPlugin {
-    pname = "data-viewer-nvim";
+  data-viewer-nvim-VidocqH = buildVimPlugin {
+    pname = "data-viewer-nvim-VidocqH";
     version = "2023-11-03";
     src = fetchurl {
       url = "https://github.com/VidocqH/data-viewer.nvim/archive/40ddf37bb7ab6c04ff9e820812d1539afe691668.tar.gz";
@@ -4019,8 +4019,8 @@
   /*
   Generated from: github/Bekaboo/deadcolumn.nvim/deadcolumn-nvim
   */
-  deadcolumn-nvim = buildVimPlugin {
-    pname = "deadcolumn-nvim";
+  deadcolumn-nvim-Bekaboo = buildVimPlugin {
+    pname = "deadcolumn-nvim-Bekaboo";
     version = "2025-09-04";
     src = fetchurl {
       url = "https://github.com/Bekaboo/deadcolumn.nvim/archive/92c86f10bfba2717ca2280e2e759b047135d5288.tar.gz";
@@ -4036,8 +4036,8 @@
   /*
   Generated from: github/andrewferrier/debugprint.nvim/debugprint-nvim
   */
-  debugprint-nvim = buildVimPlugin {
-    pname = "debugprint-nvim";
+  debugprint-nvim-andrewferrier = buildVimPlugin {
+    pname = "debugprint-nvim-andrewferrier";
     version = "2025-12-30";
     src = fetchurl {
       url = "https://github.com/andrewferrier/debugprint.nvim/archive/1f5de64ac5d0d0ca20a1a535e1ab2fe2c7d4359f.tar.gz";
@@ -4053,8 +4053,8 @@
   /*
   Generated from: github/MisanthropicBit/decipher.nvim/decipher-nvim
   */
-  decipher-nvim = buildVimPlugin {
-    pname = "decipher-nvim";
+  decipher-nvim-MisanthropicBit = buildVimPlugin {
+    pname = "decipher-nvim-MisanthropicBit";
     version = "2025-10-17";
     src = fetchurl {
       url = "https://github.com/MisanthropicBit/decipher.nvim/archive/2f511f2b7ec69b6b0784996b3c46bc288e2bb0de.tar.gz";
@@ -4070,8 +4070,8 @@
   /*
   Generated from: github/emmanueltouzery/decisive.nvim/decisive-nvim
   */
-  decisive-nvim = buildVimPlugin {
-    pname = "decisive-nvim";
+  decisive-nvim-emmanueltouzery = buildVimPlugin {
+    pname = "decisive-nvim-emmanueltouzery";
     version = "2025-06-05";
     src = fetchurl {
       url = "https://github.com/emmanueltouzery/decisive.nvim/archive/c401541b8429b787d7dcb441e43bee63fc94737c.tar.gz";
@@ -4087,8 +4087,8 @@
   /*
   Generated from: github/Verf/deepwhite.nvim/deepwhite-nvim
   */
-  deepwhite-nvim = buildVimPlugin {
-    pname = "deepwhite-nvim";
+  deepwhite-nvim-Verf = buildVimPlugin {
+    pname = "deepwhite-nvim-Verf";
     version = "2024-09-30";
     src = fetchurl {
       url = "https://github.com/Verf/deepwhite.nvim/archive/ccad56bb5eb7d29258980cfc0a716eb87bcad69e.tar.gz";
@@ -4104,8 +4104,8 @@
   /*
   Generated from: github/mawkler/demicolon.nvim/demicolon-nvim
   */
-  demicolon-nvim = buildVimPlugin {
-    pname = "demicolon-nvim";
+  demicolon-nvim-mawkler = buildVimPlugin {
+    pname = "demicolon-nvim-mawkler";
     version = "2025-12-28";
     src = fetchurl {
       url = "https://github.com/mawkler/demicolon.nvim/archive/f29cdb8c3a84422a1e0c708e8141212805844679.tar.gz";
@@ -4121,8 +4121,8 @@
   /*
   Generated from: github/chiyadev/dep/dep
   */
-  dep = buildVimPlugin {
-    pname = "dep";
+  dep-chiyadev = buildVimPlugin {
+    pname = "dep-chiyadev";
     version = "2022-12-20";
     src = fetchurl {
       url = "https://github.com/chiyadev/dep/archive/b77963d2410d4dc65a1687c04103a8be58866ac6.tar.gz";
@@ -4138,8 +4138,8 @@
   /*
   Generated from: github/akinsho/dependency-assist.nvim/dependency-assist-nvim
   */
-  dependency-assist-nvim = buildVimPlugin {
-    pname = "dependency-assist-nvim";
+  dependency-assist-nvim-akinsho = buildVimPlugin {
+    pname = "dependency-assist-nvim-akinsho";
     version = "2021-11-11";
     src = fetchurl {
       url = "https://github.com/akinsho/dependency-assist.nvim/archive/86d49a83f89a9a48e50556fef00961ea2e3ec28b.tar.gz";
@@ -4155,8 +4155,8 @@
   /*
   Generated from: github/dgagn/diagflow.nvim/diagflow-nvim
   */
-  diagflow-nvim = buildVimPlugin {
-    pname = "diagflow-nvim";
+  diagflow-nvim-dgagn = buildVimPlugin {
+    pname = "diagflow-nvim-dgagn";
     version = "2025-03-04";
     src = fetchurl {
       url = "https://github.com/dgagn/diagflow.nvim/archive/b13321b517ff64bf42eeac2214085d3c76d83a0d.tar.gz";
@@ -4172,8 +4172,8 @@
   /*
   Generated from: github/onsails/diaglist.nvim/diaglist-nvim
   */
-  diaglist-nvim = buildVimPlugin {
-    pname = "diaglist-nvim";
+  diaglist-nvim-onsails = buildVimPlugin {
+    pname = "diaglist-nvim-onsails";
     version = "2025-09-17";
     src = fetchurl {
       url = "https://github.com/onsails/diaglist.nvim/archive/8aba9fcf62cc60e1d5ce941faedecc399d9a1e8b.tar.gz";
@@ -4189,8 +4189,8 @@
   /*
   Generated from: github/creativenull/diagnosticls-configs-nvim/diagnosticls-configs-nvim
   */
-  diagnosticls-configs-nvim = buildVimPlugin {
-    pname = "diagnosticls-configs-nvim";
+  diagnosticls-configs-nvim-creativenull = buildVimPlugin {
+    pname = "diagnosticls-configs-nvim-creativenull";
     version = "2025-11-12";
     src = fetchurl {
       url = "https://github.com/creativenull/diagnosticls-configs-nvim/archive/88b405b88bb3c4e41ed32ba8e3fe0b36ef1bd629.tar.gz";
@@ -4206,8 +4206,8 @@
   /*
   Generated from: github/monaqa/dial.nvim/dial-nvim
   */
-  dial-nvim = buildVimPlugin {
-    pname = "dial-nvim";
+  dial-nvim-monaqa = buildVimPlugin {
+    pname = "dial-nvim-monaqa";
     version = "2025-12-21";
     src = fetchurl {
       url = "https://github.com/monaqa/dial.nvim/archive/f2634758455cfa52a8acea6f142dcd6271a1bf57.tar.gz";
@@ -4223,8 +4223,8 @@
   /*
   Generated from: github/sindrets/diffview.nvim/diffview-nvim
   */
-  diffview-nvim = buildVimPlugin {
-    pname = "diffview-nvim";
+  diffview-nvim-sindrets = buildVimPlugin {
+    pname = "diffview-nvim-sindrets";
     version = "2024-06-13";
     src = fetchurl {
       url = "https://github.com/sindrets/diffview.nvim/archive/4516612fe98ff56ae0415a259ff6361a89419b0a.tar.gz";
@@ -4240,8 +4240,8 @@
   /*
   Generated from: github/elihunter173/dirbuf.nvim/dirbuf-nvim
   */
-  dirbuf-nvim = buildVimPlugin {
-    pname = "dirbuf-nvim";
+  dirbuf-nvim-elihunter173 = buildVimPlugin {
+    pname = "dirbuf-nvim-elihunter173";
     version = "2022-08-28";
     src = fetchurl {
       url = "https://github.com/elihunter173/dirbuf.nvim/archive/ac7ad3c8e61630d15af1f6266441984f54f54fd2.tar.gz";
@@ -4257,8 +4257,8 @@
   /*
   Generated from: github/notashelf/direnv.nvim/direnv-nvim
   */
-  direnv-nvim = buildVimPlugin {
-    pname = "direnv-nvim";
+  direnv-nvim-notashelf = buildVimPlugin {
+    pname = "direnv-nvim-notashelf";
     version = "2026-01-06";
     src = fetchurl {
       url = "https://github.com/notashelf/direnv.nvim/archive/ecd3bd4898f79689a3f5bf956877ea42c7b3072e.tar.gz";
@@ -4274,8 +4274,8 @@
   /*
   Generated from: github/chipsenkbeil/distant.nvim/distant-nvim
   */
-  distant-nvim = buildVimPlugin {
-    pname = "distant-nvim";
+  distant-nvim-chipsenkbeil = buildVimPlugin {
+    pname = "distant-nvim-chipsenkbeil";
     version = "2024-10-17";
     src = fetchurl {
       url = "https://github.com/chipsenkbeil/distant.nvim/archive/67d6b066e8490725718b79f643966f4eafc7da3c.tar.gz";
@@ -4291,8 +4291,8 @@
   /*
   Generated from: gitlab/bartekjaszczak/distinct-nvim/distinct-nvim
   */
-  distinct-nvim = buildVimPlugin {
-    pname = "distinct-nvim";
+  distinct-nvim-bartekjaszczak = buildVimPlugin {
+    pname = "distinct-nvim-bartekjaszczak";
     version = "2024-08-11";
     src = fetchurl {
       url = "https://gitlab.com/api/v4/projects/bartekjaszczak%2Fdistinct-nvim/repository/archive.tar.gz?sha=16b5b4b74f7bda339715b6ccac2aab98c3563e13";
@@ -4308,8 +4308,8 @@
   /*
   Generated from: github/Zeioth/distroupdate.nvim/distroupdate-nvim
   */
-  distroupdate-nvim = buildVimPlugin {
-    pname = "distroupdate-nvim";
+  distroupdate-nvim-Zeioth = buildVimPlugin {
+    pname = "distroupdate-nvim-Zeioth";
     version = "2025-08-11";
     src = fetchurl {
       url = "https://github.com/Zeioth/distroupdate.nvim/archive/b8aa82a3d17a38fb015cf374927ce924a355d116.tar.gz";
@@ -4325,8 +4325,8 @@
   /*
   Generated from: github/niuiic/divider.nvim/divider-nvim
   */
-  divider-nvim = buildVimPlugin {
-    pname = "divider-nvim";
+  divider-nvim-niuiic = buildVimPlugin {
+    pname = "divider-nvim-niuiic";
     version = "2024-11-18";
     src = fetchurl {
       url = "https://github.com/niuiic/divider.nvim/archive/f462e7f52c03854ea8c59112cadf0defbe543094.tar.gz";
@@ -4342,8 +4342,8 @@
   /*
   Generated from: github/Zeioth/dooku.nvim/dooku-nvim
   */
-  dooku-nvim = buildVimPlugin {
-    pname = "dooku-nvim";
+  dooku-nvim-Zeioth = buildVimPlugin {
+    pname = "dooku-nvim-Zeioth";
     version = "2025-06-24";
     src = fetchurl {
       url = "https://github.com/Zeioth/dooku.nvim/archive/19ce5a25004ea6291c0968fe9d86793c272af8df.tar.gz";
@@ -4359,8 +4359,8 @@
   /*
   Generated from: github/NTBBloodbath/doom-one.nvim/doom-one-nvim
   */
-  doom-one-nvim = buildVimPlugin {
-    pname = "doom-one-nvim";
+  doom-one-nvim-NTBBloodbath = buildVimPlugin {
+    pname = "doom-one-nvim-NTBBloodbath";
     version = "2025-06-28";
     src = fetchurl {
       url = "https://github.com/NTBBloodbath/doom-one.nvim/archive/beae92173315c7282f6897e666cfd67fbf0f3ac9.tar.gz";
@@ -4376,8 +4376,8 @@
   /*
   Generated from: github/ellisonleao/dotenv.nvim/dotenv-nvim
   */
-  dotenv-nvim = buildVimPlugin {
-    pname = "dotenv-nvim";
+  dotenv-nvim-ellisonleao = buildVimPlugin {
+    pname = "dotenv-nvim-ellisonleao";
     version = "2025-03-27";
     src = fetchurl {
       url = "https://github.com/ellisonleao/dotenv.nvim/archive/7d516e9293c6e3ac21830fb10a4e8674c02747c6.tar.gz";
@@ -4393,8 +4393,8 @@
   /*
   Generated from: github/Mofiqul/dracula.nvim/dracula-nvim
   */
-  dracula-nvim = buildVimPlugin {
-    pname = "dracula-nvim";
+  dracula-nvim-Mofiqul = buildVimPlugin {
+    pname = "dracula-nvim-Mofiqul";
     version = "2025-11-05";
     src = fetchurl {
       url = "https://github.com/Mofiqul/dracula.nvim/archive/ae752c13e95fb7c5f58da4b5123cb804ea7568ee.tar.gz";
@@ -4410,8 +4410,8 @@
   /*
   Generated from: github/stevearc/dressing.nvim/dressing-nvim
   */
-  dressing-nvim = buildVimPlugin {
-    pname = "dressing-nvim";
+  dressing-nvim-stevearc = buildVimPlugin {
+    pname = "dressing-nvim-stevearc";
     version = "2025-02-12";
     src = fetchurl {
       url = "https://github.com/stevearc/dressing.nvim/archive/2d7c2db2507fa3c4956142ee607431ddb2828639.tar.gz";
@@ -4427,8 +4427,8 @@
   /*
   Generated from: github/TheBlob42/drex.nvim/drex-nvim
   */
-  drex-nvim = buildVimPlugin {
-    pname = "drex-nvim";
+  drex-nvim-TheBlob42 = buildVimPlugin {
+    pname = "drex-nvim-TheBlob42";
     version = "2025-05-09";
     src = fetchurl {
       url = "https://github.com/TheBlob42/drex.nvim/archive/62140090e13552d0f960afb5647e943872f88309.tar.gz";
@@ -4444,8 +4444,8 @@
   /*
   Generated from: github/Bekaboo/dropbar.nvim/dropbar-nvim
   */
-  dropbar-nvim = buildVimPlugin {
-    pname = "dropbar-nvim";
+  dropbar-nvim-Bekaboo = buildVimPlugin {
+    pname = "dropbar-nvim-Bekaboo";
     version = "2025-10-05";
     src = fetchurl {
       url = "https://github.com/Bekaboo/dropbar.nvim/archive/ce202248134e3949aac375fd66c28e5207785b10.tar.gz";
@@ -4461,8 +4461,8 @@
   /*
   Generated from: github/NFrid/due.nvim/due-nvim
   */
-  due-nvim = buildVimPlugin {
-    pname = "due-nvim";
+  due-nvim-NFrid = buildVimPlugin {
+    pname = "due-nvim-NFrid";
     version = "2023-09-04";
     src = fetchurl {
       url = "https://github.com/NFrid/due.nvim/archive/70a93319fa0345c116f2b57cf1f99e0d20026c5e.tar.gz";
@@ -4478,8 +4478,8 @@
   /*
   Generated from: github/hinell/duplicate.nvim/duplicate-nvim
   */
-  duplicate-nvim = buildVimPlugin {
-    pname = "duplicate-nvim";
+  duplicate-nvim-hinell = buildVimPlugin {
+    pname = "duplicate-nvim-hinell";
     version = "2023-10-23";
     src = fetchurl {
       url = "https://github.com/hinell/duplicate.nvim/archive/ab057af7872c44e6fbd48df9b03983c8e67c50a7.tar.gz";
@@ -4495,8 +4495,8 @@
   /*
   Generated from: github/soulis-1256/eagle.nvim/eagle-nvim
   */
-  eagle-nvim = buildVimPlugin {
-    pname = "eagle-nvim";
+  eagle-nvim-soulis-1256 = buildVimPlugin {
+    pname = "eagle-nvim-soulis-1256";
     version = "2025-11-03";
     src = fetchurl {
       url = "https://github.com/soulis-1256/eagle.nvim/archive/41cb488fc097aadc22e8b5e0b9292ac7e4ee9918.tar.gz";
@@ -4512,8 +4512,8 @@
   /*
   Generated from: github/Weissle/easy-action/easy-action
   */
-  easy-action = buildVimPlugin {
-    pname = "easy-action";
+  easy-action-Weissle = buildVimPlugin {
+    pname = "easy-action-Weissle";
     version = "2022-11-13";
     src = fetchurl {
       url = "https://github.com/Weissle/easy-action/archive/2822e6dca06bd726f60c9547e287d4cf0d19ccb2.tar.gz";
@@ -4529,8 +4529,8 @@
   /*
   Generated from: github/LintaoAmons/easy-commands.nvim/easy-commands-nvim
   */
-  easy-commands-nvim = buildVimPlugin {
-    pname = "easy-commands-nvim";
+  easy-commands-nvim-LintaoAmons = buildVimPlugin {
+    pname = "easy-commands-nvim-LintaoAmons";
     version = "2024-07-06";
     src = fetchurl {
       url = "https://github.com/LintaoAmons/easy-commands.nvim/archive/e1a4721d9d9805ed7115a4083b8095acf7a721fe.tar.gz";
@@ -4546,8 +4546,8 @@
   /*
   Generated from: github/axkirillov/easypick.nvim/easypick-nvim
   */
-  easypick-nvim = buildVimPlugin {
-    pname = "easypick-nvim";
+  easypick-nvim-axkirillov = buildVimPlugin {
+    pname = "easypick-nvim-axkirillov";
     version = "2025-04-26";
     src = fetchurl {
       url = "https://github.com/axkirillov/easypick.nvim/archive/e623b38a0d8fb96446dd8dd3f38ccb545e1810a8.tar.gz";
@@ -4563,8 +4563,8 @@
   /*
   Generated from: github/Myzel394/easytables.nvim/easytables-nvim
   */
-  easytables-nvim = buildVimPlugin {
-    pname = "easytables-nvim";
+  easytables-nvim-Myzel394 = buildVimPlugin {
+    pname = "easytables-nvim-Myzel394";
     version = "2025-11-02";
     src = fetchurl {
       url = "https://github.com/Myzel394/easytables.nvim/archive/4d7b4d98ab315b90156614e16e0a2b6dbbf2a108.tar.gz";
@@ -4580,8 +4580,8 @@
   /*
   Generated from: github/philosofonusus/ecolog.nvim/ecolog-nvim
   */
-  ecolog-nvim = buildVimPlugin {
-    pname = "ecolog-nvim";
+  ecolog-nvim-philosofonusus = buildVimPlugin {
+    pname = "ecolog-nvim-philosofonusus";
     version = "2025-12-10";
     src = fetchurl {
       url = "https://github.com/philosofonusus/ecolog.nvim/archive/0053fb4f597d4f734b0ce0f84edc2e7a288bfc57.tar.gz";
@@ -4597,8 +4597,8 @@
   /*
   Generated from: github/sainnhe/edge/edge
   */
-  edge = buildVimPlugin {
-    pname = "edge";
+  edge-sainnhe = buildVimPlugin {
+    pname = "edge-sainnhe";
     version = "2026-01-04";
     src = fetchurl {
       url = "https://github.com/sainnhe/edge/archive/f421d597a2f81abcdb14a56e48d20429f7029334.tar.gz";
@@ -4614,8 +4614,8 @@
   /*
   Generated from: github/folke/edgy.nvim/edgy-nvim
   */
-  edgy-nvim = buildVimPlugin {
-    pname = "edgy-nvim";
+  edgy-nvim-folke = buildVimPlugin {
+    pname = "edgy-nvim-folke";
     version = "2025-10-28";
     src = fetchurl {
       url = "https://github.com/folke/edgy.nvim/archive/8bfd2808994a988c975694122f68624b8a219f5f.tar.gz";
@@ -4631,8 +4631,8 @@
   /*
   Generated from: github/kiran94/edit-markdown-table.nvim/edit-markdown-table-nvim
   */
-  edit-markdown-table-nvim = buildVimPlugin {
-    pname = "edit-markdown-table-nvim";
+  edit-markdown-table-nvim-kiran94 = buildVimPlugin {
+    pname = "edit-markdown-table-nvim-kiran94";
     version = "2023-05-28";
     src = fetchurl {
       url = "https://github.com/kiran94/edit-markdown-table.nvim/archive/0663bc883efa38b09a6c1e8622ae4fd48efe1d8a.tar.gz";
@@ -4648,8 +4648,8 @@
   /*
   Generated from: github/gpanders/editorconfig.nvim/editorconfig-nvim
   */
-  editorconfig-nvim = buildVimPlugin {
-    pname = "editorconfig-nvim";
+  editorconfig-nvim-gpanders = buildVimPlugin {
+    pname = "editorconfig-nvim-gpanders";
     version = "2025-03-12";
     src = fetchurl {
       url = "https://github.com/gpanders/editorconfig.nvim/archive/67758c3e8a2f79019322a60013e4ce0aad09dafa.tar.gz";
@@ -4665,8 +4665,8 @@
   /*
   Generated from: github/creativenull/efmls-configs-nvim/efmls-configs-nvim
   */
-  efmls-configs-nvim = buildVimPlugin {
-    pname = "efmls-configs-nvim";
+  efmls-configs-nvim-creativenull = buildVimPlugin {
+    pname = "efmls-configs-nvim-creativenull";
     version = "2025-12-02";
     src = fetchurl {
       url = "https://github.com/creativenull/efmls-configs-nvim/archive/b175e35c5ea133e5bee42d90f91ce8419b4436a3.tar.gz";
@@ -4682,8 +4682,8 @@
   /*
   Generated from: github/mattn/emmet-vim/emmet-vim
   */
-  emmet-vim = buildVimPlugin {
-    pname = "emmet-vim";
+  emmet-vim-mattn = buildVimPlugin {
+    pname = "emmet-vim-mattn";
     version = "2025-07-15";
     src = fetchurl {
       url = "https://github.com/mattn/emmet-vim/archive/e98397144982d1e75b20d94d55a82de3ec8f648d.tar.gz";
@@ -4699,8 +4699,8 @@
   /*
   Generated from: github/nvimdev/epo.nvim/epo-nvim
   */
-  epo-nvim = buildVimPlugin {
-    pname = "epo-nvim";
+  epo-nvim-nvimdev = buildVimPlugin {
+    pname = "epo-nvim-nvimdev";
     version = "2024-06-05";
     src = fetchurl {
       url = "https://github.com/nvimdev/epo.nvim/archive/76e2fc4b8418f3541e911fdd8ec4bd659358441d.tar.gz";
@@ -4716,8 +4716,8 @@
   /*
   Generated from: github/cvigilv/esqueleto.nvim/esqueleto-nvim
   */
-  esqueleto-nvim = buildVimPlugin {
-    pname = "esqueleto-nvim";
+  esqueleto-nvim-cvigilv = buildVimPlugin {
+    pname = "esqueleto-nvim-cvigilv";
     version = "2025-04-19";
     src = fetchurl {
       url = "https://github.com/cvigilv/esqueleto.nvim/archive/d495d8aecf6d8cc87b8f9b82276cd88393ce014b.tar.gz";
@@ -4733,8 +4733,8 @@
   /*
   Generated from: github/everblush/nvim/everblush
   */
-  everblush = buildVimPlugin {
-    pname = "everblush";
+  everblush-everblush = buildVimPlugin {
+    pname = "everblush-everblush";
     version = "2025-05-18";
     src = fetchurl {
       url = "https://github.com/everblush/nvim/archive/678f808d81801b983b6fb8296fb17ba1b2785d7c.tar.gz";
@@ -4750,8 +4750,8 @@
   /*
   Generated from: github/sainnhe/everforest/everforest
   */
-  everforest = buildVimPlugin {
-    pname = "everforest";
+  everforest-sainnhe = buildVimPlugin {
+    pname = "everforest-sainnhe";
     version = "2025-12-23";
     src = fetchurl {
       url = "https://github.com/sainnhe/everforest/archive/b90025cc84dbb9c46df5a2ae540d3f01cf85af74.tar.gz";
@@ -4767,8 +4767,8 @@
   /*
   Generated from: github/neanias/everforest-nvim/everforest-nvim
   */
-  everforest-nvim = buildVimPlugin {
-    pname = "everforest-nvim";
+  everforest-nvim-neanias = buildVimPlugin {
+    pname = "everforest-nvim-neanias";
     version = "2025-11-02";
     src = fetchurl {
       url = "https://github.com/neanias/everforest-nvim/archive/557bce922401e247a596583679bc181d4d688554.tar.gz";
@@ -4784,8 +4784,8 @@
   /*
   Generated from: github/comfysage/evergarden/evergarden
   */
-  evergarden = buildVimPlugin {
-    pname = "evergarden";
+  evergarden-comfysage = buildVimPlugin {
+    pname = "evergarden-comfysage";
     version = "2026-01-03";
     src = fetchurl {
       url = "https://github.com/comfysage/evergarden/archive/f882d4424e9113a227e838d01472d2f8f3794953.tar.gz";
@@ -4801,8 +4801,8 @@
   /*
   Generated from: github/everviolet/nvim/everviolet
   */
-  everviolet = buildVimPlugin {
-    pname = "everviolet";
+  everviolet-everviolet = buildVimPlugin {
+    pname = "everviolet-everviolet";
     version = "2026-01-03";
     src = fetchurl {
       url = "https://github.com/everviolet/nvim/archive/f882d4424e9113a227e838d01472d2f8f3794953.tar.gz";
@@ -4818,8 +4818,8 @@
   /*
   Generated from: github/google/executor.nvim/executor-nvim
   */
-  executor-nvim = buildVimPlugin {
-    pname = "executor-nvim";
+  executor-nvim-google = buildVimPlugin {
+    pname = "executor-nvim-google";
     version = "2025-08-15";
     src = fetchurl {
       url = "https://github.com/google/executor.nvim/archive/56dfbe6f7fbf4a6ba7e5934df2d95810e0235f64.tar.gz";
@@ -4835,8 +4835,8 @@
   /*
   Generated from: github/2KAbhishek/exercism.nvim/exercism-nvim
   */
-  exercism-nvim = buildVimPlugin {
-    pname = "exercism-nvim";
+  exercism-nvim-2KAbhishek = buildVimPlugin {
+    pname = "exercism-nvim-2KAbhishek";
     version = "2025-08-04";
     src = fetchurl {
       url = "https://github.com/2KAbhishek/exercism.nvim/archive/7cb452432dcc0168ab3b246b0339b97b06408fef.tar.gz";
@@ -4852,8 +4852,8 @@
   /*
   Generated from: github/3v0k4/exit.nvim/exit-nvim
   */
-  exit-nvim = buildVimPlugin {
-    pname = "exit-nvim";
+  exit-nvim-3v0k4 = buildVimPlugin {
+    pname = "exit-nvim-3v0k4";
     version = "2024-12-19";
     src = fetchurl {
       url = "https://github.com/3v0k4/exit.nvim/archive/23023921618508a83399f1ba952c9f2d34dfa04f.tar.gz";
@@ -4869,8 +4869,8 @@
   /*
   Generated from: github/tjdevries/express_line.nvim/express-line-nvim
   */
-  express-line-nvim = buildVimPlugin {
-    pname = "express-line-nvim";
+  express-line-nvim-tjdevries = buildVimPlugin {
+    pname = "express-line-nvim-tjdevries";
     version = "2021-12-01";
     src = fetchurl {
       url = "https://github.com/tjdevries/express_line.nvim/archive/30f04edb9647d9ea7c08d0bdbfad33faf5bcda57.tar.gz";
@@ -4886,8 +4886,8 @@
   /*
   Generated from: github/MunifTanjim/exrc.nvim/exrc-nvim
   */
-  exrc-nvim = buildVimPlugin {
-    pname = "exrc-nvim";
+  exrc-nvim-MunifTanjim = buildVimPlugin {
+    pname = "exrc-nvim-MunifTanjim";
     version = "2022-12-28";
     src = fetchurl {
       url = "https://github.com/MunifTanjim/exrc.nvim/archive/0aae882db72885ade36641d677a22204c72e50f4.tar.gz";
@@ -4903,8 +4903,8 @@
   /*
   Generated from: github/roobert/f-string-toggle.nvim/f-string-toggle-nvim
   */
-  f-string-toggle-nvim = buildVimPlugin {
-    pname = "f-string-toggle-nvim";
+  f-string-toggle-nvim-roobert = buildVimPlugin {
+    pname = "f-string-toggle-nvim-roobert";
     version = "2025-11-24";
     src = fetchurl {
       url = "https://github.com/roobert/f-string-toggle.nvim/archive/c1c77b4fce192e1615490d895863e2a0508d6021.tar.gz";
@@ -4920,8 +4920,8 @@
   /*
   Generated from: github/fenetikm/falcon/falcon
   */
-  falcon = buildVimPlugin {
-    pname = "falcon";
+  falcon-fenetikm = buildVimPlugin {
+    pname = "falcon-fenetikm";
     version = "2025-04-28";
     src = fetchurl {
       url = "https://github.com/fenetikm/falcon/archive/276cd483c73f5389f0bd99b18e2452bd57b77bf6.tar.gz";
@@ -4937,8 +4937,8 @@
   /*
   Generated from: github/h-hg/fcitx.nvim/fcitx-nvim
   */
-  fcitx-nvim = buildVimPlugin {
-    pname = "fcitx-nvim";
+  fcitx-nvim-h-hg = buildVimPlugin {
+    pname = "fcitx-nvim-h-hg";
     version = "2025-12-28";
     src = fetchurl {
       url = "https://github.com/h-hg/fcitx.nvim/archive/c8543d72adf02a557722847c5d263171ec5c9bb4.tar.gz";
@@ -4954,8 +4954,8 @@
   /*
   Generated from: github/neo451/feed.nvim/feed-nvim
   */
-  feed-nvim = buildVimPlugin {
-    pname = "feed-nvim";
+  feed-nvim-neo451 = buildVimPlugin {
+    pname = "feed-nvim-neo451";
     version = "2025-12-15";
     src = fetchurl {
       url = "https://github.com/neo451/feed.nvim/archive/d1f8cee9df8ea4c7e319db701fb0ece0eca9a005.tar.gz";
@@ -4971,8 +4971,8 @@
   /*
   Generated from: github/vxpm/ferris.nvim/ferris-nvim
   */
-  ferris-nvim = buildVimPlugin {
-    pname = "ferris-nvim";
+  ferris-nvim-vxpm = buildVimPlugin {
+    pname = "ferris-nvim-vxpm";
     version = "2025-08-04";
     src = fetchurl {
       url = "https://github.com/vxpm/ferris.nvim/archive/275865530d753a205740804f1ce163af2322db57.tar.gz";
@@ -4988,8 +4988,8 @@
   /*
   Generated from: github/j-hui/fidget.nvim/fidget-nvim
   */
-  fidget-nvim = buildVimPlugin {
-    pname = "fidget-nvim";
+  fidget-nvim-j-hui = buildVimPlugin {
+    pname = "fidget-nvim-j-hui";
     version = "2025-12-19";
     src = fetchurl {
       url = "https://github.com/j-hui/fidget.nvim/archive/64463022a1f2ff1318ab22a2ea4125ed9313a483.tar.gz";
@@ -5005,8 +5005,8 @@
   /*
   Generated from: gitlab/bartekjaszczak/finale-nvim/finale-nvim
   */
-  finale-nvim = buildVimPlugin {
-    pname = "finale-nvim";
+  finale-nvim-bartekjaszczak = buildVimPlugin {
+    pname = "finale-nvim-bartekjaszczak";
     version = "2025-08-15";
     src = fetchurl {
       url = "https://gitlab.com/api/v4/projects/bartekjaszczak%2Ffinale-nvim/repository/archive.tar.gz?sha=6886550cf3c01f5eb0b5aaaf3995228f3843ef5a";
@@ -5022,8 +5022,8 @@
   /*
   Generated from: github/vonheikemen/fine-cmdline.nvim/fine-cmdline-nvim
   */
-  fine-cmdline-nvim = buildVimPlugin {
-    pname = "fine-cmdline-nvim";
+  fine-cmdline-nvim-vonheikemen = buildVimPlugin {
+    pname = "fine-cmdline-nvim-vonheikemen";
     version = "2025-06-15";
     src = fetchurl {
       url = "https://github.com/vonheikemen/fine-cmdline.nvim/archive/7db181d1cb294581b12a036eadffffde762a118f.tar.gz";
@@ -5039,8 +5039,8 @@
   /*
   Generated from: github/glacambre/firenvim/firenvim
   */
-  firenvim = buildVimPlugin {
-    pname = "firenvim";
+  firenvim-glacambre = buildVimPlugin {
+    pname = "firenvim-glacambre";
     version = "2025-09-30";
     src = fetchurl {
       url = "https://github.com/glacambre/firenvim/archive/a18ef908ac06b52ad9333b70e3e630b0a56ecb3d.tar.gz";
@@ -5056,8 +5056,8 @@
   /*
   Generated from: github/folke/flash.nvim/flash-nvim
   */
-  flash-nvim = buildVimPlugin {
-    pname = "flash-nvim";
+  flash-nvim-folke = buildVimPlugin {
+    pname = "flash-nvim-folke";
     version = "2025-10-28";
     src = fetchurl {
       url = "https://github.com/folke/flash.nvim/archive/fcea7ff883235d9024dc41e638f164a450c14ca2.tar.gz";
@@ -5073,8 +5073,8 @@
   /*
   Generated from: github/willothy/flatten.nvim/flatten-nvim
   */
-  flatten-nvim = buildVimPlugin {
-    pname = "flatten-nvim";
+  flatten-nvim-willothy = buildVimPlugin {
+    pname = "flatten-nvim-willothy";
     version = "2025-05-27";
     src = fetchurl {
       url = "https://github.com/willothy/flatten.nvim/archive/72527798e75b5e34757491947c2cb853ce21dc0e.tar.gz";
@@ -5090,8 +5090,8 @@
   /*
   Generated from: github/kepano/flexoki-neovim/flexoki-neovim
   */
-  flexoki-neovim = buildVimPlugin {
-    pname = "flexoki-neovim";
+  flexoki-neovim-kepano = buildVimPlugin {
+    pname = "flexoki-neovim-kepano";
     version = "2025-08-26";
     src = fetchurl {
       url = "https://github.com/kepano/flexoki-neovim/archive/c3e2251e813d29d885a7cbbe9808a7af234d845d.tar.gz";
@@ -5107,8 +5107,8 @@
   /*
   Generated from: github/ggandor/flit.nvim/flit-nvim
   */
-  flit-nvim = buildVimPlugin {
-    pname = "flit-nvim";
+  flit-nvim-ggandor = buildVimPlugin {
+    pname = "flit-nvim-ggandor";
     version = "2025-10-09";
     src = fetchurl {
       url = "https://github.com/ggandor/flit.nvim/archive/ef18183b22377741e154cffb5b914516381d3870.tar.gz";
@@ -5124,8 +5124,8 @@
   /*
   Generated from: github/0xstepit/flow.nvim/flow-nvim
   */
-  flow-nvim = buildVimPlugin {
-    pname = "flow-nvim";
+  flow-nvim-0xstepit = buildVimPlugin {
+    pname = "flow-nvim-0xstepit";
     version = "2025-02-16";
     src = fetchurl {
       url = "https://github.com/0xstepit/flow.nvim/archive/095c54bbaf55473418dd09d61d3167891684cf85.tar.gz";
@@ -5141,8 +5141,8 @@
   /*
   Generated from: github/maxmx03/FluoroMachine.nvim/FluoroMachine-nvim
   */
-  FluoroMachine-nvim = buildVimPlugin {
-    pname = "FluoroMachine-nvim";
+  FluoroMachine-nvim-maxmx03 = buildVimPlugin {
+    pname = "FluoroMachine-nvim-maxmx03";
     version = "2025-10-21";
     src = fetchurl {
       url = "https://github.com/maxmx03/FluoroMachine.nvim/archive/a279f667168e742df059caf1f1f4daf1de24f4f8.tar.gz";
@@ -5158,8 +5158,8 @@
   /*
   Generated from: github/nvim-flutter/flutter-tools.nvim/flutter-tools-nvim
   */
-  flutter-tools-nvim = buildVimPlugin {
-    pname = "flutter-tools-nvim";
+  flutter-tools-nvim-nvim-flutter = buildVimPlugin {
+    pname = "flutter-tools-nvim-nvim-flutter";
     version = "2026-01-08";
     src = fetchurl {
       url = "https://github.com/nvim-flutter/flutter-tools.nvim/archive/e45f4ea45ac03f5f85b0205f9183bbd1ef4ddebb.tar.gz";
@@ -5175,8 +5175,8 @@
   /*
   Generated from: github/CamdenClark/flyboy/flyboy
   */
-  flyboy = buildVimPlugin {
-    pname = "flyboy";
+  flyboy-CamdenClark = buildVimPlugin {
+    pname = "flyboy-CamdenClark";
     version = "2023-10-31";
     src = fetchurl {
       url = "https://github.com/CamdenClark/flyboy/archive/d1f8665f96279b6be43455b097593023dfd8d63d.tar.gz";
@@ -5192,8 +5192,8 @@
   /*
   Generated from: github/wsdjeg/flygrep.nvim/flygrep-nvim
   */
-  flygrep-nvim = buildVimPlugin {
-    pname = "flygrep-nvim";
+  flygrep-nvim-wsdjeg = buildVimPlugin {
+    pname = "flygrep-nvim-wsdjeg";
     version = "2025-12-31";
     src = fetchurl {
       url = "https://github.com/wsdjeg/flygrep.nvim/archive/09a0b06c84a35496c886f4400fa56d18457c4f21.tar.gz";
@@ -5209,8 +5209,8 @@
   /*
   Generated from: github/is0n/fm-nvim/fm-nvim
   */
-  fm-nvim = buildVimPlugin {
-    pname = "fm-nvim";
+  fm-nvim-is0n = buildVimPlugin {
+    pname = "fm-nvim-is0n";
     version = "2022-10-11";
     src = fetchurl {
       url = "https://github.com/is0n/fm-nvim/archive/8e6a77049330e7c797eb9e63affd75eb796fe75e.tar.gz";
@@ -5226,8 +5226,8 @@
   /*
   Generated from: github/nvim-focus/focus.nvim/focus-nvim
   */
-  focus-nvim = buildVimPlugin {
-    pname = "focus-nvim";
+  focus-nvim-nvim-focus = buildVimPlugin {
+    pname = "focus-nvim-nvim-focus";
     version = "2025-11-14";
     src = fetchurl {
       url = "https://github.com/nvim-focus/focus.nvim/archive/26a755c363284547196ceb258a83f92608d7979b.tar.gz";
@@ -5243,8 +5243,8 @@
   /*
   Generated from: github/jghauser/fold-cycle.nvim/fold-cycle-nvim
   */
-  fold-cycle-nvim = buildVimPlugin {
-    pname = "fold-cycle-nvim";
+  fold-cycle-nvim-jghauser = buildVimPlugin {
+    pname = "fold-cycle-nvim-jghauser";
     version = "2025-08-31";
     src = fetchurl {
       url = "https://github.com/jghauser/fold-cycle.nvim/archive/6144567b3307bbcfed0e5b2dd23acb9576575d9e.tar.gz";
@@ -5260,8 +5260,8 @@
   /*
   Generated from: github/gh-liu/fold_line.nvim/fold-line-nvim
   */
-  fold-line-nvim = buildVimPlugin {
-    pname = "fold-line-nvim";
+  fold-line-nvim-gh-liu = buildVimPlugin {
+    pname = "fold-line-nvim-gh-liu";
     version = "2025-05-16";
     src = fetchurl {
       url = "https://github.com/gh-liu/fold_line.nvim/archive/10c37a5be956be93e54557539d6408c0365996ff.tar.gz";
@@ -5277,8 +5277,8 @@
   /*
   Generated from: github/anuvyklack/fold-preview.nvim/fold-preview-nvim
   */
-  fold-preview-nvim = buildVimPlugin {
-    pname = "fold-preview-nvim";
+  fold-preview-nvim-anuvyklack = buildVimPlugin {
+    pname = "fold-preview-nvim-anuvyklack";
     version = "2023-01-27";
     src = fetchurl {
       url = "https://github.com/anuvyklack/fold-preview.nvim/archive/b7920cb0aba2b48a6b679bff45f98c3ebc0f0b89.tar.gz";
@@ -5294,8 +5294,8 @@
   /*
   Generated from: github/OXY2DEV/foldtext.nvim/foldtext-nvim
   */
-  foldtext-nvim = buildVimPlugin {
-    pname = "foldtext-nvim";
+  foldtext-nvim-OXY2DEV = buildVimPlugin {
+    pname = "foldtext-nvim-OXY2DEV";
     version = "2025-09-24";
     src = fetchurl {
       url = "https://github.com/OXY2DEV/foldtext.nvim/archive/97c3fbdfca2ee37d4a8254e1d088c7f6b9d13578.tar.gz";
@@ -5311,8 +5311,8 @@
   /*
   Generated from: github/jghauser/follow-md-links.nvim/follow-md-links-nvim
   */
-  follow-md-links-nvim = buildVimPlugin {
-    pname = "follow-md-links-nvim";
+  follow-md-links-nvim-jghauser = buildVimPlugin {
+    pname = "follow-md-links-nvim-jghauser";
     version = "2025-09-01";
     src = fetchurl {
       url = "https://github.com/jghauser/follow-md-links.nvim/archive/728d96d268eef9666f0ee77a083e7e2f0b44f607.tar.gz";
@@ -5328,8 +5328,8 @@
   /*
   Generated from: github/niuiic/format.nvim/format-nvim-niuiic
   */
-  format-nvim-niuiic = buildVimPlugin {
-    pname = "format-nvim-niuiic";
+  format-nvim-niuiic-niuiic = buildVimPlugin {
+    pname = "format-nvim-niuiic-niuiic";
     version = "2024-05-11";
     src = fetchurl {
       url = "https://github.com/niuiic/format.nvim/archive/819ed9bc0e7f187fbe3f2adf75898787f8cc5e46.tar.gz";
@@ -5345,8 +5345,8 @@
   /*
   Generated from: github/wsdjeg/format.nvim/format-nvim-wsdjeg
   */
-  format-nvim-wsdjeg = buildVimPlugin {
-    pname = "format-nvim-wsdjeg";
+  format-nvim-wsdjeg-wsdjeg = buildVimPlugin {
+    pname = "format-nvim-wsdjeg-wsdjeg";
     version = "2025-12-19";
     src = fetchurl {
       url = "https://github.com/wsdjeg/format.nvim/archive/0357df00332501128d73db018ef4c78ac14ba986.tar.gz";
@@ -5362,8 +5362,8 @@
   /*
   Generated from: github/elentok/format-on-save.nvim/format-on-save-nvim
   */
-  format-on-save-nvim = buildVimPlugin {
-    pname = "format-on-save-nvim";
+  format-on-save-nvim-elentok = buildVimPlugin {
+    pname = "format-on-save-nvim-elentok";
     version = "2025-07-20";
     src = fetchurl {
       url = "https://github.com/elentok/format-on-save.nvim/archive/523256bd71543fd68184f67e82dc3cfd5092cf93.tar.gz";
@@ -5379,8 +5379,8 @@
   /*
   Generated from: github/mhartington/formatter.nvim/formatter-nvim
   */
-  formatter-nvim = buildVimPlugin {
-    pname = "formatter-nvim";
+  formatter-nvim-mhartington = buildVimPlugin {
+    pname = "formatter-nvim-mhartington";
     version = "2025-05-29";
     src = fetchurl {
       url = "https://github.com/mhartington/formatter.nvim/archive/b9d7f853da1197b83b8edb4cc4952f7ad3a42e41.tar.gz";
@@ -5396,8 +5396,8 @@
   /*
   Generated from: github/AlejandroSuero/freeze-code.nvim/freeze-code-nvim
   */
-  freeze-code-nvim = buildVimPlugin {
-    pname = "freeze-code-nvim";
+  freeze-code-nvim-AlejandroSuero = buildVimPlugin {
+    pname = "freeze-code-nvim-AlejandroSuero";
     version = "2025-03-15";
     src = fetchurl {
       url = "https://github.com/AlejandroSuero/freeze-code.nvim/archive/a3896e0d062079e18b7ebf08c857f0a5a2854b8a.tar.gz";
@@ -5413,8 +5413,8 @@
   /*
   Generated from: github/rafamadriz/friendly-snippets/friendly-snippets
   */
-  friendly-snippets = buildVimPlugin {
-    pname = "friendly-snippets";
+  friendly-snippets-rafamadriz = buildVimPlugin {
+    pname = "friendly-snippets-rafamadriz";
     version = "2025-04-29";
     src = fetchurl {
       url = "https://github.com/rafamadriz/friendly-snippets/archive/572f5660cf05f8cd8834e096d7b4c921ba18e175.tar.gz";
@@ -5430,8 +5430,8 @@
   /*
   Generated from: github/numToStr/FTerm.nvim/FTerm-nvim
   */
-  FTerm-nvim = buildVimPlugin {
-    pname = "FTerm-nvim";
+  FTerm-nvim-numToStr = buildVimPlugin {
+    pname = "FTerm-nvim-numToStr";
     version = "2022-11-13";
     src = fetchurl {
       url = "https://github.com/numToStr/FTerm.nvim/archive/d1320892cc2ebab472935242d9d992a2c9570180.tar.gz";
@@ -5447,8 +5447,8 @@
   /*
   Generated from: github/SuperBo/fugit2.nvim/fugit2-nvim
   */
-  fugit2-nvim = buildVimPlugin {
-    pname = "fugit2-nvim";
+  fugit2-nvim-SuperBo = buildVimPlugin {
+    pname = "fugit2-nvim-SuperBo";
     version = "2025-09-02";
     src = fetchurl {
       url = "https://github.com/SuperBo/fugit2.nvim/archive/619b3dc130f50e0ecb0cb0026133b393ec202fae.tar.gz";
@@ -5464,8 +5464,8 @@
   /*
   Generated from: github/amirrezaask/fuzzy.nvim/fuzzy-nvim
   */
-  fuzzy-nvim = buildVimPlugin {
-    pname = "fuzzy-nvim";
+  fuzzy-nvim-amirrezaask = buildVimPlugin {
+    pname = "fuzzy-nvim-amirrezaask";
     version = "2021-05-13";
     src = fetchurl {
       url = "https://github.com/amirrezaask/fuzzy.nvim/archive/0ed93b8e8c78ddbf4539a3bb464a60ce6ecaf6e6.tar.gz";
@@ -5481,8 +5481,8 @@
   /*
   Generated from: github/gfanto/fzf-lsp.nvim/fzf-lsp-nvim
   */
-  fzf-lsp-nvim = buildVimPlugin {
-    pname = "fzf-lsp-nvim";
+  fzf-lsp-nvim-gfanto = buildVimPlugin {
+    pname = "fzf-lsp-nvim-gfanto";
     version = "2023-02-02";
     src = fetchurl {
       url = "https://github.com/gfanto/fzf-lsp.nvim/archive/16905056051759b15a388709a3fa65ff098eb243.tar.gz";
@@ -5498,8 +5498,8 @@
   /*
   Generated from: github/ibhagwan/fzf-lua/fzf-lua
   */
-  fzf-lua = buildVimPlugin {
-    pname = "fzf-lua";
+  fzf-lua-ibhagwan = buildVimPlugin {
+    pname = "fzf-lua-ibhagwan";
     version = "2026-01-03";
     src = fetchurl {
       url = "https://github.com/ibhagwan/fzf-lua/archive/a03d68e40eea835a1cdbd9f93049708dab3621e6.tar.gz";
@@ -5515,8 +5515,8 @@
   /*
   Generated from: github/linrongbin16/fzfx.nvim/fzfx-nvim
   */
-  fzfx-nvim = buildVimPlugin {
-    pname = "fzfx-nvim";
+  fzfx-nvim-linrongbin16 = buildVimPlugin {
+    pname = "fzfx-nvim-linrongbin16";
     version = "2025-08-23";
     src = fetchurl {
       url = "https://github.com/linrongbin16/fzfx.nvim/archive/ce564329ea58bb0481253b8679f00e62c9a7843c.tar.gz";
@@ -5532,8 +5532,8 @@
   /*
   Generated from: github/NTBBloodbath/galaxyline.nvim/galaxyline-nvim
   */
-  galaxyline-nvim = buildVimPlugin {
-    pname = "galaxyline-nvim";
+  galaxyline-nvim-NTBBloodbath = buildVimPlugin {
+    pname = "galaxyline-nvim-NTBBloodbath";
     version = "2022-01-21";
     src = fetchurl {
       url = "https://github.com/NTBBloodbath/galaxyline.nvim/archive/4d4f5fc8e20a10824117e5beea7ec6e445466a8f.tar.gz";
@@ -5549,8 +5549,8 @@
   /*
   Generated from: github/Zeioth/garbage-day.nvim/garbage-day-nvim
   */
-  garbage-day-nvim = buildVimPlugin {
-    pname = "garbage-day-nvim";
+  garbage-day-nvim-Zeioth = buildVimPlugin {
+    pname = "garbage-day-nvim-Zeioth";
     version = "2025-09-16";
     src = fetchurl {
       url = "https://github.com/Zeioth/garbage-day.nvim/archive/9c6abdedc0407ca517745a5c8e34214fc7dafaf4.tar.gz";
@@ -5566,8 +5566,8 @@
   /*
   Generated from: github/bgcicca/gardenal/gardenal
   */
-  gardenal = buildVimPlugin {
-    pname = "gardenal";
+  gardenal-bgcicca = buildVimPlugin {
+    pname = "gardenal-bgcicca";
     version = "2024-10-31";
     src = fetchurl {
       url = "https://github.com/bgcicca/gardenal/archive/d8bc3d5aa51b559f745c222f4ab082f468df2c0c.tar.gz";
@@ -5583,8 +5583,8 @@
   /*
   Generated from: github/gbprod/nord.nvim/gbprod-nord-nvim
   */
-  gbprod-nord-nvim = buildVimPlugin {
-    pname = "gbprod-nord-nvim";
+  gbprod-nord-nvim-gbprod = buildVimPlugin {
+    pname = "gbprod-nord-nvim-gbprod";
     version = "2025-10-15";
     src = fetchurl {
       url = "https://github.com/gbprod/nord.nvim/archive/07647ad23e5b7fc1599a841dcd8f173b9aeb0419.tar.gz";
@@ -5600,8 +5600,8 @@
   /*
   Generated from: github/kiddos/gemini.nvim/gemini-nvim
   */
-  gemini-nvim = buildVimPlugin {
-    pname = "gemini-nvim";
+  gemini-nvim-kiddos = buildVimPlugin {
+    pname = "gemini-nvim-kiddos";
     version = "2025-11-29";
     src = fetchurl {
       url = "https://github.com/kiddos/gemini.nvim/archive/4213e5b0de4fe96c8f00d8d8ad854ebf80f07211.tar.gz";
@@ -5617,8 +5617,8 @@
   /*
   Generated from: github/David-Kunz/gen.nvim/gen-nvim
   */
-  gen-nvim = buildVimPlugin {
-    pname = "gen-nvim";
+  gen-nvim-David-Kunz = buildVimPlugin {
+    pname = "gen-nvim-David-Kunz";
     version = "2025-05-03";
     src = fetchurl {
       url = "https://github.com/David-Kunz/gen.nvim/archive/c8e1f574d4a3a839dde73a87bdc319a62ee1e559.tar.gz";
@@ -5634,8 +5634,8 @@
   /*
   Generated from: github/JMarkin/gentags.lua/gentags-lua
   */
-  gentags-lua = buildVimPlugin {
-    pname = "gentags-lua";
+  gentags-lua-JMarkin = buildVimPlugin {
+    pname = "gentags-lua-JMarkin";
     version = "2025-08-21";
     src = fetchurl {
       url = "https://github.com/JMarkin/gentags.lua/archive/7a8a75b51b24cf65f46208d47ec727d32bfa428f.tar.gz";
@@ -5651,8 +5651,8 @@
   /*
   Generated from: github/linrongbin16/gentags.nvim/gentags-nvim
   */
-  gentags-nvim = buildVimPlugin {
-    pname = "gentags-nvim";
+  gentags-nvim-linrongbin16 = buildVimPlugin {
+    pname = "gentags-nvim-linrongbin16";
     version = "2025-08-20";
     src = fetchurl {
       url = "https://github.com/linrongbin16/gentags.nvim/archive/b0f5096a534e8d41b6792c0bd1c9a60e78f11c37.tar.gz";
@@ -5668,8 +5668,8 @@
   /*
   Generated from: github/notomo/gesture.nvim/gesture-nvim
   */
-  gesture-nvim = buildVimPlugin {
-    pname = "gesture-nvim";
+  gesture-nvim-notomo = buildVimPlugin {
+    pname = "gesture-nvim-notomo";
     version = "2025-10-08";
     src = fetchurl {
       url = "https://github.com/notomo/gesture.nvim/archive/f75fa9e1efafcad2fc7ddd9ffb6c150b010e32b8.tar.gz";
@@ -5685,8 +5685,8 @@
   /*
   Generated from: github/topaxi/gh-actions.nvim/gh-actions-nvim
   */
-  gh-actions-nvim = buildVimPlugin {
-    pname = "gh-actions-nvim";
+  gh-actions-nvim-topaxi = buildVimPlugin {
+    pname = "gh-actions-nvim-topaxi";
     version = "2025-12-18";
     src = fetchurl {
       url = "https://github.com/topaxi/gh-actions.nvim/archive/0aedeb88a01b4fe93937f4f1a5ba7632d4a88a79.tar.gz";
@@ -5702,8 +5702,8 @@
   /*
   Generated from: github/ldelossa/gh.nvim/gh-nvim
   */
-  gh-nvim = buildVimPlugin {
-    pname = "gh-nvim";
+  gh-nvim-ldelossa = buildVimPlugin {
+    pname = "gh-nvim-ldelossa";
     version = "2025-01-21";
     src = fetchurl {
       url = "https://github.com/ldelossa/gh.nvim/archive/6f367b2ab8f9d4a0a23df2b703a3f91137618387.tar.gz";
@@ -5719,8 +5719,8 @@
   /*
   Generated from: github/isak102/ghostty.nvim/ghostty-nvim
   */
-  ghostty-nvim = buildVimPlugin {
-    pname = "ghostty-nvim";
+  ghostty-nvim-isak102 = buildVimPlugin {
+    pname = "ghostty-nvim-isak102";
     version = "2025-01-04";
     src = fetchurl {
       url = "https://github.com/isak102/ghostty.nvim/archive/86114c996e87108c3e7e5d4d5596581914374a77.tar.gz";
@@ -5736,8 +5736,8 @@
   /*
   Generated from: github/rawnly/gist.nvim/gist-nvim
   */
-  gist-nvim = buildVimPlugin {
-    pname = "gist-nvim";
+  gist-nvim-rawnly = buildVimPlugin {
+    pname = "gist-nvim-rawnly";
     version = "2025-12-26";
     src = fetchurl {
       url = "https://github.com/rawnly/gist.nvim/archive/2d4bc31d9a4081d72783901c469133459d5c22d0.tar.gz";
@@ -5753,8 +5753,8 @@
   /*
   Generated from: github/f-person/git-blame.nvim/git-blame-nvim
   */
-  git-blame-nvim = buildVimPlugin {
-    pname = "git-blame-nvim";
+  git-blame-nvim-f-person = buildVimPlugin {
+    pname = "git-blame-nvim-f-person";
     version = "2025-11-05";
     src = fetchurl {
       url = "https://github.com/f-person/git-blame.nvim/archive/5c536e2d4134d064aa3f41575280bc8a2a0e03d7.tar.gz";
@@ -5770,8 +5770,8 @@
   /*
   Generated from: github/akinsho/git-conflict.nvim/git-conflict-nvim
   */
-  git-conflict-nvim = buildVimPlugin {
-    pname = "git-conflict-nvim";
+  git-conflict-nvim-akinsho = buildVimPlugin {
+    pname = "git-conflict-nvim-akinsho";
     version = "2024-12-27";
     src = fetchurl {
       url = "https://github.com/akinsho/git-conflict.nvim/archive/a1badcd070d176172940eb55d9d59029dad1c5a6.tar.gz";
@@ -5787,8 +5787,8 @@
   /*
   Generated from: github/moyiz/git-dev.nvim/git-dev-nvim
   */
-  git-dev-nvim = buildVimPlugin {
-    pname = "git-dev-nvim";
+  git-dev-nvim-moyiz = buildVimPlugin {
+    pname = "git-dev-nvim-moyiz";
     version = "2025-12-06";
     src = fetchurl {
       url = "https://github.com/moyiz/git-dev.nvim/archive/90c1395ca37a38228e287d0a843835a5a39ce553.tar.gz";
@@ -5804,8 +5804,8 @@
   /*
   Generated from: github/niuiic/git-log.nvim/git-log-nvim
   */
-  git-log-nvim = buildVimPlugin {
-    pname = "git-log-nvim";
+  git-log-nvim-niuiic = buildVimPlugin {
+    pname = "git-log-nvim-niuiic";
     version = "2025-02-26";
     src = fetchurl {
       url = "https://github.com/niuiic/git-log.nvim/archive/1bac391255db8416565835ab7103f35d5beafff2.tar.gz";
@@ -5821,8 +5821,8 @@
   /*
   Generated from: github/rhysd/git-messenger.vim/git-messenger-vim
   */
-  git-messenger-vim = buildVimPlugin {
-    pname = "git-messenger-vim";
+  git-messenger-vim-rhysd = buildVimPlugin {
+    pname = "git-messenger-vim-rhysd";
     version = "2025-05-30";
     src = fetchurl {
       url = "https://github.com/rhysd/git-messenger.vim/archive/fd124457378a295a5d1036af4954b35d6b807385.tar.gz";
@@ -5838,8 +5838,8 @@
   /*
   Generated from: github/mikesmithgh/git-prompt-string-lualine.nvim/git-prompt-string-lualine-nvim
   */
-  git-prompt-string-lualine-nvim = buildVimPlugin {
-    pname = "git-prompt-string-lualine-nvim";
+  git-prompt-string-lualine-nvim-mikesmithgh = buildVimPlugin {
+    pname = "git-prompt-string-lualine-nvim-mikesmithgh";
     version = "2024-04-22";
     src = fetchurl {
       url = "https://github.com/mikesmithgh/git-prompt-string-lualine.nvim/archive/5426ce15462abe4faf5cd76db7476b2686120fe9.tar.gz";
@@ -5855,8 +5855,8 @@
   /*
   Generated from: github/lourenci/github-colors/github-colors
   */
-  github-colors = buildVimPlugin {
-    pname = "github-colors";
+  github-colors-lourenci = buildVimPlugin {
+    pname = "github-colors-lourenci";
     version = "2023-10-22";
     src = fetchurl {
       url = "https://github.com/lourenci/github-colors/archive/7292749e49e6f870e63879a528bb05c8c8d1a59a.tar.gz";
@@ -5872,8 +5872,8 @@
   /*
   Generated from: github/projekt0n/github-nvim-theme/github-nvim-theme
   */
-  github-nvim-theme = buildVimPlugin {
-    pname = "github-nvim-theme";
+  github-nvim-theme-projekt0n = buildVimPlugin {
+    pname = "github-nvim-theme-projekt0n";
     version = "2024-12-31";
     src = fetchurl {
       url = "https://github.com/projekt0n/github-nvim-theme/archive/c106c9472154d6b2c74b74565616b877ae8ed31d.tar.gz";
@@ -5889,8 +5889,8 @@
   /*
   Generated from: github/harrisoncramer/gitlab.nvim/gitlab-nvim
   */
-  gitlab-nvim = buildVimPlugin {
-    pname = "gitlab-nvim";
+  gitlab-nvim-harrisoncramer = buildVimPlugin {
+    pname = "gitlab-nvim-harrisoncramer";
     version = "2025-06-25";
     src = fetchurl {
       url = "https://github.com/harrisoncramer/gitlab.nvim/archive/e29909cd1064a7b53c3150bff49449a548dadf8d.tar.gz";
@@ -5906,8 +5906,8 @@
   /*
   Generated from: github/linrongbin16/gitlinker.nvim/gitlinker-linrongbin16
   */
-  gitlinker-linrongbin16 = buildVimPlugin {
-    pname = "gitlinker-linrongbin16";
+  gitlinker-linrongbin16-linrongbin16 = buildVimPlugin {
+    pname = "gitlinker-linrongbin16-linrongbin16";
     version = "2025-12-30";
     src = fetchurl {
       url = "https://github.com/linrongbin16/gitlinker.nvim/archive/d2a250e65207ddc04724579b99e564da01922a65.tar.gz";
@@ -5923,8 +5923,8 @@
   /*
   Generated from: github/ruifm/gitlinker.nvim/gitlinker-ruifm
   */
-  gitlinker-ruifm = buildVimPlugin {
-    pname = "gitlinker-ruifm";
+  gitlinker-ruifm-ruifm = buildVimPlugin {
+    pname = "gitlinker-ruifm-ruifm";
     version = "2023-02-03";
     src = fetchurl {
       url = "https://github.com/ruifm/gitlinker.nvim/archive/cc59f732f3d043b626c8702cb725c82e54d35c25.tar.gz";
@@ -5940,8 +5940,8 @@
   /*
   Generated from: github/trevorhauter/gitportal.nvim/gitportal-nvim
   */
-  gitportal-nvim = buildVimPlugin {
-    pname = "gitportal-nvim";
+  gitportal-nvim-trevorhauter = buildVimPlugin {
+    pname = "gitportal-nvim-trevorhauter";
     version = "2025-12-21";
     src = fetchurl {
       url = "https://github.com/trevorhauter/gitportal.nvim/archive/0c3e1c1d518c9e42e61e8df35ea0c0582a278a65.tar.gz";
@@ -5957,8 +5957,8 @@
   /*
   Generated from: github/lewis6991/gitsigns.nvim/gitsigns-nvim
   */
-  gitsigns-nvim = buildVimPlugin {
-    pname = "gitsigns-nvim";
+  gitsigns-nvim-lewis6991 = buildVimPlugin {
+    pname = "gitsigns-nvim-lewis6991";
     version = "2026-01-08";
     src = fetchurl {
       url = "https://github.com/lewis6991/gitsigns.nvim/archive/72acb69020c92d99cf388bfeb390481ccec50c04.tar.gz";
@@ -5974,8 +5974,8 @@
   /*
   Generated from: github/stevearc/gkeep.nvim/gkeep-nvim
   */
-  gkeep-nvim = buildVimPlugin {
-    pname = "gkeep-nvim";
+  gkeep-nvim-stevearc = buildVimPlugin {
+    pname = "gkeep-nvim-stevearc";
     version = "2024-05-17";
     src = fetchurl {
       url = "https://github.com/stevearc/gkeep.nvim/archive/6341a0578d6bee3a8778a4bc443cf61377759ebc.tar.gz";
@@ -5991,8 +5991,8 @@
   /*
   Generated from: github/DNLHC/glance.nvim/glance-nvim
   */
-  glance-nvim = buildVimPlugin {
-    pname = "glance-nvim";
+  glance-nvim-DNLHC = buildVimPlugin {
+    pname = "glance-nvim-DNLHC";
     version = "2025-06-16";
     src = fetchurl {
       url = "https://github.com/DNLHC/glance.nvim/archive/bf86d8b79dce808e65fdb6e9269d0b4ed6d2eefc.tar.gz";
@@ -6008,8 +6008,8 @@
   /*
   Generated from: github/backdround/global-note.nvim/global-note-nvim
   */
-  global-note-nvim = buildVimPlugin {
-    pname = "global-note-nvim";
+  global-note-nvim-backdround = buildVimPlugin {
+    pname = "global-note-nvim-backdround";
     version = "2024-02-14";
     src = fetchurl {
       url = "https://github.com/backdround/global-note.nvim/archive/1e0d4bba425d971ed3ce40d182c574a25507115c.tar.gz";
@@ -6025,8 +6025,8 @@
   /*
   Generated from: github/bkegley/gloombuddy/gloombuddy
   */
-  gloombuddy = buildVimPlugin {
-    pname = "gloombuddy";
+  gloombuddy-bkegley = buildVimPlugin {
+    pname = "gloombuddy-bkegley";
     version = "2021-04-16";
     src = fetchurl {
       url = "https://github.com/bkegley/gloombuddy/archive/d59866faf296b46cb6e54889b47f4b9a366ed093.tar.gz";
@@ -6042,8 +6042,8 @@
   /*
   Generated from: github/ellisonleao/glow.nvim/glow-nvim
   */
-  glow-nvim = buildVimPlugin {
-    pname = "glow-nvim";
+  glow-nvim-ellisonleao = buildVimPlugin {
+    pname = "glow-nvim-ellisonleao";
     version = "2025-03-21";
     src = fetchurl {
       url = "https://github.com/ellisonleao/glow.nvim/archive/5d5954b2f22e109d4a6eba8b2618c5b96e4ee7a2.tar.gz";
@@ -6059,8 +6059,8 @@
   /*
   Generated from: github/ray-x/go.nvim/go-nvim
   */
-  go-nvim = buildVimPlugin {
-    pname = "go-nvim";
+  go-nvim-ray-x = buildVimPlugin {
+    pname = "go-nvim-ray-x";
     version = "2025-12-01";
     src = fetchurl {
       url = "https://github.com/ray-x/go.nvim/archive/41a18f0c05534c375bafec7ed05cdb409c4abcc6.tar.gz";
@@ -6076,8 +6076,8 @@
   /*
   Generated from: github/edolphin-ydf/goimpl.nvim/goimpl-nvim
   */
-  goimpl-nvim = buildVimPlugin {
-    pname = "goimpl-nvim";
+  goimpl-nvim-edolphin-ydf = buildVimPlugin {
+    pname = "goimpl-nvim-edolphin-ydf";
     version = "2025-11-03";
     src = fetchurl {
       url = "https://github.com/edolphin-ydf/goimpl.nvim/archive/a0c2d8cd1e37f0ae8c19dc954ced3c6ccdceed53.tar.gz";
@@ -6093,8 +6093,8 @@
   /*
   Generated from: github/olexsmir/gopher.nvim/gopher-nvim
   */
-  gopher-nvim = buildVimPlugin {
-    pname = "gopher-nvim";
+  gopher-nvim-olexsmir = buildVimPlugin {
+    pname = "gopher-nvim-olexsmir";
     version = "2025-12-08";
     src = fetchurl {
       url = "https://github.com/olexsmir/gopher.nvim/archive/6a3924cee5a9f36d316f8e4a90c3020438d3513f.tar.gz";
@@ -6110,8 +6110,8 @@
   /*
   Generated from: github/maxandron/goplements.nvim/goplements-nvim
   */
-  goplements-nvim = buildVimPlugin {
-    pname = "goplements-nvim";
+  goplements-nvim-maxandron = buildVimPlugin {
+    pname = "goplements-nvim-maxandron";
     version = "2025-09-23";
     src = fetchurl {
       url = "https://github.com/maxandron/goplements.nvim/archive/1750ace64d42efcbc1ce36eef848a3cea5f88c79.tar.gz";
@@ -6127,8 +6127,8 @@
   /*
   Generated from: github/Yu-Leo/gosigns.nvim/gosigns-nvim
   */
-  gosigns-nvim = buildVimPlugin {
-    pname = "gosigns-nvim";
+  gosigns-nvim-Yu-Leo = buildVimPlugin {
+    pname = "gosigns-nvim-Yu-Leo";
     version = "2025-03-08";
     src = fetchurl {
       url = "https://github.com/Yu-Leo/gosigns.nvim/archive/39d0a1f2ebd19aed1b862b537d6e81f9eba5aeef.tar.gz";
@@ -6144,8 +6144,8 @@
   /*
   Generated from: github/yanskun/gotests.nvim/gotests-nvim
   */
-  gotests-nvim = buildVimPlugin {
-    pname = "gotests-nvim";
+  gotests-nvim-yanskun = buildVimPlugin {
+    pname = "gotests-nvim-yanskun";
     version = "2024-07-11";
     src = fetchurl {
       url = "https://github.com/yanskun/gotests.nvim/archive/1edbeb91364ab743b11be3ac4f63e498c9821fd7.tar.gz";
@@ -6161,8 +6161,8 @@
   /*
   Generated from: github/ofirgall/goto-breakpoints.nvim/goto-breakpoints-nvim
   */
-  goto-breakpoints-nvim = buildVimPlugin {
-    pname = "goto-breakpoints-nvim";
+  goto-breakpoints-nvim-ofirgall = buildVimPlugin {
+    pname = "goto-breakpoints-nvim-ofirgall";
     version = "2023-11-02";
     src = fetchurl {
       url = "https://github.com/ofirgall/goto-breakpoints.nvim/archive/d14776899eda4023667b246e5c53c14a7c41f88e.tar.gz";
@@ -6178,8 +6178,8 @@
   /*
   Generated from: github/rmagatti/goto-preview/goto-preview
   */
-  goto-preview = buildVimPlugin {
-    pname = "goto-preview";
+  goto-preview-rmagatti = buildVimPlugin {
+    pname = "goto-preview-rmagatti";
     version = "2025-12-26";
     src = fetchurl {
       url = "https://github.com/rmagatti/goto-preview/archive/d2d6923c9b9e0e43f0b9b566f261a8b1ae016540.tar.gz";
@@ -6195,8 +6195,8 @@
   /*
   Generated from: github/junegunn/goyo.vim/goyo-vim
   */
-  goyo-vim = buildVimPlugin {
-    pname = "goyo-vim";
+  goyo-vim-junegunn = buildVimPlugin {
+    pname = "goyo-vim-junegunn";
     version = "2025-12-21";
     src = fetchurl {
       url = "https://github.com/junegunn/goyo.vim/archive/9c72fdf2d202914318581f9f0dd09fd102f8504d.tar.gz";
@@ -6212,8 +6212,8 @@
   /*
   Generated from: github/Robitx/gp.nvim/gp-nvim
   */
-  gp-nvim = buildVimPlugin {
-    pname = "gp-nvim";
+  gp-nvim-Robitx = buildVimPlugin {
+    pname = "gp-nvim-Robitx";
     version = "2025-08-11";
     src = fetchurl {
       url = "https://github.com/Robitx/gp.nvim/archive/c37f154b97690c4925fef4e35ffdbf2c844b5f4e.tar.gz";
@@ -6229,8 +6229,8 @@
   /*
   Generated from: github/Aaronik/GPTModels.nvim/GPTModels-nvim
   */
-  GPTModels-nvim = buildVimPlugin {
-    pname = "GPTModels-nvim";
+  GPTModels-nvim-Aaronik = buildVimPlugin {
+    pname = "GPTModels-nvim-Aaronik";
     version = "2025-06-26";
     src = fetchurl {
       url = "https://github.com/Aaronik/GPTModels.nvim/archive/7e33baa56fcf4354e70d2920a6db4d6c94880ffd.tar.gz";
@@ -6246,8 +6246,8 @@
   /*
   Generated from: github/cbochs/grapple.nvim/grapple-nvim
   */
-  grapple-nvim = buildVimPlugin {
-    pname = "grapple-nvim";
+  grapple-nvim-cbochs = buildVimPlugin {
+    pname = "grapple-nvim-cbochs";
     version = "2024-09-29";
     src = fetchurl {
       url = "https://github.com/cbochs/grapple.nvim/archive/b41ddfc1c39f87f3d1799b99c2f0f1daa524c5f7.tar.gz";
@@ -6263,8 +6263,8 @@
   /*
   Generated from: github/desdic/greyjoy.nvim/greyjoy-nvim
   */
-  greyjoy-nvim = buildVimPlugin {
-    pname = "greyjoy-nvim";
+  greyjoy-nvim-desdic = buildVimPlugin {
+    pname = "greyjoy-nvim-desdic";
     version = "2025-12-24";
     src = fetchurl {
       url = "https://github.com/desdic/greyjoy.nvim/archive/cad513ef05df1ca2138c4a680b78a2c404568dd3.tar.gz";
@@ -6280,8 +6280,8 @@
   /*
   Generated from: github/MagicDuck/grug-far.nvim/grug-far-nvim
   */
-  grug-far-nvim = buildVimPlugin {
-    pname = "grug-far-nvim";
+  grug-far-nvim-MagicDuck = buildVimPlugin {
+    pname = "grug-far-nvim-MagicDuck";
     version = "2026-01-02";
     src = fetchurl {
       url = "https://github.com/MagicDuck/grug-far.nvim/archive/794f03c97afc7f4b03fb6ec5111be507df1850cf.tar.gz";
@@ -6297,8 +6297,8 @@
   /*
   Generated from: github/morhetz/gruvbox/gruvbox
   */
-  gruvbox = buildVimPlugin {
-    pname = "gruvbox";
+  gruvbox-morhetz = buildVimPlugin {
+    pname = "gruvbox-morhetz";
     version = "2025-04-20";
     src = fetchurl {
       url = "https://github.com/morhetz/gruvbox/archive/697c00291db857ca0af00ec154e5bd514a79191f.tar.gz";
@@ -6314,8 +6314,8 @@
   /*
   Generated from: github/luisiacc/gruvbox-baby/gruvbox-baby
   */
-  gruvbox-baby = buildVimPlugin {
-    pname = "gruvbox-baby";
+  gruvbox-baby-luisiacc = buildVimPlugin {
+    pname = "gruvbox-baby-luisiacc";
     version = "2024-01-25";
     src = fetchurl {
       url = "https://github.com/luisiacc/gruvbox-baby/archive/bd52e62d8134647090108189e69c8b3cd18bdbbf.tar.gz";
@@ -6331,8 +6331,8 @@
   /*
   Generated from: github/sainnhe/gruvbox-material/gruvbox-material
   */
-  gruvbox-material = buildVimPlugin {
-    pname = "gruvbox-material";
+  gruvbox-material-sainnhe = buildVimPlugin {
+    pname = "gruvbox-material-sainnhe";
     version = "2026-01-04";
     src = fetchurl {
       url = "https://github.com/sainnhe/gruvbox-material/archive/e4359a2f80ef7275b080be180841c62ca8322757.tar.gz";
@@ -6348,8 +6348,8 @@
   /*
   Generated from: gitlab/motaz-shokry/gruvbox.nvim/gruvbox-nvim-motaz-shokry
   */
-  gruvbox-nvim-motaz-shokry = buildVimPlugin {
-    pname = "gruvbox-nvim-motaz-shokry";
+  gruvbox-nvim-motaz-shokry-motaz-shokry = buildVimPlugin {
+    pname = "gruvbox-nvim-motaz-shokry-motaz-shokry";
     version = "2025-12-09";
     src = fetchurl {
       url = "https://gitlab.com/api/v4/projects/motaz-shokry%2Fgruvbox.nvim/repository/archive.tar.gz?sha=5e16ecf5e4796f673498ac35e9a17c609e93c479";
@@ -6365,8 +6365,8 @@
   /*
   Generated from: github/tjdevries/gruvbuddy.nvim/gruvbuddy-nvim
   */
-  gruvbuddy-nvim = buildVimPlugin {
-    pname = "gruvbuddy-nvim";
+  gruvbuddy-nvim-tjdevries = buildVimPlugin {
+    pname = "gruvbuddy-nvim-tjdevries";
     version = "2024-03-15";
     src = fetchurl {
       url = "https://github.com/tjdevries/gruvbuddy.nvim/archive/3aa94b2fb061b13ccc118d21fad25d6b1ff3fc8b.tar.gz";
@@ -6382,8 +6382,8 @@
   /*
   Generated from: github/RishabhRD/gruvy/gruvy
   */
-  gruvy = buildVimPlugin {
-    pname = "gruvy";
+  gruvy-RishabhRD = buildVimPlugin {
+    pname = "gruvy-RishabhRD";
     version = "2022-01-09";
     src = fetchurl {
       url = "https://github.com/RishabhRD/gruvy/archive/42cc923376d980a955a57a417e5a1fd5f2f651a0.tar.gz";
@@ -6399,8 +6399,8 @@
   /*
   Generated from: github/nvimdev/guard.nvim/guard-nvim
   */
-  guard-nvim = buildVimPlugin {
-    pname = "guard-nvim";
+  guard-nvim-nvimdev = buildVimPlugin {
+    pname = "guard-nvim-nvimdev";
     version = "2025-12-16";
     src = fetchurl {
       url = "https://github.com/nvimdev/guard.nvim/archive/c1d2b668e0d1868e9be5757bb9aa278bc1f84c18.tar.gz";
@@ -6416,8 +6416,8 @@
   /*
   Generated from: github/NMAC427/guess-indent.nvim/guess-indent-nvim
   */
-  guess-indent-nvim = buildVimPlugin {
-    pname = "guess-indent-nvim";
+  guess-indent-nvim-NMAC427 = buildVimPlugin {
+    pname = "guess-indent-nvim-NMAC427";
     version = "2025-03-25";
     src = fetchurl {
       url = "https://github.com/NMAC427/guess-indent.nvim/archive/84a4987ff36798c2fc1169cbaff67960aed9776f.tar.gz";
@@ -6433,8 +6433,8 @@
   /*
   Generated from: github/ray-x/guihua.lua/guihua-lua
   */
-  guihua-lua = buildVimPlugin {
-    pname = "guihua-lua";
+  guihua-lua-ray-x = buildVimPlugin {
+    pname = "guihua-lua-ray-x";
     version = "2025-11-12";
     src = fetchurl {
       url = "https://github.com/ray-x/guihua.lua/archive/ef44ba40f12e56c1c9fa45967f2b4d142e4b97a0.tar.gz";
@@ -6450,8 +6450,8 @@
   /*
   Generated from: github/ellisonleao/gruvbox.nvim/guvbox-nvim-ellisonleao
   */
-  guvbox-nvim-ellisonleao = buildVimPlugin {
-    pname = "guvbox-nvim-ellisonleao";
+  guvbox-nvim-ellisonleao-ellisonleao = buildVimPlugin {
+    pname = "guvbox-nvim-ellisonleao-ellisonleao";
     version = "2025-09-04";
     src = fetchurl {
       url = "https://github.com/ellisonleao/gruvbox.nvim/archive/5e0a460d8e0f7f669c158dedd5f9ae2bcac31437.tar.gz";
@@ -6467,8 +6467,8 @@
   /*
   Generated from: gitlab/sxwpb/halfspace.nvim/halfspace-nvim
   */
-  halfspace-nvim = buildVimPlugin {
-    pname = "halfspace-nvim";
+  halfspace-nvim-sxwpb = buildVimPlugin {
+    pname = "halfspace-nvim-sxwpb";
     version = "2025-05-25";
     src = fetchurl {
       url = "https://gitlab.com/api/v4/projects/sxwpb%2Fhalfspace.nvim/repository/archive.tar.gz?sha=23b367771f694479771735150311d41830133f95";
@@ -6484,8 +6484,8 @@
   /*
   Generated from: github/m4xshen/hardtime.nvim/hardtime-nvim
   */
-  hardtime-nvim = buildVimPlugin {
-    pname = "hardtime-nvim";
+  hardtime-nvim-m4xshen = buildVimPlugin {
+    pname = "hardtime-nvim-m4xshen";
     version = "2025-09-13";
     src = fetchurl {
       url = "https://github.com/m4xshen/hardtime.nvim/archive/b4e431934af1fe224a3a801f632c008278cb7628.tar.gz";
@@ -6501,8 +6501,8 @@
   /*
   Generated from: github/ThePrimeagen/harpoon/harpoon
   */
-  harpoon = buildVimPlugin {
-    pname = "harpoon";
+  harpoon-ThePrimeagen = buildVimPlugin {
+    pname = "harpoon-ThePrimeagen";
     version = "2024-08-29";
     src = fetchurl {
       url = "https://github.com/ThePrimeagen/harpoon/archive/1bc17e3e42ea3c46b33c0bbad6a880792692a1b3.tar.gz";
@@ -6518,8 +6518,8 @@
   /*
   Generated from: github/abeldekat/harpoonline/harpoonline
   */
-  harpoonline = buildVimPlugin {
-    pname = "harpoonline";
+  harpoonline-abeldekat = buildVimPlugin {
+    pname = "harpoonline-abeldekat";
     version = "2024-07-28";
     src = fetchurl {
       url = "https://github.com/abeldekat/harpoonline/archive/50b33fbeaf6bd0349f6609013c0c33bed7effcbb.tar.gz";
@@ -6535,8 +6535,8 @@
   /*
   Generated from: github/mrcjkb/haskell-snippets.nvim/haskell-snippets-nvim
   */
-  haskell-snippets-nvim = buildVimPlugin {
-    pname = "haskell-snippets-nvim";
+  haskell-snippets-nvim-mrcjkb = buildVimPlugin {
+    pname = "haskell-snippets-nvim-mrcjkb";
     version = "2025-11-24";
     src = fetchurl {
       url = "https://github.com/mrcjkb/haskell-snippets.nvim/archive/cbe4e20fccb2e527d370765c8248205b31571037.tar.gz";
@@ -6552,8 +6552,8 @@
   /*
   Generated from: github/MrcJkb/haskell-tools.nvim/haskell-tools-nvim
   */
-  haskell-tools-nvim = buildVimPlugin {
-    pname = "haskell-tools-nvim";
+  haskell-tools-nvim-MrcJkb = buildVimPlugin {
+    pname = "haskell-tools-nvim-MrcJkb";
     version = "2026-01-07";
     src = fetchurl {
       url = "https://github.com/MrcJkb/haskell-tools.nvim/archive/3d9d8b95eaab90d2d0d57130cb9a9fb03fe25333.tar.gz";
@@ -6569,8 +6569,8 @@
   /*
   Generated from: github/tris203/hawtkeys.nvim/hawtkeys-nvim
   */
-  hawtkeys-nvim = buildVimPlugin {
-    pname = "hawtkeys-nvim";
+  hawtkeys-nvim-tris203 = buildVimPlugin {
+    pname = "hawtkeys-nvim-tris203";
     version = "2024-05-07";
     src = fetchurl {
       url = "https://github.com/tris203/hawtkeys.nvim/archive/261cc311d4abdc88decceca6dc1013faa14c56ea.tar.gz";
@@ -6586,8 +6586,8 @@
   /*
   Generated from: github/axkirillov/hbac.nvim/hbac-nvim
   */
-  hbac-nvim = buildVimPlugin {
-    pname = "hbac-nvim";
+  hbac-nvim-axkirillov = buildVimPlugin {
+    pname = "hbac-nvim-axkirillov";
     version = "2024-10-09";
     src = fetchurl {
       url = "https://github.com/axkirillov/hbac.nvim/archive/2c85485ea28e5e3754650829e0bca612960e1b73.tar.gz";
@@ -6603,8 +6603,8 @@
   /*
   Generated from: github/LucasTavaresA/headers.nvim/headers-nvim
   */
-  headers-nvim = buildVimPlugin {
-    pname = "headers-nvim";
+  headers-nvim-LucasTavaresA = buildVimPlugin {
+    pname = "headers-nvim-LucasTavaresA";
     version = "2025-12-11";
     src = fetchurl {
       url = "https://github.com/LucasTavaresA/headers.nvim/archive/cd64f69ed3b7f6db1f9547129d25143adb65c177.tar.gz";
@@ -6620,8 +6620,8 @@
   /*
   Generated from: github/lukas-reineke/headlines.nvim/headlines-nvim
   */
-  headlines-nvim = buildVimPlugin {
-    pname = "headlines-nvim";
+  headlines-nvim-lukas-reineke = buildVimPlugin {
+    pname = "headlines-nvim-lukas-reineke";
     version = "2024-09-13";
     src = fetchurl {
       url = "https://github.com/lukas-reineke/headlines.nvim/archive/bf17c96a836ea27c0a7a2650ba385a7783ed322e.tar.gz";
@@ -6637,8 +6637,8 @@
   /*
   Generated from: github/zeioth/heirline-components.nvim/heirline-components-nvim
   */
-  heirline-components-nvim = buildVimPlugin {
-    pname = "heirline-components-nvim";
+  heirline-components-nvim-zeioth = buildVimPlugin {
+    pname = "heirline-components-nvim-zeioth";
     version = "2025-11-17";
     src = fetchurl {
       url = "https://github.com/zeioth/heirline-components.nvim/archive/65ff6844a6d911bd8977a106b761649d7df9a5e1.tar.gz";
@@ -6654,8 +6654,8 @@
   /*
   Generated from: github/rebelot/heirline.nvim/heirline-nvim
   */
-  heirline-nvim = buildVimPlugin {
-    pname = "heirline-nvim";
+  heirline-nvim-rebelot = buildVimPlugin {
+    pname = "heirline-nvim-rebelot";
     version = "2025-05-23";
     src = fetchurl {
       url = "https://github.com/rebelot/heirline.nvim/archive/fae936abb5e0345b85c3a03ecf38525b0828b992.tar.gz";
@@ -6671,8 +6671,8 @@
   /*
   Generated from: github/OXY2DEV/helpview.nvim/helpview-nvim
   */
-  helpview-nvim = buildVimPlugin {
-    pname = "helpview-nvim";
+  helpview-nvim-OXY2DEV = buildVimPlugin {
+    pname = "helpview-nvim-OXY2DEV";
     version = "2025-09-26";
     src = fetchurl {
       url = "https://github.com/OXY2DEV/helpview.nvim/archive/518789535a0cb146224a428edf93a70f98b795db.tar.gz";
@@ -6688,8 +6688,8 @@
   /*
   Generated from: github/theKnightsOfRohan/hexer.nvim/hexer-nvim
   */
-  hexer-nvim = buildVimPlugin {
-    pname = "hexer-nvim";
+  hexer-nvim-theKnightsOfRohan = buildVimPlugin {
+    pname = "hexer-nvim-theKnightsOfRohan";
     version = "2025-11-06";
     src = fetchurl {
       url = "https://github.com/theKnightsOfRohan/hexer.nvim/archive/ac31a8219f289d1820809bea60459f1bc98c9136.tar.gz";
@@ -6705,8 +6705,8 @@
   /*
   Generated from: github/udayvir-singh/hibiscus.nvim/hibiscus-nvim
   */
-  hibiscus-nvim = buildVimPlugin {
-    pname = "hibiscus-nvim";
+  hibiscus-nvim-udayvir-singh = buildVimPlugin {
+    pname = "hibiscus-nvim-udayvir-singh";
     version = "2024-06-21";
     src = fetchurl {
       url = "https://github.com/udayvir-singh/hibiscus.nvim/archive/573b37c2f6ed79a6b3e3c6bd18bb305a72db4dc6.tar.gz";
@@ -6722,8 +6722,8 @@
   /*
   Generated from: github/crusj/hierarchy-tree-go.nvim/hierarchy-tree-go-nvim
   */
-  hierarchy-tree-go-nvim = buildVimPlugin {
-    pname = "hierarchy-tree-go-nvim";
+  hierarchy-tree-go-nvim-crusj = buildVimPlugin {
+    pname = "hierarchy-tree-go-nvim-crusj";
     version = "2022-12-01";
     src = fetchurl {
       url = "https://github.com/crusj/hierarchy-tree-go.nvim/archive/9fab9ddefe81edab4a144824955d2d085db3f49a.tar.gz";
@@ -6739,8 +6739,8 @@
   /*
   Generated from: github/pocco81/high-str.nvim/high-str-nvim
   */
-  high-str-nvim = buildVimPlugin {
-    pname = "high-str-nvim";
+  high-str-nvim-pocco81 = buildVimPlugin {
+    pname = "high-str-nvim-pocco81";
     version = "2022-10-21";
     src = fetchurl {
       url = "https://github.com/pocco81/high-str.nvim/archive/1cb5e030bb16df52c8428b53dc235466a4eb1d01.tar.gz";
@@ -6756,8 +6756,8 @@
   /*
   Generated from: github/rktjmp/highlight-current-n.nvim/highlight-current-n-nvim
   */
-  highlight-current-n-nvim = buildVimPlugin {
-    pname = "highlight-current-n-nvim";
+  highlight-current-n-nvim-rktjmp = buildVimPlugin {
+    pname = "highlight-current-n-nvim-rktjmp";
     version = "2023-06-26";
     src = fetchurl {
       url = "https://github.com/rktjmp/highlight-current-n.nvim/archive/1225d1ad3fee74c3e6a6d258f25a1952b927cb76.tar.gz";
@@ -6773,8 +6773,8 @@
   /*
   Generated from: github/Pocco81/HighStr.nvim/HighStr-nvim
   */
-  HighStr-nvim = buildVimPlugin {
-    pname = "HighStr-nvim";
+  HighStr-nvim-Pocco81 = buildVimPlugin {
+    pname = "HighStr-nvim-Pocco81";
     version = "2022-10-21";
     src = fetchurl {
       url = "https://github.com/Pocco81/HighStr.nvim/archive/1cb5e030bb16df52c8428b53dc235466a4eb1d01.tar.gz";
@@ -6790,8 +6790,8 @@
   /*
   Generated from: github/m-demare/hlargs.nvim/hlargs-nvim
   */
-  hlargs-nvim = buildVimPlugin {
-    pname = "hlargs-nvim";
+  hlargs-nvim-m-demare = buildVimPlugin {
+    pname = "hlargs-nvim-m-demare";
     version = "2025-09-23";
     src = fetchurl {
       url = "https://github.com/m-demare/hlargs.nvim/archive/0b29317c944fb1f76503ce4540d6dceffbb5ccd2.tar.gz";
@@ -6807,8 +6807,8 @@
   /*
   Generated from: github/shellRaining/hlchunk.nvim/hlchunk-nvim
   */
-  hlchunk-nvim = buildVimPlugin {
-    pname = "hlchunk-nvim";
+  hlchunk-nvim-shellRaining = buildVimPlugin {
+    pname = "hlchunk-nvim-shellRaining";
     version = "2025-12-15";
     src = fetchurl {
       url = "https://github.com/shellRaining/hlchunk.nvim/archive/3bc2bd7aef28fbed6643534a0fdd0f19966544bc.tar.gz";
@@ -6824,8 +6824,8 @@
   /*
   Generated from: github/nvimdev/hlsearch.nvim/hlsearch-nvim
   */
-  hlsearch-nvim = buildVimPlugin {
-    pname = "hlsearch-nvim";
+  hlsearch-nvim-nvimdev = buildVimPlugin {
+    pname = "hlsearch-nvim-nvimdev";
     version = "2024-01-10";
     src = fetchurl {
       url = "https://github.com/nvimdev/hlsearch.nvim/archive/fdeb60b890d15d9194e8600042e5232ef8c29b0e.tar.gz";
@@ -6841,8 +6841,8 @@
   /*
   Generated from: github/mawkler/hml.nvim/hml-nvim
   */
-  hml-nvim = buildVimPlugin {
-    pname = "hml-nvim";
+  hml-nvim-mawkler = buildVimPlugin {
+    pname = "hml-nvim-mawkler";
     version = "2024-11-21";
     src = fetchurl {
       url = "https://github.com/mawkler/hml.nvim/archive/54b4d0a4d800f79310443f9a26d54023daeb9e7c.tar.gz";
@@ -6858,8 +6858,8 @@
   /*
   Generated from: github/calops/hmts.nvim/hmts-nvim
   */
-  hmts-nvim = buildVimPlugin {
-    pname = "hmts-nvim";
+  hmts-nvim-calops = buildVimPlugin {
+    pname = "hmts-nvim-calops";
     version = "2025-06-11";
     src = fetchurl {
       url = "https://github.com/calops/hmts.nvim/archive/a32cd413f7d0a69d7f3d279c631f20cb117c8d30.tar.gz";
@@ -6875,8 +6875,8 @@
   /*
   Generated from: github/edluffy/hologram.nvim/hologram-nvim
   */
-  hologram-nvim = buildVimPlugin {
-    pname = "hologram-nvim";
+  hologram-nvim-edluffy = buildVimPlugin {
+    pname = "hologram-nvim-edluffy";
     version = "2022-10-09";
     src = fetchurl {
       url = "https://github.com/edluffy/hologram.nvim/archive/f5194f71ec1578d91b2e3119ff08e574e2eab542.tar.gz";
@@ -6892,8 +6892,8 @@
   /*
   Generated from: github/smoka7/hop.nvim/hop-nvim
   */
-  hop-nvim = buildVimPlugin {
-    pname = "hop-nvim";
+  hop-nvim-smoka7 = buildVimPlugin {
+    pname = "hop-nvim-smoka7";
     version = "2025-08-22";
     src = fetchurl {
       url = "https://github.com/smoka7/hop.nvim/archive/707049feaca9ae65abb3696eff9aefc7879e66aa.tar.gz";
@@ -6909,8 +6909,8 @@
   /*
   Generated from: github/sachinsenal0x64/hot.nvim/hot-nvim
   */
-  hot-nvim = buildVimPlugin {
-    pname = "hot-nvim";
+  hot-nvim-sachinsenal0x64 = buildVimPlugin {
+    pname = "hot-nvim-sachinsenal0x64";
     version = "2024-04-26";
     src = fetchurl {
       url = "https://github.com/sachinsenal0x64/hot.nvim/archive/3cd813e3b215a6759fad9d11dde4f08c230788b7.tar.gz";
@@ -6926,8 +6926,8 @@
   /*
   Generated from: github/rktjmp/hotpot.nvim/hotpot-nvim
   */
-  hotpot-nvim = buildVimPlugin {
-    pname = "hotpot-nvim";
+  hotpot-nvim-rktjmp = buildVimPlugin {
+    pname = "hotpot-nvim-rktjmp";
     version = "2025-12-20";
     src = fetchurl {
       url = "https://github.com/rktjmp/hotpot.nvim/archive/27cc1025960eae88ad1dd270376f69be7a2d9174.tar.gz";
@@ -6943,8 +6943,8 @@
   /*
   Generated from: github/TheBlob42/houdini.nvim/houdini-nvim
   */
-  houdini-nvim = buildVimPlugin {
-    pname = "houdini-nvim";
+  houdini-nvim-TheBlob42 = buildVimPlugin {
+    pname = "houdini-nvim-TheBlob42";
     version = "2024-07-05";
     src = fetchurl {
       url = "https://github.com/TheBlob42/houdini.nvim/archive/1b7ec0a713a2aa9965848d8b93f66dc93716fd1c.tar.gz";
@@ -6960,8 +6960,8 @@
   /*
   Generated from: github/soulis-1256/hoverhints.nvim/hoverhints-nvim
   */
-  hoverhints-nvim = buildVimPlugin {
-    pname = "hoverhints-nvim";
+  hoverhints-nvim-soulis-1256 = buildVimPlugin {
+    pname = "hoverhints-nvim-soulis-1256";
     version = "2025-11-03";
     src = fetchurl {
       url = "https://github.com/soulis-1256/hoverhints.nvim/archive/41cb488fc097aadc22e8b5e0b9292ac7e4ee9918.tar.gz";
@@ -6977,8 +6977,8 @@
   /*
   Generated from: github/roobert/hoversplit.nvim/hoversplit-nvim
   */
-  hoversplit-nvim = buildVimPlugin {
-    pname = "hoversplit-nvim";
+  hoversplit-nvim-roobert = buildVimPlugin {
+    pname = "hoversplit-nvim-roobert";
     version = "2025-09-30";
     src = fetchurl {
       url = "https://github.com/roobert/hoversplit.nvim/archive/b40a946a116768a426e41749e5ab5a7fbe2d4529.tar.gz";
@@ -6994,8 +6994,8 @@
   /*
   Generated from: github/HoNamDuong/hybrid.nvim/hybrid-nvim
   */
-  hybrid-nvim = buildVimPlugin {
-    pname = "hybrid-nvim";
+  hybrid-nvim-HoNamDuong = buildVimPlugin {
+    pname = "hybrid-nvim-HoNamDuong";
     version = "2025-07-09";
     src = fetchurl {
       url = "https://github.com/HoNamDuong/hybrid.nvim/archive/74dfee0d5084a3db5e2ad0a78a67ee45e93a64bf.tar.gz";
@@ -7011,8 +7011,8 @@
   /*
   Generated from: github/anuvyklack/hydra.nvim/hydra-anuvyklack
   */
-  hydra-anuvyklack = buildVimPlugin {
-    pname = "hydra-anuvyklack";
+  hydra-anuvyklack-anuvyklack = buildVimPlugin {
+    pname = "hydra-anuvyklack-anuvyklack";
     version = "2023-02-06";
     src = fetchurl {
       url = "https://github.com/anuvyklack/hydra.nvim/archive/3ced42c0b6a6c85583ff0f221635a7f4c1ab0dd0.tar.gz";
@@ -7028,8 +7028,8 @@
   /*
   Generated from: github/nvimtools/hydra.nvim/hydra-nvimtools
   */
-  hydra-nvimtools = buildVimPlugin {
-    pname = "hydra-nvimtools";
+  hydra-nvimtools-nvimtools = buildVimPlugin {
+    pname = "hydra-nvimtools-nvimtools";
     version = "2025-05-03";
     src = fetchurl {
       url = "https://github.com/nvimtools/hydra.nvim/archive/8c4a9f621ec7cdc30411a1f3b6d5eebb12b469dc.tar.gz";
@@ -7045,8 +7045,8 @@
   /*
   Generated from: github/smzm/hydrovim/hydrovim
   */
-  hydrovim = buildVimPlugin {
-    pname = "hydrovim";
+  hydrovim-smzm = buildVimPlugin {
+    pname = "hydrovim-smzm";
     version = "2025-12-11";
     src = fetchurl {
       url = "https://github.com/smzm/hydrovim/archive/3b612ea8a159e8bfbac3193d48d6e94fb555e0ac.tar.gz";
@@ -7062,8 +7062,8 @@
   /*
   Generated from: github/tomiis4/hypersonic.nvim/hypersonic-nvim
   */
-  hypersonic-nvim = buildVimPlugin {
-    pname = "hypersonic-nvim";
+  hypersonic-nvim-tomiis4 = buildVimPlugin {
+    pname = "hypersonic-nvim-tomiis4";
     version = "2024-08-11";
     src = fetchurl {
       url = "https://github.com/tomiis4/hypersonic.nvim/archive/734dfbfbe51952f102a9b439d53d4267bb0024cd.tar.gz";
@@ -7079,8 +7079,8 @@
   /*
   Generated from: github/ziontee113/icon-picker.nvim/icon-picker-nvim
   */
-  icon-picker-nvim = buildVimPlugin {
-    pname = "icon-picker-nvim";
+  icon-picker-nvim-ziontee113 = buildVimPlugin {
+    pname = "icon-picker-nvim-ziontee113";
     version = "2024-01-03";
     src = fetchurl {
       url = "https://github.com/ziontee113/icon-picker.nvim/archive/3ee9a0ea9feeef08ae35e40c8be6a2fa2c20f2d3.tar.gz";
@@ -7096,8 +7096,8 @@
   /*
   Generated from: github/ShinKage/idris2-nvim/idris2-nvim
   */
-  idris2-nvim = buildVimPlugin {
-    pname = "idris2-nvim";
+  idris2-nvim-ShinKage = buildVimPlugin {
+    pname = "idris2-nvim-ShinKage";
     version = "2025-10-13";
     src = fetchurl {
       url = "https://github.com/ShinKage/idris2-nvim/archive/19dcf61737293365c23c890ca622fa34aeb12780.tar.gz";
@@ -7113,8 +7113,8 @@
   /*
   Generated from: github/altermo/iedit.nvim/iedit-nvim
   */
-  iedit-nvim = buildVimPlugin {
-    pname = "iedit-nvim";
+  iedit-nvim-altermo = buildVimPlugin {
+    pname = "iedit-nvim-altermo";
     version = "2026-01-07";
     src = fetchurl {
       url = "https://github.com/altermo/iedit.nvim/archive/d47b0804bd9b46921082df512ea64f50742f32a6.tar.gz";
@@ -7130,8 +7130,8 @@
   /*
   Generated from: github/keaising/im-select.nvim/im-select-nvim
   */
-  im-select-nvim = buildVimPlugin {
-    pname = "im-select-nvim";
+  im-select-nvim-keaising = buildVimPlugin {
+    pname = "im-select-nvim-keaising";
     version = "2025-07-24";
     src = fetchurl {
       url = "https://github.com/keaising/im-select.nvim/archive/113a6905a1c95d2990269f96abcbad9718209557.tar.gz";
@@ -7147,8 +7147,8 @@
   /*
   Generated from: github/3rd/image.nvim/image-3rd
   */
-  image-3rd = buildVimPlugin {
-    pname = "image-3rd";
+  image-3rd-3rd = buildVimPlugin {
+    pname = "image-3rd-3rd";
     version = "2025-09-07";
     src = fetchurl {
       url = "https://github.com/3rd/image.nvim/archive/446a8a5cc7a3eae3185ee0c697732c32a5547a0b.tar.gz";
@@ -7164,8 +7164,8 @@
   /*
   Generated from: github/adelarsq/image_preview.nvim/image-preview-nvim
   */
-  image-preview-nvim = buildVimPlugin {
-    pname = "image-preview-nvim";
+  image-preview-nvim-adelarsq = buildVimPlugin {
+    pname = "image-preview-nvim-adelarsq";
     version = "2024-10-22";
     src = fetchurl {
       url = "https://github.com/adelarsq/image_preview.nvim/archive/3f3f46210ba13bf82b1eb750b2d6d90eb211ee24.tar.gz";
@@ -7181,8 +7181,8 @@
   /*
   Generated from: github/samodostal/image.nvim/image-samodostal
   */
-  image-samodostal = buildVimPlugin {
-    pname = "image-samodostal";
+  image-samodostal-samodostal = buildVimPlugin {
+    pname = "image-samodostal-samodostal";
     version = "2024-01-07";
     src = fetchurl {
       url = "https://github.com/samodostal/image.nvim/archive/acbd1d7d64ac0643021a6146eb0557e7c2e793d0.tar.gz";
@@ -7198,8 +7198,8 @@
   /*
   Generated from: github/HakonHarnes/img-clip.nvim/img-clip-nvim
   */
-  img-clip-nvim = buildVimPlugin {
-    pname = "img-clip-nvim";
+  img-clip-nvim-HakonHarnes = buildVimPlugin {
+    pname = "img-clip-nvim-HakonHarnes";
     version = "2025-12-19";
     src = fetchurl {
       url = "https://github.com/HakonHarnes/img-clip.nvim/archive/b6ddfb97b5600d99afe3452d707444afda658aca.tar.gz";
@@ -7215,8 +7215,8 @@
   /*
   Generated from: github/piersolenski/import.nvim/import-nvim
   */
-  import-nvim = buildVimPlugin {
-    pname = "import-nvim";
+  import-nvim-piersolenski = buildVimPlugin {
+    pname = "import-nvim-piersolenski";
     version = "2025-11-12";
     src = fetchurl {
       url = "https://github.com/piersolenski/import.nvim/archive/b3b0294827eb9c4db0af6d2a0684e2862325fc0c.tar.gz";
@@ -7232,8 +7232,8 @@
   /*
   Generated from: github/backdround/improved-ft.nvim/improved-ft-nvim
   */
-  improved-ft-nvim = buildVimPlugin {
-    pname = "improved-ft-nvim";
+  improved-ft-nvim-backdround = buildVimPlugin {
+    pname = "improved-ft-nvim-backdround";
     version = "2024-01-16";
     src = fetchurl {
       url = "https://github.com/backdround/improved-ft.nvim/archive/f2259e9c4123339cb99430befcabf22f4689b97c.tar.gz";
@@ -7249,8 +7249,8 @@
   /*
   Generated from: github/backdround/improved-search.nvim/improved-search-nvim
   */
-  improved-search-nvim = buildVimPlugin {
-    pname = "improved-search-nvim";
+  improved-search-nvim-backdround = buildVimPlugin {
+    pname = "improved-search-nvim-backdround";
     version = "2023-12-21";
     src = fetchurl {
       url = "https://github.com/backdround/improved-search.nvim/archive/9480bfb0e05f990a1658464c1d349dd2acfb9c34.tar.gz";
@@ -7266,8 +7266,8 @@
   /*
   Generated from: github/chrsm/impulse.nvim/impulse-nvim
   */
-  impulse-nvim = buildVimPlugin {
-    pname = "impulse-nvim";
+  impulse-nvim-chrsm = buildVimPlugin {
+    pname = "impulse-nvim-chrsm";
     version = "2022-06-26";
     src = fetchurl {
       url = "https://github.com/chrsm/impulse.nvim/archive/f96742d0b5ece74fa5a8509b6ea51847fa473a67.tar.gz";
@@ -7283,8 +7283,8 @@
   /*
   Generated from: github/ysmb-wtsg/in-and-out.nvim/in-and-out-nvim
   */
-  in-and-out-nvim = buildVimPlugin {
-    pname = "in-and-out-nvim";
+  in-and-out-nvim-ysmb-wtsg = buildVimPlugin {
+    pname = "in-and-out-nvim-ysmb-wtsg";
     version = "2025-08-16";
     src = fetchurl {
       url = "https://github.com/ysmb-wtsg/in-and-out.nvim/archive/03456b9c49365a28732378a7f2a72a613154e042.tar.gz";
@@ -7300,8 +7300,8 @@
   /*
   Generated from: github/smjonas/inc-rename.nvim/inc-rename-nvim
   */
-  inc-rename-nvim = buildVimPlugin {
-    pname = "inc-rename-nvim";
+  inc-rename-nvim-smjonas = buildVimPlugin {
+    pname = "inc-rename-nvim-smjonas";
     version = "2025-11-05";
     src = fetchurl {
       url = "https://github.com/smjonas/inc-rename.nvim/archive/2597bccb57d1b570fbdbd4adf88b955f7ade715b.tar.gz";
@@ -7317,8 +7317,8 @@
   /*
   Generated from: github/b0o/incline.nvim/incline-nvim
   */
-  incline-nvim = buildVimPlugin {
-    pname = "incline-nvim";
+  incline-nvim-b0o = buildVimPlugin {
+    pname = "incline-nvim-b0o";
     version = "2025-12-18";
     src = fetchurl {
       url = "https://github.com/b0o/incline.nvim/archive/8b54c59bcb23366645ae10edca6edfb9d3a0853e.tar.gz";
@@ -7334,8 +7334,8 @@
   /*
   Generated from: github/lukas-reineke/indent-blankline.nvim/indent-blankline-nvim
   */
-  indent-blankline-nvim = buildVimPlugin {
-    pname = "indent-blankline-nvim";
+  indent-blankline-nvim-lukas-reineke = buildVimPlugin {
+    pname = "indent-blankline-nvim-lukas-reineke";
     version = "2025-03-17";
     src = fetchurl {
       url = "https://github.com/lukas-reineke/indent-blankline.nvim/archive/005b56001b2cb30bfa61b7986bc50657816ba4ba.tar.gz";
@@ -7351,8 +7351,8 @@
   /*
   Generated from: github/Darazaki/indent-o-matic/indent-o-matic
   */
-  indent-o-matic = buildVimPlugin {
-    pname = "indent-o-matic";
+  indent-o-matic-Darazaki = buildVimPlugin {
+    pname = "indent-o-matic-Darazaki";
     version = "2025-11-24";
     src = fetchurl {
       url = "https://github.com/Darazaki/indent-o-matic/archive/764da1f30b5bb4a49035c3abc9a586322296b812.tar.gz";
@@ -7368,8 +7368,8 @@
   /*
   Generated from: github/nvimdev/indentmini.nvim/indentmini-nvim
   */
-  indentmini-nvim = buildVimPlugin {
-    pname = "indentmini-nvim";
+  indentmini-nvim-nvimdev = buildVimPlugin {
+    pname = "indentmini-nvim-nvimdev";
     version = "2026-01-04";
     src = fetchurl {
       url = "https://github.com/nvimdev/indentmini.nvim/archive/38572ce5a7a064a5deb89d6d861b7c40fc929ab1.tar.gz";
@@ -7385,8 +7385,8 @@
   /*
   Generated from: github/malbertzard/inline-fold.nvim/inline-fold-nvim
   */
-  inline-fold-nvim = buildVimPlugin {
-    pname = "inline-fold-nvim";
+  inline-fold-nvim-malbertzard = buildVimPlugin {
+    pname = "inline-fold-nvim-malbertzard";
     version = "2023-07-31";
     src = fetchurl {
       url = "https://github.com/malbertzard/inline-fold.nvim/archive/d0a24dd55c2fe9477e2636a589499fb7d530e9a3.tar.gz";
@@ -7402,8 +7402,8 @@
   /*
   Generated from: github/mvpopuk/inspired-github.vim/inspired-github-vim
   */
-  inspired-github-vim = buildVimPlugin {
-    pname = "inspired-github-vim";
+  inspired-github-vim-mvpopuk = buildVimPlugin {
+    pname = "inspired-github-vim-mvpopuk";
     version = "2023-10-28";
     src = fetchurl {
       url = "https://github.com/mvpopuk/inspired-github.vim/archive/108cedabeb45e5b09468e0f27ca58e147021b6ea.tar.gz";
@@ -7419,8 +7419,8 @@
   /*
   Generated from: github/jbyuki/instant.nvim/instant-nvim
   */
-  instant-nvim = buildVimPlugin {
-    pname = "instant-nvim";
+  instant-nvim-jbyuki = buildVimPlugin {
+    pname = "instant-nvim-jbyuki";
     version = "2022-06-25";
     src = fetchurl {
       url = "https://github.com/jbyuki/instant.nvim/archive/294b6d08143b3db8f9db7f606829270149e1a786.tar.gz";
@@ -7436,8 +7436,8 @@
   /*
   Generated from: github/Mr-LLLLL/interestingwords.nvim/interestingwords-nvim
   */
-  interestingwords-nvim = buildVimPlugin {
-    pname = "interestingwords-nvim";
+  interestingwords-nvim-Mr-LLLLL = buildVimPlugin {
+    pname = "interestingwords-nvim-Mr-LLLLL";
     version = "2024-08-19";
     src = fetchurl {
       url = "https://github.com/Mr-LLLLL/interestingwords.nvim/archive/fa7796353266ce9a5de6a95a8e332814f09a5514.tar.gz";
@@ -7453,8 +7453,8 @@
   /*
   Generated from: github/tanloong/interlaced.nvim/interlaced-nvim
   */
-  interlaced-nvim = buildVimPlugin {
-    pname = "interlaced-nvim";
+  interlaced-nvim-tanloong = buildVimPlugin {
+    pname = "interlaced-nvim-tanloong";
     version = "2025-07-21";
     src = fetchurl {
       url = "https://github.com/tanloong/interlaced.nvim/archive/f7c40de1b64e5c0641fb0d5d27a6e0c8479c65a2.tar.gz";
@@ -7470,8 +7470,8 @@
   /*
   Generated from: github/Vigemus/iron.nvim/iron-nvim
   */
-  iron-nvim = buildVimPlugin {
-    pname = "iron-nvim";
+  iron-nvim-Vigemus = buildVimPlugin {
+    pname = "iron-nvim-Vigemus";
     version = "2026-01-05";
     src = fetchurl {
       url = "https://github.com/Vigemus/iron.nvim/archive/0e07ace465edff6c4ed6db9f3b7bf919c40aeffb.tar.gz";
@@ -7487,8 +7487,8 @@
   /*
   Generated from: github/mizlan/iswap.nvim/iswap-nvim
   */
-  iswap-nvim = buildVimPlugin {
-    pname = "iswap-nvim";
+  iswap-nvim-mizlan = buildVimPlugin {
+    pname = "iswap-nvim-mizlan";
     version = "2024-05-23";
     src = fetchurl {
       url = "https://github.com/mizlan/iswap.nvim/archive/e02cc91f2a8feb5c5a595767d208c54b6e3258ec.tar.gz";
@@ -7504,8 +7504,8 @@
   /*
   Generated from: github/matbme/JABS.nvim/JABS-nvim
   */
-  JABS-nvim = buildVimPlugin {
-    pname = "JABS-nvim";
+  JABS-nvim-matbme = buildVimPlugin {
+    pname = "JABS-nvim-matbme";
     version = "2023-05-09";
     src = fetchurl {
       url = "https://github.com/matbme/JABS.nvim/archive/b6dbd1a3e1b8cef3d6ebfafe96c2230ca341b65f.tar.gz";
@@ -7521,8 +7521,8 @@
   /*
   Generated from: github/is0n/jaq-nvim/jaq-nvim
   */
-  jaq-nvim = buildVimPlugin {
-    pname = "jaq-nvim";
+  jaq-nvim-is0n = buildVimPlugin {
+    pname = "jaq-nvim-is0n";
     version = "2022-10-11";
     src = fetchurl {
       url = "https://github.com/is0n/jaq-nvim/archive/236296aae555657487d1bb4d066cbde9d79d8cd4.tar.gz";
@@ -7538,8 +7538,8 @@
   /*
   Generated from: github/simaxme/java.nvim/java-nvim
   */
-  java-nvim = buildVimPlugin {
-    pname = "java-nvim";
+  java-nvim-simaxme = buildVimPlugin {
+    pname = "java-nvim-simaxme";
     version = "2025-12-14";
     src = fetchurl {
       url = "https://github.com/simaxme/java.nvim/archive/3b0cf715e7f48794c54294aa2c8e3c6290570d77.tar.gz";
@@ -7555,8 +7555,8 @@
   /*
   Generated from: github/clojure-vim/jazz.nvim/jazz-nvim
   */
-  jazz-nvim = buildVimPlugin {
-    pname = "jazz-nvim";
+  jazz-nvim-clojure-vim = buildVimPlugin {
+    pname = "jazz-nvim-clojure-vim";
     version = "2019-04-30";
     src = fetchurl {
       url = "https://github.com/clojure-vim/jazz.nvim/archive/4537586c70aee9fdc88ad0687c106cceefd0991e.tar.gz";
@@ -7572,8 +7572,8 @@
   /*
   Generated from: github/metalelf0/jellybeans-nvim/jellybeans-nvim
   */
-  jellybeans-nvim = buildVimPlugin {
-    pname = "jellybeans-nvim";
+  jellybeans-nvim-metalelf0 = buildVimPlugin {
+    pname = "jellybeans-nvim-metalelf0";
     version = "2025-01-15";
     src = fetchurl {
       url = "https://github.com/metalelf0/jellybeans-nvim/archive/d5989265b5256cb296b5772c73e57490e84f69b1.tar.gz";
@@ -7589,8 +7589,8 @@
   /*
   Generated from: github/David-Kunz/jester/jester
   */
-  jester = buildVimPlugin {
-    pname = "jester";
+  jester-David-Kunz = buildVimPlugin {
+    pname = "jester-David-Kunz";
     version = "2025-01-15";
     src = fetchurl {
       url = "https://github.com/David-Kunz/jester/archive/6679cdc24e4bdb2d61d0e71e3c65011029f166ef.tar.gz";
@@ -7606,8 +7606,8 @@
   /*
   Generated from: github/jakobkhansen/journal.nvim/journal-nvim
   */
-  journal-nvim = buildVimPlugin {
-    pname = "journal-nvim";
+  journal-nvim-jakobkhansen = buildVimPlugin {
+    pname = "journal-nvim-jakobkhansen";
     version = "2024-06-13";
     src = fetchurl {
       url = "https://github.com/jakobkhansen/journal.nvim/archive/006d9900cad5c378ed4b4cb89eb8696fb2383042.tar.gz";
@@ -7623,8 +7623,8 @@
   /*
   Generated from: github/fuenor/JpFormat.vim/JpFormat-vim
   */
-  JpFormat-vim = buildVimPlugin {
-    pname = "JpFormat-vim";
+  JpFormat-vim-fuenor = buildVimPlugin {
+    pname = "JpFormat-vim-fuenor";
     version = "2019-07-12";
     src = fetchurl {
       url = "https://github.com/fuenor/JpFormat.vim/archive/02736fc184e15efa8a233caaec037aabb90ad706.tar.gz";
@@ -7640,8 +7640,8 @@
   /*
   Generated from: github/redoxahmii/json-to-types.nvim/json-to-types-nvim
   */
-  json-to-types-nvim = buildVimPlugin {
-    pname = "json-to-types-nvim";
+  json-to-types-nvim-redoxahmii = buildVimPlugin {
+    pname = "json-to-types-nvim-redoxahmii";
     version = "2025-03-06";
     src = fetchurl {
       url = "https://github.com/redoxahmii/json-to-types.nvim/archive/e8dcc6ac710c59fcac354255a835f72916171ba8.tar.gz";
@@ -7657,8 +7657,8 @@
   /*
   Generated from: github/phelipetls/jsonpath.nvim/jsonpath-nvim
   */
-  jsonpath-nvim = buildVimPlugin {
-    pname = "jsonpath-nvim";
+  jsonpath-nvim-phelipetls = buildVimPlugin {
+    pname = "jsonpath-nvim-phelipetls";
     version = "2025-09-22";
     src = fetchurl {
       url = "https://github.com/phelipetls/jsonpath.nvim/archive/9e7a3c2aec3465a8f7c86cec6424cf98ee62ee24.tar.gz";
@@ -7674,8 +7674,8 @@
   /*
   Generated from: github/kiyoon/jupynium.nvim/jupynium-nvim
   */
-  jupynium-nvim = buildVimPlugin {
-    pname = "jupynium-nvim";
+  jupynium-nvim-kiyoon = buildVimPlugin {
+    pname = "jupynium-nvim-kiyoon";
     version = "2025-12-26";
     src = fetchurl {
       url = "https://github.com/kiyoon/jupynium.nvim/archive/46381138437c82effb5b97c9c332818bc6c83154.tar.gz";
@@ -7691,8 +7691,8 @@
   /*
   Generated from: github/untitled-ai/jupyter_ascending/jupyter-ascending
   */
-  jupyter-ascending = buildVimPlugin {
-    pname = "jupyter-ascending";
+  jupyter-ascending-untitled-ai = buildVimPlugin {
+    pname = "jupyter-ascending-untitled-ai";
     version = "2023-10-06";
     src = fetchurl {
       url = "https://github.com/untitled-ai/jupyter_ascending/archive/b04fefe534209b8fb1e81e80dbf811a9573767d7.tar.gz";
@@ -7708,8 +7708,8 @@
   /*
   Generated from: github/GCBallesteros/jupytext.nvim/jupytext-nvim
   */
-  jupytext-nvim = buildVimPlugin {
-    pname = "jupytext-nvim";
+  jupytext-nvim-GCBallesteros = buildVimPlugin {
+    pname = "jupytext-nvim-GCBallesteros";
     version = "2024-04-05";
     src = fetchurl {
       url = "https://github.com/GCBallesteros/jupytext.nvim/archive/c8baf3ad344c59b3abd461ecc17fc16ec44d0f7b.tar.gz";
@@ -7725,8 +7725,8 @@
   /*
   Generated from: github/al1-ce/just.nvim/just-nvim
   */
-  just-nvim = buildVimPlugin {
-    pname = "just-nvim";
+  just-nvim-al1-ce = buildVimPlugin {
+    pname = "just-nvim-al1-ce";
     version = "2025-12-29";
     src = fetchurl {
       url = "https://github.com/al1-ce/just.nvim/archive/2fc113fafab9196cda972fa2c8cdff38a3678be9.tar.gz";
@@ -7742,8 +7742,8 @@
   /*
   Generated from: github/rebelot/kanagawa.nvim/kanagawa-nvim
   */
-  kanagawa-nvim = buildVimPlugin {
-    pname = "kanagawa-nvim";
+  kanagawa-nvim-rebelot = buildVimPlugin {
+    pname = "kanagawa-nvim-rebelot";
     version = "2025-10-15";
     src = fetchurl {
       url = "https://github.com/rebelot/kanagawa.nvim/archive/aef7f5cec0a40dbe7f3304214850c472e2264b10.tar.gz";
@@ -7759,8 +7759,8 @@
   /*
   Generated from: github/thesimonho/kanagawa-paper.nvim/kanagawa-paper-nvim
   */
-  kanagawa-paper-nvim = buildVimPlugin {
-    pname = "kanagawa-paper-nvim";
+  kanagawa-paper-nvim-thesimonho = buildVimPlugin {
+    pname = "kanagawa-paper-nvim-thesimonho";
     version = "2026-01-05";
     src = fetchurl {
       url = "https://github.com/thesimonho/kanagawa-paper.nvim/archive/1352e3cb3a5a017cb1ab49056643ae4d2fddb0cf.tar.gz";
@@ -7776,8 +7776,8 @@
   /*
   Generated from: github/tenxsoydev/karen-yank.nvim/karen-yank-nvim
   */
-  karen-yank-nvim = buildVimPlugin {
-    pname = "karen-yank-nvim";
+  karen-yank-nvim-tenxsoydev = buildVimPlugin {
+    pname = "karen-yank-nvim-tenxsoydev";
     version = "2023-07-29";
     src = fetchurl {
       url = "https://github.com/tenxsoydev/karen-yank.nvim/archive/817f50c9464ce557c8f7f8f4d4c8d2f7b81fc40c.tar.gz";
@@ -7793,8 +7793,8 @@
   /*
   Generated from: github/rlychrisg/keepcursor.nvim/keepcursor-nvim
   */
-  keepcursor-nvim = buildVimPlugin {
-    pname = "keepcursor-nvim";
+  keepcursor-nvim-rlychrisg = buildVimPlugin {
+    pname = "keepcursor-nvim-rlychrisg";
     version = "2024-08-23";
     src = fetchurl {
       url = "https://github.com/rlychrisg/keepcursor.nvim/archive/e54c64f827d450b23897299df8556e6be4abbec1.tar.gz";
@@ -7810,8 +7810,8 @@
   /*
   Generated from: github/anuvyklack/keymap-amend.nvim/keymap-amend-nvim
   */
-  keymap-amend-nvim = buildVimPlugin {
-    pname = "keymap-amend-nvim";
+  keymap-amend-nvim-anuvyklack = buildVimPlugin {
+    pname = "keymap-amend-nvim-anuvyklack";
     version = "2022-09-22";
     src = fetchurl {
       url = "https://github.com/anuvyklack/keymap-amend.nvim/archive/b8bf9d820878d5497fdd11d6de55dea82872d98e.tar.gz";
@@ -7827,8 +7827,8 @@
   /*
   Generated from: github/seandewar/killersheep.nvim/killersheep-nvim
   */
-  killersheep-nvim = buildVimPlugin {
-    pname = "killersheep-nvim";
+  killersheep-nvim-seandewar = buildVimPlugin {
+    pname = "killersheep-nvim-seandewar";
     version = "2025-03-20";
     src = fetchurl {
       url = "https://github.com/seandewar/killersheep.nvim/archive/d916d097af8c86481053045be2e468fa7cb312c5.tar.gz";
@@ -7844,8 +7844,8 @@
   /*
   Generated from: github/lmburns/kimbox/kimbox
   */
-  kimbox = buildVimPlugin {
-    pname = "kimbox";
+  kimbox-lmburns = buildVimPlugin {
+    pname = "kimbox-lmburns";
     version = "2023-09-02";
     src = fetchurl {
       url = "https://github.com/lmburns/kimbox/archive/748eb71207a90086a5903bcaa82fc1c9e2b100e6.tar.gz";
@@ -7861,8 +7861,8 @@
   /*
   Generated from: github/jghauser/kitty-runner.nvim/kitty-runner-nvim
   */
-  kitty-runner-nvim = buildVimPlugin {
-    pname = "kitty-runner-nvim";
+  kitty-runner-nvim-jghauser = buildVimPlugin {
+    pname = "kitty-runner-nvim-jghauser";
     version = "2025-08-31";
     src = fetchurl {
       url = "https://github.com/jghauser/kitty-runner.nvim/archive/9f62d01224c0273dd18a0c7bfd44ab319c7661ec.tar.gz";
@@ -7878,8 +7878,8 @@
   /*
   Generated from: github/mikesmithgh/kitty-scrollback.nvim/kitty-scrollback-nvim
   */
-  kitty-scrollback-nvim = buildVimPlugin {
-    pname = "kitty-scrollback-nvim";
+  kitty-scrollback-nvim-mikesmithgh = buildVimPlugin {
+    pname = "kitty-scrollback-nvim-mikesmithgh";
     version = "2026-01-04";
     src = fetchurl {
       url = "https://github.com/mikesmithgh/kitty-scrollback.nvim/archive/8026a3715a93c7302d6bc4979f64102885ad1fc7.tar.gz";
@@ -7895,8 +7895,8 @@
   /*
   Generated from: github/serenevoid/kiwi.nvim/kiwi-nvim
   */
-  kiwi-nvim = buildVimPlugin {
-    pname = "kiwi-nvim";
+  kiwi-nvim-serenevoid = buildVimPlugin {
+    pname = "kiwi-nvim-serenevoid";
     version = "2025-07-07";
     src = fetchurl {
       url = "https://github.com/serenevoid/kiwi.nvim/archive/61e86fc29365e32b44c2914a2b10c90d04a3b22e.tar.gz";
@@ -7912,8 +7912,8 @@
   /*
   Generated from: github/kmonad/kmonad-vim/kmonad-vim
   */
-  kmonad-vim = buildVimPlugin {
-    pname = "kmonad-vim";
+  kmonad-vim-kmonad = buildVimPlugin {
+    pname = "kmonad-vim-kmonad";
     version = "2022-03-20";
     src = fetchurl {
       url = "https://github.com/kmonad/kmonad-vim/archive/37978445197ab00edeb5b731e9ca90c2b141723f.tar.gz";
@@ -7929,8 +7929,8 @@
   /*
   Generated from: github/frabjous/knap/knap
   */
-  knap = buildVimPlugin {
-    pname = "knap";
+  knap-frabjous = buildVimPlugin {
+    pname = "knap-frabjous";
     version = "2024-10-22";
     src = fetchurl {
       url = "https://github.com/frabjous/knap/archive/7db44d0bb760120142cc1e8f43e44976de59c2f6.tar.gz";
@@ -7946,8 +7946,8 @@
   /*
   Generated from: github/b3nj5m1n/kommentary/kommentary
   */
-  kommentary = buildVimPlugin {
-    pname = "kommentary";
+  kommentary-b3nj5m1n = buildVimPlugin {
+    pname = "kommentary-b3nj5m1n";
     version = "2023-11-29";
     src = fetchurl {
       url = "https://github.com/b3nj5m1n/kommentary/archive/d5a111a3bc4109a8f913a5863c9092b3b3801482.tar.gz";
@@ -7963,8 +7963,8 @@
   /*
   Generated from: github/novakne/kosmikoa.nvim/kosmikoa-nvim
   */
-  kosmikoa-nvim = buildVimPlugin {
-    pname = "kosmikoa-nvim";
+  kosmikoa-nvim-novakne = buildVimPlugin {
+    pname = "kosmikoa-nvim-novakne";
     version = "2021-11-19";
     src = fetchurl {
       url = "https://github.com/novakne/kosmikoa.nvim/archive/a32b908fb2018f0f0ed1b92ff334db0d317f5dd7.tar.gz";
@@ -7980,8 +7980,8 @@
   /*
   Generated from: github/mistweaverco/kulala.nvim/kulala-nvim
   */
-  kulala-nvim = buildVimPlugin {
-    pname = "kulala-nvim";
+  kulala-nvim-mistweaverco = buildVimPlugin {
+    pname = "kulala-nvim-mistweaverco";
     version = "2025-12-25";
     src = fetchurl {
       url = "https://github.com/mistweaverco/kulala.nvim/archive/cd3eaa83b8d60533837202dede73238334d71832.tar.gz";
@@ -7997,8 +7997,8 @@
   /*
   Generated from: github/kevinm6/kurayami.nvim/kurayami-nvim
   */
-  kurayami-nvim = buildVimPlugin {
-    pname = "kurayami-nvim";
+  kurayami-nvim-kevinm6 = buildVimPlugin {
+    pname = "kurayami-nvim-kevinm6";
     version = "2025-11-01";
     src = fetchurl {
       url = "https://github.com/kevinm6/kurayami.nvim/archive/9faaf16a739e102f57302f1e9dbfe17e9525c58b.tar.gz";
@@ -8014,8 +8014,8 @@
   /*
   Generated from: github/slugbyte/lackluster.nvim/lackluster-nvim
   */
-  lackluster-nvim = buildVimPlugin {
-    pname = "lackluster-nvim";
+  lackluster-nvim-slugbyte = buildVimPlugin {
+    pname = "lackluster-nvim-slugbyte";
     version = "2025-10-06";
     src = fetchurl {
       url = "https://github.com/slugbyte/lackluster.nvim/archive/70dd682e564784893b984deb51dd5ddd263c8cc7.tar.gz";
@@ -8031,8 +8031,8 @@
   /*
   Generated from: github/Wansmer/langmapper.nvim/langmapper-nvim
   */
-  langmapper-nvim = buildVimPlugin {
-    pname = "langmapper-nvim";
+  langmapper-nvim-Wansmer = buildVimPlugin {
+    pname = "langmapper-nvim-Wansmer";
     version = "2025-05-05";
     src = fetchurl {
       url = "https://github.com/Wansmer/langmapper.nvim/archive/57a2fe4d706676aa0386825f27c27a4e3c14e0b0.tar.gz";
@@ -8048,8 +8048,8 @@
   /*
   Generated from: github/dasupradyumna/launch.nvim/launch-nvim
   */
-  launch-nvim = buildVimPlugin {
-    pname = "launch-nvim";
+  launch-nvim-dasupradyumna = buildVimPlugin {
+    pname = "launch-nvim-dasupradyumna";
     version = "2024-11-11";
     src = fetchurl {
       url = "https://github.com/dasupradyumna/launch.nvim/archive/32527bd855d419ea94434b3a5851fd42474864ca.tar.gz";
@@ -8063,10 +8063,27 @@
   };
 
   /*
+  Generated from: codeberg/jthvai/lavender.nvim/lavender-nvim
+  */
+  lavender-nvim-jthvai = buildVimPlugin {
+    pname = "lavender-nvim-jthvai";
+    version = "2024-06-01";
+    src = fetchurl {
+      url = "https://codeberg.org/jthvai/lavender.nvim/archive/50d8c9c19509ba5b03760e2d644128afc4215281.tar.gz";
+      sha256 = "1nfhksi5jbg1vj3vqx40670y4wzqfvqf08zm4fcza7xvcfah5as2";
+    };
+    meta = with lib; {
+      description = "Purple-hued dark mode colorscheme for Neovim";
+      homepage = "https://codeberg.org/jthvai/lavender.nvim";
+      license = with licenses; [];
+    };
+  };
+
+  /*
   Generated from: github/debugloop/layers.nvim/layers-nvim
   */
-  layers-nvim = buildVimPlugin {
-    pname = "layers-nvim";
+  layers-nvim-debugloop = buildVimPlugin {
+    pname = "layers-nvim-debugloop";
     version = "2024-12-22";
     src = fetchurl {
       url = "https://github.com/debugloop/layers.nvim/archive/ebbb386d7aea84a04bf7eab0873975b2e9d695a5.tar.gz";
@@ -8082,8 +8099,8 @@
   /*
   Generated from: github/folke/lazy.nvim/lazy-nvim
   */
-  lazy-nvim = buildVimPlugin {
-    pname = "lazy-nvim";
+  lazy-nvim-folke = buildVimPlugin {
+    pname = "lazy-nvim-folke";
     version = "2025-12-17";
     src = fetchurl {
       url = "https://github.com/folke/lazy.nvim/archive/306a05526ada86a7b30af95c5cc81ffba93fef97.tar.gz";
@@ -8099,8 +8116,8 @@
   /*
   Generated from: github/folke/lazydev.nvim/lazydev-nvim
   */
-  lazydev-nvim = buildVimPlugin {
-    pname = "lazydev-nvim";
+  lazydev-nvim-folke = buildVimPlugin {
+    pname = "lazydev-nvim-folke";
     version = "2025-11-06";
     src = fetchurl {
       url = "https://github.com/folke/lazydev.nvim/archive/5231c62aa83c2f8dc8e7ba957aa77098cda1257d.tar.gz";
@@ -8116,8 +8133,8 @@
   /*
   Generated from: github/abeldekat/lazyflex.nvim/lazyflex-nvim
   */
-  lazyflex-nvim = buildVimPlugin {
-    pname = "lazyflex-nvim";
+  lazyflex-nvim-abeldekat = buildVimPlugin {
+    pname = "lazyflex-nvim-abeldekat";
     version = "2024-03-29";
     src = fetchurl {
       url = "https://github.com/abeldekat/lazyflex.nvim/archive/557cecb002afa69762d9e0761817eb863143536b.tar.gz";
@@ -8133,8 +8150,8 @@
   /*
   Generated from: github/kdheepak/lazygit.nvim/lazygit-nvim
   */
-  lazygit-nvim = buildVimPlugin {
-    pname = "lazygit-nvim";
+  lazygit-nvim-kdheepak = buildVimPlugin {
+    pname = "lazygit-nvim-kdheepak";
     version = "2025-12-19";
     src = fetchurl {
       url = "https://github.com/kdheepak/lazygit.nvim/archive/a04ad0dbc725134edbee3a5eea29290976695357.tar.gz";
@@ -8150,8 +8167,8 @@
   /*
   Generated from: github/cxwx/lazyUrlUpdate.nvim/lazyUrlUpdate-nvim
   */
-  lazyUrlUpdate-nvim = buildVimPlugin {
-    pname = "lazyUrlUpdate-nvim";
+  lazyUrlUpdate-nvim-cxwx = buildVimPlugin {
+    pname = "lazyUrlUpdate-nvim-cxwx";
     version = "2026-01-03";
     src = fetchurl {
       url = "https://github.com/cxwx/lazyUrlUpdate.nvim/archive/4b310ee61982bd8c0ed76b45db03a782c3e6a826.tar.gz";
@@ -8167,8 +8184,8 @@
   /*
   Generated from: github/Julian/lean.nvim/lean-nvim
   */
-  lean-nvim = buildVimPlugin {
-    pname = "lean-nvim";
+  lean-nvim-Julian = buildVimPlugin {
+    pname = "lean-nvim-Julian";
     version = "2025-12-29";
     src = fetchurl {
       url = "https://github.com/Julian/lean.nvim/archive/d799fb2060c175ac86d5c3f629bf34e96a68b1db.tar.gz";
@@ -8184,8 +8201,8 @@
   /*
   Generated from: github/ggandor/leap-ast.nvim/leap-ast-nvim
   */
-  leap-ast-nvim = buildVimPlugin {
-    pname = "leap-ast-nvim";
+  leap-ast-nvim-ggandor = buildVimPlugin {
+    pname = "leap-ast-nvim-ggandor";
     version = "2022-10-10";
     src = fetchurl {
       url = "https://github.com/ggandor/leap-ast.nvim/archive/1a21b70505ebb868a1e196c0d63797e1426b53a5.tar.gz";
@@ -8201,8 +8218,8 @@
   /*
   Generated from: github/ggandor/leap.nvim/leap-nvim
   */
-  leap-nvim = buildVimPlugin {
-    pname = "leap-nvim";
+  leap-nvim-ggandor = buildVimPlugin {
+    pname = "leap-nvim-ggandor";
     version = "2025-12-08";
     src = fetchurl {
       url = "https://github.com/ggandor/leap.nvim/archive/f19d43590c4b6d31188ee1ea2954d2b7558a9e11.tar.gz";
@@ -8218,8 +8235,8 @@
   /*
   Generated from: github/ggandor/leap-spooky.nvim/leap-spooky-nvim
   */
-  leap-spooky-nvim = buildVimPlugin {
-    pname = "leap-spooky-nvim";
+  leap-spooky-nvim-ggandor = buildVimPlugin {
+    pname = "leap-spooky-nvim-ggandor";
     version = "2024-02-08";
     src = fetchurl {
       url = "https://github.com/ggandor/leap-spooky.nvim/archive/5f44a1f63dc1c4ce50244e92da5bc0d8d1f6eb47.tar.gz";
@@ -8235,8 +8252,8 @@
   /*
   Generated from: github/Dhanus3133/Leetbuddy.nvim/Leetbuddy-nvim
   */
-  Leetbuddy-nvim = buildVimPlugin {
-    pname = "Leetbuddy-nvim";
+  Leetbuddy-nvim-Dhanus3133 = buildVimPlugin {
+    pname = "Leetbuddy-nvim-Dhanus3133";
     version = "2023-11-19";
     src = fetchurl {
       url = "https://github.com/Dhanus3133/Leetbuddy.nvim/archive/8eecdd907a17a7f96dde9e7f072c45926b8d34c8.tar.gz";
@@ -8252,8 +8269,8 @@
   /*
   Generated from: github/kawre/leetcode.nvim/leetcode-nvim
   */
-  leetcode-nvim = buildVimPlugin {
-    pname = "leetcode-nvim";
+  leetcode-nvim-kawre = buildVimPlugin {
+    pname = "leetcode-nvim-kawre";
     version = "2025-09-21";
     src = fetchurl {
       url = "https://github.com/kawre/leetcode.nvim/archive/fdd3f91800b3983e27bc9fcfb99cfa7293d7f11a.tar.gz";
@@ -8269,8 +8286,8 @@
   /*
   Generated from: github/mrjones2014/legendary.nvim/legendary-nvim
   */
-  legendary-nvim = buildVimPlugin {
-    pname = "legendary-nvim";
+  legendary-nvim-mrjones2014 = buildVimPlugin {
+    pname = "legendary-nvim-mrjones2014";
     version = "2025-03-20";
     src = fetchurl {
       url = "https://github.com/mrjones2014/legendary.nvim/archive/6de819bc285eb8c420e49e82c21d5bb696b5a727.tar.gz";
@@ -8286,8 +8303,8 @@
   /*
   Generated from: github/lmburns/lf.nvim/lf-nvim
   */
-  lf-nvim = buildVimPlugin {
-    pname = "lf-nvim";
+  lf-nvim-lmburns = buildVimPlugin {
+    pname = "lf-nvim-lmburns";
     version = "2023-10-03";
     src = fetchurl {
       url = "https://github.com/lmburns/lf.nvim/archive/69ab1efcffee6928bf68ac9bd0c016464d9b2c8b.tar.gz";
@@ -8303,8 +8320,8 @@
   /*
   Generated from: github/itchyny/lightline.vim/lightline-vim
   */
-  lightline-vim = buildVimPlugin {
-    pname = "lightline-vim";
+  lightline-vim-itchyny = buildVimPlugin {
+    pname = "lightline-vim-itchyny";
     version = "2024-12-30";
     src = fetchurl {
       url = "https://github.com/itchyny/lightline.vim/archive/e358557e1a9f9fc860416c8eb2e34c0404078155.tar.gz";
@@ -8320,8 +8337,8 @@
   /*
   Generated from: github/ggandor/lightspeed.nvim/lightspeed-nvim
   */
-  lightspeed-nvim = buildVimPlugin {
-    pname = "lightspeed-nvim";
+  lightspeed-nvim-ggandor = buildVimPlugin {
+    pname = "lightspeed-nvim-ggandor";
     version = "2023-12-01";
     src = fetchurl {
       url = "https://github.com/ggandor/lightspeed.nvim/archive/fcc72d8a4d5f4ebba62d8a3a0660f88f1b5c3b05.tar.gz";
@@ -8337,8 +8354,8 @@
   /*
   Generated from: github/xiyaowong/link-visitor.nvim/link-visitor-nvim
   */
-  link-visitor-nvim = buildVimPlugin {
-    pname = "link-visitor-nvim";
+  link-visitor-nvim-xiyaowong = buildVimPlugin {
+    pname = "link-visitor-nvim-xiyaowong";
     version = "2023-11-30";
     src = fetchurl {
       url = "https://github.com/xiyaowong/link-visitor.nvim/archive/9eb0227c4860027e8d5a3c42ef9b8cf1a4279321.tar.gz";
@@ -8354,8 +8371,8 @@
   /*
   Generated from: github/tamago324/lir.nvim/lir-nvim
   */
-  lir-nvim = buildVimPlugin {
-    pname = "lir-nvim";
+  lir-nvim-tamago324 = buildVimPlugin {
+    pname = "lir-nvim-tamago324";
     version = "2024-05-26";
     src = fetchurl {
       url = "https://github.com/tamago324/lir.nvim/archive/5b1a927cfee45845d7d4450a1e8f2f63cf0baaac.tar.gz";
@@ -8371,8 +8388,8 @@
   /*
   Generated from: github/ldelossa/litee.nvim/litee-nvim
   */
-  litee-nvim = buildVimPlugin {
-    pname = "litee-nvim";
+  litee-nvim-ldelossa = buildVimPlugin {
+    pname = "litee-nvim-ldelossa";
     version = "2024-06-06";
     src = fetchurl {
       url = "https://github.com/ldelossa/litee.nvim/archive/4efaf373322d9e71eaff31164abb393417cc6f6a.tar.gz";
@@ -8388,8 +8405,8 @@
   /*
   Generated from: github/smjonas/live-command.nvim/live-command-nvim
   */
-  live-command-nvim = buildVimPlugin {
-    pname = "live-command-nvim";
+  live-command-nvim-smjonas = buildVimPlugin {
+    pname = "live-command-nvim-smjonas";
     version = "2025-12-19";
     src = fetchurl {
       url = "https://github.com/smjonas/live-command.nvim/archive/fc8c36d7e5b96945fbc52af7029facc317a47377.tar.gz";
@@ -8405,8 +8422,8 @@
   /*
   Generated from: github/azratul/live-share.nvim/live-share-nvim
   */
-  live-share-nvim = buildVimPlugin {
-    pname = "live-share-nvim";
+  live-share-nvim-azratul = buildVimPlugin {
+    pname = "live-share-nvim-azratul";
     version = "2025-05-03";
     src = fetchurl {
       url = "https://github.com/azratul/live-share.nvim/archive/11edb945131752c534fc903b7af2abfd6cf7edc6.tar.gz";
@@ -8422,8 +8439,8 @@
   /*
   Generated from: github/gsuuon/llm.nvim/llm-gsuuon
   */
-  llm-gsuuon = buildVimPlugin {
-    pname = "llm-gsuuon";
+  llm-gsuuon-gsuuon = buildVimPlugin {
+    pname = "llm-gsuuon-gsuuon";
     version = "2025-07-15";
     src = fetchurl {
       url = "https://github.com/gsuuon/llm.nvim/archive/c4653e9a9431c2629725b919e37eac83d0dbb6aa.tar.gz";
@@ -8439,8 +8456,8 @@
   /*
   Generated from: github/Kurama622/llm.nvim/llm-kurama622
   */
-  llm-kurama622 = buildVimPlugin {
-    pname = "llm-kurama622";
+  llm-kurama622-Kurama622 = buildVimPlugin {
+    pname = "llm-kurama622-Kurama622";
     version = "2026-01-08";
     src = fetchurl {
       url = "https://github.com/Kurama622/llm.nvim/archive/d10c83e3aa2567b49111fa43c01d2599ac08efb6.tar.gz";
@@ -8456,8 +8473,8 @@
   /*
   Generated from: github/k2589/lluminate.nvim/lluminate-nvim
   */
-  lluminate-nvim = buildVimPlugin {
-    pname = "lluminate-nvim";
+  lluminate-nvim-k2589 = buildVimPlugin {
+    pname = "lluminate-nvim-k2589";
     version = "2024-10-11";
     src = fetchurl {
       url = "https://github.com/k2589/lluminate.nvim/archive/8e0d13a2925b85c7818cae4346df74d805375f98.tar.gz";
@@ -8473,8 +8490,8 @@
   /*
   Generated from: github/folke/lsp-colors.nvim/lsp-colors-nvim
   */
-  lsp-colors-nvim = buildVimPlugin {
-    pname = "lsp-colors-nvim";
+  lsp-colors-nvim-folke = buildVimPlugin {
+    pname = "lsp-colors-nvim-folke";
     version = "2023-02-27";
     src = fetchurl {
       url = "https://github.com/folke/lsp-colors.nvim/archive/2bbe7541747fd339bdd8923fc45631a09bb4f1e5.tar.gz";
@@ -8490,8 +8507,8 @@
   /*
   Generated from: github/nvim-lua/lsp_extensions.nvim/lsp-extensions-nvim
   */
-  lsp-extensions-nvim = buildVimPlugin {
-    pname = "lsp-extensions-nvim";
+  lsp-extensions-nvim-nvim-lua = buildVimPlugin {
+    pname = "lsp-extensions-nvim-nvim-lua";
     version = "2022-07-07";
     src = fetchurl {
       url = "https://github.com/nvim-lua/lsp_extensions.nvim/archive/92c08d4914d5d272fae13c499aafc9f14eb05ada.tar.gz";
@@ -8507,8 +8524,8 @@
   /*
   Generated from: github/lukas-reineke/lsp-format.nvim/lsp-format-nvim
   */
-  lsp-format-nvim = buildVimPlugin {
-    pname = "lsp-format-nvim";
+  lsp-format-nvim-lukas-reineke = buildVimPlugin {
+    pname = "lsp-format-nvim-lukas-reineke";
     version = "2025-05-08";
     src = fetchurl {
       url = "https://github.com/lukas-reineke/lsp-format.nvim/archive/42d1d3e407c846d95f84ea3767e72ed6e08f7495.tar.gz";
@@ -8524,8 +8541,8 @@
   /*
   Generated from: github/VidocqH/lsp-lens.nvim/lsp-lens-nvim
   */
-  lsp-lens-nvim = buildVimPlugin {
-    pname = "lsp-lens-nvim";
+  lsp-lens-nvim-VidocqH = buildVimPlugin {
+    pname = "lsp-lens-nvim-VidocqH";
     version = "2023-12-07";
     src = fetchurl {
       url = "https://github.com/VidocqH/lsp-lens.nvim/archive/48bb1a7e271424c15f3d588d54adc9b7c319d977.tar.gz";
@@ -8541,8 +8558,8 @@
   /*
   Generated from: github/linrongbin16/lsp-progress.nvim/lsp-progress-nvim
   */
-  lsp-progress-nvim = buildVimPlugin {
-    pname = "lsp-progress-nvim";
+  lsp-progress-nvim-linrongbin16 = buildVimPlugin {
+    pname = "lsp-progress-nvim-linrongbin16";
     version = "2025-09-20";
     src = fetchurl {
       url = "https://github.com/linrongbin16/lsp-progress.nvim/archive/ae52979ad412371ea6dc39ff70c8dfc681fb42b8.tar.gz";
@@ -8558,8 +8575,8 @@
   /*
   Generated from: github/junnplus/lsp-setup.nvim/lsp-setup-nvim
   */
-  lsp-setup-nvim = buildVimPlugin {
-    pname = "lsp-setup-nvim";
+  lsp-setup-nvim-junnplus = buildVimPlugin {
+    pname = "lsp-setup-nvim-junnplus";
     version = "2025-05-15";
     src = fetchurl {
       url = "https://github.com/junnplus/lsp-setup.nvim/archive/f3acd127ca0f6bf5516622aafd87de7290ca8159.tar.gz";
@@ -8575,8 +8592,8 @@
   /*
   Generated from: github/ray-x/lsp_signature.nvim/lsp-signature-nvim
   */
-  lsp-signature-nvim = buildVimPlugin {
-    pname = "lsp-signature-nvim";
+  lsp-signature-nvim-ray-x = buildVimPlugin {
+    pname = "lsp-signature-nvim-ray-x";
     version = "2025-11-23";
     src = fetchurl {
       url = "https://github.com/ray-x/lsp_signature.nvim/archive/7d3bb0a641f516f1c7fd2e47852580dadbd7a430.tar.gz";
@@ -8592,8 +8609,8 @@
   /*
   Generated from: github/nvim-lua/lsp-status.nvim/lsp-status-nvim
   */
-  lsp-status-nvim = buildVimPlugin {
-    pname = "lsp-status-nvim";
+  lsp-status-nvim-nvim-lua = buildVimPlugin {
+    pname = "lsp-status-nvim-nvim-lua";
     version = "2022-08-03";
     src = fetchurl {
       url = "https://github.com/nvim-lua/lsp-status.nvim/archive/54f48eb5017632d81d0fd40112065f1d062d0629.tar.gz";
@@ -8609,8 +8626,8 @@
   /*
   Generated from: github/hinell/lsp-timeout.nvim/lsp-timeout-nvim
   */
-  lsp-timeout-nvim = buildVimPlugin {
-    pname = "lsp-timeout-nvim";
+  lsp-timeout-nvim-hinell = buildVimPlugin {
+    pname = "lsp-timeout-nvim-hinell";
     version = "2023-11-06";
     src = fetchurl {
       url = "https://github.com/hinell/lsp-timeout.nvim/archive/6325906730330105a9adc41d0ceb8499b3072e2b.tar.gz";
@@ -8626,8 +8643,8 @@
   /*
   Generated from: github/vonheikemen/lsp-zero.nvim/lsp-zero-nvim
   */
-  lsp-zero-nvim = buildVimPlugin {
-    pname = "lsp-zero-nvim";
+  lsp-zero-nvim-vonheikemen = buildVimPlugin {
+    pname = "lsp-zero-nvim-vonheikemen";
     version = "2025-07-08";
     src = fetchurl {
       url = "https://github.com/vonheikemen/lsp-zero.nvim/archive/d388e2b71834c826e61a3eba48caec53d7602510.tar.gz";
@@ -8643,8 +8660,8 @@
   /*
   Generated from: github/deathbeam/lspecho.nvim/lspecho-nvim
   */
-  lspecho-nvim = buildVimPlugin {
-    pname = "lspecho-nvim";
+  lspecho-nvim-deathbeam = buildVimPlugin {
+    pname = "lspecho-nvim-deathbeam";
     version = "2025-03-13";
     src = fetchurl {
       url = "https://github.com/deathbeam/lspecho.nvim/archive/883f6c0a3f5c36047e68c989484565a4a6357ca0.tar.gz";
@@ -8660,8 +8677,8 @@
   /*
   Generated from: github/onsails/lspkind.nvim/lspkind-nvim
   */
-  lspkind-nvim = buildVimPlugin {
-    pname = "lspkind-nvim";
+  lspkind-nvim-onsails = buildVimPlugin {
+    pname = "lspkind-nvim-onsails";
     version = "2025-09-18";
     src = fetchurl {
       url = "https://github.com/onsails/lspkind.nvim/archive/3ddd1b4edefa425fda5a9f95a4f25578727c0bb3.tar.gz";
@@ -8677,8 +8694,8 @@
   /*
   Generated from: github/tristone13th/lspmark.nvim/lspmark-nvim
   */
-  lspmark-nvim = buildVimPlugin {
-    pname = "lspmark-nvim";
+  lspmark-nvim-tristone13th = buildVimPlugin {
+    pname = "lspmark-nvim-tristone13th";
     version = "2025-07-16";
     src = fetchurl {
       url = "https://github.com/tristone13th/lspmark.nvim/archive/31af068b6652567603babb6d317df4504bc66310.tar.gz";
@@ -8694,8 +8711,8 @@
   /*
   Generated from: github/nvimdev/lspsaga.nvim/lspsaga-nvim
   */
-  lspsaga-nvim = buildVimPlugin {
-    pname = "lspsaga-nvim";
+  lspsaga-nvim-nvimdev = buildVimPlugin {
+    pname = "lspsaga-nvim-nvimdev";
     version = "2025-06-25";
     src = fetchurl {
       url = "https://github.com/nvimdev/lspsaga.nvim/archive/8efe00d6aed9db6449969f889170f1a7e43101a1.tar.gz";
@@ -8711,8 +8728,8 @@
   /*
   Generated from: github/jinzhongjia/LspUI.nvim/LspUI-nvim
   */
-  LspUI-nvim = buildVimPlugin {
-    pname = "LspUI-nvim";
+  LspUI-nvim-jinzhongjia = buildVimPlugin {
+    pname = "LspUI-nvim-jinzhongjia";
     version = "2025-12-07";
     src = fetchurl {
       url = "https://github.com/jinzhongjia/LspUI.nvim/archive/75133e45a441cc934ef3c54733a3595f65ef3576.tar.gz";
@@ -8728,8 +8745,8 @@
   /*
   Generated from: github/barreiroleo/ltex_extra.nvim/ltex-extra-nvim
   */
-  ltex-extra-nvim = buildVimPlugin {
-    pname = "ltex-extra-nvim";
+  ltex-extra-nvim-barreiroleo = buildVimPlugin {
+    pname = "ltex-extra-nvim-barreiroleo";
     version = "2025-11-01";
     src = fetchurl {
       url = "https://github.com/barreiroleo/ltex_extra.nvim/archive/49ea83c231139d98b7c9668c99e7b4591421b056.tar.gz";
@@ -8745,8 +8762,8 @@
   /*
   Generated from: github/YaroSpace/lua-console.nvim/lua-console-nvim
   */
-  lua-console-nvim = buildVimPlugin {
-    pname = "lua-console-nvim";
+  lua-console-nvim-YaroSpace = buildVimPlugin {
+    pname = "lua-console-nvim-YaroSpace";
     version = "2025-11-02";
     src = fetchurl {
       url = "https://github.com/YaroSpace/lua-console.nvim/archive/9ce346626ef13b7123617587544fdf0f9f672002.tar.gz";
@@ -8762,8 +8779,8 @@
   /*
   Generated from: github/folke/lua-dev.nvim/lua-dev-nvim
   */
-  lua-dev-nvim = buildVimPlugin {
-    pname = "lua-dev-nvim";
+  lua-dev-nvim-folke = buildVimPlugin {
+    pname = "lua-dev-nvim-folke";
     version = "2024-07-06";
     src = fetchurl {
       url = "https://github.com/folke/lua-dev.nvim/archive/46aa467dca16cf3dfe27098042402066d2ae242d.tar.gz";
@@ -8779,8 +8796,8 @@
   /*
   Generated from: github/Mr-LLLLL/lualine-ext.nvim/lualine-ext-nvim
   */
-  lualine-ext-nvim = buildVimPlugin {
-    pname = "lualine-ext-nvim";
+  lualine-ext-nvim-Mr-LLLLL = buildVimPlugin {
+    pname = "lualine-ext-nvim-Mr-LLLLL";
     version = "2025-10-21";
     src = fetchurl {
       url = "https://github.com/Mr-LLLLL/lualine-ext.nvim/archive/6d9f948c64d04463140fe954a6b5a7c45ce277d9.tar.gz";
@@ -8796,8 +8813,8 @@
   /*
   Generated from: github/nvim-lualine/lualine.nvim/lualine-nvim
   */
-  lualine-nvim = buildVimPlugin {
-    pname = "lualine-nvim";
+  lualine-nvim-nvim-lualine = buildVimPlugin {
+    pname = "lualine-nvim-nvim-lualine";
     version = "2025-11-23";
     src = fetchurl {
       url = "https://github.com/nvim-lualine/lualine.nvim/archive/47f91c416daef12db467145e16bed5bbfe00add8.tar.gz";
@@ -8813,8 +8830,8 @@
   /*
   Generated from: github/nvim-neorocks/luarocks-tag-release/luarocks-tag-release
   */
-  luarocks-tag-release = buildVimPlugin {
-    pname = "luarocks-tag-release";
+  luarocks-tag-release-nvim-neorocks = buildVimPlugin {
+    pname = "luarocks-tag-release-nvim-neorocks";
     version = "2026-01-04";
     src = fetchurl {
       url = "https://github.com/nvim-neorocks/luarocks-tag-release/archive/c7a5b05155a021a30451dbc7d183886b5eca18e6.tar.gz";
@@ -8830,8 +8847,8 @@
   /*
   Generated from: github/L3MON4D3/LuaSnip/LuaSnip
   */
-  LuaSnip = buildVimPlugin {
-    pname = "LuaSnip";
+  LuaSnip-L3MON4D3 = buildVimPlugin {
+    pname = "LuaSnip-L3MON4D3";
     version = "2025-11-03";
     src = fetchurl {
       url = "https://github.com/L3MON4D3/LuaSnip/archive/3732756842a2f7e0e76a7b0487e9692072857277.tar.gz";
@@ -8847,8 +8864,8 @@
   /*
   Generated from: github/alvarosevilla95/luatab.nvim/luatab-nvim
   */
-  luatab-nvim = buildVimPlugin {
-    pname = "luatab-nvim";
+  luatab-nvim-alvarosevilla95 = buildVimPlugin {
+    pname = "luatab-nvim-alvarosevilla95";
     version = "2025-03-21";
     src = fetchurl {
       url = "https://github.com/alvarosevilla95/luatab.nvim/archive/7ac54b014b542f02a73b62fcae65db7a2382a378.tar.gz";
@@ -8864,8 +8881,8 @@
   /*
   Generated from: github/lopi-py/luau-lsp.nvim/luau-lsp-nvim
   */
-  luau-lsp-nvim = buildVimPlugin {
-    pname = "luau-lsp-nvim";
+  luau-lsp-nvim-lopi-py = buildVimPlugin {
+    pname = "luau-lsp-nvim-lopi-py";
     version = "2025-12-15";
     src = fetchurl {
       url = "https://github.com/lopi-py/luau-lsp.nvim/archive/0ff33e81b6b6e207fce9accd79142631615d0a8d.tar.gz";
@@ -8881,8 +8898,8 @@
   /*
   Generated from: gitlab/bartekjaszczak/luma-nvim/luma-nvim
   */
-  luma-nvim = buildVimPlugin {
-    pname = "luma-nvim";
+  luma-nvim-bartekjaszczak = buildVimPlugin {
+    pname = "luma-nvim-bartekjaszczak";
     version = "2024-10-19";
     src = fetchurl {
       url = "https://gitlab.com/api/v4/projects/bartekjaszczak%2Fluma-nvim/repository/archive.tar.gz?sha=82543d790405777b15dbb1817ba09b23ea78d1ed";
@@ -8898,8 +8915,8 @@
   /*
   Generated from: github/rktjmp/lush.nvim/lush-nvim
   */
-  lush-nvim = buildVimPlugin {
-    pname = "lush-nvim";
+  lush-nvim-rktjmp = buildVimPlugin {
+    pname = "lush-nvim-rktjmp";
     version = "2025-09-01";
     src = fetchurl {
       url = "https://github.com/rktjmp/lush.nvim/archive/9c60ec2279d62487d942ce095e49006af28eed6e.tar.gz";
@@ -8915,8 +8932,8 @@
   /*
   Generated from: github/nanotee/luv-vimdocs/luv-vimdocs
   */
-  luv-vimdocs = buildVimPlugin {
-    pname = "luv-vimdocs";
+  luv-vimdocs-nanotee = buildVimPlugin {
+    pname = "luv-vimdocs-nanotee";
     version = "2023-02-08";
     src = fetchurl {
       url = "https://github.com/nanotee/luv-vimdocs/archive/997b9338fd3ac91a53bbdc19110c127e3bea01c4.tar.gz";
@@ -8932,8 +8949,8 @@
   /*
   Generated from: github/Bilal2453/luvit-meta/luvit-meta
   */
-  luvit-meta = buildVimPlugin {
-    pname = "luvit-meta";
+  luvit-meta-Bilal2453 = buildVimPlugin {
+    pname = "luvit-meta-Bilal2453";
     version = "2025-09-22";
     src = fetchurl {
       url = "https://github.com/Bilal2453/luvit-meta/archive/0ea4ff636c5bb559ffa78108561d0976f4de9682.tar.gz";
@@ -8949,8 +8966,8 @@
   /*
   Generated from: github/desdic/macrothis.nvim/macrothis-nvim
   */
-  macrothis-nvim = buildVimPlugin {
-    pname = "macrothis-nvim";
+  macrothis-nvim-desdic = buildVimPlugin {
+    pname = "macrothis-nvim-desdic";
     version = "2025-02-12";
     src = fetchurl {
       url = "https://github.com/desdic/macrothis.nvim/archive/c3f4982d6569ed58a218322692a8aca1a66876b5.tar.gz";
@@ -8966,8 +8983,8 @@
   /*
   Generated from: github/dlants/magenta.nvim/magenta-nvim
   */
-  magenta-nvim = buildVimPlugin {
-    pname = "magenta-nvim";
+  magenta-nvim-dlants = buildVimPlugin {
+    pname = "magenta-nvim-dlants";
     version = "2026-01-07";
     src = fetchurl {
       url = "https://github.com/dlants/magenta.nvim/archive/f7ed15d129b8c9df65c71aee9b464f34bde447ad.tar.gz";
@@ -8983,8 +9000,8 @@
   /*
   Generated from: github/dccsillag/magma-nvim/magma-nvim
   */
-  magma-nvim = buildVimPlugin {
-    pname = "magma-nvim";
+  magma-nvim-dccsillag = buildVimPlugin {
+    pname = "magma-nvim-dccsillag";
     version = "2023-07-08";
     src = fetchurl {
       url = "https://github.com/dccsillag/magma-nvim/archive/ff3deba8a879806a51c005e50782130246143d06.tar.gz";
@@ -9000,8 +9017,8 @@
   /*
   Generated from: github/Zeioth/makeit.nvim/makeit-nvim
   */
-  makeit-nvim = buildVimPlugin {
-    pname = "makeit-nvim";
+  makeit-nvim-Zeioth = buildVimPlugin {
+    pname = "makeit-nvim-Zeioth";
     version = "2025-06-24";
     src = fetchurl {
       url = "https://github.com/Zeioth/makeit.nvim/archive/5859c9d8936528ff5f88f0fc2de7daee0dbcd9b8.tar.gz";
@@ -9017,8 +9034,8 @@
   /*
   Generated from: github/b0o/mapx.nvim/mapx-nvim
   */
-  mapx-nvim = buildVimPlugin {
-    pname = "mapx-nvim";
+  mapx-nvim-b0o = buildVimPlugin {
+    pname = "mapx-nvim-b0o";
     version = "2022-02-24";
     src = fetchurl {
       url = "https://github.com/b0o/mapx.nvim/archive/c3dd43474a5fc2f266309bc04a69b74eb2524671.tar.gz";
@@ -9034,8 +9051,8 @@
   /*
   Generated from: github/MeanderingProgrammer/markdown.nvim/markdown-meandering-programmer
   */
-  markdown-meandering-programmer = buildVimPlugin {
-    pname = "markdown-meandering-programmer";
+  markdown-meandering-programmer-MeanderingProgrammer = buildVimPlugin {
+    pname = "markdown-meandering-programmer-MeanderingProgrammer";
     version = "2026-01-07";
     src = fetchurl {
       url = "https://github.com/MeanderingProgrammer/markdown.nvim/archive/73a6ebc842cf81926eb1d424820b800f6f6a1227.tar.gz";
@@ -9051,8 +9068,8 @@
   /*
   Generated from: github/iamcco/markdown-preview.nvim/markdown-preview-nvim
   */
-  markdown-preview-nvim = buildVimPlugin {
-    pname = "markdown-preview-nvim";
+  markdown-preview-nvim-iamcco = buildVimPlugin {
+    pname = "markdown-preview-nvim-iamcco";
     version = "2023-10-17";
     src = fetchurl {
       url = "https://github.com/iamcco/markdown-preview.nvim/archive/a923f5fc5ba36a3b17e289dc35dc17f66d0548ee.tar.gz";
@@ -9068,8 +9085,8 @@
   /*
   Generated from: github/Kicamon/markdown-table-mode.nvim/markdown-table-mode-nvim
   */
-  markdown-table-mode-nvim = buildVimPlugin {
-    pname = "markdown-table-mode-nvim";
+  markdown-table-mode-nvim-Kicamon = buildVimPlugin {
+    pname = "markdown-table-mode-nvim-Kicamon";
     version = "2025-07-13";
     src = fetchurl {
       url = "https://github.com/Kicamon/markdown-table-mode.nvim/archive/bb1ea9b76c1b29e15e14806fdfbb2319df5c06f1.tar.gz";
@@ -9085,8 +9102,8 @@
   /*
   Generated from: github/tadmccorkle/markdown.nvim/markdown-tadmccorkle
   */
-  markdown-tadmccorkle = buildVimPlugin {
-    pname = "markdown-tadmccorkle";
+  markdown-tadmccorkle-tadmccorkle = buildVimPlugin {
+    pname = "markdown-tadmccorkle-tadmccorkle";
     version = "2025-12-22";
     src = fetchurl {
       url = "https://github.com/tadmccorkle/markdown.nvim/archive/093be911d90de03877f3009de36081c1a6242d51.tar.gz";
@@ -9102,8 +9119,8 @@
   /*
   Generated from: github/ChuufMaster/markdown-toc/markdown-toc
   */
-  markdown-toc = buildVimPlugin {
-    pname = "markdown-toc";
+  markdown-toc-ChuufMaster = buildVimPlugin {
+    pname = "markdown-toc-ChuufMaster";
     version = "2025-05-27";
     src = fetchurl {
       url = "https://github.com/ChuufMaster/markdown-toc/archive/1aa53cec6207754610fc0254662cdfff730aceab.tar.gz";
@@ -9119,8 +9136,8 @@
   /*
   Generated from: github/NFrid/markdown-togglecheck/markdown-togglecheck
   */
-  markdown-togglecheck = buildVimPlugin {
-    pname = "markdown-togglecheck";
+  markdown-togglecheck-NFrid = buildVimPlugin {
+    pname = "markdown-togglecheck-NFrid";
     version = "2023-09-04";
     src = fetchurl {
       url = "https://github.com/NFrid/markdown-togglecheck/archive/5e9ee3184109a102952c01ef816babe8835b299a.tar.gz";
@@ -9136,8 +9153,8 @@
   /*
   Generated from: github/2KAbhishek/markit.nvim/markit-nvim
   */
-  markit-nvim = buildVimPlugin {
-    pname = "markit-nvim";
+  markit-nvim-2KAbhishek = buildVimPlugin {
+    pname = "markit-nvim-2KAbhishek";
     version = "2025-10-09";
     src = fetchurl {
       url = "https://github.com/2KAbhishek/markit.nvim/archive/c716195d5b0b21ef03a20a1facc46d33ca9f7c49.tar.gz";
@@ -9153,8 +9170,8 @@
   /*
   Generated from: github/Zeioth/markmap.nvim/markmap-nvim
   */
-  markmap-nvim = buildVimPlugin {
-    pname = "markmap-nvim";
+  markmap-nvim-Zeioth = buildVimPlugin {
+    pname = "markmap-nvim-Zeioth";
     version = "2025-11-11";
     src = fetchurl {
       url = "https://github.com/Zeioth/markmap.nvim/archive/c09ad672404d050e8665e3094f892b87cf17d8cb.tar.gz";
@@ -9170,8 +9187,8 @@
   /*
   Generated from: github/chentoast/marks.nvim/marks-nvim
   */
-  marks-nvim = buildVimPlugin {
-    pname = "marks-nvim";
+  marks-nvim-chentoast = buildVimPlugin {
+    pname = "marks-nvim-chentoast";
     version = "2025-05-13";
     src = fetchurl {
       url = "https://github.com/chentoast/marks.nvim/archive/f353e8c08c50f39e99a9ed474172df7eddd89b72.tar.gz";
@@ -9187,8 +9204,8 @@
   /*
   Generated from: github/OXY2DEV/markview.nvim/markview-nvim
   */
-  markview-nvim = buildVimPlugin {
-    pname = "markview-nvim";
+  markview-nvim-OXY2DEV = buildVimPlugin {
+    pname = "markview-nvim-OXY2DEV";
     version = "2025-12-28";
     src = fetchurl {
       url = "https://github.com/OXY2DEV/markview.nvim/archive/18fc148c83925919d94f3fc8e5c74f2d108b9b44.tar.gz";
@@ -9204,8 +9221,8 @@
   /*
   Generated from: github/desdic/marlin.nvim/marlin-nvim
   */
-  marlin-nvim = buildVimPlugin {
-    pname = "marlin-nvim";
+  marlin-nvim-desdic = buildVimPlugin {
+    pname = "marlin-nvim-desdic";
     version = "2025-05-28";
     src = fetchurl {
       url = "https://github.com/desdic/marlin.nvim/archive/4514eb0cb35521b054e6707a7e9354be205f6149.tar.gz";
@@ -9221,8 +9238,8 @@
   /*
   Generated from: github/mpas/marp-nvim/marp-nvim
   */
-  marp-nvim = buildVimPlugin {
-    pname = "marp-nvim";
+  marp-nvim-mpas = buildVimPlugin {
+    pname = "marp-nvim-mpas";
     version = "2024-07-31";
     src = fetchurl {
       url = "https://github.com/mpas/marp-nvim/archive/4f38e6ffe2f5ea260f35f7ff3e4e424b9f8bea29.tar.gz";
@@ -9238,8 +9255,8 @@
   /*
   Generated from: github/williamboman/mason-lspconfig.nvim/mason-lspconfig-nvim
   */
-  mason-lspconfig-nvim = buildVimPlugin {
-    pname = "mason-lspconfig-nvim";
+  mason-lspconfig-nvim-williamboman = buildVimPlugin {
+    pname = "mason-lspconfig-nvim-williamboman";
     version = "2026-01-08";
     src = fetchurl {
       url = "https://github.com/williamboman/mason-lspconfig.nvim/archive/e5f73a9e3d271d449685f1059eb1868f4ba276f6.tar.gz";
@@ -9255,8 +9272,8 @@
   /*
   Generated from: github/williamboman/mason.nvim/mason-nvim
   */
-  mason-nvim = buildVimPlugin {
-    pname = "mason-nvim";
+  mason-nvim-williamboman = buildVimPlugin {
+    pname = "mason-nvim-williamboman";
     version = "2026-01-07";
     src = fetchurl {
       url = "https://github.com/williamboman/mason.nvim/archive/44d1e90e1f66e077268191e3ee9d2ac97cc18e65.tar.gz";
@@ -9272,8 +9289,8 @@
   /*
   Generated from: github/monkoose/matchparen.nvim/matchparen-nvim
   */
-  matchparen-nvim = buildVimPlugin {
-    pname = "matchparen-nvim";
+  matchparen-nvim-monkoose = buildVimPlugin {
+    pname = "matchparen-nvim-monkoose";
     version = "2025-06-28";
     src = fetchurl {
       url = "https://github.com/monkoose/matchparen.nvim/archive/1a2dcbd026bf99b20b89345883d54823f80a2bee.tar.gz";
@@ -9289,8 +9306,8 @@
   /*
   Generated from: github/marko-cerovac/material.nvim/material-nvim
   */
-  material-nvim = buildVimPlugin {
-    pname = "material-nvim";
+  material-nvim-marko-cerovac = buildVimPlugin {
+    pname = "material-nvim-marko-cerovac";
     version = "2026-01-05";
     src = fetchurl {
       url = "https://github.com/marko-cerovac/material.nvim/archive/52c121551ffbf7b8f25bed3ef5878e5d6896c786.tar.gz";
@@ -9306,8 +9323,8 @@
   /*
   Generated from: github/arminveres/md-pdf.nvim/md-pdf-nvim
   */
-  md-pdf-nvim = buildVimPlugin {
-    pname = "md-pdf-nvim";
+  md-pdf-nvim-arminveres = buildVimPlugin {
+    pname = "md-pdf-nvim-arminveres";
     version = "2026-01-06";
     src = fetchurl {
       url = "https://github.com/arminveres/md-pdf.nvim/archive/8fc3b0c25d87b3b328737518b5240d9439e25c2c.tar.gz";
@@ -9323,8 +9340,8 @@
   /*
   Generated from: github/jubnzv/mdeval.nvim/mdeval-nvim
   */
-  mdeval-nvim = buildVimPlugin {
-    pname = "mdeval-nvim";
+  mdeval-nvim-jubnzv = buildVimPlugin {
+    pname = "mdeval-nvim-jubnzv";
     version = "2024-11-30";
     src = fetchurl {
       url = "https://github.com/jubnzv/mdeval.nvim/archive/0e1b248db174a9659a9ab16eb8c90ff3aec55264.tar.gz";
@@ -9340,8 +9357,8 @@
   /*
   Generated from: github/Thiago4532/mdmath.nvim/mdmath-nvim
   */
-  mdmath-nvim = buildVimPlugin {
-    pname = "mdmath-nvim";
+  mdmath-nvim-Thiago4532 = buildVimPlugin {
+    pname = "mdmath-nvim-Thiago4532";
     version = "2024-12-27";
     src = fetchurl {
       url = "https://github.com/Thiago4532/mdmath.nvim/archive/699acb27fd34bfdf92a43ce0abdd17f0c7a948fe.tar.gz";
@@ -9357,8 +9374,8 @@
   /*
   Generated from: github/savq/melange-nvim/melange-nvim
   */
-  melange-nvim = buildVimPlugin {
-    pname = "melange-nvim";
+  melange-nvim-savq = buildVimPlugin {
+    pname = "melange-nvim-savq";
     version = "2025-06-16";
     src = fetchurl {
       url = "https://github.com/savq/melange-nvim/archive/ce42f6b629beeaa00591ba73a77d3eeac4cf28ce.tar.gz";
@@ -9374,8 +9391,8 @@
   /*
   Generated from: github/ramojus/mellifluous.nvim/mellifluous-nvim
   */
-  mellifluous-nvim = buildVimPlugin {
-    pname = "mellifluous-nvim";
+  mellifluous-nvim-ramojus = buildVimPlugin {
+    pname = "mellifluous-nvim-ramojus";
     version = "2025-11-29";
     src = fetchurl {
       url = "https://github.com/ramojus/mellifluous.nvim/archive/4ce6258b31420aa4fd64b35b7f7cf42dffef7403.tar.gz";
@@ -9391,8 +9408,8 @@
   /*
   Generated from: github/mellow-theme/mellow.nvim/mellow-nvim
   */
-  mellow-nvim = buildVimPlugin {
-    pname = "mellow-nvim";
+  mellow-nvim-mellow-theme = buildVimPlugin {
+    pname = "mellow-nvim-mellow-theme";
     version = "2025-09-02";
     src = fetchurl {
       url = "https://github.com/mellow-theme/mellow.nvim/archive/5cd188489bcc7eb512f0a30581ad972070f8e5cd.tar.gz";
@@ -9408,8 +9425,8 @@
   /*
   Generated from: github/gaborvecsei/memento.nvim/memento-nvim
   */
-  memento-nvim = buildVimPlugin {
-    pname = "memento-nvim";
+  memento-nvim-gaborvecsei = buildVimPlugin {
+    pname = "memento-nvim-gaborvecsei";
     version = "2022-03-18";
     src = fetchurl {
       url = "https://github.com/gaborvecsei/memento.nvim/archive/7e5e5a86ccaec2892fc2d8197fc01a25d1cf8951.tar.gz";
@@ -9425,8 +9442,8 @@
   /*
   Generated from: github/AckslD/messages.nvim/messages-nvim
   */
-  messages-nvim = buildVimPlugin {
-    pname = "messages-nvim";
+  messages-nvim-AckslD = buildVimPlugin {
+    pname = "messages-nvim-AckslD";
     version = "2023-07-20";
     src = fetchurl {
       url = "https://github.com/AckslD/messages.nvim/archive/24dbb56829d1ed2d8d878e9f5547478441838567.tar.gz";
@@ -9442,8 +9459,8 @@
   /*
   Generated from: github/xero/miasma.nvim/miasma-nvim
   */
-  miasma-nvim = buildVimPlugin {
-    pname = "miasma-nvim";
+  miasma-nvim-xero = buildVimPlugin {
+    pname = "miasma-nvim-xero";
     version = "2025-07-12";
     src = fetchurl {
       url = "https://github.com/xero/miasma.nvim/archive/627f2e1cac91de0d1d4dd7472b506a30f41b2b7d.tar.gz";
@@ -9459,8 +9476,8 @@
   /*
   Generated from: github/jim-at-jibba/micropython.nvim/micropython-nvim
   */
-  micropython-nvim = buildVimPlugin {
-    pname = "micropython-nvim";
+  micropython-nvim-jim-at-jibba = buildVimPlugin {
+    pname = "micropython-nvim-jim-at-jibba";
     version = "2026-01-03";
     src = fetchurl {
       url = "https://github.com/jim-at-jibba/micropython.nvim/archive/f124d6b166bd370338481e225f7a39b7d4a56742.tar.gz";
@@ -9476,8 +9493,8 @@
   /*
   Generated from: github/anuvyklack/middleclass/middleclass
   */
-  middleclass = buildVimPlugin {
-    pname = "middleclass";
+  middleclass-anuvyklack = buildVimPlugin {
+    pname = "middleclass-anuvyklack";
     version = "2022-09-20";
     src = fetchurl {
       url = "https://github.com/anuvyklack/middleclass/archive/9fab4d5bca67262614960960ca35c4740eb2be2c.tar.gz";
@@ -9493,8 +9510,8 @@
   /*
   Generated from: github/dasupradyumna/midnight.nvim/midnight-nvim
   */
-  midnight-nvim = buildVimPlugin {
-    pname = "midnight-nvim";
+  midnight-nvim-dasupradyumna = buildVimPlugin {
+    pname = "midnight-nvim-dasupradyumna";
     version = "2024-11-01";
     src = fetchurl {
       url = "https://github.com/dasupradyumna/midnight.nvim/archive/fe062a6f2e5bd77cd8a260f61e6e12789eaf4f13.tar.gz";
@@ -9510,8 +9527,8 @@
   /*
   Generated from: github/hadronized/mind.nvim/mind-nvim
   */
-  mind-nvim = buildVimPlugin {
-    pname = "mind-nvim";
+  mind-nvim-hadronized = buildVimPlugin {
+    pname = "mind-nvim-hadronized";
     version = "2023-03-22";
     src = fetchurl {
       url = "https://github.com/hadronized/mind.nvim/archive/002137dd7cf97865ebd01b6a260209d2daf2da66.tar.gz";
@@ -9527,8 +9544,8 @@
   /*
   Generated from: github/echasnovski/mini.nvim/mini-nvim
   */
-  mini-nvim = buildVimPlugin {
-    pname = "mini-nvim";
+  mini-nvim-echasnovski = buildVimPlugin {
+    pname = "mini-nvim-echasnovski";
     version = "2026-01-06";
     src = fetchurl {
       url = "https://github.com/echasnovski/mini.nvim/archive/fb4ccfed03c1f0d9db702f93a65cb4c0c6c2832b.tar.gz";
@@ -9544,8 +9561,8 @@
   /*
   Generated from: github/yazeed1s/minimal.nvim/minimal-nvim
   */
-  minimal-nvim = buildVimPlugin {
-    pname = "minimal-nvim";
+  minimal-nvim-yazeed1s = buildVimPlugin {
+    pname = "minimal-nvim-yazeed1s";
     version = "2022-11-03";
     src = fetchurl {
       url = "https://github.com/yazeed1s/minimal.nvim/archive/22d837b814d3bd22625640ef63cc73b8507f291d.tar.gz";
@@ -9561,8 +9578,8 @@
   /*
   Generated from: github/milanglacier/minuet-ai.nvim/minuet-ai-nvim
   */
-  minuet-ai-nvim = buildVimPlugin {
-    pname = "minuet-ai-nvim";
+  minuet-ai-nvim-milanglacier = buildVimPlugin {
+    pname = "minuet-ai-nvim-milanglacier";
     version = "2025-12-17";
     src = fetchurl {
       url = "https://github.com/milanglacier/minuet-ai.nvim/archive/fc483f1e8afdbb6dbe9c8cb1b00d51f8f9c8f7f1.tar.gz";
@@ -9578,8 +9595,8 @@
   /*
   Generated from: github/Enigama/miss.nvim/miss-nvim
   */
-  miss-nvim = buildVimPlugin {
-    pname = "miss-nvim";
+  miss-nvim-Enigama = buildVimPlugin {
+    pname = "miss-nvim-Enigama";
     version = "2025-08-17";
     src = fetchurl {
       url = "https://github.com/Enigama/miss.nvim/archive/89189b3f7a5498733e70626f96783b8af80ffb97.tar.gz";
@@ -9595,8 +9612,8 @@
   /*
   Generated from: github/brendalf/mix.nvim/mix-nvim
   */
-  mix-nvim = buildVimPlugin {
-    pname = "mix-nvim";
+  mix-nvim-brendalf = buildVimPlugin {
+    pname = "mix-nvim-brendalf";
     version = "2022-08-22";
     src = fetchurl {
       url = "https://github.com/brendalf/mix.nvim/archive/9cbdc90351781c183667be15d51b0ec09396c3f4.tar.gz";
@@ -9612,8 +9629,8 @@
   /*
   Generated from: github/jghauser/mkdir.nvim/mkdir-nvim
   */
-  mkdir-nvim = buildVimPlugin {
-    pname = "mkdir-nvim";
+  mkdir-nvim-jghauser = buildVimPlugin {
+    pname = "mkdir-nvim-jghauser";
     version = "2022-07-23";
     src = fetchurl {
       url = "https://github.com/jghauser/mkdir.nvim/archive/c55d1dee4f099528a1853b28bb28caa802eba217.tar.gz";
@@ -9629,8 +9646,8 @@
   /*
   Generated from: github/jakewvincent/mkdnflow.nvim/mkdnflow-nvim
   */
-  mkdnflow-nvim = buildVimPlugin {
-    pname = "mkdnflow-nvim";
+  mkdnflow-nvim-jakewvincent = buildVimPlugin {
+    pname = "mkdnflow-nvim-jakewvincent";
     version = "2024-08-25";
     src = fetchurl {
       url = "https://github.com/jakewvincent/mkdnflow.nvim/archive/d459bd7ce68910272038ed037c028180161fd14d.tar.gz";
@@ -9646,8 +9663,8 @@
   /*
   Generated from: github/gsuuon/model.nvim/model-nvim
   */
-  model-nvim = buildVimPlugin {
-    pname = "model-nvim";
+  model-nvim-gsuuon = buildVimPlugin {
+    pname = "model-nvim-gsuuon";
     version = "2025-07-15";
     src = fetchurl {
       url = "https://github.com/gsuuon/model.nvim/archive/c4653e9a9431c2629725b919e37eac83d0dbb6aa.tar.gz";
@@ -9663,8 +9680,8 @@
   /*
   Generated from: github/mawkler/modicator.nvim/modicator-nvim
   */
-  modicator-nvim = buildVimPlugin {
-    pname = "modicator-nvim";
+  modicator-nvim-mawkler = buildVimPlugin {
+    pname = "modicator-nvim-mawkler";
     version = "2025-10-24";
     src = fetchurl {
       url = "https://github.com/mawkler/modicator.nvim/archive/0bc989b32a7ba3cab06cb79a433557384eb2a0be.tar.gz";
@@ -9680,8 +9697,8 @@
   /*
   Generated from: github/ishan9299/modus-theme-vim/modus-theme-vim
   */
-  modus-theme-vim = buildVimPlugin {
-    pname = "modus-theme-vim";
+  modus-theme-vim-ishan9299 = buildVimPlugin {
+    pname = "modus-theme-vim-ishan9299";
     version = "2022-10-09";
     src = fetchurl {
       url = "https://github.com/ishan9299/modus-theme-vim/archive/4d827fbf1aad55f4d62225f7b999efc5023864a3.tar.gz";
@@ -9697,8 +9714,8 @@
   /*
   Generated from: github/miikanissi/modus-themes.nvim/modus-themes-nvim
   */
-  modus-themes-nvim = buildVimPlugin {
-    pname = "modus-themes-nvim";
+  modus-themes-nvim-miikanissi = buildVimPlugin {
+    pname = "modus-themes-nvim-miikanissi";
     version = "2025-10-05";
     src = fetchurl {
       url = "https://github.com/miikanissi/modus-themes.nvim/archive/c57c2c56c9f0af04f3b609d11caa840880074784.tar.gz";
@@ -9714,8 +9731,8 @@
   /*
   Generated from: github/benlubas/molten-nvim/molten-nvim
   */
-  molten-nvim = buildVimPlugin {
-    pname = "molten-nvim";
+  molten-nvim-benlubas = buildVimPlugin {
+    pname = "molten-nvim-benlubas";
     version = "2025-11-05";
     src = fetchurl {
       url = "https://github.com/benlubas/molten-nvim/archive/4fd7be6a12b5efda5179db642f13bad60893acca.tar.gz";
@@ -9731,8 +9748,8 @@
   /*
   Generated from: github/kdheepak/monochrome.nvim/monochrome-nvim
   */
-  monochrome-nvim = buildVimPlugin {
-    pname = "monochrome-nvim";
+  monochrome-nvim-kdheepak = buildVimPlugin {
+    pname = "monochrome-nvim-kdheepak";
     version = "2021-07-14";
     src = fetchurl {
       url = "https://github.com/kdheepak/monochrome.nvim/archive/2de78d9688ea4a177bcd9be554ab9192337d35ff.tar.gz";
@@ -9748,8 +9765,8 @@
   /*
   Generated from: github/polirritmico/monokai-nightasty.nvim/monokai-nightasty-nvim
   */
-  monokai-nightasty-nvim = buildVimPlugin {
-    pname = "monokai-nightasty-nvim";
+  monokai-nightasty-nvim-polirritmico = buildVimPlugin {
+    pname = "monokai-nightasty-nvim-polirritmico";
     version = "2025-12-14";
     src = fetchurl {
       url = "https://github.com/polirritmico/monokai-nightasty.nvim/archive/8be5e1c6e1d59873505e81b161e923264dfa5c1a.tar.gz";
@@ -9765,8 +9782,8 @@
   /*
   Generated from: github/tanvirtin/monokai.nvim/monokai-nvim
   */
-  monokai-nvim = buildVimPlugin {
-    pname = "monokai-nvim";
+  monokai-nvim-tanvirtin = buildVimPlugin {
+    pname = "monokai-nvim-tanvirtin";
     version = "2023-01-18";
     src = fetchurl {
       url = "https://github.com/tanvirtin/monokai.nvim/archive/b8bd44d5796503173627d7a1fc51f77ec3a08a63.tar.gz";
@@ -9782,8 +9799,8 @@
   /*
   Generated from: github/shaunsingh/moonlight.nvim/moonlight-nvim
   */
-  moonlight-nvim = buildVimPlugin {
-    pname = "moonlight-nvim";
+  moonlight-nvim-shaunsingh = buildVimPlugin {
+    pname = "moonlight-nvim-shaunsingh";
     version = "2021-05-16";
     src = fetchurl {
       url = "https://github.com/shaunsingh/moonlight.nvim/archive/e24e4218ec680b6396532808abf57ca0ada82e66.tar.gz";
@@ -9799,8 +9816,8 @@
   /*
   Generated from: github/kobbikobb/move-lines.nvim/move-lines-nvim
   */
-  move-lines-nvim = buildVimPlugin {
-    pname = "move-lines-nvim";
+  move-lines-nvim-kobbikobb = buildVimPlugin {
+    pname = "move-lines-nvim-kobbikobb";
     version = "2025-01-01";
     src = fetchurl {
       url = "https://github.com/kobbikobb/move-lines.nvim/archive/df67ca2062e79002968f10ca9b4142cdd3639955.tar.gz";
@@ -9816,8 +9833,8 @@
   /*
   Generated from: github/hinell/move.nvim/move-nvim
   */
-  move-nvim = buildVimPlugin {
-    pname = "move-nvim";
+  move-nvim-hinell = buildVimPlugin {
+    pname = "move-nvim-hinell";
     version = "2023-10-25";
     src = fetchurl {
       url = "https://github.com/hinell/move.nvim/archive/30047fbb4ee0f3b79bf969d37d889085e96b44e6.tar.gz";
@@ -9833,8 +9850,8 @@
   /*
   Generated from: github/willothy/moveline.nvim/moveline-nvim
   */
-  moveline-nvim = buildVimPlugin {
-    pname = "moveline-nvim";
+  moveline-nvim-willothy = buildVimPlugin {
+    pname = "moveline-nvim-willothy";
     version = "2023-07-06";
     src = fetchurl {
       url = "https://github.com/willothy/moveline.nvim/archive/570603637be8af20e97b91cf554fef29cab73ca6.tar.gz";
@@ -9850,8 +9867,8 @@
   /*
   Generated from: github/jake-stewart/multicursor.nvim/multicursor-nvim
   */
-  multicursor-nvim = buildVimPlugin {
-    pname = "multicursor-nvim";
+  multicursor-nvim-jake-stewart = buildVimPlugin {
+    pname = "multicursor-nvim-jake-stewart";
     version = "2025-12-22";
     src = fetchurl {
       url = "https://github.com/jake-stewart/multicursor.nvim/archive/c982cc8375f062e9f98e96a408e0f7ad0c80d4db.tar.gz";
@@ -9867,8 +9884,8 @@
   /*
   Generated from: github/niuiic/multiple-session.nvim/multiple-session-nvim
   */
-  multiple-session-nvim = buildVimPlugin {
-    pname = "multiple-session-nvim";
+  multiple-session-nvim-niuiic = buildVimPlugin {
+    pname = "multiple-session-nvim-niuiic";
     version = "2024-05-25";
     src = fetchurl {
       url = "https://github.com/niuiic/multiple-session.nvim/archive/16934798922c3613620c03fbb9bc33fb832233b7.tar.gz";
@@ -9884,8 +9901,8 @@
   /*
   Generated from: github/Axot017/multiterm.nvim/multiterm-axot017
   */
-  multiterm-axot017 = buildVimPlugin {
-    pname = "multiterm-axot017";
+  multiterm-axot017-Axot017 = buildVimPlugin {
+    pname = "multiterm-axot017-Axot017";
     version = "2025-04-29";
     src = fetchurl {
       url = "https://github.com/Axot017/multiterm.nvim/archive/aa7d1f9f712a2d2d946cecdadc5076d44ad0cd87.tar.gz";
@@ -9901,8 +9918,8 @@
   /*
   Generated from: github/imranZERO/multiterm.nvim/multiterm-imranzero
   */
-  multiterm-imranzero = buildVimPlugin {
-    pname = "multiterm-imranzero";
+  multiterm-imranzero-imranZERO = buildVimPlugin {
+    pname = "multiterm-imranzero-imranZERO";
     version = "2025-09-09";
     src = fetchurl {
       url = "https://github.com/imranZERO/multiterm.nvim/archive/d8679b1bf00b6b963a4ea2d0bf52448ae40afbc2.tar.gz";
@@ -9918,8 +9935,8 @@
   /*
   Generated from: github/acksld/muren.nvim/muren-nvim
   */
-  muren-nvim = buildVimPlugin {
-    pname = "muren-nvim";
+  muren-nvim-acksld = buildVimPlugin {
+    pname = "muren-nvim-acksld";
     version = "2025-02-09";
     src = fetchurl {
       url = "https://github.com/acksld/muren.nvim/archive/fa18f2df80a52afd201da062d1af0e80c8d1988e.tar.gz";
@@ -9935,8 +9952,8 @@
   /*
   Generated from: github/nyngwang/murmur.lua/murmur-lua
   */
-  murmur-lua = buildVimPlugin {
-    pname = "murmur-lua";
+  murmur-lua-nyngwang = buildVimPlugin {
+    pname = "murmur-lua-nyngwang";
     version = "2023-07-20";
     src = fetchurl {
       url = "https://github.com/nyngwang/murmur.lua/archive/85d3f1c3e98fa60b523abf40f4951d4ddb44fa54.tar.gz";
@@ -9952,8 +9969,8 @@
   /*
   Generated from: github/AntonVanAssche/music-controls.nvim/music-controls-nvim
   */
-  music-controls-nvim = buildVimPlugin {
-    pname = "music-controls-nvim";
+  music-controls-nvim-AntonVanAssche = buildVimPlugin {
+    pname = "music-controls-nvim-AntonVanAssche";
     version = "2025-01-01";
     src = fetchurl {
       url = "https://github.com/AntonVanAssche/music-controls.nvim/archive/35e6a644d66e916aeaad47b3f76f3dc608a32b68.tar.gz";
@@ -9969,8 +9986,8 @@
   /*
   Generated from: github/jbyuki/nabla.nvim/nabla-nvim
   */
-  nabla-nvim = buildVimPlugin {
-    pname = "nabla-nvim";
+  nabla-nvim-jbyuki = buildVimPlugin {
+    pname = "nabla-nvim-jbyuki";
     version = "2025-04-21";
     src = fetchurl {
       url = "https://github.com/jbyuki/nabla.nvim/archive/9b69b709063ccf40ac36fabb4fff7d90b3736475.tar.gz";
@@ -9986,8 +10003,8 @@
   /*
   Generated from: github/liangxianzhe/nap.nvim/nap-nvim
   */
-  nap-nvim = buildVimPlugin {
-    pname = "nap-nvim";
+  nap-nvim-liangxianzhe = buildVimPlugin {
+    pname = "nap-nvim-liangxianzhe";
     version = "2023-11-13";
     src = fetchurl {
       url = "https://github.com/liangxianzhe/nap.nvim/archive/98037cff509a12412cf8f32d1b12a9fdcad558ad.tar.gz";
@@ -10003,8 +10020,8 @@
   /*
   Generated from: github/you-n-g/navigate-note.nvim/navigate-note-nvim
   */
-  navigate-note-nvim = buildVimPlugin {
-    pname = "navigate-note-nvim";
+  navigate-note-nvim-you-n-g = buildVimPlugin {
+    pname = "navigate-note-nvim-you-n-g";
     version = "2026-01-05";
     src = fetchurl {
       url = "https://github.com/you-n-g/navigate-note.nvim/archive/2f0c3e6593586e8f0fd1a53f689e2e621905cff8.tar.gz";
@@ -10020,8 +10037,8 @@
   /*
   Generated from: github/ray-x/navigator.lua/navigator-lua
   */
-  navigator-lua = buildVimPlugin {
-    pname = "navigator-lua";
+  navigator-lua-ray-x = buildVimPlugin {
+    pname = "navigator-lua-ray-x";
     version = "2025-10-30";
     src = fetchurl {
       url = "https://github.com/ray-x/navigator.lua/archive/deaf00338fe288d24f5632b1842130f8d9c15b0a.tar.gz";
@@ -10037,8 +10054,8 @@
   /*
   Generated from: github/numToStr/Navigator.nvim/Navigator-nvim
   */
-  Navigator-nvim = buildVimPlugin {
-    pname = "Navigator-nvim";
+  Navigator-nvim-numToStr = buildVimPlugin {
+    pname = "Navigator-nvim-numToStr";
     version = "2023-02-02";
     src = fetchurl {
       url = "https://github.com/numToStr/Navigator.nvim/archive/91d86506ac2a039504d5205d32a1d4bc7aa57072.tar.gz";
@@ -10054,8 +10071,8 @@
   /*
   Generated from: github/zongben/navimark.nvim/navimark-nvim
   */
-  navimark-nvim = buildVimPlugin {
-    pname = "navimark-nvim";
+  navimark-nvim-zongben = buildVimPlugin {
+    pname = "navimark-nvim-zongben";
     version = "2025-09-17";
     src = fetchurl {
       url = "https://github.com/zongben/navimark.nvim/archive/2a8e65f34d60bb0d43627c183fed24bbf3c76c1a.tar.gz";
@@ -10071,8 +10088,8 @@
   /*
   Generated from: github/Dan7h3x/neaterm.nvim/neaterm-nvim
   */
-  neaterm-nvim = buildVimPlugin {
-    pname = "neaterm-nvim";
+  neaterm-nvim-Dan7h3x = buildVimPlugin {
+    pname = "neaterm-nvim-Dan7h3x";
     version = "2025-07-25";
     src = fetchurl {
       url = "https://github.com/Dan7h3x/neaterm.nvim/archive/274fd715e2f7dbb29500e940fe217fbac20c89a9.tar.gz";
@@ -10088,8 +10105,8 @@
   /*
   Generated from: github/RAprogramm/nekifoch/nekifoch
   */
-  nekifoch = buildVimPlugin {
-    pname = "nekifoch";
+  nekifoch-RAprogramm = buildVimPlugin {
+    pname = "nekifoch-RAprogramm";
     version = "2024-09-30";
     src = fetchurl {
       url = "https://github.com/RAprogramm/nekifoch/archive/6f2c84072d90ca805cf93965e05a3f6a4ac2a89a.tar.gz";
@@ -10105,8 +10122,8 @@
   /*
   Generated from: github/NeViRAIDE/nekifoch.nvim/nekifoch-nvim
   */
-  nekifoch-nvim = buildVimPlugin {
-    pname = "nekifoch-nvim";
+  nekifoch-nvim-NeViRAIDE = buildVimPlugin {
+    pname = "nekifoch-nvim-NeViRAIDE";
     version = "2024-09-30";
     src = fetchurl {
       url = "https://github.com/NeViRAIDE/nekifoch.nvim/archive/6f2c84072d90ca805cf93965e05a3f6a4ac2a89a.tar.gz";
@@ -10122,8 +10139,8 @@
   /*
   Generated from: github/neko-night/nvim/neko-night
   */
-  neko-night = buildVimPlugin {
-    pname = "neko-night";
+  neko-night-neko-night = buildVimPlugin {
+    pname = "neko-night-neko-night";
     version = "2025-01-25";
     src = fetchurl {
       url = "https://github.com/neko-night/nvim/archive/df1c6af5e1df601232a2c0fc7198ea1342e95f29.tar.gz";
@@ -10139,8 +10156,8 @@
   /*
   Generated from: github/nvim-neo-tree/neo-tree.nvim/neo-tree-nvim
   */
-  neo-tree-nvim = buildVimPlugin {
-    pname = "neo-tree-nvim";
+  neo-tree-nvim-nvim-neo-tree = buildVimPlugin {
+    pname = "neo-tree-nvim-nvim-neo-tree";
     version = "2026-01-08";
     src = fetchurl {
       url = "https://github.com/nvim-neo-tree/neo-tree.nvim/archive/6a25d4e36edefc28a60556b5f65ecddeebcd5821.tar.gz";
@@ -10156,8 +10173,8 @@
   /*
   Generated from: github/ecthelionvi/NeoColumn.nvim/NeoColumn-nvim
   */
-  NeoColumn-nvim = buildVimPlugin {
-    pname = "NeoColumn-nvim";
+  NeoColumn-nvim-ecthelionvi = buildVimPlugin {
+    pname = "NeoColumn-nvim-ecthelionvi";
     version = "2023-10-17";
     src = fetchurl {
       url = "https://github.com/ecthelionvi/NeoColumn.nvim/archive/db7695c7c70fcacd290712deef659bca464634ee.tar.gz";
@@ -10173,8 +10190,8 @@
   /*
   Generated from: github/ecthelionvi/NeoComposer.nvim/NeoComposer-nvim
   */
-  NeoComposer-nvim = buildVimPlugin {
-    pname = "NeoComposer-nvim";
+  NeoComposer-nvim-ecthelionvi = buildVimPlugin {
+    pname = "NeoComposer-nvim-ecthelionvi";
     version = "2024-06-23";
     src = fetchurl {
       url = "https://github.com/ecthelionvi/NeoComposer.nvim/archive/7ecb04d4a1712a6fd7272c1c9482ea878c144588.tar.gz";
@@ -10190,8 +10207,8 @@
   /*
   Generated from: github/folke/neoconf.nvim/neoconf-nvim
   */
-  neoconf-nvim = buildVimPlugin {
-    pname = "neoconf-nvim";
+  neoconf-nvim-folke = buildVimPlugin {
+    pname = "neoconf-nvim-folke";
     version = "2026-01-04";
     src = fetchurl {
       url = "https://github.com/folke/neoconf.nvim/archive/f2fd6a4f009d378b419cb5fd46377a2284b65aa7.tar.gz";
@@ -10207,8 +10224,8 @@
   /*
   Generated from: github/folke/neodev.nvim/neodev-nvim
   */
-  neodev-nvim = buildVimPlugin {
-    pname = "neodev-nvim";
+  neodev-nvim-folke = buildVimPlugin {
+    pname = "neodev-nvim-folke";
     version = "2024-07-06";
     src = fetchurl {
       url = "https://github.com/folke/neodev.nvim/archive/46aa467dca16cf3dfe27098042402066d2ae242d.tar.gz";
@@ -10224,8 +10241,8 @@
   /*
   Generated from: github/zbirenbaum/neodim/neodim
   */
-  neodim = buildVimPlugin {
-    pname = "neodim";
+  neodim-zbirenbaum = buildVimPlugin {
+    pname = "neodim-zbirenbaum";
     version = "2025-01-09";
     src = fetchurl {
       url = "https://github.com/zbirenbaum/neodim/archive/1b8bda59a53b49ec2b59885e9fe78f8e90a1de76.tar.gz";
@@ -10241,8 +10258,8 @@
   /*
   Generated from: github/sbdchd/neoformat/neoformat
   */
-  neoformat = buildVimPlugin {
-    pname = "neoformat";
+  neoformat-sbdchd = buildVimPlugin {
+    pname = "neoformat-sbdchd";
     version = "2025-07-29";
     src = fetchurl {
       url = "https://github.com/sbdchd/neoformat/archive/2b11fb9fa383636de5de9ecc7c989436c4e0f9d1.tar.gz";
@@ -10258,8 +10275,8 @@
   /*
   Generated from: github/TimUntersberger/neofs/neofs
   */
-  neofs = buildVimPlugin {
-    pname = "neofs";
+  neofs-TimUntersberger = buildVimPlugin {
+    pname = "neofs-TimUntersberger";
     version = "2022-08-10";
     src = fetchurl {
       url = "https://github.com/TimUntersberger/neofs/archive/e10428da8f31001bffa0aba0a5c13fc623a54d75.tar.gz";
@@ -10275,8 +10292,8 @@
   /*
   Generated from: github/diegoulloao/neofusion.nvim/neofusion-nvim
   */
-  neofusion-nvim = buildVimPlugin {
-    pname = "neofusion-nvim";
+  neofusion-nvim-diegoulloao = buildVimPlugin {
+    pname = "neofusion-nvim-diegoulloao";
     version = "2025-03-17";
     src = fetchurl {
       url = "https://github.com/diegoulloao/neofusion.nvim/archive/e705c8dc7ce2f50b813479400cd9a8724425a211.tar.gz";
@@ -10292,8 +10309,8 @@
   /*
   Generated from: github/danymat/neogen/neogen
   */
-  neogen = buildVimPlugin {
-    pname = "neogen";
+  neogen-danymat = buildVimPlugin {
+    pname = "neogen-danymat";
     version = "2025-05-03";
     src = fetchurl {
       url = "https://github.com/danymat/neogen/archive/d7f9461727751fb07f82011051338a9aba07581d.tar.gz";
@@ -10309,8 +10326,8 @@
   /*
   Generated from: github/NeogitOrg/neogit/neogit
   */
-  neogit = buildVimPlugin {
-    pname = "neogit";
+  neogit-NeogitOrg = buildVimPlugin {
+    pname = "neogit-NeogitOrg";
     version = "2025-12-12";
     src = fetchurl {
       url = "https://github.com/NeogitOrg/neogit/archive/d8bf9102692250193b855acd9025a826f1af2729.tar.gz";
@@ -10326,8 +10343,8 @@
   /*
   Generated from: github/adelarsq/neoline.vim/neoline-vim
   */
-  neoline-vim = buildVimPlugin {
-    pname = "neoline-vim";
+  neoline-vim-adelarsq = buildVimPlugin {
+    pname = "neoline-vim-adelarsq";
     version = "2024-04-25";
     src = fetchurl {
       url = "https://github.com/adelarsq/neoline.vim/archive/2fff90b06c65b715e56aea01993b2776827be4a2.tar.gz";
@@ -10343,8 +10360,8 @@
   /*
   Generated from: github/nikvdp/neomux/neomux
   */
-  neomux = buildVimPlugin {
-    pname = "neomux";
+  neomux-nikvdp = buildVimPlugin {
+    pname = "neomux-nikvdp";
     version = "2025-12-14";
     src = fetchurl {
       url = "https://github.com/nikvdp/neomux/archive/bcd62832accfc21d63dee3b0bbc8680be16c1ae8.tar.gz";
@@ -10360,8 +10377,8 @@
   /*
   Generated from: github/rafamadriz/neon/neon
   */
-  neon = buildVimPlugin {
-    pname = "neon";
+  neon-rafamadriz = buildVimPlugin {
+    pname = "neon-rafamadriz";
     version = "2022-11-27";
     src = fetchurl {
       url = "https://github.com/rafamadriz/neon/archive/7765aaa7d1cd3804176140644640766e4411c766.tar.gz";
@@ -10377,8 +10394,8 @@
   /*
   Generated from: github/nyngwang/NeoNoName.lua/NeoNoName-lua
   */
-  NeoNoName-lua = buildVimPlugin {
-    pname = "NeoNoName-lua";
+  NeoNoName-lua-nyngwang = buildVimPlugin {
+    pname = "NeoNoName-lua-nyngwang";
     version = "2023-06-01";
     src = fetchurl {
       url = "https://github.com/nyngwang/NeoNoName.lua/archive/4712b693d5d79edc372175b0c1e5da91f40fad1d.tar.gz";
@@ -10394,8 +10411,8 @@
   /*
   Generated from: github/pluffie/neoproj/neoproj
   */
-  neoproj = buildVimPlugin {
-    pname = "neoproj";
+  neoproj-pluffie = buildVimPlugin {
+    pname = "neoproj-pluffie";
     version = "2023-05-02";
     src = fetchurl {
       url = "https://github.com/pluffie/neoproj/archive/6cbaabf5678aa098c34c8c29f8b0799aa9831e74.tar.gz";
@@ -10411,8 +10428,8 @@
   /*
   Generated from: github/SUSTech-data/neopyter/neopyter
   */
-  neopyter = buildVimPlugin {
-    pname = "neopyter";
+  neopyter-SUSTech-data = buildVimPlugin {
+    pname = "neopyter-SUSTech-data";
     version = "2026-01-07";
     src = fetchurl {
       url = "https://github.com/SUSTech-data/neopyter/archive/031f04449ee153cbdfff4681e8b8545833d9f7d8.tar.gz";
@@ -10428,8 +10445,8 @@
   /*
   Generated from: github/nvim-neorg/neorg/neorg
   */
-  neorg = buildVimPlugin {
-    pname = "neorg";
+  neorg-nvim-neorg = buildVimPlugin {
+    pname = "neorg-nvim-neorg";
     version = "2025-12-03";
     src = fetchurl {
       url = "https://github.com/nvim-neorg/neorg/archive/de0bf99a95f4053862f0e63c8083b5e14f3ad6ec.tar.gz";
@@ -10445,8 +10462,8 @@
   /*
   Generated from: github/nvim-neorg/neorg-telescope/neorg-telescope
   */
-  neorg-telescope = buildVimPlugin {
-    pname = "neorg-telescope";
+  neorg-telescope-nvim-neorg = buildVimPlugin {
+    pname = "neorg-telescope-nvim-neorg";
     version = "2025-04-17";
     src = fetchurl {
       url = "https://github.com/nvim-neorg/neorg-telescope/archive/7fb6ca6a632c3c095601d379a664c0c1f802dc6c.tar.gz";
@@ -10462,8 +10479,8 @@
   /*
   Generated from: github/nyngwang/NeoRoot.lua/NeoRoot-lua
   */
-  NeoRoot-lua = buildVimPlugin {
-    pname = "NeoRoot-lua";
+  NeoRoot-lua-nyngwang = buildVimPlugin {
+    pname = "NeoRoot-lua-nyngwang";
     version = "2023-02-08";
     src = fetchurl {
       url = "https://github.com/nyngwang/NeoRoot.lua/archive/215178e1bfbb0e9fc82b1179e42c2cafd594d324.tar.gz";
@@ -10479,8 +10496,8 @@
   /*
   Generated from: github/karb94/neoscroll.nvim/neoscroll-nvim
   */
-  neoscroll-nvim = buildVimPlugin {
-    pname = "neoscroll-nvim";
+  neoscroll-nvim-karb94 = buildVimPlugin {
+    pname = "neoscroll-nvim-karb94";
     version = "2025-12-31";
     src = fetchurl {
       url = "https://github.com/karb94/neoscroll.nvim/archive/c8d29979cb0cb3a2437a8e0ae683fd82f340d3b8.tar.gz";
@@ -10496,8 +10513,8 @@
   /*
   Generated from: github/svrana/neosolarized.nvim/neosolarized-nvim-svrana
   */
-  neosolarized-nvim-svrana = buildVimPlugin {
-    pname = "neosolarized-nvim-svrana";
+  neosolarized-nvim-svrana-svrana = buildVimPlugin {
+    pname = "neosolarized-nvim-svrana-svrana";
     version = "2025-06-12";
     src = fetchurl {
       url = "https://github.com/svrana/neosolarized.nvim/archive/0c01fd2ac2ab33918073f57c63bcb2ae5a31d8de.tar.gz";
@@ -10513,8 +10530,8 @@
   /*
   Generated from: github/Tsuzat/NeoSolarized.nvim/NeoSolarized-nvim-tsuzat
   */
-  NeoSolarized-nvim-tsuzat = buildVimPlugin {
-    pname = "NeoSolarized-nvim-tsuzat";
+  NeoSolarized-nvim-tsuzat-Tsuzat = buildVimPlugin {
+    pname = "NeoSolarized-nvim-tsuzat-Tsuzat";
     version = "2025-05-15";
     src = fetchurl {
       url = "https://github.com/Tsuzat/NeoSolarized.nvim/archive/3c55ad358c062aa4879950c4f83b4deeac6b72df.tar.gz";
@@ -10530,8 +10547,8 @@
   /*
   Generated from: github/kassio/neoterm/neoterm
   */
-  neoterm = buildVimPlugin {
-    pname = "neoterm";
+  neoterm-kassio = buildVimPlugin {
+    pname = "neoterm-kassio";
     version = "2023-03-09";
     src = fetchurl {
       url = "https://github.com/kassio/neoterm/archive/eca22dc90a9db5e52d8baf91f31991ad540ffe36.tar.gz";
@@ -10547,8 +10564,8 @@
   /*
   Generated from: github/nyngwang/NeoTerm.lua/NeoTerm-lua
   */
-  NeoTerm-lua = buildVimPlugin {
-    pname = "NeoTerm-lua";
+  NeoTerm-lua-nyngwang = buildVimPlugin {
+    pname = "NeoTerm-lua-nyngwang";
     version = "2023-06-22";
     src = fetchurl {
       url = "https://github.com/nyngwang/NeoTerm.lua/archive/f71a4a9663c52673a677a09894d945983c8da303.tar.gz";
@@ -10564,8 +10581,8 @@
   /*
   Generated from: github/nvim-neotest/neotest/neotest
   */
-  neotest = buildVimPlugin {
-    pname = "neotest";
+  neotest-nvim-neotest = buildVimPlugin {
+    pname = "neotest-nvim-neotest";
     version = "2025-11-08";
     src = fetchurl {
       url = "https://github.com/nvim-neotest/neotest/archive/deadfb1af5ce458742671ad3a013acb9a6b41178.tar.gz";
@@ -10581,8 +10598,8 @@
   /*
   Generated from: github/fredrikaverpil/neotest-golang/neotest-golang
   */
-  neotest-golang = buildVimPlugin {
-    pname = "neotest-golang";
+  neotest-golang-fredrikaverpil = buildVimPlugin {
+    pname = "neotest-golang-fredrikaverpil";
     version = "2026-01-02";
     src = fetchurl {
       url = "https://github.com/fredrikaverpil/neotest-golang/archive/53f06063780b0b244583d3d32b138fc2df21e162.tar.gz";
@@ -10598,8 +10615,8 @@
   /*
   Generated from: github/nvim-neotest/neotest-python/neotest-python
   */
-  neotest-python = buildVimPlugin {
-    pname = "neotest-python";
+  neotest-python-nvim-neotest = buildVimPlugin {
+    pname = "neotest-python-nvim-neotest";
     version = "2025-10-13";
     src = fetchurl {
       url = "https://github.com/nvim-neotest/neotest-python/archive/b0d3a861bd85689d8ed73f0590c47963a7eb1bf9.tar.gz";
@@ -10615,8 +10632,8 @@
   /*
   Generated from: github/saifulapm/neotree-file-nesting-config/neotree-file-nesting-config
   */
-  neotree-file-nesting-config = buildVimPlugin {
-    pname = "neotree-file-nesting-config";
+  neotree-file-nesting-config-saifulapm = buildVimPlugin {
+    pname = "neotree-file-nesting-config-saifulapm";
     version = "2025-03-06";
     src = fetchurl {
       url = "https://github.com/saifulapm/neotree-file-nesting-config/archive/089adb6d3e478771f4485be96128796fb01a20c4.tar.gz";
@@ -10632,8 +10649,8 @@
   /*
   Generated from: github/coffebar/neovim-project/neovim-project
   */
-  neovim-project = buildVimPlugin {
-    pname = "neovim-project";
+  neovim-project-coffebar = buildVimPlugin {
+    pname = "neovim-project-coffebar";
     version = "2026-01-08";
     src = fetchurl {
       url = "https://github.com/coffebar/neovim-project/archive/6ecf6253697b2964e9afef9d000357d887221a2c.tar.gz";
@@ -10649,8 +10666,8 @@
   /*
   Generated from: github/Shatur/neovim-session-manager/neovim-session-manager
   */
-  neovim-session-manager = buildVimPlugin {
-    pname = "neovim-session-manager";
+  neovim-session-manager-Shatur = buildVimPlugin {
+    pname = "neovim-session-manager-Shatur";
     version = "2025-03-07";
     src = fetchurl {
       url = "https://github.com/Shatur/neovim-session-manager/archive/3409dc920d40bec4c901c0a122a80bee03d6d1e1.tar.gz";
@@ -10666,8 +10683,8 @@
   /*
   Generated from: github/Shatur/neovim-tasks/neovim-tasks
   */
-  neovim-tasks = buildVimPlugin {
-    pname = "neovim-tasks";
+  neovim-tasks-Shatur = buildVimPlugin {
+    pname = "neovim-tasks-Shatur";
     version = "2026-01-05";
     src = fetchurl {
       url = "https://github.com/Shatur/neovim-tasks/archive/308ebfc270b048a759337e6a8c021d2beaab3c2f.tar.gz";
@@ -10683,8 +10700,8 @@
   /*
   Generated from: github/saxon1964/neovim-tips/neovim-tips
   */
-  neovim-tips = buildVimPlugin {
-    pname = "neovim-tips";
+  neovim-tips-saxon1964 = buildVimPlugin {
+    pname = "neovim-tips-saxon1964";
     version = "2025-12-21";
     src = fetchurl {
       url = "https://github.com/saxon1964/neovim-tips/archive/a43725396a81bd73afcb6a13a94ea3c842bad32f.tar.gz";
@@ -10700,8 +10717,8 @@
   /*
   Generated from: github/amiel/neovim-tmux-navigator/neovim-tmux-navigator
   */
-  neovim-tmux-navigator = buildVimPlugin {
-    pname = "neovim-tmux-navigator";
+  neovim-tmux-navigator-amiel = buildVimPlugin {
+    pname = "neovim-tmux-navigator-amiel";
     version = "2022-08-30";
     src = fetchurl {
       url = "https://github.com/amiel/neovim-tmux-navigator/archive/5e34cdd1f1f4ed9eb0026c7075de6eef1d83e59a.tar.gz";
@@ -10717,8 +10734,8 @@
   /*
   Generated from: github/nyngwang/NeoWell.lua/NeoWell-lua
   */
-  NeoWell-lua = buildVimPlugin {
-    pname = "NeoWell-lua";
+  NeoWell-lua-nyngwang = buildVimPlugin {
+    pname = "NeoWell-lua-nyngwang";
     version = "2023-05-11";
     src = fetchurl {
       url = "https://github.com/nyngwang/NeoWell.lua/archive/48e8776c73644de1b77122c97d530a9364a3b2db.tar.gz";
@@ -10734,8 +10751,8 @@
   /*
   Generated from: github/backdround/neowords.nvim/neowords-nvim
   */
-  neowords-nvim = buildVimPlugin {
-    pname = "neowords-nvim";
+  neowords-nvim-backdround = buildVimPlugin {
+    pname = "neowords-nvim-backdround";
     version = "2024-09-04";
     src = fetchurl {
       url = "https://github.com/backdround/neowords.nvim/archive/47a38cd4aa3118a6be3f64ac4987a8483bd2e98a.tar.gz";
@@ -10751,8 +10768,8 @@
   /*
   Generated from: github/preservim/nerdcommenter/nerdcommenter
   */
-  nerdcommenter = buildVimPlugin {
-    pname = "nerdcommenter";
+  nerdcommenter-preservim = buildVimPlugin {
+    pname = "nerdcommenter-preservim";
     version = "2025-11-19";
     src = fetchurl {
       url = "https://github.com/preservim/nerdcommenter/archive/a462bbda1e26f44fb3d3eb9d9d1c6a07aa98e665.tar.gz";
@@ -10768,8 +10785,8 @@
   /*
   Generated from: github/2KAbhishek/nerdy.nvim/nerdy-nvim
   */
-  nerdy-nvim = buildVimPlugin {
-    pname = "nerdy-nvim";
+  nerdy-nvim-2KAbhishek = buildVimPlugin {
+    pname = "nerdy-nvim-2KAbhishek";
     version = "2025-11-16";
     src = fetchurl {
       url = "https://github.com/2KAbhishek/nerdy.nvim/archive/23cfd42ba5ae9e97c180a4ef7f7effd14e6d79b7.tar.gz";
@@ -10785,8 +10802,8 @@
   /*
   Generated from: github/LionC/nest.nvim/nest-nvim
   */
-  nest-nvim = buildVimPlugin {
-    pname = "nest-nvim";
+  nest-nvim-LionC = buildVimPlugin {
+    pname = "nest-nvim-LionC";
     version = "2021-09-26";
     src = fetchurl {
       url = "https://github.com/LionC/nest.nvim/archive/e5da827a3adfb383b56587bdf4eb62fae4154364.tar.gz";
@@ -10802,8 +10819,8 @@
   /*
   Generated from: github/miversen33/netman.nvim/netman-nvim
   */
-  netman-nvim = buildVimPlugin {
-    pname = "netman-nvim";
+  netman-nvim-miversen33 = buildVimPlugin {
+    pname = "netman-nvim-miversen33";
     version = "2025-09-13";
     src = fetchurl {
       url = "https://github.com/miversen33/netman.nvim/archive/55ac68f236cbecaa84bacea719a453ded9c506ee.tar.gz";
@@ -10819,8 +10836,8 @@
   /*
   Generated from: github/prichrd/netrw.nvim/netrw-nvim
   */
-  netrw-nvim = buildVimPlugin {
-    pname = "netrw-nvim";
+  netrw-nvim-prichrd = buildVimPlugin {
+    pname = "netrw-nvim-prichrd";
     version = "2024-07-23";
     src = fetchurl {
       url = "https://github.com/prichrd/netrw.nvim/archive/90501c62b9b816ed3ed1e912ae9db9af5671a1b2.tar.gz";
@@ -10836,8 +10853,8 @@
   /*
   Generated from: github/dense-analysis/neural/neural
   */
-  neural = buildVimPlugin {
-    pname = "neural";
+  neural-dense-analysis = buildVimPlugin {
+    pname = "neural-dense-analysis";
     version = "2025-07-22";
     src = fetchurl {
       url = "https://github.com/dense-analysis/neural/archive/41bc347ff0a4104fe8531d6daea51d0155542789.tar.gz";
@@ -10853,8 +10870,8 @@
   /*
   Generated from: github/oberblastmeister/neuron.nvim/neuron-nvim
   */
-  neuron-nvim = buildVimPlugin {
-    pname = "neuron-nvim";
+  neuron-nvim-oberblastmeister = buildVimPlugin {
+    pname = "neuron-nvim-oberblastmeister";
     version = "2022-02-27";
     src = fetchurl {
       url = "https://github.com/oberblastmeister/neuron.nvim/archive/c44032ece3cb71a9ce45043d246828cd1cef002c.tar.gz";
@@ -10870,8 +10887,8 @@
   /*
   Generated from: github/Olical/nfnl/nfnl
   */
-  nfnl = buildVimPlugin {
-    pname = "nfnl";
+  nfnl-Olical = buildVimPlugin {
+    pname = "nfnl-Olical";
     version = "2025-11-02";
     src = fetchurl {
       url = "https://github.com/Olical/nfnl/archive/fecf731e02bc51d88372c4f992fe1ef0c19c02ae.tar.gz";
@@ -10887,8 +10904,8 @@
   /*
   Generated from: github/oxfist/night-owl.nvim/night-owl-nvim
   */
-  night-owl-nvim = buildVimPlugin {
-    pname = "night-owl-nvim";
+  night-owl-nvim-oxfist = buildVimPlugin {
+    pname = "night-owl-nvim-oxfist";
     version = "2024-09-12";
     src = fetchurl {
       url = "https://github.com/oxfist/night-owl.nvim/archive/86ed124c2f7e118670649701288e024444bf91e5.tar.gz";
@@ -10904,8 +10921,8 @@
   /*
   Generated from: github/cryptomilk/nightcity.nvim/nightcity-nvim
   */
-  nightcity-nvim = buildVimPlugin {
-    pname = "nightcity-nvim";
+  nightcity-nvim-cryptomilk = buildVimPlugin {
+    pname = "nightcity-nvim-cryptomilk";
     version = "2025-08-11";
     src = fetchurl {
       url = "https://github.com/cryptomilk/nightcity.nvim/archive/9f0cac722897ccc4d1ae579cc4e071a2a04f4071.tar.gz";
@@ -10921,8 +10938,8 @@
   /*
   Generated from: github/EdenEast/nightfox.nvim/nightfox-nvim
   */
-  nightfox-nvim = buildVimPlugin {
-    pname = "nightfox-nvim";
+  nightfox-nvim-EdenEast = buildVimPlugin {
+    pname = "nightfox-nvim-EdenEast";
     version = "2025-02-09";
     src = fetchurl {
       url = "https://github.com/EdenEast/nightfox.nvim/archive/ba47d4b4c5ec308718641ba7402c143836f35aa9.tar.gz";
@@ -10938,8 +10955,8 @@
   /*
   Generated from: github/alaviss/nim.nvim/nim-nvim
   */
-  nim-nvim = buildVimPlugin {
-    pname = "nim-nvim";
+  nim-nvim-alaviss = buildVimPlugin {
+    pname = "nim-nvim-alaviss";
     version = "2025-04-12";
     src = fetchurl {
       url = "https://github.com/alaviss/nim.nvim/archive/9ee8fdc04ad3d7fcbd9679e0be3477543f17b9d9.tar.gz";
@@ -10955,8 +10972,8 @@
   /*
   Generated from: github/figsoda/nix-develop.nvim/nix-develop-nvim
   */
-  nix-develop-nvim = buildVimPlugin {
-    pname = "nix-develop-nvim";
+  nix-develop-nvim-figsoda = buildVimPlugin {
+    pname = "nix-develop-nvim-figsoda";
     version = "2023-07-23";
     src = fetchurl {
       url = "https://github.com/figsoda/nix-develop.nvim/archive/afea026f5c478c000a8af8de87f7b711676387ab.tar.gz";
@@ -10972,8 +10989,8 @@
   /*
   Generated from: github/redxtech/nix-reaver.nvim/nix-reaver-nvim
   */
-  nix-reaver-nvim = buildVimPlugin {
-    pname = "nix-reaver-nvim";
+  nix-reaver-nvim-redxtech = buildVimPlugin {
+    pname = "nix-reaver-nvim-redxtech";
     version = "2024-07-28";
     src = fetchurl {
       url = "https://github.com/redxtech/nix-reaver.nvim/archive/22b7cc7e34f8c9b5eec314a74a3bdab842b12c7e.tar.gz";
@@ -10989,8 +11006,8 @@
   /*
   Generated from: github/tamago324/nlsp-settings.nvim/nlsp-settings-nvim
   */
-  nlsp-settings-nvim = buildVimPlugin {
-    pname = "nlsp-settings-nvim";
+  nlsp-settings-nvim-tamago324 = buildVimPlugin {
+    pname = "nlsp-settings-nvim-tamago324";
     version = "2026-01-03";
     src = fetchurl {
       url = "https://github.com/tamago324/nlsp-settings.nvim/archive/be75b4b87a5ac30ba20f6bc0b7287ec5e4b7ce98.tar.gz";
@@ -11006,8 +11023,8 @@
   /*
   Generated from: github/tjdevries/nlua.nvim/nlua-nvim
   */
-  nlua-nvim = buildVimPlugin {
-    pname = "nlua-nvim";
+  nlua-nvim-tjdevries = buildVimPlugin {
+    pname = "nlua-nvim-tjdevries";
     version = "2022-12-20";
     src = fetchurl {
       url = "https://github.com/tjdevries/nlua.nvim/archive/01aa428ff00605d52d0c0ece560f6a6d7971726b.tar.gz";
@@ -11023,8 +11040,8 @@
   /*
   Generated from: github/luukvbaal/nnn.nvim/nnn-nvim
   */
-  nnn-nvim = buildVimPlugin {
-    pname = "nnn-nvim";
+  nnn-nvim-luukvbaal = buildVimPlugin {
+    pname = "nnn-nvim-luukvbaal";
     version = "2025-04-18";
     src = fetchurl {
       url = "https://github.com/luukvbaal/nnn.nvim/archive/efe690293eee87558f034a83ed96157e52639cdb.tar.gz";
@@ -11040,8 +11057,8 @@
   /*
   Generated from: github/shortcuts/no-neck-pain.nvim/no-neck-pain-nvim
   */
-  no-neck-pain-nvim = buildVimPlugin {
-    pname = "no-neck-pain-nvim";
+  no-neck-pain-nvim-shortcuts = buildVimPlugin {
+    pname = "no-neck-pain-nvim-shortcuts";
     version = "2025-12-31";
     src = fetchurl {
       url = "https://github.com/shortcuts/no-neck-pain.nvim/archive/e5d1abf50010a1fb4285493202467aa982b459c2.tar.gz";
@@ -11057,8 +11074,8 @@
   /*
   Generated from: github/folke/noice.nvim/noice-nvim
   */
-  noice-nvim = buildVimPlugin {
-    pname = "noice-nvim";
+  noice-nvim-folke = buildVimPlugin {
+    pname = "noice-nvim-folke";
     version = "2025-11-03";
     src = fetchurl {
       url = "https://github.com/folke/noice.nvim/archive/7bfd942445fb63089b59f97ca487d605e715f155.tar.gz";
@@ -11074,8 +11091,8 @@
   /*
   Generated from: github/neur1n/noline.nvim/noline-nvim
   */
-  noline-nvim = buildVimPlugin {
-    pname = "noline-nvim";
+  noline-nvim-neur1n = buildVimPlugin {
+    pname = "noline-nvim-neur1n";
     version = "2025-07-11";
     src = fetchurl {
       url = "https://github.com/neur1n/noline.nvim/archive/27893849550d27d22053421dce78663b4f7d76b2.tar.gz";
@@ -11091,8 +11108,8 @@
   /*
   Generated from: github/zeioth/none-ls-autoload.nvim/none-ls-autoload-nvim
   */
-  none-ls-autoload-nvim = buildVimPlugin {
-    pname = "none-ls-autoload-nvim";
+  none-ls-autoload-nvim-zeioth = buildVimPlugin {
+    pname = "none-ls-autoload-nvim-zeioth";
     version = "2025-06-24";
     src = fetchurl {
       url = "https://github.com/zeioth/none-ls-autoload.nvim/archive/9582a3f154c38867b039dc2982ea0b34deacd0ff.tar.gz";
@@ -11108,8 +11125,8 @@
   /*
   Generated from: github/nvimtools/none-ls-extras.nvim/none-ls-extras-nvim
   */
-  none-ls-extras-nvim = buildVimPlugin {
-    pname = "none-ls-extras-nvim";
+  none-ls-extras-nvim-nvimtools = buildVimPlugin {
+    pname = "none-ls-extras-nvim-nvimtools";
     version = "2025-12-13";
     src = fetchurl {
       url = "https://github.com/nvimtools/none-ls-extras.nvim/archive/03955d165621300965a6d685c8f399ec7efd5785.tar.gz";
@@ -11125,8 +11142,8 @@
   /*
   Generated from: github/nvimtools/none-ls.nvim/none-ls-nvim
   */
-  none-ls-nvim = buildVimPlugin {
-    pname = "none-ls-nvim";
+  none-ls-nvim-nvimtools = buildVimPlugin {
+    pname = "none-ls-nvim-nvimtools";
     version = "2026-01-07";
     src = fetchurl {
       url = "https://github.com/nvimtools/none-ls.nvim/archive/1fcf9cbf9acf893455c6cee792537aa709de62cb.tar.gz";
@@ -11142,8 +11159,8 @@
   /*
   Generated from: github/AlexvZyl/nordic.nvim/nordic-alexczyl
   */
-  nordic-alexczyl = buildVimPlugin {
-    pname = "nordic-alexczyl";
+  nordic-alexczyl-AlexvZyl = buildVimPlugin {
+    pname = "nordic-alexczyl-AlexvZyl";
     version = "2026-01-02";
     src = fetchurl {
       url = "https://github.com/AlexvZyl/nordic.nvim/archive/4f0245ed32a32436b2c6ae1a03f625a93a8c077a.tar.gz";
@@ -11159,8 +11176,8 @@
   /*
   Generated from: github/andersevenrud/nordic.nvim/nordic-andersevenrud
   */
-  nordic-andersevenrud = buildVimPlugin {
-    pname = "nordic-andersevenrud";
+  nordic-andersevenrud-andersevenrud = buildVimPlugin {
+    pname = "nordic-andersevenrud-andersevenrud";
     version = "2024-06-16";
     src = fetchurl {
       url = "https://github.com/andersevenrud/nordic.nvim/archive/c88388b2a5f6e621df2718c316b856d4971bb89d.tar.gz";
@@ -11176,8 +11193,8 @@
   /*
   Generated from: github/gsuuon/note.nvim/note-nvim
   */
-  note-nvim = buildVimPlugin {
-    pname = "note-nvim";
+  note-nvim-gsuuon = buildVimPlugin {
+    pname = "note-nvim-gsuuon";
     version = "2025-08-12";
     src = fetchurl {
       url = "https://github.com/gsuuon/note.nvim/archive/ba48edd2bc1c7f95e201f096b00b291373871dcc.tar.gz";
@@ -11193,8 +11210,8 @@
   /*
   Generated from: github/lfilho/note2cal.nvim/note2cal-nvim
   */
-  note2cal-nvim = buildVimPlugin {
-    pname = "note2cal-nvim";
+  note2cal-nvim-lfilho = buildVimPlugin {
+    pname = "note2cal-nvim-lfilho";
     version = "2025-10-27";
     src = fetchurl {
       url = "https://github.com/lfilho/note2cal.nvim/archive/66ecdb91fd6c8674948b393a38dae87758cd3da7.tar.gz";
@@ -11210,8 +11227,8 @@
   /*
   Generated from: github/GCBallesteros/NotebookNavigator.nvim/NotebookNavigator-nvim
   */
-  NotebookNavigator-nvim = buildVimPlugin {
-    pname = "NotebookNavigator-nvim";
+  NotebookNavigator-nvim-GCBallesteros = buildVimPlugin {
+    pname = "NotebookNavigator-nvim-GCBallesteros";
     version = "2024-05-23";
     src = fetchurl {
       url = "https://github.com/GCBallesteros/NotebookNavigator.nvim/archive/20cb6f72939194e32eb3060578b445e5f2e7ae8b.tar.gz";
@@ -11227,8 +11244,8 @@
   /*
   Generated from: github/MunifTanjim/nougat.nvim/nougat-nvim
   */
-  nougat-nvim = buildVimPlugin {
-    pname = "nougat-nvim";
+  nougat-nvim-MunifTanjim = buildVimPlugin {
+    pname = "nougat-nvim-MunifTanjim";
     version = "2024-01-07";
     src = fetchurl {
       url = "https://github.com/MunifTanjim/nougat.nvim/archive/1c1cde6e53d7d7c2242d125fe67552b00e235876.tar.gz";
@@ -11244,8 +11261,8 @@
   /*
   Generated from: github/XXiaoA/ns-textobject.nvim/ns-textobject-nvim
   */
-  ns-textobject-nvim = buildVimPlugin {
-    pname = "ns-textobject-nvim";
+  ns-textobject-nvim-XXiaoA = buildVimPlugin {
+    pname = "ns-textobject-nvim-XXiaoA";
     version = "2023-05-26";
     src = fetchurl {
       url = "https://github.com/XXiaoA/ns-textobject.nvim/archive/6341bc16df9d07d5f9520b7ac0a84a55720c2302.tar.gz";
@@ -11261,8 +11278,8 @@
   /*
   Generated from: github/jlesquembre/nterm.nvim/nterm-nvim
   */
-  nterm-nvim = buildVimPlugin {
-    pname = "nterm-nvim";
+  nterm-nvim-jlesquembre = buildVimPlugin {
+    pname = "nterm-nvim-jlesquembre";
     version = "2022-05-10";
     src = fetchurl {
       url = "https://github.com/jlesquembre/nterm.nvim/archive/cd7b7035d09144ee4ea49244bf5cb8ed68e499f8.tar.gz";
@@ -11278,8 +11295,8 @@
   /*
   Generated from: github/MunifTanjim/nui.nvim/nui-nvim
   */
-  nui-nvim = buildVimPlugin {
-    pname = "nui-nvim";
+  nui-nvim-MunifTanjim = buildVimPlugin {
+    pname = "nui-nvim-MunifTanjim";
     version = "2025-06-08";
     src = fetchurl {
       url = "https://github.com/MunifTanjim/nui.nvim/archive/de740991c12411b663994b2860f1a4fd0937c130.tar.gz";
@@ -11295,8 +11312,8 @@
   /*
   Generated from: github/jose-elias-alvarez/null-ls.nvim/null-ls-nvim
   */
-  null-ls-nvim = buildVimPlugin {
-    pname = "null-ls-nvim";
+  null-ls-nvim-jose-elias-alvarez = buildVimPlugin {
+    pname = "null-ls-nvim-jose-elias-alvarez";
     version = "2023-08-12";
     src = fetchurl {
       url = "https://github.com/jose-elias-alvarez/null-ls.nvim/archive/0010ea927ab7c09ef0ce9bf28c2b573fc302f5a7.tar.gz";
@@ -11312,8 +11329,8 @@
   /*
   Generated from: github/nacro90/numb.nvim/numb-nvim
   */
-  numb-nvim = buildVimPlugin {
-    pname = "numb-nvim";
+  numb-nvim-nacro90 = buildVimPlugin {
+    pname = "numb-nvim-nacro90";
     version = "2025-11-12";
     src = fetchurl {
       url = "https://github.com/nacro90/numb.nvim/archive/8164fd3d4d0c3ad2b1b111e9a63a59178981b743.tar.gz";
@@ -11329,8 +11346,8 @@
   /*
   Generated from: github/nkakouros-original/numbers.nvim/numbers-nvim
   */
-  numbers-nvim = buildVimPlugin {
-    pname = "numbers-nvim";
+  numbers-nvim-nkakouros-original = buildVimPlugin {
+    pname = "numbers-nvim-nkakouros-original";
     version = "2025-02-11";
     src = fetchurl {
       url = "https://github.com/nkakouros-original/numbers.nvim/archive/53a4775539439754208ed4e0bd2e8354c165e66d.tar.gz";
@@ -11346,8 +11363,8 @@
   /*
   Generated from: github/ChristianChiarulli/nvcode-color-schemes.vim/nvcode-color-schemes-vim
   */
-  nvcode-color-schemes-vim = buildVimPlugin {
-    pname = "nvcode-color-schemes-vim";
+  nvcode-color-schemes-vim-ChristianChiarulli = buildVimPlugin {
+    pname = "nvcode-color-schemes-vim-ChristianChiarulli";
     version = "2021-07-03";
     src = fetchurl {
       url = "https://github.com/ChristianChiarulli/nvcode-color-schemes.vim/archive/3a0e624a67ecd2c7f990bc3c25a1044e85782b10.tar.gz";
@@ -11363,8 +11380,8 @@
   /*
   Generated from: github/neko-night/nvim/nvim
   */
-  nvim = buildVimPlugin {
-    pname = "nvim";
+  nvim-neko-night = buildVimPlugin {
+    pname = "nvim-neko-night";
     version = "2025-01-25";
     src = fetchurl {
       url = "https://github.com/neko-night/nvim/archive/df1c6af5e1df601232a2c0fc7198ea1342e95f29.tar.gz";
@@ -11380,8 +11397,8 @@
   /*
   Generated from: github/chrisgrieser/nvim-alt-substitute/nvim-alt-substitute
   */
-  nvim-alt-substitute = buildVimPlugin {
-    pname = "nvim-alt-substitute";
+  nvim-alt-substitute-chrisgrieser = buildVimPlugin {
+    pname = "nvim-alt-substitute-chrisgrieser";
     version = "2024-06-04";
     src = fetchurl {
       url = "https://github.com/chrisgrieser/nvim-alt-substitute/archive/f0e6ef3a656187108d695a0115c09eda62474971.tar.gz";
@@ -11397,8 +11414,8 @@
   /*
   Generated from: github/windwp/nvim-autopairs/nvim-autopairs
   */
-  nvim-autopairs = buildVimPlugin {
-    pname = "nvim-autopairs";
+  nvim-autopairs-windwp = buildVimPlugin {
+    pname = "nvim-autopairs-windwp";
     version = "2025-12-18";
     src = fetchurl {
       url = "https://github.com/windwp/nvim-autopairs/archive/c2a0dd0d931d0fb07665e1fedb1ea688da3b80b4.tar.gz";
@@ -11414,8 +11431,8 @@
   /*
   Generated from: github/RRethy/nvim-base16/nvim-base16
   */
-  nvim-base16 = buildVimPlugin {
-    pname = "nvim-base16";
+  nvim-base16-RRethy = buildVimPlugin {
+    pname = "nvim-base16-RRethy";
     version = "2026-01-08";
     src = fetchurl {
       url = "https://github.com/RRethy/nvim-base16/archive/c2f8107967f7b32e6de511f060def3a78c151436.tar.gz";
@@ -11431,8 +11448,8 @@
   /*
   Generated from: github/norcalli/nvim-base16.lua/nvim-base16-lua
   */
-  nvim-base16-lua = buildVimPlugin {
-    pname = "nvim-base16-lua";
+  nvim-base16-lua-norcalli = buildVimPlugin {
+    pname = "nvim-base16-lua-norcalli";
     version = "2019-10-16";
     src = fetchurl {
       url = "https://github.com/norcalli/nvim-base16.lua/archive/b336f40462b3ca1ad16a17c195b83731a2942d9a.tar.gz";
@@ -11448,8 +11465,8 @@
   /*
   Generated from: github/code-biscuits/nvim-biscuits/nvim-biscuits
   */
-  nvim-biscuits = buildVimPlugin {
-    pname = "nvim-biscuits";
+  nvim-biscuits-code-biscuits = buildVimPlugin {
+    pname = "nvim-biscuits-code-biscuits";
     version = "2025-10-08";
     src = fetchurl {
       url = "https://github.com/code-biscuits/nvim-biscuits/archive/b79fa6d24388f3bcfdad33a77ee8e5668b6df07f.tar.gz";
@@ -11465,8 +11482,8 @@
   /*
   Generated from: github/tveskag/nvim-blame-line/nvim-blame-line
   */
-  nvim-blame-line = buildVimPlugin {
-    pname = "nvim-blame-line";
+  nvim-blame-line-tveskag = buildVimPlugin {
+    pname = "nvim-blame-line-tveskag";
     version = "2025-03-03";
     src = fetchurl {
       url = "https://github.com/tveskag/nvim-blame-line/archive/c6dd6114976846bf93a52da8d82332179e8f09ec.tar.gz";
@@ -11482,8 +11499,8 @@
   /*
   Generated from: github/kevinhwang91/nvim-bqf/nvim-bqf
   */
-  nvim-bqf = buildVimPlugin {
-    pname = "nvim-bqf";
+  nvim-bqf-kevinhwang91 = buildVimPlugin {
+    pname = "nvim-bqf-kevinhwang91";
     version = "2025-11-17";
     src = fetchurl {
       url = "https://github.com/kevinhwang91/nvim-bqf/archive/ba2b365969d7c2c6301d48e13aeee59568765529.tar.gz";
@@ -11499,8 +11516,8 @@
   /*
   Generated from: github/idanarye/nvim-buffls/nvim-buffls
   */
-  nvim-buffls = buildVimPlugin {
-    pname = "nvim-buffls";
+  nvim-buffls-idanarye = buildVimPlugin {
+    pname = "nvim-buffls-idanarye";
     version = "2025-07-20";
     src = fetchurl {
       url = "https://github.com/idanarye/nvim-buffls/archive/7237858614f802fbfd1e24f25e8f17786d00b631.tar.gz";
@@ -11516,8 +11533,8 @@
   /*
   Generated from: github/Iron-E/nvim-cartographer/nvim-cartographer
   */
-  nvim-cartographer = buildVimPlugin {
-    pname = "nvim-cartographer";
+  nvim-cartographer-Iron-E = buildVimPlugin {
+    pname = "nvim-cartographer-Iron-E";
     version = "2023-06-19";
     src = fetchurl {
       url = "https://github.com/Iron-E/nvim-cartographer/archive/7bc643d48eae0c29dcea0d875d8f390e0f9f925b.tar.gz";
@@ -11533,8 +11550,8 @@
   /*
   Generated from: github/chrisgrieser/nvim-chainsaw/nvim-chainsaw
   */
-  nvim-chainsaw = buildVimPlugin {
-    pname = "nvim-chainsaw";
+  nvim-chainsaw-chrisgrieser = buildVimPlugin {
+    pname = "nvim-chainsaw-chrisgrieser";
     version = "2026-01-06";
     src = fetchurl {
       url = "https://github.com/chrisgrieser/nvim-chainsaw/archive/4021f1b81e5d3550d690aae3fa0f7090648a2c8e.tar.gz";
@@ -11550,8 +11567,8 @@
   /*
   Generated from: github/idanarye/nvim-channelot/nvim-channelot
   */
-  nvim-channelot = buildVimPlugin {
-    pname = "nvim-channelot";
+  nvim-channelot-idanarye = buildVimPlugin {
+    pname = "nvim-channelot-idanarye";
     version = "2025-10-26";
     src = fetchurl {
       url = "https://github.com/idanarye/nvim-channelot/archive/80259020d16730266b7173eac1f38aea66b706c2.tar.gz";
@@ -11567,8 +11584,8 @@
   /*
   Generated from: github/hrsh7th/nvim-cmp/nvim-cmp
   */
-  nvim-cmp = buildVimPlugin {
-    pname = "nvim-cmp";
+  nvim-cmp-hrsh7th = buildVimPlugin {
+    pname = "nvim-cmp-hrsh7th";
     version = "2026-01-02";
     src = fetchurl {
       url = "https://github.com/hrsh7th/nvim-cmp/archive/85bbfad83f804f11688d1ab9486b459e699292d6.tar.gz";
@@ -11584,8 +11601,8 @@
   /*
   Generated from: github/weilbith/nvim-code-action-menu/nvim-code-action-menu
   */
-  nvim-code-action-menu = buildVimPlugin {
-    pname = "nvim-code-action-menu";
+  nvim-code-action-menu-weilbith = buildVimPlugin {
+    pname = "nvim-code-action-menu-weilbith";
     version = "2023-12-11";
     src = fetchurl {
       url = "https://github.com/weilbith/nvim-code-action-menu/archive/8c7672a4b04d3cc4edd2c484d05b660a9cb34a1b.tar.gz";
@@ -11601,8 +11618,8 @@
   /*
   Generated from: github/willothy/nvim-cokeline/nvim-cokeline
   */
-  nvim-cokeline = buildVimPlugin {
-    pname = "nvim-cokeline";
+  nvim-cokeline-willothy = buildVimPlugin {
+    pname = "nvim-cokeline-willothy";
     version = "2025-01-24";
     src = fetchurl {
       url = "https://github.com/willothy/nvim-cokeline/archive/9fbed130683b7b6f73198c09e35ba4b33f547c08.tar.gz";
@@ -11618,8 +11635,8 @@
   /*
   Generated from: github/catgoose/nvim-colorizer.lua/nvim-colorizer-catgoose
   */
-  nvim-colorizer-catgoose = buildVimPlugin {
-    pname = "nvim-colorizer-catgoose";
+  nvim-colorizer-catgoose-catgoose = buildVimPlugin {
+    pname = "nvim-colorizer-catgoose-catgoose";
     version = "2025-11-02";
     src = fetchurl {
       url = "https://github.com/catgoose/nvim-colorizer.lua/archive/81e676d3203c9eb6e4c0ccf1eba1679296ef923f.tar.gz";
@@ -11635,8 +11652,8 @@
   /*
   Generated from: github/NvChad/nvim-colorizer.lua/nvim-colorizer-nvchad
   */
-  nvim-colorizer-nvchad = buildVimPlugin {
-    pname = "nvim-colorizer-nvchad";
+  nvim-colorizer-nvchad-NvChad = buildVimPlugin {
+    pname = "nvim-colorizer-nvchad-NvChad";
     version = "2025-11-02";
     src = fetchurl {
       url = "https://github.com/NvChad/nvim-colorizer.lua/archive/81e676d3203c9eb6e4c0ccf1eba1679296ef923f.tar.gz";
@@ -11652,8 +11669,8 @@
   /*
   Generated from: github/gennaro-tedesco/nvim-commaround/nvim-commaround
   */
-  nvim-commaround = buildVimPlugin {
-    pname = "nvim-commaround";
+  nvim-commaround-gennaro-tedesco = buildVimPlugin {
+    pname = "nvim-commaround-gennaro-tedesco";
     version = "2023-01-06";
     src = fetchurl {
       url = "https://github.com/gennaro-tedesco/nvim-commaround/archive/f0d4c7911d3a4c8c6da63df67457783c130655ef.tar.gz";
@@ -11669,8 +11686,8 @@
   /*
   Generated from: github/terrortylor/nvim-comment/nvim-comment
   */
-  nvim-comment = buildVimPlugin {
-    pname = "nvim-comment";
+  nvim-comment-terrortylor = buildVimPlugin {
+    pname = "nvim-comment-terrortylor";
     version = "2022-08-09";
     src = fetchurl {
       url = "https://github.com/terrortylor/nvim-comment/archive/e9ac16ab056695cad6461173693069ec070d2b23.tar.gz";
@@ -11686,8 +11703,8 @@
   /*
   Generated from: github/s1n7ax/nvim-comment-frame/nvim-comment-frame
   */
-  nvim-comment-frame = buildVimPlugin {
-    pname = "nvim-comment-frame";
+  nvim-comment-frame-s1n7ax = buildVimPlugin {
+    pname = "nvim-comment-frame-s1n7ax";
     version = "2025-08-05";
     src = fetchurl {
       url = "https://github.com/s1n7ax/nvim-comment-frame/archive/5719db5d3b15b451f89db409ce9164a716ecbef6.tar.gz";
@@ -11703,8 +11720,8 @@
   /*
   Generated from: github/noib3/nvim-compleet/nvim-compleet
   */
-  nvim-compleet = buildVimPlugin {
-    pname = "nvim-compleet";
+  nvim-compleet-noib3 = buildVimPlugin {
+    pname = "nvim-compleet-noib3";
     version = "2022-12-01";
     src = fetchurl {
       url = "https://github.com/noib3/nvim-compleet/archive/0c540aa9c8a0989f05d451271806ccc259c7557f.tar.gz";
@@ -11720,8 +11737,8 @@
   /*
   Generated from: github/klen/nvim-config-local/nvim-config-local
   */
-  nvim-config-local = buildVimPlugin {
-    pname = "nvim-config-local";
+  nvim-config-local-klen = buildVimPlugin {
+    pname = "nvim-config-local-klen";
     version = "2025-01-21";
     src = fetchurl {
       url = "https://github.com/klen/nvim-config-local/archive/990f3e35e0fba8fb83012d7e85f9a6a77de7f87f.tar.gz";
@@ -11737,8 +11754,8 @@
   /*
   Generated from: github/andersevenrud/nvim_context_vt/nvim-context-vt
   */
-  nvim-context-vt = buildVimPlugin {
-    pname = "nvim-context-vt";
+  nvim-context-vt-andersevenrud = buildVimPlugin {
+    pname = "nvim-context-vt-andersevenrud";
     version = "2025-09-17";
     src = fetchurl {
       url = "https://github.com/andersevenrud/nvim_context_vt/archive/fadbd9e57af72f6df3dd33df32ee733aa01cdbc0.tar.gz";
@@ -11754,8 +11771,8 @@
   /*
   Generated from: github/andythigpen/nvim-coverage/nvim-coverage
   */
-  nvim-coverage = buildVimPlugin {
-    pname = "nvim-coverage";
+  nvim-coverage-andythigpen = buildVimPlugin {
+    pname = "nvim-coverage-andythigpen";
     version = "2024-12-18";
     src = fetchurl {
       url = "https://github.com/andythigpen/nvim-coverage/archive/a939e425e363319d952a6c35fb3f38b34041ded2.tar.gz";
@@ -11771,8 +11788,8 @@
   /*
   Generated from: github/ya2s/nvim-cursorline/nvim-cursorline
   */
-  nvim-cursorline = buildVimPlugin {
-    pname = "nvim-cursorline";
+  nvim-cursorline-ya2s = buildVimPlugin {
+    pname = "nvim-cursorline-ya2s";
     version = "2022-04-15";
     src = fetchurl {
       url = "https://github.com/ya2s/nvim-cursorline/archive/804f0023692653b2b2368462d67d2a87056947f9.tar.gz";
@@ -11788,8 +11805,8 @@
   /*
   Generated from: github/xiyaowong/nvim-cursorword/nvim-cursorword
   */
-  nvim-cursorword = buildVimPlugin {
-    pname = "nvim-cursorword";
+  nvim-cursorword-xiyaowong = buildVimPlugin {
+    pname = "nvim-cursorword-xiyaowong";
     version = "2022-06-22";
     src = fetchurl {
       url = "https://github.com/xiyaowong/nvim-cursorword/archive/c0f2958ec729b47be2dba0d79ef43d005dac9f4e.tar.gz";
@@ -11805,8 +11822,8 @@
   /*
   Generated from: github/Kasama/nvim-custom-diagnostic-highlight/nvim-custom-diagnostic-highlight
   */
-  nvim-custom-diagnostic-highlight = buildVimPlugin {
-    pname = "nvim-custom-diagnostic-highlight";
+  nvim-custom-diagnostic-highlight-Kasama = buildVimPlugin {
+    pname = "nvim-custom-diagnostic-highlight-Kasama";
     version = "2023-05-09";
     src = fetchurl {
       url = "https://github.com/Kasama/nvim-custom-diagnostic-highlight/archive/c126fa5b44a21df779c36eea28e73d3f89e85801.tar.gz";
@@ -11822,8 +11839,8 @@
   /*
   Generated from: github/mfussenegger/nvim-dap/nvim-dap
   */
-  nvim-dap = buildVimPlugin {
-    pname = "nvim-dap";
+  nvim-dap-mfussenegger = buildVimPlugin {
+    pname = "nvim-dap-mfussenegger";
     version = "2026-01-05";
     src = fetchurl {
       url = "https://github.com/mfussenegger/nvim-dap/archive/cdfd55a133f63228c55f91378f12908cb2a78ded.tar.gz";
@@ -11839,8 +11856,8 @@
   /*
   Generated from: github/leoluz/nvim-dap-go/nvim-dap-go
   */
-  nvim-dap-go = buildVimPlugin {
-    pname = "nvim-dap-go";
+  nvim-dap-go-leoluz = buildVimPlugin {
+    pname = "nvim-dap-go-leoluz";
     version = "2025-07-11";
     src = fetchurl {
       url = "https://github.com/leoluz/nvim-dap-go/archive/b4421153ead5d726603b02743ea40cf26a51ed5f.tar.gz";
@@ -11856,8 +11873,8 @@
   /*
   Generated from: github/mfussenegger/nvim-dap-python/nvim-dap-python
   */
-  nvim-dap-python = buildVimPlugin {
-    pname = "nvim-dap-python";
+  nvim-dap-python-mfussenegger = buildVimPlugin {
+    pname = "nvim-dap-python-mfussenegger";
     version = "2025-12-20";
     src = fetchurl {
       url = "https://github.com/mfussenegger/nvim-dap-python/archive/1808458eba2b18f178f990e01376941a42c7f93b.tar.gz";
@@ -11873,8 +11890,8 @@
   /*
   Generated from: github/LiadOz/nvim-dap-repl-highlights/nvim-dap-repl-highlights
   */
-  nvim-dap-repl-highlights = buildVimPlugin {
-    pname = "nvim-dap-repl-highlights";
+  nvim-dap-repl-highlights-LiadOz = buildVimPlugin {
+    pname = "nvim-dap-repl-highlights-LiadOz";
     version = "2025-10-07";
     src = fetchurl {
       url = "https://github.com/LiadOz/nvim-dap-repl-highlights/archive/f31deba47fe3ee6ff8d2f13d9dbd06b2d1ae06b5.tar.gz";
@@ -11890,8 +11907,8 @@
   /*
   Generated from: github/suketa/nvim-dap-ruby/nvim-dap-ruby
   */
-  nvim-dap-ruby = buildVimPlugin {
-    pname = "nvim-dap-ruby";
+  nvim-dap-ruby-suketa = buildVimPlugin {
+    pname = "nvim-dap-ruby-suketa";
     version = "2025-07-08";
     src = fetchurl {
       url = "https://github.com/suketa/nvim-dap-ruby/archive/ba36f9905ca9c6d89e5af5467a52fceeb2bbbf6d.tar.gz";
@@ -11907,8 +11924,8 @@
   /*
   Generated from: github/rcarriga/nvim-dap-ui/nvim-dap-ui
   */
-  nvim-dap-ui = buildVimPlugin {
-    pname = "nvim-dap-ui";
+  nvim-dap-ui-rcarriga = buildVimPlugin {
+    pname = "nvim-dap-ui-rcarriga";
     version = "2025-07-09";
     src = fetchurl {
       url = "https://github.com/rcarriga/nvim-dap-ui/archive/cf91d5e2d07c72903d052f5207511bf7ecdb7122.tar.gz";
@@ -11924,8 +11941,8 @@
   /*
   Generated from: github/igorlfs/nvim-dap-view/nvim-dap-view
   */
-  nvim-dap-view = buildVimPlugin {
-    pname = "nvim-dap-view";
+  nvim-dap-view-igorlfs = buildVimPlugin {
+    pname = "nvim-dap-view-igorlfs";
     version = "2026-01-07";
     src = fetchurl {
       url = "https://github.com/igorlfs/nvim-dap-view/archive/3d4db4b741e4fdb236e705d2b92bde13c9c4aba6.tar.gz";
@@ -11941,8 +11958,8 @@
   /*
   Generated from: github/theHamsta/nvim-dap-virtual-text/nvim-dap-virtual-text
   */
-  nvim-dap-virtual-text = buildVimPlugin {
-    pname = "nvim-dap-virtual-text";
+  nvim-dap-virtual-text-theHamsta = buildVimPlugin {
+    pname = "nvim-dap-virtual-text-theHamsta";
     version = "2025-05-25";
     src = fetchurl {
       url = "https://github.com/theHamsta/nvim-dap-virtual-text/archive/fbdb48c2ed45f4a8293d0d483f7730d24467ccb6.tar.gz";
@@ -11958,8 +11975,8 @@
   /*
   Generated from: github/mxsdev/nvim-dap-vscode-js/nvim-dap-vscode-js
   */
-  nvim-dap-vscode-js = buildVimPlugin {
-    pname = "nvim-dap-vscode-js";
+  nvim-dap-vscode-js-mxsdev = buildVimPlugin {
+    pname = "nvim-dap-vscode-js-mxsdev";
     version = "2023-03-06";
     src = fetchurl {
       url = "https://github.com/mxsdev/nvim-dap-vscode-js/archive/03bd29672d7fab5e515fc8469b7d07cc5994bbf6.tar.gz";
@@ -11975,8 +11992,8 @@
   /*
   Generated from: github/theniceboy/nvim-deus/nvim-deus
   */
-  nvim-deus = buildVimPlugin {
-    pname = "nvim-deus";
+  nvim-deus-theniceboy = buildVimPlugin {
+    pname = "nvim-deus-theniceboy";
     version = "2025-04-30";
     src = fetchurl {
       url = "https://github.com/theniceboy/nvim-deus/archive/70d93a26fcf4cec8349b3b0ed24fd280fda6998c.tar.gz";
@@ -11992,8 +12009,8 @@
   /*
   Generated from: github/esensar/nvim-dev-container/nvim-dev-container
   */
-  nvim-dev-container = buildVimPlugin {
-    pname = "nvim-dev-container";
+  nvim-dev-container-esensar = buildVimPlugin {
+    pname = "nvim-dev-container-esensar";
     version = "2025-11-17";
     src = fetchurl {
       url = "https://github.com/esensar/nvim-dev-container/archive/59d85de531912c3def3061ae1d84c769e09a5653.tar.gz";
@@ -12009,8 +12026,8 @@
   /*
   Generated from: github/luckasRanarison/nvim-devdocs/nvim-devdocs
   */
-  nvim-devdocs = buildVimPlugin {
-    pname = "nvim-devdocs";
+  nvim-devdocs-luckasRanarison = buildVimPlugin {
+    pname = "nvim-devdocs-luckasRanarison";
     version = "2024-04-11";
     src = fetchurl {
       url = "https://github.com/luckasRanarison/nvim-devdocs/archive/1ab982d3e069d191d9157b897c8b70cf48b7f77a.tar.gz";
@@ -12026,8 +12043,8 @@
   /*
   Generated from: github/amrbashir/nvim-docs-view/nvim-docs-view
   */
-  nvim-docs-view = buildVimPlugin {
-    pname = "nvim-docs-view";
+  nvim-docs-view-amrbashir = buildVimPlugin {
+    pname = "nvim-docs-view-amrbashir";
     version = "2025-08-12";
     src = fetchurl {
       url = "https://github.com/amrbashir/nvim-docs-view/archive/a5256fd30417f58804691df174bc76a8c8f8163a.tar.gz";
@@ -12043,8 +12060,8 @@
   /*
   Generated from: github/chrisgrieser/nvim-dr-lsp/nvim-dr-lsp
   */
-  nvim-dr-lsp = buildVimPlugin {
-    pname = "nvim-dr-lsp";
+  nvim-dr-lsp-chrisgrieser = buildVimPlugin {
+    pname = "nvim-dr-lsp-chrisgrieser";
     version = "2025-11-24";
     src = fetchurl {
       url = "https://github.com/chrisgrieser/nvim-dr-lsp/archive/4a9dce90be4f415b75b1ab231417943092077f61.tar.gz";
@@ -12060,8 +12077,8 @@
   /*
   Generated from: github/chrisgrieser/nvim-early-retirement/nvim-early-retirement
   */
-  nvim-early-retirement = buildVimPlugin {
-    pname = "nvim-early-retirement";
+  nvim-early-retirement-chrisgrieser = buildVimPlugin {
+    pname = "nvim-early-retirement-chrisgrieser";
     version = "2026-01-06";
     src = fetchurl {
       url = "https://github.com/chrisgrieser/nvim-early-retirement/archive/79ea1568df53986e0d9f4d36fd542933a34b2e61.tar.gz";
@@ -12077,8 +12094,8 @@
   /*
   Generated from: github/esmuellert/nvim-eslint/nvim-eslint
   */
-  nvim-eslint = buildVimPlugin {
-    pname = "nvim-eslint";
+  nvim-eslint-esmuellert = buildVimPlugin {
+    pname = "nvim-eslint-esmuellert";
     version = "2025-11-21";
     src = fetchurl {
       url = "https://github.com/esmuellert/nvim-eslint/archive/491deac6d89a5c51013fa71b63c3cc093db15dde.tar.gz";
@@ -12094,8 +12111,8 @@
   /*
   Generated from: github/AllenDang/nvim-expand-expr/nvim-expand-expr
   */
-  nvim-expand-expr = buildVimPlugin {
-    pname = "nvim-expand-expr";
+  nvim-expand-expr-AllenDang = buildVimPlugin {
+    pname = "nvim-expand-expr-AllenDang";
     version = "2021-08-14";
     src = fetchurl {
       url = "https://github.com/AllenDang/nvim-expand-expr/archive/365cc2a0111228938fb46cffb9cc1a246d787cf0.tar.gz";
@@ -12111,8 +12128,8 @@
   /*
   Generated from: github/AckslD/nvim-FeMaco.lua/nvim-FeMaco-lua
   */
-  nvim-FeMaco-lua = buildVimPlugin {
-    pname = "nvim-FeMaco-lua";
+  nvim-FeMaco-lua-AckslD = buildVimPlugin {
+    pname = "nvim-FeMaco-lua-AckslD";
     version = "2024-04-21";
     src = fetchurl {
       url = "https://github.com/AckslD/nvim-FeMaco.lua/archive/96bbf843595dbe865838b3f2484b73557f34700c.tar.gz";
@@ -12128,8 +12145,8 @@
   /*
   Generated from: github/yaocccc/nvim-foldsign/nvim-foldsign
   */
-  nvim-foldsign = buildVimPlugin {
-    pname = "nvim-foldsign";
+  nvim-foldsign-yaocccc = buildVimPlugin {
+    pname = "nvim-foldsign-yaocccc";
     version = "2025-03-18";
     src = fetchurl {
       url = "https://github.com/yaocccc/nvim-foldsign/archive/cd45e684ccfdd4fb7d92c64101794917d172078f.tar.gz";
@@ -12145,8 +12162,8 @@
   /*
   Generated from: github/vijaymarupudi/nvim-fzf/nvim-fzf
   */
-  nvim-fzf = buildVimPlugin {
-    pname = "nvim-fzf";
+  nvim-fzf-vijaymarupudi = buildVimPlugin {
+    pname = "nvim-fzf-vijaymarupudi";
     version = "2024-10-21";
     src = fetchurl {
       url = "https://github.com/vijaymarupudi/nvim-fzf/archive/305aa90aeb8409b4bd2af1812a4b6e157ee93953.tar.gz";
@@ -12162,8 +12179,8 @@
   /*
   Generated from: github/sakhnik/nvim-gdb/nvim-gdb
   */
-  nvim-gdb = buildVimPlugin {
-    pname = "nvim-gdb";
+  nvim-gdb-sakhnik = buildVimPlugin {
+    pname = "nvim-gdb-sakhnik";
     version = "2025-12-31";
     src = fetchurl {
       url = "https://github.com/sakhnik/nvim-gdb/archive/b644f07c54608cc913c1d9e14954f15dcb7331a9.tar.gz";
@@ -12179,8 +12196,8 @@
   /*
   Generated from: github/chrisgrieser/nvim-genghis/nvim-genghis
   */
-  nvim-genghis = buildVimPlugin {
-    pname = "nvim-genghis";
+  nvim-genghis-chrisgrieser = buildVimPlugin {
+    pname = "nvim-genghis-chrisgrieser";
     version = "2026-01-06";
     src = fetchurl {
       url = "https://github.com/chrisgrieser/nvim-genghis/archive/29b050ec541b70f472c5870402b863f349fad0c6.tar.gz";
@@ -12196,8 +12213,8 @@
   /*
   Generated from: github/AckslD/nvim-gfold.lua/nvim-gfold-lua
   */
-  nvim-gfold-lua = buildVimPlugin {
-    pname = "nvim-gfold-lua";
+  nvim-gfold-lua-AckslD = buildVimPlugin {
+    pname = "nvim-gfold-lua-AckslD";
     version = "2022-10-19";
     src = fetchurl {
       url = "https://github.com/AckslD/nvim-gfold.lua/archive/1a8483161a35c66bbc7c40f00af2beafac9a816e.tar.gz";
@@ -12213,8 +12230,8 @@
   /*
   Generated from: github/subnut/nvim-ghost.nvim/nvim-ghost-nvim
   */
-  nvim-ghost-nvim = buildVimPlugin {
-    pname = "nvim-ghost-nvim";
+  nvim-ghost-nvim-subnut = buildVimPlugin {
+    pname = "nvim-ghost-nvim-subnut";
     version = "2024-11-25";
     src = fetchurl {
       url = "https://github.com/subnut/nvim-ghost.nvim/archive/bdba2a8ad0eec84379d65e7aa9b76a17b11b653a.tar.gz";
@@ -12230,8 +12247,8 @@
   /*
   Generated from: github/crispgm/nvim-go/nvim-go
   */
-  nvim-go = buildVimPlugin {
-    pname = "nvim-go";
+  nvim-go-crispgm = buildVimPlugin {
+    pname = "nvim-go-crispgm";
     version = "2025-08-19";
     src = fetchurl {
       url = "https://github.com/crispgm/nvim-go/archive/b1b42683059223735c85f59500fbd1024d80de92.tar.gz";
@@ -12247,8 +12264,8 @@
   /*
   Generated from: github/rafaelsq/nvim-goc.lua/nvim-goc-lua
   */
-  nvim-goc-lua = buildVimPlugin {
-    pname = "nvim-goc-lua";
+  nvim-goc-lua-rafaelsq = buildVimPlugin {
+    pname = "nvim-goc-lua-rafaelsq";
     version = "2025-11-14";
     src = fetchurl {
       url = "https://github.com/rafaelsq/nvim-goc.lua/archive/76612147223ef92c6bb2905c4228b7d5617baefd.tar.gz";
@@ -12264,8 +12281,8 @@
   /*
   Generated from: github/booperlv/nvim-gomove/nvim-gomove
   */
-  nvim-gomove = buildVimPlugin {
-    pname = "nvim-gomove";
+  nvim-gomove-booperlv = buildVimPlugin {
+    pname = "nvim-gomove-booperlv";
     version = "2022-07-19";
     src = fetchurl {
       url = "https://github.com/booperlv/nvim-gomove/archive/2b44ae7ac0804f4e3959228122f7c85bef1964e3.tar.gz";
@@ -12281,8 +12298,8 @@
   /*
   Generated from: github/smiteshp/nvim-gps/nvim-gps
   */
-  nvim-gps = buildVimPlugin {
-    pname = "nvim-gps";
+  nvim-gps-smiteshp = buildVimPlugin {
+    pname = "nvim-gps-smiteshp";
     version = "2022-07-05";
     src = fetchurl {
       url = "https://github.com/smiteshp/nvim-gps/archive/f4734dff6fc2f33b5fd13412e56c4fce06650a74.tar.gz";
@@ -12298,8 +12315,8 @@
   /*
   Generated from: github/ojroques/nvim-hardline/nvim-hardline
   */
-  nvim-hardline = buildVimPlugin {
-    pname = "nvim-hardline";
+  nvim-hardline-ojroques = buildVimPlugin {
+    pname = "nvim-hardline-ojroques";
     version = "2023-08-20";
     src = fetchurl {
       url = "https://github.com/ojroques/nvim-hardline/archive/9b85ebfba065091715676fb440c16a37c465b9a5.tar.gz";
@@ -12315,8 +12332,8 @@
   /*
   Generated from: github/brenoprata10/nvim-highlight-colors/nvim-highlight-colors
   */
-  nvim-highlight-colors = buildVimPlugin {
-    pname = "nvim-highlight-colors";
+  nvim-highlight-colors-brenoprata10 = buildVimPlugin {
+    pname = "nvim-highlight-colors-brenoprata10";
     version = "2025-09-06";
     src = fetchurl {
       url = "https://github.com/brenoprata10/nvim-highlight-colors/archive/e0c4a58ec8c3ca7c92d3ee4eb3bc1dd0f7be317e.tar.gz";
@@ -12332,8 +12349,8 @@
   /*
   Generated from: github/Iron-E/nvim-highlite/nvim-highlite
   */
-  nvim-highlite = buildVimPlugin {
-    pname = "nvim-highlite";
+  nvim-highlite-Iron-E = buildVimPlugin {
+    pname = "nvim-highlite-Iron-E";
     version = "2025-12-29";
     src = fetchurl {
       url = "https://github.com/Iron-E/nvim-highlite/archive/22a9c3a1299f1b56ffd3e2624e5eda04f643b89f.tar.gz";
@@ -12349,8 +12366,8 @@
   /*
   Generated from: github/yaocccc/nvim-hl-mdcodeblock.lua/nvim-hl-mdcodeblock-lua
   */
-  nvim-hl-mdcodeblock-lua = buildVimPlugin {
-    pname = "nvim-hl-mdcodeblock-lua";
+  nvim-hl-mdcodeblock-lua-yaocccc = buildVimPlugin {
+    pname = "nvim-hl-mdcodeblock-lua-yaocccc";
     version = "2023-04-29";
     src = fetchurl {
       url = "https://github.com/yaocccc/nvim-hl-mdcodeblock.lua/archive/a652470bfed791d5026f6a35bacdfe90a9d8ac2f.tar.gz";
@@ -12366,8 +12383,8 @@
   /*
   Generated from: github/yaocccc/nvim-hlchunk/nvim-hlchunk
   */
-  nvim-hlchunk = buildVimPlugin {
-    pname = "nvim-hlchunk";
+  nvim-hlchunk-yaocccc = buildVimPlugin {
+    pname = "nvim-hlchunk-yaocccc";
     version = "2025-08-18";
     src = fetchurl {
       url = "https://github.com/yaocccc/nvim-hlchunk/archive/f089ae4446357bfaa8c7c718eae7fdf62315a7f8.tar.gz";
@@ -12383,8 +12400,8 @@
   /*
   Generated from: github/kevinhwang91/nvim-hlslens/nvim-hlslens
   */
-  nvim-hlslens = buildVimPlugin {
-    pname = "nvim-hlslens";
+  nvim-hlslens-kevinhwang91 = buildVimPlugin {
+    pname = "nvim-hlslens-kevinhwang91";
     version = "2025-11-13";
     src = fetchurl {
       url = "https://github.com/kevinhwang91/nvim-hlslens/archive/425405475300d64de07dec3af60b1f1d31d49230.tar.gz";
@@ -12400,8 +12417,8 @@
   /*
   Generated from: github/PHSix/nvim-hybrid/nvim-hybrid
   */
-  nvim-hybrid = buildVimPlugin {
-    pname = "nvim-hybrid";
+  nvim-hybrid-PHSix = buildVimPlugin {
+    pname = "nvim-hybrid-PHSix";
     version = "2022-01-22";
     src = fetchurl {
       url = "https://github.com/PHSix/nvim-hybrid/archive/89206396ba22b2518f5db08d96e9aab800902163.tar.gz";
@@ -12417,8 +12434,8 @@
   /*
   Generated from: github/bfredl/nvim-ipy/nvim-ipy
   */
-  nvim-ipy = buildVimPlugin {
-    pname = "nvim-ipy";
+  nvim-ipy-bfredl = buildVimPlugin {
+    pname = "nvim-ipy-bfredl";
     version = "2021-09-23";
     src = fetchurl {
       url = "https://github.com/bfredl/nvim-ipy/archive/50a938a7b24a327dd72284e11a5405875917f29b.tar.gz";
@@ -12434,8 +12451,8 @@
   /*
   Generated from: github/nvim-java/nvim-java/nvim-java
   */
-  nvim-java = buildVimPlugin {
-    pname = "nvim-java";
+  nvim-java-nvim-java = buildVimPlugin {
+    pname = "nvim-java-nvim-java";
     version = "2025-12-11";
     src = fetchurl {
       url = "https://github.com/nvim-java/nvim-java/archive/d196b25eda89ae957110f2966d1753889dc197b2.tar.gz";
@@ -12451,8 +12468,8 @@
   /*
   Generated from: github/mfussenegger/nvim-jdtls/nvim-jdtls
   */
-  nvim-jdtls = buildVimPlugin {
-    pname = "nvim-jdtls";
+  nvim-jdtls-mfussenegger = buildVimPlugin {
+    pname = "nvim-jdtls-mfussenegger";
     version = "2025-12-04";
     src = fetchurl {
       url = "https://github.com/mfussenegger/nvim-jdtls/archive/f73731b543f5971e0da9665eb1d7ceffe1fde71f.tar.gz";
@@ -12468,8 +12485,8 @@
   /*
   Generated from: github/ckipp01/nvim-jenkinsfile-linter/nvim-jenkinsfile-linter
   */
-  nvim-jenkinsfile-linter = buildVimPlugin {
-    pname = "nvim-jenkinsfile-linter";
+  nvim-jenkinsfile-linter-ckipp01 = buildVimPlugin {
+    pname = "nvim-jenkinsfile-linter-ckipp01";
     version = "2025-01-22";
     src = fetchurl {
       url = "https://github.com/ckipp01/nvim-jenkinsfile-linter/archive/4bd761597348df2700dc456d870a1a5501448df2.tar.gz";
@@ -12485,8 +12502,8 @@
   /*
   Generated from: github/gennaro-tedesco/nvim-jqx/nvim-jqx
   */
-  nvim-jqx = buildVimPlugin {
-    pname = "nvim-jqx";
+  nvim-jqx-gennaro-tedesco = buildVimPlugin {
+    pname = "nvim-jqx-gennaro-tedesco";
     version = "2024-05-31";
     src = fetchurl {
       url = "https://github.com/gennaro-tedesco/nvim-jqx/archive/07393e80fa8097e82f9038fec05e948fe8a60fd1.tar.gz";
@@ -12502,8 +12519,8 @@
   /*
   Generated from: github/kaiuri/nvim-juliana/nvim-juliana
   */
-  nvim-juliana = buildVimPlugin {
-    pname = "nvim-juliana";
+  nvim-juliana-kaiuri = buildVimPlugin {
+    pname = "nvim-juliana-kaiuri";
     version = "2024-01-25";
     src = fetchurl {
       url = "https://github.com/kaiuri/nvim-juliana/archive/881d1a85d33f744b6b851a210becb3194da8e2a6.tar.gz";
@@ -12519,8 +12536,8 @@
   /*
   Generated from: github/chrisgrieser/nvim-justice/nvim-justice
   */
-  nvim-justice = buildVimPlugin {
-    pname = "nvim-justice";
+  nvim-justice-chrisgrieser = buildVimPlugin {
+    pname = "nvim-justice-chrisgrieser";
     version = "2026-01-06";
     src = fetchurl {
       url = "https://github.com/chrisgrieser/nvim-justice/archive/01cf89bc9a2d071e48e982842a74d77dbe125e27.tar.gz";
@@ -12536,8 +12553,8 @@
   /*
   Generated from: github/ethanholz/nvim-lastplace/nvim-lastplace
   */
-  nvim-lastplace = buildVimPlugin {
-    pname = "nvim-lastplace";
+  nvim-lastplace-ethanholz = buildVimPlugin {
+    pname = "nvim-lastplace-ethanholz";
     version = "2023-07-27";
     src = fetchurl {
       url = "https://github.com/ethanholz/nvim-lastplace/archive/0bb6103c506315044872e0f84b1f736c4172bb20.tar.gz";
@@ -12553,8 +12570,8 @@
   /*
   Generated from: github/kosayoda/nvim-lightbulb/nvim-lightbulb
   */
-  nvim-lightbulb = buildVimPlugin {
-    pname = "nvim-lightbulb";
+  nvim-lightbulb-kosayoda = buildVimPlugin {
+    pname = "nvim-lightbulb-kosayoda";
     version = "2025-03-29";
     src = fetchurl {
       url = "https://github.com/kosayoda/nvim-lightbulb/archive/aa3a8b0f4305b25cfe368f6c9be9923a7c9d0805.tar.gz";
@@ -12570,8 +12587,8 @@
   /*
   Generated from: github/martineausimon/nvim-lilypond-suite/nvim-lilypond-suite
   */
-  nvim-lilypond-suite = buildVimPlugin {
-    pname = "nvim-lilypond-suite";
+  nvim-lilypond-suite-martineausimon = buildVimPlugin {
+    pname = "nvim-lilypond-suite-martineausimon";
     version = "2025-11-28";
     src = fetchurl {
       url = "https://github.com/martineausimon/nvim-lilypond-suite/archive/a1a313fd6028a196cc9aaa8c8501838fe8cc8e2a.tar.gz";
@@ -12587,8 +12604,8 @@
   /*
   Generated from: github/yaocccc/nvim-lines.lua/nvim-lines-lua
   */
-  nvim-lines-lua = buildVimPlugin {
-    pname = "nvim-lines-lua";
+  nvim-lines-lua-yaocccc = buildVimPlugin {
+    pname = "nvim-lines-lua-yaocccc";
     version = "2023-04-06";
     src = fetchurl {
       url = "https://github.com/yaocccc/nvim-lines.lua/archive/6eef0024c90fb5767cc32c2e8bbf9ab4e3ba725f.tar.gz";
@@ -12604,8 +12621,8 @@
   /*
   Generated from: github/mfussenegger/nvim-lint/nvim-lint
   */
-  nvim-lint = buildVimPlugin {
-    pname = "nvim-lint";
+  nvim-lint-mfussenegger = buildVimPlugin {
+    pname = "nvim-lint-mfussenegger";
     version = "2026-01-07";
     src = fetchurl {
       url = "https://github.com/mfussenegger/nvim-lint/archive/ca6ea12daf0a4d92dc24c5c9ae22a1f0418ade37.tar.gz";
@@ -12621,8 +12638,8 @@
   /*
   Generated from: github/jpmcb/nvim-llama/nvim-llama
   */
-  nvim-llama = buildVimPlugin {
-    pname = "nvim-llama";
+  nvim-llama-jpmcb = buildVimPlugin {
+    pname = "nvim-llama-jpmcb";
     version = "2025-03-09";
     src = fetchurl {
       url = "https://github.com/jpmcb/nvim-llama/archive/1d5d73f333f7469ffa077bc1261b91e68afa15d0.tar.gz";
@@ -12638,8 +12655,8 @@
   /*
   Generated from: github/nanotee/nvim-lsp-basics/nvim-lsp-basics
   */
-  nvim-lsp-basics = buildVimPlugin {
-    pname = "nvim-lsp-basics";
+  nvim-lsp-basics-nanotee = buildVimPlugin {
+    pname = "nvim-lsp-basics-nanotee";
     version = "2022-05-08";
     src = fetchurl {
       url = "https://github.com/nanotee/nvim-lsp-basics/archive/632714bd3ab355eb6e725b5a78cd8730f12d14d2.tar.gz";
@@ -12655,8 +12672,8 @@
   /*
   Generated from: github/chrisgrieser/nvim-lsp-endhints/nvim-lsp-endhints
   */
-  nvim-lsp-endhints = buildVimPlugin {
-    pname = "nvim-lsp-endhints";
+  nvim-lsp-endhints-chrisgrieser = buildVimPlugin {
+    pname = "nvim-lsp-endhints-chrisgrieser";
     version = "2026-01-06";
     src = fetchurl {
       url = "https://github.com/chrisgrieser/nvim-lsp-endhints/archive/1bd987b2907cbeab7705e2466a0ed775f7711357.tar.gz";
@@ -12672,8 +12689,8 @@
   /*
   Generated from: github/williamboman/nvim-lsp-installer/nvim-lsp-installer
   */
-  nvim-lsp-installer = buildVimPlugin {
-    pname = "nvim-lsp-installer";
+  nvim-lsp-installer-williamboman = buildVimPlugin {
+    pname = "nvim-lsp-installer-williamboman";
     version = "2022-11-12";
     src = fetchurl {
       url = "https://github.com/williamboman/nvim-lsp-installer/archive/17e0bfa5f2c8854d1636fcd036dc8284db136baa.tar.gz";
@@ -12689,8 +12706,8 @@
   /*
   Generated from: github/Junnplus/nvim-lsp-setup/nvim-lsp-setup
   */
-  nvim-lsp-setup = buildVimPlugin {
-    pname = "nvim-lsp-setup";
+  nvim-lsp-setup-Junnplus = buildVimPlugin {
+    pname = "nvim-lsp-setup-Junnplus";
     version = "2025-05-15";
     src = fetchurl {
       url = "https://github.com/Junnplus/nvim-lsp-setup/archive/f3acd127ca0f6bf5516622aafd87de7290ca8159.tar.gz";
@@ -12706,8 +12723,8 @@
   /*
   Generated from: github/jose-elias-alvarez/nvim-lsp-ts-utils/nvim-lsp-ts-utils
   */
-  nvim-lsp-ts-utils = buildVimPlugin {
-    pname = "nvim-lsp-ts-utils";
+  nvim-lsp-ts-utils-jose-elias-alvarez = buildVimPlugin {
+    pname = "nvim-lsp-ts-utils-jose-elias-alvarez";
     version = "2022-07-17";
     src = fetchurl {
       url = "https://github.com/jose-elias-alvarez/nvim-lsp-ts-utils/archive/0a6a16ef292c9b61eac6dad00d52666c7f84b0e7.tar.gz";
@@ -12723,8 +12740,8 @@
   /*
   Generated from: github/neovim/nvim-lspconfig/nvim-lspconfig
   */
-  nvim-lspconfig = buildVimPlugin {
-    pname = "nvim-lspconfig";
+  nvim-lspconfig-neovim = buildVimPlugin {
+    pname = "nvim-lspconfig-neovim";
     version = "2026-01-08";
     src = fetchurl {
       url = "https://github.com/neovim/nvim-lspconfig/archive/5a82e10b2df0ed31bec642c1c0344baee7c458b6.tar.gz";
@@ -12740,8 +12757,8 @@
   /*
   Generated from: github/ojroques/nvim-lspfuzzy/nvim-lspfuzzy
   */
-  nvim-lspfuzzy = buildVimPlugin {
-    pname = "nvim-lspfuzzy";
+  nvim-lspfuzzy-ojroques = buildVimPlugin {
+    pname = "nvim-lspfuzzy-ojroques";
     version = "2025-08-17";
     src = fetchurl {
       url = "https://github.com/ojroques/nvim-lspfuzzy/archive/60f8fd2447598adcbed40ca9da37f40fb94e40f6.tar.gz";
@@ -12757,8 +12774,8 @@
   /*
   Generated from: github/stevanmilic/nvim-lspimport/nvim-lspimport
   */
-  nvim-lspimport = buildVimPlugin {
-    pname = "nvim-lspimport";
+  nvim-lspimport-stevanmilic = buildVimPlugin {
+    pname = "nvim-lspimport-stevanmilic";
     version = "2024-03-10";
     src = fetchurl {
       url = "https://github.com/stevanmilic/nvim-lspimport/archive/9c1c61a5020faeb1863bb66eb4b2a9107e641876.tar.gz";
@@ -12774,8 +12791,8 @@
   /*
   Generated from: github/anott03/nvim-lspinstall/nvim-lspinstall
   */
-  nvim-lspinstall = buildVimPlugin {
-    pname = "nvim-lspinstall";
+  nvim-lspinstall-anott03 = buildVimPlugin {
+    pname = "nvim-lspinstall-anott03";
     version = "2021-07-23";
     src = fetchurl {
       url = "https://github.com/anott03/nvim-lspinstall/archive/1d9b385dc4d963b9ee93d4597f6010c4ada4b405.tar.gz";
@@ -12791,8 +12808,8 @@
   /*
   Generated from: github/alexaandru/nvim-lspupdate/nvim-lspupdate
   */
-  nvim-lspupdate = buildVimPlugin {
-    pname = "nvim-lspupdate";
+  nvim-lspupdate-alexaandru = buildVimPlugin {
+    pname = "nvim-lspupdate-alexaandru";
     version = "2021-12-21";
     src = fetchurl {
       url = "https://github.com/alexaandru/nvim-lspupdate/archive/8b809b7887790f1742b6f9de6d35c35f07c23ec2.tar.gz";
@@ -12808,8 +12825,8 @@
   /*
   Generated from: github/RishabhRD/nvim-lsputils/nvim-lsputils
   */
-  nvim-lsputils = buildVimPlugin {
-    pname = "nvim-lsputils";
+  nvim-lsputils-RishabhRD = buildVimPlugin {
+    pname = "nvim-lsputils-RishabhRD";
     version = "2022-01-29";
     src = fetchurl {
       url = "https://github.com/RishabhRD/nvim-lsputils/archive/ae1a4a62449863ad82c70713d5b6108f3a07917c.tar.gz";
@@ -12825,8 +12842,8 @@
   /*
   Generated from: github/nanotee/nvim-lua-guide/nvim-lua-guide
   */
-  nvim-lua-guide = buildVimPlugin {
-    pname = "nvim-lua-guide";
+  nvim-lua-guide-nanotee = buildVimPlugin {
+    pname = "nvim-lua-guide-nanotee";
     version = "2025-09-02";
     src = fetchurl {
       url = "https://github.com/nanotee/nvim-lua-guide/archive/ff62c54dc5dd1f932e6891deb1590b67758f5784.tar.gz";
@@ -12842,8 +12859,8 @@
   /*
   Generated from: github/bfredl/nvim-luadev/nvim-luadev
   */
-  nvim-luadev = buildVimPlugin {
-    pname = "nvim-luadev";
+  nvim-luadev-bfredl = buildVimPlugin {
+    pname = "nvim-luadev-bfredl";
     version = "2023-03-13";
     src = fetchurl {
       url = "https://github.com/bfredl/nvim-luadev/archive/3ba0c02c378503739f1fdb95cff3ea2aad48db3e.tar.gz";
@@ -12859,8 +12876,8 @@
   /*
   Generated from: github/rafcamlet/nvim-luapad/nvim-luapad
   */
-  nvim-luapad = buildVimPlugin {
-    pname = "nvim-luapad";
+  nvim-luapad-rafcamlet = buildVimPlugin {
+    pname = "nvim-luapad-rafcamlet";
     version = "2024-05-26";
     src = fetchurl {
       url = "https://github.com/rafcamlet/nvim-luapad/archive/176686eb616a5ada5dfc748f2b5109194bbe8a71.tar.gz";
@@ -12876,8 +12893,8 @@
   /*
   Generated from: github/emiasims/nvim-luaref/nvim-luaref
   */
-  nvim-luaref = buildVimPlugin {
-    pname = "nvim-luaref";
+  nvim-luaref-emiasims = buildVimPlugin {
+    pname = "nvim-luaref-emiasims";
     version = "2022-02-17";
     src = fetchurl {
       url = "https://github.com/emiasims/nvim-luaref/archive/9cd3ed50d5752ffd56d88dd9e395ddd3dc2c7127.tar.gz";
@@ -12893,8 +12910,8 @@
   /*
   Generated from: github/svermeulen/nvim-lusc/nvim-lusc
   */
-  nvim-lusc = buildVimPlugin {
-    pname = "nvim-lusc";
+  nvim-lusc-svermeulen = buildVimPlugin {
+    pname = "nvim-lusc-svermeulen";
     version = "2024-02-23";
     src = fetchurl {
       url = "https://github.com/svermeulen/nvim-lusc/archive/1537c2df46498cebeaae0c6cb274df885c90dbb1.tar.gz";
@@ -12910,8 +12927,8 @@
   /*
   Generated from: github/kr40/nvim-macros/nvim-macros
   */
-  nvim-macros = buildVimPlugin {
-    pname = "nvim-macros";
+  nvim-macros-kr40 = buildVimPlugin {
+    pname = "nvim-macros-kr40";
     version = "2024-02-16";
     src = fetchurl {
       url = "https://github.com/kr40/nvim-macros/archive/f29d08ee7844ed6c9552699206e8c977d6936ee4.tar.gz";
@@ -12927,8 +12944,8 @@
   /*
   Generated from: github/jameshiew/nvim-magic/nvim-magic
   */
-  nvim-magic = buildVimPlugin {
-    pname = "nvim-magic";
+  nvim-magic-jameshiew = buildVimPlugin {
+    pname = "nvim-magic-jameshiew";
     version = "2023-06-08";
     src = fetchurl {
       url = "https://github.com/jameshiew/nvim-magic/archive/9b13803df9ff4ca24418d6e0191ceed24ccf160e.tar.gz";
@@ -12944,8 +12961,8 @@
   /*
   Generated from: github/davidgranstrom/nvim-markdown-preview/nvim-markdown-preview
   */
-  nvim-markdown-preview = buildVimPlugin {
-    pname = "nvim-markdown-preview";
+  nvim-markdown-preview-davidgranstrom = buildVimPlugin {
+    pname = "nvim-markdown-preview-davidgranstrom";
     version = "2022-05-21";
     src = fetchurl {
       url = "https://github.com/davidgranstrom/nvim-markdown-preview/archive/3d6f941beb223b23122973d077522e9e2ee33068.tar.gz";
@@ -12961,8 +12978,8 @@
   /*
   Generated from: github/Nedra1998/nvim-mdlink/nvim-mdlink
   */
-  nvim-mdlink = buildVimPlugin {
-    pname = "nvim-mdlink";
+  nvim-mdlink-Nedra1998 = buildVimPlugin {
+    pname = "nvim-mdlink-Nedra1998";
     version = "2024-11-07";
     src = fetchurl {
       url = "https://github.com/Nedra1998/nvim-mdlink/archive/17f1ba488cafa18ddad415ae9cd7b8f7538f30c2.tar.gz";
@@ -12978,8 +12995,8 @@
   /*
   Generated from: github/scalameta/nvim-metals/nvim-metals
   */
-  nvim-metals = buildVimPlugin {
-    pname = "nvim-metals";
+  nvim-metals-scalameta = buildVimPlugin {
+    pname = "nvim-metals-scalameta";
     version = "2025-12-21";
     src = fetchurl {
       url = "https://github.com/scalameta/nvim-metals/archive/90dadd67bb1069ce1ba2a4dabf4e45da2807ba80.tar.gz";
@@ -12995,8 +13012,8 @@
   /*
   Generated from: github/bfredl/nvim-miniyank/nvim-miniyank
   */
-  nvim-miniyank = buildVimPlugin {
-    pname = "nvim-miniyank";
+  nvim-miniyank-bfredl = buildVimPlugin {
+    pname = "nvim-miniyank-bfredl";
     version = "2023-11-06";
     src = fetchurl {
       url = "https://github.com/bfredl/nvim-miniyank/archive/f92d8e6d89723e1487561dfe1e630f36e9bc52d0.tar.gz";
@@ -13012,8 +13029,8 @@
   /*
   Generated from: github/idanarye/nvim-moonicipal/nvim-moonicipal
   */
-  nvim-moonicipal = buildVimPlugin {
-    pname = "nvim-moonicipal";
+  nvim-moonicipal-idanarye = buildVimPlugin {
+    pname = "nvim-moonicipal-idanarye";
     version = "2025-11-03";
     src = fetchurl {
       url = "https://github.com/idanarye/nvim-moonicipal/archive/9ebe72787be2a3339bdc91e1c3eafe58a389c0c9.tar.gz";
@@ -13029,8 +13046,8 @@
   /*
   Generated from: github/SmiteshP/nvim-navbuddy/nvim-navbuddy
   */
-  nvim-navbuddy = buildVimPlugin {
-    pname = "nvim-navbuddy";
+  nvim-navbuddy-SmiteshP = buildVimPlugin {
+    pname = "nvim-navbuddy-SmiteshP";
     version = "2025-05-01";
     src = fetchurl {
       url = "https://github.com/SmiteshP/nvim-navbuddy/archive/a34786c77a528519f6b8a142db7609f6e387842d.tar.gz";
@@ -13046,8 +13063,8 @@
   /*
   Generated from: github/SmiteshP/nvim-navic/nvim-navic
   */
-  nvim-navic = buildVimPlugin {
-    pname = "nvim-navic";
+  nvim-navic-SmiteshP = buildVimPlugin {
+    pname = "nvim-navic-SmiteshP";
     version = "2025-12-29";
     src = fetchurl {
       url = "https://github.com/SmiteshP/nvim-navic/archive/f5eba192f39b453675d115351808bd51276d9de5.tar.gz";
@@ -13063,8 +13080,8 @@
   /*
   Generated from: github/AckslD/nvim-neoclip.lua/nvim-neoclip-lua
   */
-  nvim-neoclip-lua = buildVimPlugin {
-    pname = "nvim-neoclip-lua";
+  nvim-neoclip-lua-AckslD = buildVimPlugin {
+    pname = "nvim-neoclip-lua-AckslD";
     version = "2025-02-09";
     src = fetchurl {
       url = "https://github.com/AckslD/nvim-neoclip.lua/archive/831a97c7697736411a05ff8b91e8798ea4c2d6fb.tar.gz";
@@ -13080,8 +13097,8 @@
   /*
   Generated from: github/nvim-neotest/nvim-nio/nvim-nio
   */
-  nvim-nio = buildVimPlugin {
-    pname = "nvim-nio";
+  nvim-nio-nvim-neotest = buildVimPlugin {
+    pname = "nvim-nio-nvim-neotest";
     version = "2025-01-20";
     src = fetchurl {
       url = "https://github.com/nvim-neotest/nvim-nio/archive/21f5324bfac14e22ba26553caf69ec76ae8a7662.tar.gz";
@@ -13097,8 +13114,8 @@
   /*
   Generated from: github/ya2s/nvim-nonicons/nvim-nonicons
   */
-  nvim-nonicons = buildVimPlugin {
-    pname = "nvim-nonicons";
+  nvim-nonicons-ya2s = buildVimPlugin {
+    pname = "nvim-nonicons-ya2s";
     version = "2023-02-04";
     src = fetchurl {
       url = "https://github.com/ya2s/nvim-nonicons/archive/ceda07dc7339f35444b5f4c4016f76a9eb42ac16.tar.gz";
@@ -13114,8 +13131,8 @@
   /*
   Generated from: github/rcarriga/nvim-notify/nvim-notify
   */
-  nvim-notify = buildVimPlugin {
-    pname = "nvim-notify";
+  nvim-notify-rcarriga = buildVimPlugin {
+    pname = "nvim-notify-rcarriga";
     version = "2025-09-06";
     src = fetchurl {
       url = "https://github.com/rcarriga/nvim-notify/archive/8701bece920b38ea289b457f902e2ad184131a5d.tar.gz";
@@ -13131,8 +13148,8 @@
   /*
   Generated from: github/LhKipp/nvim-nu/nvim-nu
   */
-  nvim-nu = buildVimPlugin {
-    pname = "nvim-nu";
+  nvim-nu-LhKipp = buildVimPlugin {
+    pname = "nvim-nu-LhKipp";
     version = "2024-12-10";
     src = fetchurl {
       url = "https://github.com/LhKipp/nvim-nu/archive/161b005944e1d0704d1c8c83dcfc9b6b459a2d2d.tar.gz";
@@ -13148,8 +13165,8 @@
   /*
   Generated from: github/sitiom/nvim-numbertoggle/nvim-numbertoggle
   */
-  nvim-numbertoggle = buildVimPlugin {
-    pname = "nvim-numbertoggle";
+  nvim-numbertoggle-sitiom = buildVimPlugin {
+    pname = "nvim-numbertoggle-sitiom";
     version = "2025-11-21";
     src = fetchurl {
       url = "https://github.com/sitiom/nvim-numbertoggle/archive/796af12a1e2aed6faba9be08e6fb5d472bab29de.tar.gz";
@@ -13165,8 +13182,8 @@
   /*
   Generated from: github/chrisgrieser/nvim-origami/nvim-origami
   */
-  nvim-origami = buildVimPlugin {
-    pname = "nvim-origami";
+  nvim-origami-chrisgrieser = buildVimPlugin {
+    pname = "nvim-origami-chrisgrieser";
     version = "2026-01-06";
     src = fetchurl {
       url = "https://github.com/chrisgrieser/nvim-origami/archive/c660a3d7e3db602faa5fb6b5ff19ba7a1d9e71fe.tar.gz";
@@ -13182,8 +13199,8 @@
   /*
   Generated from: github/ojroques/nvim-osc52/nvim-osc52
   */
-  nvim-osc52 = buildVimPlugin {
-    pname = "nvim-osc52";
+  nvim-osc52-ojroques = buildVimPlugin {
+    pname = "nvim-osc52-ojroques";
     version = "2024-05-24";
     src = fetchurl {
       url = "https://github.com/ojroques/nvim-osc52/archive/04cfaba1865ae5c53b6f887c3ca7304973824fb2.tar.gz";
@@ -13199,8 +13216,8 @@
   /*
   Generated from: github/mordechaihadad/nvim-papadark/nvim-papadark
   */
-  nvim-papadark = buildVimPlugin {
-    pname = "nvim-papadark";
+  nvim-papadark-mordechaihadad = buildVimPlugin {
+    pname = "nvim-papadark-mordechaihadad";
     version = "2021-10-30";
     src = fetchurl {
       url = "https://github.com/mordechaihadad/nvim-papadark/archive/2b832c40fb5d213633a1bd6a531b8d8c10d6a981.tar.gz";
@@ -13216,8 +13233,8 @@
   /*
   Generated from: github/gennaro-tedesco/nvim-peekup/nvim-peekup
   */
-  nvim-peekup = buildVimPlugin {
-    pname = "nvim-peekup";
+  nvim-peekup-gennaro-tedesco = buildVimPlugin {
+    pname = "nvim-peekup-gennaro-tedesco";
     version = "2023-02-23";
     src = fetchurl {
       url = "https://github.com/gennaro-tedesco/nvim-peekup/archive/82251c54cd60f8504dfd9acd853eae57fe832447.tar.gz";
@@ -13233,8 +13250,8 @@
   /*
   Generated from: github/askfiy/nvim-picgo/nvim-picgo
   */
-  nvim-picgo = buildVimPlugin {
-    pname = "nvim-picgo";
+  nvim-picgo-askfiy = buildVimPlugin {
+    pname = "nvim-picgo-askfiy";
     version = "2025-05-01";
     src = fetchurl {
       url = "https://github.com/askfiy/nvim-picgo/archive/2d4fcd6d3651bb299766391b48d87fac8cd4c9d7.tar.gz";
@@ -13250,8 +13267,8 @@
   /*
   Generated from: github/wsdjeg/nvim-plug/nvim-plug
   */
-  nvim-plug = buildVimPlugin {
-    pname = "nvim-plug";
+  nvim-plug-wsdjeg = buildVimPlugin {
+    pname = "nvim-plug-wsdjeg";
     version = "2026-01-08";
     src = fetchurl {
       url = "https://github.com/wsdjeg/nvim-plug/archive/484bf1e2318e6ac7444b4d1ced01a1e2673f200c.tar.gz";
@@ -13267,8 +13284,8 @@
   /*
   Generated from: github/ellisonleao/nvim-plugin-template/nvim-plugin-template
   */
-  nvim-plugin-template = buildVimPlugin {
-    pname = "nvim-plugin-template";
+  nvim-plugin-template-ellisonleao = buildVimPlugin {
+    pname = "nvim-plugin-template-ellisonleao";
     version = "2025-10-08";
     src = fetchurl {
       url = "https://github.com/ellisonleao/nvim-plugin-template/archive/8e045ff12e1775c4c3b2318cf884622306d1d323.tar.gz";
@@ -13284,8 +13301,8 @@
   /*
   Generated from: github/gennaro-tedesco/nvim-possession/nvim-possession
   */
-  nvim-possession = buildVimPlugin {
-    pname = "nvim-possession";
+  nvim-possession-gennaro-tedesco = buildVimPlugin {
+    pname = "nvim-possession-gennaro-tedesco";
     version = "2025-09-07";
     src = fetchurl {
       url = "https://github.com/gennaro-tedesco/nvim-possession/archive/fa1a37ffcba9e8d708192ebb4b031b53679f0246.tar.gz";
@@ -13301,8 +13318,8 @@
   /*
   Generated from: github/yorickpeterse/nvim-pqf/nvim-pqf
   */
-  nvim-pqf = buildVimPlugin {
-    pname = "nvim-pqf";
+  nvim-pqf-yorickpeterse = buildVimPlugin {
+    pname = "nvim-pqf-yorickpeterse";
     version = "2024-05-20";
     src = fetchurl {
       url = "https://github.com/yorickpeterse/nvim-pqf/archive/148ee2ca8b06d83fd9bf6f9b9497724ad39a07d6.tar.gz";
@@ -13318,8 +13335,8 @@
   /*
   Generated from: github/chrisgrieser/nvim-puppeteer/nvim-puppeteer
   */
-  nvim-puppeteer = buildVimPlugin {
-    pname = "nvim-puppeteer";
+  nvim-puppeteer-chrisgrieser = buildVimPlugin {
+    pname = "nvim-puppeteer-chrisgrieser";
     version = "2026-01-06";
     src = fetchurl {
       url = "https://github.com/chrisgrieser/nvim-puppeteer/archive/c01d5cbb690af0d1df651f1eef01fcfab149c63b.tar.gz";
@@ -13335,8 +13352,8 @@
   /*
   Generated from: github/RishabhRD/nvim-rdark/nvim-rdark
   */
-  nvim-rdark = buildVimPlugin {
-    pname = "nvim-rdark";
+  nvim-rdark-RishabhRD = buildVimPlugin {
+    pname = "nvim-rdark-RishabhRD";
     version = "2020-12-25";
     src = fetchurl {
       url = "https://github.com/RishabhRD/nvim-rdark/archive/7c32ab475b992ebf63dc6997bae61717f885d118.tar.gz";
@@ -13352,8 +13369,8 @@
   /*
   Generated from: github/chrisgrieser/nvim-recorder/nvim-recorder
   */
-  nvim-recorder = buildVimPlugin {
-    pname = "nvim-recorder";
+  nvim-recorder-chrisgrieser = buildVimPlugin {
+    pname = "nvim-recorder-chrisgrieser";
     version = "2026-01-06";
     src = fetchurl {
       url = "https://github.com/chrisgrieser/nvim-recorder/archive/d2a6c5952545d4a4d8b82aafbdbf40d1c9edb744.tar.gz";
@@ -13369,8 +13386,8 @@
   /*
   Generated from: github/bennypowers/nvim-regexplainer/nvim-regexplainer
   */
-  nvim-regexplainer = buildVimPlugin {
-    pname = "nvim-regexplainer";
+  nvim-regexplainer-bennypowers = buildVimPlugin {
+    pname = "nvim-regexplainer-bennypowers";
     version = "2025-12-22";
     src = fetchurl {
       url = "https://github.com/bennypowers/nvim-regexplainer/archive/78257e4ade22ddcc74dc18b67444e8da079ee7ec.tar.gz";
@@ -13386,8 +13403,8 @@
   /*
   Generated from: github/jamestthompson3/nvim-remote-containers/nvim-remote-containers
   */
-  nvim-remote-containers = buildVimPlugin {
-    pname = "nvim-remote-containers";
+  nvim-remote-containers-jamestthompson3 = buildVimPlugin {
+    pname = "nvim-remote-containers-jamestthompson3";
     version = "2023-12-22";
     src = fetchurl {
       url = "https://github.com/jamestthompson3/nvim-remote-containers/archive/73c2cbc59b69b4026682aea6bab225831fb8eaa4.tar.gz";
@@ -13403,8 +13420,8 @@
   /*
   Generated from: github/AckslD/nvim-revJ.lua/nvim-revJ-lua
   */
-  nvim-revJ-lua = buildVimPlugin {
-    pname = "nvim-revJ-lua";
+  nvim-revJ-lua-AckslD = buildVimPlugin {
+    pname = "nvim-revJ-lua-AckslD";
     version = "2022-04-11";
     src = fetchurl {
       url = "https://github.com/AckslD/nvim-revJ.lua/archive/fca94c6b401f3b0fa9554e1b0d5251f8180b15a2.tar.gz";
@@ -13420,8 +13437,8 @@
   /*
   Generated from: github/duane9/nvim-rg/nvim-rg
   */
-  nvim-rg = buildVimPlugin {
-    pname = "nvim-rg";
+  nvim-rg-duane9 = buildVimPlugin {
+    pname = "nvim-rg-duane9";
     version = "2025-11-18";
     src = fetchurl {
       url = "https://github.com/duane9/nvim-rg/archive/27c9ca583d05a73048186dc3048b26428ef21753.tar.gz";
@@ -13437,8 +13454,8 @@
   /*
   Generated from: github/chrisgrieser/nvim-rip-substitute/nvim-rip-substitute
   */
-  nvim-rip-substitute = buildVimPlugin {
-    pname = "nvim-rip-substitute";
+  nvim-rip-substitute-chrisgrieser = buildVimPlugin {
+    pname = "nvim-rip-substitute-chrisgrieser";
     version = "2026-01-06";
     src = fetchurl {
       url = "https://github.com/chrisgrieser/nvim-rip-substitute/archive/81110457ce4e2834aa54c5086667baaedd3ace86.tar.gz";
@@ -13454,8 +13471,8 @@
   /*
   Generated from: github/chrisgrieser/nvim-rulebook/nvim-rulebook
   */
-  nvim-rulebook = buildVimPlugin {
-    pname = "nvim-rulebook";
+  nvim-rulebook-chrisgrieser = buildVimPlugin {
+    pname = "nvim-rulebook-chrisgrieser";
     version = "2026-01-06";
     src = fetchurl {
       url = "https://github.com/chrisgrieser/nvim-rulebook/archive/b58acd7e1cc627b771c9f6d180dd6a0c020d981f.tar.gz";
@@ -13471,8 +13488,8 @@
   /*
   Generated from: github/chrisgrieser/nvim-scissors/nvim-scissors
   */
-  nvim-scissors = buildVimPlugin {
-    pname = "nvim-scissors";
+  nvim-scissors-chrisgrieser = buildVimPlugin {
+    pname = "nvim-scissors-chrisgrieser";
     version = "2026-01-08";
     src = fetchurl {
       url = "https://github.com/chrisgrieser/nvim-scissors/archive/8a46dc71fb001ba3a566fd6badf3d64370153e9b.tar.gz";
@@ -13488,8 +13505,8 @@
   /*
   Generated from: github/petertriho/nvim-scrollbar/nvim-scrollbar
   */
-  nvim-scrollbar = buildVimPlugin {
-    pname = "nvim-scrollbar";
+  nvim-scrollbar-petertriho = buildVimPlugin {
+    pname = "nvim-scrollbar-petertriho";
     version = "2025-11-17";
     src = fetchurl {
       url = "https://github.com/petertriho/nvim-scrollbar/archive/f8e87b96cd6362ef8579be456afee3b38fd7e2a8.tar.gz";
@@ -13505,8 +13522,8 @@
   /*
   Generated from: github/dstein64/nvim-scrollview/nvim-scrollview
   */
-  nvim-scrollview = buildVimPlugin {
-    pname = "nvim-scrollview";
+  nvim-scrollview-dstein64 = buildVimPlugin {
+    pname = "nvim-scrollview-dstein64";
     version = "2025-10-02";
     src = fetchurl {
       url = "https://github.com/dstein64/nvim-scrollview/archive/316c37c96e6ab7d15e18f878366d0497179e8891.tar.gz";
@@ -13522,8 +13539,8 @@
   /*
   Generated from: github/s1n7ax/nvim-search-and-replace/nvim-search-and-replace
   */
-  nvim-search-and-replace = buildVimPlugin {
-    pname = "nvim-search-and-replace";
+  nvim-search-and-replace-s1n7ax = buildVimPlugin {
+    pname = "nvim-search-and-replace-s1n7ax";
     version = "2022-09-06";
     src = fetchurl {
       url = "https://github.com/s1n7ax/nvim-search-and-replace/archive/1b455cf945c42fa28f95d111d1a1110d24b37175.tar.gz";
@@ -13539,8 +13556,8 @@
   /*
   Generated from: github/johann2357/nvim-smartbufs/nvim-smartbufs
   */
-  nvim-smartbufs = buildVimPlugin {
-    pname = "nvim-smartbufs";
+  nvim-smartbufs-johann2357 = buildVimPlugin {
+    pname = "nvim-smartbufs-johann2357";
     version = "2021-06-14";
     src = fetchurl {
       url = "https://github.com/johann2357/nvim-smartbufs/archive/dddbfe258e41651554848d0e3421b35c1a0dcc37.tar.gz";
@@ -13556,8 +13573,8 @@
   /*
   Generated from: github/garymjr/nvim-snippets/nvim-snippets
   */
-  nvim-snippets = buildVimPlugin {
-    pname = "nvim-snippets";
+  nvim-snippets-garymjr = buildVimPlugin {
+    pname = "nvim-snippets-garymjr";
     version = "2024-07-10";
     src = fetchurl {
       url = "https://github.com/garymjr/nvim-snippets/archive/56b4052f71220144689caaa2e5b66222ba5661eb.tar.gz";
@@ -13573,8 +13590,8 @@
   /*
   Generated from: github/dcampos/nvim-snippy/nvim-snippy
   */
-  nvim-snippy = buildVimPlugin {
-    pname = "nvim-snippy";
+  nvim-snippy-dcampos = buildVimPlugin {
+    pname = "nvim-snippy-dcampos";
     version = "2025-09-21";
     src = fetchurl {
       url = "https://github.com/dcampos/nvim-snippy/archive/504ab14eeb14301d9b2a858a2a6cf99ccc8d60d0.tar.gz";
@@ -13590,8 +13607,8 @@
   /*
   Generated from: github/ishan9299/nvim-solarized-lua/nvim-solarized-lua
   */
-  nvim-solarized-lua = buildVimPlugin {
-    pname = "nvim-solarized-lua";
+  nvim-solarized-lua-ishan9299 = buildVimPlugin {
+    pname = "nvim-solarized-lua-ishan9299";
     version = "2024-03-04";
     src = fetchurl {
       url = "https://github.com/ishan9299/nvim-solarized-lua/archive/d69a263c97cbc765ca442d682b3283aefd61d4ac.tar.gz";
@@ -13607,8 +13624,8 @@
   /*
   Generated from: github/nvim-pack/nvim-spectre/nvim-spectre
   */
-  nvim-spectre = buildVimPlugin {
-    pname = "nvim-spectre";
+  nvim-spectre-nvim-pack = buildVimPlugin {
+    pname = "nvim-spectre-nvim-pack";
     version = "2025-05-13";
     src = fetchurl {
       url = "https://github.com/nvim-pack/nvim-spectre/archive/72f56f7585903cd7bf92c665351aa585e150af0f.tar.gz";
@@ -13624,8 +13641,8 @@
   /*
   Generated from: github/chrisgrieser/nvim-spider/nvim-spider
   */
-  nvim-spider = buildVimPlugin {
-    pname = "nvim-spider";
+  nvim-spider-chrisgrieser = buildVimPlugin {
+    pname = "nvim-spider-chrisgrieser";
     version = "2026-01-06";
     src = fetchurl {
       url = "https://github.com/chrisgrieser/nvim-spider/archive/965671e7171982fffcb94f9e1489f587f5265426.tar.gz";
@@ -13641,8 +13658,8 @@
   /*
   Generated from: github/m15a/nvim-srcerite/nvim-srcerite
   */
-  nvim-srcerite = buildVimPlugin {
-    pname = "nvim-srcerite";
+  nvim-srcerite-m15a = buildVimPlugin {
+    pname = "nvim-srcerite-m15a";
     version = "2026-01-02";
     src = fetchurl {
       url = "https://github.com/m15a/nvim-srcerite/archive/0f4dfe4eff32d7b1030ab52d417c1c0747af2dc4.tar.gz";
@@ -13658,8 +13675,8 @@
   /*
   Generated from: github/emileferreira/nvim-strict/nvim-strict
   */
-  nvim-strict = buildVimPlugin {
-    pname = "nvim-strict";
+  nvim-strict-emileferreira = buildVimPlugin {
+    pname = "nvim-strict-emileferreira";
     version = "2025-01-08";
     src = fetchurl {
       url = "https://github.com/emileferreira/nvim-strict/archive/146da0e4c914f3bc5805187aeb94a1b461dfdd84.tar.gz";
@@ -13675,8 +13692,8 @@
   /*
   Generated from: github/kylechui/nvim-surround/nvim-surround
   */
-  nvim-surround = buildVimPlugin {
-    pname = "nvim-surround";
+  nvim-surround-kylechui = buildVimPlugin {
+    pname = "nvim-surround-kylechui";
     version = "2025-12-14";
     src = fetchurl {
       url = "https://github.com/kylechui/nvim-surround/archive/1098d7b3c34adcfa7feb3289ee434529abd4afd1.tar.gz";
@@ -13692,8 +13709,8 @@
   /*
   Generated from: github/crispgm/nvim-tabline/nvim-tabline
   */
-  nvim-tabline = buildVimPlugin {
-    pname = "nvim-tabline";
+  nvim-tabline-crispgm = buildVimPlugin {
+    pname = "nvim-tabline-crispgm";
     version = "2024-06-03";
     src = fetchurl {
       url = "https://github.com/crispgm/nvim-tabline/archive/287cd88157f98da76cb32ac7df7ec5c546414ec0.tar.gz";
@@ -13709,8 +13726,8 @@
   /*
   Generated from: github/s1n7ax/nvim-terminal/nvim-terminal
   */
-  nvim-terminal = buildVimPlugin {
-    pname = "nvim-terminal";
+  nvim-terminal-s1n7ax = buildVimPlugin {
+    pname = "nvim-terminal-s1n7ax";
     version = "2025-08-05";
     src = fetchurl {
       url = "https://github.com/s1n7ax/nvim-terminal/archive/e0012e6c0132b01820b4e8c4e8936aac6efb4825.tar.gz";
@@ -13726,8 +13743,8 @@
   /*
   Generated from: github/norcalli/nvim-terminal.lua/nvim-terminal-lua
   */
-  nvim-terminal-lua = buildVimPlugin {
-    pname = "nvim-terminal-lua";
+  nvim-terminal-lua-norcalli = buildVimPlugin {
+    pname = "nvim-terminal-lua-norcalli";
     version = "2019-10-17";
     src = fetchurl {
       url = "https://github.com/norcalli/nvim-terminal.lua/archive/095f98aaa7265628a72cd2706350c091544b5602.tar.gz";
@@ -13743,8 +13760,8 @@
   /*
   Generated from: github/klen/nvim-test/nvim-test
   */
-  nvim-test = buildVimPlugin {
-    pname = "nvim-test";
+  nvim-test-klen = buildVimPlugin {
+    pname = "nvim-test-klen";
     version = "2023-05-02";
     src = fetchurl {
       url = "https://github.com/klen/nvim-test/archive/e06f3d029ee161f3ead6193cf27354d1eb8723c3.tar.gz";
@@ -13760,8 +13777,8 @@
   /*
   Generated from: github/alec-gibson/nvim-tetris/nvim-tetris
   */
-  nvim-tetris = buildVimPlugin {
-    pname = "nvim-tetris";
+  nvim-tetris-alec-gibson = buildVimPlugin {
+    pname = "nvim-tetris-alec-gibson";
     version = "2021-06-28";
     src = fetchurl {
       url = "https://github.com/alec-gibson/nvim-tetris/archive/d17c99fb527ada98ffb0212ffc87ccda6fd4f7d9.tar.gz";
@@ -13777,8 +13794,8 @@
   /*
   Generated from: github/chrisgrieser/nvim-tinygit/nvim-tinygit
   */
-  nvim-tinygit = buildVimPlugin {
-    pname = "nvim-tinygit";
+  nvim-tinygit-chrisgrieser = buildVimPlugin {
+    pname = "nvim-tinygit-chrisgrieser";
     version = "2026-01-06";
     src = fetchurl {
       url = "https://github.com/chrisgrieser/nvim-tinygit/archive/c1ebb5d4a5e4b8b2cbb91ca1fdb52f4b391c3793.tar.gz";
@@ -13794,8 +13811,8 @@
   /*
   Generated from: github/richardbizik/nvim-toc/nvim-toc
   */
-  nvim-toc = buildVimPlugin {
-    pname = "nvim-toc";
+  nvim-toc-richardbizik = buildVimPlugin {
+    pname = "nvim-toc-richardbizik";
     version = "2026-01-06";
     src = fetchurl {
       url = "https://github.com/richardbizik/nvim-toc/archive/2c0d90ee572780e0ae4632c93d0423f67032d024.tar.gz";
@@ -13811,8 +13828,8 @@
   /*
   Generated from: github/nguyenvukhang/nvim-toggler/nvim-toggler
   */
-  nvim-toggler = buildVimPlugin {
-    pname = "nvim-toggler";
+  nvim-toggler-nguyenvukhang = buildVimPlugin {
+    pname = "nvim-toggler-nguyenvukhang";
     version = "2024-06-15";
     src = fetchurl {
       url = "https://github.com/nguyenvukhang/nvim-toggler/archive/467808600882fd6c9e33b9dbc4889b1b80cfd917.tar.gz";
@@ -13828,8 +13845,8 @@
   /*
   Generated from: github/akinsho/nvim-toggleterm.lua/nvim-toggleterm-lua
   */
-  nvim-toggleterm-lua = buildVimPlugin {
-    pname = "nvim-toggleterm-lua";
+  nvim-toggleterm-lua-akinsho = buildVimPlugin {
+    pname = "nvim-toggleterm-lua-akinsho";
     version = "2025-03-09";
     src = fetchurl {
       url = "https://github.com/akinsho/nvim-toggleterm.lua/archive/9a88eae817ef395952e08650b3283726786fb5fb.tar.gz";
@@ -13845,8 +13862,8 @@
   /*
   Generated from: github/xiyaowong/nvim-transparent/nvim-transparent
   */
-  nvim-transparent = buildVimPlugin {
-    pname = "nvim-transparent";
+  nvim-transparent-xiyaowong = buildVimPlugin {
+    pname = "nvim-transparent-xiyaowong";
     version = "2025-06-22";
     src = fetchurl {
       url = "https://github.com/xiyaowong/nvim-transparent/archive/8ac59883de84e9cd1850ea25cf087031c5ba7d54.tar.gz";
@@ -13862,8 +13879,8 @@
   /*
   Generated from: github/nvim-tree/nvim-tree.lua/nvim-tree-lua
   */
-  nvim-tree-lua = buildVimPlugin {
-    pname = "nvim-tree-lua";
+  nvim-tree-lua-nvim-tree = buildVimPlugin {
+    pname = "nvim-tree-lua-nvim-tree";
     version = "2025-12-20";
     src = fetchurl {
       url = "https://github.com/nvim-tree/nvim-tree.lua/archive/b8b44b6a2494d086a9177251a119f9daec6cace8.tar.gz";
@@ -13879,8 +13896,8 @@
   /*
   Generated from: github/mfussenegger/nvim-treehopper/nvim-treehopper
   */
-  nvim-treehopper = buildVimPlugin {
-    pname = "nvim-treehopper";
+  nvim-treehopper-mfussenegger = buildVimPlugin {
+    pname = "nvim-treehopper-mfussenegger";
     version = "2025-06-16";
     src = fetchurl {
       url = "https://github.com/mfussenegger/nvim-treehopper/archive/e3861c0231631c6af317d6746bb78fdb428a58f3.tar.gz";
@@ -13896,8 +13913,8 @@
   /*
   Generated from: github/nvim-treesitter/nvim-treesitter/nvim-treesitter
   */
-  nvim-treesitter = buildVimPlugin {
-    pname = "nvim-treesitter";
+  nvim-treesitter-nvim-treesitter = buildVimPlugin {
+    pname = "nvim-treesitter-nvim-treesitter";
     version = "2026-01-08";
     src = fetchurl {
       url = "https://github.com/nvim-treesitter/nvim-treesitter/archive/2ba5ec184609a96b513bf4c53a20512d64e27f39.tar.gz";
@@ -13913,8 +13930,8 @@
   /*
   Generated from: github/nvim-treesitter/nvim-treesitter-context/nvim-treesitter-context
   */
-  nvim-treesitter-context = buildVimPlugin {
-    pname = "nvim-treesitter-context";
+  nvim-treesitter-context-nvim-treesitter = buildVimPlugin {
+    pname = "nvim-treesitter-context-nvim-treesitter";
     version = "2025-12-06";
     src = fetchurl {
       url = "https://github.com/nvim-treesitter/nvim-treesitter-context/archive/64dd4cf3f6fd0ab17622c5ce15c91fc539c3f24a.tar.gz";
@@ -13930,8 +13947,8 @@
   /*
   Generated from: github/nvim-treesitter/nvim-treesitter-refactor/nvim-treesitter-refactor
   */
-  nvim-treesitter-refactor = buildVimPlugin {
-    pname = "nvim-treesitter-refactor";
+  nvim-treesitter-refactor-nvim-treesitter = buildVimPlugin {
+    pname = "nvim-treesitter-refactor-nvim-treesitter";
     version = "2025-11-28";
     src = fetchurl {
       url = "https://github.com/nvim-treesitter/nvim-treesitter-refactor/archive/9cc0d22becf72e18808208cd0ce85032a2b19c6f.tar.gz";
@@ -13947,8 +13964,8 @@
   /*
   Generated from: github/nvim-treesitter/nvim-treesitter-textobjects/nvim-treesitter-textobjects
   */
-  nvim-treesitter-textobjects = buildVimPlugin {
-    pname = "nvim-treesitter-textobjects";
+  nvim-treesitter-textobjects-nvim-treesitter = buildVimPlugin {
+    pname = "nvim-treesitter-textobjects-nvim-treesitter";
     version = "2025-10-31";
     src = fetchurl {
       url = "https://github.com/nvim-treesitter/nvim-treesitter-textobjects/archive/5ca4aaa6efdcc59be46b95a3e876300cfead05ef.tar.gz";
@@ -13964,8 +13981,8 @@
   /*
   Generated from: github/RRethy/nvim-treesitter-textsubjects/nvim-treesitter-textsubjects
   */
-  nvim-treesitter-textsubjects = buildVimPlugin {
-    pname = "nvim-treesitter-textsubjects";
+  nvim-treesitter-textsubjects-RRethy = buildVimPlugin {
+    pname = "nvim-treesitter-textsubjects-RRethy";
     version = "2025-08-14";
     src = fetchurl {
       url = "https://github.com/RRethy/nvim-treesitter-textsubjects/archive/9e3edd38e44c8f3af5634c5e30a33ebd79227f11.tar.gz";
@@ -13981,8 +13998,8 @@
   /*
   Generated from: github/AckslD/nvim-trevJ.lua/nvim-trevJ-lua
   */
-  nvim-trevJ-lua = buildVimPlugin {
-    pname = "nvim-trevJ-lua";
+  nvim-trevJ-lua-AckslD = buildVimPlugin {
+    pname = "nvim-trevJ-lua-AckslD";
     version = "2025-07-21";
     src = fetchurl {
       url = "https://github.com/AckslD/nvim-trevJ.lua/archive/db6a428056a7375ec1f1f9782e2cea7c628ab95d.tar.gz";
@@ -13998,8 +14015,8 @@
   /*
   Generated from: github/windwp/nvim-ts-autotag/nvim-ts-autotag
   */
-  nvim-ts-autotag = buildVimPlugin {
-    pname = "nvim-ts-autotag";
+  nvim-ts-autotag-windwp = buildVimPlugin {
+    pname = "nvim-ts-autotag-windwp";
     version = "2025-09-10";
     src = fetchurl {
       url = "https://github.com/windwp/nvim-ts-autotag/archive/c4ca798ab95b316a768d51eaaaee48f64a4a46bc.tar.gz";
@@ -14015,8 +14032,8 @@
   /*
   Generated from: github/JoosepAlviste/nvim-ts-context-commentstring/nvim-ts-context-commentstring
   */
-  nvim-ts-context-commentstring = buildVimPlugin {
-    pname = "nvim-ts-context-commentstring";
+  nvim-ts-context-commentstring-JoosepAlviste = buildVimPlugin {
+    pname = "nvim-ts-context-commentstring-JoosepAlviste";
     version = "2024-12-07";
     src = fetchurl {
       url = "https://github.com/JoosepAlviste/nvim-ts-context-commentstring/archive/1b212c2eee76d787bbea6aa5e92a2b534e7b4f8f.tar.gz";
@@ -14032,8 +14049,8 @@
   /*
   Generated from: github/mfussenegger/nvim-ts-hint-textobject/nvim-ts-hint-textobject
   */
-  nvim-ts-hint-textobject = buildVimPlugin {
-    pname = "nvim-ts-hint-textobject";
+  nvim-ts-hint-textobject-mfussenegger = buildVimPlugin {
+    pname = "nvim-ts-hint-textobject-mfussenegger";
     version = "2025-06-16";
     src = fetchurl {
       url = "https://github.com/mfussenegger/nvim-ts-hint-textobject/archive/e3861c0231631c6af317d6746bb78fdb428a58f3.tar.gz";
@@ -14049,8 +14066,8 @@
   /*
   Generated from: github/hiphish/nvim-ts-rainbow2/nvim-ts-rainbow2
   */
-  nvim-ts-rainbow2 = buildVimPlugin {
-    pname = "nvim-ts-rainbow2";
+  nvim-ts-rainbow2-hiphish = buildVimPlugin {
+    pname = "nvim-ts-rainbow2-hiphish";
     version = "2023-07-12";
     src = fetchurl {
       url = "https://github.com/hiphish/nvim-ts-rainbow2/archive/b3120cd5ae9ca524af9cb602f41e12e301fa985f.tar.gz";
@@ -14066,8 +14083,8 @@
   /*
   Generated from: github/kevinhwang91/nvim-ufo/nvim-ufo
   */
-  nvim-ufo = buildVimPlugin {
-    pname = "nvim-ufo";
+  nvim-ufo-kevinhwang91 = buildVimPlugin {
+    pname = "nvim-ufo-kevinhwang91";
     version = "2025-10-06";
     src = fetchurl {
       url = "https://github.com/kevinhwang91/nvim-ufo/archive/72d54c31079d38d8dfc5456131b1d0fb5c0264b0.tar.gz";
@@ -14083,8 +14100,8 @@
   /*
   Generated from: github/samjwill/nvim-unception/nvim-unception
   */
-  nvim-unception = buildVimPlugin {
-    pname = "nvim-unception";
+  nvim-unception-samjwill = buildVimPlugin {
+    pname = "nvim-unception-samjwill";
     version = "2025-04-04";
     src = fetchurl {
       url = "https://github.com/samjwill/nvim-unception/archive/df0e505f0f1371c49c2bcf993985962edb5a279d.tar.gz";
@@ -14100,8 +14117,8 @@
   /*
   Generated from: github/chrisgrieser/nvim-various-textobjs/nvim-various-textobjs
   */
-  nvim-various-textobjs = buildVimPlugin {
-    pname = "nvim-various-textobjs";
+  nvim-various-textobjs-chrisgrieser = buildVimPlugin {
+    pname = "nvim-various-textobjs-chrisgrieser";
     version = "2026-01-06";
     src = fetchurl {
       url = "https://github.com/chrisgrieser/nvim-various-textobjs/archive/71bd98e08e96a730a60566f929a6ac3974ede0e0.tar.gz";
@@ -14117,8 +14134,8 @@
   /*
   Generated from: github/yioneko/nvim-vtsls/nvim-vtsls
   */
-  nvim-vtsls = buildVimPlugin {
-    pname = "nvim-vtsls";
+  nvim-vtsls-yioneko = buildVimPlugin {
+    pname = "nvim-vtsls-yioneko";
     version = "2025-07-16";
     src = fetchurl {
       url = "https://github.com/yioneko/nvim-vtsls/archive/0b5f73c9e50ce95842ea07bb3f05c7d66d87d14a.tar.gz";
@@ -14134,8 +14151,8 @@
   /*
   Generated from: github/nvim-tree/nvim-web-devicons/nvim-web-devicons
   */
-  nvim-web-devicons = buildVimPlugin {
-    pname = "nvim-web-devicons";
+  nvim-web-devicons-nvim-tree = buildVimPlugin {
+    pname = "nvim-web-devicons-nvim-tree";
     version = "2025-12-21";
     src = fetchurl {
       url = "https://github.com/nvim-tree/nvim-web-devicons/archive/6788013bb9cb784e606ada44206b0e755e4323d7.tar.gz";
@@ -14151,8 +14168,8 @@
   /*
   Generated from: github/yorickpeterse/nvim-window/nvim-window
   */
-  nvim-window = buildVimPlugin {
-    pname = "nvim-window";
+  nvim-window-yorickpeterse = buildVimPlugin {
+    pname = "nvim-window-yorickpeterse";
     version = "2025-08-25";
     src = fetchurl {
       url = "https://github.com/yorickpeterse/nvim-window/archive/a8d965f158cff222713a3b3ab341445d331e6e3a.tar.gz";
@@ -14168,8 +14185,8 @@
   /*
   Generated from: github/s1n7ax/nvim-window-picker/nvim-window-picker
   */
-  nvim-window-picker = buildVimPlugin {
-    pname = "nvim-window-picker";
+  nvim-window-picker-s1n7ax = buildVimPlugin {
+    pname = "nvim-window-picker-s1n7ax";
     version = "2025-02-26";
     src = fetchurl {
       url = "https://github.com/s1n7ax/nvim-window-picker/archive/6382540b2ae5de6c793d4aa2e3fe6dbb518505ec.tar.gz";
@@ -14185,8 +14202,8 @@
   /*
   Generated from: github/seandewar/nvimesweeper/nvimesweeper
   */
-  nvimesweeper = buildVimPlugin {
-    pname = "nvimesweeper";
+  nvimesweeper-seandewar = buildVimPlugin {
+    pname = "nvimesweeper-seandewar";
     version = "2023-02-27";
     src = fetchurl {
       url = "https://github.com/seandewar/nvimesweeper/archive/a75828943e4279cd850ad6a6cff4c49238997573.tar.gz";
@@ -14202,8 +14219,8 @@
   /*
   Generated from: github/nyngwang/nvimgelion/nvimgelion
   */
-  nvimgelion = buildVimPlugin {
-    pname = "nvimgelion";
+  nvimgelion-nyngwang = buildVimPlugin {
+    pname = "nvimgelion-nyngwang";
     version = "2024-03-07";
     src = fetchurl {
       url = "https://github.com/nyngwang/nvimgelion/archive/28f3b71f8545ff002a1c08ca928799cdf660eccf.tar.gz";
@@ -14219,8 +14236,8 @@
   /*
   Generated from: github/hkupty/nvimux/nvimux
   */
-  nvimux = buildVimPlugin {
-    pname = "nvimux";
+  nvimux-hkupty = buildVimPlugin {
+    pname = "nvimux-hkupty";
     version = "2022-05-02";
     src = fetchurl {
       url = "https://github.com/hkupty/nvimux/archive/a2cd0cab0acf6c37d999e0cfd199a9fa126a8dcf.tar.gz";
@@ -14236,8 +14253,8 @@
   /*
   Generated from: github/josephburgess/nvumi/nvumi
   */
-  nvumi = buildVimPlugin {
-    pname = "nvumi";
+  nvumi-josephburgess = buildVimPlugin {
+    pname = "nvumi-josephburgess";
     version = "2025-10-31";
     src = fetchurl {
       url = "https://github.com/josephburgess/nvumi/archive/195f52fb82e684e04a250a69824d7f4758499add.tar.gz";
@@ -14253,8 +14270,8 @@
   /*
   Generated from: github/altermo/nwm/nwm
   */
-  nwm = buildVimPlugin {
-    pname = "nwm";
+  nwm-altermo = buildVimPlugin {
+    pname = "nwm-altermo";
     version = "2024-06-19";
     src = fetchurl {
       url = "https://github.com/altermo/nwm/archive/fcaef3ec9a595ae5ded78afc97f6181c4f502d49.tar.gz";
@@ -14270,8 +14287,8 @@
   /*
   Generated from: github/tenxsoydev/nx.nvim/nx-nvim
   */
-  nx-nvim = buildVimPlugin {
-    pname = "nx-nvim";
+  nx-nvim-tenxsoydev = buildVimPlugin {
+    pname = "nx-nvim-tenxsoydev";
     version = "2024-10-17";
     src = fetchurl {
       url = "https://github.com/tenxsoydev/nx.nvim/archive/10c7624f5d53f0bf053868d4448f2efc33aa5a55.tar.gz";
@@ -14287,8 +14304,8 @@
   /*
   Generated from: github/altermo/nxwm/nxwm
   */
-  nxwm = buildVimPlugin {
-    pname = "nxwm";
+  nxwm-altermo = buildVimPlugin {
+    pname = "nxwm-altermo";
     version = "2024-06-19";
     src = fetchurl {
       url = "https://github.com/altermo/nxwm/archive/fcaef3ec9a595ae5ded78afc97f6181c4f502d49.tar.gz";
@@ -14304,8 +14321,8 @@
   /*
   Generated from: github/IlyasYOY/obs.nvim/obs-nvim
   */
-  obs-nvim = buildVimPlugin {
-    pname = "obs-nvim";
+  obs-nvim-IlyasYOY = buildVimPlugin {
+    pname = "obs-nvim-IlyasYOY";
     version = "2025-12-22";
     src = fetchurl {
       url = "https://github.com/IlyasYOY/obs.nvim/archive/4a6a117278ee98760ca6ced695380985abc378a5.tar.gz";
@@ -14321,8 +14338,8 @@
   /*
   Generated from: github/killitar/obscure.nvim/obscure-nvim
   */
-  obscure-nvim = buildVimPlugin {
-    pname = "obscure-nvim";
+  obscure-nvim-killitar = buildVimPlugin {
+    pname = "obscure-nvim-killitar";
     version = "2025-07-26";
     src = fetchurl {
       url = "https://github.com/killitar/obscure.nvim/archive/d4775483a30151dea1ceb843e3e210cdefeb3e9f.tar.gz";
@@ -14338,8 +14355,8 @@
   /*
   Generated from: github/ada0l/obsidian/obsidian
   */
-  obsidian = buildVimPlugin {
-    pname = "obsidian";
+  obsidian-ada0l = buildVimPlugin {
+    pname = "obsidian-ada0l";
     version = "2024-07-29";
     src = fetchurl {
       url = "https://github.com/ada0l/obsidian/archive/e5002f59aa861613a8114167fc0632c754228ad3.tar.gz";
@@ -14355,8 +14372,8 @@
   /*
   Generated from: github/obsidian-nvim/obsidian.nvim/obsidian-nvim
   */
-  obsidian-nvim = buildVimPlugin {
-    pname = "obsidian-nvim";
+  obsidian-nvim-obsidian-nvim = buildVimPlugin {
+    pname = "obsidian-nvim-obsidian-nvim";
     version = "2026-01-07";
     src = fetchurl {
       url = "https://github.com/obsidian-nvim/obsidian.nvim/archive/2c1d23c4f66e1be104eaf0e6848417cfd9e948df.tar.gz";
@@ -14372,8 +14389,8 @@
   /*
   Generated from: github/mhartington/oceanic-next/oceanic-next
   */
-  oceanic-next = buildVimPlugin {
-    pname = "oceanic-next";
+  oceanic-next-mhartington = buildVimPlugin {
+    pname = "oceanic-next-mhartington";
     version = "2023-05-01";
     src = fetchurl {
       url = "https://github.com/mhartington/oceanic-next/archive/09833f72d5ba23de2e8bcae18f479f326f5f677a.tar.gz";
@@ -14389,8 +14406,8 @@
   /*
   Generated from: github/pwntester/octo.nvim/octo-nvim
   */
-  octo-nvim = buildVimPlugin {
-    pname = "octo-nvim";
+  octo-nvim-pwntester = buildVimPlugin {
+    pname = "octo-nvim-pwntester";
     version = "2026-01-01";
     src = fetchurl {
       url = "https://github.com/pwntester/octo.nvim/archive/4a3a4fc5a9d3a372c91041f5b846f33b8d6b31fa.tar.gz";
@@ -14406,8 +14423,8 @@
   /*
   Generated from: github/2KAbhishek/octohub.nvim/octohub-nvim
   */
-  octohub-nvim = buildVimPlugin {
-    pname = "octohub-nvim";
+  octohub-nvim-2KAbhishek = buildVimPlugin {
+    pname = "octohub-nvim-2KAbhishek";
     version = "2025-08-09";
     src = fetchurl {
       url = "https://github.com/2KAbhishek/octohub.nvim/archive/03b50d28a61583387616c04ba08cee53379049b2.tar.gz";
@@ -14423,8 +14440,8 @@
   /*
   Generated from: github/pianocomposer321/officer.nvim/officer-nvim
   */
-  officer-nvim = buildVimPlugin {
-    pname = "officer-nvim";
+  officer-nvim-pianocomposer321 = buildVimPlugin {
+    pname = "officer-nvim-pianocomposer321";
     version = "2025-09-10";
     src = fetchurl {
       url = "https://github.com/pianocomposer321/officer.nvim/archive/29df3cd138bbc453ab71303f8f64ff04a599fc90.tar.gz";
@@ -14440,8 +14457,8 @@
   /*
   Generated from: github/ofirgall/ofirkai.nvim/ofirkai-nvim
   */
-  ofirkai-nvim = buildVimPlugin {
-    pname = "ofirkai-nvim";
+  ofirkai-nvim-ofirgall = buildVimPlugin {
+    pname = "ofirkai-nvim-ofirgall";
     version = "2024-10-26";
     src = fetchurl {
       url = "https://github.com/ofirgall/ofirkai.nvim/archive/7eb471a5f0694bad8d61448f8bcd1f50a1d62b54.tar.gz";
@@ -14457,8 +14474,8 @@
   /*
   Generated from: github/yazeed1s/oh-lucy.nvim/oh-lucy-nvim
   */
-  oh-lucy-nvim = buildVimPlugin {
-    pname = "oh-lucy-nvim";
+  oh-lucy-nvim-yazeed1s = buildVimPlugin {
+    pname = "oh-lucy-nvim-yazeed1s";
     version = "2025-04-08";
     src = fetchurl {
       url = "https://github.com/yazeed1s/oh-lucy.nvim/archive/2d94e9b03efe4c50f4653b6f2b7b200d970fe1aa.tar.gz";
@@ -14474,8 +14491,8 @@
   /*
   Generated from: github/stevearc/oil.nvim/oil-nvim
   */
-  oil-nvim = buildVimPlugin {
-    pname = "oil-nvim";
+  oil-nvim-stevearc = buildVimPlugin {
+    pname = "oil-nvim-stevearc";
     version = "2026-01-01";
     src = fetchurl {
       url = "https://github.com/stevearc/oil.nvim/archive/81b8a91735ad5cd24a6b3137f14a89f19176364f.tar.gz";
@@ -14491,8 +14508,8 @@
   /*
   Generated from: github/niuiic/omega.nvim/omega-nvim
   */
-  omega-nvim = buildVimPlugin {
-    pname = "omega-nvim";
+  omega-nvim-niuiic = buildVimPlugin {
+    pname = "omega-nvim-niuiic";
     version = "2025-03-13";
     src = fetchurl {
       url = "https://github.com/niuiic/omega.nvim/archive/805a631c04dc6684bc700cdd86004d19473e150e.tar.gz";
@@ -14508,8 +14525,8 @@
   /*
   Generated from: github/yonlu/omni.vim/omni-vim
   */
-  omni-vim = buildVimPlugin {
-    pname = "omni-vim";
+  omni-vim-yonlu = buildVimPlugin {
+    pname = "omni-vim-yonlu";
     version = "2022-06-17";
     src = fetchurl {
       url = "https://github.com/yonlu/omni.vim/archive/6c0f3015b1d6f2ae59c12cc380c629b965d3dc62.tar.gz";
@@ -14525,8 +14542,8 @@
   /*
   Generated from: github/cpea2506/one_monokai.nvim/one-monokai-nvim
   */
-  one-monokai-nvim = buildVimPlugin {
-    pname = "one-monokai-nvim";
+  one-monokai-nvim-cpea2506 = buildVimPlugin {
+    pname = "one-monokai-nvim-cpea2506";
     version = "2025-09-10";
     src = fetchurl {
       url = "https://github.com/cpea2506/one_monokai.nvim/archive/047a0239831458866945d5c2d111ff1d282d1966.tar.gz";
@@ -14542,8 +14559,8 @@
   /*
   Generated from: github/Th3Whit3Wolf/one-nvim/one-nvim
   */
-  one-nvim = buildVimPlugin {
-    pname = "one-nvim";
+  one-nvim-Th3Whit3Wolf = buildVimPlugin {
+    pname = "one-nvim-Th3Whit3Wolf";
     version = "2021-06-10";
     src = fetchurl {
       url = "https://github.com/Th3Whit3Wolf/one-nvim/archive/faf6fb3f98fccbe009c3466f657a8fff84a5f956.tar.gz";
@@ -14559,8 +14576,8 @@
   /*
   Generated from: github/jbyuki/one-small-step-for-vimkind/one-small-step-for-vimkind
   */
-  one-small-step-for-vimkind = buildVimPlugin {
-    pname = "one-small-step-for-vimkind";
+  one-small-step-for-vimkind-jbyuki = buildVimPlugin {
+    pname = "one-small-step-for-vimkind-jbyuki";
     version = "2025-11-16";
     src = fetchurl {
       url = "https://github.com/jbyuki/one-small-step-for-vimkind/archive/87eeca2bd4d90a94eed1ef0dbc66885117e7bacb.tar.gz";
@@ -14576,8 +14593,8 @@
   /*
   Generated from: github/Th3Whit3Wolf/onebuddy/onebuddy
   */
-  onebuddy = buildVimPlugin {
-    pname = "onebuddy";
+  onebuddy-Th3Whit3Wolf = buildVimPlugin {
+    pname = "onebuddy-Th3Whit3Wolf";
     version = "2021-04-01";
     src = fetchurl {
       url = "https://github.com/Th3Whit3Wolf/onebuddy/archive/7e16006e7dde15e3cb72889f736c49409db6ff42.tar.gz";
@@ -14593,8 +14610,8 @@
   /*
   Generated from: github/navarasu/onedark.nvim/onedark-nvim
   */
-  onedark-nvim = buildVimPlugin {
-    pname = "onedark-nvim";
+  onedark-nvim-navarasu = buildVimPlugin {
+    pname = "onedark-nvim-navarasu";
     version = "2025-11-24";
     src = fetchurl {
       url = "https://github.com/navarasu/onedark.nvim/archive/213c23ae45a04797572242568d5d51937181792d.tar.gz";
@@ -14610,8 +14627,8 @@
   /*
   Generated from: github/joshdick/onedark.vim/onedark-vim
   */
-  onedark-vim = buildVimPlugin {
-    pname = "onedark-vim";
+  onedark-vim-joshdick = buildVimPlugin {
+    pname = "onedark-vim-joshdick";
     version = "2025-09-02";
     src = fetchurl {
       url = "https://github.com/joshdick/onedark.vim/archive/68dca198f23ef979dc6a123ad50c598902117232.tar.gz";
@@ -14627,8 +14644,8 @@
   /*
   Generated from: github/olimorris/onedarkpro.nvim/onedarkpro-nvim
   */
-  onedarkpro-nvim = buildVimPlugin {
-    pname = "onedarkpro-nvim";
+  onedarkpro-nvim-olimorris = buildVimPlugin {
+    pname = "onedarkpro-nvim-olimorris";
     version = "2025-12-14";
     src = fetchurl {
       url = "https://github.com/olimorris/onedarkpro.nvim/archive/6b12e00bf5e509e1278a84e2aecf918ca6be9aea.tar.gz";
@@ -14644,8 +14661,8 @@
   /*
   Generated from: github/rmehri01/onenord.nvim/onenord-nvim
   */
-  onenord-nvim = buildVimPlugin {
-    pname = "onenord-nvim";
+  onenord-nvim-rmehri01 = buildVimPlugin {
+    pname = "onenord-nvim-rmehri01";
     version = "2025-12-25";
     src = fetchurl {
       url = "https://github.com/rmehri01/onenord.nvim/archive/b68f1e66736840e837c2a77ebff59c932fcb70c7.tar.gz";
@@ -14661,8 +14678,8 @@
   /*
   Generated from: github/LoricAndre/OneTerm.nvim/OneTerm-nvim
   */
-  OneTerm-nvim = buildVimPlugin {
-    pname = "OneTerm-nvim";
+  OneTerm-nvim-LoricAndre = buildVimPlugin {
+    pname = "OneTerm-nvim-LoricAndre";
     version = "2022-03-14";
     src = fetchurl {
       url = "https://github.com/LoricAndre/OneTerm.nvim/archive/5bff7afaaf4b9d2f41b9cddd8b1c4746759f07fb.tar.gz";
@@ -14678,8 +14695,8 @@
   /*
   Generated from: github/karshPrime/only-tmux.nvim/only-tmux-nvim
   */
-  only-tmux-nvim = buildVimPlugin {
-    pname = "only-tmux-nvim";
+  only-tmux-nvim-karshPrime = buildVimPlugin {
+    pname = "only-tmux-nvim-karshPrime";
     version = "2024-06-18";
     src = fetchurl {
       url = "https://github.com/karshPrime/only-tmux.nvim/archive/3fa43127bf2e3d3cd88521a89b2606d7b4c4361a.tar.gz";
@@ -14695,8 +14712,8 @@
   /*
   Generated from: github/ofirgall/open.nvim/open-nvim
   */
-  open-nvim = buildVimPlugin {
-    pname = "open-nvim";
+  open-nvim-ofirgall = buildVimPlugin {
+    pname = "open-nvim-ofirgall";
     version = "2023-07-06";
     src = fetchurl {
       url = "https://github.com/ofirgall/open.nvim/archive/1cabf5fc2c0d59d6273c932546d5465104ad278f.tar.gz";
@@ -14712,8 +14729,8 @@
   /*
   Generated from: github/salkin-mada/openscad.nvim/openscad-nvim
   */
-  openscad-nvim = buildVimPlugin {
-    pname = "openscad-nvim";
+  openscad-nvim-salkin-mada = buildVimPlugin {
+    pname = "openscad-nvim-salkin-mada";
     version = "2025-09-25";
     src = fetchurl {
       url = "https://github.com/salkin-mada/openscad.nvim/archive/e81d938252fde30fbbe156bfc544bf2d9758272a.tar.gz";
@@ -14729,8 +14746,8 @@
   /*
   Generated from: github/nvim-orgmode/orgmode/orgmode
   */
-  orgmode = buildVimPlugin {
-    pname = "orgmode";
+  orgmode-nvim-orgmode = buildVimPlugin {
+    pname = "orgmode-nvim-orgmode";
     version = "2026-01-04";
     src = fetchurl {
       url = "https://github.com/nvim-orgmode/orgmode/archive/3629625199b9a45bdb41fa734bc2c6ef86d251bd.tar.gz";
@@ -14746,8 +14763,8 @@
   /*
   Generated from: github/davidgranstrom/osc.nvim/osc-nvim
   */
-  osc-nvim = buildVimPlugin {
-    pname = "osc-nvim";
+  osc-nvim-davidgranstrom = buildVimPlugin {
+    pname = "osc-nvim-davidgranstrom";
     version = "2021-08-02";
     src = fetchurl {
       url = "https://github.com/davidgranstrom/osc.nvim/archive/cc27b8a5e3ffd4cb1d8c9eaa4a2082cbaf9e4c77.tar.gz";
@@ -14763,8 +14780,8 @@
   /*
   Generated from: github/rgroli/other.nvim/other-nvim
   */
-  other-nvim = buildVimPlugin {
-    pname = "other-nvim";
+  other-nvim-rgroli = buildVimPlugin {
+    pname = "other-nvim-rgroli";
     version = "2025-05-09";
     src = fetchurl {
       url = "https://github.com/rgroli/other.nvim/archive/1d48e090f6d1d53dda9fb5094af3f2006ebbb858.tar.gz";
@@ -14780,8 +14797,8 @@
   /*
   Generated from: github/jmbuhr/otter.nvim/otter-nvim
   */
-  otter-nvim = buildVimPlugin {
-    pname = "otter-nvim";
+  otter-nvim-jmbuhr = buildVimPlugin {
+    pname = "otter-nvim-jmbuhr";
     version = "2025-12-15";
     src = fetchurl {
       url = "https://github.com/jmbuhr/otter.nvim/archive/b36e1a40617e35779d2097fc9b9fd701acd4f5e8.tar.gz";
@@ -14797,8 +14814,8 @@
   /*
   Generated from: github/hedyhli/outline.nvim/outline-nvim
   */
-  outline-nvim = buildVimPlugin {
-    pname = "outline-nvim";
+  outline-nvim-hedyhli = buildVimPlugin {
+    pname = "outline-nvim-hedyhli";
     version = "2025-12-22";
     src = fetchurl {
       url = "https://github.com/hedyhli/outline.nvim/archive/1967ef50036b0b1eac4977aeede55915a741afe0.tar.gz";
@@ -14814,8 +14831,8 @@
   /*
   Generated from: github/lcheylus/overlength.nvim/overlength-nvim
   */
-  overlength-nvim = buildVimPlugin {
-    pname = "overlength-nvim";
+  overlength-nvim-lcheylus = buildVimPlugin {
+    pname = "overlength-nvim-lcheylus";
     version = "2025-08-05";
     src = fetchurl {
       url = "https://github.com/lcheylus/overlength.nvim/archive/665760c533db0c9c491e112d4c271acebe67e501.tar.gz";
@@ -14831,8 +14848,8 @@
   /*
   Generated from: github/stevearc/overseer.nvim/overseer-nvim
   */
-  overseer-nvim = buildVimPlugin {
-    pname = "overseer-nvim";
+  overseer-nvim-stevearc = buildVimPlugin {
+    pname = "overseer-nvim-stevearc";
     version = "2026-01-02";
     src = fetchurl {
       url = "https://github.com/stevearc/overseer.nvim/archive/3cde0d84bdae56cd119cbf835f764fa30cec384c.tar.gz";
@@ -14848,8 +14865,8 @@
   /*
   Generated from: github/nyoom-engineering/oxocarbon.nvim/oxocarbon-nvim
   */
-  oxocarbon-nvim = buildVimPlugin {
-    pname = "oxocarbon-nvim";
+  oxocarbon-nvim-nyoom-engineering = buildVimPlugin {
+    pname = "oxocarbon-nvim-nyoom-engineering";
     version = "2025-09-05";
     src = fetchurl {
       url = "https://github.com/nyoom-engineering/oxocarbon.nvim/archive/9f85f6090322f39b11ae04a343d4eb9d12a86897.tar.gz";
@@ -14865,8 +14882,8 @@
   /*
   Generated from: github/vuki656/package-info.nvim/package-info-nvim
   */
-  package-info-nvim = buildVimPlugin {
-    pname = "package-info-nvim";
+  package-info-nvim-vuki656 = buildVimPlugin {
+    pname = "package-info-nvim-vuki656";
     version = "2025-12-27";
     src = fetchurl {
       url = "https://github.com/vuki656/package-info.nvim/archive/52e407af634cd5d3add0dc916c517865850113a4.tar.gz";
@@ -14882,8 +14899,8 @@
   /*
   Generated from: github/wbthomason/packer.nvim/packer-nvim
   */
-  packer-nvim = buildVimPlugin {
-    pname = "packer-nvim";
+  packer-nvim-wbthomason = buildVimPlugin {
+    pname = "packer-nvim-wbthomason";
     version = "2023-08-24";
     src = fetchurl {
       url = "https://github.com/wbthomason/packer.nvim/archive/ea0cc3c59f67c440c5ff0bbe4fb9420f4350b9a3.tar.gz";
@@ -14899,8 +14916,8 @@
   /*
   Generated from: github/rktjmp/pact.nvim/pact-nvim
   */
-  pact-nvim = buildVimPlugin {
-    pname = "pact-nvim";
+  pact-nvim-rktjmp = buildVimPlugin {
+    pname = "pact-nvim-rktjmp";
     version = "2023-02-03";
     src = fetchurl {
       url = "https://github.com/rktjmp/pact.nvim/archive/35f2fb3b353466c7d7b724d04936c668c9f5b347.tar.gz";
@@ -14916,8 +14933,8 @@
   /*
   Generated from: github/potamides/painless-digraph/painless-digraph
   */
-  painless-digraph = buildVimPlugin {
-    pname = "painless-digraph";
+  painless-digraph-potamides = buildVimPlugin {
+    pname = "painless-digraph-potamides";
     version = "2021-10-06";
     src = fetchurl {
       url = "https://github.com/potamides/painless-digraph/archive/6637746be695d604891a32bdae846845fdb39366.tar.gz";
@@ -14933,8 +14950,8 @@
   /*
   Generated from: github/alexmozaidze/palenight.nvim/palenight-nvim
   */
-  palenight-nvim = buildVimPlugin {
-    pname = "palenight-nvim";
+  palenight-nvim-alexmozaidze = buildVimPlugin {
+    pname = "palenight-nvim-alexmozaidze";
     version = "2026-01-06";
     src = fetchurl {
       url = "https://github.com/alexmozaidze/palenight.nvim/archive/18f19202e159e61072d3a099da8c5fcc61a0d783.tar.gz";
@@ -14950,8 +14967,8 @@
   /*
   Generated from: github/roobert/palette.nvim/palette-nvim
   */
-  palette-nvim = buildVimPlugin {
-    pname = "palette-nvim";
+  palette-nvim-roobert = buildVimPlugin {
+    pname = "palette-nvim-roobert";
     version = "2023-10-02";
     src = fetchurl {
       url = "https://github.com/roobert/palette.nvim/archive/a808c190a4f74f73782302152ebf323660d8db5f.tar.gz";
@@ -14967,8 +14984,8 @@
   /*
   Generated from: github/potamides/pantran.nvim/pantran-nvim
   */
-  pantran-nvim = buildVimPlugin {
-    pname = "pantran-nvim";
+  pantran-nvim-potamides = buildVimPlugin {
+    pname = "pantran-nvim-potamides";
     version = "2025-04-07";
     src = fetchurl {
       url = "https://github.com/potamides/pantran.nvim/archive/b87c3ae48cba4659587fb75abd847e5b7a7c9ca0.tar.gz";
@@ -14984,8 +15001,8 @@
   /*
   Generated from: github/kdheepak/panvimdoc/panvimdoc
   */
-  panvimdoc = buildVimPlugin {
-    pname = "panvimdoc";
+  panvimdoc-kdheepak = buildVimPlugin {
+    pname = "panvimdoc-kdheepak";
     version = "2025-09-26";
     src = fetchurl {
       url = "https://github.com/kdheepak/panvimdoc/archive/9d5379b4141f59a8b6f0a79f1d4cfe23e51e6ff0.tar.gz";
@@ -15001,8 +15018,8 @@
   /*
   Generated from: github/rktjmp/paperplanes.nvim/paperplanes-nvim
   */
-  paperplanes-nvim = buildVimPlugin {
-    pname = "paperplanes-nvim";
+  paperplanes-nvim-rktjmp = buildVimPlugin {
+    pname = "paperplanes-nvim-rktjmp";
     version = "2025-07-11";
     src = fetchurl {
       url = "https://github.com/rktjmp/paperplanes.nvim/archive/dfe43f895ec6f43f4a0a2af006ee74c79e5e1028.tar.gz";
@@ -15018,8 +15035,8 @@
   /*
   Generated from: github/jghauser/papis.nvim/papis-nvim
   */
-  papis-nvim = buildVimPlugin {
-    pname = "papis-nvim";
+  papis-nvim-jghauser = buildVimPlugin {
+    pname = "papis-nvim-jghauser";
     version = "2025-11-19";
     src = fetchurl {
       url = "https://github.com/jghauser/papis.nvim/archive/25e69f25e51b2d46178a213356adbc28b0f918ef.tar.gz";
@@ -15035,8 +15052,8 @@
   /*
   Generated from: github/savq/paq-nvim/paq-nvim
   */
-  paq-nvim = buildVimPlugin {
-    pname = "paq-nvim";
+  paq-nvim-savq = buildVimPlugin {
+    pname = "paq-nvim-savq";
     version = "2025-03-30";
     src = fetchurl {
       url = "https://github.com/savq/paq-nvim/archive/971344d1fe1fd93580961815e7b7c8853c3605e4.tar.gz";
@@ -15052,8 +15069,8 @@
   /*
   Generated from: github/chrsm/paramount-ng.nvim/paramount-ng-nvim
   */
-  paramount-ng-nvim = buildVimPlugin {
-    pname = "paramount-ng-nvim";
+  paramount-ng-nvim-chrsm = buildVimPlugin {
+    pname = "paramount-ng-nvim-chrsm";
     version = "2022-06-18";
     src = fetchurl {
       url = "https://github.com/chrsm/paramount-ng.nvim/archive/7caa69335cdc36f735af781d30faa9b1ce105610.tar.gz";
@@ -15069,8 +15086,8 @@
   /*
   Generated from: github/frankroeder/parrot.nvim/parrot-nvim
   */
-  parrot-nvim = buildVimPlugin {
-    pname = "parrot-nvim";
+  parrot-nvim-frankroeder = buildVimPlugin {
+    pname = "parrot-nvim-frankroeder";
     version = "2025-11-17";
     src = fetchurl {
       url = "https://github.com/frankroeder/parrot.nvim/archive/5d7e72bdc3efe2638e1bd94ff55028ecc40edd7a.tar.gz";
@@ -15086,8 +15103,8 @@
   /*
   Generated from: github/niuiic/part-edit.nvim/part-edit-nvim
   */
-  part-edit-nvim = buildVimPlugin {
-    pname = "part-edit-nvim";
+  part-edit-nvim-niuiic = buildVimPlugin {
+    pname = "part-edit-nvim-niuiic";
     version = "2025-11-30";
     src = fetchurl {
       url = "https://github.com/niuiic/part-edit.nvim/archive/47418c44d392811d3d00f8c6a027bb4705291582.tar.gz";
@@ -15103,8 +15120,8 @@
   /*
   Generated from: github/lewis6991/pckr.nvim/pckr-nvim
   */
-  pckr-nvim = buildVimPlugin {
-    pname = "pckr-nvim";
+  pckr-nvim-lewis6991 = buildVimPlugin {
+    pname = "pckr-nvim-lewis6991";
     version = "2025-09-25";
     src = fetchurl {
       url = "https://github.com/lewis6991/pckr.nvim/archive/e681c23738326ee9e00e35d5b4a7c173f0240157.tar.gz";
@@ -15120,8 +15137,8 @@
   /*
   Generated from: github/toppair/peek.nvim/peek-nvim
   */
-  peek-nvim = buildVimPlugin {
-    pname = "peek-nvim";
+  peek-nvim-toppair = buildVimPlugin {
+    pname = "peek-nvim-toppair";
     version = "2024-04-09";
     src = fetchurl {
       url = "https://github.com/toppair/peek.nvim/archive/5820d937d5414baea5f586dc2a3d912a74636e5b.tar.gz";
@@ -15137,8 +15154,8 @@
   /*
   Generated from: github/koenverburg/peepsight.nvim/peepsight-nvim
   */
-  peepsight-nvim = buildVimPlugin {
-    pname = "peepsight-nvim";
+  peepsight-nvim-koenverburg = buildVimPlugin {
+    pname = "peepsight-nvim-koenverburg";
     version = "2023-08-30";
     src = fetchurl {
       url = "https://github.com/koenverburg/peepsight.nvim/archive/0cb7a4ebee31b44810212f81e8a2b4b230465bb5.tar.gz";
@@ -15154,8 +15171,8 @@
   /*
   Generated from: github/ptdewey/pendulum-nvim/pendulum-nvim
   */
-  pendulum-nvim = buildVimPlugin {
-    pname = "pendulum-nvim";
+  pendulum-nvim-ptdewey = buildVimPlugin {
+    pname = "pendulum-nvim-ptdewey";
     version = "2025-06-25";
     src = fetchurl {
       url = "https://github.com/ptdewey/pendulum-nvim/archive/b884353d7c3e7a6fde477d8adcf0d0acf5ed077d.tar.gz";
@@ -15171,8 +15188,8 @@
   /*
   Generated from: github/SunnyTamang/pendulum.nvim/pendulum-sunnytamang
   */
-  pendulum-sunnytamang = buildVimPlugin {
-    pname = "pendulum-sunnytamang";
+  pendulum-sunnytamang-SunnyTamang = buildVimPlugin {
+    pname = "pendulum-sunnytamang-SunnyTamang";
     version = "2024-08-22";
     src = fetchurl {
       url = "https://github.com/SunnyTamang/pendulum.nvim/archive/b6b717dbc7dfb424cdd73e049f93a4c8d892a5d2.tar.gz";
@@ -15188,8 +15205,8 @@
   /*
   Generated from: github/Abstract-IDE/penvim/penvim
   */
-  penvim = buildVimPlugin {
-    pname = "penvim";
+  penvim-Abstract-IDE = buildVimPlugin {
+    pname = "penvim-Abstract-IDE";
     version = "2022-07-23";
     src = fetchurl {
       url = "https://github.com/Abstract-IDE/penvim/archive/028c19f81eba9eaf4fe4876c60e3491b3389322f.tar.gz";
@@ -15205,8 +15222,8 @@
   /*
   Generated from: github/t-troebst/perfanno.nvim/perfanno-nvim
   */
-  perfanno-nvim = buildVimPlugin {
-    pname = "perfanno-nvim";
+  perfanno-nvim-t-troebst = buildVimPlugin {
+    pname = "perfanno-nvim-t-troebst";
     version = "2024-12-28";
     src = fetchurl {
       url = "https://github.com/t-troebst/perfanno.nvim/archive/8640d6655f17a79af8de3153af2ce90c03f65e86.tar.gz";
@@ -15222,8 +15239,8 @@
   /*
   Generated from: github/olimorris/persisted.nvim/persisted-nvim
   */
-  persisted-nvim = buildVimPlugin {
-    pname = "persisted-nvim";
+  persisted-nvim-olimorris = buildVimPlugin {
+    pname = "persisted-nvim-olimorris";
     version = "2025-08-16";
     src = fetchurl {
       url = "https://github.com/olimorris/persisted.nvim/archive/5063ee8e3589a43eefadcca57496aea01b6170fa.tar.gz";
@@ -15239,8 +15256,8 @@
   /*
   Generated from: github/folke/persistence.nvim/persistence-nvim
   */
-  persistence-nvim = buildVimPlugin {
-    pname = "persistence-nvim";
+  persistence-nvim-folke = buildVimPlugin {
+    pname = "persistence-nvim-folke";
     version = "2025-10-28";
     src = fetchurl {
       url = "https://github.com/folke/persistence.nvim/archive/b20b2a7887bd39c1a356980b45e03250f3dce49c.tar.gz";
@@ -15256,8 +15273,8 @@
   /*
   Generated from: github/Weissle/persistent-breakpoints.nvim/persistent-breakpoints-nvim
   */
-  persistent-breakpoints-nvim = buildVimPlugin {
-    pname = "persistent-breakpoints-nvim";
+  persistent-breakpoints-nvim-Weissle = buildVimPlugin {
+    pname = "persistent-breakpoints-nvim-Weissle";
     version = "2025-03-22";
     src = fetchurl {
       url = "https://github.com/Weissle/persistent-breakpoints.nvim/archive/d1656221836207787b8a7969cc2dc72668c4742a.tar.gz";
@@ -15273,8 +15290,8 @@
   /*
   Generated from: github/ta-tikoma/php.easy.nvim/php-easy-nvim
   */
-  php-easy-nvim = buildVimPlugin {
-    pname = "php-easy-nvim";
+  php-easy-nvim-ta-tikoma = buildVimPlugin {
+    pname = "php-easy-nvim-ta-tikoma";
     version = "2025-12-04";
     src = fetchurl {
       url = "https://github.com/ta-tikoma/php.easy.nvim/archive/7bf13b69ed0250bcfdd030de9ee01644d91cb46b.tar.gz";
@@ -15290,8 +15307,8 @@
   /*
   Generated from: github/gbprod/phpactor.nvim/phpactor-nvim
   */
-  phpactor-nvim = buildVimPlugin {
-    pname = "phpactor-nvim";
+  phpactor-nvim-gbprod = buildVimPlugin {
+    pname = "phpactor-nvim-gbprod";
     version = "2026-01-07";
     src = fetchurl {
       url = "https://github.com/gbprod/phpactor.nvim/archive/ff132c46bca95e0b955fc8cb1175511d27185e67.tar.gz";
@@ -15307,8 +15324,8 @@
   /*
   Generated from: github/CWood-sdf/pineapple/pineapple
   */
-  pineapple = buildVimPlugin {
-    pname = "pineapple";
+  pineapple-CWood-sdf = buildVimPlugin {
+    pname = "pineapple-CWood-sdf";
     version = "2026-01-08";
     src = fetchurl {
       url = "https://github.com/CWood-sdf/pineapple/archive/bc8359a26e9afaee91563375007961be85c21dc4.tar.gz";
@@ -15324,8 +15341,8 @@
   /*
   Generated from: github/topaxi/pipeline.nvim/pipeline-nvim
   */
-  pipeline-nvim = buildVimPlugin {
-    pname = "pipeline-nvim";
+  pipeline-nvim-topaxi = buildVimPlugin {
+    pname = "pipeline-nvim-topaxi";
     version = "2025-12-18";
     src = fetchurl {
       url = "https://github.com/topaxi/pipeline.nvim/archive/0aedeb88a01b4fe93937f4f1a5ba7632d4a88a79.tar.gz";
@@ -15341,8 +15358,8 @@
   /*
   Generated from: github/aklt/plantuml-syntax/plantuml-syntax
   */
-  plantuml-syntax = buildVimPlugin {
-    pname = "plantuml-syntax";
+  plantuml-syntax-aklt = buildVimPlugin {
+    pname = "plantuml-syntax-aklt";
     version = "2024-08-25";
     src = fetchurl {
       url = "https://github.com/aklt/plantuml-syntax/archive/9d4900aa16674bf5bb8296a72b975317d573b547.tar.gz";
@@ -15358,8 +15375,8 @@
   /*
   Generated from: github/nvim-treesitter/playground/playground
   */
-  playground = buildVimPlugin {
-    pname = "playground";
+  playground-nvim-treesitter = buildVimPlugin {
+    pname = "playground-nvim-treesitter";
     version = "2023-09-15";
     src = fetchurl {
       url = "https://github.com/nvim-treesitter/playground/archive/ba48c6a62a280eefb7c85725b0915e021a1a0749.tar.gz";
@@ -15375,8 +15392,8 @@
   /*
   Generated from: github/rktjmp/playtime.nvim/playtime-nvim
   */
-  playtime-nvim = buildVimPlugin {
-    pname = "playtime-nvim";
+  playtime-nvim-rktjmp = buildVimPlugin {
+    pname = "playtime-nvim-rktjmp";
     version = "2025-08-30";
     src = fetchurl {
       url = "https://github.com/rktjmp/playtime.nvim/archive/d7427739558c74920f284ab370ba47bacacb8f97.tar.gz";
@@ -15392,8 +15409,8 @@
   /*
   Generated from: github/nvim-lua/plenary.nvim/plenary-nvim
   */
-  plenary-nvim = buildVimPlugin {
-    pname = "plenary-nvim";
+  plenary-nvim-nvim-lua = buildVimPlugin {
+    pname = "plenary-nvim-nvim-lua";
     version = "2025-07-26";
     src = fetchurl {
       url = "https://github.com/nvim-lua/plenary.nvim/archive/b9fd5226c2f76c951fc8ed5923d85e4de065e509.tar.gz";
@@ -15409,8 +15426,8 @@
   /*
   Generated from: github/m00qek/plugin-template.nvim/plugin-template-nvim
   */
-  plugin-template-nvim = buildVimPlugin {
-    pname = "plugin-template-nvim";
+  plugin-template-nvim-m00qek = buildVimPlugin {
+    pname = "plugin-template-nvim-m00qek";
     version = "2022-06-10";
     src = fetchurl {
       url = "https://github.com/m00qek/plugin-template.nvim/archive/b988d049ac9484acd5feb32bff883a14e1e5e52b.tar.gz";
@@ -15426,8 +15443,8 @@
   /*
   Generated from: github/olivercederborg/poimandres.nvim/poimandres-nvim
   */
-  poimandres-nvim = buildVimPlugin {
-    pname = "poimandres-nvim";
+  poimandres-nvim-olivercederborg = buildVimPlugin {
+    pname = "poimandres-nvim-olivercederborg";
     version = "2024-10-19";
     src = fetchurl {
       url = "https://github.com/olivercederborg/poimandres.nvim/archive/a488957d803943a4201ac3b774913fcafa9e6b3a.tar.gz";
@@ -15443,8 +15460,8 @@
   /*
   Generated from: github/loganswartz/polychrome.nvim/polychrome-nvim
   */
-  polychrome-nvim = buildVimPlugin {
-    pname = "polychrome-nvim";
+  polychrome-nvim-loganswartz = buildVimPlugin {
+    pname = "polychrome-nvim-loganswartz";
     version = "2025-01-26";
     src = fetchurl {
       url = "https://github.com/loganswartz/polychrome.nvim/archive/2ad5cbd62b153f9b37e309349bccd69062fc29f9.tar.gz";
@@ -15460,8 +15477,8 @@
   /*
   Generated from: github/QuentinGruber/pomodoro.nvim/pomodoro-nvim
   */
-  pomodoro-nvim = buildVimPlugin {
-    pname = "pomodoro-nvim";
+  pomodoro-nvim-QuentinGruber = buildVimPlugin {
+    pname = "pomodoro-nvim-QuentinGruber";
     version = "2025-11-24";
     src = fetchurl {
       url = "https://github.com/QuentinGruber/pomodoro.nvim/archive/52f99bbf5d12d1dd0d14927e224a692f2ceb305f.tar.gz";
@@ -15477,8 +15494,8 @@
   /*
   Generated from: github/nvim-lua/popup.nvim/popup-nvim
   */
-  popup-nvim = buildVimPlugin {
-    pname = "popup-nvim";
+  popup-nvim-nvim-lua = buildVimPlugin {
+    pname = "popup-nvim-nvim-lua";
     version = "2021-11-18";
     src = fetchurl {
       url = "https://github.com/nvim-lua/popup.nvim/archive/b7404d35d5d3548a82149238289fa71f7f6de4ac.tar.gz";
@@ -15494,8 +15511,8 @@
   /*
   Generated from: github/cbochs/portal.nvim/portal-nvim
   */
-  portal-nvim = buildVimPlugin {
-    pname = "portal-nvim";
+  portal-nvim-cbochs = buildVimPlugin {
+    pname = "portal-nvim-cbochs";
     version = "2024-04-01";
     src = fetchurl {
       url = "https://github.com/cbochs/portal.nvim/archive/77d9d53fec945bfa407d5fd7120f1b4f117450ed.tar.gz";
@@ -15511,8 +15528,8 @@
   /*
   Generated from: github/jedrzejboczar/possession.nvim/possession-nvim
   */
-  possession-nvim = buildVimPlugin {
-    pname = "possession-nvim";
+  possession-nvim-jedrzejboczar = buildVimPlugin {
+    pname = "possession-nvim-jedrzejboczar";
     version = "2025-10-21";
     src = fetchurl {
       url = "https://github.com/jedrzejboczar/possession.nvim/archive/fbea95b16c284727bc8deff2c3780a73efcdaca6.tar.gz";
@@ -15528,8 +15545,8 @@
   /*
   Generated from: github/rlane/pounce.nvim/pounce-nvim
   */
-  pounce-nvim = buildVimPlugin {
-    pname = "pounce-nvim";
+  pounce-nvim-rlane = buildVimPlugin {
+    pname = "pounce-nvim-rlane";
     version = "2024-09-12";
     src = fetchurl {
       url = "https://github.com/rlane/pounce.nvim/archive/2e36399ac09b517770c459f1a123e6b4b4c1c171.tar.gz";
@@ -15545,8 +15562,8 @@
   /*
   Generated from: github/tris203/precognition.nvim/precognition-nvim
   */
-  precognition-nvim = buildVimPlugin {
-    pname = "precognition-nvim";
+  precognition-nvim-tris203 = buildVimPlugin {
+    pname = "precognition-nvim-tris203";
     version = "2025-08-14";
     src = fetchurl {
       url = "https://github.com/tris203/precognition.nvim/archive/2aae2687207029b3611a0e19a289f9e1c7efbe16.tar.gz";
@@ -15562,8 +15579,8 @@
   /*
   Generated from: github/andweeb/presence.nvim/presence-nvim
   */
-  presence-nvim = buildVimPlugin {
-    pname = "presence-nvim";
+  presence-nvim-andweeb = buildVimPlugin {
+    pname = "presence-nvim-andweeb";
     version = "2023-01-29";
     src = fetchurl {
       url = "https://github.com/andweeb/presence.nvim/archive/87c857a56b7703f976d3a5ef15967d80508df6e6.tar.gz";
@@ -15579,8 +15596,8 @@
   /*
   Generated from: github/Chaitanyabsprip/present.nvim/present-nvim
   */
-  present-nvim = buildVimPlugin {
-    pname = "present-nvim";
+  present-nvim-Chaitanyabsprip = buildVimPlugin {
+    pname = "present-nvim-Chaitanyabsprip";
     version = "2025-03-03";
     src = fetchurl {
       url = "https://github.com/Chaitanyabsprip/present.nvim/archive/c76e6996b346ff3ec6260c2461e56946c4a72d0d.tar.gz";
@@ -15596,8 +15613,8 @@
   /*
   Generated from: github/MunifTanjim/prettier.nvim/prettier-nvim
   */
-  prettier-nvim = buildVimPlugin {
-    pname = "prettier-nvim";
+  prettier-nvim-MunifTanjim = buildVimPlugin {
+    pname = "prettier-nvim-MunifTanjim";
     version = "2025-04-08";
     src = fetchurl {
       url = "https://github.com/MunifTanjim/prettier.nvim/archive/ca6452de1accc68a1062e72f58679caa488b501a.tar.gz";
@@ -15613,8 +15630,8 @@
   /*
   Generated from: github/anuvyklack/pretty-fold.nvim/pretty-fold-nvim
   */
-  pretty-fold-nvim = buildVimPlugin {
-    pname = "pretty-fold-nvim";
+  pretty-fold-nvim-anuvyklack = buildVimPlugin {
+    pname = "pretty-fold-nvim-anuvyklack";
     version = "2022-07-20";
     src = fetchurl {
       url = "https://github.com/anuvyklack/pretty-fold.nvim/archive/a7d8b424abe0eedf50116c460fbe6dfd5783b1d5.tar.gz";
@@ -15630,8 +15647,8 @@
   /*
   Generated from: github/Fildo7525/pretty_hover/pretty-hover
   */
-  pretty-hover = buildVimPlugin {
-    pname = "pretty-hover";
+  pretty-hover-Fildo7525 = buildVimPlugin {
+    pname = "pretty-hover-Fildo7525";
     version = "2025-12-06";
     src = fetchurl {
       url = "https://github.com/Fildo7525/pretty_hover/archive/700f5721a3774bd7007d1b41491711411494fb47.tar.gz";
@@ -15647,8 +15664,8 @@
   /*
   Generated from: github/Kurama622/profile.nvim/profile-kurama622
   */
-  profile-kurama622 = buildVimPlugin {
-    pname = "profile-kurama622";
+  profile-kurama622-Kurama622 = buildVimPlugin {
+    pname = "profile-kurama622-Kurama622";
     version = "2025-01-01";
     src = fetchurl {
       url = "https://github.com/Kurama622/profile.nvim/archive/f87602bd5235f16a97c1f7bf3071cfbfe44c0f5a.tar.gz";
@@ -15664,8 +15681,8 @@
   /*
   Generated from: github/stevearc/profile.nvim/profile-stevearc
   */
-  profile-stevearc = buildVimPlugin {
-    pname = "profile-stevearc";
+  profile-stevearc-stevearc = buildVimPlugin {
+    pname = "profile-stevearc-stevearc";
     version = "2025-03-05";
     src = fetchurl {
       url = "https://github.com/stevearc/profile.nvim/archive/30433d7513f0d14665c1cfcea501c90f8a63e003.tar.gz";
@@ -15681,8 +15698,8 @@
   /*
   Generated from: github/DrKJeff16/project.nvim/project-nvim
   */
-  project-nvim = buildVimPlugin {
-    pname = "project-nvim";
+  project-nvim-DrKJeff16 = buildVimPlugin {
+    pname = "project-nvim-DrKJeff16";
     version = "2026-01-08";
     src = fetchurl {
       url = "https://github.com/DrKJeff16/project.nvim/archive/fc499e8ed53c35a8fdf81324bce9e112f022417e.tar.gz";
@@ -15698,8 +15715,8 @@
   /*
   Generated from: github/gnikdroy/projections.nvim/projections-nvim
   */
-  projections-nvim = buildVimPlugin {
-    pname = "projections-nvim";
+  projections-nvim-gnikdroy = buildVimPlugin {
+    pname = "projections-nvim-gnikdroy";
     version = "2023-06-29";
     src = fetchurl {
       url = "https://github.com/gnikdroy/projections.nvim/archive/f18a8505f84f45a0fe024cafca5b969447f63cd5.tar.gz";
@@ -15715,8 +15732,8 @@
   /*
   Generated from: github/kevinhwang91/promise-async/promise-async
   */
-  promise-async = buildVimPlugin {
-    pname = "promise-async";
+  promise-async-kevinhwang91 = buildVimPlugin {
+    pname = "promise-async-kevinhwang91";
     version = "2024-08-04";
     src = fetchurl {
       url = "https://github.com/kevinhwang91/promise-async/archive/119e8961014c9bfaf1487bf3c2a393d254f337e2.tar.gz";
@@ -15732,8 +15749,8 @@
   /*
   Generated from: github/zongben/proot.nvim/proot-nvim
   */
-  proot-nvim = buildVimPlugin {
-    pname = "proot-nvim";
+  proot-nvim-zongben = buildVimPlugin {
+    pname = "proot-nvim-zongben";
     version = "2025-10-15";
     src = fetchurl {
       url = "https://github.com/zongben/proot.nvim/archive/45a77170588b1027a3466c2f2b1e6ee379379bfe.tar.gz";
@@ -15749,8 +15766,8 @@
   /*
   Generated from: github/alexpasmantier/pymple.nvim/pymple-nvim
   */
-  pymple-nvim = buildVimPlugin {
-    pname = "pymple-nvim";
+  pymple-nvim-alexpasmantier = buildVimPlugin {
+    pname = "pymple-nvim-alexpasmantier";
     version = "2025-12-20";
     src = fetchurl {
       url = "https://github.com/alexpasmantier/pymple.nvim/archive/b8f25a18b7a4e7095d08bfdb933087f1aa913797.tar.gz";
@@ -15766,8 +15783,8 @@
   /*
   Generated from: github/stevearc/qf_helper.nvim/qf-helper-nvim
   */
-  qf-helper-nvim = buildVimPlugin {
-    pname = "qf-helper-nvim";
+  qf-helper-nvim-stevearc = buildVimPlugin {
+    pname = "qf-helper-nvim-stevearc";
     version = "2024-12-24";
     src = fetchurl {
       url = "https://github.com/stevearc/qf_helper.nvim/archive/62e94495385a06f5143527548c348f4a9df2e704.tar.gz";
@@ -15783,8 +15800,8 @@
   /*
   Generated from: github/ashfinal/qfview.nvim/qfview-nvim
   */
-  qfview-nvim = buildVimPlugin {
-    pname = "qfview-nvim";
+  qfview-nvim-ashfinal = buildVimPlugin {
+    pname = "qfview-nvim-ashfinal";
     version = "2023-09-09";
     src = fetchurl {
       url = "https://github.com/ashfinal/qfview.nvim/archive/f7a4fd8d700d02f6c1274f02115fa4e68e63aa54.tar.gz";
@@ -15800,8 +15817,8 @@
   /*
   Generated from: github/quarto-dev/quarto-nvim/quarto-nvim
   */
-  quarto-nvim = buildVimPlugin {
-    pname = "quarto-nvim";
+  quarto-nvim-quarto-dev = buildVimPlugin {
+    pname = "quarto-nvim-quarto-dev";
     version = "2025-08-23";
     src = fetchurl {
       url = "https://github.com/quarto-dev/quarto-nvim/archive/0e9491509b38efbd83d3f41dbfacc7fc4bd40191.tar.gz";
@@ -15817,8 +15834,8 @@
   /*
   Generated from: github/stevearc/quicker.nvim/quicker-nvim
   */
-  quicker-nvim = buildVimPlugin {
-    pname = "quicker-nvim";
+  quicker-nvim-stevearc = buildVimPlugin {
+    pname = "quicker-nvim-stevearc";
     version = "2025-12-23";
     src = fetchurl {
       url = "https://github.com/stevearc/quicker.nvim/archive/771437c3e3672dba9233156e1c2e2fc1888a5fff.tar.gz";
@@ -15834,8 +15851,8 @@
   /*
   Generated from: github/niuiic/quickfix.nvim/quickfix-nvim
   */
-  quickfix-nvim = buildVimPlugin {
-    pname = "quickfix-nvim";
+  quickfix-nvim-niuiic = buildVimPlugin {
+    pname = "quickfix-nvim-niuiic";
     version = "2024-11-01";
     src = fetchurl {
       url = "https://github.com/niuiic/quickfix.nvim/archive/8abedcc1da2ee6878689ce3b303e8fe8489b99bb.tar.gz";
@@ -15851,8 +15868,8 @@
   /*
   Generated from: github/RutaTang/quicknote.nvim/quicknote-nvim
   */
-  quicknote-nvim = buildVimPlugin {
-    pname = "quicknote-nvim";
+  quicknote-nvim-RutaTang = buildVimPlugin {
+    pname = "quicknote-nvim-RutaTang";
     version = "2025-01-26";
     src = fetchurl {
       url = "https://github.com/RutaTang/quicknote.nvim/archive/a60828e54b5e4c474e7d583a14df09c98882dd42.tar.gz";
@@ -15868,8 +15885,8 @@
   /*
   Generated from: github/quolpr/quicktest.nvim/quicktest-nvim
   */
-  quicktest-nvim = buildVimPlugin {
-    pname = "quicktest-nvim";
+  quicktest-nvim-quolpr = buildVimPlugin {
+    pname = "quicktest-nvim-quolpr";
     version = "2025-11-04";
     src = fetchurl {
       url = "https://github.com/quolpr/quicktest.nvim/archive/de70b0a171127b6bc67d0fe4091ae2cc70ae9e11.tar.gz";
@@ -15885,8 +15902,8 @@
   /*
   Generated from: github/HiPhish/rainbow-delimiters.nvim/rainbow-delimiters-nvim
   */
-  rainbow-delimiters-nvim = buildVimPlugin {
-    pname = "rainbow-delimiters-nvim";
+  rainbow-delimiters-nvim-HiPhish = buildVimPlugin {
+    pname = "rainbow-delimiters-nvim-HiPhish";
     version = "2025-11-07";
     src = fetchurl {
       url = "https://github.com/HiPhish/rainbow-delimiters.nvim/archive/8aafe2cbd89cd4090f573a98cab6b20366576fde.tar.gz";
@@ -15902,8 +15919,8 @@
   /*
   Generated from: github/winston0410/range-highlight.nvim/range-highlight-nvim
   */
-  range-highlight-nvim = buildVimPlugin {
-    pname = "range-highlight-nvim";
+  range-highlight-nvim-winston0410 = buildVimPlugin {
+    pname = "range-highlight-nvim-winston0410";
     version = "2025-12-10";
     src = fetchurl {
       url = "https://github.com/winston0410/range-highlight.nvim/archive/097103da6550c2a34c029971c3d7da63d3fef320.tar.gz";
@@ -15919,8 +15936,8 @@
   /*
   Generated from: github/kelly-lin/ranger.nvim/ranger-nvim
   */
-  ranger-nvim = buildVimPlugin {
-    pname = "ranger-nvim";
+  ranger-nvim-kelly-lin = buildVimPlugin {
+    pname = "ranger-nvim-kelly-lin";
     version = "2024-11-18";
     src = fetchurl {
       url = "https://github.com/kelly-lin/ranger.nvim/archive/fd2cc999f3ef88f7cdcbcad5f26000c52b16c489.tar.gz";
@@ -15936,8 +15953,8 @@
   /*
   Generated from: github/rafaqz/ranger.vim/ranger-vim
   */
-  ranger-vim = buildVimPlugin {
-    pname = "ranger-vim";
+  ranger-vim-rafaqz = buildVimPlugin {
+    pname = "ranger-vim-rafaqz";
     version = "2021-12-13";
     src = fetchurl {
       url = "https://github.com/rafaqz/ranger.vim/archive/527c7c5371667f7848da91c2abc75c3998cbf1a0.tar.gz";
@@ -15953,8 +15970,8 @@
   /*
   Generated from: github/Fymyte/rasi.vim/rasi-vim
   */
-  rasi-vim = buildVimPlugin {
-    pname = "rasi-vim";
+  rasi-vim-Fymyte = buildVimPlugin {
+    pname = "rasi-vim-Fymyte";
     version = "2024-06-17";
     src = fetchurl {
       url = "https://github.com/Fymyte/rasi.vim/archive/7ce90590d007a7d15fc292313565e04a2ba57182.tar.gz";
@@ -15970,8 +15987,8 @@
   /*
   Generated from: github/kvrohit/rasmus.nvim/rasmus-nvim
   */
-  rasmus-nvim = buildVimPlugin {
-    pname = "rasmus-nvim";
+  rasmus-nvim-kvrohit = buildVimPlugin {
+    pname = "rasmus-nvim-kvrohit";
     version = "2024-11-12";
     src = fetchurl {
       url = "https://github.com/kvrohit/rasmus.nvim/archive/49f7ee7bf3eb00db52c77f84b15bc69f318bafc1.tar.gz";
@@ -15987,8 +16004,8 @@
   /*
   Generated from: github/TobinPalmer/rayso.nvim/rayso-nvim
   */
-  rayso-nvim = buildVimPlugin {
-    pname = "rayso-nvim";
+  rayso-nvim-TobinPalmer = buildVimPlugin {
+    pname = "rayso-nvim-TobinPalmer";
     version = "2025-11-15";
     src = fetchurl {
       url = "https://github.com/TobinPalmer/rayso.nvim/archive/0c411a7ac595bfe0476a3693e554b8e22e356ac3.tar.gz";
@@ -16004,8 +16021,8 @@
   /*
   Generated from: github/toppair/reach.nvim/reach-nvim
   */
-  reach-nvim = buildVimPlugin {
-    pname = "reach-nvim";
+  reach-nvim-toppair = buildVimPlugin {
+    pname = "reach-nvim-toppair";
     version = "2022-11-21";
     src = fetchurl {
       url = "https://github.com/toppair/reach.nvim/archive/f86830357941cca8a31f19601153087ea9524d22.tar.gz";
@@ -16021,8 +16038,8 @@
   /*
   Generated from: github/rasulomaroff/reactive.nvim/reactive-nvim
   */
-  reactive-nvim = buildVimPlugin {
-    pname = "reactive-nvim";
+  reactive-nvim-rasulomaroff = buildVimPlugin {
+    pname = "reactive-nvim-rasulomaroff";
     version = "2025-12-30";
     src = fetchurl {
       url = "https://github.com/rasulomaroff/reactive.nvim/archive/0588b5c2b0cf49bd2232fe4366b3516c32edee44.tar.gz";
@@ -16038,8 +16055,8 @@
   /*
   Generated from: github/bgaillard/readonly.nvim/readonly-nvim
   */
-  readonly-nvim = buildVimPlugin {
-    pname = "readonly-nvim";
+  readonly-nvim-bgaillard = buildVimPlugin {
+    pname = "readonly-nvim-bgaillard";
     version = "2025-07-11";
     src = fetchurl {
       url = "https://github.com/bgaillard/readonly.nvim/archive/292172b4277cea626749abb631ccc1b1d67af53c.tar.gz";
@@ -16055,8 +16072,8 @@
   /*
   Generated from: github/gwatcha/reaper-keys/reaper-keys
   */
-  reaper-keys = buildVimPlugin {
-    pname = "reaper-keys";
+  reaper-keys-gwatcha = buildVimPlugin {
+    pname = "reaper-keys-gwatcha";
     version = "2025-12-10";
     src = fetchurl {
       url = "https://github.com/gwatcha/reaper-keys/archive/7ee4c5da1b990490b6d5aa906952dc4f67b55af0.tar.gz";
@@ -16072,8 +16089,8 @@
   /*
   Generated from: github/madskjeldgaard/reaper-nvim/reaper-nvim
   */
-  reaper-nvim = buildVimPlugin {
-    pname = "reaper-nvim";
+  reaper-nvim-madskjeldgaard = buildVimPlugin {
+    pname = "reaper-nvim-madskjeldgaard";
     version = "2021-01-29";
     src = fetchurl {
       url = "https://github.com/madskjeldgaard/reaper-nvim/archive/dc30b618bb0e2c47b7e0dce781527627291b3365.tar.gz";
@@ -16089,8 +16106,8 @@
   /*
   Generated from: github/fnune/recall.nvim/recall-nvim
   */
-  recall-nvim = buildVimPlugin {
-    pname = "recall-nvim";
+  recall-nvim-fnune = buildVimPlugin {
+    pname = "recall-nvim-fnune";
     version = "2025-12-16";
     src = fetchurl {
       url = "https://github.com/fnune/recall.nvim/archive/147d6cf59b3147183183eb04585b661133637d2a.tar.gz";
@@ -16106,8 +16123,8 @@
   /*
   Generated from: github/mawkler/refjump.nvim/refjump-nvim
   */
-  refjump-nvim = buildVimPlugin {
-    pname = "refjump-nvim";
+  refjump-nvim-mawkler = buildVimPlugin {
+    pname = "refjump-nvim-mawkler";
     version = "2025-12-23";
     src = fetchurl {
       url = "https://github.com/mawkler/refjump.nvim/archive/a7d342f6dc942e3423967b58f1d92d426cac1182.tar.gz";
@@ -16123,8 +16140,8 @@
   /*
   Generated from: github/tversteeg/registers.nvim/registers-nvim
   */
-  registers-nvim = buildVimPlugin {
-    pname = "registers-nvim";
+  registers-nvim-tversteeg = buildVimPlugin {
+    pname = "registers-nvim-tversteeg";
     version = "2024-11-05";
     src = fetchurl {
       url = "https://github.com/tversteeg/registers.nvim/archive/c217f8f369e0886776cda6c94eab839b30a8940d.tar.gz";
@@ -16140,8 +16157,8 @@
   /*
   Generated from: github/cpea2506/relative-toggle.nvim/relative-toggle-nvim
   */
-  relative-toggle-nvim = buildVimPlugin {
-    pname = "relative-toggle-nvim";
+  relative-toggle-nvim-cpea2506 = buildVimPlugin {
+    pname = "relative-toggle-nvim-cpea2506";
     version = "2025-07-13";
     src = fetchurl {
       url = "https://github.com/cpea2506/relative-toggle.nvim/archive/669743be90a3a3c5fc0eceec478042e2bc7541a4.tar.gz";
@@ -16157,8 +16174,8 @@
   /*
   Generated from: github/niuiic/remote.nvim/remote-nvim
   */
-  remote-nvim = buildVimPlugin {
-    pname = "remote-nvim";
+  remote-nvim-niuiic = buildVimPlugin {
+    pname = "remote-nvim-niuiic";
     version = "2024-05-11";
     src = fetchurl {
       url = "https://github.com/niuiic/remote.nvim/archive/8fcf89ccc01237615c0be9dbf2ca2724363110f5.tar.gz";
@@ -16174,8 +16191,8 @@
   /*
   Generated from: github/nosduco/remote-sshfs.nvim/remote-sshfs-nvim
   */
-  remote-sshfs-nvim = buildVimPlugin {
-    pname = "remote-sshfs-nvim";
+  remote-sshfs-nvim-nosduco = buildVimPlugin {
+    pname = "remote-sshfs-nvim-nosduco";
     version = "2025-09-30";
     src = fetchurl {
       url = "https://github.com/nosduco/remote-sshfs.nvim/archive/45502b3892774811153aeab5f7f9b0033c82005c.tar.gz";
@@ -16191,8 +16208,8 @@
   /*
   Generated from: github/filipdutescu/renamer.nvim/renamer-nvim
   */
-  renamer-nvim = buildVimPlugin {
-    pname = "renamer-nvim";
+  renamer-nvim-filipdutescu = buildVimPlugin {
+    pname = "renamer-nvim-filipdutescu";
     version = "2022-08-29";
     src = fetchurl {
       url = "https://github.com/filipdutescu/renamer.nvim/archive/1614d466df53899f11dd5395eaac3c09a275c384.tar.gz";
@@ -16208,8 +16225,8 @@
   /*
   Generated from: github/MeanderingProgrammer/render-markdown.nvim/render-markdown-nvim
   */
-  render-markdown-nvim = buildVimPlugin {
-    pname = "render-markdown-nvim";
+  render-markdown-nvim-MeanderingProgrammer = buildVimPlugin {
+    pname = "render-markdown-nvim-MeanderingProgrammer";
     version = "2026-01-07";
     src = fetchurl {
       url = "https://github.com/MeanderingProgrammer/render-markdown.nvim/archive/73a6ebc842cf81926eb1d424820b800f6f6a1227.tar.gz";
@@ -16225,8 +16242,8 @@
   /*
   Generated from: github/9seconds/repolink.nvim/repolink-nvim
   */
-  repolink-nvim = buildVimPlugin {
-    pname = "repolink-nvim";
+  repolink-nvim-9seconds = buildVimPlugin {
+    pname = "repolink-nvim-9seconds";
     version = "2023-12-08";
     src = fetchurl {
       url = "https://github.com/9seconds/repolink.nvim/archive/55edfedbaef3e894d2ab5107ea7fadc64cb8258d.tar.gz";
@@ -16242,8 +16259,8 @@
   /*
   Generated from: github/raimon49/requirements.txt.vim/requirements-txt-vim
   */
-  requirements-txt-vim = buildVimPlugin {
-    pname = "requirements-txt-vim";
+  requirements-txt-vim-raimon49 = buildVimPlugin {
+    pname = "requirements-txt-vim-raimon49";
     version = "2024-12-10";
     src = fetchurl {
       url = "https://github.com/raimon49/requirements.txt.vim/archive/d55452136a162ac31b15876ab98c00bd1b6c312f.tar.gz";
@@ -16259,8 +16276,8 @@
   /*
   Generated from: github/rest-nvim/rest.nvim/rest-nvim
   */
-  rest-nvim = buildVimPlugin {
-    pname = "rest-nvim";
+  rest-nvim-rest-nvim = buildVimPlugin {
+    pname = "rest-nvim-rest-nvim";
     version = "2025-12-12";
     src = fetchurl {
       url = "https://github.com/rest-nvim/rest.nvim/archive/714d5512aaec5565d55652480c16c26f8d95645d.tar.gz";
@@ -16276,8 +16293,8 @@
   /*
   Generated from: github/lima1909/resty.nvim/resty-nvim
   */
-  resty-nvim = buildVimPlugin {
-    pname = "resty-nvim";
+  resty-nvim-lima1909 = buildVimPlugin {
+    pname = "resty-nvim-lima1909";
     version = "2025-08-17";
     src = fetchurl {
       url = "https://github.com/lima1909/resty.nvim/archive/1d03fa71616fc1d9bf412eb10ce7d08412bd9fd4.tar.gz";
@@ -16293,8 +16310,8 @@
   /*
   Generated from: github/mangelozzi/rgflow.nvim/rgflow-nvim
   */
-  rgflow-nvim = buildVimPlugin {
-    pname = "rgflow-nvim";
+  rgflow-nvim-mangelozzi = buildVimPlugin {
+    pname = "rgflow-nvim-mangelozzi";
     version = "2025-08-11";
     src = fetchurl {
       url = "https://github.com/mangelozzi/rgflow.nvim/archive/c97daadc871aad548cb717b04bbaa948dd2f0fea.tar.gz";
@@ -16310,8 +16327,8 @@
   /*
   Generated from: github/kevinhwang91/rnvimr/rnvimr
   */
-  rnvimr = buildVimPlugin {
-    pname = "rnvimr";
+  rnvimr-kevinhwang91 = buildVimPlugin {
+    pname = "rnvimr-kevinhwang91";
     version = "2025-08-03";
     src = fetchurl {
       url = "https://github.com/kevinhwang91/rnvimr/archive/c9262da32756362be50753806d6e09c747685295.tar.gz";
@@ -16327,8 +16344,8 @@
   /*
   Generated from: github/nvim-neorocks/rocks.nvim/rocks-nvim
   */
-  rocks-nvim = buildVimPlugin {
-    pname = "rocks-nvim";
+  rocks-nvim-nvim-neorocks = buildVimPlugin {
+    pname = "rocks-nvim-nvim-neorocks";
     version = "2026-01-04";
     src = fetchurl {
       url = "https://github.com/nvim-neorocks/rocks.nvim/archive/391b0f57f1db39e26fc17d8fb3c697525f274bdd.tar.gz";
@@ -16344,8 +16361,8 @@
   /*
   Generated from: github/judaew/ronny.nvim/ronny-nvim
   */
-  ronny-nvim = buildVimPlugin {
-    pname = "ronny-nvim";
+  ronny-nvim-judaew = buildVimPlugin {
+    pname = "ronny-nvim-judaew";
     version = "2025-11-02";
     src = fetchurl {
       url = "https://github.com/judaew/ronny.nvim/archive/f980a64b95d6f18085f176f128c30874b1651403.tar.gz";
@@ -16361,8 +16378,8 @@
   /*
   Generated from: github/wsdjeg/rooter.nvim/rooter-nvim
   */
-  rooter-nvim = buildVimPlugin {
-    pname = "rooter-nvim";
+  rooter-nvim-wsdjeg = buildVimPlugin {
+    pname = "rooter-nvim-wsdjeg";
     version = "2025-12-03";
     src = fetchurl {
       url = "https://github.com/wsdjeg/rooter.nvim/archive/4432e6aaf0d22370a62b1fca7ffe0fe82bb0c79f.tar.gz";
@@ -16378,8 +16395,8 @@
   /*
   Generated from: github/rose-pine/neovim/rose-pine
   */
-  rose-pine = buildVimPlugin {
-    pname = "rose-pine";
+  rose-pine-rose-pine = buildVimPlugin {
+    pname = "rose-pine-rose-pine";
     version = "2025-11-12";
     src = fetchurl {
       url = "https://github.com/rose-pine/neovim/archive/cf2a288696b03d0934da713d66c6d71557b5c997.tar.gz";
@@ -16395,8 +16412,8 @@
   /*
   Generated from: github/shaeinst/roshnivim-cs/roshnivim-cs
   */
-  roshnivim-cs = buildVimPlugin {
-    pname = "roshnivim-cs";
+  roshnivim-cs-shaeinst = buildVimPlugin {
+    pname = "roshnivim-cs-shaeinst";
     version = "2025-06-30";
     src = fetchurl {
       url = "https://github.com/shaeinst/roshnivim-cs/archive/94e77787c0380fed9944e6f57c3db00e79d69fdb.tar.gz";
@@ -16412,8 +16429,8 @@
   /*
   Generated from: github/OscarCreator/rsync.nvim/rsync-nvim
   */
-  rsync-nvim = buildVimPlugin {
-    pname = "rsync-nvim";
+  rsync-nvim-OscarCreator = buildVimPlugin {
+    pname = "rsync-nvim-OscarCreator";
     version = "2024-08-08";
     src = fetchurl {
       url = "https://github.com/OscarCreator/rsync.nvim/archive/70be22f23eee7879ebd1bc01de077eca77bdb680.tar.gz";
@@ -16429,8 +16446,8 @@
   /*
   Generated from: github/MarcHamamji/runner.nvim/runner-nvim
   */
-  runner-nvim = buildVimPlugin {
-    pname = "runner-nvim";
+  runner-nvim-MarcHamamji = buildVimPlugin {
+    pname = "runner-nvim-MarcHamamji";
     version = "2025-03-04";
     src = fetchurl {
       url = "https://github.com/MarcHamamji/runner.nvim/archive/6b9d00e6c3c13d510d59d2f93fe34e93ff785f71.tar.gz";
@@ -16446,8 +16463,8 @@
   /*
   Generated from: github/simrat39/rust-tools.nvim/rust-tools-nvim
   */
-  rust-tools-nvim = buildVimPlugin {
-    pname = "rust-tools-nvim";
+  rust-tools-nvim-simrat39 = buildVimPlugin {
+    pname = "rust-tools-nvim-simrat39";
     version = "2024-01-03";
     src = fetchurl {
       url = "https://github.com/simrat39/rust-tools.nvim/archive/676187908a1ce35ffcd727c654ed68d851299d3e.tar.gz";
@@ -16463,8 +16480,8 @@
   /*
   Generated from: github/mrcjkb/rustaceanvim/rustaceanvim
   */
-  rustaceanvim = buildVimPlugin {
-    pname = "rustaceanvim";
+  rustaceanvim-mrcjkb = buildVimPlugin {
+    pname = "rustaceanvim-mrcjkb";
     version = "2026-01-07";
     src = fetchurl {
       url = "https://github.com/mrcjkb/rustaceanvim/archive/4e9e40432b21df641f08c4ec058f2d6f89365526.tar.gz";
@@ -16480,8 +16497,8 @@
   /*
   Generated from: github/kiran94/s3edit.nvim/s3edit-nvim
   */
-  s3edit-nvim = buildVimPlugin {
-    pname = "s3edit-nvim";
+  s3edit-nvim-kiran94 = buildVimPlugin {
+    pname = "s3edit-nvim-kiran94";
     version = "2025-04-13";
     src = fetchurl {
       url = "https://github.com/kiran94/s3edit.nvim/archive/86d90ca4899ab3f91901c1453acca9d0ff958309.tar.gz";
@@ -16497,8 +16514,8 @@
   /*
   Generated from: github/ray-x/sad.nvim/sad-nvim
   */
-  sad-nvim = buildVimPlugin {
-    pname = "sad-nvim";
+  sad-nvim-ray-x = buildVimPlugin {
+    pname = "sad-nvim-ray-x";
     version = "2025-05-01";
     src = fetchurl {
       url = "https://github.com/ray-x/sad.nvim/archive/e7511767b59fcff237cc7209d47d08aba64b9f63.tar.gz";
@@ -16514,8 +16531,8 @@
   /*
   Generated from: github/lewis6991/satellite.nvim/satellite-nvim
   */
-  satellite-nvim = buildVimPlugin {
-    pname = "satellite-nvim";
+  satellite-nvim-lewis6991 = buildVimPlugin {
+    pname = "satellite-nvim-lewis6991";
     version = "2025-12-18";
     src = fetchurl {
       url = "https://github.com/lewis6991/satellite.nvim/archive/d6c681e3b01e45a899eae5569d0cf08849479683.tar.gz";
@@ -16531,8 +16548,8 @@
   /*
   Generated from: github/b0o/SchemaStore.nvim/SchemaStore-nvim
   */
-  SchemaStore-nvim = buildVimPlugin {
-    pname = "SchemaStore-nvim";
+  SchemaStore-nvim-b0o = buildVimPlugin {
+    pname = "SchemaStore-nvim-b0o";
     version = "2026-01-08";
     src = fetchurl {
       url = "https://github.com/b0o/SchemaStore.nvim/archive/d5687736d15cfc3c1ac943485cad7808ba487d2b.tar.gz";
@@ -16548,8 +16565,8 @@
   /*
   Generated from: github/davidgranstrom/scnvim/scnvim
   */
-  scnvim = buildVimPlugin {
-    pname = "scnvim";
+  scnvim-davidgranstrom = buildVimPlugin {
+    pname = "scnvim-davidgranstrom";
     version = "2025-10-02";
     src = fetchurl {
       url = "https://github.com/davidgranstrom/scnvim/archive/b5beb7f0c6b8143291efcada93dfa25464f32b71.tar.gz";
@@ -16565,8 +16582,8 @@
   /*
   Generated from: github/tiagovla/scope.nvim/scope-nvim
   */
-  scope-nvim = buildVimPlugin {
-    pname = "scope-nvim";
+  scope-nvim-tiagovla = buildVimPlugin {
+    pname = "scope-nvim-tiagovla";
     version = "2025-10-15";
     src = fetchurl {
       url = "https://github.com/tiagovla/scope.nvim/archive/228aabdb1b9cc74f0c0ccec88e79873857236e49.tar.gz";
@@ -16582,8 +16599,8 @@
   /*
   Generated from: github/LintaoAmons/scratch.nvim/scratch-nvim
   */
-  scratch-nvim = buildVimPlugin {
-    pname = "scratch-nvim";
+  scratch-nvim-LintaoAmons = buildVimPlugin {
+    pname = "scratch-nvim-LintaoAmons";
     version = "2025-09-08";
     src = fetchurl {
       url = "https://github.com/LintaoAmons/scratch.nvim/archive/1e78854fd3140411b231d5b6f9b3559b1ba5de77.tar.gz";
@@ -16599,8 +16616,8 @@
   /*
   Generated from: github/athar-qadri/scratchpad.nvim/scratchpad-nvim
   */
-  scratchpad-nvim = buildVimPlugin {
-    pname = "scratchpad-nvim";
+  scratchpad-nvim-athar-qadri = buildVimPlugin {
+    pname = "scratchpad-nvim-athar-qadri";
     version = "2025-03-09";
     src = fetchurl {
       url = "https://github.com/athar-qadri/scratchpad.nvim/archive/05d7f8e285a927355de62a3c3b2b5949f4def562.tar.gz";
@@ -16616,8 +16633,8 @@
   /*
   Generated from: github/NStefan002/screenkey.nvim/screenkey-nvim
   */
-  screenkey-nvim = buildVimPlugin {
-    pname = "screenkey-nvim";
+  screenkey-nvim-NStefan002 = buildVimPlugin {
+    pname = "screenkey-nvim-NStefan002";
     version = "2025-12-28";
     src = fetchurl {
       url = "https://github.com/NStefan002/screenkey.nvim/archive/68f03f52faf52ccfe954e5430ce17f7590bac2a0.tar.gz";
@@ -16633,8 +16650,8 @@
   /*
   Generated from: github/0xJohnnyboy/scretch.nvim/scretch-nvim
   */
-  scretch-nvim = buildVimPlugin {
-    pname = "scretch-nvim";
+  scretch-nvim-0xJohnnyboy = buildVimPlugin {
+    pname = "scretch-nvim-0xJohnnyboy";
     version = "2025-09-11";
     src = fetchurl {
       url = "https://github.com/0xJohnnyboy/scretch.nvim/archive/c37292af17af42091b3c58c53c56fe67705d684d.tar.gz";
@@ -16650,8 +16667,8 @@
   /*
   Generated from: github/ostralyan/scribe.nvim/scribe-nvim
   */
-  scribe-nvim = buildVimPlugin {
-    pname = "scribe-nvim";
+  scribe-nvim-ostralyan = buildVimPlugin {
+    pname = "scribe-nvim-ostralyan";
     version = "2023-02-02";
     src = fetchurl {
       url = "https://github.com/ostralyan/scribe.nvim/archive/e1c95d6c86c88a199f8c94e7a2a835db2eaf28ea.tar.gz";
@@ -16667,8 +16684,8 @@
   /*
   Generated from: github/niuiic/scroll.nvim/scroll-nvim
   */
-  scroll-nvim = buildVimPlugin {
-    pname = "scroll-nvim";
+  scroll-nvim-niuiic = buildVimPlugin {
+    pname = "scroll-nvim-niuiic";
     version = "2024-05-24";
     src = fetchurl {
       url = "https://github.com/niuiic/scroll.nvim/archive/fcc9767cd03782ed278e8044aff22b1837645797.tar.gz";
@@ -16684,8 +16701,8 @@
   /*
   Generated from: github/wsdjeg/scrollbar.nvim/scrollbar-nvim-wsdjeg
   */
-  scrollbar-nvim-wsdjeg = buildVimPlugin {
-    pname = "scrollbar-nvim-wsdjeg";
+  scrollbar-nvim-wsdjeg-wsdjeg = buildVimPlugin {
+    pname = "scrollbar-nvim-wsdjeg-wsdjeg";
     version = "2025-12-24";
     src = fetchurl {
       url = "https://github.com/wsdjeg/scrollbar.nvim/archive/448e4e758917266ba33b966e71cf2fe149b9f10b.tar.gz";
@@ -16701,8 +16718,8 @@
   /*
   Generated from: github/Xuyuanp/scrollbar.nvim/scrollbar-nvim-xuyuanp
   */
-  scrollbar-nvim-xuyuanp = buildVimPlugin {
-    pname = "scrollbar-nvim-xuyuanp";
+  scrollbar-nvim-xuyuanp-Xuyuanp = buildVimPlugin {
+    pname = "scrollbar-nvim-xuyuanp-Xuyuanp";
     version = "2025-03-23";
     src = fetchurl {
       url = "https://github.com/Xuyuanp/scrollbar.nvim/archive/c96fc2fb1a3b5a9e6e82d94014490d5bca9beb9b.tar.gz";
@@ -16718,8 +16735,8 @@
   /*
   Generated from: github/nkakouros-original/scrollofffraction.nvim/scrollofffraction-nvim
   */
-  scrollofffraction-nvim = buildVimPlugin {
-    pname = "scrollofffraction-nvim";
+  scrollofffraction-nvim-nkakouros-original = buildVimPlugin {
+    pname = "scrollofffraction-nvim-nkakouros-original";
     version = "2024-04-30";
     src = fetchurl {
       url = "https://github.com/nkakouros-original/scrollofffraction.nvim/archive/0618a3e3e1a4e13a04edf6fd35bfcee4bd5afe38.tar.gz";
@@ -16735,8 +16752,8 @@
   /*
   Generated from: github/FabianWirth/search.nvim/search-nvim
   */
-  search-nvim = buildVimPlugin {
-    pname = "search-nvim";
+  search-nvim-FabianWirth = buildVimPlugin {
+    pname = "search-nvim-FabianWirth";
     version = "2024-05-21";
     src = fetchurl {
       url = "https://github.com/FabianWirth/search.nvim/archive/7b8f2315d031be73e14bc2d82386dfac15952614.tar.gz";
@@ -16752,8 +16769,8 @@
   /*
   Generated from: github/roobert/search-replace.nvim/search-replace-nvim
   */
-  search-replace-nvim = buildVimPlugin {
-    pname = "search-replace-nvim";
+  search-replace-nvim-roobert = buildVimPlugin {
+    pname = "search-replace-nvim-roobert";
     version = "2023-09-09";
     src = fetchurl {
       url = "https://github.com/roobert/search-replace.nvim/archive/d92290a02d97f4e9b8cd60d28b56b403432158d5.tar.gz";
@@ -16769,8 +16786,8 @@
   /*
   Generated from: github/njayman/season.nvim/season-nvim
   */
-  season-nvim = buildVimPlugin {
-    pname = "season-nvim";
+  season-nvim-njayman = buildVimPlugin {
+    pname = "season-nvim-njayman";
     version = "2025-11-24";
     src = fetchurl {
       url = "https://github.com/njayman/season.nvim/archive/748d80622149a5363eb9b65c8882044b003e8cb8.tar.gz";
@@ -16786,8 +16803,8 @@
   /*
   Generated from: github/calind/selenized.nvim/selenized-nvim
   */
-  selenized-nvim = buildVimPlugin {
-    pname = "selenized-nvim";
+  selenized-nvim-calind = buildVimPlugin {
+    pname = "selenized-nvim-calind";
     version = "2025-08-06";
     src = fetchurl {
       url = "https://github.com/calind/selenized.nvim/archive/8663bf6b222d911e04a9f1b391c3b1ccd22adb69.tar.gz";
@@ -16803,8 +16820,8 @@
   /*
   Generated from: github/utilyre/sentiment.nvim/sentiment-nvim
   */
-  sentiment-nvim = buildVimPlugin {
-    pname = "sentiment-nvim";
+  sentiment-nvim-utilyre = buildVimPlugin {
+    pname = "sentiment-nvim-utilyre";
     version = "2023-05-26";
     src = fetchurl {
       url = "https://github.com/utilyre/sentiment.nvim/archive/ecde8d877881bb78fdb90060c0991e76770dbdbc.tar.gz";
@@ -16820,8 +16837,8 @@
   /*
   Generated from: github/samharju/serene.nvim/serene-nvim
   */
-  serene-nvim = buildVimPlugin {
-    pname = "serene-nvim";
+  serene-nvim-samharju = buildVimPlugin {
+    pname = "serene-nvim-samharju";
     version = "2024-08-08";
     src = fetchurl {
       url = "https://github.com/samharju/serene.nvim/archive/e44be3b1c8a824c4c33d851fc92b02c3e893ec66.tar.gz";
@@ -16837,8 +16854,8 @@
   /*
   Generated from: github/dinhhuy258/sfm.nvim/sfm-nvim
   */
-  sfm-nvim = buildVimPlugin {
-    pname = "sfm-nvim";
+  sfm-nvim-dinhhuy258 = buildVimPlugin {
+    pname = "sfm-nvim-dinhhuy258";
     version = "2025-12-05";
     src = fetchurl {
       url = "https://github.com/dinhhuy258/sfm.nvim/archive/8a24f30e24a88d643cac8fc8ba221ec9b0938223.tar.gz";
@@ -16854,8 +16871,8 @@
   /*
   Generated from: github/sunjon/Shade.nvim/Shade-nvim
   */
-  Shade-nvim = buildVimPlugin {
-    pname = "Shade-nvim";
+  Shade-nvim-sunjon = buildVimPlugin {
+    pname = "Shade-nvim-sunjon";
     version = "2022-02-01";
     src = fetchurl {
       url = "https://github.com/sunjon/Shade.nvim/archive/4286b5abc47d62d0c9ffb22a4f388b7bf2ac2461.tar.gz";
@@ -16871,8 +16888,8 @@
   /*
   Generated from: github/shaunsingh/nord.nvim/shaunsingh-nord-nvim
   */
-  shaunsingh-nord-nvim = buildVimPlugin {
-    pname = "shaunsingh-nord-nvim";
+  shaunsingh-nord-nvim-shaunsingh = buildVimPlugin {
+    pname = "shaunsingh-nord-nvim-shaunsingh";
     version = "2023-12-20";
     src = fetchurl {
       url = "https://github.com/shaunsingh/nord.nvim/archive/80c1e5321505aeb22b7a9f23eb82f1e193c12470.tar.gz";
@@ -16888,8 +16905,8 @@
   /*
   Generated from: github/rktjmp/shenzhen-solitaire.nvim/shenzhen-solitaire-nvim
   */
-  shenzhen-solitaire-nvim = buildVimPlugin {
-    pname = "shenzhen-solitaire-nvim";
+  shenzhen-solitaire-nvim-rktjmp = buildVimPlugin {
+    pname = "shenzhen-solitaire-nvim-rktjmp";
     version = "2024-02-10";
     src = fetchurl {
       url = "https://github.com/rktjmp/shenzhen-solitaire.nvim/archive/cac9f55cd001f064a40cc5d1de3070fd97f54ee1.tar.gz";
@@ -16905,8 +16922,8 @@
   /*
   Generated from: github/lewpoly/sherbet.nvim/sherbet-nvim
   */
-  sherbet-nvim = buildVimPlugin {
-    pname = "sherbet-nvim";
+  sherbet-nvim-lewpoly = buildVimPlugin {
+    pname = "sherbet-nvim-lewpoly";
     version = "2022-12-17";
     src = fetchurl {
       url = "https://github.com/lewpoly/sherbet.nvim/archive/5c4166eff70ec551ae0023edfb89141b25cc18c6.tar.gz";
@@ -16922,8 +16939,8 @@
   /*
   Generated from: github/Wansmer/sibling-swap.nvim/sibling-swap-nvim
   */
-  sibling-swap-nvim = buildVimPlugin {
-    pname = "sibling-swap-nvim";
+  sibling-swap-nvim-Wansmer = buildVimPlugin {
+    pname = "sibling-swap-nvim-Wansmer";
     version = "2025-05-29";
     src = fetchurl {
       url = "https://github.com/Wansmer/sibling-swap.nvim/archive/75e696c340429769aa34d0bbae1511c8d9660c0b.tar.gz";
@@ -16939,8 +16956,8 @@
   /*
   Generated from: github/Dan7h3x/signup.nvim/signup-nvim
   */
-  signup-nvim = buildVimPlugin {
-    pname = "signup-nvim";
+  signup-nvim-Dan7h3x = buildVimPlugin {
+    pname = "signup-nvim-Dan7h3x";
     version = "2026-01-05";
     src = fetchurl {
       url = "https://github.com/Dan7h3x/signup.nvim/archive/1a00bd5a7a0e7722f0ba58cc6de50a93170f8248.tar.gz";
@@ -16956,8 +16973,8 @@
   /*
   Generated from: github/terje/simctl.nvim/simctl-nvim
   */
-  simctl-nvim = buildVimPlugin {
-    pname = "simctl-nvim";
+  simctl-nvim-terje = buildVimPlugin {
+    pname = "simctl-nvim-terje";
     version = "2024-12-15";
     src = fetchurl {
       url = "https://github.com/terje/simctl.nvim/archive/65652e720a21a6061f022304cbc6835e56bc368e.tar.gz";
@@ -16973,8 +16990,8 @@
   /*
   Generated from: github/you-n-g/simplegpt.nvim/simplegpt-nvim
   */
-  simplegpt-nvim = buildVimPlugin {
-    pname = "simplegpt-nvim";
+  simplegpt-nvim-you-n-g = buildVimPlugin {
+    pname = "simplegpt-nvim-you-n-g";
     version = "2025-12-17";
     src = fetchurl {
       url = "https://github.com/you-n-g/simplegpt.nvim/archive/4bb82f24fdf8127f8be3b89c2746d1b2bb0e0916.tar.gz";
@@ -16990,8 +17007,8 @@
   /*
   Generated from: github/LucasTavaresA/simpleIndentGuides.nvim/simpleIndentGuides-nvim
   */
-  simpleIndentGuides-nvim = buildVimPlugin {
-    pname = "simpleIndentGuides-nvim";
+  simpleIndentGuides-nvim-LucasTavaresA = buildVimPlugin {
+    pname = "simpleIndentGuides-nvim-LucasTavaresA";
     version = "2024-11-24";
     src = fetchurl {
       url = "https://github.com/LucasTavaresA/simpleIndentGuides.nvim/archive/7785aebdd0bbdf322648f8e9e924f3fbee7c0a1e.tar.gz";
@@ -17007,8 +17024,8 @@
   /*
   Generated from: github/LucasTavaresA/SingleComment.nvim/SingleComment-nvim
   */
-  SingleComment-nvim = buildVimPlugin {
-    pname = "SingleComment-nvim";
+  SingleComment-nvim-LucasTavaresA = buildVimPlugin {
+    pname = "SingleComment-nvim-LucasTavaresA";
     version = "2025-08-27";
     src = fetchurl {
       url = "https://github.com/LucasTavaresA/SingleComment.nvim/archive/9b077127e3b1c759cad0ab95ac5243f449f33dce.tar.gz";
@@ -17024,8 +17041,8 @@
   /*
   Generated from: github/woosaaahh/sj.nvim/sj-nvim
   */
-  sj-nvim = buildVimPlugin {
-    pname = "sj-nvim";
+  sj-nvim-woosaaahh = buildVimPlugin {
+    pname = "sj-nvim-woosaaahh";
     version = "2023-08-06";
     src = fetchurl {
       url = "https://github.com/woosaaahh/sj.nvim/archive/7ca6186a9ce1588ded42cd9d67582ace0f9a9242.tar.gz";
@@ -17041,8 +17058,8 @@
   /*
   Generated from: github/sschleemilch/slimline.nvim/slimline-nvim
   */
-  slimline-nvim = buildVimPlugin {
-    pname = "slimline-nvim";
+  slimline-nvim-sschleemilch = buildVimPlugin {
+    pname = "slimline-nvim-sschleemilch";
     version = "2025-12-05";
     src = fetchurl {
       url = "https://github.com/sschleemilch/slimline.nvim/archive/b23d6239ae06d7b422b30b227756971348ffcd68.tar.gz";
@@ -17058,8 +17075,8 @@
   /*
   Generated from: github/EvWilson/slimux.nvim/slimux-nvim
   */
-  slimux-nvim = buildVimPlugin {
-    pname = "slimux-nvim";
+  slimux-nvim-EvWilson = buildVimPlugin {
+    pname = "slimux-nvim-EvWilson";
     version = "2025-11-13";
     src = fetchurl {
       url = "https://github.com/EvWilson/slimux.nvim/archive/7c2ef09c31b8e28156e209e73cf7bff044ab93cf.tar.gz";
@@ -17075,8 +17092,8 @@
   /*
   Generated from: github/qwavies/smart-backspace.nvim/smart-backspace-nvim
   */
-  smart-backspace-nvim = buildVimPlugin {
-    pname = "smart-backspace-nvim";
+  smart-backspace-nvim-qwavies = buildVimPlugin {
+    pname = "smart-backspace-nvim-qwavies";
     version = "2025-12-11";
     src = fetchurl {
       url = "https://github.com/qwavies/smart-backspace.nvim/archive/12a34e281289c34e4da4c8589856a3113b58f45b.tar.gz";
@@ -17092,8 +17109,8 @@
   /*
   Generated from: github/danielfalk/smart-open.nvim/smart-open-nvim
   */
-  smart-open-nvim = buildVimPlugin {
-    pname = "smart-open-nvim";
+  smart-open-nvim-danielfalk = buildVimPlugin {
+    pname = "smart-open-nvim-danielfalk";
     version = "2025-11-16";
     src = fetchurl {
       url = "https://github.com/danielfalk/smart-open.nvim/archive/1082c18eabd0fb6fcdac4a828b698ccd6e25f291.tar.gz";
@@ -17109,8 +17126,8 @@
   /*
   Generated from: github/ZhiyuanLck/smart-pairs/smart-pairs
   */
-  smart-pairs = buildVimPlugin {
-    pname = "smart-pairs";
+  smart-pairs-ZhiyuanLck = buildVimPlugin {
+    pname = "smart-pairs-ZhiyuanLck";
     version = "2025-11-23";
     src = fetchurl {
       url = "https://github.com/ZhiyuanLck/smart-pairs/archive/ac18bf42ac653593ea97cc425596b01c8643662a.tar.gz";
@@ -17126,8 +17143,8 @@
   /*
   Generated from: github/mrjones2014/smart-splits.nvim/smart-splits-nvim
   */
-  smart-splits-nvim = buildVimPlugin {
-    pname = "smart-splits-nvim";
+  smart-splits-nvim-mrjones2014 = buildVimPlugin {
+    pname = "smart-splits-nvim-mrjones2014";
     version = "2026-01-02";
     src = fetchurl {
       url = "https://github.com/mrjones2014/smart-splits.nvim/archive/d2629b2451649946c95bcc11ea5eaf15c96b23ef.tar.gz";
@@ -17143,8 +17160,8 @@
   /*
   Generated from: github/sychen52/smart-term-esc.nvim/smart-term-esc-nvim
   */
-  smart-term-esc-nvim = buildVimPlugin {
-    pname = "smart-term-esc-nvim";
+  smart-term-esc-nvim-sychen52 = buildVimPlugin {
+    pname = "smart-term-esc-nvim-sychen52";
     version = "2021-09-27";
     src = fetchurl {
       url = "https://github.com/sychen52/smart-term-esc.nvim/archive/168cd1a9e4649038e356b293005e5714e6e9f190.tar.gz";
@@ -17160,8 +17177,8 @@
   /*
   Generated from: github/m4xshen/smartcolumn.nvim/smartcolumn-nvim
   */
-  smartcolumn-nvim = buildVimPlugin {
-    pname = "smartcolumn-nvim";
+  smartcolumn-nvim-m4xshen = buildVimPlugin {
+    pname = "smartcolumn-nvim-m4xshen";
     version = "2025-07-21";
     src = fetchurl {
       url = "https://github.com/m4xshen/smartcolumn.nvim/archive/b9cdbdf42f7ac5a659204cd5926017c7ff724a19.tar.gz";
@@ -17177,8 +17194,8 @@
   /*
   Generated from: github/sphamba/smear-cursor.nvim/smear-cursor-nvim
   */
-  smear-cursor-nvim = buildVimPlugin {
-    pname = "smear-cursor-nvim";
+  smear-cursor-nvim-sphamba = buildVimPlugin {
+    pname = "smear-cursor-nvim-sphamba";
     version = "2025-11-27";
     src = fetchurl {
       url = "https://github.com/sphamba/smear-cursor.nvim/archive/c85bdbb25db096fbcf616bc4e1357bd61fe2c199.tar.gz";
@@ -17194,8 +17211,8 @@
   /*
   Generated from: github/gen740/SmoothCursor.nvim/SmoothCursor-nvim
   */
-  SmoothCursor-nvim = buildVimPlugin {
-    pname = "SmoothCursor-nvim";
+  SmoothCursor-nvim-gen740 = buildVimPlugin {
+    pname = "SmoothCursor-nvim-gen740";
     version = "2024-09-18";
     src = fetchurl {
       url = "https://github.com/gen740/SmoothCursor.nvim/archive/12518b284e1e3f7c6c703b346815968e1620bee2.tar.gz";
@@ -17211,8 +17228,8 @@
   /*
   Generated from: github/folke/snacks.nvim/snacks-nvim
   */
-  snacks-nvim = buildVimPlugin {
-    pname = "snacks-nvim";
+  snacks-nvim-folke = buildVimPlugin {
+    pname = "snacks-nvim-folke";
     version = "2025-11-18";
     src = fetchurl {
       url = "https://github.com/folke/snacks.nvim/archive/fe7cfe9800a182274d0f868a74b7263b8c0c020b.tar.gz";
@@ -17228,8 +17245,8 @@
   /*
   Generated from: github/camspiers/snap/snap
   */
-  snap = buildVimPlugin {
-    pname = "snap";
+  snap-camspiers = buildVimPlugin {
+    pname = "snap-camspiers";
     version = "2025-03-06";
     src = fetchurl {
       url = "https://github.com/camspiers/snap/archive/d50e28ff4ca63a761e417f63508726cdd15a55e4.tar.gz";
@@ -17245,8 +17262,8 @@
   /*
   Generated from: github/smjonas/snippet-converter.nvim/snippet-converter-nvim
   */
-  snippet-converter-nvim = buildVimPlugin {
-    pname = "snippet-converter-nvim";
+  snippet-converter-nvim-smjonas = buildVimPlugin {
+    pname = "snippet-converter-nvim-smjonas";
     version = "2023-09-21";
     src = fetchurl {
       url = "https://github.com/smjonas/snippet-converter.nvim/archive/d7e783618f02541641980ebd823e439bdef64a4f.tar.gz";
@@ -17262,8 +17279,8 @@
   /*
   Generated from: github/norcalli/snippets.nvim/snippets-nvim
   */
-  snippets-nvim = buildVimPlugin {
-    pname = "snippets-nvim";
+  snippets-nvim-norcalli = buildVimPlugin {
+    pname = "snippets-nvim-norcalli";
     version = "2020-09-09";
     src = fetchurl {
       url = "https://github.com/norcalli/snippets.nvim/archive/7b5fd8071d4fb6fa981a899aae56b55897c079fd.tar.gz";
@@ -17279,8 +17296,8 @@
   /*
   Generated from: github/michaelb/sniprun/sniprun
   */
-  sniprun = buildVimPlugin {
-    pname = "sniprun";
+  sniprun-michaelb = buildVimPlugin {
+    pname = "sniprun-michaelb";
     version = "2025-12-30";
     src = fetchurl {
       url = "https://github.com/michaelb/sniprun/archive/c091976ec5dbb0c6587f621657892174fe3dd691.tar.gz";
@@ -17296,8 +17313,8 @@
   /*
   Generated from: github/sainnhe/sonokai/sonokai
   */
-  sonokai = buildVimPlugin {
-    pname = "sonokai";
+  sonokai-sainnhe = buildVimPlugin {
+    pname = "sonokai-sainnhe";
     version = "2026-01-04";
     src = fetchurl {
       url = "https://github.com/sainnhe/sonokai/archive/5c7f88c0cac01b32cfce634f2a28947ab426537f.tar.gz";
@@ -17313,8 +17330,8 @@
   /*
   Generated from: github/sQVe/sort.nvim/sort-nvim
   */
-  sort-nvim = buildVimPlugin {
-    pname = "sort-nvim";
+  sort-nvim-sQVe = buildVimPlugin {
+    pname = "sort-nvim-sQVe";
     version = "2025-08-25";
     src = fetchurl {
       url = "https://github.com/sQVe/sort.nvim/archive/bb92140e1b96d62339bd5ab5b6df1eecca0d5da6.tar.gz";
@@ -17330,8 +17347,8 @@
   /*
   Generated from: github/tmillr/sos.nvim/sos-nvim
   */
-  sos-nvim = buildVimPlugin {
-    pname = "sos-nvim";
+  sos-nvim-tmillr = buildVimPlugin {
+    pname = "sos-nvim-tmillr";
     version = "2024-12-07";
     src = fetchurl {
       url = "https://github.com/tmillr/sos.nvim/archive/c1e0f90081d4fd89626b1dbba76604f14f4faf8f.tar.gz";
@@ -17347,8 +17364,8 @@
   /*
   Generated from: github/Th3Whit3Wolf/space-nvim/space-nvim
   */
-  space-nvim = buildVimPlugin {
-    pname = "space-nvim";
+  space-nvim-Th3Whit3Wolf = buildVimPlugin {
+    pname = "space-nvim-Th3Whit3Wolf";
     version = "2024-05-28";
     src = fetchurl {
       url = "https://github.com/Th3Whit3Wolf/space-nvim/archive/7c3a7834ca4ff15d3004d2c0ad037d078b6f5a6d.tar.gz";
@@ -17364,8 +17381,8 @@
   /*
   Generated from: github/CWood-sdf/spaceport.nvim/spaceport-nvim
   */
-  spaceport-nvim = buildVimPlugin {
-    pname = "spaceport-nvim";
+  spaceport-nvim-CWood-sdf = buildVimPlugin {
+    pname = "spaceport-nvim-CWood-sdf";
     version = "2026-01-02";
     src = fetchurl {
       url = "https://github.com/CWood-sdf/spaceport.nvim/archive/abccba224099eb2e3cdb712a2ec548f747d6a14b.tar.gz";
@@ -17381,8 +17398,8 @@
   /*
   Generated from: github/cxwx/specs.nvim/specs-cxwx
   */
-  specs-cxwx = buildVimPlugin {
-    pname = "specs-cxwx";
+  specs-cxwx-cxwx = buildVimPlugin {
+    pname = "specs-cxwx-cxwx";
     version = "2025-01-18";
     src = fetchurl {
       url = "https://github.com/cxwx/specs.nvim/archive/4a2f6f71eaa054a9355a2f424b4723e68f7ce22c.tar.gz";
@@ -17398,8 +17415,8 @@
   /*
   Generated from: github/edluffy/specs.nvim/specs-edluffy
   */
-  specs-edluffy = buildVimPlugin {
-    pname = "specs-edluffy";
+  specs-edluffy-edluffy = buildVimPlugin {
+    pname = "specs-edluffy-edluffy";
     version = "2022-09-20";
     src = fetchurl {
       url = "https://github.com/edluffy/specs.nvim/archive/2743e412bbe21c9d73954c403d01e8de7377890d.tar.gz";
@@ -17415,8 +17432,8 @@
   /*
   Generated from: github/RutaTang/spectacle.nvim/spectacle-nvim
   */
-  spectacle-nvim = buildVimPlugin {
-    pname = "spectacle-nvim";
+  spectacle-nvim-RutaTang = buildVimPlugin {
+    pname = "spectacle-nvim-RutaTang";
     version = "2023-09-28";
     src = fetchurl {
       url = "https://github.com/RutaTang/spectacle.nvim/archive/d40d6932ca5fa236e498d181d88dbc1e7812ca67.tar.gz";
@@ -17432,8 +17449,8 @@
   /*
   Generated from: github/lewis6991/spellsitter.nvim/spellsitter-nvim
   */
-  spellsitter-nvim = buildVimPlugin {
-    pname = "spellsitter-nvim";
+  spellsitter-nvim-lewis6991 = buildVimPlugin {
+    pname = "spellsitter-nvim-lewis6991";
     version = "2022-09-06";
     src = fetchurl {
       url = "https://github.com/lewis6991/spellsitter.nvim/archive/4af8640d9d706447e78c13150ef7475ea2c16b30.tar.gz";
@@ -17449,8 +17466,8 @@
   /*
   Generated from: github/EvWilson/spelunk.nvim/spelunk-nvim
   */
-  spelunk-nvim = buildVimPlugin {
-    pname = "spelunk-nvim";
+  spelunk-nvim-EvWilson = buildVimPlugin {
+    pname = "spelunk-nvim-EvWilson";
     version = "2025-12-04";
     src = fetchurl {
       url = "https://github.com/EvWilson/spelunk.nvim/archive/71132b1bea194f9f0c6888e36d72d20f91159081.tar.gz";
@@ -17466,8 +17483,8 @@
   /*
   Generated from: github/speelbarrow/spLauncher.nvim/spLauncher-nvim
   */
-  spLauncher-nvim = buildVimPlugin {
-    pname = "spLauncher-nvim";
+  spLauncher-nvim-speelbarrow = buildVimPlugin {
+    pname = "spLauncher-nvim-speelbarrow";
     version = "2024-07-02";
     src = fetchurl {
       url = "https://github.com/speelbarrow/spLauncher.nvim/archive/af245b8144180f222726e8bf18f9086f64f2fa08.tar.gz";
@@ -17483,8 +17500,8 @@
   /*
   Generated from: github/wurli/split.nvim/split-nvim
   */
-  split-nvim = buildVimPlugin {
-    pname = "split-nvim";
+  split-nvim-wurli = buildVimPlugin {
+    pname = "split-nvim-wurli";
     version = "2025-02-07";
     src = fetchurl {
       url = "https://github.com/wurli/split.nvim/archive/12c4fb27a9c617e0291ef0ae1609662ae409c9f8.tar.gz";
@@ -17500,8 +17517,8 @@
   /*
   Generated from: github/bennypowers/splitjoin.nvim/splitjoin-nvim
   */
-  splitjoin-nvim = buildVimPlugin {
-    pname = "splitjoin-nvim";
+  splitjoin-nvim-bennypowers = buildVimPlugin {
+    pname = "splitjoin-nvim-bennypowers";
     version = "2025-07-08";
     src = fetchurl {
       url = "https://github.com/bennypowers/splitjoin.nvim/archive/292795425ebcd8c34bad6811547b922ec5631411.tar.gz";
@@ -17517,8 +17534,8 @@
   /*
   Generated from: github/kkharji/sqlite.lua/sqlite-lua
   */
-  sqlite-lua = buildVimPlugin {
-    pname = "sqlite-lua";
+  sqlite-lua-kkharji = buildVimPlugin {
+    pname = "sqlite-lua-kkharji";
     version = "2025-03-14";
     src = fetchurl {
       url = "https://github.com/kkharji/sqlite.lua/archive/50092d60feb242602d7578398c6eb53b4a8ffe7b.tar.gz";
@@ -17534,8 +17551,8 @@
   /*
   Generated from: github/nanotee/sqls.nvim/sqls-nvim
   */
-  sqls-nvim = buildVimPlugin {
-    pname = "sqls-nvim";
+  sqls-nvim-nanotee = buildVimPlugin {
+    pname = "sqls-nvim-nanotee";
     version = "2025-09-02";
     src = fetchurl {
       url = "https://github.com/nanotee/sqls.nvim/archive/bfb7b4090268f6163c408577070da4cc9d7450fd.tar.gz";
@@ -17551,8 +17568,8 @@
   /*
   Generated from: github/xiaoshihou514/squirrel.nvim/squirrel-nvim
   */
-  squirrel-nvim = buildVimPlugin {
-    pname = "squirrel-nvim";
+  squirrel-nvim-xiaoshihou514 = buildVimPlugin {
+    pname = "squirrel-nvim-xiaoshihou514";
     version = "2024-01-04";
     src = fetchurl {
       url = "https://github.com/xiaoshihou514/squirrel.nvim/archive/4f51ad87b2d35d04aaacb4aaa7c8a13449cb3d1a.tar.gz";
@@ -17568,8 +17585,8 @@
   /*
   Generated from: github/cshuaimin/ssr.nvim/ssr-nvim
   */
-  ssr-nvim = buildVimPlugin {
-    pname = "ssr-nvim";
+  ssr-nvim-cshuaimin = buildVimPlugin {
+    pname = "ssr-nvim-cshuaimin";
     version = "2024-09-07";
     src = fetchurl {
       url = "https://github.com/cshuaimin/ssr.nvim/archive/7c95cfa5836508f08ae833a4b31d2ed265560f64.tar.gz";
@@ -17585,8 +17602,8 @@
   /*
   Generated from: github/luukvbaal/stabilize.nvim/stabilize-nvim
   */
-  stabilize-nvim = buildVimPlugin {
-    pname = "stabilize-nvim";
+  stabilize-nvim-luukvbaal = buildVimPlugin {
+    pname = "stabilize-nvim-luukvbaal";
     version = "2023-04-14";
     src = fetchurl {
       url = "https://github.com/luukvbaal/stabilize.nvim/archive/eeb1873daffaba67246188a5668b366e45ed1de1.tar.gz";
@@ -17602,8 +17619,8 @@
   /*
   Generated from: github/tamton-aquib/staline.nvim/staline-nvim
   */
-  staline-nvim = buildVimPlugin {
-    pname = "staline-nvim";
+  staline-nvim-tamton-aquib = buildVimPlugin {
+    pname = "staline-nvim-tamton-aquib";
     version = "2024-06-02";
     src = fetchurl {
       url = "https://github.com/tamton-aquib/staline.nvim/archive/d337bc9b343df3328921ef4c3f8ff604102d0201.tar.gz";
@@ -17619,8 +17636,8 @@
   /*
   Generated from: github/ray-x/starry.nvim/starry-nvim
   */
-  starry-nvim = buildVimPlugin {
-    pname = "starry-nvim";
+  starry-nvim-ray-x = buildVimPlugin {
+    pname = "starry-nvim-ray-x";
     version = "2025-04-16";
     src = fetchurl {
       url = "https://github.com/ray-x/starry.nvim/archive/972158d6f9a630fad1954f42b921983ab4de8ab3.tar.gz";
@@ -17636,8 +17653,8 @@
   /*
   Generated from: github/max397574/startup.nvim/startup-nvim
   */
-  startup-nvim = buildVimPlugin {
-    pname = "startup-nvim";
+  startup-nvim-max397574 = buildVimPlugin {
+    pname = "startup-nvim-max397574";
     version = "2024-10-30";
     src = fetchurl {
       url = "https://github.com/max397574/startup.nvim/archive/9ca3b9a55f2f2196ef90b39a52029b46fdde5226.tar.gz";
@@ -17653,8 +17670,8 @@
   /*
   Generated from: github/jaytyrrell13/static.nvim/static-nvim
   */
-  static-nvim = buildVimPlugin {
-    pname = "static-nvim";
+  static-nvim-jaytyrrell13 = buildVimPlugin {
+    pname = "static-nvim-jaytyrrell13";
     version = "2023-12-29";
     src = fetchurl {
       url = "https://github.com/jaytyrrell13/static.nvim/archive/cd4807afc348ccc71e4bb176d15110ce18e29ce3.tar.gz";
@@ -17670,8 +17687,8 @@
   /*
   Generated from: github/luukvbaal/statuscol.nvim/statuscol-nvim
   */
-  statuscol-nvim = buildVimPlugin {
-    pname = "statuscol-nvim";
+  statuscol-nvim-luukvbaal = buildVimPlugin {
+    pname = "statuscol-nvim-luukvbaal";
     version = "2025-06-02";
     src = fetchurl {
       url = "https://github.com/luukvbaal/statuscol.nvim/archive/c46172d0911aa5d49ba5f39f4351d1bb7aa289cc.tar.gz";
@@ -17687,8 +17704,8 @@
   /*
   Generated from: github/beauwilliams/statusline.lua/statusline-lua
   */
-  statusline-lua = buildVimPlugin {
-    pname = "statusline-lua";
+  statusline-lua-beauwilliams = buildVimPlugin {
+    pname = "statusline-lua-beauwilliams";
     version = "2025-04-30";
     src = fetchurl {
       url = "https://github.com/beauwilliams/statusline.lua/archive/4c7083cdd8b902ce06762861124ac4c031b2e581.tar.gz";
@@ -17704,8 +17721,8 @@
   /*
   Generated from: github/gbprod/stay-in-place.nvim/stay-in-place-nvim
   */
-  stay-in-place-nvim = buildVimPlugin {
-    pname = "stay-in-place-nvim";
+  stay-in-place-nvim-gbprod = buildVimPlugin {
+    pname = "stay-in-place-nvim-gbprod";
     version = "2023-01-20";
     src = fetchurl {
       url = "https://github.com/gbprod/stay-in-place.nvim/archive/0628b6db8970fc731abf9608d6f80659b58932c9.tar.gz";
@@ -17721,8 +17738,8 @@
   /*
   Generated from: github/sontungexpt/stcursorword/stcursorword
   */
-  stcursorword = buildVimPlugin {
-    pname = "stcursorword";
+  stcursorword-sontungexpt = buildVimPlugin {
+    pname = "stcursorword-sontungexpt";
     version = "2025-11-30";
     src = fetchurl {
       url = "https://github.com/sontungexpt/stcursorword/archive/ab099f1682a0b251cda8f089d028a31426b83a06.tar.gz";
@@ -17738,8 +17755,8 @@
   /*
   Generated from: github/csessh/stopinsert.nvim/stopinsert-nvim
   */
-  stopinsert-nvim = buildVimPlugin {
-    pname = "stopinsert-nvim";
+  stopinsert-nvim-csessh = buildVimPlugin {
+    pname = "stopinsert-nvim-csessh";
     version = "2025-08-01";
     src = fetchurl {
       url = "https://github.com/csessh/stopinsert.nvim/archive/5897687e9cf038d993f413ce984a0d2c46bd6e18.tar.gz";
@@ -17755,8 +17772,8 @@
   /*
   Generated from: github/crusj/structrue-go.nvim/structrue-go-nvim
   */
-  structrue-go-nvim = buildVimPlugin {
-    pname = "structrue-go-nvim";
+  structrue-go-nvim-crusj = buildVimPlugin {
+    pname = "structrue-go-nvim-crusj";
     version = "2022-09-29";
     src = fetchurl {
       url = "https://github.com/crusj/structrue-go.nvim/archive/4282b860cde0f5f25a1fb1af3ea8edb0db278e73.tar.gz";
@@ -17772,8 +17789,8 @@
   /*
   Generated from: github/sontungexpt/sttusline/sttusline
   */
-  sttusline = buildVimPlugin {
-    pname = "sttusline";
+  sttusline-sontungexpt = buildVimPlugin {
+    pname = "sttusline-sontungexpt";
     version = "2025-11-22";
     src = fetchurl {
       url = "https://github.com/sontungexpt/sttusline/archive/34d3d79955192255e20ba1d242e3009cfe1b957c.tar.gz";
@@ -17789,8 +17806,8 @@
   /*
   Generated from: github/nyngwang/suave.lua/suave-lua
   */
-  suave-lua = buildVimPlugin {
-    pname = "suave-lua";
+  suave-lua-nyngwang = buildVimPlugin {
+    pname = "suave-lua-nyngwang";
     version = "2025-08-02";
     src = fetchurl {
       url = "https://github.com/nyngwang/suave.lua/archive/badc24a11a4df425466b5f99b98bec1037a9da53.tar.gz";
@@ -17806,8 +17823,8 @@
   /*
   Generated from: github/gbprod/substitute.nvim/substitute-nvim
   */
-  substitute-nvim = buildVimPlugin {
-    pname = "substitute-nvim";
+  substitute-nvim-gbprod = buildVimPlugin {
+    pname = "substitute-nvim-gbprod";
     version = "2025-03-21";
     src = fetchurl {
       url = "https://github.com/gbprod/substitute.nvim/archive/9db749a880e3dd3b0eb57f698aa8f1e1630e1f25.tar.gz";
@@ -17823,8 +17840,8 @@
   /*
   Generated from: github/kvrohit/substrata.nvim/substrata-nvim
   */
-  substrata-nvim = buildVimPlugin {
-    pname = "substrata-nvim";
+  substrata-nvim-kvrohit = buildVimPlugin {
+    pname = "substrata-nvim-kvrohit";
     version = "2022-10-07";
     src = fetchurl {
       url = "https://github.com/kvrohit/substrata.nvim/archive/e3b2b69ce597e8d17767a41d8db45b15178a0b45.tar.gz";
@@ -17840,8 +17857,8 @@
   /*
   Generated from: github/jim-fx/sudoku.nvim/sudoku-nvim
   */
-  sudoku-nvim = buildVimPlugin {
-    pname = "sudoku-nvim";
+  sudoku-nvim-jim-fx = buildVimPlugin {
+    pname = "sudoku-nvim-jim-fx";
     version = "2023-12-11";
     src = fetchurl {
       url = "https://github.com/jim-fx/sudoku.nvim/archive/c7dfd2f9fc7108ef3832a02f40a76ab1b2d940ce.tar.gz";
@@ -17857,8 +17874,8 @@
   /*
   Generated from: github/loganswartz/sunburn.nvim/sunburn-nvim
   */
-  sunburn-nvim = buildVimPlugin {
-    pname = "sunburn-nvim";
+  sunburn-nvim-loganswartz = buildVimPlugin {
+    pname = "sunburn-nvim-loganswartz";
     version = "2025-03-26";
     src = fetchurl {
       url = "https://github.com/loganswartz/sunburn.nvim/archive/c6047a9d9ef8589f3143bcf0d6834ed7be5cdfaf.tar.gz";
@@ -17874,8 +17891,8 @@
   /*
   Generated from: github/miversen33/sunglasses.nvim/sunglasses-nvim
   */
-  sunglasses-nvim = buildVimPlugin {
-    pname = "sunglasses-nvim";
+  sunglasses-nvim-miversen33 = buildVimPlugin {
+    pname = "sunglasses-nvim-miversen33";
     version = "2025-01-13";
     src = fetchurl {
       url = "https://github.com/miversen33/sunglasses.nvim/archive/1e4c4ea4d6b46124090df1d35426a705cb3b99cf.tar.gz";
@@ -17891,8 +17908,8 @@
   /*
   Generated from: github/supermaven-inc/supermaven-nvim/supermaven-nvim
   */
-  supermaven-nvim = buildVimPlugin {
-    pname = "supermaven-nvim";
+  supermaven-nvim-supermaven-inc = buildVimPlugin {
+    pname = "supermaven-nvim-supermaven-inc";
     version = "2024-10-07";
     src = fetchurl {
       url = "https://github.com/supermaven-inc/supermaven-nvim/archive/07d20fce48a5629686aefb0a7cd4b25e33947d50.tar.gz";
@@ -17908,8 +17925,8 @@
   /*
   Generated from: github/roobert/surround-ui.nvim/surround-ui-nvim
   */
-  surround-ui-nvim = buildVimPlugin {
-    pname = "surround-ui-nvim";
+  surround-ui-nvim-roobert = buildVimPlugin {
+    pname = "surround-ui-nvim-roobert";
     version = "2024-07-16";
     src = fetchurl {
       url = "https://github.com/roobert/surround-ui.nvim/archive/40abcba017a943d6d3dd304e523f34a43d80405b.tar.gz";
@@ -17925,8 +17942,8 @@
   /*
   Generated from: github/peterbjorgensen/sved/sved
   */
-  sved = buildVimPlugin {
-    pname = "sved";
+  sved-peterbjorgensen = buildVimPlugin {
+    pname = "sved-peterbjorgensen";
     version = "2024-06-18";
     src = fetchurl {
       url = "https://github.com/peterbjorgensen/sved/archive/3edf1030c28e3a5e3b01aea7f94fa04ac4f0e48a.tar.gz";
@@ -17942,8 +17959,8 @@
   /*
   Generated from: github/bennypowers/svgo.nvim/svgo-nvim
   */
-  svgo-nvim = buildVimPlugin {
-    pname = "svgo-nvim";
+  svgo-nvim-bennypowers = buildVimPlugin {
+    pname = "svgo-nvim-bennypowers";
     version = "2023-11-17";
     src = fetchurl {
       url = "https://github.com/bennypowers/svgo.nvim/archive/9c56d76b2d8473fecb2f1c8a22e8183882b89dfd.tar.gz";
@@ -17959,8 +17976,8 @@
   /*
   Generated from: github/AckslD/swenv.nvim/swenv-nvim
   */
-  swenv-nvim = buildVimPlugin {
-    pname = "swenv-nvim";
+  swenv-nvim-AckslD = buildVimPlugin {
+    pname = "swenv-nvim-AckslD";
     version = "2025-02-09";
     src = fetchurl {
       url = "https://github.com/AckslD/swenv.nvim/archive/4157de2619ec2e5c61c103fb6517845a0e04e558.tar.gz";
@@ -17976,8 +17993,8 @@
   /*
   Generated from: github/Wansmer/symbol-usage.nvim/symbol-usage-nvim
   */
-  symbol-usage-nvim = buildVimPlugin {
-    pname = "symbol-usage-nvim";
+  symbol-usage-nvim-Wansmer = buildVimPlugin {
+    pname = "symbol-usage-nvim-Wansmer";
     version = "2025-05-03";
     src = fetchurl {
       url = "https://github.com/Wansmer/symbol-usage.nvim/archive/e07c07dfe7504295a369281e95a24e1afa14b243.tar.gz";
@@ -17993,8 +18010,8 @@
   /*
   Generated from: github/simrat39/symbols-outline.nvim/symbols-outline-nvim
   */
-  symbols-outline-nvim = buildVimPlugin {
-    pname = "symbols-outline-nvim";
+  symbols-outline-nvim-simrat39 = buildVimPlugin {
+    pname = "symbols-outline-nvim-simrat39";
     version = "2024-01-03";
     src = fetchurl {
       url = "https://github.com/simrat39/symbols-outline.nvim/archive/564ee65dfc9024bdde73a6621820866987cbb256.tar.gz";
@@ -18010,8 +18027,8 @@
   /*
   Generated from: github/ziontee113/syntax-tree-surfer/syntax-tree-surfer
   */
-  syntax-tree-surfer = buildVimPlugin {
-    pname = "syntax-tree-surfer";
+  syntax-tree-surfer-ziontee113 = buildVimPlugin {
+    pname = "syntax-tree-surfer-ziontee113";
     version = "2023-10-06";
     src = fetchurl {
       url = "https://github.com/ziontee113/syntax-tree-surfer/archive/732ea6d0f868bcccd2f526be73afa46997d5a2fb.tar.gz";
@@ -18027,8 +18044,8 @@
   /*
   Generated from: github/samharju/synthweave.nvim/synthweave-nvim
   */
-  synthweave-nvim = buildVimPlugin {
-    pname = "synthweave-nvim";
+  synthweave-nvim-samharju = buildVimPlugin {
+    pname = "synthweave-nvim-samharju";
     version = "2025-09-25";
     src = fetchurl {
       url = "https://github.com/samharju/synthweave.nvim/archive/0520bc260674745cdd3b5465f322de5731217dc6.tar.gz";
@@ -18044,8 +18061,8 @@
   /*
   Generated from: github/nanozuki/tabby.nvim/tabby-nvim
   */
-  tabby-nvim = buildVimPlugin {
-    pname = "tabby-nvim";
+  tabby-nvim-nanozuki = buildVimPlugin {
+    pname = "tabby-nvim-nanozuki";
     version = "2026-01-07";
     src = fetchurl {
       url = "https://github.com/nanozuki/tabby.nvim/archive/3c130e1fcb598ce39a9c292847e32d7c3987cf11.tar.gz";
@@ -18061,8 +18078,8 @@
   /*
   Generated from: github/SCJangra/table-nvim/table-nvim
   */
-  table-nvim = buildVimPlugin {
-    pname = "table-nvim";
+  table-nvim-SCJangra = buildVimPlugin {
+    pname = "table-nvim-SCJangra";
     version = "2025-11-24";
     src = fetchurl {
       url = "https://github.com/SCJangra/table-nvim/archive/287056dab467bce5c34d288c47467856db4f7457.tar.gz";
@@ -18078,8 +18095,8 @@
   /*
   Generated from: github/rafcamlet/tabline-framework.nvim/tabline-framework-nvim
   */
-  tabline-framework-nvim = buildVimPlugin {
-    pname = "tabline-framework-nvim";
+  tabline-framework-nvim-rafcamlet = buildVimPlugin {
+    pname = "tabline-framework-nvim-rafcamlet";
     version = "2023-03-10";
     src = fetchurl {
       url = "https://github.com/rafcamlet/tabline-framework.nvim/archive/f0d229cc2c103bbc356d26c928eff02be40b230f.tar.gz";
@@ -18095,8 +18112,8 @@
   /*
   Generated from: github/kdheepak/tabline.nvim/tabline-kdheepak
   */
-  tabline-kdheepak = buildVimPlugin {
-    pname = "tabline-kdheepak";
+  tabline-kdheepak-kdheepak = buildVimPlugin {
+    pname = "tabline-kdheepak-kdheepak";
     version = "2023-07-24";
     src = fetchurl {
       url = "https://github.com/kdheepak/tabline.nvim/archive/ff33d12a20d52daafa5393162cae4108faf8128b.tar.gz";
@@ -18112,8 +18129,8 @@
   /*
   Generated from: github/abecodes/tabout.nvim/tabout-nvim
   */
-  tabout-nvim = buildVimPlugin {
-    pname = "tabout-nvim";
+  tabout-nvim-abecodes = buildVimPlugin {
+    pname = "tabout-nvim-abecodes";
     version = "2024-12-10";
     src = fetchurl {
       url = "https://github.com/abecodes/tabout.nvim/archive/9a3499480a8e53dcaa665e2836f287e3b7764009.tar.gz";
@@ -18129,8 +18146,8 @@
   /*
   Generated from: github/tenxsoydev/tabs-vs-spaces.nvim/tabs-vs-spaces-nvim
   */
-  tabs-vs-spaces-nvim = buildVimPlugin {
-    pname = "tabs-vs-spaces-nvim";
+  tabs-vs-spaces-nvim-tenxsoydev = buildVimPlugin {
+    pname = "tabs-vs-spaces-nvim-tenxsoydev";
     version = "2024-09-22";
     src = fetchurl {
       url = "https://github.com/tenxsoydev/tabs-vs-spaces.nvim/archive/4fbc894fa11b282a0dd5d5a670922abd185ae527.tar.gz";
@@ -18146,8 +18163,8 @@
   /*
   Generated from: github/backdround/tabscope.nvim/tabscope-nvim
   */
-  tabscope-nvim = buildVimPlugin {
-    pname = "tabscope-nvim";
+  tabscope-nvim-backdround = buildVimPlugin {
+    pname = "tabscope-nvim-backdround";
     version = "2023-10-09";
     src = fetchurl {
       url = "https://github.com/backdround/tabscope.nvim/archive/cba52d18fbb1171cd92c7baf916e98fb720d6ae0.tar.gz";
@@ -18163,8 +18180,8 @@
   /*
   Generated from: github/roobert/tabtree.nvim/tabtree-nvim
   */
-  tabtree-nvim = buildVimPlugin {
-    pname = "tabtree-nvim";
+  tabtree-nvim-roobert = buildVimPlugin {
+    pname = "tabtree-nvim-roobert";
     version = "2023-09-29";
     src = fetchurl {
       url = "https://github.com/roobert/tabtree.nvim/archive/7254d5486a4b12153c4e084dbd350e20ebefb461.tar.gz";
@@ -18180,8 +18197,8 @@
   /*
   Generated from: github/majutsushi/tagbar/tagbar
   */
-  tagbar = buildVimPlugin {
-    pname = "tagbar";
+  tagbar-majutsushi = buildVimPlugin {
+    pname = "tagbar-majutsushi";
     version = "2025-10-02";
     src = fetchurl {
       url = "https://github.com/majutsushi/tagbar/archive/7bfffca1f121afb7a9e38747500bf5270e006bb1.tar.gz";
@@ -18197,8 +18214,8 @@
   /*
   Generated from: github/luckasRanarison/tailwind-tools.nvim/tailwind-tools-nvim
   */
-  tailwind-tools-nvim = buildVimPlugin {
-    pname = "tailwind-tools-nvim";
+  tailwind-tools-nvim-luckasRanarison = buildVimPlugin {
+    pname = "tailwind-tools-nvim-luckasRanarison";
     version = "2025-05-23";
     src = fetchurl {
       url = "https://github.com/luckasRanarison/tailwind-tools.nvim/archive/fbe982901d4508b0dcd80e07addf0fcb6dab6c49.tar.gz";
@@ -18214,8 +18231,8 @@
   /*
   Generated from: github/roobert/tailwindcss-colorizer-cmp.nvim/tailwindcss-colorizer-cmp-nvim
   */
-  tailwindcss-colorizer-cmp-nvim = buildVimPlugin {
-    pname = "tailwindcss-colorizer-cmp-nvim";
+  tailwindcss-colorizer-cmp-nvim-roobert = buildVimPlugin {
+    pname = "tailwindcss-colorizer-cmp-nvim-roobert";
     version = "2024-03-23";
     src = fetchurl {
       url = "https://github.com/roobert/tailwindcss-colorizer-cmp.nvim/archive/3d3cd95e4a4135c250faf83dd5ed61b8e5502b86.tar.gz";
@@ -18231,8 +18248,8 @@
   /*
   Generated from: github/themaxmarchuk/tailwindcss-colors.nvim/tailwindcss-colors-nvim
   */
-  tailwindcss-colors-nvim = buildVimPlugin {
-    pname = "tailwindcss-colors-nvim";
+  tailwindcss-colors-nvim-themaxmarchuk = buildVimPlugin {
+    pname = "tailwindcss-colors-nvim-themaxmarchuk";
     version = "2021-12-24";
     src = fetchurl {
       url = "https://github.com/themaxmarchuk/tailwindcss-colors.nvim/archive/ccb5be2f84673c1a0ef90a0c0a76733e85e5265b.tar.gz";
@@ -18248,8 +18265,8 @@
   /*
   Generated from: github/udayvir-singh/tangerine.nvim/tangerine-nvim
   */
-  tangerine-nvim = buildVimPlugin {
-    pname = "tangerine-nvim";
+  tangerine-nvim-udayvir-singh = buildVimPlugin {
+    pname = "tangerine-nvim-udayvir-singh";
     version = "2024-10-18";
     src = fetchurl {
       url = "https://github.com/udayvir-singh/tangerine.nvim/archive/885788fd96a2ac34e78dc4a58c1597494096f69c.tar.gz";
@@ -18265,8 +18282,8 @@
   /*
   Generated from: github/niuiic/task.nvim/task-nvim
   */
-  task-nvim = buildVimPlugin {
-    pname = "task-nvim";
+  task-nvim-niuiic = buildVimPlugin {
+    pname = "task-nvim-niuiic";
     version = "2024-10-31";
     src = fetchurl {
       url = "https://github.com/niuiic/task.nvim/archive/4d6ed13cc88f9e356e207a04fc2dd35f67af75c5.tar.gz";
@@ -18282,8 +18299,8 @@
   /*
   Generated from: github/2KAbhishek/tdo.nvim/tdo-nvim
   */
-  tdo-nvim = buildVimPlugin {
-    pname = "tdo-nvim";
+  tdo-nvim-2KAbhishek = buildVimPlugin {
+    pname = "tdo-nvim-2KAbhishek";
     version = "2025-11-20";
     src = fetchurl {
       url = "https://github.com/2KAbhishek/tdo.nvim/archive/3e067afe8687517e205588dacf818648a163a5a4.tar.gz";
@@ -18299,8 +18316,8 @@
   /*
   Generated from: github/nvim-telekasten/telekasten.nvim/telekasten-nvim
   */
-  telekasten-nvim = buildVimPlugin {
-    pname = "telekasten-nvim";
+  telekasten-nvim-nvim-telekasten = buildVimPlugin {
+    pname = "telekasten-nvim-nvim-telekasten";
     version = "2025-12-29";
     src = fetchurl {
       url = "https://github.com/nvim-telekasten/telekasten.nvim/archive/a41cb7f02621f82df4dd1aa0e5815c6af02ef16f.tar.gz";
@@ -18316,8 +18333,8 @@
   /*
   Generated from: github/rasulomaroff/telepath.nvim/telepath-nvim
   */
-  telepath-nvim = buildVimPlugin {
-    pname = "telepath-nvim";
+  telepath-nvim-rasulomaroff = buildVimPlugin {
+    pname = "telepath-nvim-rasulomaroff";
     version = "2024-04-15";
     src = fetchurl {
       url = "https://github.com/rasulomaroff/telepath.nvim/archive/2879da05463db7bdc8824b13cccd8e8920c62a55.tar.gz";
@@ -18333,8 +18350,8 @@
   /*
   Generated from: github/otavioschwanck/telescope-alternate.nvim/telescope-alternate-nvim
   */
-  telescope-alternate-nvim = buildVimPlugin {
-    pname = "telescope-alternate-nvim";
+  telescope-alternate-nvim-otavioschwanck = buildVimPlugin {
+    pname = "telescope-alternate-nvim-otavioschwanck";
     version = "2025-07-05";
     src = fetchurl {
       url = "https://github.com/otavioschwanck/telescope-alternate.nvim/archive/9d1fa85b1585b5709b5e84a67463cb93c498a95e.tar.gz";
@@ -18350,8 +18367,8 @@
   /*
   Generated from: github/nvim-telescope/telescope-bibtex.nvim/telescope-bibtex-nvim
   */
-  telescope-bibtex-nvim = buildVimPlugin {
-    pname = "telescope-bibtex-nvim";
+  telescope-bibtex-nvim-nvim-telescope = buildVimPlugin {
+    pname = "telescope-bibtex-nvim-nvim-telescope";
     version = "2024-03-28";
     src = fetchurl {
       url = "https://github.com/nvim-telescope/telescope-bibtex.nvim/archive/289a6f86ebec06e8ae1590533b732b9981d84900.tar.gz";
@@ -18367,8 +18384,8 @@
   /*
   Generated from: github/LinArcX/telescope-command-palette.nvim/telescope-command-palette-nvim
   */
-  telescope-command-palette-nvim = buildVimPlugin {
-    pname = "telescope-command-palette-nvim";
+  telescope-command-palette-nvim-LinArcX = buildVimPlugin {
+    pname = "telescope-command-palette-nvim-LinArcX";
     version = "2023-08-24";
     src = fetchurl {
       url = "https://github.com/LinArcX/telescope-command-palette.nvim/archive/cf38d89446ff36d07191d32796eed6e38e5ce118.tar.gz";
@@ -18384,8 +18401,8 @@
   /*
   Generated from: github/fdschmidt93/telescope-egrepify.nvim/telescope-egrepify-nvim
   */
-  telescope-egrepify-nvim = buildVimPlugin {
-    pname = "telescope-egrepify-nvim";
+  telescope-egrepify-nvim-fdschmidt93 = buildVimPlugin {
+    pname = "telescope-egrepify-nvim-fdschmidt93";
     version = "2025-12-21";
     src = fetchurl {
       url = "https://github.com/fdschmidt93/telescope-egrepify.nvim/archive/cd9342b95c1a8cff2e41ba5041ae3912f47595cc.tar.gz";
@@ -18401,8 +18418,8 @@
   /*
   Generated from: github/nvim-telescope/telescope-file-browser.nvim/telescope-file-browser-nvim
   */
-  telescope-file-browser-nvim = buildVimPlugin {
-    pname = "telescope-file-browser-nvim";
+  telescope-file-browser-nvim-nvim-telescope = buildVimPlugin {
+    pname = "telescope-file-browser-nvim-nvim-telescope";
     version = "2025-08-05";
     src = fetchurl {
       url = "https://github.com/nvim-telescope/telescope-file-browser.nvim/archive/3610dc7dc91f06aa98b11dca5cc30dfa98626b7e.tar.gz";
@@ -18418,8 +18435,8 @@
   /*
   Generated from: github/nvim-telescope/telescope-fzf-native.nvim/telescope-fzf-native-nvim
   */
-  telescope-fzf-native-nvim = buildVimPlugin {
-    pname = "telescope-fzf-native-nvim";
+  telescope-fzf-native-nvim-nvim-telescope = buildVimPlugin {
+    pname = "telescope-fzf-native-nvim-nvim-telescope";
     version = "2025-11-07";
     src = fetchurl {
       url = "https://github.com/nvim-telescope/telescope-fzf-native.nvim/archive/6fea601bd2b694c6f2ae08a6c6fab14930c60e2c.tar.gz";
@@ -18435,8 +18452,8 @@
   /*
   Generated from: github/nvim-telescope/telescope-fzy-native.nvim/telescope-fzy-native-nvim
   */
-  telescope-fzy-native-nvim = buildVimPlugin {
-    pname = "telescope-fzy-native-nvim";
+  telescope-fzy-native-nvim-nvim-telescope = buildVimPlugin {
+    pname = "telescope-fzy-native-nvim-nvim-telescope";
     version = "2022-09-11";
     src = fetchurl {
       url = "https://github.com/nvim-telescope/telescope-fzy-native.nvim/archive/282f069504515eec762ab6d6c89903377252bf5b.tar.gz";
@@ -18452,8 +18469,8 @@
   /*
   Generated from: github/mrloop/telescope-git-branch.nvim/telescope-git-branch-nvim
   */
-  telescope-git-branch-nvim = buildVimPlugin {
-    pname = "telescope-git-branch-nvim";
+  telescope-git-branch-nvim-mrloop = buildVimPlugin {
+    pname = "telescope-git-branch-nvim-mrloop";
     version = "2024-07-08";
     src = fetchurl {
       url = "https://github.com/mrloop/telescope-git-branch.nvim/archive/acdc68011e07b349ead4c83c4c66cbdf061164b3.tar.gz";
@@ -18469,8 +18486,8 @@
   /*
   Generated from: github/isak102/telescope-git-file-history.nvim/telescope-git-file-history-nvim
   */
-  telescope-git-file-history-nvim = buildVimPlugin {
-    pname = "telescope-git-file-history-nvim";
+  telescope-git-file-history-nvim-isak102 = buildVimPlugin {
+    pname = "telescope-git-file-history-nvim-isak102";
     version = "2025-05-27";
     src = fetchurl {
       url = "https://github.com/isak102/telescope-git-file-history.nvim/archive/e7d495319f2a04df96402057a6992ea970f8914d.tar.gz";
@@ -18486,8 +18503,8 @@
   /*
   Generated from: github/crispgm/telescope-heading.nvim/telescope-heading-nvim
   */
-  telescope-heading-nvim = buildVimPlugin {
-    pname = "telescope-heading-nvim";
+  telescope-heading-nvim-crispgm = buildVimPlugin {
+    pname = "telescope-heading-nvim-crispgm";
     version = "2024-06-11";
     src = fetchurl {
       url = "https://github.com/crispgm/telescope-heading.nvim/archive/e85c0f69cb64048f56e76548dcb2f10277576df9.tar.gz";
@@ -18503,8 +18520,8 @@
   /*
   Generated from: github/piersolenski/telescope-import.nvim/telescope-import-nvim
   */
-  telescope-import-nvim = buildVimPlugin {
-    pname = "telescope-import-nvim";
+  telescope-import-nvim-piersolenski = buildVimPlugin {
+    pname = "telescope-import-nvim-piersolenski";
     version = "2025-11-12";
     src = fetchurl {
       url = "https://github.com/piersolenski/telescope-import.nvim/archive/b3b0294827eb9c4db0af6d2a0684e2862325fc0c.tar.gz";
@@ -18520,8 +18537,8 @@
   /*
   Generated from: github/polirritmico/telescope-lazy-plugins.nvim/telescope-lazy-plugins-nvim
   */
-  telescope-lazy-plugins-nvim = buildVimPlugin {
-    pname = "telescope-lazy-plugins-nvim";
+  telescope-lazy-plugins-nvim-polirritmico = buildVimPlugin {
+    pname = "telescope-lazy-plugins-nvim-polirritmico";
     version = "2025-02-15";
     src = fetchurl {
       url = "https://github.com/polirritmico/telescope-lazy-plugins.nvim/archive/a257886555a6e8bf642d39f935b5399b04c8c424.tar.gz";
@@ -18537,8 +18554,8 @@
   /*
   Generated from: github/benfowler/telescope-luasnip.nvim/telescope-luasnip-nvim
   */
-  telescope-luasnip-nvim = buildVimPlugin {
-    pname = "telescope-luasnip-nvim";
+  telescope-luasnip-nvim-benfowler = buildVimPlugin {
+    pname = "telescope-luasnip-nvim-benfowler";
     version = "2024-12-14";
     src = fetchurl {
       url = "https://github.com/benfowler/telescope-luasnip.nvim/archive/07a2a2936a7557404c782dba021ac0a03165b343.tar.gz";
@@ -18554,8 +18571,8 @@
   /*
   Generated from: github/mrcjkb/telescope-manix/telescope-manix
   */
-  telescope-manix = buildVimPlugin {
-    pname = "telescope-manix";
+  telescope-manix-mrcjkb = buildVimPlugin {
+    pname = "telescope-manix-mrcjkb";
     version = "2026-01-04";
     src = fetchurl {
       url = "https://github.com/mrcjkb/telescope-manix/archive/c2419555fff01524319938ce1d490e8026e2ba11.tar.gz";
@@ -18571,8 +18588,8 @@
   /*
   Generated from: github/nvim-telescope/telescope-media-files.nvim/telescope-media-files-nvim
   */
-  telescope-media-files-nvim = buildVimPlugin {
-    pname = "telescope-media-files-nvim";
+  telescope-media-files-nvim-nvim-telescope = buildVimPlugin {
+    pname = "telescope-media-files-nvim-nvim-telescope";
     version = "2023-02-19";
     src = fetchurl {
       url = "https://github.com/nvim-telescope/telescope-media-files.nvim/archive/0826c7a730bc4d36068f7c85cf4c5b3fd9fb570a.tar.gz";
@@ -18588,8 +18605,8 @@
   /*
   Generated from: github/nvim-telescope/telescope.nvim/telescope-nvim
   */
-  telescope-nvim = buildVimPlugin {
-    pname = "telescope-nvim";
+  telescope-nvim-nvim-telescope = buildVimPlugin {
+    pname = "telescope-nvim-nvim-telescope";
     version = "2025-12-31";
     src = fetchurl {
       url = "https://github.com/nvim-telescope/telescope.nvim/archive/3333a52ff548ba0a68af6d8da1e54f9cd96e9179.tar.gz";
@@ -18605,8 +18622,8 @@
   /*
   Generated from: github/cljoly/telescope-repo.nvim/telescope-repo-nvim
   */
-  telescope-repo-nvim = buildVimPlugin {
-    pname = "telescope-repo-nvim";
+  telescope-repo-nvim-cljoly = buildVimPlugin {
+    pname = "telescope-repo-nvim-cljoly";
     version = "2025-01-21";
     src = fetchurl {
       url = "https://github.com/cljoly/telescope-repo.nvim/archive/a5395a4bf0fd742cc46b4e8c50e657062f548ba9.tar.gz";
@@ -18622,8 +18639,8 @@
   /*
   Generated from: github/desdic/telescope-rooter.nvim/telescope-rooter-nvim
   */
-  telescope-rooter-nvim = buildVimPlugin {
-    pname = "telescope-rooter-nvim";
+  telescope-rooter-nvim-desdic = buildVimPlugin {
+    pname = "telescope-rooter-nvim-desdic";
     version = "2024-05-18";
     src = fetchurl {
       url = "https://github.com/desdic/telescope-rooter.nvim/archive/9154954d1e075b61e88d3b181edeeae635f82bca.tar.gz";
@@ -18639,8 +18656,8 @@
   /*
   Generated from: github/nvim-telescope/telescope-symbols.nvim/telescope-symbols-nvim
   */
-  telescope-symbols-nvim = buildVimPlugin {
-    pname = "telescope-symbols-nvim";
+  telescope-symbols-nvim-nvim-telescope = buildVimPlugin {
+    pname = "telescope-symbols-nvim-nvim-telescope";
     version = "2023-11-24";
     src = fetchurl {
       url = "https://github.com/nvim-telescope/telescope-symbols.nvim/archive/a6d0127a53d39b9fc2af75bd169d288166118aec.tar.gz";
@@ -18656,8 +18673,8 @@
   /*
   Generated from: github/LukasPietzschmann/telescope-tabs/telescope-tabs
   */
-  telescope-tabs = buildVimPlugin {
-    pname = "telescope-tabs";
+  telescope-tabs-LukasPietzschmann = buildVimPlugin {
+    pname = "telescope-tabs-LukasPietzschmann";
     version = "2025-09-01";
     src = fetchurl {
       url = "https://github.com/LukasPietzschmann/telescope-tabs/archive/777b1f630f3d6a12a2e71635a82581c988d6da2e.tar.gz";
@@ -18673,8 +18690,8 @@
   /*
   Generated from: github/danielpieper/telescope-tmuxinator.nvim/telescope-tmuxinator-nvim
   */
-  telescope-tmuxinator-nvim = buildVimPlugin {
-    pname = "telescope-tmuxinator-nvim";
+  telescope-tmuxinator-nvim-danielpieper = buildVimPlugin {
+    pname = "telescope-tmuxinator-nvim-danielpieper";
     version = "2023-12-17";
     src = fetchurl {
       url = "https://github.com/danielpieper/telescope-tmuxinator.nvim/archive/c59f1fead6fc25d8705b59d1a89ffe22876362d8.tar.gz";
@@ -18690,8 +18707,8 @@
   /*
   Generated from: github/debugloop/telescope-undo.nvim/telescope-undo-nvim
   */
-  telescope-undo-nvim = buildVimPlugin {
-    pname = "telescope-undo-nvim";
+  telescope-undo-nvim-debugloop = buildVimPlugin {
+    pname = "telescope-undo-nvim-debugloop";
     version = "2025-01-31";
     src = fetchurl {
       url = "https://github.com/debugloop/telescope-undo.nvim/archive/928d0c2dc9606e01e2cc547196f48d2eaecf58e5.tar.gz";
@@ -18707,8 +18724,8 @@
   /*
   Generated from: github/jvgrootveld/telescope-zoxide/telescope-zoxide
   */
-  telescope-zoxide = buildVimPlugin {
-    pname = "telescope-zoxide";
+  telescope-zoxide-jvgrootveld = buildVimPlugin {
+    pname = "telescope-zoxide-jvgrootveld";
     version = "2024-08-28";
     src = fetchurl {
       url = "https://github.com/jvgrootveld/telescope-zoxide/archive/54bfe630bad08dc9891ec78c7cf8db38dd725c97.tar.gz";
@@ -18724,8 +18741,8 @@
   /*
   Generated from: github/chomosuke/term-edit.nvim/term-edit-nvim
   */
-  term-edit-nvim = buildVimPlugin {
-    pname = "term-edit-nvim";
+  term-edit-nvim-chomosuke = buildVimPlugin {
+    pname = "term-edit-nvim-chomosuke";
     version = "2024-10-17";
     src = fetchurl {
       url = "https://github.com/chomosuke/term-edit.nvim/archive/29c4584c2cef44a3fdcc55860957d081b892a569.tar.gz";
@@ -18741,8 +18758,8 @@
   /*
   Generated from: github/2KAbhishek/termim.nvim/termim-nvim
   */
-  termim-nvim = buildVimPlugin {
-    pname = "termim-nvim";
+  termim-nvim-2KAbhishek = buildVimPlugin {
+    pname = "termim-nvim-2KAbhishek";
     version = "2025-12-01";
     src = fetchurl {
       url = "https://github.com/2KAbhishek/termim.nvim/archive/0bb39e30d2a1c05448f8eaeb9f5a09c742370490.tar.gz";
@@ -18758,8 +18775,8 @@
   /*
   Generated from: github/niuiic/terminal.nvim/terminal-nvim
   */
-  terminal-nvim = buildVimPlugin {
-    pname = "terminal-nvim";
+  terminal-nvim-niuiic = buildVimPlugin {
+    pname = "terminal-nvim-niuiic";
     version = "2024-11-13";
     src = fetchurl {
       url = "https://github.com/niuiic/terminal.nvim/archive/337a981b677039522b90102c452aea8130f5f9ac.tar.gz";
@@ -18775,8 +18792,8 @@
   /*
   Generated from: github/guilherme-puida/tesoura.nvim/tesoura-nvim
   */
-  tesoura-nvim = buildVimPlugin {
-    pname = "tesoura-nvim";
+  tesoura-nvim-guilherme-puida = buildVimPlugin {
+    pname = "tesoura-nvim-guilherme-puida";
     version = "2024-06-04";
     src = fetchurl {
       url = "https://github.com/guilherme-puida/tesoura.nvim/archive/1b66b7ecbf9c2487e3fb197fe3a52db4c394a337.tar.gz";
@@ -18792,8 +18809,8 @@
   /*
   Generated from: github/jakewvincent/texmagic.nvim/texmagic-nvim
   */
-  texmagic-nvim = buildVimPlugin {
-    pname = "texmagic-nvim";
+  texmagic-nvim-jakewvincent = buildVimPlugin {
+    pname = "texmagic-nvim-jakewvincent";
     version = "2022-05-15";
     src = fetchurl {
       url = "https://github.com/jakewvincent/texmagic.nvim/archive/3c0d3b63c62486f02807663f5c5948e8b237b182.tar.gz";
@@ -18809,8 +18826,8 @@
   /*
   Generated from: github/johmsalas/text-case.nvim/text-case-nvim
   */
-  text-case-nvim = buildVimPlugin {
-    pname = "text-case-nvim";
+  text-case-nvim-johmsalas = buildVimPlugin {
+    pname = "text-case-nvim-johmsalas";
     version = "2024-08-02";
     src = fetchurl {
       url = "https://github.com/johmsalas/text-case.nvim/archive/e898cfd46fa6cde0e83abb624a16e67d2ffc6457.tar.gz";
@@ -18826,8 +18843,8 @@
   /*
   Generated from: github/svermeulen/text-to-colorscheme/text-to-colorscheme
   */
-  text-to-colorscheme = buildVimPlugin {
-    pname = "text-to-colorscheme";
+  text-to-colorscheme-svermeulen = buildVimPlugin {
+    pname = "text-to-colorscheme-svermeulen";
     version = "2024-08-14";
     src = fetchurl {
       url = "https://github.com/svermeulen/text-to-colorscheme/archive/f5fcd3df60dac59fb3f7686e8524297b005c7405.tar.gz";
@@ -18843,8 +18860,8 @@
   /*
   Generated from: github/andrewferrier/textobj-diagnostic.nvim/textobj-diagnostic-nvim
   */
-  textobj-diagnostic-nvim = buildVimPlugin {
-    pname = "textobj-diagnostic-nvim";
+  textobj-diagnostic-nvim-andrewferrier = buildVimPlugin {
+    pname = "textobj-diagnostic-nvim-andrewferrier";
     version = "2023-11-24";
     src = fetchurl {
       url = "https://github.com/andrewferrier/textobj-diagnostic.nvim/archive/98658065403ce86af9aaeac9afabfd7d96332a8b.tar.gz";
@@ -18860,8 +18877,8 @@
   /*
   Generated from: github/Rolv-Apneseth/tfm.nvim/tfm-nvim
   */
-  tfm-nvim = buildVimPlugin {
-    pname = "tfm-nvim";
+  tfm-nvim-Rolv-Apneseth = buildVimPlugin {
+    pname = "tfm-nvim-Rolv-Apneseth";
     version = "2025-05-25";
     src = fetchurl {
       url = "https://github.com/Rolv-Apneseth/tfm.nvim/archive/26dac3ed252171a5b16ddfb5c505ccc292b8a3d0.tar.gz";
@@ -18877,8 +18894,8 @@
   /*
   Generated from: github/themercorp/themer.lua/themer-lua
   */
-  themer-lua = buildVimPlugin {
-    pname = "themer-lua";
+  themer-lua-themercorp = buildVimPlugin {
+    pname = "themer-lua-themercorp";
     version = "2023-10-16";
     src = fetchurl {
       url = "https://github.com/themercorp/themer.lua/archive/625510cfec70b55fe42d04b1256c5f93c92a4202.tar.gz";
@@ -18894,8 +18911,8 @@
   /*
   Generated from: github/zaldih/themery.nvim/themery-nvim
   */
-  themery-nvim = buildVimPlugin {
-    pname = "themery-nvim";
+  themery-nvim-zaldih = buildVimPlugin {
+    pname = "themery-nvim-zaldih";
     version = "2025-01-01";
     src = fetchurl {
       url = "https://github.com/zaldih/themery.nvim/archive/bfa58f4b279d21cb515b28023e1b68ec908584b2.tar.gz";
@@ -18911,8 +18928,8 @@
   /*
   Generated from: github/LmanTW/themify.nvim/themify-nvim
   */
-  themify-nvim = buildVimPlugin {
-    pname = "themify-nvim";
+  themify-nvim-LmanTW = buildVimPlugin {
+    pname = "themify-nvim-LmanTW";
     version = "2025-05-13";
     src = fetchurl {
       url = "https://github.com/LmanTW/themify.nvim/archive/789c775df12d0e3a5d170af0077868b6d75d1d4d.tar.gz";
@@ -18928,8 +18945,8 @@
   /*
   Generated from: github/mcauley-penney/tidy.nvim/tidy-nvim
   */
-  tidy-nvim = buildVimPlugin {
-    pname = "tidy-nvim";
+  tidy-nvim-mcauley-penney = buildVimPlugin {
+    pname = "tidy-nvim-mcauley-penney";
     version = "2025-11-27";
     src = fetchurl {
       url = "https://github.com/mcauley-penney/tidy.nvim/archive/8b6921150b16f38f48a2459a844a0c2b4c916914.tar.gz";
@@ -18945,8 +18962,8 @@
   /*
   Generated from: github/QuentinGruber/timespent.nvim/timespent-nvim
   */
-  timespent-nvim = buildVimPlugin {
-    pname = "timespent-nvim";
+  timespent-nvim-QuentinGruber = buildVimPlugin {
+    pname = "timespent-nvim-QuentinGruber";
     version = "2024-10-01";
     src = fetchurl {
       url = "https://github.com/QuentinGruber/timespent.nvim/archive/3eda13f7468de06a8b948d0eddf82f15b5d88dca.tar.gz";
@@ -18962,8 +18979,8 @@
   /*
   Generated from: github/rachartier/tiny-code-action.nvim/tiny-code-action-nvim
   */
-  tiny-code-action-nvim = buildVimPlugin {
-    pname = "tiny-code-action-nvim";
+  tiny-code-action-nvim-rachartier = buildVimPlugin {
+    pname = "tiny-code-action-nvim-rachartier";
     version = "2025-12-23";
     src = fetchurl {
       url = "https://github.com/rachartier/tiny-code-action.nvim/archive/897de9af9e3aa6e59bcb9fec760a7eb02d00e264.tar.gz";
@@ -18979,8 +18996,8 @@
   /*
   Generated from: github/rachartier/tiny-devicons-auto-colors.nvim/tiny-devicons-auto-colors-nvim
   */
-  tiny-devicons-auto-colors-nvim = buildVimPlugin {
-    pname = "tiny-devicons-auto-colors-nvim";
+  tiny-devicons-auto-colors-nvim-rachartier = buildVimPlugin {
+    pname = "tiny-devicons-auto-colors-nvim-rachartier";
     version = "2025-01-03";
     src = fetchurl {
       url = "https://github.com/rachartier/tiny-devicons-auto-colors.nvim/archive/51f548421f8a74680eff27d283c9d5ea6e8d0074.tar.gz";
@@ -18996,8 +19013,8 @@
   /*
   Generated from: github/rachartier/tiny-glimmer.nvim/tiny-glimmer-nvim
   */
-  tiny-glimmer-nvim = buildVimPlugin {
-    pname = "tiny-glimmer-nvim";
+  tiny-glimmer-nvim-rachartier = buildVimPlugin {
+    pname = "tiny-glimmer-nvim-rachartier";
     version = "2025-12-28";
     src = fetchurl {
       url = "https://github.com/rachartier/tiny-glimmer.nvim/archive/624e8c303612f4ebb30820cf86d48d5814460a11.tar.gz";
@@ -19013,8 +19030,8 @@
   /*
   Generated from: github/rachartier/tiny-inline-diagnostic.nvim/tiny-inline-diagnostic-nvim
   */
-  tiny-inline-diagnostic-nvim = buildVimPlugin {
-    pname = "tiny-inline-diagnostic-nvim";
+  tiny-inline-diagnostic-nvim-rachartier = buildVimPlugin {
+    pname = "tiny-inline-diagnostic-nvim-rachartier";
     version = "2026-01-07";
     src = fetchurl {
       url = "https://github.com/rachartier/tiny-inline-diagnostic.nvim/archive/c7b1488ad0b389763c34bd17a6264424b3da5a52.tar.gz";
@@ -19030,8 +19047,8 @@
   /*
   Generated from: github/TobinPalmer/Tip.nvim/Tip-nvim
   */
-  Tip-nvim = buildVimPlugin {
-    pname = "Tip-nvim";
+  Tip-nvim-TobinPalmer = buildVimPlugin {
+    pname = "Tip-nvim-TobinPalmer";
     version = "2024-02-04";
     src = fetchurl {
       url = "https://github.com/TobinPalmer/Tip.nvim/archive/7e875174635da1c49a0e0e4153e0421791192ab7.tar.gz";
@@ -19047,8 +19064,8 @@
   /*
   Generated from: github/juselara1/tmutils.nvim/tmutils-nvim
   */
-  tmutils-nvim = buildVimPlugin {
-    pname = "tmutils-nvim";
+  tmutils-nvim-juselara1 = buildVimPlugin {
+    pname = "tmutils-nvim-juselara1";
     version = "2024-12-21";
     src = fetchurl {
       url = "https://github.com/juselara1/tmutils.nvim/archive/139c8dff86e1b15ae8e7742d6d965f586bf9a042.tar.gz";
@@ -19064,8 +19081,8 @@
   /*
   Generated from: github/otavioschwanck/tmux-awesome-manager.nvim/tmux-awesome-manager-nvim
   */
-  tmux-awesome-manager-nvim = buildVimPlugin {
-    pname = "tmux-awesome-manager-nvim";
+  tmux-awesome-manager-nvim-otavioschwanck = buildVimPlugin {
+    pname = "tmux-awesome-manager-nvim-otavioschwanck";
     version = "2025-07-05";
     src = fetchurl {
       url = "https://github.com/otavioschwanck/tmux-awesome-manager.nvim/archive/38022c7ccf1cbb676c2a6b5997a9ac30602e2f7d.tar.gz";
@@ -19081,8 +19098,8 @@
   /*
   Generated from: github/karshPrime/tmux-compile.nvim/tmux-compile-nvim
   */
-  tmux-compile-nvim = buildVimPlugin {
-    pname = "tmux-compile-nvim";
+  tmux-compile-nvim-karshPrime = buildVimPlugin {
+    pname = "tmux-compile-nvim-karshPrime";
     version = "2025-06-03";
     src = fetchurl {
       url = "https://github.com/karshPrime/tmux-compile.nvim/archive/6c271de0552ade67a26dc16aad7998dbd9e0757c.tar.gz";
@@ -19098,8 +19115,8 @@
   /*
   Generated from: github/aserowy/tmux.nvim/tmux-nvim
   */
-  tmux-nvim = buildVimPlugin {
-    pname = "tmux-nvim";
+  tmux-nvim-aserowy = buildVimPlugin {
+    pname = "tmux-nvim-aserowy";
     version = "2025-03-19";
     src = fetchurl {
       url = "https://github.com/aserowy/tmux.nvim/archive/2c1c3be0ef287073cef963f2aefa31a15c8b9cd8.tar.gz";
@@ -19115,8 +19132,8 @@
   /*
   Generated from: github/folke/todo-comments.nvim/todo-comments-nvim
   */
-  todo-comments-nvim = buildVimPlugin {
-    pname = "todo-comments-nvim";
+  todo-comments-nvim-folke = buildVimPlugin {
+    pname = "todo-comments-nvim-folke";
     version = "2025-11-10";
     src = fetchurl {
       url = "https://github.com/folke/todo-comments.nvim/archive/31e3c38ce9b29781e4422fc0322eb0a21f4e8668.tar.gz";
@@ -19132,8 +19149,8 @@
   /*
   Generated from: github/niuiic/todo.nvim/todo-nvim
   */
-  todo-nvim = buildVimPlugin {
-    pname = "todo-nvim";
+  todo-nvim-niuiic = buildVimPlugin {
+    pname = "todo-nvim-niuiic";
     version = "2024-07-26";
     src = fetchurl {
       url = "https://github.com/niuiic/todo.nvim/archive/a857e5f9e7317081c69622833317c53dfaabf354.tar.gz";
@@ -19149,8 +19166,8 @@
   /*
   Generated from: github/WhoIsSethDaniel/toggle-lsp-diagnostics.nvim/toggle-lsp-diagnostics-nvim
   */
-  toggle-lsp-diagnostics-nvim = buildVimPlugin {
-    pname = "toggle-lsp-diagnostics-nvim";
+  toggle-lsp-diagnostics-nvim-WhoIsSethDaniel = buildVimPlugin {
+    pname = "toggle-lsp-diagnostics-nvim-WhoIsSethDaniel";
     version = "2024-08-10";
     src = fetchurl {
       url = "https://github.com/WhoIsSethDaniel/toggle-lsp-diagnostics.nvim/archive/4c515b1625433306807e4a47756592fde0b83c82.tar.gz";
@@ -19166,8 +19183,8 @@
   /*
   Generated from: github/paul-louyot/toggle-quotes.nvim/toggle-quotes-nvim
   */
-  toggle-quotes-nvim = buildVimPlugin {
-    pname = "toggle-quotes-nvim";
+  toggle-quotes-nvim-paul-louyot = buildVimPlugin {
+    pname = "toggle-quotes-nvim-paul-louyot";
     version = "2024-11-29";
     src = fetchurl {
       url = "https://github.com/paul-louyot/toggle-quotes.nvim/archive/8c14f66aced94c9f5703a7dd31f27fe1b67cfde4.tar.gz";
@@ -19183,8 +19200,8 @@
   /*
   Generated from: github/jedrzejboczar/toggletasks.nvim/toggletasks-nvim
   */
-  toggletasks-nvim = buildVimPlugin {
-    pname = "toggletasks-nvim";
+  toggletasks-nvim-jedrzejboczar = buildVimPlugin {
+    pname = "toggletasks-nvim-jedrzejboczar";
     version = "2023-03-08";
     src = fetchurl {
       url = "https://github.com/jedrzejboczar/toggletasks.nvim/archive/7138dda86bd4ec908ef5342e78c60bfbd23f4506.tar.gz";
@@ -19200,8 +19217,8 @@
   /*
   Generated from: github/akinsho/toggleterm.nvim/toggleterm-nvim
   */
-  toggleterm-nvim = buildVimPlugin {
-    pname = "toggleterm-nvim";
+  toggleterm-nvim-akinsho = buildVimPlugin {
+    pname = "toggleterm-nvim-akinsho";
     version = "2025-03-09";
     src = fetchurl {
       url = "https://github.com/akinsho/toggleterm.nvim/archive/9a88eae817ef395952e08650b3283726786fb5fb.tar.gz";
@@ -19217,8 +19234,8 @@
   /*
   Generated from: github/tiagovla/tokyodark.nvim/tokyodark-nvim
   */
-  tokyodark-nvim = buildVimPlugin {
-    pname = "tokyodark-nvim";
+  tokyodark-nvim-tiagovla = buildVimPlugin {
+    pname = "tokyodark-nvim-tiagovla";
     version = "2025-11-13";
     src = fetchurl {
       url = "https://github.com/tiagovla/tokyodark.nvim/archive/659aff3c73dc2e0159314050a81671f0b2eaad01.tar.gz";
@@ -19234,8 +19251,8 @@
   /*
   Generated from: github/folke/tokyonight.nvim/tokyonight-nvim
   */
-  tokyonight-nvim = buildVimPlugin {
-    pname = "tokyonight-nvim";
+  tokyonight-nvim-folke = buildVimPlugin {
+    pname = "tokyonight-nvim-folke";
     version = "2025-11-05";
     src = fetchurl {
       url = "https://github.com/folke/tokyonight.nvim/archive/5da1b76e64daf4c5d410f06bcb6b9cb640da7dfd.tar.gz";
@@ -19251,8 +19268,8 @@
   /*
   Generated from: github/laktak/tome/tome
   */
-  tome = buildVimPlugin {
-    pname = "tome";
+  tome-laktak = buildVimPlugin {
+    pname = "tome-laktak";
     version = "2025-10-08";
     src = fetchurl {
       url = "https://github.com/laktak/tome/archive/4c4b31eeb8e8e12d1493a88b3870a257c7d15667.tar.gz";
@@ -19268,8 +19285,8 @@
   /*
   Generated from: github/niuiic/track.nvim/track-nvim
   */
-  track-nvim = buildVimPlugin {
-    pname = "track-nvim";
+  track-nvim-niuiic = buildVimPlugin {
+    pname = "track-nvim-niuiic";
     version = "2024-11-18";
     src = fetchurl {
       url = "https://github.com/niuiic/track.nvim/archive/192a043836b07145860869e4d6177258a6b383f7.tar.gz";
@@ -19285,8 +19302,8 @@
   /*
   Generated from: github/LeonHeidelbach/trailblazer.nvim/trailblazer-nvim
   */
-  trailblazer-nvim = buildVimPlugin {
-    pname = "trailblazer-nvim";
+  trailblazer-nvim-LeonHeidelbach = buildVimPlugin {
+    pname = "trailblazer-nvim-LeonHeidelbach";
     version = "2025-02-04";
     src = fetchurl {
       url = "https://github.com/LeonHeidelbach/trailblazer.nvim/archive/5c0e3ac01e227bb9afe428583f29f0ec34801408.tar.gz";
@@ -19302,8 +19319,8 @@
   /*
   Generated from: github/tjdevries/train.nvim/train-nvim
   */
-  train-nvim = buildVimPlugin {
-    pname = "train-nvim";
+  train-nvim-tjdevries = buildVimPlugin {
+    pname = "train-nvim-tjdevries";
     version = "2023-07-31";
     src = fetchurl {
       url = "https://github.com/tjdevries/train.nvim/archive/87a45f805497e7e929702c75187704de8990de14.tar.gz";
@@ -19319,8 +19336,8 @@
   /*
   Generated from: github/coffebar/transfer.nvim/transfer-nvim
   */
-  transfer-nvim = buildVimPlugin {
-    pname = "transfer-nvim";
+  transfer-nvim-coffebar = buildVimPlugin {
+    pname = "transfer-nvim-coffebar";
     version = "2025-11-05";
     src = fetchurl {
       url = "https://github.com/coffebar/transfer.nvim/archive/af75ad55d621caee1f58fd02ce4e413ad925d948.tar.gz";
@@ -19336,8 +19353,8 @@
   /*
   Generated from: github/niuiic/translate.nvim/translate-nvim
   */
-  translate-nvim = buildVimPlugin {
-    pname = "translate-nvim";
+  translate-nvim-niuiic = buildVimPlugin {
+    pname = "translate-nvim-niuiic";
     version = "2024-11-17";
     src = fetchurl {
       url = "https://github.com/niuiic/translate.nvim/archive/cfa97d5718815dc2950e2a6c3899ed3883ef8765.tar.gz";
@@ -19353,8 +19370,8 @@
   /*
   Generated from: github/xiyaowong/transparent.nvim/transparent-nvim
   */
-  transparent-nvim = buildVimPlugin {
-    pname = "transparent-nvim";
+  transparent-nvim-xiyaowong = buildVimPlugin {
+    pname = "transparent-nvim-xiyaowong";
     version = "2025-06-22";
     src = fetchurl {
       url = "https://github.com/xiyaowong/transparent.nvim/archive/8ac59883de84e9cd1850ea25cf087031c5ba7d54.tar.gz";
@@ -19370,8 +19387,8 @@
   /*
   Generated from: github/drybalka/tree-climber.nvim/tree-climber-nvim
   */
-  tree-climber-nvim = buildVimPlugin {
-    pname = "tree-climber-nvim";
+  tree-climber-nvim-drybalka = buildVimPlugin {
+    pname = "tree-climber-nvim-drybalka";
     version = "2025-12-26";
     src = fetchurl {
       url = "https://github.com/drybalka/tree-climber.nvim/archive/9a6fdfb186f70b3e454031c20b9d50aac02ff500.tar.gz";
@@ -19387,8 +19404,8 @@
   /*
   Generated from: github/IndianBoy42/tree-sitter-just/tree-sitter-just
   */
-  tree-sitter-just = buildVimPlugin {
-    pname = "tree-sitter-just";
+  tree-sitter-just-IndianBoy42 = buildVimPlugin {
+    pname = "tree-sitter-just-IndianBoy42";
     version = "2025-01-05";
     src = fetchurl {
       url = "https://github.com/IndianBoy42/tree-sitter-just/archive/bb0c898a80644de438e6efe5d88d30bf092935cd.tar.gz";
@@ -19404,8 +19421,8 @@
   /*
   Generated from: github/atusy/treemonkey.nvim/treemonkey-nvim
   */
-  treemonkey-nvim = buildVimPlugin {
-    pname = "treemonkey-nvim";
+  treemonkey-nvim-atusy = buildVimPlugin {
+    pname = "treemonkey-nvim-atusy";
     version = "2025-06-08";
     src = fetchurl {
       url = "https://github.com/atusy/treemonkey.nvim/archive/b13e9024f51c8a12ce2196fb49ceb793338ed66e.tar.gz";
@@ -19421,8 +19438,8 @@
   /*
   Generated from: github/Mr-LLLLL/treesitter-outer/treesitter-outer
   */
-  treesitter-outer = buildVimPlugin {
-    pname = "treesitter-outer";
+  treesitter-outer-Mr-LLLLL = buildVimPlugin {
+    pname = "treesitter-outer-Mr-LLLLL";
     version = "2024-06-10";
     src = fetchurl {
       url = "https://github.com/Mr-LLLLL/treesitter-outer/archive/1e758e749d70fd16cb661e0081e8c7b4c16d794d.tar.gz";
@@ -19438,8 +19455,8 @@
   /*
   Generated from: github/NFrid/treesitter-utils/treesitter-utils
   */
-  treesitter-utils = buildVimPlugin {
-    pname = "treesitter-utils";
+  treesitter-utils-NFrid = buildVimPlugin {
+    pname = "treesitter-utils-NFrid";
     version = "2024-06-13";
     src = fetchurl {
       url = "https://github.com/NFrid/treesitter-utils/archive/df621499e4227f0476f6f4bdb75a9d8dd18d16f2.tar.gz";
@@ -19455,8 +19472,8 @@
   /*
   Generated from: github/Wansmer/treesj/treesj
   */
-  treesj = buildVimPlugin {
-    pname = "treesj";
+  treesj-Wansmer = buildVimPlugin {
+    pname = "treesj-Wansmer";
     version = "2025-12-08";
     src = fetchurl {
       url = "https://github.com/Wansmer/treesj/archive/186084dee5e9c8eec40f6e39481c723dd567cb05.tar.gz";
@@ -19472,8 +19489,8 @@
   /*
   Generated from: github/aaronik/Treewalker.nvim/Treewalker-nvim
   */
-  Treewalker-nvim = buildVimPlugin {
-    pname = "Treewalker-nvim";
+  Treewalker-nvim-aaronik = buildVimPlugin {
+    pname = "Treewalker-nvim-aaronik";
     version = "2025-12-28";
     src = fetchurl {
       url = "https://github.com/aaronik/Treewalker.nvim/archive/3d5148e160ed9728b3275d37d06ea028cef5f43b.tar.gz";
@@ -19489,8 +19506,8 @@
   /*
   Generated from: github/cappyzawa/trim.nvim/trim-nvim
   */
-  trim-nvim = buildVimPlugin {
-    pname = "trim-nvim";
+  trim-nvim-cappyzawa = buildVimPlugin {
+    pname = "trim-nvim-cappyzawa";
     version = "2025-12-30";
     src = fetchurl {
       url = "https://github.com/cappyzawa/trim.nvim/archive/765360a6f6ac732f4c78c5c694f4b892a55b53ec.tar.gz";
@@ -19506,8 +19523,8 @@
   /*
   Generated from: github/simonmclean/triptych.nvim/triptych-nvim
   */
-  triptych-nvim = buildVimPlugin {
-    pname = "triptych-nvim";
+  triptych-nvim-simonmclean = buildVimPlugin {
+    pname = "triptych-nvim-simonmclean";
     version = "2025-12-25";
     src = fetchurl {
       url = "https://github.com/simonmclean/triptych.nvim/archive/18746e1d2b804ffb5922f0f6999f8df88f3f8c90.tar.gz";
@@ -19523,8 +19540,8 @@
   /*
   Generated from: github/folke/trouble.nvim/trouble-nvim
   */
-  trouble-nvim = buildVimPlugin {
-    pname = "trouble-nvim";
+  trouble-nvim-folke = buildVimPlugin {
+    pname = "trouble-nvim-folke";
     version = "2025-10-31";
     src = fetchurl {
       url = "https://github.com/folke/trouble.nvim/archive/bd67efe408d4816e25e8491cc5ad4088e708a69a.tar.gz";
@@ -19540,8 +19557,8 @@
   /*
   Generated from: github/pocco81/true-zen.nvim/true-zen-nvim
   */
-  true-zen-nvim = buildVimPlugin {
-    pname = "true-zen-nvim";
+  true-zen-nvim-pocco81 = buildVimPlugin {
+    pname = "true-zen-nvim-pocco81";
     version = "2023-06-09";
     src = fetchurl {
       url = "https://github.com/pocco81/true-zen.nvim/archive/2b9e210e0d1a735e1fa85ec22190115dffd963aa.tar.gz";
@@ -19557,8 +19574,8 @@
   /*
   Generated from: github/rlychrisg/truncateline.nvim/truncateline-nvim
   */
-  truncateline-nvim = buildVimPlugin {
-    pname = "truncateline-nvim";
+  truncateline-nvim-rlychrisg = buildVimPlugin {
+    pname = "truncateline-nvim-rlychrisg";
     version = "2024-09-30";
     src = fetchurl {
       url = "https://github.com/rlychrisg/truncateline.nvim/archive/8e008faab07f3a2f82fd5754a96ac24e7284d94c.tar.gz";
@@ -19574,8 +19591,8 @@
   /*
   Generated from: github/folke/ts-comments.nvim/ts-comments-nvim
   */
-  ts-comments-nvim = buildVimPlugin {
-    pname = "ts-comments-nvim";
+  ts-comments-nvim-folke = buildVimPlugin {
+    pname = "ts-comments-nvim-folke";
     version = "2025-10-28";
     src = fetchurl {
       url = "https://github.com/folke/ts-comments.nvim/archive/123a9fb12e7229342f807ec9e6de478b1102b041.tar.gz";
@@ -19591,8 +19608,8 @@
   /*
   Generated from: github/dmmulroy/ts-error-translator.nvim/ts-error-translator-nvim
   */
-  ts-error-translator-nvim = buildVimPlugin {
-    pname = "ts-error-translator-nvim";
+  ts-error-translator-nvim-dmmulroy = buildVimPlugin {
+    pname = "ts-error-translator-nvim-dmmulroy";
     version = "2026-01-03";
     src = fetchurl {
       url = "https://github.com/dmmulroy/ts-error-translator.nvim/archive/558abff11b9e8f4cefc0de09df780c56841c7a4b.tar.gz";
@@ -19608,8 +19625,8 @@
   /*
   Generated from: github/ckolkey/ts-node-action/ts-node-action
   */
-  ts-node-action = buildVimPlugin {
-    pname = "ts-node-action";
+  ts-node-action-ckolkey = buildVimPlugin {
+    pname = "ts-node-action-ckolkey";
     version = "2025-11-10";
     src = fetchurl {
       url = "https://github.com/ckolkey/ts-node-action/archive/6dad0b229b3d63cc7e36bf54a96683074af7c701.tar.gz";
@@ -19625,8 +19642,8 @@
   /*
   Generated from: github/dmmulroy/tsc.nvim/tsc-nvim
   */
-  tsc-nvim = buildVimPlugin {
-    pname = "tsc-nvim";
+  tsc-nvim-dmmulroy = buildVimPlugin {
+    pname = "tsc-nvim-dmmulroy";
     version = "2025-12-19";
     src = fetchurl {
       url = "https://github.com/dmmulroy/tsc.nvim/archive/eecf551d69bf683603c77bd31a031873261d0147.tar.gz";
@@ -19642,8 +19659,8 @@
   /*
   Generated from: github/gsuuon/tshjkl.nvim/tshjkl-nvim
   */
-  tshjkl-nvim = buildVimPlugin {
-    pname = "tshjkl-nvim";
+  tshjkl-nvim-gsuuon = buildVimPlugin {
+    pname = "tshjkl-nvim-gsuuon";
     version = "2025-07-02";
     src = fetchurl {
       url = "https://github.com/gsuuon/tshjkl.nvim/archive/ca01e7ff27d15a997588d1088e37559cd4b19687.tar.gz";
@@ -19659,8 +19676,8 @@
   /*
   Generated from: github/folke/twilight.nvim/twilight-nvim
   */
-  twilight-nvim = buildVimPlugin {
-    pname = "twilight-nvim";
+  twilight-nvim-folke = buildVimPlugin {
+    pname = "twilight-nvim-folke";
     version = "2025-10-28";
     src = fetchurl {
       url = "https://github.com/folke/twilight.nvim/archive/664e752f4a219801265cc3fc18782b457b58c1e1.tar.gz";
@@ -19676,8 +19693,8 @@
   /*
   Generated from: github/marilari88/twoslash-queries.nvim/twoslash-queries-nvim
   */
-  twoslash-queries-nvim = buildVimPlugin {
-    pname = "twoslash-queries-nvim";
+  twoslash-queries-nvim-marilari88 = buildVimPlugin {
+    pname = "twoslash-queries-nvim-marilari88";
     version = "2025-09-26";
     src = fetchurl {
       url = "https://github.com/marilari88/twoslash-queries.nvim/archive/1262c20cad5abd6e89995dc4bc0eaab0e2e4e0b9.tar.gz";
@@ -19693,8 +19710,8 @@
   /*
   Generated from: github/jose-elias-alvarez/typescript.nvim/typescript-nvim
   */
-  typescript-nvim = buildVimPlugin {
-    pname = "typescript-nvim";
+  typescript-nvim-jose-elias-alvarez = buildVimPlugin {
+    pname = "typescript-nvim-jose-elias-alvarez";
     version = "2023-08-12";
     src = fetchurl {
       url = "https://github.com/jose-elias-alvarez/typescript.nvim/archive/4de85ef699d7e6010528dcfbddc2ed4c2c421467.tar.gz";
@@ -19710,8 +19727,8 @@
   /*
   Generated from: github/MrPicklePinosaur/typst-conceal.vim/typst-conceal-vim
   */
-  typst-conceal-vim = buildVimPlugin {
-    pname = "typst-conceal-vim";
+  typst-conceal-vim-MrPicklePinosaur = buildVimPlugin {
+    pname = "typst-conceal-vim-MrPicklePinosaur";
     version = "2023-10-13";
     src = fetchurl {
       url = "https://github.com/MrPicklePinosaur/typst-conceal.vim/archive/b8862f2d5a015b838e4a0d361f30423c45e23425.tar.gz";
@@ -19727,8 +19744,8 @@
   /*
   Generated from: github/chomosuke/typst-preview.nvim/typst-preview-chomsuke
   */
-  typst-preview-chomsuke = buildVimPlugin {
-    pname = "typst-preview-chomsuke";
+  typst-preview-chomsuke-chomosuke = buildVimPlugin {
+    pname = "typst-preview-chomsuke-chomosuke";
     version = "2025-12-31";
     src = fetchurl {
       url = "https://github.com/chomosuke/typst-preview.nvim/archive/bf5d5eaf23bbfcca9f98a24ed29bd084abf89bf2.tar.gz";
@@ -19744,8 +19761,8 @@
   /*
   Generated from: github/niuiic/typst-preview.nvim/typst-preview-niuiic
   */
-  typst-preview-niuiic = buildVimPlugin {
-    pname = "typst-preview-niuiic";
+  typst-preview-niuiic-niuiic = buildVimPlugin {
+    pname = "typst-preview-niuiic-niuiic";
     version = "2025-05-19";
     src = fetchurl {
       url = "https://github.com/niuiic/typst-preview.nvim/archive/d7968afaf49a8737871bd0e4d09e527e54558ea8.tar.gz";
@@ -19761,8 +19778,8 @@
   /*
   Generated from: github/kaarmu/typst.vim/typst-vim
   */
-  typst-vim = buildVimPlugin {
-    pname = "typst-vim";
+  typst-vim-kaarmu = buildVimPlugin {
+    pname = "typst-vim-kaarmu";
     version = "2025-12-17";
     src = fetchurl {
       url = "https://github.com/kaarmu/typst.vim/archive/1d5436c0f55490893892441c0eca55e6cdf4916c.tar.gz";
@@ -19778,8 +19795,8 @@
   /*
   Generated from: github/chuwy/ucm.nvim/ucm-nvim
   */
-  ucm-nvim = buildVimPlugin {
-    pname = "ucm-nvim";
+  ucm-nvim-chuwy = buildVimPlugin {
+    pname = "ucm-nvim-chuwy";
     version = "2023-08-23";
     src = fetchurl {
       url = "https://github.com/chuwy/ucm.nvim/archive/0cabe0ca15b64d6ee30fe5eb4fd3b0f60cad9ce9.tar.gz";
@@ -19795,8 +19812,8 @@
   /*
   Generated from: github/altermo/ultimate-autopair.nvim/ultimate-autopair-nvim
   */
-  ultimate-autopair-nvim = buildVimPlugin {
-    pname = "ultimate-autopair-nvim";
+  ultimate-autopair-nvim-altermo = buildVimPlugin {
+    pname = "ultimate-autopair-nvim-altermo";
     version = "2025-11-05";
     src = fetchurl {
       url = "https://github.com/altermo/ultimate-autopair.nvim/archive/72e160cb1ce8c0db2ac4315f77d97420a2f4223d.tar.gz";
@@ -19812,8 +19829,8 @@
   /*
   Generated from: github/y3owk1n/undo-glow.nvim/undo-glow-nvim
   */
-  undo-glow-nvim = buildVimPlugin {
-    pname = "undo-glow-nvim";
+  undo-glow-nvim-y3owk1n = buildVimPlugin {
+    pname = "undo-glow-nvim-y3owk1n";
     version = "2025-12-14";
     src = fetchurl {
       url = "https://github.com/y3owk1n/undo-glow.nvim/archive/25314a94cdfd84a3ca62bada1f88ed00982659ac.tar.gz";
@@ -19829,8 +19846,8 @@
   /*
   Generated from: github/mbbill/undotree/undotree
   */
-  undotree = buildVimPlugin {
-    pname = "undotree";
+  undotree-mbbill = buildVimPlugin {
+    pname = "undotree-mbbill";
     version = "2025-12-29";
     src = fetchurl {
       url = "https://github.com/mbbill/undotree/archive/178d19e00a643f825ea11d581b1684745d0c4eda.tar.gz";
@@ -19846,8 +19863,8 @@
   /*
   Generated from: github/tummetott/unimpaired.nvim/unimpaired-nvim
   */
-  unimpaired-nvim = buildVimPlugin {
-    pname = "unimpaired-nvim";
+  unimpaired-nvim-tummetott = buildVimPlugin {
+    pname = "unimpaired-nvim-tummetott";
     version = "2025-10-16";
     src = fetchurl {
       url = "https://github.com/tummetott/unimpaired.nvim/archive/4995cb674cb4c5e442f0cd9d86f6f9c20333a0b8.tar.gz";
@@ -19863,8 +19880,8 @@
   /*
   Generated from: github/slugbyte/unruly-worker/unruly-worker
   */
-  unruly-worker = buildVimPlugin {
-    pname = "unruly-worker";
+  unruly-worker-slugbyte = buildVimPlugin {
+    pname = "unruly-worker-slugbyte";
     version = "2025-12-22";
     src = fetchurl {
       url = "https://github.com/slugbyte/unruly-worker/archive/2e2251758b3adccad13258b930be51608f5b1405.tar.gz";
@@ -19880,8 +19897,8 @@
   /*
   Generated from: github/slugbyte/unruly-worker.nvim/unruly-worker-nvim
   */
-  unruly-worker-nvim = buildVimPlugin {
-    pname = "unruly-worker-nvim";
+  unruly-worker-nvim-slugbyte = buildVimPlugin {
+    pname = "unruly-worker-nvim-slugbyte";
     version = "2025-12-22";
     src = fetchurl {
       url = "https://github.com/slugbyte/unruly-worker.nvim/archive/2e2251758b3adccad13258b930be51608f5b1405.tar.gz";
@@ -19897,8 +19914,8 @@
   /*
   Generated from: github/sontungexpt/url-open/url-open
   */
-  url-open = buildVimPlugin {
-    pname = "url-open";
+  url-open-sontungexpt = buildVimPlugin {
+    pname = "url-open-sontungexpt";
     version = "2025-10-29";
     src = fetchurl {
       url = "https://github.com/sontungexpt/url-open/archive/dce2a9bc51e4885ea80ca03da5b4d0f719aaf820.tar.gz";
@@ -19914,8 +19931,8 @@
   /*
   Generated from: github/axieax/urlview.nvim/urlview-nvim
   */
-  urlview-nvim = buildVimPlugin {
-    pname = "urlview-nvim";
+  urlview-nvim-axieax = buildVimPlugin {
+    pname = "urlview-nvim-axieax";
     version = "2025-11-30";
     src = fetchurl {
       url = "https://github.com/axieax/urlview.nvim/archive/813736e6891b8dccca58aa3baaeabef032f44525.tar.gz";
@@ -19931,8 +19948,8 @@
   /*
   Generated from: github/gaborvecsei/usage-tracker.nvim/usage-tracker-nvim
   */
-  usage-tracker-nvim = buildVimPlugin {
-    pname = "usage-tracker-nvim";
+  usage-tracker-nvim-gaborvecsei = buildVimPlugin {
+    pname = "usage-tracker-nvim-gaborvecsei";
     version = "2023-11-10";
     src = fetchurl {
       url = "https://github.com/gaborvecsei/usage-tracker.nvim/archive/739532b069e0d829b45ede989c657ac32a2141a6.tar.gz";
@@ -19948,8 +19965,8 @@
   /*
   Generated from: github/Mr-LLLLL/utilities.nvim/utilities-nvim
   */
-  utilities-nvim = buildVimPlugin {
-    pname = "utilities-nvim";
+  utilities-nvim-Mr-LLLLL = buildVimPlugin {
+    pname = "utilities-nvim-Mr-LLLLL";
     version = "2025-03-27";
     src = fetchurl {
       url = "https://github.com/Mr-LLLLL/utilities.nvim/archive/978234a7b5316de008b3ca9fcfcaafb5e14fbd65.tar.gz";
@@ -19965,8 +19982,8 @@
   /*
   Generated from: github/2KAbhishek/utils.nvim/utils-nvim
   */
-  utils-nvim = buildVimPlugin {
-    pname = "utils-nvim";
+  utils-nvim-2KAbhishek = buildVimPlugin {
+    pname = "utils-nvim-2KAbhishek";
     version = "2025-07-27";
     src = fetchurl {
       url = "https://github.com/2KAbhishek/utils.nvim/archive/8950622bd6861f2257364e5027c5613f29225e17.tar.gz";
@@ -19982,8 +19999,8 @@
   /*
   Generated from: github/Mangeshrex/uwu.vim/uwu-vim
   */
-  uwu-vim = buildVimPlugin {
-    pname = "uwu-vim";
+  uwu-vim-Mangeshrex = buildVimPlugin {
+    pname = "uwu-vim-Mangeshrex";
     version = "2023-06-19";
     src = fetchurl {
       url = "https://github.com/Mangeshrex/uwu.vim/archive/7900e45c24b59ad8b0a0e1b1204f260d6909bc56.tar.gz";
@@ -19999,8 +20016,8 @@
   /*
   Generated from: github/konapun/vacuumline.nvim/vacuumline-nvim
   */
-  vacuumline-nvim = buildVimPlugin {
-    pname = "vacuumline-nvim";
+  vacuumline-nvim-konapun = buildVimPlugin {
+    pname = "vacuumline-nvim-konapun";
     version = "2022-03-13";
     src = fetchurl {
       url = "https://github.com/konapun/vacuumline.nvim/archive/5f207f81d399004085df64fec4aeb5136422beba.tar.gz";
@@ -20016,8 +20033,8 @@
   /*
   Generated from: github/davidyz/vectorcode/vectorcode
   */
-  vectorcode = buildVimPlugin {
-    pname = "vectorcode";
+  vectorcode-davidyz = buildVimPlugin {
+    pname = "vectorcode-davidyz";
     version = "2025-12-26";
     src = fetchurl {
       url = "https://github.com/davidyz/vectorcode/archive/3eacce5ad1c8e439e7dbeab3a8d6bdb6b8aa1cab.tar.gz";
@@ -20033,8 +20050,8 @@
   /*
   Generated from: github/willothy/veil.nvim/veil-nvim
   */
-  veil-nvim = buildVimPlugin {
-    pname = "veil-nvim";
+  veil-nvim-willothy = buildVimPlugin {
+    pname = "veil-nvim-willothy";
     version = "2023-12-25";
     src = fetchurl {
       url = "https://github.com/willothy/veil.nvim/archive/88d5fd48e178a9996985e534cdeded0b2a421881.tar.gz";
@@ -20050,8 +20067,8 @@
   /*
   Generated from: github/jbyuki/venn.nvim/venn-nvim
   */
-  venn-nvim = buildVimPlugin {
-    pname = "venn-nvim";
+  venn-nvim-jbyuki = buildVimPlugin {
+    pname = "venn-nvim-jbyuki";
     version = "2024-05-03";
     src = fetchurl {
       url = "https://github.com/jbyuki/venn.nvim/archive/b09c2f36ddf70b498281845109bedcf08a7e0de0.tar.gz";
@@ -20067,8 +20084,8 @@
   /*
   Generated from: github/jyscao/ventana.nvim/ventana-nvim
   */
-  ventana-nvim = buildVimPlugin {
-    pname = "ventana-nvim";
+  ventana-nvim-jyscao = buildVimPlugin {
+    pname = "ventana-nvim-jyscao";
     version = "2025-11-23";
     src = fetchurl {
       url = "https://github.com/jyscao/ventana.nvim/archive/4c41f975fda8e9b118d4fafb0a2ade23616483f6.tar.gz";
@@ -20084,8 +20101,8 @@
   /*
   Generated from: github/linux-cultist/venv-selector.nvim/venv-selector-nvim
   */
-  venv-selector-nvim = buildVimPlugin {
-    pname = "venv-selector-nvim";
+  venv-selector-nvim-linux-cultist = buildVimPlugin {
+    pname = "venv-selector-nvim-linux-cultist";
     version = "2025-11-15";
     src = fetchurl {
       url = "https://github.com/linux-cultist/venv-selector.nvim/archive/58bae72c84b9f7f864c879ec1896e384296f9ffb.tar.gz";
@@ -20101,8 +20118,8 @@
   /*
   Generated from: github/tanvirtin/vgit.nvim/vgit-nvim
   */
-  vgit-nvim = buildVimPlugin {
-    pname = "vgit-nvim";
+  vgit-nvim-tanvirtin = buildVimPlugin {
+    pname = "vgit-nvim-tanvirtin";
     version = "2025-12-15";
     src = fetchurl {
       url = "https://github.com/tanvirtin/vgit.nvim/archive/edc01bb41663ba29893894cbdf760e89aac3eecb.tar.gz";
@@ -20118,8 +20135,8 @@
   /*
   Generated from: github/embark-theme/vim/vim
   */
-  vim = buildVimPlugin {
-    pname = "vim";
+  vim-embark-theme = buildVimPlugin {
+    pname = "vim-embark-theme";
     version = "2025-10-07";
     src = fetchurl {
       url = "https://github.com/embark-theme/vim/archive/7014644e25d5cebcb3e70a079804c44ec14d8e46.tar.gz";
@@ -20135,8 +20152,8 @@
   /*
   Generated from: github/vim-airline/vim-airline/vim-airline
   */
-  vim-airline = buildVimPlugin {
-    pname = "vim-airline";
+  vim-airline-vim-airline = buildVimPlugin {
+    pname = "vim-airline-vim-airline";
     version = "2025-12-23";
     src = fetchurl {
       url = "https://github.com/vim-airline/vim-airline/archive/b03fdc542f5155b54959102a2aecaf6c792dce01.tar.gz";
@@ -20152,8 +20169,8 @@
   /*
   Generated from: github/vim-airline/vim-airline-themes/vim-airline-themes
   */
-  vim-airline-themes = buildVimPlugin {
-    pname = "vim-airline-themes";
+  vim-airline-themes-vim-airline = buildVimPlugin {
+    pname = "vim-airline-themes-vim-airline";
     version = "2025-09-22";
     src = fetchurl {
       url = "https://github.com/vim-airline/vim-airline-themes/archive/77aab8c6cf7179ddb8a05741da7e358a86b2c3ab.tar.gz";
@@ -20169,8 +20186,8 @@
   /*
   Generated from: github/theprimeagen/vim-apm/vim-apm
   */
-  vim-apm = buildVimPlugin {
-    pname = "vim-apm";
+  vim-apm-theprimeagen = buildVimPlugin {
+    pname = "vim-apm-theprimeagen";
     version = "2025-08-08";
     src = fetchurl {
       url = "https://github.com/theprimeagen/vim-apm/archive/4f34ad6ad6fedf917c65bc7b6126ff46a6c57895.tar.gz";
@@ -20186,8 +20203,8 @@
   /*
   Generated from: github/moll/vim-bbye/vim-bbye
   */
-  vim-bbye = buildVimPlugin {
-    pname = "vim-bbye";
+  vim-bbye-moll = buildVimPlugin {
+    pname = "vim-bbye-moll";
     version = "2018-03-03";
     src = fetchurl {
       url = "https://github.com/moll/vim-bbye/archive/25ef93ac5a87526111f43e5110675032dbcacf56.tar.gz";
@@ -20203,8 +20220,8 @@
   /*
   Generated from: github/ThePrimeagen/vim-be-good/vim-be-good
   */
-  vim-be-good = buildVimPlugin {
-    pname = "vim-be-good";
+  vim-be-good-ThePrimeagen = buildVimPlugin {
+    pname = "vim-be-good-ThePrimeagen";
     version = "2024-12-05";
     src = fetchurl {
       url = "https://github.com/ThePrimeagen/vim-be-good/archive/0ae3de14eb8efc6effe7704b5e46495e91931cc5.tar.gz";
@@ -20220,8 +20237,8 @@
   /*
   Generated from: github/tomasiser/vim-code-dark/vim-code-dark
   */
-  vim-code-dark = buildVimPlugin {
-    pname = "vim-code-dark";
+  vim-code-dark-tomasiser = buildVimPlugin {
+    pname = "vim-code-dark-tomasiser";
     version = "2024-05-21";
     src = fetchurl {
       url = "https://github.com/tomasiser/vim-code-dark/archive/4624dc223bf574aa9a731c2383c579847303c380.tar.gz";
@@ -20237,8 +20254,8 @@
   /*
   Generated from: github/tpope/vim-commentary/vim-commentary
   */
-  vim-commentary = buildVimPlugin {
-    pname = "vim-commentary";
+  vim-commentary-tpope = buildVimPlugin {
+    pname = "vim-commentary-tpope";
     version = "2024-10-22";
     src = fetchurl {
       url = "https://github.com/tpope/vim-commentary/archive/64a654ef4a20db1727938338310209b6a63f60c9.tar.gz";
@@ -20254,8 +20271,8 @@
   /*
   Generated from: github/junegunn/vim-easy-align/vim-easy-align
   */
-  vim-easy-align = buildVimPlugin {
-    pname = "vim-easy-align";
+  vim-easy-align-junegunn = buildVimPlugin {
+    pname = "vim-easy-align-junegunn";
     version = "2024-04-13";
     src = fetchurl {
       url = "https://github.com/junegunn/vim-easy-align/archive/9815a55dbcd817784458df7a18acacc6f82b1241.tar.gz";
@@ -20271,8 +20288,8 @@
   /*
   Generated from: github/zhou13/vim-easyescape/vim-easyescape
   */
-  vim-easyescape = buildVimPlugin {
-    pname = "vim-easyescape";
+  vim-easyescape-zhou13 = buildVimPlugin {
+    pname = "vim-easyescape-zhou13";
     version = "2020-11-22";
     src = fetchurl {
       url = "https://github.com/zhou13/vim-easyescape/archive/fd7875f1657fd54fae85088acf289b9723d8a790.tar.gz";
@@ -20288,8 +20305,8 @@
   /*
   Generated from: github/houtsnip/vim-emacscommandline/vim-emacscommandline
   */
-  vim-emacscommandline = buildVimPlugin {
-    pname = "vim-emacscommandline";
+  vim-emacscommandline-houtsnip = buildVimPlugin {
+    pname = "vim-emacscommandline-houtsnip";
     version = "2017-11-24";
     src = fetchurl {
       url = "https://github.com/houtsnip/vim-emacscommandline/archive/3363eeb1f958bd0630448fdaa5f19ba7a834b343.tar.gz";
@@ -20305,8 +20322,8 @@
   /*
   Generated from: github/tpope/vim-endwise/vim-endwise
   */
-  vim-endwise = buildVimPlugin {
-    pname = "vim-endwise";
+  vim-endwise-tpope = buildVimPlugin {
+    pname = "vim-endwise-tpope";
     version = "2025-11-05";
     src = fetchurl {
       url = "https://github.com/tpope/vim-endwise/archive/4994afb0cdf956d9a665a14b9c834869e602c396.tar.gz";
@@ -20322,8 +20339,8 @@
   /*
   Generated from: github/tpope/vim-eunuch/vim-eunuch
   */
-  vim-eunuch = buildVimPlugin {
-    pname = "vim-eunuch";
+  vim-eunuch-tpope = buildVimPlugin {
+    pname = "vim-eunuch-tpope";
     version = "2024-12-29";
     src = fetchurl {
       url = "https://github.com/tpope/vim-eunuch/archive/e86bb794a1c10a2edac130feb0ea590a00d03f1e.tar.gz";
@@ -20339,8 +20356,8 @@
   /*
   Generated from: github/mnacamura/vim-fennel-syntax/vim-fennel-syntax
   */
-  vim-fennel-syntax = buildVimPlugin {
-    pname = "vim-fennel-syntax";
+  vim-fennel-syntax-mnacamura = buildVimPlugin {
+    pname = "vim-fennel-syntax-mnacamura";
     version = "2025-12-27";
     src = fetchurl {
       url = "https://github.com/mnacamura/vim-fennel-syntax/archive/368a6db7d0ca492ae015d510686e4c33f8d778b7.tar.gz";
@@ -20356,8 +20373,8 @@
   /*
   Generated from: github/inkch/vim-fish/vim-fish-inkch
   */
-  vim-fish-inkch = buildVimPlugin {
-    pname = "vim-fish-inkch";
+  vim-fish-inkch-inkch = buildVimPlugin {
+    pname = "vim-fish-inkch-inkch";
     version = "2022-03-06";
     src = fetchurl {
       url = "https://github.com/inkch/vim-fish/archive/e648eaf250be676eef02b3e2c9e25eabfdb2ed75.tar.gz";
@@ -20373,8 +20390,8 @@
   /*
   Generated from: github/voldikss/vim-floaterm/vim-floaterm
   */
-  vim-floaterm = buildVimPlugin {
-    pname = "vim-floaterm";
+  vim-floaterm-voldikss = buildVimPlugin {
+    pname = "vim-floaterm-voldikss";
     version = "2025-11-11";
     src = fetchurl {
       url = "https://github.com/voldikss/vim-floaterm/archive/a11b930f55324e9b05e2ef16511fe713f1b456a7.tar.gz";
@@ -20390,8 +20407,8 @@
   /*
   Generated from: github/tpope/vim-fugitive/vim-fugitive
   */
-  vim-fugitive = buildVimPlugin {
-    pname = "vim-fugitive";
+  vim-fugitive-tpope = buildVimPlugin {
+    pname = "vim-fugitive-tpope";
     version = "2025-07-15";
     src = fetchurl {
       url = "https://github.com/tpope/vim-fugitive/archive/61b51c09b7c9ce04e821f6cf76ea4f6f903e3cf4.tar.gz";
@@ -20407,8 +20424,8 @@
   /*
   Generated from: github/rhysd/vim-gfm-syntax/vim-gfm-syntax
   */
-  vim-gfm-syntax = buildVimPlugin {
-    pname = "vim-gfm-syntax";
+  vim-gfm-syntax-rhysd = buildVimPlugin {
+    pname = "vim-gfm-syntax-rhysd";
     version = "2022-08-01";
     src = fetchurl {
       url = "https://github.com/rhysd/vim-gfm-syntax/archive/95ec295ccc803afc925c01e6efe328779e1261e9.tar.gz";
@@ -20424,8 +20441,8 @@
   /*
   Generated from: github/airblade/vim-gitgutter/vim-gitgutter
   */
-  vim-gitgutter = buildVimPlugin {
-    pname = "vim-gitgutter";
+  vim-gitgutter-airblade = buildVimPlugin {
+    pname = "vim-gitgutter-airblade";
     version = "2025-12-05";
     src = fetchurl {
       url = "https://github.com/airblade/vim-gitgutter/archive/0acb772e76064cc406664ab595b58b3fac76488a.tar.gz";
@@ -20441,8 +20458,8 @@
   /*
   Generated from: github/towolf/vim-helm/vim-helm
   */
-  vim-helm = buildVimPlugin {
-    pname = "vim-helm";
+  vim-helm-towolf = buildVimPlugin {
+    pname = "vim-helm-towolf";
     version = "2025-09-27";
     src = fetchurl {
       url = "https://github.com/towolf/vim-helm/archive/2c8525fd98e57472769d137317bca83e477858ce.tar.gz";
@@ -20458,8 +20475,8 @@
   /*
   Generated from: github/hylang/vim-hy/vim-hy
   */
-  vim-hy = buildVimPlugin {
-    pname = "vim-hy";
+  vim-hy-hylang = buildVimPlugin {
+    pname = "vim-hy-hylang";
     version = "2025-12-06";
     src = fetchurl {
       url = "https://github.com/hylang/vim-hy/archive/0bb9d63fc346fc8fa50afdfc4437d73ed9a53354.tar.gz";
@@ -20475,8 +20492,8 @@
   /*
   Generated from: github/RRethy/vim-illuminate/vim-illuminate
   */
-  vim-illuminate = buildVimPlugin {
-    pname = "vim-illuminate";
+  vim-illuminate-RRethy = buildVimPlugin {
+    pname = "vim-illuminate-RRethy";
     version = "2025-05-24";
     src = fetchurl {
       url = "https://github.com/RRethy/vim-illuminate/archive/0d1e93684da00ab7c057410fecfc24f434698898.tar.gz";
@@ -20492,8 +20509,8 @@
   /*
   Generated from: github/ledger/vim-ledger/vim-ledger
   */
-  vim-ledger = buildVimPlugin {
-    pname = "vim-ledger";
+  vim-ledger-ledger = buildVimPlugin {
+    pname = "vim-ledger-ledger";
     version = "2026-01-03";
     src = fetchurl {
       url = "https://github.com/ledger/vim-ledger/archive/6d12e23e7261342f9dd4a23b9dd3a504454df002.tar.gz";
@@ -20509,8 +20526,8 @@
   /*
   Generated from: github/andymass/vim-matchup/vim-matchup
   */
-  vim-matchup = buildVimPlugin {
-    pname = "vim-matchup";
+  vim-matchup-andymass = buildVimPlugin {
+    pname = "vim-matchup-andymass";
     version = "2025-12-31";
     src = fetchurl {
       url = "https://github.com/andymass/vim-matchup/archive/0fb1e6b7cea34e931a2af50b8ad565c5c4fd8f4d.tar.gz";
@@ -20526,8 +20543,8 @@
   /*
   Generated from: github/bluz71/vim-moonfly-colors/vim-moonfly-colors
   */
-  vim-moonfly-colors = buildVimPlugin {
-    pname = "vim-moonfly-colors";
+  vim-moonfly-colors-bluz71 = buildVimPlugin {
+    pname = "vim-moonfly-colors-bluz71";
     version = "2025-11-30";
     src = fetchurl {
       url = "https://github.com/bluz71/vim-moonfly-colors/archive/1ad5a8d40176a8749f0c77b8875225d9d299a438.tar.gz";
@@ -20543,8 +20560,8 @@
   /*
   Generated from: github/bluz71/vim-nightfly-colors/vim-nightfly-colors
   */
-  vim-nightfly-colors = buildVimPlugin {
-    pname = "vim-nightfly-colors";
+  vim-nightfly-colors-bluz71 = buildVimPlugin {
+    pname = "vim-nightfly-colors-bluz71";
     version = "2025-11-30";
     src = fetchurl {
       url = "https://github.com/bluz71/vim-nightfly-colors/archive/35b7292334eba451f9f94252c7df1509570f864b.tar.gz";
@@ -20560,8 +20577,8 @@
   /*
   Generated from: github/LnL7/vim-nix/vim-nix
   */
-  vim-nix = buildVimPlugin {
-    pname = "vim-nix";
+  vim-nix-LnL7 = buildVimPlugin {
+    pname = "vim-nix-LnL7";
     version = "2025-02-01";
     src = fetchurl {
       url = "https://github.com/LnL7/vim-nix/archive/7235c7ce2cea530cb6b59bc3e46d4bfe917d15c8.tar.gz";
@@ -20577,8 +20594,8 @@
   /*
   Generated from: github/rakr/vim-one/vim-one
   */
-  vim-one = buildVimPlugin {
-    pname = "vim-one";
+  vim-one-rakr = buildVimPlugin {
+    pname = "vim-one-rakr";
     version = "2020-12-14";
     src = fetchurl {
       url = "https://github.com/rakr/vim-one/archive/187f5c85b682c1933f8780d4d419c55d26a82e24.tar.gz";
@@ -20594,8 +20611,8 @@
   /*
   Generated from: github/meain/vim-printer/vim-printer
   */
-  vim-printer = buildVimPlugin {
-    pname = "vim-printer";
+  vim-printer-meain = buildVimPlugin {
+    pname = "vim-printer-meain";
     version = "2024-01-24";
     src = fetchurl {
       url = "https://github.com/meain/vim-printer/archive/ab72f348e73fbaa7e72b9251da78f9cad1f74aa9.tar.gz";
@@ -20611,8 +20628,8 @@
   /*
   Generated from: github/mnacamura/vim-r7rs-syntax/vim-r7rs-syntax
   */
-  vim-r7rs-syntax = buildVimPlugin {
-    pname = "vim-r7rs-syntax";
+  vim-r7rs-syntax-mnacamura = buildVimPlugin {
+    pname = "vim-r7rs-syntax-mnacamura";
     version = "2025-12-27";
     src = fetchurl {
       url = "https://github.com/mnacamura/vim-r7rs-syntax/archive/5ab2a062c259086299b6b3bec49c9d094aad12b0.tar.gz";
@@ -20628,8 +20645,8 @@
   /*
   Generated from: github/tpope/vim-repeat/vim-repeat
   */
-  vim-repeat = buildVimPlugin {
-    pname = "vim-repeat";
+  vim-repeat-tpope = buildVimPlugin {
+    pname = "vim-repeat-tpope";
     version = "2024-07-08";
     src = fetchurl {
       url = "https://github.com/tpope/vim-repeat/archive/65846025c15494983dafe5e3b46c8f88ab2e9635.tar.gz";
@@ -20645,8 +20662,8 @@
   /*
   Generated from: github/mhinz/vim-startify/vim-startify
   */
-  vim-startify = buildVimPlugin {
-    pname = "vim-startify";
+  vim-startify-mhinz = buildVimPlugin {
+    pname = "vim-startify-mhinz";
     version = "2023-09-20";
     src = fetchurl {
       url = "https://github.com/mhinz/vim-startify/archive/4e089dffdad46f3f5593f34362d530e8fe823dcf.tar.gz";
@@ -20662,8 +20679,8 @@
   /*
   Generated from: github/dstein64/vim-startuptime/vim-startuptime
   */
-  vim-startuptime = buildVimPlugin {
-    pname = "vim-startuptime";
+  vim-startuptime-dstein64 = buildVimPlugin {
+    pname = "vim-startuptime-dstein64";
     version = "2025-02-18";
     src = fetchurl {
       url = "https://github.com/dstein64/vim-startuptime/archive/b6f0d93f6b8cf6eee0b4c94450198ba2d6a05ff6.tar.gz";
@@ -20679,8 +20696,8 @@
   /*
   Generated from: github/evanleck/vim-svelte/vim-svelte
   */
-  vim-svelte = buildVimPlugin {
-    pname = "vim-svelte";
+  vim-svelte-evanleck = buildVimPlugin {
+    pname = "vim-svelte-evanleck";
     version = "2025-05-30";
     src = fetchurl {
       url = "https://github.com/evanleck/vim-svelte/archive/f6df955ad86583e9751487eb7550fae9e53d2d6b.tar.gz";
@@ -20696,8 +20713,8 @@
   /*
   Generated from: github/leafOfTree/vim-svelte-plugin/vim-svelte-plugin
   */
-  vim-svelte-plugin = buildVimPlugin {
-    pname = "vim-svelte-plugin";
+  vim-svelte-plugin-leafOfTree = buildVimPlugin {
+    pname = "vim-svelte-plugin-leafOfTree";
     version = "2025-04-07";
     src = fetchurl {
       url = "https://github.com/leafOfTree/vim-svelte-plugin/archive/f80ff67a94e3ac279fe55ecdf55ad7342f4a5228.tar.gz";
@@ -20713,8 +20730,8 @@
   /*
   Generated from: github/kana/vim-textobj-indent/vim-textobj-indent
   */
-  vim-textobj-indent = buildVimPlugin {
-    pname = "vim-textobj-indent";
+  vim-textobj-indent-kana = buildVimPlugin {
+    pname = "vim-textobj-indent-kana";
     version = "2013-01-18";
     src = fetchurl {
       url = "https://github.com/kana/vim-textobj-indent/archive/deb76867c302f933c8f21753806cbf2d8461b548.tar.gz";
@@ -20730,8 +20747,8 @@
   /*
   Generated from: github/sgur/vim-textobj-parameter/vim-textobj-parameter
   */
-  vim-textobj-parameter = buildVimPlugin {
-    pname = "vim-textobj-parameter";
+  vim-textobj-parameter-sgur = buildVimPlugin {
+    pname = "vim-textobj-parameter-sgur";
     version = "2017-05-16";
     src = fetchurl {
       url = "https://github.com/sgur/vim-textobj-parameter/archive/201144f19a1a7081033b3cf2b088916dd0bcb98c.tar.gz";
@@ -20747,8 +20764,8 @@
   /*
   Generated from: github/rcarriga/vim-ultest/vim-ultest
   */
-  vim-ultest = buildVimPlugin {
-    pname = "vim-ultest";
+  vim-ultest-rcarriga = buildVimPlugin {
+    pname = "vim-ultest-rcarriga";
     version = "2023-02-09";
     src = fetchurl {
       url = "https://github.com/rcarriga/vim-ultest/archive/b06bc8715cbcb4aa0444abfd85fb705b659ba055.tar.gz";
@@ -20764,8 +20781,8 @@
   /*
   Generated from: github/wakatime/vim-wakatime/vim-wakatime
   */
-  vim-wakatime = buildVimPlugin {
-    pname = "vim-wakatime";
+  vim-wakatime-wakatime = buildVimPlugin {
+    pname = "vim-wakatime-wakatime";
     version = "2025-08-31";
     src = fetchurl {
       url = "https://github.com/wakatime/vim-wakatime/archive/d7973b157a632d1edeff01818f18d67e584eeaff.tar.gz";
@@ -20781,8 +20798,8 @@
   /*
   Generated from: github/thaerkh/vim-workspace/vim-workspace
   */
-  vim-workspace = buildVimPlugin {
-    pname = "vim-workspace";
+  vim-workspace-thaerkh = buildVimPlugin {
+    pname = "vim-workspace-thaerkh";
     version = "2023-05-29";
     src = fetchurl {
       url = "https://github.com/thaerkh/vim-workspace/archive/c0d1e4332a378f58bfdf363b4957168fa78e79b4.tar.gz";
@@ -20798,8 +20815,8 @@
   /*
   Generated from: github/svermeulen/vim-yoink/vim-yoink
   */
-  vim-yoink = buildVimPlugin {
-    pname = "vim-yoink";
+  vim-yoink-svermeulen = buildVimPlugin {
+    pname = "vim-yoink-svermeulen";
     version = "2021-09-15";
     src = fetchurl {
       url = "https://github.com/svermeulen/vim-yoink/archive/89ed6934679fdbc3c20f552b50b1f869f624cd22.tar.gz";
@@ -20815,8 +20832,8 @@
   /*
   Generated from: github/TaDaa/vimade/vimade
   */
-  vimade = buildVimPlugin {
-    pname = "vimade";
+  vimade-TaDaa = buildVimPlugin {
+    pname = "vimade-TaDaa";
     version = "2025-11-09";
     src = fetchurl {
       url = "https://github.com/TaDaa/vimade/archive/266cb28a451448754eb8ae2a2a46d6ae526b33f8.tar.gz";
@@ -20832,8 +20849,8 @@
   /*
   Generated from: github/ldelossa/vimdark/vimdark
   */
-  vimdark = buildVimPlugin {
-    pname = "vimdark";
+  vimdark-ldelossa = buildVimPlugin {
+    pname = "vimdark-ldelossa";
     version = "2022-03-20";
     src = fetchurl {
       url = "https://github.com/ldelossa/vimdark/archive/ffd7240f8346cb61ab80eda84b78f8983a3c69bf.tar.gz";
@@ -20849,8 +20866,8 @@
   /*
   Generated from: github/svermeulen/vimpeccable/vimpeccable
   */
-  vimpeccable = buildVimPlugin {
-    pname = "vimpeccable";
+  vimpeccable-svermeulen = buildVimPlugin {
+    pname = "vimpeccable-svermeulen";
     version = "2021-12-28";
     src = fetchurl {
       url = "https://github.com/svermeulen/vimpeccable/archive/bd19b2a86a3d4a0ee184412aa3edb7ed57025d56.tar.gz";
@@ -20866,8 +20883,8 @@
   /*
   Generated from: github/lervag/vimtex/vimtex
   */
-  vimtex = buildVimPlugin {
-    pname = "vimtex";
+  vimtex-lervag = buildVimPlugin {
+    pname = "vimtex-lervag";
     version = "2026-01-02";
     src = fetchurl {
       url = "https://github.com/lervag/vimtex/archive/a50f40783c1cade2e8e2994a9f4a8e038a0a57bc.tar.gz";
@@ -20883,8 +20900,8 @@
   /*
   Generated from: github/vimwiki/vimwiki/vimwiki
   */
-  vimwiki = buildVimPlugin {
-    pname = "vimwiki";
+  vimwiki-vimwiki = buildVimPlugin {
+    pname = "vimwiki-vimwiki";
     version = "2024-10-14";
     src = fetchurl {
       url = "https://github.com/vimwiki/vimwiki/archive/72792615e739d0eb54a9c8f7e0a46a6e2407c9e8.tar.gz";
@@ -20900,8 +20917,8 @@
   /*
   Generated from: github/xiyaowong/virtcolumn.nvim/virtcolumn-nvim
   */
-  virtcolumn-nvim = buildVimPlugin {
-    pname = "virtcolumn-nvim";
+  virtcolumn-nvim-xiyaowong = buildVimPlugin {
+    pname = "virtcolumn-nvim-xiyaowong";
     version = "2023-12-15";
     src = fetchurl {
       url = "https://github.com/xiyaowong/virtcolumn.nvim/archive/4d385b4aa42aa3af6fa2cb8527462fa4badbd163.tar.gz";
@@ -20917,8 +20934,8 @@
   /*
   Generated from: github/jubnzv/virtual-types.nvim/virtual-types-nvim
   */
-  virtual-types-nvim = buildVimPlugin {
-    pname = "virtual-types-nvim";
+  virtual-types-nvim-jubnzv = buildVimPlugin {
+    pname = "virtual-types-nvim-jubnzv";
     version = "2023-04-07";
     src = fetchurl {
       url = "https://github.com/jubnzv/virtual-types.nvim/archive/d652ec0b1781bbb0e83dc588fb62d638006cf61e.tar.gz";
@@ -20934,8 +20951,8 @@
   /*
   Generated from: github/Willem-J-an/visidata.nvim/visidata-nvim
   */
-  visidata-nvim = buildVimPlugin {
-    pname = "visidata-nvim";
+  visidata-nvim-Willem-J-an = buildVimPlugin {
+    pname = "visidata-nvim-Willem-J-an";
     version = "2024-03-19";
     src = fetchurl {
       url = "https://github.com/Willem-J-an/visidata.nvim/archive/937f7956c84721ab4663639ce8362133f9488cb0.tar.gz";
@@ -20951,8 +20968,8 @@
   /*
   Generated from: github/wurli/visimatch.nvim/visimatch-nvim
   */
-  visimatch-nvim = buildVimPlugin {
-    pname = "visimatch-nvim";
+  visimatch-nvim-wurli = buildVimPlugin {
+    pname = "visimatch-nvim-wurli";
     version = "2025-09-25";
     src = fetchurl {
       url = "https://github.com/wurli/visimatch.nvim/archive/4334be61a9d3a6b268179144c6354349e445eb89.tar.gz";
@@ -20968,8 +20985,8 @@
   /*
   Generated from: github/00sapo/visual.nvim/visual-nvim
   */
-  visual-nvim = buildVimPlugin {
-    pname = "visual-nvim";
+  visual-nvim-00sapo = buildVimPlugin {
+    pname = "visual-nvim-00sapo";
     version = "2023-10-27";
     src = fetchurl {
       url = "https://github.com/00sapo/visual.nvim/archive/5eeb220b86cac7ff7041daf565ccf45f296bd107.tar.gz";
@@ -20985,8 +21002,8 @@
   /*
   Generated from: github/askfiy/visual_studio_code/visual-studio-code
   */
-  visual-studio-code = buildVimPlugin {
-    pname = "visual-studio-code";
+  visual-studio-code-askfiy = buildVimPlugin {
+    pname = "visual-studio-code-askfiy";
     version = "2024-09-24";
     src = fetchurl {
       url = "https://github.com/askfiy/visual_studio_code/archive/ff7fd467e6c82bd1e062d64f60428cf36b0e99c6.tar.gz";
@@ -21002,8 +21019,8 @@
   /*
   Generated from: github/mcauley-penney/visual-whitespace.nvim/visual-whitespace-nvim
   */
-  visual-whitespace-nvim = buildVimPlugin {
-    pname = "visual-whitespace-nvim";
+  visual-whitespace-nvim-mcauley-penney = buildVimPlugin {
+    pname = "visual-whitespace-nvim-mcauley-penney";
     version = "2025-11-24";
     src = fetchurl {
       url = "https://github.com/mcauley-penney/visual-whitespace.nvim/archive/2c2de32bb97620bcf4b3b78879c185315ee971dc.tar.gz";
@@ -21019,8 +21036,8 @@
   /*
   Generated from: github/2nthony/vitesse.nvim/vitesse-nvim
   */
-  vitesse-nvim = buildVimPlugin {
-    pname = "vitesse-nvim";
+  vitesse-nvim-2nthony = buildVimPlugin {
+    pname = "vitesse-nvim-2nthony";
     version = "2024-08-17";
     src = fetchurl {
       url = "https://github.com/2nthony/vitesse.nvim/archive/1e00ee10a7ac23426684f43be80eb3edf92c082c.tar.gz";
@@ -21036,8 +21053,8 @@
   /*
   Generated from: github/tjdevries/vlog.nvim/vlog-nvim
   */
-  vlog-nvim = buildVimPlugin {
-    pname = "vlog-nvim";
+  vlog-nvim-tjdevries = buildVimPlugin {
+    pname = "vlog-nvim-tjdevries";
     version = "2020-08-04";
     src = fetchurl {
       url = "https://github.com/tjdevries/vlog.nvim/archive/300e43f1628935aa9fec0560f3c7c483b3d38db2.tar.gz";
@@ -21053,8 +21070,8 @@
   /*
   Generated from: github/nxvu699134/vn-night.nvim/vn-night-nvim
   */
-  vn-night-nvim = buildVimPlugin {
-    pname = "vn-night-nvim";
+  vn-night-nvim-nxvu699134 = buildVimPlugin {
+    pname = "vn-night-nvim-nxvu699134";
     version = "2025-02-17";
     src = fetchurl {
       url = "https://github.com/nxvu699134/vn-night.nvim/archive/47fc41df3b4e8fa5f454d84801e130a223ee95d3.tar.gz";
@@ -21070,8 +21087,8 @@
   /*
   Generated from: github/EthanJWright/vs-tasks.nvim/vs-tasks-nvim
   */
-  vs-tasks-nvim = buildVimPlugin {
-    pname = "vs-tasks-nvim";
+  vs-tasks-nvim-EthanJWright = buildVimPlugin {
+    pname = "vs-tasks-nvim-EthanJWright";
     version = "2025-10-27";
     src = fetchurl {
       url = "https://github.com/EthanJWright/vs-tasks.nvim/archive/1dafea1a206590644d04a71159cd4f7651b6fb8e.tar.gz";
@@ -21087,8 +21104,8 @@
   /*
   Generated from: github/esmuellert/vscode-diff.nvim/vscode-diff-nvim
   */
-  vscode-diff-nvim = buildVimPlugin {
-    pname = "vscode-diff-nvim";
+  vscode-diff-nvim-esmuellert = buildVimPlugin {
+    pname = "vscode-diff-nvim-esmuellert";
     version = "2026-01-08";
     src = fetchurl {
       url = "https://github.com/esmuellert/vscode-diff.nvim/archive/e6d0efcf20197b266deeb8e4b6a2bbe7f0e8c6ec.tar.gz";
@@ -21104,8 +21121,8 @@
   /*
   Generated from: github/Mofiqul/vscode.nvim/vscode-nvim
   */
-  vscode-nvim = buildVimPlugin {
-    pname = "vscode-nvim";
+  vscode-nvim-Mofiqul = buildVimPlugin {
+    pname = "vscode-nvim-Mofiqul";
     version = "2025-12-03";
     src = fetchurl {
       url = "https://github.com/Mofiqul/vscode.nvim/archive/aa1102a7e15195c9cca22730b09224a7f7745ba8.tar.gz";
@@ -21121,8 +21138,8 @@
   /*
   Generated from: github/ray-x/web-tools.nvim/web-tools-nvim
   */
-  web-tools-nvim = buildVimPlugin {
-    pname = "web-tools-nvim";
+  web-tools-nvim-ray-x = buildVimPlugin {
+    pname = "web-tools-nvim-ray-x";
     version = "2025-03-14";
     src = fetchurl {
       url = "https://github.com/ray-x/web-tools.nvim/archive/2f895049d3b6e3a0b2cedfa18c8733b36fb6cbda.tar.gz";
@@ -21138,8 +21155,8 @@
   /*
   Generated from: github/willothy/wezterm.nvim/wezterm-nvim
   */
-  wezterm-nvim = buildVimPlugin {
-    pname = "wezterm-nvim";
+  wezterm-nvim-willothy = buildVimPlugin {
+    pname = "wezterm-nvim-willothy";
     version = "2024-09-26";
     src = fetchurl {
       url = "https://github.com/willothy/wezterm.nvim/archive/032c33b621b96cc7228955b4352b48141c482098.tar.gz";
@@ -21155,8 +21172,8 @@
   /*
   Generated from: github/SalOrak/whaler.nvim/whaler-nvim
   */
-  whaler-nvim = buildVimPlugin {
-    pname = "whaler-nvim";
+  whaler-nvim-SalOrak = buildVimPlugin {
+    pname = "whaler-nvim-SalOrak";
     version = "2025-12-27";
     src = fetchurl {
       url = "https://github.com/SalOrak/whaler.nvim/archive/f73e2d82adf3168cf5e9d9bd59812686c2f38564.tar.gz";
@@ -21172,8 +21189,8 @@
   /*
   Generated from: github/ragnarok22/whereami.nvim/whereami-nvim
   */
-  whereami-nvim = buildVimPlugin {
-    pname = "whereami-nvim";
+  whereami-nvim-ragnarok22 = buildVimPlugin {
+    pname = "whereami-nvim-ragnarok22";
     version = "2025-08-21";
     src = fetchurl {
       url = "https://github.com/ragnarok22/whereami.nvim/archive/5ef025bb65f8daa0067a60d11db4f214d904a2ec.tar.gz";
@@ -21189,8 +21206,8 @@
   /*
   Generated from: github/folke/which-key.nvim/which-key-nvim
   */
-  which-key-nvim = buildVimPlugin {
-    pname = "which-key-nvim";
+  which-key-nvim-folke = buildVimPlugin {
+    pname = "which-key-nvim-folke";
     version = "2025-10-28";
     src = fetchurl {
       url = "https://github.com/folke/which-key.nvim/archive/3aab2147e74890957785941f0c1ad87d0a44c15a.tar.gz";
@@ -21206,8 +21223,8 @@
   /*
   Generated from: github/neolooong/whichpy.nvim/whichpy-nvim
   */
-  whichpy-nvim = buildVimPlugin {
-    pname = "whichpy-nvim";
+  whichpy-nvim-neolooong = buildVimPlugin {
+    pname = "whichpy-nvim-neolooong";
     version = "2025-05-13";
     src = fetchurl {
       url = "https://github.com/neolooong/whichpy.nvim/archive/4091361ed224e0e5ae92b2a5c412cb2ca7c26f65.tar.gz";
@@ -21223,8 +21240,8 @@
   /*
   Generated from: github/slugbyte/whip.nvim/whip-nvim
   */
-  whip-nvim = buildVimPlugin {
-    pname = "whip-nvim";
+  whip-nvim-slugbyte = buildVimPlugin {
+    pname = "whip-nvim-slugbyte";
     version = "2025-04-03";
     src = fetchurl {
       url = "https://github.com/slugbyte/whip.nvim/archive/b4ec8a712d098e875cd5c8ed03ea5d365121c938.tar.gz";
@@ -21240,8 +21257,8 @@
   /*
   Generated from: github/gelguy/wilder.nvim/wilder-nvim
   */
-  wilder-nvim = buildVimPlugin {
-    pname = "wilder-nvim";
+  wilder-nvim-gelguy = buildVimPlugin {
+    pname = "wilder-nvim-gelguy";
     version = "2022-08-13";
     src = fetchurl {
       url = "https://github.com/gelguy/wilder.nvim/archive/679f348dc90d80ff9ba0e7c470c40a4d038dcecf.tar.gz";
@@ -21257,8 +21274,8 @@
   /*
   Generated from: github/ycdzj/win-mover.nvim/win-mover-nvim
   */
-  win-mover-nvim = buildVimPlugin {
-    pname = "win-mover-nvim";
+  win-mover-nvim-ycdzj = buildVimPlugin {
+    pname = "win-mover-nvim-ycdzj";
     version = "2025-01-10";
     src = fetchurl {
       url = "https://github.com/ycdzj/win-mover.nvim/archive/1f1704b09fe8231ebade3f8543a0b171b3de1476.tar.gz";
@@ -21274,8 +21291,8 @@
   /*
   Generated from: github/declancm/windex.nvim/windex-nvim
   */
-  windex-nvim = buildVimPlugin {
-    pname = "windex-nvim";
+  windex-nvim-declancm = buildVimPlugin {
+    pname = "windex-nvim-declancm";
     version = "2022-07-12";
     src = fetchurl {
       url = "https://github.com/declancm/windex.nvim/archive/1e86cba6f6f55ced60d17d6c6ebd51388a637b86.tar.gz";
@@ -21291,8 +21308,8 @@
   /*
   Generated from: github/windwp/windline.nvim/windline-nvim
   */
-  windline-nvim = buildVimPlugin {
-    pname = "windline-nvim";
+  windline-nvim-windwp = buildVimPlugin {
+    pname = "windline-nvim-windwp";
     version = "2025-10-22";
     src = fetchurl {
       url = "https://github.com/windwp/windline.nvim/archive/2e83922bf289ffd30fbd7f7028fdb4711592dd92.tar.gz";
@@ -21308,8 +21325,8 @@
   /*
   Generated from: github/anuvyklack/windows.nvim/windows-nvim
   */
-  windows-nvim = buildVimPlugin {
-    pname = "windows-nvim";
+  windows-nvim-anuvyklack = buildVimPlugin {
+    pname = "windows-nvim-anuvyklack";
     version = "2023-01-16";
     src = fetchurl {
       url = "https://github.com/anuvyklack/windows.nvim/archive/c7492552b23d0ab30325e90b56066ec51242adc8.tar.gz";
@@ -21325,8 +21342,8 @@
   /*
   Generated from: github/MisanthropicBit/winmove.nvim/winmove-nvim
   */
-  winmove-nvim = buildVimPlugin {
-    pname = "winmove-nvim";
+  winmove-nvim-MisanthropicBit = buildVimPlugin {
+    pname = "winmove-nvim-MisanthropicBit";
     version = "2025-09-27";
     src = fetchurl {
       url = "https://github.com/MisanthropicBit/winmove.nvim/archive/0a98acf6c5007dcb286f9e31de0aca231b244927.tar.gz";
@@ -21342,8 +21359,8 @@
   /*
   Generated from: github/sindrets/winshift.nvim/winshift-nvim
   */
-  winshift-nvim = buildVimPlugin {
-    pname = "winshift-nvim";
+  winshift-nvim-sindrets = buildVimPlugin {
+    pname = "winshift-nvim-sindrets";
     version = "2022-09-06";
     src = fetchurl {
       url = "https://github.com/sindrets/winshift.nvim/archive/37468ed6f385dfb50402368669766504c0e15583.tar.gz";
@@ -21359,8 +21376,8 @@
   /*
   Generated from: github/sontungexpt/witch/witch
   */
-  witch = buildVimPlugin {
-    pname = "witch";
+  witch-sontungexpt = buildVimPlugin {
+    pname = "witch-sontungexpt";
     version = "2025-11-25";
     src = fetchurl {
       url = "https://github.com/sontungexpt/witch/archive/b943dd5397b7fd0216d7143f16a3a202ff64b5d3.tar.gz";
@@ -21376,8 +21393,8 @@
   /*
   Generated from: github/artemave/workspace-diagnostics.nvim/workspace-diagnostics-nvim
   */
-  workspace-diagnostics-nvim = buildVimPlugin {
-    pname = "workspace-diagnostics-nvim";
+  workspace-diagnostics-nvim-artemave = buildVimPlugin {
+    pname = "workspace-diagnostics-nvim-artemave";
     version = "2025-05-25";
     src = fetchurl {
       url = "https://github.com/artemave/workspace-diagnostics.nvim/archive/60f9175b2501ae3f8b1aba9719c0df8827610c8e.tar.gz";
@@ -21393,8 +21410,8 @@
   /*
   Generated from: github/natecraddock/workspaces.nvim/workspaces-nvim
   */
-  workspaces-nvim = buildVimPlugin {
-    pname = "workspaces-nvim";
+  workspaces-nvim-natecraddock = buildVimPlugin {
+    pname = "workspaces-nvim-natecraddock";
     version = "2024-10-08";
     src = fetchurl {
       url = "https://github.com/natecraddock/workspaces.nvim/archive/55a1eb6f5b72e07ee8333898254e113e927180ca.tar.gz";
@@ -21410,8 +21427,8 @@
   /*
   Generated from: github/piersolenski/wtf.nvim/wtf-nvim
   */
-  wtf-nvim = buildVimPlugin {
-    pname = "wtf-nvim";
+  wtf-nvim-piersolenski = buildVimPlugin {
+    pname = "wtf-nvim-piersolenski";
     version = "2026-01-03";
     src = fetchurl {
       url = "https://github.com/piersolenski/wtf.nvim/archive/766b70ed84b0503706e82ce390c5e12e2f3f6368.tar.gz";
@@ -21427,8 +21444,8 @@
   /*
   Generated from: github/nekonako/xresources-nvim/xresources-nvim
   */
-  xresources-nvim = buildVimPlugin {
-    pname = "xresources-nvim";
+  xresources-nvim-nekonako = buildVimPlugin {
+    pname = "xresources-nvim-nekonako";
     version = "2021-11-23";
     src = fetchurl {
       url = "https://github.com/nekonako/xresources-nvim/archive/745b4df924a6c4a7d8026a3fb3a7fa5f78e6f582.tar.gz";
@@ -21444,8 +21461,8 @@
   /*
   Generated from: github/pianocomposer321/yabs.nvim/yabs-nvim
   */
-  yabs-nvim = buildVimPlugin {
-    pname = "yabs-nvim";
+  yabs-nvim-pianocomposer321 = buildVimPlugin {
+    pname = "yabs-nvim-pianocomposer321";
     version = "2024-01-15";
     src = fetchurl {
       url = "https://github.com/pianocomposer321/yabs.nvim/archive/787ee59a38d4a7dc6533d3cd0e353478c7caeb53.tar.gz";
@@ -21461,8 +21478,8 @@
   /*
   Generated from: github/someone-stole-my-name/yaml-companion.nvim/yaml-companion-nvim
   */
-  yaml-companion-nvim = buildVimPlugin {
-    pname = "yaml-companion-nvim";
+  yaml-companion-nvim-someone-stole-my-name = buildVimPlugin {
+    pname = "yaml-companion-nvim-someone-stole-my-name";
     version = "2024-07-14";
     src = fetchurl {
       url = "https://github.com/someone-stole-my-name/yaml-companion.nvim/archive/131b0d67bd2e0f1a02e0daf2f3460482221ce3c0.tar.gz";
@@ -21478,8 +21495,8 @@
   /*
   Generated from: github/cuducos/yaml.nvim/yaml-nvim
   */
-  yaml-nvim = buildVimPlugin {
-    pname = "yaml-nvim";
+  yaml-nvim-cuducos = buildVimPlugin {
+    pname = "yaml-nvim-cuducos";
     version = "2026-01-04";
     src = fetchurl {
       url = "https://github.com/cuducos/yaml.nvim/archive/43ddedd0f3b060b4475e19e762b1796fce1b23be.tar.gz";
@@ -21495,8 +21512,8 @@
   /*
   Generated from: github/Xuyuanp/yanil/yanil
   */
-  yanil = buildVimPlugin {
-    pname = "yanil";
+  yanil-Xuyuanp = buildVimPlugin {
+    pname = "yanil-Xuyuanp";
     version = "2022-03-28";
     src = fetchurl {
       url = "https://github.com/Xuyuanp/yanil/archive/bf01dbc9de2d822de422c4d1eb63ced78cc52388.tar.gz";
@@ -21512,8 +21529,8 @@
   /*
   Generated from: github/ptdewey/yankbank-nvim/yankbank-nvim
   */
-  yankbank-nvim = buildVimPlugin {
-    pname = "yankbank-nvim";
+  yankbank-nvim-ptdewey = buildVimPlugin {
+    pname = "yankbank-nvim-ptdewey";
     version = "2026-01-02";
     src = fetchurl {
       url = "https://github.com/ptdewey/yankbank-nvim/archive/31e2cbe77d5871679d432aa93962abe4b4998c51.tar.gz";
@@ -21529,8 +21546,8 @@
   /*
   Generated from: github/daltongd/yanklock.nvim/yanklock-nvim
   */
-  yanklock-nvim = buildVimPlugin {
-    pname = "yanklock-nvim";
+  yanklock-nvim-daltongd = buildVimPlugin {
+    pname = "yanklock-nvim-daltongd";
     version = "2025-01-03";
     src = fetchurl {
       url = "https://github.com/daltongd/yanklock.nvim/archive/ea76e1ef620633e9d38b94666dece48b8128a7e1.tar.gz";
@@ -21546,8 +21563,8 @@
   /*
   Generated from: github/gbprod/yanky.nvim/yanky-nvim
   */
-  yanky-nvim = buildVimPlugin {
-    pname = "yanky-nvim";
+  yanky-nvim-gbprod = buildVimPlugin {
+    pname = "yanky-nvim-gbprod";
     version = "2025-12-02";
     src = fetchurl {
       url = "https://github.com/gbprod/yanky.nvim/archive/04fc42b94305d94948c9c197f679336668af3292.tar.gz";
@@ -21563,8 +21580,8 @@
   /*
   Generated from: github/milanglacier/yarepl.nvim/yarepl-nvim
   */
-  yarepl-nvim = buildVimPlugin {
-    pname = "yarepl-nvim";
+  yarepl-nvim-milanglacier = buildVimPlugin {
+    pname = "yarepl-nvim-milanglacier";
     version = "2026-01-05";
     src = fetchurl {
       url = "https://github.com/milanglacier/yarepl.nvim/archive/ef8484896434a955458db7413c2e40b45c24c0c9.tar.gz";
@@ -21580,8 +21597,8 @@
   /*
   Generated from: github/sonjiku/yawnc.nvim/yawnc-nvim
   */
-  yawnc-nvim = buildVimPlugin {
-    pname = "yawnc-nvim";
+  yawnc-nvim-sonjiku = buildVimPlugin {
+    pname = "yawnc-nvim-sonjiku";
     version = "2023-06-25";
     src = fetchurl {
       url = "https://github.com/sonjiku/yawnc.nvim/archive/4a926d0023472ec308d212be6bc6e5d865af5d43.tar.gz";
@@ -21597,8 +21614,8 @@
   /*
   Generated from: github/mikavilpas/yazi.nvim/yazi-nvim
   */
-  yazi-nvim = buildVimPlugin {
-    pname = "yazi-nvim";
+  yazi-nvim-mikavilpas = buildVimPlugin {
+    pname = "yazi-nvim-mikavilpas";
     version = "2026-01-07";
     src = fetchurl {
       url = "https://github.com/mikavilpas/yazi.nvim/archive/7c2a2c3511f8790b8de749a04d37563d77478c17.tar.gz";
@@ -21614,8 +21631,8 @@
   /*
   Generated from: github/samharju/yeet.nvim/yeet-nvim
   */
-  yeet-nvim = buildVimPlugin {
-    pname = "yeet-nvim";
+  yeet-nvim-samharju = buildVimPlugin {
+    pname = "yeet-nvim-samharju";
     version = "2025-06-13";
     src = fetchurl {
       url = "https://github.com/samharju/yeet.nvim/archive/31046346b4f146e337c3f1fda604f0e1e25e1df7.tar.gz";
@@ -21631,8 +21648,8 @@
   /*
   Generated from: github/zdcthomas/yop.nvim/yop-nvim
   */
-  yop-nvim = buildVimPlugin {
-    pname = "yop-nvim";
+  yop-nvim-zdcthomas = buildVimPlugin {
+    pname = "yop-nvim-zdcthomas";
     version = "2023-05-29";
     src = fetchurl {
       url = "https://github.com/zdcthomas/yop.nvim/archive/ec26d86cfa96783f6894babcc509e5287aef9a25.tar.gz";
@@ -21648,8 +21665,8 @@
   /*
   Generated from: github/Lilja/zellij.nvim/zellij-nvim
   */
-  zellij-nvim = buildVimPlugin {
-    pname = "zellij-nvim";
+  zellij-nvim-Lilja = buildVimPlugin {
+    pname = "zellij-nvim-Lilja";
     version = "2024-05-03";
     src = fetchurl {
       url = "https://github.com/Lilja/zellij.nvim/archive/99659823e2ee81e4ba5a2579093776ee39a93b15.tar.gz";
@@ -21665,8 +21682,8 @@
   /*
   Generated from: github/folke/zen-mode.nvim/zen-mode-nvim
   */
-  zen-mode-nvim = buildVimPlugin {
-    pname = "zen-mode-nvim";
+  zen-mode-nvim-folke = buildVimPlugin {
+    pname = "zen-mode-nvim-folke";
     version = "2025-10-28";
     src = fetchurl {
       url = "https://github.com/folke/zen-mode.nvim/archive/8564ce6d29ec7554eb9df578efa882d33b3c23a7.tar.gz";
@@ -21682,8 +21699,8 @@
   /*
   Generated from: github/zenbones-theme/zenbones.nvim/zenbones-nvim
   */
-  zenbones-nvim = buildVimPlugin {
-    pname = "zenbones-nvim";
+  zenbones-nvim-zenbones-theme = buildVimPlugin {
+    pname = "zenbones-nvim-zenbones-theme";
     version = "2025-12-02";
     src = fetchurl {
       url = "https://github.com/zenbones-theme/zenbones.nvim/archive/4635a3f46d1066975d1074cd9f61f93cb1e32f64.tar.gz";
@@ -21699,8 +21716,8 @@
   /*
   Generated from: github/phha/zenburn.nvim/zenburn-nvim
   */
-  zenburn-nvim = buildVimPlugin {
-    pname = "zenburn-nvim";
+  zenburn-nvim-phha = buildVimPlugin {
+    pname = "zenburn-nvim-phha";
     version = "2024-01-31";
     src = fetchurl {
       url = "https://github.com/phha/zenburn.nvim/archive/f5ee12b30119499c7fa7f95719cd7c5aab9f9f29.tar.gz";
@@ -21716,8 +21733,8 @@
   /*
   Generated from: github/nvimdev/zephyr-nvim/zephyr-nvim
   */
-  zephyr-nvim = buildVimPlugin {
-    pname = "zephyr-nvim";
+  zephyr-nvim-nvimdev = buildVimPlugin {
+    pname = "zephyr-nvim-nvimdev";
     version = "2022-12-31";
     src = fetchurl {
       url = "https://github.com/nvimdev/zephyr-nvim/archive/7fd86b7164442d3b5ec2c81b2694d040e716b5cf.tar.gz";
@@ -21733,8 +21750,8 @@
   /*
   Generated from: github/titanzero/zephyrium/zephyrium
   */
-  zephyrium = buildVimPlugin {
-    pname = "zephyrium";
+  zephyrium-titanzero = buildVimPlugin {
+    pname = "zephyrium-titanzero";
     version = "2022-02-20";
     src = fetchurl {
       url = "https://github.com/titanzero/zephyrium/archive/c8f6c4b803c22aad7302be37a7bda3380f6e8e9c.tar.gz";
@@ -21750,8 +21767,8 @@
   /*
   Generated from: github/ziglang/zig.vim/zig-vim
   */
-  zig-vim = buildVimPlugin {
-    pname = "zig-vim";
+  zig-vim-ziglang = buildVimPlugin {
+    pname = "zig-vim-ziglang";
     version = "2025-11-15";
     src = fetchurl {
       url = "https://github.com/ziglang/zig.vim/archive/1a1112eec20e28c832a06ddb1d0060f6ce652372.tar.gz";
@@ -21767,8 +21784,8 @@
   /*
   Generated from: github/zk-org/zk-nvim/zk-nvim
   */
-  zk-nvim = buildVimPlugin {
-    pname = "zk-nvim";
+  zk-nvim-zk-org = buildVimPlugin {
+    pname = "zk-nvim-zk-org";
     version = "2026-01-03";
     src = fetchurl {
       url = "https://github.com/zk-org/zk-nvim/archive/d32dde546b88719775a5062d36c4f3129273165e.tar.gz";

@@ -1,4 +1,4 @@
- - Plugin count: 1281
+ - Plugin count: 1282
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -476,6 +476,7 @@
 | [github/slugbyte/lackluster.nvim/lackluster-nvim](https://github.com/slugbyte/lackluster.nvim) | 2025-10-06 | `lackluster-nvim` | 
 | [github/Wansmer/langmapper.nvim/langmapper-nvim](https://github.com/Wansmer/langmapper.nvim) | 2025-05-05 | `langmapper-nvim` | 
 | [github/dasupradyumna/launch.nvim/launch-nvim](https://github.com/dasupradyumna/launch.nvim) | 2024-11-11 | `launch-nvim` | 
+| [codeberg/jthvai/lavender.nvim/lavender-nvim](https://codeberg.org/jthvai/lavender.nvim) | 2024-06-01 | `lavender-nvim` | 
 | [github/debugloop/layers.nvim/layers-nvim](https://github.com/debugloop/layers.nvim) | 2024-12-22 | `layers-nvim` | 
 | [github/folke/lazy.nvim/lazy-nvim](https://github.com/folke/lazy.nvim) | 2025-12-17 | `lazy-nvim` | 
 | [github/folke/lazydev.nvim/lazydev-nvim](https://github.com/folke/lazydev.nvim) | 2025-11-06 | `lazydev-nvim` | 
@@ -878,7 +879,7 @@
 | [github/nyoom-engineering/oxocarbon.nvim/oxocarbon-nvim](https://github.com/nyoom-engineering/oxocarbon.nvim) | 2025-09-05 | `oxocarbon-nvim` | 
 | [github/vuki656/package-info.nvim/package-info-nvim](https://github.com/vuki656/package-info.nvim) | 2025-12-27 | `package-info-nvim` | 
 | [github/wbthomason/packer.nvim/packer-nvim](https://github.com/wbthomason/packer.nvim) | 2023-08-24 | `packer-nvim` | 
-| [github/rktjmp/pact.nvim/pact-nvim](https://github.com/rktjmp/pact.nvim) | 2023-02-03 | `pact-nvim` |
+| [github/rktjmp/pact.nvim/pact-nvim](https://github.com/rktjmp/pact.nvim) | 2023-02-03 | `pact-nvim` | 
 | [github/potamides/painless-digraph/painless-digraph](https://github.com/potamides/painless-digraph) | 2021-10-06 | `painless-digraph` | 
 | [github/alexmozaidze/palenight.nvim/palenight-nvim](https://github.com/alexmozaidze/palenight.nvim) | 2026-01-06 | `palenight-nvim` | 
 | [github/roobert/palette.nvim/palette-nvim](https://github.com/roobert/palette.nvim) | 2023-10-02 | `palette-nvim` | 
