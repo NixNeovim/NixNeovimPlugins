@@ -1842,6 +1842,8 @@
 - owner: pontusk
   repo: cmp-vimwiki-tags
 - owner: potamides
+  repo: painless-digraph
+- owner: potamides
   repo: pantran.nvim
 - owner: preservim
   repo: nerdcommenter
