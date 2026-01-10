@@ -1781,9 +1781,9 @@
   repo: nvim-mdlink
 - owner: neko-night
   repo: nvim
+  name: neko-night
 - owner: neko-night
   repo: nvim
-  name: neko-night
 - owner: nekonako
   repo: xresources-nvim
 - owner: neo451
