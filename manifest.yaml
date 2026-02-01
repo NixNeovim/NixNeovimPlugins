@@ -1,3 +1,6 @@
+- owner: andyg
+  repo: leap.nvim
+  repository_host: codeberg
 - owner: 00sapo
   repo: visual.nvim
 - owner: 0styx0
