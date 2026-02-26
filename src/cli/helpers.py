@@ -60,8 +60,10 @@ def write_blocklist_yaml_from_spec(specs: list[PluginSpec]):
     #  return sorted(specs)
 
 def write_plugins_nix(plugins: list[VimPlugin]):
-    logger.info("pretest")
+    logger.info("presort")
+    breakpoint()
     plugins.sort()
+    logger.info("post")
 
     header = "{ lib, buildVimPlugin, fetchurl, fetchgit }: {"
     footer = "}"
@@ -69,7 +71,6 @@ def write_plugins_nix(plugins: list[VimPlugin]):
     with open(PKGS_FILE, "w") as file:
         file.write(header)
         for plugin in plugins:
-            print(f"plugin: {plugin}")
             try:
                 file.write(f"{plugin.to_nix()}\n")
             except Exception as e:
