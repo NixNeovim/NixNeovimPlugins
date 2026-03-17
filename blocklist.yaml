@@ -108,3 +108,5 @@
 - owner: yorickpeterse
   repo: nvim-window
   repository_host: gitlab
+- owner: Isrothy
+  repo: neominimap.nvim
