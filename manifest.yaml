@@ -1,6 +1,3 @@
-- owner: andyg
-  repo: leap.nvim
-  repository_host: codeberg
 - owner: 00sapo
   repo: visual.nvim
 - owner: 0styx0
@@ -178,6 +175,9 @@
   repo: textobj-diagnostic.nvim
 - owner: andweeb
   repo: presence.nvim
+- owner: andyg
+  repo: leap.nvim
+  repository_host: codeberg
 - owner: andymass
   repo: vim-matchup
 - owner: andythigpen
@@ -1078,6 +1078,8 @@
   repo: modus-theme-vim
 - owner: ishan9299
   repo: nvim-solarized-lua
+- owner: Isrothy
+  repo: neominimap.nvim
 - owner: itchyny
   repo: lightline.vim
 - owner: itsfernn
@@ -1786,9 +1788,9 @@
   repo: nvim-mdlink
 - owner: neko-night
   repo: nvim
+  name: neko-night
 - owner: neko-night
   repo: nvim
-  name: neko-night
 - owner: nekonako
   repo: xresources-nvim
 - owner: neo451
