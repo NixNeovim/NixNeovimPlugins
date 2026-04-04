@@ -1,4 +1,4 @@
- - Plugin count: 1509
+ - Plugin count: 1510
 
 | Repo | Last Update | Nix package name | warnings | 
 |:---|:---|:---|:---|
@@ -744,6 +744,7 @@
 | [neogen (danymat)](https://github.com/danymat/neogen) | 2026-01-10 | `neogen-danymat` | 
 | [neogit (NeogitOrg)](https://github.com/NeogitOrg/neogit) | 2026-03-30 | `neogit-NeogitOrg` | 
 | [neoline-vim (adelarsq)](https://github.com/adelarsq/neoline.vim) | 2024-04-25 | `neoline-vim-adelarsq` | 
+| [neominimap-nvim (Isrothy)](https://github.com/Isrothy/neominimap.nvim) | 2026-02-21 | `neominimap-nvim-Isrothy` | 
 | [neomongo-nvim (tashikomaaa)](https://github.com/tashikomaaa/neomongo.nvim) | 2025-11-03 | `neomongo-nvim-tashikomaaa` | 
 | [neomux (nikvdp)](https://github.com/nikvdp/neomux) | 2026-03-17 | `neomux-nikvdp` | 
 | [neon (rafamadriz)](https://github.com/rafamadriz/neon) | 2022-11-27 | `neon-rafamadriz` | 

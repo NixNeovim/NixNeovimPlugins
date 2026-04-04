@@ -12619,6 +12619,23 @@
   };
 
   /*
+  Generated from: github/Isrothy/neominimap.nvim/neominimap-nvim
+  */
+  neominimap-nvim-Isrothy = buildVimPlugin {
+    pname = "neominimap-nvim-Isrothy";
+    version = "2026-02-21";
+    src = fetchurl {
+      url = "https://github.com/Isrothy/neominimap.nvim/archive/6a9d8b0d2f2c0d9d7853b377fa225990cb24837a.tar.gz";
+      sha256 = "09klb7c99lcazs7zczq9cprafbcni6a588gv7m4ka6jq7a9fblwh";
+    };
+    meta = with lib; {
+      description = "An extensible and performant Neovim minimap plugin that helps you visualize code structure, diagnostics, git changes, and more at a glance.";
+      homepage = "https://github.com/Isrothy/neominimap.nvim";
+      license = with licenses; [mit];
+    };
+  };
+
+  /*
   Generated from: github/tashikomaaa/neomongo.nvim/neomongo-nvim
   */
   neomongo-nvim-tashikomaaa = buildVimPlugin {
