@@ -88,4 +88,4 @@ The GitHub Actions will do the rest, including removing the entry from manifest.
 
 ## Credits
 
-This is originally based on work by [m15a](https://github.com/m15a/nixpkgs-vim-extra-plugins)
+This was originally based on work by [m15a](https://github.com/m15a/nixpkgs-vim-extra-plugins)

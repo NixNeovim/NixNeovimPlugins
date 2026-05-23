@@ -4,17 +4,15 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     flake-utils.url = "github:numtide/flake-utils";
-    poetry2nix = {
-      url = "github:nix-community/poetry2nix";
+    pyproject-nix = {
+      url = "github:nix-community/pyproject.nix";
       inputs.nixpkgs.follows = "nixpkgs";
-      inputs.flake-utils.follows = "flake-utils";
     };
   };
 
-  outputs = { self, nixpkgs, flake-utils, poetry2nix, ... }:
+  outputs = { self, nixpkgs, flake-utils, pyproject-nix }:
     let
       inherit (flake-utils.lib)
-        filterPackages
         eachSystem
         mkApp;
 
@@ -29,79 +27,48 @@
           overlays = [ self.overlays.default ];
         };
 
-        inherit (pkgs)
-          callPackage
-          runCommandNoCC;
+        python = pkgs.python313;
 
-        inherit (pkgs.lib)
-          mapAttrsToList;
+        project = pyproject-nix.lib.project.loadPyproject {
+          projectRoot = ./.;
+        };
 
-        inherit (poetry2nix.legacyPackages.${system})
-          mkPoetryApplication;
+        cli = project.renderers.buildPythonPackage {
+          inherit python;
+        };
 
-        update-vim-plugins = callPackage ./pkgs/update-vim-plugins.nix { inherit mkPoetryApplication; };
+      in {
 
-        # cheks if a plugin has a license
-        hasLicense = pkg:
-          let
+        packages = {
+          default = python.pkgs.buildPythonPackage cli;
+          cli = python.pkgs.buildPythonPackage cli;
+        };
 
-            warn = x: nixpkgs.lib.warn x x;
-
-            msg =
-              if builtins.hasAttr "license" pkg.meta then
-                "${pkg.name} has license"
-              else
-                warn "${pkg.name} has no license";
-
-            msg' = nixpkgs.lib.replaceStrings [" "] ["-"] msg;
-
-          in runCommandNoCC msg' {} "echo : > $out ";
-
-        # function to check lisece for all packages
-        check-missing-licenses =
-          let
-            buildInputs =
-              mapAttrsToList
-                (_: pkg: hasLicense pkg)
-                self.packages.${system};
-          in runCommandNoCC
-              "check-missing-licenses"
-              { inherit buildInputs; }
-              "echo : > $out";
-
-  in {
-    packages = filterPackages system pkgs.vimExtraPlugins;
-
-    apps = {
-      update-vim-plugins = mkApp {
-        drv = update-vim-plugins;
+        devShells = {
+          default = pkgs.mkShell {
+            packages = with pkgs; [
+              uv
+              alejandra
+            ];
+          };
+          # default = pkgs.mkShell {
+          #   inherit (update-vim-plugins) buildInputs;
+          # };
+          # pythonEnv = pkgs.mkShell {
+          #   name = "Python Env";
+          #   packages = with pkgs; let
+          #     python-with-packages = pkgs.python3.withPackages (p: with p; [
+          #       cleo
+          #       requests
+          #       jsonpickle
+          #     ]);
+          #   in [
+          #     python-with-packages
+          #     alejandra
+          #   ];
+          # };
+        };
+      }) // {
+        overlays.default = import ./overlay.nix;
       };
-    };
-
-    checks = self.packages.${system} // {
-      inherit check-missing-licenses;
-      inherit update-vim-plugins;
-    };
-
-    devShells = {
-      default = pkgs.mkShell {
-        inherit (update-vim-plugins) buildInputs;
-      };
-      pythonEnv = pkgs.mkShell {
-        name = "Python Env";
-        packages = with pkgs; let
-          python-with-packages = pkgs.python3.withPackages (p: with p; [
-            cleo
-            requests
-            jsonpickle
-          ]);
-        in [
-          python-with-packages
-          alejandra
-        ];
-      };
-    };
-  }) // {
-    overlays.default = import ./overlay.nix;
-  };
 }
