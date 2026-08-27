@@ -158,6 +158,8 @@
   name: nordic-alexczyl
 - owner: aliou
   repo: bats.vim
+- owner: al-kot
+  repo: typst-preview.nvim
 - owner: AllenDang
   repo: nvim-expand-expr
 - owner: altermo
