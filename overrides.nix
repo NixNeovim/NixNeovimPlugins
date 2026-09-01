@@ -2,6 +2,7 @@ final: prev:
 
 let
   inherit (final) lib;
+  inherit (final.pkgs) fetchFromGitHub rustPlatform;
 
   /*
    * Mark broken packages here.
@@ -79,6 +80,31 @@ let
 
     vim-textobj-parameter = [ mit ];
   });
+
+  /*
+   * Add build step overrides here.
+   */
+  buildOverrides = self: super: {
+    moveline-nvim = super.moveline-nvim.overrideAttrs (old: {
+      preInstall = let
+        src = fetchFromGitHub {
+          owner = "redxtech";
+          repo = "moveline.nvim";
+          rev = "9f67f4b9e752a87eea8205f0279f261a16c733d8";
+          hash = "sha256-B4t5+Q4Urx5bGm8glNpYkHhpp/rAhz+lDd2EpWFUYoY=";
+        };
+        moveline-lib = rustPlatform.buildRustPackage {
+          inherit src;
+          inherit (old) version;
+          pname = "moveline-lib";
+          cargoHash = "sha256-mA17kKigR5CaZoFY/Do7kJmQCxU8+JJY0uB6FvSM+7I=";
+        };
+      in ''
+        mkdir -p lua
+        ln -s ${moveline-lib}/lib/libmoveline.so lua/moveline.so
+			'';
+    });
+  };
 
   # /*
   #  * Add dependencies to vim plugins if missing or incorrect in generated ./pkgs/vim-plugins.nix.
@@ -240,7 +266,8 @@ in
   vimExtraPlugins = prev.vimExtraPlugins.extend (lib.composeManyExtensions [
     markBrokenPackages
     fixLicenses
-    fixDependencies
+    buildOverrides
+    # fixDependencies
     # onceHereButNowOfficiallyMaintainedPlugins
     otherOverrides
   ]);
