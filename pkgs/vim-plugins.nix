@@ -128,10 +128,10 @@
   */
   activate-nvim-roobert = buildVimPlugin {
     pname = "activate-nvim-roobert";
-    version = "2026-08-29";
+    version = "2026-09-02";
     src = fetchurl {
-      url = "https://github.com/roobert/activate.nvim/archive/8a0c6d8ca9f151b91a10b25b8138633105d20b11.tar.gz";
-      sha256 = "1wgiilajxwmk3m82gfkjhgswn84pcpmkc88kn3bb30xf6yw4iszk";
+      url = "https://github.com/roobert/activate.nvim/archive/952c8d574b2b8f49d9ed4f99486708640088e50c.tar.gz";
+      sha256 = "10a7armdbz5aqk3v994kh9snmx5nwp34a5gf8nk722mh2ycnhchd";
     };
     meta = with lib; {
       description = "🚀 Activate is a plugin installation system for Neovim";
@@ -587,10 +587,10 @@
   */
   astrocore-AstroNvim = buildVimPlugin {
     pname = "astrocore-AstroNvim";
-    version = "2026-08-20";
+    version = "2026-09-03";
     src = fetchurl {
-      url = "https://github.com/AstroNvim/astrocore/archive/dfab87678145bdbcbed7759605875ed1a859855f.tar.gz";
-      sha256 = "1s1zv9vpwizb6kd9axkwccqk8b179a6jcxwwms49ni2kmjdrsrsj";
+      url = "https://github.com/AstroNvim/astrocore/archive/9d0e1bda8ca910a2ee40f1061d7ad29adc67a678.tar.gz";
+      sha256 = "1206dfrdxnhzg82p35b0bc64iy8c8axzj7zjsrb2ryrqwah8zgjl";
     };
     meta = with lib; {
       description = "Core AstroNvim configuration engine";
@@ -604,10 +604,10 @@
   */
   astrolsp-AstroNvim = buildVimPlugin {
     pname = "astrolsp-AstroNvim";
-    version = "2026-08-06";
+    version = "2026-09-03";
     src = fetchurl {
-      url = "https://github.com/AstroNvim/astrolsp/archive/d3826b14d4ca5677121aa55ee39c75998c2ebda6.tar.gz";
-      sha256 = "1mi1vmfi8cwjkv1arcvbf2g10xdfx1fb7i1dqgv4ilhlydsvqf47";
+      url = "https://github.com/AstroNvim/astrolsp/archive/093ffd8c995802b8952e03bedafc01696195f2f6.tar.gz";
+      sha256 = "0lq4xamb83y9dwy32gh2hk88s4vdbjhqd1yrjvzj6hlqmngv67i6";
     };
     meta = with lib; {
       description = "LSP Configuration Engine built for AstroNvim";
@@ -961,10 +961,10 @@
   */
   babel-nvim-acidsugarx = buildVimPlugin {
     pname = "babel-nvim-acidsugarx";
-    version = "2026-08-24";
+    version = "2026-09-03";
     src = fetchurl {
-      url = "https://github.com/acidsugarx/babel.nvim/archive/946406a306c97272df62d7665989b0efb960d5cb.tar.gz";
-      sha256 = "0yfnz11xlqdx1pbkjmq223l1wrd452c36qx0pdd2hib4cqy2g910";
+      url = "https://github.com/acidsugarx/babel.nvim/archive/6c06b7dcc94d1940ea92a19af127e0f931452ee0.tar.gz";
+      sha256 = "0g9cxyzb53knx009kmq0dplmp5cab10nbl8pl73bq5g9ndhgkakf";
     };
     meta = with lib; {
       description = "🌍 Translate text without leaving Neovim";
@@ -1335,10 +1335,10 @@
   */
   blink-cmp-saghen = buildVimPlugin {
     pname = "blink-cmp-saghen";
-    version = "2026-08-25";
+    version = "2026-09-02";
     src = fetchurl {
-      url = "https://github.com/saghen/blink.cmp/archive/101d71861f6a012f2be80e4100720874330d86aa.tar.gz";
-      sha256 = "0zx3gwxcjmlkxcxmhka3k1w3hswbsjlvrq0ic13s2774siwf4d1j";
+      url = "https://github.com/saghen/blink.cmp/archive/2befba190e0ffa3692ab364f75604c9c2d248adf.tar.gz";
+      sha256 = "0s1qrhp4v7r7g1k69cgbnmxmrm4alim1cli9bpcvsm8z11k7rm15";
     };
     meta = with lib; {
       description = "Performant, batteries-included completion plugin for Neovim ";
@@ -1369,10 +1369,10 @@
   */
   blink-cmp-bibtex-krissen = buildVimPlugin {
     pname = "blink-cmp-bibtex-krissen";
-    version = "2026-08-18";
+    version = "2026-08-31";
     src = fetchurl {
-      url = "https://github.com/krissen/blink-cmp-bibtex/archive/a993ee7498c9a0bc9d1f426767fa7e536aba1eca.tar.gz";
-      sha256 = "1cxzad92g3diykzjk04difc58iqqnig19yam1l0wkpgpaxx1c5b3";
+      url = "https://github.com/krissen/blink-cmp-bibtex/archive/c4b6940190d6672070ad2d31d7d892db70698d3f.tar.gz";
+      sha256 = "1b3jr26446w5r7cs70pnnhqa42b6159im93qjhm4xfmxfkxkggkd";
     };
     meta = with lib; {
       description = "A lightweight BibTeX citation source for Blink completion.";
@@ -1573,10 +1573,10 @@
   */
   blink-ripgrep-nvim-mikavilpas = buildVimPlugin {
     pname = "blink-ripgrep-nvim-mikavilpas";
-    version = "2026-08-28";
+    version = "2026-09-03";
     src = fetchurl {
-      url = "https://github.com/mikavilpas/blink-ripgrep.nvim/archive/14cddeb244d00b7ca620183c77d418b1c90df510.tar.gz";
-      sha256 = "0k910bldqlblzxrgbb1ix0l9q4i7z0n2y1nmif7s274fx3hya30y";
+      url = "https://github.com/mikavilpas/blink-ripgrep.nvim/archive/c5a23c4388c945374bf37c5e68f6604062aa0696.tar.gz";
+      sha256 = "0jghhgf7jq4zr0770qpvmkqqx3463iyg6ccr5l9gjgqwdfk7mf2c";
     };
     meta = with lib; {
       description = "Ripgrep/gitgrep source for the blink.cmp Neovim completion plugin";
@@ -1607,10 +1607,10 @@
   */
   bluloco-nvim-uloco = buildVimPlugin {
     pname = "bluloco-nvim-uloco";
-    version = "2026-08-29";
+    version = "2026-08-30";
     src = fetchurl {
-      url = "https://github.com/uloco/bluloco.nvim/archive/46dad960b5d73e51870fe169f8c44754d266fe07.tar.gz";
-      sha256 = "0fnbmv5c5xr3l067m9ykhdw76qhbs7yrb9zsyb19xfc40v8gaxhi";
+      url = "https://github.com/uloco/bluloco.nvim/archive/294aa5ac5e639f36ab5db9729ac7583c37d896dc.tar.gz";
+      sha256 = "1m68jxg0f4yinl1ibmyvczf88dpw7cisqm3f0hyp63z2cpzyj5fm";
     };
     meta = with lib; {
       description = "bluloco theme for neovim";
@@ -1722,13 +1722,13 @@
   };
 
   /*
-  Generated from: github/Kenzo-Wada/boundary.nvim/boundary-nvim
+  Generated from: github/kenzo-pj/boundary.nvim/boundary-nvim
   */
-  boundary-nvim-Kenzo-Wada = buildVimPlugin {
-    pname = "boundary-nvim-Kenzo-Wada";
+  boundary-nvim-kenzo-pj = buildVimPlugin {
+    pname = "boundary-nvim-kenzo-pj";
     version = "2025-10-25";
     src = fetchurl {
-      url = "https://github.com/Kenzo-Wada/boundary.nvim/archive/365d972bf864244e4aeab4798362d8e77cfd8748.tar.gz";
+      url = "https://github.com/kenzo-pj/boundary.nvim/archive/365d972bf864244e4aeab4798362d8e77cfd8748.tar.gz";
       sha256 = "1aaffvhviryinjl53nw519zrxrlanav4nkfq0klb4810yfdgg0m9";
     };
     meta = with lib; {
@@ -1739,13 +1739,13 @@
   };
 
   /*
-  Generated from: github/kenzo-pj/boundary.nvim/boundary-nvim
+  Generated from: github/Kenzo-Wada/boundary.nvim/boundary-nvim
   */
-  boundary-nvim-kenzo-pj = buildVimPlugin {
-    pname = "boundary-nvim-kenzo-pj";
+  boundary-nvim-Kenzo-Wada = buildVimPlugin {
+    pname = "boundary-nvim-Kenzo-Wada";
     version = "2025-10-25";
     src = fetchurl {
-      url = "https://github.com/kenzo-pj/boundary.nvim/archive/365d972bf864244e4aeab4798362d8e77cfd8748.tar.gz";
+      url = "https://github.com/Kenzo-Wada/boundary.nvim/archive/365d972bf864244e4aeab4798362d8e77cfd8748.tar.gz";
       sha256 = "1aaffvhviryinjl53nw519zrxrlanav4nkfq0klb4810yfdgg0m9";
     };
     meta = with lib; {
@@ -2423,10 +2423,10 @@
   */
   chat-nvim-wsdjeg = buildVimPlugin {
     pname = "chat-nvim-wsdjeg";
-    version = "2026-08-17";
+    version = "2026-09-02";
     src = fetchurl {
-      url = "https://github.com/wsdjeg/chat.nvim/archive/c27aa29be5152a2204d137bc20824ff9727d8186.tar.gz";
-      sha256 = "04zp6pm225mr86s3pz1rqbb03ylm2kxszad0fnwwjiq2m7mny32s";
+      url = "https://github.com/wsdjeg/chat.nvim/archive/ada483a124153928b95a03ee57c7b9924c85a7aa.tar.gz";
+      sha256 = "140r33gswi7s92ccjwz35gyssc37iw5wh8xr7873ykxpy03p8ays";
     };
     meta = with lib; {
       description = "A lightweight Lua chat plugin for Neovim with AI integration.";
@@ -2448,23 +2448,6 @@
     meta = with lib; {
       description = "ChatGPT Neovim Plugin: Effortless Natural Language Generation with OpenAI's ChatGPT API";
       homepage = "https://github.com/jackMort/ChatGPT.nvim";
-      license = with licenses; [];
-    };
-  };
-
-  /*
-  Generated from: github/astrohackerlabs/chatvim.nvim/chatvim-nvim
-  */
-  chatvim-nvim-astrohackerlabs = buildVimPlugin {
-    pname = "chatvim-nvim-astrohackerlabs";
-    version = "2025-10-02";
-    src = fetchurl {
-      url = "https://github.com/astrohackerlabs/chatvim.nvim/archive/342ae81de075ae7fdce37d93fb20459f0c61375a.tar.gz";
-      sha256 = "1z3jvfan9jfdnypky8mr7i7wylipibmr8b0i39xngfxwmwqi81qj";
-    };
-    meta = with lib; {
-      description = "AI chat with markdown files in Neovim.";
-      homepage = "https://github.com/astrohackerlabs/chatvim.nvim";
       license = with licenses; [];
     };
   };
@@ -2504,6 +2487,23 @@
   };
 
   /*
+  Generated from: github/astrohackerlabs/chatvim.nvim/chatvim-nvim
+  */
+  chatvim-nvim-astrohackerlabs = buildVimPlugin {
+    pname = "chatvim-nvim-astrohackerlabs";
+    version = "2025-10-02";
+    src = fetchurl {
+      url = "https://github.com/astrohackerlabs/chatvim.nvim/archive/342ae81de075ae7fdce37d93fb20459f0c61375a.tar.gz";
+      sha256 = "1z3jvfan9jfdnypky8mr7i7wylipibmr8b0i39xngfxwmwqi81qj";
+    };
+    meta = with lib; {
+      description = "AI chat with markdown files in Neovim.";
+      homepage = "https://github.com/astrohackerlabs/chatvim.nvim";
+      license = with licenses; [];
+    };
+  };
+
+  /*
   Generated from: github/doctorfree/cheatsheet.nvim/cheatsheet-nvim
   */
   cheatsheet-nvim-doctorfree = buildVimPlugin {
@@ -2521,13 +2521,13 @@
   };
 
   /*
-  Generated from: github/indium114/cheaty.nvim/cheaty-nvim
+  Generated from: github/stikypiston/cheaty.nvim/cheaty-nvim
   */
-  cheaty-nvim-indium114 = buildVimPlugin {
-    pname = "cheaty-nvim-indium114";
+  cheaty-nvim-stikypiston = buildVimPlugin {
+    pname = "cheaty-nvim-stikypiston";
     version = "2026-03-27";
     src = fetchurl {
-      url = "https://github.com/indium114/cheaty.nvim/archive/8afb781023f964cf568fce1476218040e5fd689a.tar.gz";
+      url = "https://github.com/stikypiston/cheaty.nvim/archive/8afb781023f964cf568fce1476218040e5fd689a.tar.gz";
       sha256 = "1gdrnz8j803vbfdl8gv4xci64249fz17pl3v96l5lcwvz5azj641";
     };
     meta = with lib; {
@@ -2538,13 +2538,13 @@
   };
 
   /*
-  Generated from: github/stikypiston/cheaty.nvim/cheaty-nvim
+  Generated from: github/indium114/cheaty.nvim/cheaty-nvim
   */
-  cheaty-nvim-stikypiston = buildVimPlugin {
-    pname = "cheaty-nvim-stikypiston";
+  cheaty-nvim-indium114 = buildVimPlugin {
+    pname = "cheaty-nvim-indium114";
     version = "2026-03-27";
     src = fetchurl {
-      url = "https://github.com/stikypiston/cheaty.nvim/archive/8afb781023f964cf568fce1476218040e5fd689a.tar.gz";
+      url = "https://github.com/indium114/cheaty.nvim/archive/8afb781023f964cf568fce1476218040e5fd689a.tar.gz";
       sha256 = "1gdrnz8j803vbfdl8gv4xci64249fz17pl3v96l5lcwvz5azj641";
     };
     meta = with lib; {
@@ -2780,10 +2780,10 @@
   */
   cmake-tools-nvim-Civitasv = buildVimPlugin {
     pname = "cmake-tools-nvim-Civitasv";
-    version = "2026-06-19";
+    version = "2026-08-31";
     src = fetchurl {
-      url = "https://github.com/Civitasv/cmake-tools.nvim/archive/22859d754b5de738cfe9945e0910729f63deefd0.tar.gz";
-      sha256 = "1xhdjgnhnq9gkcb67wqq09xayfqdzswcvhsl1qzw3r24qxmws8j3";
+      url = "https://github.com/Civitasv/cmake-tools.nvim/archive/ee807ac4e62591720de2f6ad0abbfb966c4c7b97.tar.gz";
+      sha256 = "057iv97rnd15a2k2lh2gwdmf9iqnql08ikmw571vzl7n3r0gl5z0";
     };
     meta = with lib; {
       description = "CMake integration in Neovim";
@@ -3745,23 +3745,6 @@
   };
 
   /*
-  Generated from: github/wsdjeg/code-runner.nvim/code-runner-nvim
-  */
-  code-runner-nvim-wsdjeg = buildVimPlugin {
-    pname = "code-runner-nvim-wsdjeg";
-    version = "2026-07-17";
-    src = fetchurl {
-      url = "https://github.com/wsdjeg/code-runner.nvim/archive/d1910bac0d4ed7db6b3ccad2c9ade022b6bb7220.tar.gz";
-      sha256 = "1xvk0a9jl6zp9wppl4p5bb2kyplkbigzlwhkck6a95d8g0541wzf";
-    };
-    meta = with lib; {
-      description = "Async Code Runner for Neovim";
-      homepage = "https://github.com/wsdjeg/code-runner.nvim";
-      license = with licenses; [gpl3Only];
-    };
-  };
-
-  /*
   Generated from: github/CRAG666/code_runner.nvim/code-runner-nvim
   */
   code-runner-nvim-CRAG666 = buildVimPlugin {
@@ -3775,6 +3758,23 @@
       description = "Neovim plugin.The best code runner you could have, it is like the one in vscode but with super powers, it manages projects like in intellij but without being slow";
       homepage = "https://github.com/CRAG666/code_runner.nvim";
       license = with licenses; [mit];
+    };
+  };
+
+  /*
+  Generated from: github/wsdjeg/code-runner.nvim/code-runner-nvim
+  */
+  code-runner-nvim-wsdjeg = buildVimPlugin {
+    pname = "code-runner-nvim-wsdjeg";
+    version = "2026-07-17";
+    src = fetchurl {
+      url = "https://github.com/wsdjeg/code-runner.nvim/archive/d1910bac0d4ed7db6b3ccad2c9ade022b6bb7220.tar.gz";
+      sha256 = "1xvk0a9jl6zp9wppl4p5bb2kyplkbigzlwhkck6a95d8g0541wzf";
+    };
+    meta = with lib; {
+      description = "Async Code Runner for Neovim";
+      homepage = "https://github.com/wsdjeg/code-runner.nvim";
+      license = with licenses; [gpl3Only];
     };
   };
 
@@ -3800,10 +3800,10 @@
   */
   codecompanion-nvim-olimorris = buildVimPlugin {
     pname = "codecompanion-nvim-olimorris";
-    version = "2026-08-29";
+    version = "2026-09-03";
     src = fetchurl {
-      url = "https://github.com/olimorris/codecompanion.nvim/archive/6db36f4a3d9bd10a3ca9ca2a3fd9ca1973acaff2.tar.gz";
-      sha256 = "0vckbgfzfghc0kcix2bk0i67gn3lzqz26r98mb59ivwv6w33vlq0";
+      url = "https://github.com/olimorris/codecompanion.nvim/archive/d4c00c29ffa49a9eda117099916168e32aa12e09.tar.gz";
+      sha256 = "0gc401lxil3z2nzjrnilfjvbnymxzpb8c1amhs0b3z680nd4637d";
     };
     meta = with lib; {
       description = "✨ AI Coding, Vim Style";
@@ -3817,10 +3817,10 @@
   */
   codediff-nvim-esmuellert = buildVimPlugin {
     pname = "codediff-nvim-esmuellert";
-    version = "2026-08-30";
+    version = "2026-09-03";
     src = fetchurl {
-      url = "https://github.com/esmuellert/codediff.nvim/archive/0abad4aa022a34fab0deb90dd9379d5de1c9c329.tar.gz";
-      sha256 = "0aghk518ashmh060494rxj31lj31046pfjx32yqsm0j1n8r3cl1k";
+      url = "https://github.com/esmuellert/codediff.nvim/archive/3454290ecbe08cd43adcd4974eb8b6e07582c15f.tar.gz";
+      sha256 = "1gi5nnp64z77373677c8wsmqly2dd6kllszxh85q6qgzhxvwn11v";
     };
     meta = with lib; {
       description = "VSCode-style diff, merge and git history for Neovim. Side-by-side or inline, with character-level highlighting from VSCode's own diff algorithm in C.";
@@ -3919,10 +3919,10 @@
   */
   codesettings-nvim-mrjones2014 = buildVimPlugin {
     pname = "codesettings-nvim-mrjones2014";
-    version = "2026-08-30";
+    version = "2026-09-03";
     src = fetchurl {
-      url = "https://github.com/mrjones2014/codesettings.nvim/archive/82e0da4185c9972e0d05620f458356f4a40eb34f.tar.gz";
-      sha256 = "08qj4pi9prh2gi4wdcp01ivrjppdl8p75xhss5scvwd3xvgaaqrg";
+      url = "https://github.com/mrjones2014/codesettings.nvim/archive/a484b18d3a397d28798f6bd7efe452165f69bd54.tar.gz";
+      sha256 = "15cq4nfxwi0mivkrr3nkza2qcimag0yzplb1p970z3gs4xnrhq58";
     };
     meta = with lib; {
       description = "⚙️ Load project-local settings (like .vscode/settings.json) into Neovim 0.11+ native LSP settings easily.";
@@ -4021,10 +4021,10 @@
   */
   color-my-ascii-nvim-StefanBartl = buildVimPlugin {
     pname = "color-my-ascii-nvim-StefanBartl";
-    version = "2026-08-30";
+    version = "2026-09-01";
     src = fetchurl {
-      url = "https://github.com/StefanBartl/color_my_ascii.nvim/archive/ddba129594d7133a08597cf69c7d32c70421df27.tar.gz";
-      sha256 = "0b08ckwjk5502ndxj9dgn27p484lqz4wsn3mlhz15lyby7ypbskw";
+      url = "https://github.com/StefanBartl/color_my_ascii.nvim/archive/4c593c697ad579808a3097d978460ed8932fceae.tar.gz";
+      sha256 = "0nrg5245d3ixcff74362akdymd40bkb8xqgfbdpdwysqlykh1iv6";
     };
     meta = with lib; {
       description = "A Neovim plugin for colorful highlighting of ASCII art in Markdown code blocks with automatic language detection, custom highlights, and predefined color schemes.";
@@ -4735,10 +4735,10 @@
   */
   coq-nvim-ms-jpq = buildVimPlugin {
     pname = "coq-nvim-ms-jpq";
-    version = "2026-08-30";
+    version = "2026-09-03";
     src = fetchurl {
-      url = "https://github.com/ms-jpq/coq_nvim/archive/df4eb27b425568cea17f01a25a07cf447066ce81.tar.gz";
-      sha256 = "09p2wmijglvl51c50yvknp23yrvdl84lp63mvgfsdv66qll8k02l";
+      url = "https://github.com/ms-jpq/coq_nvim/archive/7029220aff73f2c63638e2edab980b7e400e1830.tar.gz";
+      sha256 = "0krhg5sbwqiszvdbwdmj0mjzb86d2q5prcz4i702jhyn6qa4vps3";
     };
     meta = with lib; {
       description = "Fast as FUCK nvim completion. SQLite, concurrent scheduler, hundreds of hours of optimization.";
@@ -4871,10 +4871,10 @@
   */
   crates-nvim-Saecki = buildVimPlugin {
     pname = "crates-nvim-Saecki";
-    version = "2026-04-13";
+    version = "2026-09-03";
     src = fetchurl {
-      url = "https://github.com/Saecki/crates.nvim/archive/694357861ec9ebf12475ddcdd04ea45a0923c32d.tar.gz";
-      sha256 = "1i6q18l8klc7psfka1ia5ygnlm7xl20i67ik08cvj7psvmrar3x1";
+      url = "https://github.com/Saecki/crates.nvim/archive/b8281be336498035f9288d6542b2881a7140a9ec.tar.gz";
+      sha256 = "0vl9lbc57c24drq3a6bs2hx73zxpxswqzd581dmmf5g6yjmy22i1";
     };
     meta = with lib; {
       description = "A neovim plugin that helps managing crates.io dependencies";
@@ -5007,10 +5007,10 @@
   */
   csvview-nvim-hat0uma = buildVimPlugin {
     pname = "csvview-nvim-hat0uma";
-    version = "2026-05-02";
+    version = "2026-08-31";
     src = fetchurl {
-      url = "https://github.com/hat0uma/csvview.nvim/archive/5c22774c3ecc7f8883af5d143b366e45b1f0875d.tar.gz";
-      sha256 = "0wz2r2ixq4rw4a2n53lfrx98kc61rq2pqr4kcy3n3ivhlpw079ra";
+      url = "https://github.com/hat0uma/csvview.nvim/archive/2466bdda54047f525d4faca53040fe657c9c33db.tar.gz";
+      sha256 = "0dkl8cgmin4k7lwvlpj0rfw8hsnl3wgqw7j4zxcc7z0q4anyvdwz";
     };
     meta = with lib; {
       description = "A Neovim plugin for CSV file editing.";
@@ -5143,10 +5143,10 @@
   */
   dadbod-grip-nvim-joryeugene = buildVimPlugin {
     pname = "dadbod-grip-nvim-joryeugene";
-    version = "2026-08-30";
+    version = "2026-09-02";
     src = fetchurl {
-      url = "https://github.com/joryeugene/dadbod-grip.nvim/archive/b2eb53ab4ff39536665b535b3ad8c13629c0ada3.tar.gz";
-      sha256 = "0pqi13bf130cgshfb4c2ybkgm3blm8yxqpx994dirlyx1if93gk4";
+      url = "https://github.com/joryeugene/dadbod-grip.nvim/archive/d3b03fc157f90fe18d112578c2453bc5430b9252.tar.gz";
+      sha256 = "1gh3ggi41zrcy9z0az0x3g2i59s9sj4851fimzw593fwfzxvlgbb";
     };
     meta = with lib; {
       description = "Dadbod Grip turns database tables into editable Vim buffers, with schema browsing, staged mutations, generated SQL, relationship navigation, and cross-database federation inside Neovim.";
@@ -5666,23 +5666,6 @@
   };
 
   /*
-  Generated from: github/sindrets/diffview.nvim/diffview-nvim
-  */
-  diffview-nvim-sindrets = buildVimPlugin {
-    pname = "diffview-nvim-sindrets";
-    version = "2024-06-13";
-    src = fetchurl {
-      url = "https://github.com/sindrets/diffview.nvim/archive/4516612fe98ff56ae0415a259ff6361a89419b0a.tar.gz";
-      sha256 = "04hapba6bhbykag8plbai4sz49qx2pqd05dd0lhmh6lkmhj0n9xq";
-    };
-    meta = with lib; {
-      description = "Single tabpage interface for easily cycling through diffs for all modified files for any git rev.";
-      homepage = "https://github.com/sindrets/diffview.nvim";
-      license = with licenses; [];
-    };
-  };
-
-  /*
   Generated from: github/dlyongemallo/diffview.nvim/diffview-nvim
   */
   diffview-nvim-dlyongemallo = buildVimPlugin {
@@ -5695,6 +5678,23 @@
     meta = with lib; {
       description = "Single tabpage interface for easily cycling through diffs for all modified files for any git rev (actively maintained fork).";
       homepage = "https://github.com/dlyongemallo/diffview-plus.nvim";
+      license = with licenses; [];
+    };
+  };
+
+  /*
+  Generated from: github/sindrets/diffview.nvim/diffview-nvim
+  */
+  diffview-nvim-sindrets = buildVimPlugin {
+    pname = "diffview-nvim-sindrets";
+    version = "2024-06-13";
+    src = fetchurl {
+      url = "https://github.com/sindrets/diffview.nvim/archive/4516612fe98ff56ae0415a259ff6361a89419b0a.tar.gz";
+      sha256 = "04hapba6bhbykag8plbai4sz49qx2pqd05dd0lhmh6lkmhj0n9xq";
+    };
+    meta = with lib; {
+      description = "Single tabpage interface for easily cycling through diffs for all modified files for any git rev.";
+      homepage = "https://github.com/sindrets/diffview.nvim";
       license = with licenses; [];
     };
   };
@@ -6193,13 +6193,13 @@
   };
 
   /*
-  Generated from: github/ph1losof/ecolog.nvim/ecolog-nvim
+  Generated from: github/philosofonusus/ecolog.nvim/ecolog-nvim
   */
-  ecolog-nvim-ph1losof = buildVimPlugin {
-    pname = "ecolog-nvim-ph1losof";
+  ecolog-nvim-philosofonusus = buildVimPlugin {
+    pname = "ecolog-nvim-philosofonusus";
     version = "2026-02-02";
     src = fetchurl {
-      url = "https://github.com/ph1losof/ecolog.nvim/archive/558ddee4d7151af6a37cd40c517243b63ba493ce.tar.gz";
+      url = "https://github.com/philosofonusus/ecolog.nvim/archive/558ddee4d7151af6a37cd40c517243b63ba493ce.tar.gz";
       sha256 = "1lix08fs8q2sx0c9lpgidxxqvzkvr7cp9qh7r4idl87xcqrnj92l";
     };
     meta = with lib; {
@@ -6210,13 +6210,13 @@
   };
 
   /*
-  Generated from: github/philosofonusus/ecolog.nvim/ecolog-nvim
+  Generated from: github/ph1losof/ecolog.nvim/ecolog-nvim
   */
-  ecolog-nvim-philosofonusus = buildVimPlugin {
-    pname = "ecolog-nvim-philosofonusus";
+  ecolog-nvim-ph1losof = buildVimPlugin {
+    pname = "ecolog-nvim-ph1losof";
     version = "2026-02-02";
     src = fetchurl {
-      url = "https://github.com/philosofonusus/ecolog.nvim/archive/558ddee4d7151af6a37cd40c517243b63ba493ce.tar.gz";
+      url = "https://github.com/ph1losof/ecolog.nvim/archive/558ddee4d7151af6a37cd40c517243b63ba493ce.tar.gz";
       sha256 = "1lix08fs8q2sx0c9lpgidxxqvzkvr7cp9qh7r4idl87xcqrnj92l";
     };
     meta = with lib; {
@@ -6299,10 +6299,10 @@
   */
   efmls-configs-nvim-creativenull = buildVimPlugin {
     pname = "efmls-configs-nvim-creativenull";
-    version = "2026-08-11";
+    version = "2026-09-01";
     src = fetchurl {
-      url = "https://github.com/creativenull/efmls-configs-nvim/archive/678debafc5866958d815438c7d8ec014e22f8d94.tar.gz";
-      sha256 = "1aj6lk2qhfkijrgsdm9x4gbzc6s7vx3aaczjbk4c4s8v11zwcz7h";
+      url = "https://github.com/creativenull/efmls-configs-nvim/archive/f145a2e8212a195d44c1430e76cbc96efb0afb08.tar.gz";
+      sha256 = "00dwwp6qqi98mxsgha17nzxfql2020w989jiyx8f4xdhb2hbb131";
     };
     meta = with lib; {
       description = "An unofficial collection of linters and formatters configured for efm-langserver for neovim.";
@@ -6452,10 +6452,10 @@
   */
   evergarden-comfysage = buildVimPlugin {
     pname = "evergarden-comfysage";
-    version = "2026-05-30";
+    version = "2026-09-01";
     src = fetchurl {
-      url = "https://github.com/comfysage/evergarden/archive/6a47a90e5caf1b21e54ff7967017c255bab80fdd.tar.gz";
-      sha256 = "1g11j6d5q8nslxblknlwx0rbqidq76b5dz0x2n5iz51kkbfddgfz";
+      url = "https://github.com/comfysage/evergarden/archive/c8e5e7e67a36694e5d917b7065b26b59b8cb489f.tar.gz";
+      sha256 = "09w140kbwpjac094f468ijx1g1p9vxac0p2avclg9mfzkxjinm7f";
     };
     meta = with lib; {
       description = ":rose: a comfy neovim colorscheme for cozy morning coding.";
@@ -6469,10 +6469,10 @@
   */
   everviolet-everviolet = buildVimPlugin {
     pname = "everviolet-everviolet";
-    version = "2026-05-30";
+    version = "2026-09-01";
     src = fetchurl {
-      url = "https://github.com/everviolet/nvim/archive/6a47a90e5caf1b21e54ff7967017c255bab80fdd.tar.gz";
-      sha256 = "1g11j6d5q8nslxblknlwx0rbqidq76b5dz0x2n5iz51kkbfddgfz";
+      url = "https://github.com/everviolet/nvim/archive/c8e5e7e67a36694e5d917b7065b26b59b8cb489f.tar.gz";
+      sha256 = "09w140kbwpjac094f468ijx1g1p9vxac0p2avclg9mfzkxjinm7f";
     };
     meta = with lib; {
       description = ":rose: a comfy neovim colorscheme for cozy morning coding.";
@@ -6724,10 +6724,10 @@
   */
   fff-nvim-dmtrKovalenko = buildVimPlugin {
     pname = "fff-nvim-dmtrKovalenko";
-    version = "2026-08-30";
+    version = "2026-09-01";
     src = fetchurl {
-      url = "https://github.com/dmtrKovalenko/fff.nvim/archive/f3647b79de052c9e3fb0f4edc19911e6e25024c3.tar.gz";
-      sha256 = "0xvzlxq9spjzv40dw366pyr8adxad3kg9823xlj07s09glncbcn2";
+      url = "https://github.com/dmtrKovalenko/fff.nvim/archive/d84c0a10cd5ea23285cb5575fa90179f51710f99.tar.gz";
+      sha256 = "1srqpyb88i6hrm7s448m322mr29pwy80z222pazxp8hvqj3892rv";
     };
     meta = with lib; {
       description = "The fastest and the most accurate file search SDK for AI agents, Neovim, Rust, C,  Python, Bun and NodeJS";
@@ -6741,10 +6741,10 @@
   */
   fidget-nvim-j-hui = buildVimPlugin {
     pname = "fidget-nvim-j-hui";
-    version = "2026-06-21";
+    version = "2026-09-03";
     src = fetchurl {
-      url = "https://github.com/j-hui/fidget.nvim/archive/6f793b2bcd2d35e201c09520f698bb763220908a.tar.gz";
-      sha256 = "09fpj1bbbg5an751qkzic49nfarkzcn20kn1429xy8giiv6gwrw3";
+      url = "https://github.com/j-hui/fidget.nvim/archive/9e0201673e08e997e7cf52afca5565c70bd117f3.tar.gz";
+      sha256 = "1fqd8vikmxfq8p6y6jinpf8ixm6mhyi61y5y965i6f8dmmnvdfsb";
     };
     meta = with lib; {
       description = "💫  Extensible UI for Neovim notifications and LSP progress messages.";
@@ -6822,13 +6822,13 @@
   };
 
   /*
-  Generated from: github/the-mayankjha/Fknotes.nvim/Fknotes-nvim
+  Generated from: github/flashcodes-themayankjha/Fknotes.nvim/Fknotes-nvim
   */
-  Fknotes-nvim-the-mayankjha = buildVimPlugin {
-    pname = "Fknotes-nvim-the-mayankjha";
+  Fknotes-nvim-flashcodes-themayankjha = buildVimPlugin {
+    pname = "Fknotes-nvim-flashcodes-themayankjha";
     version = "2025-10-16";
     src = fetchurl {
-      url = "https://github.com/the-mayankjha/Fknotes.nvim/archive/83c1b79df216461f89bbf2d274b12116a83b6a3c.tar.gz";
+      url = "https://github.com/flashcodes-themayankjha/Fknotes.nvim/archive/83c1b79df216461f89bbf2d274b12116a83b6a3c.tar.gz";
       sha256 = "1d4nc44rfnvgbx0ff2cfd7r02g3jk5ca72p76794whiv6b4kwd62";
     };
     meta = with lib; {
@@ -6839,13 +6839,13 @@
   };
 
   /*
-  Generated from: github/flashcodes-themayankjha/Fknotes.nvim/Fknotes-nvim
+  Generated from: github/the-mayankjha/Fknotes.nvim/Fknotes-nvim
   */
-  Fknotes-nvim-flashcodes-themayankjha = buildVimPlugin {
-    pname = "Fknotes-nvim-flashcodes-themayankjha";
+  Fknotes-nvim-the-mayankjha = buildVimPlugin {
+    pname = "Fknotes-nvim-the-mayankjha";
     version = "2025-10-16";
     src = fetchurl {
-      url = "https://github.com/flashcodes-themayankjha/Fknotes.nvim/archive/83c1b79df216461f89bbf2d274b12116a83b6a3c.tar.gz";
+      url = "https://github.com/the-mayankjha/Fknotes.nvim/archive/83c1b79df216461f89bbf2d274b12116a83b6a3c.tar.gz";
       sha256 = "1d4nc44rfnvgbx0ff2cfd7r02g3jk5ca72p76794whiv6b4kwd62";
     };
     meta = with lib; {
@@ -7319,10 +7319,10 @@
   */
   freeze-code-nvim-AlejandroSuero = buildVimPlugin {
     pname = "freeze-code-nvim-AlejandroSuero";
-    version = "2025-03-15";
+    version = "2026-08-30";
     src = fetchurl {
-      url = "https://github.com/AlejandroSuero/freeze-code.nvim/archive/a3896e0d062079e18b7ebf08c857f0a5a2854b8a.tar.gz";
-      sha256 = "144is9fi104675hzw5sk41qx9jwyqbab6zwkbncqhain5d8ah9fb";
+      url = "https://github.com/AlejandroSuero/freeze-code.nvim/archive/1b05ff92471096570920b30d34afadd7037b0d5b.tar.gz";
+      sha256 = "08f7lm1c1qbrpp4c6cmwzp9zh12phy2jj43bx9nwbz0i3giw72iq";
     };
     meta = with lib; {
       description = "Take a code screenshot using freeze by https://charm.sh/";
@@ -7536,13 +7536,13 @@
   };
 
   /*
-  Generated from: github/thebigcicca/gardenal/gardenal
+  Generated from: github/bgcicca/gardenal/gardenal
   */
-  gardenal-thebigcicca = buildVimPlugin {
-    pname = "gardenal-thebigcicca";
+  gardenal-bgcicca = buildVimPlugin {
+    pname = "gardenal-bgcicca";
     version = "2024-10-31";
     src = fetchurl {
-      url = "https://github.com/thebigcicca/gardenal/archive/d8bc3d5aa51b559f745c222f4ab082f468df2c0c.tar.gz";
+      url = "https://github.com/bgcicca/gardenal/archive/d8bc3d5aa51b559f745c222f4ab082f468df2c0c.tar.gz";
       sha256 = "1hjgbw7rbxvn8wnzn0j3x2k17nnyz530p94brs2wbh1n5k3bpi5w";
     };
     meta = with lib; {
@@ -7553,13 +7553,13 @@
   };
 
   /*
-  Generated from: github/bgcicca/gardenal/gardenal
+  Generated from: github/thebigcicca/gardenal/gardenal
   */
-  gardenal-bgcicca = buildVimPlugin {
-    pname = "gardenal-bgcicca";
+  gardenal-thebigcicca = buildVimPlugin {
+    pname = "gardenal-thebigcicca";
     version = "2024-10-31";
     src = fetchurl {
-      url = "https://github.com/bgcicca/gardenal/archive/d8bc3d5aa51b559f745c222f4ab082f468df2c0c.tar.gz";
+      url = "https://github.com/thebigcicca/gardenal/archive/d8bc3d5aa51b559f745c222f4ab082f468df2c0c.tar.gz";
       sha256 = "1hjgbw7rbxvn8wnzn0j3x2k17nnyz530p94brs2wbh1n5k3bpi5w";
     };
     meta = with lib; {
@@ -7689,23 +7689,6 @@
   };
 
   /*
-  Generated from: github/topaxi/gh-actions.nvim/gh-actions-nvim
-  */
-  gh-actions-nvim-topaxi = buildVimPlugin {
-    pname = "gh-actions-nvim-topaxi";
-    version = "2026-06-24";
-    src = fetchurl {
-      url = "https://github.com/topaxi/gh-actions.nvim/archive/a20d84a1476b3d25990e81f9e27d2d4182d3ddab.tar.gz";
-      sha256 = "1pbxab16cfad577j94pal00xd5bq28n5f4aa1y6mwj5bc88sdbq3";
-    };
-    meta = with lib; {
-      description = "See status of ci/cd pipeline runs directly in neovim. Currently supports GitHub Actions and GitLab CI.";
-      homepage = "https://github.com/topaxi/pipeline.nvim";
-      license = with licenses; [];
-    };
-  };
-
-  /*
   Generated from: github/Hdoc1509/gh-actions.nvim/gh-actions-nvim
   */
   gh-actions-nvim-Hdoc1509 = buildVimPlugin {
@@ -7718,6 +7701,23 @@
     meta = with lib; {
       description = "Plugin that improves support for Github Actions files in Neovim.";
       homepage = "https://github.com/Hdoc1509/gh-actions.nvim";
+      license = with licenses; [];
+    };
+  };
+
+  /*
+  Generated from: github/topaxi/gh-actions.nvim/gh-actions-nvim
+  */
+  gh-actions-nvim-topaxi = buildVimPlugin {
+    pname = "gh-actions-nvim-topaxi";
+    version = "2026-06-24";
+    src = fetchurl {
+      url = "https://github.com/topaxi/gh-actions.nvim/archive/a20d84a1476b3d25990e81f9e27d2d4182d3ddab.tar.gz";
+      sha256 = "1pbxab16cfad577j94pal00xd5bq28n5f4aa1y6mwj5bc88sdbq3";
+    };
+    meta = with lib; {
+      description = "See status of ci/cd pipeline runs directly in neovim. Currently supports GitHub Actions and GitLab CI.";
+      homepage = "https://github.com/topaxi/pipeline.nvim";
       license = with licenses; [];
     };
   };
@@ -7999,10 +7999,10 @@
   */
   gitlab-nvim-harrisoncramer = buildVimPlugin {
     pname = "gitlab-nvim-harrisoncramer";
-    version = "2026-08-18";
+    version = "2026-08-31";
     src = fetchurl {
-      url = "https://github.com/harrisoncramer/gitlab.nvim/archive/1732720cc684980276030f8c3d91eb806ca5d851.tar.gz";
-      sha256 = "0byhcwjkc4449i8gniv923dfvrbzdcavk2krn52fhq74ipjvn70z";
+      url = "https://github.com/harrisoncramer/gitlab.nvim/archive/f05aee37c6700f6b0e7ffc406f29576421b1ce10.tar.gz";
+      sha256 = "1hfp4bxllwwrhrwh515xs3fha7hwnani1v5rxsvxalk8js7p80db";
     };
     meta = with lib; {
       description = "Manage Gitlab resources in Neovim";
@@ -8135,10 +8135,10 @@
   */
   glance-nvim-DNLHC = buildVimPlugin {
     pname = "glance-nvim-DNLHC";
-    version = "2025-06-16";
+    version = "2026-09-03";
     src = fetchurl {
-      url = "https://github.com/DNLHC/glance.nvim/archive/bf86d8b79dce808e65fdb6e9269d0b4ed6d2eefc.tar.gz";
-      sha256 = "0awbq4qm798ffwsfra3jv9jasy7r6vxmf00gw5qbw4j0avix73n8";
+      url = "https://github.com/DNLHC/glance.nvim/archive/5a8eab1c1c48bfa19a33b556328a3c553138366e.tar.gz";
+      sha256 = "0lnn64gy1jpxi0vsv9f8lid0zvvrzbj78zglicyjjcq65qd0bwjb";
     };
     meta = with lib; {
       description = "Peek preview window for LSP locations in Neovim";
@@ -8866,10 +8866,10 @@
   */
   haskell-tools-nvim-MrcJkb = buildVimPlugin {
     pname = "haskell-tools-nvim-MrcJkb";
-    version = "2026-08-30";
+    version = "2026-09-03";
     src = fetchurl {
-      url = "https://github.com/MrcJkb/haskell-tools.nvim/archive/dc770234ca306e69da1c473a5e2a09d88da1ab05.tar.gz";
-      sha256 = "1ffib7x07w443jpxlfq68fy6n7bq7grsnzgzkq45myipa4bp2ddl";
+      url = "https://github.com/MrcJkb/haskell-tools.nvim/archive/de819999db6ef74ccf93d26926a31b55bf947192.tar.gz";
+      sha256 = "09kbaas98b152vfh6np7xyz6hx3rr1n5dws0r77q0si1j8lffh99";
     };
     meta = with lib; {
       description = " 🦥 Supercharge your Haskell experience in neovim!";
@@ -9614,10 +9614,10 @@
   */
   img-clip-nvim-HakonHarnes = buildVimPlugin {
     pname = "img-clip-nvim-HakonHarnes";
-    version = "2025-12-19";
+    version = "2026-09-02";
     src = fetchurl {
-      url = "https://github.com/HakonHarnes/img-clip.nvim/archive/b6ddfb97b5600d99afe3452d707444afda658aca.tar.gz";
-      sha256 = "0b4mhmh5ig36zwfq5bl78rfzl21snhl8dpk5khnkykcrd75fsagg";
+      url = "https://github.com/HakonHarnes/img-clip.nvim/archive/99848daf801789dbebe2192b475eb887d375002c.tar.gz";
+      sha256 = "0zsdc6xbnyi5pwbakq7pmf3yf48v2zx1z8k673j1i25993y1f4n9";
     };
     meta = with lib; {
       description = "Embed images into any markup language, like LaTeX, Markdown or Typst";
@@ -9767,10 +9767,10 @@
   */
   indent-blankline-nvim-lukas-reineke = buildVimPlugin {
     pname = "indent-blankline-nvim-lukas-reineke";
-    version = "2026-02-17";
+    version = "2026-09-03";
     src = fetchurl {
-      url = "https://github.com/lukas-reineke/indent-blankline.nvim/archive/d28a3f70721c79e3c5f6693057ae929f3d9c0a03.tar.gz";
-      sha256 = "1hx78mlb332bbjgw9czvd6rk55vpb2lb5d0g6wcbsrlyyrk4xl5s";
+      url = "https://github.com/lukas-reineke/indent-blankline.nvim/archive/3b1ee1854c1067c34cad2423eb78e280d4069e01.tar.gz";
+      sha256 = "1s3wfb1rir4ymwx6jwsjmzp1v7p78k8y9cbn2b6pdkzb7nic14hn";
     };
     meta = with lib; {
       description = "Indent guides  for Neovim";
@@ -10158,10 +10158,10 @@
   */
   jira-nvim-letieu = buildVimPlugin {
     pname = "jira-nvim-letieu";
-    version = "2026-07-21";
+    version = "2026-08-31";
     src = fetchurl {
-      url = "https://github.com/letieu/jira.nvim/archive/49c8e5c98cbf2144157cb248fd36cc5ed5631b27.tar.gz";
-      sha256 = "06b4fzpsqly0x9wqyd5a81rclrcrih2797fw1gkacwibbmphf49i";
+      url = "https://github.com/letieu/jira.nvim/archive/a72783d53a1bc3e496ebc4ea2d8ff318fe9966f9.tar.gz";
+      sha256 = "1bxpkl5izmy122l1av5ng2rkl7jvyn8kq72za6b0cmdil4i059ca";
     };
     meta = with lib; {
       description = "I got tired of opening my browser for Jira";
@@ -10324,13 +10324,13 @@
   };
 
   /*
-  Generated from: github/nxuv/just.nvim/just-nvim
+  Generated from: github/al1-ce/just.nvim/just-nvim
   */
-  just-nvim-nxuv = buildVimPlugin {
-    pname = "just-nvim-nxuv";
+  just-nvim-al1-ce = buildVimPlugin {
+    pname = "just-nvim-al1-ce";
     version = "2026-02-14";
     src = fetchurl {
-      url = "https://github.com/nxuv/just.nvim/archive/587cc281734c85c8765e475fb12b328d335b442b.tar.gz";
+      url = "https://github.com/al1-ce/just.nvim/archive/587cc281734c85c8765e475fb12b328d335b442b.tar.gz";
       sha256 = "0qxwlf15n1pm22xyfa5jdfh6cmh8v8py5idjgv3mq37pymn2dlp6";
     };
     meta = with lib; {
@@ -10341,13 +10341,13 @@
   };
 
   /*
-  Generated from: github/al1-ce/just.nvim/just-nvim
+  Generated from: github/nxuv/just.nvim/just-nvim
   */
-  just-nvim-al1-ce = buildVimPlugin {
-    pname = "just-nvim-al1-ce";
+  just-nvim-nxuv = buildVimPlugin {
+    pname = "just-nvim-nxuv";
     version = "2026-02-14";
     src = fetchurl {
-      url = "https://github.com/al1-ce/just.nvim/archive/587cc281734c85c8765e475fb12b328d335b442b.tar.gz";
+      url = "https://github.com/nxuv/just.nvim/archive/587cc281734c85c8765e475fb12b328d335b442b.tar.gz";
       sha256 = "0qxwlf15n1pm22xyfa5jdfh6cmh8v8py5idjgv3mq37pymn2dlp6";
     };
     meta = with lib; {
@@ -10681,13 +10681,13 @@
   };
 
   /*
-  Generated from: github/yonatanperel/lake-dweller.nvim/lake-dweller-nvim
+  Generated from: github/yonatan-perel/lake-dweller.nvim/lake-dweller-nvim
   */
-  lake-dweller-nvim-yonatanperel = buildVimPlugin {
-    pname = "lake-dweller-nvim-yonatanperel";
+  lake-dweller-nvim-yonatan-perel = buildVimPlugin {
+    pname = "lake-dweller-nvim-yonatan-perel";
     version = "2026-05-18";
     src = fetchurl {
-      url = "https://github.com/yonatanperel/lake-dweller.nvim/archive/67e0048ca1a27d62348b0a9e593223bfab63fac8.tar.gz";
+      url = "https://github.com/yonatan-perel/lake-dweller.nvim/archive/67e0048ca1a27d62348b0a9e593223bfab63fac8.tar.gz";
       sha256 = "1xcvi8x0c7scsppijbpjl31pn7x1y7jpvbasw0biwii8ca2vmc19";
     };
     meta = with lib; {
@@ -10698,13 +10698,13 @@
   };
 
   /*
-  Generated from: github/yonatan-perel/lake-dweller.nvim/lake-dweller-nvim
+  Generated from: github/yonatanperel/lake-dweller.nvim/lake-dweller-nvim
   */
-  lake-dweller-nvim-yonatan-perel = buildVimPlugin {
-    pname = "lake-dweller-nvim-yonatan-perel";
+  lake-dweller-nvim-yonatanperel = buildVimPlugin {
+    pname = "lake-dweller-nvim-yonatanperel";
     version = "2026-05-18";
     src = fetchurl {
-      url = "https://github.com/yonatan-perel/lake-dweller.nvim/archive/67e0048ca1a27d62348b0a9e593223bfab63fac8.tar.gz";
+      url = "https://github.com/yonatanperel/lake-dweller.nvim/archive/67e0048ca1a27d62348b0a9e593223bfab63fac8.tar.gz";
       sha256 = "1xcvi8x0c7scsppijbpjl31pn7x1y7jpvbasw0biwii8ca2vmc19";
     };
     meta = with lib; {
@@ -10851,13 +10851,13 @@
   };
 
   /*
-  Generated from: github/LazyDeveloperHelper/LazyDeveloperHelper/LazyDeveloperHelper
+  Generated from: github/Silletr/LazyDeveloperHelper/LazyDeveloperHelper
   */
-  LazyDeveloperHelper-LazyDeveloperHelper = buildVimPlugin {
-    pname = "LazyDeveloperHelper-LazyDeveloperHelper";
+  LazyDeveloperHelper-Silletr = buildVimPlugin {
+    pname = "LazyDeveloperHelper-Silletr";
     version = "2026-07-05";
     src = fetchurl {
-      url = "https://github.com/LazyDeveloperHelper/LazyDeveloperHelper/archive/dc7a9b137eee8b14c337103e1df13a3ed5e828e2.tar.gz";
+      url = "https://github.com/Silletr/LazyDeveloperHelper/archive/dc7a9b137eee8b14c337103e1df13a3ed5e828e2.tar.gz";
       sha256 = "0pc2v9db6wnw5zwhpkm47mphlmz7m5528qgn3bzmszxvgifrpqhw";
     };
     meta = with lib; {
@@ -10868,13 +10868,13 @@
   };
 
   /*
-  Generated from: github/Silletr/LazyDeveloperHelper/LazyDeveloperHelper
+  Generated from: github/LazyDeveloperHelper/LazyDeveloperHelper/LazyDeveloperHelper
   */
-  LazyDeveloperHelper-Silletr = buildVimPlugin {
-    pname = "LazyDeveloperHelper-Silletr";
+  LazyDeveloperHelper-LazyDeveloperHelper = buildVimPlugin {
+    pname = "LazyDeveloperHelper-LazyDeveloperHelper";
     version = "2026-07-05";
     src = fetchurl {
-      url = "https://github.com/Silletr/LazyDeveloperHelper/archive/dc7a9b137eee8b14c337103e1df13a3ed5e828e2.tar.gz";
+      url = "https://github.com/LazyDeveloperHelper/LazyDeveloperHelper/archive/dc7a9b137eee8b14c337103e1df13a3ed5e828e2.tar.gz";
       sha256 = "0pc2v9db6wnw5zwhpkm47mphlmz7m5528qgn3bzmszxvgifrpqhw";
     };
     meta = with lib; {
@@ -10940,10 +10940,10 @@
   */
   lean-nvim-Julian = buildVimPlugin {
     pname = "lean-nvim-Julian";
-    version = "2026-08-10";
+    version = "2026-09-03";
     src = fetchurl {
-      url = "https://github.com/Julian/lean.nvim/archive/3d8027a96ada0fe43bdd01403e1bd4a09d175448.tar.gz";
-      sha256 = "1h21rbjcc8cviiy7ij7fdngmc5zaf9v9l16f7hrx4gmx1ahkfv7q";
+      url = "https://github.com/Julian/lean.nvim/archive/499ceb094d4336c532966ee8a0a5b2c25f1a91ef.tar.gz";
+      sha256 = "08h6my0yfik22yk2vb387gs3srmdbd0jfxb3rlbq6s4rkcpb4a08";
     };
     meta = with lib; {
       description = "Neovim support for the Lean theorem prover";
@@ -11212,10 +11212,10 @@
   */
   live-share-nvim-azratul = buildVimPlugin {
     pname = "live-share-nvim-azratul";
-    version = "2026-07-31";
+    version = "2026-09-01";
     src = fetchurl {
-      url = "https://github.com/azratul/live-share.nvim/archive/8f763bef5d3d18ba82b843819a8b999bc7e4772b.tar.gz";
-      sha256 = "095pxpy4irl2dxiwl2wnrink4v0y63drpgaxls2gcrc1y6awqlsc";
+      url = "https://github.com/azratul/live-share.nvim/archive/dae9c34025d070984953df73ed449fffa23d9463.tar.gz";
+      sha256 = "0swy8fjxc55y0zzq2b8n4r7mrhqz09m0ikwhm4vf915lfda64rf9";
     };
     meta = with lib; {
       description = "Real-time pair programming and collaborative editing for Neovim, inspired by VS Code Live Share.";
@@ -11280,10 +11280,10 @@
   */
   llm-nvim-julwrites = buildVimPlugin {
     pname = "llm-nvim-julwrites";
-    version = "2026-08-30";
+    version = "2026-09-03";
     src = fetchurl {
-      url = "https://github.com/julwrites/llm-nvim/archive/ff17a9ad2efe4a08a2194565029ff41581b9016a.tar.gz";
-      sha256 = "1rivzp7vr9cm2dvy07j8x0p1pmqscr362kgvmhkdx1c5nipk0b20";
+      url = "https://github.com/julwrites/llm-nvim/archive/46ae992818fdffbaaaceb39b2ed919a399f5ded8.tar.gz";
+      sha256 = "1cr1f1kngdrrgdmb6rbi3c51dk5gpwr3w2117az64hgdg31d4y08";
     };
     meta = with lib; {
       description = "Neovim plugin for llm CLI";
@@ -11705,10 +11705,10 @@
   */
   luarocks-tag-release-nvim-neorocks = buildVimPlugin {
     pname = "luarocks-tag-release-nvim-neorocks";
-    version = "2026-08-30";
+    version = "2026-09-03";
     src = fetchurl {
-      url = "https://github.com/nvim-neorocks/luarocks-tag-release/archive/0890e76224b8941e16bc9ee2a1c400982f9a5e83.tar.gz";
-      sha256 = "0fh64kij9a4p2hxd63h9wxk62yaaybda8azc30rsppjnx95ndgvh";
+      url = "https://github.com/nvim-neorocks/luarocks-tag-release/archive/25a17fa7e3572c641a4d08d9c9bf26459391ff8c.tar.gz";
+      sha256 = "169g9fmwril3rj1p9wgscpvgl19imlj4y48kqr3k76sas76xy5lq";
     };
     meta = with lib; {
       description = "GitHub workflow for automatically generating Luarocks releases from tags and running busted tests";
@@ -11722,10 +11722,10 @@
   */
   luarocks-tag-release-lumen-oss = buildVimPlugin {
     pname = "luarocks-tag-release-lumen-oss";
-    version = "2026-08-30";
+    version = "2026-09-03";
     src = fetchurl {
-      url = "https://github.com/lumen-oss/luarocks-tag-release/archive/0890e76224b8941e16bc9ee2a1c400982f9a5e83.tar.gz";
-      sha256 = "0fh64kij9a4p2hxd63h9wxk62yaaybda8azc30rsppjnx95ndgvh";
+      url = "https://github.com/lumen-oss/luarocks-tag-release/archive/25a17fa7e3572c641a4d08d9c9bf26459391ff8c.tar.gz";
+      sha256 = "169g9fmwril3rj1p9wgscpvgl19imlj4y48kqr3k76sas76xy5lq";
     };
     meta = with lib; {
       description = "GitHub workflow for automatically generating Luarocks releases from tags and running busted tests";
@@ -11943,10 +11943,10 @@
   */
   magenta-nvim-dlants = buildVimPlugin {
     pname = "magenta-nvim-dlants";
-    version = "2026-08-29";
+    version = "2026-09-02";
     src = fetchurl {
-      url = "https://github.com/dlants/magenta.nvim/archive/c3db51908ce37daba8d263e858ba5176c97aeda7.tar.gz";
-      sha256 = "1jada210y69rxaa7w28aqy50zwaiw4kdncbcdcf92x3a9dphs8q0";
+      url = "https://github.com/dlants/magenta.nvim/archive/f4e34b910fdae5622f497bfc1870ca46c41865d8.tar.gz";
+      sha256 = "042cvwamyxz11mfaa3hakwpcw6xqwb2p5p3y0vd21rphmvn9fs5c";
     };
     meta = with lib; {
       description = "A tool-use-focused LLM plugin for neovim.";
@@ -12296,13 +12296,13 @@
   };
 
   /*
-  Generated from: github/mason-org/mason.nvim/mason-nvim
+  Generated from: github/williamboman/mason.nvim/mason-nvim
   */
-  mason-nvim-mason-org = buildVimPlugin {
-    pname = "mason-nvim-mason-org";
+  mason-nvim-williamboman = buildVimPlugin {
+    pname = "mason-nvim-williamboman";
     version = "2026-06-11";
     src = fetchurl {
-      url = "https://github.com/mason-org/mason.nvim/archive/2a6940af80375532e5e9e7c1f2fc6319a1b7a69d.tar.gz";
+      url = "https://github.com/williamboman/mason.nvim/archive/2a6940af80375532e5e9e7c1f2fc6319a1b7a69d.tar.gz";
       sha256 = "0r6pi4sqnrrz048rj2x9kdq0kgc43niwkx07s1gcibkvnz4s80zr";
     };
     meta = with lib; {
@@ -12313,13 +12313,13 @@
   };
 
   /*
-  Generated from: github/williamboman/mason.nvim/mason-nvim
+  Generated from: github/mason-org/mason.nvim/mason-nvim
   */
-  mason-nvim-williamboman = buildVimPlugin {
-    pname = "mason-nvim-williamboman";
+  mason-nvim-mason-org = buildVimPlugin {
+    pname = "mason-nvim-mason-org";
     version = "2026-06-11";
     src = fetchurl {
-      url = "https://github.com/williamboman/mason.nvim/archive/2a6940af80375532e5e9e7c1f2fc6319a1b7a69d.tar.gz";
+      url = "https://github.com/mason-org/mason.nvim/archive/2a6940af80375532e5e9e7c1f2fc6319a1b7a69d.tar.gz";
       sha256 = "0r6pi4sqnrrz048rj2x9kdq0kgc43niwkx07s1gcibkvnz4s80zr";
     };
     meta = with lib; {
@@ -12449,13 +12449,13 @@
   };
 
   /*
-  Generated from: github/ymich9963/mdnotes.nvim/mdnotes-nvim
+  Generated from: github/ymic9963/mdnotes.nvim/mdnotes-nvim
   */
-  mdnotes-nvim-ymich9963 = buildVimPlugin {
-    pname = "mdnotes-nvim-ymich9963";
+  mdnotes-nvim-ymic9963 = buildVimPlugin {
+    pname = "mdnotes-nvim-ymic9963";
     version = "2026-08-24";
     src = fetchurl {
-      url = "https://github.com/ymich9963/mdnotes.nvim/archive/127897b07a0c7224dcb92741949912268c7ad98f.tar.gz";
+      url = "https://github.com/ymic9963/mdnotes.nvim/archive/127897b07a0c7224dcb92741949912268c7ad98f.tar.gz";
       sha256 = "03qmjk9i3inmd2xnjsdhbx5wy7zkcb72w9fgkwgkq2lbgkbwgkkm";
     };
     meta = with lib; {
@@ -12466,13 +12466,13 @@
   };
 
   /*
-  Generated from: github/ymic9963/mdnotes.nvim/mdnotes-nvim
+  Generated from: github/ymich9963/mdnotes.nvim/mdnotes-nvim
   */
-  mdnotes-nvim-ymic9963 = buildVimPlugin {
-    pname = "mdnotes-nvim-ymic9963";
+  mdnotes-nvim-ymich9963 = buildVimPlugin {
+    pname = "mdnotes-nvim-ymich9963";
     version = "2026-08-24";
     src = fetchurl {
-      url = "https://github.com/ymic9963/mdnotes.nvim/archive/127897b07a0c7224dcb92741949912268c7ad98f.tar.gz";
+      url = "https://github.com/ymich9963/mdnotes.nvim/archive/127897b07a0c7224dcb92741949912268c7ad98f.tar.gz";
       sha256 = "03qmjk9i3inmd2xnjsdhbx5wy7zkcb72w9fgkwgkq2lbgkbwgkkm";
     };
     meta = with lib; {
@@ -12691,10 +12691,10 @@
   */
   mini-nvim-echasnovski = buildVimPlugin {
     pname = "mini-nvim-echasnovski";
-    version = "2026-08-30";
+    version = "2026-09-01";
     src = fetchurl {
-      url = "https://github.com/echasnovski/mini.nvim/archive/a311ed247d527db9592bb434356badc705363746.tar.gz";
-      sha256 = "18w3pshjpqa6b6sxprfj9zhyfvakqknp9m57w0m6f6n49ygqkgyi";
+      url = "https://github.com/echasnovski/mini.nvim/archive/9d01f392b33fb2ba36fbc87fc0bf4453e63ffb0a.tar.gz";
+      sha256 = "0ibwnl66cishgicy08skg8xd4qlldgb5am912byy3fcmzg6i0xqb";
     };
     meta = with lib; {
       description = "Library of 45+ independent Lua modules improving Neovim experience with minimal effort";
@@ -12708,10 +12708,10 @@
   */
   mini-nvim-nvim-mini = buildVimPlugin {
     pname = "mini-nvim-nvim-mini";
-    version = "2026-08-30";
+    version = "2026-09-01";
     src = fetchurl {
-      url = "https://github.com/nvim-mini/mini.nvim/archive/a311ed247d527db9592bb434356badc705363746.tar.gz";
-      sha256 = "18w3pshjpqa6b6sxprfj9zhyfvakqknp9m57w0m6f6n49ygqkgyi";
+      url = "https://github.com/nvim-mini/mini.nvim/archive/9d01f392b33fb2ba36fbc87fc0bf4453e63ffb0a.tar.gz";
+      sha256 = "0ibwnl66cishgicy08skg8xd4qlldgb5am912byy3fcmzg6i0xqb";
     };
     meta = with lib; {
       description = "Library of 45+ independent Lua modules improving Neovim experience with minimal effort";
@@ -13456,10 +13456,10 @@
   */
   neo-tree-nvim-nvim-neo-tree = buildVimPlugin {
     pname = "neo-tree-nvim-nvim-neo-tree";
-    version = "2026-08-26";
+    version = "2026-09-01";
     src = fetchurl {
-      url = "https://github.com/nvim-neo-tree/neo-tree.nvim/archive/3352e998cb8343a4b8d82eca50c74aa17bc61f5e.tar.gz";
-      sha256 = "0iqaxvc7aqv3sxd93n4zprcjxkgmy70780qwgk1r9larjp2sfjkg";
+      url = "https://github.com/nvim-neo-tree/neo-tree.nvim/archive/f3f3bf73414e400cf9fc13fda50f00404a8f8ab1.tar.gz";
+      sha256 = "1gfcmfkf0x14jvsy2xcnvkr2bwmwyzxyrbh98x0y46mlfcdhp4jc";
     };
     meta = with lib; {
       description = "Neovim plugin to manage the file system and other tree like structures.";
@@ -13507,10 +13507,10 @@
   */
   neoconf-nvim-folke = buildVimPlugin {
     pname = "neoconf-nvim-folke";
-    version = "2026-08-30";
+    version = "2026-09-03";
     src = fetchurl {
-      url = "https://github.com/folke/neoconf.nvim/archive/65bde38ca9e19f1886e7a56f778c74f5b055ce7c.tar.gz";
-      sha256 = "0lksji0l8lg3sxizhy9b4gxnm0zg3vyprzffhnihylsawq5hizhd";
+      url = "https://github.com/folke/neoconf.nvim/archive/931000cfab0120191ee914afbbc3f2b02f3533de.tar.gz";
+      sha256 = "0gr5zig5n70222qr1pz918gsjz5b82fc8jigmmqn48p7xjvcrk0x";
     };
     meta = with lib; {
       description = "💼 Neovim plugin to manage global and project-local settings";
@@ -14102,10 +14102,10 @@
   */
   neovim-tasks-Shatur = buildVimPlugin {
     pname = "neovim-tasks-Shatur";
-    version = "2026-07-01";
+    version = "2026-09-03";
     src = fetchurl {
-      url = "https://github.com/Shatur/neovim-tasks/archive/053c566cca93cfbf64c22f5f0b87d834cfc0e78c.tar.gz";
-      sha256 = "12ilhab9ha2pkrynah8vbk6zpyvcl6dcidfrf5m6y8cjs1sjdbfv";
+      url = "https://github.com/Shatur/neovim-tasks/archive/81a87ab8daa061442e0b827ee8ce2a7a22bc65e8.tar.gz";
+      sha256 = "0dqbv34j9x34mfjfb15x860pxwcy74p11r5fd474wmy6445f5dy5";
     };
     meta = with lib; {
       description = "A statefull task manager focused on integration with build systems.";
@@ -14442,10 +14442,10 @@
   */
   nix-develop-nvim-figsoda = buildVimPlugin {
     pname = "nix-develop-nvim-figsoda";
-    version = "2026-01-29";
+    version = "2026-09-01";
     src = fetchurl {
-      url = "https://github.com/figsoda/nix-develop.nvim/archive/bfba63d6c129d8b5073fe9eb965c9acee04becb0.tar.gz";
-      sha256 = "1kafs41m64j8cg12mzlzcg6nvz2q45f0mk9w43j05vqs0nah5w7v";
+      url = "https://github.com/figsoda/nix-develop.nvim/archive/33f0a63ba878febcf1b078f9a4d314c0f952809a.tar.gz";
+      sha256 = "05jn0d6dr245id53wimvg578k98razvp5fb69n7x2vhwjs2l9k0b";
     };
     meta = with lib; {
       description = "Run `nix develop` without restarting neovim";
@@ -15016,13 +15016,13 @@
   };
 
   /*
-  Generated from: github/tveskag/nvim-blame-line/nvim-blame-line
+  Generated from: github/asgerviggo/nvim-blame-line/nvim-blame-line
   */
-  nvim-blame-line-tveskag = buildVimPlugin {
-    pname = "nvim-blame-line-tveskag";
+  nvim-blame-line-asgerviggo = buildVimPlugin {
+    pname = "nvim-blame-line-asgerviggo";
     version = "2026-03-18";
     src = fetchurl {
-      url = "https://github.com/tveskag/nvim-blame-line/archive/3557accc98e57a2b2139cc597d9611dd47e00eb1.tar.gz";
+      url = "https://github.com/asgerviggo/nvim-blame-line/archive/3557accc98e57a2b2139cc597d9611dd47e00eb1.tar.gz";
       sha256 = "0z7yxzrysj9n6pw4l6cj05f7hwjklyd4lg2aq1wskmih6rc5i95r";
     };
     meta = with lib; {
@@ -15033,13 +15033,13 @@
   };
 
   /*
-  Generated from: github/asgerviggo/nvim-blame-line/nvim-blame-line
+  Generated from: github/tveskag/nvim-blame-line/nvim-blame-line
   */
-  nvim-blame-line-asgerviggo = buildVimPlugin {
-    pname = "nvim-blame-line-asgerviggo";
+  nvim-blame-line-tveskag = buildVimPlugin {
+    pname = "nvim-blame-line-tveskag";
     version = "2026-03-18";
     src = fetchurl {
-      url = "https://github.com/asgerviggo/nvim-blame-line/archive/3557accc98e57a2b2139cc597d9611dd47e00eb1.tar.gz";
+      url = "https://github.com/tveskag/nvim-blame-line/archive/3557accc98e57a2b2139cc597d9611dd47e00eb1.tar.gz";
       sha256 = "0z7yxzrysj9n6pw4l6cj05f7hwjklyd4lg2aq1wskmih6rc5i95r";
     };
     meta = with lib; {
@@ -15394,10 +15394,10 @@
   */
   nvim-dap-mfussenegger = buildVimPlugin {
     pname = "nvim-dap-mfussenegger";
-    version = "2026-06-19";
+    version = "2026-09-02";
     src = fetchurl {
-      url = "https://github.com/mfussenegger/nvim-dap/archive/9e848e09a697ee95302a3ef2dd43fd6eb709e570.tar.gz";
-      sha256 = "10cyrdzgbcm1vx1myzl89q5y8bmsr2c4hh70fa12bl76qpz38n34";
+      url = "https://github.com/mfussenegger/nvim-dap/archive/c9a0738e45f1bd41d792a126941348dce661cf9b.tar.gz";
+      sha256 = "0na60c8lxz8fpk6j2mmvd1cfd884hv2n737df02pwmybakwqf08w";
     };
     meta = with lib; {
       description = "Debug Adapter Protocol client implementation for Neovim";
@@ -15972,10 +15972,10 @@
   */
   nvim-highlite-Iron-E = buildVimPlugin {
     pname = "nvim-highlite-Iron-E";
-    version = "2026-08-25";
+    version = "2026-09-03";
     src = fetchurl {
-      url = "https://github.com/Iron-E/nvim-highlite/archive/fcbe9e854fd253ab1c9d6dafe722b361384a158e.tar.gz";
-      sha256 = "1wg7b2jaq4hzh3sl0drx858zihipws9l4mgb1acyc28lpbpy7vrz";
+      url = "https://github.com/Iron-E/nvim-highlite/archive/6f53949762821676ae05fa5d12f7e952a6d381fb.tar.gz";
+      sha256 = "1g7mc9nxm263f3gwixsr1qb28l0rv9q6ip62xqf4vhj0na95kqs9";
     };
     meta = with lib; {
       description = "A colorscheme generator that is \"lite\" on logic for the developer.";
@@ -16057,10 +16057,10 @@
   */
   nvim-httpyac-abidibo = buildVimPlugin {
     pname = "nvim-httpyac-abidibo";
-    version = "2026-04-18";
+    version = "2026-08-31";
     src = fetchurl {
-      url = "https://github.com/abidibo/nvim-httpyac/archive/0a7c1b70e39387b9a9c1d27e04f857b635123788.tar.gz";
-      sha256 = "00v3l2272fmj25ngz57i190293d1rzgh9qiq9i14fdayl7rpsm9k";
+      url = "https://github.com/abidibo/nvim-httpyac/archive/8f17f6f1000cca95fa2486ce3bbaf53aa63a2789.tar.gz";
+      sha256 = "0s1sl2yq1vi8s3nsf44lh35jf7a1yg775hg855miw1wgzib7w2mn";
     };
     meta = with lib; {
       description = "A simple plugin which integrates HttpYac in Neovim";
@@ -16397,10 +16397,10 @@
   */
   nvim-lspconfig-neovim = buildVimPlugin {
     pname = "nvim-lspconfig-neovim";
-    version = "2026-08-28";
+    version = "2026-09-03";
     src = fetchurl {
-      url = "https://github.com/neovim/nvim-lspconfig/archive/684cb45c2faa24ce463b4fe9aaf011bfe1e0fb26.tar.gz";
-      sha256 = "16l4f68l1bp2h2jh2xlykrgxn3mn7mdmpz73nn5z74bw4qnrmpx2";
+      url = "https://github.com/neovim/nvim-lspconfig/archive/85e732c62ac59ab7c12df71ddd020baa87948390.tar.gz";
+      sha256 = "1fi21hqw640kdfixgs77r1rzjzwcm3d0nyv7d0d7gk06lanzvwna";
     };
     meta = with lib; {
       description = "Quickstart configs for Nvim LSP";
@@ -16788,10 +16788,10 @@
   */
   nvim-navic-SmiteshP = buildVimPlugin {
     pname = "nvim-navic-SmiteshP";
-    version = "2025-12-29";
+    version = "2026-09-02";
     src = fetchurl {
-      url = "https://github.com/SmiteshP/nvim-navic/archive/f5eba192f39b453675d115351808bd51276d9de5.tar.gz";
-      sha256 = "00bybciz4gfg4v2gklgxrchmzpqv3mkaacxh84gfg6m9k2svclvi";
+      url = "https://github.com/SmiteshP/nvim-navic/archive/455808fd0fae06e6d70fadfd61432275db8f34ce.tar.gz";
+      sha256 = "1gs5w4ry775f6ivmx1qp7ygdf1d5pyxllbxffjwgqk7absxx0rj7";
     };
     meta = with lib; {
       description = "Simple winbar/statusline plugin that shows your current code context";
@@ -17655,10 +17655,10 @@
   */
   nvim-treesitter-nvim-treesitter = buildVimPlugin {
     pname = "nvim-treesitter-nvim-treesitter";
-    version = "2026-08-29";
+    version = "2026-09-01";
     src = fetchurl {
-      url = "https://github.com/nvim-treesitter/nvim-treesitter/archive/857651fce37eba032ebe28f3a206283cdc65c45a.tar.gz";
-      sha256 = "0v6vr82nkvzqhamd74d29gyk68mj3mj7h66bpciivr7qdclfxqsd";
+      url = "https://github.com/nvim-treesitter/nvim-treesitter/archive/427e9222363d07c32d6db6169e4049c28d58d141.tar.gz";
+      sha256 = "1bc1rlh2rkxjkg65xy92flbxgch4f4xr3653c125drdr1h19nkfx";
     };
     meta = with lib; {
       description = "Nvim Treesitter configurations and abstraction layer";
@@ -17706,10 +17706,10 @@
   */
   nvim-treesitter-textobjects-nvim-treesitter = buildVimPlugin {
     pname = "nvim-treesitter-textobjects-nvim-treesitter";
-    version = "2026-07-19";
+    version = "2026-09-03";
     src = fetchurl {
-      url = "https://github.com/nvim-treesitter/nvim-treesitter-textobjects/archive/898ee307df58f854d11cd7edd06472574d48014e.tar.gz";
-      sha256 = "1wry6slj56ml500s9n0ydb3ds7nwfzrd1g6axcig07c525g4lrj4";
+      url = "https://github.com/nvim-treesitter/nvim-treesitter-textobjects/archive/5c7b0263797dfd1bd6202f2b219f3b53a80b2187.tar.gz";
+      sha256 = "1n1hgfj3xljycaz22smsybd9y1wmrsp3r74fs301lv8w1fw0jgkh";
     };
     meta = with lib; {
       description = "";
@@ -17910,10 +17910,10 @@
   */
   nvim-web-devicons-nvim-tree = buildVimPlugin {
     pname = "nvim-web-devicons-nvim-tree";
-    version = "2026-07-22";
+    version = "2026-08-30";
     src = fetchurl {
-      url = "https://github.com/nvim-tree/nvim-web-devicons/archive/2ae6958df7ced50baac5035cec0c15799eedfbf7.tar.gz";
-      sha256 = "136xvjrwr6nkw1fcb89kwqrr98h6lh9i5nq693ss5mag8wmay8nh";
+      url = "https://github.com/nvim-tree/nvim-web-devicons/archive/5f032a85be210cd1c6ac98861eb3b187ff3bd5eb.tar.gz";
+      sha256 = "0n882wk1rwbmm7m2jw5wgfzrjv1wnss40ymm0dypq8hmhh51xj4w";
     };
     meta = with lib; {
       description = "Provides Nerd Font icons (glyphs) for use by neovim plugins";
@@ -18131,10 +18131,10 @@
   */
   oasis-nvim-uhs-robert = buildVimPlugin {
     pname = "oasis-nvim-uhs-robert";
-    version = "2026-08-28";
+    version = "2026-09-02";
     src = fetchurl {
-      url = "https://github.com/uhs-robert/oasis.nvim/archive/2ae29bd198ab6dff6a49c8b7bef7a89cf8ba8fb3.tar.gz";
-      sha256 = "0x8njnn1pchh6ragdmx9kldhsgyj3l7bc0iy50m4k8lljmar4z14";
+      url = "https://github.com/uhs-robert/oasis.nvim/archive/5709cbe2a10f3e96a7b3176cd5e515fa233c5806.tar.gz";
+      sha256 = "06ry43aq89icag0kfsvfl5lwl1x58gpssdh1yk16d6ig04jqiz20";
     };
     meta = with lib; {
       description = "🌵 A collection of 16 desert-inspired high contrast Neovim colorschemes. Let there be light in the desert and dark in the oasis.";
@@ -18161,13 +18161,13 @@
   };
 
   /*
-  Generated from: github/killitar/obscure.nvim/obscure-nvim
+  Generated from: github/mikovskii/obscure.nvim/obscure-nvim
   */
-  obscure-nvim-killitar = buildVimPlugin {
-    pname = "obscure-nvim-killitar";
+  obscure-nvim-mikovskii = buildVimPlugin {
+    pname = "obscure-nvim-mikovskii";
     version = "2026-01-27";
     src = fetchurl {
-      url = "https://github.com/killitar/obscure.nvim/archive/6c2ee734099de2f95a79a1577cd231f7fe2d38a6.tar.gz";
+      url = "https://github.com/mikovskii/obscure.nvim/archive/6c2ee734099de2f95a79a1577cd231f7fe2d38a6.tar.gz";
       sha256 = "0n1zm2486xrdmx46ig1f2q7ij2dry5rw8r4p97r3ayirg0zibnbr";
     };
     meta = with lib; {
@@ -18178,13 +18178,13 @@
   };
 
   /*
-  Generated from: github/mikovskii/obscure.nvim/obscure-nvim
+  Generated from: github/killitar/obscure.nvim/obscure-nvim
   */
-  obscure-nvim-mikovskii = buildVimPlugin {
-    pname = "obscure-nvim-mikovskii";
+  obscure-nvim-killitar = buildVimPlugin {
+    pname = "obscure-nvim-killitar";
     version = "2026-01-27";
     src = fetchurl {
-      url = "https://github.com/mikovskii/obscure.nvim/archive/6c2ee734099de2f95a79a1577cd231f7fe2d38a6.tar.gz";
+      url = "https://github.com/killitar/obscure.nvim/archive/6c2ee734099de2f95a79a1577cd231f7fe2d38a6.tar.gz";
       sha256 = "0n1zm2486xrdmx46ig1f2q7ij2dry5rw8r4p97r3ayirg0zibnbr";
     };
     meta = with lib; {
@@ -18216,10 +18216,10 @@
   */
   obsidian-nvim-obsidian-nvim = buildVimPlugin {
     pname = "obsidian-nvim-obsidian-nvim";
-    version = "2026-08-29";
+    version = "2026-09-02";
     src = fetchurl {
-      url = "https://github.com/obsidian-nvim/obsidian.nvim/archive/29c248fdf31459472f8131921d19224f96bc7f80.tar.gz";
-      sha256 = "0fwy5qbajbgmzd5hfyn2mldn45lci4fvw9p0ffgn66rczg2xvgcj";
+      url = "https://github.com/obsidian-nvim/obsidian.nvim/archive/50be6d70988af31b71cd4d8675ca928e6194c4fb.tar.gz";
+      sha256 = "1sp34k260ahl2k5vpwb7liwn3r29dhxvqwwpap1x3lp1gag1g1ki";
     };
     meta = with lib; {
       description = "Obsidian 🤝 Neovim (actively maintained version)";
@@ -18301,10 +18301,10 @@
   */
   ofirkai-nvim-ofirgall = buildVimPlugin {
     pname = "ofirkai-nvim-ofirgall";
-    version = "2026-08-23";
+    version = "2026-08-31";
     src = fetchurl {
-      url = "https://github.com/ofirgall/ofirkai.nvim/archive/ff76265e976eae5d5a93320b04dd2345806e3995.tar.gz";
-      sha256 = "1zna17x6jq3ww92z7y9pkqln168m62nb8fx4kbanhlbfwqkrcivp";
+      url = "https://github.com/ofirgall/ofirkai.nvim/archive/14c39820440eccb3897f0dcbe4694567676c1549.tar.gz";
+      sha256 = "09gp3k30r7v077rgcbx8glmzdqqqvqmay9p5vvlmfjik1c9bnxvz";
     };
     meta = with lib; {
       description = "Color scheme for neovim, based on SublimeText 4 monokai";
@@ -18777,10 +18777,10 @@
   */
   package-info-nvim-vuki656 = buildVimPlugin {
     pname = "package-info-nvim-vuki656";
-    version = "2026-08-25";
+    version = "2026-09-02";
     src = fetchurl {
-      url = "https://github.com/vuki656/package-info.nvim/archive/e2469495215f576771b4567786b3c5709e98d87a.tar.gz";
-      sha256 = "1fz2712zvgjhab4iypj2bp0kq2gkfwlkcm5ib8b6z0qbrmyb4bhf";
+      url = "https://github.com/vuki656/package-info.nvim/archive/b86cf49efc3855dd94afb33304b278f6f122bf1a.tar.gz";
+      sha256 = "07xvvp8dcd20wfs9vvr5jqkw8lk2y6r5gbr6zzz9hxa0wfs269sb";
     };
     meta = with lib; {
       description = "✍️ All the npm/yarn/pnpm commands I don't want to type";
@@ -19168,10 +19168,10 @@
   */
   persisted-nvim-olimorris = buildVimPlugin {
     pname = "persisted-nvim-olimorris";
-    version = "2026-08-25";
+    version = "2026-08-31";
     src = fetchurl {
-      url = "https://github.com/olimorris/persisted.nvim/archive/f4773357d60c71e99a9fc39ebe858b925105431c.tar.gz";
-      sha256 = "0x3gn503qri8prqbrxlmm1rnv4731lgp83m7wpwfnhkkbsxjw57f";
+      url = "https://github.com/olimorris/persisted.nvim/archive/f276b33befabbe92796605eaeb191e8058da95c9.tar.gz";
+      sha256 = "06860ri69psml08qxivfgqrhswsx7k66v4wphylb1wrc3qwd9447";
     };
     meta = with lib; {
       description = "💾 Simple session management for Neovim with git branching, autoloading and Telescope support";
@@ -19321,10 +19321,10 @@
   */
   pipenv-nvim-DrKJeff16 = buildVimPlugin {
     pname = "pipenv-nvim-DrKJeff16";
-    version = "2026-08-19";
+    version = "2026-08-31";
     src = fetchurl {
-      url = "https://github.com/DrKJeff16/pipenv.nvim/archive/4ecbd5d12d988d1325f9e0c4e4bf7480aea9e43e.tar.gz";
-      sha256 = "044mqz7gmy99lzjaynm60ikvsplz0wmr96d8x04bhpv1amq16mbk";
+      url = "https://github.com/DrKJeff16/pipenv.nvim/archive/75cdbc461a3e017a80db58ae68eee2aded822bca.tar.gz";
+      sha256 = "027j6avhlz2zsglnkjwi8ld1wgc8hb85zl9rhm2g42cyb4q6nqgr";
     };
     meta = with lib; {
       description = "Asynchronous Pipenv management from within Neovim.";
@@ -19746,10 +19746,10 @@
   */
   project-nvim-DrKJeff16 = buildVimPlugin {
     pname = "project-nvim-DrKJeff16";
-    version = "2026-08-30";
+    version = "2026-09-01";
     src = fetchurl {
-      url = "https://github.com/DrKJeff16/project.nvim/archive/02094c1acdd1f049410a0d6bc05c469fc5eb6c4f.tar.gz";
-      sha256 = "12w7np6mpacd65qki6z6lkbc18ryi6c5ink5gbyr3nf6255ca6ia";
+      url = "https://github.com/DrKJeff16/project.nvim/archive/278ac548a5e1d5e76251bf03e1f75a11b452f8ad.tar.gz";
+      sha256 = "1x30wngd274b8xa167ffqgki9pb7fccqg0cf5fr37xcxczba2v2m";
     };
     meta = with lib; {
       description = "Actively maintained fork of ahmedkhalf/project.nvim. Detects and chdirs to the project root, with its own UI, provides lualine component, supports oil.nvim, includes pickers for telescope, snacks, fzf-lua, and picker.nvim.";
@@ -20035,10 +20035,10 @@
   */
   rainbow-delimiters-nvim-HiPhish = buildVimPlugin {
     pname = "rainbow-delimiters-nvim-HiPhish";
-    version = "2026-07-29";
+    version = "2026-09-03";
     src = fetchurl {
-      url = "https://github.com/HiPhish/rainbow-delimiters.nvim/archive/012f1480cd9a5fc99fce7678e0a536421a53fc46.tar.gz";
-      sha256 = "0lwbrr54qfm3nsm4zfbrm2l36ik89rq20yhz48yxyvbhwkfd7qrf";
+      url = "https://github.com/HiPhish/rainbow-delimiters.nvim/archive/0b6df08cdce23c44209e8e8e34fbb7550aed18c3.tar.gz";
+      sha256 = "1axvfkcmlb7wjbclry7k7minhhfyrl0inrm1y36iavhzfi644z55";
     };
     meta = with lib; {
       description = "Rainbow delimiters for Neovim with Tree-sitter";
@@ -20813,23 +20813,6 @@
   };
 
   /*
-  Generated from: github/MarcHamamji/runner.nvim/runner-nvim
-  */
-  runner-nvim-MarcHamamji = buildVimPlugin {
-    pname = "runner-nvim-MarcHamamji";
-    version = "2025-03-04";
-    src = fetchurl {
-      url = "https://github.com/MarcHamamji/runner.nvim/archive/6b9d00e6c3c13d510d59d2f93fe34e93ff785f71.tar.gz";
-      sha256 = "0xhrjp7daj9v27z7hmzwqswqyj4d0rkbfjfsnxd046v55slj2ikc";
-    };
-    meta = with lib; {
-      description = "A customizable Neovim plugin to run code inside the editor";
-      homepage = "https://github.com/MarcHamamji/runner.nvim";
-      license = with licenses; [mit];
-    };
-  };
-
-  /*
   Generated from: github/TheLazyCat00/runner-nvim/runner-nvim
   */
   runner-nvim-TheLazyCat00 = buildVimPlugin {
@@ -20843,6 +20826,23 @@
       description = "Minimal nvim plugin for running cmds";
       homepage = "https://github.com/TheLazyCat00/runner-nvim";
       license = with licenses; [gpl3Only];
+    };
+  };
+
+  /*
+  Generated from: github/MarcHamamji/runner.nvim/runner-nvim
+  */
+  runner-nvim-MarcHamamji = buildVimPlugin {
+    pname = "runner-nvim-MarcHamamji";
+    version = "2025-03-04";
+    src = fetchurl {
+      url = "https://github.com/MarcHamamji/runner.nvim/archive/6b9d00e6c3c13d510d59d2f93fe34e93ff785f71.tar.gz";
+      sha256 = "0xhrjp7daj9v27z7hmzwqswqyj4d0rkbfjfsnxd046v55slj2ikc";
+    };
+    meta = with lib; {
+      description = "A customizable Neovim plugin to run code inside the editor";
+      homepage = "https://github.com/MarcHamamji/runner.nvim";
+      license = with licenses; [mit];
     };
   };
 
@@ -20868,10 +20868,10 @@
   */
   rustaceanvim-mrcjkb = buildVimPlugin {
     pname = "rustaceanvim-mrcjkb";
-    version = "2026-08-30";
+    version = "2026-09-03";
     src = fetchurl {
-      url = "https://github.com/mrcjkb/rustaceanvim/archive/e2798fe326bb3efd2d15b9a652ed3872d358c98d.tar.gz";
-      sha256 = "073lwgrl8jpgcsfapx255r5drj500z1k25dfpxd2sp72cbzfsdm8";
+      url = "https://github.com/mrcjkb/rustaceanvim/archive/8fa1a98f514041132ab40088be53c130eb8d14c9.tar.gz";
+      sha256 = "01k54djs8r7agw7gzmzjl45imm8kaqp82izm3gihjzk79vrl54ps";
     };
     meta = with lib; {
       description = "🦀 Supercharge your Rust experience in Neovim! A heavily modified fork of rust-tools.nvim";
@@ -20953,10 +20953,10 @@
   */
   SchemaStore-nvim-b0o = buildVimPlugin {
     pname = "SchemaStore-nvim-b0o";
-    version = "2026-08-30";
+    version = "2026-09-02";
     src = fetchurl {
-      url = "https://github.com/b0o/SchemaStore.nvim/archive/f9031ec5f5b30d99ac43013685236bf65ff801a7.tar.gz";
-      sha256 = "07cwfr68jlpfwz6idd6vlv7fn6s9d1fl2xs51x6girqhvdiq4h4i";
+      url = "https://github.com/b0o/SchemaStore.nvim/archive/6a1a2daf151dd742d5ff2f64eb2cc049d7e5ab4a.tar.gz";
+      sha256 = "0f2akpr95zf9iy20drimrgk9px7y4szbjlxfdmfl8n7mwqsax7f8";
     };
     meta = with lib; {
       description = "🛍 JSON schemas for Neovim";
@@ -21361,10 +21361,10 @@
   */
   shebang-nvim-DrKJeff16 = buildVimPlugin {
     pname = "shebang-nvim-DrKJeff16";
-    version = "2026-08-19";
+    version = "2026-08-31";
     src = fetchurl {
-      url = "https://github.com/DrKJeff16/shebang.nvim/archive/1c64ce091a1967c15febb5f9791e50af3e6958df.tar.gz";
-      sha256 = "05r1nk834ay6lryny4p80pc2d0nns80c6mpnf3nn2mkrpxb416vz";
+      url = "https://github.com/DrKJeff16/shebang.nvim/archive/2f3441020f33de7cb93706e4ac1350abdfeba2e2.tar.gz";
+      sha256 = "03bg09s6mp1766fgcszqhj62q612y6f3jqcbvxfg64irddwp0h04";
     };
     meta = with lib; {
       description = "Add/modify your shebangs on top of your script files, with live reloading.";
@@ -21412,10 +21412,10 @@
   */
   sibling-jump-nvim-subev = buildVimPlugin {
     pname = "sibling-jump-nvim-subev";
-    version = "2026-02-03";
+    version = "2026-09-02";
     src = fetchurl {
-      url = "https://github.com/subev/sibling-jump.nvim/archive/43bd54b96a458baa21587f69dfb9eb15334f2739.tar.gz";
-      sha256 = "0i2cq5pciyjbwhhyy038pz6q9h975nvw8d0diwk6imjv9ndk0y73";
+      url = "https://github.com/subev/sibling-jump.nvim/archive/5a8f8d4a1d7d792e83c97f4da9ce7bade578004f.tar.gz";
+      sha256 = "0azsxqzqkzbpgizmr9hi39zzzy7acrqhxd1ys70wl1cgvz9xqk3a";
     };
     meta = with lib; {
       description = "Navigate between sibling nodes in your Neovim powered by Tree-sitter";
@@ -21480,10 +21480,10 @@
   */
   silentium-nvim-silentium-theme = buildVimPlugin {
     pname = "silentium-nvim-silentium-theme";
-    version = "2026-08-05";
+    version = "2026-09-03";
     src = fetchurl {
-      url = "https://github.com/silentium-theme/silentium.nvim/archive/622f6f4d2d114840ced2af7f1dfb4dae149cbf5f.tar.gz";
-      sha256 = "1qcx6qidizqc1qy2rdn5c5v1jm9pb93w3gagz9g2yaym6nggmad3";
+      url = "https://github.com/silentium-theme/silentium.nvim/archive/058b178e7bc793d2083d1f3e248119bf88c1fe3e.tar.gz";
+      sha256 = "0j06nmrbnn5pjcnvn7fzf0480bfq9q3fh4z5j20grv7l12f8xy9b";
     };
     meta = with lib; {
       description = "Pragmatic, logical and monochrome theme for Neovim.";
@@ -21497,10 +21497,10 @@
   */
   silkcircuit-hyperb1iss = buildVimPlugin {
     pname = "silkcircuit-hyperb1iss";
-    version = "2026-08-30";
+    version = "2026-09-02";
     src = fetchurl {
-      url = "https://github.com/hyperb1iss/silkcircuit/archive/91f60a8cfa0ed6d7673cd70f2e3d7d237733a50f.tar.gz";
-      sha256 = "0lmk8fgibc87gnm9vi226jvf2cyqx9wbwycb51mhwxzs8grrqf55";
+      url = "https://github.com/hyperb1iss/silkcircuit/archive/e584d36d8430f15201fcbd4ad757282ec5fbf793.tar.gz";
+      sha256 = "08x43gmz6pa3h2sj3mjwy6fjccwx3q5jydpr2gfan7ys9ljhind0";
     };
     meta = with lib; {
       description = "⚡💜 Electric meets elegant. A vibrant cyberpunk color system for Neovim, VS Code, Chrome, terminals, and 20+ tools.";
@@ -23146,10 +23146,10 @@
   */
   takatime-Rtarun3606k = buildVimPlugin {
     pname = "takatime-Rtarun3606k";
-    version = "2026-08-30";
+    version = "2026-09-03";
     src = fetchurl {
-      url = "https://github.com/Rtarun3606k/takatime/archive/c41ce98dc7b8a28556ae9197176580139c10fc7d.tar.gz";
-      sha256 = "184fdfb69fd5019120wsdi50465pajn8348qc1rf4xy8jg67zwyb";
+      url = "https://github.com/Rtarun3606k/takatime/archive/7f2d574380d77c46303fe841a5d82a6b11fca88c.tar.gz";
+      sha256 = "0nlq3bamxvd4lzqkfb8vz2npn0vb3v8c3znqr1mn830bl93y6xx7";
     };
     meta = with lib; {
       description = "TakaTime is a blazingly fast, privacy-first coding activity tracker and the open-source, self-hosted alternative to WakaTime.  Track your development activity across Neovim, VS Code, JetBrains IDEs, and Antigravity while generating rich analytics, beautiful dashboards, and GitHub profile statistics—all powered by your own MongoDB database.";
@@ -24370,10 +24370,10 @@
   */
   token-ThorstenRhau = buildVimPlugin {
     pname = "token-ThorstenRhau";
-    version = "2026-08-27";
+    version = "2026-09-01";
     src = fetchurl {
-      url = "https://github.com/ThorstenRhau/token/archive/bf483e5a12132f478c5721594ce29a247fefaf68.tar.gz";
-      sha256 = "0hxvvg63vwfi0lpvq7cikwyj3ibgia9sjmgdh53sfgfpwsza4v90";
+      url = "https://github.com/ThorstenRhau/token/archive/69fe9542d8343b6d817fef0f3fe123b0be9d9d9b.tar.gz";
+      sha256 = "1nsylylmv8jam9bhkr5djqn4vwjcl4ipi6d8f2p5sah325wxrn3z";
     };
     meta = with lib; {
       description = "Neovim colorscheme with terminal-wide contrib themes";
@@ -24761,10 +24761,10 @@
   */
   Treewalker-nvim-aaronik = buildVimPlugin {
     pname = "Treewalker-nvim-aaronik";
-    version = "2026-08-24";
+    version = "2026-08-31";
     src = fetchurl {
-      url = "https://github.com/aaronik/Treewalker.nvim/archive/c6c37b912e84d0522fa585ce83da93b0fd53563b.tar.gz";
-      sha256 = "0hi3h4cz2cyvb2pbzma6f5dfdk4wzzsc360jghn5kpc60cq9yl9h";
+      url = "https://github.com/aaronik/Treewalker.nvim/archive/976eb9921c2f26a9a4314b5a0f4842d447a49592.tar.gz";
+      sha256 = "042d1bh8bfwlrd405k3kj8idxs0sf0ai29glcizw3ywpw3d0lagb";
     };
     meta = with lib; {
       description = "A neovim plugin for moving around your code in a syntax tree aware manner";
@@ -25110,6 +25110,23 @@
       description = "Neovim plugin to preview typst document.";
       homepage = "https://github.com/niuiic/typst-preview.nvim";
       license = with licenses; [mit];
+    };
+  };
+
+  /*
+  Generated from: github/al-kot/typst-preview.nvim/typst-preview-nvim
+  */
+  typst-preview-nvim-al-kot = buildVimPlugin {
+    pname = "typst-preview-nvim-al-kot";
+    version = "2025-12-15";
+    src = fetchurl {
+      url = "https://github.com/al-kot/typst-preview.nvim/archive/59028097432682e8f619ed61b24333c6e5f79a97.tar.gz";
+      sha256 = "0di27s0ias5jx9w4z7wv6x8lkfz8vlkdzj8hfawzif3ibbn3mrgh";
+    };
+    meta = with lib; {
+      description = "Live typst preview directly in neovim";
+      homepage = "https://github.com/al-kot/typst-preview.nvim";
+      license = with licenses; [gpl3Only];
     };
   };
 
@@ -25985,10 +26002,10 @@
   */
   vim-moonfly-colors-bluz71 = buildVimPlugin {
     pname = "vim-moonfly-colors-bluz71";
-    version = "2026-05-30";
+    version = "2026-09-03";
     src = fetchurl {
-      url = "https://github.com/bluz71/vim-moonfly-colors/archive/261664f92ed51cf0c077555b2d4b2530307eac17.tar.gz";
-      sha256 = "0qlj6bc8g09cmflj2c78vmg603rbz9mb36lz0yw4g0pyliadx02s";
+      url = "https://github.com/bluz71/vim-moonfly-colors/archive/2c883835f5b7b380a0a9e80695c420f7efebdfe4.tar.gz";
+      sha256 = "0cwdi41cr9p83m4xbb5i2wchw06dzlzdz93i7lfr02irmzzlq5li";
     };
     meta = with lib; {
       description = "A dark charcoal theme for modern Neovim & classic Vim";
@@ -26002,10 +26019,10 @@
   */
   vim-nightfly-colors-bluz71 = buildVimPlugin {
     pname = "vim-nightfly-colors-bluz71";
-    version = "2026-05-30";
+    version = "2026-09-03";
     src = fetchurl {
-      url = "https://github.com/bluz71/vim-nightfly-colors/archive/66050453bf40ac7eddc7a84dd15291db85fefc43.tar.gz";
-      sha256 = "07ngjbr70sqahf9w4qsa3f1pjpbzv2ckdpwll8g5dj93iy2l3w54";
+      url = "https://github.com/bluz71/vim-nightfly-colors/archive/2c31d07ce05efa92bcb7f893f9c74a846226c898.tar.gz";
+      sha256 = "06770168076xgh2g4fi1xp6rfnnii7wxhkgx109ic658339vgfbc";
     };
     meta = with lib; {
       description = "A dark midnight theme for modern Neovim & classic Vim";
@@ -26563,10 +26580,10 @@
   */
   vscode-diff-nvim-esmuellert = buildVimPlugin {
     pname = "vscode-diff-nvim-esmuellert";
-    version = "2026-08-30";
+    version = "2026-09-03";
     src = fetchurl {
-      url = "https://github.com/esmuellert/vscode-diff.nvim/archive/0abad4aa022a34fab0deb90dd9379d5de1c9c329.tar.gz";
-      sha256 = "0aghk518ashmh060494rxj31lj31046pfjx32yqsm0j1n8r3cl1k";
+      url = "https://github.com/esmuellert/vscode-diff.nvim/archive/3454290ecbe08cd43adcd4974eb8b6e07582c15f.tar.gz";
+      sha256 = "1gi5nnp64z77373677c8wsmqly2dd6kllszxh85q6qgzhxvwn11v";
     };
     meta = with lib; {
       description = "VSCode-style diff, merge and git history for Neovim. Side-by-side or inline, with character-level highlighting from VSCode's own diff algorithm in C.";
@@ -26580,10 +26597,10 @@
   */
   vscode-nvim-Mofiqul = buildVimPlugin {
     pname = "vscode-nvim-Mofiqul";
-    version = "2025-12-03";
+    version = "2026-09-03";
     src = fetchurl {
-      url = "https://github.com/Mofiqul/vscode.nvim/archive/aa1102a7e15195c9cca22730b09224a7f7745ba8.tar.gz";
-      sha256 = "0hx5iyy70hmgd4s843iswny48dfi55qycwdq94a6r0sc2daynzd1";
+      url = "https://github.com/Mofiqul/vscode.nvim/archive/6439ed89d0e10193f07e92268a321d7c6f6e93ee.tar.gz";
+      sha256 = "15dvjcz9kzjdzl66x7fpw71lixpnnvb39ldy9hjcf63fy5aggv8a";
     };
     meta = with lib; {
       description = "Neovim/Vim color scheme inspired by Dark+ and Light+ theme in Visual Studio Code";
@@ -27035,23 +27052,6 @@
   };
 
   /*
-  Generated from: github/natecraddock/workspaces.nvim/workspaces-nvim
-  */
-  workspaces-nvim-natecraddock = buildVimPlugin {
-    pname = "workspaces-nvim-natecraddock";
-    version = "2024-10-08";
-    src = fetchurl {
-      url = "https://github.com/natecraddock/workspaces.nvim/archive/55a1eb6f5b72e07ee8333898254e113e927180ca.tar.gz";
-      sha256 = "17hrg8rjkpz7piss1wb01q8alf3arw9ym0zlrjbm9mbpys08a6hy";
-    };
-    meta = with lib; {
-      description = "a simple plugin to manage workspace directories in neovim";
-      homepage = "https://github.com/natecraddock/workspaces.nvim";
-      license = with licenses; [mit];
-    };
-  };
-
-  /*
   Generated from: github/TheLazyCat00/workspaces-nvim/workspaces-nvim
   */
   workspaces-nvim-TheLazyCat00 = buildVimPlugin {
@@ -27065,6 +27065,23 @@
       description = "Better buffer manager";
       homepage = "https://github.com/TheLazyCat00/workspaces-nvim";
       license = with licenses; [gpl3Only];
+    };
+  };
+
+  /*
+  Generated from: github/natecraddock/workspaces.nvim/workspaces-nvim
+  */
+  workspaces-nvim-natecraddock = buildVimPlugin {
+    pname = "workspaces-nvim-natecraddock";
+    version = "2024-10-08";
+    src = fetchurl {
+      url = "https://github.com/natecraddock/workspaces.nvim/archive/55a1eb6f5b72e07ee8333898254e113e927180ca.tar.gz";
+      sha256 = "17hrg8rjkpz7piss1wb01q8alf3arw9ym0zlrjbm9mbpys08a6hy";
+    };
+    meta = with lib; {
+      description = "a simple plugin to manage workspace directories in neovim";
+      homepage = "https://github.com/natecraddock/workspaces.nvim";
+      license = with licenses; [mit];
     };
   };
 
@@ -27226,10 +27243,10 @@
   */
   yankbank-nvim-ptdewey = buildVimPlugin {
     pname = "yankbank-nvim-ptdewey";
-    version = "2026-04-19";
+    version = "2026-09-02";
     src = fetchurl {
-      url = "https://github.com/ptdewey/yankbank-nvim/archive/a0706a44103c189f090a6ae1f029117d02b647a6.tar.gz";
-      sha256 = "0x4qnslll9v0s3ahc2y2752g201adkqwxqkai67xa3c7yij9hprc";
+      url = "https://github.com/ptdewey/yankbank-nvim/archive/634cde1c2cd0b278cbff995d97ddb112f00c7fbd.tar.gz";
+      sha256 = "1b1xvzrv57f0gq7hf6pjrn7vns2z3izvp2qb7w05spwajj4xsmfs";
     };
     meta = with lib; {
       description = "Neovim plugin improving access to clipboard history";
@@ -27311,10 +27328,10 @@
   */
   yazi-nvim-mikavilpas = buildVimPlugin {
     pname = "yazi-nvim-mikavilpas";
-    version = "2026-08-29";
+    version = "2026-08-31";
     src = fetchurl {
-      url = "https://github.com/mikavilpas/yazi.nvim/archive/d5f970a6c6b49cfbd7060b9dec100a094f0172dd.tar.gz";
-      sha256 = "1lyig7b2yrpjfpjdvj752jl1hh3jzkqwcpnynpk5vqx1bvm0clax";
+      url = "https://github.com/mikavilpas/yazi.nvim/archive/3f91132889f4b76deae45191db76665bae247176.tar.gz";
+      sha256 = "002x64gwbs4kmgy8ymvwnk68p2dy92czc16y5svgxz0pmbykdnbw";
     };
     meta = with lib; {
       description = "A Neovim Plugin for the yazi terminal file manager";
@@ -27498,10 +27515,10 @@
   */
   zk-nvim-zk-org = buildVimPlugin {
     pname = "zk-nvim-zk-org";
-    version = "2026-08-28";
+    version = "2026-08-31";
     src = fetchurl {
-      url = "https://github.com/zk-org/zk-nvim/archive/a2a2c850e7876415a9961c7c409328ead78f18b3.tar.gz";
-      sha256 = "05miw45zxpjcs3dk4mngf6zrcpls6ss459zn2qf5gywr6qlyb974";
+      url = "https://github.com/zk-org/zk-nvim/archive/38e18a6941627f998a5ddbcf2030d0486c99e3c6.tar.gz";
+      sha256 = "02jr9ibqlya6q6rrv6asvc72l57q4qqkdnglrcf6rvzi25sm3d12";
     };
     meta = with lib; {
       description = "Neovim plugin for zk";
