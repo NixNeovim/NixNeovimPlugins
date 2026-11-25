@@ -5,6 +5,7 @@ import subprocess
 from collections import defaultdict
 
 from .plugin import VimPlugin
+from .mylogging import logger
 
 #  MANIFEST_FILE = "./manifest.txt"
 MANIFEST_YAML = "./manifest.yaml"
@@ -59,6 +60,7 @@ def write_blocklist_yaml_from_spec(specs: list[PluginSpec]):
     #  return sorted(specs)
 
 def write_plugins_nix(plugins: list[VimPlugin]):
+    logger.info("pretest")
     plugins.sort()
 
     header = "{ lib, buildVimPlugin, fetchurl, fetchgit }: {"
@@ -67,6 +69,7 @@ def write_plugins_nix(plugins: list[VimPlugin]):
     with open(PKGS_FILE, "w") as file:
         file.write(header)
         for plugin in plugins:
+            print(f"plugin: {plugin}")
             try:
                 file.write(f"{plugin.to_nix()}\n")
             except Exception as e:
